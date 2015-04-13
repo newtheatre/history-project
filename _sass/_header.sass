@@ -4,13 +4,35 @@
   .wrapper
     @include grid-wrap
     @include grid-row
-  .site-title
-    display: block
-    @include grid-x-col(4)
-  .site-nav
-    display: block
-    text-align: right
-    @include grid-x-col(8)
-    .page-link
-      @include all-but-last(margin-right, 24px)
+.site-title
+  display: block
+  @include grid-x-col(3)
+.site-nav
+  display: block
+  text-align: center
+  @include grid-x-col(6)
+  .page-link
+    @include all-but-last(margin-right, 24px)
+
+.site-search
+  @include grid-x-col(3)
+  text-align: right
+
+.site-search-input
+  padding: 6px
+  background: $color-background
+  border: 1px solid $color-nnt-purple
+  color: $color-text-white
+  width: 100%
+  padding-left: 32px
+
+  background: url('/images/search-18.png') no-repeat
+  background-position: 6px
+
+  @include placeholder
+    color: $color-grey
+
+.site-search-submit
+  display: none
+
 

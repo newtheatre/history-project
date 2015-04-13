@@ -5,7 +5,7 @@ sort: 2008
 title: 2008 - 09
 ---
 
-{% assign shows = site.collections.shows.docs | where:'year', 08_09 %}
+{% assign shows = site.collections.shows.docs | where:"year", "08_09" %}
 
 {% include show_list.html %}
 
