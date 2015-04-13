@@ -1,0 +1,5 @@
+@mixin all-but-last($property, $value)
+  // Set property to value except for the last child where it's zeroed
+  #{$property}: $value
+  &:last-child
+    #{$property}: 0

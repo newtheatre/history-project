@@ -1,0 +1,16 @@
+.site-header
+  color: $color-text-white
+  margin: $baseline*2 0
+  .wrapper
+    @include grid-wrap
+    @include grid-row
+  .site-title
+    display: block
+    @include grid-x-col(4)
+  .site-nav
+    display: block
+    text-align: right
+    @include grid-x-col(8)
+    .page-link
+      @include all-but-last(margin-right, 24px)
+

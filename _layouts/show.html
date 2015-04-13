@@ -1,0 +1,60 @@
+---
+layout: default
+---
+{% assign posters = page.images | where:'type', 'poster' %}
+
+<div class="show">
+
+  <div class="grid-row">
+    <header class="show-header">
+      <h1 class="show-title">{{ page.title }}</h1>
+      <p class="meta">by {{ page.playwright }}</p>
+      <p>{{page.season}} season</p>
+      <p>{{ page.date_start }} - {{ page.date_end }} at {{ page.venue }}</p>
+    </header>
+
+    {% if posters %}
+    <div class="show-poster">
+      <img src="/images/for_shows/{{ posters[0].filename }}" alt="{{ page.title }} poster" class="show-poster" />
+    </div>
+    {% endif %}
+
+    <article class="show-synopsys">
+      <h3>Synopsys</h3>
+      {{ content }}
+    </article>
+  </div>
+
+  <div class="grid-row">
+    <section class="show-media">
+      <h3>Images</h3>
+      {% for image in page.images %}
+      <img src="/images/for_shows/{{ image.filename }}" alt="{{ image.filename }}" class="show-image" />
+      {% endfor %}
+    </section>
+    <section class="show-assets">
+      <h3>Assets</h3>
+      <ul class="show-assets-list">
+        {% for asset in page.assets %}
+        <li><a href="/assets/for_shows/{{ asset.filename }}">{{ asset.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+
+  <div class="grid-row">
+    <section class="show-cast">
+      <h3>Cast</h3>
+      {% assign people = page.cast %}
+      {% include person_list.html %}
+    </section>
+    <section class="show-crew">
+      <h3>Crew</h3>
+      {% assign people = page.crew %}
+      {% include person_list.html %}
+    </section>
+  </div>
+
+</div>
+
+

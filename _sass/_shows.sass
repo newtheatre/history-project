@@ -1,0 +1,22 @@
+.show
+  @include grid-wrap
+  margin-bottom: $baseline * 2
+
+.show-header
+  @include grid-x-col(8)
+
+.show-poster
+  @include grid-x-col(4)
+  float: right !important // HACK
+  img
+    width: 100%
+
+.show-synopsys
+  @include grid-x-col(8)
+
+.show-cast, .show-crew
+  @include grid-x-col(6)
+
+.show-media
+  img
+    width: 25%

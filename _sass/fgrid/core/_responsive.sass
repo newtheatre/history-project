@@ -1,0 +1,65 @@
+@mixin respond-up($media)
+  @if $media == mob-port
+    // mob-port is smallest, so will always apply.
+    @content
+  @else if $media == mob-land
+    @media only screen and (min-width: $grid-break-mob-land)
+      @content
+  @else if $media == tab-port
+    @media only screen and (min-width: $grid-break-tab-port)
+      @content
+  @else if $media == tab-land
+    @media only screen and (min-width: $grid-break-tab-land)
+      @content
+  @else if $media == med-desk
+    @media only screen and (min-width: $grid-break-med-desk)
+      @content
+  @else if $media == widescreen
+    @media only screen and (min-width: $grid-break-widescreen)
+      @content
+
+// e.g. @include respond-up(mob-land) { width:100%; }
+
+@mixin respond-down($media)
+  @if $media == mob-port
+    @media only screen and (max-width: $grid-break-mob-land - 1)
+      @content
+  @else if $media == mob-land
+    @media only screen and (max-width: $grid-break-tab-port - 1)
+      @content
+  @else if $media == tab-port
+    @media only screen and (max-width: $grid-break-tab-land - 1)
+      @content
+  @else if $media == tab-land
+    @media only screen and (max-width: $grid-break-med-desk - 1)
+      @content
+  @else if $media == med-desk
+    @media only screen and (max-width: $grid-break-widescreen - 1)
+      @content
+  @else if $media == widescreen
+    // Widescreen is the largest, so will always apply
+    // @media only screen and (max-width: $grid-break-widescreen)
+    @content
+
+@mixin respond-to($media)
+  @if $media == mob-port
+    @media only screen and (max-width: $grid-break-mob-land - 1)
+      @content
+  @else if $media == mob-land
+    @media only screen and (max-width: $grid-break-tab-port - 1) and (min-width: $grid-break-mob-land)
+      @content
+  @else if $media == tab-port
+    @media only screen and (max-width: $grid-break-tab-land - 1) and (min-width: $grid-break-tab-port)
+      @content
+  @else if $media == tab-land
+    @media only screen and (max-width: $grid-break-med-desk - 1) and (min-width: $grid-break-tab-land)
+      @content
+  @else if $media == med-desk
+    @media only screen and (max-width: $grid-break-widescreen - 1) and (min-width: $grid-break-med-desk)
+      @content
+  @else if $media == widescreen
+    @media only screen and (min-width: $grid-break-widescreen)
+      @content
+  @else if $media == retina
+    @media only screen and (-webkit-min-device-pixel-ratio: 2)
+      @content

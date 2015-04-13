@@ -1,0 +1,23 @@
+// Sticky footer see http://mystrd.at/modern-clean-css-sticky-footer/
+// Main restriction is footer becomes fixed height
+
+// Apply this to body
+
+html
+  position: relative
+  min-height: 100%
+
+@mixin grid-sticky-footer-settings
+  @include grid-sticky-footer($grid-sticky-footer-height)
+
+@mixin grid-sticky-footer($height)
+  margin-bottom: $height
+  footer
+    position: absolute
+    left: 0
+    bottom: 0
+    height: $height
+    width: 100%
+
+.grid-sticky-footer
+  @include grid-sticky-footer-settings

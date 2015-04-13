@@ -1,0 +1,9 @@
+<ul class="show-list">
+{% for show in shows %}
+
+<li>
+  <a href="{{show.url}}">{{show.title}}</a>
+</li>
+
+{% endfor %}
+</ul>

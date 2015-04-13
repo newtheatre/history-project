@@ -1,0 +1,37 @@
+// Two very similar mixins for emulating page padding for
+// absolutely positioned elements
+
+// We use css calc (compiled would be `left: calc(6% - 3px)`) as SASS
+// can't do maths on percentage and absolute values as it has no
+// knowledge of the screen width.
+
+@mixin abs-left-wrap-pad($left)
+  // Make changes to the position animate
+  @include ftransition(left)
+  @include respond-up(mob-land)
+    left: calc(#{$grid-mob-port-pad} + #{$left})
+  @include respond-up(mob-port)
+    left: calc(#{$grid-mob-land-pad} + #{$left})
+  @include respond-up(tab-port)
+    left: calc(#{$grid-tab-port-pad} + #{$left})
+  @include respond-up(tab-land)
+    left: calc(#{$grid-tab-land-pad} + #{$left})
+  @include respond-up(med-desk)
+    left: calc(#{$grid-med-desk-pad} + #{$left})
+  @include respond-up(widescreen)
+    left: calc(#{$grid-widescreen-pad} + #{$left})
+@mixin abs-right-wrap-pad($right)
+  // Make changes to the position animate
+  @include ftransition(right)
+  @include respond-up(mob-land)
+    right: calc(#{$grid-mob-port-pad} + #{$right})
+  @include respond-up(mob-port)
+    right: calc(#{$grid-mob-land-pad} + #{$right})
+  @include respond-up(tab-port)
+    right: calc(#{$grid-tab-port-pad} + #{$right})
+  @include respond-up(tab-land)
+    right: calc(#{$grid-tab-land-pad} + #{$right})
+  @include respond-up(med-desk)
+    right: calc(#{$grid-med-desk-pad} + #{$right})
+  @include respond-up(widescreen)
+    right: calc(#{$grid-widescreen-pad} + #{$right})

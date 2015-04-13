@@ -1,0 +1,6 @@
+{
+  "name": "fGrid",
+  "description": "A responsive and customisable grid system for Sass, built to be flexible and small and is suitable for a wide range of projects.",
+  "tags": ["grid", "responsive", "micro", "small", "mixins"],
+  "website": "http://fgrid.fullaf.com"
+}
