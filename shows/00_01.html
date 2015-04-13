@@ -5,7 +5,7 @@ sort: 2000
 title: 2000 - 01
 ---
 
-{% assign shows = site.collections.shows.docs | where:'year', 00_01 %}
+{% assign shows = site.collections.shows.docs | where:"year", "00_01" %}
 
 {% include show_list.html %}
 

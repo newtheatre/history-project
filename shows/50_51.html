@@ -5,7 +5,7 @@ sort: 1950
 title: 1950 - 51
 ---
 
-{% assign shows = site.collections.shows.docs | where:'year', 50_51 %}
+{% assign shows = site.collections.shows.docs | where:"year", "50_51" %}
 
 {% include show_list.html %}
 

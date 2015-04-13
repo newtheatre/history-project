@@ -10,7 +10,7 @@ sort: """ + year + """
 title: """ + year_range + """
 ---
 
-{% assign shows = site.collections.shows.docs | where:'year', """ + year_range_short + """ %}
+{% assign shows = site.collections.shows.docs | where:"year", \"""" + year_range_short + """\" %}
 
 {% include show_list.html %}
 
