@@ -1,0 +1,6 @@
+@mixin grid-clear
+  // Current best practice float clearing method.
+  &:after
+    content: ""
+    display: table
+    clear: both

@@ -1,0 +1,25 @@
+---
+layout: page
+title: Shows
+group: top
+---
+
+<h2>Shows by Name</h2>
+<div class="lotsa-colsx">
+  <ul>
+  {% for node in site.collections.shows.docs %}
+    <li><a href="{{node.url}}">{{node.title}}</a></li>
+  {% endfor %}
+  </ul>
+</div>
+
+<h2>Shows by Year</h2>
+<div class="lotsa-cols">
+  {% assign year_pages_unsorted = site.pages | where: 'group', 'show_year' %}
+  {% assign year_pages = year_pages_unsorted | sort:"year" %}
+  <ul>
+  {% for node in year_pages %}
+    <li><a href="{{node.url}}">{{node.title}}</a></li>
+  {% endfor %}
+  </ul>
+</div>

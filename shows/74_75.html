@@ -1,0 +1,11 @@
+---
+layout: page
+group: show_year
+sort: 1974
+title: 1974 - 75
+---
+
+{% assign shows = site.collections.shows.docs | where:'year', 74_75 %}
+
+{% include show_list.html %}
+

@@ -1,0 +1,38 @@
+{
+  "name": "fGrid",
+  "homepage": "http://fgrid.fullaf.com",
+  "authors": [
+    "Will Pimblett <will@fullaf.com>"
+  ],
+  "description": "Sass responsive grid system, and mixins!",
+  "main": "fgrid.sass",
+  "keywords": [
+    "Sass",
+    "YAGF",
+    "grid",
+    "framework",
+    "mixins",
+    "bower"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.0.2"
+  },
+  "_release": "cbf5ff1479",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "cbf5ff1479d449665a3e7128ce94ec43fab157e2"
+  },
+  "_source": "git://github.com/fullaf/fgrid.git",
+  "_target": "*",
+  "_originalSource": "fgrid",
+  "_direct": true
+}

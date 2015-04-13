@@ -1,0 +1,207 @@
+*, *:before, *:after
+  font-family: $body-font-stack
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+
+::selection
+  background: $color-selection
+
+body
+  color: $color-text
+  font-weight: 300
+
+@mixin block
+  // Element is a block, should have suitable bottom margin
+  margin-bottom: $baseline
+
+h1, h2, h3, h4, h5, h6, p, li, th, td
+  // Test this, make red or something and check whole site for
+  // non-selected elements.
+  &:last-child
+    // Remove bottom margins if element is last in it's container.
+    // The container should set it's own padding for this.
+    margin-bottom: 0
+
+h1, h2, h3, h4, h5, h6
+  font-family: $header-font-stack
+  @include block
+  font-weight: 100
+
+h1
+  font-size: 60px
+  line-height: $baseline * 3
+h2
+  font-size: 36px
+  line-height: $baseline * 2
+h3
+  font-size: 28px
+  line-height: $baseline
+h4
+  font-size: 20px
+  line-height: $baseline
+h5
+  font-size: 18px
+  line-height: $baseline
+h6
+  font-size: 12px
+  line-height: $baseline
+
+h2, .h2-baseline
+  line-height: $baseline * 2
+
+h4.h3-baseline
+  // If h3 is going to sit across from an h4 we can force double line-height
+  // line-height: $baseline * 2
+
+@mixin normal-text-nobr
+  line-height: $baseline
+  font-size: $base-font-size
+  margin-bottom: 0
+
+@mixin normal-text
+  @include normal-text-nobr
+  @include block
+
+@mixin compact-text-nobr
+  line-height: $baseline
+  font-size: $base-font-size-compact
+  margin-bottom: 0
+
+@mixin compact-text
+  @include compact-text-nobr
+  @include block
+
+p
+  @include normal-text
+
+.compact
+  @include compact-text
+
+.aside
+  @include compact-text
+  font-style: italic
+  color: $color-grey
+
+// Bigger versions of stuff
+h1.display, .display h1
+  @include respond-up(mob-port)
+    font-size: 76px
+  @include respond-up(tab-port)
+    font-size: 96px
+
+p.display, .display p
+  @include respond-up(mob-port)
+    // No change
+  @include respond-up(tab-port)
+    font-size: $base-font-size * 1.8
+    line-height: $baseline * 2
+
+.nobr
+  // No break
+  margin-bottom: 0
+
+p + h1, p + h2, p + h3
+  // Big headings after paragraphs
+  margin-top: $baseline * 2
+p + h4, p + h5, p + h6
+  // Small headings after paragraphs, padding is just what p has for margin-bottom
+
+@mixin header-top-nobr
+  p + h1, p + h2, p + h3
+    // Big headings after paragraphs
+    margin-top: 0
+  p + h4, p + h5, p + h6
+    // Small headings after paragraphs, padding is just what p has for margin-bottom
+
+strong
+  font-weight: 600
+
+// We use a:link to avoid selecting <a> tags that don't have the href attribute
+a:link
+  color: $color-link
+
+a:visited
+  color: $color-link-visited
+.content a:hover
+  // Content link hover effect
+  background: $color-link-highlight
+  margin: -$baseline / 4// Expanded background
+  padding: $baseline / 4
+
+@mixin anti-content-a-hover
+  background: inherit
+  margin: inherit
+  padding: inherit
+
+a.pagelink
+  &:before
+    // content: "› "
+  &:after
+    content: "…"
+
+.bracketed
+  color: $color-grey
+
+ul, ol
+  @include block
+  li
+    list-style: none
+
+ul.formatted li, ol.formatted li
+  font-size: $base-font-size
+  margin-bottom: $baseline / 2
+
+ul.formatted
+  li
+    list-style: square
+  &.minimal li
+    list-style: none
+
+ol.formatted
+  li
+    list-style: decimal
+  &.minimal li
+    list-style: none
+
+ul.formatted, ol.formatted
+  @include block
+  margin-left: $baseline
+  &.minimal
+    margin-left: 0
+  h3, h4, h5, h6
+    font-weight: bold
+
+blockquote
+  @include block
+  $bord: 4px
+  border-left: $bord solid $color-grey
+  padding-left: $bord * 4
+  margin-left: 3em
+  margin-right: 3em
+
+  font-style: italic
+
+pre
+  @include block
+
+code
+  // Monospace :)
+  &, *
+    // Override the body font stack
+    font-family: monospace
+  background: $color-background-alt
+  padding: 2px 3px
+  white-space: pre-wrap
+  word-wrap: break-word
+
+.external-link
+  .icon
+    // @extend .ion-earth
+    padding-left: 2px
+    color: $color-grey
+
+
+dl
+  dt
+    font-weight: bold
+  dd
+    margin-bottom: $baseline / 2

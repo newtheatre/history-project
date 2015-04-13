@@ -1,0 +1,12 @@
+<ul class="person-list">
+{% for person in people %}
+  <li class="person-single">
+    <div class="person-role">
+      {{ person.role }}
+    </div>
+    <div class="person-name">
+      {{ person.name }}
+    </div>
+  </li>
+{% endfor %}
+</ul>
