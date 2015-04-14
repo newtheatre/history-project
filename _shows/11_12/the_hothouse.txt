@@ -1,0 +1,43 @@
+====== The Hothouse ======
+
+===== Key Info =====
+
+^Dates        | 16-19 November 2011|
+^Venue        | New Theatre |
+^Director     | Matt Wilks |
+^Producer     | Elin Stenner-Matthews |
+^Playwright   | Harold Pinter |
+
+===== Synopsis =====
+
+At once fantastically dark and hilarious, ‘The Hothouse’ takes place in a Sanatorium overseen by a shadowy organisation called the Ministry. Shown only from the point of view of the staff, Pinter’s sharp intelligence highlights the ridiculousness of arbitrary authority and explores the corrupting influence of ultimate power over another human being.
+
+===== Publicity =====
+
+|{{ :?direct&200 |}}|
+
+===== Cast =====
+
+^**Character**            |**Member's Name** |
+^ Roote                   | Tom Walsh |
+^ Gibbs                   | James Pardon |
+^ Lush                    | Sam Hayward | 
+^ Lamb                    | Jack Finger |
+^ Miss Cutts              | Rosanna Stoker |
+^ Tubb                    | Jess Courtney |
+^ Lobb                    | Becca Clee |
+
+
+===== Crew =====
+
+^**Role**                  |**Member's Name** |
+^ Director                 | Matt Wilks |
+^ Producer                 | Elin Stenner-Matthews |
+^ Set Designer             | xxx |
+^ Stage Manager            | xxx |
+^ Technical Director       | xxx | 
+^ Lighting Designer        | xxx |
+^ Make Up Artist           | xxx |
+^ Technical Operator       | xxx |
+^ :::                      | xxx |
+^ Publicity Designer       | xxx |

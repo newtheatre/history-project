@@ -1,0 +1,64 @@
+====== Amadeus ======
+
+===== Key Info =====
+
+^Dates        | ??? |
+^Venue        | New Theatre |
+^Director and Co-Producer     | Henry Filloux-Bennett |
+^Producer and Asst. Director  | Cat McCotter |
+^Playwright   | Peter Shaffer |
+
+===== Synopsis =====
+
+???
+
+===== Publicity =====
+
+|{{ :?direct&200 |}}|
+
+===== Cast =====
+
+^**Character**            |**Member's Name** |
+^ Antonio Salieri                    | Joseph Arkley |
+^ Wolfgang Amadeus Mozart            | Stephanie Lane |
+^ Constanze Weber                    | Sarah-Jane Franklin | 
+^ Joseph II                          | Tom King |
+^ Johann Kilian von Strack           | Euan Lawrence |
+^ Count Orsini-Rosenberg             | Chris Roberts |
+^ Baron von Swieten                  | Nikolaj Babic |
+^ Kapellmeister Bonno                | Tom Kemble |
+^ The Venticelli                     | Jen Aggleton |
+^ :::                                | Anna Geffert |
+^ :::                                | Ellie Burt |
+^ :::                                | Diane Morrison |
+^ Katherina Cavalieri                | Marni Miller |
+^ Citizens of Vienna                 |  |
+^ & Valet                            | Chris Holiday |
+^ & Major-Domo                       | Tom Kemble |
+^ & Cook                             | Ben Bergin |
+^ & Teresa                           | Lydia Waine |
+
+
+
+===== Crew =====
+
+^**Role**                  |**Member's Name** |
+^ Director / Co Producer   | Henry Filloux-Bennett |
+^ Producer / Asst. Director| Cat McCotter |
+^ Set Design/Construction  | Henry Fillouz-Bennett |
+^ :::                      | Cat McCotter |
+^ :::                      | Tom King |
+^ :::                      | Ben Richards |
+^ :::                      | Chris Roberts |
+^ Stage Manager            | Kate Holder |
+^ Costumes                 | The Lacemarket Theatre | 
+^ Lighting Designer        | Chris Brammeld |
+^ Lighting Assistant       | Sarah Haugh |
+^ Sound Direction          | Henry Filloux-Bennett |
+^ Sound Operator           | Jen Pollock |
+^ Backstage / Make Up      | Rachel Farrell |
+^ :::                      | Karen Williams |
+^ Production Guru          | Ben Richards |
+^ Production Angels        | Sarah-Jane Franklin |
+^ :::                      | Lydia Waine |
+^ Publicity Designer       | Henry Filloux-Bennett |

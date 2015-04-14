@@ -1,0 +1,43 @@
+====== The Off-White Horse ======
+
+===== Key Info =====
+
+^Dates        | xxx |
+^Venue        | New Theatre |
+^Director     | Adam H.Wells |
+^Producer     | Rob Greenman |
+^Playwright   | Adam H.Wells |
+
+===== Synopsis =====
+
+bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+===== Publicity =====
+
+|{{ :?direct&200 |}}|
+
+===== Cast =====
+
+^**Character**            |**Member's Name** |
+^ xxx                     | xxx |
+^ xxx                     | xxx |
+^ xxx                     | xxx | 
+^ xxx                     | xxx |
+^ xxx                     | xxx |
+^ xxx                     | xxx |
+^ xxx                     | xxx |
+
+
+===== Crew =====
+
+^**Role**                  |**Member's Name** |
+^ Director                 | xxx |
+^ Producer                 | xxx |
+^ Set Designer             | xxx |
+^ Stage Manager            | xxx |
+^ Technical Director       | xxx | 
+^ Lighting Designer        | xxx |
+^ Make Up Artist           | xxx |
+^ Technical Operator       | xxx |
+^ :::                      | xxx |
+^ Publicity Designer       | xxx |

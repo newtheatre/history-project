@@ -1,0 +1,48 @@
+====== Posh ======
+
+===== Key Info =====
+
+^Dates        | 13-16 March 2013 |
+^Venue        | New Theatre |
+^Director     | Bridie Rollins |
+^Producer     | Martha Wilson |
+^Playwright   | Laura Wade |
+
+===== Synopsis =====
+
+Eight Oxford University boys, unlimited champagne, one escort and a night of debauchery and destruction. Welcome to the Riot Club. Royal Court’s play of the year 2012. Contemporary, outrageous and intelligent. Posh is the perfect combination of disturbingly relevant satire and a scandalous and savagely funny cast. Bottoms up.
+
+===== Publicity =====
+
+|{{ :?direct&200 |}}|
+
+
+===== Cast =====
+
+^**Character**            |**Member's Name** |
+^ Alistair     | Nick Hughes    |
+^ Harry        | Nick Jeffrey   |
+^ Dimitri      | Harry Bradley  |
+^ James        | Hugh Williams  |
+^ Toby         | Tommy Kennedy  |
+^ Ed           | Aaron Tej      |
+^ Hugo         | Will Hedges    |
+^ Guy          | Giles Gear     |
+^ Chris/Jeremy | Tom Savage     |
+^ Rachel       | Chloe Bickford |
+^ Charlie      | Verity Spencer |
+
+
+===== Crew =====
+
+^**Role**                  |**Member's Name** |
+^ Director                 | Bridie Rollins |
+^ Producer                 | Martha Wilson |
+^ Set Designer             | xxx |
+^ Stage Manager            | xxx |
+^ Technical Director       | Aubrey Turner | 
+^ Lighting Designer        | Will Pimblett |
+^ Make Up Artist           | xxx |
+^ Technical Operator       | xxx |
+^ :::                      | xxx |
+^ Publicity Designer       | xxx |
