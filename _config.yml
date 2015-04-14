@@ -53,6 +53,11 @@ prose:
               value: "Fringe"
             - name: "Edinburgh"
               value: "Edinburgh"
+      - name: "season_sort"
+        field:
+          label: "Season Sort"
+          element: "number"
+          help: "Number used to sort the season. Use multiples of ten for flexibility, i.e. the third show of the season would be 30."
       - name: "year"
         field:
           element: "text"

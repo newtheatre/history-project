@@ -1,22 +1,47 @@
 .site-header
-  color: $color-text-white
-  margin: $baseline*2 0
+  padding: $baseline*2 0 $baseline 0
+  margin-bottom: $baseline * 2
+  background: $color-background-alt
   .wrapper
     @include grid-wrap
     @include grid-row
+  &, a
+    color: $color-text-white
+
+$nav-height: 63px
+
+.site-title, .site-nav, .site-search
+  height: $nav-height
+
 .site-title
   display: block
-  @include grid-x-col(3)
+  @include grid-x-col(4)
+  text-decoration: none
+.site-title-logo
+  float: left
+.site-title-text
+  padding-top: 2px
+  padding-left: 80px
+  font-size: 28px
+  line-height: 110%
+
 .site-nav
-  display: block
-  text-align: center
   @include grid-x-col(6)
+  text-align: center
+  line-height: $nav-height
   .page-link
     @include all-but-last(margin-right, 24px)
+    text-decoration: none
+    padding-bottom: 3px
+    &:hover
+      border-bottom: 2px solid $color-text-white
+    &.current
+      border-bottom: 2px solid $color-nnt-purple
 
 .site-search
-  @include grid-x-col(3)
+  @include grid-x-col(2)
   text-align: right
+  line-height: $nav-height
 
 .site-search-input
   padding: 6px

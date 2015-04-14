@@ -16,6 +16,13 @@ body
 body
   background: $color-background
 
+.background-overlay
+  position: absolute
+  top: 0
+  width: 100%
+  height: 220px
+  @include background-image(linear-gradient($color-background-alt 0, transparent 99%))
+
 .content
   min-height: 600px
 
