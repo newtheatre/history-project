@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 group: top
+sort: 40
 ---
 
 The Alumni Network was founded in order to build a stronger sense of the history of the theatre, and with the launch of “The New Theatre History Project” we are hoping to do just that!

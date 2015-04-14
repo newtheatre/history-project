@@ -4,20 +4,12 @@ years = range(1950, 2015)
 
 def make_template(year, year_range, year_range_short, year_range_short_pretty):
     return """---
-layout: page
+layout: show_year
 group: show_year
 sort: """ + year + """
 title: """ + year_range + """
+year: \"""" + year_range_short + """\"
 ---
-
-<ul class="breadcrumbs">
-  <li class="breadcrumb">
-    <a href="/shows/">Shows</a>
-  </li>
-  <li class="breadcrumb">
-    <a href="{{page.url}}">""" + year_range_short_pretty + """</a>
-  </li>
-</ul>
 
 {% assign shows = site.collections.shows.docs | where:"year", \"""" + year_range_short + """\" %}
 

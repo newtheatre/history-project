@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign year_page = site.pages | where: "group", "show_year" | where: "year", page.year %}
 {% assign posters = page.images | where:'type', 'poster' %}
 
 <ul class="breadcrumbs">
@@ -8,7 +9,7 @@ layout: default
     <a href="/shows/">Shows</a>
   </li>
   <li class="breadcrumb">
-    <a href="/shows/{{page.year}}">{{page.year | replace:"_", "-"}}</a>
+    <a href="/shows/{{page.year}}">{{ year_page[0].title }}</a>
   </li>
   <li class="breadcrumb">
     <a href="{{page.url}}">{{page.title}}</a>
