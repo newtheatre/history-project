@@ -27,6 +27,8 @@ h1, h2, h3, h4, h5, h6
 h1
   font-size: $base-font-size * 2.9
   line-height: $baseline * 3
+  @include respond-down(mob-port)
+    font-size: $base-font-size * 2.4
 h2
   font-size: $base-font-size * 2.2
   line-height: $baseline * 2
@@ -116,6 +118,7 @@ strong
 // We use a:link to avoid selecting <a> tags that don't have the href attribute
 a:link
   color: $color-link
+  font-weight: 600
 
 a:visited
   color: $color-link-visited
@@ -162,6 +165,9 @@ ul, ol
     margin-left: 0
   h3, h4, h5, h6
     font-weight: bold
+
+ul
+  list-style: square
 
 @mixin list-unformatted
   margin-left: 0

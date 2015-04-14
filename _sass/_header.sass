@@ -11,7 +11,8 @@
 $nav-height: 63px
 
 .site-title, .site-nav, .site-search
-  height: $nav-height
+  @include respond-up(tab-port)
+    height: $nav-height
 
 .site-title
   display: block
@@ -32,19 +33,24 @@ $nav-height: 63px
   @include respond-down(tab-port)
     font-size: $title-text-size * 0.6
     line-height: $title-text-size * $title-text-baseline
+  @include respond-down(mob-port)
+    font-size: $title-text-size * 0.9
 
 .site-nav
   @include grid-x-col(8)
   text-align: center
   line-height: $nav-height
   .page-link
-    @include all-but-last(margin-right, 24px)
     text-decoration: none
     padding-bottom: 3px
     &:hover
       border-bottom: 2px solid $color-text-white
     &.current
       border-bottom: 2px solid $color-nnt-purple
+    @include respond-up(tab-port)
+      @include all-but-last(margin-right, 24px)
+    @include respond-down(mob-land)
+      display: block
 
 .site-search
   @include grid-x-col(3)

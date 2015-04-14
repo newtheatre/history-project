@@ -2,6 +2,7 @@
 layout: page
 title: History
 group: top
+sort: 30
 ---
 
 # History of The New Theatre
