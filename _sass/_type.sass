@@ -1,4 +1,4 @@
-*, *:before, *:after
+*
   font-family: $body-font-stack
   -webkit-tap-highlight-color: rgba(0,0,0,0)
 
@@ -7,7 +7,6 @@
 
 body
   color: $color-text
-  font-weight: 300
 
 @mixin block
   // Element is a block, should have suitable bottom margin
@@ -24,25 +23,24 @@ h1, h2, h3, h4, h5, h6, p, li, th, td
 h1, h2, h3, h4, h5, h6
   font-family: $header-font-stack
   @include block
-  font-weight: 100
 
 h1
-  font-size: 60px
+  font-size: $base-font-size * 2.9
   line-height: $baseline * 3
 h2
-  font-size: 36px
+  font-size: $base-font-size * 2.2
   line-height: $baseline * 2
 h3
-  font-size: 28px
+  font-size: $base-font-size * 1.4
   line-height: $baseline
 h4
-  font-size: 20px
+  font-size: $base-font-size * 1.2
   line-height: $baseline
 h5
-  font-size: 18px
+  font-size: $base-font-size
   line-height: $baseline
 h6
-  font-size: 12px
+  font-size: $base-font-size * 0.8
   line-height: $baseline
 
 h2, .h2-baseline
@@ -139,34 +137,37 @@ a.pagelink
 .bracketed
   color: $color-grey
 
+// ul.formatted li, ol.formatted li
+//   font-size: $base-font-size
+//   margin-bottom: $baseline / 2
+
+// ul.formatted
+//   li
+//     list-style: square
+//   &.minimal li
+//     list-style: none
+
+// ol.formatted
+//   li
+//     list-style: decimal
+//   &.minimal li
+//     list-style: none
+
 ul, ol
   @include block
-  li
-    list-style: none
-
-ul.formatted li, ol.formatted li
-  font-size: $base-font-size
-  margin-bottom: $baseline / 2
-
-ul.formatted
-  li
-    list-style: square
-  &.minimal li
-    list-style: none
-
-ol.formatted
-  li
-    list-style: decimal
-  &.minimal li
-    list-style: none
-
-ul.formatted, ol.formatted
-  @include block
   margin-left: $baseline
+  li
+    padding-bottom: $baseline
   &.minimal
     margin-left: 0
   h3, h4, h5, h6
     font-weight: bold
+
+@mixin list-unformatted
+  margin-left: 0
+  li
+    padding-bottom: 0
+  list-style: none
 
 blockquote
   @include block

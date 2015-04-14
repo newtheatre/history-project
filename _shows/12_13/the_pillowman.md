@@ -53,9 +53,9 @@ crew:
     name: Emily Goshorn
   - role: Publicity Designer
     name: Ben Hollands
-  - role: Photographers
+  - role: Photographer
     name: Nick Barker
-  - role: Photographers
+  - role: Photographer
     name: Frazer Roberts
 images:
   - type: poster

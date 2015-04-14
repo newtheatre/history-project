@@ -5,6 +5,15 @@ sort: 2000
 title: 2000 - 01
 ---
 
+<ul class="breadcrumbs">
+  <li class="breadcrumb">
+    <a href="/shows/">Shows</a>
+  </li>
+  <li class="breadcrumb">
+    <a href="{{page.url}}">00-01</a>
+  </li>
+</ul>
+
 {% assign shows = site.collections.shows.docs | where:"year", "00_01" %}
 
 {% include show_list.html %}

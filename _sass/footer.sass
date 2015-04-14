@@ -1,7 +1,10 @@
-footer
-  color: $color-text-white
+.site-footer
+  color: $color-text-black
   background: $color-grey
+  padding: $baseline 0
   .wrapper
     @include grid-wrap
     @include grid-row
 
+.footer-col
+  @include grid-x-percent(33%)

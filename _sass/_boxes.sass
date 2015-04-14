@@ -1,4 +1,20 @@
-.box-error
-  background: $color-error
+.box-error, .box-warning, .box-success, .box-info
   padding: $baseline
   margin-bottom: $baseline
+  position: relative
+  i
+    position: absolute
+    top: 8px
+    right: 8px
+    color: $color-grey
+    font-size: $base-font-size * 4
+    opacity: 0.2
+
+.box-error
+  background: $color-error
+.box-warning
+  background: $color-warning
+.box-success
+  background: $color-success
+.box-info
+  background: $color-info

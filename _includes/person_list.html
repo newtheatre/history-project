@@ -2,6 +2,11 @@
 {% for person in people %}
   <li class="person-single">
     <div class="person-role">
+      {% for role in site.data.role-icons %}
+        {% if person.role == role.role %}
+        <i class="{{ role.icon }}"></i>
+        {% endif %}
+      {% endfor %}
       {{ person.role }}
     </div>
     <div class="person-name">

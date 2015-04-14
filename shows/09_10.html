@@ -5,6 +5,15 @@ sort: 2009
 title: 2009 - 10
 ---
 
+<ul class="breadcrumbs">
+  <li class="breadcrumb">
+    <a href="/shows/">Shows</a>
+  </li>
+  <li class="breadcrumb">
+    <a href="{{page.url}}">09-10</a>
+  </li>
+</ul>
+
 {% assign shows = site.collections.shows.docs | where:"year", "09_10" %}
 
 {% include show_list.html %}

@@ -1,0 +1,88 @@
+$line: 2px red solid
+
+$color-1: darken($color-nnt-orange, 8%)
+$color-2: darken($color-nnt-orange, 12%)
+$color-3: darken($color-nnt-orange, 14%)
+$color-4: darken($color-nnt-orange, 16%)
+$color-5: darken($color-nnt-orange, 18%)
+
+$color-hover: darken($color-nnt-orange, 24%)
+
+.breadcrumbs
+  list-style: none
+  overflow: hidden
+
+.breadcrumbs li
+  padding-bottom: 0
+
+.breadcrumbs li a
+  color: white
+  text-decoration: none
+  padding: 10px 0 10px 65px
+  background: $color-1
+  position: relative
+  display: block
+  float: left
+
+.breadcrumbs li a:after
+  content: " "
+  display: block
+  width: 0
+  height: 0
+  border-top: 50px solid transparent           /* Go big on the size, and let overflow hide */
+  border-bottom: 50px solid transparent
+  border-left: 30px solid $color-1
+  position: absolute
+  top: 50%
+  margin-top: -50px
+  left: 100%
+  z-index: 2
+
+
+.breadcrumbs li a:before
+  content: " "
+  display: block
+  width: 0
+  height: 0
+  border-top: 50px solid transparent
+  border-bottom: 50px solid transparent
+  border-left: 30px solid white
+  position: absolute
+  top: 50%
+  margin-top: -50px
+  margin-left: 1px
+  left: 100%
+  z-index: 1
+
+
+.breadcrumbs li:first-child a
+  padding-left: 10px
+  border-radius: 6px 0 0 6px
+
+.breadcrumbs li:nth-child(2) a
+  background: $color-2
+.breadcrumbs li:nth-child(2) a:after
+  border-left-color: $color-2
+.breadcrumbs li:nth-child(3) a
+  background: $color-3
+.breadcrumbs li:nth-child(3) a:after
+  border-left-color: $color-3
+.breadcrumbs li:nth-child(4) a
+  background: $color-4
+.breadcrumbs li:nth-child(4) a:after
+  border-left-color: $color-4
+.breadcrumbs li:nth-child(5) a
+  background: $color-5
+.breadcrumbs li:nth-child(5) a:after
+  border-left-color: $color-5
+// .breadcrumbs li:last-child a
+//   background: transparent !important
+//   color: black
+//   pointer-events: none
+//   cursor: default
+
+
+.breadcrumbs li a:hover
+  background: $color-hover
+.breadcrumbs li a:hover:after
+  border-left-color: $color-hover !important

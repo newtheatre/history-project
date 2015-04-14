@@ -4,6 +4,8 @@ title: History
 group: top
 ---
 
+# History of The New Theatre
+
 ## Dramsoc
 
 The University College Nottingham Dramatic Society (Dramsoc) was formed in 1927 and performed its first play, A.A. Milne's 'Mr Pim passes by' in the following March. The society offered members an opportunity to read, discuss, produce and enact plays. The late 1950s and early 1960s were a golden age for the society. The production of 'Coriolanus' reached the finals of the National Student Drama Competition, and the 'Taming of the Shew' enjoyed a week-long tour of Germany. The society also took George Bernard Shaw's 'St Joan' to the outdoor Minack Theatre in Cornwall. DramSoc was eventually disbanded in the 1980s

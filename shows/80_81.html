@@ -5,6 +5,15 @@ sort: 1980
 title: 1980 - 81
 ---
 
+<ul class="breadcrumbs">
+  <li class="breadcrumb">
+    <a href="/shows/">Shows</a>
+  </li>
+  <li class="breadcrumb">
+    <a href="{{page.url}}">80-81</a>
+  </li>
+</ul>
+
 {% assign shows = site.collections.shows.docs | where:"year", "80_81" %}
 
 {% include show_list.html %}

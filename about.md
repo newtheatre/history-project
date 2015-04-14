@@ -11,7 +11,7 @@ Following recent meetings with the staff at the Nottingham University Archives w
 
 We intend to document everything online, and we are hoping to send this project live before Christmas so check back here in the near future to see how we are getting on!
 
-- "whether you were an actor, a director, a stage-manager or an audience member, we want you to get in touch with you memories from the New Theatre"
+> "whether you were an actor, a director, a stage-manager or an audience member, we want you to get in touch with you memories from the New Theatre"
 
 This is an extremely exciting project for the Alumni Network, and we are relying on as many people as possible getting involved and contributing to the story – whether you were an actor, a director, a stage-manager or an audience member, we want you to get in touch with you memories from your time at the New Theatre.
 
