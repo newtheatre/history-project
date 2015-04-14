@@ -11,15 +11,11 @@ venue:
 date_start: 12/12/2012
 date_end: 15/12/2012
 cast:
-  - 
 crew:
   - role: Director
     name: Cal Lewis
   - role: Producer
     name: Jackie Lee
-
-images:
-assets:
 ---
 
 An original piece that centres around contemporary social issues. ‘Crossing the Rubicon’ serves as a commentary on life in modern-day London, the trials and tribulations one faces, and the inevitable consequences of actions.
