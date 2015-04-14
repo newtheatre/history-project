@@ -5,9 +5,27 @@ layout: default
 
 <div class="show">
 
+  {% if page.date_start == null %}
+    <div class="box-error">
+      <p><strong>Missing Basic Details</strong> We're missing basic details from this record. If you have any of the details please email them to alumni@newtheatre.org.uk.</p>
+    </div>
+  {% endif %}
+
   {% if page.cast == null %}
     <div class="box-error">
       <p><strong>Missing Cast List</strong> We're missing the cast list from this record. If you have any of the details please email them to alumni@newtheatre.org.uk.</p>
+    </div>
+  {% endif %}
+
+  {% if page.crew == null %}
+    <div class="box-error">
+      <p><strong>Missing Crew List</strong> We're missing the crew list from this record. If you have any of the details please email them to alumni@newtheatre.org.uk.</p>
+    </div>
+  {% endif %}
+
+  {% if posters == null %}
+    <div class="box-error">
+      <p><strong>Missing Poster</strong> We're missing the poster from this record. If you have a copy please alumni@newtheatre.org.uk.</p>
     </div>
   {% endif %}
 

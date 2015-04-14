@@ -4,4 +4,4 @@ layout: show
 
 year: "12_13"
 ---
-A short show
+A play all about lacking meta data.
