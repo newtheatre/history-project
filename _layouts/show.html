@@ -39,13 +39,6 @@ layout: default
     </div>
   {% endif %}
 
-  {% if page.crew.size < 4 %}
-    <div class="box-warning">
-      <i class="fa fa-exclamation-triangle"></i>
-      <p><strong>Short Crew List</strong> The crew list for this show looks a little short. If you can help see the <a href="/contributing/">contributing</a> page.</p>
-    </div>
-  {% endif %}
-
   {% if posters == null %}
     <div class="box-error">
       <i class="fa fa-exclamation-triangle"></i>
@@ -101,6 +94,12 @@ layout: default
     </section>
     <section class="show-crew">
       <h3>Crew: {{ page.crew | size }}</h3>
+      {% if page.crew.size < 4 %}
+    <div class="box-warning">
+      <i class="fa fa-exclamation-triangle"></i>
+      <p><strong>Short Crew List</strong> The crew list for this show looks a little short. If you can help see the <a href="/contributing/">contributing</a> page.</p>
+    </div>
+  {% endif %}
       {% assign people = page.crew %}
       {% include person_list.html %}
     </section>
