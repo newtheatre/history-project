@@ -2,6 +2,9 @@
 layout: default
 ---
 
+{% assign committee_page = site.collections.committees.docs | where: "year", page.year %}
+
+
 <ul class="breadcrumbs">
   <li class="breadcrumb">
     <a href="/shows/">Shows</a>
@@ -12,5 +15,12 @@ layout: default
 </ul>
 
 <div class="page">
-  {{ content }}
+  <div class="year-shows">
+    {{ content }}
+  </div>
+  <div class="year-links">
+    <ul>
+      {% if committee_page.size == 1 %}<li><a href="{{committee_page[0].url}}">Committee</a></li>{% endif %}
+    </ul>
+  </div>
 </div>

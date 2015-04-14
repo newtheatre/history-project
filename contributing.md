@@ -3,13 +3,15 @@ layout: page
 title: Contributing
 ---
 
-<div class="box-info">
-<i class="fa fa-info-circle"></i> If this page seems a bit too technical, don't fret. Just send us an email at <a href="mailto:{{site.email}}">{{site.email}}</a>
-</div>
-
 # {{ page.title }}
 
 This project relies on contributions from the alumni community. If you see a show missing information, a committee record a few names short or just have an interesting story to tell you can help out in a number of ways.
+
+## Contacting us
+
+Please email us at {{site.email}} if you have something to contribute, and don’t worry if you aren’t quite ready to part with your cherished New Theatre relics just yet – the University Archives have offered to photgraph and document any items sent to them, and then return them safely to you for safe keeping!
+
+## Contributing to the site directly
 
 We use Git and GitHub to both collaborate on and serve this website.
 
@@ -17,4 +19,3 @@ We use Git and GitHub to both collaborate on and serve this website.
 
 2. If you're technically inclined create a [pull request](https://github.com/newtheatre/history-project/compare) on our repository.
 
-3. If all else fails, email us!

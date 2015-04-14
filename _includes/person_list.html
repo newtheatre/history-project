@@ -7,7 +7,7 @@
         <i class="{{ role.icon }}"></i>
         {% endif %}
       {% endfor %}
-      {{ person.role }}
+      {{ person.role }} {% if person.note %}({{ person.note }}){% endif %}
     </div>
     <div class="person-name">
       {{ person.name }}
