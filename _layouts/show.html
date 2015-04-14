@@ -5,12 +5,19 @@ layout: default
 
 <div class="show">
 
+  {% if page.cast == null %}
+    <div class="box-error">
+      <p><strong>Missing Cast List</strong> We're missing the cast list from this record. If you have any of the details please email them to alumni@newtheatre.org.uk.</p>
+    </div>
+  {% endif %}
+
   <div class="grid-row">
     <header class="show-header">
       <h1 class="show-title">{{ page.title }}</h1>
-      <p class="meta">by {{ page.playwright }}</p>
-      <p>{{page.season}} season</p>
-      <p>{{ page.date_start }} - {{ page.date_end }} at {{ page.venue }}</p>
+      <p class="show-playwright"><i class="ion-ios-book"></i> by {{ page.playwright }}</p>
+      <p class="show-season"><i class="ion-film-marker"></i> {{page.season}} season</p>
+      <p class="show-date"><i class="ion-calendar"></i> {{ page.date_start }} - {{ page.date_end }}</p>
+      <p class="show-venue"><i class="ion-home"></i> {{ page.venue }}</p>
     </header>
 
     {% if posters %}
@@ -44,12 +51,12 @@ layout: default
 
   <div class="grid-row">
     <section class="show-cast">
-      <h3>Cast</h3>
+      <h3>Cast: {{ page.cast | size }}</h3>
       {% assign people = page.cast %}
       {% include person_list.html %}
     </section>
     <section class="show-crew">
-      <h3>Crew</h3>
+      <h3>Crew: {{ page.crew | size }}</h3>
       {% assign people = page.crew %}
       {% include person_list.html %}
     </section>

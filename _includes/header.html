@@ -1,11 +1,15 @@
 <header class="site-header">
   <div class="wrapper">
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/">
+      <img src="/images/logo.png" alt="Logo" class="site-title-logo" />
+      <h2 class="site-title-text">New Theatre<br />History Project</h2>
+    </a>
+
     <nav class="site-nav">
-      {% assign top_pages = site.pages | where:  'group', 'top' %}
-      {% for page in top_pages %}
-        {% if page.title %}
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      {% assign top_pages = site.pages | where: "group", "top" %}
+      {% for node in top_pages %}
+        {% if node.title %}
+        <a class="page-link{% if node.url == page.url %} current{% endif %}" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
         {% endif %}
       {% endfor %}
     </nav>

@@ -3,12 +3,13 @@ layout: show
 title: The Pillowman
 playwright: Martin McDonagh
 season: In House
+season_sort: 70
 year: "12_13"
-venue: 
+venue:
   - New Theatre
 date_start: 12/12/2015
 date_end: 15/12/2015
-cast: 
+cast:
   - role: Katurian
     name: Sam Haywood
   - role: Ariel
@@ -23,7 +24,7 @@ cast:
     name: "Dan O'Connor"
   - role: Jesus Girl
     name: Charlotte Ball
-crew: 
+crew:
   - role: Director
     name: James McAndrew
   - role: Producer
@@ -56,7 +57,7 @@ crew:
     name: Nick Barker
   - role: Photographers
     name: Frazer Roberts
-images: 
+images:
   - type: poster
     filename: pillowman_poster.jpg
   - type: flyer
@@ -64,7 +65,7 @@ images:
   - type: photo
     filename: pillowman_crew.jpg
     caption: "Cast and Crew shot. From back left: Jess Courtney, Gareth Morris, Livvy Hobson, Dan O'Connor, Charlotte Ball, Jacob Hayes, James McAndrew, Nick Stevenson, Chelsea Jayne Wright, Emily Heaton. Bottom from left: Sam Haywood, Will Randall, Alex Hollingsworth"
-assets: 
+assets:
   - type: programme
     filename: the_pillowman_programme.pdf
     title: Programme

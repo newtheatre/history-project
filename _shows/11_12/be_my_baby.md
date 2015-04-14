@@ -5,6 +5,7 @@ title: Be My Baby
 playwright: Amanda Whittington
 
 season: In House
+season_sort: 10
 year: "11_12"
 
 categories: 10-11
@@ -13,24 +14,24 @@ date_start: 2011-11-09
 date_start: 2011-11-12
 
 cast:
-  - character: Mary Adams
-    actor: Georgina Jeronymides-Norie
-  - character: Mrs Adams
-    actor: Sophie Holmes
-  - character: Matron
-    actor: Sarah Head
-  - character: Queenie
-    actor: Lydia Scott
-  - character: Dolores
-    actor: Zoe Moulton
-  - character: Norma
-    actor: Mary-Rose Clark
+  - role: Mary Adams
+    name: Georgina Jeronymides-Norie
+  - role: Mrs Adams
+    name: Sophie Holmes
+  - role: Matron
+    name: Sarah Head
+  - role: Queenie
+    name: Lydia Scott
+  - role: Dolores
+    name: Zoe Moulton
+  - role: Norma
+    name: Mary-Rose Clark
 
 crew:
   - role: Director
-    member: Emily Heaton
+    name: Emily Heaton
   - role: Producer
-    member: Sophie Hiscock
+    name: Sophie Hiscock
 
 
 images:
