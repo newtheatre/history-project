@@ -15,18 +15,26 @@ $nav-height: 63px
 
 .site-title
   display: block
-  @include grid-x-col(4)
+  @include grid-x-col(5)
   text-decoration: none
+  @include respond-down(mob-land)
+    width: 270px
+    margin: 0 auto
 .site-title-logo
   float: left
 .site-title-text
+  $title-text-size: 26px
+  $title-text-baseline: 1.2
   padding-top: 2px
   padding-left: 80px
-  font-size: 28px
-  line-height: 110%
+  font-size: $title-text-size
+  line-height: $title-text-size * $title-text-baseline
+  @include respond-down(tab-port)
+    font-size: $title-text-size * 0.6
+    line-height: $title-text-size * $title-text-baseline
 
 .site-nav
-  @include grid-x-col(6)
+  @include grid-x-col(8)
   text-align: center
   line-height: $nav-height
   .page-link
@@ -39,7 +47,7 @@ $nav-height: 63px
       border-bottom: 2px solid $color-nnt-purple
 
 .site-search
-  @include grid-x-col(2)
+  @include grid-x-col(3)
   text-align: right
   line-height: $nav-height
 

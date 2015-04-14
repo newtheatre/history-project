@@ -5,6 +5,15 @@ sort: 1954
 title: 1954 - 55
 ---
 
+<ul class="breadcrumbs">
+  <li class="breadcrumb">
+    <a href="/shows/">Shows</a>
+  </li>
+  <li class="breadcrumb">
+    <a href="{{page.url}}">54-55</a>
+  </li>
+</ul>
+
 {% assign shows = site.collections.shows.docs | where:"year", "54_55" %}
 
 {% include show_list.html %}

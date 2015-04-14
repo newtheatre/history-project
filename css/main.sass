@@ -4,9 +4,9 @@
 @charset "utf-8"
 
 // Our variables
-$body-font-stack: Helvetica, sans-serif
-$header-font-stack: Helvetica, sans-serif
-$base-font-size:   16px
+$body-font-stack: 'Open Sans', Helvetica, sans-serif
+$header-font-stack: 'Montserrat', sans-serif
+$base-font-size: 17px
 $base-font-size-compact:  $base-font-size * 0.875
 $baseline-multiplier: 1.5
 $baseline: $base-font-size * $baseline-multiplier
@@ -16,6 +16,7 @@ $color-nnt-orange: #FFC425
 
 $color-text-white: #eee
 $color-text:       $color-text-white
+$color-text-black: #111
 
 $color-background: darken($color-nnt-purple, 40%)
 $color-background-alt: darken($color-nnt-purple, 23%)
@@ -25,6 +26,9 @@ $color-link-visited: violet
 $color-link-highlight: blue
 
 $color-error: #601111
+$color-warning: #603f11
+$color-success: #116019
+$color-info: #114560
 
 $color-grey:       #828282
 $color-grey-light: lighten($color-grey, 40%)
@@ -33,6 +37,7 @@ $color-grey-dark:  darken($color-grey, 25%)
 $color-selection: blue
 
 $grid-transition-enable: false
+$grid-column-count: 16
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -45,6 +50,7 @@ $grid-transition-enable: false
 @import "tables"
 @import "person-list"
 @import "boxes"
+@import "breadcrumbs"
 
 @import "header"
 @import "page"

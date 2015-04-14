@@ -1,0 +1,33 @@
+# This file defines the icon classes used in crew lists and other areas of the site. See http://fontawesome.io/icons/ for the icon names.
+
+- role: Director
+  icon: ion-film-marker
+- role: Producer
+  icon: fa fa-money
+- role: Set Designer
+  icon: ion-paintbucket
+- role: Stage Manager
+  icon: fa fa-bookmark
+- role: Technical Director
+  icon: fa fa-plug
+- role: Lighting Designer
+  icon: fa fa-lightbulb-o
+- role: Technical Operator
+  icon: fa fa-headphones
+- role: Original Score
+  icon: fa fa-music
+- role: Sound Designer
+  icon: fa fa-volume-up
+- role: Make Up Artist
+  icon: ion-paintbrush
+- role: Publicity Designer
+  icon: fa fa-picture-o
+- role: Publicist
+  icon: fa fa-picture-o
+- role: Photographer
+  icon: fa fa-camera-retro
+
+- role: President
+  icon: fa fa-star
+- role: Treasurer
+  icon: fa fa-money
