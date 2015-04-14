@@ -16,7 +16,9 @@ collections:
   shows:
     layout: show
     output: true
-    # permalink: /:collection/:path/index.html
+  committees:
+    layout: show
+    output: true
 
 # Config for the prose editor
 prose:
