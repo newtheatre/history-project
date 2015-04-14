@@ -3,7 +3,10 @@ layout: default
 ---
 
 {% assign committee_page = site.collections.committees.docs | where: "year", page.year %}
-
+{% assign next_year = page.sort | plus: 1 %}
+{% assign next = site.pages | where: "group", "show_year" | where: "sort", next_year %}
+{% assign prev_year = page.sort | minus: 1 %}
+{% assign prev = site.pages | where: "group", "show_year" | where: "sort", prev_year %}
 
 <ul class="breadcrumbs">
   <li class="breadcrumb">
@@ -20,6 +23,8 @@ layout: default
   </div>
   <div class="year-links">
     <ul>
+      <li><a href="{{next[0].url}}">Next Year</a></li>
+      <li><a href="{{prev[0].url}}">Previous Year</a></li>
       {% if committee_page.size == 1 %}<li><a href="{{committee_page[0].url}}">Committee</a></li>{% endif %}
     </ul>
   </div>
