@@ -25,3 +25,41 @@
 .show-media
   img
     width: 25%
+
+
+// Lists
+
+.decade
+  @include grid-x-col(4)
+
+  $background-base: adjust-hue($color-error, 200%)
+  $background-items: -3
+
+  h3
+    background: $color-success
+    margin-bottom: $baseline / 2
+    padding: $baseline
+
+  &.decade-201 h3
+    background: adjust-hue($background-base, (100% / $background-items) * 0)
+  &.decade-200 h3
+    background: adjust-hue($background-base, (100% / $background-items) * 1)
+  &.decade-199 h3
+    background: adjust-hue($background-base, (100% / $background-items) * 2)
+  &.decade-198 h3
+    background: adjust-hue($background-base, (100% / $background-items) * 3)
+  &.decade-197 h3
+    background: adjust-hue($background-base, (100% / $background-items) * 4)
+  &.decade-196 h3
+    background: adjust-hue($background-base, (100% / $background-items) * 5)
+  &.decade-195 h3
+    background: adjust-hue($background-base, (100% / $background-items) * 6)
+
+.decade-list
+  -webkit-column-count: 2
+  -webkit-column-gap: 20px
+  li
+    padding-bottom: 0
+  .empty
+    a
+      color: $color-grey
