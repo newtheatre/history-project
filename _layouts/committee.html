@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="page">
+
+  <h1>Committee {{page.title}}</h1>
+
+  {% assign people = page.committee %}
+  {% include person_list.html %}
+</div>
+
+

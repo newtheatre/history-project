@@ -3,3 +3,13 @@ layout: page
 title: Committees
 group: top
 ---
+
+<h2>Committees by Year</h2>
+<div class="lotsa-cols">
+  {% assign c_pages = site.collections.committees.docs | sort:"title" %}
+  <ul>
+  {% for node in c_pages %}
+    <li><a href="{{node.url}}">{{node.title}}</a></li>
+  {% endfor %}
+  </ul>
+</div>
