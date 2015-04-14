@@ -1,6 +1,6 @@
 import os
 
-years = range(1950, 2015)
+years = range(1940, 2015)
 
 def make_template(year, year_range, year_range_short, year_range_short_pretty):
     return """---
