@@ -12,6 +12,9 @@ url: "http://alpha.history.newtheatre.org.uk" # the base hostname & protocol for
 markdown: kramdown
 permalink: pretty
 
+gems:
+- jekyll-sitemap
+
 collections:
   shows:
     layout: show
