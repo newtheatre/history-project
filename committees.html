@@ -6,7 +6,7 @@ sort: 20
 ---
 
 <h2>Committees by Year</h2>
-<div class="lotsa-cols">
+<div>
   {% assign c_pages = site.collections.committees.docs | sort:"title" %}
   <ul>
   {% for node in c_pages %}

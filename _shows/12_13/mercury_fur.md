@@ -32,13 +32,15 @@ crew:
     name: Nadia Amico
   - role: Producer
     name: Dasha Karzunina
-  - role: Producer (NSDF)
+  - role: Producer
+    note: NSDF
     name: Nick Barker
   - role: Technical Director
     name: Will Pimblett
   - role: Lighting Designer
     name: Jess Courtney
-  - role: Lighting Designer (NSDF)
+  - role: Lighting Designer
+    note: NSDF
     name: Will Pimblett
   - role: Sound Designer
     name: Tom Barnes
