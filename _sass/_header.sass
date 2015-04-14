@@ -30,6 +30,7 @@ $nav-height: 63px
   padding-left: 80px
   font-size: $title-text-size
   line-height: $title-text-size * $title-text-baseline
+  @include text-shadow-effect($color-background-alt)
   @include respond-down(tab-port)
     font-size: $title-text-size * 0.6
     line-height: $title-text-size * $title-text-baseline
