@@ -1,14 +1,26 @@
-====== Crossing The Rubicon ======
+---
+layout: show
+title: Crossing the Rubicon
+playwright: Cal Lewis
+season: In House
+season_sort: 100
+year: "08_09"
+period: Spring
+venue:
+  - New Theatre
+date_start: 12/12/2012
+date_end: 15/12/2012
+cast:
+  - 
+crew:
+  - role: Director
+    name: Cal Lewis
+  - role: Producer
+    name: Jackie Lee
 
-===== Key Info =====
-
-^Dates        |  |
-^Venue        | New Theatre |
-^Director     | Cal Lewis |
-^Producer     | Jackie Lee |
-^Playwright   | Cal Lewis (Devised) |
-
-===== Synopsis =====
+images:
+assets:
+---
 
 An original piece that centres around contemporary social issues. ‘Crossing the Rubicon’ serves as a commentary on life in modern-day London, the trials and tribulations one faces, and the inevitable consequences of actions.
 
@@ -17,22 +29,3 @@ The play tells the story of Jack and his sister Lizzie, two relatively ‘normal
 An ensemble, devised piece being led by artistic director Simon Thompson (see award-winning ‘Slippery Soapbox’) and produced by NT Treasurer Jackie Lee.
 
 The Die Is Cast…
-
-===== Cast =====
-
-^**Character**            |**Member's Name** |
-^ xxx                     | xxx |
-^ xxx                     | xxx |
-^ xxx                     | xxx | 
-^ xxx                     | xxx |
-^ xxx                     | xxx |
-^ xxx                     | xxx |
-^ xxx                     | xxx |
-
-
-===== Crew =====
-
-^**Role**                  |**Member's Name** |
-^ Director                 | xxx |
-^ Producer                 | xxx |
-^ Technical Director       | xxx | 
