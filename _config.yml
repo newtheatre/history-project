@@ -35,17 +35,28 @@ prose:
           label: "Show Name"
       - name: "playwright"
         field:
+          label: "Playwright"
           element: "text"
       - name: "season"
         field:
-          element: "text"
+          label: "Season"
+          element: "select"
+          options:
+            - name: "In House"
+              value: "In House"
+            - name: "Fringe"
+              value: "Fringe"
+            - name: "Edinburgh"
+              value: "Edinburgh"
       - name: "year"
         field:
           element: "text"
+          label: "Year"
           help: "This is used for academic year grouping and should be in the format yy_yy, i.e. 2012-13 would be 12_13"
       - name: "venue"
         field:
           element: "multiselect"
+          label: "Venue"
           help: "New Theatre, Studio A, Studio B or the name of an external venue. Only select one option."
           alterable: true
           options:
@@ -58,9 +69,11 @@ prose:
       - name: "date_start"
         field:
           element: "text"
+          label: "Start Date"
           help: "Date of first performance in format DD/MM/YYYY"
       - name: "date_end"
         field:
           element: "text"
+          label: "End Date"
           help: "Date of last performance in format DD/MM/YYYY"
 
