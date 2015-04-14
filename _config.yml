@@ -58,6 +58,21 @@ prose:
           label: "Season Sort"
           element: "number"
           help: "Number used to sort the season. Use multiples of ten for flexibility, i.e. the third show of the season would be 30."
+      - name: "period"
+        field:
+          label: "Season Period"
+          element: "select"
+          options:
+            - name: "Autumn"
+              value: "Autumn"
+            - name: "Spring"
+              value: "Spring"
+            - name: "Edinburgh"
+              value: "Edinburgh"
+            - name: "NSDF"
+              value: "NSDF"
+            - name: "Tour"
+              value: "Tour"
       - name: "year"
         field:
           element: "text"

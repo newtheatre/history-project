@@ -1,0 +1,10 @@
+<ul class="show-list">
+{% for show in shows %}
+
+<li>
+  <p><a href="{{show.url}}">{{show.title}}</a>{% if show.playwright %} by {{show.playwright}}{% endif %}{% if show.date_start and show.date_end %}<br />
+  {{show.date_start}} - {{show.date_end}}{% endif %}</p>
+</li>
+
+{% endfor %}
+</ul>

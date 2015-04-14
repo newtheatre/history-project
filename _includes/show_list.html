@@ -1,9 +1,45 @@
-<ul class="show-list">
-{% for show in shows %}
+{% assign autumn = shows | where: "period", "Autumn" | sort: "season_sort" %}
+{% assign spring = shows | where: "period", "Spring" | sort: "season_sort" %}
+{% assign nsdf = shows | where: "period", "NSDF" | sort: "season_sort" %}
+{% assign edinburgh = shows | where: "period", "Edinburgh" | sort: "season_sort" %}
+{% assign tour = shows | where: "period", "Tour" | sort: "season_sort" %}
+{% assign others = shows | where: "period", null | sort: "season_sort" %}
 
-<li>
-  <a href="{{show.url}}">{{show.title}}</a>
-</li>
+{% if autumn.size > 0 %}
+{% assign shows = autumn %}
+<h3>Autumn</h3>
+{% include show_list_list.html %}
+{% endif %}
 
-{% endfor %}
-</ul>
+{% if spring.size > 0 %}
+{% assign shows = spring %}
+<h3>Spring</h3>
+{% include show_list_list.html %}
+{% endif %}
+
+{% if edinburgh.size > 0 %}
+{% assign shows = edinburgh %}
+<h3>Edinburgh</h3>
+{% include show_list_list.html %}
+{% endif %}
+
+{% if nsdf.size > 0 %}
+{% assign shows = nsdf %}
+<h3>NSDF</h3>
+{% include show_list_list.html %}
+{% endif %}
+
+{% if tour.size > 0 %}
+{% assign shows = tour %}
+<h3>Tour</h3>
+{% include show_list_list.html %}
+{% endif %}
+
+{% if others.size > 0 %}
+{% assign shows = others %}
+<h3>Unassigned</h3>
+<div class="box-error">
+<i class="fa fa-exclamation-triangle"></i> The following shows are not assigned to a season period.
+</div>
+{% include show_list_list.html %}
+{% endif %}
