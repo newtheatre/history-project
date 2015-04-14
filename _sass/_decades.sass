@@ -1,0 +1,62 @@
+// Lists
+
+.decade
+  @include grid-x-col(4)
+
+  $background-base: adjust-hue($color-error, 200%)
+  $background-items: -3
+
+  h3
+    background: $color-success
+    margin-bottom: $baseline / 2
+    padding: $baseline
+
+  &.decade-201 h3
+    $shift: (100% / $background-items) * 0
+    $shift-color: adjust-hue($background-base, $shift)
+    background: $shift-color
+    @include text-shadow-effect($background-base)
+  &.decade-200 h3
+    $shift: (100% / $background-items) * 1
+    $shift-color: adjust-hue($background-base, $shift)
+    background: $shift-color
+    @include text-shadow-effect($background-base)
+  &.decade-199 h3
+    $shift: (100% / $background-items) * 2
+    $shift-color: adjust-hue($background-base, $shift)
+    background: $shift-color
+    @include text-shadow-effect($background-base)
+  &.decade-198 h3
+    $shift: (100% / $background-items) * 3
+    $shift-color: adjust-hue($background-base, $shift)
+    background: $shift-color
+    @include text-shadow-effect($background-base)
+  &.decade-197 h3
+    $shift: (100% / $background-items) * 4
+    $shift-color: adjust-hue($background-base, $shift)
+    background: $shift-color
+    @include text-shadow-effect($background-base)
+  &.decade-196 h3
+    $shift: (100% / $background-items) * 5
+    $shift-color: adjust-hue($background-base, $shift)
+    background: $shift-color
+    @include text-shadow-effect($background-base)
+  &.decade-195 h3
+    $shift: (100% / $background-items) * 6
+    $shift-color: adjust-hue($background-base, $shift)
+    background: $shift-color
+    @include text-shadow-effect($background-base)
+  &.decade-194 h3
+    $shift: (100% / $background-items) * 7
+    $shift-color: adjust-hue($background-base, $shift)
+    background: $shift-color
+    @include text-shadow-effect($background-base)
+
+.decade-list
+  -webkit-column-count: 2
+  -webkit-column-gap: 20px
+  li
+    padding-bottom: 0
+  .empty
+    a
+      color: $color-grey
