@@ -17,3 +17,50 @@ collections:
     layout: show
     output: true
     # permalink: /:collection/:path/index.html
+
+# Config for the prose editor
+prose:
+  ignore: ['_utilities', 'CNAME', '.gitignore', 'js', 'css', '_site', '_sass', '_layout', '_includes']
+  siteurl: "http://alpha.history.newtheatre.org.uk"
+  media: "images"
+  metadata:
+    _shows:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "show"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Show Name"
+      - name: "playwright"
+        field:
+          element: "text"
+      - name: "season"
+        field:
+          element: "text"
+      - name: "year"
+        field:
+          element: "text"
+          help: "This is used for academic year grouping and should be in the format yy_yy, i.e. 2012-13 would be 12_13"
+      - name: "venue"
+        field:
+          element: "multiselect"
+          help: "New Theatre, Studio A, Studio B or the name of an external venue. Only select one option."
+          alterable: true
+          options:
+            - name: "New Theatre"
+              value: "New Theatre"
+            - name: "Studio A"
+              value: "Studio A"
+            - name: "Studio B"
+              value: "Studio B"
+      - name: "date_start"
+        field:
+          element: "text"
+          help: "Date of first performance in format DD/MM/YYYY"
+      - name: "date_end"
+        field:
+          element: "text"
+          help: "Date of last performance in format DD/MM/YYYY"
+
