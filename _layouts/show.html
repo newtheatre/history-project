@@ -42,7 +42,18 @@ layout: default
         <h3>Publicity Materials</h3>
         <ul class="show-assets-list">
           {% for asset in page.assets %}
-          <li><a href="/assets/for_shows/{{ asset.filename }}">{{ asset.title }}</a></li>
+          {% if asset.filename %}
+            <li class="show-asset-file">
+              <i class="ion-document-text"></i>
+              <a href="/assets/for_shows/{{ asset.filename }}" target="_blank">{{ asset.title }}</a>
+            </li>
+          {% elsif asset.image %}
+            <li class="show-asset-image">
+              <a class="fancybox" rel="assets" href="/images/for_shows/{{ asset.image }}" title="{{ asset.caption }}">
+                <img src="/images/for_shows/{{ asset.image }}" alt="{{ asset.image }}" />
+              </a>
+            </li>
+          {% endif %}
           {% endfor %}
         </ul>
       </section>

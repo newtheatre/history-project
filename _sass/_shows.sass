@@ -56,6 +56,31 @@
       width: 100%
       box-shadow: 0px -1px darken($color-black, 20%)
 
+.show-assets-list
+  @include list-unformatted
+  @include grid-row
+  .show-asset-file, .show-asset-image
+    @include grid-x-col(4)
+  .show-asset-file
+    background: darken($color-nnt-purple, 20%)
+    position: relative
+    i
+      position: absolute
+      font-size: 91px
+      top: -18px
+      right: 10px
+      opacity: 0.2
+      pointer-events: none // Ensure clicks go though to the anchor
+    a
+      display: block
+      text-decoration: none
+      color: $color-text-white
+      padding: 161px 10px 10px 10px
+
+
+  .show-asset-image
+    img
+      width: 100%
 
 .show-cast, .show-crew
   @include grid-x-col(8)
