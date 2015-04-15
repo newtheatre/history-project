@@ -1,9 +1,12 @@
 <ul class="show-list">
 {% for show in shows %}
-
-<li>
-  <p><a href="{{show.url}}">{{show.title}}</a>{% if show.playwright %} by {{show.playwright}}{% endif %}{% if show.date_start and show.date_end %}<br />
-  {{show.date_start}} - {{show.date_end}}{% endif %}</p>
+{% assign posters = show.assets | where:'type', 'poster' %}
+<li class="show-list-single">
+  <a href="{{ show.url }}">
+    {% if posters.size > 0 %}<img src="/images/for_shows/{{ posters[0].image }}" alt="{{ show.title }} Poster" class="show-poster-thumb" />{% endif %}
+    <span class="show-list-title">{{ show.title }}</span>{% if show.playwright %} by {{ show.playwright }}{% endif %}
+    <br />{% if show.date_start and show.date_end %}<span class="show-list-date">{{ show.date_start }} - {{ show.date_end }}</span>{% endif %}
+  </a>
 </li>
 
 {% endfor %}
