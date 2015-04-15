@@ -9,6 +9,7 @@
       {% assign top_pages = site.pages | where: "group", "top" | sort: "sort" %}
       {% for node in top_pages %}
         {% if node.title %}
+        {% if node.icon %}<i class="{{ node.icon }}"></i> {% endif %}
         <a class="page-link{% if node.url == page.url %} current{% endif %}" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
         {% endif %}
       {% endfor %}
