@@ -1,14 +1,19 @@
 .show
-  @include grid-wrap
   margin-bottom: $baseline * 2
 
-.show-header
+.show-wrap
+  @include grid-row
+  @include grid-wrap
+
+.show-info
   @include grid-x-col(10)
 
-.show-playwright, .show-season, .show-date, .show-venue
-  @include grid-x-col(4)
-  // border-bottom: 1px solid $color-grey
-  font-size: $base-font-size * 1.2
+.show-header
+  @include grid-row
+  .show-playwright, .show-season, .show-date, .show-venue
+    @include grid-x-col(4)
+    // border-bottom: 1px solid $color-grey
+    font-size: $base-font-size * 1.2
 
 .show-poster
   @include grid-x-col(6)
@@ -17,11 +22,40 @@
     width: 100%
 
 .show-synopsys
-  @include grid-x-col(10)
+  @include block
+
+@mixin set-property-to-gutter($property)
+  @include respond-up(tab-port)
+    #{$property}: $grid-tab-port-gutter
+  @include respond-up(tab-land)
+    #{$property}: $grid-tab-land-gutter
+  @include respond-up(med-desk)
+    #{$property}: $grid-med-desk-gutter
+  @include respond-up(widescreen)
+    #{$property}: $grid-widescreen-gutter
+
+.show-photos-outer, .show-assets-outer
+  @include grid-wrap
+  margin-bottom: $baseline * 2
+  @include set-property-to-gutter(padding-top)
+  background: $color-black
+
+// .show-photos-outer
+
+.show-photos
+  @include grid-row
+  padding-bottom: 0
+  @include set-property-to-gutter(margin-top)
+  @include set-property-to-gutter(margin-bottom)
+  .show-photo-single
+    @include grid-x-col(4)
+
+    @include set-property-to-gutter(margin-bottom)
+
+    img
+      width: 100%
+      box-shadow: 0px -1px darken($color-black, 20%)
+
 
 .show-cast, .show-crew
   @include grid-x-col(8)
-
-.show-media
-  img
-    width: 25%
