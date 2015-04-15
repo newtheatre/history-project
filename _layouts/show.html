@@ -18,13 +18,15 @@ layout: default
 <div class="show">
 
   {% if page.date_start == null %}
+  <div class="show-wrap">
     <div class="box-error">
       <i class="fa fa-exclamation-triangle"></i>
       <p><strong>Missing Basic Details</strong> We're missing basic details from this record. If you can help see the <a href="/contributing/">contributing</a> page.</p>
     </div>
+  </div>
   {% endif %}
 
-  <div class="show-wrap">
+  <div class="show-wrap show-row">
     <div class="show-info">
       <header class="show-header">
         <h1 class="show-title">{{ page.title }}</h1>
@@ -97,7 +99,7 @@ layout: default
 
   </div> -->
 
-  <div class="show-wrap">
+  <div class="show-wrap show-row">
     <section class="show-cast">
       <h3>Cast: {{ page.cast | size }}</h3>
       {% if page.cast == null %}

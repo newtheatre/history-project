@@ -2,8 +2,12 @@
   margin-bottom: $baseline * 2
 
 .show-wrap
-  @include grid-row
   @include grid-wrap
+
+.show-row
+  @include grid-row
+  *:last-child
+    padding-right: 0
 
 .show-info
   @include grid-x-col(10)
