@@ -64,7 +64,9 @@ layout: default
     <section class="show-photos">
       {% for image in page.photos %}
       <div class="show-photo-single">
-        <img src="/images/for_shows/{{ image.image }}" alt="{{ image.image }}" class="show-image" />
+        <a class="fancybox" rel="photos" href="/images/for_shows/{{ image.image }}" title="{{ image.caption }}">
+          <img src="/images/for_shows/{{ image.image }}" alt="{{ image.image }}" class="show-image" />
+        </a>
       </div>
       {% endfor %}
     </section>
