@@ -24,9 +24,9 @@ crew:
   - role: Director
     name: Jacob Hayes
 
-images:
+assets:
   - type: poster
-    filename: me_as_a_penguin_poster.jpg
+    image: me_as_a_penguin_poster.jpg
 published: true
 ---
 

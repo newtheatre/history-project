@@ -8,7 +8,7 @@ period: Autumn
 year: "11_12"
 categories: "10-11"
 date_start: 12/11/2011
-cast: 
+cast:
   - role: Mary Adams
     name: "Georgina Jeronymides-Norie"
   - role: Mrs Adams
@@ -21,16 +21,16 @@ cast:
     name: Zoe Moulton
   - role: Norma
     name: "Mary-Rose Clark"
-crew: 
+crew:
   - role: Director
     name: Emily Heaton
   - role: Producer
     name: Sophie Hiscock
-images: 
+assets:
   - type: poster
-    filename: be_my_baby_poster.jpg
+    image: be_my_baby_poster.jpg
 published: true
-venue: 
+venue:
   - New Theatre
 ---
 

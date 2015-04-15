@@ -50,9 +50,9 @@ crew:
     name: Megan Seeley
   - role: Technical Operator
     name: Zoe Plumber
-images:
+assets:
   - type: poster
-    filename: mercury_fur_poster.jpg
+    image: mercury_fur_poster.jpg
 published: true
 ---
 
