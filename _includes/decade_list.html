@@ -1,5 +1,5 @@
 {% assign year_pages_unsorted = year_pages_decade | where: "group", "show_year" %}
-{% assign year_pages = year_pages_unsorted | sort:"year" %}
+{% assign year_pages = year_pages_unsorted | sort:"rev_sort" %}
 <ul class="decade-list">
   {% for node in year_pages %}
   {% assign shows_in_year = site.collections.shows.docs | where: "year", node.year %}
