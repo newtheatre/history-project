@@ -44,7 +44,8 @@ layout: default
           {% for asset in page.assets %}
           {% if asset.filename %}
             <li class="show-asset-file">
-              <i class="ion-document-text"></i>
+              {% if asset.type == "programme" %}<i class="ion-ios-book-outline"></i>
+              {% else %}<i class="ion-document-text"></i>{% endif %}
               <a href="/assets/for_shows/{{ asset.filename }}" target="_blank">{{ asset.title }}</a>
             </li>
           {% elsif asset.image %}
