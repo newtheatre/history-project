@@ -3,6 +3,15 @@
 <ul class="decade-list">
   {% for node in year_pages %}
   {% assign shows_in_year = site.collections.shows.docs | where: "year", node.year %}
-  <li {% if shows_in_year.size == 0 %}class="empty"{% endif %}><a href="{{node.url}}">{{node.title}}</a> {% if shows_in_year.size > 0 %}({{shows_in_year.size}}){% endif %}</li>
+  {% assign committee_page = site.collections.committees.docs | where: "year", node.year %}
+
+  <li {% if shows_in_year.size == 0 %}class="empty"{% endif %}><a href="{{node.url}}">{{node.title}}</a>
+
+  {% if shows_in_year.size > 0 %}{{shows_in_year.size}}{% endif %}
+
+  {% if committee_page.size != 0 %}C{% endif %}
+
+  </li>
+
   {% endfor %}
 </ul>
