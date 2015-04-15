@@ -31,7 +31,11 @@ X
       {% endif %}
     </div>
     <div class="person-name">
-      {{ person.name }}
+      {% if person.name == "unknown" %}
+        <span class="unknown">Unknown</span>
+      {% else %}
+        {{ person.name }}
+      {% endif %}
     </div>
   </li>
 {% endfor %}
