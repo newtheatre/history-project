@@ -71,6 +71,14 @@ layout: default
 
   </div>
 
+  {% if page.photos == null %}
+  <div class="grid-wrap">
+    <div class="box-error">
+      <i class="fa fa-camera"></i>
+      <p><strong>Missing Production Shots</strong> We're missing photographs of the show. If you can help see the <a href="/contributing/">contributing</a> page.</p>
+    </div>
+  </div>
+  {% else %}
   <div class="show-photos-outer">
     <section class="show-photos">
       {% for image in page.photos %}
@@ -82,6 +90,7 @@ layout: default
       {% endfor %}
     </section>
   </div>
+  {% endif %}
 
 <!--   <div class="show-assets-outer">
 
