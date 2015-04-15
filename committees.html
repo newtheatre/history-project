@@ -10,7 +10,7 @@ sort: 20
   {% assign c_pages = site.collections.committees.docs | sort:"title" %}
   <ul>
   {% for node in c_pages %}
-    <li><a href="{{node.url}}">{{node.title}}</a></li>
+    <li><a href="{{node.url}}">{{node.title}}</a> ({{node.committee.size}})</li>
   {% endfor %}
   </ul>
 </div>
