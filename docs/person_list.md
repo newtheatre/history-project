@@ -11,8 +11,8 @@ A person list is a format for storing a list of roles and names. They are used f
 
 | Attribute | Job | Description |
 |:-|:-|:-|
-| `role` | Corresponds to name of a role (acting, crew) or position (committee). |  |
-| `name` | The person's name. | Should be formatted `FirstName LastName`. |
+| `role` | Corresponds to name of a role (acting, crew) or position (committee). | Can be set to `unknown` which will tag the role as unknown. |
+| `name` | The person's name. | Formatted `FirstName LastName`. Can be set to `unknown` which will tag the name as unknown. |
 | `note` *(optional)* | An optional note. | Currently this is shown in brackets after the role when rendered. |
 
 ## Example Person List
