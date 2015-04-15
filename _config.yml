@@ -42,6 +42,11 @@ prose:
         field:
           label: "Playwright"
           element: "text"
+      - name: "student_written"
+        field:
+          label: "Student Written"
+          help: "Is this show written by an NT member?"
+          element: "boolean"
       - name: "season"
         field:
           label: "Season"
