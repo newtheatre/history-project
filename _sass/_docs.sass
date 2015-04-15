@@ -1,0 +1,18 @@
+.docs
+  @include grid-wrap
+  margin-bottom: $baseline * 2
+  .docs-nav
+    @include grid-x-col(5)
+    .docs-nav-inner
+      width: 87%
+      padding: 20px
+      background: darken($color-nnt-purple, 20%)
+    ul
+      margin-bottom: 0
+    li
+      padding-bottom: $baseline / 2
+    h2
+      font-size: 24px
+      line-height: $baseline
+  .docs-content
+    @include grid-x-col(11)

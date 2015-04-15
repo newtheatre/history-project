@@ -17,5 +17,5 @@ We use Git and GitHub to both collaborate on and serve this website.
 
 1. Post a report on our [issue tracker](https://github.com/newtheatre/history-project/issues). We use a GitHub issue tracker for both design and content changes to the site.
 
-2. If you're technically inclined create a [pull request](https://github.com/newtheatre/history-project/compare) on our repository.
+2. If you're technically inclined read our [docs](/docs/) and create a [pull request](https://github.com/newtheatre/history-project/compare) on our repository.
 

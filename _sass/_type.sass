@@ -119,10 +119,12 @@ strong
 a:link
   color: $color-link
   font-weight: 600
+  text-decoration: none
 
 a:visited
   color: $color-link-visited
 .content a:hover
+  text-decoration: underline
   // Content link hover effect
   // background: $color-link-highlight
 
@@ -197,6 +199,18 @@ code
   padding: 2px 3px
   white-space: pre-wrap
   word-wrap: break-word
+
+div.highlight
+  background: $color-background-alt
+  color: $color-text-white
+  padding: $base-font-size / 2
+  // Make jekyll highlight a block
+  @include block
+  pre
+    white-space: pre-wrap
+    margin-bottom: 0 // Pre is block
+  code
+    background: none
 
 .external-link
   .icon

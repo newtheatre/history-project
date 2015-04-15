@@ -69,10 +69,6 @@ prose:
               value: "Spring"
             - name: "Edinburgh"
               value: "Edinburgh"
-            - name: "NSDF"
-              value: "NSDF"
-            - name: "Tour"
-              value: "Tour"
       - name: "year"
         field:
           element: "text"
