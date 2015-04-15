@@ -1,13 +1,34 @@
+{% capture unknowns %}
+{% for person in people %}
+{% if person.role == "unknown" %}
+X
+{% elsif person.name == "unknown" %}
+X
+{% endif %}
+{% endfor %}
+{% endcapture %}
+
+{% if unknowns contains "X" %}
+<div class="box-warning">
+  <i class="fa fa-question"></i>
+  Some items on this list are unknown, if you can help see the <a href="/contributing/">contributing</a> page.
+</div>
+{% endif %}
+
 <ul class="person-list">
 {% for person in people %}
   <li class="person-single">
     <div class="person-role">
-      {% for role in site.data.role-icons %}
-        {% if person.role == role.role %}
-        <i class="{{ role.icon }}"></i>
-        {% endif %}
-      {% endfor %}
-      {{ person.role }} {% if person.note %}({{ person.note }}){% endif %}
+      {% if person.role == "unknown" %}
+        <span class="unknown">Unknown</span>
+      {% else %}
+        {% for role in site.data.role-icons %}
+          {% if person.role == role.role %}
+          <i class="{{ role.icon }}"></i>
+          {% endif %}
+        {% endfor %}
+        {{ person.role }} {% if person.note %}({{ person.note }}){% endif %}
+      {% endif %}
     </div>
     <div class="person-name">
       {{ person.name }}
