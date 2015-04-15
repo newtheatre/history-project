@@ -58,18 +58,33 @@ crew:
     name: Nick Barker
   - role: Photographer
     name: Frazer Roberts
-images:
-  - type: poster
-    filename: pillowman_poster.jpg
-  - type: flyer
-    filename: pillowman_flyer_2.png
+photos:
   - type: photo
-    filename: pillowman_crew.jpg
+    image: pillowman_crew.jpg
     caption: "Cast and Crew shot. From back left: Jess Courtney, Gareth Morris, Livvy Hobson, Dan O'Connor, Charlotte Ball, Jacob Hayes, James McAndrew, Nick Stevenson, Chelsea Jayne Wright, Emily Heaton. Bottom from left: Sam Haywood, Will Randall, Alex Hollingsworth"
+  - type: photo
+    image: pillowman_crew.jpg
+  - type: photo
+    image: pillowman_crew.jpg
+  - type: photo
+    image: pillowman_crew.jpg
+  - type: photo
+    image: pillowman_crew.jpg
+  - type: photo
+    image: pillowman_crew.jpg
+  - type: photo
+    image: pillowman_crew.jpg
+  - type: photo
+    image: pillowman_crew.jpg
 assets:
+  - type: poster
+    image: pillowman_poster.jpg
+  - type: flyer
+    image: pillowman_flyer_2.png
   - type: programme
     filename: the_pillowman_programme.pdf
     title: Programme
+
 published: true
 ---
 
