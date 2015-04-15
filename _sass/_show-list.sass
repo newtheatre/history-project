@@ -1,0 +1,25 @@
+.show-list
+  @include list-unformatted
+
+  .show-list-single
+    margin-bottom: $baseline / 2
+    a
+      font-weight: 400
+      display: block
+      padding: 10px
+      overflow: auto
+      color: $color-text-white
+      &:hover
+        background: darken($color-nnt-purple, 20%)
+        text-decoration: none
+    .show-list-title
+      color: $color-link
+      font-weight: 600
+    .show-list-date
+      font-size: 14px
+      color: $color-grey
+
+.show-poster-thumb
+  width: 39px
+  float: left
+  padding-right: 6px
