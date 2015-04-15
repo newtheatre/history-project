@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="docs">
+  <nav class="docs-nav">
+    <div class="docs-nav-inner">
+      <h2>Documentation</h2>
+      <ul>
+      {% assign docs_pages = site.pages | where:"group", "docs" | sort: "sort" %}
+      {% for node in docs_pages %}
+        <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+  </nav>
+  <article class="docs-content">
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+  </article>
+
+</div>
