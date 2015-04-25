@@ -4,9 +4,9 @@ layout: default
 
 {% assign committee_page = site.collections.committees.docs | where: "year", page.year %}
 {% assign next_year = page.sort | plus: 1 %}
-{% assign next = site.pages | where: "group", "show_year" | where: "sort", next_year %}
+{% assign next = site.pages | where: "group", "year" | where: "sort", next_year %}
 {% assign prev_year = page.sort | minus: 1 %}
-{% assign prev = site.pages | where: "group", "show_year" | where: "sort", prev_year %}
+{% assign prev = site.pages | where: "group", "year" | where: "sort", prev_year %}
 
 <ul class="breadcrumbs">
   <li class="breadcrumb">
@@ -15,20 +15,30 @@ layout: default
   <li class="breadcrumb breadcrumb-{{ page.decade }}">
     <a href="{{ page.url }}">{{ page.title }}</a>
   </li>
+
 </ul>
 
 <div class="page">
   <div class="year-shows">
     {{ content }}
-  </div>
-  <div class="year-links">
     <ul>
       <li><a href="{{next[0].url}}">Next Year</a></li>
       <li><a href="{{prev[0].url}}">Previous Year</a></li>
-      {% if committee_page.size == 1 %}<li><a href="{{committee_page[0].url}}">Committee</a></li>{% endif %}
     </ul>
+  </div>
+  <div class="year-links">
     {% if committee_page.size == 0 %}
     {% include boxes/committee_missing.html %}
     {% endif %}
+
+    {% if committee_page[0].size < 0 %}<h3>Committee {{page.title}}</h3>{% endif %}
+
+    {% if committee_page[0].size < 6 %}
+      {% include boxes/committee_short.html %}
+    {% endif %}
+
+    {% assign people = committee_page[0].committee %}
+    {% include person_list.html %}
+
   </div>
 </div>
