@@ -7,7 +7,7 @@ season_sort: 10
 period: Autumn
 year: "11_12"
 categories: "10-11"
-date_start: 12/11/2011
+date_start: 2011-11-12
 cast:
   - role: Mary Adams
     name: "Georgina Jeronymides-Norie"
