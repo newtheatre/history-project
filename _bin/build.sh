@@ -9,6 +9,8 @@ fi
 # enable error reporting to the console
 set -e
 
+echo $TRAVIS_BUILD_NUMBER > _includes/travis_build_number.txt
+
 # build site with jekyll, by default to `_site' folder
 bundle exec jekyll build
 
