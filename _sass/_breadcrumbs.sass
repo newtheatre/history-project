@@ -1,12 +1,10 @@
 $line: 2px red solid
 
-$color-1: darken($color-nnt-orange, 8%)
-$color-2: darken($color-nnt-orange, 12%)
-$color-3: darken($color-nnt-orange, 14%)
-$color-4: darken($color-nnt-orange, 16%)
-$color-5: darken($color-nnt-orange, 18%)
-
-$color-hover: darken($color-nnt-orange, 24%)
+$color-1: $color-grey-dark
+$color-2: darken($color-grey-dark, 12%)
+$color-3: darken($color-grey-dark, 14%)
+$color-4: darken($color-grey-dark, 16%)
+$color-5: darken($color-grey-dark, 18%)
 
 .breadcrumbs
   @include grid-wrap
@@ -83,8 +81,7 @@ $color-hover: darken($color-nnt-orange, 24%)
 //   pointer-events: none
 //   cursor: default
 
-
-.breadcrumbs li a:hover
-  background: $color-hover
-.breadcrumbs li a:hover:after
-  border-left-color: $color-hover !important
+.breadcrumbs li:first-child a:hover
+  background: darken($color-1, 8%)
+.breadcrumbs li:first-child a:hover:after
+  border-left-color: darken($color-1, 8%) !important

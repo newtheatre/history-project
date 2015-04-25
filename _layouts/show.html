@@ -3,14 +3,18 @@ layout: default
 ---
 {% assign year_page = site.pages | where: "group", "show_year" | where: "year", page.year %}
 {% assign posters = page.assets | where:'type', 'poster' %}
+
+{% assign year = page.year %}
+{% include liquid/year_to_decade.html %}
+
 <ul class="breadcrumbs">
   <li class="breadcrumb">
     <a href="/shows/">Shows</a>
   </li>
-  <li class="breadcrumb">
+  <li class="breadcrumb breadcrumb-{{ decade }}">
     <a href="/shows/{{page.year}}">{{ year_page[0].title }}</a>
   </li>
-  <li class="breadcrumb">
+  <li class="breadcrumb breadcrumb-{{ decade }}-child">
     <a href="{{page.url}}">{{page.title}}</a>
   </li>
 </ul>
