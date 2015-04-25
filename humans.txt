@@ -1,0 +1,19 @@
+---
+---
+/* TEAM */
+  Project Lead / Developer: Will Pimblett
+  Contact: webmaster [at] newtheatre.org.uk
+  Twitter: @willpimblett
+  From: Cambridge, UK
+
+  Project Lead / Content: Phil Geller
+
+/* THANKS */
+
+  Content: Person Name
+
+/* SITE */
+  Last update: {{site.time | date: "%Y-%m-%d" }}
+  Language: English
+  Doctype: HTML5
+  IDE: Sublime Text, Prose.io
