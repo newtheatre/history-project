@@ -9,7 +9,7 @@ This site aims to collect much information about past shows of the New Theatre.
 
 The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the academic year 'span'.
 
-## Attribute Reference
+## <i class="fa fa-tags"></i> Attribute Reference
 
 | Attribute | Job | Description |
 |:-|:-|:-|
@@ -31,7 +31,7 @@ The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the 
 | `comments` | Reserved for editor comments, will **never** show up on the live site. |
 
 
-## Example Show
+## <i class="octicon octicon-code"></i> Example Show
 
 {% highlight yaml %}
 ---
