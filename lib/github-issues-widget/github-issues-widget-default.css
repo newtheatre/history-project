@@ -1,0 +1,42 @@
+#github-issues-widget {
+  background-color: #e2ecf2;
+  width: 300px;
+  border: 1px solid #cccccc;
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+}
+#github-issues-widget ul {
+  margin: 0;
+  padding: 0;
+}
+#github-issues-widget li {
+  list-style-type: none;
+  margin: 0;
+  padding: 3px;
+  border-bottom: 1px solid #cccccc;
+  font-size: 14px;
+  line-height: 19px;
+}
+#github-issues-widget .label {
+  background-color: #ededed;
+  border: 1px solid #bdbdbd;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 9px;
+  padding: 0 2px;
+  margin: 0 0.5em;
+}
+#github-issues-widget li a {
+  text-decoration: none;
+  color: black;
+}
+#github-issues-widget li a:hover {
+  text-decoration: underline;
+}
+#github-issues-widget p.loading {
+  text-align: center;
+  font-size: 11px;
+  font-style: italic;
+}
