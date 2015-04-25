@@ -8,8 +8,8 @@ year: "12_13"
 period: Spring
 venue:
   - New Theatre
-date_start: 20/02/2013
-date_end: 23/02/2013
+date_start: 2013-02-20
+date_end: 2013-02-23
 cast:
   - role: Stitch
     name: Oliver Kiddell

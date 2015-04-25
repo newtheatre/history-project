@@ -117,10 +117,10 @@ prose:
         field:
           element: "text"
           label: "Start Date"
-          help: "Date of first performance in format DD/MM/YYYY"
+          help: "Date of first performance in format YYYY-MM-DD"
       - name: "date_end"
         field:
           element: "text"
           label: "End Date"
-          help: "Date of last performance in format DD/MM/YYYY"
+          help: "Date of last performance in format YYYY-MM-DD"
 

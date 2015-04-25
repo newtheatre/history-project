@@ -9,8 +9,8 @@ year: "08_09"
 period: Spring
 venue:
   - New Theatre
-date_start: 12/12/2012
-date_end: 15/12/2012
+date_start:
+date_end:
 cast:
 crew:
   - role: Director

@@ -21,8 +21,8 @@ The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the 
 | `season_sort` | Order which this show comes in the entire year in a multiple of 10. | i.e. The Pillowman was the 7th show in the season, so the sort is 70. |
 | `year` | Year this show belongs to in the format YY_YY | i.e. The Pillowman was performed in the 2012-13 academic year so the year is "12_13" |
 | `venue` | Venue show was performed in. | There should only be one item in this list. |
-| `date_start` | Date of first performance | *Format under review, DD/MM/YYYY* |
-| `date_end` | Date of last performance | *Format under review, DD/MM/YYYY* |
+| `date_start` | Date of first performance | In the format YYYY-MM-DDD |
+| `date_end` | Date of last performance | In the format YYYY-MM-DDD |
 | `cast` | Cast members | Uses the [person list](/docs/person_list) format. |
 | `crew` | Crew members | Uses the [person list](/docs/person_list) format. |
 | `photos` | Production shots | Uses the [photos and assets](/docs/photos_and_assets) format. |

@@ -8,8 +8,8 @@ year: "12_13"
 period: Autumn
 venue:
   - PAS, Trent Building
-date_start: 03/11/2012
-date_end: 06/11/2012
+date_start: 2012-11-03
+date_end: 2012-11-06
 cast:
   - role: Eliot
     name: Andy Routledge
