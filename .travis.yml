@@ -1,0 +1,10 @@
+language: ruby
+script: _bin/build.sh
+branches:
+  only:
+  - gh-pages
+rvm:
+- 2.1.2
+env:
+  global:
+    secure: KEaPPezS8BSGFmCLKkHikaCxIibWIq3Pp6fXLwNc7avkvlgF9qsFVgMS2GsCL3c/Hj+xXjmwziXAl9VCP/s8+K1Q1epXKlqXz3HOXFnt9Y5rpaOtHgugq4e9KhmQrlQp52cnemVGvfQNbXxMw6D/cvaa2O++Dne+cvGcENLvCB8=
