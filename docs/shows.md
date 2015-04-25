@@ -28,6 +28,7 @@ The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the 
 | `photos` | Production shots | Uses the [photos and assets](/docs/photos_and_assets) format. |
 | `assets` | Publicity and other materials | Uses the [photos and assets](/docs/photos_and_assets) format. |
 | `published` | *Not yet used!* Will in the future hide the show if set to false. |
+| `comments` | Reserved for editor comments, will **never** show up on the live site. |
 
 
 ## Example Show
