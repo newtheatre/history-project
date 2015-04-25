@@ -28,10 +28,7 @@ layout: default
       {% if committee_page.size == 1 %}<li><a href="{{committee_page[0].url}}">Committee</a></li>{% endif %}
     </ul>
     {% if committee_page.size == 0 %}
-    <div class="box-error">
-      <i class="fa fa-exclamation-triangle"></i>
-      <p><strong>Missing Committee Listing</strong> We're missing the committee listing for this year. If you can help see the <a href="/contributing/">contributing</a> page.</p>
-    </div>
+    {% include boxes/committee_missing.html %}
     {% endif %}
   </div>
 </div>

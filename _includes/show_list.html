@@ -1,13 +1,7 @@
 {% if shows.size == 0 %}
-<div class="box-error">
-  <i class="fa fa-exclamation-triangle"></i>
-  <p><strong>Missing Shows</strong> We're missing all the shows from this year. If you can help see the <a href="/contributing/">contributing</a> page.</p>
-</div>
+{% include boxes/shows_missing_all.html %}
 {% else shows.size < 10 %}
-<div class="box-warning">
-  <i class="fa fa-exclamation-triangle"></i>
-  <p><strong>Missing Shows</strong> We're missing a lot of the shows from this year. If you can help see the <a href="/contributing/">contributing</a> page.</p>
-</div>
+{% include boxes/shows_missing_some.html %}
 {% endif %}
 
 {% assign autumn = shows | where: "period", "Autumn" | sort: "season_sort" %}
@@ -50,8 +44,6 @@
 {% if others.size > 0 %}
 {% assign shows = others %}
 <h3>Unassigned</h3>
-<div class="box-error">
-<i class="fa fa-exclamation-triangle"></i> The following shows are not assigned to a season period.
-</div>
+{% include boxes/shows_unassigned.html %}
 {% include show_list_list.html %}
 {% endif %}
