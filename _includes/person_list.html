@@ -22,11 +22,7 @@ X
       {% if person.role == "unknown" %}
         <span class="unknown">Unknown</span>
       {% else %}
-        {% for role in site.data.role-icons %}
-          {% if person.role == role.role %}
-          <i class="{{ role.icon }}"></i>
-          {% endif %}
-        {% endfor %}
+        {% for role in site.data.role-icons %}{% if person.role == role.role %}<i class="{{ role.icon }}"></i>{% endif %}{% endfor %}
         {{ person.role }} {% if person.note %}({{ person.note }}){% endif %}
       {% endif %}
     </div>

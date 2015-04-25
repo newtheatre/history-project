@@ -6,7 +6,7 @@
     {% if posters.size > 0 %}<img src="/images/for_shows/{{ posters[0].image }}" alt="{{ show.title }} Poster" class="show-poster-thumb" />{% endif %}
     <span class="show-list-title">{{ show.title }}</span>{% if show.playwright %}
     by {% if show.student_written %}<i class="fa fa-pencil show-student-written" title="Student Written"></i> {% endif %}{{ show.playwright }}{% endif %}
-    <br />{% if show.date_start and show.date_end %}<span class="show-list-date">{{ show.date_start }} - {{ show.date_end }}</span>{% endif %}
+    <br />{% if show.date_start and show.date_end %}<span class="show-list-date">{% include liquid/date_range.html %}</span>{% endif %}
   </a>
 </li>
 
