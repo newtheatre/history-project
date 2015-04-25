@@ -1,10 +1,12 @@
+$inner-width: 87%
+
 .docs
   @include grid-wrap
   margin-bottom: $baseline * 2
   .docs-nav
     @include grid-x-col(5)
     .docs-nav-inner
-      width: 87%
+      width: $inner-width
       padding: 20px
       background: darken($color-nnt-purple, 20%)
     ul
@@ -16,3 +18,25 @@
       line-height: $baseline
   .docs-content
     @include grid-x-col(11)
+
+.docs-nav-tabs
+  @include grid-clear
+  width: $inner-width
+
+  .docs-nav-tab
+    float: left
+    width: 50%
+    background: darken($color-nnt-purple, 30%)
+    &.current
+      background: darken($color-nnt-purple, 22%)
+      a
+      color: darken($color-text-white, 2%)
+
+    a
+      display: block
+      padding: $baseline / 2
+      text-align: center
+      color: $color-text-white
+      text-transform: uppercase
+      font-size: $base-font-size * 0.8
+

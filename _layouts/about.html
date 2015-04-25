@@ -4,16 +4,16 @@ layout: default
 <div class="docs">
   <nav class="docs-nav">
     <div class="docs-nav-tabs">
-      <div class="docs-nav-tab">
+      <div class="docs-nav-tab current">
         <a href='/about/'>About</a>
       </div>
-      <div class="docs-nav-tab current">
+      <div class="docs-nav-tab">
         <a href='/docs/'>Docs</a>
       </div>
     </div>
     <div class="docs-nav-inner">
       <ul>
-      {% assign docs_pages = site.pages | where:"group", "docs" | sort: "sort" %}
+      {% assign docs_pages = site.pages | where:"group", "about" | sort: "sort" %}
       {% for node in docs_pages %}
         <li><a href="{{ node.url }}">{{ node.title }}</a></li>
       {% endfor %}
@@ -21,7 +21,6 @@ layout: default
     </div>
   </nav>
   <article class="docs-content">
-    <h1>{{ page.title }}</h1>
     {{ content }}
   </article>
 

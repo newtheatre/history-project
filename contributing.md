@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: about
+group: about
 title: Contributing
+sort: 20
 ---
 
 # {{ page.title }}
