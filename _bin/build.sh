@@ -27,4 +27,4 @@ git config user.email "webmaster@newtheatre.org.uk"
 git config user.name "NTHP Build Bot"
 git add -A .
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git push --quiet origin travis-build-test > /dev/null 2>&1 # Hiding all the output from git push command, to prevent token leak.
+git push --quiet origin gh-pages > /dev/null 2>&1 # Hiding all the output from git push command, to prevent token leak.
