@@ -25,6 +25,25 @@ collections:
     layout: show
     output: true
 
+image:
+  source: images
+  output: images/resized
+  presets:
+    show_poster_thumb:
+      attr:
+        class: show-poster-thumb
+        alt: Show poster
+      width: 40
+    show_poster:
+      attr:
+        class: show-poster
+      width: 400
+    show_asset:
+      width: 190
+    show_photo:
+      width: 300
+
+
 # Config for the prose editor
 prose:
   ignore: ['_bin', '_utilities', 'CNAME', '.gitignore', 'js', 'css', '_site', '_sass', '_layout', '_includes', '.travis.yml', 'Gemfile', 'Gemfile.lock']
