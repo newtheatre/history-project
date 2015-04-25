@@ -10,7 +10,7 @@ Show records currently have a *'Publicity Materials'* and *'Production Shots'* s
 The image files themselves are kept in the `images/for_shows/` folder whereas anything else (PDFs etc) are kept in `assets/for_shows/`.
 
 
-## Attribute Reference
+## <i class="fa fa-tags"></i> Attribute Reference
 
 | Attribute | Job | Description |
 |:-|:-|:-|
@@ -19,7 +19,7 @@ The image files themselves are kept in the `images/for_shows/` folder whereas an
 | `filename`<br />*(semi-optional)* | If non-image (PDF etc) the filename | Will look under `assets/for_shows/`. |
 | `caption`<br />*(image only, optional)* | Image caption | Is shown when image is clicked on to make big. |
 
-## Example
+## <i class="octicon octicon-code"></i> Example
 
 {% highlight yaml %}
 photos:
@@ -37,7 +37,7 @@ assets:
     title: Programme
 {% endhighlight %}
 
-## Uploading
+## <i class="fa fa-upload"></i> Uploading
 
 <div class="box-error">This needs writing up.</div>
 

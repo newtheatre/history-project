@@ -7,7 +7,7 @@ sort: 30
 
 <div class="col-2-3" markdown="1">
 
-# {{ page.title }}
+# <i class="octicon octicon-milestone"></i> {{ page.title }}
 
 Our current timeline:
 
@@ -19,7 +19,7 @@ Our current timeline:
 
 <div class="col-1-3">
 
-<h3>Open Issues</h3>
+<h3 class="h1-baseline"><i class="octicon octicon-issue-opened"></i> Open Issues</h3>
 
 <div id="github-issues-widget"></div>
 <script type="text/javascript">

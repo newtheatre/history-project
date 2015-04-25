@@ -2,7 +2,7 @@ language: ruby
 cache:
   bundler: true
   directories:
-    - _site/
+  - _site/
 script: _bin/build.sh
 branches:
   only:
@@ -11,4 +11,5 @@ rvm:
 - 2.1.2
 env:
   global:
-    secure: KEaPPezS8BSGFmCLKkHikaCxIibWIq3Pp6fXLwNc7avkvlgF9qsFVgMS2GsCL3c/Hj+xXjmwziXAl9VCP/s8+K1Q1epXKlqXz3HOXFnt9Y5rpaOtHgugq4e9KhmQrlQp52cnemVGvfQNbXxMw6D/cvaa2O++Dne+cvGcENLvCB8=
+  - secure: KEaPPezS8BSGFmCLKkHikaCxIibWIq3Pp6fXLwNc7avkvlgF9qsFVgMS2GsCL3c/Hj+xXjmwziXAl9VCP/s8+K1Q1epXKlqXz3HOXFnt9Y5rpaOtHgugq4e9KhmQrlQp52cnemVGvfQNbXxMw6D/cvaa2O++Dne+cvGcENLvCB8=
+  - secure: NZXEvEfEjB+9Adgc4irbQWF6xYGIjvlAIkUYOzsK135sIbsK4xxjnAGfkEuaKv0LBaUeTh7jGJZKPE8IeStPkcbX6K4G6P3Q9joOCnwBF+hz43wheKpBmkv5wZSJ3+TEdo42D4E1/5D1cX2rzYY4QyWZ5FSzkO7B2RitZ+cEN0Q=

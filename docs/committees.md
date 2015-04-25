@@ -7,7 +7,7 @@ sort: 30
 
 Committee listings are stored as `_committees/YY_YY.md` with YY_YY being the academic year 'span'.
 
-## Attribute Reference
+## <i class="fa fa-tags"></i> Attribute Reference
 
 | Attribute | Job | Description |
 |:-|:-|:-|
@@ -18,7 +18,7 @@ Committee listings are stored as `_committees/YY_YY.md` with YY_YY being the aca
 | `comments` | Reserved for editor comments, will **never** show up on the live site. |
 
 
-## Example Committee
+## <i class="octicon octicon-code"></i> Example Committee
 
 {% highlight yaml %}
 ---

@@ -5,7 +5,7 @@ title: About This Site
 sort: 10
 ---
 
-# {{ page.title }}
+# <i class="octicon octicon-circuit-board"></i> {{ page.title }}
 
 This site is an initiative of the [New Theatre Alumni Network](http://newtheatre.org.uk/alumni).
 

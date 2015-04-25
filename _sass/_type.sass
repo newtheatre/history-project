@@ -25,26 +25,39 @@ h1, h2, h3, h4, h5, h6
   font-family: $header-font-stack
   @include block
 
-h1
-  font-size: $base-font-size * 2.9
+.h1-baseline
   line-height: $baseline * 3
+.h2-baseline
+  line-height: $baseline * 2
+.h3-baseline
+  line-height: $baseline
+.h4-baseline
+  line-height: $baseline
+.h5-baseline
+  line-height: $baseline
+.h6-baseline
+  line-height: $baseline
+
+h1
+  @extend .h1-baseline
+  font-size: $base-font-size * 2.9
   @include respond-down(mob-port)
     font-size: $base-font-size * 2.4
 h2
+  @extend .h2-baseline
   font-size: $base-font-size * 2.2
-  line-height: $baseline * 2
 h3
+  @extend .h3-baseline
   font-size: $base-font-size * 1.8
-  line-height: $baseline
 h4
+  @extend .h4-baseline
   font-size: $base-font-size * 1.4
-  line-height: $baseline
 h5
+  @extend .h5-baseline
   font-size: $base-font-size
-  line-height: $baseline
 h6
+  @extend .h6-baseline
   font-size: $base-font-size * 0.8
-  line-height: $baseline
 
 h2, .h2-baseline
   line-height: $baseline * 2
@@ -52,6 +65,7 @@ h2, .h2-baseline
 h4.h3-baseline
   // If h3 is going to sit across from an h4 we can force double line-height
   // line-height: $baseline * 2
+
 
 @mixin normal-text-nobr
   line-height: $baseline
@@ -223,6 +237,10 @@ div.highlight
   display: inline-block
   background: darken($color-nnt-purple, 20%)
   padding: 1px 6px
+
+.octicon
+  // Octicons
+  font-size: inherit
 
 dl
   dt
