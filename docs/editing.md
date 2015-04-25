@@ -24,3 +24,9 @@ This is the more complicated option, the benefits are you can use a desktop text
 Dependences of this site are managed with [Bundler](http://bundler.io/), install it if you haven't got it already and just do `bundle install`.
 
 To get Jekyll up and running do `bundle exec jekyll serve --watch`, the site will then be available on <http://localhost:4000>.
+
+## Syntaxes Used
+
+A combination of HTML and Markdown (Kramdown variant) is used for marking up our pages. YAML is used for meta data and is documented for shows, committees etc here.
+
+The [Kramdown syntax guide](http://kramdown.gettalong.org/syntax.html) is useful for reference.
