@@ -1,16 +1,25 @@
 ---
-layout: page
+layout: default
 title: Search
 search_omit: true
 ---
 
+<div class="search-form">
+  <div class="search-form-title">
+    <h1>Site Search</h1>
+  </div>
   <!-- Search form -->
   <form method="get" action="/search" data-search-form>
-    <label for="q">Search term</label>
-    <input type="search" name="q" id="q" placeholder="Enter search term" data-search-input />
-    <input type="submit" value="Search" />
+  <div class="search-form-text">
+    <input class="search-q" type="search" name="q" id="q" placeholder="Enter search term" data-search-input />
+  </div>
+  <div class="search-form-actions">
+    <button class="search-submit" type="submit"><i class="fa fa-search"></i></button>
+  </div>
   </form>
+</div>
 
+<div class="search-results">
   <!-- Search results placeholder -->
   <p data-search-found>
     <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
@@ -22,8 +31,7 @@ search_omit: true
   <!-- Search result template -->
   <script type="text/x-template" id="search-result">
     <div>
-      <h3><a href="##Url##">##Title##</a></h3>
-      <a href="##Url##">Read &ldquo;##Title##&rdquo;</a>
+      <h3>##type## ##group## <a href="##Url##">##Title##</a></h3>
     </div>
   </script>
 
@@ -32,3 +40,5 @@ search_omit: true
 
   <!-- Search script - Must appear after template -->
   <script src="/scripts/search.js"></script>
+
+</div>

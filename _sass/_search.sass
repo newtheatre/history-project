@@ -1,0 +1,42 @@
+.search-form
+  background: $color-grey-dark
+  @include grid-wrap
+  @include block
+  padding-top: $baseline
+  padding-bottom: $baseline
+  .search-form-title
+    @include grid-x-col(6)
+
+  .search-form-text, .search-form-actions
+    padding-top: $baseline / 2
+    input, button
+      font-size: $base-font-size * 1.2
+      padding: $baseline / 4
+      width: 100%
+
+  .search-form-text
+    @include grid-x-col(7)
+  .search-form-actions
+    @include grid-x-col(3)
+
+  .search-q
+    background: none
+    color: $color-text-white
+    border: 2px $color-text-white solid
+    border-radius: 2px
+
+  .search-submit
+    $bg: lighten($color-info, 20%)
+    background: $bg
+    border: none
+    border-bottom: 4px lighten($color-info, 8%) solid
+    color: $color-text-white
+    @include text-shadow-effect($bg)
+
+    position: relative
+
+    &:active
+      top: 1px
+
+.search-results
+  @include grid-wrap

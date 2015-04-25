@@ -11,7 +11,7 @@
     Initialisation
     ========================================================================== */
 
-var q, jsonFeedUrl = "/feeds/feed.json",
+var q, jsonFeedUrl = "/feeds/search.json",
     $searchForm = $("[data-search-form]"),
     $searchInput = $("[data-search-input]"),
     $resultTemplate = $("#search-result"),
@@ -25,7 +25,7 @@ var q, jsonFeedUrl = "/feeds/feed.json",
 
 
 $(document).ready( function() {
-    
+
     // hide items found string
     $foundContainer.hide();
 
@@ -39,7 +39,7 @@ $(document).ready( function() {
  /* ==========================================================================
     Search functions
     ========================================================================== */
- 
+
 
 /**
  * Initiate search functionality.
@@ -66,7 +66,7 @@ function initSearch() {
 
 /**
  * Executes search
- * @param {String} q 
+ * @param {String} q
  * @return null
  */
 function execSearch(q) {
@@ -92,7 +92,7 @@ function toggleLoadingClass() {
 
 /**
  * Get Search results from JSON
- * @param {Function} callbackFunction 
+ * @param {Function} callbackFunction
  * @return null
  */
 function getSearchResults(callbackFunction) {
@@ -106,14 +106,14 @@ function getSearchResults(callbackFunction) {
  */
 function processData() {
     $results = [];
-    
+
     return function(data) {
-        
+
         var resultsCount = 0,
             results = "";
 
         $.each(data, function(index, item) {
-            // check if search term is in content or title 
+            // check if search term is in content or title
             if (item.content.toLowerCase().indexOf(q.toLowerCase()) > -1 || item.title.toLowerCase().indexOf(q.toLowerCase()) > -1) {
                 var result = populateResultContent($resultTemplate.html(), item);
                 resultsCount++;
@@ -144,7 +144,7 @@ function showSearchResults(results) {
 
 /**
  * Add results content to item template
- * @param {String} html 
+ * @param {String} html
  * @param {object} item
  * @return {String} Populated HTML
  */
@@ -153,13 +153,15 @@ function populateResultContent(html, item) {
     html = injectContent(html, item.link, '##Url##');
     html = injectContent(html, item.excerpt, '##Excerpt##');
     html = injectContent(html, item.date, '##Date##');
+    html = injectContent(html, item.type, '##type##');
+    html = injectContent(html, item.group, '##group##');
     return html;
 }
 
 
 /**
  * Populates results string
- * @param {String} count 
+ * @param {String} count
  * @return null
  */
 function populateResultsString(count) {
@@ -178,7 +180,7 @@ function populateResultsString(count) {
 
 /**
  * Gets query string parameter - taken from http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
- * @param {String} name 
+ * @param {String} name
  * @return {String} parameter value
  */
 function getParameterByName(name) {
@@ -191,7 +193,7 @@ function getParameterByName(name) {
  * Injects content into template using placeholder
  * @param {String} originalContent
  * @param {String} injection
- * @param {String} placeholder 
+ * @param {String} placeholder
  * @return {String} injected content
  */
 function injectContent(originalContent, injection, placeholder) {
