@@ -1,10 +1,12 @@
 ---
 layout: default
 ---
-{% assign year_page = site.pages | where: "group", "show_year" | where: "year", page.year %}
-{% assign posters = page.assets | where:'type', 'poster' %}
+{% assign show = page %}
 
-{% assign year = page.year %}
+{% assign year_page = site.pages | where: "group", "show_year" | where: "year", show.year %}
+{% assign posters = show.assets | where:'type', 'poster' %}
+
+{% assign year = show.year %}
 {% include liquid/year_to_decade.html %}
 
 <ul class="breadcrumbs">
@@ -12,16 +14,16 @@ layout: default
     <a href="/shows/">Shows</a>
   </li>
   <li class="breadcrumb breadcrumb-{{ decade }}">
-    <a href="/shows/{{page.year}}">{{ year_page[0].title }}</a>
+    <a href="/shows/{{show.year}}">{{ year_page[0].title }}</a>
   </li>
   <li class="breadcrumb breadcrumb-{{ decade }}-child">
-    <a href="{{page.url}}">{{page.title}}</a>
+    <a href="{{show.url}}">{{show.title}}</a>
   </li>
 </ul>
 
 <div class="show">
 
-  {% if page.date_start == null %}
+  {% if show.date_start == null %}
   <div class="show-wrap">
     {% include boxes/show_basic_details_missing.html %}
   </div>
@@ -30,21 +32,33 @@ layout: default
   <div class="show-wrap show-row">
     <div class="show-info">
       <header class="show-header">
-        <h1 class="show-title">{{ page.title }}</h1>
-        <p class="show-playwright"><i class="fa fa-book"></i> by {% if page.student_written %}<i class="fa fa-pencil show-student-written" title="Student Written"></i> {% endif %}{{ page.playwright }}</p>
-        <p class="show-season"><i class="fa fa-newspaper-o"></i> {{page.season}} season</p>
-        <p class="show-date"><i class="fa fa-calendar"></i> {{ page.date_start }} - {{ page.date_end }}</p>
-        <p class="show-venue"><i class="fa fa-home"></i> {{ page.venue }}</p>
+        <h1 class="show-title">{{ show.title }}</h1>
+        <div class="show-playwright">
+          <i class="show-meta-icon fa fa-book"></i>
+          <p class="icon-pad">{% if show.playwright %}by {% if show.student_written %}<i class="fa fa-pencil show-student-written" title="Student Written"></i> {% endif %}{{ show.playwright }}{% else %}<span class="unknown">Playwright Unknown</span>{% endif %}</p>
+        </div>
+        <div class="show-season">
+          <i class="show-meta-icon fa fa-reorder"></i>
+          <p class="icon-pad">{% if show.season %}{{show.season}} season{% else %}<span class="unknown">Season Unknown</span>{% endif %}</p>
+        </div>
+        <div class="show-date">
+          <i class="show-meta-icon fa fa-calendar"></i>
+          <p class="icon-pad">{% if show.date_start %}{% include liquid/date_range.html %}{% else %}<span class="unknown">Dates Unknown</span>{% endif %}</p>
+        </div>
+        <div class="show-venue">
+          <i class="show-meta-icon fa fa-home"></i>
+          <p class="icon-pad">{% if show.venue %}{{ show.venue }}{% else %}<span class="unknown">Venue Unknown</span>{% endif %}</p>
+        </div>
       </header>
       <article class="show-synopsys">
         <h3>Synopsis</h3>
         {{ content }}
       </article>
-      {% if page.assets %}
+      {% if show.assets %}
       <section class="show-assets">
         <h3>Publicity Materials</h3>
         <ul class="show-assets-list">
-          {% for asset in page.assets %}
+          {% for asset in show.assets %}
           {% if asset.filename %}
             <li class="show-asset-file">
               {% if asset.type == "programme" %}<i class="ion-ios-book-outline"></i>
@@ -61,25 +75,26 @@ layout: default
           {% endfor %}
         </ul>
       </section>
+      {% else %}
+        {% include boxes/show_assets_missing.html %}
       {% endif %}
     </div>
     <div class="show-poster">
-      {% if posters %}<img src="/images/for_shows/{{ posters[0].image }}" alt="{{ page.title }} poster" class="show-poster" />{% endif %}
-      {% if posters == null %}
+      {% if posters %}<img src="/images/for_shows/{{ posters[0].image }}" alt="{{ show.title }} poster" class="show-poster" />{% else %}
         {% include boxes/show_poster_missing.html %}
       {% endif %}
     </div>
 
   </div>
 
-  {% if page.photos == null %}
+  {% if show.photos == null %}
   <div class="grid-wrap">
     {% include boxes/show_photos_missing.html %}
   </div>
   {% else %}
   <div class="show-photos-outer">
     <section class="show-photos">
-      {% for image in page.photos %}
+      {% for image in show.photos %}
       <div class="show-photo-single">
         <a class="fancybox" rel="photos" href="/images/for_shows/{{ image.image }}" title="{{ image.caption }}">
           <img src="/images/for_shows/{{ image.image }}" alt="{{ image.image }}" class="show-image" />
@@ -96,28 +111,28 @@ layout: default
 
   <div class="show-wrap show-row">
     <section class="show-cast">
-      <h3>Cast: {{ page.cast | size }}</h3>
-      {% if page.cast == null %}
+      <h3>Cast: {{ show.cast | size }}</h3>
+      {% if show.cast == null %}
       {% include boxes/show_cast_missing.html %}
       {% endif %}
-      {% assign people = page.cast %}
+      {% assign people = show.cast %}
       {% include person_list.html %}
     </section>
     <section class="show-crew">
-      <h3>Crew: {{ page.crew | size }}</h3>
-      {% if page.crew == null %}
+      <h3>Crew: {{ show.crew | size }}</h3>
+      {% if show.crew == null %}
       {% include boxes/show_crew_missing.html %}
       {% endif %}
-      {% if page.crew.size < 4 %}
+      {% if show.crew.size < 4 %}
       {% include boxes/show_crew_short.html %}
       {% endif %}
-      {% assign people = page.crew %}
+      {% assign people = show.crew %}
       {% include person_list.html %}
     </section>
   </div>
 
   <div class="show-footer">
-    <!-- <a href="https://github.com/newtheatre/history-project/blob/gh-pages/{{page.path}}">https://github.com/newtheatre/history-project/blob/gh-pages/_{{page.url}}</a -->
+    <!-- <a href="https://github.com/newtheatre/history-project/blob/gh-pages/{{show.path}}">https://github.com/newtheatre/history-project/blob/gh-pages/_{{show.url}}</a -->
   </div>
 
 </div>

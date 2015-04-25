@@ -9,7 +9,7 @@ This project relies on contributions from the alumni community. If you see a sho
 
 ## Contacting us
 
-Please email us at {{site.email}} if you have something to contribute, and don’t worry if you aren’t quite ready to part with your cherished New Theatre relics just yet – the University Archives have offered to photgraph and document any items sent to them, and then return them safely to you for safe keeping!
+Please email us at <{{site.email}}> if you have something to contribute, and don’t worry if you aren’t quite ready to part with your cherished New Theatre relics just yet – the University Archives have offered to photgraph and document any items sent to them, and then return them safely to you for safe keeping!
 
 ## Contributing to the site directly
 
