@@ -1,0 +1,49 @@
+{% if shows.size == 0 %}
+{% include boxes/shows_missing_all.html %}
+{% else shows.size < 10 %}
+{% include boxes/shows_missing_some.html %}
+{% endif %}
+
+{% assign autumn = shows | where: "period", "Autumn" | sort: "season_sort" %}
+{% assign spring = shows | where: "period", "Spring" | sort: "season_sort" %}
+{% assign nsdf = shows | where: "period", "NSDF" | sort: "season_sort" %}
+{% assign edinburgh = shows | where: "period", "Edinburgh" | sort: "season_sort" %}
+{% assign tour = shows | where: "period", "Tour" | sort: "season_sort" %}
+{% assign others = shows | where: "period", null | sort: "season_sort" %}
+
+{% if autumn.size > 0 %}
+{% assign shows = autumn %}
+<h3>Autumn</h3>
+{% include show_list.html %}
+{% endif %}
+
+{% if spring.size > 0 %}
+{% assign shows = spring %}
+<h3>Spring</h3>
+{% include show_list.html %}
+{% endif %}
+
+{% if edinburgh.size > 0 %}
+{% assign shows = edinburgh %}
+<h3>Edinburgh</h3>
+{% include show_list.html %}
+{% endif %}
+
+{% if nsdf.size > 0 %}
+{% assign shows = nsdf %}
+<h3>NSDF</h3>
+{% include show_list.html %}
+{% endif %}
+
+{% if tour.size > 0 %}
+{% assign shows = tour %}
+<h3>Tour</h3>
+{% include show_list.html %}
+{% endif %}
+
+{% if others.size > 0 %}
+{% assign shows = others %}
+<h3>Unassigned</h3>
+{% include boxes/shows_unassigned.html %}
+{% include show_list.html %}
+{% endif %}

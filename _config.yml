@@ -46,7 +46,7 @@ image:
 
 # Config for the prose editor
 prose:
-  ignore: ['_bin', '_utilities', 'CNAME', '.gitignore', 'js', 'css', '_site', '_sass', '_layout', '_includes', '.travis.yml', 'Gemfile', 'Gemfile.lock']
+  ignore: ['_bin', '_utilities', 'CNAME', '.gitignore', 'js', 'css', '_site', '_sass', '_layout', '_includes', '.travis.yml', 'Gemfile', 'Gemfile.lock', 'lib', 'js', '_plugins', 'feeds']
   siteurl: "http://alpha.history.newtheatre.org.uk"
   media: "images"
   metadata:
