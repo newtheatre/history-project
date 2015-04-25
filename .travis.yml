@@ -1,5 +1,8 @@
 language: ruby
-cache: bundler
+cache:
+  bundler: true
+  directories:
+    - _site/
 script: _bin/build.sh
 branches:
   only:
