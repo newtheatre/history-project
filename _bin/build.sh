@@ -13,16 +13,16 @@ set -e
 bundle exec jekyll build
 
 # cleanup
-rm -rf history-project-built
+rm -rf gh-pages
 
-git clone -b travis-build-test https://${GH_TOKEN}@github.com/newtheatre/history-project.git history-project-built
+git clone -b gh-pages https://${GH_TOKEN}@github.com/newtheatre/history-project.git gh-pages
 
 # copy generated HTML site to built branch
-cp -R _site/* history-project-built
+cp -R _site/* gh-pages
 
 # commit and push generated content to built branch
 # since repository was cloned in write mode with token auth - we can push there
-cd history-project-built
+cd gh-pages
 git config user.email "webmaster@newtheatre.org.uk"
 git config user.name "NTHP Build Bot"
 git add -A .

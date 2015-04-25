@@ -2,7 +2,7 @@ language: ruby
 script: _bin/build.sh
 branches:
   only:
-  - gh-pages
+  - master
 rvm:
 - 2.1.2
 env:
