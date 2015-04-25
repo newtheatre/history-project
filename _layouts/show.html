@@ -19,10 +19,7 @@ layout: default
 
   {% if page.date_start == null %}
   <div class="show-wrap">
-    <div class="box-error">
-      <i class="fa fa-exclamation-triangle"></i>
-      <p><strong>Missing Basic Details</strong> We're missing basic details from this record. If you can help see the <a href="/contributing/">contributing</a> page.</p>
-    </div>
+    {% include boxes/show_basic_details_missing.html %}
   </div>
   {% endif %}
 
@@ -65,10 +62,7 @@ layout: default
     <div class="show-poster">
       {% if posters %}<img src="/images/for_shows/{{ posters[0].image }}" alt="{{ page.title }} poster" class="show-poster" />{% endif %}
       {% if posters == null %}
-        <div class="box-error">
-          <i class="fa fa-exclamation-triangle"></i>
-          <p><strong>Missing Poster</strong> We're missing the poster from this record. If you can help see the <a href="/contributing/">contributing</a> page.</p>
-        </div>
+        {% include boxes/show_poster_missing.html %}
       {% endif %}
     </div>
 
@@ -76,10 +70,7 @@ layout: default
 
   {% if page.photos == null %}
   <div class="grid-wrap">
-    <div class="box-error">
-      <i class="fa fa-camera"></i>
-      <p><strong>Missing Production Shots</strong> We're missing photographs of the show. If you can help see the <a href="/contributing/">contributing</a> page.</p>
-    </div>
+    {% include boxes/show_photos_missing.html %}
   </div>
   {% else %}
   <div class="show-photos-outer">
@@ -103,10 +94,7 @@ layout: default
     <section class="show-cast">
       <h3>Cast: {{ page.cast | size }}</h3>
       {% if page.cast == null %}
-      <div class="box-error">
-        <i class="fa fa-exclamation-triangle"></i>
-        <p><strong>Missing Cast List</strong> We're missing the cast list from this record. If you can help see the <a href="/contributing/">contributing</a> page.</p>
-      </div>
+      {% include boxes/show_cast_missing.html %}
       {% endif %}
       {% assign people = page.cast %}
       {% include person_list.html %}
@@ -114,16 +102,10 @@ layout: default
     <section class="show-crew">
       <h3>Crew: {{ page.crew | size }}</h3>
       {% if page.crew == null %}
-      <div class="box-error">
-        <i class="fa fa-exclamation-triangle"></i>
-        <p><strong>Missing Crew List</strong> We're missing the crew list from this record. If you can help see the <a href="/contributing/">contributing</a> page.</p>
-      </div>
+      {% include boxes/show_crew_missing.html %}
       {% endif %}
       {% if page.crew.size < 4 %}
-      <div class="box-warning">
-        <i class="fa fa-exclamation-triangle"></i>
-        <p><strong>Short Crew List</strong> The crew list for this show looks a little short. If you can help see the <a href="/contributing/">contributing</a> page.</p>
-      </div>
+      {% include boxes/show_crew_short.html %}
       {% endif %}
       {% assign people = page.crew %}
       {% include person_list.html %}

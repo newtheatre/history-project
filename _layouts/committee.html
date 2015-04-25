@@ -3,14 +3,10 @@ layout: default
 ---
 
 <div class="page">
-
   <h1>Committee {{page.title}}</h1>
 
   {% if page.committee.size < 6 %}
-  <div class="box-error">
-    <i class="fa fa-exclamation-triangle"></i>
-    This listing looks a little short, if you can help see the <a href="/contributing/">contributing</a> page.
-  </div>
+  	{% include boxes/committee_short.html %}
   {% endif %}
 
   {% assign people = page.committee %}
