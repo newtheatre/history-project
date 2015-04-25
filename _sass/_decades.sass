@@ -20,7 +20,7 @@
       color: $color-grey
 
 // Colour generator for decade, overrides some stuff in _breadcrumbs.sass
-$background-base: adjust-hue($color-error, 200%)
+$background-base: adjust-hue($color-decades-base, 220%)
 $background-items: -3
 
 @for $i from 194 through 201
@@ -29,7 +29,7 @@ $background-items: -3
 
   .decade-#{$i} h3
     background: $shift-color
-    @include text-shadow-effect($background-base)
+    @include text-shadow-effect(darken($shift-color, 20%))
 
   // HACK, cos the thing we need to override is quite specifific
   .breadcrumb-#{$i} a
