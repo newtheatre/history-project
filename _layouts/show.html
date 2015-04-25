@@ -68,7 +68,7 @@ layout: default
           {% elsif asset.image %}
             <li class="show-asset-image">
               <a class="fancybox" rel="assets" href="/images/for_shows/{{ asset.image }}" title="{{ asset.caption }}">
-                <img src="/images/for_shows/{{ asset.image }}" alt="{{ asset.image }}" />
+                {% image show_asset for_shows/{{ asset.image }} %}
               </a>
             </li>
           {% endif %}
@@ -80,7 +80,9 @@ layout: default
       {% endif %}
     </div>
     <div class="show-poster">
-      {% if posters %}<img src="/images/for_shows/{{ posters[0].image }}" alt="{{ show.title }} poster" class="show-poster" />{% else %}
+      {% if posters %}
+        {% image show_poster for_shows/{{ posters[0].image }} %}
+      {% else %}
         {% include boxes/show_poster_missing.html %}
       {% endif %}
     </div>
@@ -97,7 +99,7 @@ layout: default
       {% for image in show.photos %}
       <div class="show-photo-single">
         <a class="fancybox" rel="photos" href="/images/for_shows/{{ image.image }}" title="{{ image.caption }}">
-          <img src="/images/for_shows/{{ image.image }}" alt="{{ image.image }}" class="show-image" />
+          {% image show_photo for_shows/{{ image.image }} title={{image.caption}} %}
         </a>
       </div>
       {% endfor %}
