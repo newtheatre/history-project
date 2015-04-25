@@ -63,19 +63,20 @@ photos:
     image: pillowman_crew.jpg
     caption: "Cast and Crew shot. From back left: Jess Courtney, Gareth Morris, Livvy Hobson, Dan O'Connor, Charlotte Ball, Jacob Hayes, James McAndrew, Nick Stevenson, Chelsea Jayne Wright, Emily Heaton. Bottom from left: Sam Haywood, Will Randall, Alex Hollingsworth"
   - type: photo
-    image: pillowman_crew.jpg
+    image: pillowman_picture_1.jpg
   - type: photo
-    image: pillowman_crew.jpg
+    image: pillowman_picture_2.jpg
   - type: photo
-    image: pillowman_crew.jpg
+    image: pillowman_picture_3.jpg
   - type: photo
-    image: pillowman_crew.jpg
+    image: pillowman_picture_4.jpg
   - type: photo
-    image: pillowman_crew.jpg
+    image: pillowman_picture_5.jpg
   - type: photo
-    image: pillowman_crew.jpg
+    image: pillowman_picture_6.jpg
   - type: photo
-    image: pillowman_crew.jpg
+    image: pillowman_picture_7.jpg
+
 assets:
   - type: poster
     image: pillowman_poster.jpg

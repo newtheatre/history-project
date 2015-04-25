@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign show = page %}
 
-{% assign year_page = site.pages | where: "group", "show_year" | where: "year", show.year %}
+{% assign year_page = site.pages | where: "group", "year" | where: "year", show.year %}
 {% assign posters = show.assets | where:'type', 'poster' %}
 
 {% assign year = show.year %}
@@ -11,10 +11,10 @@ layout: default
 
 <ul class="breadcrumbs">
   <li class="breadcrumb">
-    <a href="/shows/">Shows</a>
+    <a href="/years/">Years</a>
   </li>
   <li class="breadcrumb breadcrumb-{{ decade }}">
-    <a href="/shows/{{show.year}}">{{ year_page[0].title }}</a>
+    <a href="/years/{{show.year}}">{{ year_page[0].title }}</a>
   </li>
   <li class="breadcrumb breadcrumb-{{ decade }}-child">
     <a href="{{show.url}}">{{show.title}}</a>

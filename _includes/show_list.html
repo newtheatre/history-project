@@ -1,49 +1,14 @@
-{% if shows.size == 0 %}
-{% include boxes/shows_missing_all.html %}
-{% else shows.size < 10 %}
-{% include boxes/shows_missing_some.html %}
-{% endif %}
+<ul class="show-list">
+{% for show in shows %}
+{% assign posters = show.assets | where:'type', 'poster' %}
+<li class="show-list-single">
+  <a href="{{ show.url }}">
+    {% if posters.size > 0 %}{% capture poster_path %}for_shows/{{posters[0].image}}{% endcapture %}{% image show_poster_thumb {{poster_path}} %}{% endif %}
+    <span class="show-list-title">{{ show.title }}</span>{% if show.playwright %}
+    by {% if show.student_written %}<i class="fa fa-pencil show-student-written" title="Student Written"></i> {% endif %}{{ show.playwright }}{% endif %}
+    <br />{% if show.date_start and show.date_end %}<span class="show-list-date">{% include liquid/date_range.html %}</span>{% endif %}
+  </a>
+</li>
 
-{% assign autumn = shows | where: "period", "Autumn" | sort: "season_sort" %}
-{% assign spring = shows | where: "period", "Spring" | sort: "season_sort" %}
-{% assign nsdf = shows | where: "period", "NSDF" | sort: "season_sort" %}
-{% assign edinburgh = shows | where: "period", "Edinburgh" | sort: "season_sort" %}
-{% assign tour = shows | where: "period", "Tour" | sort: "season_sort" %}
-{% assign others = shows | where: "period", null | sort: "season_sort" %}
-
-{% if autumn.size > 0 %}
-{% assign shows = autumn %}
-<h3>Autumn</h3>
-{% include show_list_list.html %}
-{% endif %}
-
-{% if spring.size > 0 %}
-{% assign shows = spring %}
-<h3>Spring</h3>
-{% include show_list_list.html %}
-{% endif %}
-
-{% if edinburgh.size > 0 %}
-{% assign shows = edinburgh %}
-<h3>Edinburgh</h3>
-{% include show_list_list.html %}
-{% endif %}
-
-{% if nsdf.size > 0 %}
-{% assign shows = nsdf %}
-<h3>NSDF</h3>
-{% include show_list_list.html %}
-{% endif %}
-
-{% if tour.size > 0 %}
-{% assign shows = tour %}
-<h3>Tour</h3>
-{% include show_list_list.html %}
-{% endif %}
-
-{% if others.size > 0 %}
-{% assign shows = others %}
-<h3>Unassigned</h3>
-{% include boxes/shows_unassigned.html %}
-{% include show_list_list.html %}
-{% endif %}
+{% endfor %}
+</ul>
