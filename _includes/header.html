@@ -15,10 +15,12 @@
       {% endfor %}
     </nav>
     <div class="site-search">
+      {% if page.url != "/search/" %}
       <form method="get" action="/search" data-search-form>
         <input type="search" name="q" id="q" placeholder="Search" data-search-input class="site-search-input" />
         <input type="submit" value="Search" class="site-search-submit" />
       </form>
+      {% endif %}
     </div>
   </div>
 </header>

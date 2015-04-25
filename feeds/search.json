@@ -3,22 +3,19 @@ layout: null
 ---
 {% assign first = true %}
 [
-{% for collection in site.collections %}
-    {% for item in collection %}
-        {% for item in site.[item.label] %}
-            {% if item.title != null and item.title != empty %}
-            {% unless first %},{% endunless %}{
-                "title": {{item.title | jsonify}},
-                "content": {{item.content | markdownify | strip_html | jsonify}},
-                "link": "{{ site.url }}{{ item.url }}",
-                "date": "{{ item.date }}",
-                "excerpt": "{{ item.snippet }}",
-                "seach_omit": "{{ item.search_omit }}"
-            }
-            {% assign first = false %}
-            {% endif %}
-        {% endfor %}
-    {% endfor %}
+{% for show in site.collections.shows.docs %}
+    {% if show.title != null and show.title != empty %}
+    {% unless first %},{% endunless %}{
+        "title": {{show.title | jsonify}},
+        "type": "show",
+        "content": {{show.content | markdownify | strip_html | jsonify}},
+        "link": "{{ show.url }}",
+        "date": "{{ show.date_start }}",
+        "excerpt": "{{ show.snippet }}",
+        "seach_omit": "{{ show.search_omit }}"
+    }
+    {% assign first = false %}
+    {% endif %}
 {% endfor %}
 
 
@@ -26,8 +23,9 @@ layout: null
     {% if post.title != null and post.title != empty %}
     {% unless first %},{% endunless %}{
         "title": {{post.title | jsonify}},
+        "type": "post",
         "content": {{post.content | markdownify | strip_html | jsonify}},
-        "link": "{{ site.url }}{{ post.url }}",
+        "link": "{{ post.url }}",
         "date": "{{ post.date }}",
         "excerpt": "{{ post.snippet }}",
         "seach_omit": "{{ post.search_omit }}"
@@ -37,11 +35,13 @@ layout: null
 {% endfor %}
 
 {% for page in site.pages %}
-    {% if page.title != null and page.title != empty %}
+    {% if page.title != null and page.title != empty and page.group != "show_year" %}
     {% unless first %},{% endunless %}{
         "title": {{page.title | jsonify}},
+        "type": "page",
+        "group": "{{page.group}}",
         "content": {{page.content | strip_html | jsonify}},
-        "link": "{{ site.url }}{{ page.url | replace: 'index.html', '' }}",
+        "link": "{{ page.url | replace: 'index.html', '' }}",
         "date": {{ page.date | jsonify }},
         "excerpt": {{ page.description | jsonify }},
         "seach_omit": "{{ post.search_omit }}"
