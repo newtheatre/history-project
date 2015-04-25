@@ -25,4 +25,4 @@ The only dependences of this site are Jekyll and `jekyll-sitemap`. You can find 
 
 If you have bundler on your system you can just do `bundle install` to install all the dependencies.
 
-To get jekyll up and running do `jekyll serve --watch`, the site will then be available on <http://localhost:4000>.
+To get jekyll up and running do `bundle exec jekyll serve --watch`, the site will then be available on <http://localhost:4000>.
