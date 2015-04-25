@@ -35,7 +35,7 @@ layout: null
 {% endfor %}
 
 {% for page in site.pages %}
-    {% if page.title != null and page.title != empty and page.group != "show_year" %}
+    {% if page.title != null and page.title != empty and page.group != "year" %}
     {% unless first %},{% endunless %}{
         "title": {{page.title | jsonify}},
         "type": "page",
