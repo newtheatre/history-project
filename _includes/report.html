@@ -1,6 +1,15 @@
 <div id="report-this-page" class="report-tab">
-  <i class="octicon octicon-issue-opened"></i><p class="report-tab-text">Report This Page</p>
+  <a href="#">
+    <i class="octicon octicon-issue-opened"></i><p class="report-tab-text">Report This Page</p>
+  </a>
 </div>
+{% unless page.editable == false %}
+<div id="edit-this-page" class="edit-tab">
+  <a href="https://github.com/newtheatre/history-project/edit/master/{{page.path}}">
+    <i class="octicon octicon octicon-pencil"></i><p class="report-tab-text">Edit This Page</p>
+  </a>
+</div>
+{% endunless %}
 
 <div id="report" class="report">
   <div data-report-close class="report-bg"></div>
