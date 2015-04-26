@@ -1,0 +1,27 @@
+{
+  "name": "history-project",
+  "version": "0.0.0",
+  "homepage": "https://github.com/newtheatre/history-project",
+  "authors": [
+    "Will Pimblett <will@fullaf.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.2",
+    "fgrid": "*",
+    "fancybox": "~2.1.5",
+    "font-awesome": "~4.3.0",
+    "ionicons": "~2.0.1",
+    "mousetrap": "~1.5.2",
+    "octicons": "~2.2.2",
+    "github-issues-widget": "https://github.com/chrismear/github-issues-widget.git"
+  }
+}
