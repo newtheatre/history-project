@@ -1,2 +1,11 @@
-_site
+_site/
 .sass-cache/
+lib/
+node_modules/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
