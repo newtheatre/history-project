@@ -1,3 +1,4 @@
+{% capture page_path %}{% if page.collection %}{{ page.relative_path }}{% else %}{{ page.path }}{% endif %}{% endcapture %}
 <div id="report-this-page" class="side-tab report-tab">
   <a href="#">
     <i class="octicon octicon-issue-opened"></i><p class="report-tab-text">Report This Page</p>
@@ -5,17 +6,17 @@
 </div>
 {% unless page.editable == false %}
 <div class="side-tab edit-tab">
-  <a href="https://github.com/newtheatre/history-project/edit/master/{{page.path}}">
+  <a href="https://github.com/newtheatre/history-project/edit/master/{{ page_path }}">
     <i class="octicon octicon octicon-pencil"></i><p class="report-tab-text">Edit This Page</p>
   </a>
 </div>
 <div class="side-tab history-tab">
-  <a href="https://github.com/newtheatre/history-project/commits/master/{{page.path}}">
+  <a href="https://github.com/newtheatre/history-project/commits/master/{{ page_path }}">
     <i class="octicon octicon octicon-history"></i><p class="report-tab-text">Page History</p>
   </a>
 </div>
 <div class="side-tab blame-tab">
-  <a href="https://github.com/newtheatre/history-project/blame/master/{{page.path}}">
+  <a href="https://github.com/newtheatre/history-project/blame/master/{{ page_path }}">
     <i class="octicon octicon octicon-microscope"></i><p class="report-tab-text">Blame</p>
   </a>
 </div>
