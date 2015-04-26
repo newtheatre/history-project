@@ -15,7 +15,7 @@ permalink: pretty
 gems:
 - jekyll-sitemap
 
-exclude: [vendor]
+exclude: [vendor, node_modules]
 
 collections:
   shows:
