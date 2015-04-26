@@ -24,6 +24,9 @@ collections:
   committees:
     layout: show
     output: true
+  people:
+    layout: person
+    output: true
 
 image:
   source: images
@@ -42,7 +45,8 @@ image:
       width: 190
     show_photo:
       width: 300
-
+    person_headshot:
+      width: 300
 
 # Config for the prose editor
 prose:

@@ -33,21 +33,21 @@ layout: default
     <div class="show-info">
       <header class="show-header">
         <h1 class="show-title">{{ show.title }}</h1>
-        <div class="show-playwright">
-          <i class="show-meta-icon fa fa-book"></i>
-          <p class="icon-pad">{% if show.playwright %}by {% if show.student_written %}<i class="fa fa-pencil show-student-written" title="Student Written"></i> {% endif %}{{ show.playwright }}{% else %}<span class="unknown">Playwright Unknown</span>{% endif %}</p>
+        <div class="meta-col show-playwright">
+          <i class="meta-icon fa fa-book"></i>
+          <p class="meta-content">{% if show.playwright %}by {% if show.student_written %}<i class="fa fa-pencil show-student-written" title="Student Written"></i> {% endif %}{{ show.playwright }}{% else %}<span class="unknown">Playwright Unknown</span>{% endif %}</p>
         </div>
-        <div class="show-season">
-          <i class="show-meta-icon fa fa-reorder"></i>
-          <p class="icon-pad">{% if show.season %}{{show.season}} season{% else %}<span class="unknown">Season Unknown</span>{% endif %}</p>
+        <div class="meta-col show-season">
+          <i class="meta-icon fa fa-reorder"></i>
+          <p class="meta-content">{% if show.season %}{{show.season}} season{% else %}<span class="unknown">Season Unknown</span>{% endif %}</p>
         </div>
-        <div class="show-date">
-          <i class="show-meta-icon fa fa-calendar"></i>
-          <p class="icon-pad">{% if show.date_start %}{% include liquid/date_range.html %}{% else %}<span class="unknown">Dates Unknown</span>{% endif %}</p>
+        <div class="meta-col show-date">
+          <i class="meta-icon fa fa-calendar"></i>
+          <p class="meta-content">{% if show.date_start %}{% include liquid/date_range.html %}{% else %}<span class="unknown">Dates Unknown</span>{% endif %}</p>
         </div>
-        <div class="show-venue">
-          <i class="show-meta-icon fa fa-home"></i>
-          <p class="icon-pad">{% if show.venue %}{{ show.venue }}{% else %}<span class="unknown">Venue Unknown</span>{% endif %}</p>
+        <div class="meta-col show-venue">
+          <i class="meta-icon fa fa-home"></i>
+          <p class="meta-content">{% if show.venue %}{{ show.venue }}{% else %}<span class="unknown">Venue Unknown</span>{% endif %}</p>
         </div>
       </header>
       <article class="show-synopsys">
