@@ -36,6 +36,8 @@ In 2001 an extended foyer was added to the building, following a donation from a
 
 Until recently, the New Theatre was contained within the Archaeology and Classics building. The summer of 2012 saw an extensive redevelopment of the building housing the New Theatre. The Archaeology and Classics building was demolished from the site, leaving the New Theatre as its own freestanding building. Parts of the old building were retained, and repurposed as new rehearsal rooms, a studio space, storage rooms and a new constume cupboard. The foyer was also significantly extended.
 
+In 2012 the committee voted to alter the name of the theatre from "The New Theatre" to "The Nottingham New Theatre".
+
 
 ## New Theatre Alumni Events
 
