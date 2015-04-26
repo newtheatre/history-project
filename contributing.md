@@ -29,3 +29,4 @@ We use Git and GitHub to both collaborate on and serve this website.
 
 2. If you're technically inclined read our [<i class="octicon octicon-book"></i> docs](/docs/), grab a [<i class="octicon octicon-repo-forked"></i> fork of the repo](https://github.com/newtheatre/history-project/fork), make some changes, then create a [<i class="octicon octicon-git-pull-request"></i> pull request](https://github.com/newtheatre/history-project/compare) to ask to merge your changes with the live site.
 
+The <strong><i class="octicon octicon octicon-pencil"></i> Edit This Page</strong> button appears on pages suitable for direct edits. If you don't have write access to the repo a fork will be created for you.
