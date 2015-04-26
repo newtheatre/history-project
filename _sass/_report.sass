@@ -1,13 +1,16 @@
+// This file started life handling the report button and it's modal. The edit and history buttons then grew out of the report button and also live here.
+
 @mixin tab($bg)
   background: $bg
   @include text-shadow-effect($bg)
 
-.report-tab, .edit-tab
-  position: fixed
-  top: 225px
-  right: -175px
+$report-top: 225px
+$report-spacing: 75px
+$report-color-step: -60%
 
-  @include tab($color-nnt-purple)
+.side-tab
+  position: fixed
+  right: -175px
 
   opacity: 0.6
   color: $color-text-white
@@ -39,9 +42,21 @@
     opacity: 1
     cursor: hand
 
+.report-tab
+  top: $report-top
+  @include tab($color-nnt-purple)
+
 .edit-tab
-  top: 300px
-  @include tab(adjust-hue($color-nnt-purple, -80%))
+  top: $report-top + $report-spacing
+  @include tab(adjust-hue($color-nnt-purple, $report-color-step))
+
+.history-tab
+  top: $report-top + $report-spacing * 2
+  @include tab(adjust-hue($color-nnt-purple, $report-color-step*2))
+
+.blame-tab
+  top: $report-top + $report-spacing * 3
+  @include tab(adjust-hue($color-nnt-purple, $report-color-step*3))
 
 .report
   display: none
