@@ -1,0 +1,107 @@
+.report-tab
+  position: fixed
+  top: 225px
+  right: -175px
+  padding: $baseline / 2 $baseline
+
+  background: $color-nnt-purple
+  opacity: 0.7
+  color: $color-text-white
+
+  i, p
+    line-height: $baseline
+
+  i
+    float: left
+    font-size: $base-font-size * 2
+    padding-right: $baseline
+
+  p
+    font-size: $base-font-size
+    font-weight: bold
+    min-width: 200px
+
+
+  @include transition(all ease-out 0.25s)
+
+  &:hover
+    right: 0px
+    opacity: 1
+    cursor: hand
+
+.report
+  display: none
+  &.report-show
+    display: block
+
+
+
+.report-bg
+  z-index: 100
+
+  position: fixed
+  top: 0
+  right: 0
+  background: black
+  opacity: 0.6
+  width: 100%
+  height: 100%
+
+.report-modal
+  z-index: 110
+  $width: 660px
+
+  background: $color-text-white
+  color: $color-text-black
+  width: $width
+  margin-left: -$width / 2
+  margin-right: -$width / 2
+
+  position: fixed
+  top: 50px
+  left: 50%
+
+  padding: $baseline
+
+.report-close
+  position: absolute
+  top: 0px
+  right: 0px
+  width: 32px
+  height: 32px
+  background: $color-error
+  color: $color-text-white
+  padding-left: 9px
+  font-size: 22px
+  border-radius: 0 0 0 4px
+  opacity: 0.9
+
+.report-text, .report-textarea, .report-submit
+  @include block
+  width: 100%
+  font-size: $base-font-size
+  padding: $baseline / 2
+
+.report-textarea
+  height: 200px
+
+.report-submit
+  width: 100%
+  $bg: lighten($color-info, 20%)
+  background: $bg
+  border: none
+  border-bottom: 4px lighten($color-info, 8%) solid
+  color: $color-text-white
+  @include text-shadow-effect($bg)
+
+  position: relative
+
+  &:active
+    top: 1px
+
+  &.disabled
+    background: $color-grey-dark
+    border-bottom-color: darken($color-grey-dark, 12%)
+    @include text-shadow-effect($color-grey-dark)
+
+
