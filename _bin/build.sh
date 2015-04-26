@@ -14,7 +14,7 @@ echo $TRAVIS_BUILD_NUMBER > _includes/travis_build_number.txt
 bundle exec jekyll build
 
 # Only deploy if not PR
-if $TRAVIS_PULL_REQUEST = false
+if $TRAVIS_PULL_REQUEST = "false"
   then
   # cleanup
   rm -rf gh-pages
