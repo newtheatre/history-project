@@ -1,12 +1,22 @@
-.report-tab
+@mixin tab($bg)
+  background: $bg
+  @include text-shadow-effect($bg)
+
+.report-tab, .edit-tab
   position: fixed
   top: 225px
   right: -175px
-  padding: $baseline / 2 $baseline
 
-  background: $color-nnt-purple
-  opacity: 0.7
+  @include tab($color-nnt-purple)
+
+  opacity: 0.6
   color: $color-text-white
+
+  a
+    padding: $baseline / 2 $baseline
+    display: block
+    color: $color-text-white
+
 
   i, p
     line-height: $baseline
@@ -28,6 +38,10 @@
     right: 0px
     opacity: 1
     cursor: hand
+
+.edit-tab
+  top: 300px
+  @include tab(adjust-hue($color-nnt-purple, -80%))
 
 .report
   display: none
