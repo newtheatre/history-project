@@ -1,0 +1,35 @@
+---
+layout: default
+---
+{% assign person = page %}
+
+<div class="person">
+  <div class="person-info">
+    <header class="person-header">
+      <h1>{{ person.title }}</h1>
+      <div class="grid-row">
+        <div class="meta-col person-graduated">
+          <i class="meta-icon fa fa-mortar-board"></i>
+          <p class="meta-content">{% if person.graduated %}{{ person.graduated }}{% else %}<span class="unknown">Unknown</span>{% endif %}</p>
+        </div>
+        <div class="meta-col person-course">
+          <i class="meta-icon fa fa-book"></i>
+          <p class="meta-content">{% if person.course %}{{ person.course }}{% else %}<span class="unknown">Unknown</span>{% endif %}</p>
+        </div>
+        {% if person.award %}
+        <div class="meta-col person-award">
+          <i class="meta-icon fa fa-trophy"></i>
+          <p class="meta-content">{{ person.award }}</p>
+        </div>
+        {% endif %}
+      </div>
+    </header>
+    <article class="person-bio">
+      <h2>Bio</h2>
+      {{ content }}
+    </article>
+  </div>
+  <div class="person-photo">
+    {% image person_headshot people/{{ person.headshot }} alt={{person.title}} %}
+  </div>
+</div>

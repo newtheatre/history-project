@@ -31,6 +31,9 @@ collections:
     output: true
   years:
     output: true
+  people:
+    layout: person
+    output: true
 
 defaults:
   # Shows
@@ -96,6 +99,7 @@ image:
       attr:
         alt: Show photo
       width: 300
+<<<<<<< HEAD
 
 sass:
   style: :compressed
@@ -110,6 +114,10 @@ lib:
     - lib/fancybox/source/helpers/jquery.fancybox-media.js
     - lib/fancybox/source/helpers/jquery.fancybox-thumbs.js
     - lib/mousetrap/mousetrap.min.js
+=======
+    person_headshot:
+      width: 300
+>>>>>>> Implementation of person data type #14
 
 # Config for the prose editor
 prose:
