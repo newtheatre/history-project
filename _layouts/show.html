@@ -139,4 +139,25 @@ layout: default
 
 </div>
 
+{% assign shows_in_year = site.collections.shows.docs | where: "year", show.year | sort: "season_sort" %}
+{% assign next_trigger = false %}
 
+{% for ishow in shows_in_year %}
+  <!--{{ishow.title}}-->
+  {% if next_trigger %}
+    {% assign next_trigger = false %}
+    {% assign next_show = ishow %}
+  {% endif %}
+  {% if ishow == show %}
+    {% assign prev_show = last %}
+    {% assign next_trigger = true %}
+  {% endif %}
+  {% assign last = ishow %}
+{% endfor %}
+
+<script type="text/javascript">
+// Reversed to make sense with direction
+var jekyll_page_up = "/years/{{show.year}}";
+var jekyll_page_previous = "{{prev_show.url}}";
+var jekyll_page_next = "{{next_show.url}}";
+</script>
