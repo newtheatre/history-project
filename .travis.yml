@@ -3,6 +3,7 @@ cache:
   bundler: true
   directories:
   - _site/
+  - node_modules/
 script: _bin/build.sh
 branches:
   only:
