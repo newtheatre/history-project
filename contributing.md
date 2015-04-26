@@ -15,7 +15,7 @@ Please email us at <{{site.email}}> if you have something to contribute, and don
 
 ## Report problems with pages
 
-We use an issue tracker to maintain a list of jobs to do. If you spot a misspelled name, know You can add to this by reporting problems with pages.
+We use an issue tracker to maintain a list of jobs to do. If you spot a misspelled name, a terrible typo or can help us fill in some blanks you can add to this by reporting problems with pages.
 
 Click the <strong><i class="octicon octicon-issue-opened"></i> Report This Page</strong> button on the right when on the page you want to tell us about and complete a report.
 
