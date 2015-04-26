@@ -27,5 +27,5 @@ We use Git and GitHub to both collaborate on and serve this website.
 
 1. Post a report on our [<i class="octicon octicon-issue-opened"></i> issue tracker](https://github.com/newtheatre/history-project/issues). We use a GitHub issue tracker for both design and content changes to the site.
 
-2. If you're technically inclined read our [<i class="octicon octicon-book"></i> docs](/docs/), grab a [<i class="octicon octicon-repo-forked"></i> fork of the repo](https://github.com/wjdp/history-project/fork), make some changes, then create a [<i class="octicon octicon-git-pull-request"></i> pull request](https://github.com/newtheatre/history-project/compare) to ask to merge your changes with the live site.
+2. If you're technically inclined read our [<i class="octicon octicon-book"></i> docs](/docs/), grab a [<i class="octicon octicon-repo-forked"></i> fork of the repo](https://github.com/newtheatre/history-project/fork), make some changes, then create a [<i class="octicon octicon-git-pull-request"></i> pull request](https://github.com/newtheatre/history-project/compare) to ask to merge your changes with the live site.
 
