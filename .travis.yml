@@ -4,6 +4,7 @@ cache:
   directories:
   - _site/
   - node_modules/
+  - lib/
 script: _bin/build.sh
 branches:
   only:
