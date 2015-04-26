@@ -23,5 +23,8 @@
     "mousetrap": "~1.5.2",
     "octicons": "~2.2.2",
     "github-issues-widget": "https://github.com/chrismear/github-issues-widget.git"
+  },
+  "resolutions": {
+    "bourbon": "~4.2.2"
   }
 }
