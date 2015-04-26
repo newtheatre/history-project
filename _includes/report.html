@@ -1,0 +1,33 @@
+<div id="report-this-page" class="report-tab">
+  <i class="octicon octicon-issue-opened"></i><p class="report-tab-text">Report This Page</p>
+</div>
+
+<div id="report" class="report">
+  <div data-report-close class="report-bg"></div>
+  <div id="report-modal" class="report-modal">
+    <div data-report-close class="report-close"><i class="octicon octicon-x"></i></div>
+    <h3><i class="octicon octicon-issue-opened"></i> Report a problem with this page</h3>
+    <div id="report-modal-content">
+      <p>You can use the form below to post to our public <a href="https://github.com/newtheatre/history-project/issues">issue tracker</a> about the page you're currently on - {{page.title}}.</p>
+      <div class="report-form">
+        <form name="report-issue-form" id="report-issue-form" action="http://ntbot.io.fullaf.com/post_issue" method="POST">
+          <input class="report-text" type="text" name="title" required placeholder="Subject" />
+          <textarea class="report-textarea" name="message" required placeholder="Message"></textarea>
+          <input class="report-text" type="text" name="name" required placeholder="Your Name" />
+          <input type="hidden" name="page_url" value="{{page.url}}"/>
+          <button class="report-submit" type="submit" />Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/template" id="report-success-template">
+  <div class="box-success">
+    <i class="octicon octicon-check"></i> Report submitted successfully.
+  </div>
+
+  <p>Thanks for the report, you can check on it's progress at the following link:</p>
+
+  <p class="report-link"><a href="<%=url%>"><%=url%></a></p>
+</script>

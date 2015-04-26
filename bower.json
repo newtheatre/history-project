@@ -22,7 +22,9 @@
     "ionicons": "~2.0.1",
     "mousetrap": "~1.5.2",
     "octicons": "~2.2.2",
-    "github-issues-widget": "https://github.com/chrismear/github-issues-widget.git"
+    "github-issues-widget": "https://github.com/chrismear/github-issues-widget.git",
+    "report-issue-post": "https://github.com/wjdp/report-issue-post.git",
+    "underscore": "~1.8.3"
   },
   "resolutions": {
     "bourbon": "~4.2.2"
