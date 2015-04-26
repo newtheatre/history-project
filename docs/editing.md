@@ -9,9 +9,11 @@ To edit the site you have several options, firstly though you must be added to t
 
 ## Editing Online
 
-You can then either use the GitHub website directly or Prose (probably the better option). Ensure you have a verified email address with GitHub otherwise your changes will not trigger a build.
+You can then either use the GitHub website directly or Prose. Ensure you have a verified email address with GitHub otherwise your changes will not trigger a build.
 
-To use [Prose](http://prose.io), visit the site and authorise with GitHub. Find the history-project repo to load up the file list. Navigate to the file you're interested in and click 'Edit'.
+To use the GitHub website use the <strong><i class="octicon octicon octicon-pencil"></i> Edit This Page</strong> button to launch the editor. If you don't have write access to the repo you will be prompted to create a fork and will be led through the process of creating a pull request.
+
+To use [Prose](http://prose.io), visit the site and authorise with GitHub. Find the history-project repo to load up the file list. Navigate to the file you're interested in and click 'Edit'. You need write access to the repo to use Prose.
 
 Meta data can be edited on Prose by using one of the buttons on the far right.
 
