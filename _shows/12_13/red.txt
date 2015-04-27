@@ -15,7 +15,7 @@ It’s 1958. Mark Rothko the legendary expressionist works alone in this Bowery 
 
 ===== Publicity =====
 
-|{{ :shows:2010s:12-13:red:red_poster.png?direct&200 |}}|
+|{{ :shows:2010s:12-13:red:red_poster.jpg?direct&200 |}}|
 
 
 ===== Cast =====
@@ -33,7 +33,7 @@ It’s 1958. Mark Rothko the legendary expressionist works alone in this Bowery 
 ^ Producer                 | Casper Harvey |
 ^ Set Designer             | xxx |
 ^ Stage Manager            | xxx |
-^ Technical Director       | xxx | 
+^ Technical Director       | xxx |
 ^ Lighting Designer        | xxx |
 ^ Make Up Artist           | xxx |
 ^ Technical Operator       | xxx |

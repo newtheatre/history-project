@@ -14,7 +14,7 @@ A play of murderous hunger and creeping revenge. Kenneth battles against two of 
 
 ===== Publicity =====
 
-|{{ :shows:2010s:12-13:the_woman_who_cooked_her_husband:the_woman_who_cooked_her_husband_poster.png?direct&200 |}}|
+|{{ :shows:2010s:12-13:the_woman_who_cooked_her_husband:the_woman_who_cooked_her_husband_poster.jpg?direct&200 |}}|
 
 
 ===== Cast =====
@@ -22,7 +22,7 @@ A play of murderous hunger and creeping revenge. Kenneth battles against two of 
 ^**Character**            |**Member's Name** |
 ^ xxx                     | xxx |
 ^ xxx                     | xxx |
-^ xxx                     | xxx | 
+^ xxx                     | xxx |
 ^ xxx                     | xxx |
 ^ xxx                     | xxx |
 ^ xxx                     | xxx |
@@ -36,7 +36,7 @@ A play of murderous hunger and creeping revenge. Kenneth battles against two of 
 ^ Producer                 | xxx |
 ^ Set Designer             | xxx |
 ^ Stage Manager            | xxx |
-^ Technical Director       | xxx | 
+^ Technical Director       | xxx |
 ^ Lighting Designer        | xxx |
 ^ Make Up Artist           | xxx |
 ^ Technical Operator       | xxx |
