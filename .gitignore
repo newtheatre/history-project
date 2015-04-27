@@ -3,6 +3,9 @@ _site/
 lib/
 node_modules/
 
+for_shows_uncompressed
+for_shows_process
+
 # Windows
 Thumbs.db
 ehthumbs.db

@@ -81,7 +81,7 @@ assets:
   - type: poster
     image: pillowman_poster.jpg
   - type: flyer
-    image: pillowman_flyer_2.png
+    image: pillowman_flyer_2.jpg
   - type: programme
     filename: the_pillowman_programme.pdf
     title: Programme
