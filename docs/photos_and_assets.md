@@ -41,4 +41,4 @@ assets:
 
 <div class="box-error">This needs writing up.</div>
 
-Uploading images and assets needs to be done by a desktop Git application.
+Uploading images and assets needs to be done using Git directly. GUI clients for [Windows](https://windows.github.com/) and [Mac](https://mac.github.com/) are avaliable.
