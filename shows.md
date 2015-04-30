@@ -15,3 +15,5 @@ This page relies on a plugin that hasn't quite been finished yet. Output may var
 </div>
 
 {{ show_index }}
+
+{{ vars_enabled }}
