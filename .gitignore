@@ -2,6 +2,7 @@ _site/
 .sass-cache/
 lib/
 node_modules/
+_asset_bundler_cache/
 
 for_shows_uncompressed
 for_shows_process

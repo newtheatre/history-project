@@ -23,13 +23,5 @@ Our current timeline:
 <h3 class="h1-baseline"><i class="octicon octicon-issue-opened"></i> Open Issues</h3>
 
 <div id="github-issues-widget"></div>
-<script type="text/javascript">
-  GITHUB_ISSUES_USER = "newtheatre";
-  GITHUB_ISSUES_REPO = "history-project";
-  /* Uncomment the following line to filter issues by one or more labels.*/
-  // GITHUB_ISSUES_LABELS = "feature";
-  /* To filter by multiple labels use a CSV string: */
-  // GITHUB_ISSUES_LABELS = "feature,bug";
-</script>
 
 </div>

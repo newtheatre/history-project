@@ -1,28 +1,15 @@
-<!-- Add jQuery library -->
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-
-<script type="text/javascript" src="/lib/underscore/underscore-min.js"></script>
-
-<!-- Add mousewheel plugin (this is optional) -->
-<script type="text/javascript" src="/lib/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
-
-<!-- fancybox -->
-<script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-<!-- Optionally add helpers - button, thumbnail and/or media -->
-<script type="text/javascript" src="/lib/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-<script type="text/javascript" src="/lib/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-<script type="text/javascript" src="/lib/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-
-<script type="text/javascript">
-  $(document).ready(function() {
-    $(".fancybox").fancybox();
-  });
-</script>
-
-<script type="text/javascript" src="/lib/github-issues-widget/github-issues-widget.js"></script>
-
-<script type="text/javascript" src="/lib/mousetrap/mousetrap.min.js"></script>
-
-<script type="text/javascript" src="/js/report.js"></script>
-<script type="text/javascript" src="/js/keyboard.js"></script>
+{% bundle %}
+- /js/globals.js
+- /lib/jquery/dist/jquery.js
+- /lib/underscore/underscore.js
+- /lib/fancybox/lib/jquery.mousewheel-3.0.6.pack.js
+- /lib/fancybox/source/jquery.fancybox.pack.js
+- /lib/fancybox/source/helpers/jquery.fancybox-buttons.js
+- /lib/fancybox/source/helpers/jquery.fancybox-media.js
+- /lib/fancybox/source/helpers/jquery.fancybox-thumbs.js
+- /lib/github-issues-widget/github-issues-widget.js
+- /lib/mousetrap/mousetrap.min.js
+- /js/fancybox.js
+- /js/report.js
+- /js/keyboard.js
+{% endbundle %}
