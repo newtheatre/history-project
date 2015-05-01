@@ -2,10 +2,16 @@ language: ruby
 cache:
   bundler: true
   directories:
-  - _site/
-  - node_modules/
-  - lib/
+    - _site/
+    - node_modules/
+    - lib/
+    - _asset_bundler_cache/
+install:
+  - bundle install
+  - npm install
+  - bower install
 script: _bin/build.sh
+after_script: _bin/deploy.sh
 branches:
   only:
   - master

@@ -24,7 +24,8 @@
     "octicons": "~2.2.2",
     "github-issues-widget": "https://github.com/chrismear/github-issues-widget.git",
     "report-issue-post": "https://github.com/wjdp/report-issue-post.git",
-    "underscore": "~1.8.3"
+    "underscore": "~1.8.3",
+    "jquery": "~2.1.4"
   },
   "resolutions": {
     "bourbon": "~4.2.2"
