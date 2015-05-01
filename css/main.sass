@@ -43,11 +43,16 @@ $color-selection: $color-nnt-orange
 $grid-transition-enable: false
 $grid-column-count: 16
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 
 @import "../lib/bourbon/app/assets/stylesheets/bourbon"
 @import "../lib/fgrid/fgrid"
+
+$fa-font-path: "/lib/font-awesome/fonts"
+@import "../lib/font-awesome/scss/font-awesome"
+
+$ionicons-font-path: "/lib/ionicons/fonts"
+@import "../lib/ionicons/scss/ionicons"
 
 @import "pygments/monokai"
 
