@@ -3,6 +3,7 @@ layout: about
 group: about
 title: Contributing
 sort: 20
+permalink: /contributing/
 ---
 
 # <i class="octicon octicon-git-pull-request"></i> {{ page.title }}
