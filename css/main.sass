@@ -3,6 +3,8 @@
 ---
 @charset "utf-8"
 
+$site-url: "{{ site.url }}"
+
 // Our variables
 $body-font-stack: 'Open Sans', Helvetica, sans-serif
 $header-font-stack: 'Montserrat', sans-serif
@@ -62,6 +64,7 @@ $ionicons-font-path: "/lib/ionicons/fonts"
 @import "person-list"
 @import "boxes"
 @import "breadcrumbs"
+@import "fancybox"
 
 @import "header"
 @import "page"
@@ -75,4 +78,5 @@ $ionicons-font-path: "/lib/ionicons/fonts"
 @import "docs"
 @import "report"
 
-@import "fancybox-fixes"
+@import "bugfix/fancybox"
+@import "bugfix/octicons"
