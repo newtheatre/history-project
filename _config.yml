@@ -34,6 +34,12 @@ image:
         class: show-poster-thumb
         alt: Show poster
       width: 40
+    show_poster_thumb_sr:
+      attr:
+        class: search-result-poster-thumb
+        alt: Show poster
+      width: 140
+
     show_poster:
       attr:
         class: show-poster

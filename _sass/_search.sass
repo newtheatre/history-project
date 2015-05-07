@@ -1,3 +1,7 @@
+body.search
+  .site-header
+    margin-bottom: 0
+
 .search-form
   background: $color-grey-dark
   @include grid-wrap
@@ -40,3 +44,19 @@
 
 .search-results
   @include grid-wrap
+
+.search-result
+  @include block
+  margin-bottom: $baseline * 2
+  clear: both
+  .search-result-poster-thumb
+    float: left
+    padding-right: 14px
+    margin-bottom: $baseline
+  .search-result-show-title
+    margin-bottom: $baseline / 5
+  .meta
+    font-size: $base-font-size * 0.8
+    font-style: italic
+  .search-result-playwright
+    font-weight: 200

@@ -8,11 +8,20 @@ layout: null
     {% unless first %},{% endunless %}{
         "title": {{show.title | jsonify}},
         "type": "show",
+        {% assign posters = show.assets | where:'type', 'poster' %}
+        {% if posters.size > 0 %}{% capture poster_path %}for_shows/{{posters[0].image}}{% endcapture %}{% capture image_tag %}{% image show_poster_thumb_sr {{poster_path}} %}{% endcapture %}"poster_thumb_tag": "{{ image_tag | replace: '"', "'" }}",{% endif %}
+        {% assign year_page = site.pages | where: "group", "year" | where: "year", show.year %}
+        "year_title": {{ year_page[0].title | jsonify }},
         "content": {{show.content | markdownify | strip_html | jsonify}},
+        "playwright": {{ show.playwright | jsonify }},
+        "season": {{ show.season | jsonify }},
+        "venue": {{ show.venue | jsonify }},
         "link": "{{ show.url }}",
         "date": "{{ show.date_start }}",
-        "excerpt": "{{ show.snippet }}",
-        "seach_omit": "{{ show.search_omit }}"
+        "run": "{% if show.date_start %}{% include liquid/date_range.html %} {{ show.date_start | date: "%Y" }}{% else %}<span class=\"unknown\">Dates Unknown</span>{% endif %}",
+        "excerpt": {{ show.content | strip_html | truncatewords: 50 | jsonify}},
+        "cast": "{% for person in show.cast %}{{person.name}}, {% endfor %}",
+        "crew": "{% for person in show.crew %}{{person.name}}, {% endfor %}"
     }
     {% assign first = false %}
     {% endif %}
@@ -27,15 +36,14 @@ layout: null
         "content": {{post.content | markdownify | strip_html | jsonify}},
         "link": "{{ post.url }}",
         "date": "{{ post.date }}",
-        "excerpt": "{{ post.snippet }}",
-        "seach_omit": "{{ post.search_omit }}"
+        "excerpt": {{ post.content | strip_html | truncatewords: 50 | jsonify}}
     }
     {% assign first = false %}
     {% endif %}
 {% endfor %}
 
 {% for page in site.pages %}
-    {% if page.title != null and page.title != empty and page.group != "year" %}
+    {% if page.title != null and page.title != empty and page.group != "year" and page.search_exclude != true %}
     {% unless first %},{% endunless %}{
         "title": {{page.title | jsonify}},
         "type": "page",
@@ -43,8 +51,7 @@ layout: null
         "content": {{page.content | strip_html | jsonify}},
         "link": "{{ page.url | replace: 'index.html', '' }}",
         "date": {{ page.date | jsonify }},
-        "excerpt": {{ page.description | jsonify }},
-        "seach_omit": "{{ post.search_omit }}"
+        "excerpt": {{ page.content | strip_html | truncatewords: 50 | jsonify}}
     }
     {% assign first = false %}
     {% endif %}
