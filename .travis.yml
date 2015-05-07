@@ -12,7 +12,9 @@ install:
   - npm install
   - bower install
 script: _bin/build.sh
-after_script: _bin/deploy.sh
+after_script:
+ - jsonlint -q _site/feeds/search.json
+ - _bin/deploy.sh
 branches:
   only:
   - master
