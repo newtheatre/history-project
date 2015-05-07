@@ -2,9 +2,8 @@
 title: New Theatre History Project
 email: alumni@newtheatre.org.uk
 description: > # this means to ignore newlines until "baseurl:"
-  New Theatre Alumni Network
-  E: ntalumni@newtheatre.org.uk
-  T: @ntalumni
+  Archive project collecting past shows, committees and alumni bios
+  to piece together the New Theatre’s dynamic and vibrant history.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://history.newtheatre.org.uk" # the base hostname & protocol for your site
 
