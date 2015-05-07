@@ -115,7 +115,7 @@ function processData() {
 
         $.each(data, function(index, item) {
             // check if search term is in content or title
-            if (item.content.toLowerCase().indexOf(q.toLowerCase()) > -1 || item.title.toLowerCase().indexOf(q.toLowerCase()) > -1 || item.cast.toLowerCase().indexOf(q.toLowerCase()) > -1 || item.crew.toLowerCase().indexOf(q.toLowerCase()) > -1) {
+            if (item.content.toLowerCase().indexOf(q.toLowerCase()) > -1 || item.title.toLowerCase().indexOf(q.toLowerCase()) > -1 || (item.cast && item.cast.toLowerCase().indexOf(q.toLowerCase()) > -1) || (item.crew && item.crew.toLowerCase().indexOf(q.toLowerCase()) > -1) || (item.playwright && item.playwright.toLowerCase().indexOf(q.toLowerCase()) > -1)) {
                 var result = template({item: item});
                 resultsCount++;
                 $resultsPlaceholder.append(result);
