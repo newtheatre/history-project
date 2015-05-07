@@ -37,7 +37,7 @@ image:
     show_poster:
       attr:
         class: show-poster
-      width: 400
+      width: 440
     show_asset:
       width: 190
     show_photo:
