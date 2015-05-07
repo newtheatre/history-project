@@ -13,6 +13,8 @@
         <a class="page-link{% if node.url == page.url %} current{% endif %}" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
         {% endif %}
       {% endfor %}
+      <i class="octicon octicon-circuit-board"></i>
+      <a class="page-link{% if page.url == "/about/" %} current{% endif %}" href="/about/">About</a>
     </nav>
     <div class="site-search">
       {% if page.url != "/search/" %}
