@@ -6,4 +6,4 @@ The history project aims to collect information on past shows, committees and ot
 
 ## Editing
 
-See the [site documentation](http://alpha.history.newtheatre.org.uk/docs/)
+See the [site documentation](http://history.newtheatre.org.uk/docs/)
