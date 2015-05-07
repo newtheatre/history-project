@@ -6,6 +6,7 @@ cache:
     - node_modules/
     - lib/
     - _asset_bundler_cache/
+    - vendor/bundle
 install:
   - bundle install --jobs=3 --retry=3 --deployment --path=${BUNDLE_PATH:-vendor/bundle}
   - npm install
