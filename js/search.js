@@ -1,5 +1,5 @@
 /**
- * A simple JSON search
+ * A simple JSON seseaarch
  * Requires jQuery (v 1.7+)
  *
  * @author  Mat Hayward - Erskine Design
@@ -56,11 +56,11 @@ function initSearch() {
     }
 
     // Get search results on submission of form
-    $(document).on("submit", $searchForm, function(e) {
-        e.preventDefault();
-        q = $searchInput.val();
-        execSearch(q);
-    });
+    // $(document).on("submit", $searchForm, function(e) {
+    //     e.preventDefault();
+    //     q = $searchInput.val();
+    //     execSearch(q);
+    // });
 }
 
 
@@ -110,14 +110,15 @@ function processData() {
     return function(data) {
 
         var resultsCount = 0,
-            results = "";
+            results = "",
+            template = _.template($resultTemplate.html())
 
         $.each(data, function(index, item) {
             // check if search term is in content or title
-            if (item.content.toLowerCase().indexOf(q.toLowerCase()) > -1 || item.title.toLowerCase().indexOf(q.toLowerCase()) > -1) {
-                var result = populateResultContent($resultTemplate.html(), item);
+            if (item.content.toLowerCase().indexOf(q.toLowerCase()) > -1 || item.title.toLowerCase().indexOf(q.toLowerCase()) > -1 || item.cast.toLowerCase().indexOf(q.toLowerCase()) > -1 || item.crew.toLowerCase().indexOf(q.toLowerCase()) > -1) {
+                var result = template({item: item});
                 resultsCount++;
-                results += result;
+                $resultsPlaceholder.append(result);
             }
         });
 
@@ -126,7 +127,7 @@ function processData() {
         }
 
         populateResultsString(resultsCount);
-        showSearchResults(results);
+        // showSearchResults(results);
     }
 }
 
@@ -140,24 +141,6 @@ function showSearchResults(results) {
     // Add results HTML to placeholder
     $resultsPlaceholder.html(results);
 }
-
-
-/**
- * Add results content to item template
- * @param {String} html
- * @param {object} item
- * @return {String} Populated HTML
- */
-function populateResultContent(html, item) {
-    html = injectContent(html, item.title, '##Title##');
-    html = injectContent(html, item.link, '##Url##');
-    html = injectContent(html, item.excerpt, '##Excerpt##');
-    html = injectContent(html, item.date, '##Date##');
-    html = injectContent(html, item.type, '##type##');
-    html = injectContent(html, item.group, '##group##');
-    return html;
-}
-
 
 /**
  * Populates results string

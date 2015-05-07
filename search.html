@@ -2,6 +2,8 @@
 layout: default
 title: Search
 search_omit: true
+editable: false
+body_class: search
 ---
 
 <div class="search-form">
@@ -21,6 +23,11 @@ search_omit: true
 
 <div class="search-results">
   <!-- Search results placeholder -->
+  <div class="box-warning">
+    <i class="fa fa-exclamation-triangle"></i>
+    These search results are very much in beta. If you find any bugs, such as pages not showing up you know exist, please report them using the button on the right.
+  </div>
+
   <p data-search-found>
     <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
   </p>
@@ -31,7 +38,34 @@ search_omit: true
   <!-- Search result template -->
   <script type="text/x-template" id="search-result">
     <div>
-      <h3>##type## ##group## <a href="##Url##">##Title##</a></h3>
+    <% if (item.type == "show") { %>
+      <div class="search-result">
+        <h3 class="search-result-show-title">
+          <% if (item.poster_thumb_tag) { %><%= item.poster_thumb_tag %><% } else { %><i class="fa fa-ticket"></i><% } %>
+          <a href="<%= item.link %>"><%= item.title %></a>
+          <% if (item.playwright) { %><span class="search-result-playwright">by <%= item.playwright %></span><% } %>
+          </h3>
+        <p class="meta"><%= item.run %> at <%= item.venue %>, <%= item.season %> season</p>
+        <p><%= item.excerpt %></p>
+      </div>
+    <% } else { %>
+      <% if (item.group == "about") { %>
+        <div class="search-result">
+          <h3><i class="octicon octicon-circuit-board"></i> <a href="<%= item.link %>"><%= item.title %></a></h3>
+          <p><%= item.excerpt %></p>
+        </div>
+      <% } else if (item.group == "docs") { %>
+        <div class="search-result">
+          <h3><i class="fa fa-file-text-o"></i> <a href="<%= item.link %>"><%= item.title %></a></h3>
+          <p><%= item.excerpt %></p>
+        </div>
+      <% } else { %>
+        <div class="search-result">
+          <h3><i class="fa fa-file"></i> <a href="<%= item.link %>"><%= item.title %></a></h3>
+          <p><%= item.excerpt %></p>
+        </div>
+      <% } %>
+    <% } %>
     </div>
   </script>
 

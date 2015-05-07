@@ -2,6 +2,7 @@
 layout: page
 title: Show Index
 editable: false
+search_exclude: true
 ---
 
 # Show Index
