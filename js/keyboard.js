@@ -14,3 +14,24 @@ Mousetrap.bind('up', function() {
     window.location.href = jekyll_page_up;
   }
 });
+
+Mousetrap.bind('e d i t o r', function() {
+  console.log('debug')
+  if (localStorage.debug_mode == "yes") {
+    // Disable
+    localStorage.debug_mode = "no"
+    $('[data-debug-toggle]').hide()
+  }
+  else {
+    // Enable
+    localStorage.debug_mode = "yes"
+    $('[data-debug-toggle]').show()
+  }
+
+});
+
+$(document).ready(function(){
+  if (localStorage.debug_mode == "yes") {
+    $('[data-debug-toggle]').show()
+  }
+});
