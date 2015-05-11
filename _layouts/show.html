@@ -9,17 +9,21 @@ layout: default
 {% assign year = show.year %}
 {% include liquid/year_to_decade.html %}
 
-<ul class="breadcrumbs">
-  <li class="breadcrumb">
-    <a href="/years/">Years</a>
-  </li>
-  <li class="breadcrumb breadcrumb-{{ decade }}">
-    <a href="/years/{{show.year}}">{{ year_page[0].title }}</a>
-  </li>
-  <li class="breadcrumb breadcrumb-{{ decade }}-child">
-    <a href="{{show.url}}">{{show.title}}</a>
-  </li>
-</ul>
+<div class="breadcrumbs">
+
+  <ul class="breadcrumb-list">
+    <li class="breadcrumb">
+      <a href="/years/">Archives</a>
+    </li>
+    <li class="breadcrumb breadcrumb-{{ decade }}">
+      <a href="/years/{{show.year}}">{{ year_page[0].title }}</a>
+    </li>
+    <li class="breadcrumb breadcrumb-{{ decade }}-child">
+      <a href="{{show.url}}">{{show.title}}</a>
+    </li>
+  </ul>
+
+</div>
 
 <div class="show">
 

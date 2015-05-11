@@ -1,25 +1,31 @@
 $line: 2px red solid
 
-$color-1: $color-grey-dark
+$color-1: mix($color-grey-dark, $color-background, 70%)
 $color-2: darken($color-grey-dark, 12%)
 $color-3: darken($color-grey-dark, 14%)
 $color-4: darken($color-grey-dark, 16%)
 $color-5: darken($color-grey-dark, 18%)
 
+$color-arrow: $color-grey-light
+
 .breadcrumbs
-  @include grid-wrap
-  @include block
-  list-style: none
-  overflow: hidden
+  background: $color-1
+  .breadcrumb-list
+    @include grid-wrap
+    margin-top: - $baseline * 2
+    margin-left: 0
+    @include block
+    list-style: none
+    overflow: hidden
 
 .breadcrumbs li
   padding-bottom: 0
 
 .breadcrumbs li a
-  color: white
+  color: $color-text-white
   text-decoration: none
-  padding: 10px 0 10px 65px
-  background: $color-1
+  padding: 10px 10px 10px 65px
+  // background: $color-1
   position: relative
   display: block
   float: left
@@ -46,18 +52,17 @@ $color-5: darken($color-grey-dark, 18%)
   height: 0
   border-top: 50px solid transparent
   border-bottom: 50px solid transparent
-  border-left: 30px solid white
+  border-left: 30px solid $color-white
   position: absolute
   top: 50%
   margin-top: -50px
-  margin-left: 1px
+  margin-left: 2px
   left: 100%
   z-index: 1
 
 
 .breadcrumbs li:first-child a
   padding-left: 10px
-  border-radius: 6px 0 0 6px
 
 .breadcrumbs li:nth-child(2) a
   background: $color-2
@@ -81,7 +86,8 @@ $color-5: darken($color-grey-dark, 18%)
 //   pointer-events: none
 //   cursor: default
 
-.breadcrumbs li:first-child a:hover
-  background: darken($color-1, 8%)
-.breadcrumbs li:first-child a:hover:after
-  border-left-color: darken($color-1, 8%) !important
+// Hover on first item looks silly now we've made the breadcrumbs bar full width
+// .breadcrumbs li:first-child a:hover
+//   background: darken($color-1, 8%)
+// .breadcrumbs li:first-child a:hover:after
+//   border-left-color: darken($color-1, 8%) !important

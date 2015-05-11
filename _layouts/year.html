@@ -8,15 +8,18 @@ layout: default
 {% assign prev_year = page.sort | minus: 1 %}
 {% assign prev = site.pages | where: "group", "year" | where: "sort", prev_year %}
 
-<ul class="breadcrumbs">
-  <li class="breadcrumb">
-    <a href="/years/">Years</a>
-  </li>
-  <li class="breadcrumb breadcrumb-{{ page.decade }}">
-    <a href="{{ page.url }}">{{ page.title }}</a>
-  </li>
+<div class="breadcrumbs">
 
-</ul>
+  <ul class="breadcrumb-list">
+    <li class="breadcrumb">
+      <a href="/years/">Archives</a>
+    </li>
+    <li class="breadcrumb breadcrumb-{{ page.decade }}">
+      <a href="{{ page.url }}">{{ page.title }}</a>
+    </li>
+  </ul>
+
+</div>
 
 <div class="page">
   <div class="year-shows">
