@@ -7,9 +7,10 @@
 
   <li {% if shows_in_year.size == 0 %}class="empty"{% endif %}><a href="{{node.url}}">{{node.title}}</a>
 
-  {% if shows_in_year.size > 0 %}{{shows_in_year.size}}{% endif %}
-
-  {% if committee_page.size != 0 %}C{% endif %}
+  <div class="decade-list-counts" data-debug-toggle title="Show counts for year, C denotes a committee record">
+    {% if shows_in_year.size > 0 %}{{shows_in_year.size}}{% endif %}
+    {% if committee_page.size != 0 %}C{% endif %}
+  </div>
 
   </li>
 

@@ -6,6 +6,9 @@
 
   <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
 
+    <div class="debug-build-details" data-debug-toggle><i class="fa fa-clock-o"></i> {{site.time | date: "%Y-%m-%d %H:%M" }}, build {% include travis_build_number.txt %}</div>
+    <div class="debug-mode" data-debug-toggle><i class="fa fa-bug"></i> Site is in editors mode, type editor again to cancel</div>
+
     {% include header.html %}
 
     <!-- {% include breadcrumbs.html %} -->

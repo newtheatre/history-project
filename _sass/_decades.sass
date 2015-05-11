@@ -15,9 +15,17 @@
   margin: 0 8px $baseline 0
   li
     padding-bottom: 0
+    position: relative
   .empty
     a
       color: $color-grey
+
+.decade-list-counts
+  // Debug feature
+  @include debug-box
+  position: absolute
+  right: 0
+  top: 2px
 
 // Colour generator for decade, overrides some stuff in _breadcrumbs.sass
 $background-base: adjust-hue($color-decades-base, 220%)
