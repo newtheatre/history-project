@@ -6,8 +6,6 @@ season: In House
 period: Autumn
 playwright: Anton Chekhov
 year: "54_55"
-venue: 
-  - New Theatre
 season_sort: 
   - "60"
   - 60

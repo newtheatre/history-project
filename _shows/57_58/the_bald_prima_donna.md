@@ -5,12 +5,10 @@ title: The Bald Prima Donna
 season: In House
 period: Autumn
 playwright: Eugene Ionesco
-season_sort: 
+season_sort:
   - "30"
   - 30
 year: "57_58"
-venue: 
-  - New Theatre
 ---
 
 La Cantatrice Chauve — translated from French as The Bald Soprano or The Bald Prima Donna — is the first play written by Romanian-French playwright Eugène Ionesco.
