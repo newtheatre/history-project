@@ -9,7 +9,7 @@ layout: null
         "title": {{show.title | jsonify}},
         "type": "show",
         {% assign posters = show.assets | where:'type', 'poster' %}
-        {% if posters.size > 0 %}{% capture poster_path %}for_shows/{{posters[0].image}}{% endcapture %}{% capture image_tag %}{% image show_poster_thumb_sr {{poster_path}} %}{% endcapture %}"poster_thumb_tag": "{{ image_tag | replace: '"', "'" }}",{% endif %}
+        {% if posters.size > 0 %}{% capture poster_path %}for_shows/{{posters[0].image}}{% endcapture %}{% capture image_tag %}{% image show_poster_thumb_sr {{poster_path}} %}{% endcapture %}"poster_thumb_tag": "<a href='{{show.url}}'>{{ image_tag | replace: '"', "'" }}</a>",{% endif %}
         {% assign year_page = site.pages | where: "group", "year" | where: "year", show.year %}
         "year_title": {{ year_page[0].title | jsonify }},
         "content": {{show.content | markdownify | strip_html | jsonify}},
