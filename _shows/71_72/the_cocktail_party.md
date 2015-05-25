@@ -1,10 +1,10 @@
 ---
 layout: show
-published: true
+published: false
 title: The Cocktail Party
 season: In House
 period: Autumn
-playwright: T. S. Eliot
+playwright: T.S.Eliot
 season_sort: 
   - "40"
   - 40
