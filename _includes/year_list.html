@@ -43,7 +43,12 @@
 
 {% if others.size > 0 %}
 {% assign shows = others %}
-<h3>Unassigned</h3>
-{% include boxes/shows_unassigned.html %}
+<h3>Other</h3>
+
+<div class="box-debug" data-debug-toggle>
+  <i class="fa fa-exclamation-triangle"></i>
+  <p>The following shows are not assigned to a season period, they require a <code>season</code> attribute.</p>
+</div>
+
 {% include show_list.html %}
 {% endif %}

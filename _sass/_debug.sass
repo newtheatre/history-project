@@ -1,12 +1,17 @@
+$color-debug: #4FFF1F
+
 @mixin debug-box
   display: none
   font-family: monospace
   font-size: 11.5px
   font-weight: bold
   background: #000
-  color: #4FFF1F
+  color: $color-debug
   padding: 1px 3px
   z-index: 9000
+
+.debug
+  display: none
 
 .debug-build-details
   @include debug-box

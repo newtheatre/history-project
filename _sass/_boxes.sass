@@ -1,4 +1,4 @@
-.box-error, .box-warning, .box-success, .box-info
+.box-error, .box-warning, .box-success, .box-info, .box-debug
   padding: $baseline
   margin-bottom: $baseline
   position: relative
@@ -38,5 +38,13 @@
     background: darken($color-success, 7%)
 .box-info
   background: $color-info
+  code
+    background: darken($color-info, 7%)
+
+.box-debug
+  display: none
+  background: #000
+  color: $color-debug
+  font-family: monospace
   code
     background: darken($color-info, 7%)
