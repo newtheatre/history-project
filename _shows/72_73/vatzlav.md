@@ -9,11 +9,6 @@ season_sort:
   - "300"
   - 300
 year: "72_73"
-cast: 
-  - role: Katurian
-    name: Sam Haywood
-  - role: Ariel
-    name: Will Randall
 crew: 
   - role: Director
     name: Frank Ward
