@@ -1,6 +1,6 @@
 ---
 layout: show
-published: false
+published: true
 title: Earth Spirit
 season: In House
 period: Autumn
@@ -8,6 +8,7 @@ playwright: Frank Wedekind
 season_sort: 
   - "50"
   - 50
+  - .nan
   - .nan
   - .nan
   - .nan
