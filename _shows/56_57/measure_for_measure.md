@@ -5,9 +5,7 @@ title: Measure for Measure
 season: In House
 period: Autumn
 playwright: William Shakespeare
-season_sort: 
-  - "30"
-  - 30
+season_sort: 30
 year: "56_57"
 ---
 

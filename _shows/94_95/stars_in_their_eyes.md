@@ -4,14 +4,9 @@ published: false
 title: Stars in their eyes
 season: In House
 period: Spring
-season_sort: 
-  - "240"
-  - 240
-  - .nan
-  - .nan
-  - .nan
+season_sort: 240
 year: "94_95"
-venue: 
+venue:
   - New Theatre
 ---
 

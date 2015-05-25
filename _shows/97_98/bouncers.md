@@ -5,11 +5,9 @@ title: Bouncers
 season: In House
 period: Autumn
 playwright: John Godber
-season_sort: 
-  - "40"
-  - 40
+season_sort: 40
 year: "97_98"
-venue: 
+venue:
   - New Theatre
 ---
 

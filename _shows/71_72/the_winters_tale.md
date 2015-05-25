@@ -5,9 +5,7 @@ title: "The Winter's Tale"
 season: In House
 period: Autumn
 playwright: William Shakespeare
-season_sort: 
-  - "60"
-  - 60
+season_sort: 60
 year: "71_72"
 ---
 

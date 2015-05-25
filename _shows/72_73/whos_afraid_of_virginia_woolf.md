@@ -5,11 +5,9 @@ title: "Who's afraid of Virginia Woolf"
 season: In House
 period: Spring
 playwright: Edward Albee
-season_sort: 
-  - "180"
-  - 180
+season_sort: 180
 year: "72_73"
-venue: 
+venue:
   - New Theatre
 ---
 

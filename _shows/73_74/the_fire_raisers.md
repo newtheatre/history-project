@@ -5,11 +5,9 @@ title: The Fire Raisers
 season: In House
 period: Spring
 playwright: Max Frisch
-season_sort: 
-  - "130"
-  - 130
+season_sort: 130
 year: "73_74"
-venue: 
+venue:
   - New Theatre
 ---
 

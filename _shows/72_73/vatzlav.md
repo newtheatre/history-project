@@ -5,11 +5,9 @@ title: Vatzlav
 season: Edinburgh
 period: Edinburgh
 playwright: Slawomir Mrozek
-season_sort: 
-  - "300"
-  - 300
+season_sort: 300
 year: "72_73"
-crew: 
+crew:
   - role: Director
     name: Frank Ward
   - role: Lighting
@@ -20,7 +18,7 @@ crew:
   - name: Tony Ireland
   - role: Stage Manager
   - name: Sarah Hughes
-venue: 
+venue:
   - Edinburgh
 ---
 

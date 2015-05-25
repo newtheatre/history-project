@@ -5,11 +5,9 @@ title: The Lunch Hour
 season: In House
 period: Autumn
 playwright: John Mortimer
-season_sort: 
-  - "40"
-  - 40
+season_sort: 40
 year: "73_74"
-venue: 
+venue:
   - New Theatre
 ---
 

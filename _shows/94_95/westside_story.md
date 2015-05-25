@@ -4,13 +4,11 @@ published: false
 season: In House
 period: Autumn
 title: Westside Story
-season_sort: 
-  - "40"
-  - 40
+season_sort: 40
 year: "94_95"
-venue: 
+venue:
   - New Theatre
-cast: 
+cast:
   - role: Tony
     name: Andrew Muir
   - role: Riff
@@ -69,7 +67,7 @@ cast:
     name: Andrew Batty
   - role: "glad-Hand"
     name: Malcolm Rothera
-crew: 
+crew:
   - role: Director
     name: Kate McIntyre
   - role: Assistant Director

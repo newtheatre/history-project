@@ -4,11 +4,9 @@ published: false
 title: Messidor
 season: In House
 period: Autumn
-season_sort: 
-  - "40"
-  - 40
+season_sort: 40
 year: "72_73"
-venue: 
+venue:
   - New Theatre
 ---
 

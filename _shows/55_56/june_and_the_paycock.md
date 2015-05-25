@@ -5,9 +5,7 @@ title: June and the Paycock
 season: In House
 period: Autumn
 playwright: "Sean O'Casey"
-season_sort: 
-  - "70"
-  - 70
+season_sort: 70
 year: "55_56"
 ---
 

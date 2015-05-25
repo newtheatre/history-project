@@ -5,11 +5,9 @@ title: Everyman
 season: In House
 period: Autumn
 playwright: Anon
-season_sort: 
-  - "60"
-  - 60
+season_sort: 60
 year: "72_73"
-venue: 
+venue:
   - New Theatre
 ---
 

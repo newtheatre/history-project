@@ -5,11 +5,9 @@ title: "'Tis pity she's a whore"
 season: In House
 period: Spring
 playwright: John ford
-season_sort: 
-  - "130"
-  - 130
+season_sort: 130
 year: "72_73"
-venue: 
+venue:
   - New Theatre
 ---
 

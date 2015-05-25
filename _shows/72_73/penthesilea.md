@@ -5,11 +5,9 @@ title: Penthesilea
 season: In House
 period: Autumn
 playwright: Heinrich von Kleist
-season_sort: 
-  - "50"
-  - 50
+season_sort: 50
 year: "72_73"
-venue: 
+venue:
   - New Theatre
 ---
 

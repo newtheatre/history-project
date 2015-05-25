@@ -5,13 +5,9 @@ title: The Cocktail Party
 season: In House
 period: Autumn
 playwright: T.S.Eliot
-season_sort: 
-  - "40"
-  - 40
-  - .nan
-  - .nan
+season_sort: 40
 year: "71_72"
-venue: 
+venue:
   - Trent Building
 ---
 

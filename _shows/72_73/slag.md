@@ -5,11 +5,9 @@ title: Slag
 season: In House
 period: Spring
 playwright: David Hare
-season_sort: 
-  - "160"
-  - 160
+season_sort: 160
 year: "72_73"
-venue: 
+venue:
   - New Theatre
 ---
 

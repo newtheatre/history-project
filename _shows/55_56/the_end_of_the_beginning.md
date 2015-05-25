@@ -5,9 +5,7 @@ title: The end of the beginning
 season: In House
 period: Autumn
 playwright: "Sean O'Casey"
-season_sort: 
-  - "60"
-  - 60
+season_sort: 60
 year: "55_56"
 ---
 

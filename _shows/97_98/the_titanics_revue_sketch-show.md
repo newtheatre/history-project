@@ -4,11 +4,9 @@ published: false
 title: The Titanics Revue (Sketch Show)
 season: In House
 period: Spring
-season_sort: 
-  - "310"
-  - 310
+season_sort: 310
 year: "97_98"
-venue: 
+venue:
   - New Theatre
 ---
 

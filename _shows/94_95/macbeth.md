@@ -5,15 +5,11 @@ season: In House
 period: Spring
 title: Macbeth
 playwright: William Shakespeare
-season_sort: 
-  - "230"
-  - 230
-  - .nan
-  - .nan
+season_sort: 230
 year: "94_95"
-venue: 
+venue:
   - New Theatre
-cast: 
+cast:
   - role: Duncan
     name: Martin Pye
   - role: Malcolm
@@ -56,7 +52,7 @@ cast:
     name: Sonja Webb
   - role: Gentlewoman
     name: Rachel Webb
-crew: 
+crew:
   - role: Director
     name: Mark Heywood
   - role: Assistant Director

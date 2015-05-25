@@ -5,11 +5,9 @@ title: The Tempest
 season: In House
 period: Spring
 playwright: William Shakespeare
-season_sort: 
-  - "310"
-  - 310
+season_sort: 310
 year: "96_97"
-venue: 
+venue:
   - New Theatre
 ---
 

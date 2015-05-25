@@ -4,11 +4,9 @@ published: false
 title: Arcadia
 season: In House
 period: Spring
-season_sort: 
-  - "240"
-  - 240
+season_sort: 240
 year: "95_96"
-venue: 
+venue:
   - New Theatre
 playwright: Tom Stoppard
 ---

@@ -5,9 +5,7 @@ title: Edward II
 season: In House
 period: Autumn
 playwright: Christopher Marlowe
-season_sort: 
-  - "50"
-  - 50
+season_sort: 50
 year: "71_72"
 ---
 

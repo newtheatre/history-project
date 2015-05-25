@@ -5,11 +5,9 @@ title: The Breakfast Club
 season: In House
 period: Spring
 playwright: John Hughes
-season_sort: 
-  - "250"
-  - 250
+season_sort: 250
 year: "95_96"
-venue: 
+venue:
   - New Theatre
 ---
 
