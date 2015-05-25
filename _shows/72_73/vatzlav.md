@@ -1,6 +1,6 @@
 ---
 layout: show
-published: false
+published: true
 title: Vatzlav
 season: Edinburgh
 period: Edinburgh
@@ -8,9 +8,6 @@ playwright: Slawomir Mrozek
 season_sort: 
   - "300"
   - 300
-  - .nan
-  - .nan
-  - .nan
 year: "72_73"
 cast: 
   - role: Katurian
@@ -28,6 +25,8 @@ crew:
   - name: Tony Ireland
   - role: Stage Manager
   - name: Sarah Hughes
+venue: 
+  - Edinburgh
 ---
 
 
