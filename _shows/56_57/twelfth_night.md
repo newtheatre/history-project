@@ -5,9 +5,7 @@ title: Twelfth Night
 season: In House
 period: Autumn
 playwright: William Shakespeare
-season_sort:
-  - "40"
-  - 40
+season_sort: 40
 year: "56_57"
 ---
 
