@@ -11,8 +11,6 @@ season_sort:
   - .nan
   - .nan
 year: "55_56"
-venue: 
-  - New Theatre
 playwright: Ben Johnson
 ---
 

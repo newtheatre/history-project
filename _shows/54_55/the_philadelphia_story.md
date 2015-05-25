@@ -11,8 +11,6 @@ season_sort:
   - .nan
   - .nan
 year: "54_55"
-venue: 
-  - New Theatre
 ---
 
 

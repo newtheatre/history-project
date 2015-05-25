@@ -9,8 +9,6 @@ season_sort:
   - "60"
   - 60
 year: "55_56"
-venue: 
-  - New Theatre
 ---
 
 The End of the Beginning is a 1937 one-act play by Sean O'Casey.
