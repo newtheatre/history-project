@@ -5,13 +5,11 @@ season: In House
 period: Autumn
 title: Frankenstein
 playwright: Mary Shelley
-season_sort: 
-  - "50,50"
-  - .nan
+season_sort: 50
 year: "95_96"
-venue: 
+venue:
   - New Theatre
-cast: 
+cast:
   - role: Victor Frankenstein
     name: Simon Burkey
   - role: Henry Clerval
@@ -29,7 +27,7 @@ cast:
   - role: Justine
     name: Bhanu Krishnan
 
-crew: 
+crew:
   - role: Director
     name: David Trennery
   - role: Assistant Director
