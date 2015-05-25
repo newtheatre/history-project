@@ -6,9 +6,7 @@ period: Autumn
 title: Frankenstein
 playwright: Mary Shelley
 season_sort: 
-  - "50"
-  - 50
-  - .nan
+  - "50,50"
   - .nan
 year: "95_96"
 venue: 
