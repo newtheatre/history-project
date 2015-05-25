@@ -28,10 +28,7 @@ cast:
     name: Martin Pye
   - role: Justine
     name: Bhanu Krishnan
-  - role: null
-    name: null
-  - role: null
-    name: null
+
 crew: 
   - role: Director
     name: David Trennery
