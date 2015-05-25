@@ -1,3 +1,5 @@
+$breadcrumb-item-pad: 10px
+
 $line: 2px red solid
 
 $color-1: mix($color-grey-dark, $color-background, 70%)
@@ -9,85 +11,105 @@ $color-5: darken($color-grey-dark, 18%)
 $color-arrow: $color-grey-light
 
 .breadcrumbs
+
+.breadcrumb-inner
+  @include grid-wrap
+  @include block
   background: $color-1
-  .breadcrumb-list
-    @include grid-wrap
-    margin-top: - $baseline * 2
-    margin-left: 0
-    @include block
-    list-style: none
-    overflow: hidden
+  margin-top: - $baseline * 2
+  margin-left: 0
 
-.breadcrumbs li
-  padding-bottom: 0
+.breadcrumb-list
+  margin: 0
+  list-style: none
+  overflow: hidden
 
-.breadcrumbs li a
-  color: $color-text-white
-  text-decoration: none
-  padding: 10px 10px 10px 65px
-  // background: $color-1
-  position: relative
-  display: block
-  float: left
+  li
+    padding-bottom: 0
 
-.breadcrumbs li a:after
-  content: " "
-  display: block
-  width: 0
-  height: 0
-  border-top: 50px solid transparent           /* Go big on the size, and let overflow hide */
-  border-bottom: 50px solid transparent
-  border-left: 30px solid $color-1
-  position: absolute
-  top: 50%
-  margin-top: -50px
-  left: 100%
-  z-index: 2
+  li a
+    color: $color-text-white
+    text-decoration: none
+    padding: $breadcrumb-item-pad 10px $breadcrumb-item-pad 65px
+    // background: $color-1
+    position: relative
+    display: block
+    float: left
 
-
-.breadcrumbs li a:before
-  content: " "
-  display: block
-  width: 0
-  height: 0
-  border-top: 50px solid transparent
-  border-bottom: 50px solid transparent
-  border-left: 30px solid $color-white
-  position: absolute
-  top: 50%
-  margin-top: -50px
-  margin-left: 2px
-  left: 100%
-  z-index: 1
+  li a:after
+    content: " "
+    display: block
+    width: 0
+    height: 0
+    border-top: 50px solid transparent           /* Go big on the size, and let overflow hide */
+    border-bottom: 50px solid transparent
+    border-left: 30px solid $color-1
+    position: absolute
+    top: 50%
+    margin-top: -50px
+    left: 100%
+    z-index: 2
 
 
-.breadcrumbs li:first-child a
-  padding-left: 10px
+  li a:before
+    content: " "
+    display: block
+    width: 0
+    height: 0
+    border-top: 50px solid transparent
+    border-bottom: 50px solid transparent
+    border-left: 30px solid $color-white
+    position: absolute
+    top: 50%
+    margin-top: -50px
+    margin-left: 2px
+    left: 100%
+    z-index: 1
 
-.breadcrumbs li:nth-child(2) a
-  background: $color-2
-.breadcrumbs li:nth-child(2) a:after
-  border-left-color: $color-2
-.breadcrumbs li:nth-child(3) a
-  background: $color-3
-.breadcrumbs li:nth-child(3) a:after
-  border-left-color: $color-3
-.breadcrumbs li:nth-child(4) a
-  background: $color-4
-.breadcrumbs li:nth-child(4) a:after
-  border-left-color: $color-4
-.breadcrumbs li:nth-child(5) a
-  background: $color-5
-.breadcrumbs li:nth-child(5) a:after
-  border-left-color: $color-5
-// .breadcrumbs li:last-child a
-//   background: transparent !important
-//   color: black
-//   pointer-events: none
-//   cursor: default
 
-// Hover on first item looks silly now we've made the breadcrumbs bar full width
-// .breadcrumbs li:first-child a:hover
-//   background: darken($color-1, 8%)
-// .breadcrumbs li:first-child a:hover:after
-//   border-left-color: darken($color-1, 8%) !important
+  li:first-child a
+    padding-left: 10px
+
+  li:nth-child(2) a
+    background: $color-2
+  li:nth-child(2) a:after
+    border-left-color: $color-2
+  li:nth-child(3) a
+    background: $color-3
+  li:nth-child(3) a:after
+    border-left-color: $color-3
+  li:nth-child(4) a
+    background: $color-4
+  li:nth-child(4) a:after
+    border-left-color: $color-4
+  li:nth-child(5) a
+    background: $color-5
+  li:nth-child(5) a:after
+    border-left-color: $color-5
+  // .breadcrumbs li:last-child a
+  //   background: transparent !important
+  //   color: black
+  //   pointer-events: none
+  //   cursor: default
+
+  // Hover on first item looks silly now we've made the breadcrumbs bar full width
+  // .breadcrumbs li:first-child a:hover
+  //   background: darken($color-1, 8%)
+  // .breadcrumbs li:first-child a:hover:after
+  //   border-left-color: darken($color-1, 8%) !important
+
+.breadcrumb-controls
+  float: right
+  a
+    color: $color-text-white
+    display: inline-block
+    background: darken($color-1, 10%)
+    padding: $breadcrumb-item-pad 20px
+
+    &.disabled
+      background: darken($color-1, 3%)
+      color: lighten($color-1, 6%)
+
+    &.enabled:hover
+      text-decoration: none
+      background: darken($color-1, 6%)

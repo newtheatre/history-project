@@ -9,20 +9,43 @@ layout: default
 {% assign year = show.year %}
 {% include liquid/year_to_decade.html %}
 
+{% assign shows_in_year = site.collections.shows.docs | where: "year", show.year | sort: "season_sort" %}
+{% assign next_trigger = false %}
+
+{% for ishow in shows_in_year %}
+  <!--{{ishow.title}}-->
+  {% if next_trigger %}
+    {% assign next_trigger = false %}
+    {% assign next_show = ishow %}
+  {% endif %}
+  {% if ishow == show %}
+    {% assign prev_show = last %}
+    {% assign next_trigger = true %}
+  {% endif %}
+  {% assign last = ishow %}
+{% endfor %}
+
 <div class="breadcrumbs">
+  <div class="breadcrumb-inner">
 
-  <ul class="breadcrumb-list">
-    <li class="breadcrumb">
-      <a href="/years/">Archives</a>
-    </li>
-    <li class="breadcrumb breadcrumb-{{ decade }}">
-      <a href="/years/{{show.year}}">{{ year_page[0].title }}</a>
-    </li>
-    <li class="breadcrumb breadcrumb-{{ decade }}-child">
-      <a href="{{show.url}}">{{show.title}}</a>
-    </li>
-  </ul>
+    <div class="breadcrumb-controls">
+      <a {% if prev_show %}href="{{prev_show.url}}" class="enabled"{% else %}href="#" class="disabled"{% endif %} title="Previous Show"><i class="ion-chevron-left"></i></a>
+      <a {% if next_show %}href="{{next_show.url}}" class="enabled"{% else %}href="#" class="disabled"{% endif %} title="Next Show"><i class="ion-chevron-right"></i></a>
+    </div>
 
+    <ul class="breadcrumb-list">
+      <li class="breadcrumb">
+        <a href="/years/">Archives</a>
+      </li>
+      <li class="breadcrumb breadcrumb-{{ decade }}">
+        <a href="/years/{{show.year}}">{{ year_page[0].title }}</a>
+      </li>
+      <li class="breadcrumb breadcrumb-{{ decade }}-child">
+        <a href="{{show.url}}">{{show.title}}</a>
+      </li>
+    </ul>
+
+  </div>
 </div>
 
 <div class="show">
@@ -149,22 +172,6 @@ layout: default
   </div>
 
 </div>
-
-{% assign shows_in_year = site.collections.shows.docs | where: "year", show.year | sort: "season_sort" %}
-{% assign next_trigger = false %}
-
-{% for ishow in shows_in_year %}
-  <!--{{ishow.title}}-->
-  {% if next_trigger %}
-    {% assign next_trigger = false %}
-    {% assign next_show = ishow %}
-  {% endif %}
-  {% if ishow == show %}
-    {% assign prev_show = last %}
-    {% assign next_trigger = true %}
-  {% endif %}
-  {% assign last = ishow %}
-{% endfor %}
 
 <script type="text/javascript">
 // Reversed to make sense with direction
