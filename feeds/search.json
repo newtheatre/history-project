@@ -18,7 +18,7 @@ layout: null
         "venue": {{ show.venue | jsonify }},
         "link": "{{ show.url }}",
         "date": "{{ show.date_start }}",
-        "run": "{% if show.date_start %}{% include liquid/date_range.html %} {{ show.date_start | date: "%Y" }}{% else %}<span class=\"unknown\">Dates Unknown</span>{% endif %}",
+        "run": "{% if show.date_start %}{% include liquid/date_range.html %} {{ show.date_start | date: "%Y" }}{% else %}{{ year_page[0].title }} (Dates Unknown){% endif %}",
         "excerpt": {{ show.content | strip_html | truncatewords: 50 | jsonify}},
         "cast": "{% for person in show.cast %}{{person.name}}, {% endfor %}",
         "crew": "{% for person in show.crew %}{{person.name}}, {% endfor %}"
