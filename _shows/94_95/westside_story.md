@@ -69,5 +69,58 @@ cast:
     name: Andrew Batty
   - role: "glad-Hand"
     name: Malcolm Rothera
+crew: 
+  - role: Director
+    name: Kate McIntyre
+  - role: Assistant Director
+    name: Caroline Warburton
+  - role: Musical Director
+    name: Sarah Nichols
+  - role: Choreographer
+    name: Jo Leadbitter
+  - role: Stage Manager
+    name: Jane Hinton
+  - role: Lighting and Sound
+    name: Nicole Koupepides
+  - role: Lighting and Sound
+    name: Michael North
+  - role: Lighting and Sound
+    name: Rachel Gollin
+  - role: Lighting and Sound
+    name: Andrew Taylor
+  - role: Costumes
+    name: Rachel Austin
+  - role: Costumes
+    name: Emma Snowden
+  - role: Graffiti Design
+    name: Martin Coulton
+  - role: Poster Design
+    name: Martin Coulton
+  - role: Poster Design
+    name: Adam McCreight
+  - role: Publicity
+    name: Susan Avanzi
+  - role: Publicity
+    name: Helen Blackburn
+  - role: Set Construction
+    name: Jason Alldridge
+  - role: Set Construction
+    name: Steven Broughton
+  - role: Piano
+    name: Karl Jeffrey
+  - role: Flute
+    name: Fiona McAllister
+  - role: Clarinet
+    name: Louise Ray
+  - role: Drums
+    name: Emily Powell
+  - role: Trumpet
+    name: David Matthews
+  - role: "Special Thanks - for providing scaffolding"
+    name: "Gilbert & Hall Ltd"
+  - role: "Special Thanks - for use of welding equipment and expertise"
+    name: Mechanical Engineering Dept
+  - role: "Special Thanks - for providing Beer Crates"
+    name: Buttery Bar
 ---
 
