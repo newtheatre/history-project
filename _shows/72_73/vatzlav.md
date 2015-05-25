@@ -3,11 +3,14 @@ layout: show
 published: false
 title: Vatzlav
 season: Edinburgh
-period: Autumn
+period: Edinburgh
 playwright: Slawomir Mrozek
 season_sort: 
   - "300"
   - 300
+  - .nan
+  - .nan
+  - .nan
 year: "72_73"
 cast: 
   - role: Katurian
@@ -26,6 +29,7 @@ crew:
   - role: Stage Manager
   - name: Sarah Hughes
 ---
+
 
 Nottingham Theatre Group at Heriot Watt Student's Union Building, Edinburgh Festival:
 
