@@ -5,11 +5,9 @@ title: The importance of being earnest
 season: In House
 period: Autumn
 playwright: Oscar Wilde
-season_sort: 
-  - "40"
-  - 40
+season_sort: 40
 year: "76_77"
-venue: 
+venue:
   - New Theatre
 ---
 

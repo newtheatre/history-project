@@ -4,11 +4,9 @@ published: false
 title: Angry Wo/Men
 season: In House
 period: Spring
-season_sort: 
-  - "290"
-  - 290
+season_sort: 290
 year: "97_98"
-venue: 
+venue:
   - New Theatre
 ---
 

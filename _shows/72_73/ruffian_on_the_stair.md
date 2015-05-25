@@ -5,11 +5,9 @@ title: Ruffian on the stair
 season: In House
 period: Spring
 playwright: Joe Orton
-season_sort: 
-  - "140"
-  - 140
+season_sort: 140
 year: "72_73"
-venue: 
+venue:
   - New Theatre
 ---
 

@@ -5,11 +5,9 @@ title: The Golden Pathway Annual
 season: In House
 period: Spring
 playwright: John Burrows and John Harding
-season_sort: 
-  - "140"
-  - 140
+season_sort: 140
 year: "73_74"
-venue: 
+venue:
   - New Theatre
 ---
 

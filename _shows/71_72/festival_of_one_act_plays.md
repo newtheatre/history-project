@@ -4,9 +4,7 @@ published: false
 title: Festival of One Act Plays
 season: In House
 period: Autumn
-season_sort: 
-  - "80"
-  - 80
+season_sort: 80
 year: "71_72"
 ---
 

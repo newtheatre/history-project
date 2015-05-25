@@ -4,13 +4,9 @@ published: true
 title: Susie
 season: In House
 period: Autumn
-season_sort: 
-  - "50"
-  - 50
-  - .nan
-  - .nan
+season_sort: 50
 year: "73_74"
-venue: 
+venue:
   - New Theatre
 ---
 

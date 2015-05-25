@@ -5,11 +5,9 @@ title: The Imaginary Invalid
 season: In House
 period: Spring
 playwright: Molière
-season_sort: 
-  - "130"
-  - 130
+season_sort: 130
 year: "74_75"
-venue: 
+venue:
   - New Theatre
 ---
 

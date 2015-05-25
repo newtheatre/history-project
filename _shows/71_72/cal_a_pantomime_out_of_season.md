@@ -5,11 +5,9 @@ title: "Cal - A Pantomime out of Season"
 season: In House
 period: Edinburgh
 playwright: Tom Seward
-season_sort: 
-  - "300"
-  - 300
+season_sort: 300
 year: "71_72"
-venue: 
+venue:
   - Edinburgh
 ---
 

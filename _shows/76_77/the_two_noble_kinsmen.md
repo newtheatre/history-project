@@ -5,11 +5,9 @@ title: The Two Noble Kinsmen
 season: In House
 period: Autumn
 playwright: John Fletcher and William Shakespeare
-season_sort: 
-  - "30"
-  - 30
+season_sort: 30
 year: "76_77"
-venue: 
+venue:
   - New Theatre
 ---
 

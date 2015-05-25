@@ -5,11 +5,7 @@ title: The Philadelphia Story
 season: In House
 period: Autumn
 playwright: Philip Barry
-season_sort: 
-  - "50"
-  - 50
-  - .nan
-  - .nan
+season_sort: 50
 year: "54_55"
 ---
 

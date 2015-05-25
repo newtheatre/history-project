@@ -4,11 +4,9 @@ published: false
 title: Star Whores Special Derision (Sketch Show)
 season: In House
 period: Spring
-season_sort: 
-  - "300"
-  - 300
+season_sort: 300
 year: "96_97"
-venue: 
+venue:
   - New Theatre
 ---
 

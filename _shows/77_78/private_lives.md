@@ -5,11 +5,9 @@ title: Private Lives
 season: In House
 period: Autumn
 playwright: Noël Coward
-season_sort: 
-  - "30"
-  - 30
+season_sort: 30
 year: "77_78"
-venue: 
+venue:
   - New Theatre
 ---
 

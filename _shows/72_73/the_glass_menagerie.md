@@ -5,11 +5,9 @@ title: The Glass Menagerie
 season: In House
 period: Spring
 playwright: Tennessee Williams
-season_sort: 
-  - "170"
-  - 170
+season_sort: 170
 year: "72_73"
-venue: 
+venue:
   - New Theatre
 ---
 

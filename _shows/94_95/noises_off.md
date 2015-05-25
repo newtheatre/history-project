@@ -5,11 +5,9 @@ title: Noises Off
 season: In House
 period: Autumn
 playwright: Michael Frayn
-season_sort: 
-  - "30"
-  - 30
+season_sort: 30
 year: "94_95"
-venue: 
+venue:
   - New Theatre
 ---
 

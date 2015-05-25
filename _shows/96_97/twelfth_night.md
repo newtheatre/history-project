@@ -5,13 +5,9 @@ title: Twelfth Night
 season: In House
 period: Spring
 playwright: William Shakespeare
-season_sort: 
-  - "320"
-  - 320
-  - .nan
-  - .nan
+season_sort: 320
 year: "96_97"
-venue: 
+venue:
   - New Theatre
 ---
 

@@ -5,11 +5,9 @@ title: "A midsummer night's dream"
 season: In House
 period: Spring
 playwright: William Shakespeare
-season_sort: 
-  - "260"
-  - 260
+season_sort: 260
 year: "95_96"
-venue: 
+venue:
   - New Theatre
 ---
 

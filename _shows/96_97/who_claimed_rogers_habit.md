@@ -5,15 +5,13 @@ season: In House
 period: Spring
 title: "Who claimed Roger's Habit"
 playwright: "Stuart Scott, Ben Heusner and David Todd"
-season_sort: 
-  - "280"
-  - 280
+season_sort: 280
 year: "96_97"
-venue: 
+venue:
   - New Theatre
 date_start: "1997-03-17"
 date_end: "1997-03-19"
-cast: 
+cast:
   - role: Gerald the Groom
     name: Anthony Cooke
   - role: Toby the Bestman
@@ -34,7 +32,7 @@ cast:
     name: Catherine Foley
   - role: Old Man
     name: Zulfiquar Dalal
-crew: 
+crew:
   - role: Director
     name: Stuart Scott
   - role: Producer
