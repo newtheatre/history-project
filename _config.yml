@@ -98,7 +98,7 @@ prose:
       - name: "season_sort"
         field:
           label: "Season Sort"
-          element: "number"
+          element: "text"
           help: "Number used to sort the season. Use multiples of ten for flexibility, i.e. the third show of the season would be 30."
       - name: "period"
         field:
