@@ -9,25 +9,28 @@ layout: default
 {% assign prev = site.pages | where: "group", "year" | where: "sort", prev_year %}
 
 <div class="breadcrumbs">
+  <div class="breadcrumb-inner">
 
-  <ul class="breadcrumb-list">
-    <li class="breadcrumb">
-      <a href="/years/">Archives</a>
-    </li>
-    <li class="breadcrumb breadcrumb-{{ page.decade }}">
-      <a href="{{ page.url }}">{{ page.title }}</a>
-    </li>
-  </ul>
+    <div class="breadcrumb-controls">
+      <a {% if next[0] %}href="{{next[0].url}}" class="enabled"{% else %}href="#" class="disabled"{% endif %} title="Next Year"><i class="ion-chevron-left"></i></a>
+      <a {% if prev[0] %}href="{{prev[0].url}}" class="enabled"{% else %}href="#" class="disabled"{% endif %} title="Previous Year"><i class="ion-chevron-right"></i></a>
+    </div>
 
+    <ul class="breadcrumb-list">
+      <li class="breadcrumb">
+        <a href="/years/">Archives</a>
+      </li>
+      <li class="breadcrumb breadcrumb-{{ page.decade }}">
+        <a href="{{ page.url }}">{{ page.title }}</a>
+      </li>
+    </ul>
+
+  </div>
 </div>
 
 <div class="page">
   <div class="year-shows">
     {{ content }}
-    <ul>
-      <li><a href="{{next[0].url}}">Next Year</a></li>
-      <li><a href="{{prev[0].url}}">Previous Year</a></li>
-    </ul>
   </div>
   <div class="year-links">
     {% if committee_page.size == 0 %}

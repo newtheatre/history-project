@@ -131,13 +131,14 @@ strong
   font-weight: 600
 
 // We use a:link to avoid selecting <a> tags that don't have the href attribute
-a:link
+a
   color: $color-link
   font-weight: 600
   text-decoration: none
 
-a:visited
-  color: $color-link-visited
+  &:visited
+    color: $color-link-visited
+
 .content a:hover
   text-decoration: underline
   // Content link hover effect
