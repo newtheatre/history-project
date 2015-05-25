@@ -1,6 +1,6 @@
 ---
 layout: show
-published: false
+published: true
 title: The Dark Tower
 season: In House
 period: Autumn
@@ -10,7 +10,10 @@ playwright: George S. Kaufman and Alexander Woollcott
 season_sort: 
   - "30"
   - 30
+  - .nan
+  - .nan
 year: "71_72"
 ---
+
 
 NUS Drama Festival Entry, performed on the stage in the Trent Building
