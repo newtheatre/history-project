@@ -6,7 +6,11 @@ season: In House
 period: Autumn
 playwright: Dylan Thomas
 year: "71_72"
+season_sort: 
+  - "70"
+  - 70
 ---
+
 
 Under Milk Wood is a 1954 radio drama by Welsh poet Dylan Thomas, commissioned by the BBC and later adapted for the stage. A film version, Under Milk Wood directed by Andrew Sinclair, was released in 1972.
 
