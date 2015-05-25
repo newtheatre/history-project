@@ -1,7 +1,8 @@
 ---
 layout: show
-published: false
+published: true
 season: In House
 period: Autumn
+title: Untitled
 ---
 
