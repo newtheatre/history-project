@@ -9,8 +9,7 @@
     padding: $baseline
 
 .decade-list
-  -webkit-column-count: 2
-  -webkit-column-gap: 20px
+  @include columns(2 12px)
   @include list-unformatted
   margin: 0 8px $baseline 10px
   li
