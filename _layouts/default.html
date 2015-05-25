@@ -8,6 +8,10 @@
 
     <div class="debug-build-details" data-debug-toggle><i class="fa fa-clock-o"></i> {{site.time | date: "%Y-%m-%d %H:%M" }}, build {% include travis_build_number.txt %}</div>
     <div class="debug-mode" data-debug-toggle><i class="fa fa-bug"></i> Site is in editors mode, type editor again to cancel</div>
+    <div class="debug-badges" data-debug-toggle>
+      <img src="https://travis-ci.org/newtheatre/history-project.svg?branch=master" />
+      <img src="https://gemnasium.com/newtheatre/history-project.svg" />
+    </div>
 
     {% include header.html %}
 
