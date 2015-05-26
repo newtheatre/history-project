@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: "A midsummer night's dream"
 season: In House

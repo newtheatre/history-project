@@ -1,5 +1,4 @@
 ---
-layout: show
 title: The Pillowman
 playwright: Martin McDonagh
 season: In House

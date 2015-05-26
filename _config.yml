@@ -22,6 +22,29 @@ collections:
     layout: show
     output: true
 
+defaults:
+  - scope:
+      path: ""
+      type: shows
+    values:
+      layout: show
+      body_class: header-nobr
+      current: archives
+  - scope:
+      path: ""
+      type: committees
+    values:
+      layout: committee
+      current: archives
+  - scope:
+      path: "about"
+    values:
+      current: about
+  - scope:
+      path: "docs"
+    values:
+      current: about
+
 image:
   source: images
   output: images/resized
@@ -67,10 +90,6 @@ prose:
   media: "images"
   metadata:
     _shows:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "show"
       - name: "title"
         field:
           element: "text"

@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Noises Off
 season: In House

@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: The Two Noble Kinsmen
 season: In House

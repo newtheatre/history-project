@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: The Golden Pathway Annual
 season: In House

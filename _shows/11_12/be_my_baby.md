@@ -1,5 +1,4 @@
 ---
-layout: show
 title: Be My Baby
 playwright: Amanda Whittington
 season: In House

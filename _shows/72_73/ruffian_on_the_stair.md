@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Ruffian on the stair
 season: In House

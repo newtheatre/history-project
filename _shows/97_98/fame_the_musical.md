@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Fame the musical
 season: In House

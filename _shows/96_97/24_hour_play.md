@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: 24 Hour Play
 season: In House

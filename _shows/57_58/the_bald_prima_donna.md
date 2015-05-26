@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: The Bald Prima Donna
 season: In House

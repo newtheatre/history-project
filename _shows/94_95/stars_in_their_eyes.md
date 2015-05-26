@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Stars in their eyes
 season: In House

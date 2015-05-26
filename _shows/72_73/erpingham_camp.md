@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Erpingham Camp
 season: In House

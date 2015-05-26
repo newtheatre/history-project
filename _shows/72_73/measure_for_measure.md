@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Measure for Measure
 season: In House

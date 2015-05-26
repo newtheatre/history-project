@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Romeo and Juliet / The Frog and I
 season: In House

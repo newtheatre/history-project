@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Under Milk Wood
 season: In House

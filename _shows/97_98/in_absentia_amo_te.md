@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: In absentia amo te
 season: In House

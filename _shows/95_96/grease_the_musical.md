@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Grease the Musical
 season: In House

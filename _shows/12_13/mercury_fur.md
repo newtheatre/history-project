@@ -1,5 +1,4 @@
 ---
-layout: show
 title: Mercury Fur
 playwright: Philip Ridley
 season: In House

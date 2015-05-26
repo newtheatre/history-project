@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: The wit to woo
 season: Edinburgh

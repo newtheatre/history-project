@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: June and the Paycock
 season: In House

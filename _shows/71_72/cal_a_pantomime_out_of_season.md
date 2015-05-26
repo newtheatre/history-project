@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: "Cal - A Pantomime out of Season"
 season: In House

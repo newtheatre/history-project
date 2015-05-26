@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Inherit the Wind
 season: In House

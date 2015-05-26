@@ -9,7 +9,7 @@
     <!-- Debug LHS -->
     <div class="debug-build-details" data-debug-toggle>
       <i class="fa fa-clock-o"></i>
-      {{site.time | date: "%Y-%m-%d %H:%M" }}, build {% include travis_build_number.txt %}
+      {{site.time | date: "%Y-%m-%d %H:%M" }}, build {% include travis_build_number.txt %}, section {{ page.current }}
     </div>
 
     <div class="debug-last-commit" data-debug-toggle>

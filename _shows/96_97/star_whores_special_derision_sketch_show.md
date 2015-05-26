@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Star Whores Special Derision (Sketch Show)
 season: In House

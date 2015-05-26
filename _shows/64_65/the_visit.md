@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: The Visit
 season: In House

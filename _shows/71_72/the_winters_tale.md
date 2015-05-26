@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: "The Winter's Tale"
 season: In House

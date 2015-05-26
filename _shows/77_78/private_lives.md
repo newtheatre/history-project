@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Private Lives
 season: In House

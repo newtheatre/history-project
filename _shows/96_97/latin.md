@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Latin
 season: In House

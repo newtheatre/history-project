@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: The Tempest
 season: In House

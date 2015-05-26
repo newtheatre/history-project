@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: "Journey's End"
 season: In House

@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: The tragedy of the invention
 season: In House

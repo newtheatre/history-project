@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: "Hitchcock's Bollocks"
 season: In House

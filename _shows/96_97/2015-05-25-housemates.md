@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Housemates
 season: In House

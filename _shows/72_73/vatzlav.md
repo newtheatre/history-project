@@ -1,5 +1,4 @@
 ---
-layout: show
 published: true
 title: Vatzlav
 season: Edinburgh

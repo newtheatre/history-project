@@ -11,7 +11,6 @@ Committee listings are stored as `_committees/YY_YY.md` with YY_YY being the aca
 
 | Attribute | Job | Description |
 |:-|:-|:-|
-| `layout` | Page layout | Sets the layout for the page, should always be set to `committee`. |
 | `title` | Page title | Used to set the title of the page, should be in the format YYYY-YY. |
 | `year` | Year this committee belongs to in the format YY_YY | i.e. for the 2012-13 academic year the year is "12_13" |
 | `committee` | A [person list](/docs/person_list) for the committee |  |
@@ -22,8 +21,6 @@ Committee listings are stored as `_committees/YY_YY.md` with YY_YY being the aca
 
 {% highlight yaml %}
 ---
-layout: committee
-
 title: 2012-13
 year: "12_13"
 

@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Twice Nightly
 season: In House
