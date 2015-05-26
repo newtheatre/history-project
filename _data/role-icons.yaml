@@ -16,11 +16,21 @@
   icon: fa fa-headphones
 - role: Original Score
   icon: fa fa-music
+- role: Musical Director
+  icon: fa fa-music
+- role: Vocalist
+  icon: fa fa-music
+- role: Musician
+  icon: fa fa-music
 - role: Sound Designer
   icon: fa fa-volume-up
 - role: Make Up Artist
   icon: ion-paintbrush
+- role: Costume Designer
+  icon: fa fa-scissors
 - role: Publicity Designer
+  icon: fa fa-picture-o
+- role: Publicity Manager
   icon: fa fa-picture-o
 - role: Publicist
   icon: fa fa-picture-o
