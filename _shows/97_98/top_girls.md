@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Top Girls
 season: In House

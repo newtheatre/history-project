@@ -1,5 +1,4 @@
 ---
-layout: show
 title: Crossing the Rubicon
 playwright: Cal Lewis
 student_written: true

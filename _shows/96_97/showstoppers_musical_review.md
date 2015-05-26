@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Showstoppers Musical Review
 season: In House

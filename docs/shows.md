@@ -13,7 +13,6 @@ The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the 
 
 | Attribute | Job | Description |
 |:-|:-|:-|
-| `layout` | Page layout | Sets the layout for the page, should always be set to `show`. |
 | `title` | Show title | Displayed at the top of the show page and on various other pages. |
 | `playwright` | Full name of the playwright |  |
 | `student_written` | Show written by an NT member | Set to `true`, `false` or line missing are equivalent. |
@@ -35,7 +34,6 @@ The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the 
 
 {% highlight yaml %}
 ---
-layout: show
 title: The Pillowman
 playwright: Martin McDonagh
 season: In House

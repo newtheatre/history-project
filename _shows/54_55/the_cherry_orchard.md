@@ -1,5 +1,4 @@
 ---
-layout: show
 published: true
 title: The Cherry Orchard
 season: In House

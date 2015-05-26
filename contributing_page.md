@@ -1,6 +1,7 @@
 ---
 layout: about
 group: about
+current: about
 title: Contributing
 sort: 20
 permalink: /contributing/

@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: The Titanics Revue (Sketch Show)
 season: In House

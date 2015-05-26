@@ -1,5 +1,4 @@
 ---
-layout: show
 title: Me, As A Penguin
 playwright: Tom Wells
 season: In House

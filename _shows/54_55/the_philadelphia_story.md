@@ -1,5 +1,4 @@
 ---
-layout: show
 published: true
 title: The Philadelphia Story
 season: In House

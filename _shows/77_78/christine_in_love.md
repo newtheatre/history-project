@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Christine in love
 season: In House

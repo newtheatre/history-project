@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Twelfth Night
 season: In House

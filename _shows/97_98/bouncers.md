@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Bouncers
 season: In House

@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Frogs
 season: In House

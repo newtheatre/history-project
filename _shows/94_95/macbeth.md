@@ -1,5 +1,4 @@
 ---
-layout: show
 published: true
 season: In House
 period: Spring

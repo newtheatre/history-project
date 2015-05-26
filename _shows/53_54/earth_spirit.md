@@ -1,5 +1,4 @@
 ---
-layout: show
 published: true
 title: Earth Spirit
 season: In House

@@ -1,5 +1,4 @@
 ---
-layout: show
 published: true
 title: The Dark Tower
 season: In House

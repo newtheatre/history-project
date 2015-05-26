@@ -1,5 +1,4 @@
 ---
-layout: show
 published: true
 title: The Alchemist
 season: In House

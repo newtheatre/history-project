@@ -1,5 +1,4 @@
 ---
-layout: show
 published: true
 title: Susie
 season: In House

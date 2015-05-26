@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Cabaret the musical
 season: In House

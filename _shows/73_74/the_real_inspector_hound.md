@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: The Real Inspector Hound
 season: In House

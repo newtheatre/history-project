@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: "Jekyll & Hyde"
 season: In House

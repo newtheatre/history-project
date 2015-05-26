@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: The Cocktail Hour
 season: In House

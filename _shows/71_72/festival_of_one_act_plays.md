@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Festival of One Act Plays
 season: In House

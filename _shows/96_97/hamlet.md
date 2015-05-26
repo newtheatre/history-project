@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Hamlet
 season: In House

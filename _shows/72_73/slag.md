@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Slag
 season: In House

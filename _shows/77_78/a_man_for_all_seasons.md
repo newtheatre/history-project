@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: A man for all seasons
 season: In House

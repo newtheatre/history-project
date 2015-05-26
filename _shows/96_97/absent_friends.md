@@ -1,5 +1,4 @@
 ---
-layout: show
 published: false
 title: Absent Friends
 season: In House
