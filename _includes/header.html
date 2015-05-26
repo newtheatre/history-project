@@ -2,19 +2,23 @@
   <div class="wrapper">
     <a class="site-title" href="{{ site.baseurl }}/">
       <img src="/images/logo.png" alt="Logo" class="site-title-logo" />
-      <h2 class="site-title-text">New Theatre<br />History Project</h2>
+      <h2 class="site-title-text">New Theatre <br />History Project</h2>
     </a>
 
     <nav class="site-nav">
       {% assign top_pages = site.pages | where: "group", "top" | sort: "sort" %}
       {% for node in top_pages %}
         {% if node.title %}
-        {% if node.icon %}<i class="{{ node.icon }}"></i> {% endif %}
-        <a class="page-link{% if node.url == page.url %} current{% endif %}" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
+        <a class="page-link{% if node.url == page.url %} current{% endif %}" href="{{ node.url | prepend: site.baseurl }}">
+          {% if node.icon %}<i class="{{ node.icon }}"></i> {% endif %}
+          <span class="page-link-text">{{ node.title }}</span>
+        </a>
         {% endif %}
       {% endfor %}
-      <i class="octicon octicon-circuit-board"></i>
-      <a class="page-link{% if page.url == "/about/" %} current{% endif %}" href="/about/">About</a>
+      <a class="page-link{% if page.url == "/about/" %} current{% endif %}" href="/about/">
+        <i class="octicon octicon-circuit-board"></i>
+        <span class="page-link-text">About</span>
+      </a>
     </nav>
     <div class="site-search">
       {% if page.url != "/search/" %}

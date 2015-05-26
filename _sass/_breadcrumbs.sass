@@ -16,8 +16,10 @@ $color-arrow: $color-grey-light
   @include grid-wrap
   @include block
   background: $color-1
-  margin-top: - $baseline * 2
   margin-left: 0
+
+  @include respond-up($grid-column-start)
+    margin-top: - $baseline * 2
 
 .breadcrumb-list
   margin: 0
@@ -99,6 +101,9 @@ $color-arrow: $color-grey-light
   //   border-left-color: darken($color-1, 8%) !important
 
 .breadcrumb-controls
+  @include respond-down(mob-land)
+    display: none
+
   float: right
   a
     color: $color-text-white

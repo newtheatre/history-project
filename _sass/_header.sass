@@ -1,10 +1,26 @@
 .site-header
-  padding: $baseline*2 0 $baseline 0
-  margin-bottom: $baseline * 2
+  padding: $baseline/2 0 0 0
+  margin-bottom: $baseline
   background: $color-background-alt
+
+  @include respond-up($grid-column-start)
+    margin-bottom: $baseline * 2
+    padding: $baseline*2 0 $baseline 0
+
   .wrapper
     @include grid-wrap
     @include grid-row
+    padding-bottom: 0
+
+    // Remove left and right pad from header on mobile
+    @include respond-down(mob-land)
+      padding-left: 0
+      padding-right: 0
+
+    @include respond-up($grid-column-start)
+      // Fix container overflow
+      padding-bottom: $baseline
+
   &, a
     color: $color-text-white
 
@@ -19,10 +35,15 @@ $nav-height: 63px
   @include grid-x-col(5)
   text-decoration: none
   @include respond-down(mob-land)
-    width: 270px
+    width: 280px
     margin: 0 auto
+    padding-bottom: $baseline / 2
+
 .site-title-logo
   float: left
+  @include respond-down(mob-land)
+    width: 32px
+
 .site-title-text
   $title-text-size: 26px
   $title-text-baseline: 1.2
@@ -31,32 +52,61 @@ $nav-height: 63px
   font-size: $title-text-size
   line-height: $title-text-size * $title-text-baseline
   @include text-shadow-effect($color-background-alt)
+
   @include respond-down(tab-port)
     font-size: $title-text-size * 0.6
     line-height: $title-text-size * $title-text-baseline
+
   @include respond-down(mob-port)
-    font-size: $title-text-size * 0.9
+    font-size: $title-text-size * 0.6
+    padding-left: 42px
+    br
+      display: none
 
 .site-nav
   @include grid-x-col(8)
   text-align: center
   line-height: $nav-height
+
   .page-link
     text-decoration: none
-    padding-bottom: 3px
-    &:hover
-      border-bottom: 2px solid $color-text-white
-    &.current
-      border-bottom: 2px solid $color-nnt-purple
-    @include respond-up(tab-port)
-      @include all-but-last(margin-right, 38px)
+
+    // Mobile nav Styling
     @include respond-down(mob-land)
       display: block
+      float: left
+      width: 25%
+      padding: $baseline / 2 0
+      text-align: center
+
+      i
+        display: block
+        font-size: 2rem
+        padding-bottom: 1rem
+
+      .page-link-text
+        display: block
+        line-height: 1em
+
+      &.current
+        background: darken($color-nnt-purple, 10%)
+
+    // Desktop nav styling
+    @include respond-up(tab-port)
+      @include all-but-last(margin-right, 38px)
+      padding-bottom: 3px
+      &:hover .page-link-text
+        border-bottom: 2px solid $color-text-white
+      &.current .page-link-text
+        border-bottom: 2px solid $color-nnt-purple
 
 .site-search
   @include grid-x-col(3)
   text-align: right
   line-height: $nav-height
+
+  @include respond-down(mob-land)
+    display: none // HACK
 
 .site-search-input
   padding: 6px
