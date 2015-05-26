@@ -113,7 +113,7 @@ layout: default
       {% endif %}
     </div>
     <div class="show-poster">
-      {% if posters %}
+      {% if posters.size > 0 %}
         {% image show_poster for_shows/{{ posters[0].image }} %}
       {% else %}
         {% include boxes/show_poster_missing.html %}

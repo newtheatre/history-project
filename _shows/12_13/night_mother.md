@@ -1,0 +1,34 @@
+---
+title: "'night, Mother"
+playwright: Marsha Norman
+season: In House
+season_sort: 60
+year: "12_13"
+period: Autumn
+venue:
+  - New Theatre
+date_start: 21-11-2012
+date_end: 24-11-2012
+cast:
+  - role: Thelma
+    note: Mother
+    name: Flo Hapgood
+  - role: Jessie
+    note: Daughter
+    name: Alex Day
+crew:
+  - role: Director
+    name: Matt Wilks
+  - role: Producer
+    name: Liz Cornwell
+  - role: Set Designer
+    name: Alex Jamieson
+  - role: Lighting Designer
+    name: Will Pimblett
+
+assets:
+  - type: poster
+    image: night_mother_poster.jpg
+---
+
+Jessie's father is dead, her absent son is a petty thief and following the breakup of her loveless marriage she has moved back in with her mother. Helpless and tired, one evening she asks for her father's service revolver and calmly announces that she intends to kill herself. A tragic two-hander for a talented female duo.

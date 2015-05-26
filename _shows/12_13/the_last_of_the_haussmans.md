@@ -1,0 +1,35 @@
+---
+title: The Last of the Haussmans
+playwright: Stephen Beresford
+season: Fringe
+season_sort: 225
+year: "12_13"
+period: Spring
+venue:
+  - PAS, Trent Building
+date_start: 11-03-2013
+date_end: 12-03-2013
+
+cast:
+  - role: Judy
+    name: Lydia Hawthorn
+  - role: Libby
+    name: Filipa Braganca
+  - role: Summer
+    name: Jessica Lester
+  - role: Nick
+    name: Chris Ansell
+  - role: Peter
+    name: Tim Meredith
+  - role: Daniel
+    name: Michael Nissenbaum
+
+crew:
+  - role: Director
+    name: Shane Chard
+  - role: Director
+    name: Amy Mcwalters
+---
+
+Think you have a disfunctional family? Think again. The Haussmann's relationships are challenged by addiction, infatuation, resentment and free love. This play is a savage yet heartwarming portrait of the love-hate relationships within a contemporary family
+

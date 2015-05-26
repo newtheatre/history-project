@@ -2,7 +2,7 @@
 title: The Pillowman
 playwright: Martin McDonagh
 season: In House
-season_sort: 70
+season_sort: 90
 year: "12_13"
 period: Autumn
 venue:
