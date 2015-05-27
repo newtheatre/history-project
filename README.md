@@ -7,3 +7,14 @@ The history project aims to collect information on past shows, committees and ot
 ## Editing
 
 See the [site documentation](http://history.newtheatre.org.uk/docs/)
+
+## Useful Stuff
+
+Rename all .txt files to .md in a directory:
+
+```
+for file in *.txt
+do
+mv $file `echo $file | sed 's/\(.*\.\)txt/\1md/'`
+done
+```
