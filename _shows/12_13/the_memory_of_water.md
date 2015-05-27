@@ -9,7 +9,13 @@ venue:
   - PAS, Trent Building
 date_start: 07-11-2012
 date_end: 10-11-2012
+
 cast:
+  - Rosanna Stoker
+  - Amy Brough-Aikin
+  - Lizzie Franier
+  - Lucy Dolman
+  - Ben Williamson
 
 crew:
   - role: Director
