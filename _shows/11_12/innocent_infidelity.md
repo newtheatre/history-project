@@ -7,8 +7,8 @@ year: "11_12"
 period: Spring
 venue:
   - New Theatre
-date_start: 21-03-2012
-date_end: 24-03-2012
+date_start: 2012-03-21
+date_end: 2012-03-24
 
 comment: A rewrite of Innocent Infidelity was taken to the Edinburgh Fringe Festival under the title of Porphyria
 

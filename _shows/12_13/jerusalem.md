@@ -7,8 +7,8 @@ year: "12_13"
 period: Autumn
 venue:
   - New Theatre
-date_start: 05-12-2012
-date_end: 08-12-2012
+date_start: 2012-12-05
+date_end: 2012-12-08
 
 comment: Went to NSDF
 

@@ -7,8 +7,8 @@ year: "11_12"
 period: Autumn
 venue:
   - New Theatre
-date_start: 23-11-2011
-date_end: 26-11-2011
+date_start: 2011-11-23
+date_end: 2011-11-26
 
 cast:
   - role: Macbeth

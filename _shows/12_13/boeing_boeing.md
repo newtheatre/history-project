@@ -7,8 +7,8 @@ year: "12_13"
 period: Spring
 venue:
   - New Theatre
-date_start: 12-06-2013
-date_end: 15-06-2013
+date_start: 2013-06-12
+date_end: 2013-06-15
 
 cast:
   - role: Bernard

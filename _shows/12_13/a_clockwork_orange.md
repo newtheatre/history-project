@@ -7,8 +7,8 @@ year: "12_13"
 period: Spring
 venue:
   - New Theatre
-date_start: 19-03-2013
-date_end: 22-03-2013
+date_start: 2013-03-19
+date_end: 2013-03-22
 
 cast:
   - role: Alex

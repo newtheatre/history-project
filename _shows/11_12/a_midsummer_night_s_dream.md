@@ -7,8 +7,8 @@ year: "11_12"
 period: Autumn
 venue:
   - New Theatre
-date_start: 07-12-2011
-date_end: 10-12-2011
+date_start: 2011-12-07
+date_end: 2011-12-10
 
 cast:
   - role: Oberon/Theseus

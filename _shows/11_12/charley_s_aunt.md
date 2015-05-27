@@ -7,8 +7,8 @@ year: "11_12"
 period: Spring
 venue:
   - New Theatre
-date_start: 13-06-2012
-date_end: 16-06-2012
+date_start: 2012-06-13
+date_end: 2012-06-16
 
 cast:
   - role: Jack Chesney

@@ -6,8 +6,8 @@ season: Fringe
 season_sort: 55
 year: "13_14"
 period: Autumn
-date_start: 11-11-2013
-date_end: 12-11-2013
+date_start: 2013-11-11
+date_end: 2013-11-12
 venue: New Theatre Studio A
 
 cast:

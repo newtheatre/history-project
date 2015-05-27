@@ -7,8 +7,8 @@ year: "12_13"
 period: Autumn
 venue:
   - New Theatre
-date_start: 21-11-2012
-date_end: 24-11-2012
+date_start: 2012-11-21
+date_end: 2012-11-24
 cast:
   - role: Thelma
     note: Mother

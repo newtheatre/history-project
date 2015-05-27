@@ -7,8 +7,8 @@ year: "12_13"
 period: Autumn
 venue:
   - Lincoln Library
-date_start: 26-11-2012
-date_end: 27-11-2012
+date_start: 2012-11-26
+date_end: 2012-11-27
 
 cast:
   - name: Lyle Fulton

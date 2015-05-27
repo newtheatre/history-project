@@ -7,8 +7,8 @@ year: "12_13"
 period: Spring
 venue:
   - New Theatre
-date_start: 15-05-2013
-date_end: 18-05-2013
+date_start: 2013-05-15
+date_end: 2013-05-18
 
 comment: "This is a weird case of student adaption, rather than writing. Also video: youtube>E6q8xO3FNic"
 

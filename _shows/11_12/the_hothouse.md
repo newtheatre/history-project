@@ -7,8 +7,8 @@ year: "11_12"
 period: Autumn
 venue:
   - New Theatre
-date_start: 16-11-2011
-date_end: 19-11-2011
+date_start: 2011-11-16
+date_end: 2011-11-19
 
 cast:
   - role: Roote

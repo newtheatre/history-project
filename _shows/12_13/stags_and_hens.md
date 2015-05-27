@@ -7,8 +7,8 @@ year: "12_13"
 period: Spring
 venue:
   - New Theatre
-date_start: 06-03-2013
-date_end: 09-03-2013
+date_start: 2013-03-06
+date_end: 2013-03-09
 cast:
   - role: Linda
     name: Aimee Gaudin

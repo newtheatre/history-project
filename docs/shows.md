@@ -20,8 +20,8 @@ The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the 
 | `season_sort` | Order which this show comes in the entire year in a multiple of 10.<br />Roughly: Autumn should start at 30, Spring 200 and Edinburgh 400 | Shows at 30, 40, 50 etc |
 | `year` | Year this show belongs to in the format YY_YY | i.e. The Pillowman was performed in the 2012-13 academic year so the year is "12_13" |
 | `venue` | Venue show was performed in. | There should only be one item in this list. |
-| `date_start` | Date of first performance | In the format YYYY-MM-DDD |
-| `date_end` | Date of last performance | In the format YYYY-MM-DDD |
+| `date_start` | Date of first performance | In the format YYYY-MM-DD |
+| `date_end` | Date of last performance | In the format YYYY-MM-DD |
 | `cast` | Cast members | Uses the [person list](/docs/person_list) format. |
 | `crew` | Crew members | Uses the [person list](/docs/person_list) format. |
 | `photos` | Production shots | Uses the [photos and assets](/docs/photos_and_assets) format. |
@@ -42,8 +42,8 @@ year: "12_13"
 period: Autumn
 venue:
   - New Theatre
-date_start: 12/12/2012
-date_end: 15/12/2012
+date_start: 2012-12-12
+date_end: 2012-12-15
 cast:
   - role: Katurian
     name: Sam Haywood

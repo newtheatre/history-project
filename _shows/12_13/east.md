@@ -7,8 +7,8 @@ year: "12_13"
 period: Spring
 venue:
   - New Theatre
-date_start: 01-05-2013
-date_end: 04-05-2013
+date_start: 2013-05-01
+date_end: 2013-05-04
 
 cast:
   - role: Dad

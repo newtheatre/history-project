@@ -7,8 +7,8 @@ year: "12_13"
 period: Spring
 venue:
   - A barn in Lenton
-date_start: 17-03-2013
-date_end: 18-03-2013
+date_start: 2013-03-17
+date_end: 2013-03-18
 
 cast:
   - role: Francis

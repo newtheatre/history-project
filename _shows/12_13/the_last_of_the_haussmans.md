@@ -7,8 +7,8 @@ year: "12_13"
 period: Spring
 venue:
   - PAS, Trent Building
-date_start: 11-03-2013
-date_end: 12-03-2013
+date_start: 2013-03-11
+date_end: 2013-03-12
 
 cast:
   - role: Judy

@@ -7,8 +7,8 @@ year: "12_13"
 period: Autumn
 venue:
   - PAS, Trent Building
-date_start: 19-11-2012
-date_end: 20-11-2012
+date_start: 2012-11-19
+date_end: 2012-11-20
 
 assets:
   - type: poster

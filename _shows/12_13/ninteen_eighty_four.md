@@ -7,8 +7,8 @@ year: "12_13"
 period: Autumn
 venue:
   - New Theatre
-date_start: 28-11-2012
-date_end: 01-11-2012
+date_start: 2012-11-28
+date_end: 2012-11-01
 cast:
   - role: Winston Smith
     name: Ben Hollands

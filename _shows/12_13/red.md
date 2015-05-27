@@ -7,8 +7,8 @@ year: "12_13"
 period: Spring
 venue:
   - New Theatre
-date_start: 27-02-2013
-date_end: 02-03-2013
+date_start: 2013-02-27
+date_end: 2013-03-02
 cast:
   - role: Mark Rothko
     name: Ajay Stevenson

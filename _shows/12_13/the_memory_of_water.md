@@ -7,8 +7,8 @@ year: "12_13"
 period: Autumn
 venue:
   - PAS, Trent Building
-date_start: 07-11-2012
-date_end: 10-11-2012
+date_start: 2012-11-07
+date_end: 2012-11-10
 
 cast:
   - name: Rosanna Stoker
