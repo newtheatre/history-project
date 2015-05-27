@@ -7,8 +7,8 @@ year: "12_13"
 period: Autumn
 venue:
   - New Theatre
-date_start: 14-11-2012
-date_end: 17-11-2012
+date_start: 2012-11-14
+date_end: 2012-11-17
 cast:
   - role: Brindsley Miller
     name: Freddie Garnett

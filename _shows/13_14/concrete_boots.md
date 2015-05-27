@@ -7,8 +7,8 @@ year: "13_14"
 period: Spring
 venue:
   - New Theatre
-date_start: 26-02-2014
-date_end: 01-03-2014
+date_start: 2014-02-26
+date_end: 2014-03-01
 
 cast:
   - role: Toby

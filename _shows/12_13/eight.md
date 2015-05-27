@@ -7,8 +7,8 @@ year: "12_13"
 period: Spring
 venue:
   - New Theatre Studio B
-date_start: 29-04-2013
-date_end: 30-04-2013
+date_start: 2013-04-29
+date_end: 2013-04-30
 cast:
   - role: Mona
     person: Lydia Hawthorn

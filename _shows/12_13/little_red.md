@@ -7,8 +7,8 @@ year: "12_13"
 period: Spring
 venue:
   - New Theatre
-date_start: 06-05-2013
-date_end: 07-05-2013
+date_start: 2013-05-06
+date_end: 2013-05-07
 
 cast:
   - role: Little Red/Alice

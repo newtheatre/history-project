@@ -7,8 +7,8 @@ year: "13_14"
 period: Autumn
 venue:
   - New Theatre
-date_start: 04-12-2013
-date_end: 07-12-2013
+date_start: 2013-12-04
+date_end: 2013-12-07
 
 cast:
   - role: Titus Andronicus

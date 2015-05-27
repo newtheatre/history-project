@@ -7,8 +7,8 @@ year: "11_12"
 period: Autumn
 venue:
   - New Theatre
-date_start: 30-11-2011
-date_end: 03-12-2011
+date_start: 2011-11-30
+date_end: 2011-12-03
 
 cast:
   - role: Charles

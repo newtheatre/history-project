@@ -7,7 +7,7 @@ year: "12_13"
 period: Edinburgh
 venue:
   - ZOO Monkeyhouse
-date_start: 03-08-2013
-date_end: 25-08-2013
+date_start: 2013-08-03
+date_end: 2013-08-25
 
 ---

@@ -7,8 +7,8 @@ year: "11_12"
 period: Spring
 venue:
   - New Theatre
-date_start: 07-03-2012
-date_end: 10-03-2012
+date_start: 2012-03-07
+date_end: 2012-03-10
 
 cast:
   - name: Richard Hill

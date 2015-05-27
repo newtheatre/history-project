@@ -7,8 +7,8 @@ year: "13_14"
 period: Autumn
 venue:
   - New Theatre
-date_start: 27-11-2013
-date_end: 30-11-2013
+date_start: 2013-11-27
+date_end: 2013-11-30
 
 cast:
   - role: Molly Sweeney

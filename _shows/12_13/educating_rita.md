@@ -7,8 +7,8 @@ year: "12_13"
 period: Spring
 venue:
   - New Theatre
-date_start: 24-04-2013
-date_end: 27-04-2013
+date_start: 2013-04-24
+date_end: 2013-04-27
 
 cast:
   - role: Frank

@@ -7,8 +7,8 @@ year: "12_13"
 period: Autumn
 venue:
   - New Theatre
-date_start: 12-12-2012
-date_end: 15-12-2012
+date_start: 2012-12-12
+date_end: 2012-12-15
 cast:
   - role: Katurian
     name: Sam Haywood

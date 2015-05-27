@@ -8,8 +8,8 @@ year: "13_14"
 period: Autumn
 venue:
   - New Theatre
-date_start: 06-11-2013
-date_end: 09-11-2013
+date_start: 2013-11-06
+date_end: 2013-11-09
 
 cast:
   - role: Alan Raleigh

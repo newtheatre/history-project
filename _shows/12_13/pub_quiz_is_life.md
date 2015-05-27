@@ -7,8 +7,8 @@ year: "12_13"
 period: Spring
 venue:
   - New Theatre
-date_start: 08-04-2013
-date_end: 11-04-2013
+date_start: 2013-04-08
+date_end: 2013-04-11
 
 cast:
   - role: Lee

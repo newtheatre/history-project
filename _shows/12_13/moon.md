@@ -8,8 +8,8 @@ year: "12_13"
 period: Autumn
 venue:
   - New Theatre
-date_start: 12-11-2012
-date_end: 13-11-2012
+date_start: 2012-11-12
+date_end: 2012-11-13
 
 crew:
   - role: Director

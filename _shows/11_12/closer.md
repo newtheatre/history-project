@@ -7,8 +7,8 @@ year: "11_12"
 period: Spring
 venue:
   - New Theatre
-date_start: 27-03-2012
-date_end: 30-03-2012
+date_start: 2012-03-27
+date_end: 2012-03-30
 
 comment: This toured to Oxford as part of a swap in Easter of that year. I also have a physical copy of the programme somewhere --- WJDP
 

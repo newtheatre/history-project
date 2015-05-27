@@ -7,8 +7,8 @@ year: "13_14"
 period: Autumn
 venue:
   - New Theatre
-date_start: 10-12-2013
-date_end: 13-12-2013
+date_start: 2013-12-10
+date_end: 2013-12-13
 
 cast:
   - role: Arthur Wicksteed

@@ -7,8 +7,8 @@ year: "11_12"
 period: Autumn
 venue:
   - New Theatre
-date_start: 13-12-2011
-date_end: 16-12-2011
+date_start: 2011-12-13
+date_end: 2011-12-16
 
 crew:
   - role: Director

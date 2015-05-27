@@ -8,8 +8,8 @@ year: "12_13"
 period: Autumn
 venue:
   - New Theatre Studio B
-date_start: 09-12-2012
-date_end: 10-12-2012
+date_start: 2012-12-09
+date_end: 2012-12-10
 
 cast:
   - name: Nick Jeffrey
