@@ -11,11 +11,11 @@ date_start: 07-11-2012
 date_end: 10-11-2012
 
 cast:
-  - Rosanna Stoker
-  - Amy Brough-Aikin
-  - Lizzie Franier
-  - Lucy Dolman
-  - Ben Williamson
+  - name: Rosanna Stoker
+  - name: Amy Brough-Aikin
+  - name: Lizzie Franier
+  - name: Lucy Dolman
+  - name: Ben Williamson
 
 crew:
   - role: Director
