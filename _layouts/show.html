@@ -50,6 +50,9 @@ layout: default
 </div>
 
 <div class="show">
+  {% if show.comment %}
+  <div class="debug-comment wrapper" data-debug-toggle>{{ show.comment }}</div>
+  {% endif %}
 
   {% if show.date_start == null %}
   <div class="show-wrap">
