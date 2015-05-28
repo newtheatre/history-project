@@ -21,7 +21,7 @@ We use an issue tracker to maintain a list of jobs to do. If you spot a misspell
 
 Click the <strong><i class="octicon octicon-issue-opened"></i> Report This Page</strong> button on the right when on the page you want to tell us about and complete a report.
 
-Please keep in mind all reports are public. You can see [all reports made using this tool here](https://github.com/newtheatre/history-project/labels/report-tool).
+Please keep in mind all reports are public. You can see [all reports made using this tool here](https://github.com/newtheatre/history-project/issues?q=label%3Areport-tool+).
 
 ## Contributing to the site directly
 
