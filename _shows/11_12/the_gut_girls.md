@@ -3,7 +3,6 @@ title: The Gut Girls
 playwright: Sarah Daniels
 season: In House
 season_sort: 210
-year: "11_12"
 period: Spring
 venue:
   - New Theatre

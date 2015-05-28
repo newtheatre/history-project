@@ -3,7 +3,6 @@ title: Charley's Aunt
 playwright: Brandon Thomas
 season: In House
 season_sort: 290
-year: "11_12"
 period: Spring
 venue:
   - New Theatre

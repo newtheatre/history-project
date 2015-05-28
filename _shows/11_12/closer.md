@@ -3,7 +3,6 @@ title: Closer
 playwright: Patrick Marber
 season: In House
 season_sort: 250
-year: "11_12"
 period: Spring
 venue:
   - New Theatre

@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: Noël Coward
 season_sort: 30
-year: "77_78"
 venue:
   - New Theatre
 ---

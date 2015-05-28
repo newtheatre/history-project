@@ -3,7 +3,6 @@ title: Faust is Dead
 playwright: Mark Ravenhill
 season: In House
 season_sort: 220
-year: "11_12"
 period: Spring
 venue:
   - New Theatre

@@ -5,7 +5,6 @@ season: In House
 period: Edinburgh
 playwright: Tom Seward
 season_sort: 300
-year: "71_72"
 venue:
   - Edinburgh
 ---

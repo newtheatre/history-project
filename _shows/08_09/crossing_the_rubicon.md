@@ -4,7 +4,6 @@ playwright: Cal Lewis
 student_written: true
 season: In House
 season_sort: 100
-year: "08_09"
 period: Spring
 venue:
   - New Theatre

@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: Peter Shaffer
 season_sort: 30
-year: "75_76"
 venue:
   - New Theatre
 ---

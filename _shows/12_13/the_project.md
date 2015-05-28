@@ -3,7 +3,6 @@ title: The Project
 playwright: (Devised)
 season: Edinburgh
 season_sort: 410
-year: "12_13"
 period: Edinburgh
 venue:
   - ZOO Monkeyhouse

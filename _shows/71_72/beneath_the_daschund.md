@@ -3,7 +3,6 @@ published: false
 title: Beneath the Daschund
 season: Edinburgh
 period: Edinburgh
-year: "71_72"
 season_sort: 310
 venue:
   - Edinburgh

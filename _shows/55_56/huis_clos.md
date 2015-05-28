@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: "Jean-Paul Sartre"
 season_sort: 50
-year: "55_56"
 ---
 
 No Exit (French: Huis Clos) is a 1944 existentialist French play by Jean-Paul Sartre. The original title is the French equivalent of the legal term in camera, referring to a private discussion behind closed doors; English translations have also been performed under the titles In Camera, No Way Out, Vicious Circle, Behind Closed Doors, and Dead End.

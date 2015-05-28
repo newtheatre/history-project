@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: Bertolt Brecht
 season_sort: 30
-year: "74_75"
 venue:
   - New Theatre
 ---

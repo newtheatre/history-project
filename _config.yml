@@ -16,13 +16,16 @@ exclude: [vendor, node_modules]
 
 collections:
   shows:
-    layout: show
     output: true
   committees:
-    layout: show
+    output: true
+  years:
     output: true
 
+nthp: {}
+
 defaults:
+  # Shows
   - scope:
       path: ""
       type: shows
@@ -30,12 +33,24 @@ defaults:
       layout: show
       body_class: header-nobr
       current: archives
+  # Committees
   - scope:
       path: ""
       type: committees
     values:
       layout: committee
       current: archives
+  # Years
+  - scope:
+      path: ""
+      type: years
+    values:
+      layout: year
+      group: year
+      body_class: header-nobr
+      current: archives
+      editable: false
+      sitemap: false
   - scope:
       path: "about"
     values:
@@ -85,7 +100,7 @@ asset_bundler:
 
 # Config for the prose editor
 prose:
-  ignore: ['_bin', '_utilities', 'CNAME', '.gitignore', 'js', 'css', '_site', '_sass', '_layout', '_includes', '.travis.yml', 'Gemfile', 'Gemfile.lock', 'lib', 'js', '_plugins', 'feeds']
+  ignore: ['_bin', '_utilities', 'CNAME', '.gitignore', 'js', 'css', '_site', '_sass', '_layouts', '_includes', '.travis.yml', 'Gemfile', 'Gemfile.lock', 'lib', 'js', '_plugins', 'feeds', '_years', '.bowerrc', '.gitmodules', '_config.yml', 'bower.json', 'googlee5aee69e17917677.html', 'package.json', 'robots.txt']
   siteurl: "http://history.newtheatre.org.uk"
   media: "images"
   metadata:
@@ -130,11 +145,6 @@ prose:
               value: "Spring"
             - name: "Edinburgh"
               value: "Edinburgh"
-      - name: "year"
-        field:
-          element: "text"
-          label: "Year"
-          help: "This is used for academic year grouping and should be in the format yy_yy, i.e. 2012-13 would be 12_13"
       - name: "venue"
         field:
           element: "multiselect"

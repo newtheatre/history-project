@@ -3,7 +3,6 @@ title: Black Comedy
 playwright: Peter Shaffer
 season: In House
 season_sort: 50
-year: "12_13"
 period: Autumn
 venue:
   - New Theatre

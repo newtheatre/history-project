@@ -3,7 +3,6 @@ title: Bed
 playwright: Jim Cartwright
 season: In House
 season_sort: 80
-year: "11_12"
 period: Autumn
 venue:
   - New Theatre

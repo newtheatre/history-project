@@ -3,7 +3,6 @@ title: The Memory of Water
 playwright: Shelagh Stephenson
 season: In House
 season_sort: 40
-year: "12_13"
 period: Autumn
 venue:
   - PAS, Trent Building

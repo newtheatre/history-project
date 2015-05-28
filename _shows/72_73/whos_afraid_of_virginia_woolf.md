@@ -5,7 +5,6 @@ season: In House
 period: Spring
 playwright: Edward Albee
 season_sort: 180
-year: "72_73"
 venue:
   - New Theatre
 ---

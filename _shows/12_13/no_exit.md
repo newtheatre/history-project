@@ -3,7 +3,6 @@ title: No Exit
 playwright: Jean-Paul Sartre
 season: In House
 season_sort: 65
-year: "12_13"
 period: Autumn
 venue:
   - Lincoln Library

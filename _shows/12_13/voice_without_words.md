@@ -4,7 +4,6 @@ playwright: Tom Toland
 student_written: true
 season: Fringe
 season_sort: 85
-year: "12_13"
 period: Autumn
 venue:
   - New Theatre Studio B

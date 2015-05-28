@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: Robert Bolt
 season_sort: 40
-year: "77_78"
 venue:
   - New Theatre
 ---

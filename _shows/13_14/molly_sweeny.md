@@ -3,7 +3,6 @@ title: Molly Sweeney
 playwright: Brian Friel
 season: In House
 season_sort: 80
-year: "13_14"
 period: Autumn
 venue:
   - New Theatre

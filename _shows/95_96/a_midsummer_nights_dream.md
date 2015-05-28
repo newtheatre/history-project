@@ -5,7 +5,6 @@ season: In House
 period: Spring
 playwright: William Shakespeare
 season_sort: 260
-year: "95_96"
 venue:
   - New Theatre
 ---

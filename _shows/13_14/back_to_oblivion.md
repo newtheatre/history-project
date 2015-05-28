@@ -4,7 +4,6 @@ playwright: Matthew Miller
 student_written: true
 season: Fringe
 season_sort: 55
-year: "13_14"
 period: Autumn
 date_start: 2013-11-11
 date_end: 2013-11-12

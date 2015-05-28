@@ -3,7 +3,6 @@ title: PARADISE
 playwright: (Devised)
 season: Edinburgh
 season_sort: 400
-year: "12_13"
 period: Edinburgh
 venue:
   - ZOO Monkeyhouse

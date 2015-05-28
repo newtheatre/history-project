@@ -5,7 +5,6 @@ season: In House
 period: Spring
 playwright: John Hughes
 season_sort: 250
-year: "95_96"
 venue:
   - New Theatre
 ---

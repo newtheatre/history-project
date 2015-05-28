@@ -3,7 +3,6 @@ title: Concrete Boots
 playwright: Stuart Price
 season: In House
 season_sort: 200
-year: "13_14"
 period: Spring
 venue:
   - New Theatre

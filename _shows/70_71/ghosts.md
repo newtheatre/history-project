@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: Henrik Ibsen
 season_sort: 30
-year: "70_71"
 venue:
   - New Theatre
 ---

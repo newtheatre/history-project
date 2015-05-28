@@ -3,7 +3,6 @@ title: The Last of the Haussmans
 playwright: Stephen Beresford
 season: Fringe
 season_sort: 225
-year: "12_13"
 period: Spring
 venue:
   - PAS, Trent Building

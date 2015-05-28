@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: Heinrich von Kleist
 season_sort: 50
-year: "72_73"
 venue:
   - New Theatre
 ---

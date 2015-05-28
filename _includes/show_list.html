@@ -1,10 +1,12 @@
 <ul class="show-list">
 {% for show in shows %}
-{% assign posters = show.assets | where:'type', 'poster' %}
+
 <li class="show-list-single">
   <div class="debug-abs-top-left" data-debug-toggle title="season_sort Number">{{ show.season_sort }}</div>
   <a href="{{ show.url }}">
-    {% if posters.size > 0 %}{% capture poster_path %}for_shows/{{posters[0].image}}{% endcapture %}{% image show_poster_thumb {{poster_path}} %}{% endif %}
+    {% if show.poster %}
+      {% image show_poster_thumb for_shows/{{ show.poster.image }} %}
+    {% endif %}
     <span class="show-list-title">{{ show.title }}</span>{% if show.playwright %}
     by {% if show.student_written %}<i class="fa fa-pencil show-student-written" title="Student Written"></i> {% endif %}{{ show.playwright }}{% endif %}
     <br />{% if show.date_start and show.date_end %}<span class="show-list-date">{% include liquid/date_range.html %}</span>{% endif %}

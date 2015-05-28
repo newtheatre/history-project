@@ -3,7 +3,6 @@ title: The Beauty Queen of Leenane
 playwright: Martin McDonagh
 season: In House
 season_sort: 230
-year: "11_12"
 period: Spring
 venue:
   - New Theatre

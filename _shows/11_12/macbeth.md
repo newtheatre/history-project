@@ -3,7 +3,6 @@ title: Macbeth
 playwright: William Shakespeare
 season: In House
 season_sort: 70
-year: "11_12"
 period: Autumn
 venue:
   - New Theatre

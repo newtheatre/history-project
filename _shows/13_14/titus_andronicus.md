@@ -3,7 +3,6 @@ title: Titus Andronicus
 playwright: William Shakespeare
 season: In House
 season_sort: 90
-year: "13_14"
 period: Autumn
 venue:
   - New Theatre

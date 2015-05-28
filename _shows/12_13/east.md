@@ -3,7 +3,6 @@ title: East
 playwright: Steven Birkoff
 season: In House
 season_sort: 260
-year: "12_13"
 period: Spring
 venue:
   - New Theatre

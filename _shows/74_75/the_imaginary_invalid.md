@@ -5,7 +5,6 @@ season: In House
 period: Spring
 playwright: Molière
 season_sort: 130
-year: "74_75"
 venue:
   - New Theatre
 ---

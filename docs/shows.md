@@ -18,7 +18,6 @@ The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the 
 | `student_written` | Show written by an NT member | Set to `true`, `false` or line missing are equivalent. |
 | `season` | Season show belongs to | Choices: Autumn, Spring, Edinbugh |
 | `season_sort` | Order which this show comes in the entire year in a multiple of 10.<br />Roughly: Autumn should start at 30, Spring 200 and Edinburgh 400 | Shows at 30, 40, 50 etc |
-| `year` | Year this show belongs to in the format YY_YY | i.e. The Pillowman was performed in the 2012-13 academic year so the year is "12_13" |
 | `venue` | Venue show was performed in. | There should only be one item in this list. |
 | `date_start` | Date of first performance | In the format YYYY-MM-DD |
 | `date_end` | Date of last performance | In the format YYYY-MM-DD |
@@ -38,7 +37,6 @@ title: The Pillowman
 playwright: Martin McDonagh
 season: In House
 season_sort: 70
-year: "12_13"
 period: Autumn
 venue:
   - New Theatre

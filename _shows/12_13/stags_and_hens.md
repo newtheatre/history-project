@@ -3,7 +3,6 @@ title: Stags and Hens
 playwright: Willy Russell
 season: In House
 season_sort: 220
-year: "12_13"
 period: Spring
 venue:
   - New Theatre

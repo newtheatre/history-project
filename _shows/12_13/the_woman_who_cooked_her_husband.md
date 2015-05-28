@@ -4,7 +4,6 @@ playwright: Debbie Isitt
 student_written: true
 season: Fringe
 season_sort: 86
-year: "12_13"
 period: Autumn
 venue:
   - Lee Rosy's Tea Rooms

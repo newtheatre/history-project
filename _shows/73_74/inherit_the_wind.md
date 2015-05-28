@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: Jerome Lawrence and Robert Edwin Lee
 season_sort: 30
-year: "73-74"
 venue:
   - New Theatre
 ---

@@ -4,7 +4,6 @@ title: Under Milk Wood
 season: In House
 period: Autumn
 playwright: Dylan Thomas
-year: "71_72"
 season_sort: 70
 ---
 

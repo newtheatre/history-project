@@ -5,7 +5,6 @@ season: In House
 period: Spring
 playwright: Max Frisch
 season_sort: 130
-year: "73_74"
 venue:
   - New Theatre
 ---

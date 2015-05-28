@@ -3,7 +3,6 @@ title: Innocent Infidelity
 playwright: C. J. Willman
 season: In House
 season_sort: 240
-year: "11_12"
 period: Spring
 venue:
   - New Theatre

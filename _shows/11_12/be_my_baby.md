@@ -4,7 +4,6 @@ playwright: Amanda Whittington
 season: In House
 season_sort: 50
 period: Autumn
-year: "11_12"
 categories: "10-11"
 date_start: 2011-11-12
 cast:

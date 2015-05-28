@@ -7,7 +7,6 @@ venue:
   - Trent Building
 playwright: George S. Kaufman and Alexander Woollcott
 season_sort: 30
-year: "71_72"
 ---
 
 

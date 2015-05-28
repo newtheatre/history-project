@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: William Shakespeare
 season_sort: 40
-year: "56_57"
 ---
 
 Twelfth Night, or What You Will is a comedy by William Shakespeare, believed to have been written around 1601–02 as a Twelfth Night's entertainment for the close of the Christmas season.
