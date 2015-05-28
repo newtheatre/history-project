@@ -1,6 +1,6 @@
-{% if shows.size == 0 %}
+{% if shows == null %}
 {% include boxes/shows_missing_all.html %}
-{% else shows.size < 10 %}
+{% elsif shows.size < site.year_low_shows %}
 {% include boxes/shows_missing_some.html %}
 {% endif %}
 

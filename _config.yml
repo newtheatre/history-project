@@ -5,6 +5,9 @@ description: "Archive project collecting past shows, committees and alumni bios 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://history.newtheatre.org.uk" # the base hostname & protocol for your site
 
+# How many shows is too few for a year
+year_low_shows: 16
+
 # Build settings
 markdown: kramdown
 permalink: pretty
