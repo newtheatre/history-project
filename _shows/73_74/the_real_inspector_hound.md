@@ -5,7 +5,6 @@ season: In House
 period: Spring
 playwright: Tom Stoppard
 season_sort: 150
-year: "73_74"
 venue:
   - New Theatre
 ---

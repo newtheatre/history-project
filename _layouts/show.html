@@ -4,45 +4,29 @@ layout: default
 
 {% assign show = page %}
 
-{% assign year_page = site.pages | where: "group", "year" | where: "year", show.year %}
-{% assign posters = show.assets | where:'type', 'poster' %}
-
-{% assign year = show.year %}
-{% include liquid/year_to_decade.html %}
-
-{% assign shows_in_year = site.collections.shows.docs | where: "year", show.year | sort: "season_sort" %}
-{% assign next_trigger = false %}
-
-{% for ishow in shows_in_year %}
-  <!--{{ishow.title}}-->
-  {% if next_trigger %}
-    {% assign next_trigger = false %}
-    {% assign next_show = ishow %}
-  {% endif %}
-  {% if ishow == show %}
-    {% assign prev_show = last %}
-    {% assign next_trigger = true %}
-  {% endif %}
-  {% assign last = ishow %}
-{% endfor %}
-
 <div class="breadcrumbs">
   <div class="breadcrumb-inner">
 
     <div class="breadcrumb-controls">
-      <a {% if prev_show %}href="{{prev_show.url}}" class="enabled"{% else %}href="#" class="disabled"{% endif %} title="Previous Show"><i class="ion-chevron-left"></i></a>
-      <a {% if next_show %}href="{{next_show.url}}" class="enabled"{% else %}href="#" class="disabled"{% endif %} title="Next Show"><i class="ion-chevron-right"></i></a>
+      <a {% if show.previous %}href="{{show.previous.url}}" class="enabled"{% else %}href="#" class="disabled"{% endif %} title="Previous Show"><i class="ion-chevron-left"></i></a>
+      <a {% if show.next %}href="{{show.next.url}}" class="enabled"{% else %}href="#" class="disabled"{% endif %} title="Next Show"><i class="ion-chevron-right"></i></a>
     </div>
 
     <ul class="breadcrumb-list">
       <li class="breadcrumb">
-        <a href="/years/">Archives</a>
+        <a href="/years/">
+          Archives
+        </a>
       </li>
-      <li class="breadcrumb breadcrumb-{{ decade }}">
-        <a href="/years/{{show.year}}">{{ year_page[0].title }}</a>
+      <li class="breadcrumb breadcrumb-{{ show.year_page.decade }}">
+        <a href="{{ show.year_page.url }}">
+          {{ show.year_page.title }}
+        </a>
       </li>
-      <li class="breadcrumb breadcrumb-{{ decade }}-child">
-        <a href="{{show.url}}">{{show.title}}</a>
+      <li class="breadcrumb breadcrumb-{{ show.year_page.decade }}-child">
+        <a href="{{ show.url }}">
+          {{ show.title }}
+        </a>
       </li>
     </ul>
 
@@ -63,7 +47,6 @@ layout: default
   <div class="show-wrap show-row">
     <div class="show-info">
       <header class="show-header">
-        <div class="debug-abs-top-left" data-debug-toggle title="year">{{ year }}</div>
         <h1 class="show-title">{{ show.title }}</h1>
         <div class="show-playwright">
           <i class="show-meta-icon fa fa-book"></i>
@@ -116,8 +99,8 @@ layout: default
       {% endif %}
     </div>
     <div class="show-poster">
-      {% if posters.size > 0 %}
-        {% image show_poster for_shows/{{ posters[0].image }} %}
+      {% if show.poster %}
+        {% image show_poster for_shows/{{ show.poster.image }} %}
       {% else %}
         {% include boxes/show_poster_missing.html %}
       {% endif %}
@@ -179,7 +162,7 @@ layout: default
 
 <script type="text/javascript">
 // Reversed to make sense with direction
-var jekyll_page_up = "/years/{{show.year}}";
-var jekyll_page_previous = "{{prev_show.url}}";
-var jekyll_page_next = "{{next_show.url}}";
+var jekyll_page_up = "/years/{{ show.year }}";
+var jekyll_page_previous = "{{ show.previous.url }}";
+var jekyll_page_next = "{{ show.next.url }}";
 </script>

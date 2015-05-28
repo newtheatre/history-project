@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: Frank Wedekind
 season_sort: 50
-year: "53_54"
 ---
 
 

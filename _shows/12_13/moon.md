@@ -4,7 +4,6 @@ playwright: Dave Porter
 student_written: True
 season: Fringe
 season_sort: 45
-year: "12_13"
 period: Autumn
 venue:
   - New Theatre

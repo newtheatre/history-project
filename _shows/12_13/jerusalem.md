@@ -3,7 +3,6 @@ title: Jerusalem
 playwright: Jez Butterworth
 season: In House
 season_sort: 80
-year: "12_13"
 period: Autumn
 venue:
   - New Theatre

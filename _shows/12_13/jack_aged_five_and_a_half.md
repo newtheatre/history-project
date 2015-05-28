@@ -4,7 +4,6 @@ playwright: Jake Leonard
 student_written: true
 season: In House
 season_sort: 75
-year: "12_13"
 period: Autumn
 venue:
   - New Theatre Studio A

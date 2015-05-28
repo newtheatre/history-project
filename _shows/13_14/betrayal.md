@@ -3,7 +3,6 @@ title: Betrayal
 playwright: Harold Pinter
 season: In House
 season_sort: 210
-year: "13_14"
 period: Spring
 venue:
   - New Theatre

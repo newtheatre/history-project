@@ -5,7 +5,6 @@ season: In House
 period: Spring
 playwright: John Burrows and John Harding
 season_sort: 140
-year: "73_74"
 venue:
   - New Theatre
 ---

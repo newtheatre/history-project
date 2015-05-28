@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: Philip Barry
 season_sort: 50
-year: "54_55"
 ---
 
 

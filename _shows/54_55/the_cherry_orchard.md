@@ -4,7 +4,6 @@ title: The Cherry Orchard
 season: In House
 period: Autumn
 playwright: Anton Chekhov
-year: "54_55"
 season_sort: 60
 ---
 

@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: "Sean O'Casey"
 season_sort: 60
-year: "55_56"
 ---
 
 The End of the Beginning is a 1937 one-act play by Sean O'Casey.

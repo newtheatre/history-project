@@ -5,7 +5,6 @@ season: In House
 period: Spring
 playwright: John Godber
 season_sort: 250
-year: "94_95"
 venue:
   - New Theatre
 ---

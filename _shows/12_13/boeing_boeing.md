@@ -3,7 +3,6 @@ title: Boeing Boeing
 playwright: Marc Camoletti
 season: In House
 season_sort: 290
-year: "12_13"
 period: Spring
 venue:
   - New Theatre

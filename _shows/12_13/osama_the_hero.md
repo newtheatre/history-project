@@ -3,7 +3,6 @@ title: Osama the Hero
 playwright: Dennis Kelly
 season: Fringe
 season_sort: 235
-year: "12_13"
 period: Spring
 venue:
   - A barn in Lenton

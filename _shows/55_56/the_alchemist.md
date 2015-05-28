@@ -4,7 +4,6 @@ title: The Alchemist
 season: In House
 period: Autumn
 season_sort: 30
-year: "55_56"
 playwright: Ben Johnson
 ---
 

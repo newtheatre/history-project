@@ -3,7 +3,6 @@ title: RED
 playwright: John Logan
 season: In House
 season_sort: 210
-year: "12_13"
 period: Spring
 venue:
   - New Theatre

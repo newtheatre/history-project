@@ -3,7 +3,6 @@ title: "'night, Mother"
 playwright: Marsha Norman
 season: In House
 season_sort: 60
-year: "12_13"
 period: Autumn
 venue:
   - New Theatre

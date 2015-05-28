@@ -9,16 +9,16 @@ layout: null
         "title": {{show.title | jsonify}},
         "type": "show",
         {% assign posters = show.assets | where:'type', 'poster' %}
-        {% if posters.size > 0 %}{% capture poster_path %}for_shows/{{posters[0].image}}{% endcapture %}{% capture image_tag %}{% image show_poster_thumb_sr {{poster_path}} %}{% endcapture %}"poster_thumb_tag": "<a href='{{show.url}}'>{{ image_tag | replace: '"', "'" }}</a>",{% endif %}
+        {% if show.poster %}{% capture poster_path %}for_shows/{{ show.poster.image }}{% endcapture %}{% capture image_tag %}{% image show_poster_thumb_sr {{poster_path}} %}{% endcapture %}"poster_thumb_tag": "<a href='{{show.url}}'>{{ image_tag | replace: '"', "'" }}</a>",{% endif %}
         {% assign year_page = site.pages | where: "group", "year" | where: "year", show.year %}
-        "year_title": {{ year_page[0].title | jsonify }},
-        "content": {{show.content | markdownify | strip_html | jsonify}},
+        "year_title": {{ show.year_page.title | jsonify }},
+        "content": {{ show.content | markdownify | strip_html | jsonify }},
         "playwright": {{ show.playwright | jsonify }},
         "season": {{ show.season | jsonify }},
         "venue": {{ show.venue | jsonify }},
         "link": "{{ show.url }}",
         "date": "{{ show.date_start }}",
-        "run": "{% if show.date_start %}{% include liquid/date_range.html %} {{ show.date_start | date: "%Y" }}{% else %}{{ year_page[0].title }} (Dates Unknown){% endif %}",
+        "run": "{% if show.date_start %}{% include liquid/date_range.html %} {{ show.date_start | date: "%Y" }}{% else %}{{ show.year_page.title }} (Dates Unknown){% endif %}",
         "excerpt": {{ show.content | strip_html | truncatewords: 50 | jsonify}},
         "cast": "{% for person in show.cast %}{{person.name}}, {% endfor %}",
         "crew": "{% for person in show.crew %}{{person.name}}, {% endfor %}"
@@ -45,10 +45,10 @@ layout: null
 {% for page in site.pages %}
     {% if page.title != null and page.title != empty and page.group != "year" and page.search_exclude != true %}
     {% unless first %},{% endunless %}{
-        "title": {{page.title | jsonify}},
+        "title": {{ page.title | jsonify }},
         "type": "page",
-        "group": "{{page.group}}",
-        "content": {{page.content | strip_html | jsonify}},
+        "group": "{{ page.group }}",
+        "content": {{ page.content | strip_html | jsonify }},
         "link": "{{ page.url | replace: 'index.html', '' }}",
         "date": {{ page.date | jsonify }},
         "excerpt": {{ page.content | strip_html | truncatewords: 50 | jsonify}}

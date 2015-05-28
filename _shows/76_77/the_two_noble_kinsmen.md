@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: John Fletcher and William Shakespeare
 season_sort: 30
-year: "76_77"
 venue:
   - New Theatre
 ---

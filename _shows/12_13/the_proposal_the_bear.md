@@ -3,7 +3,6 @@ title: "Checkov Double Bill: The Proposal / The Bear"
 playwright: Anton Checkov
 season: Fringe
 season_sort: 55
-year: "12_13"
 period: Autumn
 venue:
   - PAS, Trent Building

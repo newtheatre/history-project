@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: "Sean O'Casey"
 season_sort: 70
-year: "55_56"
 ---
 
 Juno and the Paycock is a play by Sean O'Casey, and one of the most highly regarded and often performed plays in Ireland. It was first staged at the Abbey Theatre in Dublin in 1924. It is set in the working class tenements of Dublin in the early 1920s, during the Irish Civil War period.

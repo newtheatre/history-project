@@ -3,7 +3,6 @@ title: Little Red
 playwright: Devised by cast and crew
 season: Fringe
 season_sort: 265
-year: "12_13"
 period: Spring
 venue:
   - New Theatre

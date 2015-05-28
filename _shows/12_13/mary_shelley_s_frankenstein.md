@@ -3,7 +3,6 @@ title: "Mary Shelley's Frankenstein"
 playwright: Adapted by Jake Leonard
 season: In House
 season_sort: 280
-year: "12_13"
 period: Spring
 venue:
   - New Theatre

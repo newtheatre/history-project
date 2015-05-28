@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: John Mortimer
 season_sort: 40
-year: "73_74"
 venue:
   - New Theatre
 ---

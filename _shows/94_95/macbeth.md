@@ -5,7 +5,6 @@ period: Spring
 title: Macbeth
 playwright: William Shakespeare
 season_sort: 230
-year: "94_95"
 venue:
   - New Theatre
 cast:

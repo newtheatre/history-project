@@ -3,7 +3,6 @@ title: "Rosencrantz & Guildenstern Are Dead"
 playwright: Tom Stoppard
 season: In House
 season_sort: 100
-year: "11_12"
 period: Autumn
 venue:
   - New Theatre

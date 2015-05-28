@@ -5,7 +5,6 @@ period: Autumn
 title: Accidental death of an anarchist
 playwright: Dario Fo
 season_sort: 40
-year: "96_97"
 venue:
   - New Theatre
 cast:

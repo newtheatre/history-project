@@ -5,7 +5,6 @@ period: Spring
 title: "Who claimed Roger's Habit"
 playwright: "Stuart Scott, Ben Heusner and David Todd"
 season_sort: 280
-year: "96_97"
 venue:
   - New Theatre
 date_start: "1997-03-17"

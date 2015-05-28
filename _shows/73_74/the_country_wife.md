@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: William Wycherley
 season_sort: 60
-year: "73_74"
 venue:
   - New Theatre
 ---

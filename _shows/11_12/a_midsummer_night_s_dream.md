@@ -3,7 +3,6 @@ title: A Midsummer Night's Dream
 playwright: William Shakespeare
 season: In House
 season_sort: 90
-year: "11_12"
 period: Autumn
 venue:
   - New Theatre

@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: Oscar Wilde
 season_sort: 40
-year: "76_77"
 venue:
   - New Theatre
 ---

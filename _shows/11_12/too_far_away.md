@@ -4,7 +4,6 @@ playwright: Adam H. Wells
 student_written: true
 season: In House
 season_sort: 260
-year: "11_12"
 period: Spring
 venue:
   - New Theatre

@@ -3,7 +3,6 @@ title: Educating Rita
 playwright: Chelsea Wright
 season: In House
 season_sort: 250
-year: "12_13"
 period: Spring
 venue:
   - New Theatre

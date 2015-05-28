@@ -4,12 +4,12 @@
 {% include boxes/shows_missing_some.html %}
 {% endif %}
 
-{% assign autumn = shows | where: "period", "Autumn" | sort: "season_sort" %}
-{% assign spring = shows | where: "period", "Spring" | sort: "season_sort" %}
-{% assign nsdf = shows | where: "period", "NSDF" | sort: "season_sort" %}
-{% assign edinburgh = shows | where: "period", "Edinburgh" | sort: "season_sort" %}
-{% assign tour = shows | where: "period", "Tour" | sort: "season_sort" %}
-{% assign others = shows | where: "period", null | sort: "season_sort" %}
+{% assign autumn = shows | where: "period", "Autumn" %}
+{% assign spring = shows | where: "period", "Spring" %}
+{% assign nsdf = shows | where: "period", "NSDF" %}
+{% assign edinburgh = shows | where: "period", "Edinburgh" %}
+{% assign tour = shows | where: "period", "Tour" %}
+{% assign others = shows | where: "period", null %}
 
 {% if autumn.size > 0 %}
 {% assign shows = autumn %}

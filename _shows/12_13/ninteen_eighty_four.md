@@ -3,7 +3,6 @@ title: Nineteen Eighty-Four
 playwright: George Orwell
 season: In House
 season_sort: 70
-year: "12_13"
 period: Autumn
 venue:
   - New Theatre

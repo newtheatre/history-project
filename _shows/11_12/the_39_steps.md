@@ -3,7 +3,6 @@ title: The 39 Steps
 playwright: Patrick Barlow
 season: In House
 season_sort: 270
-year: "11_12"
 period: Spring
 venue:
   - New Theatre

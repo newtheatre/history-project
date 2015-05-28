@@ -4,7 +4,6 @@ playwright: Yasmina Reza (Translated by Christoper Hampton)
 translator: Christoper Hampton
 season: In House
 season_sort: 50
-year: "13_14"
 period: Autumn
 venue:
   - New Theatre

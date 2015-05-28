@@ -3,7 +3,6 @@ title: All My Sons
 playwright: Arthur Miller
 season: In House
 season_sort: 200
-year: "11_12"
 period: Spring
 venue:
   - New Theatre

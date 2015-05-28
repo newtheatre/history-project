@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: James Saunders
 season_sort: 50
-year: "77_78"
 venue:
   - New Theatre
 ---

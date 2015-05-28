@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: R.C.Sherriff
 season_sort: 40
-year: "75_76"
 venue:
   - New Theatre
 ---

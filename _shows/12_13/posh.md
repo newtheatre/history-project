@@ -3,7 +3,6 @@ title: Posh
 playwright: Laura Wade
 season: In House
 season_sort: 230
-year: "12_13"
 period: Spring
 venue:
   - New Theatre

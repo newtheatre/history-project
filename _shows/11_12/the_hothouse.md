@@ -3,7 +3,6 @@ title: The Hothouse
 playwright: Harold Pinter
 season: In House
 season_sort: 60
-year: "11_12"
 period: Autumn
 venue:
   - New Theatre

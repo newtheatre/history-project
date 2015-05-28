@@ -3,7 +3,6 @@ title: Eight
 playwright: Ella Hickson
 season: Fringe
 season_sort: 255
-year: "12_13"
 period: Spring
 venue:
   - New Theatre Studio B

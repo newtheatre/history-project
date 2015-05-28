@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 playwright: Anon
 season_sort: 60
-year: "72_73"
 venue:
   - New Theatre
 ---
