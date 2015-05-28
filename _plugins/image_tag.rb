@@ -1,5 +1,9 @@
 # Title: Jekyll Image Tag
-# Authors: Rob Wierzbowski : @robwierzbowski
+# Modified by: Will Pimblett: @wjdp
+# Changes made to speed up (15 seconds -> 0.01 seconds) mean that images that
+# change DO NOT get updated if the filenames still match
+
+# Original Authors: Rob Wierzbowski : @robwierzbowski
 #
 # Description: Better images for Jekyll.
 #
@@ -16,8 +20,9 @@
 
 require 'fileutils'
 require 'pathname'
-require 'digest/md5'
 require 'mini_magick'
+
+$itime = 0
 
 module Jekyll
 
@@ -29,7 +34,6 @@ module Jekyll
     end
 
     def render(context)
-
       # Render any liquid variables in tag arguments and unescape template code
       render_markup = Liquid::Template.parse(@markup).render(context).gsub(/\\\{\\\{|\\\{\\%/, '\{\{' => '{{', '\{\%' => '{%')
 
@@ -88,7 +92,14 @@ module Jekyll
       raise "Image Tag can't find the \"#{markup[:preset]}\" preset. Check image: presets in _config.yml for a list of presets." unless preset || dim ||  markup[:preset].nil?
 
       # Generate resized images
+      # t1 = Time.now
       generated_src = generate_image(instance, site.source, site.dest, settings['source'], settings['output'])
+      # t2 = Time.now
+      # puts "imagegen" + ": " + (t2-t1).to_s
+
+      # $itime = $itime + (t2-t1)
+      # puts $itime
+
       unless generated_src
         return
       end
@@ -106,47 +117,62 @@ module Jekyll
         return false
       end
 
-      image = MiniMagick::Image.open(image_source_path)
-      image.coalesce
-      digest = Digest::MD5.hexdigest(image.to_blob).slice!(0..5)
-
       image_dir = File.dirname(instance[:src])
       ext = File.extname(instance[:src])
       basename = File.basename(instance[:src], ext)
 
-      orig_width = image[:width].to_f
-      orig_height = image[:height].to_f
-      orig_ratio = orig_width/orig_height
-
-      gen_width = if instance[:width]
-        instance[:width].to_f
-      elsif instance[:height]
-        orig_ratio * instance[:height].to_f
+      if instance[:width]
+        w = instance[:width].round
       else
-        orig_width
+        w = ""
       end
-      gen_height = if instance[:height]
-        instance[:height].to_f
-      elsif instance[:width]
-        instance[:width].to_f / orig_ratio
+
+      if instance[:height]
+        h = instance[:height].round
       else
-        orig_height
-      end
-      gen_ratio = gen_width/gen_height
-
-      # Don't allow upscaling. If the image is smaller than the requested dimensions, recalculate.
-      if orig_width < gen_width || orig_height < gen_height
-        undersize = true
-        gen_width = if orig_ratio < gen_ratio then orig_width else orig_height * gen_ratio end
-        gen_height = if orig_ratio > gen_ratio then orig_height else orig_width/gen_ratio end
+        h = ""
       end
 
-      gen_name = "#{basename}-#{gen_width.round}x#{gen_height.round}-#{digest}#{ext}"
+      gen_name = "#{basename}-#{w}x#{h}#{ext}"
       gen_dest_dir = File.join(site_dest, image_dest, image_dir)
       gen_dest_file = File.join(gen_dest_dir, gen_name)
 
       # Generate resized files
       unless File.exists?(gen_dest_file)
+
+        # A
+
+        image = MiniMagick::Image.open(image_source_path)
+        image.coalesce
+
+        orig_width = image[:width].to_f
+        orig_height = image[:height].to_f
+        orig_ratio = orig_width/orig_height
+
+        gen_width = if instance[:width]
+          instance[:width].to_f
+        elsif instance[:height]
+          orig_ratio * instance[:height].to_f
+        else
+          orig_width
+        end
+        gen_height = if instance[:height]
+          instance[:height].to_f
+        elsif instance[:width]
+          instance[:width].to_f / orig_ratio
+        else
+          orig_height
+        end
+        gen_ratio = gen_width/gen_height
+
+        # Don't allow upscaling. If the image is smaller than the requested dimensions, recalculate.
+        if orig_width < gen_width || orig_height < gen_height
+          undersize = true
+          gen_width = if orig_ratio < gen_ratio then orig_width else orig_height * gen_ratio end
+          gen_height = if orig_ratio > gen_ratio then orig_height else orig_width/gen_ratio end
+        end
+
+        # A
 
         warn "Warning:".yellow + " #{instance[:src]} is smaller than the requested output file. It will be resized without upscaling." if undersize
 
