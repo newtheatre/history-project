@@ -11,6 +11,7 @@ module Jekyll
       end
 
       years_by_decade = Hash.new
+      top_show_count = 0
 
       for year, index in sorted_years.each_with_index
         year_slug = year.basename_without_ext
@@ -20,6 +21,16 @@ module Jekyll
         year.data["next"] = sorted_years[index + 1]
         year.data["previous"] = sorted_years[index - 1]
         year.data["shows"] = site.data["shows_by_year"][year_slug]
+
+        if year.data["shows"]
+          year.data["show_count"] = year.data["shows"].size
+        else
+          year.data["show_count"] = 0
+        end
+
+        if year.data["show_count"] > top_show_count
+          top_show_count = year.data["show_count"]
+        end
       end
 
       # Create a copy of years_by_decade but with the lists reversed
@@ -28,8 +39,10 @@ module Jekyll
         years_by_decade_reversed[key] = value.reverse
       end
 
+      site.data["years"] = sorted_years
       site.data["years_by_decade"] = years_by_decade
       site.data["years_by_decade_reversed"] = years_by_decade_reversed
+      site.data["top_show_count"] = top_show_count
 
     end
   end
