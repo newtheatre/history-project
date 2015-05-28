@@ -13,7 +13,7 @@ layout: page
 
 </div>
 
-Welcome to the New Theatre History Project!
+Welcome to the New Theatre History Project, a historical record of happenings at the New Theatre.
 
 The New Theatre Alumni Network was founded in order to build a stronger sense of the history of the theatre, and with the launch of this project we are hoping to do just that! Following a recent visit to the Nottingham University Archives, we are using the project to piece together the New Theatre's dynamic and vibrant history.
 
