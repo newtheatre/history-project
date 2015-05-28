@@ -16,10 +16,17 @@ In particular we are looking for: listings of season shows, casts and crew lists
 
 See the [contributing](/contributing/) section for details on how to help out.
 
+<div class="grid-row">
+
+<div class="grid-8" markdown="1">
+
 ## People
 
 - Will Pimblett
 - Phil Geller
+
+</div>
+<div class="grid-8" markdown="1">
 
 ## Build Details
 
@@ -29,3 +36,7 @@ See the [contributing](/contributing/) section for details on how to help out.
 - Site last updated at {{site.time | date: "%Y-%m-%d %H:%M" }}
 - Build number {% include travis_build_number.txt %}.
 - {{shows.size}} shows and {{committees.size}} committees.
+
+</div>
+
+</div>
