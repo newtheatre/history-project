@@ -3,7 +3,7 @@ cache:
   bundler: true
   directories:
     - _site/images/resize
-dga    - node_modules/
+    - node_modules/
     - lib/
     - _asset_bundler_cache/
     - vendor/bundle
