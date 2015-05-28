@@ -13,9 +13,10 @@ body.search
 
   .search-form-text, .search-form-actions
     padding-top: $baseline / 2
-    input, button
+    input, .button
       font-size: $base-font-size * 1.2
       padding: $baseline / 4
+      line-height: $baseline
       width: 100%
 
   .search-form-text
@@ -28,19 +29,6 @@ body.search
     color: $color-text-white
     border: 2px $color-text-white solid
     border-radius: 2px
-
-  .search-submit
-    $bg: lighten($color-info, 20%)
-    background: $bg
-    border: none
-    border-bottom: 4px lighten($color-info, 8%) solid
-    color: $color-text-white
-    @include text-shadow-effect($bg)
-
-    position: relative
-
-    &:active
-      top: 1px
 
 .search-results
   @include grid-wrap

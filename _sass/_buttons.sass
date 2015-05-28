@@ -1,0 +1,46 @@
+@mixin button($color)
+  background: $color
+  border-bottom: 3px solid darken($color, 18%)
+  @include text-shadow-effect($color)
+
+.button, a.button
+  padding: $baseline*0.333 $baseline*0.666
+  line-height: $base-font-size
+  display: inline-block
+  @include block
+  border: none
+  // height: 45px
+
+  margin-right: $baseline / 2
+  margin-bottom: $baseline
+
+  @include button($color-grey-dark)
+
+  // button reset
+  font-size: $base-font-size
+  font-weight: bold
+
+  color: $color-text-white
+
+  // Hand pointer & no text highlighting
+  cursor: pointer
+  @include user-select(none)
+
+  position: relative
+
+  &:hover
+    text-decoration: none
+
+  &:active
+    top: 1px
+    // padding-top: $baseline*0.333 + 2px
+    border-bottom-width: 2px
+    outline: 0
+    margin-bottom: $baseline + 1px
+
+  &:focus
+    outline: 0
+
+.button-search
+  @include button(lighten($color-info, 20%))
+
