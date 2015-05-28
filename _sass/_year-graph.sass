@@ -1,0 +1,18 @@
+.year-graph
+  @include grid-row
+  @include block
+
+  padding-top: 1rem
+
+  background: darken($color-background, 3%)
+
+  .year-graph-bar
+    float: left
+    width: 1/(2015-1940)*100%
+    background: red
+
+    a
+      display: block
+      width: 100%
+      &:hover
+        text-decoration: none

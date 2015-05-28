@@ -2,6 +2,8 @@
 layout: page
 ---
 
+<div class="grid-row">
+
 <div class="home-main" markdown="1">
 
 <div class="box-info">
@@ -25,8 +27,14 @@ In particular we are looking for: listings of season shows, casts and crew lists
 
 Please email us at <{{ site.email }}> if you have something to contribute, and don’t worry if you aren’t quite ready to part with your cherished New Theatre relics just yet – the University Archives have offered to photgraph and document any items sent to them, and then return them safely to you for safe keeping!
 
+
+
 </div>
 
 <div class="home-aside">
 {% include twitter_widget.html %}
 </div>
+
+</div>
+
+{% include fancy/year_graph.html %}
