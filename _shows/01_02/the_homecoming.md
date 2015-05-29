@@ -2,6 +2,12 @@
 published: false
 season: In House
 period: Autumn
+playwright: Harold Pinter
+season_sort: "60"
+venue: 
+  - New Theatre
+date_start: "2011-11-14"
+date_end: "2011-11-17"
 ---
 
 ====== The Homecoming ======
