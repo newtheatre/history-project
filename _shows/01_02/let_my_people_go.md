@@ -8,19 +8,65 @@ venue:
   - New Theatre
 date_start: "2002-05-01"
 date_end: "2002-05-04"
+title: Let me people go
+cast: 
+  - role: Pat Brown
+    name: Fiona Johnson
+  - role: Sarah Baker
+    name: Crystal Potter
+  - role: Juliette
+    name: Anneliese Graham
+  - role: Faith
+    name: Jessica Taylor
+  - role: Mr Fletcher
+    name: Euan Lawrence
+  - role: Neil Baker
+    name: John Griffin
+  - role: Carl
+    name: Ammo Sahota
+  - role: The Reverend
+    name: Ajay Khari
+crew: 
+  - role: Director
+    name: Ben Richards
+  - role: Producer
+    name: James Law
+  - role: Musical Director
+    name: Lauren Pownall
+  - role: Musical Director
+    name: Alexandra Turner
+  - role: Assistant Director
+    name: Alex Fanghanel
+  - role: Music Arranged By
+    name: Sam Watts
+  - role: Sound
+    name: Sven Banham
+  - role: Set
+    name: Ben Richards
+  - role: Set
+    name: Stuart Andrews
+  - role: Radio Mic Operator
+    name: Stephanie Lane
+  - role: Make Up Artist
+    name: Alex Gilham
+  - role: Costumes
+    name: Judith Thei
+  - role: Lighting Designer
+    name: Adam Godden
+  - role: Stage Manager
+    name: Marni Miller Becker
+  - role: Backstage
+    name: Joe Arkley
+  - role: Backstage
+    name: Ben Bergin
+  - role: Backstage
+    name: Tom King
+  - role: Backstage
+    name: Amy Stone
+  - role: Publicity Designer
+    name: James Law
 ---
 
-====== Let My People Go ======
-
-===== Key Info =====
-
-^Dates        | 1-4 May 2002 |
-^Venue        | New Theatre |
-^Director     | Ben Richards |
-^Producer     | James Law |
-^Playwright   | Ben Richards |
-
-===== Synopsis =====
 
 This is a gospel musical based around the biblical stories of the Jewish forefathers: Moses, Jacob and Abraham. 
 
@@ -32,48 +78,7 @@ We also follow the story of Juliette, a young mother who escapes her abusive hus
 
 The story is told in an old style with a new twist. In keeping with the advice of the forefathers of theatre, the action is commented on by a Greek choir. Only this time, they're wearing gospel robes rather than plaster masks. 
 
-===== Publicity =====
+The Celestial Fire Gospel Singers were founded for this production. With singers from all over the world the choir have come together to bring this musical onto the stage
 
-|{{ :?direct&200 |}}|
-
-
-===== Cast =====
-
-^**Character**            |**Member's Name** |
-^ Pat Brown               | Fiona Johnson |
-^ Sarah Baker             | Crystal Potter |
-^ Juliette                | Anneliese Graham | 
-^ Faith                   | Jessica Taylor |
-^ Mr Fletcher             | Euan Lawrence |
-^ Neil Baker              | John Griffin |
-^ Carl                    | Ammo Sahota |
-^ The Reverend            | Ajay Khari |
-
-
-===== Crew =====
-
-^**Role**                  |**Member's Name** |
-^ Director                 | Ben Richards |
-^ Producer                 | James Law |
-^ Musical Director         | Lauren Pownall |
-^ :::                      | Alexandra Turner |
-^ Assistant Director       | Alex Fanghanel |
-^ Music Arranged By        | Sam Watts |
- 
-^ Sound                    | Sven Banham |
-^ Set                      | Ben Richards |
-^ :::                      | Stuart Andrews |
-^ Radio Mic Operator       | Stephanie Lane |
-^ Make Up Artist           | Alex Gilham |
-^ Costumes                 | Judith Thei |
-^ Lighting Designer        | Adam Godden |
-^ Stage Manager            | Marni Miller Becker |
-^ Backstage                | Joe Arkley |
-^ :::                      | Ben Bergin |
-^ :::                      | Tom King |
-^ :::                      | Amy Stone |
-^ Publicity Designer       | James Law ||
-
-===== Other Information =====
 
 The Celestial Fire Gospel Singers were founded for this production. With singers from all over the world the choir have come together to bring this musical onto the stage \\
