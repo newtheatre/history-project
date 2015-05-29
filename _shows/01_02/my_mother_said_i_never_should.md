@@ -1,7 +1,13 @@
 ---
 published: false
 season: In House
-period: Autumn
+period: Spring
+playwright: Charlotte Keatley
+season_sort: "240"
+venue: 
+  - New Theatre
+date_start: "2002-03-12"
+date_end: "2002-03-15"
 ---
 
 ====== My Mother Said I Never Should ======
