@@ -36,7 +36,8 @@ crew:
     name: Phil Pooley
   - role: Photography
     name: David Wills
+title: Educating Rita
 ---
 
-Educating Rita is about a working class girl's hunger for education. She enrols on an Open University course and in doing so meets Frank, her tutor, an alcoholic ex-poet. The play in a nutshell is about Rita's metamorphosis. She evolves from a life as an unhappily married hairdresser into a confident, education young woman on the cusp. The narrative unfolds within the context of her tutorials in whcih a mento/muse relationship springs up between the two characters. A comedy to all intents and purposes, Educating Rita remains a modern day Pygmalion with a bitter-sweet edge.
 
+Educating Rita is about a working class girl's hunger for education. She enrols on an Open University course and in doing so meets Frank, her tutor, an alcoholic ex-poet. The play in a nutshell is about Rita's metamorphosis. She evolves from a life as an unhappily married hairdresser into a confident, education young woman on the cusp. The narrative unfolds within the context of her tutorials in whcih a mento/muse relationship springs up between the two characters. A comedy to all intents and purposes, Educating Rita remains a modern day Pygmalion with a bitter-sweet edge.
