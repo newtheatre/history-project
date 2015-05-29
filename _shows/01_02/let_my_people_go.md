@@ -8,7 +8,7 @@ venue:
   - New Theatre
 date_start: "2002-05-01"
 date_end: "2002-05-04"
-title: Let me people go
+title: Let my people go
 cast: 
   - role: Pat Brown
     name: Fiona Johnson
@@ -66,6 +66,7 @@ crew:
   - role: Publicity Designer
     name: James Law
 ---
+
 
 
 This is a gospel musical based around the biblical stories of the Jewish forefathers: Moses, Jacob and Abraham. 
