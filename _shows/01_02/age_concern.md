@@ -10,13 +10,20 @@ venue:
 date_start: "2002-05-01"
 date_end: "2002-05-04"
 cast: 
-  - name: Amy Goodall
-  - name: Caroline Jones
-  - name: Ged Pfeifer
-  - name: "Henry Fillouix-Bennet"
-  - name: John Cuzick
-  - name: Judith Thei
-  - name: Michael Hyde
+  - role: null
+    name: Amy Goodall
+  - role: null
+    name: Caroline Jones
+  - role: null
+    name: Ged Pfeifer
+  - role: null
+    name: "Henry Fillouix-Bennet"
+  - role: null
+    name: John Cuzick
+  - role: null
+    name: Judith Thei
+  - role: null
+    name: Michael Hyde
 crew: 
   - role: Coordinator
   - name: Alex Turner
