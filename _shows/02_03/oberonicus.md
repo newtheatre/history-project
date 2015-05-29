@@ -67,6 +67,7 @@ crew:
 
 
 
+
 It is 1953. The theatres in London have been closed due to the outbreak of the plague. 
 
 Shakespeare and his theatre company have left the city in search of audiences elsewhere. This is, however, not the only reason why Shakespeare is so far from home...
