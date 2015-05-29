@@ -1,42 +1,13 @@
 ---
-published: false
+published: true
 season: In House
-period: Autumn
+period: Spring
+title: Age Concern
+playwright: (Devised 24 Hour Play)
+season_sort: "280"
+venue: 
+  - New Theatre
+date_start: "2002-05-01"
+date_end: "2002-05-04"
 ---
 
-====== Age Concern ======
-
-===== Key Info =====
-
-^Dates        | 3rd June 2002 |
-^Venue        | New Theatre |
-^Director     | Alex Turner (Coordinator) |
-^Producer     | Cast and Crew |
-^Playwright   | Devised 24 Hour Play |
-
-===== Synopsis =====
-
-???
-
-===== Publicity =====
-
-|{{ :?direct&200 |}}|
-
-===== Cast =====
-
-^**Character**            |**Member's Name** |
-^                      | Amy Goodall |
-^                      | Caroline Jones |
-^                      | Ged Pfeifer | 
-^                      | Henry Fillouix-Bennet |
-^                      | John Cuzick |
-^                      | Judith Thei |
-^                      | Michael Hyde |
-
-
-===== Crew =====
-
-^**Role**                  |**Member's Name** |
-^ Coordinator                       | Alex Turner |
-^ Publicity, Lighting and Sound     | Mike Cook |
-^ Set Construction                  | Ben Richards |
