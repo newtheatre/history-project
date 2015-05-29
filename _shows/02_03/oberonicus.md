@@ -8,6 +8,41 @@ venue:
 title: Oberonicus
 season_sort: "30"
 cast: 
+  - role: Shakespeare
+    name: Matt Jones
+  - role: Hamnet
+    name: Dave Jobanputra
+  - role: Pudding
+    note: An actor
+    name: Ben Bergin
+  - role: Queenie
+    note: An actress
+    name: Laura Teague
+  - role: Netty
+    note: Washerwoman
+    name: Laura Elmer
+  - role: Alfred
+    note: An actor
+    name: Michael Walker
+  - role: Rosemary
+    note: A merchants daughter
+    name: Jo Hoare
+  - role: Helen
+    note: Her friend
+    name: Martina Heron
+  - role: Oberon
+    name: Euan Lawrence
+  - role: Titania
+    name: Chloe Osborn
+  - role: Puck
+    name: Annaliesse Mackintosh
+  - role: Mustardblossom
+    name: Jen Smith
+  - role: Springshine
+    name: Helen Streeter
+  - role: Chestnut Top
+    name: Eryn Burden
+crew: 
   - role: Director
     name: James Ashton
   - role: Director
@@ -29,6 +64,7 @@ cast:
   - role: The Musical Trio
     name: Elaine Sivyer
 ---
+
 
 
 It is 1953. The theatres in London have been closed due to the outbreak of the plague. 
