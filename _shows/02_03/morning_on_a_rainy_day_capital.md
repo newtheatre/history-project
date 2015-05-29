@@ -1,8 +1,11 @@
 ---
-published: false
+published: true
 season: In House
 period: Autumn
+title: "'Morning on a Rainy day' and 'Capital'"
+playwright: Vanessa Bradham
 ---
+
 
 ====== "Morning on a Rainy Day" and "Capital" - Two short plays by Vanessa Badham ======
 
