@@ -6,8 +6,8 @@ playwright: Harold Pinter
 season_sort: "60"
 venue: 
   - New Theatre
-date_start: "2011-11-14"
-date_end: "2011-11-17"
+date_start: "2001-11-14"
+date_end: "2001-11-17"
 cast: 
   - role: Max
     name: Ben Richards
@@ -44,7 +44,9 @@ crew:
     name: Rob Tolan
   - role: Publicity Designer
     name: Suzy Freake
+title: Untitled
 ---
+
 
 Set in North London, the play has six characters. Five of these are men who are related to each other: Max, a retired butcher; his brother Sam, a chauffeur; and Max's three sons — Teddy, an expatriate American philosophy professor; Lenny, who appears to be a pimp; and Joey, a would-be boxer in training who works in demolition. There is one woman, Ruth, who is Teddy's wife. The play concerns Teddy's and Ruth's "homecoming," which has distinctly different symbolic and thematic implications
 
