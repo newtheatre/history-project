@@ -1,8 +1,8 @@
 ---
-published: false
+published: true
 season: In House
 period: Autumn
-title: Untitled
+title: Once a catholic
 playwright: "Mary O'Malley"
 season_sort: "40"
 venue: 
