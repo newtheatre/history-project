@@ -3,6 +3,7 @@ _site/
 lib/
 node_modules/
 _asset_bundler_cache/
+.jekyll-metadata
 
 for_shows_uncompressed
 for_shows_process
