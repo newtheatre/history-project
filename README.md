@@ -10,6 +10,8 @@ See the [site documentation](http://history.newtheatre.org.uk/docs/)
 
 ## Useful Stuff
 
+### Renaming txt files
+
 Rename all .txt files to .md in a directory:
 
 ```
@@ -18,3 +20,7 @@ do
 mv $file `echo $file | sed 's/\(.*\.\)txt/\1md/'`
 done
 ```
+
+### Repo Mirror
+
+This repo is mirrored here: http://git.fullaf.com/will/history-project. It's kept up to date by Will's pushes so may be a little behind.
