@@ -8,12 +8,16 @@ icon: fa fa-users
 sitemap: false
 ---
 
+{{site.collections.shows.docs}}
+
 <h2>Committees by Year</h2>
 <div>
-  {% assign c_pages = site.collections.committees.docs | sort:"title" %}
+  {% assign c_pages = site.data.committees_by_year %}
   <ul>
   {% for node in c_pages %}
+    {{node}}
     <li><a href="{{node.url}}">{{node.title}}</a> ({{node.committee.size}})</li>
+    }
   {% endfor %}
   </ul>
 </div>
