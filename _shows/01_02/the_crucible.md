@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 season: In House
 period: Autumn
 title: The Crucible
@@ -10,6 +10,7 @@ venue:
 date_start: "2001-11-08"
 date_end: "2001-11-10"
 ---
+
 
 
 
