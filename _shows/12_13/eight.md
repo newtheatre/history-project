@@ -1,7 +1,7 @@
 ---
 title: Eight
 playwright: Ella Hickson
-season: Fringe
+season: UNCUT
 season_sort: 255
 period: Spring
 venue:

@@ -1,7 +1,7 @@
 ---
 title: The Last of the Haussmans
 playwright: Stephen Beresford
-season: Fringe
+season: UNCUT
 season_sort: 225
 period: Spring
 venue:
