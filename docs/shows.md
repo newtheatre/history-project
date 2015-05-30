@@ -5,8 +5,6 @@ title: Shows
 sort: 20
 ---
 
-This site aims to collect much information about past shows of the New Theatre.
-
 The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the academic year 'span'.
 
 ## <i class="fa fa-tags"></i> Attribute Reference
