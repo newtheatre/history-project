@@ -1,10 +1,30 @@
 .site-footer
-  color: $color-nnt-orange
-  background: $color-grey
+  color: $color-text-white
+  background: $color-text-black
   padding: $baseline 0
+
+  &, p
+    font-size: $base-font-size * 0.9
+
   .wrapper
     @include grid-wrap
     @include grid-row
 
-.footer-col
-  @include grid-x-percent(33%)
+  .twitter, .email
+    background: #55acee
+    margin-bottom: $baseline / 2
+
+    a
+      display: block
+      padding: $baseline/4 $baseline/2
+      color: $color-text-white
+
+
+  .email
+    background: #ed0040
+
+.footer-contribute
+  @include grid-x-percent(75%)
+
+.footer-social
+  @include grid-x-percent(25%)

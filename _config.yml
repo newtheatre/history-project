@@ -1,6 +1,7 @@
 # Site settings
 title: New Theatre History Project
 email: alumni@newtheatre.org.uk
+twitter: ntalumni
 description: "Archive project collecting past shows, committees and alumni bios to piece together the New Theatre’s dynamic and vibrant history."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://history.newtheatre.org.uk" # the base hostname & protocol for your site
@@ -89,6 +90,9 @@ image:
       attr:
         alt: Show photo
       width: 300
+
+sass:
+  style: :compressed
 
 asset_bundler:
   compress:
