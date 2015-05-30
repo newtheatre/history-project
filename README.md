@@ -4,9 +4,24 @@
 
 The history project aims to collect information on past shows, committees and other goings-on at The New Theatre.
 
+
+## Install
+
+To get the site running locally you will need a working Ruby environment, the bundler gem installed (`sudo gem install bundler`) and ImageMagick (usually `sudo apt-get install imagemagick`). Then do the following:
+
+`git clone https://github.com/newtheatre/history-project.git` to clone the repo to your computer.
+
+`cd history-project` to change into the directory.
+
+`bundle install` to install all the Ruby dependencies the project needs to build.
+
+`bundle exec jekyll serve --watch` to build the site and serve it on http://localhost:4000 when done. File changes will trigger a rebuild.
+
+
 ## Editing
 
 See the [site documentation](http://history.newtheatre.org.uk/docs/)
+
 
 ## Useful Stuff
 
@@ -21,6 +36,11 @@ mv $file `echo $file | sed 's/\(.*\.\)txt/\1md/'`
 done
 ```
 
-### Repo Mirror
+### HTML Proofing
+
+`bundle exec htmlproof _site` will check the site for mistakes in the generated output (broken links, missing alt attributes on images etc).
+
+
+## Repo Mirror
 
 This repo is mirrored here: http://git.fullaf.com/will/history-project. It's kept up to date by Will's pushes so may be a little behind.
