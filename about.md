@@ -4,7 +4,9 @@ group: about
 current: about
 title: About This Site
 sort: 10
+published: true
 ---
+
 
 # <i class="octicon octicon-circuit-board"></i> {{ page.title }}
 
@@ -22,8 +24,8 @@ See the [contributing](/contributing/) section for details on how to help out.
 
 ## People
 
-- Will Pimblett
-- Phil Geller
+- **Project Lead:** Phil Geller
+- **Development Lead:** Will Pimblett
 
 </div>
 <div class="grid-8" markdown="1">
