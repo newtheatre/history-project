@@ -9,6 +9,7 @@
   .wrapper
     @include grid-wrap
     @include grid-row
+    padding-bottom: 0
 
   .twitter, .email
     background: #55acee
@@ -24,7 +25,7 @@
     background: #ed0040
 
 .footer-contribute
-  @include grid-x-percent(75%)
+  @include grid-x-percent(68%)
 
 .footer-social
-  @include grid-x-percent(25%)
+  @include grid-x-percent(100%-68%)
