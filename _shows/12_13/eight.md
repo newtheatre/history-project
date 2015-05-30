@@ -24,5 +24,5 @@ cast:
 
 crew:
   - role: Director
-    person: Jonathon Newsome
+    name: Jonathon Newsome
 ---
