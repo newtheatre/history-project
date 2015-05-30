@@ -1,6 +1,6 @@
 ---
 title: Educating Rita
-playwright: Chelsea Wright
+playwright: Willy Russell
 season: In House
 season_sort: 250
 period: Spring
