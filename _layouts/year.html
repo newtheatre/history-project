@@ -7,8 +7,8 @@ current: archives
   <div class="breadcrumb-inner">
 
     <div class="breadcrumb-controls">
-      <a {% if page.next %}href="{{ page.next.url }}" class="enabled"{% else %}href="#" class="disabled"{% endif %} title="Next Year"><i class="ion-chevron-left"></i></a>
-      <a {% if page.previous %}href="{{ page.previous.url }}" class="enabled"{% else %}href="#" class="disabled"{% endif %} title="Previous Year">
+      <a {% if page.next %}href="{{ page.next.url }}" class="enabled"{% else %}href="/years/" class="disabled"{% endif %} title="Next Year"><i class="ion-chevron-left"></i></a>
+      <a {% if page.previous %}href="{{ page.previous.url }}" class="enabled"{% else %}href="/years/" class="disabled"{% endif %} title="Previous Year">
         <i class="ion-chevron-right"></i>
       </a>
     </div>

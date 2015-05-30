@@ -24,10 +24,10 @@ Vestibulum accumsan placerat malesuada. Nulla at nisl varius ex pretium consequa
 
 ## Buttons
 
-<a class="button">A button</a>
-<a class="button button-search">A button</a>
-<a class="button button-edit">A button</a>
-<a class="button button-delete">A button</a>
-<a class="button button-complete">A button</a>
+<a href="." class="button">A button</a>
+<a href="." class="button button-search">A button</a>
+<a href="." class="button button-edit">A button</a>
+<a href="." class="button button-delete">A button</a>
+<a href="." class="button button-complete">A button</a>
 
 </div>
