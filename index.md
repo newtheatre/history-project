@@ -39,5 +39,3 @@ body_class: header-nobr
   </div>
 
 </div>
-
-{% include fancy/year_graph.html %}
