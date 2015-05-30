@@ -12,6 +12,8 @@
   icon: fa fa-plug
 - role: Lighting Designer
   icon: fa fa-lightbulb-o
+- role: Video Designer
+  icon: ion-videocamera
 - role: Technical Operator
   icon: fa fa-headphones
 - role: Original Score
