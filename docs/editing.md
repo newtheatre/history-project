@@ -17,7 +17,7 @@ Ensure you have a verified email address with GitHub otherwise your changes will
 
 <iframe class="youtube" src="https://www.youtube.com/embed/yC2aBvMgTzg?showinfo=0&color=white&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 
-To use the GitHub website use the <strong><i class="octicon octicon octicon-pencil"></i> Edit This Page</strong> button on the right hand edge of a page to launch the editor.
+To use the GitHub website use the <strong class="tag"><i class="octicon octicon octicon-pencil"></i> Edit This Page</strong> button on the right hand edge of a page to launch the editor.
 
 If you're not a trusted editor you'll be prompted to create a _fork_ and will be led through the process of creating a pull request. Later an editor will check your changes are valid and merge them into the repo.
 
