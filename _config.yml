@@ -115,6 +115,10 @@ prose:
   media: "images"
   metadata:
     _shows:
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
       - name: "title"
         field:
           element: "text"
@@ -178,4 +182,8 @@ prose:
           element: "text"
           label: "End Date"
           help: "Date of last performance in format YYYY-MM-DD"
-
+    _committees:
+      - name: "published"
+        field:
+          element: "hidden"
+          value: true
