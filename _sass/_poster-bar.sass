@@ -1,0 +1,26 @@
+.poster-bar
+  @include grid-row
+  $height: 50px
+  background: #111
+  margin-bottom: $baseline
+  padding-bottom: 0
+
+  max-height: $height
+  overflow: hidden
+
+  font-size: 0
+  white-space: nowrap
+  text-align: center
+
+  a
+    display: inline-block
+    opacity: 0.7
+
+    &:hover
+      opacity: 1
+
+  .show-poster-thumb
+    height: $height
+    padding-right: 0
+
+

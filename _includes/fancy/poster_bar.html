@@ -1,0 +1,5 @@
+<div class="poster-bar">
+{% for poster in site.data.assets_posters_bar %}
+  <a href="{{ poster.show.url }}">{% image show_poster_thumb for_shows/{{ poster.image }} %}</a>
+{% endfor %}
+</div>
