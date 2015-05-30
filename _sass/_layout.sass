@@ -28,6 +28,7 @@ body
 
 .content
   min-height: 500px
+  margin-bottom: $baseline
 
 .lotsa-cols
   // Quick and dirty cleanup for long lists
@@ -51,3 +52,8 @@ body
   @include grid-x-percent(66.666%)
 
 
+.youtube
+  @include block
+  width: 100%
+  @include respond-up(tab-port)
+    height: 420px

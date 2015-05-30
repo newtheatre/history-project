@@ -45,7 +45,7 @@ h1
     font-size: $base-font-size * 2.4
 h2
   @extend .h2-baseline
-  font-size: $base-font-size * 2.2
+  font-size: $base-font-size * 2.4
 h3
   @extend .h3-baseline
   font-size: $base-font-size * 1.8
@@ -66,6 +66,9 @@ h4.h3-baseline
   // If h3 is going to sit across from an h4 we can force double line-height
   // line-height: $baseline * 2
 
+.headerlite
+  font-size: 0.7em
+  font-weight: 100
 
 @mixin normal-text-nobr
   line-height: $baseline
@@ -235,6 +238,11 @@ div.highlight
     color: $color-grey
 
 .unknown
+  display: inline-block
+  background: darken($color-nnt-purple, 20%)
+  padding: 1px 6px
+
+.tag
   display: inline-block
   background: darken($color-nnt-purple, 20%)
   padding: 1px 6px

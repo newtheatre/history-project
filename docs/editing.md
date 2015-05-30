@@ -5,15 +5,21 @@ title: Editing
 sort: 10
 ---
 
-To edit the site you have several options. To make direct edits you must be added to the [repository](http://github.com/newtheatre/history-project) by an [owner](https://github.com/orgs/newtheatre/people) however you can propose edits straight away for an editor to merge in.
+To edit the site you have several options. To make direct edits you must be added as a trusted editor to the [repository](http://github.com/newtheatre/history-project) by an [owner](https://github.com/orgs/newtheatre/people) however you can propose edits straight away for an editor to merge in.
 
 ## Editing Online
 
-You can then either use the GitHub website directly or Prose. Ensure you have a verified email address with GitHub otherwise your changes will not trigger a build.
+You can either use the GitHub website, Prose or using a text editor on your computer. Either way you'll need a free GitHub account, you can [sign up here](https://github.com/join).
+
+Ensure you have a verified email address with GitHub otherwise your changes will not trigger a build.
 
 ### GitHub
 
-To use the GitHub website use the <strong><i class="octicon octicon octicon-pencil"></i> Edit This Page</strong> button to launch the editor. If you don't have write access to the repo you will be prompted to create a fork and will be led through the process of creating a pull request.
+<iframe class="youtube" src="https://www.youtube.com/embed/yC2aBvMgTzg?showinfo=0&color=white&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+
+To use the GitHub website use the <strong><i class="octicon octicon octicon-pencil"></i> Edit This Page</strong> button on the right hand edge of a page to launch the editor.
+
+If you're not a trusted editor you'll be prompted to create a _fork_ and will be led through the process of creating a pull request. Later an editor will check your changes are valid and merge them into the repo.
 
 ### Prose
 
@@ -23,9 +29,9 @@ To use the GitHub website use the <strong><i class="octicon octicon octicon-penc
 
 </div>
 
-To use [Prose](http://prose.io), visit the site and authorise with GitHub. Find the history-project repo to load up the file list. Navigate to the file you're interested in and click 'Edit'.
+[Prose](http://prose.io) is a bit nicer to use when doing a lot of editing. Visit the site and authorise with GitHub. Find the history-project repo to load up the file list. Navigate to the file you're interested in and click 'Edit'.
 
-Meta data can be edited on Prose by using one of the buttons on the far right.
+Meta data can be edited on Prose by using one of the buttons on the far right, a preview should also be available.
 
 ## Editing Locally
 
@@ -33,9 +39,9 @@ Meta data can be edited on Prose by using one of the buttons on the far right.
 
 This is the more complicated option, the benefits are you can use a desktop text editor and run the entire site on your machine to preview changes before they go live. You should have knowledge of Git and the command line to do this.
 
-Dependences of this site are managed with [Bundler](http://bundler.io/), install it if you haven't got it already and just do `bundle install`.
+See [README.md](https://github.com/newtheatre/history-project/blob/master/README.md) for up to date install instructions.
 
-To get Jekyll up and running do `bundle exec jekyll serve --watch`, the site will then be available on <http://localhost:4000>.
+Getting the site running on your machine locally is easy to do on Mac and Linux. It _can_ be done on Windows, but it's tricky. The website [Run Jekyll on Windows](http://jekyll-windows.juthilo.com/) has a full tutorial on how to do this.
 
 ## Syntaxes Used
 
