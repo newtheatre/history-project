@@ -2,7 +2,7 @@
 title: Voice Without Words
 playwright: Tom Toland
 student_written: true
-season: Fringe
+season: UNCUT
 season_sort: 85
 period: Autumn
 venue:

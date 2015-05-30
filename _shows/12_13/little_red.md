@@ -1,7 +1,7 @@
 ---
 title: Little Red
 playwright: Devised by cast and crew
-season: Fringe
+season: UNCUT
 season_sort: 265
 period: Spring
 venue:

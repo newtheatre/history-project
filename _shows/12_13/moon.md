@@ -2,7 +2,7 @@
 title: Moon
 playwright: Dave Porter
 student_written: True
-season: Fringe
+season: UNCUT
 season_sort: 45
 period: Autumn
 venue:

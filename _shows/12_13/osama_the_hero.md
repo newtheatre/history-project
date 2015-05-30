@@ -1,7 +1,7 @@
 ---
 title: Osama the Hero
 playwright: Dennis Kelly
-season: Fringe
+season: UNCUT
 season_sort: 235
 period: Spring
 venue:

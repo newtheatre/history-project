@@ -1,7 +1,7 @@
 ---
 title: "Checkov Double Bill: The Proposal / The Bear"
 playwright: Anton Checkov
-season: Fringe
+season: UNCUT
 season_sort: 55
 period: Autumn
 venue:
