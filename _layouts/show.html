@@ -134,7 +134,7 @@ layout: default
 
   <div class="show-wrap show-row">
     <section class="show-cast">
-      <h3>Cast: {{ show.cast | size }}</h3>
+      <h3>Cast</h3>
       {% if show.cast == null %}
       {% include boxes/show_cast_missing.html %}
       {% endif %}
@@ -142,7 +142,7 @@ layout: default
       {% include person_list.html %}
     </section>
     <section class="show-crew">
-      <h3>Crew: {{ show.crew | size }}</h3>
+      <h3>Crew</h3>
       {% if show.crew == null %}
       {% include boxes/show_crew_missing.html %}
       {% endif %}
