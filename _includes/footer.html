@@ -1,16 +1,23 @@
 <footer class="site-footer">
   <div class="wrapper">
-    <div class="footer-col">
-      <p>{{ site.description }}</p>
+    <div class="footer-contribute">
+      <p>This project relies on help from the alumni community. See <a href="/contributing/">contributing</a> page for more details.</p>
     </div>
-    <div class="footer-col">
-      <h5>Contributing</h5>
-      <p>This project needs your help. If you have stuff, we want stuff. See the <a href="/contributing/">contributing</a> page for more details.</p>
-    </div>
-    <div class="footer-col">
-      <h5>About this site</h5>
-      <p>This site is an initiative of the New Theatre Alumni Network.</p>
-      <p><a href="/about/">About</a> | <a href="/docs/">Docs</a></p>
+    <div class="footer-social">
+      <div class="twitter">
+        <a href="https://twitter.com/{{ site.twitter }}">
+          <i class="ion-social-twitter"></i>
+          @{{ site.twitter }}
+        </a>
+      </div>
+      <div class="email">
+        <a href="mailto:{{ site.email }}">
+          <i class="ion-ios-email"></i>
+          {{ site.email }}
+        </a>
+      </div>
+
+      </div>
     </div>
 
   </div>
