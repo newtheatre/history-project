@@ -79,10 +79,15 @@ image:
     show_poster:
       attr:
         class: show-poster
+        alt: Show poster
       width: 440
     show_asset:
+      attr:
+        alt: Show asset
       width: 190
     show_photo:
+      attr:
+        alt: Show photo
       width: 300
 
 asset_bundler:

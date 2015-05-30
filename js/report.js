@@ -1,9 +1,11 @@
 $(document).ready(function(){
-  $('#report-this-page').click(function(){
+  $('#report-this-page').click(function(e){
+    e.preventDefault();
     $('#report').addClass('report-show')
     $('#report').fadeIn(400)
   });
-  $('[data-report-close]').click(function(){
+  $('[data-report-close]').click(function(e){
+    e.preventDefault();
     $('#report').removeClass('report-show')
     $('#report').fadeOut(400)
   });
