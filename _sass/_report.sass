@@ -97,8 +97,8 @@ $report-color-step: -60%
 
   a
     color: lighten($color-info, 20%)
-    &:hover
-      text-decoration: underline
+    // &:hover
+    //   text-decoration: underline
 
 .report-close
   position: absolute
@@ -112,6 +112,9 @@ $report-color-step: -60%
   font-size: 22px
   border-radius: 0 0 0 4px
   opacity: 0.9
+
+  &:hover
+    background: lighten($color-error, 5%)
 
 .report-text, .report-textarea, .report-submit
   @include block
@@ -141,4 +144,38 @@ $report-color-step: -60%
     border-bottom-color: darken($color-grey-dark, 12%)
     @include text-shadow-effect($color-grey-dark)
 
+.improve
+  @extend .report
 
+.improve-bg
+  @extend .report-bg
+
+.improve-modal
+  @extend .report-modal
+
+.improve-modal-content
+  @extend .report-improve-modal-content !optional
+
+.improve-close
+  @extend .report-close
+
+.improve-actions
+  @include grid-row
+
+.improve-action
+  @include grid-x-percent(50%)
+  text-align: center
+
+  a.button
+    color: $color-text-white
+
+    // Fix for button with half margin-bottom
+    margin-bottom: $baseline / 2
+    &:active
+      margin-bottom: ($baseline / 2) + 1
+
+  p
+    font-size: $base-font-size-compact
+
+.button-improve, a.button-improve
+  @include button($color-success)

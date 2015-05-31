@@ -1,13 +1,32 @@
 $(document).ready(function(){
   $('#report-this-page').click(function(e){
     e.preventDefault();
-    $('#report').addClass('report-show')
-    $('#report').fadeIn(400)
+    $('#report').addClass('report-show');
+    $('#report').fadeIn(400);
   });
   $('[data-report-close]').click(function(e){
     e.preventDefault();
-    $('#report').removeClass('report-show')
-    $('#report').fadeOut(400)
+    $('#report').removeClass('report-show');
+    $('#report').fadeOut(400);
+  });
+
+  $('#improve-this-page').click(function(e){
+    if (localStorage.debug_mode != "yes") {
+      e.preventDefault();
+      $('#improve').addClass('report-show');
+      $('#improve').fadeIn(400);
+    }
+  });
+  $('[data-improve-close]').click(function(e){
+    e.preventDefault();
+    $('#improve').removeClass('report-show');
+    $('#improve').fadeOut(400);
+  });
+  $('[data-report-this-page]').click(function(e){
+    e.preventDefault();
+    $('#improve').removeClass('report-show');
+    $('#report').addClass('report-show');
+    $('#report').fadeIn(400);
   });
 });
 
