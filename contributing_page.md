@@ -31,4 +31,4 @@ We use Git and GitHub to both collaborate on and serve this website.
 
 1. Post a report on our [<i class="octicon octicon-issue-opened"></i> issue tracker](https://github.com/newtheatre/history-project/issues). We use a GitHub issue tracker for both design and content changes to the site.
 
-2. The <strong class="tag"><i class="octicon octicon octicon-pencil"></i> Edit This Page</strong> button appears on pages suitable for direct edits. If you don't have write access to the repo a fork will be created for you. See the [editing docs](/docs/editing/) for more information.
+2. The <strong class="tag"><i class="octicon octicon octicon-pencil"></i> Improve This Page</strong> button appears on pages suitable for direct edits. If you don't have write access to the repo a fork will be created for you. See the [editing docs](/docs/editing/) for more information.
