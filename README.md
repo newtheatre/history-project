@@ -15,6 +15,8 @@ To get the site running locally you will need a working Ruby environment, the bu
 
 `bundle install` to install all the Ruby dependencies the project needs to build.
 
+`npm install` to install all the Node dependencies the project needs to build.
+
 `bundle exec jekyll serve --watch` to build the site and serve it on http://localhost:4000 when done. File changes will trigger a rebuild.
 
 
