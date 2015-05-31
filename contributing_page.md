@@ -25,10 +25,8 @@ Click the <strong class="tag"><i class="octicon octicon-issue-opened"></i> Repor
 
 Please keep in mind all reports are public. You can see [all reports made using this tool here](https://github.com/newtheatre/history-project/issues?q=label%3Areport-tool+).
 
-## Contributing directly
+## Propose improvements <span class="headerlite">- suitable for all changes</span>
 
-We use Git and GitHub to both collaborate on and serve this website.
+The <strong class="tag"><i class="octicon octicon octicon-pencil"></i> Improve This Page</strong> button appears on pages suitable for direct edits. You will be led through creating a _fork_ of the repository, making changes and submitting a _pull request_.
 
-1. Post a report on our [<i class="octicon octicon-issue-opened"></i> issue tracker](https://github.com/newtheatre/history-project/issues). We use a GitHub issue tracker for both design and content changes to the site.
-
-2. The <strong class="tag"><i class="octicon octicon octicon-pencil"></i> Improve This Page</strong> button appears on pages suitable for direct edits. If you don't have write access to the repo a fork will be created for you. See the [editing docs](/docs/editing/) for more information.
+This process is a little bit more involved than the other two, see the [editing docs](/docs/editing/) for more information.
