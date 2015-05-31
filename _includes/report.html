@@ -5,8 +5,9 @@
   </a>
 </div>
 {% unless page.editable == false %}
-<div class="side-tab edit-tab">
-  <a href="https://github.com/newtheatre/history-project/edit/master/{{ page_path }}">
+{% capture edit_link %}https://github.com/newtheatre/history-project/edit/master/{{ page_path }}{% endcapture %}
+<div id="improve-this-page" class="side-tab edit-tab">
+  <a href="{{ edit_link }}">
     <i class="octicon octicon octicon-pencil"></i><p class="report-tab-text">Improve This Page</p>
   </a>
 </div>
@@ -40,6 +41,29 @@
           <button class="report-submit" type="submit" />Submit</button>
         </form>
       </div>
+    </div>
+  </div>
+</div>
+
+<div id="improve" class="improve">
+  <div data-report-close class="improve-bg"></div>
+  <div id="improve-modal" class="improve-modal">
+    <div data-improve-close class="improve-close"><i class="octicon octicon-x"></i></div>
+    <h3><i class="octicon octicon-pencil"></i> Improve this page</h3>
+    <div id="improve-modal-content">
+      <p>Anyone can propose improvements to this page, while quite easy this is a multi-step process and you'll also need a free <a href="https://github.com/join">GitHub account</a>. Alternatively you can file a report for this page and have an editor do the work for you.</p>
+
+      <div class="improve-actions">
+        <div class="improve-action">
+          <a href="{{ edit_link }}" class="button button-improve">Propose improvements</a>
+          <p>Slower, but helps us more.</p>
+        </div>
+        <div class="improve-action">
+          <a data-report-this-page href="#" class="button button-report">File a report instead</a>
+          <p>Quicker, less technically demanding.</p>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
