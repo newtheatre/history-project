@@ -1,5 +1,6 @@
 ---
 published: true
+title: Habeas Corpus
 season: In House
 period: Spring
 playwright: Alan Bennett
@@ -8,7 +9,6 @@ venue:
   - New Theatre
 date_start: 2002-03-06
 date_end: 2002-03-09
-title: Habeus Corpus
 cast:
   - role: Arthur Wicksteed
     name: Joseph Arkley
