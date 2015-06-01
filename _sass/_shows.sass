@@ -46,16 +46,6 @@
 .show-synopsys
   @include block
 
-@mixin set-property-to-gutter($property)
-  @include respond-up(tab-port)
-    #{$property}: $grid-tab-port-gutter
-  @include respond-up(tab-land)
-    #{$property}: $grid-tab-land-gutter
-  @include respond-up(med-desk)
-    #{$property}: $grid-med-desk-gutter
-  @include respond-up(widescreen)
-    #{$property}: $grid-widescreen-gutter
-
 .show-photos-outer, .show-assets-outer
   @include grid-wrap
   margin-bottom: $baseline * 2
