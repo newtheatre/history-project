@@ -8,6 +8,9 @@ echo "Pull Request:" $TRAVIS_PULL_REQUEST
 
 echo $TRAVIS_BUILD_NUMBER > _includes/travis_build_number.txt
 
+if [ $RESET = "true" ]
+  rm -rf _site
+
 # build site with jekyll, by default to `_site' folder
 bundle exec jekyll build
 
