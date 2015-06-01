@@ -9,6 +9,7 @@ echo "Pull Request:" $TRAVIS_PULL_REQUEST
 echo $TRAVIS_BUILD_NUMBER > _includes/travis_build_number.txt
 
 if [ $RESET = "true" ]
+then
   rm -rf _site
   rm -rf _asset_bundler_cache/
 fi

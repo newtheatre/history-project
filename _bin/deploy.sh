@@ -9,7 +9,9 @@ if [ $TRAVIS_PULL_REQUEST = "false" ]
   git clone -b gh-pages https://${GH_TOKEN}@github.com/newtheatre/history-project.git gh-pages
 
   if [ $RESET = "true" ]
+  then
     rm -rf gh-pages/*
+  fi
 
   # copy generated HTML site to built branch
   cp -R _site/* gh-pages
