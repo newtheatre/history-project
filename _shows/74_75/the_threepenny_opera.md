@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Threepenny Opera
 season: In House
 period: Autumn

@@ -1,5 +1,4 @@
 ---
-published: false
 title: Head State
 season: In House
 period: Autumn

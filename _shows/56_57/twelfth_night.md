@@ -1,5 +1,4 @@
 ---
-published: false
 title: Twelfth Night
 season: In House
 period: Autumn

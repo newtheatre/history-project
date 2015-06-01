@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Birthday Party
 season: In House
 period: Spring

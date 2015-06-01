@@ -1,5 +1,4 @@
 ---
-published: false
 title: Arms and The Man
 season: In House
 period: Autumn

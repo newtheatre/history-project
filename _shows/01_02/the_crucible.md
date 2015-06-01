@@ -4,12 +4,12 @@ season: In House
 period: Autumn
 title: The Crucible
 playwright: Arthur Miller
-season_sort: "50"
-venue: 
+season_sort: 50
+venue:
   - New Theatre
 date_start: "2001-11-08"
 date_end: "2001-11-10"
-cast: 
+cast:
   - role: Reverend Parris
     name: Jude Heaton
   - role: Betty Parris
@@ -58,7 +58,7 @@ cast:
     name: Kath Akers
   - role: Hopkins
     name: George Kaye
-crew: 
+crew:
   - role: Director
     name: Michael Longhurst
   - role: Producer

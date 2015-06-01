@@ -9,6 +9,7 @@
 {% assign nsdf = shows | where: "period", "NSDF" %}
 {% assign edinburgh = shows | where: "period", "Edinburgh" %}
 {% assign tour = shows | where: "period", "Tour" %}
+{% assign external = shows | where: "period", "External" %}
 {% assign others = shows | where: "period", null %}
 
 {% if autumn.size > 0 %}
@@ -41,9 +42,21 @@
 {% include show_list.html %}
 {% endif %}
 
+{% if tour.size > 0 %}
+{% assign shows = tour %}
+<h3>Tour</h3>
+{% include show_list.html %}
+{% endif %}
+
+{% if external.size > 0 %}
+{% assign shows = external %}
+<h3>External</h3>
+{% include show_list.html %}
+{% endif %}
+
 {% if others.size > 0 %}
 {% assign shows = others %}
-<h3>Other</h3>
+<h3>Unknown</h3>
 
 <div class="box-debug" data-debug-toggle>
   <i class="fa fa-exclamation-triangle"></i>

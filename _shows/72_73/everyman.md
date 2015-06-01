@@ -1,5 +1,4 @@
 ---
-published: false
 title: Everyman
 season: In House
 period: Autumn

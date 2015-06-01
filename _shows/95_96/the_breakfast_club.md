@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Breakfast Club
 season: In House
 period: Spring

@@ -1,5 +1,4 @@
 ---
-published: false
 title: Confusions
 season: In House
 period: Autumn

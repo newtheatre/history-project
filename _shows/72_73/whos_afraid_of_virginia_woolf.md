@@ -1,5 +1,4 @@
 ---
-published: false
 title: "Who's afraid of Virginia Woolf"
 season: In House
 period: Spring

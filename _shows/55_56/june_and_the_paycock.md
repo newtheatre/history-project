@@ -1,5 +1,4 @@
 ---
-published: false
 title: June and the Paycock
 season: In House
 period: Autumn

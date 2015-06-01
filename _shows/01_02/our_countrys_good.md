@@ -4,12 +4,12 @@ season: In House
 period: Autumn
 title: "Our Country's Good"
 playwright: Timberlake Wertenbaker
-season_sort: "70"
-venue: 
+season_sort: 70
+venue:
   - New Theatre
 date_start: "2001-11-21"
 date_end: "2001-11-24"
-cast: 
+cast:
   - role: Captain Arthur Phillips
     name: Philip Hamann
   - role: Major Robbie Ross
@@ -54,7 +54,7 @@ cast:
     name: Marni Miller Becker
   - role: Aborigine
     name: "Rhoda Ofori-Attah"
-crew: 
+crew:
   - role: Director
     name: Hannah Bragg
   - role: Producer
@@ -72,6 +72,6 @@ crew:
 
 
 
-In 1788 the English sent the first six convict ships to Australia. After eight months at sea, they finally arrived at Botany Bay. Ralph Clark, an ambitious young officer decides to put on a play with the convicts to impress the governor in chief. With a leading lady about to be hanged, only two copies of the play, and half the British Army against him, this is no easy task. 
+In 1788 the English sent the first six convict ships to Australia. After eight months at sea, they finally arrived at Botany Bay. Ralph Clark, an ambitious young officer decides to put on a play with the convicts to impress the governor in chief. With a leading lady about to be hanged, only two copies of the play, and half the British Army against him, this is no easy task.
 
 The play follows this infant civilisation through a series of amusing, satirical, poignant and disturbing events. It is a moving and affirmative tribute to the transforming power of drama.

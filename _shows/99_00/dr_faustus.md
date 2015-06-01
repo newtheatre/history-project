@@ -1,5 +1,4 @@
 ---
-published: false
 title: Dr Faustus
 season: In House
 period: Spring

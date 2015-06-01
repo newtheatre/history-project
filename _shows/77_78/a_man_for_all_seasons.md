@@ -1,5 +1,4 @@
 ---
-published: false
 title: A man for all seasons
 season: In House
 period: Autumn

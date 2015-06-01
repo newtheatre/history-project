@@ -1,5 +1,4 @@
 ---
-published: false
 title: The wit to woo
 season: Edinburgh
 period: Edinburgh

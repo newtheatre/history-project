@@ -1,5 +1,4 @@
 ---
-published: false
 title: "'Tis pity she's a whore"
 season: In House
 period: Autumn

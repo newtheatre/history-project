@@ -1,5 +1,4 @@
 ---
-published: false
 title: "Shopping and F***ing"
 season: In House
 period: Spring

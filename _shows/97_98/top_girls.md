@@ -1,5 +1,4 @@
 ---
-published: false
 title: Top Girls
 season: In House
 period: Spring

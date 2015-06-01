@@ -1,5 +1,4 @@
 ---
-published: false
 title: Festival of one act plays
 season: In House
 period: Spring

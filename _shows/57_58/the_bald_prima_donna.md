@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Bald Prima Donna
 season: In House
 period: Autumn

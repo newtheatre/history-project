@@ -1,12 +1,11 @@
 ---
-published: false
 title: "A doll's house"
 season: In House
 period: Autumn
 playwright: Henrik Ibsen
-venue: 
+venue:
   - New Theatre
-season_sort: "50"
+season_sort: 50
 ---
 
 

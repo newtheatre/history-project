@@ -1,5 +1,4 @@
 ---
-published: false
 title: Ruffian on the stair
 season: In House
 period: Spring

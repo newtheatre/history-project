@@ -1,5 +1,4 @@
 ---
-published: false
 title: The importance of being earnest
 season: In House
 period: Autumn

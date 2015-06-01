@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Bear
 season: In House
 period: Autumn

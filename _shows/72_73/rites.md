@@ -1,5 +1,4 @@
 ---
-published: false
 title: Rites
 season: In House
 period: Spring

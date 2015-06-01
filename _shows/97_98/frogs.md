@@ -1,5 +1,4 @@
 ---
-published: false
 title: Frogs
 season: In House
 period: Autumn

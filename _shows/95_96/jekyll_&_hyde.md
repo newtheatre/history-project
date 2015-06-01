@@ -1,5 +1,4 @@
 ---
-published: false
 title: "Jekyll & Hyde"
 season: In House
 period: Spring

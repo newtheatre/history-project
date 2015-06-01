@@ -1,5 +1,4 @@
 ---
-published: false
 title: The trial
 season: In House
 period: Autumn

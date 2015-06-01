@@ -1,5 +1,4 @@
 ---
-published: false
 title: Chasing Dolphins
 season: In House
 period: Spring

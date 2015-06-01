@@ -1,5 +1,4 @@
 ---
-published: false
 title: Summer Nights
 season: In House
 period: Spring

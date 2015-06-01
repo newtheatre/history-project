@@ -1,5 +1,4 @@
 ---
-published: false
 title: Loose Knots
 season: In House
 period: Autumn

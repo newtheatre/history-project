@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Real Inspector Hound
 season: In House
 period: Autumn

@@ -1,5 +1,4 @@
 ---
-published: false
 title: Tom Jones
 season: In House
 period: Spring

@@ -1,5 +1,4 @@
 ---
-published: false
 title: Latin
 season: In House
 period: Spring

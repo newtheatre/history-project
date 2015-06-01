@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Imaginary Invalid
 season: In House
 period: Spring

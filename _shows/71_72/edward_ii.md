@@ -1,5 +1,4 @@
 ---
-published: false
 title: Edward II
 season: In House
 period: Autumn

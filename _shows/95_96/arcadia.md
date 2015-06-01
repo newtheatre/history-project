@@ -1,5 +1,4 @@
 ---
-published: false
 title: Arcadia
 season: In House
 period: Spring

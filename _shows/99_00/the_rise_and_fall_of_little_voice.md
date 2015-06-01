@@ -1,5 +1,4 @@
 ---
-published: false
 title: "The rise & fall of little voice"
 season: In House
 period: Autumn

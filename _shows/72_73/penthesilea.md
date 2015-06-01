@@ -1,5 +1,4 @@
 ---
-published: false
 title: Penthesilea
 season: In House
 period: Autumn

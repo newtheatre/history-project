@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Country Wife
 season: In House
 period: Autumn

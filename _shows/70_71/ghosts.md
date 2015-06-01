@@ -1,5 +1,4 @@
 ---
-published: false
 title: Ghosts
 season: In House
 period: Autumn

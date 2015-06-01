@@ -1,5 +1,4 @@
 ---
-published: false
 title: A scent of flowers
 season: In House
 period: Autumn

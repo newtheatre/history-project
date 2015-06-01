@@ -1,5 +1,4 @@
 ---
-published: false
 title: Beneath the Daschund
 season: Edinburgh
 period: Edinburgh

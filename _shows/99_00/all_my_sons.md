@@ -1,5 +1,4 @@
 ---
-published: false
 title: All my sons
 season: In House
 period: Spring
