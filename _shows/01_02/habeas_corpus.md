@@ -6,8 +6,8 @@ playwright: Alan Bennett
 season_sort: 230
 venue:
   - New Theatre
-date_start: "2002-03-06"
-date_end: "2002-03-09"
+date_start: 2002-03-06
+date_end: 2002-03-09
 title: Habeus Corpus
 cast:
   - role: Arthur Wicksteed

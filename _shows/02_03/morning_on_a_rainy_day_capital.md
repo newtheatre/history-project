@@ -4,8 +4,8 @@ season: In House
 period: Autumn
 title: "'Morning on a Rainy day' and 'Capital'"
 playwright: Vanessa Bradham
-date_start: "2002-11-20"
-date_end: "2002-11-24"
+date_start: 2002-11-20
+date_end: 2002-11-24
 cast:
   - role: Pol
     name: Natalie Ghatan

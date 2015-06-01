@@ -6,8 +6,8 @@ playwright: Alan Ayckbourn
 season_sort: 260
 venue:
   - New Theatre
-date_start: "2002-04-24"
-date_end: "2002-04-27"
+date_start: 2002-04-24
+date_end: 2002-04-27
 title: Time of my life
 cast:
   - role: Gerry Stratton

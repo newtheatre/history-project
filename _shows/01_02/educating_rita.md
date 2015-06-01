@@ -6,8 +6,8 @@ playwright: Willy Russell
 season_sort: 250
 venue:
   - New Theatre
-date_start: "2002-03-19"
-date_end: "2002-03-22"
+date_start: 2002-03-19
+date_end: 2002-03-22
 cast:
   - role: Rita
     name: Martina Heron
