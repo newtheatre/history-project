@@ -10,6 +10,8 @@ echo $TRAVIS_BUILD_NUMBER > _includes/travis_build_number.txt
 
 if [ $RESET = "true" ]
   rm -rf _site
+  rm -rf _asset_bundler_cache/
+fi
 
 # build site with jekyll, by default to `_site' folder
 bundle exec jekyll build
