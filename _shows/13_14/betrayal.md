@@ -6,8 +6,8 @@ season_sort: 210
 period: Spring
 venue:
   - New Theatre
-date_start: 5-3-2014
-date_end: 8-3-2014
+date_start: 2014-03-05
+date_end: 2014-03-08
 
 cast:
   - role: Emma
