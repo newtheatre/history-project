@@ -1,5 +1,4 @@
 ---
-published: false
 title: Stars in their eyes
 season: In House
 period: Spring

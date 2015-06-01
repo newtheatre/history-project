@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Golden Pathway Annual
 season: In House
 period: Spring

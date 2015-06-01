@@ -1,5 +1,4 @@
 ---
-published: false
 title: The end of the beginning
 season: In House
 period: Autumn

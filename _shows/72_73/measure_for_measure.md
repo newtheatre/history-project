@@ -1,5 +1,4 @@
 ---
-published: false
 title: Measure for Measure
 season: In House
 period: Autumn

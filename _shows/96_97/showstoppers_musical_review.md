@@ -1,5 +1,4 @@
 ---
-published: false
 title: Showstoppers Musical Review
 season: In House
 period: Spring

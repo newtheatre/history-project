@@ -1,5 +1,4 @@
 ---
-published: false
 title: Hecabe
 season: In House
 period: Autumn

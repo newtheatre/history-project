@@ -1,5 +1,4 @@
 ---
-published: false
 title: Death of a salesman
 season: In House
 period: Autumn

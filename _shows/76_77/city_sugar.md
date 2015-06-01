@@ -1,5 +1,4 @@
 ---
-published: false
 title: City Sugar
 season: In House
 period: Autumn

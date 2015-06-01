@@ -1,5 +1,4 @@
 ---
-published: false
 title: Richard III
 season: In House
 period: Spring

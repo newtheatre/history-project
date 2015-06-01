@@ -1,5 +1,4 @@
 ---
-published: false
 title: Twice Nightly
 season: In House
 period: Spring

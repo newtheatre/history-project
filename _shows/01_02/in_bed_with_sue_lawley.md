@@ -4,10 +4,10 @@ season: In House
 period: Autumn
 title: In bed with Sue Lawley
 playwright: Will Openshaw
-season_sort: "30"
-venue: 
+season_sort: 30
+venue:
   - New Theatre
-cast: 
+cast:
   - role: Martin Grant (An Actor)
     name: Stuart Barter
   - role: Kate Grant (his wife)
@@ -34,7 +34,7 @@ cast:
     name: Anna E.Lipinkski
   - role: Sue Lawley (A radio 4 institution)
     name: Felicity Plester
-crew: 
+crew:
   - role: Director
     name: Will Openshaw
   - role: Producer

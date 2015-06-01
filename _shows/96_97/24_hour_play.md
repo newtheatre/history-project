@@ -1,5 +1,4 @@
 ---
-published: false
 title: 24 Hour Play
 season: In House
 period: Autumn

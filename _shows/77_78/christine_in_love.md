@@ -1,5 +1,4 @@
 ---
-published: false
 title: Christine in love
 season: In House
 period: Autumn

@@ -1,5 +1,4 @@
 ---
-published: false
 title: Twice Nightly
 season: Edinburgh
 period: Edinburgh

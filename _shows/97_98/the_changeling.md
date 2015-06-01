@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Changeling
 season: In House
 period: Autumn

@@ -3,12 +3,12 @@ published: true
 season: In House
 period: Autumn
 playwright: Harold Pinter
-season_sort: "60"
-venue: 
+season_sort: 60
+venue:
   - New Theatre
 date_start: "2001-11-14"
 date_end: "2001-11-17"
-cast: 
+cast:
   - role: Max
     name: Ben Richards
   - role: Lenny
@@ -21,7 +21,7 @@ cast:
     name: Chris Bye
   - role: Joey
     name: George Perrett
-crew: 
+crew:
   - role: Director
     name: Katie Hartwill
   - role: Assistant Director

@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Trial
 season: In House
 period: Spring

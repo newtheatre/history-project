@@ -1,5 +1,4 @@
 ---
-published: false
 title: Out for a duck
 season: In House
 period: Spring

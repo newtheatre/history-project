@@ -1,5 +1,4 @@
 ---
-published: false
 title: Blood Wedding
 season: In House
 period: Autumn

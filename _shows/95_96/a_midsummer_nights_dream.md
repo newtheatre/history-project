@@ -1,5 +1,4 @@
 ---
-published: false
 title: "A midsummer night's dream"
 season: In House
 period: Spring

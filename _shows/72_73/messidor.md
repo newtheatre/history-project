@@ -1,5 +1,4 @@
 ---
-published: false
 title: Messidor
 season: In House
 period: Autumn

@@ -1,5 +1,4 @@
 ---
-published: false
 title: Little shop of horrors
 season: In House
 period: Autumn

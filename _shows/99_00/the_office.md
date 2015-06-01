@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Office
 season: In House
 period: Spring

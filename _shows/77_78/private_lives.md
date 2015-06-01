@@ -1,5 +1,4 @@
 ---
-published: false
 title: Private Lives
 season: In House
 period: Autumn

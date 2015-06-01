@@ -1,5 +1,4 @@
 ---
-published: false
 title: City of angels
 season: In House
 period: Autumn

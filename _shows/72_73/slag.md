@@ -1,5 +1,4 @@
 ---
-published: false
 title: Slag
 season: In House
 period: Spring

@@ -1,5 +1,4 @@
 ---
-published: false
 title: Lenton Boulevard
 season: In House
 period: Autumn

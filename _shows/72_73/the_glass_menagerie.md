@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Glass Menagerie
 season: In House
 period: Spring

@@ -1,5 +1,4 @@
 ---
-published: false
 title: Black Comedy
 season: In House
 period: Autumn

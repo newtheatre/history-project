@@ -1,5 +1,4 @@
 ---
-published: false
 title: An ideal husband
 season: In House
 period: Spring

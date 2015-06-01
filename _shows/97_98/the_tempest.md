@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Tempest
 season: In House
 period: Spring

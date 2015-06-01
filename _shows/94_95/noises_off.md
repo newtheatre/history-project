@@ -1,5 +1,4 @@
 ---
-published: false
 title: Noises Off
 season: In House
 period: Autumn

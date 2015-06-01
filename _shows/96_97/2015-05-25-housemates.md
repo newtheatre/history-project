@@ -1,5 +1,4 @@
 ---
-published: false
 title: Housemates
 season: In House
 period: Spring

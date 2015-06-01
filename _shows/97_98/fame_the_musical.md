@@ -1,5 +1,4 @@
 ---
-published: false
 title: Fame the musical
 season: In House
 period: Autumn

@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Cocktail Party
 season: In House
 period: Autumn

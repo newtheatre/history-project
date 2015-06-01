@@ -1,5 +1,4 @@
 ---
-published: false
 title: Limelight musical review
 season: In House
 period: Spring

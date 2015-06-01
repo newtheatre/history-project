@@ -1,5 +1,4 @@
 ---
-published: false
 season: In House
 period: Spring
 title: "Who claimed Roger's Habit"

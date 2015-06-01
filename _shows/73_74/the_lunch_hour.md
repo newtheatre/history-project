@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Lunch Hour
 season: In House
 period: Autumn

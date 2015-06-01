@@ -1,5 +1,4 @@
 ---
-published: false
 title: Bouncers
 season: In House
 period: Autumn

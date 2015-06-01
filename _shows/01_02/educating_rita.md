@@ -3,17 +3,17 @@ published: true
 season: In House
 period: Spring
 playwright: Willy Russell
-season_sort: "250"
-venue: 
+season_sort: 250
+venue:
   - New Theatre
 date_start: "2002-03-19"
 date_end: "2002-03-22"
-cast: 
+cast:
   - role: Rita
     name: Martina Heron
   - role: Frank
     name: Andrew Grant
-crew: 
+crew:
   - role: Director
     name: Alex Gilham
   - role: Producer

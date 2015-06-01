@@ -1,5 +1,4 @@
 ---
-published: false
 title: A slice of Saturday night musical
 season: In House
 period: Spring

@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Fire Raisers
 season: In House
 period: Spring

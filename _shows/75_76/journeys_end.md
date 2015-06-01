@@ -1,5 +1,4 @@
 ---
-published: false
 title: "Journey's End"
 season: In House
 period: Autumn

@@ -1,5 +1,4 @@
 ---
-published: false
 season: In House
 period: Autumn
 title: Accidental death of an anarchist

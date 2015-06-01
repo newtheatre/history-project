@@ -1,5 +1,4 @@
 ---
-published: false
 title: "The Winter's Tale"
 season: In House
 period: Autumn

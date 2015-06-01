@@ -1,5 +1,4 @@
 ---
-published: false
 title: Absent Friends
 season: In House
 period: Spring

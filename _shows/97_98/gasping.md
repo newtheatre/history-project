@@ -1,5 +1,4 @@
 ---
-published: false
 title: Gasping
 season: In House
 period: Spring

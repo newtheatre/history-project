@@ -1,5 +1,4 @@
 ---
-published: false
 title: The Titanics Revue (Sketch Show)
 season: In House
 period: Spring

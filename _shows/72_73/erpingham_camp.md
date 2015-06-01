@@ -1,5 +1,4 @@
 ---
-published: false
 title: Erpingham Camp
 season: In House
 period: Spring

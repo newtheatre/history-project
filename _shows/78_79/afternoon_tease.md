@@ -1,5 +1,4 @@
 ---
-published: false
 title: Afternoon Tease
 season: Edinburgh
 period: Edinburgh

@@ -1,5 +1,4 @@
 ---
-published: false
 title: Tests
 season: Edinburgh
 period: Edinburgh

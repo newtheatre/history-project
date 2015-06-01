@@ -1,50 +1,53 @@
 ---
-published: false
+title: Bedroom Farce
+playwright: Alan Ayckbourn
 season: In House
-period: Autumn
+season_sort: 1
+period: Spring
+venue:
+  - New Theatre
+date_start: 2003-04-30
+date_end: 2003-05-03
+
+cast:
+- role: Trevor
+  name: Phil Hammond
+- role: Susannah
+  name: Abi Styles
+- role: Ernest
+  name: Adam Hirschowitz
+- role: Delia
+  name: Polly Faber
+- role: Malcolm
+  name: Greg Aldam
+- role: Kate
+  name: Naomi Atkins
+- role: Nick
+  name: Nick Salmon
+- role: Jan
+  name: Samantha Pysk
+
+crew:
+- role: Director
+  name: Kurban Kassam
+- role: Producer / Assistant Director
+  name: Alex Jenkinson
+- role: Set Design / Construction
+  name: Aidan McClure
+- role: Lighting and Sound
+  name: Rob Durford
+- role: Publicity
+  name: Loic Tallan
+- role: Stage Manager
+  name: Rosie Collis
+- role: Stage Manager
+  name: Mary Jane Sturt
+- role: Assistant Set Construction
+  name: Tansy Drake
+- role: Chief Wallpaperer
+  name: Mike Dawe
+
+published: true
 ---
 
-====== Bedroom Farce ======
-
-===== Key Info =====
-
-^Dates        | 30th April - 3rd May 2003 |
-^Venue        | New Theatre |
-^Director     | Kurban Kassam |
-^Producer     | Alex Jenkinson |
-^Playwright   | Alan Ayckbourn |
-
-===== Synopsis =====
-
 4 couples, 3 bedrooms, 1 party, 1 night...a recipe for disaster.....
-
-===== Publicity =====
-
-|{{ :?direct&200 |}}|
-
-
-===== Cast =====
-
-^**Character**            |**Member's Name** |
-^ Trevor                  | Phil Hammond |
-^ Susannah                | Abi Styles |
-^ Ernest                  | Adam Hirschowitz | 
-^ Delia                   | Polly Faber |
-^ Malcolm                 | Greg Aldam |
-^ Kate                    | Naomi Atkins |
-^ Nick                    | Nick Salmon |
-^ Jan                     | Samantha Pysk |
-
-
-===== Crew =====
-
-^**Role**                  |**Member's Name** |
-^ Director                      | Kurban Kassam |
-^ Producer / Assistant Director | Alex Jenkinson |
-^ Set Design / Construction     | Aidan McClure |
-^ Lighting and Sound            | Rob Durford |
-^ Publicity                     | Loic Tallan | 
-^ Stage Management              | Rosie Collis |
-^ :::                           | Mary Jane Sturt |
-^ Assistant Set Construction    | Tansy Drake |
-^ Chief Wallpaperer             | Mike Dawe |
