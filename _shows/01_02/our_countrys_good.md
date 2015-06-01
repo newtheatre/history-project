@@ -7,8 +7,8 @@ playwright: Timberlake Wertenbaker
 season_sort: 70
 venue:
   - New Theatre
-date_start: "2001-11-21"
-date_end: "2001-11-24"
+date_start: 2001-11-21
+date_end: 2001-11-24
 cast:
   - role: Captain Arthur Phillips
     name: Philip Hamann

@@ -6,8 +6,8 @@ playwright: Ben Richards
 season_sort: 270
 venue:
   - New Theatre
-date_start: "2002-05-01"
-date_end: "2002-05-04"
+date_start: 2002-05-01
+date_end: 2002-05-04
 title: Let my people go
 cast:
   - role: Pat Brown

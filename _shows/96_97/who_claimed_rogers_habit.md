@@ -6,8 +6,8 @@ playwright: "Stuart Scott, Ben Heusner and David Todd"
 season_sort: 280
 venue:
   - New Theatre
-date_start: "1997-03-17"
-date_end: "1997-03-19"
+date_start: 1997-03-17
+date_end: 1997-03-19
 cast:
   - role: Gerald the Groom
     name: Anthony Cooke

@@ -6,8 +6,8 @@ playwright: Harold Pinter
 season_sort: 60
 venue:
   - New Theatre
-date_start: "2001-11-14"
-date_end: "2001-11-17"
+date_start: 2001-11-14
+date_end: 2001-11-17
 cast:
   - role: Max
     name: Ben Richards
