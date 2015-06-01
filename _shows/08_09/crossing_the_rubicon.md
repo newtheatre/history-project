@@ -3,7 +3,7 @@ title: Crossing the Rubicon
 playwright: Cal Lewis
 student_written: true
 season: In House
-season_sort: 100
+season_sort: 200
 period: Spring
 venue:
   - New Theatre

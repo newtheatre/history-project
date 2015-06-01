@@ -2,8 +2,8 @@
 title: Talking to Terrorists
 playwright: Robin Soans
 season: In House
-season_sort: 1
-period: Autumn
+season_sort: 230
+period: Spring
 venue:
   - New Theatre
 date_start: 2007-02-21

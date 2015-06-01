@@ -10,6 +10,7 @@
 {% assign edinburgh = shows | where: "period", "Edinburgh" %}
 {% assign tour = shows | where: "period", "Tour" %}
 {% assign external = shows | where: "period", "External" %}
+{% assign lakeside = shows | where: "period", "Lakeside" %}
 {% assign others = shows | where: "period", null %}
 
 {% if autumn.size > 0 %}
@@ -45,6 +46,12 @@
 {% if tour.size > 0 %}
 {% assign shows = tour %}
 <h3>Tour</h3>
+{% include show_list.html %}
+{% endif %}
+
+{% if lakeside.size > 0 %}
+{% assign shows = lakeside %}
+<h3>Lakeside</h3>
 {% include show_list.html %}
 {% endif %}
 
