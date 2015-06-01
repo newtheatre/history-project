@@ -39,8 +39,10 @@ layout: default
   {% endif %}
 
   {% if show.date_start == null %}
-  <div class="show-wrap">
-    {% include boxes/show_basic_details_missing.html %}
+  <div class="show-wrap show-row">
+    <div class="col-full">
+      {% include boxes/show_basic_details_missing.html %}
+    </div>
   </div>
   {% endif %}
 
@@ -109,8 +111,10 @@ layout: default
   </div>
 
   {% if show.photos == null %}
-  <div class="grid-wrap">
-    {% include boxes/show_photos_missing.html %}
+  <div class="show-wrap show-row">
+    <div class="col-full">
+      {% include boxes/show_photos_missing.html %}
+    </div>
   </div>
   {% else %}
   <div class="show-photos-outer">
