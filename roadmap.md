@@ -24,5 +24,6 @@ Our current timeline:
 <h3 class="h1-baseline"><i class="octicon octicon-issue-opened"></i> Open Issues</h3>
 
 <div id="github-issues-widget"></div>
+<script type="text/javascript" src="/lib/github-issues-widget/github-issues-widget.js"></script>
 
 </div>
