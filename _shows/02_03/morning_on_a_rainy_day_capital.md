@@ -48,13 +48,13 @@ venue:
   - New Theatre
 season_sort: 40
 assets: 
-  - type: flyer
+  - type: programme
     image: morning_on_a_rainy_day_programme_1.JPG
     page: 1
-  - type: flyer
+  - type: programme
     image: morning_on_a_rainy_day_programme_2.JPG
     page: 2
-  - type: flyer
+  - type: programme
     image: morning_on_a_rainy_day_programme_3.JPG
     page: 3
 ---
