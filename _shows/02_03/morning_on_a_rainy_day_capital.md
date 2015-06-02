@@ -4,12 +4,9 @@ season: In House
 period: Autumn
 title: "'Morning on a Rainy day' and 'Capital'"
 playwright: Vanessa Bradham
-date_start: 
-  - 2002-11-20T00:00:00.000Z
-  - "Wed Nov 20 2002 00:00:00 GMT+0000 (GMT Standard Time)"
-date_end: 
-  - 2002-11-24T00:00:00.000Z
-  - "Sun Nov 24 2002 00:00:00 GMT+0000 (GMT Standard Time)"
+date_start: 2002-11-20
+date_end: 2002-11-24
+
 cast: 
   - role: Pol
     name: Natalie Ghatan
@@ -49,17 +46,14 @@ crew:
     name: Loic Tallon
 venue: 
   - New Theatre
-season_sort: 
-  - 40
-  - "40"
+season_sort: 40
 assets: 
-  - type: poster
-    image: pillowman_poster.jpg
   - type: flyer
-    image: pillowman_flyer_2.jpg
-  - type: programme
-    filename: the_pillowman_programme.pdf
-    title: Programme
+    image: morning_on_a_rainy_day_flyer_1.jpg
+  - type: flyer
+    image: morning_on_a_rainy_day_flyer_2.jpg
+  - type: flyer
+    image: morning_on_a_rainy_day_flyer_3.jpg
 ---
 
 
