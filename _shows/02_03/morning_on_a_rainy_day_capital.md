@@ -49,11 +49,14 @@ venue:
 season_sort: 40
 assets: 
   - type: flyer
-    image: morning_on_a_rainy_day_flyer_1.jpg
+    image: morning_on_a_rainy_day_programme_1.jpg
+    page: 1
   - type: flyer
-    image: morning_on_a_rainy_day_flyer_2.jpg
+    image: morning_on_a_rainy_day_programme_2.jpg
+    page: 2
   - type: flyer
-    image: morning_on_a_rainy_day_flyer_3.jpg
+    image: morning_on_a_rainy_day_programme_3.jpg
+    page: 3
 ---
 
 
