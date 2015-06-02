@@ -4,9 +4,13 @@ season: In House
 period: Autumn
 title: "'Morning on a Rainy day' and 'Capital'"
 playwright: Vanessa Bradham
-date_start: 2002-11-20
-date_end: 2002-11-24
-cast:
+date_start: 
+  - 2002-11-20T00:00:00.000Z
+  - "Wed Nov 20 2002 00:00:00 GMT+0000 (GMT Standard Time)"
+date_end: 
+  - 2002-11-24T00:00:00.000Z
+  - "Sun Nov 24 2002 00:00:00 GMT+0000 (GMT Standard Time)"
+cast: 
   - role: Pol
     name: Natalie Ghatan
     note: Morning on a rainy day
@@ -19,7 +23,7 @@ cast:
   - role: Bob
     name: Nick Salmon
     note: Capital
-crew:
+crew: 
   - role: Director
     name: Bush
   - role: "Co-Director"
@@ -43,9 +47,20 @@ crew:
     name: Izzy Trednick
   - role: Publicity Designer
     name: Loic Tallon
-venue:
+venue: 
   - New Theatre
-season_sort: 40
+season_sort: 
+  - 40
+  - "40"
+assets: 
+  - type: poster
+    image: pillowman_poster.jpg
+  - type: flyer
+    image: pillowman_flyer_2.jpg
+  - type: programme
+    filename: the_pillowman_programme.pdf
+    title: Programme
 ---
+
 
 It is our intention in offering "Morning on a rainy day" and "Capital" to generate thought and discussion, and not merely to court controversy. We are genuinely concerned with the theme of the circularity of human behaviour that all too often prevents us from taking a step beyond ourselves in order to fully comprehend our own misgivings and errors of judgement. Where "Morning" aims to concentrate this issue on the personal level, "Capital" seeks to extend the line of thought to a global scale.
