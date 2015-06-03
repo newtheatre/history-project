@@ -32,6 +32,8 @@ crew:
     name: Tom Selves
   - role: Lighting Designer
     name: Will Pimblett
+  - role: Technical Operator
+    name: Joanne Blunt
 
 assets:
   - type: poster
