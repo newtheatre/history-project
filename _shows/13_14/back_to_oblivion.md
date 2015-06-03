@@ -13,7 +13,7 @@ cast:
   - role: Andy
     name: Omid Faramarzi
   - role: Gary
-    name: Gary Berenzin
+    name: Gary Berezin
   - role: Debbie
     name: Amelia Gann
 
