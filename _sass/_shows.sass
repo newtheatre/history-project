@@ -41,6 +41,10 @@
   img
     width: 100%
 
+  @include respond-down($grid-column-end)
+    // Hide on single col
+    display: none
+
 .show-synopsys
   @include block
 
