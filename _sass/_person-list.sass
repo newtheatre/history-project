@@ -8,11 +8,19 @@
     position: relative
     i
       position: absolute
-      top: $base-font-size * 0.1
+      top: 1px
       right: 0
       color: $color-grey
       font-size: $base-font-size * 2.3
       opacity: 0.7
+
+      // Fixed width icons, #102
+      width: 1.2em
+      text-align: center
+
+      // Fix weird alignment
+      &.ion-paintbucket
+        top: -5px
 
   .person-role
     font-weight: 100
