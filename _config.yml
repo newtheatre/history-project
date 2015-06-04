@@ -19,6 +19,8 @@ permalink: pretty
 
 gems:
 - jekyll-sitemap
+- jekyll-coffeescript
+- jekyll-jsminify
 
 exclude: [vendor, node_modules]
 
@@ -98,19 +100,16 @@ image:
 sass:
   style: :compressed
 
-asset_bundler:
-  compress:
-    js: node_modules/uglifyjs/bin/uglifyjs :infile -o :outfile -c
-    css: false
-  base_path: /bundles/
-  server_url:
-  remove_bundled: false
-  dev: false
-  bundle_name: false
-  markup_templates:
-    js: "<script type='text/javascript' src='{{url}}'></script>\n"
-    css: "<link rel='stylesheet' type='text/css' href='{{url}}' />\n"
-
+lib:
+  js:
+    - lib/jquery/dist/jquery.js
+    - lib/underscore/underscore.js
+    - lib/fancybox/lib/jquery.mousewheel-3.0.6.pack.js
+    - lib/fancybox/source/jquery.fancybox.pack.js
+    - lib/fancybox/source/helpers/jquery.fancybox-buttons.js
+    - lib/fancybox/source/helpers/jquery.fancybox-media.js
+    - lib/fancybox/source/helpers/jquery.fancybox-thumbs.js
+    - lib/mousetrap/mousetrap.min.js
 
 # Config for the prose editor
 prose:
