@@ -1,5 +1,5 @@
 ---
-title: "The rise & fall of little voice"
+title: "The Rise & Fall of Little Voice"
 season: In House
 period: Autumn
 playwright: Jim Cartwright

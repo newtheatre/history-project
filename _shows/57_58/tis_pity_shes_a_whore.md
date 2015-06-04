@@ -1,5 +1,5 @@
 ---
-title: "'Tis pity she's a whore"
+title: "'Tis Pity She's A Whore"
 season: In House
 period: Autumn
 playwright: John Ford

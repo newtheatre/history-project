@@ -1,5 +1,5 @@
 ---
-title: Festival of one act plays
+title: Festival of One Act Plays
 season: In House
 period: Spring
 season_sort: 190

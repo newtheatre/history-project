@@ -1,5 +1,5 @@
 ---
-title: Stars in their eyes
+title: Stars in Their Eyes
 season: In House
 period: Spring
 season_sort: 240

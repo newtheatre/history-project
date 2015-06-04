@@ -1,5 +1,5 @@
 ---
-title: Ruffian on the stair
+title: Ruffian on the Stair
 season: In House
 period: Spring
 playwright: Joe Orton

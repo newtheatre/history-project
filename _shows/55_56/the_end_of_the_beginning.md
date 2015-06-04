@@ -1,5 +1,5 @@
 ---
-title: The end of the beginning
+title: The End of the Beginning
 season: In House
 period: Autumn
 playwright: "Sean O'Casey"

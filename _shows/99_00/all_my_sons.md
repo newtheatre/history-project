@@ -1,5 +1,5 @@
 ---
-title: All my sons
+title: All My Sons
 season: In House
 period: Spring
 playwright: Arthur Miller

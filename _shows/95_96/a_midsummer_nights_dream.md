@@ -1,5 +1,5 @@
 ---
-title: "A midsummer night's dream"
+title: "A Midsummer Night's Dream"
 season: In House
 period: Spring
 playwright: William Shakespeare

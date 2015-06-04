@@ -1,5 +1,5 @@
 ---
-title: "7 minutes 31"
+title: "7 Minutes 31"
 playwright:
 period: Autumn
 season: In House

@@ -1,5 +1,5 @@
 ---
-title: The trial
+title: The Trial
 season: In House
 period: Autumn
 season_sort: 60

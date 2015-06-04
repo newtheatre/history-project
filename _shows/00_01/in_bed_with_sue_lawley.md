@@ -1,5 +1,5 @@
 ---
-title: In bed with Sue Lawley
+title: In Bed With Sue Lawley
 season: Edinburgh
 period: Edinburgh
 season_sort: 410

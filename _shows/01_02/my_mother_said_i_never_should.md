@@ -1,4 +1,5 @@
 ---
+title: My Mother Said I Never Should
 published: true
 season: In House
 period: Spring
@@ -8,7 +9,6 @@ venue:
   - New Theatre
 date_start: 2002-03-12
 date_end: 2002-03-15
-title: My mother said I never should
 cast:
   - role: Doris Partington
     name: Claire Boynton

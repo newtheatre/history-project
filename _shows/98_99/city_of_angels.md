@@ -1,5 +1,5 @@
 ---
-title: City of angels
+title: City of Angels
 season: In House
 period: Autumn
 playwright: Larry Gelbart

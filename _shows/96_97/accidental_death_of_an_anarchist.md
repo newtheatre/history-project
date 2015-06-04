@@ -1,7 +1,7 @@
 ---
 season: In House
 period: Autumn
-title: Accidental death of an anarchist
+title: Accidental Death of an Anarchist
 playwright: Dario Fo
 season_sort: 40
 venue:

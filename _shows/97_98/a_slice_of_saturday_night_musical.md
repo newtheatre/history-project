@@ -1,5 +1,5 @@
 ---
-title: A slice of Saturday night musical
+title: A Slice of Saturday Night Musical
 season: In House
 period: Spring
 season_sort: 270
