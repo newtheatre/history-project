@@ -3,8 +3,8 @@ title: "Customs"
 playwright: Logan Wamsley
 student_written: true
 period: Spring
-season: In House
-season_sort: 290
+season: Fringe
+season_sort: 245
 date_start: 2014-03-31
 date_end: 2014-04-01
 venue:

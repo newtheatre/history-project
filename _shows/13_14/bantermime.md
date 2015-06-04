@@ -2,8 +2,8 @@
 title: "Bantermime"
 playwright:
 company: Improv
-period: External
-season: In House
+period: Spring
+season: External
 season_sort: 170
 date_start: 2014-02-12
 date_end: 2014-02-15

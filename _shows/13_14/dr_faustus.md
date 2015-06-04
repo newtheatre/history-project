@@ -2,8 +2,8 @@
 title: "Dr Faustus"
 playwright: Christopher Marlowe
 period: Spring
-season: In House
-season_sort: 320
+season: Lakeside
+season_sort: 268
 date_start: 2014-05-12
 date_end: 2014-05-17
 venue:

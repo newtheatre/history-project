@@ -2,7 +2,7 @@
 title: "The Rivals"
 playwright: "Richard B. Sheridan"
 company: Postgrads
-period: External
+period: Spring
 season: External
 season_sort: 160
 date_start: 2014-01-22

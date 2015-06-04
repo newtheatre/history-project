@@ -3,8 +3,8 @@ title: "Letting Go"
 playwright: Georgina Varley
 student_written: true
 period: Autumn
-season: In House
-season_sort: 130
+season: Fringe
+season_sort: 85
 date_start: 2013-12-02
 date_end: 2013-12-03
 venue:

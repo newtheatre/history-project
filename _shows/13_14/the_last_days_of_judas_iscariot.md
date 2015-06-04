@@ -3,7 +3,7 @@ title: "The Last Days Of Judas Iscariot"
 playwright: Stephen Adly Guirgis
 period: Autumn
 season: In House
-season_sort: 100
+season_sort: 70
 date_start: 2013-11-20
 date_end: 2013-11-23
 venue:

@@ -16,9 +16,35 @@
     .show-list-title
       color: $color-link
       font-weight: 600
-    .show-list-date
+
+    .show-list-season, .show-list-date
+      display: inline-block
       font-size: 14px
       color: $color-grey
+
+    .show-list-season
+      min-width: 63px // Lines the dates up for easy scanning
+      padding-right: 6px
+      color: darken($color-grey, 4%)
+      &:before
+        @extend .ion
+        content: "\f21b"
+        padding-left: 1px
+        padding-right: 4px
+        font-size: 0.95em
+
+    // Little circle colours
+    .season-in-house:before
+      color: lighten($color-background, 10%)
+    .season-fringe:before, & .season-uncut:before
+      color: darken($color-nnt-orange, 10%)
+    .season-edinburgh:before
+      color: #3CD861
+    .season-lakeside:before
+      color: #4AAEDB
+
+    .show-list-date
+
 
 .show-student-written
   color: $color-grey

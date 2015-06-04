@@ -3,8 +3,8 @@ title: "Conviction"
 playwright: Logan Wamsley
 student_written: true
 period: Autumn
-season: In House
-season_sort: 90
+season: Fringe
+season_sort: 65
 date_start: 2013-11-18
 date_end: 2013-11-19
 venue:
