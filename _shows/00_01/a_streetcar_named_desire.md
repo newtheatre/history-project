@@ -1,5 +1,5 @@
 ---
-title: A streetcar named desire
+title: A Streetcar Named Desire
 season: In House
 period: Spring
 playwright: Tennessee Williams

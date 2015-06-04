@@ -1,5 +1,5 @@
 ---
-title: Our day out
+title: Our Day Out
 season: In House
 period: Spring
 season_sort: 250

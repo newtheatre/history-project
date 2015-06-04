@@ -1,5 +1,5 @@
 ---
-title: Limelight musical review
+title: Limelight Musical Review
 season: In House
 period: Spring
 season_sort: 280

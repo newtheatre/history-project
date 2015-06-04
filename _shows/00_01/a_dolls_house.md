@@ -1,5 +1,5 @@
 ---
-title: "A doll's house"
+title: "A Doll's House"
 season: In House
 period: Autumn
 playwright: Henrik Ibsen

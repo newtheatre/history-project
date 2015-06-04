@@ -1,5 +1,5 @@
 ---
-title: The importance of being earnest
+title: The Importance of Being Earnest
 season: In House
 period: Autumn
 playwright: Oscar Wilde

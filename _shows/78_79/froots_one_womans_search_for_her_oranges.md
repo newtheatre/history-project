@@ -1,5 +1,5 @@
 ---
-title: "Froots. One woman's search for her oranges"
+title: "Froots. One Woman's Search for Her Oranges"
 season: Edinburgh
 period: Edinburgh
 season_sort: 440

@@ -1,7 +1,7 @@
 ---
 season: In House
 period: Spring
-title: "Who claimed Roger's Habit"
+title: "Who Claimed Roger's Habit"
 playwright: "Stuart Scott, Ben Heusner and David Todd"
 season_sort: 280
 venue:

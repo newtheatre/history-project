@@ -1,5 +1,5 @@
 ---
-title: A man for all seasons
+title: A Man for All Seasons
 season: In House
 period: Autumn
 playwright: Robert Bolt

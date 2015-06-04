@@ -1,5 +1,5 @@
 ---
-title: "Stars in their eyes (Fundraiser)"
+title: "Stars in Their Eyes (Fundraiser)"
 playwright:
 period: Spring
 season: In House

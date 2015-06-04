@@ -1,5 +1,5 @@
 ---
-title: The wit to woo
+title: The Wit to Woo
 season: Edinburgh
 period: Edinburgh
 season_sort: 430

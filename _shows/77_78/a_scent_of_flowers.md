@@ -1,5 +1,5 @@
 ---
-title: A scent of flowers
+title: A Scent of Flowers
 season: In House
 period: Autumn
 playwright: James Saunders

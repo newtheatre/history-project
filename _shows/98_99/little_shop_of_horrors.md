@@ -1,5 +1,5 @@
 ---
-title: Little shop of horrors
+title: Little Shop of Horrors
 season: In House
 period: Autumn
 playwright: Alan Menken and Howard Ashman

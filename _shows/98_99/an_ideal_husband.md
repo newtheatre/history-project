@@ -1,5 +1,5 @@
 ---
-title: An ideal husband
+title: An Ideal Husband
 season: In House
 period: Spring
 playwright: Oscar Wilde

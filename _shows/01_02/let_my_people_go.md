@@ -1,4 +1,5 @@
 ---
+title: Let My People Go
 published: true
 season: In House
 period: Spring
@@ -8,7 +9,6 @@ venue:
   - New Theatre
 date_start: 2002-05-01
 date_end: 2002-05-04
-title: Let my people go
 cast:
   - role: Pat Brown
     name: Fiona Johnson
