@@ -18,6 +18,7 @@ The image files themselves are kept in the `images/for_shows/` folder whereas an
 | `image`<br />*(semi-optional)*| If image (JPG, PNG) the filename | Will look under `images/for_shows/`. |
 | `filename`<br />*(semi-optional)* | If non-image (PDF etc) the filename | Will look under `assets/for_shows/`. |
 | `caption`<br />*(image only, optional)* | Image caption | Is shown when image is clicked on to make big. |
+| `page`<br />*(optional)* | Orders within a type, should be a number | For type programme it is the page number where the front page is `1`, for a single page flyer the front would be `1` and the back `2`. |
 
 ## <i class="octicon octicon-code"></i> Example
 
@@ -31,7 +32,11 @@ assets:
   - type: poster
     image: pillowman_poster.jpg
   - type: flyer
+    image: pillowman_flyer_1.png
+    page: 1
+  - type: flyer
     image: pillowman_flyer_2.png
+    page: 2
   - type: programme
     filename: the_pillowman_programme.pdf
     title: Programme

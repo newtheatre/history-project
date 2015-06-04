@@ -1,5 +1,5 @@
 ---
-title: Breakfast not included
+title: Breakfast Not Included
 season: In House
 period: Autumn
 season_sort: 40
