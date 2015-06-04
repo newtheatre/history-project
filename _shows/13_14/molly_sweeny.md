@@ -56,8 +56,6 @@ crew:
     name: Charlotte Bezant
   - role: Stage Manager
     name: James Thomas
-  - role: Stage Manager
-    name: Jenni Yard
   - role: Staging Coordinator
     name: Tom Selves
   - role: Costume Designer
