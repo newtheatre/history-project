@@ -1,14 +1,2 @@
-{% bundle %}
-- /js/globals.js
-- /lib/jquery/dist/jquery.js
-- /lib/underscore/underscore.js
-- /lib/fancybox/lib/jquery.mousewheel-3.0.6.pack.js
-- /lib/fancybox/source/jquery.fancybox.pack.js
-- /lib/fancybox/source/helpers/jquery.fancybox-buttons.js
-- /lib/fancybox/source/helpers/jquery.fancybox-media.js
-- /lib/fancybox/source/helpers/jquery.fancybox-thumbs.js
-- /lib/mousetrap/mousetrap.min.js
-- /js/fancybox.js
-- /js/report.js
-- /js/keyboard.js
-{% endbundle %}
+<script type="text/javascript" src="/js/lib.js?cachebust={{ site.time | date: "%Y%m%d%H%M"}}"></script>
+<script type="text/javascript" src="/js/app.js?cachebust={{ site.time | date: "%Y%m%d%H%M"}}"></script>

@@ -15,6 +15,7 @@ permalink: pretty
 
 gems:
 - jekyll-sitemap
+- jekyll-coffeescript
 
 exclude: [vendor, node_modules]
 
@@ -93,6 +94,17 @@ image:
 
 sass:
   style: :compressed
+
+lib:
+  js:
+    - lib/jquery/dist/jquery.js
+    - lib/underscore/underscore.js
+    - lib/fancybox/lib/jquery.mousewheel-3.0.6.pack.js
+    - lib/fancybox/source/jquery.fancybox.pack.js
+    - lib/fancybox/source/helpers/jquery.fancybox-buttons.js
+    - lib/fancybox/source/helpers/jquery.fancybox-media.js
+    - lib/fancybox/source/helpers/jquery.fancybox-thumbs.js
+    - lib/mousetrap/mousetrap.min.js
 
 asset_bundler:
   compress:
