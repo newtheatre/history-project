@@ -94,6 +94,7 @@ DEPENDENCIES
   html-proofer
   iconv
   jekyll
+  jekyll-coffeescript
   jekyll-sitemap
   mini_magick
   nokogiri
