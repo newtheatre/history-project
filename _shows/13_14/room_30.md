@@ -3,8 +3,8 @@ title: "Room 30"
 playwright: Harriet Davis
 student_written: true
 period: Spring
-season: In House
-season_sort: 250
+season: Fringe
+season_sort: 225
 date_start: 2014-03-17
 date_end: 2014-03-18
 venue:

@@ -3,7 +3,7 @@ title: "Blackbird"
 playwright: David Harrower
 period: Spring
 season: In House
-season_sort: 240
+season_sort: 220
 date_start: 2014-03-12
 date_end: 2014-03-15
 venue:

@@ -2,8 +2,8 @@
 title: "Blue Remembered Hills"
 playwright: Dennis Potter
 period: Spring
-season: In House
-season_sort: 210
+season: Fringe
+season_sort: 205
 date_start: 2014-03-03
 date_end: 2014-03-04
 venue:

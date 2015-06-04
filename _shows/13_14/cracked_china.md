@@ -3,8 +3,8 @@ title: "Cracked China"
 playwright: Liam Knight
 student_written: true
 period: Spring
-season: In House
-season_sort: 270
+season: Fringe
+season_sort: 235
 date_start: 2014-03-24
 date_end: 2014-03-25
 venue:

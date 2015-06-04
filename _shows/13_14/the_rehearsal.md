@@ -2,8 +2,8 @@
 title: "The Rehearsal"
 playwright: "(Devised)"
 period: Spring
-season: In House
-season_sort: 230
+season: Fringe
+season_sort: 215
 date_start: 2014-03-10
 date_end: 2014-03-11
 venue:

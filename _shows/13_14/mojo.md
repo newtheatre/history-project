@@ -1,7 +1,7 @@
 ---
 title: "MOJO"
 playwright: Jez Butterworth
-period: External
+period: Spring
 season: External
 season_sort: 360
 date_start: 2014-06-06

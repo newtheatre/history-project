@@ -1,7 +1,8 @@
 ---
 title: "The Vagina Monologues"
 playwright: Eve Ensler
-period: External
+company: "Women's Network"
+period: Spring
 season: External
 season_sort: 180
 date_start: 2014-02-20

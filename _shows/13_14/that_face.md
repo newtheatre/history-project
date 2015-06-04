@@ -3,7 +3,7 @@ title: "That Face"
 playwright: Polly Stenham
 period: Spring
 season: In House
-season_sort: 310
+season_sort: 260
 date_start: 2014-04-08
 date_end: 2014-04-11
 venue:

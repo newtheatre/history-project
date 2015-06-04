@@ -2,7 +2,7 @@
 title: "Vessel"
 playwright: Peter Cary
 company: Fine Frenzy Theatre
-period: External
+period: Autumn
 season: External
 season_sort: 20
 date_start: 2013-10-19

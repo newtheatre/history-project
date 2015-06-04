@@ -3,7 +3,7 @@ title: "Buried Child"
 playwright: Sam Shepard
 period: Autumn
 season: In House
-season_sort: 80
+season_sort: 60
 date_start: 2013-11-13
 date_end: 2013-11-16
 venue:

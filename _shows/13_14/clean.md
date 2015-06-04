@@ -3,8 +3,8 @@ title: "CLEAN"
 playwright: Edward Colwell
 student_written: true
 period: Autumn
-season: In House
-season_sort: 110
+season: Fringe
+season_sort: 75
 date_start: 2013-11-25
 date_end: 2013-11-26
 venue:

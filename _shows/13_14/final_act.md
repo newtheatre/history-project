@@ -1,8 +1,8 @@
 ---
 title: "The Final Act"
 playwright:
-period: External
-season: In House
+period: Spring
+season: External
 season_sort: 380
 date_start: 2014-06-18
 date_end: 2014-06-20
