@@ -1,14 +1,14 @@
 Mousetrap.bind 'left', ->
-  if 'jekyll_page_previous' in window
+  if 'jekyll_page_previous' of window
     window.location.href = jekyll_page_previous
 
 Mousetrap.bind 'right', ->
-  if 'jekyll_page_next' in window
+  if 'jekyll_page_next' of window
     window.location.href = jekyll_page_next
 
-Mousetrap.bind 'up', ->
-  if 'jekyll_page_up' in window
-    window.location.href = jekyll_page_up
+# Mousetrap.bind 'up', ->
+#   if 'jekyll_page_up' of window
+#     window.location.href = jekyll_page_up
 
 Mousetrap.bind 'e d i t o r', ->
   if localStorage.debug_mode is "yes"
