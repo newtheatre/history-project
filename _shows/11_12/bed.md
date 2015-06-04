@@ -46,6 +46,11 @@ crew:
     name: Lawrence Bolton
   - role: Make Up Artist
     name: Emily Heaton
+
+assets:
+  - type: poster
+    image: bed_poster_lakeside.jpg
+
 ---
 
 
