@@ -150,7 +150,7 @@ layout: default
       {% if show.crew == null %}
       {% include boxes/show_crew_missing.html %}
       {% endif %}
-      {% if show.crew.size < 4 %}
+      {% if show.crew.size < site.show_low_crew %}
       {% include boxes/show_crew_short.html %}
       {% endif %}
       {% assign people = show.crew %}

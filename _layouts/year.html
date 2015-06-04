@@ -32,7 +32,7 @@ current: archives
   <div class="year-links">
     {% if page.committee %}
 
-      {% if page.committee.committee.size < 12 %}
+      {% if page.committee.committee.size < site.committee_low_members %}
         {% include boxes/committee_short.html %}
       {% endif %}
 

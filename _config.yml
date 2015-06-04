@@ -8,6 +8,10 @@ url: "http://history.newtheatre.org.uk" # the base hostname & protocol for your 
 
 # How many shows is too few for a year
 year_low_shows: 16
+# How many crew members is too few for a show
+show_low_crew: 5
+# How many members members is too few for a committee
+committee_low_members: 12
 
 # Build settings
 markdown: kramdown
