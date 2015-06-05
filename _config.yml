@@ -109,7 +109,8 @@ lib:
     - lib/fancybox/source/helpers/jquery.fancybox-buttons.js
     - lib/fancybox/source/helpers/jquery.fancybox-media.js
     - lib/fancybox/source/helpers/jquery.fancybox-thumbs.js
-    - lib/mousetrap/mousetrap.min.js
+    - lib/history.js/scripts/bundled/html5/jquery.history.js
+    - lib/mousetrap/mousetrap.js
 
 # Config for the prose editor
 prose:
