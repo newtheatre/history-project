@@ -39,7 +39,6 @@ defaults:
       type: shows
     values:
       layout: show
-      body_class: header-nobr
       current: archives
   # Committees
   - scope:
@@ -55,7 +54,6 @@ defaults:
     values:
       layout: year
       group: year
-      body_class: header-nobr
       current: archives
       editable: false
       sitemap: false

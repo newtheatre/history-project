@@ -1,6 +1,5 @@
 ---
 layout: default
-body_class: header-nobr
 ---
 
 {% include fancy/poster_bar.html %}
