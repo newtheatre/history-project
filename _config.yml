@@ -20,7 +20,7 @@ permalink: pretty
 gems:
 - jekyll-sitemap
 - jekyll-coffeescript
-- jekyll-jsminify
+# - jekyll-jsminify
 
 exclude: [vendor, node_modules]
 
@@ -101,14 +101,16 @@ sass:
 lib:
   js:
     - lib/jquery/dist/jquery.js
+    - lib/history.js/scripts/bundled-uncompressed/html5/jquery.history.js
     - lib/underscore/underscore.js
     - lib/fancybox/lib/jquery.mousewheel-3.0.6.pack.js
     - lib/fancybox/source/jquery.fancybox.pack.js
     - lib/fancybox/source/helpers/jquery.fancybox-buttons.js
     - lib/fancybox/source/helpers/jquery.fancybox-media.js
     - lib/fancybox/source/helpers/jquery.fancybox-thumbs.js
-    - lib/history.js/scripts/bundled/html5/jquery.history.js
     - lib/mousetrap/mousetrap.js
+    - _js/pace-settings.js
+    - lib/pace/pace.js
 
 # Config for the prose editor
 prose:

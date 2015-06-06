@@ -3,6 +3,8 @@
 
 {% include_root _coffee/globals.coffee %}
 
+{% include_root _coffee/scroll.coffee %}
+
 {% include_root _coffee/refreshless.coffee %}
 {% include_root _coffee/nav.coffee %}
 
