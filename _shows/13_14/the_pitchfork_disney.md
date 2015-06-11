@@ -9,6 +9,12 @@ date_end: 2013-10-26
 venue:
   - New Theatre
 
+crew:
+  - role: Director
+    name: Tom Tolond
+  - role: Producer
+    name: Nick Davies
+
 assets:
   - type: poster
     image: the_pitchfork_disney_poster.jpg
