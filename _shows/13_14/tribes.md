@@ -9,6 +9,48 @@ date_end: 2014-05-17
 venue:
   - New Theatre
 
+cast:
+  - role: Billy
+    name: James Roscow
+  - role: Daniel
+    name: Jordan E-O
+  - role: Christopher
+    name: Toby Stevens
+  - role: Ruth
+    name: Becca Jones
+  - role: Sylivia
+    name: Emma McDonald
+  - role: Beth
+    name: Becca Clee
+
+crew:
+  - role: Director
+    name: Lilly Dawson
+  - role: Producer
+    name: Nick Gill
+  - role: Set Designer
+    name: Aubrey Turner
+  - role: Stage Manager
+    name: Molly McGee
+  - role: Stage Manager
+    name: Dave Porter
+  - role: Technical Director
+    name: Nathan Penney
+  - role: Lighting Designer
+    name: Joe Heil
+  - role: Technical Operator
+    name: Matt Standen
+  - role: Technical Operator
+    name: Adam Bergen
+  - role: Technical Operator
+    name: Chloe Rushby
+  - role: Technical Operator
+    name: Logan Wamsley
+  - role: Photographer
+    name: Oliver Warlow
+  - role: Set Graphics
+    name: Hugh Purves
+
 assets:
   - type: poster
     image: tribes_poster.jpg

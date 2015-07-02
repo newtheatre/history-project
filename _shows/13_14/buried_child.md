@@ -9,6 +9,52 @@ date_end: 2013-11-16
 venue:
   - New Theatre
 
+cast:
+  - role: Dodge
+    name: Sebastian Frend
+  - role: Halie
+    name: Lucy Bromilow
+  - role: Tilden
+    name: Ben Maries
+  - role: Bradley
+    name: Greg Link
+  - role: Shelly
+    name: Anna Stubbs
+  - role: Vince
+    name: Michael Ferdenzi
+  - role: Father Dewis
+    name: Steven Hardy
+
+crew:
+  - role: Director
+    name: Gus Herbert
+  - role: Producer
+    name: Kat Tye
+  - role: Set Designer
+    name: Chelsea Jayne Wright
+  - role: Stage Manager
+    name: Alex Day
+  - role: Stage Manager
+    name: Sandra Gabriela
+  - role: Technical Director
+    name: Tyler Gordon
+  - role: Lighting Designer
+    name: Tessa Denney
+  - role: Make Up Artist
+    name: Maddie Hardy
+  - role: Technical Operator
+    name: Charlotte Bezant
+  - role: Technical Operator
+    name: Zoe Langston-Blass
+  - role: Technical Operator
+    name: Adam Bergen
+  - role: Technical Operator
+    name: Rachel Lee
+  - role: Technical Operator
+    name: Tom Gloess
+  - role: Publicity Designer
+    name: Ben Hollands
+
 assets:
   - type: poster
     image: buried_child_poster.jpg
