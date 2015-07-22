@@ -18,6 +18,9 @@ module Jekyll
         year = path_split[path_split.length-2]
         show.data["year"] = year
         show.data["year_page"] = years_by_slug[show.data["year"]]
+
+        # To put content in meta description
+        show.data["excerpt"] = show.content
       end
 
       sorted_shows = all_shows.sort_by do | show |
