@@ -1,74 +1,26 @@
 {% if shows == null %}
-{% include boxes/shows_missing_all.html %}
+  {% include boxes/shows_missing_all.html %}
 {% elsif shows.size < site.year_low_shows %}
-{% include boxes/shows_missing_some.html %}
+  {% include boxes/shows_missing_some.html %}
 {% endif %}
 
-{% assign autumn = shows | where: "period", "Autumn" %}
-{% assign spring = shows | where: "period", "Spring" %}
-{% assign nsdf = shows | where: "period", "NSDF" %}
-{% assign edinburgh = shows | where: "period", "Edinburgh" %}
-{% assign tour = shows | where: "period", "Tour" %}
-{% assign external = shows | where: "period", "External" %}
-{% assign lakeside = shows | where: "period", "Lakeside" %}
+{% for period in site.data.periods %}
+  {% assign show_list_shows = shows | where: "period", period.period %}
+  {% if show_list_shows.size > 0 %}
+    <h3 title="{{ period.description }}">{{ period.title }}</h3>
+    {% include show_list.html %}
+  {% endif %}
+{% endfor %}
+
 {% assign others = shows | where: "period", null %}
-
-{% if autumn.size > 0 %}
-{% assign shows = autumn %}
-<h3>Autumn</h3>
-{% include show_list.html %}
-{% endif %}
-
-{% if spring.size > 0 %}
-{% assign shows = spring %}
-<h3>Spring</h3>
-{% include show_list.html %}
-{% endif %}
-
-{% if edinburgh.size > 0 %}
-{% assign shows = edinburgh %}
-<h3>Edinburgh</h3>
-{% include show_list.html %}
-{% endif %}
-
-{% if nsdf.size > 0 %}
-{% assign shows = nsdf %}
-<h3>NSDF</h3>
-{% include show_list.html %}
-{% endif %}
-
-{% if tour.size > 0 %}
-{% assign shows = tour %}
-<h3>Tour</h3>
-{% include show_list.html %}
-{% endif %}
-
-{% if tour.size > 0 %}
-{% assign shows = tour %}
-<h3>Tour</h3>
-{% include show_list.html %}
-{% endif %}
-
-{% if lakeside.size > 0 %}
-{% assign shows = lakeside %}
-<h3>Lakeside</h3>
-{% include show_list.html %}
-{% endif %}
-
-{% if external.size > 0 %}
-{% assign shows = external %}
-<h3>External</h3>
-{% include show_list.html %}
-{% endif %}
-
 {% if others.size > 0 %}
-{% assign shows = others %}
-<h3>Unknown</h3>
+  {% assign show_list_shows = others %}
+  <h3>Unknown</h3>
 
-<div class="box-debug" data-debug-toggle>
-  <i class="fa fa-exclamation-triangle"></i>
-  <p>The following shows are not assigned to a season period, they require a <code>season</code> attribute.</p>
-</div>
+  <div class="box-debug" data-debug-toggle>
+    <i class="fa fa-exclamation-triangle"></i>
+    <p>The following shows are not assigned to a season period, they require a <code>season</code> attribute.</p>
+  </div>
 
-{% include show_list.html %}
+  {% include show_list.html %}
 {% endif %}
