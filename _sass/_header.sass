@@ -1,10 +1,9 @@
 .site-header
   padding: $baseline/2 0 0 0
-  margin-bottom: $baseline
+  margin-bottom: 0
   background: $color-background-alt
 
   @include respond-up($grid-column-start)
-    margin-bottom: $baseline * 2
     padding: $baseline*2 0 $baseline 0
 
   .wrapper
@@ -23,9 +22,6 @@
 
   &, a
     color: $color-text-white
-
-.header-nobr .site-header
-  margin-bottom: 0
 
 $nav-height: 63px
 

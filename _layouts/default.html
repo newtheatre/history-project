@@ -6,6 +6,10 @@
 
   <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
 
+    <div id="page-data"
+      data-current="{{ page.current }}"
+    ></div>
+
     <!-- Debug LHS -->
     <div class="debug-build-details" data-debug-toggle>
       <i class="fa fa-clock-o"></i>
