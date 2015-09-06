@@ -1,6 +1,6 @@
 module Jekyll
   class YearDataGenerator < Jekyll::Generator
-    priority :low  # Should be one of the last to execute
+    priority :normal  # Should be one of the last to execute
 
     def generate(site)
       years = site.collections["years"].docs
@@ -33,7 +33,6 @@ module Jekyll
         end
 
         legacy_path = "years/#{year.basename_without_ext}.html"
-        puts legacy_path
         year.data["redirect_from"] = legacy_path
       end
 

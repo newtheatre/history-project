@@ -32,6 +32,7 @@ collections:
     permalink: years/:path/
   committees:
     output: true
+    permalink: years/:path/committee/
   years:
     output: true
     permalink: years/:path/

@@ -12,6 +12,10 @@ module Jekyll
         committees_by_year[year] = committee
 
         committee.data["year"] = year
+
+        # Generate the legacy path for 301 redirect re. #142 Make semantic and pretty urls
+        legacy_path = "committees/#{committee.basename_without_ext}.html"
+        committee.data["redirect_from"] = legacy_path
       end
 
       site.data["committees_by_year"] = committees_by_year
