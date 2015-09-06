@@ -31,6 +31,10 @@ collections:
     output: true
   years:
     output: true
+  people:
+    layout: person
+    output: true
+    permalink: people/:title/
 
 defaults:
   # Shows
@@ -95,6 +99,10 @@ image:
     show_photo:
       attr:
         alt: Show photo
+      width: 300
+    person_headshot:
+      attr:
+        alt: Person headshot
       width: 300
 
 sass:
