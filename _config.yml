@@ -34,6 +34,7 @@ collections:
   people:
     layout: person
     output: true
+    permalink: people/:title/
 
 defaults:
   # Shows
