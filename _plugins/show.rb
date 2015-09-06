@@ -1,6 +1,6 @@
 module Jekyll
   class ShowDataGenerator < Jekyll::Generator
-    priority :high
+    priority :highest
 
     def generate(site)
       all_shows = site.collections["shows"].docs
