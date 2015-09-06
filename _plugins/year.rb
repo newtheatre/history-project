@@ -31,6 +31,10 @@ module Jekyll
         if year.data["show_count"] > top_show_count
           top_show_count = year.data["show_count"]
         end
+
+        legacy_path = "years/#{year.basename_without_ext}.html"
+        puts legacy_path
+        year.data["redirect_from"] = legacy_path
       end
 
       # Create a copy of years_by_decade but with the lists reversed
