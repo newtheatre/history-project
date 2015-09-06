@@ -54,15 +54,9 @@ layout: default
           <i class="meta-icon fa fa-book"></i>
           <p class="meta-content">{% if show.playwright %}by {% if show.student_written %}<i class="fa fa-pencil show-student-written" title="Student Written"></i> {% endif %}{{ show.playwright }}{% else %}<span class="unknown">Playwright Unknown</span>{% endif %}</p>
         </div>
-<<<<<<< HEAD
         <div class="show-season">
           <i class="show-meta-icon fa fa-reorder"></i>
           <p class="icon-pad">{% if show.season %}{{ show.season }}{% else %}<span class="unknown">Season Unknown</span>{% endif %}</p>
-=======
-        <div class="meta-col show-season">
-          <i class="meta-icon fa fa-reorder"></i>
-          <p class="meta-content">{% if show.season %}{{show.season}} season{% else %}<span class="unknown">Season Unknown</span>{% endif %}</p>
->>>>>>> Implementation of person data type #14
         </div>
         <div class="meta-col show-date">
           <i class="meta-icon fa fa-calendar"></i>
