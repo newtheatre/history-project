@@ -1,6 +1,6 @@
 module Jekyll
   class ShowDataGenerator < Jekyll::Generator
-    priority :high
+    priority :highest
 
     def generate(site)
       all_shows = site.collections["shows"].docs
@@ -24,6 +24,10 @@ module Jekyll
 
         # To put content in meta description
         show.data["excerpt"] = show.content
+
+        # Generate the legacy path for 301 redirect re. #142 Make semantic and pretty urls
+        legacy_path = "shows/#{show.data["year"]}/#{show.basename_without_ext}.html"
+        show.data["redirect_from"] = legacy_path
       end
 
       # Sort Shows
