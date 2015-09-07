@@ -9,6 +9,32 @@ date_end: 2014-06-20
 venue:
   - New Theatre
 
+cast:
+  - name: Lyle Fulton
+  - name: Ben Williamson
+  - name: Ben Hollands
+  - name: James McAndrew
+  - name: Greg Link
+  - name: Madaline Hardy
+  - name: Will Berrington
+  - name: Jemima Rathbone
+
+crew:
+  - role: Director
+    name: Tom Hicks
+  - role: Musical Director
+    name: Kat Tye
+  - role: Producer
+    name: Ollie Short
+  - role: Technical Director
+    name: Tessa Denney
+  - role: Lighting Designer
+    name: Will Pimblett
+  - role: Sound Engineer
+    name: Will Pimblett
+  - role: Followspot Operator
+    name: Joseph Heil
+
 assets:
   - type: poster
     image: final_act_poster.jpg

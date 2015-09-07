@@ -54,6 +54,12 @@ crew:
     name: Giles Gear
   - role: Technical Operator
     name: Hannah Doyle
+  - role: Technical Operator
+    name: Tyler-Antonia Gordon
+  - role: Technical Operator
+    name: Courtney Rose
+  - role: Technical Operator
+    name: Logan Wamsley
   - role: Publicity Designer
     name: Ben Hollands
 

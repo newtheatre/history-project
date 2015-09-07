@@ -9,6 +9,24 @@ date_end: 2014-04-05
 venue:
   - New Theatre
 
+crew:
+  - role: Director
+    name: Ricki Crook
+  - role: Producer
+    name: Charlotte Prosser
+  - role: Technical Director
+    name: Will Pimblett
+  - role: Lighting Designer
+    name: Tessa Denney
+  - role: Technical Operator
+    name: Nathan Penney
+  - role: Technical Operator
+    name: Tom Gloess
+  - role: Technical Operator
+    name: Hannah Doyle
+  - role: Technical Operator
+    name: Joseph Heil
+
 assets:
   - type: poster
     image: equus_poster.jpg
