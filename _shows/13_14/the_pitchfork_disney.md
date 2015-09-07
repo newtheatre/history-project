@@ -19,5 +19,19 @@ assets:
   - type: poster
     image: the_pitchfork_disney_poster.jpg
 
+photos:
+  - type: photo
+    image: the_pitchfork_disney_1.jpg
+  - type: photo
+    image: the_pitchfork_disney_2.jpg
+  - type: photo
+    image: the_pitchfork_disney_3.jpg
+  - type: photo
+    image: the_pitchfork_disney_4.jpg
+  - type: photo
+    image: the_pitchfork_disney_5.jpg
+  - type: photo
+    image: the_pitchfork_disney_6.jpg
+
 ---
 Twins Presley and Haley Stray live alone in a dilapidated flat in East London, passing the time by telling each other twisted stories and eating chocolate. Into this world comes the menacingly beautiful circus performer Cosmo Disney, and his nightmarish associate, Pitchfork Cavalier. This unexpected visit and its terrifying consequences will change the Strays forever.
