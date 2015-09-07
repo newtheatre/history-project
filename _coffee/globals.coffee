@@ -1,2 +1,2 @@
-GITHUB_ISSUES_USER = "newtheatre"
-GITHUB_ISSUES_REPO = "history-project"
+window.GITHUB_ISSUES_USER = "newtheatre"
+window.GITHUB_ISSUES_REPO = "history-project"
