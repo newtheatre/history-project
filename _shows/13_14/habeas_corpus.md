@@ -60,6 +60,34 @@ crew:
 assets:
   - type: poster
     image: habeas_corpus_poster.jpg
+
+
+photos:
+  - type: photo
+    image: habeas_corpus_1.jpg
+  - type: photo
+    image: habeas_corpus_2.jpg
+  - type: photo
+    image: habeas_corpus_3.jpg
+  - type: photo
+    image: habeas_corpus_4.jpg
+  - type: photo
+    image: habeas_corpus_5.jpg
+  - type: photo
+    image: habeas_corpus_6.jpg
+  - type: photo
+    image: habeas_corpus_7.jpg
+  - type: photo
+    image: habeas_corpus_8.jpg
+  - type: photo
+    image: habeas_corpus_9.jpg
+  - type: photo
+    image: habeas_corpus_10.jpg
+  - type: photo
+    image: habeas_corpus_11.jpg
+  - type: photo
+    image: habeas_corpus_crew.jpg
+
 ---
 
 A festive end to the season with a hilarious, quick-paced farce by Alan Bennett. It tells the story of a family and their friends, all of whom are driven by one key desire – sex – but a number of mistaken identities and awkward encounters ensure things don’t quite go as planned.

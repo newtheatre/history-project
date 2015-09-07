@@ -93,10 +93,51 @@ crew:
     name: Zoe Langston-Blass
   - role: Technical Operator
     name: Logan Wamsley
+  - role: Photography
+    name: Will Pimblett
 
 assets:
   - type: poster
     image: titus_andronicus_poster.jpg
+
+photos:
+  - type: photo
+    image: titus_andronicus_1.jpg
+  - type: photo
+    image: titus_andronicus_2.jpg
+  - type: photo
+    image: titus_andronicus_3.jpg
+  - type: photo
+    image: titus_andronicus_4.jpg
+  - type: photo
+    image: titus_andronicus_5.jpg
+  - type: photo
+    image: titus_andronicus_6.jpg
+  - type: photo
+    image: titus_andronicus_7.jpg
+  - type: photo
+    image: titus_andronicus_8.jpg
+  - type: photo
+    image: titus_andronicus_9.jpg
+  - type: photo
+    image: titus_andronicus_10.jpg
+  - type: photo
+    image: titus_andronicus_11.jpg
+  - type: photo
+    image: titus_andronicus_12.jpg
+  - type: photo
+    image: titus_andronicus_13.jpg
+  - type: photo
+    image: titus_andronicus_14.jpg
+  - type: photo
+    image: titus_andronicus_15.jpg
+  - type: photo
+    image: titus_andronicus_16.jpg
+  - type: photo
+    image: titus_andronicus_17.jpg
+  - type: photo
+    image: titus_andronicus_crew.jpg
+
 ---
 
 His first tragedy, which remains his bloodiest and most controversial, is a dark and violent tale of brutal revenge set against the backdrop of the latter days of the Roman Empire. Legendary Roman General, Titus Andronicus, returns home to Rome with the defeated Queen of the Goths, Tamora, her sons and lover as captives. When he sacrifices her eldest son she vows to exact painful revenge over Titus and his family. Whilst arguably Shakespeare's rawest and darkest play, it remains as poignant and poetical as some of his greatest works.

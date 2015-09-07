@@ -14,5 +14,21 @@ assets:
   - type: poster
     image: letting_go_poster.jpg
 
+photos:
+  - type: photo
+    image: letting_go_1.jpg
+  - type: photo
+    image: letting_go_2.jpg
+  - type: photo
+    image: letting_go_3.jpg
+  - type: photo
+    image: letting_go_4.jpg
+  - type: photo
+    image: letting_go_5.jpg
+  - type: photo
+    image: letting_go_6.jpg
+  - type: photo
+    image: letting_go_crew.jpg
+
 ---
 A play about love, rivalry and ultimately forgiveness, the year is 1914 and a young woman’s life is torn apart when the men closest to her are sent off to war, the building hatred between the two male protagonists fuels the plot which then reaches its height in the penultimate scene when a withheld truth is revealed.

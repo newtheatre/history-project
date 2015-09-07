@@ -50,5 +50,19 @@ assets:
   - type: poster
     image: fox_finder_poster.jpg
 
+photos:
+  - type: photo
+    image: fox_finder_1.jpg
+  - type: photo
+    image: fox_finder_2.jpg
+  - type: photo
+    image: fox_finder_3.jpg
+  - type: photo
+    image: fox_finder_4.jpg
+  - type: photo
+    image: fox_finder_5.jpg
+  - type: photo
+    image: fox_finder_6.jpg
+
 ---
 Without Man, the Fox will Rule. Dawn King’s tense and atmospheric parable sees William Bloor, a Foxfinder religiously committed to the discovery and destruction of England’s greatest threat, investigate the farm of a recently bereaved couple, Judith and Samuel Covey, for potential infestation and even collaboration.
