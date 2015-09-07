@@ -7,7 +7,7 @@ season_sort: 45
 date_start: 2013-11-04
 date_end: 2013-11-05
 venue:
-  - New Theatre
+  - New Theatre Studio A
 
 cast:
   - role: Mrs Stevenson
