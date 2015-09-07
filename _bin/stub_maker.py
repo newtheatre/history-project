@@ -1,5 +1,5 @@
 # Makes show stubs from a CSV file
-# CSV MUST be in the format title, YY_YY, period, season_sort
+# CSV MUST be in the format title, YY_YY, period, season_sort, season, playwright, date_start, date_end, content
 
 import os
 import errno
@@ -13,22 +13,35 @@ def mkdir_p(path):
             pass
         else: raise
 
-def make_template(title, period, sort):
+def make_template(title, period, sort, season, playwright, date_start, date_end, content):
     return """---
 title: \"""" + title + """\"
-playwright:
+playwright: \"""" + playwright + """\"
 period: """ + period + """
-season: In House
+season: \"""" + season + """\"
 season_sort: """ + sort + """
+date_start: """ + date_start + """
+date_end: """ + date_end + """
 venue:
   - New Theatre
 ---
+
+""" + content + """
 """
 
 with open('tmp/stub_maker_input.csv') as csvfile:
     stubreader = csv.reader(csvfile)
     for row in stubreader:
-        body = make_template(row[0], row[2], row[3])
+        body = make_template(
+            title=row[0],
+            period=row[2],
+            sort=row[3],
+            season=row[4],
+            playwright=row[5],
+            date_start=row[6],
+            date_end=row[7],
+            content=row[8],
+        )
         file_title = row[0].lower().replace(' ','_').replace("'",'').replace('&','').replace('.','_').replace('/','_').replace('(','_').replace(')','_').replace('__','_')
 
         mkdir_p("_shows/{}".format(row[1]))
