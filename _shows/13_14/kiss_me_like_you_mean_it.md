@@ -9,6 +9,12 @@ date_end: 2014-03-22
 venue:
   - New Theatre
 
+crew:
+  - role: Technical Directors
+    name: Nikki Hill, Chelsea Jayne Wright, Tom Selves
+  - role: Lighting Designers
+    name: Logan Wamsley, Sebastian Frend
+
 assets:
   - type: poster
     image: kiss_me_like_you_mean_it_poster.jpg

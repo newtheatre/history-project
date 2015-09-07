@@ -9,6 +9,22 @@ date_end: 2014-03-29
 venue:
   - New Theatre
 
+crew:
+  - role: Director
+    name: James McAndrew
+  - role: Producer
+    name: Nick Stevenson
+  - role: Technical Director
+    name: Hannah Doyle
+  - role: Lighting Designer
+    name: Aubrey Turner
+  - role: Technical Operator
+    name: Joanne Blunt
+  - role: Technical Operator
+    name: Lily McGeough
+  - role: Technical Operator
+    name: Dave Hanks
+
 assets:
   - type: poster
     image: romeo_and_juliet_poster.jpg

@@ -9,6 +9,24 @@ date_end: 2013-11-23
 venue:
   - New Theatre
 
+crew:
+  - role: Director
+    name: Nadia Amico
+  - role: Producer
+    name: Jenny Kohnhorst
+  - role: Technical Director
+    name: Tessa Denney
+  - role: Lighting Designer
+    name: Adam Bergen
+  - role: Technical Operator
+    name: Courtney Rose
+  - role: Technical Operator
+    name: Nikki Hill
+  - role: Technical Operator
+    name: Michael Ferdenzi
+  - role: Technical Operator
+    name: Hannah Doyle
+
 assets:
   - type: poster
     image: judas_poster.jpg

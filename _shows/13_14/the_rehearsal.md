@@ -9,6 +9,14 @@ date_end: 2014-03-11
 venue:
   - New Theatre Studio A
 
+crew:
+  - role: Director
+    name: Ellie Cawthorne
+  - role: Director
+    name: Tess Monro-Somerville
+  - role: Technical Director
+    name: Dave Hanks
+
 assets:
   - type: poster
     image: the_rehersal_nnt_poster.jpg

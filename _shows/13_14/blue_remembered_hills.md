@@ -9,6 +9,14 @@ date_end: 2014-03-04
 venue:
   - New Theatre Studio A
 
+crew:
+  - role: Director
+    name: Ollie Short
+  - role: Producer
+    name: Jessica McNamee
+  - role: Technical Director
+    name: Nathan Penney
+
 assets:
   - type: poster
     image: blue_remembered_hills_poster.jpg

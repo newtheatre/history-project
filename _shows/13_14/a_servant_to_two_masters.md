@@ -10,6 +10,24 @@ date_end: 2014-06-14
 venue:
   - New Theatre
 
+crew:
+  - role: Director
+    name: Chelsea Jayne Wright
+  - role: Technical Director
+    name: Sebastian Frend
+  - role: Lighting Designer
+    name: Will Pimblett
+  - role: Technical Operator
+    name: Mitchell Masterson
+  - role: Technical Operator
+    name: Joanna Manning
+  - role: Technical Operator
+    name: Tessa Denney
+  - role: Technical Operator
+    name: Adam Bergen
+  - role: Technical Operator
+    name: David Hanks
+
 assets:
   - type: poster
     image: a_servant_to_two_masters_poster.jpg

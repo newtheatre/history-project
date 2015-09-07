@@ -9,11 +9,28 @@ date_end: 2013-10-26
 venue:
   - New Theatre
 
+cast:
+  - name: James Bentley
+  - name: Laura Gallop
+  - name: Ollie Short
+
 crew:
   - role: Director
     name: Tom Tolond
   - role: Producer
     name: Nick Davies
+  - role: Technical Director
+    name: Tessa Denney
+  - role: Lighting Designer
+    name: Tessa Denney
+  - role: Technical Operator
+    name: Ginny Lee
+  - role: Technical Operator
+    name: Matt Richards
+  - role: Technical Operator
+    name: Holly Pownall
+  - role: Technical Operator
+    name: Joanne Blunt
 
 assets:
   - type: poster
