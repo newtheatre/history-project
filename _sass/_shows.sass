@@ -49,6 +49,10 @@
 
     @include set-property-to-gutter(margin-bottom)
 
+    // Crop all photos to prevent horrible overflows
+    height: 180px
+    overflow: hidden
+
     img
       width: 100%
       box-shadow: 0px -1px darken($color-black, 20%)
