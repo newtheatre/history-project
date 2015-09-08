@@ -27,10 +27,9 @@ Biographies of theatre alumni are stored as `_people/firstname_lastname.md`.
 
 {% highlight yaml %}
 ---
-layout: person
 title: John Smith
 headshot: john_smith.jpg
-course: Mechanical Engineering
+course: BEng Mechanical Engineering
 graduated: 2010
 ---
 
@@ -40,7 +39,6 @@ John did techie stuff
 
 {% highlight yaml %}
 ---
-layout: person
 title: Alice Smith
 headshot: alice_smith.jpg
 course:
