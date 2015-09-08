@@ -9,13 +9,6 @@ body_class: header-nobr
 
   <div class="home-main" markdown="1">
 
-  <div class="box-info">
-  <i class="fa fa-exclamation-triangle"></i>
-
-  <strong>Be warned!</strong> Major parts of this site are still actively being built, things may break and look ugly. If you spot anything amiss use the report button on the right to let us know.
-
-  </div>
-
   Welcome to the New Theatre History Project, a historical record of happenings at the New Theatre.
 
   The New Theatre Alumni Network was founded in order to build a stronger sense of the history of the theatre, and with the launch of this project we are hoping to do just that! Following a recent visit to the Nottingham University Archives, we are using the project to piece together the New Theatre's dynamic and vibrant history.
