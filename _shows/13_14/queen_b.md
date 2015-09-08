@@ -5,7 +5,7 @@ period: Edinburgh
 season: Edinburgh
 season_sort: 410
 venue:
-  - New Theatre
+  - ZOO Monkeyhouse
 
 assets:
   - type: poster
