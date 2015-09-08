@@ -15,13 +15,12 @@ Biographies of theatre alumni are stored as `_people/firstname_lastname.md`.
 
 | Attribute | Job | Description |
 |:-|:-|:-|
-| `layout` | Page layout. | Sets the layout for the page, should always be set to `person`. |
 | `title` | Person name. | In the format Firstname Lastname. |
 | `headshot` | Filename of a photo. | Will look in the `images/people/` directory. Filename should be `firstname_lastname.jpg`. |
 | `course` | The course, or courses the person studied. | Can be a single value or a list if multiple courses studied. |
 | `graduated` | The year the person graduated. | YYYY, if multiple courses |
 | `award`<br />*(optional)* | Award person received on leaving the theatre. | Should be in title case, Fellowship, Commendation. If not applicable line should be omitted. |
-| `comments` | Reserved for editor comments, will **never** show up on the live site. |
+| `comments` | Reserved for editor comments, only displayed in [editors' mode](/docs/#super-secret-editors-mode). |
 
 
 ## <i class="octicon octicon-code"></i> Example Person
