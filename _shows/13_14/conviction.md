@@ -12,15 +12,22 @@ venue:
 
 cast:
   - name: Charlotte Prosser
-  - name: unknown
+  - name: Harry Patte-Dobbes
+  - name: Emma Collingwod
 
 crew:
-  - role: Director
+  - role: Co-Director
     name: Emily Zinkin
-  - role: Producer
+  - role: Co-Director
     name: James Gregory
-  - role: unknown
+  - role: Producer
+    name: Logan Wamsley
+  - role: Technical Director
+    name: Joseph Heil
+  - role: Technical Operator
     name: Zoe Langston-Blass
+  - role: Photography
+    name: Dimitrios Darzentas
 
 assets:
   - type: poster
