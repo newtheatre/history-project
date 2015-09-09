@@ -1,5 +1,5 @@
 ---
-title: "Sorry Wrong Number"
+title: "Sorry, Wrong Number"
 playwright: Lucille Fletcher
 period: Autumn
 season: Fringe
