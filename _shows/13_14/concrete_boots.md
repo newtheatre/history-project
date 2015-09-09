@@ -37,6 +37,20 @@ crew:
   - role: Photography
     name: Erina Bogoeva
 
+photos:
+  - type: photo
+    image: concrete_boots_1.jpg
+  - type: photo
+    image: concrete_boots_2.jpg
+  - type: photo
+    image: concrete_boots_3.jpg
+  - type: photo
+    image: concrete_boots_4.jpg
+  - type: photo
+    image: concrete_boots_5.jpg
+  - type: photo
+    image: concrete_boots_crew.jpg
+
 assets:
   - type: poster
     image: concrete_boots_poster.jpg

@@ -16,10 +16,32 @@ crew:
     name: Tess Monro-Somerville
   - role: Technical Director
     name: Dave Hanks
+  - role: Photography
+    name: Nick Barker
+
+photos:
+  - type: photo
+    image: the_rehearsal_1.jpg
+  - type: photo
+    image: the_rehearsal_2.jpg
+  - type: photo
+    image: the_rehearsal_3.jpg
+  - type: photo
+    image: the_rehearsal_4.jpg
+  - type: photo
+    image: the_rehearsal_5.jpg
+  - type: photo
+    image: the_rehearsal_6.jpg
+  - type: photo
+    image: the_rehearsal_7.jpg
+  - type: photo
+    image: the_rehearsal_8.jpg
+  - type: photo
+    image: the_rehearsal_9.jpg
 
 assets:
   - type: poster
-    image: the_rehersal_nnt_poster.jpg
+    image: the_rehearsal_poster.jpg
 
 ---
 
