@@ -10,6 +10,17 @@ date_end: 2013-11-19
 venue:
   - New Theatre Studio A
 
+cast:
+  - name: Charlotte Prosser
+
+crew:
+  - role: Director
+    name: Emily Zinkin
+  - role: Producer
+    name: James Gregory
+  - role: 
+    name: Zoe Langston-Blass
+
 assets:
   - type: poster
     image: conviction_poster.jpg
