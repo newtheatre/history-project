@@ -10,6 +10,22 @@ date_end: 2013-12-03
 venue:
   - New Theatre Studio A
 
+cast:
+  - role: unknown
+    name: Ricki Crook
+  - role: unknown
+    name: Omid Faramarzi
+  - name: unknown
+  - name: unknown
+  - name: unknown
+
+crew:
+  - role: Director
+    name: Georgina Varley
+  - role: Producer
+    name: Holly Pownall
+
+
 assets:
   - type: poster
     image: letting_go_poster.jpg
