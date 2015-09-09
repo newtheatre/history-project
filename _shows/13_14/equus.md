@@ -9,6 +9,36 @@ date_end: 2014-04-05
 venue:
   - New Theatre
 
+cast:
+  - role: Alan Strang
+    name: Ajay Stevenson
+  - role: Martin Dysart
+    name: Ben Williamson
+  - role: Dora Strang
+    name: Amelia Gann
+  - role: Frank Strang
+    name: Ben Hollands
+  - role: Hesther Soloman
+    name: Grace Roberts
+  - role: Jill Mason
+    name: Daniella Blackford
+  - role: Harry Dalton
+    name: Omid Faramarzi
+  - role: Nurse
+    name: Ruth Wogan
+  - role: Horseman/Nugget
+    name: Matt Hodges
+  - role: Ensemble
+    name: Charlotte Prosser
+  - role: Ensemble
+    name: Nick Cain
+  - role: Ensemble
+    name: Hollie Blaber
+  - role: Ensemble
+    name: Kitty Martens
+  - role: Ensemble
+    name: Oliver Smith
+
 crew:
   - role: Director
     name: Ricki Crook
