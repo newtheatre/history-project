@@ -9,6 +9,14 @@ date_end: 2013-10-18
 venue:
   - New Theatre
 
+crew:
+  - role: Coordinator
+    name: James McAndrew
+  - role: Directors
+    name: unknown
+  - role: Technical Director
+    name: Will Pimblett
+
 assets:
   - type: poster
     image: freshers_fringe_2013_poster.jpg
