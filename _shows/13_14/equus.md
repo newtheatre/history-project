@@ -57,6 +57,28 @@ crew:
   - role: Technical Operator
     name: Joseph Heil
 
+photos:
+  - type: photo
+    image: equus_1.jpg
+  - type: photo
+    image: equus_2.jpg
+  - type: photo
+    image: equus_3.jpg
+  - type: photo
+    image: equus_4.jpg
+  - type: photo
+    image: equus_5.jpg
+  - type: photo
+    image: equus_6.jpg
+  - type: photo
+    image: equus_7.jpg
+  - type: photo
+    image: equus_8.jpg
+  - type: photo
+    image: equus_9.jpg
+  - type: photo
+    image: equus_10.jpg
+
 assets:
   - type: poster
     image: equus_poster.jpg
