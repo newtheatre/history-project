@@ -10,9 +10,14 @@ venue:
   - New Theatre
 
 cast:
-  - name: James Bentley
-  - name: Laura Gallop
-  - name: Ollie Short
+  - role: Presley Stray
+    name: James Bentley
+  - role: Haley Stray
+    name: Laura Gallop
+  - role: Cosmo Disney
+    name: Shannon Smith
+  - role: Pitchfork Cavalier
+    name: Ollie Short
 
 crew:
   - role: Director
