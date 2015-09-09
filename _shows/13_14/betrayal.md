@@ -52,6 +52,8 @@ crew:
     name: Wesley Nash
   - role: Technical Operator
     name: Logan Wamsley
+  - role: Photography
+    name: Erina Bogoeva
 
 assets:
   - type: poster
