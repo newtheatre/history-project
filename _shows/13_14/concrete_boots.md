@@ -34,6 +34,8 @@ crew:
     name: Tom Gloess
   - role: Publicity Designer
     name: Ben Hollands
+  - role: Photography
+    name: Erina Bogoeva
 
 assets:
   - type: poster
