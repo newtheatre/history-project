@@ -10,28 +10,32 @@ venue:
   - New Theatre Studio A
 
 cast:
-  - role: unknown
+  - role: Donald
     name: Sam Greenwood
-  - role: unknown
-    name: James Gooderson
-  - role: unknown
-    name: Boo Jackson
-  - role: unknown
+  - role: Willie
     name: Penny Bainbridge
-  - role: unknown
-    name: Jess Curtis
-  - role: unknown
+  - role: Peter
     name: Nick Cain
-  - role: unknown
+  - role: John
+    name: James Gooderson
+  - role: Angela
     name: Nina Blythe
+  - role: Audrey
+    name: Jess Curtis
+  - role: Raymond
+    name: Boo Jackson
 
 crew:
   - role: Director
     name: Ollie Short
-  - role: Producer
+  - role: Director
     name: Jessica McNamee
+  - role: Producer
+    name: Clara Brooks
   - role: Technical Director
     name: Nathan Penney
+  - role: Stage Manager
+    name: Rachel Angeli
 
 assets:
   - type: poster
