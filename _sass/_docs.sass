@@ -29,18 +29,20 @@ $inner-width: 87%
     float: left
     width: 50%
     background: darken($color-nnt-purple, 30%)
-    &.current
-      background: darken($color-nnt-purple, 22%)
-      a
-      color: darken($color-text-white, 2%)
 
     a
       display: block
       padding: $baseline / 2
       text-align: center
-      color: $color-text-white
+      color: darken($color-nnt-purple, 20%) // Slightly lighter than the background for inactive tab
       text-transform: uppercase
       font-size: $base-font-size * 0.8
+
+    &.current
+      background: darken($color-nnt-purple, 22%)
+      a
+        color: darken($color-text-white, 2%)
+
 
 #github-issues-widget
   background: #f7f7f7
