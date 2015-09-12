@@ -47,6 +47,11 @@ crew:
 - role: Chief Wallpaperer
   name: Mike Dawe
 
+assets:
+  - type: poster
+    image: bedroom_farce_poster.jpg
+
+
 published: true
 ---
 
