@@ -19,6 +19,7 @@ permalink: pretty
 
 gems:
 - jekyll-sitemap
+- jekyll-redirect-from
 - jekyll-coffeescript
 - jekyll-jsminify
 
@@ -27,10 +28,18 @@ exclude: [vendor, node_modules]
 collections:
   shows:
     output: true
+    # Generate the legacy path for 301 redirect re. #142 Make semantic and pretty urls
+    permalink: years/:path/
   committees:
     output: true
+    permalink: years/:path/committee/
   years:
     output: true
+    permalink: years/:path/
+  people:
+    layout: person
+    output: true
+    permalink: people/:path/
 
 defaults:
   # Shows
@@ -95,6 +104,10 @@ image:
     show_photo:
       attr:
         alt: Show photo
+      width: 300
+    person_headshot:
+      attr:
+        alt: Person headshot
       width: 300
 
 sass:

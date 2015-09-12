@@ -1,0 +1,25 @@
+# This file defines the season periods, and their order, that are accepted as the period attribute for shows
+
+- period: Autumn
+  title: Autumn
+  description: Season of shows in the autumn semester
+
+- period: Spring
+  title: Spring
+  description: Season of shows in the spring semester
+
+- period: Edinburgh
+  title: Edinburgh
+  description: Shows taking place at the Edinburgh Festival Fringe
+  
+- period: Previews
+  title: Previews
+  description: Previews of shows going to the Edinburgh Festival Fringe
+
+- period: Lakeside
+  title: Lakeside
+  description: Now replaced by using 'lakeside' as the season
+
+- period: External
+  title: External
+  description: Now replaced by using 'external' as the season

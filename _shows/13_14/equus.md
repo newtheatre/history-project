@@ -9,6 +9,76 @@ date_end: 2014-04-05
 venue:
   - New Theatre
 
+cast:
+  - role: Alan Strang
+    name: Ajay Stevenson
+  - role: Martin Dysart
+    name: Ben Williamson
+  - role: Dora Strang
+    name: Amelia Gann
+  - role: Frank Strang
+    name: Ben Hollands
+  - role: Hesther Soloman
+    name: Grace Roberts
+  - role: Jill Mason
+    name: Daniella Blackford
+  - role: Harry Dalton
+    name: Omid Faramarzi
+  - role: Nurse
+    name: Ruth Wogan
+  - role: Horseman/Nugget
+    name: Matt Hodges
+  - role: Ensemble
+    name: Charlotte Prosser
+  - role: Ensemble
+    name: Nick Cain
+  - role: Ensemble
+    name: Hollie Blaber
+  - role: Ensemble
+    name: Kitty Martens
+  - role: Ensemble
+    name: Oliver Smith
+
+crew:
+  - role: Director
+    name: Ricki Crook
+  - role: Producer
+    name: Charlotte Prosser
+  - role: Technical Director
+    name: Will Pimblett
+  - role: Lighting Designer
+    name: Tessa Denney
+  - role: Technical Operator
+    name: Nathan Penney
+  - role: Technical Operator
+    name: Tom Gloess
+  - role: Technical Operator
+    name: Hannah Doyle
+  - role: Technical Operator
+    name: Joseph Heil
+
+photos:
+  - type: photo
+    image: equus_1.jpg
+  - type: photo
+    image: equus_2.jpg
+  - type: photo
+    image: equus_3.jpg
+  - type: photo
+    image: equus_4.jpg
+  - type: photo
+    image: equus_5.jpg
+  - type: photo
+    image: equus_6.jpg
+  - type: photo
+    image: equus_7.jpg
+  - type: photo
+    image: equus_8.jpg
+  - type: photo
+    image: equus_9.jpg
+  - type: photo
+    image: equus_10.jpg
+
 assets:
   - type: poster
     image: equus_poster.jpg

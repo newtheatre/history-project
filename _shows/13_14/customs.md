@@ -10,6 +10,9 @@ date_end: 2014-04-01
 venue:
   - New Theatre
 
+crew:
+  - role: Technical Director
+    name: James Gregory
 
 assets:
   - type: poster

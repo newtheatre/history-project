@@ -100,6 +100,25 @@ crew:
 assets:
   - type: poster
     image: molly_sweeney_poster.jpg
+
+photos:
+  - type: photo
+    image: molly_sweeney_1.jpg
+  - type: photo
+    image: molly_sweeney_2.jpg
+  - type: photo
+    image: molly_sweeney_3.jpg
+  - type: photo
+    image: molly_sweeney_4.jpg
+  - type: photo
+    image: molly_sweeney_5.jpg
+  - type: photo
+    image: molly_sweeney_6.jpg
+  - type: photo
+    image: molly_sweeney_7.jpg
+  - type: photo
+    image: molly_sweeney_8.jpg
+
 ---
 
 Molly Sweeney has been blind since she was ten months old. Now in her early forties, she has the chance to see again thanks to her surgeon Mr. Rice. However, she finds herself a stranger in the sighted world and things soon begin to take their toll on her and her marriage to her husband Frank.

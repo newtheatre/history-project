@@ -9,6 +9,16 @@ date_end: 2014-04-11
 venue:
   - New Theatre
 
+crew:
+  - role: Technical Director
+    name: Michael Ferdenzi
+  - role: Lighting Designer
+    name: Tyler-Antonia Gordon
+  - role: Technical Operator
+    name: Rory O'Shea
+  - role: Technical Operator
+    name: Sebastian Frend
+
 assets:
   - type: poster
     image: that_face_poster.jpg

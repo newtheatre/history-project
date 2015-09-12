@@ -1,5 +1,5 @@
 ---
-title: "Rosencrantz & Guildenstern are Dead"
+title: "Rosencrantz and Guildenstern Are Dead"
 playwright:
 period: Spring
 season: In House

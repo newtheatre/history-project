@@ -9,6 +9,50 @@ date_end: 2014-06-06
 venue:
   - New Theatre
 
+cast:
+  - role: Krapp
+    name: Tom Tolond
+
+crew:
+  - role: Director
+    name: Andy Routledge
+  - role: Producer
+    name: Tom Dineen
+  - role: Set Designer
+    name: Alex Jamieson
+  - role: Set Construction
+    name: Aubrey Turner
+  - role: Stage Manager
+    name: Eve Wersocki Morris
+  - role: Technical Director
+    name: Nick Barker
+  - role: Lighting Designer
+    name: Will Pimblett
+  - role: Technical Operator
+    name: Nick Barker
+  - role: Publicity Designer
+    name: Alex Jamieson
+  - role: Publicity Designer
+    name: Nick Barker
+  - role: Photographer
+    name: Alex Jamieson
+  - role: Photographer
+    name: Nick Barker
+
+photos:
+  - type: photo
+    image: krapps_last_tape_1.jpg
+  - type: photo
+    image: krapps_last_tape_2.jpg
+  - type: photo
+    image: krapps_last_tape_3.jpg
+  - type: photo
+    image: krapps_last_tape_4.jpg
+  - type: photo
+    image: krapps_last_tape_5.jpg
+  - type: photo
+    image: krapps_last_tape_6.jpg
+
 assets:
   - type: poster
     image: krapps_last_tape_poster.jpg
