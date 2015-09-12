@@ -6,14 +6,14 @@ module Jekyll
 
     def poster_bar(posters)
       posters_in_bar = 50
-      posters_for_bar = []
+      # posters_for_bar = []
 
       # Do this rather than posters.sample(posters_in_bar) to allow posters_in_bar > posters.size
-      for i in 1..posters_in_bar do
-        posters_for_bar << posters.sample
-      end
+      # for i in 1..posters_in_bar do
+      #   posters_for_bar << posters.sample
+      # end
 
-      return posters_for_bar
+      return posters.sample(posters_in_bar)
     end
 
     def generate(site)

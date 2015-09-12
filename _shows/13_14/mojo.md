@@ -9,6 +9,14 @@ date_end: 2014-06-07
 venue:
   - New Theatre
 
+crew:
+  - role: Director
+    name: Nadia Amico
+  - role: Set Designer
+    name: Natasha Mortimer
+  - role: Lighting Designer
+    name: Tyler-Antonia Gordon
+
 assets:
   - type: poster
     image: mojo_poster.jpg

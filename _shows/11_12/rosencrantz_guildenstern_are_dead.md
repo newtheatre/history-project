@@ -1,5 +1,5 @@
 ---
-title: "Rosencrantz & Guildenstern Are Dead"
+title: "Rosencrantz and Guildenstern Are Dead"
 playwright: Tom Stoppard
 season: In House
 season_sort: 100

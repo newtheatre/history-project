@@ -9,6 +9,52 @@ date_end: 2014-03-15
 venue:
   - New Theatre
 
+cast:
+  - role: Una
+    name: Ginny Lee
+  - role: Ray
+    name: Shannon Smith
+
+crew:
+  - role: Director
+    name: Gus Herbert
+  - role: Producer
+    name: Kat Tye
+  - role: Set Designer
+    name: Chelsea Jayne Wright
+  - role: Stage Manager
+    name: Julia Rincon
+  - role: Technical Director
+    name: Aubrey Turner
+  - role: Lighting Designer
+    name: Aubrey Turner
+  - role: Make Up Artist
+    name: Maddie Hardy
+  - role: Technical Operator
+    name: Lyle Fulton
+  - role: Technical Operator
+    name: Daniel O'Connor
+  - role: Technical Operator
+    name: Chelsea Jayne Wright
+  - role: Publicity Designer
+    name: Nick Barker
+  - role: Photography
+    name: Nick Barker
+
+photos:
+  - type: photo
+    image: blackbird_1.jpg
+  - type: photo
+    image: blackbird_2.jpg
+  - type: photo
+    image: blackbird_3.jpg
+  - type: photo
+    image: blackbird_4.jpg
+  - type: photo
+    image: blackbird_5.jpg
+  - type: photo
+    image: blackbird_6.jpg
+
 assets:
   - type: poster
     image: blackbird_poster.jpg

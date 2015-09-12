@@ -4,6 +4,7 @@ group: about
 current: about
 title: Roadmap
 sort: 30
+js: "<script type='text/javascript' src='/lib/github-issues-widget/github-issues-widget.js'></script>"
 ---
 
 <div class="col-2-3" markdown="1">
@@ -14,8 +15,8 @@ Our current timeline:
 
 - <del>[**27 April**](https://github.com/newtheatre/history-project/milestones/alpha-1): Establish the site and define how data is going to be stored.</del>
 - <del>[**Mid May**](https://github.com/newtheatre/history-project/milestones/alpha-2): Add a number of shows, polish the styling, make sure the site is working well on mobile devices, optimise search.</del>
-- [**July**](https://github.com/newtheatre/history-project/milestones/launch): Have all the shows we have on record entered into the site. Officially launch.
-- **And Beyond**: Continue to collect archive material and update the site. Add alumni bios, continue to improve the site.
+- [**July**](https://github.com/newtheatre/history-project/milestones/update-0): Have all the shows we have on record entered into the site. Officially launch.
+- [**And Beyond**](https://github.com/newtheatre/history-project/milestones/): Continue to collect archive material and update the site. Add alumni bios, continue to improve the site.
 
 </div>
 
@@ -24,6 +25,5 @@ Our current timeline:
 <h3 class="h1-baseline"><i class="octicon octicon-issue-opened"></i> Open Issues</h3>
 
 <div id="github-issues-widget"></div>
-<script type="text/javascript" src="/lib/github-issues-widget/github-issues-widget.js"></script>
 
 </div>

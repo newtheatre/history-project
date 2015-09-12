@@ -1,7 +1,7 @@
 import os
 
 YEAR_START = 1940
-YEAR_END = 2015
+YEAR_END = 2016
 
 years = range(YEAR_START, YEAR_END)
 

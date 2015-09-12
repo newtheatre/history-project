@@ -7,7 +7,7 @@ playwright: Vanessa Bradham
 date_start: 2002-11-20
 date_end: 2002-11-24
 
-cast: 
+cast:
   - role: Pol
     name: Natalie Ghatan
     note: Morning on a rainy day
@@ -20,7 +20,7 @@ cast:
   - role: Bob
     name: Nick Salmon
     note: Capital
-crew: 
+crew:
   - role: Director
     name: Bush
   - role: "Co-Director"
@@ -44,18 +44,18 @@ crew:
     name: Izzy Trednick
   - role: Publicity Designer
     name: Loic Tallon
-venue: 
+venue:
   - New Theatre
 season_sort: 40
-assets: 
+assets:
   - type: programme
-    image: morning_on_a_rainy_day_programme_1.JPG
+    image: morning_on_a_rainy_day_programme_1.jpg
     page: 1
   - type: programme
-    image: morning_on_a_rainy_day_programme_2.JPG
+    image: morning_on_a_rainy_day_programme_2.jpg
     page: 2
   - type: programme
-    image: morning_on_a_rainy_day_programme_3.JPG
+    image: morning_on_a_rainy_day_programme_3.jpg
     page: 3
 ---
 

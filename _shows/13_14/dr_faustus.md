@@ -7,7 +7,45 @@ season_sort: 268
 date_start: 2014-05-12
 date_end: 2014-05-17
 venue:
-  - New Theatre
+  - Djanogly Theatre
+
+cast:
+  - role: Dr Faustus
+    name: Tejiri Obano
+  - role: Mephistophles
+    name: Ajay Stevenson
+  - role: Chorus
+    name: Emma Kendall
+  - role: Chorus
+    name: Zehra Odunayo
+  - role: Chorus
+    name: Alice Markham
+  - role: Chorus
+    name: Kati Hall
+  - role: Chorus
+    name: Amelia Gann
+  - role: Chorus
+    name: Jessica Lundholm
+  - role: Chorus
+    name: Lou Knapp
+  - role: Chorus
+    name: Ruth Wogan
+
+crew:
+  - role: Director
+    name: Martin Berry
+    note: Professional
+  - role: Assistant to Director
+    name: Alice Hildreth
+  - role: Assistant to Producer
+    name: Nick Stevenson
+  - role: Set Designer
+    name: Dorrie Scott
+    note: Professional
+  - role: Assistant to Set Designer
+    name: Hannah Kettle
+  - role: Assistant to Publicity Designer
+    name: Emily Zinkin
 
 assets:
   - type: poster

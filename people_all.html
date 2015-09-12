@@ -1,0 +1,16 @@
+---
+layout: page
+permalink: people/all/
+title: People List
+current: people
+published: true
+sitemap: false
+---
+
+<h2>Alumni Biographies</h2>
+
+<ul>
+{% for person in site.collections.people.docs %}
+  <li><a href="{{ person.url }}">{{ person.title }}</a></li>
+{% endfor %}
+</ul>
