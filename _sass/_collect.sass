@@ -1,0 +1,102 @@
+// Styling for the self service data collection pages
+
+// Layout
+
+.collect-header
+  @include grid-wrap
+  background: #2D9189
+  padding-top: $baseline * 3
+  padding-bottom: $baseline
+  margin-bottom: $baseline * 2
+
+  // Because .collect-header-icon
+  position: relative
+  overflow: hidden
+
+.collect-header-icon
+  position: absolute
+  bottom: -10rem
+  @include abs-right-wrap-pad(0px)
+  font-size: 23em
+  opacity: 0.3
+
+.collect-form
+  @include grid-wrap
+
+.collect-row
+  @include grid-row
+
+  padding-bottom: $baseline * 2
+  border-bottom: 1px solid rgba(255,255,255,0.1)
+  margin-bottom: $baseline * 2
+
+.collect-label
+  @include grid-x-col(5)
+
+.collect-field
+  @include grid-x-col(16-5)
+
+  padding-top: $baseline * 2
+
+.collect-flex-row
+  @include display(flex)
+
+.collect-controls, .collect-message
+  @include grid-x-percent(50%)
+  text-align: center
+
+.collect-submit, .collect-message p
+  width: 60%
+  margin: 0 auto
+
+// Form fields
+
+.collect-text
+  @extend .input-text
+
+.collect-textarea
+  @extend .input-textarea
+
+.collect-submit
+  @extend .input-submit
+
+// Field specifics
+
+.collect-field-title,
+.collect-field-playwright,
+.collect-field-name,
+.collect-field-graduation
+  @include flex(1)
+
+.collect-field-title,
+.collect-field-name
+  @include flex(3)
+  margin-right: 6px
+
+.collect-field-day,
+.collect-field-month,
+.collect-field-year
+  margin-right: 6px
+  width: 6rem
+
+.collect-field-playwright,
+.collect-field-graduation
+  // width: 30%
+
+// Thanks pages
+
+.collect-thanks
+  @include grid-wrap
+  margin-bottom: $baseline * 2
+
+.collect-thanks-icon
+  @include grid-x-percent(30%)
+
+  text-align: center
+
+  i
+    font-size: 14rem
+    color: $color-success
+
+.collect-thanks-content
+  @include grid-x-percent(70%)

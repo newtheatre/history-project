@@ -116,33 +116,14 @@ $report-color-step: -60%
   &:hover
     background: lighten($color-error, 5%)
 
-.report-text, .report-textarea, .report-submit
-  @include block
-  width: 100%
-  font-size: $base-font-size
-  padding: $baseline / 2
+.report-text
+  @extend .input-text
 
 .report-textarea
-  height: 200px
+  @extend .input-textarea
 
 .report-submit
-  width: 100%
-  $bg: lighten($color-info, 20%)
-  background: $bg
-  border: none
-  border-bottom: 4px lighten($color-info, 8%) solid
-  color: $color-text-white
-  @include text-shadow-effect($bg)
-
-  position: relative
-
-  &:active
-    top: 1px
-
-  &.disabled
-    background: $color-grey-dark
-    border-bottom-color: darken($color-grey-dark, 12%)
-    @include text-shadow-effect($color-grey-dark)
+  @extend .input-submit
 
 .improve
   @extend .report
