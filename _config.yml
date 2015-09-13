@@ -97,6 +97,10 @@ image:
         class: show-poster
         alt: Show poster
       width: 440
+    posterwall:
+      attr:
+        alt: Show poster
+      width: 440
     show_asset:
       attr:
         alt: Show asset
@@ -122,6 +126,7 @@ lib:
     - lib/fancybox/source/helpers/jquery.fancybox-buttons.js
     - lib/fancybox/source/helpers/jquery.fancybox-media.js
     - lib/fancybox/source/helpers/jquery.fancybox-thumbs.js
+    - lib/letteringjs/jquery.lettering.js
     - lib/mousetrap/mousetrap.min.js
     - lib/lunr.js/lunr.min.js
 
