@@ -1,0 +1,138 @@
+---
+layout: default
+body_class: header-nobr
+no_report_links: true
+people_names:
+  - Will
+  - Fred
+  - Nick
+  - James
+  - Phil
+  - Anna
+  - Peter
+  - Tess
+
+---
+
+<section class="home-section home-shows wrapper">
+  &nbsp;
+  <div class="home-shows-design-element">
+
+    <div class="posterwall">
+      <div class="posterwall-row">
+        <div class="posterwall-box flex-1-2 posterwall-hang">
+          <div class="posterwall-poster">
+            {% image posterwall for_shows/{{ site.data.assets_posterwall[0].image }} %}
+          </div>
+        </div>
+        <div class="posterwall-box flex-1-2 posterwall-hang">
+          <div class="posterwall-row flex-weight-1">
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[1].image }} %}
+            </div>
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[2].image }} %}
+            </div>
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[3].image }} %}
+            </div>
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[4].image }} %}
+            </div>
+          </div>
+          <div class="posterwall-row flex-weight-1">
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[5].image }} %}
+            </div>
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[6].image }} %}
+            </div>
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[7].image }} %}
+            </div>
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[8].image }} %}
+            </div>
+          </div>
+
+          <div class="posterwall-row flex-weight-2">
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[9].image }} %}
+            </div>
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[10].image }} %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="posterwall-row">
+        <div class="posterwall-poster">
+          {% image posterwall for_shows/{{ site.data.assets_posterwall[11].image }} %}
+        </div>
+        <div class="posterwall-poster">
+          {% image posterwall for_shows/{{ site.data.assets_posterwall[12].image }} %}
+        </div>
+        <div class="posterwall-poster">
+          {% image posterwall for_shows/{{ site.data.assets_posterwall[13].image }} %}
+        </div>
+        <div class="posterwall-poster">
+          {% image posterwall for_shows/{{ site.data.assets_posterwall[14].image }} %}
+        </div>
+        <div class="posterwall-poster">
+          {% image posterwall for_shows/{{ site.data.assets_posterwall[15].image }} %}
+        </div>
+        <div class="posterwall-poster">
+          {% image posterwall for_shows/{{ site.data.assets_posterwall[16].image }} %}
+        </div>
+        <div class="posterwall-poster">
+          {% image posterwall for_shows/{{ site.data.assets_posterwall[17].image }} %}
+        </div>
+        <div class="posterwall-poster">
+          {% image posterwall for_shows/{{ site.data.assets_posterwall[18].image }} %}
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="home-info">
+
+    <p>Piecing together the New Theatre’s dynamic and vibrant history we have collected records on</p>
+
+
+    {% assign shows = site.collections.shows.docs %}
+
+    <div class="home-shows-counter js-lettering">{{shows.size}}</div>
+
+    <p>shows, and counting!</p>
+
+    <p class="home-button"><a href="years/">Explore the archives&hellip;</a></p>
+
+  </div>
+
+</section>
+
+<section class="home-section home-people">
+
+ <div class="home-info">
+  <h2>Alumni Profiles</h2>
+  <p>With lots of alumni...</p>
+ </div>
+
+ <div class="home-people-design-element">
+ {% for person in page.people_names %}
+
+  <div class="home-people-design-element-person">
+    <div class="home-people-design-element-person-head"></div>
+    <div class="home-people-design-element-person-name home-people-design-element-name-colour-{% cycle 'one', 'two', 'three' %}"><span>{{person}}</span></div>
+  </div>
+ {% endfor %}
+ </div>
+
+</section>
+
+<section class="home-section home-contribute">
+ <div class="home-info">
+  <h2>Tell Your Story</h2>
+ </div>
+</section>

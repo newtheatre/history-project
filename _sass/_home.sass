@@ -1,7 +1,166 @@
 // Homepage
 
-.home-main
-  @include grid-x-col(12)
+$golden: 61.8%
+$golden-counterpart: 100% - $golden
 
-.home-aside
-  @include grid-x-col(4)
+$section-colour-one: #11603D // green
+$section-colour-two: #115760
+$section-colour-tre: #601123
+
+.home-info
+  // Container of words
+  h2
+    font-weight: normal
+    font-size: $base-font-size * 3.2
+    line-height: $baseline * 3
+
+  p
+    font-size: $base-font-size * 1.44
+    line-height: $baseline * 2
+
+.home-shows
+  @include grid-row
+
+  background: $section-colour-one
+
+  overflow: hidden
+
+  .home-shows-design-element
+    @include grid-x-percent($golden)
+    position: relative
+    min-height: 300px
+
+    .posterwall
+      position: absolute
+      padding-right: $baseline * 3
+
+  .home-info
+    @include grid-x-percent($golden-counterpart)
+
+// .home-shows-design-element
+//   height: 488px
+
+//   position: relative
+
+  // img
+  //   width: 100%
+
+  // .home-shows-design-element-box
+  //   position: absolute
+  //   bottom: 0
+
+  // $base-width: 365px
+
+  // @mixin show-poster-pos($base, $i)
+  //   left: $base
+  //   @include respond-up(widescreen)
+  //     left: $base + (20px * $i)
+
+  // .home-shows-design-element-box-1
+  //   width: $base-width
+  //   left: 0
+  //   z-index: 10
+  // .home-shows-design-element-box-2
+  //   width: $base-width * 0.88
+  //   bottom: 1px
+  //   z-index: 8
+  //   @include show-poster-pos(140px, 1)
+  // .home-shows-design-element-box-3
+  //   width: $base-width * 0.74
+  //   bottom: 2px
+  //   z-index: 6
+  //   @include show-poster-pos(230px, 2)
+
+.home-people, .home-contribute
+  @include grid-wrap
+  float: left
+  width: 50%
+  min-height: 22 * $baseline
+
+.home-people
+  background: $section-colour-two
+  padding-right: 0 // Remove right wrapper pad
+
+  .home-info
+    @include grid-x-percent(75%)
+  .home-people-design-element
+    @include grid-x-percent(25%)
+
+.home-people-design-element
+
+  width: 32px
+
+  .home-people-design-element-person-head
+    background: #ccc
+    height: 32px
+
+  .home-people-design-element-person-name
+    padding: 3px
+    text-align: center
+    font-size: $base-font-size * 0.6
+
+    span
+      background: $color-text-white
+      padding: 0 4px
+
+  .home-people-design-element-name-colour-one
+    background: red
+  .home-people-design-element-name-colour-two
+    background: green
+  .home-people-design-element-name-colour-three
+    background: blue
+
+.home-contribute
+  background: $section-colour-tre
+  padding-left: 0 // Remove left wrapper pad
+  @include set-property-to-gutter(padding-left) // have a left gutter
+
+
+// Overrides
+
+.home-section
+  // High level block on the home page
+
+  padding-top: $baseline * 2
+  padding-bottom: $baseline * 2
+
+.home-button
+  width: 100%
+  a
+    display: block
+    width: 100%
+    background: $color-text-black
+    padding: $baseline / 4 $baseline / 2
+    color: $color-text-white
+
+
+.home-shows-counter
+  @include grid-clear
+
+  $char-width: 44px
+
+  position: relative
+  overflow: hidden
+
+  width: $char-width * 3
+  font-size: $base-font-size * 3
+  font-family: 'Open Sans', Helvetica, sans-serif
+  color: #fff
+  line-height: $baseline * 5
+  line-height: 1em
+  margin-bottom: $baseline
+
+  .char1, .char2, .char3, .char4
+    @include linear-gradient(#111 0%, #3a3a3a 50%, #2c2c2c 51%, #111 100%)
+    width: $char-width
+    text-align: center
+    display: block
+    float: left
+    padding: 5px 0
+
+    border-radius: 6px
+    border-left: 2px solid #222
+
+  .char4
+    border-right: 2px solid #222
+
