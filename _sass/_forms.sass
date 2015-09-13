@@ -1,0 +1,27 @@
+.input-text, .input-textarea, .input-submit
+  @include block
+  width: 100%
+  font-size: $base-font-size
+  padding: $baseline / 2
+
+.input-textarea
+  height: 200px
+
+.input-submit
+  width: 100%
+  $bg: lighten($color-info, 20%)
+  background: $bg
+  border: none
+  border-bottom: 4px lighten($color-info, 8%) solid
+  color: $color-text-white
+  @include text-shadow-effect($bg)
+
+  position: relative
+
+  &:active
+    top: 1px
+
+  &.disabled
+    background: $color-grey-dark
+    border-bottom-color: darken($color-grey-dark, 12%)
+    @include text-shadow-effect($color-grey-dark)

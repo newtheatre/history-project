@@ -1,0 +1,129 @@
+---
+layout: collect
+group: collect
+current: show
+title: Tell us about a show
+header_icon: fa fa-ticket
+---
+
+<section class="collect-form">
+  <form name="collect-show-form" id="collect-show-form" action="http://ntbot.io.fullaf.com/post_issue" method="POST">
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>Show</h3>
+        <p>What's the name and who wrote it? If devised or other put that in instead.</p>
+      </div>
+      <div class="collect-field collect-flex-row">
+        <input class="collect-text collect-field-title" type="text" name="title" required placeholder="The Pillowman" />
+        <input class="collect-text collect-field-playwright" type="text" name="playwright" placeholder="by Martin McDonagh" />
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>Dates</h3>
+        <p>What were the dates of the first and last performances?</p>
+        <p>If you're unsure, the show had multiple runs or some other complexity leave us a note at the end of this form</p>
+      </div>
+      <div class="collect-field">
+        <div class="collect-flex-row">
+          <input class="collect-text collect-field-day" type="text" name="date_start_day" placeholder="DD" />
+          <input class="collect-text collect-field-month" type="text" name="date_start_month" placeholder="MM" />
+          <input class="collect-text collect-field-year" type="text" name="date_start_year" placeholder="YYYY" />
+        </div>
+        <div class="collect-flex-row">
+          <input class="collect-text collect-field-day" type="text" name="date_end_day" placeholder="DD" />
+          <input class="collect-text collect-field-month" type="text" name="date_end_month" placeholder="MM" />
+          <input class="collect-text collect-field-year" type="text" name="date_end_year" placeholder="YYYY" />
+        </div>
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>Type of show</h3>
+        <p>Was this show part of the main New Theatre season, an external show, an Edinburgh show or something else?</p>
+      </div>
+      <div class="collect-field">
+        <input class="collect-text" type="text" name="type" required placeholder="Main season" />
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>Venue</h3>
+        <p>Where was the show performed?</p>
+      </div>
+      <div class="collect-field">
+        <input class="collect-text" type="text" name="venue" required placeholder="New Theatre" />
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>Synopsis</h3>
+        <p>If the show was student written or is relatively unknown please provide a synopsis. If the synopsis used for the show's publicity that would be ideal.</p>
+      </div>
+      <div class="collect-field">
+        <textarea class="collect-textarea" name="synopsis" placeholder="In an unnamed police state, a writer has been arrested because the content of his stories bares a striking resemblance to a series of gruesome child murders. Interrogated by two brutal detectives, he claims to know nothing of such murders. But also in their custody is his younger, brain damaged brother, who perhaps knows more than he first lets on. A darkly comic thriller like no other."></textarea>
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>Cast</h3>
+        <p>The roles and full names of those in the show. Please provide as much detail as you can.</p>
+      </div>
+      <div class="collect-field">
+        <textarea class="collect-textarea" name="cast" placeholder="Katurian - Sam Haywood
+Ariel - Will Randall
+Tupolski - Alex Hollingsworth..."></textarea>
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>Crew</h3>
+        <p>The roles and full names of the crew. Please provide as much detail as you can.</p>
+      </div>
+      <div class="collect-field">
+        <textarea class="collect-textarea" name="crew" placeholder="Director - James McAndrew
+Producer - Nick Stevenson
+Set Designer - Chelsea Jayne Wright"></textarea>
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>Anything Else</h3>
+        <p>Other details about the show.</p>
+      </div>
+      <div class="collect-field">
+        <textarea class="collect-textarea" name="other" placeholder=""></textarea>
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>Your Details</h3>
+        <p>Name and year of graduation. We may contact you using your alumni membership contact details.</p>
+        <p>If you have not yet registered for the Alumni Network <a href="http://newtheatre.org.uk/alumni/registration/" target="_blank">please do so here</a>.</p>
+      </div>
+      <div class="collect-field collect-flex-row">
+        <input class="collect-text collect-field-name" type="text" name="name" required placeholder="Joe Bloggs" />
+        <input class="collect-text collect-field-graduation" type="text" name="graduation" required placeholder="1980" />
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-message">
+        <p>Please send any photographs or publicity materials to <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+      </div>
+      <div class="collect-controls">
+        <button class="collect-submit" type="submit" />Submit</button>
+      </div>
+    </div>
+
+  </form>
+</section>
