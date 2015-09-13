@@ -15,7 +15,7 @@ Our current timeline:
 
 - <del>[**27 April**](https://github.com/newtheatre/history-project/milestones/alpha-1): Establish the site and define how data is going to be stored.</del>
 - <del>[**Mid May**](https://github.com/newtheatre/history-project/milestones/alpha-2): Add a number of shows, polish the styling, make sure the site is working well on mobile devices, optimise search.</del>
-- [**July**](https://github.com/newtheatre/history-project/milestones/update-0): Have all the shows we have on record entered into the site. Officially launch.
+- [**28 September**](https://github.com/newtheatre/history-project/milestones/launch): Have all the shows we have on record entered into the site. Officially launch via newsletter.
 - [**And Beyond**](https://github.com/newtheatre/history-project/milestones/): Continue to collect archive material and update the site. Add alumni bios, continue to improve the site.
 
 </div>
