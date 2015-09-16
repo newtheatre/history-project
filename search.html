@@ -64,9 +64,20 @@ search_exclude: true
     </div>
   </script>
   <script type="text/x-template" id="search-message-empty">
+
     <div class="search-results-empty">
-      <h2>Nope, nothing found</h2>
-      <p>We couldn't find anything about <%= query %></p>
+      <h2>Nope, nothing here&hellip;</h2>
+      <p>Sorry, but we couldn't find anything on this site about "<%= query %>"</p>
+
     </div>
+
+    <div class="search-results-collect">
+      <div class="box-info">
+        <i class="ion-help"></i>
+        <h4>Should there be something here?</h4>
+        <p>We're still a long way off collecting every single show. If you know of one that isn't here please <a href="/collect/show">let us know!</a></p>
+      </div>
+    </div>
+
   </script>
 </div>
