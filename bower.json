@@ -25,7 +25,8 @@
     "report-issue-post": "https://github.com/wjdp/report-issue-post.git",
     "underscore": "~1.8.3",
     "jquery": "~2.1.4",
-    "octicons": "https://github.com/wjdp/octicons.git#91e1adcd80bbb314f899e65971b39fac94489b4f"
+    "octicons": "https://github.com/wjdp/octicons.git#91e1adcd80bbb314f899e65971b39fac94489b4f",
+    "lunr.js": "~0.5.12"
   },
   "resolutions": {
     "bourbon": "~4.2.2"

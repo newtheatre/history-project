@@ -3,6 +3,7 @@ module Jekyll
     priority :highest
 
     def generate(site)
+      puts "Processing shows..."
       all_shows = site.collections["shows"].docs
       years = site.collections["years"].docs
 

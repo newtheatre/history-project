@@ -3,6 +3,7 @@ module Jekyll
     priority :high
 
     def generate(site)
+      puts "Processing committees..."
       committees = site.collections["committees"].docs
       committees_by_year = Hash.new
 
