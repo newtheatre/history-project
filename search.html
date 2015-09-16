@@ -9,15 +9,12 @@ search_exclude: true
 
 <div class="search-form">
   <div class="search-form-title">
-    <h1>Site Search</h1>
+    <h1><i class="fa fa-search"></i></h1>
   </div>
   <!-- Search form -->
   <form method="get" action="/search" data-search-form>
   <div class="search-form-text">
     <input class="search-q" type="search" name="q" id="q" placeholder="Enter search term" data-search-input />
-  </div>
-  <div class="search-form-actions">
-    <button class="button button-search" type="submit"><i class="fa fa-search"></i></button>
   </div>
   </form>
 </div>
@@ -29,9 +26,6 @@ search_exclude: true
     These search results are very much in beta. If you find any bugs, such as pages not showing up you know exist, please report them using the button on the right.
   </div>
 
-  <p data-search-found>
-    <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
-  </p>
   <div data-search-results></div>
 
 
@@ -69,5 +63,10 @@ search_exclude: true
     <% } %>
     </div>
   </script>
-
+  <script type="text/x-template" id="search-message-empty">
+    <div class="search-results-empty">
+      <h2>Nope, nothing found</h2>
+      <p>We couldn't find anything about <%= query %></p>
+    </div>
+  </script>
 </div>
