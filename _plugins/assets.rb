@@ -17,6 +17,7 @@ module Jekyll
     end
 
     def generate(site)
+      puts "Processing archive assets..."
       all_shows = site.data["shows"]
 
       posters = []
