@@ -1,6 +1,7 @@
 # If search page
 
-JSON_FEED_URL = '/feeds/search.json'
+INDEX_URL = '/feeds/search_index.json'
+REVERSE_INDEX_URL = '/feeds/search_index_reverse.json'
 TEMPLATE_RESULT = '#search-result'
 TEMPLATE_EMPTY = '#search-message-empty'
 RENDER_TO = '[data-search-results]'
@@ -30,37 +31,21 @@ configureWindow = ->
     query = $(this).val()
     sView.search(query)
 
-index = lunr ->
-  @field 'title',
-    boost: 10
-  @field 'body'
-  @field 'keywords',
-    boost: 2
-  @field 'playwright',
-    boost: 2
-  @field 'cast',
-    boost: 5
-  @field 'crew',
-    boost: 5
-  @ref 'url'
-
+index = new Object
 reverse_index = new Object
 
-populateIndex = (data) ->
+loadIndex = ->
   # Populate the lunr index with page data
-  console.time 'populateIndex'
-  data.forEach (item) ->
-    reverse_index[ item['link'] ] = item
-    index.add
-      title: item['title']
-      body: item['content']
-      playwright: item['playwright']
-      cast: item['cast']
-      crew: item['crew']
-      url: item['link']
-  console.timeEnd 'populateIndex'
-
-  indexReady()
+  console.time 'loadIndex'
+  $.get INDEX_URL, (data) ->
+    index = lunr.Index.load(data)
+    $.get REVERSE_INDEX_URL, (data) ->
+      reverse_index = data
+      # Search is ready
+      indexReady()
+    , 'json'
+  , 'json'
+  console.timeEnd 'loadIndex'
 
 doSearch = (query) ->
   # The actual search code. Take query, return useful array.
@@ -111,4 +96,4 @@ class SearchResultView
 # Setup
 $(document).ready ->
   if $('body').hasClass 'search'
-    $.get JSON_FEED_URL, populateIndex, 'json'
+    loadIndex()
