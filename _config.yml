@@ -123,6 +123,7 @@ lib:
     - lib/fancybox/source/helpers/jquery.fancybox-media.js
     - lib/fancybox/source/helpers/jquery.fancybox-thumbs.js
     - lib/mousetrap/mousetrap.min.js
+    - lib/lunr.js/lunr.min.js
 
 # Config for the prose editor
 prose:

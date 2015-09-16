@@ -3,6 +3,7 @@ module Jekyll
     priority :normal  # Should be one of the last to execute
 
     def generate(site)
+      puts "Processing years..."
       years = site.collections["years"].docs
       committees = site.collections["committees"].docs
 
