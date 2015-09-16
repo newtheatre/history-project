@@ -8,3 +8,4 @@
 {% include_root _coffee/keyboard.coffee %}
 {% include_root _coffee/report.coffee %}
 {% include_root _coffee/collect.coffee %}
+{% include_root _coffee/search.coffee %}

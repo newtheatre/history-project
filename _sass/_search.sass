@@ -9,10 +9,10 @@ body.search
   padding-top: $baseline
   padding-bottom: $baseline
   .search-form-title
-    @include grid-x-col(6)
+    @include grid-x-col(3)
 
-  .search-form-text, .search-form-actions
-    padding-top: $baseline / 2
+  .search-form-text
+    @extends .h1-baseline
     input, .button
       font-size: $base-font-size * 1.2
       padding: $baseline / 4
@@ -20,9 +20,7 @@ body.search
       width: 100%
 
   .search-form-text
-    @include grid-x-col(7)
-  .search-form-actions
-    @include grid-x-col(3)
+    @include grid-x-col(13)
 
   .search-q
     background: none
