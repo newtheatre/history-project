@@ -12,7 +12,8 @@ body.search
     @include grid-x-col(3)
 
   .search-form-text
-    @extends .h1-baseline
+    // Same as h1 baseline to match icon
+    line-height: $baseline * 3
     input, .button
       font-size: $base-font-size * 1.2
       padding: $baseline / 4
@@ -30,6 +31,7 @@ body.search
 
 .search-results
   @include grid-wrap
+  @include grid-row
 
 .search-result
   @include block
@@ -46,3 +48,8 @@ body.search
     font-style: italic
   .search-result-playwright
     font-weight: 200
+
+.search-results-empty
+  @include grid-x-col(10)
+.search-results-collect
+  @include grid-x-col(6)
