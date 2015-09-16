@@ -8,8 +8,8 @@ layout: default
   <div class="breadcrumb-inner">
 
     <div class="breadcrumb-controls">
-      <a {% if show.previous %}href="{{show.previous.url}}" class="enabled"{% else %}href="{{ show.year.url }}" class="disabled"{% endif %} title="Previous Show"><i class="ion-chevron-left"></i></a>
-      <a {% if show.next %}href="{{show.next.url}}" class="enabled"{% else %}href="{{ show.year.url }}" class="disabled"{% endif %} title="Next Show"><i class="ion-chevron-right"></i></a>
+      <a {% if show.previous %}href="{{show.previous.url}}" class="enabled"{% else %}href="{{ show.year_page.url }}" class="disabled"{% endif %} title="Previous Show"><i class="ion-chevron-left"></i></a>
+      <a {% if show.next %}href="{{show.next.url}}" class="enabled"{% else %}href="{{ show.year_page.url }}" class="disabled"{% endif %} title="Next Show"><i class="ion-chevron-right"></i></a>
     </div>
 
     <ul class="breadcrumb-list">
