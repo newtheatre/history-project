@@ -1,6 +1,6 @@
 {% capture page_path %}{% if page.collection %}{{ page.relative_path }}{% else %}{{ page.path }}{% endif %}{% endcapture %}
 <div id="report-this-page" class="side-tab report-tab">
-  <a href="https://github.com/newtheatre/history-project/issues/new?body={{page.url}}">
+  <a href="https://github.com/newtheatre/history-project/issues/new?body={{page.url}}" data-proofer-ignore>
     <i class="octicon octicon-issue-opened"></i><p class="report-tab-text">Report This Page</p>
   </a>
 </div>
@@ -45,6 +45,7 @@
   </div>
 </div>
 
+{% unless page.editable == false %}
 <div id="improve" class="improve">
   <div data-report-close class="improve-bg"></div>
   <div id="improve-modal" class="improve-modal">
@@ -53,13 +54,14 @@
     <div id="improve-modal-content">
       <p>Anyone can propose improvements to this page, while quite easy this is a multi-step process and you'll also need a free <a href="https://github.com/join">GitHub account</a>. Alternatively you can file a report for this page and have an editor do the work for you.</p>
 
+
       <div class="improve-actions">
         <div class="improve-action">
           <a href="{{ edit_link }}" class="button button-improve">Propose improvements</a>
           <p>Slower, but helps us more.</p>
         </div>
         <div class="improve-action">
-          <a data-report-this-page href="#" class="button button-report">File a report instead</a>
+          <a data-report-this-page class="button button-report" href="https://github.com/newtheatre/history-project/issues/new?body={{page.url}}" data-proofer-ignore>File a report instead</a>
           <p>Quicker, less technically demanding.</p>
         </div>
       </div>
@@ -67,6 +69,7 @@
     </div>
   </div>
 </div>
+{% endunless %}
 
 <script type="text/template" id="report-success-template">
   <div class="box-success">

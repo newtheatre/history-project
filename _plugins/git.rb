@@ -18,7 +18,7 @@ module Jekyll
           result << log.date.strftime("%d %b")
           result << " - <a href='https://github.com/newtheatre/history-project/commit/"
           result << log.sha
-          result << "/'>"
+          result << "/' data-proofer-ignore>"
           result << log.message
           result << "</a></li>"
           index += 1
@@ -43,7 +43,7 @@ module Jekyll
           result << log.date.strftime("%d %b")
           result << " - <a href='https://github.com/newtheatre/history-project/commit/"
           result << log.sha
-          result << "/'>"
+          result << "/' data-proofer-ignore>"
           result << log.message
           result << "</a>"
           index += 1
