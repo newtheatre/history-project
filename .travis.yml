@@ -13,7 +13,7 @@ install:
   - bower install
 script: _bin/build.sh
 after_script:
- - jsonlint -q _site/feeds/search.json
+ - _bin/test.sh
  - _bin/deploy.sh
 branches:
   only:
