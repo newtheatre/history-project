@@ -30,11 +30,6 @@ module Jekyll
         legacy_path = "shows/#{show.data["year"]}/#{show.basename_without_ext}.html"
         show.data["redirect_from"] = legacy_path
 
-        if show.data.has_key?("cast") and show.data["cast"].class == Array
-          fill_people_reverse_index(show, show.data["cast"], "people_ri_shows", site) end
-        if show.data.has_key?("crew") and show.data["crew"].class == Array
-          fill_people_reverse_index(show, show.data["crew"], "people_ri_shows", site) end
-
       end
 
       # Sort Shows
@@ -57,6 +52,12 @@ module Jekyll
         show.data["index"] = index
         show.data["next"] = sorted_shows[index + 1]
         show.data["previous"] = sorted_shows[index - 1]
+
+        # Extract cast/crew data for reverse indexing
+        if show.data.has_key?("cast") and show.data["cast"].class == Array
+          fill_people_reverse_index(show, show.data["cast"], "people_ri_shows", site) end
+        if show.data.has_key?("crew") and show.data["crew"].class == Array
+          fill_people_reverse_index(show, show.data["crew"], "people_ri_shows", site) end
 
         # Set the show poster attribute, see #117
         if show.data["assets"]
