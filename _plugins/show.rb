@@ -29,6 +29,12 @@ module Jekyll
         # Generate the legacy path for 301 redirect re. #142 Make semantic and pretty urls
         legacy_path = "shows/#{show.data["year"]}/#{show.basename_without_ext}.html"
         show.data["redirect_from"] = legacy_path
+
+        if show.data.has_key?("cast") and show.data["cast"].class == Array
+          fill_people_reverse_index(show, show.data["cast"], site) end
+        if show.data.has_key?("crew") and show.data["crew"].class == Array
+          fill_people_reverse_index(show, show.data["crew"], site) end
+
       end
 
       # Sort Shows

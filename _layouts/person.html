@@ -32,4 +32,10 @@ layout: default
   <div class="person-photo">
     {% image person_headshot people/{{ person.headshot }} %}
   </div>
+
+  <div class="person-shows">
+  {% for show in person.shows %}
+  {{ show.title }}<br />
+  {% endfor %}
+  </div>
 </div>

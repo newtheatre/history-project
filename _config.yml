@@ -108,7 +108,7 @@ image:
     person_headshot:
       attr:
         alt: Person headshot
-      width: 300
+      width: 350
 
 sass:
   style: :compressed
