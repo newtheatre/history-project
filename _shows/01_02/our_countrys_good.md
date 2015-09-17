@@ -21,7 +21,7 @@ cast:
   - role: Captain Jeremy Campbell
     name: Tom King
   - role: Liutenant Will Dawes
-    name: Marni Miller Becker
+    name: Marni Miller-Becker
   - role: Liutenant George Johnston
     name: Stephanie Ward
   - role: 2nd Liutenant Ralph Clark
@@ -35,7 +35,7 @@ cast:
   - role: Ketch Freeman
     name: Joe Arkley
   - role: Mary Brenham
-    name: Marni Miller Becker
+    name: Marni Miller-Becker
   - role: Dabby Bryant
     name: "Rhoda Ofori-Attah"
   - role: Robert Sideway
@@ -51,7 +51,7 @@ cast:
   - role: John Arscott
     name: Tom King
   - role: Meg Long
-    name: Marni Miller Becker
+    name: Marni Miller-Becker
   - role: Aborigine
     name: "Rhoda Ofori-Attah"
 crew:
@@ -64,7 +64,7 @@ crew:
   - role: Stage Manager
     name: James Law
   - role: Lighting Designer
-    name: "Adam Godden |"
+    name: Adam Godden
   - role: Lighting Designer
     name: Caroline Blinkhorn
   - role: Sound

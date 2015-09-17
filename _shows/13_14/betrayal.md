@@ -27,15 +27,15 @@ crew:
   - role: Set Designer
     name: Tyler-Antonia Gordon
   - role: Set Designer
-    name: Chelsea Wright
+    name: Chelsea Jayne Wright
   - role: Stage Manager
     name: Marguerite Jeanson
   - role: Stage Manager
-    name: Jenny Kohnhurst
+    name: Jenny Kohnhorst
   - role: Stage Manager
     name: Chloe Rushby
   - role: Technical Director
-    name: Joanna Blunt
+    name: Joanne Blunt
   - role: Lighting Designer
     name: Tessa Denney
   - role: Make Up / Costumes

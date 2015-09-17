@@ -9,13 +9,13 @@ venue:
 date_start: 2011-03-02
 date_end: 2011-03-05
 
-crew:
+cast:
   - role: Mark
     name: Chris Walters
   - role: Louise
-    name: Flapgood
+    name: Flo Hapgood
 
-cast:
+crew:
   - role: Director
     name: Gus Miller
   - role: Producer

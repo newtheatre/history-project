@@ -25,9 +25,9 @@ cast:
   - role: Chorus
     name: Amelia Gann
   - role: Chorus
-    name: Jessica Lundholm
+    name: Jess Lundholm
   - role: Chorus
-    name: Lou Knapp
+    name: Louise Knapp
   - role: Chorus
     name: Ruth Wogan
 

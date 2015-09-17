@@ -1,6 +1,6 @@
 ---
 title: Back to Oblivion
-playwright: Matthew Miller
+playwright: Matt Miller
 student_written: true
 season: Fringe
 season_sort: 55
@@ -19,13 +19,13 @@ cast:
 
 crew:
   - role: Director
-    name: Matthew Miller
+    name: Matt Miller
   - role: Director
     name: Lilly Dawson
   - role: Producer
     name: Ginny Lee
   - role: Set Designer
-    name: Matthew Miller
+    name: Matt Miller
   - role: Set Designer
     name: Ginny Lee
   - role: Set Construction

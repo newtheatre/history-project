@@ -13,7 +13,7 @@ cast:
   - role: Kate Grant (his wife)
     name: Nicola Snarey
   - role: Sue Lawley (A radio 4 institution)
-    name: "Jessica Danby |"
+    name: Jessica Danby
   - role: Ronan Franklin (A young wannabe)
     name: Ben Murphy
   - role: Felicity Mandleson (His housemate)
@@ -25,13 +25,13 @@ cast:
   - role: David (Her Chauffeur)
     name: Jessica Danby
   - role: Sue Lawley (A radio 4 institution)
-    name: Anna E.Lipinkski
+    name: Anna E. Lipinkski
   - role: Joe Devivre (A popstar)
     name: Ajay Khari
   - role: Billie Puffin (A celebrity gardener)
     name: Catherine Paskell
   - role: Jen Jennings (A fan)
-    name: Anna E.Lipinkski
+    name: Anna E. Lipinkski
   - role: Sue Lawley (A radio 4 institution)
     name: Felicity Plester
 crew:
@@ -49,5 +49,6 @@ crew:
     name: James Law
   - role: Official Cast Photographer
     name: "Ajay's Dad"
+    person: false
 ---
 

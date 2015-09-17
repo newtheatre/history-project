@@ -17,7 +17,7 @@ cast:
 
 crew:
   - role: Director
-    name: Chelsea Wright
+    name: Chelsea Jayne Wright
   - role: Producer
     name: Emily Heaton
   - role: Technical Director
@@ -29,7 +29,7 @@ crew:
   - role: Technical Operator
     name: Jo Estrin
   - role: Technical Operator
-    name: Megan Seely
+    name: Megan Seeley
 
 assets:
   - type: poster

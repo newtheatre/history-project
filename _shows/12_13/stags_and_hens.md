@@ -38,7 +38,7 @@ crew:
   - role: Director
     name: Ellie Porter
   - role: Producer
-    name: Gabby Carboneri
+    name: Gabriella Carboneri
 
 assets:
   - type: poster

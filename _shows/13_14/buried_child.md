@@ -33,11 +33,11 @@ crew:
   - role: Set Designer
     name: Chelsea Jayne Wright
   - role: Stage Manager
-    name: Alex Day
+    name: Alexandra Day
   - role: Stage Manager
     name: Sandra Gabriela
   - role: Technical Director
-    name: Tyler Gordon
+    name: Tyler-Antonia Gordon
   - role: Lighting Designer
     name: Tessa Denney
   - role: Make Up Artist

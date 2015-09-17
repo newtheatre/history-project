@@ -39,7 +39,7 @@ crew:
   - role: Stage Manager
     name: Elin Stenner-Matthews
   - role: Stage Manager
-    name: Chelsea Wright
+    name: Chelsea Jayne Wright
   - role: Technical Director
     name: Bora Hunja
   - role: Lighting Designer

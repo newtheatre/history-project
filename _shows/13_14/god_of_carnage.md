@@ -26,7 +26,7 @@ crew:
   - role: Producer
     name: Tom Dineen
   - role: Stage Manager
-    name: Dan O'Connor
+    name: Daniel O'Connor
   - role: Stage Manager
     name: Eden Philips Harrington
   - role: Technical Director
@@ -36,7 +36,7 @@ crew:
   - role: Technical Operator
     name: Andy Routledge
   - role: Technical Operator
-    name: Chelsea Wright
+    name: Chelsea Jayne Wright
 
 assets:
   - type: poster

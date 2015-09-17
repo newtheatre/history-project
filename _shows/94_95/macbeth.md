@@ -15,7 +15,7 @@ cast:
   - role: Donalbain
     name: "Tristan Halford-Maw"
   - role: Macbeth
-    name: Damion Lynch
+    name: Damian Lynch
   - role: Banquo
     name: Giles Daubeney
   - role: Macduff
@@ -43,9 +43,9 @@ cast:
   - role: Witch
     name: Caroline Warburton
   - role: Porter
-    name: Dave Trennery
+    name: David Trennery
   - role: Murderer
-    name: Andy Taylor
+    name: Andrew Taylor
   - role: Doctor
     name: Sonja Webb
   - role: Gentlewoman
@@ -56,7 +56,7 @@ crew:
   - role: Assistant Director
     name: Sarah Hannafin
   - role: Stage Manager
-    name: Andy Batty
+    name: Andrew Batty
   - role: Assistant Stage Manager
     name: Rebecca Bowen
   - role: Technical/Lighting Director

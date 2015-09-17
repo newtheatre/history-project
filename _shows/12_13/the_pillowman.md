@@ -20,7 +20,7 @@ cast:
   - role: Mum
     name: Livvy Hobson
   - role: Dad
-    name: "Dan O'Connor"
+    name: "Daniel O'Connor"
   - role: Jesus Girl
     name: Charlotte Ball
 crew:
@@ -43,7 +43,7 @@ crew:
   - role: Make Up Artist
     name: Emily Heaton
   - role: Original Score
-    name: Euan Richie
+    name: Euan Ritchie
   - role: Technical Operator
     name: Tariye Peterside
   - role: Technical Operator
@@ -59,7 +59,7 @@ crew:
 photos:
   - type: photo
     image: pillowman_crew.jpg
-    caption: "Cast and Crew shot. From back left: Jess Courtney, Gareth Morris, Livvy Hobson, Dan O'Connor, Charlotte Ball, Jacob Hayes, James McAndrew, Nick Stevenson, Chelsea Jayne Wright, Emily Heaton. Bottom from left: Sam Haywood, Will Randall, Alex Hollingsworth"
+    caption: "Cast and Crew shot. From back left: Jess Courtney, Gareth Morris, Livvy Hobson, Daniel O'Connor, Charlotte Ball, Jacob Hayes, James McAndrew, Nick Stevenson, Chelsea Jayne Wright, Emily Heaton. Bottom from left: Sam Haywood, Will Randall, Alex Hollingsworth"
   - type: photo
     image: pillowman_picture_1.jpg
   - type: photo

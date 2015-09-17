@@ -1,6 +1,6 @@
 ---
 title: "CLEAN"
-playwright: Edward Colwell
+playwright: Ed Colwell
 student_written: true
 period: Autumn
 season: Fringe
@@ -24,11 +24,11 @@ cast:
 
 crew:
   - role: Director
-    name: Edward Colwell
+    name: Ed Colwell
   - role: Producer
-    name: Jessica Curtis
+    name: Jess Curtis
   - role: Set Designer
-    name: Edward Colwell
+    name: Ed Colwell
   - role: Stage Manager
     name: Louise Knapp
   - role: Technical Director
@@ -38,9 +38,9 @@ crew:
   - role: Technical Operator
     name: Sebastian Frend
   - role: Technical Operator
-    name: Jessica Curtis
+    name: Jess Curtis
   - role: Publicity Designer
-    name: Edward Colwell
+    name: Ed Colwell
 
 assets:
   - type: poster

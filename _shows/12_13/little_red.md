@@ -5,24 +5,24 @@ season: UNCUT
 season_sort: 265
 period: Spring
 venue:
-  - Lincoln Library 
+  - Lincoln Library
 date_start: 2013-05-06
 date_end: 2013-05-07
 
 cast:
-  - role: Little Red/Alice
+  - role: Little Red / Alice
     name: Daniella Blackford
-  - role: Wolf/Peter Wilk
+  - role: Wolf / Peter Wilk
     name: Sam Greenwood
-  - role: Georgia/Ensemble
+  - role: Georgia / Ensemble
     name: Nicola Fox
-  - role: Mother/Ensemble
+  - role: Mother / Ensemble
     name: Emily Heathcote
-  - role: Grandmother/Frances/Ensemble
-    name: Lottie Prosser
-  - role: Woodcutter/Teacher/Ensemble
+  - role: Grandmother / Frances / Ensemble
+    name: Charlotte Prosser
+  - role: Woodcutter / Teacher / Ensemble
     name: Karl Rawsthorne
-  - role: Woodcutter/Ensemble
+  - role: Woodcutter / Ensemble
     name: Joe Kendall
 
 crew:

@@ -51,7 +51,7 @@ cast:
     name: Becca Clee
   - role: A Tribune/young Lucius
     note: a boy, son of Lucius
-    name: Harriet Davies
+    name: Harriet Davis
   - role: Alarbus
     note: Tamora's son/AEMILIUS, a noble ROMAN
     name: Rosie Freathy
@@ -62,7 +62,7 @@ crew:
   - role: Producer
     name: Nick Stevenson
   - role: Set Designer
-    name: Chelsea Wright
+    name: Chelsea Jayne Wright
   - role: Stage Manager
     name: Joanne Blunt
   - role: Stage Manager
@@ -74,7 +74,7 @@ crew:
   - role: Stage Manager
     name: Kat Tye
   - role: Technical Director
-    name: Andrew Routledge
+    name: Andy Routledge
   - role: Lighting Designer
     name: Aubrey Turner
   - role: Sound Designer
@@ -84,7 +84,7 @@ crew:
   - role: Make Up Artist/Costumes/Blood Effects
     name: Hugh Purves
   - role: Technical Operator
-    name: Tyler Gorden
+    name: Tyler-Antonia Gordon
   - role: Technical Operator
     name: James Gregory
   - role: Technical Operator

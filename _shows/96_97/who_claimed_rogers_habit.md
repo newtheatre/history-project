@@ -28,7 +28,7 @@ cast:
   - role: "Chrissie \"The tongue\" Swift a stripper"
     name: Catherine Foley
   - role: Old Man
-    name: Zulfiquar Dalal
+    name: Zulfiquar Dala
 crew:
   - role: Director
     name: Stuart Scott
@@ -45,10 +45,11 @@ crew:
   - role: Make Up Artist
     name: Sarah Rossiter
   - role: Wimple Creation
-    name: Jenny anderson
+    name: Jenny Anderson
   - role: Program and Poster Technical Consultant
     name: Alkesh Vaghmaria
   - role: "Habit and Devil's Cloak"
     name: "courtesy of Stu's Mum"
+    person: false
 ---
 

@@ -31,7 +31,7 @@ crew:
   - role: Producer
     name: Bora Hunja
   - role: Designer
-    name: Fu
+    name: Fu Baxter
   - role: Stage Manager
     name: Renske Nina Vos
   - role: Technical Director

@@ -19,7 +19,7 @@ cast:
 - role: Gwendolen Fairfax
   name: Natalie Barclay
 - role: Cecily Cardew
-  name: Laura Thomson
+  name: Laura Kaye Thomson
 - role: Lady Bracknell
   name: Lucy Butler
 - role: Reverend Canon Chasuble

@@ -11,7 +11,7 @@ date_end: 2014-03-01
 
 cast:
   - role: Toby
-    name: Dan O'Connor
+    name: Daniel O'Connor
   - role: Cubby
     name: Lyle Fulton
   - role: Recorded Voice

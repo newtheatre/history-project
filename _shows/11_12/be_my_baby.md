@@ -8,7 +8,7 @@ categories: "10-11"
 date_start: 2011-11-12
 cast:
   - role: Mary Adams
-    name: "Georgina Jeronymides-Norie"
+    name: Georgina Norie
   - role: Mrs Adams
     name: Sophie Holmes
   - role: Matron

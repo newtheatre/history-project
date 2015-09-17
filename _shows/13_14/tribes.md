@@ -37,7 +37,7 @@ crew:
   - role: Technical Director
     name: Nathan Penney
   - role: Lighting Designer
-    name: Joe Heil
+    name: Joseph Heil
   - role: Technical Operator
     name: Matt Standen
   - role: Technical Operator

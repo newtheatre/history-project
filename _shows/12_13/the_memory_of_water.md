@@ -12,8 +12,8 @@ date_end: 2012-11-10
 cast:
   - name: Rosanna Stoker
   - name: Amy Brough-Aikin
-  - name: Lizzie Franier
-  - name: Lucy Dolman
+  - name: Lizzie Frainier
+  - name: Lucy Dollman
   - name: Ben Williamson
 
 crew:

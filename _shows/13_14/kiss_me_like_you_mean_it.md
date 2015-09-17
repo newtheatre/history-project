@@ -10,10 +10,16 @@ venue:
   - New Theatre
 
 crew:
-  - role: Technical Directors
-    name: Nikki Hill, Chelsea Jayne Wright, Tom Selves
-  - role: Lighting Designers
-    name: Logan Wamsley, Sebastian Frend
+  - role: Technical Director
+    name: Nikki Hill
+  - role: Technical Director
+    name: Chelsea Jayne Wright
+  - role: Technical Director
+    Tom Selves
+  - role: Lighting Designer
+    name: Logan Wamsley
+  - role: Lighting Designer
+    name: Sebastian Frend
 
 photos:
   - type: photo

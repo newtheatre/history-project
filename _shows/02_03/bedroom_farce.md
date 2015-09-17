@@ -37,7 +37,7 @@ crew:
 - role: Lighting and Sound
   name: Rob Durford
 - role: Publicity
-  name: Loic Tallan
+  name: Loic Tallon
 - role: Stage Manager
   name: Rosie Collis
 - role: Stage Manager

@@ -26,7 +26,7 @@ crew:
   - role: Technical Operator
     name: Adam Bergen
   - role: Technical Operator
-    name: David Hanks
+    name: Dave Hanks
 
 assets:
   - type: poster

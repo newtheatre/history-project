@@ -14,7 +14,7 @@ cast:
     name: Flo Hapgood
   - role: Jessie
     note: Daughter
-    name: Alex Day
+    name: Alexandra Day
 crew:
   - role: Director
     name: Matt Wilks

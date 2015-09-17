@@ -22,7 +22,7 @@ cast:
 
 crew:
 - role: Director
-  name: Cesar Teixeria
+  name: Cesar Teixeira
 - role: Producer
   name: Kathryn Feavers
 - role: Designer

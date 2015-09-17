@@ -19,7 +19,7 @@ crew:
   - role: Director
     name: James McAndrew
   - role: Producer
-    name: Chelsea Wright
+    name: Chelsea Jayne Wright
   - role: Pianist
     name: Nick Stevenson
   - role: Technical Director

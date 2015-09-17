@@ -54,7 +54,7 @@ crew:
   - role: Lighting Designer
     name: Adam Godden
   - role: Stage Manager
-    name: Marni Miller Becker
+    name: Marni Miller-Becker
   - role: Backstage
     name: Joe Arkley
   - role: Backstage
