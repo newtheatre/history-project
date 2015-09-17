@@ -45,7 +45,7 @@ crew:
   - role: Technical Operator
     name: Nick Ward
   - role: Technical Operator
-    name: Megan Seeley
+    name: Megan Seely
   - role: Technical Operator
     name: Zoe Plumber
 assets:

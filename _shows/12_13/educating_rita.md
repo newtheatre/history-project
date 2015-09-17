@@ -29,7 +29,7 @@ crew:
   - role: Technical Operator
     name: Jo Estrin
   - role: Technical Operator
-    name: Megan Seeley
+    name: Megan Seely
 
 assets:
   - type: poster
