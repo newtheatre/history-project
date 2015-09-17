@@ -37,6 +37,8 @@ crew:
     name: Dan Turke
   - role: Technical Operator
     name: Claire Nias
+  - role: Photography
+    name: Will Pimblett
 
 assets:
   - type: poster
