@@ -16,7 +16,7 @@ cast:
   - role: O'Brien
     name: Richard Hill
   - name: Lara Tysseling
-  - name: Tom Toland
+  - name: Tom Tolond
   - name: Nick Barker
   - name: Hugh Williams
   - name: Emily Thompson
