@@ -15,7 +15,8 @@ module Jekyll
 
       my_data = {
         'title' => @title,
-        'placeholder' => true
+        'placeholder' => true,
+        'editable' => false
       }
 
       @data = Utils.deep_merge_hashes(defaults, my_data)
