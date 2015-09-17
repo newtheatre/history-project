@@ -32,6 +32,8 @@ fs.readFile './_site/feeds/search.json', (err, data) ->
       url: item['link']
   console.timeEnd 'Populate Search Index'
 
+  console.log raw.length + ' pages indexed'
+
   fs.writeFile '_site/feeds/search_index.json', JSON.stringify(index), (err) ->
       throw err if err
       console.log 'Search Index Written'
