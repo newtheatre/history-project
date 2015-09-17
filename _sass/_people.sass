@@ -12,3 +12,45 @@
   @include grid-x-col(5)
   img
     width: 100%
+
+.person-shows-outer
+  @include grid-wrap
+  margin-bottom: $baseline * 2
+  @include set-property-to-gutter(padding-top)
+  background: $color-black
+
+.person-shows
+  @include grid-row
+  padding-bottom: 0
+  @include set-property-to-gutter(margin-top)
+  @include set-property-to-gutter(margin-bottom)
+
+  @include display(flex)
+  @include flex-direction(horizontal)
+  @include flex-wrap(wrap)
+
+  .person-show
+    @include set-property-to-gutter(margin-bottom)
+    @include set-property-to-gutter(padding-right)
+    @include flex-basis(180px)
+    max-width: 200px
+    @include flex-grow(1)
+    @include flex-shrink(1)
+
+    .person-show-poster
+      img
+        width: 100%
+
+  .person-show-title
+    font-size: $base-font-size * 1.2
+    min-height: $baseline * 2
+    margin-bottom: 0
+
+  .person-show-year
+    color: $color-grey
+
+  .person-show-roles
+    @include list-unformatted
+    @include compact-text-nobr
+    color: $color-grey-dark
+    text-transform: uppercase

@@ -27,6 +27,12 @@ layout: default
     <article class="person-bio">
       <h2>Bio</h2>
       {{ content }}
+
+      <div class="person-committees">
+        {% for record in person.committees %}
+        {{ record.roles }} - {{ record.item.title }}<br />
+        {% endfor %}
+      </div>
     </article>
   </div>
   <div class="person-photo">
@@ -37,20 +43,28 @@ layout: default
     {% endif %}
   </div>
 
-  <div class="person-shows">
+</div>
+
+<div class="person-shows-outer">
+  <section class="person-shows">
     {% for record in person.shows %}
     <div class="person-show">
       <div class="person-show-poster">
+        <a href="{{ record.item.url }}" title="{{ record.item.title }}">
         {% if record.item.poster %}
-        {% image show_poster_thumb_sr for_shows/{{ record.item.poster.image }} %}
+          {% image show_poster_thumb_sr for_shows/{{ record.item.poster.image }} %}
         {% else %}
-        NO POSTER
+          {% image show_poster_thumb_sr missing_poster.png %}
         {% endif %}
+        </a>
       </div>
+
       <h3 class="person-show-title">
-        {{ record.item.title }} <span class="person-show-year">{{ record.item.year }}</span>
+        {{ record.item.title }}
+        <span class="person-show-year">{{ record.item.year }}</span>
       </h3>
-      <ul>
+
+      <ul class="person-show-roles">
       {% for role in record.roles %}
         <li>{{ role }}</li>
       {% endfor %}
@@ -58,11 +72,5 @@ layout: default
 
     </div>
     {% endfor %}
-  </div>
-
-  <div class="person-committees">
-  {% for record in person.committees %}
-  {{ record.roles }} - {{ record.item.title }}<br />
-  {% endfor %}
-  </div>
+  </section>
 </div>

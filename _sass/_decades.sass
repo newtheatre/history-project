@@ -2,6 +2,7 @@
 
 .decade
   @include grid-x-col(4)
+  @include block
 
   h3
     background: $color-success
@@ -11,7 +12,7 @@
 .decade-list
   @include columns(2 12px)
   @include list-unformatted
-  margin: 0 8px $baseline 10px
+  margin: 0 8px 0 10px
   li
     margin-bottom: 2px
     text-align: center
