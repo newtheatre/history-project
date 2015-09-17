@@ -1,6 +1,6 @@
 ---
 title: Voice Without Words
-playwright: Tom Toland
+playwright: Tom Tolond
 student_written: true
 season: UNCUT
 season_sort: 85
@@ -15,7 +15,7 @@ cast:
 
 crew:
   - role: Director
-    name: Tom Toland
+    name: Tom Tolond
 
 assets:
   - type: poster
