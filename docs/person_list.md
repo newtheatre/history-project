@@ -16,6 +16,7 @@ A role or name flagged as unknown will be styled differently and a warning will 
 | `role` | Corresponds to name of a role (acting, crew) or position (committee). | To flag as unknown set to 'unknown'. |
 | `name` | The person's name. | Formatted `FirstName LastName`. To flag as unknown set to 'unknown'. |
 | `note` *(optional)* | An optional note. | Currently this is shown in brackets after the role when rendered. |
+| `person` *(optional)* | Prevents creation of a person record when set to `false` | Use this for PL items that are not NT people, e.g. Companies, Departments, Externals... |
 
 ## <i class="octicon octicon-code"></i> Example Person List
 
