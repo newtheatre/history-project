@@ -87,7 +87,7 @@ layout: default
           {% elsif asset.image %}
             <li class="show-asset-image debug-container">
               <a class="fancybox" rel="assets" href="/images/for_shows/{{ asset.image }}" title="{{ asset.caption }}">
-                {% image show_asset for_shows/{{ asset.image }} %}
+                {% image show_asset for_shows/{{ asset.image }} title="{{image.caption}}" %}
               </a>
               <div class="debug-abs-bottom-left" data-debug-toggle title="Asset type">{{ asset.type }}</div>
               <div class="debug-abs-top-left" data-debug-toggle title="Asset image">{{ asset.image }}</div>
@@ -122,7 +122,7 @@ layout: default
       {% for image in show.photos %}
       <div class="show-photo-single debug-container">
         <a class="fancybox" rel="photos" href="/images/for_shows/{{ image.image }}" title="{{ image.caption }}">
-          {% image show_photo for_shows/{{ image.image }} title={{image.caption}} %}
+          {% image show_photo for_shows/{{ image.image }} title="{{image.caption}}" %}
           <div class="debug-abs-bottom-left" data-debug-toggle title="Photo type">{{ image.type }}</div>
           <div class="debug-abs-top-left" data-debug-toggle title="Photo image">{{ image.image }}</div>
         </a>
