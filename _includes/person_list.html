@@ -30,7 +30,7 @@ X
       {% if person.name == "unknown" %}
         <span class="unknown">Unknown</span>
       {% else %}
-        {{ person.name }}
+        <a href="{% person_url {{ person.name }}%}">{{ person.name }}</a>
       {% endif %}
     </div>
   </li>

@@ -9,8 +9,10 @@ sitemap: false
 
 <h2>Alumni Biographies</h2>
 
+{% assign sorted_people = site.collections.people.docs | sort: "title" %}
+
 <ul>
-{% for person in site.collections.people.docs %}
+{% for person in sorted_people %}
   <li><a href="{{ person.url }}">{{ person.title }}</a></li>
 {% endfor %}
 </ul>
