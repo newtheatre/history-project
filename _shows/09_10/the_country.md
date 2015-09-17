@@ -13,7 +13,7 @@ cast:
   - role: unknown
     name: Benjamin Cave
   - name: Elizabeth Bourne
-  - name: Megan Salter
+  - name: Meg Salter
 
 crew:
   - role: Director
@@ -27,7 +27,7 @@ crew:
   - role: Technical Director
     name: Philip Geller
   - role: Lighting Designer
-    name: Matthew Leventhall
+    name: Matt Leventhall
 
 published: true
 ---

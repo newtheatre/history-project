@@ -30,7 +30,7 @@ crew:
   - role: Director
     name: Ellie Cawthorne
   - role: Producer
-    name: Chelsea Wright
+    name: Chelsea Jayne Wright
   - role: Set Designer
   - role: Stage Manager
   - role: Technical Director

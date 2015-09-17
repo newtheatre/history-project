@@ -35,7 +35,7 @@ cast:
   - role: The Venticelli
     name: Diane Morrison
   - role: Katherina Cavalieri
-    name: Marni Miller
+    name: Marni Miller-Becker
   - role: Citizens of Vienna & Valet
     name: Chris Holiday
   - role: Citizens of Vienna & Major-Domo
@@ -51,7 +51,7 @@ crew:
   - role: Producer / Asst. Director
     name: Cat McCotter
   - role: Set Design / Construction
-    name: Henry Fillouz-Bennett
+    name: Henry Filloux-Bennett
   - role: Set Design / Construction
     name: Cat McCotter
   - role: Set Design / Construction

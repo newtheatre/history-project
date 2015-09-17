@@ -24,7 +24,7 @@ cast:
 - role: Ghost
   name: Dave Maggs
 - role: Rosenstern
-  name: Adam Wells
+  name: Adam H. Wells
 - role: Gertrude
   name: Anna Wheatley
 - role: Ophelia

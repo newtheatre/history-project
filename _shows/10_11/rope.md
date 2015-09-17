@@ -41,7 +41,7 @@ crew:
   - role: Lighting Designer
     name: Philip Geller
   - role: Lighting Designer
-    name: Matthew Leventhall
+    name: Matt Leventhall
   - role: Costumes
     name: Rose Williams
   - role: Props

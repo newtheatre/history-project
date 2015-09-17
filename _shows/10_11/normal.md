@@ -23,7 +23,7 @@ crew:
 - role: Producer
   name: James Saville
 - role: Designer
-  name: Matthew Leventhall
+  name: Matt Leventhall
 - role: Original Score
   name: Angus MacRae
 

@@ -29,7 +29,9 @@ crew:
   - role: Producer
     name: Matthew Richards
   - role: Set Designer
-    name: Matthew Richards and Alice Hildreth
+    name: Matthew Richards
+  - role: Set Designer
+    name: Alice Hildreth
   - role: Stage Manager
     name: Holly Pownall
   - role: Technical Director

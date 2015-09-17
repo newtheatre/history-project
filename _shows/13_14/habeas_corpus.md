@@ -35,11 +35,11 @@ cast:
 
 crew:
   - role: Director
-    name: Chelsea Wright
+    name: Chelsea Jayne Wright
   - role: Producer
     name: Nicola Hill
   - role: Set Designer
-    name: Chelsea Wright
+    name: Chelsea Jayne Wright
   - role: Stage Manager
     name: Kati Hall
   - role: Stage Manager

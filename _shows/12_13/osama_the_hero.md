@@ -13,7 +13,7 @@ cast:
   - role: Francis
     name: Ajay Stevenson
   - role: Gary
-    name: Dan O'Connor
+    name: Daniel O'Connor
   - role: Louise
     name: Laura Cremona
   - role: Mandy

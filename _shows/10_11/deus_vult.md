@@ -1,6 +1,6 @@
 ---
 title: Deus Vult
-playwright: Adam Wells
+playwright: Adam H. Wells
 student_written: true
 season: In House
 season_sort: 200
@@ -24,7 +24,7 @@ cast:
   - role: Amide
     name: Grace Rowland
   - role: Director
-    name: Adam Wells
+    name: Adam H. Wells
   - role: Producer
     name: Kathryn Feavers
 

@@ -29,11 +29,11 @@ crew:
   - role: Producer
     name: Emma-Louise Amanshia
   - role: Set Designer
-    name: Chelsea Wright
+    name: Chelsea Jayne Wright
   - role: Set Designer
     name: Philip Geller
   - role: Set Construction
-    name: Chelsea Wright
+    name: Chelsea Jayne Wright
   - role: Set Construction
     name: Philip Geller
   - role: Set Construction
@@ -75,7 +75,7 @@ crew:
   - role: Costume Design
     name: James McAndrew
   - role: Photography
-    name: Jessica Courtney
+    name: Jess Courtney
 
 assets:
   - type: poster

@@ -39,7 +39,7 @@ cast:
   - role: Pepe
     name: David Coleman
   - role: Indio
-    name: Chris Wix
+    name: Christopher Wix
   - role: Anxious
     name: Simon Hall
   - role: Louis
@@ -113,9 +113,12 @@ crew:
     name: David Matthews
   - role: "Special Thanks - for providing scaffolding"
     name: "Gilbert & Hall Ltd"
+    person: false
   - role: "Special Thanks - for use of welding equipment and expertise"
     name: Mechanical Engineering Dept
+    person: false
   - role: "Special Thanks - for providing Beer Crates"
     name: Buttery Bar
+    person: false
 ---
 

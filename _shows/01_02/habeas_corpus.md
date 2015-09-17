@@ -23,7 +23,7 @@ cast:
   - role: Canon Th robbing
     name: Christopher Stephen
   - role: Sir Percy Shorter
-    name: George K
+    name: George Kaye
   - role: Mr Shanks
     name: Ben Bergin
   - role: Lady Rumpers

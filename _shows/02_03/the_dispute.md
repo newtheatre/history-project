@@ -39,7 +39,7 @@ crew:
   - role: Sound Designer
     name: Mark Rowlands
   - role: Stage Manager
-    name: Marni Miller
+    name: Marni Miller-Becker
   - role: Lighting Designer
     name: Chris Brammeld
   - role: Lighting Bitch

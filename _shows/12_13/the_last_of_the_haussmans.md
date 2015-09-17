@@ -21,13 +21,13 @@ cast:
   - role: Peter
     name: Tim Meredith
   - role: Daniel
-    name: Michael Nissenbaum
+    name: Mikey Nissenbaum
 
 crew:
   - role: Director
     name: Shane Chard
   - role: Director
-    name: Amy Mcwalters
+    name: Amy McWalters
 ---
 
 Think you have a disfunctional family? Think again. The Haussmann's relationships are challenged by addiction, infatuation, resentment and free love. This play is a savage yet heartwarming portrait of the love-hate relationships within a contemporary family

@@ -17,7 +17,7 @@ cast:
   - role: null
     name: Ged Pfeifer
   - role: null
-    name: "Henry Fillouix-Bennet"
+    name: "Henry Filloux-Bennett"
   - role: null
     name: John Cuzick
   - role: null

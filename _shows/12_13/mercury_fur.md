@@ -12,7 +12,7 @@ cast:
   - role: Eliot
     name: Andy Routledge
   - role: Darren
-    name: Matthew Miller
+    name: Matt Miller
   - role: Naz
     name: Laura Gallop
   - role: Spinx

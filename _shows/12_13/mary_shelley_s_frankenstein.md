@@ -13,7 +13,7 @@ comment: "This is a weird case of student adaption, rather than writing. Also vi
 
 cast:
   - role: Victor Frankenstein
-    name: Dan O'Connor
+    name: Daniel O'Connor
   - role: Elizabeth Lavenza
     name: Jess Lundholm
   - role: Victors Creation

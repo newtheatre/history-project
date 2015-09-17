@@ -23,7 +23,7 @@ crew:
   - role: Set Construction
     name: Aubrey Turner
   - role: Stage Manager
-    name: Eve Wersocki Morris
+    name: Eve Wersocki-Morris
   - role: Technical Director
     name: Nick Barker
   - role: Lighting Designer

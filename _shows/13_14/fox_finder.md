@@ -26,7 +26,7 @@ crew:
   - role: Producer
     name: Nicola Fox
   - role: Set Designer
-    name: Chelsea Wright
+    name: Chelsea Jayne Wright
   - role: Set Designer
     name: Tyler-Antonia Gordon
   - role: Stage Manager
@@ -44,7 +44,7 @@ crew:
   - role: Technical Operator
     name: Rory O'Shea
   - role: Technical Operator
-    name: Tyler Gordon
+    name: Tyler-Antonia Gordon
 
 assets:
   - type: poster

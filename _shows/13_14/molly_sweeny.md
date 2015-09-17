@@ -13,7 +13,7 @@ cast:
   - role: Molly Sweeney
     name: Chloe Bickford
   - role: Frank Sweeney
-    name: Dan O'Connor
+    name: Daniel O'Connor
   - role: Mr Rice
     name: Sam Peake
 
@@ -63,7 +63,7 @@ crew:
   - role: Technical Director
     name: Will Pimblett
   - role: Shadow TD
-    name: Chelsea Wright
+    name: Chelsea Jayne Wright
   - role: Lighting Designer
     name: Will Pimblett
   - role: Shadow LD
@@ -81,7 +81,7 @@ crew:
   - role: Technical Operator
     name: Logan Wamsley
   - role: Technical Operator
-    name: Chelsea Wright
+    name: Chelsea Jayne Wright
   - role: Technical Operator
     name: Tyler-Antonia Gordon
   - role: Technical Operator
@@ -89,11 +89,11 @@ crew:
   - role: Publicity Designer
     name: Sarah Hodgson
   - role: Publicity Designer
-    name: Dan O'Connor
+    name: Daniel O'Connor
   - role: Publicity Manager
-    name: Jessica Curtis
+    name: Jess Curtis
   - role: Photographer
-    name: Dimitri Darzentas
+    name: Dimitrios Darzentas
   - role: Accent Coach
     name: Fergal Murphy
 

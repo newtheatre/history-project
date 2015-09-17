@@ -13,7 +13,7 @@ crew:
   - role: Man
     name: Will Vickers
   - role: Woman
-    name: Megan Salter
+    name: Meg Salter
 
 cast:
   - role: Director

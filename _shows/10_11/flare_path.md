@@ -13,7 +13,7 @@ cast:
 - role: Peter Kyle
   name: Izzy Scrimshire
 - role: Countess Dorris Skriczevinsky
-  name: Laura Thomson
+  name: Laura Kaye Thomson
 - role: Mrs Oakes
   name: Katie Barry
 - role: Sergeant Miller (Dusty)

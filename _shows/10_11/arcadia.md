@@ -15,7 +15,7 @@ cast:
   - role: Thomaseena
     name: Lauren Grant
   - role: Jellaby
-    name: Adam Wells
+    name: Adam H. Wells
   - role: Ezra Chater
     name: Jonny Fitzpatrick
   - role: Mr Noakes
@@ -41,7 +41,7 @@ crew:
   - role: Producer
     name: Kathryn Feavers
   - role: Designer
-    name: Matthew Leventhall
+    name: Matt Leventhall
   - role: Designer
     name: Philip Geller
   - role: Stage Manager

@@ -33,15 +33,15 @@ cast:
   - role: Duchess of Vanholt
     name: Emily Hawkins
   - role: Valdes
-    name: Andy Macdonnell
+    name: Andrew McDonnell
   - role: Beelzebub
-    name: Andy Macdonnell
+    name: Andrew McDonnell
   - role: Pope
-    name: Andy Macdonnell
+    name: Andrew McDonnell
   - role: Duke of Vanholt
-    name: Andy Macdonnell
+    name: Andrew McDonnell
   - role: Old Man
-    name: Andy Macdonnell
+    name: Andrew McDonnell
   - role: Wagner
     name: Chris Robers
   - role: Good Angel
@@ -82,6 +82,7 @@ crew:
     name: Jenny Constantine
   - role: Publicity Designer
     name: Emma Shepherd & Simon Brown (Eskimo Design)
+    person: false
   - role: Programme
     name: Roo Machell (Ampersand Design Studio)
   - role: Backstage
