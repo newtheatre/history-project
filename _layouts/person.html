@@ -30,12 +30,39 @@ layout: default
     </article>
   </div>
   <div class="person-photo">
+    {% if person.headshot %}
     {% image person_headshot people/{{ person.headshot }} %}
+    {% else %}
+    No headshot
+    {% endif %}
   </div>
 
   <div class="person-shows">
-  {% for show in person.shows %}
-  {{ show.title }}<br />
+    {% for record in person.shows %}
+    <div class="person-show">
+      <div class="person-show-poster">
+        {% if record.item.poster %}
+        {% image show_poster_thumb_sr for_shows/{{ record.item.poster.image }} %}
+        {% else %}
+        NO POSTER
+        {% endif %}
+      </div>
+      <h3 class="person-show-title">
+        {{ record.item.title }} <span class="person-show-year">{{ record.item.year }}</span>
+      </h3>
+      <ul>
+      {% for role in record.roles %}
+        <li>{{ role }}</li>
+      {% endfor %}
+      </ul>
+
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="person-committees">
+  {% for record in person.committees %}
+  {{ record.roles }} - {{ record.item.title }}<br />
   {% endfor %}
   </div>
 </div>

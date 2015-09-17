@@ -31,9 +31,9 @@ module Jekyll
         show.data["redirect_from"] = legacy_path
 
         if show.data.has_key?("cast") and show.data["cast"].class == Array
-          fill_people_reverse_index(show, show.data["cast"], site) end
+          fill_people_reverse_index(show, show.data["cast"], "people_ri_shows", site) end
         if show.data.has_key?("crew") and show.data["crew"].class == Array
-          fill_people_reverse_index(show, show.data["crew"], site) end
+          fill_people_reverse_index(show, show.data["crew"], "people_ri_shows", site) end
 
       end
 
