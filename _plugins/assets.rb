@@ -1,7 +1,7 @@
 module Jekyll
   class AssetDataGenerator < Jekyll::Generator
     """Make asset data from all show files accessible"""
-    priority :low
+    priority :lowest
 
 
     def poster_bar(posters)

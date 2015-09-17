@@ -1,6 +1,6 @@
 module Jekyll
   class YearDataGenerator < Jekyll::Generator
-    priority :low  # Should be one of the last to execute
+    priority :lowest  # Should be one of the last to execute
 
     def generate(site)
       puts "Processing years..."
