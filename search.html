@@ -49,6 +49,15 @@ search_exclude: true
         <p class="meta"><%= item.run %><% if (item.venue) { %> at <%= item.venue %><% } %>, <%= item.season %> season</p>
         <p><%= item.excerpt %></p>
       </div>
+    <% } else if (item.type == "person") { %>
+      <div class="search-result">
+        <h3 class="search-result-person-title">
+          <% if (item.poster_thumb_tag) { %><%= item.poster_thumb_tag %><% } else { %><i class="ion-ios-person"></i><% } %>
+          <a href="<%= item.link %>"><%= item.title %></a>
+          </h3>
+        <p class="meta"><%= item.graduated %><% if (item.award) { %> <%= item.award %><% } %></p>
+        <p><%= item.excerpt %></p>
+      </div>
     <% } else { %>
       <% if (item.group == "about") { %>
         <div class="search-result">

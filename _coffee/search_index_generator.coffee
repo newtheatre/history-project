@@ -29,6 +29,7 @@ fs.readFile './_site/feeds/search.json', (err, data) ->
       playwright: item['playwright']
       cast: item['cast']
       crew: item['crew']
+      keywords: item['keywords']
       url: item['link']
   console.timeEnd 'Populate Search Index'
 
