@@ -9,10 +9,7 @@ X
 {% endcapture %}
 
 {% if unknowns contains "X" %}
-<div class="box-warning">
-  <i class="fa fa-question"></i>
-  Some items on this list are unknown, {% include boxes/phrase_if_you_can_help.html %}
-</div>
+{% include boxes/person_list_unknowns.html %}
 {% endif %}
 
 <ul class="person-list">
