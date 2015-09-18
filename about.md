@@ -34,10 +34,11 @@ See the [contributing](/contributing/) section for details on how to help out.
 
 {% assign shows = site.collections.shows.docs %}
 {% assign committees = site.collections.committees.docs %}
+{% assign people = site.collections.people.docs %}
 
 - Site last updated at {{site.time | date: "%Y-%m-%d %H:%M" }}
 - Build number {% include travis_build_number.txt %}.
-- {{shows.size}} shows and {{committees.size}} committees.
+- {{shows.size}} shows, {{committees.size}} committees and {{people.size}} people.
 
 </div>
 
