@@ -15,7 +15,7 @@ crew:
   - role: Technical Director
     name: Chelsea Jayne Wright
   - role: Technical Director
-    Tom Selves
+    name: Tom Selves
   - role: Lighting Designer
     name: Logan Wamsley
   - role: Lighting Designer
