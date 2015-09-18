@@ -15,7 +15,7 @@ This project relies on help from the alumni community. If you see a show missing
 
 Please email us at <{{site.email}}> if you have something to contribute. In particular we are looking for: listings of season shows, casts and crew lists, photographs, programmes, flyers, reviews and anything else which could provide an insight into the history of the theatre.
 
-Don't worry if you aren't quite ready to part with your cherished New Theatre relics just yet – the University Archives have offered to photograph and document any items sent to them, and then return them safely to you for safe keeping!
+Don't worry if you aren't quite ready to part with your cherished New Theatre relics just yet – Manuscripts and Special Collections have offered to photograph and document any items sent to them, and then return them safely to you for safe keeping!
 
 ## Report problems with individual pages <span class="headerlite">- best for small additions</span>
 
