@@ -15,7 +15,7 @@ cast:
   - name: Ben Hollands
   - name: James McAndrew
   - name: Greg Link
-  - name: Maddy Hardy
+  - name: Maddie Hardy
   - name: Will Berrington
   - name: Jemima Rathbone
 
