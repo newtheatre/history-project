@@ -1,5 +1,5 @@
 ---
-title: "Freshers Fringe"
+title: "Freshers' Fringe"
 playwright: (Various)
 period: Autumn
 season: In House
