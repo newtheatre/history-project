@@ -56,7 +56,7 @@ layout: default
         </div>
         <div class="meta-col show-season">
           <i class="meta-icon fa fa-reorder"></i>
-          <p class="meta-content">{% if show.season %}{{show.season}} season{% else %}<span class="unknown">Season Unknown</span>{% endif %}</p>
+          <p class="meta-content season-{{ show.season | downcase | replace:" ","-" }}">{% if show.season %}{{show.season}}{% else %}<span class="unknown">Season Unknown</span>{% endif %}</p>
         </div>
         <div class="meta-col show-date">
           <i class="meta-icon fa fa-calendar"></i>

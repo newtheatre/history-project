@@ -42,7 +42,7 @@ search_exclude: true
           <a href="<%= item.link %>"><%= item.title %></a>
           <% if (item.playwright) { %><span class="search-result-playwright">by <%= item.playwright %></span><% } %>
           </h3>
-        <p class="meta"><%= item.run %><% if (item.venue) { %> at <%= item.venue %><% } %>, <%= item.season %> season</p>
+        <p class="meta"><%= item.run %><% if (item.venue) { %> at <%= item.venue %><% } %>, <%= item.season %></p>
         <p><%= item.excerpt %></p>
       </div>
     <% } else if (item.type == "person") { %>
