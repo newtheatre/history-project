@@ -1,0 +1,31 @@
+---
+layout: null
+---
+{% assign first = true %}
+{
+{% for person in site.collections.people.docs %}
+    {% unless first %},{% endunless %}
+    {{ person.path_name | jsonify }} : {
+        "name": {{ person.title | jsonify }},
+        "type": "person",
+        "excerpt": {{ person.content | strip_html | truncatewords: 50 | jsonify}},
+        {% if person.headshot %}{% capture headshot_path %}people/{{ person.headshot }}{% endcapture %}{% capture image_tag %}{% image show_poster_thumb_sr {{headshot_path}} %}{% endcapture %}"poster_thumb_tag": "<a href='{{person.url}}'>{{ image_tag | replace: '"', "'" }}</a>",{% endif %}
+        "graduated": {{ person.graduated | jsonify }},
+        "award": {{ person.award | jsonify }},
+        "shows": [{% assign first = true %}{% for item in person.shows %}
+            {% unless first %},{% endunless %}{
+                "title": {{ item.item.title | jsonify }},
+                "roles": {{ item.roles | jsonify }}
+            }
+        {% assign first = false %}{% endfor %}],
+        "committees": [{% assign first = true %}{% for item in person.committees %}
+            {% unless first %},{% endunless %}{
+                "title": {{ item.item.title | jsonify }},
+                "roles": {{ item.roles | jsonify }}
+            }
+        {% assign first = false %}{% endfor %}],
+        "link": {{ person.url | jsonify }}
+    }
+    {% assign first = false %}
+{% endfor %}
+}

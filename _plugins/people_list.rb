@@ -32,6 +32,11 @@ def fill_people_reverse_index(item, people_list, index_name, site)
   end
 end
 
+def make_hp_path(title)
+  # Downcase, remove specials, space->underscore
+  title.downcase.gsub(/[^0-9a-z \-]/i, '').gsub(' ','_')
+end
+
 module Jekyll
   class PersonURLTag < Liquid::Tag
 
@@ -40,16 +45,11 @@ module Jekyll
       @markup = markup
     end
 
-    def make_path(title)
-      # Downcase, remove specials, space->underscore
-      title.downcase.gsub(/[^0-9a-z \-]/i, '').gsub(' ','_')
-    end
-
     def render(context)
       # Render any liquid variables in tag arguments and unescape template code
       render_markup = Liquid::Template.parse(@markup).render(context).gsub(/\\\{\\\{|\\\{\\%/, '\{\{' => '{{', '\{\%' => '{%')
 
-      filename = make_path(render_markup)
+      filename = make_hp_path(render_markup)
       "/people/#{filename}/"
     end
   end
