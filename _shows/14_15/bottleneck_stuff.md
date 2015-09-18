@@ -9,6 +9,20 @@ date_end: 2015-06-19
 venue:
   - New Theatre Studio A
 
+cast:
+  - role: Greg
+    name: Nick Gill
+
+crew:
+  - role: Director
+    name: Tom Tolond
+  - role: Producer
+    name: Tom Heath Harvey
+  - role: Technical Director
+    name: Joanne Blunt
+  - role: Publicity Designer
+    name: Gus Herbert
+
 assets:
   - type: poster
     image: bottleneck_stuff_poster.jpg

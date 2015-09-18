@@ -2,12 +2,26 @@
 title: "Bottleneck"
 playwright: "Luke Barnes"
 period: Spring
-season: "?"
+season: External
 season_sort: 390
 date_start: 2015-06-06
 date_end: 2015-06-07
 venue:
   - New Theatre Studio A
+
+cast:
+  - role: Greg
+    name: Nick Gill
+
+crew:
+  - role: Director
+    name: Tom Tolond
+  - role: Producer
+    name: Tom Heath Harvey
+  - role: Technical Director
+    name: Joanne Blunt
+  - role: Publicity Designer
+    name: Gus Herbert
 
 assets:
   - type: poster
