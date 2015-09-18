@@ -1,0 +1,32 @@
+// Colours for season periods
+
+$color-in-house: lighten($color-background, 10%)
+$color-fringe: darken($color-nnt-orange, 10%)
+$color-edinburgh: #3CD861
+$color-lakeside: #4AAEDB
+$color-stuff: #E20013
+
+.show-list-season
+  &.season-in-house:before
+    color: $color-in-house
+  &.season-fringe:before, &.season-uncut:before
+    color: $color-fringe
+  &.season-edinburgh:before, &.season-previews:before
+    color: $color-edinburgh
+  &.season-lakeside:before
+    color: $color-lakeside
+  &.season-stuff:before
+    color: $color-stuff
+
+.meta-content
+  $opacity-jigging: 0.8
+  &.season-in-house
+    background: rgba($color-in-house, $opacity-jigging)
+  &.season-fringe, & .season-uncut
+    background: rgba($color-fringe, $opacity-jigging)
+  &.season-edinburgh, .season-previews
+    background: rgba($color-edinburgh, $opacity-jigging)
+  &.season-lakeside
+    background: rgba($color-lakeside, $opacity-jigging)
+  &.season-stuff
+    background: rgba($color-stuff, $opacity-jigging)
