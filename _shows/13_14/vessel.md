@@ -6,7 +6,6 @@ period: Autumn
 season: External
 season_sort: 20
 date_start: 2013-10-19
-date_end: 2013-10-19
 venue:
   - New Theatre
 
