@@ -46,7 +46,7 @@
   text-align: center
 
 .collect-submit, .collect-message p
-  width: 60%
+  width: 80%
   margin: 0 auto
 
 // Form fields
@@ -82,6 +82,32 @@
 .collect-field-playwright,
 .collect-field-graduation
   // width: 30%
+
+#collect-shows, #collect-committees
+  .collect-textarea
+    flex-basis: 50%
+    margin-bottom: 0
+    height: auto
+    min-height: 200px
+
+.collect-person-data
+  flex-basis: 50%
+  margin: 0
+  @include set-property-to-gutter(padding-left)
+  list-style: none
+
+  li
+    border-bottom: 1px solid rgba(255,255,255,0.1)
+
+    margin-bottom: $baseline / 4
+    padding-bottom: $baseline / 4
+
+
+  .item-title
+    font-weight: bold
+
+  .item-role
+    color: $color-grey
 
 // Thanks pages
 

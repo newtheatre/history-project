@@ -68,6 +68,9 @@ module Jekyll
           person.data["committees"] = site.data["people_ri_committees"][ person.data["title"] ]
         end
 
+        # Person additional data
+        person.data["path_name"] = make_hp_path(person.data["title"])
+
       end
 
     end

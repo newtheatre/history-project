@@ -4,7 +4,7 @@
   {% assign committees = site.collections.committees.docs %}
   {% include head.html %}
 
-  <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
+  <body class="{{ page.layout_body_class }} {{ page.body_class }}">
 
     <!-- Debug LHS -->
     <div class="debug-build-details" data-debug-toggle>

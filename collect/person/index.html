@@ -1,0 +1,119 @@
+---
+layout: collect
+group: collect
+current: people
+title: Submit an alumni bio
+header_icon: ion-ios-person
+body_class: collect-person-form
+---
+
+<section class="collect-form">
+  <form name="collect-person-form" id="collect-person-form" action="http://ntbot.io.fullaf.com/post_issue" method="POST">
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>Your Details</h3>
+        <p>Name and year of graduation. We may contact you using your alumni membership contact details.</p>
+        <p>If you have not yet registered for the Alumni Network <a href="http://newtheatre.org.uk/alumni/registration/" target="_blank">please do so here</a>.</p>
+      </div>
+      <div class="collect-field collect-flex-row">
+        <input class="collect-text collect-field-name" type="text" name="name" required placeholder="Joe Bloggs" />
+        <input class="collect-text collect-field-graduation" type="text" name="graduation" required placeholder="1980" />
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>Your course</h3>
+        <p>What course or courses did you study at Nottingham?</p>
+      </div>
+      <div class="collect-field">
+        <input class="collect-text" type="text" name="course" required placeholder="English with Creative Writing BA" />
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>Your time at the theatre</h3>
+        <p>An overview of your interests and roles at the theatre. Fond memories and stories welcome!</p>
+      </div>
+      <div class="collect-field">
+        <textarea class="collect-textarea" name="bio1" placeholder=""></textarea>
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>After graduating</h3>
+        <p>Your current or past jobs, drama school etc.</p>
+      </div>
+      <div class="collect-field">
+        <textarea class="collect-textarea" name="bio2" placeholder=""></textarea>
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>Links</h3>
+        <p>Please include links to personal websites, twitter accounts, Spotlight profiles etc.</p>
+      </div>
+      <div class="collect-field">
+        <textarea class="collect-textarea" name="links" placeholder=""></textarea>
+      </div>
+    </div>
+
+    <div class="collect-row" id="collect-shows">
+      <div class="collect-label">
+        <h3>Shows</h3>
+        <p>What shows were you involved with? Details we have already are shown on the right.</p>
+      </div>
+      <div class="collect-field collect-flex-row">
+        <textarea class="collect-textarea" name="shows" placeholder=""></textarea>
+        <ul class="collect-person-data">
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="collect-row" id="collect-committees">
+      <div class="collect-label">
+        <h3>Committee Positions</h3>
+        <p>Did you hold any committee positions? Details we have already are shown on the right.</p>
+      </div>
+      <div class="collect-field collect-flex-row">
+        <textarea class="collect-textarea" name="committees" placeholder=""></textarea>
+        <ul class="collect-person-data">
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>Awards</h3>
+        <p>Did you or a show you were involved with gain awards from the theatre or external bodies?</p>
+      </div>
+      <div class="collect-field">
+        <textarea class="collect-textarea" name="awards" placeholder=""></textarea>
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-message">
+        <p>If you have a headshot you'd like us to use please email it to <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+      </div>
+      <div class="collect-controls">
+        <button class="collect-submit" type="submit" />Submit</button>
+      </div>
+    </div>
+
+  </form>
+</section>
+
+<script type="text/x-template" id="collect-template-list">
+<li>
+  <span class="item-title"><%= item.title %></span><br />
+  <span class="item-roles"><% _.each(item.roles, function(role){ %><%= role %><br /><% }) %></span>
+</li>
+</script>
+

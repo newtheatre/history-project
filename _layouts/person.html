@@ -25,8 +25,14 @@ layout: default
       </div>
     </header>
     <article class="person-bio">
+      {% if person.placeholder %}
+
+      <p>We are looking to collect biographies on New Theatre alumni, if this is you and you're interested in doing so please <a href="/collect/person/?name={{person.path_name}}">submit a biography</a>.</p>
+
+      {% else %}
       <h2>Bio</h2>
       {{ content }}
+      {% endif %}
 
       <div class="person-committees">
         {% for record in person.committees %}
@@ -35,11 +41,12 @@ layout: default
       </div>
     </article>
   </div>
+
   <div class="person-photo">
     {% if person.headshot %}
     {% image person_headshot people/{{ person.headshot }} %}
     {% else %}
-    No headshot
+    <i class="ion-ios-person"></i>
     {% endif %}
   </div>
 
