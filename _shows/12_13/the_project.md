@@ -9,4 +9,8 @@ venue:
 date_start: 2013-08-03
 date_end: 2013-08-25
 
+assets:
+  - type: poster
+    image: the_project_poster.jpg
+
 ---
