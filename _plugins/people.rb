@@ -26,7 +26,7 @@ module Jekyll
     def make_path(title)
       # Downcase, remove specials, space->underscore
       path_no_ext = title.downcase.gsub(/[^0-9a-z \-]/i, '').gsub(' ','_')
-      "/#{path_no_ext}.virtual"
+      "/#{path_no_ext}"
     end
 
     def content()
