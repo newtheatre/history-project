@@ -22,7 +22,7 @@ crew:
     name: Dan Turek
   - role: Lighting Designer
     name: Lydia Scott
-  - role: Video Designer
+  - role: Video Technician
     name: Will Pimblett
 
 assets:
