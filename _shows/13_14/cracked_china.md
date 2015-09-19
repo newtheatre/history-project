@@ -10,6 +10,25 @@ date_end: 2014-03-25
 venue:
   - New Theatre
 
+cast:
+  - role: Jonathan
+    name: "Harry Patte-Dobbs"
+  - role: Valerie
+    name: Penny Bainbridge
+  - role: Suzanne
+    name: Nina Blythe
+
+crew:
+  - role: Director
+    name: Liam Knight
+  - role: Writer
+    name: Liam Knight
+  - role: Producer
+    name: Liam Knight
+  - role: Technical Director
+    name: Matt Standen
+
+
 assets:
   - type: poster
     image: cracked_china_poster.jpg
