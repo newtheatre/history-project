@@ -1,6 +1,6 @@
 ---
 title: "Wild West End"
-playwright: "Mett Leventhall and Adam Paulden; Music: Ed Clarke and Andrew Doyle"
+Book: "Matt Leventhall and Adam Paulden; Lyrics: Ed Clarke and Andrew Doyle"
 period: Spring
 season: External
 season_sort: 180
@@ -20,7 +20,7 @@ crew:
     name: James McAndrew
   - role: Producer
     name: Chelsea Jayne Wright
-  - role: Pianist
+  - role: Musical Director
     name: Nick Stevenson
   - role: Technical Director
     name: Jess Courtney
