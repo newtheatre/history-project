@@ -1,7 +1,7 @@
 ---
 title: "Emily and Ben in 'A Likely Story'"
 period: Spring
-season: "?"
+season: External
 season_sort: 220
 date_start: 2015-02-09
 date_end: 2015-02-10
