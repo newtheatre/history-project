@@ -26,6 +26,8 @@ crew:
     name: Michael Ferdenzi
   - role: Technical Operator
     name: Hannah Doyle
+  - role: Technical Operator
+    name: Nathan Penney
 
 assets:
   - type: poster
