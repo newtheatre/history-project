@@ -3,7 +3,7 @@ title: "The Toyland Murders"
 playwright: "Ben Hollands"
 student_written: true
 period: Spring
-season: "?"
+season: Fringe
 season_sort: 400
 date_start: 2015-06-08
 date_end: 2015-06-09
