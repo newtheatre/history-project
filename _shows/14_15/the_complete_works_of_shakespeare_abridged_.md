@@ -2,7 +2,7 @@
 title: "The Complete Works of Shakespeare (abridged)"
 playwright: "Adam Long"
 period: Spring
-season: "?"
+season: External
 season_sort: 380
 date_start: 2015-06-01
 date_end: 2015-06-02
