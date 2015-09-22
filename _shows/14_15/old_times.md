@@ -2,7 +2,7 @@
 title: "Old Times"
 playwright: "Harold Pinter"
 period: Spring
-season: "?"
+season: External
 season_sort: 370
 date_start: 2015-05-30
 date_end: 2015-05-31
