@@ -1,8 +1,8 @@
 # Site settings
-title: New Theatre History Project
+title: Nottingham New Theatre History Project
 email: alumni@newtheatre.org.uk
 twitter: nntalumni
-description: "Archive project collecting past shows, committees and alumni bios to piece together the New Theatre’s dynamic and vibrant history."
+description: "Archive project collecting past shows, committees and alumni biographies to piece together the theatre's dynamic and vibrant history."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://history.newtheatre.org.uk" # the base hostname & protocol for your site
 

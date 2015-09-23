@@ -7,7 +7,7 @@ icon: fa fa-book
 current: history
 ---
 
-# History of The New Theatre
+# History of The Nottingham New Theatre
 
 ## Dramsoc
 
