@@ -10,9 +10,35 @@ date_end: 2014-04-01
 venue:
   - New Theatre
 
+cast:
+  - role: Richie
+    name: Tom Willis
+  - role: Elodie
+    name: Nicola Fox
+  - role: Caroline
+    name: Jessica Prew
+  - role: Paula
+    name: Alice Ratcliffe
+  - role: Customs Officer
+    name: Kate Shaw
+  - role: Dark Figure
+    name: Lucy Bonsall
+  - role: Thom
+    name: Gary Berezin
+
 crew:
+  - role: Director
+    name: Logan Wamsley
+  - role: Writer
+    name: Logan Wamsley
+  - role: Producer
+    name: Dasha Karzunina
+  - role: Writer
+    name: Logan Wamsley
   - role: Technical Director
     name: James Gregory
+  - role: Technical Director
+    name: Joanne Blunt
 
 assets:
   - type: poster
