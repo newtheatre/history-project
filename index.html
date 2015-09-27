@@ -1,6 +1,6 @@
 ---
 layout: default
-body_class: header-nobr
+body_class: home
 no_report_links: true
 people_names:
   - Will
@@ -112,21 +112,15 @@ people_names:
 
 </section>
 
-<section class="home-section home-people">
+<section class="home-section home-network">
 
  <div class="home-info">
-  <h2>Alumni Profiles</h2>
-  <p>With lots of alumni...</p>
- </div>
+  <h2>Alumni Network</h2>
 
- <div class="home-people-design-element">
- {% for person in page.people_names %}
+  <p>Our <strong>50<sup>th</sup> Anniversary Celebration</strong> is to be held on <strong>Sunday 15<sup>th</sup> November 2015</strong></p>
 
-  <div class="home-people-design-element-person">
-    <div class="home-people-design-element-person-head"></div>
-    <div class="home-people-design-element-person-name home-people-design-element-name-colour-{% cycle 'one', 'two', 'three' %}"><span>{{person}}</span></div>
-  </div>
- {% endfor %}
+  <p>For more information see the <a href="http://newtheatre.org.uk/alumni">alumni pages</a> on the main website.</p>
+
  </div>
 
 </section>
@@ -134,5 +128,28 @@ people_names:
 <section class="home-section home-contribute">
  <div class="home-info">
   <h2>Tell Your Story</h2>
+  {% assign people = site.collections.people.docs %}
+
+  <p>We're still a long way off collecting details on every show and every alumnus!</p>
+
+  <div class="home-contribute-actions">
+    <div class="home-contribute-action">
+      <a href="/search/">
+        <i class="ion-ios-person"></i>
+        <h3>Find yourself</h3>
+        <p>And send in your memories</p>
+      </a>
+    </div>
+    <div class="home-contribute-action">
+      <a href="/search/">
+        <i class="fa fa-ticket"></i>
+        <h3>Find your shows</h3>
+        <p>If we're missing details, let us know</p>
+      </a>
+    </div>
+  </div>
+
+  <p>If you have something else to give, see the <a href="/contributing/">contributing page</a>.</p>
+
  </div>
 </section>

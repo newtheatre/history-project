@@ -3,7 +3,7 @@
 $golden: 61.8%
 $golden-counterpart: 100% - $golden
 
-$section-colour-one: #11603D // green
+$section-colour-one: #000
 $section-colour-two: #115760
 $section-colour-tre: #601123
 
@@ -30,6 +30,10 @@ $section-colour-tre: #601123
     position: relative
     min-height: 300px
 
+    @include respond-down(mob-land)
+      // Doesn't adapt well for mobile, hide for now
+      display: none
+
     .posterwall
       position: absolute
       padding-right: $baseline * 3
@@ -37,60 +41,98 @@ $section-colour-tre: #601123
   .home-info
     @include grid-x-percent($golden-counterpart)
 
-.home-people, .home-contribute
+.home-network, .home-contribute
   @include grid-wrap
-  float: left
-  width: 50%
-  min-height: 22 * $baseline
 
-.home-people
+  @include respond-down(mob-land)
+    @include set-property-to-gutter(padding-left)
+    @include set-property-to-gutter(padding-right)
+
+  @include respond-up(tab-port)
+    // Slight bodge to make full width cols
+    float: left
+    width: 50%
+    min-height: 33 * $baseline
+
+  @include respond-up(tab-land)
+    min-height: 28 * $baseline
+
+  @include respond-up(med-desk)
+    min-height: 23 * $baseline
+
+
+$home-section-inner-padding: $baseline * 2
+
+.home-network
   background: $section-colour-two
   padding-right: 0 // Remove right wrapper pad
 
   @include respond-up(tab-port)
-    padding-right: $baseline
+    // Inner padding
+    padding-right: $home-section-inner-padding
 
-  .home-info
-    @include grid-x-percent(75%)
-  .home-people-design-element
-    @include grid-x-percent(25%)
+  h2
+    @include text-shadow-effect($section-colour-two)
 
-.home-people-design-element
 
-  width: 32px
-
-  .home-people-design-element-person-head
-    background: #ccc
-    height: 32px
-
-  .home-people-design-element-person-name
-    padding: 3px
-    text-align: center
-    font-size: $base-font-size * 0.6
-
-    span
-      background: $color-text-white
-      padding: 0 4px
-
-  .home-people-design-element-name-colour-one
-    background: red
-  .home-people-design-element-name-colour-two
-    background: green
-  .home-people-design-element-name-colour-three
-    background: blue
 
 .home-contribute
   background: $section-colour-tre
   padding-left: 0 // Remove left wrapper pad
-  @include respond-up(tab-port)
-    padding-left: $baseline
 
+  @include respond-up(tab-port)
+    // Inner padding
+    padding-left: $home-section-inner-padding
+
+  h2
+    @include text-shadow-effect($section-colour-tre)
+
+
+.home-contribute-actions
+  @include display(flex)
+  @include block
+
+.home-contribute-action
+  position: relative
+  @include flex-basis(50%)
+  padding: $baseline / 2
+  margin-right: 8px
+
+  background: $color-text-black
+
+  overflow: hidden
+
+  &:last-child
+    margin-right: 0
+
+  i
+    position: absolute
+    bottom: -60px
+    right: -2px
+    font-size: 152px
+    color: $color-text-white
+    opacity: 0.1
+
+  a
+    color: $color-text-white
+
+    h3, p
+      font-size: $base-font-size
+      line-height: $baseline
+      text-align: center
+
+    h3
+      margin-bottom: $baseline / 2
+
+    &:hover
+      text-decoration: none
+      h3
+        text-decoration: underline
 
 // Overrides
 
 .home-section
   // High level block on the home page
-
   padding-top: $baseline * 2
   padding-bottom: $baseline * 2
 
@@ -132,3 +174,6 @@ $section-colour-tre: #601123
 
     margin-left: 2px
 
+.home .content
+  overflow: hidden
+  margin-bottom: 0
