@@ -46,7 +46,7 @@ crew:
   - role: Stage Manager
     name: Amanda Hobson
   - role: Lighting and Sound
-    name: Hannah Steven
+    name: Hannah Stevens
   - role: Props
     name: Amanda Mills
   - role: Props

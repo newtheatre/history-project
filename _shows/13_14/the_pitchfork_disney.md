@@ -17,7 +17,7 @@ cast:
   - role: Cosmo Disney
     name: Shannon Smith
   - role: Pitchfork Cavalier
-    name: Ollie Short
+    name: Ollie Shortt
 
 crew:
   - role: Director

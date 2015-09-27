@@ -21,7 +21,7 @@ cast:
   - role: Dudard
     name: Sam Pearce
   - role: Botard
-    name: George Bancroft-Livingstone
+    name: George Bancroft-Livingston
   - role: Papillon
     name: Anna Sheriff
   - role: Mrs Boeuf / Grocer's Wife

@@ -29,7 +29,7 @@ crew:
   - role: Lighting Designer
     name: Emma-Louise Amanshia
   - role: Sound Designer
-    name: Nick Barket
+    name: Nick Barker
   - role: Technical Operator
     name: Rosie Cave
   - role: Technical Operator

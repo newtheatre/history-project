@@ -27,7 +27,7 @@ cast:
 
 crew:
   - role: Director
-    name: Ollie Short
+    name: Ollie Shortt
   - role: Director
     name: Jessica McNamee
   - role: Producer

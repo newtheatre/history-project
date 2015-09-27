@@ -18,7 +18,7 @@ cast:
   - role: Samuel
     name: Chris Trueman
   - role: Sarah
-    name: Sian Beavan
+    name: Sian Beaven
 
 crew:
   - role: Director

@@ -12,7 +12,7 @@ date_end: 2011-05-07
 cast:
   - role: unknown
     name: Lawrence Bolton
-  - name: Phillip Damms
+  - name: Phil Damms
   - name: Phoebe Fairbrother
   - name: Sarah Head
   - name: Claire Horn

@@ -68,6 +68,7 @@ crew:
     name: Stuart Andrews
   - role: Set Construction
     name: Nottingham Playhouse Workshop
+    person: false
   - role: Stage Manager
     name: Davina Shah
   - role: Lighting Designer
@@ -85,6 +86,7 @@ crew:
     person: false
   - role: Programme
     name: Roo Machell (Ampersand Design Studio)
+    person: false
   - role: Backstage
     name: Kate Donovan
   - role: Backstage

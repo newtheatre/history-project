@@ -64,6 +64,7 @@ crew:
     name: Kate Holder
   - role: Costumes
     name: The Lacemarket Theatre
+    person: false
   - role: Lighting Designer
     name: Chris Brammeld
   - role: Lighting Assistant

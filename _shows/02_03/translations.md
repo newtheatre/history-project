@@ -42,10 +42,11 @@ crew:
     name: Jane Lawson
   - role: Set Construction
     name: The Cast, Crew and Ade
+    person: false
   - role: Lighting Designer
     name: Chris Brammeld
   - role: Music
-    name: Richard McKEelvey
+    name: Richard McKelvey
   - role: Music
     name: Jane Lawson
   - role: Music
