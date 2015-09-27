@@ -37,40 +37,6 @@ $section-colour-tre: #601123
   .home-info
     @include grid-x-percent($golden-counterpart)
 
-// .home-shows-design-element
-//   height: 488px
-
-//   position: relative
-
-  // img
-  //   width: 100%
-
-  // .home-shows-design-element-box
-  //   position: absolute
-  //   bottom: 0
-
-  // $base-width: 365px
-
-  // @mixin show-poster-pos($base, $i)
-  //   left: $base
-  //   @include respond-up(widescreen)
-  //     left: $base + (20px * $i)
-
-  // .home-shows-design-element-box-1
-  //   width: $base-width
-  //   left: 0
-  //   z-index: 10
-  // .home-shows-design-element-box-2
-  //   width: $base-width * 0.88
-  //   bottom: 1px
-  //   z-index: 8
-  //   @include show-poster-pos(140px, 1)
-  // .home-shows-design-element-box-3
-  //   width: $base-width * 0.74
-  //   bottom: 2px
-  //   z-index: 6
-  //   @include show-poster-pos(230px, 2)
-
 .home-people, .home-contribute
   @include grid-wrap
   float: left
@@ -80,6 +46,9 @@ $section-colour-tre: #601123
 .home-people
   background: $section-colour-two
   padding-right: 0 // Remove right wrapper pad
+
+  @include respond-up(tab-port)
+    padding-right: $baseline
 
   .home-info
     @include grid-x-percent(75%)
@@ -113,7 +82,8 @@ $section-colour-tre: #601123
 .home-contribute
   background: $section-colour-tre
   padding-left: 0 // Remove left wrapper pad
-  @include set-property-to-gutter(padding-left) // have a left gutter
+  @include respond-up(tab-port)
+    padding-left: $baseline
 
 
 // Overrides
@@ -142,7 +112,7 @@ $section-colour-tre: #601123
   position: relative
   overflow: hidden
 
-  width: $char-width * 3
+  // width: $char-width * 3
   font-size: $base-font-size * 3
   font-family: 'Open Sans', Helvetica, sans-serif
   color: #fff
@@ -151,7 +121,7 @@ $section-colour-tre: #601123
   margin-bottom: $baseline
 
   .char1, .char2, .char3, .char4
-    @include linear-gradient(#111 0%, #3a3a3a 50%, #2c2c2c 51%, #111 100%)
+    background: $color-black
     width: $char-width
     text-align: center
     display: block
@@ -159,8 +129,6 @@ $section-colour-tre: #601123
     padding: 5px 0
 
     border-radius: 6px
-    border-left: 2px solid #222
 
-  .char4
-    border-right: 2px solid #222
+    margin-left: 2px
 
