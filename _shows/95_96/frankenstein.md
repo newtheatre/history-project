@@ -53,5 +53,6 @@ crew:
     name: Marilyn Bird
   - role: Special Thanks
     name: "Paul Woodward, Life Science Department, Poseurs Fancy Dress, The Golden Cage, Top Hat Antiques Centre"
+    person: false
 ---
 

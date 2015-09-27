@@ -14,6 +14,8 @@ search_exclude: true
 
 <ul>
 {% for person in sorted_people %}
-  <li><a href="{{ person.url }}">{{ person.title }}</a></li>
+  <li>
+    <a href="{{ person.url }}">{{ person.title }}</a><!-- {{ person.person }} -->
+  </li>
 {% endfor %}
 </ul>

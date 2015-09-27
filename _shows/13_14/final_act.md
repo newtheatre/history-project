@@ -25,7 +25,7 @@ crew:
   - role: Musical Director
     name: Kat Tye
   - role: Producer
-    name: Ollie Short
+    name: Ollie Shortt
   - role: Technical Director
     name: Tessa Denney
   - role: Lighting Designer

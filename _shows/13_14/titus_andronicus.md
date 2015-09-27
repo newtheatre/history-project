@@ -68,7 +68,7 @@ crew:
   - role: Stage Manager
     name: Sacha Elledge
   - role: Stage Manager
-    name: Page Phillips Harrington
+    name: Page Phillips-Harrington
   - role: Stage Manager
     name: Rory O'Shea
   - role: Stage Manager

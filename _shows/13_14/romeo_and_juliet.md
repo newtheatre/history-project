@@ -11,7 +11,7 @@ venue:
 
 cast:
   - role: Romeo
-    name: Diderik Ypma 
+    name: Diderik Ypma
     note: The House of Montague
   - role: Montague
     name: Sam Greenwood
@@ -63,25 +63,25 @@ cast:
 
 crew:
   - role: Director
-    name: James McAndrew 
+    name: James McAndrew
   - role: Producer
-    name: Nick Stevenson 
+    name: Nick Stevenson
   - role: Fight And Dance Choreography
     name: Ed Currie
   - role: Set Design
-    name: Chelsea Jayne Wright 
+    name: Chelsea Jayne Wright
   - role: Lighting Design
-    name: Aubrey Turner 
+    name: Aubrey Turner
   - role: Technical Director
     name: Hannah Doyle
   - role: Shadow Lighting Designer
     name: Dan O'Connor
   - role: Shadow Technical Director
-    name: Michael Ferdenzi 
+    name: Michael Ferdenzi
   - role: Make-Up
-    name: Madeleine Hardy 
+    name: Maddie Hardy
   - role: Make-Up
-    name: Hugh Purves 
+    name: Hugh Purves
   - role: Stage Manager
     name: Jess Curtis
   - role: Stage Manager
@@ -100,7 +100,7 @@ crew:
     name: Nick Barker
   - role: "Live Music - Performer and Composition"
     name: Nadia Amico
-  - role: "Live Music - Performer and Composition" 
+  - role: "Live Music - Performer and Composition"
     name: Gilad Grant
   - role: Photographer
     name: unknown

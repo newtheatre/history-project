@@ -6,8 +6,8 @@ season_sort: 1
 period: Spring
 venue:
   - New Theatre
-date_start: 2009-06-04
-date_end: 2009-06-07
+date_start: 2003-06-04
+date_end: 2003-06-07
 
 cast:
   - role: Mike (The Ruffian On The Stair)
@@ -35,7 +35,7 @@ crew:
   - role: Lighting Manager
     name: Lucy Ockenden
   - role: Lighting Assistant and Sound Manager
-    name: Sarah Bal
+    name: Sarah Ball
   - role: Stage Manager
     name: Naomi Oppenheim
   - role: Backstage

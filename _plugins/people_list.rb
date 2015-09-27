@@ -13,7 +13,7 @@ def fill_people_reverse_index(item, people_list, index_name, site)
   index = site.data[index_name]
 
   for person in people_list
-    if (person.has_key?("name") and person["name"] != "unknown") and not person["person"] == "false"
+    if (person.has_key?("name") and person["name"] != "unknown") and not person["person"] == false
       name = person["name"]
       role = person["role"]
       record_new = {"roles"=>[role], "item"=>item}

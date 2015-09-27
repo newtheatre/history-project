@@ -70,7 +70,7 @@ crew:
   - role: Sound
     name: Michael North
   - role: Fight Director
-    name: Sarah Hanafin
+    name: Sarah Hannafin
   - role: Music Composition/Direction
     name: Matthew Peck
   - role: Publicity

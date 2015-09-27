@@ -22,13 +22,13 @@ cast:
 
 crew:
   - role: Director
-    name: Tess Monroe-Somerville
+    name: Tess Monro-Somerville
   - role: Producer
     name: Tom Dineen
   - role: Stage Manager
     name: Daniel O'Connor
   - role: Stage Manager
-    name: Eden Philips Harrington
+    name: Eden Phillips-Harrington
   - role: Technical Director
     name: Aubrey Turner
   - role: Lighting Designer
