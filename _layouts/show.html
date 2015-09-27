@@ -141,20 +141,22 @@ layout: default
       <h3>Cast</h3>
       {% if show.cast == null %}
       {% include boxes/show_cast_missing.html %}
-      {% endif %}
+      {% else %}
       {% assign people = show.cast %}
       {% include person_list.html %}
+      {% endif %}
     </section>
     <section class="show-crew">
       <h3>Crew</h3>
-      {% if show.crew == null %}
-      {% include boxes/show_crew_missing.html %}
-      {% endif %}
       {% if show.crew.size < site.show_low_crew %}
       {% include boxes/show_crew_short.html %}
       {% endif %}
+      {% if show.crew == null %}
+      {% include boxes/show_crew_missing.html %}
+      {% else %}
       {% assign people = show.crew %}
       {% include person_list.html %}
+      {% endif %}
     </section>
   </div>
 
