@@ -42,9 +42,9 @@ module Jekyll
 
       @collection = site.collections["people"]
 
-      for title, shows in site.data["people_ri_shows"]
-        unless @collection.docs.detect { |doc| doc.data['title'] == title }
-          @collection.docs << PlaceholderPeoplePage.new(site, @collection, title)
+      for name in site.data["people_names"]
+        unless @collection.docs.detect { |doc| doc.data['name'] == name }
+          @collection.docs << PlaceholderPeoplePage.new(site, @collection, name)
         end
       end
 
