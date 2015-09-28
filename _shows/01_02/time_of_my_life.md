@@ -57,6 +57,18 @@ crew:
     name: Sophie Hargroves
   - role: Publicity Designer
     name: "Francis Edzard-Yates"
+
+assets:
+  - type: programme
+    image: time_of_my_life_programme_1.jpg
+    page: 1
+  - type: programme
+    image: time_of_my_life_programme_2.jpg
+    page: 2
+  - type: programme
+    image: time_of_my_life_programme_3.jpg
+    page: 3
+
 ---
 
 Time of my life is a modern day lay that charts the gradual collapse of the well-off Stratton family. Set in the Stratton family's favourite restaurant, Essa de Calvi, the action unfolds through different time frames. The play opens on the events of Laura's 54th birthday and throughout we will see Gerry and Laura in the present. The rest of the play revolves around this birthday meal - through Stephanie and Glyn we see the future, the events following Laura's birthday meal. Through Adam and Maureen we see the past, the events leading up to Laura's birthday meal. IT is both funny and thought-provoking as we watch all the skeletons come tumbling from the closet.

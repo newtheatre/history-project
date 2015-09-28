@@ -57,6 +57,27 @@ crew:
     name: Jenny Constantine
   - role: Backstage
     name: Samantha Partridge
+
+assets:
+  - type: programme
+    image: my_mother_said_i_never_should_programme_1.jpg
+    page: 1
+  - type: programme
+    image: my_mother_said_i_never_should_programme_2.jpg
+    page: 2
+  - type: programme
+    image: my_mother_said_i_never_should_programme_3.jpg
+    page: 3
+  - type: programme
+    image: my_mother_said_i_never_should_programme_4.jpg
+    page: 4
+  - type: programme
+    image: my_mother_said_i_never_should_programme_5.jpg
+    page: 5
+  - type: programme
+    image: my_mother_said_i_never_should_programme_6.jpg
+    page: 6
+
 ---
 
 

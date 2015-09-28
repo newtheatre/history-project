@@ -53,6 +53,23 @@ crew:
   - role: Publicity Designer
     name: Robin Pritchett
 
+assets:
+  - type: programme
+    image: the_dispute_programme_1.jpg
+    page: 1
+  - type: programme
+    image: the_dispute_programme_2.jpg
+    page: 2
+  - type: programme
+    image: the_dispute_programme_3.jpg
+    page: 3
+  - type: programme
+    image: the_dispute_programme_4.jpg
+    page: 4
+  - type: programme
+    image: the_dispute_programme_5.jpg
+    page: 5
+
 published: true
 ---
 
