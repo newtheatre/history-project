@@ -2,7 +2,7 @@
 title: "The Last 5 Years"
 Music, Book & Lyrics: Jason Robert Brown
 season: External
-season_sort: 
+season_sort: 440
 period: Spring
 venue:
   - New Theatre
