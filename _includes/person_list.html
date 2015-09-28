@@ -27,7 +27,11 @@ X
       {% if person.name == "unknown" %}
         <span class="unknown">Unknown</span>
       {% else %}
+        {% if person.person == false %}
+        {{ person.name }}
+        {% else %}
         <a href="{% person_url {{ person.name }}%}">{{ person.name }}</a>
+        {% endif %}
       {% endif %}
     </div>
   </li>
