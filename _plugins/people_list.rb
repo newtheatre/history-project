@@ -6,8 +6,8 @@ def fill_people_reverse_index(item, people_list, index_name, site)
   end
 
   # Create the array for people names if first time
-  unless site.data.has_key?('people_names')
-    site.data['people_names'] = Array.new
+  unless site.data.has_key?("people_names")
+    site.data["people_names"] = Array.new
   end
 
   index = site.data[index_name]
@@ -35,8 +35,8 @@ def fill_people_reverse_index(item, people_list, index_name, site)
       end
 
       # Push name onto master name list
-      unless site.data['people_names'].include? name
-        site.data['people_names'].push name
+      unless site.data["people_names"].include? name
+        site.data["people_names"].push name
       end
 
     end
