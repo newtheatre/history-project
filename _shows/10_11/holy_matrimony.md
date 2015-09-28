@@ -1,7 +1,7 @@
 ---
 title: "Holy Matrimony!"
 playwright: Devised
-season: In House
+season: External
 season_sort: 278
 period: Spring
 venue:
