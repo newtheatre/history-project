@@ -20,7 +20,7 @@ Biographies of theatre alumni are stored as `_people/firstname_lastname.md`.
 | `course` | The course, or courses the person studied. | Can be a single value or a list if multiple courses studied. |
 | `graduated` | The year the person graduated. | YYYY, if multiple courses |
 | `award`<br />*(optional)* | Award person received on leaving the theatre. | Should be in title case, Fellowship, Commendation. If not applicable line should be omitted. |
-| `comments` | Reserved for editor comments, only displayed in [editors' mode](/docs/#super-secret-editors-mode). |
+| `comment` | Reserved for editor comments, only displayed in [editors' mode](/docs/#super-secret-editors-mode). |
 
 
 ## <i class="octicon octicon-code"></i> Example Person
