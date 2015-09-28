@@ -43,7 +43,7 @@ module Jekyll
       @collection = site.collections["people"]
 
       for name in site.data["people_names"]
-        unless @collection.docs.detect { |doc| doc.data['name'] == name }
+        unless @collection.docs.detect { |doc| doc.data["title"] == name }
           @collection.docs << PlaceholderPeoplePage.new(site, @collection, name)
         end
       end
@@ -59,11 +59,10 @@ module Jekyll
       puts "Processing people..."
       people = site.collections["people"].docs
 
-
       for person in people
 
         # Populate person record with data from the reverse index
-        if site.data["people_ri_shows"].has_key?( person.data["title"] )
+        if site.data["people_names"].include?( person.data["title"] )
           person.data["shows"] = site.data["people_ri_shows"][ person.data["title"] ]
           person.data["committees"] = site.data["people_ri_committees"][ person.data["title"] ]
         end
