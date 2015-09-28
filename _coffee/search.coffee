@@ -26,6 +26,9 @@ configureWindow = ->
   else
     sView.renderBlank()
 
+  # Focus to search field
+  $('#q').focus()
+
   # Bind to keyup events on the search box
   $('#q').keyup debounce ->
     if $(this).val().length < 2
