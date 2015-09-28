@@ -35,8 +35,11 @@ $section-colour-tre: #601123
       display: none
 
     .posterwall
-      position: absolute
+      // position: absolute
       padding-right: $baseline * 3
+
+    .posterwall-bodge
+      width: 90%
 
   .home-info
     @include grid-x-percent($golden-counterpart)
@@ -65,11 +68,11 @@ $home-section-inner-padding: $baseline * 2
 
 .home-network
   background: $section-colour-two
-  padding-right: 0 // Remove right wrapper pad
 
   @include respond-up(tab-port)
     // Inner padding
     padding-right: $home-section-inner-padding
+    padding-right: 0 // Remove right wrapper pad
 
   h2
     @include text-shadow-effect($section-colour-two)
@@ -78,11 +81,11 @@ $home-section-inner-padding: $baseline * 2
 
 .home-contribute
   background: $section-colour-tre
-  padding-left: 0 // Remove left wrapper pad
 
   @include respond-up(tab-port)
     // Inner padding
     padding-left: $home-section-inner-padding
+    padding-left: 0 // Remove left wrapper pad
 
   h2
     @include text-shadow-effect($section-colour-tre)
