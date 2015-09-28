@@ -4,15 +4,7 @@ module Jekyll
     priority :lowest
 
 
-    def poster_bar(posters)
-      posters_in_bar = 50
-      # posters_for_bar = []
-
-      # Do this rather than posters.sample(posters_in_bar) to allow posters_in_bar > posters.size
-      # for i in 1..posters_in_bar do
-      #   posters_for_bar << posters.sample
-      # end
-
+    def poster_bar(posters, posters_in_bar=50)
       return posters.sample(posters_in_bar)
     end
 
@@ -59,6 +51,7 @@ module Jekyll
       site.data["asset_flyers"] = flyers
 
       site.data["assets_posters_bar"] = poster_bar(posters)
+      site.data["assets_posterwall"] = poster_bar(posters, 30)
 
     end
   end

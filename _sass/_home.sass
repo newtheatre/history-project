@@ -1,7 +1,179 @@
 // Homepage
 
-.home-main
-  @include grid-x-col(12)
+$golden: 61.8%
+$golden-counterpart: 100% - $golden
 
-.home-aside
-  @include grid-x-col(4)
+$section-colour-one: #000
+$section-colour-two: #115760
+$section-colour-tre: #601123
+
+.home-info
+  // Container of words
+  h2
+    font-weight: normal
+    font-size: $base-font-size * 3.2
+    line-height: $baseline * 3
+
+  p
+    font-size: $base-font-size * 1.44
+    line-height: $baseline * 2
+
+.home-shows
+  @include grid-row
+
+  background: $section-colour-one
+
+  overflow: hidden
+
+  .home-shows-design-element
+    @include grid-x-percent($golden)
+    position: relative
+    min-height: 300px
+
+    @include respond-down(mob-land)
+      // Doesn't adapt well for mobile, hide for now
+      display: none
+
+    .posterwall
+      position: absolute
+      padding-right: $baseline * 3
+
+  .home-info
+    @include grid-x-percent($golden-counterpart)
+
+.home-network, .home-contribute
+  @include grid-wrap
+
+  @include respond-down(mob-land)
+    @include set-property-to-gutter(padding-left)
+    @include set-property-to-gutter(padding-right)
+
+  @include respond-up(tab-port)
+    // Slight bodge to make full width cols
+    float: left
+    width: 50%
+    min-height: 33 * $baseline
+
+  @include respond-up(tab-land)
+    min-height: 28 * $baseline
+
+  @include respond-up(med-desk)
+    min-height: 23 * $baseline
+
+
+$home-section-inner-padding: $baseline * 2
+
+.home-network
+  background: $section-colour-two
+  padding-right: 0 // Remove right wrapper pad
+
+  @include respond-up(tab-port)
+    // Inner padding
+    padding-right: $home-section-inner-padding
+
+  h2
+    @include text-shadow-effect($section-colour-two)
+
+
+
+.home-contribute
+  background: $section-colour-tre
+  padding-left: 0 // Remove left wrapper pad
+
+  @include respond-up(tab-port)
+    // Inner padding
+    padding-left: $home-section-inner-padding
+
+  h2
+    @include text-shadow-effect($section-colour-tre)
+
+
+.home-contribute-actions
+  @include display(flex)
+  @include block
+
+.home-contribute-action
+  position: relative
+  @include flex-basis(50%)
+  padding: $baseline / 2
+  margin-right: 8px
+
+  background: $color-text-black
+
+  overflow: hidden
+
+  &:last-child
+    margin-right: 0
+
+  i
+    position: absolute
+    bottom: -60px
+    right: -2px
+    font-size: 152px
+    color: $color-text-white
+    opacity: 0.1
+
+  a
+    color: $color-text-white
+
+    h3, p
+      font-size: $base-font-size
+      line-height: $baseline
+      text-align: center
+
+    h3
+      margin-bottom: $baseline / 2
+
+    &:hover
+      text-decoration: none
+      h3
+        text-decoration: underline
+
+// Overrides
+
+.home-section
+  // High level block on the home page
+  padding-top: $baseline * 2
+  padding-bottom: $baseline * 2
+
+.home-button
+  width: 100%
+  a
+    display: block
+    width: 100%
+    background: $color-text-black
+    padding: $baseline / 4 $baseline / 2
+    color: $color-text-white
+
+
+.home-shows-counter
+  @include grid-clear
+
+  $char-width: 44px
+
+  position: relative
+  overflow: hidden
+
+  // width: $char-width * 3
+  font-size: $base-font-size * 3
+  font-family: 'Open Sans', Helvetica, sans-serif
+  color: #fff
+  line-height: $baseline * 5
+  line-height: 1em
+  margin-bottom: $baseline
+
+  .char1, .char2, .char3, .char4
+    background: $color-black
+    width: $char-width
+    text-align: center
+    display: block
+    float: left
+    padding: 5px 0
+
+    border-radius: 6px
+
+    margin-left: 2px
+
+.home .content
+  overflow: hidden
+  margin-bottom: 0
