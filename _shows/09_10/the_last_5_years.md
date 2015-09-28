@@ -11,9 +11,17 @@ date_end: 2010-06-17
 
 cast:
   - role: Jamie
-    name: James Lewis (15, 16 June) Dan Downes (14, 17 June)
+    name: James Lewis
+    note: 15, 16 June
+  - role: Jamie
+    name: Dan Downes
+    note: 14, 17 June
   - role: Cathy
-    name: Laura Kaye Thompson (15, 16 June) Nell Charleston (14, 17 June)
+    name: Laura Kaye Thompson
+    note: 15, 16 June
+  - role: Cathy
+    name: Nell Charleston
+    note: 14, 17 June
 
 crew:
   - role: Director
