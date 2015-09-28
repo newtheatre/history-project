@@ -18,6 +18,17 @@ crew:
   - name: Sarah Hughes
 venue:
   - Edinburgh
+
+assets:
+  - type: poster
+    image: vatzlav_poster.jpg
+  - type: programme
+    image: vatzlav_programme_1.jpg
+    page: 1
+  - type: programme
+    image: vatzlav_programme_2.jpg
+    page: 2
+
 ---
 
 

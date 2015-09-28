@@ -51,6 +51,16 @@ crew:
   - role: "'Ruffian' Musical Composer"
     name: Claude Debussy
 
+assets:
+  - type: poster
+    image: crave_and_ruffian_poster.jpg
+  - type: poster
+    image: the_ruffian_on_the_stair_poster.jpg
+  - type: programme
+    image: crave_and_ruffian_programme_1.jpg
+  - type: programme
+    image: crave_and_ruffian_programme_2.jpg
+
 published: true
 ---
 

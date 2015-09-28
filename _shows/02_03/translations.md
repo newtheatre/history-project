@@ -64,6 +64,14 @@ crew:
   - role: Backstage
     name: Pete Bridge
 
+assets:
+  - type: programme
+    image: translations_programme_1.jpg
+    page: 1
+  - type: programme
+    image: translations_programme_2.jpg
+    page: 2
+
 published: true
 ---
 

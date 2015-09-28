@@ -86,5 +86,17 @@ crew:
   - role: Publicity Designer
     name: Henry Filloux-Bennett
 
+assets:
+  - type: programme
+    image: amadeus_programme_1.jpg
+  - type: programme
+    image: amadeus_programme_2.jpg
+  - type: programme
+    image: amadeus_programme_3.jpg
+  - type: programme
+    image: amadeus_programme_4.jpg
+  - type: programme
+    image: amadeus_programme_5.jpg
+
 published: true
 ---
