@@ -11,5 +11,5 @@ date_end: 2008-03-08
 
 assets:
   - type: poster
-    image: images/for_shows/out_of_order_2007-08.jpg
+    image: out_of_order_2007-08.jpg
 ---
