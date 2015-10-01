@@ -14,7 +14,7 @@ cast:
   - role: Alan Raleigh
     name: Harry Bradley
   - role: Annette Raleigh
-    name: Ellie Cawthorn
+    name: Ellie Cawthorne
   - role: Michael Novak
     name: Tom Gladstone
   - role: Veronica Novak
