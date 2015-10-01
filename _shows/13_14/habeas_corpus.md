@@ -37,7 +37,7 @@ crew:
   - role: Director
     name: Chelsea Jayne Wright
   - role: Producer
-    name: Nicola Hill
+    name: Nikki Hill
   - role: Set Designer
     name: Chelsea Jayne Wright
   - role: Stage Manager
