@@ -28,6 +28,10 @@ cast:
   - role: Producer
     name: Kathryn Feavers
 
+assets:
+  - type: poster
+    image: deus_vult_2010-11.jpg
+
 published: true
 ---
 
