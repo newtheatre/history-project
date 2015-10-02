@@ -24,6 +24,14 @@ crew:
     name: Philip Geller
 
 published: true
+
+photos:
+  - type: photo
+    image: after_the_end_image_2010-11.jpg
+
+assets:
+  - type: poster
+    image: after_the_end_image_2_2010-11.jpg
 ---
 
 Louise wakes up alone with a work colleague, Mark, in his nuclear fallout shelter.
