@@ -8,4 +8,8 @@ venue:
   - New Theatre
 date_start: 2011-05-28
 date_end: 2011-05-28
+
+assets:
+  - type: poster
+    image: an_evening_of_new_writing_2011.jpg
 ---
