@@ -35,6 +35,10 @@ crew:
   - role: Media Designer
     name: Dan Rae-Scott
 
+assets:
+  - type: poster
+    image: bluebird_2010-11.jpg
+
 published: true
 ---
 
