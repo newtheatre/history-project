@@ -25,4 +25,8 @@ cast:
 crew:
   - role: Director
     name: Jonathon Newsome
+
+assets:
+  - type: poster
+    image: eight_2012-13.jpg
 ---
