@@ -11,6 +11,6 @@ venue:
 
 assets:
   - type: poster
-    image: freshers'_fringe_2009-10.jpg
+    image: freshers_fringe_2009-10.jpg
 
 ---

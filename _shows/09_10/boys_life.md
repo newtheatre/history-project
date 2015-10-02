@@ -47,7 +47,7 @@ crew:
 
 assets:
   - type: poster
-    image: boy's_life_2009-10.jpg
+    image: boys_life_2009-10.jpg
 
 published: true
 ---
