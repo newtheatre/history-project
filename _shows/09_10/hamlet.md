@@ -42,6 +42,10 @@ crew:
 - role: Producer
   name: Emily Adams
 
+assets:
+  - type: poster
+    image: hamlet_2009-10.jpg
+
 published: true
 ---
 
