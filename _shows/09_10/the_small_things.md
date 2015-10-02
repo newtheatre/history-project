@@ -35,6 +35,10 @@ cast:
   - role: Set Construction
     name: Philip Geller
 
+assets:
+  - type: poster
+    image: the_small_things_2009-10.jpg
+
 published: true
 ---
 
