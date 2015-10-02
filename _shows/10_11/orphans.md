@@ -33,6 +33,10 @@ crew:
   - role: Lighting Designer
     name: Matt Leventhall
 
+assets:
+  - type: poster
+    image: orphans_2010-11.jpg
+
 published: true
 ---
 
