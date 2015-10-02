@@ -58,7 +58,7 @@ crew:
   - role: Costumes and Make Up
     name: Offy Tilt
   - role: The Musical Trio
-    name: Caroline Blinkham
+    name: Caroline Blinkhorn
   - role: The Musical Trio
     name: Nicola Brooker
   - role: The Musical Trio
