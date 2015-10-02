@@ -24,12 +24,20 @@
       &.ion-paintbucket
         top: -5px
 
+  $person-role-weight: 100
   .person-role
-    font-weight: 100
+    font-weight: $person-role-weight
 
-  .person-name
-    a
-      color: $color-text-white
+  a
+    color: $color-text-white
+    .person-role
+      font-weight: $person-role-weight
+    .person-name
+
+  a:hover
+    text-decoration: none
+    .person-name
+      text-decoration: underline
 
   .person-add
 

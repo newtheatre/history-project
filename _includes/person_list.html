@@ -15,6 +15,14 @@ X
 <ul class="person-list">
 {% for person in people %}
   <li class="person-single">
+
+    {% if person.person != false and person.name != "" and person.name != "unknown" %}
+      <a href="{% person_url {{ person.name }}%}">
+      {% assign linked_single = true %}
+    {% else %}
+      {% assign linked_single = false %}
+    {% endif %}
+
     <div class="person-role">
       {% if person.role == "unknown" %}
         <span class="unknown">Unknown</span>
@@ -27,13 +35,12 @@ X
       {% if person.name == "unknown" %}
         <span class="unknown">Unknown</span>
       {% else %}
-        {% if person.person == false %}
         {{ person.name }}
-        {% else %}
-        <a href="{% person_url {{ person.name }}%}">{{ person.name }}</a>
-        {% endif %}
       {% endif %}
     </div>
+
+    {% if linked_single %}</a>{% endif %}
+
   </li>
 {% endfor %}
 
