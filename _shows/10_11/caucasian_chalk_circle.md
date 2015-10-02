@@ -27,6 +27,10 @@ crew:
   - role: Producer
     name: Adna Duherich
 
+assets:
+  - type: poster
+    image: caucasian_chalk_circle_2010-11.jpg
+
 published: true
 ---
 
