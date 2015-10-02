@@ -1,0 +1,35 @@
+// Row for meta data
+
+$meta-row-icon-size: $base-font-size * 1.2
+$meta-row-font-size: $base-font-size * 0.88
+
+@mixin meta-row
+  @include flex-row
+
+@mixin meta-icon
+  // Generic icon formatting
+  display: block
+
+  color: $color-grey
+  opacity: 0.4
+  font-size: $meta-row-icon-size
+  padding: 4px
+
+@mixin meta-col
+  @include flex(1)
+  margin-right: 6px
+  max-width: 30%
+
+  p
+    font-size: $meta-row-font-size
+    padding-left: 4px
+    padding-right: 4px
+
+.meta-row
+  @include meta-row
+
+.meta-icon
+  @include meta-icon
+
+.meta-col
+  @include meta-col

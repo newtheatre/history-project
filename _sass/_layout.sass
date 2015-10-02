@@ -63,27 +63,3 @@ body
   @include respond-up(tab-port)
     height: 420px
 
-@mixin meta-col
-  font-size: $base-font-size * 1.2
-  $i-width: 16%
-  i
-    // Generic icon formatting
-    color: $color-grey
-    opacity: 0.4
-  .meta-icon
-    // Positioning for the main icon
-    display: block
-    float: left
-    font-size: $base-font-size * 1.2
-    width: $i-width
-
-  .meta-content
-    position: relative
-    top: -4px
-    float: left
-    padding-left: 4px
-    width: 100% - $i-width
-    font-size: 0.88 * $base-font-size
-
-.meta-col
-  @include meta-col
