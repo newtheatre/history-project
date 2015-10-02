@@ -45,6 +45,10 @@ crew:
 - role: Producer
   name: Rachel Feeney
 
+assets:
+  - type: poster
+    image: his_lordship_entertains_2009-10.jpg
+
 published: true
 ---
 
