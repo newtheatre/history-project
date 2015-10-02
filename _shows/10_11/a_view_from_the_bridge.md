@@ -37,6 +37,10 @@ crew:
   - role: Producer
     name: James Lovell
 
+assets:
+  - type: poster
+    image: a_view_from_the_bridge_2010-11.jpg
+
 published: true
 ---
 
