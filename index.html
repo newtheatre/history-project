@@ -2,16 +2,6 @@
 layout: default
 body_class: home
 no_report_links: true
-people_names:
-  - Will
-  - Fred
-  - Nick
-  - James
-  - Phil
-  - Anna
-  - Peter
-  - Tess
-
 ---
 <div class="home-new-banner">
   History Project Launched 28<sup>th</sup> September 2015!
@@ -107,10 +97,18 @@ people_names:
 
 
     {% assign shows = site.collections.shows.docs %}
+    {% assign people = site.collections.people.docs %}
 
-    <div class="home-shows-counter js-lettering">{{shows.size}}</div>
-
-    <p>shows, and counting!</p>
+    <div class="flex-container home-shows-counter-container">
+      <div class="flex-1">
+        <div class="home-shows-counter js-lettering">{{shows.size}}</div>
+        <p>shows</p>
+      </div>
+      <div class="flex-1">
+        <div class="home-shows-counter js-lettering">{{people.size}}</div>
+        <p>people</p>
+      </div>
+    </div>
 
     <p class="home-button"><a href="years/">Explore the archives&hellip;</a></p>
 

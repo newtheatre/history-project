@@ -153,10 +153,11 @@ $home-section-inner-padding: $baseline * 2
     padding: $baseline / 4 $baseline / 2
     color: $color-text-white
 
+.home-shows-counter-container
+  p
+    padding-left: 5px
 
 .home-shows-counter
-  @include grid-clear
-
   $char-width: 44px
 
   position: relative
@@ -168,7 +169,6 @@ $home-section-inner-padding: $baseline * 2
   color: #fff
   line-height: $baseline * 5
   line-height: 1em
-  margin-bottom: $baseline
 
   .char1, .char2, .char3, .char4
     background: $color-black
