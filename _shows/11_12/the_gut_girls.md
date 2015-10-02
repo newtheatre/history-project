@@ -14,5 +14,9 @@ crew:
     name: Kathryn Feavers
   - role: Producer
     name: Wawa Hunja
+
+assets:
+  - type: poster
+    image: the_gut_girls_2011-12.jpg
 ---
 Loud, bawdy and brash, the girls who work in the gutting sheds of Deptford’s Cattle Market enjoy life despite hanging from the bottom rung of the social ladder. Lady Helena believes it is her duty to improve their morals and make them ladies. The girls don’t necessarily agree.
