@@ -69,6 +69,10 @@ crew:
   - role: Props and Costumes
     name: Vickie Vukelic
 
+assets:
+  - type: poster
+    image: rhinoceros_09-10.jpg
+
 published: true
 ---
 
