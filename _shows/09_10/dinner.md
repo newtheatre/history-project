@@ -39,6 +39,10 @@ crew:
   - role: Costumier
     name: Lawrence Bolton
 
+assets:
+  - type: poster
+    image: dinner_2009-10.jpg
+
 published: true
 ---
 
