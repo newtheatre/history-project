@@ -21,6 +21,10 @@ crew:
   - role: Producer
     name: Nick Rowell
 
+assets:
+  - type: poster
+    image: this_wide_night_2010-11.jpg
+
 published: true
 ---
 
