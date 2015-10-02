@@ -53,6 +53,10 @@ crew:
   - role: Composer
     name: Ed Denham
 
+assets:
+  - type: poster
+    image: arcadia_2010-11.jpg
+
 published: true
 ---
 
