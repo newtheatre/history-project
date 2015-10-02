@@ -31,7 +31,7 @@ cast:
   - role: Seyward
     name: Nick Walton
   - role: Seyton
-    name: Matthew Cowlinshaw
+    name: Matthew Cowlishaw
   - role: Lady Macbeth
     name: Olivia Haussels
   - role: Lady Macduff
