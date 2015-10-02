@@ -29,6 +29,10 @@ crew:
   - role: Lighting Designer
     name: Matt Leventhall
 
+assets:
+  - type: poster
+    image: the_county_2009-10.jpg
+
 published: true
 ---
 
