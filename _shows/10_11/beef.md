@@ -14,4 +14,8 @@ crew:
     name: Liz Stevenson
   - role: Producer
     name: Liz Rose
+
+assets:
+  - type: poster
+    image: beef_edinburgh_2011.jpg
 ---
