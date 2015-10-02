@@ -29,6 +29,10 @@ crew:
   - role: Original Score
     name: Angus MacRae
 
+assets:
+  - type: poster
+    image: the_shape_of_things_2009-10.jpg
+
 published: true
 ---
 
