@@ -9,5 +9,5 @@ venue:
 
 assets:
   - type: poster
-    image: someone_who'll_watch_over_me_2008-09.jpg
+    image: someone_who_ll_watch_over_me_2008-09.jpg
 ---
