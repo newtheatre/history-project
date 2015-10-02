@@ -55,6 +55,10 @@ crew:
   - role: Technical Operator
     name: Aneira Pugh
 
+assets:
+  - type: poster
+    image: rope_2010-11.jpg
+
 published: true
 ---
 
