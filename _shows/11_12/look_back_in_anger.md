@@ -6,4 +6,8 @@ season_sort: 40
 period: Autumn
 venue:
   - New Theatre
+
+assets:
+  - type: poster
+    image: look_back_in_anger_2008-09.jpg
 ---
