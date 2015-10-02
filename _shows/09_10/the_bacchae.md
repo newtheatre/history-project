@@ -15,6 +15,10 @@ crew:
   - role: Producer
     name: unknown
 
+assets:
+  - type: poster
+    image: the_bacchae_2009-10.jpg
+
 published: true
 ---
 
