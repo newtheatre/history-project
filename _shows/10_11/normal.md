@@ -27,6 +27,10 @@ crew:
 - role: Original Score
   name: Angus MacRae
 
+assets:
+  - type: poster
+    image: normal_2010-11.jpg
+
 published: true
 ---
 
