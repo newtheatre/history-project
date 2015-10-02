@@ -40,6 +40,10 @@ crew:
   - role: Musical Direction
     name: Angus MacRae
 
+assets:
+  - type: poster
+    image: ghetto_2009-10.jpg
+
 published: true
 ---
 
