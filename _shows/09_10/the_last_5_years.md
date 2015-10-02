@@ -28,4 +28,8 @@ crew:
     name: Stephen James Irvine
   - role: Producer
     name: Lauren Grant
+
+assets:
+  - type: poster
+    image: the_last_5_years_2010-11.jpg
 ---
