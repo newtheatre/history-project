@@ -9,5 +9,5 @@ venue:
 
 assets:
   - type: poster
-    image: nature's_pretenders_2008-09.jpg
+    image: natures_pretenders_2008-09.jpg
 ---
