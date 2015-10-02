@@ -9,5 +9,5 @@ venue:
 
 assets:
   - type: poster
-    image: abigail's_party_2011-12.jpg
+    image: abigails_party_2011-12.jpg
 ---
