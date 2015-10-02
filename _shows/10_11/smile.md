@@ -23,6 +23,10 @@ crew:
   - role: Technical Director
     name: James Herbert
 
+assets:
+  - type: poster
+    image: smile_2010-11.jpg
+
 published: true
 ---
 
