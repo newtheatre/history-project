@@ -23,7 +23,7 @@ cast:
   - name: Paul Whickman
   - name: Rose Eccleshare
   - name: Amy Rushton
-  - name: Peter Carey
+  - name: Peter Cary
   - name: Conrad Cohen
   - name: Andrew Kennedy
   - name: Lucien Jack
