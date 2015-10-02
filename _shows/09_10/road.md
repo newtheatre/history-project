@@ -24,6 +24,10 @@ crew:
   - role: Technical Director
     name: Bora Hunja
 
+assets:
+  - type: poster
+    image: road_2009-10.jpg
+
 published: true
 ---
 
