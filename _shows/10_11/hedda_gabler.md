@@ -31,6 +31,10 @@ crew:
 - role: Producer
   name: Sophie Watson
 
+assets:
+  - type: poster
+    image: hedda_gabler_2010-11.jpg
+
 published: true
 ---
 
