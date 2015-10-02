@@ -15,6 +15,10 @@ crew:
   - role: Producer
     name: Lawrence Bolton
 
+assets:
+  - type: poster
+    image: our_town_2009-10.jpg
+
 published: true
 ---
 
