@@ -28,6 +28,10 @@ crew:
 - role: Designer
   name: Lawrence Bolton
 
+assets:
+  - type: poster
+    image: excess_2009-10.jpg
+
 published: true
 ---
 
