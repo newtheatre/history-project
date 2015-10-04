@@ -44,6 +44,11 @@ assets:
   - type: poster
     image: ghetto_2009-10.jpg
 
+photos:
+  - type: photo
+    image: photo_show_unknown.jpg
+
+
 published: true
 ---
 
