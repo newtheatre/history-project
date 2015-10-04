@@ -11,5 +11,5 @@ date_end: 2011-02-10
 
 assets:
   - type: poster
-    image: strictly_come_stars.jpg
+    image: strictly_come_stars_2.jpg
 ---
