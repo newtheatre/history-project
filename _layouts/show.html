@@ -114,13 +114,32 @@ layout: default
 
   </div>
 
-  {% if show.photos == null %}
+  {% if show.smugmug_album %}
+
+  <div class="show-photos-outer">
+    <section class="show-photos show-photos-smug">
+      {% for image in show.smugmug_album %}
+      <div class="show-photo-single debug-container">
+        <a class="fancybox" rel="photos" href="{{ image.LargeImage.Url }}" title="???">
+          <img src="{{ image.ThumbnailUrl }}" alt="???" title="???" />
+          <div class="debug-abs-bottom-left" data-debug-toggle title="Photo type">{{ image.ImageKey }}</div>
+          <div class="debug-abs-top-left" data-debug-toggle title="Photo image">{{ image.FileName }}</div>
+        </a>
+      </div>
+      {% endfor %}
+    </section>
+  </div>
+
+  {% elsif show.photos == null %}
+
   <div class="show-wrap show-row">
     <div class="col-full">
       {% include boxes/show_photos_missing.html %}
     </div>
   </div>
+
   {% else %}
+
   <div class="show-photos-outer">
     <section class="show-photos">
       {% for image in show.photos %}
@@ -134,6 +153,7 @@ layout: default
       {% endfor %}
     </section>
   </div>
+
   {% endif %}
 
 <!--   <div class="show-assets-outer">
