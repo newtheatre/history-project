@@ -43,7 +43,7 @@ class Smug
     if album
       imageList = Array.new
       album.each { |image| imageList.push image["ImageKey"] }
-      imageURLs = fetch_image_urls(imageList, "sizelarge", "ImageSizeLarge")
+      imageURLs = fetch_image_urls(imageList, "!sizecustom?height=1000&width=1000", "ImageSizeCustom")
 
       album.collect do |image|
         image["NTHP_Parsed"] = true
