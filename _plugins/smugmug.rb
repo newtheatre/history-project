@@ -25,7 +25,7 @@ class Smug
       return data["Response"]["AlbumImage"]
     else
       puts "Error: Invalid SmugMug Response"
-      puts data
+      return false
     end
   end
 
@@ -40,15 +40,16 @@ class Smug
 
   def get_show_photos(albumID)
     album = fetch_album_images(albumID)
+    if album
+      imageList = Array.new
+      album.each { |image| imageList.push image["ImageKey"] }
+      imageURLs = fetch_image_urls(imageList, "sizelarge", "ImageSizeLarge")
 
-    imageList = Array.new
-    album.each { |image| imageList.push image["ImageKey"] }
-    imageURLs = fetch_image_urls(imageList, "sizelarge", "ImageSizeLarge")
-
-    album.collect do |image|
-      image["NTHP_Parsed"] = true
-      image["LargeImage"] = imageURLs.shift
-      image
+      album.collect do |image|
+        image["NTHP_Parsed"] = true
+        image["LargeImage"] = imageURLs.shift
+        image
+      end
     end
   end
 end
