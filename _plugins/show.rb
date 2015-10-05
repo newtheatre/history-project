@@ -26,6 +26,12 @@ module Jekyll
         # To put content in meta description
         show.data["excerpt"] = show.content
 
+        # Fetch SmugMug album data
+        if show.data.has_key? "smugmug"
+          smug = Smug.new
+          show.data["smugmug_album"] = smug.get_show_photos(show.data["smugmug"])
+        end
+
         # Generate the legacy path for 301 redirect re. #142 Make semantic and pretty urls
         legacy_path = "shows/#{show.data["year"]}/#{show.basename_without_ext}.html"
         show.data["redirect_from"] = legacy_path
@@ -107,4 +113,3 @@ module Jekyll
     end
   end
 end
-
