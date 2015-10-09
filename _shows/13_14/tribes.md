@@ -39,6 +39,8 @@ crew:
   - role: Lighting Designer
     name: Joseph Heil
   - role: Technical Operator
+    name: Joanne Blunt
+  - role: Technical Operator
     name: Matt Standen
   - role: Technical Operator
     name: Adam Bergen
