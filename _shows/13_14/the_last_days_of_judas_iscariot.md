@@ -9,7 +9,7 @@ date_end: 2013-11-23
 venue:
   - New Theatre
   
-  - cast:
+cast:
   - role: Yusef El-Fayoumy
     name: Aaron Tej
   - role: Fabiana Cunningham
