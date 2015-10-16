@@ -9,7 +9,23 @@ date_end: 2014-04-11
 venue:
   - New Theatre
 
+cast:
+  - role: Mia
+    name: Harriet Lowe
+  - role: Henry
+    name: Ben Maries
+  - role: Martha
+    name: Kati Hall
+  - role: Izzy
+    name: Charlotte van Rhee
+  - role: Hugh
+    name: Bernie Kerr
+
 crew:
+  - role: Director
+    name: Krishanthi Jeyakumar
+  - role: Producer
+    name: Jack Revell
   - role: Technical Director
     name: Michael Ferdenzi
   - role: Lighting Designer
