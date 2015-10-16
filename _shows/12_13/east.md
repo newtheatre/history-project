@@ -1,6 +1,6 @@
 ---
 title: East
-playwright: Steven Birkoff
+playwright: Steven Berkoff
 season: In House
 season_sort: 260
 period: Spring
