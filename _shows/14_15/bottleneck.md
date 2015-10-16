@@ -20,6 +20,10 @@ crew:
     name: Tom Heath Harvey
   - role: Technical Director
     name: Joanne Blunt
+  - role: Lighting Designer
+    name: Joanne Blunt
+  - role: Lighting Designer
+    name: Nathan Penney
   - role: Publicity Designer
     name: Gus Herbert
 
