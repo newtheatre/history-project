@@ -21,6 +21,7 @@ module Jekyll
 
         # Set year attributes
         show.data["year"] = year
+        show.data["year_hyphenated"] = year.sub("_","-")
         show.data["year_page"] = years_by_slug[show.data["year"]]
 
         # To put content in meta description
