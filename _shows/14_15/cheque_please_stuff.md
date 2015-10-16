@@ -7,6 +7,14 @@ date_start: 2015-06-17
 venue:
   - New Theatre
 
+crew:
+  - role: Director
+    name: Nikki Hill
+  - role: Producer
+    name: Gus Herbert
+  - role: Technical Director
+    name: Darcey Graham
+
 assets:
   - type: poster
     image: cheque_please_fringe.jpg
