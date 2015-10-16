@@ -7,6 +7,28 @@ date_start: 2015-08-08
 date_end: 2015-08-28
 venue:
   - ZOO Monkeyhouse
+cast:
+  - role: 
+    name: Ricki Crook 
+  - role: 
+    name: Holly Gatfield
+  - role: 
+    name: Amy Brough-Aikin
+  - role: 
+    name: Jonathan Taylor Davies
+  - role: 
+    name: Arnaud Lacey
+
+crew:
+  - role: Director
+    name: Jack Revell
+  - role: Producer
+    name: Emma Kendall
+  - role: Technical Director
+    name: Darcey Graham
+  - role: Publicity Manager
+    name: Lydia Smith
+
 assets:
   - type: poster
     image: open_fringe.jpg
