@@ -1,6 +1,7 @@
 ---
 title: "Cheque, Please"
 playwright: "Nikki Hill"
+student_written: true
 period: Spring
 season: "STUFF"
 season_sort: 430
