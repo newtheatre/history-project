@@ -1,5 +1,6 @@
 ---
 title: "OPEN"
+playwright: "(Devised)"
 period: Edinburgh
 season: "Edinburgh"
 season_sort: 610
