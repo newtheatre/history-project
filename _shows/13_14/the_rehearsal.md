@@ -8,6 +8,26 @@ date_start: 2014-03-10
 date_end: 2014-03-11
 venue:
   - New Theatre Studio A
+  
+cast:
+  - role: Al
+    name: Ben Hollands
+  - role: Ben
+    name: Jacob Hayes
+  - role: Jessica
+    name: Sasha Butler
+  - role: Chloe
+    name: Rachel Angeli
+  - role: Tom
+    name: Tom Willis
+  - role: Emily
+    name: Cressida McGill
+  - role: Ollie
+    name: Aaron Tej
+  - role: Charlie
+    name: Tom Gladstone
+  - role: Sam
+    name: Will Berrington
 
 crew:
   - role: Director
