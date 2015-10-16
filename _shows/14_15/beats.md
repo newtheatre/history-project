@@ -9,6 +9,26 @@ date_end: 2015-06-19
 venue:
   - New Theatre Studio A
 
+cast:
+  - role: Johnno McCreadie
+    name: Ben Standish
+  - role: DJ
+    name: Owen Lewis
+
+
+crew:
+  - role: Director
+    name: Charlotte van Rhee
+  - role: Producer
+    name: Harriet Lowe
+  - role: Technical Director
+    name: Joanne Blunt
+  - role: Lighting Designer
+    name: David Taylor
+  - role: Visuals Designer
+    name: David Taylor
+
+
 assets:
   - type: poster
     image: beats_poster.jpg
