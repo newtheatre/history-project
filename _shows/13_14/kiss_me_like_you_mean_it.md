@@ -9,7 +9,21 @@ date_end: 2014-03-22
 venue:
   - New Theatre
 
+cast:
+  - role: Don
+    name: Dave Porter
+  - role: Edie
+    name: Chloe Bickford
+  - role: Ruth
+    name: Genevieve Cunnell
+  - role: Tony
+    name: Karl Rawsthorne
+
 crew:
+  - role: Director
+    name: Page Phillips Harrington
+  - role: Producer
+    name: Eden Phillips Harrington
   - role: Technical Director
     name: Nikki Hill
   - role: Technical Director
@@ -20,6 +34,8 @@ crew:
     name: Logan Wamsley
   - role: Lighting Designer
     name: Sebastian Frend
+  - role: Technical Operator
+    name: Will Berrington
 
 photos:
   - type: photo
