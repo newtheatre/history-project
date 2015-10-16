@@ -8,6 +8,36 @@ date_start: 2013-11-20
 date_end: 2013-11-23
 venue:
   - New Theatre
+  
+cast:
+  - role: Yusef El-Fayoumy
+    name: Aaron Tej
+  - role: Fabiana Cunningham
+    name: Genevieve Cunnell
+  - role: Satan
+    name: Will Hedges
+  - role: Judas Iscariot
+    name: Alex Mawby
+  - role: Jesus Christ
+    name: Wesley Nash
+  - role: Judge Littlefield
+    name: Afia Spencer
+  - role: Saint Monica/Henrietta Iscariot
+    name: Aimee Gaudin
+  - role: Mary Magdalene/Mother Teresa
+    name: Holly Daniels
+  - role: Pontius Pilate
+    name: Jorden Edgar-Oliyide
+  - role: Simon the Zealot
+    name: Diderik Ypma
+  - role: Butch Honeywell
+    name: Eoin Buckley
+  - role: Sigmund Freud
+    name: Bernie Kerr
+  - role: Caiaphas the Elder
+    name: Logan Walmsley
+  - role: Bailiff
+    name: James Roscow
 
 crew:
   - role: Director
