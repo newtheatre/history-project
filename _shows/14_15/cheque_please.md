@@ -1,6 +1,7 @@
 ---
 title: "Cheque, Please"
 playwright: "Nikki Hill"
+student_written: true
 period: Edinburgh
 season: "Edinburgh"
 season_sort: 600
