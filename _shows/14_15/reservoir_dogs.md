@@ -1,6 +1,7 @@
 ---
 title: "Reservoir Dogs"
 playwright: "Carn Truscott"
+student_written: true
 period: Spring
 season: "Fringe"
 season_sort: 290
