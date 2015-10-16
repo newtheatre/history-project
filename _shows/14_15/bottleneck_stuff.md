@@ -10,18 +10,22 @@ venue:
   - New Theatre Studio A
 
 cast:
-  - role: Greg
-    name: Nick Gill
+  - role: Johnno McCreadie
+    name: Ben Standish
+  - role: DJ
+    name: Owen Lewis
 
 crew:
   - role: Director
-    name: Tom Tolond
+    name: Charlotte van Rhee
   - role: Producer
-    name: Tom Heath Harvey
+    name: Harriet Leigh
   - role: Technical Director
     name: Joanne Blunt
-  - role: Publicity Designer
-    name: Gus Herbert
+  - role: Lighting Designer
+    name: David Taylor
+  - role: Visual Designer
+    name: David Taylor
 
 assets:
   - type: poster
