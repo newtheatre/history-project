@@ -19,7 +19,7 @@ cast:
   - role: Gabriella
     name: Emma Dearden
   - role: Gretchen
-    name: Rosie Van Oss
+    name: Rosie van Oss
   - role: Bertha
     name: Flo Hapgood
 
