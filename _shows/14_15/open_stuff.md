@@ -1,5 +1,6 @@
 ---
 title: "OPEN"
+playwright: "(Devised)"
 period: Spring
 season: "STUFF"
 season_sort: 500
