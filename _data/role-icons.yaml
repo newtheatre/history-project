@@ -6,6 +6,8 @@
   icon: fa fa-money
 - role: Set Designer
   icon: ion-paintbucket
+- role: Designer
+  icon: ion-paintbucket  
 - role: Stage Manager
   icon: fa fa-bookmark
 - role: Technical Director
@@ -36,9 +38,13 @@
   icon: fa fa-picture-o
 - role: Publicist
   icon: fa fa-picture-o
+- role: Poster Designer
+  icon: fa fa-picture-o
 - role: Photographer
   icon: fa fa-camera-retro
-
+- role: Photography
+  icon: fa fa-camera-retro
+  
 - role: President
   icon: fa fa-star
 - role: Treasurer
