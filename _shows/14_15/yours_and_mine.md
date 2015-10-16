@@ -1,6 +1,7 @@
 ---
 title: "Yours and Mine"
 playwright: "Miriam Dyberg"
+student_written: true
 period: Spring
 season: "Fringe"
 season_sort: 340
