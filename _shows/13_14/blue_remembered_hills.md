@@ -34,6 +34,8 @@ crew:
     name: Clara Brooks
   - role: Technical Director
     name: Nathan Penney
+  - role: Lighting Designer
+    name: Nathan Penney
   - role: Stage Manager
     name: Rachel Angeli
 
