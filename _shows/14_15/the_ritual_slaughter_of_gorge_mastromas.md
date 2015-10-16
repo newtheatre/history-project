@@ -1,6 +1,6 @@
 ---
 title: "The Ritual Slaughter of Gorge Mastromas"
-playwright: "Dennis Kelley"
+playwright: "Dennis Kelly"
 period: Autumn
 season: "In House"
 season_sort: 130
