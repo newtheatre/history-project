@@ -7,6 +7,17 @@ date_start: 2015-08-07
 date_end: 2015-08-31
 venue:
   - ZOO Monkeyhouse
+
+crew: 
+  - role: Director
+    name: Nikki Hill
+  - role: Producer
+    name: Gus Herbert
+  - role: Technical Director
+    name: Darcey Graham
+  - role: Publicity Manager
+    name: Lydia Smith
+
 assets:
   - type: poster
     image: cheque_please_fringe.jpg
