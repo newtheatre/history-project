@@ -9,6 +9,20 @@ date_end: 2015-05-31
 venue:
   - New Theatre
 
+cast:
+  - role: Kate
+    name: Chloe Bickford
+  - role: Anna
+    name: Genevieve Cunnell
+  - role: Deeley
+    name: Shannon Smith
+
+crew:
+  - role: Director
+    name: Gus Herbert
+  - role: Producer
+    name: Matt Standen
+
 assets:
   - type: poster
     image: old_times_poster.jpg
