@@ -1,6 +1,6 @@
 ---
 title: "Orphans"
-playwright: "Dennis Kelley"
+playwright: "Dennis Kelly"
 period: Spring
 season: "In House"
 season_sort: 240
