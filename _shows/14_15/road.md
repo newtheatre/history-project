@@ -9,6 +9,48 @@ date_end: 2015-05-02
 venue:
   - New Theatre
 
+cast:
+  - role: Scullery
+    name: Wesley Nash
+  - role: Brink / Skin-Lad / Blowpipe / Soldier / Tom / Stanley / Louise's Brother
+    name: Tom Gladstone
+  - role: Louise / Clare / Chantal / Maureena
+    name: Aimee Gaudin
+  - role: Brenda / Lane / Helen / Marion / Sheena
+    name: Verity Spencer
+  - role: Carol / Dor / Valerie / Molly / Tina
+    name: Maddie Hardy
+  - role: Eddie / Joey / Curt / Mr.and Mrs.Bald / Scotch / Boy
+    name: Ben Standish
+  - role: Jerry / Professor / Barry / Brian / Bisto / Manfred / Eddie's Dad
+    name: John Bell
+
+crew:
+  - role: Director
+    name: Ben Williamson
+  - role: Producer
+    name: Dina Elkordy
+  - role: Assistant Producer
+    name: Cameron Walker
+  - role: Lighting Designer
+    name: Joseph Heil
+  - role: Lighting Designer
+    name: Nathan Penney
+  - role: Technical Director
+    name: Harry Bridge
+  - role: Stage Manager
+    name: Harriet Lowe
+  - role: Stage Manager
+    name: Tom Tolond
+  - role: Stage Manager
+    name: Kati Hall
+  - role: Costume Design
+    name: Maddie Hardy
+  - role: Set Design
+    name: Ben Williamson
+  - role: Poster Design
+    name: Ben Williamson
+
 assets:
   - type: poster
     image: road_poster.jpg

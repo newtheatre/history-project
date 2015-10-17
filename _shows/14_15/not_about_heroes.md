@@ -9,6 +9,40 @@ date_end: 2015-03-14
 venue:
   - New Theatre
 
+cast:
+  - role: Siegfried Sassoon
+    name: Ben Hollands
+  - role: Wilfred Owen
+    name: Jacob Hayes
+
+crew:
+  - role: Director
+    name: Laura Jayne Bateman
+  - role: Producer
+    name: Lydia Smith
+  - role: Assistant Producer
+    name: Anna Scholes
+  - role: Technical Director
+    name: Gus Herbert
+  - role: Lighting Designer
+    name: David Taylor
+  - role: Shadow Lighting Designer
+    name: James Fox
+  - role: Technical Operator
+    name: Niamh Caines
+  - role: Stage Manager
+    name: Jake Leonard
+  - role: Stage Manager
+    name: Kathy Shepherd
+  - role: Stage Manager
+    name: Amy Naylor
+  - role: Stage Manager
+    name: Max Miller
+  - role: Stage Manager
+    name: Libby Boyd
+  - role: Poster Design
+    name: Ben Hollands
+
 assets:
   - type: poster
     image: not_about_heroes_poster.jpg

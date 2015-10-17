@@ -9,6 +9,36 @@ date_end: 2015-02-28
 venue:
   - New Theatre
 
+cast:
+  - role: Liam
+    name: Diderik Ypma
+  - role: Helen
+    name: Anna Stubbs
+  - role: Danny
+    name: Shannon Smith
+
+crew:
+  - role: Director
+    name: Gus Herbert
+  - role: Producer
+    name: Matt Standen
+  - role: Technical Director
+    name: Joseph Heil
+  - role: Shadow Technical Director
+    name: Alba Bodi Garcia
+  - role: Lighting Designer
+    name: Harry Bridge
+  - role: Technical Operator
+    name: Nick Gill
+  - role: Technical Operator
+    name: James Fox
+  - role: Technical Operator
+    name: Nathan Penney
+  - role: Costume Design
+    name: Maddie Hardy
+  - role: Poster Design
+    name: Max Miller
+
 assets:
   - type: poster
     image: orphans_poster.jpg

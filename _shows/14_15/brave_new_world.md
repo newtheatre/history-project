@@ -9,6 +9,44 @@ date_end: 2015-05-16
 venue:
   - New Theatre
 
+cast:
+  - role: Lenina Crowne
+    name: Izzie Masters
+  - role: Bernard Marx
+    name: Arnaud Lacey
+  - role: John
+    name: Cameron Walker
+  - role: The Director
+    name: Leonardo Goodall
+  - role: Fanny Crowne
+    name: Beth Mullen
+  - role: Linda
+    name: Kathy Shepherd
+  - role: Nurse
+    name: Victoria Rudolph
+
+crew:
+  - role: Director
+    name: Ellen Richardson
+  - role: Producer
+    name: Joe Strickland
+  - role: Assistant Director
+    name: Lauren Day
+  - role: Physical Theatre Choreographer
+    name: Laura Thornton
+  - role: Dance Choreographer
+    name: Lydia Dyer
+  - role: Technical Director
+    name: Darcey Graham
+  - role: Lighting Designer
+    name: David Taylor
+  - role: Poster Design
+    name: Alex Huntley
+  - role: Projection Design
+    name: Joe Strickland
+  - role: Set Desgin
+    name: Ellen Richardson
+
 assets:
   - type: poster
     image: brave_new_world_poster.jpg

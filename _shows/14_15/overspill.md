@@ -9,6 +9,44 @@ date_end: 2015-03-27
 venue:
   - New Theatre
 
+cast:
+  - role: Baron
+    name: Dan O'Connor
+  - role: Potts
+    name: James Pardon
+  - role: Finch
+    name: Nick Slater
+
+crew:
+  - role: Director
+    name: Ollie Shortt
+  - role: Producer
+    name: Cahrlotte van Rhee
+  - role: Assistant Director
+    name: Matthew Lewington
+  - role: Technical Director
+    name: Gus Herbert
+  - role: Lighting Designer
+    name: Nathan Penney
+  - role: Lighting Designer
+    name: Harry Bridge
+  - role: Sound Design
+    name: Harry Bridge
+  - role: Technical Operator
+    name: Matt Standen
+  - role: Technical Operator
+    name: Darcey Graham
+  - role: Stage Manager
+    name: Nick Gill
+  - role: Stage Manager
+    name: Harriet Lowe
+  - role: Stage Manager
+    name: Tom Tolond
+  - role: Stage Manager
+    name: Joanna Manning
+  - role: Poster Design
+    name: Alex Huntley
+
 assets:
   - type: poster
     image: overspill_poster.jpg
