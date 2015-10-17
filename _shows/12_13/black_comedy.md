@@ -42,6 +42,8 @@ crew:
 assets:
   - type: poster
     image: black_comedy_poster.jpg
+
+smugmug: QjMHKp
 ---
 
 Black comedy is a farce set entirely in a pitch black flat, as a power cut leaves the audience the only ones not groping in the dark. With soft drinks mixed up with alcohol bottles and priceless antiques left lying around, the power cut quickly leads to chaos. Blind chaos.
