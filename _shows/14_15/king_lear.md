@@ -17,7 +17,7 @@ cast:
   - role: Regan
     name: Becca Jones
   - role: Cordelia
-    name: Rachel Connoly
+    name: Rachel Connolly
   - role: Gloucester
     name: Sam Peake
   - role: Edmund
