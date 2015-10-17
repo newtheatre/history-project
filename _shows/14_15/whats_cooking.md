@@ -10,6 +10,26 @@ date_end: 2014-12-01
 venue:
   - New Theatre Studio A
 
+cast:
+  - role: Annie
+    name: Beth Mullen
+  - role: Bill
+    name: Harry Patte-Dobbs
+  - role: Kate
+    name: Penny Bainbridge
+  - role: Roger
+    name: Adam Edwards
+  - role: Adrianna
+    name: Jessica Prew
+  - role: Greg
+    name: James McGilloway
+
+crew:
+  - role: Director
+    name: Gary Berezin
+  - role: Producer
+    name: Dina Elkordy
+
 assets:
   - type: poster
     image: whats_cooking_poster.jpg

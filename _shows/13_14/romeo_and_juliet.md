@@ -70,7 +70,7 @@ crew:
     name: Ed Currie
   - role: Set Design
     name: Chelsea Jayne Wright
-  - role: Lighting Design
+  - role: Lighting Designer
     name: Aubrey Turner
   - role: Technical Director
     name: Hannah Doyle

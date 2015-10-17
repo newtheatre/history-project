@@ -10,6 +10,24 @@ date_end: 2014-11-25
 venue:
   - Lee Rosy's Tea Rooms
 
+cast:
+  - role: Glen
+    name: Cameron Walker
+  - role: Nina
+    name: Charlotte Kirkman
+  - role: Annie
+    name: Emily Brady
+  - role: Jennifer
+    name: Holly Gatfield
+  - role: Evan
+    name: Patrick Sheerin
+
+crew:
+  - role: Director
+    name: Nikki Hill
+  - role: Producer
+    name: Kati Hall
+
 assets:
   - type: poster
     image: 40_percent_poster.jpg

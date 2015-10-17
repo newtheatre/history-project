@@ -10,6 +10,24 @@ date_end: 2014-11-18
 venue:
   - New Theatre Studio A
 
+cast:
+  - role: Connor Matthews
+    name: Ben Williamson
+  - role: Charlotte Lawrence
+    name: Emma McDonald
+  - role: Dr. Peter Johnson
+    name: Will Berrington
+
+crew:
+  - role: Director
+    name: Tom Heath
+  - role: Lighting Designer
+    name: Nathan Penney
+  - role: Technical Director
+    name: Nathan Penney
+  - role: Technical Operator
+    name: Joanne Blunt
+
 assets:
   - type: poster
     image: infirmity_poster.jpg
