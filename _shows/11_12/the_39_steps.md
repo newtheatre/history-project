@@ -18,6 +18,8 @@ crew:
 assets:
   - type: poster
     image: the_39_steps_poster.jpg
+
+smugmug: H4XNfz
 ---
 
 When a mysterious spy is murdered in his apartment, Richard Hannay embarks on a quest to clear his name and save the country. Encountering over a hundred characters (all portrayed by only four performers), this fast-paced, comedic adaptation of Hitchcock’s classic both charms and excites.

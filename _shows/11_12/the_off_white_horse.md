@@ -20,4 +20,5 @@ assets:
   - type: poster
     image: the_off_white_horse_poster.jpg
 
+smugmug: MqcWrs
 ---
