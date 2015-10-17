@@ -25,6 +25,7 @@ assets:
   - type: poster
     image: freshers_fringe_2012_poster.jpg
 
+smugmug: pmLRD9
 ---
 
 A selection of scenes and sketches performed by the rising starts of The Nottingham New Theatre.

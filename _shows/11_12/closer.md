@@ -30,6 +30,8 @@ crew:
 assets:
   - type: poster
     image: closer_2011-12.jpg
+
+smugmug: wfjW9W
 ---
 
 Lying is the most fun a girl can have without taking her clothes off, but it's better if they do. Described as a love story for adults, 'Closer' follows the vicious conflict between Dan and Larry as they battle for the affections of Alice and Anna.
