@@ -51,7 +51,7 @@ crew:
   - role: Technical Director
     name: Michael Ferdenzi
   - role: Shadow Technical Director
-    name: Gus Hertbert
+    name: Gus Herbert
   - role: Musical Director
     name: Kat Tye
   - role: Technical Operatror
