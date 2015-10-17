@@ -40,7 +40,7 @@ crew:
   - role: Stage Manager
     name: Jess Lundholm
   - role: Stage Manager
-    name: Kathy Shpeherd
+    name: Kathy Shepherd
   - role: Poster Design
     name: Ben Hollands
   - role: Puppet Maker
