@@ -22,6 +22,8 @@ crew:
 assets:
   - type: poster
     image: innocent_infidelity_poster.jpg
+
+smugmug: DnKhwP
 ---
 
 Reg is sleeping with Julia behind Hilary’s back but he’s doing nothing wrong. Julia only exists in his imagination. She is literally his dream woman. So, when Reg comes home one night to find Julia in his house, speaking to Hilary, his world is plunged into chaos and confusion.
