@@ -5,6 +5,7 @@ $color-fringe: darken($color-nnt-orange, 10%)
 $color-edinburgh: #3CD861
 $color-lakeside: #4AAEDB
 $color-stuff: #E20013
+$color-fundraiser: #75DC52
 
 .show-list-season
   &.season-in-house:before
@@ -17,6 +18,8 @@ $color-stuff: #E20013
     color: $color-lakeside
   &.season-stuff:before
     color: $color-stuff
+  &.season-fundraiser:before
+    color: $color-fundraiser
 
 .show-season
   $opacity-jigging: 0.8
@@ -30,3 +33,5 @@ $color-stuff: #E20013
     background: rgba($color-lakeside, $opacity-jigging)
   .season-stuff
     background: rgba($color-stuff, $opacity-jigging)
+  .season-fundraiser
+    background: rgba($color-fundraiser, $opacity-jigging)
