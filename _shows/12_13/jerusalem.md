@@ -12,6 +12,32 @@ date_end: 2012-12-08
 comment: Went to NSDF
 
 cast:
+  - role: Johnny 'Rooster' Byron
+    name: Simon Peal
+  - role: Ginger
+    name: Tom Gladstone
+  - role: Wesley
+    name: Jake Leonard
+  - role: Professor
+    name: Jess Courtney
+  - role: Lee
+    name: Eoin Buckley
+  - role: Davey
+    name: Edward Colwell
+  - role: Tanya
+    name: Emma MacDonald
+  - role: Pea
+    name: Alice Ratcliffe
+  - role: Dawn
+    name: Sian Beaven
+  - role: Troy
+    name: Toby Stevens
+  - role: Phaedra
+    name: Jenny Kornhorst
+  - role: Fawcett
+    name: Grace Rowland
+  - role: Parsons
+    name: Phoebe Fairbrother
 
 crew:
   - role: Director
@@ -40,6 +66,18 @@ crew:
     name: Andy Routledge
   - role: Technical Operator
     name: Nick Jeffrey
+  - role: Stage Manager
+    name: Liz Cornwell
+  - role: Stage Manager
+    name: Alex Day
+  - role: Costumes
+    name: Abby Robinson
+  - role: Costumes
+    name: Lydia Scott
+  - role: Publicity Manager
+    name: Rosalie Shakir
+  - role: Publicity Manager
+    name: Jess Curtis
 
 assets:
   - type: poster
