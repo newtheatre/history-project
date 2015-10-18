@@ -15,7 +15,7 @@ cast:
   - role: Betty Parris
     name: Jo Hoare
   - role: Tituba
-    name: "Rhodi Ofori-Attah"
+    name: "Rhoda Ofori-Attah"
   - role: Abigail Williams
     name: Emily Hawkins
   - role: Susanna Walcott
