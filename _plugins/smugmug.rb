@@ -28,10 +28,6 @@ class Smug
     end
   end
 
-  def cache_album(albumID, data)
-
-  end
-
   def fetch_album_images(albumID)
     # Given an album id, return the SM objects in that album
     puts "Fetching SmugMug album #{ albumID }"
