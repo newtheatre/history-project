@@ -1,8 +1,8 @@
 ---
-title: "Stars in Their Eyes (Fundraiser)"
+title: "Stars in Their Eyes"
 playwright:
 period: Spring
-season: In House
+season: Fundraiser
 season_sort: 240
 venue:
   - New Theatre
