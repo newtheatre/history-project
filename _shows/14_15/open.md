@@ -33,6 +33,15 @@ crew:
 assets:
   - type: poster
     image: open_fringe.jpg
+  - type: flyer
+    filename: Open Flyer Back FINAL.pdf
+    title: Back of Flyer
+  - type: flyer
+    filename: Open Flyer Front.pdf
+    title: Front of Flyer
+  - type: poster
+    filename: Open Poster Front.pdf
+    title: Edinburgh Poster
 ---
 
 Sharp devised theatre peering through the cracks in modern Britain.
