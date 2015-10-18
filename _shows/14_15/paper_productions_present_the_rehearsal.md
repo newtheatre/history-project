@@ -1,6 +1,6 @@
 ---
 title: "Paper Productions Present: The Rehearsal"
-playwirght: "Devised"
+playwright: "Devised"
 period: Spring
 season: "External"
 season_sort: 210
@@ -23,7 +23,7 @@ cast:
   - role: Emily
   	name: Amelia Gann
   - role: Ollie
- 	name: Aaron Tej
+ 	  name: Aaron Tej
   - role: Charlie
   	name: Tom Gladstone
   - role: Sam
