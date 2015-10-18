@@ -60,6 +60,8 @@ crew:
 assets:
   - type: poster
     image: ritual_slaughter_poster.jpg
+
+smugmug: rkQVgt
 ---
 
 If you could lie without flinching, corrupt without caring and succeed at all costs, how far would you go? How much would you make? An unrelenting attack on human nature, you must ask one simple question. Is it Goodness? Or Cowardice?
