@@ -3,11 +3,11 @@ _site/
 lib/
 node_modules/
 _asset_bundler_cache/
+_smugmug_cache/
+tmp/
 
 for_shows_uncompressed
 for_shows_process
-
-tmp/
 
 # Windows
 Thumbs.db
