@@ -59,6 +59,8 @@ crew:
 assets:
   - type: poster
     image: lets_just_pretend_poster.jpg
+
+smugmug: Lxr89p
 ---
 
 ‘Let’s Just Pretend’ follows the relationship of Caroline and Mark, from when they are sixteen to twenty eight. Caroline is ambitious and pragmatic alongside Mark’s love of imagination and together they flirt with the boundaries of reality. The audience watch their friendship and love blossom as they guide each other through teenage crises and real life trials. But as the play flashes forward and Mark moves further and further away from reality, Caroline wonders if he truly loves her or if he is just holding on the person she was when they were sixteen.

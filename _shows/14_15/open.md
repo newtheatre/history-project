@@ -42,6 +42,8 @@ assets:
   - type: poster
     filename: Open Poster Front.pdf
     title: Edinburgh Poster
+
+smugmug: 4VFmSk
 ---
 
 Sharp devised theatre peering through the cracks in modern Britain.
