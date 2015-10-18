@@ -4,6 +4,7 @@ class Smug
   include HTTParty
   base_uri 'https://smugmug.com'
   headers 'Accept' => 'application/json'
+  default_timeout 20
 
   def api_key
     ENV['SMUGMUG_API_KEY']
