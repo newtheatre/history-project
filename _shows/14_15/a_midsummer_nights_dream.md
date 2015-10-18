@@ -3,7 +3,7 @@ title: "A Midsummer Night's Dream"
 playwright: "William Shakespeare"
 period: Spring
 season: "Lakeside"
-season_sort: 100
+season_sort: 305
 date_start: 2015-04-27
 date_end: 2015-05-02
 venue:
