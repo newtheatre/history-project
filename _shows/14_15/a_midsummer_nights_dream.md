@@ -59,6 +59,8 @@ assets:
   - type: poster
     image: a_midsummer_nights_dream_lakeside.jpg 
 
+smugmug: Dhcwp6
+
 ---
 
 ‘The course of true love never did run smooth…’
