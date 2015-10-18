@@ -5,9 +5,9 @@ title: Photos and Assets
 sort: 100
 ---
 
-Show records currently have a *'Publicity Materials'* and *'Production Shots'* section. In the show's data file production shots are kept in a list called `photos`, and publicity materials in `assets`.
+Show records currently have a *'Publicity Materials'* and *'Production Shots'* section. Photos are stored in SmugMug albums, and publicity materials in the repo.
 
-The image files themselves are kept in the `images/for_shows/` folder whereas anything else (PDFs etc) are kept in `assets/for_shows/`.
+For files in the repo image files are kept in the `images/for_shows/` folder whereas anything else (PDFs etc) are kept in `assets/for_shows/`.
 
 
 ## <i class="fa fa-tags"></i> Attribute Reference
@@ -23,10 +23,6 @@ The image files themselves are kept in the `images/for_shows/` folder whereas an
 ## <i class="octicon octicon-code"></i> Example
 
 {% highlight yaml %}
-photos:
-  - type: photo
-    image: pillowman_crew.jpg
-    caption: "Cast and Crew shot. From back left: Jess Courtney, Gareth Morris, Livvy Hobson, Daniel O'Connor, Charlotte Ball, Jacob Hayes, James McAndrew, Nick Stevenson, Chelsea Jayne Wright, Emily Heaton. Bottom from left: Sam Haywood, Will Randall, Alex Hollingsworth"
 
 assets:
   - type: poster
@@ -44,6 +40,8 @@ assets:
 
 ## <i class="fa fa-upload"></i> Uploading
 
-<div class="box-error">This needs writing up.</div>
+<div class="box-warning">This needs writing up.</div>
 
 Uploading images and assets needs to be done using Git directly. GUI clients for [Windows](https://windows.github.com/) and [Mac](https://mac.github.com/) are avaliable.
+
+Now we use SmugMug for production shots the upload process is a lot more accessible.

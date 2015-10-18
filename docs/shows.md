@@ -21,7 +21,8 @@ The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the 
 | `date_end` | Date of last performance | In the format YYYY-MM-DD |
 | `cast` | Cast members | Uses the [person list](/docs/person_list) format. |
 | `crew` | Crew members | Uses the [person list](/docs/person_list) format. |
-| `photos` | Production shots | Uses the [photos and assets](/docs/photos_and_assets) format. |
+| `smugmug` | SmugMug album ID for production shots | Use the [API explorer](https://www.smugmug.com/api/v2/user/newtheatre!albums?count=5000) to find the ID. |
+| `photos` | Production shots **(depreciated)** | Uses the [photos and assets](/docs/photos_and_assets) format. |
 | `assets` | Publicity and other materials | Uses the [photos and assets](/docs/photos_and_assets) format. |
 | `published` | *Not yet used!* Will in the future hide the show if set to false. |
 | `comment` | Reserved for editor comments, only displayed in [editors' mode](/docs/#super-secret-editors-mode). |
@@ -50,10 +51,9 @@ crew:
     name: James McAndrew
   - role: Producer
     name: Nick Stevenson
-photos:
-  - type: photo
-    image: pillowman_crew.jpg
-    caption: "Cast and Crew shot. From back left: Jess Courtney, Gareth Morris, Livvy Hobson, Daniel O'Connor, Charlotte Ball, Jacob Hayes, James McAndrew, Nick Stevenson, Chelsea Jayne Wright, Emily Heaton. Bottom from left: Sam Haywood, Will Randall, Alex Hollingsworth"
+
+smugmug: abcd123
+
 assets:
   - type: poster
     image: pillowman_poster.jpg
@@ -63,7 +63,6 @@ assets:
     filename: the_pillowman_programme.pdf
     title: Programme
 
-published: true
 ---
 {% endhighlight %}
 
