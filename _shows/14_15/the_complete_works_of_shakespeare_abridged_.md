@@ -1,5 +1,5 @@
 ---
-title: "The Complete Works of Shakespeare (abridged)"
+title: "The Complete Works of William Shakespeare - Abridged"
 playwright: "Adam Long"
 period: Spring
 season: External
@@ -23,9 +23,13 @@ crew:
   - role: Producer
     name: Maddie Hardy
   - role: Technical Director
-    name: Darcey Graham  
+    name: Darcey Graham
   - role: Lighting Designer
     name: Nathan Penney
+
+assets:
+  - type: poster
+    image: the_complete_works_of_william_shakespeare_abridged_poster.jpg
 
 ---
 
