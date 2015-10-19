@@ -35,7 +35,7 @@ cast:
   - role: Sigmund Freud
     name: Bernie Kerr
   - role: Caiaphas the Elder
-    name: Logan Walmsley
+    name: Logan Wamsley
   - role: Bailiff
     name: James Roscow
 

@@ -2,6 +2,8 @@
 
 - role: Director
   icon: ion-film-marker
+- role: Co-director
+  icon: ion-film-marker
 - role: Producer
   icon: fa fa-money
 - role: Set Designer

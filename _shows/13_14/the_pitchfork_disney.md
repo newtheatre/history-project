@@ -31,7 +31,7 @@ crew:
   - role: Technical Operator
     name: Ginny Lee
   - role: Technical Operator
-    name: Matt Richards
+    name: Matthew Richards
   - role: Technical Operator
     name: Holly Pownall
   - role: Technical Operator
