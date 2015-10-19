@@ -36,6 +36,8 @@ crew:
     name: Holly Pownall
   - role: Technical Operator
     name: Joanne Blunt
+  - role: Costume Designer
+    name: Eden Phillips Harrington
 
 assets:
   - type: poster

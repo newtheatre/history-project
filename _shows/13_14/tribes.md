@@ -13,7 +13,7 @@ cast:
   - role: Billy
     name: James Roscow
   - role: Daniel
-    name: Jordan E-O
+    name: Jordan Edgar-Oliyide
   - role: Christopher
     name: Toby Stevens
   - role: Ruth

@@ -8,7 +8,7 @@ date_start: 2013-11-20
 date_end: 2013-11-23
 venue:
   - New Theatre
-  
+
 cast:
   - role: Yusef El-Fayoumy
     name: Aaron Tej
@@ -27,7 +27,7 @@ cast:
   - role: Mary Magdalene/Mother Teresa
     name: Holly Daniels
   - role: Pontius Pilate
-    name: Jorden Edgar-Oliyide
+    name: Jordan Edgar-Oliyide
   - role: Simon the Zealot
     name: Diderik Ypma
   - role: Butch Honeywell
