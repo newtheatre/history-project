@@ -28,7 +28,7 @@ crew:
   - role: Stage Manager
     name: Daniel O'Connor
   - role: Stage Manager
-    name: Eden Phillips-Harrington
+    name: Eden Phillips Harrington
   - role: Technical Director
     name: Aubrey Turner
   - role: Lighting Designer
