@@ -40,9 +40,9 @@ crew:
     name: Harry Bridge
   - role: Set Design
     name: Charlotte van Rhee
-  - role: Set Design
+  - role: Set Designer
     name: Tom Tolond
-  - role: Set Design
+  - role: Set Designer
     name: Molly McGee
   - role: Set Construction
     name: James Bentley
@@ -58,13 +58,13 @@ crew:
     name: Maddie Hardy
   - role: Make-up
     name: Bea English
-  - role: Poster Design
+  - role: Poster Designer
     name: Alex Huntley
-  - role: Music
+  - role: Musician
     name: Emilie Brittain
-  - role: Music
+  - role: Musician
     name: Sasha Gibson
-  - role: Music
+  - role: Musician
     name: Tom Herzberg
 
 assets:

@@ -44,11 +44,11 @@ crew:
     name: Tom Tolond
   - role: Stage Manager
     name: Kati Hall
+  - role: Set Designer
+    name: Ben Williamson
   - role: Costume Design
     name: Maddie Hardy
-  - role: Set Design
-    name: Ben Williamson
-  - role: Poster Design
+  - role: Poster Designer
     name: Ben Williamson
 
 assets:

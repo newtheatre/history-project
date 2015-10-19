@@ -74,7 +74,7 @@ crew:
     name: Ruby Hawley
   - role: Technical Director
     name: Nathan Penney
-  - role: Lighting Design
+  - role: Lighting Designer
     name: Joanne Blunt
   - role: Technical Operator
     name: Joseph Heil
@@ -92,13 +92,13 @@ crew:
     name: Darcey Graham
   - role: Stage Manager
     name: Ben Maries
-  - role: Set Design
+  - role: Set Designer
     name: Tyler-Antonia Gordon
   - role: Artwork
     name: Alexander Jamieson
-  - role: Publicity Design
+  - role: Publicity Designer
     name: Ben Hollands
-  - role: Sound Design
+  - role: Sound Designer
     name: Ben Hollands
   - role: Costumes & Make-up
     name: Maddie Hardy

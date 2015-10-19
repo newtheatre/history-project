@@ -40,7 +40,7 @@ crew:
     name: Max Miller
   - role: Stage Manager
     name: Libby Boyd
-  - role: Poster Design
+  - role: Poster Designer
     name: Ben Hollands
 
 assets:

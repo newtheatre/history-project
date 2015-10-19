@@ -8,6 +8,13 @@ date_end: 2015-02-10
 venue:
   - New Theatre
 
+cast:
+  - role:
+    name: Ben Hollands
+  - role:
+    name: Emily Brady
+
+
 assets:
   - type: poster
     image: emily_and_ben_a_likely_story_poster.jpg

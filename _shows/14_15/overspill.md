@@ -11,7 +11,7 @@ venue:
 
 cast:
   - role: Baron
-    name: Dan O'Connor
+    name: Daniel O'Connor
   - role: Potts
     name: James Pardon
   - role: Finch
@@ -30,7 +30,7 @@ crew:
     name: Nathan Penney
   - role: Lighting Designer
     name: Harry Bridge
-  - role: Sound Design
+  - role: Sound Designer
     name: Harry Bridge
   - role: Technical Operator
     name: Matt Standen
@@ -44,7 +44,7 @@ crew:
     name: Tom Tolond
   - role: Stage Manager
     name: Joanna Manning
-  - role: Poster Design
+  - role: Poster Designer
     name: Alex Huntley
 
 assets:

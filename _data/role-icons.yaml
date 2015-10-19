@@ -7,7 +7,7 @@
 - role: Set Designer
   icon: ion-paintbucket
 - role: Designer
-  icon: ion-paintbucket  
+  icon: ion-paintbucket
 - role: Stage Manager
   icon: fa fa-bookmark
 - role: Technical Director
@@ -20,6 +20,8 @@
   icon: fa fa-headphones
 - role: Original Score
   icon: fa fa-music
+- role: Composer
+  icon: fa fa-music
 - role: Musical Director
   icon: fa fa-music
 - role: Vocalist
@@ -27,6 +29,8 @@
 - role: Musician
   icon: fa fa-music
 - role: Sound Designer
+  icon: fa fa-volume-up
+- role: Sound Operator
   icon: fa fa-volume-up
 - role: Make Up Artist
   icon: ion-paintbrush
@@ -40,11 +44,15 @@
   icon: fa fa-picture-o
 - role: Poster Designer
   icon: fa fa-picture-o
+- role: Artwork
+  icon: fa fa-picture-o
 - role: Photographer
   icon: fa fa-camera-retro
 - role: Photography
   icon: fa fa-camera-retro
-  
+- role: Set Construction
+  icon: ion-hammer
+
 - role: President
   icon: fa fa-star
 - role: Treasurer

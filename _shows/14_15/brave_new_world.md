@@ -40,11 +40,11 @@ crew:
     name: Darcey Graham
   - role: Lighting Designer
     name: David Taylor
-  - role: Poster Design
+  - role: Poster Designer
     name: Alex Huntley
-  - role: Projection Design
+  - role: Projection Designer
     name: Joe Strickland
-  - role: Set Desgin
+  - role: Set Desginer
     name: Ellen Richardson
 
 assets:

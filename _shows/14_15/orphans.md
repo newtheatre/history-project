@@ -36,7 +36,7 @@ crew:
     name: Nathan Penney
   - role: Costume Design
     name: Maddie Hardy
-  - role: Poster Design
+  - role: Poster Designer
     name: Max Miller
 
 assets:

@@ -11,7 +11,7 @@ venue:
 
 cast:
   - role:
-    name: Dan O'Connor
+    name: Daniel O'Connor
   - role:
     name: Wesley Nash
   - role:
