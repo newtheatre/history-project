@@ -84,6 +84,8 @@ crew:
     name: Maddie Hardy
   - role: Costumes & Make-up
     name: Lucy Price
+  - role: Costume Designer
+    name: Eden Phillips Harrington
   - role: Poster Designer
     name: Ben Hollands
 
