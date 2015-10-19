@@ -23,7 +23,7 @@ crew:
   - role: Director
     name: Sam Greenwood
   - role: Producer
-    name: Jess McNamee
+    name: Jessica McNamee
   - role: Assistant Director
     name: Carn Truscott
   - role: Assistant Producer

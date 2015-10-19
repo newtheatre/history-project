@@ -36,6 +36,8 @@ crew:
     name: Sebastian Frend
   - role: Technical Operator
     name: Will Berrington
+  - role: Technical Operator
+    name: Ollie Shortt
 
 photos:
   - type: photo

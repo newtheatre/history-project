@@ -33,8 +33,6 @@ crew:
     name: Logan Wamsley
   - role: Producer
     name: Dasha Karzunina
-  - role: Writer
-    name: Logan Wamsley
   - role: Technical Director
     name: James Gregory
   - role: Technical Director
