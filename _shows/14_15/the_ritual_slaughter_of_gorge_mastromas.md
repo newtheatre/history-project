@@ -33,7 +33,7 @@ crew:
   - role: Assistant Director
     name: Hattie Edmunds
   - role: Technical Director
-    name: Dan O'Connor
+    name: Daniel O'Connor
   - role: Lighting Designer
     name: Tyler-Antonia Gordon
   - role: Lighting Designer

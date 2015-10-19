@@ -75,7 +75,7 @@ crew:
   - role: Technical Director
     name: Hannah Doyle
   - role: Shadow Lighting Designer
-    name: Dan O'Connor
+    name: Daniel O'Connor
   - role: Shadow Technical Director
     name: Michael Ferdenzi
   - role: Make-Up
