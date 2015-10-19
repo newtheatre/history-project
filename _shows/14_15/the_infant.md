@@ -33,7 +33,7 @@ crew:
   - role: Set Designer
     name: Joseph Heil
   - role: Set Designer
-    name: Eden Philips Harrington
+    name: Eden Phillips Harrington
   - role: Lighting Designer
     name: Nathan Penney
   - role: Technical Director

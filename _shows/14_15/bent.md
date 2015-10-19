@@ -17,7 +17,7 @@ cast:
   - role: Rudy
     name: Nick Slater
   - role: Wolf/Kapo
-    name: Joe Hinks
+    name: Joe Hincks
   - role: Freddie/Officer/2nd Lieutenant
     name: Chris Trueman
   - role: Greta
@@ -47,7 +47,7 @@ crew:
   - role: Set Construction
     name: James Bentley
   - role: Set Construction
-    name: Eden Philips Harrington
+    name: Eden Phillips Harrington
   - role: Set Construction
     name: Joseph Heil
   - role: Stage Manager

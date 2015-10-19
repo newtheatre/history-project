@@ -12,8 +12,8 @@ venue:
 
 cast:
   - name: Charlotte Prosser
-  - name: Harry Patte-Dobbes
-  - name: Emma Collingwod
+  - name: Harry Patte-Dobbs
+  - name: Emma Collingwood
 
 crew:
   - role: Co-Director
