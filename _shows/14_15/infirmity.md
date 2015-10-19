@@ -20,6 +20,8 @@ cast:
 
 crew:
   - role: Director
+    name: Boo Jackson
+  - role: Director
     name: Tom Heath
   - role: Lighting Designer
     name: Nathan Penney

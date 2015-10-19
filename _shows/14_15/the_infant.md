@@ -28,11 +28,11 @@ crew:
     name: Carn Truscott
   - role: Assistant Producer
     name: Lydia Smith
-  - role: Set Design
+  - role: Set Designer
     name: Alex Huntley
-  - role: Set Design
+  - role: Set Designer
     name: Joseph Heil
-  - role: Set Design
+  - role: Set Designer
     name: Eden Philips Harrington
   - role: Lighting Designer
     name: Nathan Penney
@@ -52,7 +52,7 @@ crew:
     name: Lucia Choi
   - role: Stage Manager
     name: Joanna Manning
-  - role: Poster Design
+  - role: Poster Designer
     name: Alex Huntley
 
 assets:

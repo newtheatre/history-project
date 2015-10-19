@@ -54,7 +54,7 @@ crew:
     name: Joanne Blunt
   - role: Lighting Designer
     name: Nathan Penney
-  - role: Set Design
+  - role: Set Designer
     name: Joanna Manning
   - role: Stage Manager
     name: Dave Hanks

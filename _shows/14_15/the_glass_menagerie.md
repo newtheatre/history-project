@@ -28,23 +28,27 @@ crew:
     name: Alba Bodi Garcia
   - role: Lighting Designer
     name: Harry Bridge
+  - role: Technical Operator
+    name: Amy Naylor
+  - role: Technical Operator
+    name: James Fox
   - role: Muiscal Director
     name: Emilie Brittain
   - role: Composer
     name: Nick Jones
-  - role: Music
+  - role: Musician
     name: Harriet Lowe
-  - role: Music
+  - role: Musician
     name: Annette Coyle
-  - role: Music
+  - role: Musician
     name: Nyssa Comber
-  - role: Music
+  - role: Musician
     name: Darcey Graham
   - role: "Costume & Make-up"
     name: Maddie Hardy
   - role: "Costume & Make-up"
     name: Lou Knapp
-  - role: Poster Design
+  - role: Poster Designer
     name: Beth Mullen
   - role: Stage Manager
     name: Jake Leonard
@@ -54,10 +58,7 @@ crew:
     name: Jess Lundholm
   - role: Stage Manager
     name: Lou Knapp
-  - role: Technical Operator
-    name: Amy Naylor
-  - role: Technical Operator
-    name: James Fox
+
 
 
 assets:

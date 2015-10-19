@@ -50,9 +50,9 @@ crew:
     name: Sam Osborne
   - role: Lighting Designer
     name: Joanne Blunt
-  - role: Poster Design
+  - role: Poster Designer
     name: Max Miller
-  - role: Illustrator
+  - role: Artwork
     name: Felix Taylor
   - role: Stage Manager
     name: Ollie Shortt

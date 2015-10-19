@@ -29,9 +29,9 @@ crew:
     name: Tom Heath
   - role: Stage Manager
     name: Amy Naylor
-  - role: Poster Design
+  - role: Poster Designer
     name: Beth Mullen
-  - role: Tech Operator
+  - role: Technical Operator
     name: Tom Heath
 
 

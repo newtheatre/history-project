@@ -3,6 +3,7 @@ title: "Let's Just Pretend"
 playwright: "Nikki Hill"
 student_written: true
 period: Spring
+venue: New Theatre
 season: "In House"
 season_sort: 250
 date_start: 2015-03-04
@@ -47,14 +48,15 @@ crew:
     name: Omid Faramarzi
   - role: Stage Manager
     name: Darcey Graham
-  - role: Poster Design
+  - role: Set Designer
+    name: Nikki Hill
+  - role: Poster Designer
     name: Nikki Hill
   - role: Set Construction
     name: Harry Bridge
   - role: Set Construction
     name: Tom Selves
-  - role: Set Design
-    name: Nikki Hill
+
 
 assets:
   - type: poster

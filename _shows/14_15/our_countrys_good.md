@@ -52,7 +52,7 @@ crew:
     name: David Taylor
   - role: Set Construction
     name: Ali Uzir Lalani
-  - role: Poster Design
+  - role: Poster Designer
     name: Alex Huntley
 
 assets:

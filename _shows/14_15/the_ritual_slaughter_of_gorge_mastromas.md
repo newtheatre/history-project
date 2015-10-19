@@ -34,15 +34,15 @@ crew:
     name: Hattie Edmunds
   - role: Technical Director
     name: Dan O'Connor
-  - role: Lighting Design
+  - role: Lighting Designer
     name: Tyler-Antonia Gordon
-  - role: Lighting Design
+  - role: Lighting Designer
     name: Joanne Blunt
-  - role: Music
+  - role: Musician
     name: Gilad Grant
-  - role: Set Design
+  - role: Set Designer
     name: Ben Williamson
-  - role: Set Design
+  - role: Set Designer
     name: James Bentley
   - role: Costume & Make-up
     name: Maddie Hardy
@@ -52,16 +52,16 @@ crew:
     name: Laura Gallop
   - role: Set Construction
     name: Dave Hanks
-  - role: Poster Design
+  - role: Poster Designer
     name: Ben Williamson
-  - role: Poster Design
+  - role: Poster Designer
     name: James Bentley
 
 assets:
   - type: poster
     image: ritual_slaughter_poster.jpg
 
-smugmug: rkQVgt
+smugmug: rkQVgT
 ---
 
 If you could lie without flinching, corrupt without caring and succeed at all costs, how far would you go? How much would you make? An unrelenting attack on human nature, you must ask one simple question. Is it Goodness? Or Cowardice?

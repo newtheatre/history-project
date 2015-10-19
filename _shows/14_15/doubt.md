@@ -54,21 +54,21 @@ crew:
     name: Gus Herbert
   - role: Musical Director
     name: Kat Tye
-  - role: Technical Operatror
+  - role: Technical Operator
     name: Lauren Sturges
-  - role: Technical Operatror
+  - role: Technical Operator
     name: Molly Lockwood
-  - role: Technical Operatror
+  - role: Technical Operator
     name: Harry Bridge
-  - role: Technical Operatror
+  - role: Technical Operator
     name: Clarissa-Anne Teo
   - role: Lighting Designer
     name: Joseph Heil
   - role: Lighting Designer
     name: Nathan Penney
-  - role: Set Design
+  - role: Set Designer
     name: Ollie Shortt
-  - role: Set Design
+  - role: Set Designer
     name: Joseph Heil
   - role: Set Construction
     name: Harry Bridge
@@ -84,7 +84,7 @@ crew:
     name: Maddie Hardy
   - role: Costumes & Make-up
     name: Lucy Price
-  - role: Poster Design
+  - role: Poster Designer
     name: Ben Hollands
 
 assets:
