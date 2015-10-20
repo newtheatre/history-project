@@ -38,6 +38,10 @@ crew:
     name: Tyler-Antonia Gordon
   - role: Lighting Designer
     name: Joanne Blunt
+  - role: Technical Operator
+    name: Darcey Graham
+  - role: Technical Operator
+    name: Harry Bridge
   - role: Musician
     name: Gilad Grant
   - role: Set Designer

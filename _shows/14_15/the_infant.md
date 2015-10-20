@@ -42,6 +42,8 @@ crew:
     name: David Taylor
   - role: Technical Operator
     name: Louis Harris
+  - role: Technical Operator
+    name: Harry Bridge
   - role: Stage Manager
     name: Louise Knapp
   - role: Stage Manager
