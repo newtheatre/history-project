@@ -29,6 +29,8 @@ crew:
     name: Nathan Penney
   - role: Technical Operator
     name: Joanne Blunt
+  - role: Costumes & Make-up
+    name: Maddie Hardy
 
 assets:
   - type: poster

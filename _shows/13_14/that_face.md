@@ -26,6 +26,8 @@ crew:
     name: Krishanthi Jeyakumar
   - role: Producer
     name: Jack Revell
+  - role: Set Designer
+    name: Tom Selves
   - role: Technical Director
     name: Michael Ferdenzi
   - role: Lighting Designer
@@ -34,6 +36,10 @@ crew:
     name: Rory O'Shea
   - role: Technical Operator
     name: Sebastian Frend
+  - role: Stage Manager
+    name: Tom Selves
+  - role: Costumes & Make-up
+    name: Maddie Hardy
 
 assets:
   - type: poster
