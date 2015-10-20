@@ -105,31 +105,7 @@ crew:
   - role: Photographer
     name: unknown
 
-photos:
-  - type: photo
-    image: romeo_and_juliet_1.jpg
-  - type: photo
-    image: romeo_and_juliet_2.jpg
-  - type: photo
-    image: romeo_and_juliet_3.jpg
-  - type: photo
-    image: romeo_and_juliet_4.jpg
-  - type: photo
-    image: romeo_and_juliet_5.jpg
-  - type: photo
-    image: romeo_and_juliet_6.jpg
-  - type: photo
-    image: romeo_and_juliet_7.jpg
-  - type: photo
-    image: romeo_and_juliet_8.jpg
-  - type: photo
-    image: romeo_and_juliet_9.jpg
-  - type: photo
-    image: romeo_and_juliet_10.jpg
-  - type: photo
-    image: romeo_and_juliet_11.jpg
-  - type: photo
-    image: romeo_and_juliet_12.jpg
+sumgmug: 6DhKFZ
 
 assets:
   - type: poster
