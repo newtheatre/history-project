@@ -39,19 +39,7 @@ crew:
   - role: Technical Operator
     name: Ollie Shortt
 
-photos:
-  - type: photo
-    image: kiss_me_like_you_mean_it_1.jpg
-  - type: photo
-    image: kiss_me_like_you_mean_it_2.jpg
-  - type: photo
-    image: kiss_me_like_you_mean_it_3.jpg
-  - type: photo
-    image: kiss_me_like_you_mean_it_4.jpg
-  - type: photo
-    image: kiss_me_like_you_mean_it_5.jpg
-  - type: photo
-    image: kiss_me_like_you_mean_it_6.jpg
+smugmug: cR5dxw
 
 assets:
   - type: poster
