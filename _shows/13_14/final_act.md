@@ -10,18 +10,32 @@ venue:
   - New Theatre
 
 cast:
-  - name: Lyle Fulton
-  - name: Ben Williamson
-  - name: Ben Hollands
-  - name: James McAndrew
-  - name: Greg Link
-  - name: Maddie Hardy
-  - name: Will Berrington
-  - name: Jemima Rathbone
+  - role: Rory
+    name: Lyle Fulton
+  - role: Rambo
+    name: Ben Williamson
+  - role: Clive
+    name: Ben Hollands
+  - role: Darius
+    name: James McAndrew
+  - role: Archie/Simon/Vice Chancellor
+    name: Greg Link
+  - role: Marlene/Maxine
+    name: Maddie Hardy
+  - role: Bernie
+    name: Will Berrington
+  - role: Victoria
+    name: Jemima Rathbone
+  - role: Sarah
+    name: Laura McAndrew
+  - role: Nigel
+    name: Gus Herbert
 
 crew:
   - role: Director
     name: Tom Hicks
+  - role: Assistant Director
+    name: Jake Leonard
   - role: Musical Director
     name: Kat Tye
   - role: Producer
@@ -34,6 +48,10 @@ crew:
     name: Will Pimblett
   - role: Followspot Operator
     name: Joseph Heil
+  - role: Stage Manager
+    name: Tom Selves
+  - role: Stage Manager
+    name: Gus Herbert
 
 assets:
   - type: poster
