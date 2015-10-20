@@ -44,6 +44,8 @@ crew:
     name: Tom Tolond
   - role: Stage Manager
     name: Joanna Manning
+  - role: Costumes & Make-up
+    name: Maddie Hardy
   - role: Poster Designer
     name: Alex Huntley
 

@@ -46,6 +46,10 @@ crew:
     name: Will Pimblett
   - role: Sound Engineer
     name: Will Pimblett
+  - role: Stage Manager
+    name: Tom Selves
+  - role: Stage Manager
+    name: Gus Herbert
   - role: Followspot Operator
     name: Joseph Heil
   - role: Stage Manager
