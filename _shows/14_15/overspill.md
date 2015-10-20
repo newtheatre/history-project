@@ -32,10 +32,10 @@ crew:
     name: Harry Bridge
   - role: Sound Designer
     name: Harry Bridge
+  - role: Shadow Technical Director
+    name: Darcey Graham
   - role: Technical Operator
     name: Matt Standen
-  - role: Technical Operator
-    name: Darcey Graham
   - role: Stage Manager
     name: Nick Gill
   - role: Stage Manager

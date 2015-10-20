@@ -38,6 +38,8 @@ crew:
     name: Joseph Heil
   - role: Lighting Designer
     name: Harry Bridge
+  - role: Technical Operator
+    name: Darcey Graham
   - role: Set Design
     name: Charlotte van Rhee
   - role: Set Designer
@@ -54,6 +56,8 @@ crew:
     name: Kathy Shepherd
   - role: Stage Manager
     name: Nikki Vigilance
+  - role: Stage Manager
+    name: Darcey Graham
   - role: Make-up
     name: Maddie Hardy
   - role: Make-up
