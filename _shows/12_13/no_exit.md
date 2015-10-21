@@ -10,13 +10,30 @@ date_start: 2012-11-26
 date_end: 2012-11-27
 
 cast:
-  - name: Lyle Fulton
+  - role: Garcin 
+    name: Lyle Fulton
+  - role: The Valet
+    name: James Pardon
+  - role: Inez
+    name: Page Phillips Harrington
+  - role: Estelle
+    name: Harriet Davis
 
 crew:
   - role: Director
     name: Alice Child
-  - role: Producer
+  - role: Director
     name: Lauren Wilson
+  - role: Publicity Manager
+    name: Rory O'Shea
+  - role: Make-up
+    name: Emma McDonald
+  - role: Lighting Designer
+    name: Will Pimblett
+  - role: Sound Designer
+    name: Will Pimblett
+  - role: Photographer
+    name: Jessica Bowell
 
 assets:
   - type: poster
