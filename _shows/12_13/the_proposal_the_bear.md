@@ -9,6 +9,28 @@ venue:
 date_start: 2012-11-19
 date_end: 2012-11-20
 
+cast: 
+  - role: Ivan (The Proposal)
+    name: Jack Revell
+  - role: Natalya (The Proposal)
+    name: Harriet Evans
+  - role: Chubukov (The Proposal)
+    name: Becca Clee
+  - role: Popova (The Bear)
+    name: Laura Cremona
+  - role: Smirnov (The Bear)
+    name: Nick Walters
+  - role: Luka (The Bear)
+    name: Emily Brady
+
+crew:
+  - role: Director
+    name: Emily Zinkin
+  - role: Producer
+    name: Kiran Benawra
+  - role: Technical Operator
+    name: Rory O'Shea
+
 assets:
   - type: poster
     image: the_proposal_the_bear_poster.jpg
