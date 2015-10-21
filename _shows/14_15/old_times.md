@@ -22,6 +22,8 @@ crew:
     name: Gus Herbert
   - role: Producer
     name: Matt Standen
+  - role: Poster Designer
+    name: Max Miller
 
 assets:
   - type: poster

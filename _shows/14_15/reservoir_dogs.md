@@ -37,6 +37,8 @@ crew:
     name: Joe Strickland
   - role: Lighting Designer
     name: James Fox
+  - role: Poster Designer
+    name: Max Miller
 
 
 assets:
