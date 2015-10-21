@@ -28,7 +28,7 @@ crew:
   - role: Technical Operator
     name: James Bentley
   - role: Technical Operator
-    name: Tyler Antonia-Gordon
+    name: Tyler-Antonia Gordon
   - role: Technical Operator
     name: Mitchell Masterson
 
