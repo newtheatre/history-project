@@ -11,11 +11,16 @@ date_start: 2012-12-09
 date_end: 2012-12-10
 
 cast:
-  - name: Nick Jeffrey
+  - role: Clown
+    name: Nick Jeffrey
 
 crew:
   - role: Director
     name: Tom Tolond
+  - role: Producer
+    name: Dave Porter
+  - role: Technical Director
+    name: Dave Porter
 
 assets:
   - type: poster
