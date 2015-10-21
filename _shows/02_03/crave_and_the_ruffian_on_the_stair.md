@@ -10,19 +10,26 @@ date_start: 2003-06-04
 date_end: 2003-06-07
 
 cast:
-  - role: Mike (The Ruffian On The Stair)
+  - role: Mike
+    note: The Ruffian On The Stair
     name: Toby Brack
-  - role: Joyce (The Ruffian On The Stair)
+  - role: Joyce
+    note: The Ruffian On The Stair
     name: Ruth Wilson
-  - role: Wilson (The Ruffian On The Stair)
+  - role: Wilson
+    note: The Ruffian On The Stair
     name: Ben Bergin
-  - role: C (Crave)
+  - role: C
+    note: Crave
     name: Anneliese Mackintosh
-  - role: M (Crave)
+  - role: M
+    note: Crave
     name: Janey Lawson
-  - role: B (Crave)
+  - role: B
+    note: Crave
     name: Phil Sarson
-  - role: A (Crave)
+  - role: A
+    note: Crave
     name: Bush
 
 crew:

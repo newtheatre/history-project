@@ -9,18 +9,24 @@ venue:
 date_start: 2012-11-19
 date_end: 2012-11-20
 
-cast: 
-  - role: Ivan (The Proposal)
+cast:
+  - role: Ivan
+    note: The Proposal
     name: Jack Revell
-  - role: Natalya (The Proposal)
+  - role: Natalya
+    note: The Proposal
     name: Harriet Evans
-  - role: Chubukov (The Proposal)
+  - role: Chubukov
+    note: The Proposal
     name: Becca Clee
-  - role: Popova (The Bear)
+  - role: Popova
+    note: The Bear
     name: Laura Cremona
-  - role: Smirnov (The Bear)
+  - role: Smirnov
+    note: The Bear
     name: Nick Walters
-  - role: Luka (The Bear)
+  - role: Luka
+    note: The Bear
     name: Emily Brady
 
 crew:

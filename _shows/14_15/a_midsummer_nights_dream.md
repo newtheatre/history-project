@@ -38,15 +38,19 @@ cast:
     name: Beth Wilson
 
 crew:
-  - role: "Director (Professional)"
+  - role: Director
+    note: Professional
     name: Martin Berry
   - role: Assistant Director
     name: Louise Croft
-  - role: "Designer (Professional)"
+  - role: Designer
+    note: Professional
     name: Dorrie Scott
-  - role: "Lighting Designer (Professional)"
+  - role: Lighting Designer
+    note: Professional
     name: Richard Statham
-  - role: "Stage Manager (Professional)"
+  - role: Stage Manager
+    note: Professional
     name: Jo James
   - role: Assistant Designer
     name: Morgan Whiting-Fawcett
