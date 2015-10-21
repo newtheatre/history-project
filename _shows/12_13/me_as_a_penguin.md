@@ -24,7 +24,7 @@ crew:
   - role: Director
     name: Jacob Hayes
   - role: Producer
-    name: Tyler Antonia-Gordon
+    name: Tyler-Antonia Gordon
   - role: Technical Director
     name: Emma-Louise Amanshia
   - role: Technical Director
