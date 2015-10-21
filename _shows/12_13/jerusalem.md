@@ -25,7 +25,7 @@ cast:
   - role: Davey
     name: Edward Colwell
   - role: Tanya
-    name: Emma MacDonald
+    name: Emma McDonald
   - role: Pea
     name: Alice Ratcliffe
   - role: Dawn
