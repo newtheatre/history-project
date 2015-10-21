@@ -10,9 +10,31 @@ venue:
 date_start: 2012-11-12
 date_end: 2012-11-13
 
+cast:
+  - role: Tobias Peters
+    name: Daniel O'Connor
+  - role: Ernest Paulson
+    name: James Pardon
+  - role: Graham Faulkner
+    name: Tom Sheldon
+  - role: Leo Bannan
+    name: Alex Mawby
+  - role: Jennifer Tomlinson
+    name: Genevieve Cunnell
+  - role: Celia Jenkins
+    name: Nicola Fox
+
 crew:
   - role: Director
     name: Dave Porter
+  - role: Producer
+    name: Phil Damms
+  - role: Stage Manager
+    name: Tom Tolond
+  - role: Stage Manager
+    name: Anna Learoyd
+  - role: Publicity Designer
+    name: Martha Bowyer
 
 assets:
   - type: poster
