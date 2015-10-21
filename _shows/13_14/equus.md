@@ -50,6 +50,8 @@ crew:
     name: Chelsea Jayne Wright
   - role: Set Designer
     name: Tom Selves
+  - role: Set Designer
+    name: Joseph Heil
   - role: Technical Director
     name: Will Pimblett
   - role: Lighting Designer
