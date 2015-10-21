@@ -11,19 +11,19 @@ venue:
   - Performing Arts Studio, Trent Building
 
 cast:
-  - role:
+  - role: Inspector Carmen McGraw
     name: Amy Brough-Aikin
-  - role:
+  - role: Deputy Harvey B. Feltz
     name: James Roscow
-  - role:
+  - role: Scratch Adwick
     name: Charlotte Kirkman
-  - role:
+  - role: Lola McGraw
     name: Emilie Brittain
-  - role:
+  - role: Snake Eyes
     name: Anna Scholes
-  - role:
+  - role: Monty/Deputy Phillips
     name: Sasha Gibson
-  - role:
+  - role: Jack
     name: Gus Herbert
 
 crew:
