@@ -21,6 +21,16 @@ crew:
     name: Lara Tysseling
   - role: Producer
     name: Casper Harvey
+  - role: Technical Director
+    name: Lydia Scott
+  - role: Lighting Designer
+    name: Aubrey Turner
+  - role: Technical Operator
+    name: James Bentley
+  - role: Technical Operator
+    name: Tyler Antonia-Gordon
+  - role: Technical Operator
+    name: Mitchell Masterson
 
 assets:
   - type: poster
