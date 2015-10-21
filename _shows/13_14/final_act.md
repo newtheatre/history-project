@@ -52,10 +52,6 @@ crew:
     name: Gus Herbert
   - role: Followspot Operator
     name: Joseph Heil
-  - role: Stage Manager
-    name: Tom Selves
-  - role: Stage Manager
-    name: Gus Herbert
 
 assets:
   - type: poster
