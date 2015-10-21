@@ -12,15 +12,20 @@ date_end: 2002-04-27
 cast:
   - role: Gerry Stratton
     name: Andrew McDonnell
-  - role: Laura Stratton (his wife)
+  - role: Laura Stratton
+    note: his wife
     name: Amy Williams
-  - role: Glyn Stratton (eldest son)
+  - role: Glyn Stratton
+    note: eldest son
     name: Pete Bridge
-  - role: Adam Stratton (youngest son)
+  - role: Adam Stratton
+    note: youngest son
     name: Michael Hyde
-  - role: "Stephanie (Glyn's wife)"
+  - role: "Stephanie"
+    note: "Glyn's wife"
     name: Moly Watson
-  - role: "Maureen (Adam's Girlfriend)"
+  - role: "Maureen"
+    note: "Adam's Girlfriend"
     name: Emily Hawkins
   - role: Calvinu
     name: Dan Thomas

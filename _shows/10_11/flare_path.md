@@ -16,7 +16,8 @@ cast:
   name: Laura Kaye Thomson
 - role: Mrs Oakes
   name: Katie Barry
-- role: Sergeant Miller (Dusty)
+- role: Sergeant Miller
+  note: Dusty
   name: James Bentley
 - role: Percy
   name: Matt Miller

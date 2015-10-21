@@ -8,31 +8,44 @@ season_sort: 30
 venue:
   - New Theatre
 cast:
-  - role: Martin Grant (An Actor)
+  - role: Martin Grant
+    note: An Actor
     name: Stuart Barter
-  - role: Kate Grant (his wife)
+  - role: Kate Grant
+    note: his wife
     name: Nicola Snarey
-  - role: Sue Lawley (A radio 4 institution)
+  - role: Sue Lawley
+    note: A radio 4 institution
     name: Jessica Danby
-  - role: Ronan Franklin (A young wannabe)
+  - role: Ronan Franklin
+    note: A young wannabe
     name: Ben Murphy
-  - role: Felicity Mandleson (His housemate)
+  - role: Felicity Mandleson
+    note: His housemate
     name: Felicity Plester
-  - role: Sue Lawley (A radio 4 institution)
+  - role: Sue Lawley
+    note: A radio 4 institution
     name: Nicola Snarey
-  - role: Dame Shirley Goodwoood (An ageing actress)
+  - role: Dame Shirley Goodwoood
+    note: An ageing actress
     name: Anna Blank
-  - role: David (Her Chauffeur)
+  - role: David
+    note: Her Chauffeur
     name: Jessica Danby
-  - role: Sue Lawley (A radio 4 institution)
+  - role: Sue Lawley
+    note: A radio 4 institution
     name: Anna E. Lipinkski
-  - role: Joe Devivre (A popstar)
+  - role: Joe Devivre
+    note: A popstar
     name: Ajay Khari
-  - role: Billie Puffin (A celebrity gardener)
+  - role: Billie Puffin
+    note: A celebrity gardener
     name: Catherine Paskell
-  - role: Jen Jennings (A fan)
+  - role: Jen Jennings
+    note: A fan
     name: Anna E. Lipinkski
-  - role: Sue Lawley (A radio 4 institution)
+  - role: Sue Lawley
+    note: A radio 4 institution
     name: Felicity Plester
 crew:
   - role: Director
