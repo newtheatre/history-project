@@ -43,6 +43,8 @@ crew:
     name: Tessa Denney
   - role: Stage Manager
     name: Nikki Hill
+  - role: Make-up
+    name: Zoe Moulton
 
 assets:
   - type: poster
