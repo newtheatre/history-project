@@ -11,15 +11,28 @@ date_start: 2012-12-09
 date_end: 2012-12-10
 
 cast:
-  - name: James Bentley
-  - name: Abby Robinson
-  - name: Emily Brady
+  - role: Kenneth
+    name: James Bentley
+  - role: Hilary
+    name: Abby Robinson
+  - role: Laura
+    name: Emily Brady
 
 crew:
   - role: Director
     name: Eve Wersocki-Morris
   - role: Producer
     name: James Gregory
+  - role: Publicity Manager
+    name: Becca Clee
+  - role: Technical Operator
+    name: Mitchell Masterson
+  - role: Sound Designer
+    name: Ben Hollands
+  - role: Publicity Designer
+    name: Nick Barker
+  - role: Photogrpaher
+    name: Dimitri Darzentas
 
 assets:
   - type: poster
