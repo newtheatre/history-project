@@ -32,7 +32,11 @@ crew:
   - role: Producer
     name: Chelsea Jayne Wright
   - role: Set Designer
+    name: Natasha Mortimer
   - role: Stage Manager
+    name: Tom Selves
+  - role: Stage Manager
+    name: Rory O'Shea
   - role: Technical Director
   - role: Lighting Designer
   - role: Make Up Artist
