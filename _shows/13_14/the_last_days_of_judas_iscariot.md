@@ -45,7 +45,7 @@ crew:
   - role: Producer
     name: Jenny Kohnhorst
   - role: Technical Director
-    name: Tessa Denney
+    name: Tyler-Antonia Gordon
   - role: Lighting Designer
     name: Adam Bergen
   - role: Technical Operator
@@ -58,6 +58,12 @@ crew:
     name: Hannah Doyle
   - role: Technical Operator
     name: Nathan Penney
+  - role: Set Design
+    name: Alex Jamieson
+  - role: Set Construction
+    name: Joseph Heil
+  - role: Set Construction
+    name: Aubrey Turner
 
 assets:
   - type: poster
