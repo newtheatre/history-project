@@ -32,7 +32,7 @@ cast:
     name: Lou Knapp
   - role: Snout
     name: Eoin Buckley
-  - role: Starvelling
+  - role: Starveling
     name: Emma Kendall
   - role: Snug
     name: Beth Wilson
