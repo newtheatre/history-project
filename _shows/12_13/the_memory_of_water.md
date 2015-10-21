@@ -10,12 +10,18 @@ date_start: 2012-11-07
 date_end: 2012-11-10
 
 cast:
-  - name: Rosanna Stoker
-  - name: Amy Brough-Aikin
-  - name: Lizzie Frainier
-  - name: Lucy Dollman
-  - name: Ben Williamson
-  - name: Ajay Stevenson
+  - role: Mary
+    name: Rosanna Stoker
+  - role: Catherine
+    name: Amy Brough-Aikin
+  - role: Vi
+    name: Lizzie Frainier
+  - role: Teresa
+    name: Lucy Dollman
+  - role: Frank
+    name: Ben Williamson
+  - role: Mike
+    name: Ajay Stevenson
 
 crew:
   - role: Director
