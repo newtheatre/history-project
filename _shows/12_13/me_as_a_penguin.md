@@ -17,10 +17,32 @@ cast:
     name: Ellie Cawthorne
   - role: Dave
     name: Peter Bradley
+  - role: Old Lady
+    name: Hilary Adams
 
 crew:
   - role: Director
     name: Jacob Hayes
+  - role: Producer
+    name: Tyler Antonia-Gordon
+  - role: Technical Director
+    name: Emma-Louise Amanshia
+  - role: Technical Director
+    name: Wawa Hunja
+  - role: Lighting Designer
+    name: Emma-Louise Amanshia
+  - role: Lighting Designer
+    name: Wawa Hunja
+  - role: Set Designer
+    name: Alice Child
+  - role: Set Designer
+    name: Matt Wilks
+  - role: Set Designer
+    name: Liz Cornwell
+  - role: Stage Manager
+    name: Tessa Denney
+  - role: Stage Manager
+    name: Nikki Hill
 
 assets:
   - type: poster
