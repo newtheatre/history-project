@@ -24,7 +24,7 @@ crew:
   - role: Technical Director
     name: Joanne Blunt
   - role: Lighting Designer
-    name: David Taylor
+    name: Joanne Blunt
   - role: Visuals Designer
     name: David Taylor
 
