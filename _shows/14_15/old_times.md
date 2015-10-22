@@ -25,6 +25,8 @@ crew:
   - role: Poster Designer
     name: Max Miller
 
+smugmug: JHTfPQ
+
 assets:
   - type: poster
     image: old_times_poster.jpg
