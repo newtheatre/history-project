@@ -27,7 +27,7 @@ cast:
   - role: Chorus
     name: Jess Lundholm
   - role: Chorus
-    name: Louise Knapp
+    name: Lou Knapp
   - role: Chorus
     name: Ruth Wogan
 

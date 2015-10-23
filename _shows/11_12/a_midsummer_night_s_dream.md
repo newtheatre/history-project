@@ -63,7 +63,7 @@ crew:
   - role: Choreography
     name: Sophie Tebbutt
   - role: Costume Design
-    name: Frankie Andrews
+    name: Francesca Andrews
   - role: Artwork
     name: Fran Rylands
   - role: Artwork

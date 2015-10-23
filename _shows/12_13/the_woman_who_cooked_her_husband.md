@@ -32,7 +32,7 @@ crew:
   - role: Publicity Designer
     name: Nick Barker
   - role: Photogrpaher
-    name: Dimitri Darzentas
+    name: Dimitrios Darzentas
 
 assets:
   - type: poster

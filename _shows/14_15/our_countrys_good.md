@@ -13,7 +13,7 @@ cast:
   - role: Harry Brewer
     name: Eoin Buckley
   - role: 2nd Lt. Ralph Clark
-    name: Car Truscott
+    name: Carn Truscott
   - role: Rev. Johnson/Mary Brenham
     name: Jess Leppington
   - role: Lt. Dawes/Liz Morden
@@ -51,7 +51,7 @@ crew:
   - role: Lighting Designer
     name: David Taylor
   - role: Set Construction
-    name: Ali Uzir Lalani
+    name: Ali Uzair Lalani
   - role: Poster Designer
     name: Alex Huntley
 

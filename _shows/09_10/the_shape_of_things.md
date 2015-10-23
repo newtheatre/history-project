@@ -15,7 +15,7 @@ cast:
   - role: Adam
     name: David Cornis
   - role: Jenny
-    name: Lizzy Bourne
+    name: Lizzie Bourne
   - role: Phillip
     name: George Bancroft-Livingston
 
