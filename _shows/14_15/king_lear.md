@@ -95,7 +95,7 @@ crew:
   - role: Set Designer
     name: Tyler-Antonia Gordon
   - role: Artwork
-    name: Alexander Jamieson
+    name: Alex Jamieson
   - role: Publicity Designer
     name: Ben Hollands
   - role: Sound Designer
