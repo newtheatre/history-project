@@ -2,6 +2,7 @@
 title: "Yours and Mine"
 playwright: "Miriam Dyberg"
 student_written: true
+venue: New Theatre Studio A
 period: Spring
 season: "Fringe"
 season_sort: 340
