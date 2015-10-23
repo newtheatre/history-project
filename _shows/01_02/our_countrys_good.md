@@ -41,7 +41,7 @@ cast:
   - role: Robert Sideway
     name: Ben Bergin
   - role: John Wisehammer
-    name: Phillip Hamann
+    name: Philip Hamann
   - role: Caeser
     name: Mike Reich
   - role: Liz Morden

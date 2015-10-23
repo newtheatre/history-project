@@ -53,7 +53,7 @@ cast:
   - role: Knight
     name: Immy Hulbert
   - role: Knight
-    name: Bernardo Kerr
+    name: Bernie Kerr
   - role: Knight
     name: Charlotte Kirkman
   - role: Knight

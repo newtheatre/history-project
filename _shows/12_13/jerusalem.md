@@ -23,7 +23,7 @@ cast:
   - role: Lee
     name: Eoin Buckley
   - role: Davey
-    name: Edward Colwell
+    name: Ed Colwell
   - role: Tanya
     name: Emma McDonald
   - role: Pea
@@ -33,7 +33,7 @@ cast:
   - role: Troy
     name: Toby Stevens
   - role: Phaedra
-    name: Jenny Kornhorst
+    name: Jenny Kohnhorst
   - role: Fawcett
     name: Grace Rowland
   - role: Parsons
@@ -69,7 +69,7 @@ crew:
   - role: Stage Manager
     name: Liz Cornwell
   - role: Stage Manager
-    name: Alex Day
+    name: Alexandra Day
   - role: Costumes
     name: Abby Robinson
   - role: Costumes

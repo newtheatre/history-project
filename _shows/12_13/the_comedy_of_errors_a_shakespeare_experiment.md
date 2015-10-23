@@ -2,7 +2,7 @@
 title: "The Comedy of Errors - A Shakespeare Experiment"
 playwright: William Shakespeare
 season: External
-season_sort: 275
+season_sort: 285
 period: Spring
 venue:
   - New Theatre
@@ -43,7 +43,7 @@ crew:
   - role: Director
     name: Gus Miller
   - role: Producer
-    name: Martha Rose Wilson
+    name: Martha Wilson
 
 assets:
   - type: poster

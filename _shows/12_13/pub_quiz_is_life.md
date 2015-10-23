@@ -2,7 +2,7 @@
 title: Pub Quiz is Life
 playwright: Richard Bean
 season: In House
-season_sort: 270
+season_sort: 245
 period: Spring
 venue:
   - New Theatre

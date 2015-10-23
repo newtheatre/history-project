@@ -45,7 +45,7 @@ crew:
   - role: Technical Operator
     name: Harry Bridge
   - role: Stage Manager
-    name: Louise Knapp
+    name: Lou Knapp
   - role: Stage Manager
     name: Darcey Graham
   - role: Stage Manager

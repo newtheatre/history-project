@@ -31,7 +31,7 @@ crew:
   - role: Director
     name: Bridie Rollins
   - role: Director
-    name: Lara Tyselling
+    name: Lara Tysseling
   - role: Assistant Director
     name: Dina Elkordy
   - role: Lighting Designer

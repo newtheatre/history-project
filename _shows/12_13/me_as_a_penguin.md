@@ -12,7 +12,7 @@ cast:
   - role: Stitch
     name: Oliver Kiddell
   - role: Mark
-    name: John Ball
+    name: John Bell
   - role: Liz
     name: Ellie Cawthorne
   - role: Dave

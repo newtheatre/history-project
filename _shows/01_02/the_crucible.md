@@ -84,7 +84,7 @@ crew:
   - role: Stage Manager
     name: James Law
   - role: Lighting
-    name: Michael Cook
+    name: Mike Cook
   - role: Lighting
     name: James Law
   - role: Sound

@@ -12,7 +12,7 @@ date_end: 2009-10-31
 cast:
   - role: unknown
     name: Benjamin Cave
-  - name: Elizabeth Bourne
+  - name: Lizzie Bourne
   - name: Meg Salter
 
 crew:

@@ -26,7 +26,7 @@ cast:
     name: Michael Hyde
 crew:
   - role: Coordinator
-    name: Alex Turner
+    name: Alexandra Turner
   - role: "Publicity, Lighting and Sound"
     name: Mike Cook
   - role: Set Construction

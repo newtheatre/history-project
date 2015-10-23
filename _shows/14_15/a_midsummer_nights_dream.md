@@ -21,7 +21,7 @@ cast:
   - role: Demetrius
     name: Daniel O'Connor
   - role: Hermia
-    name: Jess Millott
+    name: Jessica Millott
   - role: Helena
     name: Libby Boyd
   - role: Egeus/Flute

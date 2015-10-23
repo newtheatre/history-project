@@ -17,7 +17,7 @@ cast:
     name: Dan Downes
     note: 14, 17 June
   - role: Cathy
-    name: Laura Kaye Thompson
+    name: Laura Kaye Thomson
     note: 15, 16 June
   - role: Cathy
     name: Nell Charleston
@@ -25,7 +25,7 @@ cast:
 
 crew:
   - role: Director
-    name: Stephen James Irvine
+    name: Stephen Irvine
   - role: Producer
     name: Lauren Grant
 

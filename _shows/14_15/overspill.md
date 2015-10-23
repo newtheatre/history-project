@@ -21,7 +21,7 @@ crew:
   - role: Director
     name: Ollie Shortt
   - role: Producer
-    name: Cahrlotte van Rhee
+    name: Charlotte van Rhee
   - role: Assistant Director
     name: Matthew Lewington
   - role: Technical Director
