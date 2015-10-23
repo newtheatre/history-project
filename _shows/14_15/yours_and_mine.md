@@ -14,7 +14,7 @@ cast:
   - role: Anna
     name: Bethany Ames
   - role: Karen
-    name: Niamh Canies
+    name: Niamh Caines
   - role: Malcolm
     name: Will Berrington
   - role: Ben/Admissions Officer
