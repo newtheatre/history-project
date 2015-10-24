@@ -38,15 +38,26 @@
 
 // .show-photos-outer
 
+@mixin gallery-outer
+  @include flex-row
+  @include flex-direction(horizontal)
+  @include flex-wrap(wrap)
+
+@mixin gallery-item
+  @include flex-basis(25%)
+  @include set-property-to-gutter(padding-right)
+  @include set-property-to-gutter(margin-bottom)
+
 .show-photos
-  @include grid-row
+  @include gallery-outer
+
   padding-bottom: 0
+
   @include set-property-to-gutter(margin-top)
   @include set-property-to-gutter(margin-bottom)
-  .show-photo-single
-    @include grid-x-col(4)
 
-    @include set-property-to-gutter(margin-bottom)
+  .show-photo-single
+    @include gallery-item
 
     // Crop all photos to prevent horrible overflows
     height: 180px
@@ -58,9 +69,9 @@
 
 .show-assets-list
   @include list-unformatted
-  @include grid-row
+  @include gallery-outer
   .show-asset-file, .show-asset-image
-    @include grid-x-col(4)
+    @include gallery-item
   .show-asset-file
     background: darken($color-nnt-purple, 20%)
     position: relative
