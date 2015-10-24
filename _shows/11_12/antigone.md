@@ -1,7 +1,7 @@
 ---
 title: Antigone
 season: UNCUT
-season_sort: 320
+season_sort: 275
 period: Spring
 venue:
   - The Three Wheatsheaves

@@ -1,7 +1,7 @@
 ---
 title: The Lesson
 season: UNCUT
-season_sort: 300
+season_sort: 235
 period: Spring
 venue:
   - Hugh Stuart Library
