@@ -101,23 +101,7 @@ assets:
   - type: poster
     image: molly_sweeney_poster.jpg
 
-photos:
-  - type: photo
-    image: molly_sweeney_1.jpg
-  - type: photo
-    image: molly_sweeney_2.jpg
-  - type: photo
-    image: molly_sweeney_3.jpg
-  - type: photo
-    image: molly_sweeney_4.jpg
-  - type: photo
-    image: molly_sweeney_5.jpg
-  - type: photo
-    image: molly_sweeney_6.jpg
-  - type: photo
-    image: molly_sweeney_7.jpg
-  - type: photo
-    image: molly_sweeney_8.jpg
+smugmug: q5TP5z
 
 ---
 
