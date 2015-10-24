@@ -58,12 +58,14 @@ class Smug
       # Create and array of image IDs and fetch their custom sizes
       imageList = Array.new
       album.each { |image| imageList.push image["ImageKey"] }
-      imageURLs = fetch_image_urls(imageList, "sizecustom", "ImageSizeCustom", "height=1000&width=1000")
+      largeImageURLs = fetch_image_urls(imageList, "sizecustom", "ImageSizeCustom", "height=1000&width=1000")
+      thumbImageURLs = fetch_image_urls(imageList, "sizecustom", "ImageSizeCustom", "height=300&width=300")
 
       # Collect additional attributes into album object
       album.collect do |image|
         image["NTHP_Parsed"] = true
-        image["LargeImage"] = imageURLs.shift
+        image["LargeImage"] = largeImageURLs.shift
+        image["ThumbImage"] = thumbImageURLs.shift
         image
       end
     end

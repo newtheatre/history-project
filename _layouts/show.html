@@ -121,7 +121,7 @@ layout: default
       {% for image in show.smugmug_album %}
       <div class="show-photo-single debug-container">
         <a class="fancybox" rel="photos" href="{{ image.LargeImage.Url }}" title="{{ image.Title }}">
-          <img src="{{ image.ThumbnailUrl }}" alt="Show production shot" title="{{ image.Title }}" />
+          <img src="{{ image.ThumbImage.Url }}" alt="Show production shot" title="{{ image.Title }}" />
           <div class="debug-abs-bottom-left" data-debug-toggle title="Photo type">{{ image.ImageKey }}</div>
           <div class="debug-abs-top-left" data-debug-toggle title="Photo image">{{ image.FileName }}</div>
         </a>
