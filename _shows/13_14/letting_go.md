@@ -44,21 +44,7 @@ assets:
   - type: poster
     image: letting_go_poster.jpg
 
-photos:
-  - type: photo
-    image: letting_go_1.jpg
-  - type: photo
-    image: letting_go_2.jpg
-  - type: photo
-    image: letting_go_3.jpg
-  - type: photo
-    image: letting_go_4.jpg
-  - type: photo
-    image: letting_go_5.jpg
-  - type: photo
-    image: letting_go_6.jpg
-  - type: photo
-    image: letting_go_crew.jpg
+smugmug: RChW6m
 
 comment: "Video here:  https://www.youtube.com/watch?v=Ltw1tYemf6A&app=desktop"
 ---
