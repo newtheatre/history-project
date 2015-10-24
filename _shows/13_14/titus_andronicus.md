@@ -100,43 +100,7 @@ assets:
   - type: poster
     image: titus_andronicus_poster.jpg
 
-photos:
-  - type: photo
-    image: titus_andronicus_1.jpg
-  - type: photo
-    image: titus_andronicus_2.jpg
-  - type: photo
-    image: titus_andronicus_3.jpg
-  - type: photo
-    image: titus_andronicus_4.jpg
-  - type: photo
-    image: titus_andronicus_5.jpg
-  - type: photo
-    image: titus_andronicus_6.jpg
-  - type: photo
-    image: titus_andronicus_7.jpg
-  - type: photo
-    image: titus_andronicus_8.jpg
-  - type: photo
-    image: titus_andronicus_9.jpg
-  - type: photo
-    image: titus_andronicus_10.jpg
-  - type: photo
-    image: titus_andronicus_11.jpg
-  - type: photo
-    image: titus_andronicus_12.jpg
-  - type: photo
-    image: titus_andronicus_13.jpg
-  - type: photo
-    image: titus_andronicus_14.jpg
-  - type: photo
-    image: titus_andronicus_15.jpg
-  - type: photo
-    image: titus_andronicus_16.jpg
-  - type: photo
-    image: titus_andronicus_17.jpg
-  - type: photo
-    image: titus_andronicus_crew.jpg
+smugmug: tW92hS
 
 ---
 
