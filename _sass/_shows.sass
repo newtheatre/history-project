@@ -60,7 +60,7 @@
 
   // Show-y hide-y
 
-  @include transition(max-height 1s ease-out)
+  @include transition(max-height 0.6s ease-out)
 
   max-height: 21rem
   overflow: hidden
@@ -102,13 +102,18 @@
     background: darken($color-black, 4%)
 
     &:hover
-      background: darken($color-black, 1%)
+      background: darken($color-nnt-purple, 10%)
 
     a
       text-align: center
       color: $color-text-white
 
+    i
+      // Padding between icons and text
+      padding: 0 16px
+
     .hide-label
+      // Initial state of this until jQuery fiddles with it
       display: none
 
   .smugmug-link
