@@ -2,6 +2,7 @@ window.fancyboxOpen = false
 
 $(document).ready ->
   $('.fancybox').fancybox
+    padding: 0
     beforeShow: ->
       window.fancyboxOpen = true
     beforeClose: ->

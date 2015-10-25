@@ -25,6 +25,8 @@ gems:
 
 exclude: [vendor, node_modules]
 
+skip_virtual_people: true
+
 collections:
   shows:
     output: true
