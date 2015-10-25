@@ -36,6 +36,8 @@
   @include set-property-to-gutter(padding-top)
   background: $color-black
 
+  overflow: hidden
+
 // .show-photos-outer
 
 @mixin gallery-outer
@@ -51,10 +53,20 @@
 .show-photos
   @include gallery-outer
 
-  padding-bottom: 0
+  @include set-property-to-gutter(padding-top)
 
-  @include set-property-to-gutter(margin-top)
-  @include set-property-to-gutter(margin-bottom)
+  padding-bottom: 0
+  margin-bottom: 0
+
+  // Show-y hide-y
+
+  @include transition(max-height 1s ease-out)
+
+  max-height: 21rem
+  overflow: hidden
+
+  &.toggle-show
+    // max-height: 9999px
 
   .show-photo-single
     @include gallery-item
@@ -66,6 +78,71 @@
     img
       width: 100%
       box-shadow: 0px -1px darken($color-black, 20%)
+
+.show-photos-controls-bar
+  @include flex-row
+  @include flex-direction(horizontal)
+
+  margin-bottom: 0
+
+  @include set-property-to-gutter(padding-right)
+
+  .gallery-control, .smugmug-link
+    a
+      // Full size anchor, is the inner container
+      display: block
+      padding: $baseline / 3
+
+      &:hover
+        text-decoration: none
+
+
+  .gallery-control
+    @include flex-basis(75%)
+    background: darken($color-black, 4%)
+
+    &:hover
+      background: darken($color-black, 1%)
+
+    a
+      text-align: center
+      color: $color-text-white
+
+    .hide-label
+      display: none
+
+  .smugmug-link
+    $color-smugmug: #5B8800
+
+    @include flex-basis(25%)
+    overflow: hidden
+
+    background: darken($color-smugmug, 22%)
+
+    &:hover
+      background: darken($color-smugmug, 15%)
+
+    a
+      // Full size anchor, is the inner container
+      margin-bottom: 0
+      overflow: hidden
+      position: relative // For absolute use in .smugmug-link-logo
+
+    .smugmug-link-logo
+      position: absolute
+      top: 3px
+      left: 2px
+      img
+        // position: relative
+        // top: 4px
+        opacity: 0.2
+
+    .smugmug-link-text
+      padding-left: 41px
+      padding-top: 3px
+      font-size: 13px
+      color: $color-grey
+      text-align: center
 
 .show-assets-list
   @include list-unformatted
