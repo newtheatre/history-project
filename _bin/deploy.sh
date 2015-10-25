@@ -11,6 +11,7 @@ if [ $TRAVIS_PULL_REQUEST = "false" ]
   if [ $RESET = "true" ]
   then
     rm -rf gh-pages/*
+    rm -rf _smugmug_cache
   fi
 
   # copy generated HTML site to built branch
