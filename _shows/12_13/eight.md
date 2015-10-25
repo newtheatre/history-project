@@ -10,17 +10,17 @@ date_start: 2013-04-29
 date_end: 2013-04-30
 cast:
   - role: Mona
-    person: Lydia Hawthorn
+    name: Lydia Hawthorn
   - role: Jude
-    person: Sam Hayward
+    name: Sam Hayward
   - role: Astrid
-    person: Daniella Blackford
+    name: Daniella Blackford
   - role: Andre
-    person: John Bell
+    name: John Bell
   - role: Millie
-    person: Rhianna Grazier
+    name: Rhianna Grazier
   - role: Danny
-    person: Will Randall
+    name: Will Randall
 
 crew:
   - role: Director
