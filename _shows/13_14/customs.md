@@ -46,4 +46,4 @@ smugmug: qHV3rs
 
 ---
 
-When you die, there is no Heaven. Instead, there’s only an airport with a customs checkpoint. Once there, you’ll have no choice but to que with other lost souls awaiting final judgement, each one pondering their chances of clearing Customs. But is clearing Customs something they really want to do?
+When you die, there is no Heaven. Instead, there’s only an airport with a customs checkpoint. Once there, you’ll have no choice but to queue with other lost souls awaiting final judgement, each one pondering their chances of clearing Customs. But is clearing Customs something they really want to do?
