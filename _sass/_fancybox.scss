@@ -1,5 +1,9 @@
 // Fancybox (image slideshow modal) styling
 
+$fancybox-overlay-background: rgba(darken($color-nnt-purple, 44%), 0.85);
+$fancybox-control-margins: -38px;
+$fancybox-control-opacity: 0.2;
+
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
@@ -60,7 +64,8 @@
 
 .fancybox-error {
   color: #444;
-  font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 20px;
   margin: 0;
   padding: 15px;
   white-space: nowrap;
@@ -101,12 +106,16 @@
 
 .fancybox-close {
   position: absolute;
-  top: -18px;
-  right: -18px;
+  top: 0;
+  right: $fancybox-control-margins;
   width: 36px;
   height: 36px;
   cursor: pointer;
   z-index: 8040;
+  opacity: $fancybox-control-opacity;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .fancybox-nav {
@@ -122,11 +131,11 @@
 }
 
 .fancybox-prev {
-  left: 0;
+  left: $fancybox-control-margins;
 }
 
 .fancybox-next {
-  right: 0;
+  right: $fancybox-control-margins;
 }
 
 .fancybox-nav span {
@@ -141,12 +150,14 @@
 }
 
 .fancybox-prev span {
-  left: 10px;
+  left: 0;
+  opacity: $fancybox-control-opacity;
   background-position: 0 -36px;
 }
 
 .fancybox-next span {
-  right: 10px;
+  right: 0;
+  opacity: $fancybox-control-opacity;
   background-position: 0 -72px;
 }
 
@@ -186,7 +197,7 @@
   overflow: hidden;
   display: none;
   z-index: 8010;
-  background: url('/lib/fancybox/source/fancybox_overlay.png');
+  background: $fancybox-overlay-background;
 }
 
 .fancybox-overlay-fixed {
@@ -204,7 +215,8 @@
 
 .fancybox-title {
   visibility: hidden;
-  font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  line-height: 20px;
   position: relative;
   text-shadow: none;
   z-index: 8050;
@@ -229,9 +241,6 @@
   padding: 2px 20px;
   background: transparent; /* Fallback for web browsers that doesn't support RGBa */
   background: rgba(0, 0, 0, 0.8);
-  -webkit-border-radius: 15px;
-     -moz-border-radius: 15px;
-          border-radius: 15px;
   text-shadow: 0 1px 2px #222;
   color: #FFF;
   font-weight: bold;
