@@ -59,7 +59,7 @@ crew:
 
 assets:
   - type: poster
-    image: wild_west_end_poster_small.jpg
+    image: robin_hood.jpg
 
 
 ---
