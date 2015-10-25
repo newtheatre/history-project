@@ -131,22 +131,23 @@ layout: default
     </section>
 
     <div class="show-photos-controls-bar">
+      <div class="fade-out-overlay" data-show-label data-show-photos-toggle></div>
       <div class="gallery-control" data-show-photos-toggle>
         <a href="{{ show.smugmug_album.WebUri }}" title="Show all photos">
           <div class="show-label" data-show-label>
             <i class="ion-chevron-down"></i>
-            Show all photos
+            Show production shots
             <i class="ion-chevron-down"></i>
           </div>
           <div class="hide-label" data-hide-label>
             <i class="ion-chevron-up"></i>
-            Hide photos
+            Hide production shots
             <i class="ion-chevron-up"></i>
           </div>
         </a>
       </div>
       <div class="smugmug-link">
-        <a href="{{ show.smugmug_album.WebUri }}">
+        <a href="{{ show.smugmug_album.WebUri }}" title="View album on SmugMug">
           <div class="smugmug-link-logo">
             <img src="/images/smugmug-white-64.png" alt="SmugMug logo">
           </div>

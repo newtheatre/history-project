@@ -30,11 +30,13 @@
 .show-synopsys
   @include block
 
+$show-photos-bg: $color-black
+
 .show-photos-outer, .show-assets-outer
   @include grid-wrap
   margin-bottom: $baseline * 2
   @include set-property-to-gutter(padding-top)
-  background: $color-black
+  background: $show-photos-bg
 
   overflow: hidden
 
@@ -60,9 +62,9 @@
 
   // Show-y hide-y
 
-  @include transition(max-height 0.6s ease-out)
+  @include transition(max-height 0.3s ease-out)
 
-  max-height: 21rem
+  max-height: 17rem
   overflow: hidden
 
   &.toggle-show
@@ -82,6 +84,7 @@
 .show-photos-controls-bar
   @include flex-row
   @include flex-direction(horizontal)
+  position: relative // so .fade-out-overlay can be absolute
 
   margin-bottom: 0
 
@@ -148,6 +151,15 @@
       font-size: 13px
       color: $color-grey
       text-align: center
+
+  .fade-out-overlay
+    $fade-out-v-size: 4rem
+    position: absolute
+    top: -$fade-out-v-size
+    width: 100%
+    height: $fade-out-v-size
+
+    background: rgba($show-photos-bg, 0.8)
 
 .show-assets-list
   @include list-unformatted
