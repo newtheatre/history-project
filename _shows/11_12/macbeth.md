@@ -54,6 +54,8 @@ crew:
 assets:
   - type: poster
     image: macbeth_poster.jpg
+
+smugmug: 3mLjwg
 ---
 
 A story of greed, ambition, desire and murder. The monotony of the 21st century office is soon disturbed as an ambitious Macbeth usurps and assassinates in his struggle for boardroom supremacy. Spurred on by encounters with the superstitious staff and the whispers of his ruthless wife, the established order is plunged into unknown chaos. This contemporary performance fuses modernity with the original text to present Shakespeare's classic reinvented.

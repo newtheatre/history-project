@@ -33,6 +33,8 @@ assets:
     image: excess_2009-10.jpg
 
 published: true
+
+smugmug: xGQFtD
 ---
 
 A tango bar. A bedroom.

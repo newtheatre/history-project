@@ -36,6 +36,8 @@ crew:
 assets:
   - type: poster
     image: pub_quiz_is_life_2012-13.jpg
+
+smugmug: p47xCL
 ---
 
 When Lee returns to Hull after returning from a tour in Afghanistan, he joins his team mates for the local quiz. ‘My Dad’s a Drug Dealer’ have been losing for years to the teachers but Lee wants all that to change, and when he meets Melissa, who comes to Hull to regenerate the city he sees his chance to finally win. A murderous black comedy, set in Hull’s black economy, with too many questions and all the wrong answers.

@@ -60,6 +60,8 @@ assets:
     image: rope_2010-11.jpg
 
 published: true
+
+smugmug: DGwFxc
 ---
 
 Brandon wants excitement and little cares how he gets it. With the help of his companion Granillo, he strangles a fellow student and deposits the body in a wooden chest. To celebrate this ‘perfect murder’, they invite some acquaintances (including the victim’s father) round to a party with the chest and its gruesome contents serving as a dining table. But Cadell is suspicious from the start of the evening...

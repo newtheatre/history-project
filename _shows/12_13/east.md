@@ -37,9 +37,7 @@ crew:
   - role: Technical Operator
     name: Emma-Louise Amanshia
 
-photos:
-  - type: photo
-    image: east_photo_1.jpg
+smugmug: dvVPZh
 
 assets:
   - type: poster

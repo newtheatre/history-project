@@ -28,6 +28,8 @@ assets:
     image: smile_2010-11.jpg
 
 published: true
+
+smugmug: BkNmfB
 ---
 
 A haunted war photographer hides at the end of a deserted fairground pier, surrounded only by her collection of postcards and memories of the Bosnian war zone.

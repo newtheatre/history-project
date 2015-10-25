@@ -26,6 +26,8 @@ assets:
     image: this_wide_night_2010-11.jpg
 
 published: true
+
+smugmug: d5RBFx
 ---
 
 On her release from prison, Lorraine heads straight to Marie's.

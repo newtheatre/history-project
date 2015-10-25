@@ -12,4 +12,6 @@ date_end: 2011-11-05
 assets:
   - type: poster
     image: look_back_in_anger_2011-12.jpg
+
+smugmug: MZ97ds
 ---

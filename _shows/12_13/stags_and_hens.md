@@ -44,6 +44,8 @@ assets:
   - type: poster
     image: stags_and_hens_poster_cropped.jpg
 
+smugmug: FB65P2
+
 ---
 
 Dave and Linda are getting married! With the Babychamps flowing, and everyone out on the pull, the couple’s Stag and Hen parties are hell-bent on celebrating. But when both groups accidentally choose the same venue, with Dave paralytic and Linda locking herself in the toilet, chaos takes over as matrimonial bliss becomes less and less likely.
