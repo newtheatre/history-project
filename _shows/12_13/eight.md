@@ -29,4 +29,6 @@ crew:
 assets:
   - type: poster
     image: eight_2012-13.jpg
+
+smugmug: ZHGQTg
 ---

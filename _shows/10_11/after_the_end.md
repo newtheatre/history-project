@@ -25,9 +25,7 @@ crew:
 
 published: true
 
-photos:
-  - type: photo
-    image: after_the_end_image_2010-11.jpg
+smugmug: 4DbWrF
 
 assets:
   - type: poster

@@ -30,6 +30,8 @@ assets:
     image: hymns_poster.jpg
 
 published: true
+
+smugmug: JCB2Hf
 ---
 
 Four men reunite to mourn the loss of a close friend, but time has had a corrosive effect on this once tight-knit bunch. From beneath their surface bravura, a brooding animosity emerges. Their struggle to deal with grief and guilt brings them to a breaking point where the truth lays waiting.

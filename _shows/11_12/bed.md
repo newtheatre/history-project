@@ -51,6 +51,7 @@ assets:
   - type: poster
     image: bed_poster_lakeside.jpg
 
+smugmug: ZJCjTC
 ---
 
 

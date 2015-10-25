@@ -32,6 +32,8 @@ assets:
     image: normal_2010-11.jpg
 
 published: true
+
+smugmug: ftZrLS
 ---
 
 "It seemed to me that the chill he had placed in my soul had finally thawed. I had not reckoned on feeling that chill again so soon…”

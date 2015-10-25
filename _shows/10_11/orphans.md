@@ -38,6 +38,8 @@ assets:
     image: orphans_2010-11.jpg
 
 published: true
+
+smugmug: 7hRj7P
 ---
 
 ‘I hate violence. It makes me cry. Always has…’

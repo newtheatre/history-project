@@ -40,6 +40,8 @@ assets:
     image: bluebird_2010-11.jpg
 
 published: true
+
+smugmug: hK3T2p
 ---
 
 “This is an extraordinary city. It's a city that you should see primarily at nighttime. It is becomes more concentrated at nighttime. We could take a look at it for a while...”

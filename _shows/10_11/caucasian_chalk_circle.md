@@ -10,8 +10,7 @@ date_start: 2010-11-03
 date_end: 2010-11-06
 
 cast:
-  - role: unknown
-    name: Greg Fahey
+  - name: Greg Fahey
   - name: Liz Stevens
   - name: Conrad Cohen
   - name: Natalie Barclay
@@ -32,6 +31,8 @@ assets:
     image: caucasian_chalk_circle_2010-11.jpg
 
 published: true
+
+smugmug: HqbXJm
 ---
 
 The city burns in the heat of civil war and a servant girl sacrifices everything to protect an abandoned child. But when peace is finally restored, the boy's mother comes to claim him. Calling upon the ancient tradition of the chalk circle, a comical judge sets about resolving the dispute. But in a culture of corruption and deception, who wins?

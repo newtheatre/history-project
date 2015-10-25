@@ -64,6 +64,8 @@ assets:
   - type: poster
     image: frankenstein_poster.jpg
 
+smugmug: S4pKW6
+
 ---
 
 Frankenstein follows the gradual mental and physical deterioration of Victor Frankenstein following his creation of a living being, a reanimated corpse as part of his experiment to beat death. Things spiral out of control and Victor’s life is ruined. A tragic and moving piece of theatre with elements of dance, physical theatre, song, acapella, and great performances from one of the most popular cultural works of the last 200 years.

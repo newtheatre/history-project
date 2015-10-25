@@ -18,4 +18,6 @@ crew:
 assets:
   - type: poster
     image: paradise_poster.jpg
+
+    smugmug: 5j5PKS
 ---
