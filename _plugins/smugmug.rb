@@ -92,7 +92,7 @@ class Smug
     return album_data
   end
 
-  def get_show_photos(albumID)
+  def get_show_photos(albumID, site)
     fn = "#{ cache_dir }/#{ albumID }.json"
     album = nil
 
@@ -111,7 +111,7 @@ class Smug
         album = JSON.load(cache_file)
       end
 
-    else
+    elsif not site.config['skip_smugmug']
       # No cache, do properly
       album = fetch_album(albumID)
 
@@ -119,6 +119,9 @@ class Smug
       File.open(fn, "w") do |cache_file|
         JSON.dump(album, cache_file)
       end
+    else
+      puts "Skipping fetch of #{albumID}"
+      album = nil
     end
 
     return album
