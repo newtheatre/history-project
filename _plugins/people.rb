@@ -39,12 +39,13 @@ module Jekyll
     priority :normal
 
     def generate(site)
+      if not site.config["skip_virtual_people"]
+        @collection = site.collections["people"]
 
-      @collection = site.collections["people"]
-
-      for name in site.data["people_names"]
-        unless @collection.docs.detect { |doc| doc.data["title"] == name }
-          @collection.docs << PlaceholderPeoplePage.new(site, @collection, name)
+        for name in site.data["people_names"]
+          unless @collection.docs.detect { |doc| doc.data["title"] == name }
+            @collection.docs << PlaceholderPeoplePage.new(site, @collection, name)
+          end
         end
       end
 

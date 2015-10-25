@@ -29,9 +29,23 @@ class Smug
     end
   end
 
+  def fetch_album_data(albumID)
+    # Given an album id, return the SM album
+    puts "Fetching SmugMug album data #{ albumID }"
+    url = api_url("album/#{ albumID }")
+    data = self.class.get(url)
+    if data.has_key? "Response"
+      return data["Response"]["Album"]
+    else
+      puts "Error: Invalid SmugMug Response"
+      return false
+    end
+
+  end
+
   def fetch_album_images(albumID)
     # Given an album id, return the SM objects in that album
-    puts "Fetching SmugMug album #{ albumID }"
+    puts "Fetching SmugMug album images #{ albumID }"
     url = api_url("album/#{ albumID }!images")
     data = self.class.get(url)
     if data.has_key? "Response"
@@ -52,24 +66,33 @@ class Smug
     return data["Response"][sizeClass]
   end
 
-  def fetch_show_photos(albumID)
-    album = fetch_album_images(albumID)
-    if album
+  def fetch_album(albumID)
+    album_data = fetch_album_data(albumID)
+    album_images = fetch_album_images(albumID)
+
+    if album_data and album_images
       # Create and array of image IDs and fetch their custom sizes
       imageList = Array.new
-      album.each { |image| imageList.push image["ImageKey"] }
-      imageURLs = fetch_image_urls(imageList, "sizecustom", "ImageSizeCustom", "height=1000&width=1000")
+      album_images.each { |image| imageList.push image["ImageKey"] }
+      largeImageURLs = fetch_image_urls(imageList, "sizecustom", "ImageSizeCustom", "height=1000&width=1000")
+      thumbImageURLs = fetch_image_urls(imageList, "sizecustom", "ImageSizeCustom", "height=300&width=300")
 
-      # Collect additional attributes into album object
-      album.collect do |image|
+      # Patch additional attributes into album object
+      album_images.collect do |image|
         image["NTHP_Parsed"] = true
-        image["LargeImage"] = imageURLs.shift
+        image["LargeImage"] = largeImageURLs.shift
+        image["ThumbImage"] = thumbImageURLs.shift
         image
       end
+
+      # Patch images into album_data
+      album_data["Images"] = album_images
     end
+
+    return album_data
   end
 
-  def get_show_photos(albumID)
+  def get_show_photos(albumID, site)
     fn = "#{ cache_dir }/#{ albumID }.json"
     album = nil
 
@@ -88,14 +111,17 @@ class Smug
         album = JSON.load(cache_file)
       end
 
-    else
+    elsif not site.config['skip_smugmug']
       # No cache, do properly
-      album = fetch_show_photos(albumID)
+      album = fetch_album(albumID)
 
       Dir.mkdir(cache_dir) unless File.directory?(cache_dir)
       File.open(fn, "w") do |cache_file|
         JSON.dump(album, cache_file)
       end
+    else
+      puts "Skipping fetch of #{albumID}"
+      album = nil
     end
 
     return album

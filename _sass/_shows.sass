@@ -36,17 +36,40 @@
   @include set-property-to-gutter(padding-top)
   background: $color-black
 
+  overflow: hidden
+
 // .show-photos-outer
 
-.show-photos
-  @include grid-row
-  padding-bottom: 0
-  @include set-property-to-gutter(margin-top)
-  @include set-property-to-gutter(margin-bottom)
-  .show-photo-single
-    @include grid-x-col(4)
+@mixin gallery-outer
+  @include flex-row
+  @include flex-direction(horizontal)
+  @include flex-wrap(wrap)
 
-    @include set-property-to-gutter(margin-bottom)
+@mixin gallery-item
+  @include flex-basis(25%)
+  @include set-property-to-gutter(padding-right)
+  @include set-property-to-gutter(margin-bottom)
+
+.show-photos
+  @include gallery-outer
+
+  @include set-property-to-gutter(padding-top)
+
+  padding-bottom: 0
+  margin-bottom: 0
+
+  // Show-y hide-y
+
+  @include transition(max-height 0.6s ease-out)
+
+  max-height: 21rem
+  overflow: hidden
+
+  &.toggle-show
+    // max-height: 9999px
+
+  .show-photo-single
+    @include gallery-item
 
     // Crop all photos to prevent horrible overflows
     height: 180px
@@ -56,11 +79,81 @@
       width: 100%
       box-shadow: 0px -1px darken($color-black, 20%)
 
+.show-photos-controls-bar
+  @include flex-row
+  @include flex-direction(horizontal)
+
+  margin-bottom: 0
+
+  @include set-property-to-gutter(padding-right)
+
+  .gallery-control, .smugmug-link
+    a
+      // Full size anchor, is the inner container
+      display: block
+      padding: $baseline / 3
+
+      &:hover
+        text-decoration: none
+
+
+  .gallery-control
+    @include flex-basis(75%)
+    background: darken($color-black, 4%)
+
+    &:hover
+      background: darken($color-nnt-purple, 10%)
+
+    a
+      text-align: center
+      color: $color-text-white
+
+    i
+      // Padding between icons and text
+      padding: 0 16px
+
+    .hide-label
+      // Initial state of this until jQuery fiddles with it
+      display: none
+
+  .smugmug-link
+    $color-smugmug: #5B8800
+
+    @include flex-basis(25%)
+    overflow: hidden
+
+    background: darken($color-smugmug, 22%)
+
+    &:hover
+      background: darken($color-smugmug, 15%)
+
+    a
+      // Full size anchor, is the inner container
+      margin-bottom: 0
+      overflow: hidden
+      position: relative // For absolute use in .smugmug-link-logo
+
+    .smugmug-link-logo
+      position: absolute
+      top: 3px
+      left: 2px
+      img
+        // position: relative
+        // top: 4px
+        opacity: 0.2
+
+    .smugmug-link-text
+      padding-left: 41px
+      padding-top: 3px
+      font-size: 13px
+      color: $color-grey
+      text-align: center
+
 .show-assets-list
   @include list-unformatted
-  @include grid-row
+  @include gallery-outer
   .show-asset-file, .show-asset-image
-    @include grid-x-col(4)
+    @include gallery-item
   .show-asset-file
     background: darken($color-nnt-purple, 20%)
     position: relative

@@ -30,7 +30,7 @@ module Jekyll
         # Fetch SmugMug album data
         if show.data.has_key? "smugmug"
           smug = Smug.new
-          show.data["smugmug_album"] = smug.get_show_photos(show.data["smugmug"])
+          show.data["smugmug_album"] = smug.get_show_photos(show.data["smugmug"], site)
         end
 
         # Generate the legacy path for 301 redirect re. #142 Make semantic and pretty urls

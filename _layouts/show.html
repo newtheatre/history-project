@@ -117,17 +117,46 @@ layout: default
   {% if show.smugmug_album %}
 
   <div class="show-photos-outer">
+
     <section class="show-photos show-photos-smug">
-      {% for image in show.smugmug_album %}
+      {% for image in show.smugmug_album.Images %}
       <div class="show-photo-single debug-container">
         <a class="fancybox" rel="photos" href="{{ image.LargeImage.Url }}" title="{{ image.Title }}">
-          <img src="{{ image.ThumbnailUrl }}" alt="Show production shot" title="{{ image.Title }}" />
+          <img src="{{ image.ThumbImage.Url }}" alt="Show production shot" title="{{ image.Title }}" />
           <div class="debug-abs-bottom-left" data-debug-toggle title="Photo type">{{ image.ImageKey }}</div>
           <div class="debug-abs-top-left" data-debug-toggle title="Photo image">{{ image.FileName }}</div>
         </a>
       </div>
       {% endfor %}
     </section>
+
+    <div class="show-photos-controls-bar">
+      <div class="gallery-control" data-show-photos-toggle>
+        <a href="{{ show.smugmug_album.WebUri }}" title="Show all photos">
+          <div class="show-label" data-show-label>
+            <i class="ion-chevron-down"></i>
+            Show all photos
+            <i class="ion-chevron-down"></i>
+          </div>
+          <div class="hide-label" data-hide-label>
+            <i class="ion-chevron-up"></i>
+            Hide photos
+            <i class="ion-chevron-up"></i>
+          </div>
+        </a>
+      </div>
+      <div class="smugmug-link">
+        <a href="{{ show.smugmug_album.WebUri }}">
+          <div class="smugmug-link-logo">
+            <img src="/images/smugmug-white-64.png" alt="SmugMug logo">
+          </div>
+          <div class="smugmug-link-text">
+            View album on SmugMug
+          </div>
+        </a>
+      </div>
+    </div>
+
   </div>
 
   {% elsif show.photos == null %}
