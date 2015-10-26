@@ -153,12 +153,18 @@ $fancybox-control-opacity: 0.2;
   left: 0;
   opacity: $fancybox-control-opacity;
   background-position: 0 -36px;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .fancybox-next span {
   right: 0;
   opacity: $fancybox-control-opacity;
   background-position: 0 -72px;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .fancybox-nav:hover span {
