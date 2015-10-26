@@ -12,11 +12,14 @@ install:
   - bundle install --jobs=3 --retry=3 --deployment --path=${BUNDLE_PATH:-vendor/bundle}
   - npm install
   - bower install
+before_script:
+ - _bin/prep.sh
 script:
- - _bin/build.sh
+ - bundle exec jekyll build
+ - coffee _coffee/search_index_generator.coffee
  - bundle exec htmlproof _site --file-ignore /lib/
  - jsonlint -q _site/feeds/search.json
-after_script:
+after_success:
  - _bin/deploy.sh
 branches:
   only:
