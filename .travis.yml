@@ -14,7 +14,8 @@ install:
   - bower install
 script:
  - _bin/build.sh
- - _bin/test.sh
+ - bundle exec htmlproof _site --file-ignore /lib/
+ - jsonlint -q _site/feeds/search.json
 after_script:
  - _bin/deploy.sh
 branches:

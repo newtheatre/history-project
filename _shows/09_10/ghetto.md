@@ -59,6 +59,8 @@ assets:
   - type: poster
     image: ghetto_2009-10.jpg
 
+smugmug: W38sb3
+
 published: true
 ---
 
