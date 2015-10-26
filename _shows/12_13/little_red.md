@@ -30,6 +30,8 @@ crew:
     name: Eve Wersocki-Morris
   - role: Producer
     name: Becca Clee
+  - role: Lighting
+    name: Will Pimblett
 
 assets:
   - type: poster

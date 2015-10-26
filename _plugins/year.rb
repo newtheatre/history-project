@@ -18,6 +18,9 @@ module Jekyll
         year_slug = year.basename_without_ext
         (years_by_decade[year.data["decade"]] ||= []) << year
 
+        # Title prettyness replacement
+        year.data["title"] = year.data["title"].sub("-","&ndash;")
+
         year.data["committee"] = site.data["committees_by_year"][year_slug]
         year.data["next"] = sorted_years[index + 1]
         year.data["previous"] = sorted_years[index - 1]

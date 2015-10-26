@@ -38,6 +38,8 @@ crew:
     name: Alex Mawby
   - role: Producer
     name: Laura Gallop
+  - role: Video Technician
+    name: Will Pimblett
 
 assets:
   - type: poster
