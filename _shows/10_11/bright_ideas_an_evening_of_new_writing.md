@@ -1,7 +1,7 @@
 ---
 title: "Bright Ideas - An Evening of New Writing"
-playwright: 
-season: In House
+playwright:
+season: Fundraiser
 season_sort: 275
 period: Spring
 venue:
