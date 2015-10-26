@@ -43,6 +43,20 @@ def fill_people_reverse_index(item, people_list, index_name, site)
   end
 end
 
+def parse_person_list(pl, people_by_filename)
+  """Add additional data to a person_list"""
+  for pli in pl
+    if pli.has_key?("name")
+      filename = make_hp_path(pli["name"])
+      if people_by_filename.has_key?(filename)
+        pli["person_record"] = people_by_filename[filename]
+      end
+    end
+  end
+
+  return pl
+end
+
 def make_hp_path(title)
   # Downcase, remove specials, space->underscore
   title.downcase.gsub(/[^0-9a-z \-]/i, '').gsub(' ','_')

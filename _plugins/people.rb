@@ -59,6 +59,7 @@ module Jekyll
     def generate(site)
       puts "Processing people..."
       people = site.collections["people"].docs
+      site.data["people_by_filename"] = Hash.new
 
       for person in people
 
@@ -71,9 +72,21 @@ module Jekyll
         # Person additional data
         person.data["path_name"] = make_hp_path(person.data["title"])
 
+        # People by filename
+        site.data["people_by_filename"][person.basename_without_ext] = person
+
       end
 
     end
   end
 end
 
+# Utility functions
+
+def generate_people_by_filename(people)
+  people_by_filename = Hash.new
+  for person in people
+    people_by_filename[person.basename_without_ext] = person
+  end
+  return people_by_filename
+end

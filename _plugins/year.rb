@@ -52,3 +52,12 @@ module Jekyll
   end
 end
 
+# Utility functions
+
+def generate_years_by_slug(years)
+  years_by_slug = Hash.new
+  for year in years
+    years_by_slug[year.data["year"]] = year
+  end
+  return years_by_slug
+end

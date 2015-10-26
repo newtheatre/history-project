@@ -24,6 +24,8 @@ crew:
     name: Elin Stenner-Matthews
   - role: Technical Director
     name: Roger Smissen
+  - role: Video
+    name: Will Pimblett
   - role: Technical Operator
     name: Tessa Denney
 
