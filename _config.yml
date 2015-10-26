@@ -23,7 +23,15 @@ gems:
 - jekyll-coffeescript
 - jekyll-jsminify
 
-exclude: [vendor, node_modules]
+exclude:
+- vendor
+- node_modules
+- README.md
+- CONTRIBUTING.md
+- Gemfile
+- Gemfile.lock
+- bower.json
+- package.json
 
 # skip_virtual_people: true
 # skip_smugmug: true
