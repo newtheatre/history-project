@@ -48,9 +48,16 @@ $show-photos-bg: $color-black
   @include flex-wrap(wrap)
 
 @mixin gallery-item
-  @include flex-basis(25%)
+
   @include set-property-to-gutter(padding-right)
   @include set-property-to-gutter(margin-bottom)
+
+  // Mobile, two per line
+  @include flex-basis(50%)
+
+  @include respond-up(tab-port)
+    // Desktop 4 per line
+    @include flex-basis(25%)
 
 .show-photos
   @include gallery-outer
@@ -74,12 +81,30 @@ $show-photos-bg: $color-black
     @include gallery-item
 
     // Crop all photos to prevent horrible overflows
-    height: 180px
+    max-height: 180px
     overflow: hidden
 
     img
       width: 100%
       box-shadow: 0px -1px darken($color-black, 20%)
+
+    @include respond-down(mob-land)
+      // Only show 4 photos on mobile
+      // VERY HACKY, the remaining images are still loaded
+      // We should stop this with JS
+      display: none
+      &:nth-child(1)
+        display: block
+      &:nth-child(2)
+        display: block
+      &:nth-child(3)
+        display: block
+      &:nth-child(4)
+        display: block
+
+      &:nth-child(2n-1)
+        // Add padding between images
+        padding-right: 6px
 
 .show-photos-controls-bar
   @include flex-row
@@ -119,10 +144,14 @@ $show-photos-bg: $color-black
       // Initial state of this until jQuery fiddles with it
       display: none
 
+    @include respond-down(mob-land)
+      display: none
+
   .smugmug-link
     $color-smugmug: #5B8800
 
     @include flex-basis(25%)
+    @include flex(1)
     overflow: hidden
 
     background: darken($color-smugmug, 22%)
@@ -160,6 +189,9 @@ $show-photos-bg: $color-black
     height: $fade-out-v-size
 
     background: rgba($show-photos-bg, 0.8)
+
+    @include respond-down(mob-land)
+      display: none
 
 .show-assets-list
   @include list-unformatted
