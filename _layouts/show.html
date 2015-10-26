@@ -122,9 +122,13 @@ layout: default
       {% for image in show.smugmug_album.Images %}
       <div class="show-photo-single debug-container">
         <a class="fancybox" rel="photos" href="{{ image.LargeImage.Url }}" title="{{ image.Title }}">
-          <img src="{{ image.ThumbImage.Url }}" alt="Show production shot" title="{{ image.Title }}" />
+          <img class="lazy-image" src="/images/image-preload.png" data-lazy-src="{{ image.ThumbImage.Url }}" data-image-count={{ image.ImageCount }} alt="Show production shot" title="{{ image.Title }}" />
+          <noscript>
+            <img src="{{ image.ThumbImage.Url }}" alt="Show production shot" title="{{ image.Title }}" />
+          </noscript>
           <div class="debug-abs-bottom-left" data-debug-toggle title="Photo type">{{ image.ImageKey }}</div>
           <div class="debug-abs-top-left" data-debug-toggle title="Photo image">{{ image.FileName }}</div>
+
         </a>
       </div>
       {% endfor %}
@@ -135,14 +139,14 @@ layout: default
       <div class="gallery-control" data-show-photos-toggle>
         <a href="{{ show.smugmug_album.WebUri }}" title="Show all photos">
           <div class="show-label" data-show-label>
-            <i class="ion-chevron-down"></i>
-            Show production shots
-            <i class="ion-chevron-down"></i>
+            <i class="ion-ios-arrow-down"></i>
+            {{ show.smugmug_album.Images[-1].ImageCount | plus:1 }} production shots
+            <i class="ion-ios-arrow-down"></i>
           </div>
           <div class="hide-label" data-hide-label>
-            <i class="ion-chevron-up"></i>
+            <i class="ion-ios-arrow-up"></i>
             Hide production shots
-            <i class="ion-chevron-up"></i>
+            <i class="ion-ios-arrow-up"></i>
           </div>
         </a>
       </div>

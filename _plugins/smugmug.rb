@@ -78,10 +78,13 @@ class Smug
       thumbImageURLs = fetch_image_urls(imageList, "sizecustom", "ImageSizeCustom", "height=300&width=300")
 
       # Patch additional attributes into album object
+      i = 0
       album_images.collect do |image|
         image["NTHP_Parsed"] = true
         image["LargeImage"] = largeImageURLs.shift
         image["ThumbImage"] = thumbImageURLs.shift
+        image["ImageCount"] = i
+        i+=1
         image
       end
 

@@ -1,3 +1,9 @@
+# Stuff for show pages photo gallery
+
+mobile_max_images = 4
+desktop_max_images = 12
+
+# Show / hide toggle
 $("[data-show-photos-toggle]").click (e) ->
   e.preventDefault()
   gallery = $('.show-photos')
@@ -17,3 +23,17 @@ $("[data-show-photos-toggle]").click (e) ->
     hide_label.show()
     show_label.hide()
 
+    # Load all images
+    $('.lazy-image').each ->
+      $(this).attr("src", $(this).data("lazy-src"))
+
+# Delay image loading
+$(window).load ->
+  window.isMobile = $('.gallery-control').css('display') == "none"
+
+  $('.lazy-image').each ->
+    # Show (4) only on mobile and (12) on desktop, definitions at top of file
+    if window.isMobile and $(this).data('image-count') < mobile_max_images
+      $(this).attr("src", $(this).data("lazy-src"))
+    if not window.isMobile and $(this).data('image-count') < desktop_max_images
+      $(this).attr("src", $(this).data("lazy-src"))
