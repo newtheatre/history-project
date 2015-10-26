@@ -37,3 +37,9 @@ $(window).load ->
       $(this).attr("src", $(this).data("lazy-src"))
     if not window.isMobile and $(this).data('image-count') < desktop_max_images
       $(this).attr("src", $(this).data("lazy-src"))
+
+    $(this).load ->
+      # Centre photos vertically in their containers
+      container = $(this).parent().parent()
+      hAdjust = (($(this).height() - container.height()) / 2) * (2/3)
+      $(this).css("top", -hAdjust)
