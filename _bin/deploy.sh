@@ -8,10 +8,11 @@ if [[ $TRAVIS_PULL_REQUEST = "false" ]]
   # since repository was cloned in write mode with token auth - we can push there
   cd _site
 
+  git init
+
   git config user.email "webmaster@newtheatre.org.uk"
   git config user.name "ntbot"
 
-  git init
   git remote add github https://${GH_TOKEN}@github.com/newtheatre/history-project-gh-pages.git
 
   git add -A .
