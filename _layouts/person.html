@@ -63,15 +63,19 @@ layout: default
         {% if record.item.poster %}
           {% image show_poster_thumb_sr for_shows/{{ record.item.poster.image }} %}
         {% else %}
-          {% image show_poster_thumb_sr missing_poster.png %}
+          <!-- Missing Poster -->
         {% endif %}
         </a>
       </div>
 
       <h3 class="person-show-title">
         {{ record.item.title }}
-        <span class="person-show-year">{{ record.item.year_hyphenated }}</span>
       </h3>
+
+      <div class="person-show-meta">
+        <span class="person-show-season season-{{ record.item.season | downcase | replace:" ","-" }}" title="{{ record.item.season }}"></span>
+        <span class="person-show-year">{{ record.item.year_page.title }}</span>
+      </div>
 
       <ul class="person-show-roles">
       {% for role in record.roles %}

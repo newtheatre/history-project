@@ -14,3 +14,4 @@
 # {% include_root _coffee/posterwall.coffee %}
 {% include_root _coffee/show-photos.coffee %}
 {% include_root _coffee/person-list.coffee %}
+{% include_root _coffee/people.coffee %}

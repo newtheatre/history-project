@@ -28,6 +28,10 @@ crew:
     name: Shane Chard
   - role: Director
     name: Amy McWalters
+  - role: Technical Director
+    name: Unknown
+  - role: Lighting
+    name: Will Pimblett
 
 assets:
   - type: poster
