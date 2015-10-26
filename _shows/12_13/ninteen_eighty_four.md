@@ -49,6 +49,8 @@ crew:
 assets:
   - type: poster
     image: 1984_poster.jpg
+
+smugmug: ZMVCKk
 ---
 
 War is peace. Freedom is Slavery. Ignorance is strength. Orwell's classic novel follows Winston and Julia as they face the perils of rebelling against Big Brother's totalitarian regime. Set in an industrial scaffolding amphitheatre, controlled by the eight-strong cast, a relationship is brutally ripped apart, a man tortured and reality becomes unknowable.
