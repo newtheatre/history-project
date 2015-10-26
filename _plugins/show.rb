@@ -2,16 +2,17 @@ module Jekyll
   class ShowDataGenerator < Jekyll::Generator
     priority :highest
 
+    # Main generation method
     def generate(site)
       puts "Processing shows..."
       all_shows = site.collections["shows"].docs
-      years = site.collections["years"].docs
+      @years = site.collections["years"].docs
+      @people = site.collections["people"].docs
 
       # This is here as it's needed here, I expect year.rb to be run after.
-      years_by_slug = Hash.new
-      for year in years
-        years_by_slug[year.data["year"]] = year
-      end
+
+      years_by_slug = generate_years_by_slug(@years)
+      people_by_filename = generate_people_by_filename(@people)
 
       # Compute extra show data attributes
       shows_by_year = Hash.new
@@ -26,6 +27,14 @@ module Jekyll
 
         # To put content in meta description
         show.data["excerpt"] = show.content
+
+        # Add extra data to cast / crew lists
+        if show.data.has_key?("cast") and show.data["cast"]
+          show.data["cast"] = parse_person_list(show.data["cast"], people_by_filename)
+        end
+        if show.data.has_key?("crew") and show.data["crew"]
+          show.data["crew"] = parse_person_list(show.data["crew"], people_by_filename)
+        end
 
         # Fetch SmugMug album data
         if show.data.has_key? "smugmug"

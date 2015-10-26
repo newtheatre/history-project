@@ -21,9 +21,11 @@ gems:
 - jekyll-sitemap
 - jekyll-redirect-from
 - jekyll-coffeescript
-# - jekyll-jsminify
+- jekyll-jsminify
 
 exclude: [vendor, node_modules]
+
+skip_virtual_people: true
 
 collections:
   shows:
@@ -113,6 +115,10 @@ image:
       attr:
         alt: Person headshot
       width: 350
+    person_headshot_micro:
+      attr:
+        alt: Person headshot
+      width: 48
 
 sass:
   style: :compressed

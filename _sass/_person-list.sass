@@ -2,12 +2,20 @@
 
 .person-list
   @include list-unformatted
+  $person-list-baseline: $baseline * 0.75
+
   .person-single
     margin-bottom: $baseline / 2
     padding-bottom: $baseline / 2
-    border-bottom: 1px solid $color-grey
+    border-bottom: 1px solid rgba($color-grey, 0.5)
 
     position: relative
+
+    // Ensure container is exactly two lines high, at least
+    display: block
+    min-height: $person-list-baseline * 2 + $baseline / 2
+    overflow: hidden
+
     i
       position: absolute
       top: 1px
@@ -24,12 +32,40 @@
       &.ion-paintbucket
         top: -5px
 
+  .person-headshot-container
+    height: $person-list-baseline * 2
+    width: $person-list-baseline * 2
+    float: left
+    margin-right: 10px
+    overflow: hidden
+
+  .person-headshot
+    // Allow relative positioning
+    position: relative
+    // Smooth JS adjustments to top
+    @include transition(top 1s ease-out)
+
+    width: 100%
+    background: $color-nnt-purple
+    opacity: 0.1
+
+  .person-headshot-with-record
+    background: $color-nnt-orange
+    opacity: 0.2
+
+  .person-headshot-actual
+    opacity: 0.8
+
+  .person-role, .person-name
+    line-height: $person-list-baseline
+
   $person-role-weight: 100
   .person-role
     font-weight: $person-role-weight
 
   a
     color: $color-text-white
+
     .person-role
       font-weight: $person-role-weight
     .person-name
@@ -40,7 +76,6 @@
       text-decoration: underline
 
   .person-add
-
     a
       opacity: 0.2
       font-size: $base-font-size * 0.7
