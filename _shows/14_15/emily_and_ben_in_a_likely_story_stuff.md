@@ -10,7 +10,7 @@ venue:
 
 assets:
   - type: poster
-    image: emily_and_ben_a_likely_story_stuff_poster.jpg
+    image: ben_emily_stuff.jpg
 ---
 
 For one day only, join Emily Brady (‘a beguiling comic energy’ - Beeston People) and Ben Hollands (‘pure pleasure’ – also Beeston People) in a warm and cosy room for an afternoon of improvised storytelling. With new stories and characters every evening and featuring a live improvised soundtrack, A Likely Story promises to amuse, delight and enchant. Cloakrooms will be provided for your cynicism and ennui.
