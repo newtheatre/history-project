@@ -8,6 +8,10 @@ date_end:
 venue:
   - New Theatre Studio A
 
+cast:
+  - name: Ben Hollands
+  - name: Emily Brady
+
 assets:
   - type: poster
     image: ben_emily_stuff.jpg
