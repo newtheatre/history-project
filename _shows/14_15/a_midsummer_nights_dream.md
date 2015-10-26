@@ -40,17 +40,21 @@ cast:
 crew:
   - role: Director
     note: Professional
+    person: false
     name: Martin Berry
   - role: Assistant Director
     name: Louise Croft
   - role: Designer
     note: Professional
+    person: false
     name: Dorrie Scott
   - role: Lighting Designer
     note: Professional
+    person: false
     name: Richard Statham
   - role: Stage Manager
     note: Professional
+    person: false
     name: Jo James
   - role: Assistant Designer
     name: Morgan Whiting-Fawcett
