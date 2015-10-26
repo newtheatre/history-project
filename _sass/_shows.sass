@@ -31,11 +31,11 @@
   @include block
 
 $show-photos-bg: $color-black
+$show-photos-mob-gutter: 7px
 
 .show-photos-outer, .show-assets-outer
   @include grid-wrap
   margin-bottom: $baseline * 2
-  @include set-property-to-gutter(padding-top)
   background: $show-photos-bg
 
   overflow: hidden
@@ -65,19 +65,21 @@ $show-photos-bg: $color-black
 .show-photos
   @include gallery-outer
 
-  @include set-property-to-gutter(padding-top)
+  padding-top: $show-photos-mob-gutter
 
   padding-bottom: 0
   margin-bottom: 0
 
-  // Show-y hide-y
+  @include respond-up(tab-port)
+    max-height: 17rem
+    overflow: hidden
+    padding-top: $baseline
 
+  // Show-y hide-y
   @include transition(max-height 0.3s ease-out)
 
-  max-height: 17rem
-  overflow: hidden
-
   &.toggle-show
+    // We now calculate a max-height on an ad-hoc basis
     // max-height: 9999px
 
   .show-photo-single
@@ -94,9 +96,12 @@ $show-photos-bg: $color-black
       box-shadow: 0px -1px darken($color-black, 20%)
 
     @include respond-down(mob-land)
+      // 2x2 grid
+      max-width: 50%
+      margin-bottom: $show-photos-mob-gutter
+      max-height: 165px
+
       // Only show 4 photos on mobile
-      // VERY HACKY, the remaining images are still loaded
-      // We should stop this with JS
       display: none
       &:nth-child(1)
         display: block
@@ -110,6 +115,11 @@ $show-photos-bg: $color-black
       &:nth-child(2n-1)
         // Add padding between images
         padding-right: 6px
+
+    @include respond-down(mob-port)
+      // Rather limiting, put prevents uglyness
+      max-height: 100px
+
 
 .show-photos-controls-bar
   @include flex-row
@@ -187,7 +197,7 @@ $show-photos-bg: $color-black
       text-align: center
 
   .fade-out-overlay
-    $fade-out-v-size: 4rem
+    $fade-out-v-size: 3rem
     position: absolute
     top: -$fade-out-v-size
     width: 100%
