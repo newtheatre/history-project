@@ -52,8 +52,8 @@ $show-photos-mob-gutter: 7px
   @include set-property-to-gutter(padding-right)
   @include set-property-to-gutter(margin-bottom)
 
-  flex-grow: 1
   flex-shrink: 1
+  flex-grow: 1
 
   // // Mobile, two per line
   // @include flex-basis(50%)
@@ -87,8 +87,16 @@ $show-photos-mob-gutter: 7px
 
     // Crop all photos to prevent horrible overflows
     max-height: 200px
-    max-width: 45%
+    max-width: 75%
     overflow: hidden
+
+    @include respond-up(tab-land)
+      max-width: 45%
+
+
+    &:last-child, &:nth-last-child(2)
+      // Last and penultimate items cannot be wider than a 1/3
+      max-width: 33.333333%
 
     img
       position: relative
@@ -197,7 +205,7 @@ $show-photos-mob-gutter: 7px
       text-align: center
 
   .fade-out-overlay
-    $fade-out-v-size: 3rem
+    $fade-out-v-size: 40px
     position: absolute
     top: -$fade-out-v-size
     width: 100%
