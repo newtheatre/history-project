@@ -35,6 +35,7 @@ crew:
   - role: Director
     name: Martin Berry
     note: Professional
+    person: false
   - role: Assistant to Director
     name: Alice Hildreth
   - role: Assistant to Producer
@@ -42,6 +43,7 @@ crew:
   - role: Set Designer
     name: Dorrie Scott
     note: Professional
+    person: false
   - role: Assistant to Set Designer
     name: Hannah Kettle
   - role: Assistant to Publicity Designer
