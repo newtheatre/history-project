@@ -91,7 +91,10 @@ image:
         class: search-result-poster-thumb
         alt: Show poster
       width: 140
-
+    person_show_poster:
+      attr:
+        alt: Show poster
+      width: 200
     show_poster:
       attr:
         class: show-poster
