@@ -12,7 +12,7 @@ if [[ $TRAVIS_PULL_REQUEST = "false" ]]
   git config user.name "ntbot"
 
   git init
-  git remote add github https://${GH_TOKEN}@github.com/newtheatre/history-project-gh-pages.git gh-pages
+  git remote add github https://${GH_TOKEN}@github.com/newtheatre/history-project-gh-pages.git
 
   git add -A .
   git commit -a -m "Travis Build $TRAVIS_BUILD_NUMBER"
