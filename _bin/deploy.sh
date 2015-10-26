@@ -6,7 +6,7 @@ if [ $TRAVIS_PULL_REQUEST = "false" ]
   # cleanup
   rm -rf gh-pages
 
-  git clone -b gh-pages https://${GH_TOKEN}@github.com/newtheatre/history-project.git gh-pages
+  git clone -b gh-pages https://${GH_TOKEN}@github.com/newtheatre/history-project-gh-pages.git gh-pages
 
   if [ $RESET = "true" ]
   then
