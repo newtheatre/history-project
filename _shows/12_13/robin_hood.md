@@ -11,7 +11,7 @@ venue:
 
 cast:
   - role: Robin Hood
-    name: Dan O'Connor
+    name: Daniel O'Connor
   - role: Maid Marion
     name: Kat Tye
   - role: Sheriff of NOttingham
