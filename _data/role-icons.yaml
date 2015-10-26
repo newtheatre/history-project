@@ -37,7 +37,9 @@
 - role: Make Up Artist
   icon: ion-paintbrush
 - role: Costume Designer
-  icon: fa fa-scissors
+  icon: ion-tshirt
+- role: Costume Design
+  icon: ion-tshirt
 - role: Publicity Designer
   icon: fa fa-picture-o
 - role: Publicity Manager
@@ -54,6 +56,10 @@
   icon: fa fa-camera-retro
 - role: Set Construction
   icon: ion-hammer
+- role: Choreography
+  icon: fa fa-street-view
+- role: Choreographer
+  icon: fa fa-street-view
 
 - role: President
   icon: fa fa-star
