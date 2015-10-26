@@ -52,12 +52,15 @@ $show-photos-bg: $color-black
   @include set-property-to-gutter(padding-right)
   @include set-property-to-gutter(margin-bottom)
 
-  // Mobile, two per line
-  @include flex-basis(50%)
+  flex-grow: 1
+  flex-shrink: 1
 
-  @include respond-up(tab-port)
-    // Desktop 4 per line
-    @include flex-basis(25%)
+  // // Mobile, two per line
+  // @include flex-basis(50%)
+
+  // @include respond-up(tab-port)
+  //   // Desktop 4 per line
+  //   @include flex-basis(25%)
 
 .show-photos
   @include gallery-outer
@@ -81,10 +84,12 @@ $show-photos-bg: $color-black
     @include gallery-item
 
     // Crop all photos to prevent horrible overflows
-    max-height: 180px
+    max-height: 200px
+    max-width: 45%
     overflow: hidden
 
     img
+      position: relative
       width: 100%
       box-shadow: 0px -1px darken($color-black, 20%)
 
@@ -198,6 +203,7 @@ $show-photos-bg: $color-black
   @include gallery-outer
   .show-asset-file, .show-asset-image
     @include gallery-item
+    max-width: 25%
   .show-asset-file
     background: darken($color-nnt-purple, 20%)
     position: relative
