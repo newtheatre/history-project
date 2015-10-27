@@ -42,6 +42,8 @@ crew:
     name: Emily Davenport
   - role: Set Designer
     name: Emily Davenport
+  - role: Assistant Set Designer
+    name: James Bentley
   - role: Stage Manager
     name: Kathe Whitaker
   - role: Stage Manager

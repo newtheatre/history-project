@@ -9,6 +9,34 @@ venue:
 date_start: 2012-05-16
 date_end: 2012-05-19
 
+cast:
+  - role: Hector
+    name: Tom Walsh
+  - role: Irwin
+    name: Sam Warren
+  - role: Headmaster
+    name: Sam Greenwood
+  - role: Mrs. Lintott
+    name: Lucy Bromilow
+  - role: Dakin
+    name: Nick Slater
+  - role: Posner
+    name: Jacob Hayes
+  - role: Scripps
+    name: Jonny Fitzpatrick
+  - role: Timms
+    name: Will Hedges
+  - role: Crowther
+    name: Tom Dineen
+  - role: Rudge
+    name: Connor Johnson
+  - role: Aktar
+    name: John Bell
+  - role: Lockwood
+    name: Eoin Buckley
+  - role: Director/Fiona
+    name: Alix Hattenstone
+
 crew:
   - role: Director
     name: Bridie Rollins
