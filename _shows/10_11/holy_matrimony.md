@@ -1,6 +1,6 @@
 ---
 title: "Holy Matrimony!"
-playwright: Devised
+devised: true
 season: External
 season_sort: 278
 period: Spring

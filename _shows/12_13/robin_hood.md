@@ -1,6 +1,6 @@
 ---
 title: "Robin Hood"
-playwright: Devised
+devised: true
 period: Spring
 season: External
 season_sort: 300
