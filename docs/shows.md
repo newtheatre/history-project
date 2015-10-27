@@ -12,7 +12,8 @@ The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the 
 | Attribute | Job | Description |
 |:-|:-|:-|
 | `title` | Show title | Displayed at the top of the show page and on various other pages. |
-| `playwright` | Full name of the playwright |  |
+| `playwright` | Full name of the playwright | Omit if using `devised` |
+| `devised` | Used if play was devised | Either `true` for generic output or a descriptor. Example descriptor: `"Cast and Crew"` will output "Devised by Cast and Crew". Omit if using `playwright`. |
 | `student_written` | Show written by an NT member | Set to `true`, `false` or line missing are equivalent. |
 | `season` | Season show belongs to | Choices: Autumn, Spring, Edinbugh |
 | `season_sort` | Order which this show comes in the entire year in a multiple of 10.<br />Roughly: Autumn should start at 30, Spring 200 and Edinburgh 400 | Shows at 30, 40, 50 etc |
