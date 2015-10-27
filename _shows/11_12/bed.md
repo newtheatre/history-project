@@ -32,6 +32,8 @@ crew:
     name: James McAndrew
   - role: Producer
     name: Nick Stevenson
+  - role: Original Score
+    name: Chris Walters
   - role: Set Designer
     name: Grace Lowe
   - role: Set Designer

@@ -10,6 +10,16 @@ venue:
 date_start: 2012-05-02
 date_end: 2012-05-05
 
+cast:
+  - name: Rob Leventhall
+  - name: Ashiana Pradhan
+  - name: Matt Miller
+  - name: Tom Sheldon
+  - name: Jake Leonard
+  - name: Becca Clee
+  - name: Jenny Kohnhorst
+  - name: Dani Jeyes
+
 crew:
   - role: Director
     name: Adam H. Wells

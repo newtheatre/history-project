@@ -9,6 +9,16 @@ venue:
 date_start: 2012-05-09
 date_end: 2012-05-12
 
+cast:
+  - role: Richard Hannay
+    name: Topher Collins
+  - role: Annabella/Magerat/Pamela
+    name: Zoe Moulton
+  - role: Clown
+    name: Ben Hollands
+  - role: Clown
+    name: Nick Jeffreys
+
 crew:
   - role: Director
     name: Andy Routledge
