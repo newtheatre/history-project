@@ -1,6 +1,6 @@
 ---
 title: Crossing the Rubicon
-playwright: Cal Lewis
+devised: Cal Lewis
 student_written: true
 season: In House
 season_sort: 200
