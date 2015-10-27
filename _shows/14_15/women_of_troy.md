@@ -1,6 +1,7 @@
 ---
 title: "Women of Troy"
-playwright: "Euripides trans. by Don Taylor"
+playwright: "Euripides"
+translator: Don Taylor
 period: Spring
 season: "In House"
 season_sort: 330
