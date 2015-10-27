@@ -41,6 +41,12 @@ crew:
     name: Aubrey Turner
   - role: Lighting Designer
     name: Will Pimblett
+  - role: Stage Manager
+    name: Alice Hildreth
+  - role: Stage Manager
+    name: Sioned Walker
+  - role: Stage Manager
+    name: Lara Tysseling
 
 assets:
   - type: poster

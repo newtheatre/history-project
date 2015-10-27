@@ -45,8 +45,12 @@ cast:
 crew:
   - role: Director
     name: Jake Leonard
+  - role: Producer
+    name: Jenny Kohnhorst
   - role: Musical Director
     name: Greg Link
+  - role: Original Score
+    name: Euan Ritchie
   - role: Technical Director
     name: Emma-Louise Amanshia
   - role: Lighting Designer
@@ -55,6 +59,48 @@ crew:
     name: Will Pimblett
   - role: Technical Operator
     name: Wawa Hunja
+  - role: Technical Operator
+    name: Jess Courtney
+  - role: Technical Operator
+    name: Mia Obertelli
+  - role: Technical Operator
+    name: Rosie Cave
+  - role: Technical Operator
+    name: Mitchell Masterton
+  - role: Technical Operator
+    name: Alexandra Day
+  - role: Technical Operator
+    name: Claire Lennox
+  - role: Stage Manager
+    name: Dani Jeyes
+  - role: Stage Manager
+    name: Peter Bradley
+  - role: Stage Manager
+    name: Rory O'Shea
+  - role: Stage Manager
+    name: Page Phillips Harrington
+  - role: Stage Manager
+    name: Bethan Maynard
+  - role: Set Designer
+    name: Alex Jamieson
+  - role: Set Designer
+    name: Matt Wilks
+  - role: Make-up and Masks
+    name: Hugh Purves
+  - role: Make-up and Masks
+    name: Emily Heaton
+  - role: Costumes
+    name: Abby Robinson
+  - role: Staging Coordinator
+    name: Chelsea Jayne Wright
+  - role: Publicity Manager
+    name: Rory O'Shea
+  - role: Publicity Manager
+    name: Page Phillips Harrington
+  - role: Poster Designer
+    name: Nick Barker
+  - role: Photography
+    name: Nick Barker
 
 assets:
   - type: script

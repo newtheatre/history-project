@@ -25,6 +25,12 @@ cast:
 crew:
   - role: Director
     name: Jonathon Newsome
+  - role: Producer
+    name: Jess Courtney
+  - role: Stage Manager
+    name: Davina Shevonne Sinnatamby
+  - role: Costumes and Make-up
+    name: Emily Heaton
 
 assets:
   - type: poster
@@ -32,3 +38,4 @@ assets:
 
 smugmug: ZHGQTg
 ---
+Are we a generation that has lost the faculty of faith; societal refugees, struggling to muster belief in ourselves and the world around us? Eight presents six compelling monologues exploring what happens growing up in a world where everything has become acceptable.
