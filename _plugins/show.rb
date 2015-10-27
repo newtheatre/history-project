@@ -2,6 +2,21 @@ module Jekyll
   class ShowDataGenerator < Jekyll::Generator
     priority :highest
 
+    def get_playwright(show)
+      if show.data.has_key?("playwright")
+        return ["playwright", show.data["playwright"], "by #{ show.data["playwright"] }"]
+      elsif show.data.has_key?("devised")
+        if show.data["devised"] == true
+          return ["devised", "", "Devised"]
+        else
+          return ["devised", show.data["devised"], "Devised by #{ show.data["devised"] }"]
+        end
+      else
+        return ["unknown", nil, "Playwright Unknown"]
+      end
+      # Return playwright_type, playwright, playwright_formatted
+    end
+
     # Main generation method
     def generate(site)
       puts "Processing shows..."
@@ -19,6 +34,10 @@ module Jekyll
       for show, index in all_shows.each_with_index do
         path_split = show.path.split("/")
         year = path_split[path_split.length-2]
+
+        # Set meta attributes
+        show.data["playwright_type"], show.data["playwright"],
+          show.data["playwright_formatted"] = get_playwright(show)
 
         # Set year attributes
         show.data["year"] = year
