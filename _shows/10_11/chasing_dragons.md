@@ -19,7 +19,7 @@ cast:
   - role: Witch
     name: Laura Thomson
   - role: Hermit/Bridgekeeper
-    name: james McAndrew
+    name: James McAndrew
 
 crew:
   - role: Director
