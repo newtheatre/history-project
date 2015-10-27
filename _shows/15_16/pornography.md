@@ -78,13 +78,17 @@ crew:
     name: Emily Sterling
   - role: Poster Designer
     name: Max Miller
-
+  - role: Photography
+    name: Nathan Penney
 
 assets:
   - type: poster
     image: pornography_poster_1.jpg
   - type: poster
     image: pornography_poster_2.jpg
+  - type: poster
+    image: pornography_poster_3.jpg
+
 ---
 
 Pornography is Simon Stephens’ response to the events of the 7/7 bombings and the week leading up to this iconic tragedy. The week of the bombings saw public emotion nosedive from jubilation and hope with the Live 8 concert and successful Olympics bid, to terror and heartbreak on the 7th July. The dark truths of the 21st century are attacked head on with questions over rape, racism, incest, addiction and depression amongst others. In Pornography, there’s no ducking the challenge of facing up to the problems on our doorsteps.
