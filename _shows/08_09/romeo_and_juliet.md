@@ -9,7 +9,7 @@ venue:
 date_start: 2009-06-10
 date_end: 2009-06-13
 
-smugmug:zHWssh
+smugmug: zHWssh
 
 assets:
   - type: poster
