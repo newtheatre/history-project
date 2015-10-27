@@ -3,7 +3,7 @@ layout: null
 ---
 {% assign first = true %}
 {
-{% for person in site.collections.people.docs %}
+{% for person in site.people %}
     {% unless first %},{% endunless %}
     {{ person.path_name | jsonify }} : {
         "name": {{ person.title | jsonify }},
