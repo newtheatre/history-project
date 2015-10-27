@@ -109,7 +109,6 @@ assets:
   - type: poster
     image: king_lear_poster_2.jpg
 
-smugmug: RCDG5D
 
 ---
 
