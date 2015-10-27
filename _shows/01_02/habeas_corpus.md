@@ -1,5 +1,4 @@
 ---
-published: true
 title: Habeas Corpus
 season: In House
 period: Spring
@@ -9,6 +8,7 @@ venue:
   - New Theatre
 date_start: 2002-03-06
 date_end: 2002-03-09
+
 cast:
   - role: Arthur Wicksteed
     name: Joseph Arkley
@@ -32,6 +32,7 @@ cast:
     name: Cat McCotter
   - role: Mr Purdue
     name: Bush
+
 crew:
   - role: Director
     name: Lynette Shanbury
@@ -45,6 +46,25 @@ crew:
     name: Rob Wicks
   - role: Publicity Designer
     name: Suzy Freake
+
+assets:
+  - type: programme
+    image: habeas_corpus_programme_1.jpg
+    page: 1
+  - type: programme
+    image: habeas_corpus_programme_2.jpg
+    page: 2
+  - type: programme
+    image: habeas_corpus_programme_3.jpg
+    page: 3
+  - type: programme
+    image: habeas_corpus_programme_4.jpg
+    page: 4
+  - type: programme
+    image: habeas_corpus_programme_5.jpg
+    page: 5
+
+published: true
 ---
 
 

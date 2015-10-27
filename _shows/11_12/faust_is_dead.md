@@ -29,9 +29,7 @@ assets:
   - type: poster
     image: faust_is_dead_poster.jpg
 
-photos:
-  - type: photo
-    image: faust_is_dead_photo_1.jpg
+smugmug: gZXJhk
 ---
 
 Elena announces ‘the Death of Man’ live on Letterman’s TV show. Pete can’t cope with the world without the comfort of a screen to frame it. The pair meet and find reality in a twisted world of disturbing social media. Both funny and brutal in equal measure. #isanythingrealanymore?

@@ -25,6 +25,10 @@ crew:
   - role: Producer
     name: Sophie Watson
 
+assets:
+  - type: poster
+    image: cradle_me_2010-11.jpg
+
 published: true
 ---
 

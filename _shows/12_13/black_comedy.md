@@ -32,7 +32,11 @@ crew:
   - role: Producer
     name: Chelsea Jayne Wright
   - role: Set Designer
+    name: Natasha Mortimer
   - role: Stage Manager
+    name: Tom Selves
+  - role: Stage Manager
+    name: Rory O'Shea
   - role: Technical Director
   - role: Lighting Designer
   - role: Make Up Artist
@@ -42,6 +46,8 @@ crew:
 assets:
   - type: poster
     image: black_comedy_poster.jpg
+
+smugmug: QjMHKp
 ---
 
 Black comedy is a farce set entirely in a pitch black flat, as a power cut leaves the audience the only ones not groping in the dark. With soft drinks mixed up with alcohol bottles and priceless antiques left lying around, the power cut quickly leads to chaos. Blind chaos.

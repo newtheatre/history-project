@@ -1,10 +1,30 @@
 ---
 title: "Lust, Liquor, Burn"
+devised: true
 period: Spring
 season: "Fringe"
 season_sort: 320
 date_start: 2015-05-04
 date_end: 2015-05-05
+
+cast:
+  - role: Blue
+    name: Lara Tysseling
+  - role: Penny
+    name: Amelia Gann
+  - role: Marco
+    name: Nick Jeffrey
+  - role: Jerry
+    name: Shannon Smith
+
+crew:
+  - role: Director
+    name: Bridie Rollins
+  - role: Producer
+    name: Dina Elkordy
+  - role: Poster Designer
+    name: Will Berrington
+
 
 assets:
   - type: poster

@@ -41,19 +41,7 @@ crew:
   - role: Photography
     name: Nick Barker
 
-photos:
-  - type: photo
-    image: blackbird_1.jpg
-  - type: photo
-    image: blackbird_2.jpg
-  - type: photo
-    image: blackbird_3.jpg
-  - type: photo
-    image: blackbird_4.jpg
-  - type: photo
-    image: blackbird_5.jpg
-  - type: photo
-    image: blackbird_6.jpg
+smugmug: s4QTx7
 
 assets:
   - type: poster

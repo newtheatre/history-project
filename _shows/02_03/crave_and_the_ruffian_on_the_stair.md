@@ -6,23 +6,30 @@ season_sort: 1
 period: Spring
 venue:
   - New Theatre
-date_start: 2009-06-04
-date_end: 2009-06-07
+date_start: 2003-06-04
+date_end: 2003-06-07
 
 cast:
-  - role: Mike (The Ruffian On The Stair)
+  - role: Mike
+    note: The Ruffian On The Stair
     name: Toby Brack
-  - role: Joyce (The Ruffian On The Stair)
+  - role: Joyce
+    note: The Ruffian On The Stair
     name: Ruth Wilson
-  - role: Wilson (The Ruffian On The Stair)
+  - role: Wilson
+    note: The Ruffian On The Stair
     name: Ben Bergin
-  - role: C (Crave)
+  - role: C
+    note: Crave
     name: Anneliese Mackintosh
-  - role: M (Crave)
+  - role: M
+    note: Crave
     name: Janey Lawson
-  - role: B (Crave)
+  - role: B
+    note: Crave
     name: Phil Sarson
-  - role: A (Crave)
+  - role: A
+    note: Crave
     name: Bush
 
 crew:
@@ -35,7 +42,7 @@ crew:
   - role: Lighting Manager
     name: Lucy Ockenden
   - role: Lighting Assistant and Sound Manager
-    name: Sarah Bal
+    name: Sarah Ball
   - role: Stage Manager
     name: Naomi Oppenheim
   - role: Backstage
@@ -50,6 +57,16 @@ crew:
     name: Toby Knowles
   - role: "'Ruffian' Musical Composer"
     name: Claude Debussy
+
+assets:
+  - type: poster
+    image: crave_and_ruffian_poster.jpg
+  - type: poster
+    image: the_ruffian_on_the_stair_poster.jpg
+  - type: programme
+    image: crave_and_ruffian_programme_1.jpg
+  - type: programme
+    image: crave_and_ruffian_programme_2.jpg
 
 published: true
 ---

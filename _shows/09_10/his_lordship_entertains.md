@@ -11,7 +11,7 @@ date_end: 2010-06-12
 
 cast:
 - role: Lord Rustless
-  name: Ben Cave
+  name: Benjamin Cave
 - role: Miss Bates
   name: Flo Hapgood
 - role: Badger
@@ -44,6 +44,10 @@ crew:
   name: Conrad Cohen
 - role: Producer
   name: Rachel Feeney
+
+assets:
+  - type: poster
+    image: his_lordship_entertains_2009-10.jpg
 
 published: true
 ---

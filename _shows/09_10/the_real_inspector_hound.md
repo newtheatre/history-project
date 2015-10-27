@@ -57,6 +57,10 @@ crew:
   - role: Publicity Designer
     name: Kate Margolis
 
+assets:
+  - type: poster
+    image: the_real_inspector_hound_2009-10.jpg
+
 published: true
 ---
 

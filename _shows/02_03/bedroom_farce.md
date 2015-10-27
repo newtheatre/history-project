@@ -50,6 +50,10 @@ crew:
 assets:
   - type: poster
     image: bedroom_farce_poster.jpg
+  - type: programme
+    image: bedroom_farce_programme_1.jpg
+  - type: programme
+    image: bedroom_farce_programme_2.jpg
 
 
 published: true

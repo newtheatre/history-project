@@ -1,5 +1,5 @@
 ---
-published: true
+title: Educating Rita
 season: In House
 period: Spring
 playwright: Willy Russell
@@ -8,11 +8,13 @@ venue:
   - New Theatre
 date_start: 2002-03-19
 date_end: 2002-03-22
+
 cast:
   - role: Rita
     name: Martina Heron
   - role: Frank
     name: Andrew Grant
+
 crew:
   - role: Director
     name: Alex Gilham
@@ -36,7 +38,19 @@ crew:
     name: Phil Pooley
   - role: Photography
     name: David Wills
-title: Educating Rita
+
+assets:
+  - type: programme
+    image: educating_rita_programmme_1.jpg
+    page: 1
+  - type: programme
+    image: educating_rita_programmme_2.jpg
+    page: 2
+  - type: programme
+    image: educating_rita_programmme_3.jpg
+    page: 3
+
+published: true
 ---
 
 

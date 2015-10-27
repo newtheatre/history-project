@@ -1,3 +1,5 @@
+// Typography
+
 *
   font-family: $body-font-stack
   -webkit-tap-highlight-color: rgba(0,0,0,0)
@@ -48,7 +50,7 @@ h2
   font-size: $base-font-size * 2.4
 h3
   @extend .h3-baseline
-  font-size: $base-font-size * 1.8
+  font-size: $base-font-size * 1.5
 h4
   @extend .h4-baseline
   font-size: $base-font-size * 1.4
@@ -58,13 +60,6 @@ h5
 h6
   @extend .h6-baseline
   font-size: $base-font-size * 0.8
-
-h2, .h2-baseline
-  line-height: $baseline * 2
-
-h4.h3-baseline
-  // If h3 is going to sit across from an h4 we can force double line-height
-  // line-height: $baseline * 2
 
 .headerlite
   font-size: 0.7em
@@ -133,7 +128,6 @@ p + h4, p + h5, p + h6
 strong
   font-weight: 600
 
-// We use a:link to avoid selecting <a> tags that don't have the href attribute
 a
   color: $color-link
   font-weight: 600
@@ -160,22 +154,6 @@ a.pagelink
 
 .bracketed
   color: $color-grey
-
-// ul.formatted li, ol.formatted li
-//   font-size: $base-font-size
-//   margin-bottom: $baseline / 2
-
-// ul.formatted
-//   li
-//     list-style: square
-//   &.minimal li
-//     list-style: none
-
-// ol.formatted
-//   li
-//     list-style: decimal
-//   &.minimal li
-//     list-style: none
 
 ul, ol
   @include block

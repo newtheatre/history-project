@@ -55,19 +55,7 @@ crew:
   - role: Photography
     name: Erina Bogoeva
 
-photos:
-  - type: photo
-    image: betrayal_1.jpg
-  - type: photo
-    image: betrayal_2.jpg
-  - type: photo
-    image: betrayal_3.jpg
-  - type: photo
-    image: betrayal_4.jpg
-  - type: photo
-    image: betrayal_5.jpg
-  - type: photo
-    image: betrayal_6.jpg
+smugmug: 4Rzt7j
 
 assets:
   - type: poster

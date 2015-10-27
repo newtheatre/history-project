@@ -1,18 +1,40 @@
 ---
 title: "A Servant To Two Masters"
-playwright: "Carlo Goldoni; adapted by Lee Hall"
+playwright: Carlo Goldoni
 adapted: Lee Hall
 period: Spring
 season: In House
-season_sort: 280
+season_sort: 370
 date_start: 2014-06-11
 date_end: 2014-06-14
 venue:
   - New Theatre
 
+cast:
+  - role: Truffaldino Battachio
+    name: Giles Gear
+  - role: Beatrice Rasponi
+    name: Rosie van Oss
+  - role: Florindo Aretusi
+    name: Mikey Nissenbaum
+  - role: Silvio Lombardi
+    name: Tom Dineen
+  - role: Clarice Parsimoni
+    name: Rachel Connolly
+  - role: Pantaloon Parsimoni
+    name: Jake South
+  - role: Dr. Mario Lombardi
+    name: Will Berrington
+  - role: Brighella Caviccio
+    name: Tom Selves
+  - role: Smeraldina
+    name: Kate Chesterfield
+
 crew:
   - role: Director
     name: Chelsea Jayne Wright
+  - role: Producer
+    name: Nikki Hill
   - role: Technical Director
     name: Sebastian Frend
   - role: Lighting Designer

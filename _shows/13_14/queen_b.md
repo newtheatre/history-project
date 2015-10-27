@@ -21,6 +21,12 @@ crew:
     name: Ben Williamson
   - role: Producer
     name: Nick Davies
+  - role: Technical Director
+    name: Jo Estrin
+  - role: Publicity Manager
+    name: Will Hedges
+  - role: Company Manager
+    name: Gus Herbert
 
 assets:
   - type: poster

@@ -37,7 +37,13 @@ crew:
   - role: Producer
     name: James Lovell
 
+assets:
+  - type: poster
+    image: a_view_from_the_bridge_2010-11.jpg
+
 published: true
+
+smugmug: 7dbktp
 ---
 
 “I was just thinking before, comin’ home, suppose my father didn’t come to this country, and I was starving like them over there … and I had people in America could keep me for a couple of months? The man would be honoured to lend me a place to sleep.”

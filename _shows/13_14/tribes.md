@@ -13,7 +13,7 @@ cast:
   - role: Billy
     name: James Roscow
   - role: Daniel
-    name: Jordan E-O
+    name: Jordan Edgar-Oliyide
   - role: Christopher
     name: Toby Stevens
   - role: Ruth
@@ -38,6 +38,8 @@ crew:
     name: Nathan Penney
   - role: Lighting Designer
     name: Joseph Heil
+  - role: Technical Operator
+    name: Joanne Blunt
   - role: Technical Operator
     name: Matt Standen
   - role: Technical Operator

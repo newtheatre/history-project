@@ -40,7 +40,7 @@ search_exclude: true
         <h3 class="search-result-show-title">
           <% if (item.poster_thumb_tag) { %><%= item.poster_thumb_tag %><% } else { %><i class="fa fa-ticket"></i><% } %>
           <a href="<%= item.link %>"><%= item.title %></a>
-          <% if (item.playwright) { %><span class="search-result-playwright">by <%= item.playwright %></span><% } %>
+          <% if (item.playwright) { %><span class="search-result-playwright"><%= item.playwright_formatted_long %></span><% } %>
           </h3>
         <p class="meta"><%= item.run %><% if (item.venue) { %> at <%= item.venue %><% } %>, <%= item.season %></p>
         <p><%= item.excerpt %></p>
@@ -85,8 +85,12 @@ search_exclude: true
     <div class="search-results-collect">
       <div class="box-info">
         <i class="ion-help"></i>
-        <h4>Should there be something here?</h4>
-        <p>We're still a long way off collecting every single show. If you know of one that isn't here please <a href="/collect/show">let us know!</a></p>
+        <h4>Are we missing something?</h4>
+        <p>We're still a long way off collecting every single show and every alumnus.</p>
+
+        <p>If you know of a show that isn't here please <a href="/collect/show">let us know!</a></p>
+
+        <p>If you're looking for yourself and we don't have a record of you, please <a href="/collect/person/">fill out the alumnni bio form</a>.</p>
       </div>
     </div>
 

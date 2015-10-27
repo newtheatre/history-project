@@ -5,6 +5,7 @@ title: People List
 current: people
 published: true
 sitemap: false
+search_exclude: true
 ---
 
 <h2>Alumni Biographies</h2>
@@ -13,6 +14,8 @@ sitemap: false
 
 <ul>
 {% for person in sorted_people %}
-  <li><a href="{{ person.url }}">{{ person.title }}</a></li>
+  <li>
+    <a href="{{ person.url }}">{{ person.title }}</a><!-- {{ person.person }} -->
+  </li>
 {% endfor %}
 </ul>

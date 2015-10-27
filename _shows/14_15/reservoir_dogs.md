@@ -1,6 +1,7 @@
 ---
 title: "Reservoir Dogs"
 playwright: "Carn Truscott"
+student_written: true
 period: Spring
 season: "Fringe"
 season_sort: 290
@@ -8,6 +9,37 @@ date_start: 2015-03-22
 date_end: 2015-03-23
 venue:
   - New Theatre Studio A
+
+cast:
+  - role: Mr Orange
+    name: Arnaud Lacey
+  - role: Police Officer
+    name: Jake McGrath
+  - role: Joe
+    name: Jess Leppington
+  - role: Mr Blonde
+    name: Ellen Richardson
+  - role: Mr Blue
+    name: Gary Berezin
+  - role: Mr Pink
+    name: Sam Young
+  - role: Nice Guy Eddie
+    name: Mike Bradley
+  - role: Mr White
+    name: Robert Goodall
+  - role: Mr Brown
+    name: Carn Truscott
+
+crew:
+  - role: Director
+    name: Carn Truscott
+  - role: Producer
+    name: Joe Strickland
+  - role: Lighting Designer
+    name: James Fox
+  - role: Poster Designer
+    name: Max Miller
+
 
 assets:
   - type: poster

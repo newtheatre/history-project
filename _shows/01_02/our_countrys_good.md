@@ -41,7 +41,7 @@ cast:
   - role: Robert Sideway
     name: Ben Bergin
   - role: John Wisehammer
-    name: Phillip Hamann
+    name: Philip Hamann
   - role: Caeser
     name: Mike Reich
   - role: Liz Morden
@@ -68,9 +68,16 @@ crew:
   - role: Lighting Designer
     name: Caroline Blinkhorn
   - role: Sound
+
+assets:
+  - type: programme
+    image: our_countrys_good_01_programme_1.jpg
+    page: 1
+  - type: programme
+    image: our_countrys_good_01_programme_2.jpg
+    page: 2
+
 ---
-
-
 
 In 1788 the English sent the first six convict ships to Australia. After eight months at sea, they finally arrived at Botany Bay. Ralph Clark, an ambitious young officer decides to put on a play with the convicts to impress the governor in chief. With a leading lady about to be hanged, only two copies of the play, and half the British Army against him, this is no easy task.
 

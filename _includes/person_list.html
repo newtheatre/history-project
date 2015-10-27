@@ -15,6 +15,28 @@ X
 <ul class="person-list">
 {% for person in people %}
   <li class="person-single">
+
+    {% if person.person != false and person.name != "" and person.name != "unknown" %}
+      <a href="{% person_url {{ person.name }}%}">
+      {% assign linked_single = true %}
+    {% else %}
+      {% assign linked_single = false %}
+    {% endif %}
+
+    <div class="person-headshot-container">
+      {% if person.person_record %}
+
+        {% if person.person_record.headshot %}
+          {% image person_headshot_micro people/{{ person.person_record.headshot }} alt="{{ person.person_record.title }}" class="person-headshot person-headshot-actual" %}
+        {% else %}
+          <img src="/images/human-48.png" alt="No Headshot" class="person-headshot person-headshot-with-record" />
+        {% endif %}
+
+      {% else %}
+        <img src="/images/human-48.png" alt="No Headshot" class="person-headshot person-headshot-no-record" />
+      {% endif %}
+    </div>
+
     <div class="person-role">
       {% if person.role == "unknown" %}
         <span class="unknown">Unknown</span>
@@ -27,9 +49,17 @@ X
       {% if person.name == "unknown" %}
         <span class="unknown">Unknown</span>
       {% else %}
-        <a href="{% person_url {{ person.name }}%}">{{ person.name }}</a>
+        {{ person.name }}
       {% endif %}
     </div>
+
+    {% if linked_single %}</a>{% endif %}
+
   </li>
 {% endfor %}
+
+  <li class="person-add">
+    <a href="https://github.com/newtheatre/history-project/issues/new?body={{page.url}}" data-proofer-ignore data-report-this-page>Someone missing? Message the editors&hellip;</a>
+  </li>
+
 </ul>

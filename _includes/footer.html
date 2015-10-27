@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="footer-contribute">
       <p>This project relies on help from the alumni community. See <a href="/contributing/">contributing</a> page for more details.<br />
-      Missing or incorrect information on this page? <a href="https://github.com/newtheatre/history-project/issues/new?body={{page.url}}" data-proofer-ignore data-report-this-page>Send the editors a message</a>.</p>
+      {% unless page.no_report_links %}Missing or incorrect information on this page? <a href="https://github.com/newtheatre/history-project/issues/new?body={{page.url}}" data-proofer-ignore data-report-this-page>Send the editors a message</a>.{% endunless %}</p>
     </div>
     <div class="footer-social">
       <div class="twitter">

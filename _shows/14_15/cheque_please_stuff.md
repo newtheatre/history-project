@@ -1,11 +1,35 @@
 ---
 title: "Cheque, Please"
+playwright: "Nikki Hill"
+student_written: true
 period: Spring
 season: "STUFF"
 season_sort: 430
 date_start: 2015-06-17
 venue:
   - New Theatre
+
+cast:
+  - role: Ivy
+    name: Maddie Hardy
+  - role: Alex/Erin/Customer 1
+    name: Libby Boyd
+  - role: Kristen/Ivy's Mother/Customer 2
+    name: Genevieve Cunnell
+  - role: Mrs Pendle/ Hayley/ Customer 3
+    name: Becca Jones
+  - role: Greg/ Lena's Father
+    name: Nick Slater
+  - role: Charlie/ Carl/ Jake
+    name: Diderik Ypma
+
+crew:
+  - role: Director
+    name: Nikki Hill
+  - role: Producer
+    name: Gus Herbert
+  - role: Technical Director
+    name: Darcey Graham
 
 assets:
   - type: poster

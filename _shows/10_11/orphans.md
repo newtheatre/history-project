@@ -33,7 +33,13 @@ crew:
   - role: Lighting Designer
     name: Matt Leventhall
 
+assets:
+  - type: poster
+    image: orphans_2010-11.jpg
+
 published: true
+
+smugmug: 7hRj7P
 ---
 
 ‘I hate violence. It makes me cry. Always has…’

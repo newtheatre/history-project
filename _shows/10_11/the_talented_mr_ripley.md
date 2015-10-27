@@ -41,6 +41,10 @@ crew:
   - role: Publicity Designer
     name: Bryony Blackler
 
+assets:
+  - type: poster
+    image: the_talented_mr_ripley_2010-11.jpg
+
 published: true
 ---
 

@@ -1,3 +1,14 @@
+// Show list on /year/YY_YY pages
+
+@mixin show-season-circle
+  color: darken($color-grey, 4%)
+  &:before
+    @extend .ion
+    content: "\f21b"
+    padding-left: 1px
+    padding-right: 4px
+    font-size: 0.95em
+
 .show-list
   @include list-unformatted
 
@@ -11,7 +22,7 @@
       overflow: auto
       color: $color-text-white
       &:hover
-        background: darken($color-nnt-purple, 20%)
+        background: $color-link-bg-hover
         text-decoration: none
     .show-list-title
       color: $color-link
@@ -25,13 +36,7 @@
     .show-list-season
       min-width: 63px // Lines the dates up for easy scanning
       padding-right: 6px
-      color: darken($color-grey, 4%)
-      &:before
-        @extend .ion
-        content: "\f21b"
-        padding-left: 1px
-        padding-right: 4px
-        font-size: 0.95em
+      @include show-season-circle
 
     .show-list-date
 

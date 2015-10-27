@@ -52,6 +52,8 @@ crew:
 assets:
   - type: poster
     image: charleys_aunt_poster.jpg
+
+smugmug: mMFMrF
 ---
 
 Oxford University, 1892. The imminent arrival of Charley’s Aunt Donna Lucia, from Brazil, provides the perfect excuse for Charley and Jack to invite their young ladies to meet her. But when her visit is seemingly postponed, they persuade their eccentric friend Lord Fancourt Babberly to impersonate her. All is going well, until the real Aunt arrives…

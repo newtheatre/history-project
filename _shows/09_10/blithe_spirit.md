@@ -31,6 +31,10 @@ crew:
 - role: Producer
   name: unknown
 
+assets:
+  - type: poster
+    image: blithe_spirit_2009-10.jpg
+
 published: true
 ---
 

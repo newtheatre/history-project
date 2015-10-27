@@ -39,12 +39,13 @@ module Jekyll
     priority :normal
 
     def generate(site)
+      if not site.config["skip_virtual_people"]
+        @collection = site.collections["people"]
 
-      @collection = site.collections["people"]
-
-      for title, shows in site.data["people_ri_shows"]
-        unless @collection.docs.detect { |doc| doc.data['title'] == title }
-          @collection.docs << PlaceholderPeoplePage.new(site, @collection, title)
+        for name in site.data["people_names"]
+          unless @collection.docs.detect { |doc| doc.data["title"] == name }
+            @collection.docs << PlaceholderPeoplePage.new(site, @collection, name)
+          end
         end
       end
 
@@ -58,12 +59,12 @@ module Jekyll
     def generate(site)
       puts "Processing people..."
       people = site.collections["people"].docs
-
+      site.data["people_by_filename"] = Hash.new
 
       for person in people
 
         # Populate person record with data from the reverse index
-        if site.data["people_ri_shows"].has_key?( person.data["title"] )
+        if site.data["people_names"].include?( person.data["title"] )
           person.data["shows"] = site.data["people_ri_shows"][ person.data["title"] ]
           person.data["committees"] = site.data["people_ri_committees"][ person.data["title"] ]
         end
@@ -71,9 +72,21 @@ module Jekyll
         # Person additional data
         person.data["path_name"] = make_hp_path(person.data["title"])
 
+        # People by filename
+        site.data["people_by_filename"][person.basename_without_ext] = person
+
       end
 
     end
   end
 end
 
+# Utility functions
+
+def generate_people_by_filename(people)
+  people_by_filename = Hash.new
+  for person in people
+    people_by_filename[person.basename_without_ext] = person
+  end
+  return people_by_filename
+end
