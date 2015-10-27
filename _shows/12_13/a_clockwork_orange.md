@@ -43,7 +43,7 @@ crew:
   - role: Technical Director
     name: Joseph Heil
   - role: Set Designer
-    name: Matasha Mortimer
+    name: Natasha Mortimer
   - role: Stage Manager
     name: Liz Cornwell
   - role: Video Technician
