@@ -3,7 +3,7 @@ layout: null
 ---
 {% assign first = true %}
 [
-{% for show in site.collections.shows.docs %}
+{% for show in site.shows %}
     {% if show.title != null and show.title != empty %}
     {% unless first %},{% endunless %}{
         "title": {{show.title | jsonify}},
@@ -29,7 +29,7 @@ layout: null
     {% endif %}
 {% endfor %}
 
-{% for person in site.collections.people.docs %}
+{% for person in site.people %}
     {% unless first %},{% endunless %}{
         "title": {{ person.title | jsonify }},
         "type": "person",

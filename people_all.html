@@ -10,7 +10,7 @@ search_exclude: true
 
 <h2>Alumni Biographies</h2>
 
-{% assign sorted_people = site.collections.people.docs | sort: "title" %}
+{% assign sorted_people = site.people | sort: "title" %}
 
 <ul>
 {% for person in sorted_people %}
