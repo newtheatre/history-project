@@ -1,6 +1,6 @@
 ---
 title: "A Servant To Two Masters"
-playwright: "Carlo Goldoni; adapted by Lee Hall"
+playwright: Carlo Goldoni
 adapted: Lee Hall
 period: Spring
 season: In House

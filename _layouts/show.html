@@ -52,9 +52,29 @@ layout: default
         <h1 class="show-title">{{ show.title }}</h1>
 
         <div class="meta-row">
-          <i class="meta-icon fa fa-book"></i>
-          <div class="meta-col show-playwright">
-            <p>{% if show.playwright %}by {% if show.student_written %}<i class="fa fa-pencil show-student-written" title="Student Written"></i> {% endif %}{{ show.playwright }}{% else %}<span class="unknown">Playwright Unknown</span>{% endif %}</p>
+          {% if show.student_written %}
+            <i class="meta-icon fa fa-pencil" title="Student Written"></i>
+          {% elsif show.playwright_type == "devised" %}
+            <i class="meta-icon fa fa-group"></i>
+          {% else %}
+            <i class="meta-icon fa fa-book"></i>
+          {% endif %}
+          <div class="meta-col show-playwright show-playwright-{{ show.playwright_type }}">
+            <p>
+              {% if show.playwright %}
+                {{ show.playwright_formatted }}
+              {% else %}
+                <span class="unknown">Playwright Unknown</span>
+              {% endif %}
+
+              {% if show.translator %}
+                <br /><span class="translator">Translated by {{ show.translator }}</span>
+              {% endif %}
+
+              {% if show.adaptor %}
+                <br /><span class="adaptor">Adapted by {{ show.adaptor }}</span>
+              {% endif %}
+            </p>
           </div>
           <i class="meta-icon fa fa-reorder"></i>
           <div class="meta-col show-season">

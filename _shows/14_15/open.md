@@ -1,6 +1,6 @@
 ---
 title: "OPEN"
-playwright: "(Devised)"
+devised: true
 period: Edinburgh
 season: "Edinburgh"
 season_sort: 610
@@ -9,15 +9,15 @@ date_end: 2015-08-28
 venue:
   - ZOO Monkeyhouse
 cast:
-  - role: 
-    name: Ricki Crook 
-  - role: 
+  - role:
+    name: Ricki Crook
+  - role:
     name: Holly Gatfield
-  - role: 
+  - role:
     name: Amy Brough-Aikin
-  - role: 
+  - role:
     name: Jonathan Taylor Davies
-  - role: 
+  - role:
     name: Arnaud Lacey
 
 crew:

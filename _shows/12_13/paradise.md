@@ -1,6 +1,6 @@
 ---
 title: PARADISE
-playwright: (Devised)
+devised: true
 season: Edinburgh
 season_sort: 400
 period: Edinburgh

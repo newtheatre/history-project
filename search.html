@@ -40,7 +40,7 @@ search_exclude: true
         <h3 class="search-result-show-title">
           <% if (item.poster_thumb_tag) { %><%= item.poster_thumb_tag %><% } else { %><i class="fa fa-ticket"></i><% } %>
           <a href="<%= item.link %>"><%= item.title %></a>
-          <% if (item.playwright) { %><span class="search-result-playwright">by <%= item.playwright %></span><% } %>
+          <% if (item.playwright) { %><span class="search-result-playwright"><%= item.playwright_formatted_long %></span><% } %>
           </h3>
         <p class="meta"><%= item.run %><% if (item.venue) { %> at <%= item.venue %><% } %>, <%= item.season %></p>
         <p><%= item.excerpt %></p>

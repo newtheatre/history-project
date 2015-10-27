@@ -1,6 +1,6 @@
 ---
 title: "Paper Productions Present: The Rehearsal"
-playwright: "Devised"
+devised: true
 period: Spring
 season: "External"
 season_sort: 210

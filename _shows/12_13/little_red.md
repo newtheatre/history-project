@@ -1,6 +1,6 @@
 ---
 title: Little Red
-playwright: Devised by cast and crew
+devised: Cast and Crew
 season: UNCUT
 season_sort: 265
 period: Spring

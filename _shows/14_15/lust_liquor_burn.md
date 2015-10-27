@@ -1,6 +1,6 @@
 ---
 title: "Lust, Liquor, Burn"
-playwright: "devised"
+devised: true
 period: Spring
 season: "Fringe"
 season_sort: 320
