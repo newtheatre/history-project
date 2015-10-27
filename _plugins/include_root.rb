@@ -1,7 +1,7 @@
 module Jekyll
   module Tags
     class IncludeRootTag < IncludeTag
-      def tag_includes_dir
+      def resolved_includes_dir(context)
         '.'.freeze
       end
     end
