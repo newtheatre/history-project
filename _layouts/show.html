@@ -66,6 +66,14 @@ layout: default
               {% else %}
                 <span class="unknown">Playwright Unknown</span>
               {% endif %}
+
+              {% if show.translator %}
+                <br /><span class="translator">Translated by {{ show.translator }}</span>
+              {% endif %}
+
+              {% if show.adaptor %}
+                <br /><span class="adaptor">Adapted by {{ show.adaptor }}</span>
+              {% endif %}
             </p>
           </div>
           <i class="meta-icon fa fa-reorder"></i>

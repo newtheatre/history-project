@@ -1,6 +1,7 @@
 ---
 title: "Mary Shelley's Frankenstein"
-playwright: Adapted by Jake Leonard
+playwright: Mary Shelley
+adaptor: Jake Leonard
 season: In House
 season_sort: 280
 period: Spring
