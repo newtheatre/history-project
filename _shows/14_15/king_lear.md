@@ -109,6 +109,8 @@ assets:
   - type: poster
     image: king_lear_poster_2.jpg
 
+smugmug: RCDG5D
+
 ---
 
 Widely regarded by scholars and academics as Shakespeare’s finest work, King Lear portrays a powerful king who loses his grip on everything that defines him. Along with Lear’s decline into madness, the play focuses on identity and morality as the state and royal family are torn apart.

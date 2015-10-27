@@ -4,14 +4,10 @@ playwright: (Various)
 period: Autumn
 season: In House
 season_sort: 20
-date_start: 2009-10-16
-date_end: 2009-10-17
+date_start:
+date_end:
 venue:
   - New Theatre
 
-assets:
-  - type: poster
-    image: freshers_fringe_2009-10.jpg
-
-smugmug: vv4w85
+smugmug: x6s4R2
 ---

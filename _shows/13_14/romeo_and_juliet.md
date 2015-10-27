@@ -105,7 +105,7 @@ crew:
   - role: Photographer
     name: unknown
 
-sumgmug: 6DhKFZ
+smugmug: 6DhKFZ
 
 assets:
   - type: poster
