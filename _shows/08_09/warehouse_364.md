@@ -18,6 +18,8 @@ assets:
   - type: poster
     image: warehouse_364_poster.jpg
 
+smugmug: tVMbqg
+
 published: true
 ---
 

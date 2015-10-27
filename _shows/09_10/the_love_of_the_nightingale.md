@@ -8,4 +8,7 @@ venue:
   - New Theatre
 date_start:
 date_end:
+assets:
+  - type: poster
+    image: the_love_of_the_nightingale_2009-10.jpg
 ---

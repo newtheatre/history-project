@@ -9,6 +9,20 @@ date_end: 2014-06-07
 venue:
   - New Theatre
 
+cast:
+  - role: Sweets
+    name: Harry Bradley
+  - role: Potts
+    name: Tom Gladstone
+  - role: Baby
+    name: Richard Hill
+  - role: Skinny
+    name: Will Hedges
+  - role: Mickey
+    name: Jacob Hayes
+  - role: Silver Johnny
+    name: Shannon Smith
+
 crew:
   - role: Director
     name: Nadia Amico
@@ -16,6 +30,14 @@ crew:
     name: Natasha Mortimer
   - role: Lighting Designer
     name: Tyler-Antonia Gordon
+  - role: Musician
+    name: Lyle Fulton
+  - role: Musician
+    name: Gilad Grant
+  - role: Musician
+    name: Jordan Edgar-Oliyide
+  - role: Musician
+    name: Nick Davies
 
 assets:
   - type: poster

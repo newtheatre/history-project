@@ -20,8 +20,14 @@ configureWindow = ->
 
   # Search based on url param from previous page
   urlQ = window.getUrlParameter('q')
-  sView.search urlQ
-  $('#q').val urlQ
+  if urlQ != null
+    sView.search urlQ
+    $('#q').val urlQ
+  else
+    sView.renderBlank()
+
+  # Focus to search field
+  $('#q').focus()
 
   # Bind to keyup events on the search box
   $('#q').keyup debounce ->

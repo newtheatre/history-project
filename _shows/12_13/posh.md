@@ -41,6 +41,16 @@ crew:
     name: Aubrey Turner
   - role: Lighting Designer
     name: Will Pimblett
+  - role: Stage Manager
+    name: Alice Hildreth
+  - role: Stage Manager
+    name: Sioned Walker
+  - role: Stage Manager
+    name: Lara Tysseling
+
+assets:
+  - type: poster
+    image: posh_2012-13.jpg
 ---
 
 Eight Oxford University boys, unlimited champagne, one escort and a night of debauchery and destruction. Welcome to the Riot Club. Royal Court’s play of the year 2012. Contemporary, outrageous and intelligent. Posh is the perfect combination of disturbingly relevant satire and a scandalous and savagely funny cast. Bottoms up.

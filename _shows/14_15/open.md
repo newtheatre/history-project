@@ -1,5 +1,6 @@
 ---
 title: "OPEN"
+devised: true
 period: Edinburgh
 season: "Edinburgh"
 season_sort: 610
@@ -7,9 +8,42 @@ date_start: 2015-08-08
 date_end: 2015-08-28
 venue:
   - ZOO Monkeyhouse
+cast:
+  - role:
+    name: Ricki Crook
+  - role:
+    name: Holly Gatfield
+  - role:
+    name: Amy Brough-Aikin
+  - role:
+    name: Jonathan Taylor Davies
+  - role:
+    name: Arnaud Lacey
+
+crew:
+  - role: Director
+    name: Jack Revell
+  - role: Producer
+    name: Emma Kendall
+  - role: Technical Director
+    name: Darcey Graham
+  - role: Publicity Manager
+    name: Lydia Smith
+
 assets:
   - type: poster
     image: open_fringe.jpg
+  - type: flyer
+    filename: Open Flyer Back FINAL.pdf
+    title: Back of Flyer
+  - type: flyer
+    filename: Open Flyer Front.pdf
+    title: Front of Flyer
+  - type: poster
+    filename: Open Poster Front.pdf
+    title: Edinburgh Poster
+
+smugmug: 4VFmSk
 ---
 
 Sharp devised theatre peering through the cracks in modern Britain.

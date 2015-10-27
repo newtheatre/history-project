@@ -2,9 +2,13 @@
 
 - role: Director
   icon: ion-film-marker
+- role: Co-director
+  icon: ion-film-marker
 - role: Producer
   icon: fa fa-money
 - role: Set Designer
+  icon: ion-paintbucket
+- role: Designer
   icon: ion-paintbucket
 - role: Stage Manager
   icon: fa fa-bookmark
@@ -18,6 +22,8 @@
   icon: fa fa-headphones
 - role: Original Score
   icon: fa fa-music
+- role: Composer
+  icon: fa fa-music
 - role: Musical Director
   icon: fa fa-music
 - role: Vocalist
@@ -26,18 +32,34 @@
   icon: fa fa-music
 - role: Sound Designer
   icon: fa fa-volume-up
+- role: Sound Operator
+  icon: fa fa-volume-up
 - role: Make Up Artist
   icon: ion-paintbrush
 - role: Costume Designer
-  icon: fa fa-scissors
+  icon: ion-tshirt
+- role: Costume Design
+  icon: ion-tshirt
 - role: Publicity Designer
   icon: fa fa-picture-o
 - role: Publicity Manager
   icon: fa fa-picture-o
 - role: Publicist
   icon: fa fa-picture-o
+- role: Poster Designer
+  icon: fa fa-picture-o
+- role: Artwork
+  icon: fa fa-picture-o
 - role: Photographer
   icon: fa fa-camera-retro
+- role: Photography
+  icon: fa fa-camera-retro
+- role: Set Construction
+  icon: ion-hammer
+- role: Choreography
+  icon: fa fa-street-view
+- role: Choreographer
+  icon: fa fa-street-view
 
 - role: President
   icon: fa fa-star

@@ -2,16 +2,46 @@ module Jekyll
   class ShowDataGenerator < Jekyll::Generator
     priority :highest
 
+    def get_playwright(show)
+      if show.data.has_key?("playwright")
+        return ["playwright", show.data["playwright"], "by #{ show.data["playwright"] }"]
+      elsif show.data.has_key?("devised")
+        if show.data["devised"] == true
+          return ["devised", "", "Devised"]
+        else
+          return ["devised", show.data["devised"], "Devised by #{ show.data["devised"] }"]
+        end
+      else
+        return ["unknown", nil, "Playwright Unknown"]
+      end
+      # Return playwright_type, playwright, playwright_formatted
+    end
+
+    def get_playwright_formatted_long(show)
+      ret = show.data["playwright_formatted"]
+
+      if show.data.has_key?("translator")
+        ret = "#{ ret }; Translated by #{ show.data["translator"] }"
+      end
+
+      if show.data.has_key?("adaptor")
+        ret = "#{ ret }; Adapted by #{ show.data["adaptor"] }"
+      end
+
+      return ret
+    end
+
+    # Main generation method
     def generate(site)
       puts "Processing shows..."
       all_shows = site.collections["shows"].docs
-      years = site.collections["years"].docs
+      @years = site.collections["years"].docs
+      @people = site.collections["people"].docs
 
       # This is here as it's needed here, I expect year.rb to be run after.
-      years_by_slug = Hash.new
-      for year in years
-        years_by_slug[year.data["year"]] = year
-      end
+
+      years_by_slug = generate_years_by_slug(@years)
+      people_by_filename = generate_people_by_filename(@people)
 
       # Compute extra show data attributes
       shows_by_year = Hash.new
@@ -19,12 +49,33 @@ module Jekyll
         path_split = show.path.split("/")
         year = path_split[path_split.length-2]
 
+        # Set meta attributes
+        show.data["playwright_type"], show.data["playwright"],
+          show.data["playwright_formatted"] = get_playwright(show)
+
+        show.data["playwright_formatted_long"] = get_playwright_formatted_long(show)
+
         # Set year attributes
         show.data["year"] = year
-        show.data["year_page"] = years_by_slug[show.data["year"]]
+        year_page = years_by_slug[show.data["year"]]
+        show.data["year_page"] = year_page
 
         # To put content in meta description
         show.data["excerpt"] = show.content
+
+        # Add extra data to cast / crew lists
+        if show.data.has_key?("cast") and show.data["cast"]
+          show.data["cast"] = parse_person_list(show.data["cast"], people_by_filename)
+        end
+        if show.data.has_key?("crew") and show.data["crew"]
+          show.data["crew"] = parse_person_list(show.data["crew"], people_by_filename)
+        end
+
+        # Fetch SmugMug album data
+        if show.data.has_key? "smugmug"
+          smug = Smug.new
+          show.data["smugmug_album"] = smug.get_show_photos(show.data["smugmug"], site)
+        end
 
         # Generate the legacy path for 301 redirect re. #142 Make semantic and pretty urls
         legacy_path = "shows/#{show.data["year"]}/#{show.basename_without_ext}.html"
@@ -107,4 +158,3 @@ module Jekyll
     end
   end
 end
-

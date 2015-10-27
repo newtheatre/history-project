@@ -21,7 +21,7 @@ cast:
   - role: Dudard
     name: Sam Pearce
   - role: Botard
-    name: George Bancroft-Livingstone
+    name: George Bancroft-Livingston
   - role: Papillon
     name: Anna Sheriff
   - role: Mrs Boeuf / Grocer's Wife
@@ -68,6 +68,10 @@ crew:
     name: Matt Leventhall
   - role: Props and Costumes
     name: Vickie Vukelic
+
+assets:
+  - type: poster
+    image: rhinoceros_09-10.jpg
 
 published: true
 ---

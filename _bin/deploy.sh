@@ -1,17 +1,15 @@
 #!/bin/bash
 
 # Only deploy if not PR
-if [ $TRAVIS_PULL_REQUEST = "false" ]
+if [[ $TRAVIS_PULL_REQUEST = "false" ]]
   then
   # cleanup
   rm -rf gh-pages
 
-  git clone -b gh-pages https://${GH_TOKEN}@github.com/newtheatre/history-project.git gh-pages
+  git clone -b gh-pages https://${GH_TOKEN}@github.com/newtheatre/history-project-gh-pages.git gh-pages
 
-  if [ $RESET = "true" ]
-  then
-    rm -rf gh-pages/*
-  fi
+  # Clear out all files, but not dotfiles
+  rm -rf gh-pages/*
 
   # copy generated HTML site to built branch
   cp -R _site/* gh-pages

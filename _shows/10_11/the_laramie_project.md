@@ -12,7 +12,7 @@ date_end: 2011-05-07
 cast:
   - role: unknown
     name: Lawrence Bolton
-  - name: Phillip Damms
+  - name: Phil Damms
   - name: Phoebe Fairbrother
   - name: Sarah Head
   - name: Claire Horn
@@ -31,7 +31,13 @@ crew:
   - role: Producer
     name: Bryony Blackler
 
+assets:
+  - type: poster
+    image: the_larimie_project_2010-11.jpg
+
 published: true
+
+smugmug: hWS9Mn
 ---
 
 Laramie Wyoming. October 7th, 1998. A gay university student is found tied to a fence in an isolated field, beaten and left for dead - purely because of his sexuality. Matthew Shepard's abduction by two of the local boys created a media firestorm that spanned the globe, and inspired a generation to fight against intolerance.

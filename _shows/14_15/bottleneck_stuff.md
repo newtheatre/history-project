@@ -17,9 +17,13 @@ crew:
   - role: Director
     name: Tom Tolond
   - role: Producer
-    name: Tom Heath Harvey
+    name: Tom Heath
   - role: Technical Director
     name: Joanne Blunt
+  - role: Lighting Designer
+    name: Joanne Blunt
+  - role: Lighting Designer
+    name: Nathan Penney
   - role: Publicity Designer
     name: Gus Herbert
 

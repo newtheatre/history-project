@@ -1,9 +1,9 @@
 Mousetrap.bind 'left', ->
-  if 'jekyll_page_previous' of window
+  if 'jekyll_page_previous' of window and not window.fancyboxOpen
     window.location.href = jekyll_page_previous
 
 Mousetrap.bind 'right', ->
-  if 'jekyll_page_next' of window
+  if 'jekyll_page_next' of window and not window.fancyboxOpen
     window.location.href = jekyll_page_next
 
 # Mousetrap.bind 'up', ->

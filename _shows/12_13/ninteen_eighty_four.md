@@ -15,11 +15,17 @@ cast:
     name: Amelia Gann
   - role: O'Brien
     name: Richard Hill
-  - name: Lara Tysseling
-  - name: Tom Tolond
-  - name: Nick Barker
-  - name: Hugh Williams
-  - name: Emily Thompson
+  - role: Charrington/Ensemble
+    name: Lara Tysseling
+  - role: Parsons/Ensemble
+    name: Tom Tolond
+  - role: Old Prole/Ensemble
+    name: Nick Barker
+  - role: Syme/Ensemble
+    name: Hugh Williams
+  - role: Starving Young Woman/Ensemble
+    name: Emily Thompson
+
 crew:
   - role: Director
     name: Bridie Rollins
@@ -43,6 +49,8 @@ crew:
 assets:
   - type: poster
     image: 1984_poster.jpg
+
+smugmug: ZMVCKk
 ---
 
 War is peace. Freedom is Slavery. Ignorance is strength. Orwell's classic novel follows Winston and Julia as they face the perils of rebelling against Big Brother's totalitarian regime. Set in an industrial scaffolding amphitheatre, controlled by the eight-strong cast, a relationship is brutally ripped apart, a man tortured and reality becomes unknowable.

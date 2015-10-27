@@ -1,0 +1,156 @@
+---
+layout: default
+body_class: home
+no_report_links: true
+---
+
+<section class="home-section home-shows wrapper">
+  &nbsp;
+  <div class="home-shows-design-element">
+  {% comment %}
+    <div class="posterwall">
+      <div class="posterwall-row">
+        <div class="posterwall-box flex-1-2 posterwall-hang">
+          <div class="posterwall-poster">
+            {% image posterwall for_shows/{{ site.data.assets_posterwall[0].image }} %}
+          </div>
+        </div>
+        <div class="posterwall-box flex-1-2 posterwall-hang">
+          <div class="posterwall-row flex-weight-1">
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[1].image }} %}
+            </div>
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[2].image }} %}
+            </div>
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[3].image }} %}
+            </div>
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[4].image }} %}
+            </div>
+          </div>
+          <div class="posterwall-row flex-weight-1">
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[5].image }} %}
+            </div>
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[6].image }} %}
+            </div>
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[7].image }} %}
+            </div>
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[8].image }} %}
+            </div>
+          </div>
+
+          <div class="posterwall-row flex-weight-2">
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[9].image }} %}
+            </div>
+            <div class="posterwall-poster">
+              {% image posterwall for_shows/{{ site.data.assets_posterwall[10].image }} %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="posterwall-row">
+        <div class="posterwall-poster">
+          {% image posterwall for_shows/{{ site.data.assets_posterwall[11].image }} %}
+        </div>
+        <div class="posterwall-poster">
+          {% image posterwall for_shows/{{ site.data.assets_posterwall[12].image }} %}
+        </div>
+        <div class="posterwall-poster">
+          {% image posterwall for_shows/{{ site.data.assets_posterwall[13].image }} %}
+        </div>
+        <div class="posterwall-poster">
+          {% image posterwall for_shows/{{ site.data.assets_posterwall[14].image }} %}
+        </div>
+        <div class="posterwall-poster">
+          {% image posterwall for_shows/{{ site.data.assets_posterwall[15].image }} %}
+        </div>
+        <div class="posterwall-poster">
+          {% image posterwall for_shows/{{ site.data.assets_posterwall[16].image }} %}
+        </div>
+        <div class="posterwall-poster">
+          {% image posterwall for_shows/{{ site.data.assets_posterwall[17].image }} %}
+        </div>
+        <div class="posterwall-poster">
+          {% image posterwall for_shows/{{ site.data.assets_posterwall[18].image }} %}
+        </div>
+      </div>
+    </div>
+  {% endcomment %}
+
+    <img src="/images/posterwall-bodge.png" class="posterwall-bodge" alt="An array of NNT posters" />
+
+  </div>
+
+  <div class="home-info">
+
+    <p>Piecing together the New Theatre’s dynamic and vibrant history we have collected records on</p>
+
+
+    {% assign shows = site.collections.shows.docs %}
+    {% assign people = site.collections.people.docs %}
+
+    <div class="flex-row home-shows-counter-container">
+      <div class="flex-1">
+        <div class="home-shows-counter js-lettering">{{shows.size}}</div>
+        <p>shows</p>
+      </div>
+      <div class="flex-1">
+        <div class="home-shows-counter js-lettering">{{people.size}}</div>
+        <p>people</p>
+      </div>
+    </div>
+
+    <p class="home-button"><a href="years/">Explore the archives&hellip;</a></p>
+
+  </div>
+
+</section>
+
+<section class="home-section home-network">
+
+ <div class="home-info">
+  <h2>Alumni Network</h2>
+
+  <p>Our <strong>50<sup>th</sup> Anniversary Celebration</strong> is to be held on <strong>Sunday 15<sup>th</sup> November 2015</strong></p>
+
+  <p>For more information see the <a href="http://newtheatre.org.uk/alumni">alumni pages</a> on the main website.</p>
+
+ </div>
+
+</section>
+
+<section class="home-section home-contribute">
+ <div class="home-info">
+  <h2>Tell Your Story</h2>
+  {% assign people = site.collections.people.docs %}
+
+  <p>We're still a long way off collecting details on every show and every alumnus!</p>
+
+  <div class="home-contribute-actions">
+    <div class="home-contribute-action">
+      <a href="/search/">
+        <i class="ion-ios-person"></i>
+        <h3>Find yourself</h3>
+        <p>And send in your memories</p>
+      </a>
+    </div>
+    <div class="home-contribute-action">
+      <a href="/search/">
+        <i class="fa fa-ticket"></i>
+        <h3>Find your shows</h3>
+        <p>If we're missing details, let us know</p>
+      </a>
+    </div>
+  </div>
+
+  <p>If you have something else to give, see the <a href="/contributing/">contributing page</a>.</p>
+
+ </div>
+</section>

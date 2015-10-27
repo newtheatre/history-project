@@ -29,11 +29,29 @@ crew:
   - role: Technical Operator
     name: Jo Estrin
   - role: Technical Operator
-    name: Megan Seely
+    name: Meghan Seely
+  - role: Technical Operator
+    name: Rosie Cave
+  - role: Technical Operator
+    name: Judith Marfo
+  - role: Technical Operator
+    name: Michael Ferdenzi
+  - role: Stage Manager
+    name: Louisa Morrison
+  - role: Make-up
+    name: Emily Heaton
+  - role: Publicity Manager
+    name: Rachel Considine
+  - role: Publicity Designer
+    name: Jason Flynn
+  - role: Photography
+    name: Jess Courtney
 
 assets:
   - type: poster
     image: educating_rita_poster.jpg
+
+smugmug: 4PNWCh
 ---
 
 Rita is a 26 year-old hairdresser with a desire to ‘learn everything’ and Frank is a fifty-something lecturer who has fallen out of love with his job, his wife and just about everything except his hoard of whisky hidden within his bookshelves. A tale of a working class, Liverpool woman’s hunger for education, and both the humorous and serious effects higher education can have.

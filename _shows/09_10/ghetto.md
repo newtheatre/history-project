@@ -1,5 +1,5 @@
 ---
-title: The Ghetto
+title: Ghetto
 playwright: Joshua Sobol
 season: In House
 season_sort: 80
@@ -12,21 +12,36 @@ date_end: 2009-11-28
 cast:
   - role: unknown
     name: Cem Aytacli
-  - name: Lauren Grant
-  - name: Florian Goebel
-  - name: Will Vickers
-  - name: Douggie McMeekin
-  - name: Alanna Southgate
-  - name: Oliver Margolis
-  - name: Chloe Keedy
-  - name: Topher Collins
-  - name: Paul Whickman
-  - name: Rose Eccleshare
-  - name: Amy Rushton
-  - name: Peter Carey
-  - name: Conrad Cohen
-  - name: Andrew Kennedy
-  - name: Lucien Jack
+  - role: unknown
+    name: Lauren Grant
+  - role: unknown
+    name: Florian Goebel
+  - role: unknown
+    name: Will Vickers
+  - role: unknown
+    name: Douggie McMeekin
+  - role: unknown
+    name: Alanna Southgate
+  - role: unknown
+    name: Oliver Margolis
+  - role: unknown
+    name: Chloe Keedy
+  - role: unknown
+    name: Topher Collins
+  - role: unknown
+    name: Paul Whickman
+  - role: unknown
+    name: Rose Eccleshare
+  - role: unknown
+    name: Amy Rushton
+  - role: unknown
+    name: Peter Cary
+  - role: unknown
+    name: Conrad Cohen
+  - role: unknown
+    name: Andrew Kennedy
+  - role: unknown
+    name: Lucien Jack
 
 crew:
   - role: Director
@@ -39,6 +54,10 @@ crew:
     name: Matt Leventhall
   - role: Musical Direction
     name: Angus MacRae
+
+assets:
+  - type: poster
+    image: ghetto_2009-10.jpg
 
 published: true
 ---

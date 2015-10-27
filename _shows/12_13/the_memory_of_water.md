@@ -10,11 +10,18 @@ date_start: 2012-11-07
 date_end: 2012-11-10
 
 cast:
-  - name: Rosanna Stoker
-  - name: Amy Brough-Aikin
-  - name: Lizzie Frainier
-  - name: Lucy Dollman
-  - name: Ben Williamson
+  - role: Mary
+    name: Rosanna Stoker
+  - role: Catherine
+    name: Amy Brough-Aikin
+  - role: Vi
+    name: Lizzie Frainier
+  - role: Teresa
+    name: Lucy Dollman
+  - role: Frank
+    name: Ben Williamson
+  - role: Mike
+    name: Ajay Stevenson
 
 crew:
   - role: Director
@@ -35,6 +42,8 @@ crew:
 assets:
   - type: poster
     image: memory_of_water_poster.jpg
+
+smugmug: pkW8Vv
 ---
 
 "Someone dies, you drink whiskey. It's normal, it's a sedative, it's what normal people do at abnormal times." Three sisters; Teresa, Mary and Catherine, come together before their mother's funeral, each haunted by their own demons, each possessing different memories of the same events. Darkly comic, the play shows that even in traumatic times, humour can be found anywhere.

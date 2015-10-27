@@ -1,6 +1,6 @@
 ---
 title: Crossing the Rubicon
-playwright: Cal Lewis (Devised)
+devised: Cal Lewis
 student_written: true
 season: Edinburgh
 season_sort: 400

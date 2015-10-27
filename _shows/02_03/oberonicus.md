@@ -35,7 +35,7 @@ cast:
   - role: Titania
     name: Chloe Osborn
   - role: Puck
-    name: Annaliesse Mackintosh
+    name: Anneliesse Mackintosh
   - role: Mustardblossom
     name: Jen Smith
   - role: Springshine
@@ -58,15 +58,21 @@ crew:
   - role: Costumes and Make Up
     name: Offy Tilt
   - role: The Musical Trio
-    name: Caroline Blinkham
+    name: Caroline Blinkhorn
   - role: The Musical Trio
     name: Nicola Brooker
   - role: The Musical Trio
     name: Elaine Sivyer
+
+assets:
+  - type: programme
+    image: oberonicus_programme_1.jpg
+    page: 1
+  - type: programme
+    image: oberonicus_programme_2.jpg
+    page: 2
+
 ---
-
-
-
 
 It is 1953. The theatres in London have been closed due to the outbreak of the plague.
 

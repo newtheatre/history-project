@@ -1,6 +1,6 @@
 ---
 title: God of Carnage
-playwright: Yasmina Reza (Translated by Christoper Hampton)
+playwright: Yasmina Reza
 translator: Christoper Hampton
 season: In House
 season_sort: 50
@@ -14,7 +14,7 @@ cast:
   - role: Alan Raleigh
     name: Harry Bradley
   - role: Annette Raleigh
-    name: Ellie Cawthorn
+    name: Ellie Cawthorne
   - role: Michael Novak
     name: Tom Gladstone
   - role: Veronica Novak
@@ -22,13 +22,13 @@ cast:
 
 crew:
   - role: Director
-    name: Tess Monroe-Somerville
+    name: Tess Monro-Somerville
   - role: Producer
     name: Tom Dineen
   - role: Stage Manager
     name: Daniel O'Connor
   - role: Stage Manager
-    name: Eden Philips Harrington
+    name: Eden Phillips Harrington
   - role: Technical Director
     name: Aubrey Turner
   - role: Lighting Designer

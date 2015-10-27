@@ -39,19 +39,7 @@ crew:
   - role: Photographer
     name: Nick Barker
 
-photos:
-  - type: photo
-    image: krapps_last_tape_1.jpg
-  - type: photo
-    image: krapps_last_tape_2.jpg
-  - type: photo
-    image: krapps_last_tape_3.jpg
-  - type: photo
-    image: krapps_last_tape_4.jpg
-  - type: photo
-    image: krapps_last_tape_5.jpg
-  - type: photo
-    image: krapps_last_tape_6.jpg
+smugmug: jz7XxB
 
 assets:
   - type: poster

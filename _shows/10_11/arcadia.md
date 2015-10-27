@@ -53,7 +53,13 @@ crew:
   - role: Composer
     name: Ed Denham
 
+assets:
+  - type: poster
+    image: arcadia_2010-11.jpg
+
 published: true
+
+smugmug: 4d8T8x
 ---
 
 "When we have found all the mysteries and lost all the meanings, we will be alone, on an empty shore"

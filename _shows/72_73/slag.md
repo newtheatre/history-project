@@ -6,6 +6,13 @@ playwright: David Hare
 season_sort: 160
 venue:
   - New Theatre
+
+assets:
+  - type: programme
+    image: slag_progamme_1.jpg
+  - type: programme
+    image: slag_progamme_2.jpg
+
 ---
 
 This was the New Theatre's first attempt at marketing a "season" of plays. 25p per production or 40p for any two!

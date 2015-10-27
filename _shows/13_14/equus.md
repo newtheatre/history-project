@@ -44,6 +44,14 @@ crew:
     name: Ricki Crook
   - role: Producer
     name: Charlotte Prosser
+  - role: Set Designer
+    name: Aubrey Turner
+  - role: Set Designer
+    name: Chelsea Jayne Wright
+  - role: Set Designer
+    name: Tom Selves
+  - role: Set Designer
+    name: Joseph Heil
   - role: Technical Director
     name: Will Pimblett
   - role: Lighting Designer
@@ -56,6 +64,8 @@ crew:
     name: Hannah Doyle
   - role: Technical Operator
     name: Joseph Heil
+  - role: Costumes & Make-up
+    name: Maddie Hardy
 
 photos:
   - type: photo

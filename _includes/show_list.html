@@ -7,8 +7,15 @@
     {% if show.poster %}
       {% image show_poster_thumb for_shows/{{ show.poster.image }} %}
     {% endif %}
-    <span class="show-list-title">{{ show.title }}</span>{% if show.playwright %}
-    by {% if show.student_written %}<i class="fa fa-pencil show-student-written" title="Student Written"></i> {% endif %}{{ show.playwright }}{% endif %}
+    <span class="show-list-title">{{ show.title }}</span>
+    {% if show.playwright %}
+    <span class="show-list-playwright show-list-playwright-{{ show.playwright.playwright_type }}">
+      {% if show.student_written %}
+        <i class="fa fa-pencil show-student-written" title="Student Written"></i>
+      {% endif %}
+      {{ show.playwright_formatted_long }}
+    </span>
+    {% endif %}
     <br /><span class="show-list-season season-{{ show.season | downcase | replace:" ","-" }}">{{ show.season }}</span>{% if show.date_start %}<span class="show-list-date">{% include liquid/date_range.html %}</span>{% endif %}
   </a>
 </li>

@@ -30,7 +30,7 @@ crew:
   - role: Set Designer
     name: Ed Colwell
   - role: Stage Manager
-    name: Louise Knapp
+    name: Lou Knapp
   - role: Technical Director
     name: Sebastian Frend
   - role: Lighting Designer

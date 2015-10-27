@@ -1,6 +1,6 @@
 ---
 title: The Project
-playwright: (Devised)
+devised: true
 season: Edinburgh
 season_sort: 410
 period: Edinburgh

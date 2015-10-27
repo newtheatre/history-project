@@ -1,6 +1,6 @@
 ---
 title: Crossing the Rubicon
-playwright: Cal Lewis
+devised: Cal Lewis
 student_written: true
 season: In House
 season_sort: 200
@@ -15,6 +15,10 @@ crew:
     name: Cal Lewis
   - role: Producer
     name: Jackie Lee
+
+assets:
+  - type: poster
+    image: crossing_the_rubicon_2008-09.jpg
 ---
 
 An original piece that centres around contemporary social issues. ‘Crossing the Rubicon’ serves as a commentary on life in modern-day London, the trials and tribulations one faces, and the inevitable consequences of actions.

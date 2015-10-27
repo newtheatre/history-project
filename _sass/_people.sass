@@ -1,12 +1,10 @@
+// People pages (alumni bios)
+
 .person
   @include grid-wrap
 
 .person-info
   @include grid-x-col(11)
-  .meta-col
-    @include grid-x-percent(25%)
-  .person-course
-    @include grid-x-percent(50%)
 
 .person-photo
   @include grid-x-col(5)
@@ -33,24 +31,45 @@
     @include set-property-to-gutter(margin-bottom)
     @include set-property-to-gutter(padding-right)
     @include flex-basis(180px)
-    max-width: 187px
+    max-width: 190px
     @include flex-grow(1)
     @include flex-shrink(1)
 
     .person-show-poster
+      height: 231px
+      margin-bottom: 4px
+      overflow: hidden
+      background: #0D0D0D
+      a
+        // Make whole element a block
+        display: block
+        height: 100%
       img
         width: 100%
 
   .person-show-title
     font-size: $base-font-size * 1.2
-    min-height: $baseline * 2
     margin-bottom: 0
 
-  .person-show-year
+  .person-show-meta
+    // font-size: $base-font-size * 0.7
     color: $color-grey
+    // About the same as line-height baseline but slightly nicer alignment
+    margin-bottom: 3px
+
+  .person-show-season
+    // Little circle coloured thing
+    @include show-season-circle
+
+  .person-show-year
 
   .person-show-roles
     @include list-unformatted
-    @include compact-text-nobr
-    color: $color-grey-dark
-    text-transform: uppercase
+
+    li
+      line-height: 1.5em
+      font-size: $base-font-size * 0.82
+      line-height: 1.5em
+      color: $color-grey-dark
+      text-transform: uppercase
+

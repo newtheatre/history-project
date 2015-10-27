@@ -65,6 +65,27 @@ crew:
     name: Amy Stone
   - role: Publicity Designer
     name: James Law
+
+assets:
+  - type: programme
+    image: let_my_people_go_programme_1.jpg
+    page: 1
+  - type: programme
+    image: let_my_people_go_programme_2.jpg
+    page: 2
+  - type: programme
+    image: let_my_people_go_programme_3.jpg
+    page: 3
+  - type: programme
+    image: let_my_people_go_programme_4.jpg
+    page: 4
+  - type: programme
+    image: let_my_people_go_programme_5.jpg
+    page: 5
+  - type: programme
+    image: let_my_people_go_programme_6.jpg
+    page: 6
+
 ---
 
 

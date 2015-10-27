@@ -25,6 +25,10 @@ crew:
   - role: Designer
     name: Matt Leventhall
 
+assets:
+  - type: poster
+    image: betrayal_2009-10.jpg
+
 published: true
 ---
 

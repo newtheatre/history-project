@@ -1,6 +1,6 @@
 ---
 title: Stars in Their Eyes
-season: In House
+season: Fundraiser
 period: Spring
 season_sort: 240
 venue:

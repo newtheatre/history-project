@@ -1,11 +1,42 @@
 ---
 title: "Yours and Mine"
 playwright: "Miriam Dyberg"
+student_written: true
 period: Spring
 season: "Fringe"
 season_sort: 340
 date_start: 2015-05-11
 date_end: 2015-05-12
+
+venue: 
+  - New Theatre Studio A
+
+cast:
+  - role: Peter
+    name: Karl Rawsthorne
+  - role: Anna
+    name: Bethany Ames
+  - role: Karen
+    name: Niamh Caines
+  - role: Malcolm
+    name: Will Berrington
+  - role: Ben/Admissions Officer
+    name: Joe Hincks
+  - role: Richard
+    name: Gary Berezin
+
+crew:
+  - role: Director
+    name: Miriam Dyberg-Tengroth
+  - role: Producer
+    name: Tom Heath
+  - role: Stage Manager
+    name: Amy Naylor
+  - role: Poster Designer
+    name: Beth Mullen
+  - role: Technical Operator
+    name: Tom Heath
+
 
 assets:
   - type: poster

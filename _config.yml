@@ -1,8 +1,8 @@
 # Site settings
-title: New Theatre History Project
+title: Nottingham New Theatre History Project
 email: alumni@newtheatre.org.uk
 twitter: nntalumni
-description: "Archive project collecting past shows, committees and alumni bios to piece together the New Theatre’s dynamic and vibrant history."
+description: "Archive project collecting past shows, committees and alumni biographies to piece together the theatre's dynamic and vibrant history."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://history.newtheatre.org.uk" # the base hostname & protocol for your site
 
@@ -23,7 +23,18 @@ gems:
 - jekyll-coffeescript
 - jekyll-jsminify
 
-exclude: [vendor, node_modules]
+exclude:
+- vendor
+- node_modules
+- README.md
+- CONTRIBUTING.md
+- Gemfile
+- Gemfile.lock
+- bower.json
+- package.json
+
+# skip_virtual_people: true
+# skip_smugmug: true
 
 collections:
   shows:
@@ -91,10 +102,17 @@ image:
         class: search-result-poster-thumb
         alt: Show poster
       width: 140
-
+    person_show_poster:
+      attr:
+        alt: Show poster
+      width: 200
     show_poster:
       attr:
         class: show-poster
+        alt: Show poster
+      width: 440
+    posterwall:
+      attr:
         alt: Show poster
       width: 440
     show_asset:
@@ -109,6 +127,10 @@ image:
       attr:
         alt: Person headshot
       width: 350
+    person_headshot_micro:
+      attr:
+        alt: Person headshot
+      width: 48
 
 sass:
   style: :compressed
@@ -122,6 +144,7 @@ lib:
     - lib/fancybox/source/helpers/jquery.fancybox-buttons.js
     - lib/fancybox/source/helpers/jquery.fancybox-media.js
     - lib/fancybox/source/helpers/jquery.fancybox-thumbs.js
+    - lib/letteringjs/jquery.lettering.js
     - lib/mousetrap/mousetrap.min.js
     - lib/lunr.js/lunr.min.js
 

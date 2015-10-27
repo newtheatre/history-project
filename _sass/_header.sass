@@ -1,3 +1,5 @@
+// Header
+
 .site-header
   padding: $baseline/2 0 0 0
   margin-bottom: $baseline
@@ -24,7 +26,7 @@
   &, a
     color: $color-text-white
 
-.header-nobr .site-header
+.header-nobr .site-header, .home .site-header
   margin-bottom: 0
 
 $nav-height: 63px
@@ -34,11 +36,12 @@ $nav-height: 63px
     height: $nav-height
 
 .site-title
+  // Site logo
   display: block
   @include grid-x-col(5)
   text-decoration: none
   @include respond-down(mob-land)
-    width: 280px
+    width: 180px
     margin: 0 auto
     padding-bottom: $baseline / 2
 
@@ -47,24 +50,44 @@ $nav-height: 63px
   @include respond-down(mob-land)
     width: 32px
 
+$title-text-size: 26px
+$title-text-baseline: 1.2
+
 .site-title-text
-  $title-text-size: 26px
-  $title-text-baseline: 1.2
   padding-top: 2px
   padding-left: 80px
   font-size: $title-text-size
   line-height: $title-text-size * $title-text-baseline
   @include text-shadow-effect($color-background-alt)
 
-  @include respond-down(tab-port)
-    font-size: $title-text-size * 0.6
-    line-height: $title-text-size * $title-text-baseline
+  .logo-line-tnnt
+    font-weight: normal
+    padding-top: 12px
+    font-family: $header-font-stack
+    font-size: $title-text-size / 2
+    line-height: ($title-text-size * $title-text-baseline) / 2
 
-  @include respond-down(mob-port)
-    font-size: $title-text-size * 0.6
+  .logo-line-hp
+    font-family: $header-font-stack
+
+  @include respond-down(tab-port)
+    $title-text-size-tab-port: $title-text-size * 0.7
+    font-size: $title-text-size-tab-port
+
+    .logo-line-tnnt
+      font-size: $title-text-size-tab-port / 2
+      line-height: ($title-text-size-tab-port * $title-text-baseline) / 2
+
+  @include respond-down(mob-land)
+    $title-text-size-mob-land: $title-text-size * 0.6
+    font-size: $title-text-size-mob-land
+
+    .logo-line-tnnt
+      font-size: $title-text-size-mob-land / 2
+      padding-top: 0
+
     padding-left: 42px
-    br
-      display: none
+
 
 .site-nav
   @include grid-x-col(8)

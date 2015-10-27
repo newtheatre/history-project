@@ -13,10 +13,13 @@ js: "<script type='text/javascript' src='/lib/github-issues-widget/github-issues
 
 Our current timeline:
 
-- <del>[**27 April**](https://github.com/newtheatre/history-project/milestones/alpha-1): Establish the site and define how data is going to be stored.</del>
-- <del>[**Mid May**](https://github.com/newtheatre/history-project/milestones/alpha-2): Add a number of shows, polish the styling, make sure the site is working well on mobile devices, optimise search.</del>
-- [**28 September**](https://github.com/newtheatre/history-project/milestones/launch): Have all the shows we have on record entered into the site. Officially launch via newsletter.
-- [**And Beyond**](https://github.com/newtheatre/history-project/milestones/): Continue to collect archive material and update the site. Add alumni bios, continue to improve the site.
+- <del>[**April 15**](https://github.com/newtheatre/history-project/issues?utf8=✓&q=milestone%3Aalpha-1): Establish the site and define how data is going to be stored.</del>
+- <del>[**May 15**](https://github.com/newtheatre/history-project/issues?utf8=✓&q=milestone%3Aalpha-2): Add a number of shows, polish the styling, make sure the site is working well on mobile devices, optimise search.</del>
+- <del>[**September 15**](https://github.com/newtheatre/history-project/issues?utf8=✓&q=milestone%3Alaunch): Have all the shows we have on record entered into the site. Officially launch via newsletter.</del>
+- [**November 15**](https://github.com/newtheatre/history-project/issues?utf8=✓&q=milestone%3Abefore-50th-event): Jobs to be done before 50th Anniversary Event
+- [**January 16**](https://github.com/newtheatre/history-project/issues?utf8=✓&q=milestone%3Anew-year): Intermediary milestone
+- [**March 16**](https://github.com/newtheatre/history-project/issues?utf8=✓&q=milestone%3Abefore-dinner): Jobs to be done before Alumni Dinner event
+- [**And Beyond**](https://github.com/newtheatre/history-project/milestones): Continue to collect archive material and update and improve the site.
 
 </div>
 

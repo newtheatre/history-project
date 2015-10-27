@@ -30,6 +30,13 @@ crew:
     name: Matt Wilks
   - role: Producer
     name: Elin Stenner-Matthews
+
+assets:
+  - type: poster
+    image: the_hothouse_poster.jpg
+
+smugmug: 9L7cvg
+
 ---
 
 At once fantastically dark and hilarious, 'The Hothouse' takes place in a Sanatorium overseen by a shadowy organisation called the Ministry. Shown only from the point of view of the staff, Pinter's sharp intelligence highlights the ridiculousness of arbitrary authority and explores the corrupting influence of ultimate power over another human being.

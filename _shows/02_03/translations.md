@@ -23,7 +23,7 @@ cast:
   - role: Bridget
     name: Charly Brooks
   - role: Hugh
-    name: Andy McDonnell
+    name: Andrew McDonnell
   - role: Owen
     name: Chris Roberts
   - role: Lancey
@@ -42,10 +42,11 @@ crew:
     name: Jane Lawson
   - role: Set Construction
     name: The Cast, Crew and Ade
+    person: false
   - role: Lighting Designer
     name: Chris Brammeld
   - role: Music
-    name: Richard McKEelvey
+    name: Richard McKelvey
   - role: Music
     name: Jane Lawson
   - role: Music
@@ -62,6 +63,14 @@ crew:
     name: Richard McKelvey
   - role: Backstage
     name: Pete Bridge
+
+assets:
+  - type: programme
+    image: translations_programme_1.jpg
+    page: 1
+  - type: programme
+    image: translations_programme_2.jpg
+    page: 2
 
 published: true
 ---

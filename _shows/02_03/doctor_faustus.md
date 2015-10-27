@@ -68,6 +68,7 @@ crew:
     name: Stuart Andrews
   - role: Set Construction
     name: Nottingham Playhouse Workshop
+    person: false
   - role: Stage Manager
     name: Davina Shah
   - role: Lighting Designer
@@ -85,6 +86,7 @@ crew:
     person: false
   - role: Programme
     name: Roo Machell (Ampersand Design Studio)
+    person: false
   - role: Backstage
     name: Kate Donovan
   - role: Backstage
@@ -93,6 +95,26 @@ crew:
     name: Sam Partridge
   - role: Wardrobe Assistance
     name: Judith Thei
+
+assets:
+  - type: programme
+    image: doctor_faustus_programme_1.jpg
+    page: 1
+  - type: programme
+    image: doctor_faustus_programme_2.jpg
+    page: 2
+  - type: programme
+    image: doctor_faustus_programme_3.jpg
+    page: 3
+  - type: programme
+    image: doctor_faustus_programme_4.jpg
+    page: 4
+  - type: programme
+    image: doctor_faustus_programme_5.jpg
+    page: 5
+  - type: programme
+    image: doctor_faustus_programme_6.jpg
+    page: 6
 
 published: true
 ---

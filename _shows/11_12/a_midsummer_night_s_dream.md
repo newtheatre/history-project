@@ -63,12 +63,17 @@ crew:
   - role: Choreography
     name: Sophie Tebbutt
   - role: Costume Design
-    name: Frankie Andrews
+    name: Francesca Andrews
   - role: Artwork
     name: Fran Rylands
   - role: Artwork
     name: Chloe Bridgen
 
+assets:
+  - type: poster
+    image: a_midsummer_nights_dream_2011-12.jpg
+
+smugmug: BLFMXP
 ---
 
 Four lovers, six amateur actors and a gathering of spirits move through a wild forest one night. Around them nature itself is turned on its head as the King and Queen of the Fairies face-off. The moon watches on.

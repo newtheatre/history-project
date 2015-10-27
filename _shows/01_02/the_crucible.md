@@ -6,7 +6,7 @@ title: The Crucible
 playwright: Arthur Miller
 season_sort: 50
 venue:
-  - New Theatre
+  - Djanogly Theatre
 date_start: 2001-11-08
 date_end: 2001-11-10
 cast:
@@ -15,7 +15,7 @@ cast:
   - role: Betty Parris
     name: Jo Hoare
   - role: Tituba
-    name: "Rhodi Ofori-Attah"
+    name: "Rhoda Ofori-Attah"
   - role: Abigail Williams
     name: Emily Hawkins
   - role: Susanna Walcott
@@ -84,7 +84,7 @@ crew:
   - role: Stage Manager
     name: James Law
   - role: Lighting
-    name: Michael Cook
+    name: Mike Cook
   - role: Lighting
     name: James Law
   - role: Sound
@@ -115,10 +115,18 @@ crew:
     name: Harriet Faber
   - role: Backstage
     name: Roanna Schneider
+
+assets:
+  - type: programme
+    image: the_crucible_programme_1.jpg
+    page: 1
+  - type: programme
+    image: the_crucible_programme_2.jpg
+    page: 2
+  - type: programme
+    image: the_crucible_programme_3.jpg
+    page: 3
+
 ---
-
-
-
-
 
 The Crucible is a 1953 play by the American playwright Arthur Miller. It was initially called "The Chronicles of Sarah Good". It is a dramatized and partially fictionalized story of the Salem witch trials that took place in the Province of Massachusetts Bay during 1692 and 1693. Miller wrote the play as an allegory of McCarthyism, when the U.S. government blacklisted accused communists.

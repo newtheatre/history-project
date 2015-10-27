@@ -1,6 +1,6 @@
 ---
 title: PARADISE
-playwright: (Devised)
+devised: true
 season: Edinburgh
 season_sort: 400
 period: Edinburgh
@@ -18,4 +18,6 @@ crew:
 assets:
   - type: poster
     image: paradise_poster.jpg
+
+    smugmug: 5j5PKS
 ---

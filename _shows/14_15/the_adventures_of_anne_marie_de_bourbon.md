@@ -10,6 +10,42 @@ date_end: 2014-12-08
 venue:
   - New Theatre Studio A
 
+cast:
+  - role: Anne Marie de Bourbon
+    name: Felicity Chilver
+  - role: Prof. Harry Lavelle
+    name: Sam Greenwood
+  - role: Fairy Queen
+    name: Maddie Hardy
+  - role: The Kraken /Seagull / Fairy
+    name: Page Phillips Harrington
+  - role: Captain Truebeard / Gruff
+    name: Joe Hincks
+  - role: Pan / Grumpy
+    name: Duncan McGillivray
+  - role: Carog the Witch
+    name: Lizzie Frainier
+  - role: Cursed King
+    name: Mike Bradley
+  - role: Barbara the Tree / Fairy /Blubbery Joe
+    name: Lou Knapp
+  - role: Cynthia the Tree/1st Mate
+    name: Alice Richards
+
+crew:
+  - role: Director
+    name: Chris Trueman
+  - role: Producer
+    name: Lara Cowler
+  - role: Musical Director
+    name: Imogen Harrison
+  - role: Lighting Designer
+    name: Dave Hanks
+  - role: Lighting Designer
+    name: Darcey Graham
+  - role: Sound Operator
+    name: Harry Bridge
+
 assets:
   - type: poster
     image: the_adventures_of_anne_marie_de_bourbon_poster.jpg
