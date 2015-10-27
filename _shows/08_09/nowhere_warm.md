@@ -10,4 +10,6 @@ venue:
 assets:
   - type: poster
     image: nowhere_warm_2008-09.jpg
+
+smugmug: zjH2L9
 ---

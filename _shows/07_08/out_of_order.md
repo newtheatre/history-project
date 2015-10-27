@@ -12,4 +12,6 @@ date_end: 2008-03-08
 assets:
   - type: poster
     image: out_of_order_2007-08.jpg
+
+smugmug: XdwpkT
 ---

@@ -82,6 +82,8 @@ crew:
 assets:
   - type: poster
     image: jerusalem_poster.jpg
+
+smugmug: Btr98g
 ---
 
 Join infamous scumbag Johnny Rooster Byron and a host of other outcasts as they fight back against their local village council. It’s the day of the annual village fete and Johnny’s just been evicted from his dilapidated caravan in the middle of the woods. Vivid characters. Fast-paced, anarchic dialogue. A woodland set complete with a real smashed up caravan. What’s not to love?!
