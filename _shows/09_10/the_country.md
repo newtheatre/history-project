@@ -33,6 +33,8 @@ assets:
   - type: poster
     image: the_county_2009-10.jpg
 
+smugmug: jW4sSZ
+
 published: true
 ---
 
