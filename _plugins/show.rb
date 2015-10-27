@@ -17,6 +17,20 @@ module Jekyll
       # Return playwright_type, playwright, playwright_formatted
     end
 
+    def get_playwright_formatted_long(show)
+      ret = show.data["playwright_formatted"]
+
+      if show.data.has_key?("translator")
+        ret = "#{ ret }; Translated by #{ show.data["translator"] }"
+      end
+
+      if show.data.has_key?("adaptor")
+        ret = "#{ ret }; Adapted by #{ show.data["adaptor"] }"
+      end
+
+      return ret
+    end
+
     # Main generation method
     def generate(site)
       puts "Processing shows..."
@@ -38,6 +52,8 @@ module Jekyll
         # Set meta attributes
         show.data["playwright_type"], show.data["playwright"],
           show.data["playwright_formatted"] = get_playwright(show)
+
+        show.data["playwright_formatted_long"] = get_playwright_formatted_long(show)
 
         # Set year attributes
         show.data["year"] = year

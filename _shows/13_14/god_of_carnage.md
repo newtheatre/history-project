@@ -1,6 +1,6 @@
 ---
 title: God of Carnage
-playwright: Yasmina Reza (Translated by Christoper Hampton)
+playwright: Yasmina Reza
 translator: Christoper Hampton
 season: In House
 season_sort: 50
