@@ -10,4 +10,6 @@ venue:
 assets:
   - type: poster
     image: the_pillowman_2008-09.jpg
+
+smugmug: SRSrxr
 ---

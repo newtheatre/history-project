@@ -10,4 +10,6 @@ venue:
 assets:
   - type: poster
     image: the_dumb_waiter_2008-09.jpg
+
+smugmug: zfpsTT
 ---

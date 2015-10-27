@@ -10,7 +10,7 @@ date_start: 2012-11-26
 date_end: 2012-11-27
 
 cast:
-  - role: Garcin 
+  - role: Garcin
     name: Lyle Fulton
   - role: The Valet
     name: James Pardon
@@ -38,6 +38,8 @@ crew:
 assets:
   - type: poster
     image: no_exit_poster.jpg
+
+smugmug: sqVqKs
 ---
 
 Three strangers are locked in a room together. This room is hell but instead of shackles, racks and fire there are only words, unwanted affection and troublesome pasts. By the end of this one act play, Garcin, Inez and Estelle are inseparable, however they all come to the same conclusion; hell is definitely other people!

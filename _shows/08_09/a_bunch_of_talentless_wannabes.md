@@ -12,4 +12,6 @@ date_end: 2009-02-21
 assets:
   - type: poster
     image: a_bunch_of_talentless_wannabees_2008-09.jpg
+
+smugmug: DVdGzx
 ---

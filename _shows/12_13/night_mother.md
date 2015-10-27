@@ -28,6 +28,8 @@ crew:
 assets:
   - type: poster
     image: night_mother_poster.jpg
+
+smugmug: FTpG92
 ---
 
 Jessie's father is dead, her absent son is a petty thief and following the breakup of her loveless marriage she has moved back in with her mother. Helpless and tired, one evening she asks for her father's service revolver and calmly announces that she intends to kill herself. A tragic two-hander for a talented female duo.

@@ -6,4 +6,6 @@ season: In House
 season_sort: 80
 venue:
   - New Theatre
+
+smugmug: 6F3ctk
 ---
