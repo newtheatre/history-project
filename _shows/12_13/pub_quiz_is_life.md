@@ -2,12 +2,12 @@
 title: Pub Quiz is Life
 playwright: Richard Bean
 season: In House
-season_sort: 245
+season_sort: 270
 period: Spring
 venue:
   - New Theatre
-date_start: 2013-04-08
-date_end: 2013-04-11
+date_start: 2013-05-08
+date_end: 2013-05-11
 
 cast:
   - role: Lee
@@ -32,6 +32,30 @@ crew:
     name: Jess Courtney
   - role: Producer
     name: Grace Rowland
+  - role: Technical Director
+    name: Emma-Louise Amanshia
+  - role: Lighting Designer
+    name: Jess Courtney
+  - role: Lighting Designer
+    name: Emma-Louise Amanshia
+  - role: Technical Operator
+    name: Mia Orbertelli
+  - role: Technical Operator
+    name: Hannah Olley
+  - role: Technical Operator
+    name: Lauren Grant
+  - role: Technical Operator
+    name: Nick Stevenson
+  - role: Technical Operator
+    name: Hugh Purves
+  - role: Set Designer
+    name: Jess Courtney
+  - role: Make-up
+    name: Emily Heaton
+  - role: Publicity Manager
+    name: Tyler-Antonia Gordon
+  - role: Photography
+    name: Nick Barker
 
 assets:
   - type: poster

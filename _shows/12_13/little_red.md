@@ -32,6 +32,12 @@ crew:
     name: Becca Clee
   - role: Lighting
     name: Will Pimblett
+  - role: Composer
+    name: Sam Blade
+  - role: Musical Director
+    name: Greg Link
+  - role: Photography
+    name: Dimitrios Darzentas
 
 assets:
   - type: poster

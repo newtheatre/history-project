@@ -28,17 +28,38 @@ crew:
     name: Andy Routledge
   - role: Producer
     name: Alice Ratcliffe
-  - role: Stage Manager
-    name: Tom Selves
-  - role: Stage Manager
-    name: Rory O'Shea
   - role: Technical Director
     name: Wawa Hunja
   - role: Lighting Designer
     name: Will Pimblett
+  - role: Sound Designer
+    name: Nick Barker
   - role: Technical Operator
     name: Emma-Louise Amanshia
-
+  - role: Technical Operator
+    name: Joseph Heil
+  - role: Technical Operator
+    name: Peter Bradley
+  - role: Set Designer
+    name: Alex Jamieson
+  - role: Stage Manager
+    name: Tom Selves
+  - role: Stage Manager
+    name: Rory O'Shea
+  - role: Costumes
+    name: Zoe Plummer
+  - role: Make-up
+    name: Zoe Moulton
+  - role: Publicity Manager
+    name: Claire Lennox
+  - role: Publicity Manager
+    name: Davina Shevonne Sinnatamby
+  - role: Publicity Designer
+    name: Ben Hollands
+  - role: Photography
+    name: Dimitrios Darzentas
+  - role: Photography
+    name: Nick Barker
 smugmug: dvVPZh
 
 assets:

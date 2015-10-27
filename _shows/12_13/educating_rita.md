@@ -29,7 +29,23 @@ crew:
   - role: Technical Operator
     name: Jo Estrin
   - role: Technical Operator
-    name: Megan Seely
+    name: Meghan Seely
+  - role: Technical Operator
+    name: Rosie Cave
+  - role: Technical Operator
+    name: Judith Marfo
+  - role: Technical Operator
+    name: Michael Ferdenzi
+  - role: Stage Manager
+    name: Louisa Morrison
+  - role: Make-up
+    name: Emily Heaton
+  - role: Publicity Manager
+    name: Rachel Considine
+  - role: Publicity Designer
+    name: Jason Flynn
+  - role: Photography
+    name: Jess Courtney
 
 assets:
   - type: poster

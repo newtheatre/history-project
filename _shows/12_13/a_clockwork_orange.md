@@ -38,8 +38,18 @@ crew:
     name: Alex Mawby
   - role: Producer
     name: Laura Gallop
+  - role: Lighting Designer
+    name: Lydia Scott
+  - role: Technical Director
+    name: Joseph Heil
+  - role: Set Designer
+    name: Matasha Mortimer
+  - role: Stage Manager
+    name: Liz Cornwell
   - role: Video Technician
     name: Will Pimblett
+  - role: Graphic Designer
+    name: Harry Bradley
 
 assets:
   - type: poster

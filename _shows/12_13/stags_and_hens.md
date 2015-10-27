@@ -39,6 +39,24 @@ crew:
     name: Ellie Porter
   - role: Producer
     name: Gabriella Carboneri
+  - role: Technical Director
+    name: Tessa Denney
+  - role: Lighting Designer
+    name: Jess Courtney
+  - role: Technical Operator
+    name: Jordan Hallam
+  - role: Technical Operator
+    name: Zoe Leigh
+  - role: Technical Operator
+    name: Robyn Lawes
+  - role: Technical Operator
+    name: Michael Ferdenzi
+  - role: Set Designer
+    name: Liz Cornwell
+  - role: Costume
+    name: Lydia Scott
+  - role: Costume
+    name: Zoe Plummer
 
 assets:
   - type: poster
