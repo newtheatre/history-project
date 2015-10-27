@@ -1,9 +1,8 @@
 ---
-published: true
+title: Age Concern
+devised: true
 season: In House
 period: Spring
-title: Age Concern
-playwright: (Devised 24 Hour Play)
 season_sort: 280
 venue:
   - New Theatre
@@ -39,3 +38,4 @@ assets:
     image: age_concern_programme_2.jpg
 ---
 
+24 Hour Play

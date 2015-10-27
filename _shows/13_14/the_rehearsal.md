@@ -1,6 +1,6 @@
 ---
 title: "The Rehearsal"
-playwright: "(Devised)"
+devised: true
 period: Spring
 season: Fringe
 season_sort: 215
@@ -8,7 +8,7 @@ date_start: 2014-03-10
 date_end: 2014-03-11
 venue:
   - New Theatre Studio A
-  
+
 cast:
   - role: Al
     name: Ben Hollands

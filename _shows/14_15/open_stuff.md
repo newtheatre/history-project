@@ -1,6 +1,6 @@
 ---
 title: "OPEN"
-playwright: "(Devised)"
+devised: true
 period: Spring
 season: "STUFF"
 season_sort: 500
@@ -9,15 +9,15 @@ venue:
   - New Theatre
 
 cast:
-  - role: 
-    name: Ricki Crook 
-  - role: 
+  - role:
+    name: Ricki Crook
+  - role:
     name: Holly Gatfield
-  - role: 
+  - role:
     name: Amy Brough-Aikin
-  - role: 
+  - role:
     name: Jonathan Taylor Davies
-  - role: 
+  - role:
     name: Arnaud Lacey
 
 crew:
