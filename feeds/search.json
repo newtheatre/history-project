@@ -14,6 +14,7 @@ layout: null
         "year_title": {{ show.year_page.title | jsonify }},
         "content": {{ show.content | markdownify | strip_html | jsonify }},
         "playwright": {{ show.playwright | jsonify }},
+        "playwright_formatted": {{ show.playwright_formatted | jsonify }},
         "season": {{ show.season | jsonify }},
         "venue": {{ show.venue | jsonify }},
         "link": "{{ show.url }}",

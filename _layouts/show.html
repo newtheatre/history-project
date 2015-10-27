@@ -55,7 +55,7 @@ layout: default
           {% if show.student_written %}
             <i class="meta-icon fa fa-pencil" title="Student Written"></i>
           {% elsif show.playwright_type == "devised" %}
-            <i class="meta-icon ion-person-stalker"></i>
+            <i class="meta-icon fa fa-group"></i>
           {% else %}
             <i class="meta-icon fa fa-book"></i>
           {% endif %}
@@ -63,6 +63,8 @@ layout: default
             <p>
               {% if show.playwright %}
                 {{ show.playwright_formatted }}
+              {% else %}
+                <span class="unknown">Playwright Unknown</span>
               {% endif %}
             </p>
           </div>
