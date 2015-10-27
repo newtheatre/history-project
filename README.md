@@ -6,39 +6,33 @@
 
 The history project aims to collect information on past shows, committees and other goings-on at The Nottingham New Theatre.
 
+## System
 
-## Install
+To get the site running locally you will need a working Ruby environment, the bundler gem installed, ImageMagick, Node.js, Coffeescript, and Bower. The following instructions work on Ubuntu.
 
-To get the site running locally you will need a working Ruby environment, the bundler gem installed (`sudo gem install bundler`) and ImageMagick (usually `sudo apt-get install imagemagick`). Then do the following:
+- `sudo apt-get install ruby-dev rubygems nodejs npm imagemagick` for an up to date Ruby with development bits and the Gem package manager, Node.js and its package manager npm, and finally Imagemagick for image manipulation.
+- `sudo gem install bundler` for the Ruby depenancy manager
+- `sudo ln -s /usr/bin/nodejs /usr/bin/node` because some Node packages put it in the wrong place
+- `sudo npm install -g coffee-script bower` for Coffeescript and Bower
 
-`git clone https://github.com/newtheatre/history-project.git` to clone the repo to your computer.
+## Project Install
 
-`cd history-project` to change into the directory.
+- `git clone https://github.com/newtheatre/history-project.git` to clone the repo to your computer.
+- `cd history-project` to change into the directory.
+- `bundle install` to install all the Ruby dependencies the project needs to build.
+- `npm install` to install all the Node dependencies the project needs to build.
+- `bower install` to install all the frontend dependencies the project needs to build.
 
-`bundle install` to install all the Ruby dependencies the project needs to build.
+## Run
 
-`npm install` to install all the Node dependencies the project needs to build.
-
-`bundle exec jekyll serve --watch` to build the site and serve it on http://localhost:4000 when done. File changes will trigger a rebuild.
-
+- `_bin/build.sh` to build the site to _site.
+- `cd _site && python -m SimpleHTTPServer` to serve the site using the Python HTTP server (should be on all *nix machines)
 
 ## Editing
 
 See the [site documentation](http://history.newtheatre.org.uk/docs/)
 
-
 ## Useful Stuff
-
-### Renaming txt files
-
-Rename all .txt files to .md in a directory:
-
-```
-for file in *.txt
-do
-mv $file `echo $file | sed 's/\(.*\.\)txt/\1md/'`
-done
-```
 
 ### HTML Proofing
 
