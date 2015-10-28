@@ -27,7 +27,7 @@ crew:
   - role: Lighting Designer
     name: Will Pimblett
   - role: Technical Operator
-    name; Joseph Heil
+    name: Joseph Heil
 
 assets:
   - type: poster
