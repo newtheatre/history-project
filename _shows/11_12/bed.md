@@ -11,7 +11,7 @@ date_end: 2011-12-03
 
 cast:
   - role: Charles
-    name: James Townend
+    name: James Townsend
   - role: Captain
     name: Conrad Cohen
   - role: Sermon Head
@@ -23,7 +23,7 @@ cast:
   - role: Spinster
     name: Flo Hapgood
   - role: Bosom Lady
-    name: Suzie Roope
+    name: Suzie Rope
   - role: Marjorie
     name: Ellie Cawthorne
 

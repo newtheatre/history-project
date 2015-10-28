@@ -35,5 +35,7 @@ photos:
   - type: people
     image: wild_west_end_people.jpg
 
+smugmug: 9CnkkD
+
 ---
 
