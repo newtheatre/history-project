@@ -22,8 +22,12 @@ crew:
     name: Liz Cornwell
   - role: Set Designer
     name: Alex Jamieson
+  - role: Set Construction
+    name: Joesph Heil
   - role: Lighting Designer
     name: Will Pimblett
+  - role: Technical Operator
+    name; Joseph Heil
 
 assets:
   - type: poster

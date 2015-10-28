@@ -60,6 +60,8 @@ crew:
     name: Morgan Whiting-Fawcett
   - role: Assistant Designer
     name: Hannah Kettle
+  - role: Assistant Lighting Designer
+    name: Joseph Heil
   - role: Musician
     name: Manuel Barenz
 

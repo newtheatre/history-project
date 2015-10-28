@@ -32,6 +32,10 @@ crew:
     name: Nathan Penney
   - role: Technical Operator
     name: Tom Gloess
+  - role: Technical Operator
+    name: Aubrey Turner
+  - role: Technical Operator
+    name: Joseph Heil
   - role: Publicity Designer
     name: Ben Hollands
   - role: Photography

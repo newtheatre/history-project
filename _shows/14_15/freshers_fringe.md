@@ -8,6 +8,16 @@ date_end: 2014-10-07
 venue:
   - New Theatre
 
+crew:
+  - role: Lighting Designer
+    name: Joseph Heil
+  - role: Technical Director
+    name: David Taylor
+  - role: Technical Operator
+    name: Joseph Heil
+  - role: Technical Operator
+    name: Sam Osborne
+
 assets:
   - type: poster
     image: freshers_fringe_2014_poster.jpg

@@ -37,6 +37,8 @@ crew:
     name: Tom Selves
   - role: Stage Manager
     name: Rory O'Shea
+  - role: Set Construction
+    name: Joseph Heil
   - role: Technical Director
   - role: Lighting Designer
   - role: Make Up Artist

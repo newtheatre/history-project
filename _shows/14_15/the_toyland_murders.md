@@ -37,6 +37,8 @@ crew:
     name: Darcey Graham
   - role: Lighting Designer
     name: Harry Bridge
+  - role: Set Construction
+    name: Joseph Heil
   - role: Stage Manager
     name: Jess Lundholm
   - role: Stage Manager

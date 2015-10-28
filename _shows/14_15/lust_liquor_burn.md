@@ -24,6 +24,8 @@ crew:
     name: Dina Elkordy
   - role: Poster Designer
     name: Will Berrington
+  - role: Lighting Designer
+    name: Joseph Heil
 
 
 assets:

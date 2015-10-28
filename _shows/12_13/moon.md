@@ -33,6 +33,8 @@ crew:
     name: Tom Tolond
   - role: Stage Manager
     name: Anna Learoyd
+  - role: Set Construction
+    name: Joseph Heil
   - role: Publicity Designer
     name: Martha Bowyer
 

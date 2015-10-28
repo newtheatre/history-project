@@ -45,6 +45,8 @@ crew:
     name: Rory O'Shea
   - role: Technical Operator
     name: Tyler-Antonia Gordon
+  - role: Technical Operator
+    name: Tom Gloess
 
 assets:
   - type: poster

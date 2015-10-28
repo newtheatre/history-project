@@ -38,6 +38,8 @@ crew:
     name: Krissy Meyer
   - role: Technical Operator
     name: Mitchell Masterson
+  - role: Technical Operator
+    name: Joseph Heil
 
 assets:
   - type: poster

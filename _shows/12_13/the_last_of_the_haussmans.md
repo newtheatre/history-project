@@ -32,6 +32,8 @@ crew:
     name: Unknown
   - role: Lighting Designer
     name: Will Pimblett
+  - role: Set Designer
+    name: Joseph Heil
 
 assets:
   - type: poster

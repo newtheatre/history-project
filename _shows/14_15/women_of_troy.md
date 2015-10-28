@@ -57,6 +57,8 @@ crew:
     name: Nathan Penney
   - role: Set Designer
     name: Joanna Manning
+  - role: Set Construction
+    name: Joseph Heil
   - role: Stage Manager
     name: Dave Hanks
   - role: Stage Manager

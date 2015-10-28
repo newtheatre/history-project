@@ -15,7 +15,8 @@ comment: Not sure what season this officially fell into, I think it spilled over
 crew:
   - role: director
     name: Adam H. Wells
-
+  - role: Technical Operator
+    name: Joseph Heil
 assets:
   - type: poster
     image: the_off_white_horse_poster.jpg

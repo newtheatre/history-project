@@ -32,6 +32,8 @@ crew:
     name: Kat Tye
   - role: Set Designer
     name: Chelsea Jayne Wright
+  - role: Set Construction
+    name: Joseph Heil
   - role: Stage Manager
     name: Alexandra Day
   - role: Stage Manager

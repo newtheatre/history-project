@@ -51,8 +51,12 @@ crew:
     name: Robyn Lawes
   - role: Technical Operator
     name: Michael Ferdenzi
+  - role: Technical Operator
+    name: Joseph Heil
   - role: Set Designer
     name: Liz Cornwell
+  - role: Set Construction
+    name: Jospeh Heil
   - role: Costume
     name: Lydia Scott
   - role: Costume

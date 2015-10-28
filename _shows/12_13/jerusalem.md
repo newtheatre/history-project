@@ -46,8 +46,6 @@ crew:
     name: Wawa Hunja
   - role: Set Designer
     name: Jess Courtney
-  - role: Stage Manager
-    name: Liz Cornwell
   - role: Technical Director
     name: Emma-Louise Amanshia
   - role: Lighting Designer

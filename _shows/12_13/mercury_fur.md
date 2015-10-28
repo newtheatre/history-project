@@ -48,6 +48,8 @@ crew:
     name: Megan Seely
   - role: Technical Operator
     name: Zoe Plumber
+  - role: Technical Operator
+    name: Joseph Heil
 
 assets:
   - type: poster

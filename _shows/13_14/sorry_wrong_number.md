@@ -38,6 +38,8 @@ crew:
     name: Nathan Penney
   - role: Lighting Designer
     name: Nathan Penney
+  - role: Sound Designer
+    name: Joseph Heil
   - role: Technical Operator
     name: Holly Pownall
   - role: Technical Operator

@@ -29,6 +29,8 @@ crew:
     name: Emma-Louise Amanshia
   - role: Technical Director
     name: Wawa Hunja
+  - role: Technical Operator
+    name: Joseph Heil
   - role: Lighting Designer
     name: Emma-Louise Amanshia
   - role: Lighting Designer
@@ -39,6 +41,8 @@ crew:
     name: Matt Wilks
   - role: Set Designer
     name: Liz Cornwell
+  - role: Set Construction
+    name: Joseph Heil
   - role: Stage Manager
     name: Tessa Denney
   - role: Stage Manager
