@@ -29,6 +29,10 @@ crew:
     name: Gary Berezin
   - role: Producer
     name: Dina Elkordy
+  - role: Lighting Designer
+    name: Joseph Heil
+  - role: Technical Operator
+    name: Joanna Manning
 
 assets:
   - type: poster

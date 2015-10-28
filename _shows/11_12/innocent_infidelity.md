@@ -18,6 +18,12 @@ crew:
     name: Will Pimblett
   - role: Lighting Designer
     name: Will Pimblett
+  - role: Technical Operator
+    name: Joseph Heil
+  - role: Set Design
+    name: Alex Jamieson
+  - role: Set Construction
+    name: Joseph Heil
 
 assets:
   - type: poster

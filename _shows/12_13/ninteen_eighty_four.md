@@ -43,6 +43,12 @@ crew:
     name: Dan Turke
   - role: Technical Operator
     name: Claire Nias
+  - role: Technical Operator
+    name: Joseph Heil
+  - role: Set Construction
+    name: Jospeh Heil
+  - role: Set Construction
+    name: Aubrey Turner
   - role: Photography
     name: Will Pimblett
 

@@ -14,6 +14,10 @@ crew:
     name: Kathryn Feavers
   - role: Producer
     name: Wawa Hunja
+  - role: Technical Operator
+    name: Joseph Heil
+  - role: Set Construction
+    name: Joseph Heil
 
 assets:
   - type: poster

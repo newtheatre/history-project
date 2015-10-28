@@ -25,6 +25,11 @@ crew:
     name: Adam H. Wells
   - role: Producer
     name: Rob Greenman
+  - role: Technical Director
+    name: Joseph Heil
+  - role: Lighting Designer
+    name: Joseph Heil
+
 
 assets:
   - type: poster

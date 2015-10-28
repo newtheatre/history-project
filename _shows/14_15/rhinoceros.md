@@ -50,6 +50,8 @@ crew:
     name: Sam Osborne
   - role: Lighting Designer
     name: Joanne Blunt
+  - role: Set Construction
+    name: Joseph Heil
   - role: Poster Designer
     name: Max Miller
   - role: Artwork

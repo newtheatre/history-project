@@ -45,6 +45,9 @@ crew:
     name: Darcey Graham
   - role: Sound Operator
     name: Harry Bridge
+  - role: Set Construction
+    name: Joseph Heil
+
 
 assets:
   - type: poster

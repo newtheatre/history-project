@@ -36,6 +36,8 @@ crew:
     name: Judith Marfo
   - role: Technical Operator
     name: Michael Ferdenzi
+  - role: Technical Operator
+    name: Joseph Heil
   - role: Stage Manager
     name: Louisa Morrison
   - role: Make-up

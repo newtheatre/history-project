@@ -13,6 +13,12 @@ assets:
   - type: poster
     image: all_my_sons_2011-12.jpg
 
+crew:
+  - role: Technical Operator
+    name: Joseph Heil
+  - role: Set Construction
+    name: Joseph Heil
+
 smugmug: s73C2d
 ---
 

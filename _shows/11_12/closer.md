@@ -28,6 +28,10 @@ crew:
     name: Will Pimblett
   - role: Technical Operator
     name: Tessa Denney
+  - role: Technical Operator
+    name: Joseph Heil
+  - role: Technical Operator
+    name: Alex Harverson
 
 assets:
   - type: poster

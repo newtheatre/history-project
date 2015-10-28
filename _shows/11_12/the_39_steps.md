@@ -24,6 +24,12 @@ crew:
     name: Andy Routledge
   - role: Producer
     name: Nick Barker
+  - role: Set Designer
+    name: Alex Jamieson
+  - role: Set Construction
+    name: Joseph Heil
+  - role: Technical Operator
+    name: Joseph Heil
 
 assets:
   - type: poster

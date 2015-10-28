@@ -16,6 +16,8 @@ crew:
     name: unknown
   - role: Technical Director
     name: Will Pimblett
+  - role: Technical Operator
+    name: Joseph Heil
   - role: Stage Manager
     name: Liz Cornwell
   - role: Stage Manager
