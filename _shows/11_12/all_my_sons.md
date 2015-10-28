@@ -13,11 +13,26 @@ assets:
   - type: poster
     image: all_my_sons_2011-12.jpg
 
+cast:
+  - name: Ajay Stevenson
+  - name: Jess Courtney
+  - name: Alice Hildreth
+  - name: Jonno Lake
+  - name: Lizzie Frainier
+  -
+
 crew:
+  - role: Director
+    name: Dave Porter
+  - role: Lighting Designer
+    name: Lawrence Bolton
+  - role: Technical director
+    name; Emma-Louise Amanshia
   - role: Technical Operator
     name: Joseph Heil
   - role: Set Construction
     name: Joseph Heil
+  - name: Tessa Denney
 
 smugmug: s73C2d
 ---

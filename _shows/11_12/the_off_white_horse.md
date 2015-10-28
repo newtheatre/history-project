@@ -6,14 +6,21 @@ season: In House
 season_sort: 110
 date_start: 2012-02-15
 date_end: 2012-02-18
-period: Autumn
+period: Spring
 venue:
   - New Theatre
 
 comment: Not sure what season this officially fell into, I think it spilled over from the autumn
 
+cast:
+  - name: Jenny Kohnhorst
+  - name: Henry Blanchard
+  - name: Laura Kaye Thomson
+  - name:
+  - name:
+
 crew:
-  - role: director
+  - role: Director
     name: Adam H. Wells
   - role: Technical Operator
     name: Joseph Heil
