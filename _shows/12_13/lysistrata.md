@@ -12,7 +12,7 @@ date_end: 2013-04-27
 
 cast:
   - role: Ismenia/Chorus
-    name: Emma Louise Amanshia
+    name: Emma_Louise Amanshia
   - role: Myrrhine/Chorus
     name: Ali Blatcher
   - role: Cinesias/Chorus
