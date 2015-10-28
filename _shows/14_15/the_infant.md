@@ -44,6 +44,8 @@ crew:
     name: Louis Harris
   - role: Technical Operator
     name: Harry Bridge
+  - role: Technical Operator
+    name: Joanne Blunt
   - role: Stage Manager
     name: Lou Knapp
   - role: Stage Manager
