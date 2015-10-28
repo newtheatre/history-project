@@ -79,9 +79,6 @@ crew:
   - role: Production Assistant
     name: Joseph Heil
 
-assets:
-  - type: poster
-    image: bed_poster_lakeside.jpg
 
 smugmug: ZJCjTC
 ---
