@@ -162,6 +162,28 @@ module Jekyll
       end
     end
 
+    def generate_show_with_index(show, index)
+      # Set sort dependant attributes
+      show.data["index"] = index
+      show.data["next"] = @shows[index + 1]
+      show.data["previous"] = @shows[index - 1]
+
+      # Extract cast/crew data for reverse indexing, this wants to happen to
+      # the sorted shows so lists on people records are in order
+      send_people(show, "cast")
+      send_people(show, "crew")
+    end
+
+    def sort_shows_by_year(shows)
+      """Returns a hash of shows by year"""
+      shows_by_year = Hash.new
+      # Iterate through sorted shows
+      # Put show into an array as a member of the shows_by_year hash
+      # Create that array if this is the first time we've touched this year
+      shows.each { |show| (shows_by_year[show.data["year"]] ||= []) << show }
+      return shows_by_year
+    end
+
     # Main generation method
     def generate(site)
       puts "Processing shows..."
@@ -171,32 +193,20 @@ module Jekyll
       @years = @site.collections["years"].docs
       @people = @site.collections["people"].docs
 
-      # Compute extra show data attributes and sort
-      shows = sort_shows(
+      # Compute extra show data attributes and sort, get list of shows
+      @shows = sort_shows(
         @site.collections["shows"].docs.each { |show| generate_show(show) }
       )
 
-      shows_by_year = Hash.new
+      # Compute extra show data attributes that require sorting to have happened
+      @shows.each_with_index { |show, index| generate_show_with_index(show, index) }
 
-      for show, index in shows.each_with_index do
-        # Put show into an array as a member of the shows_byt_year hash
-        # Create that array if this is the first time we've touched this year
-        (shows_by_year[show.data["year"]] ||= []) << show
-
-        # Set sort dependant attributes
-        show.data["index"] = index
-        show.data["next"] = shows[index + 1]
-        show.data["previous"] = shows[index - 1]
-
-        # Extract cast/crew data for reverse indexing, this wants to happen to
-        # the sorted shows so lists on people records are in order
-        send_people(show, "cast")
-        send_people(show, "crew")
-      end
+      # Get hash of shows by year
+      @shows_by_year = sort_shows_by_year(@shows)
 
       # Accessible chopped and diced shows
-      @site.data["shows"] = shows
-      @site.data["shows_by_year"] = shows_by_year
+      @site.data["shows"] = @shows
+      @site.data["shows_by_year"] = @shows_by_year
 
     end
   end
