@@ -80,12 +80,6 @@ crew:
     name: Joseph Heil
 
 
-smugmug: ZJCjTC
 ---
 
-
-Ever had trouble sleeping?
-
-From the mind of one of Britain's greatest contemporary playwrights comes the tale of seven elderly people and their bed. Minds bursting at the seams with the most terrifying memories and the most wonderful dreams, getting some shuteye in this place in not going to be easy.
-
-As much as they may wish to relive or even forget their pasts, all they want to do is go to sleep. But that head on the shelf has other ideas...
+The ancient world is gripped by a seemingly interminable war. With the men of Athens all serving in the forces, the women of the city can take no more. In secret, they meet with the enemy women and form a pact. The battle moves into the bedroom. No sex for the men - unless the women get peace. Lysistrata is the original battle of the sexes and its themes of feminism, power and politics are as relevant now as they were in ancient Greece.
