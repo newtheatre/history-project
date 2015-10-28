@@ -56,26 +56,12 @@ module Jekyll
       show.data["assets"].select { |i| i["display_image"] == true }
     end
 
-    def get_show_posters(show)
-      show.data["assets"].select { |i| i["type"] == "poster" }
-    end
-
-    def get_show_flyers(show)
+    def get_show_asset_type(show, key)
       show.data["assets"].select { |i|
         if i.has_key?("page")
-          i["type"] == "flyer" and not i["page"] > 1
+          i["type"] == key and not i["page"] > 1
         else
-          i["type"] == "flyer"
-        end
-      }
-    end
-
-    def get_show_programmes(show)
-      show.data["assets"].select { |i|
-        if i.has_key?("page")
-          i["type"] == "programme" and not i["page"] > 1
-        else
-          i["type"] == "programme"
+          i["type"] == key
         end
       }
     end
@@ -86,9 +72,9 @@ module Jekyll
 
       # Find assets that fit the criteria for being a display image
       override_assets = get_show_override_assets(show)
-      posters = get_show_posters(show)
-      flyers = get_show_flyers(show)
-      programmes = get_show_programmes(show)
+      posters = get_show_asset_type(show, "poster")
+      flyers = get_show_asset_type(show, "flyer")
+      programmes = get_show_asset_type(show, "programme")
 
       # Pick one in this order of precedence
       if override_assets.size > 0
