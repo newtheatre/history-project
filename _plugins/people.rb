@@ -56,27 +56,30 @@ module Jekyll
   class PeopleDataGenerator < Generator
     priority :low # Before years, after shows and committees
 
+    def generate_person(person)
+      """Method called on all people"""
+      # Populate person record with data from the reverse index
+      if @site.data["people_names"].include?( person.data["title"] )
+        person.data["shows"] = @site.data["people_ri_shows"][ person.data["title"] ]
+        person.data["committees"] = @site.data["people_ri_committees"][ person.data["title"] ]
+      end
+
+      # Person additional data
+      person.data["path_name"] = make_hp_path(person.data["title"])
+
+      # People by filename
+      @people_by_filename[person.basename_without_ext] = person
+    end
+
     def generate(site)
       puts "Processing people..."
       people = site.collections["people"].docs
-      site.data["people_by_filename"] = Hash.new
+      @site = site
+      @people_by_filename = Hash.new
 
-      for person in people
+      people.each { |person| generate_person(person) }
 
-        # Populate person record with data from the reverse index
-        if site.data["people_names"].include?( person.data["title"] )
-          person.data["shows"] = site.data["people_ri_shows"][ person.data["title"] ]
-          person.data["committees"] = site.data["people_ri_committees"][ person.data["title"] ]
-        end
-
-        # Person additional data
-        person.data["path_name"] = make_hp_path(person.data["title"])
-
-        # People by filename
-        site.data["people_by_filename"][person.basename_without_ext] = person
-
-      end
-
+      @site.data["people_by_filename"] = @people_by_filename
     end
   end
 end
