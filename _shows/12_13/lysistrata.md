@@ -58,8 +58,6 @@ crew:
     name: Peter Bradley
   - role: Assistant Director
     name: Zoe Plummer
-  - role: Technical Director
-    name: Bora Hunja
   - role: Lighting Designer
     name: Alyssa Watts
     note: Professional
