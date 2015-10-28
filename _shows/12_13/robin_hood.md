@@ -14,7 +14,7 @@ cast:
     name: Daniel O'Connor
   - role: Maid Marion
     name: Kat Tye
-  - role: Sheriff of NOttingham
+  - role: Sheriff of Nottingham
     name: Tom Hicks
   - role: Prince John
     name: James McAndrew
@@ -64,3 +64,4 @@ assets:
 
 ---
 
+In the final week of term come and celebrate at The Nottingham New Theatre by watching the Nottingham legend Robin Hood and his friends (and enemies) in a devised comedy with singing, dancing, fighting and of course green tights.
