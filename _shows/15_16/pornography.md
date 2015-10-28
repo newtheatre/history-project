@@ -66,6 +66,8 @@ crew:
     name: Tom Selves
   - role: Set Construction
     name: Darcey Graham
+  - role: Set Construction
+    name: Joseph Heil
   - role: Stage Manager
     name: Emma Kendall
   - role: Stage Manager
