@@ -93,8 +93,8 @@ module Jekyll
 
       year.data["show_count"] = year.data["shows"] ? year.data["shows"].size : 0
 
-      top_show_count ||= 0
-      top_show_count = year.data["show_count"] if year.data["show_count"] > top_show_count
+      @top_show_count ||= 0
+      @top_show_count = year.data["show_count"] if year.data["show_count"] > @top_show_count
 
       year.data["redirect_from"] = get_year_legacy_path(year)
     end
@@ -119,7 +119,7 @@ module Jekyll
       @site.data["years"] = @years
       @site.data["years_by_decade"] = @years_by_decade
       @site.data["years_by_decade_reversed"] = years_by_decade_reversed
-      @site.data["top_show_count"] = top_show_count
+      @site.data["top_show_count"] = @top_show_count
 
     end
   end
