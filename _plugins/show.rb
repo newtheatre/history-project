@@ -1,6 +1,6 @@
 module Jekyll
   class ShowDataGenerator < Jekyll::Generator
-    priority :highest
+    priority :high
 
     # From years.rb
     def years_by_slug

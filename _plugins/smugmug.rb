@@ -122,6 +122,8 @@ class Smug
       File.open(fn, "w") do |cache_file|
         JSON.dump(album, cache_file)
       end
+    elsif site.config['skip_smugmug']
+      puts "Skipping smugmug fetch"
     else
       puts "Skipping fetch of #{albumID}"
       album = nil
