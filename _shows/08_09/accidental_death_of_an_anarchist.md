@@ -4,8 +4,7 @@ playwright:
 period: Autumn
 season: In House
 season_sort: 120
-venue:
-  - New Theatre
+venue: New Theatre
 
 assets:
   - type: poster

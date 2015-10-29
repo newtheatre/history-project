@@ -6,8 +6,7 @@ season: "In House"
 season_sort: 90
 date_start: 2014-11-19
 date_end: 2014-11-22
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Max

@@ -4,8 +4,7 @@ playwright: Jim Cartwright
 season: In House
 season_sort: 240
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2010-03-17
 date_end: 2010-03-20
 

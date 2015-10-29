@@ -6,8 +6,7 @@ season: "In House"
 season_sort: 310
 date_start: 2015-04-29
 date_end: 2015-05-02
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Scullery

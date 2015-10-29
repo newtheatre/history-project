@@ -7,9 +7,7 @@ season: "Fringe"
 season_sort: 340
 date_start: 2015-05-11
 date_end: 2015-05-12
-
-venue: 
-  - New Theatre Studio A
+venue: New Theatre Studio A
 
 cast:
   - role: Peter

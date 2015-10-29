@@ -5,8 +5,7 @@ student_written: true
 season: In House
 season_sort: 260
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2012-05-02
 date_end: 2012-05-05
 

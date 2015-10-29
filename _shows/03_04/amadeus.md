@@ -4,8 +4,7 @@ playwright: Peter Shaffer
 season: In House
 season_sort: 1
 period:
-venue:
-  - New Theatre
+venue: New Theatre
 date_start:
 date_end:
 

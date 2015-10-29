@@ -4,8 +4,7 @@ playwright: Dennis Kelly
 season: In House
 season_sort: 40
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2010-10-27
 date_end: 2010-10-30
 

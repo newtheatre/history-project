@@ -4,8 +4,7 @@ playwright: Peter Shaffer
 season: In House
 season_sort: 50
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2012-11-14
 date_end: 2012-11-17
 cast:

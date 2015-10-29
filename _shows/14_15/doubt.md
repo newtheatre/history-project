@@ -6,8 +6,7 @@ season: "In House"
 season_sort: 60
 date_start: 2014-11-12
 date_end: 2014-11-15
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Sister Aloysius

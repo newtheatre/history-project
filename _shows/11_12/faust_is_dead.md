@@ -4,8 +4,7 @@ playwright: Mark Ravenhill
 season: In House
 season_sort: 220
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2012-03-07
 date_end: 2012-03-10
 

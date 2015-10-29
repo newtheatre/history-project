@@ -4,8 +4,7 @@ playwright: Simon Vinnicombe
 season: In House
 season_sort: 230
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2011-03-09
 date_end: 2011-03-12
 

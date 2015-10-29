@@ -6,8 +6,7 @@ season: Lakeside
 season_sort: 268
 date_start: 2014-05-12
 date_end: 2014-05-17
-venue:
-  - Djanogly Theatre
+venue: Djanogly Theatre
 
 cast:
   - role: Dr Faustus

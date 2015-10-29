@@ -3,8 +3,7 @@ published: true
 season: In House
 period: Autumn
 playwright: James Ashton
-venue:
-  - New Theatre
+venue: New Theatre
 title: Oberonicus
 season_sort: 30
 cast:

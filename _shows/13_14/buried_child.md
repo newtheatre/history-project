@@ -6,8 +6,7 @@ season: In House
 season_sort: 60
 date_start: 2013-11-13
 date_end: 2013-11-16
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Dodge

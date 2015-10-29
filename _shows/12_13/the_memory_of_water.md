@@ -4,8 +4,7 @@ playwright: Shelagh Stephenson
 season: In House
 season_sort: 40
 period: Autumn
-venue:
-  - PAS, Trent Building
+venue: PAS, Trent Building
 date_start: 2012-11-07
 date_end: 2012-11-10
 

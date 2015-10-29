@@ -4,8 +4,7 @@ season: In House
 period: Spring
 playwright: Alan Bennett
 season_sort: 230
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2002-03-06
 date_end: 2002-03-09
 

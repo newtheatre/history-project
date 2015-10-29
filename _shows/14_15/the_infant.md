@@ -6,8 +6,7 @@ season: "In House"
 season_sort: 40
 date_start: 2014-10-29
 date_end: 2014-11-01
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Samedi

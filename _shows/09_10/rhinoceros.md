@@ -4,8 +4,7 @@ playwright: Eugene Ionesco
 season: In House
 season_sort: 90
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2009-12-02
 date_end: 2009-12-05
 

@@ -7,8 +7,7 @@ season: "Edinburgh"
 season_sort: 600
 date_start: 2015-08-07
 date_end: 2015-08-31
-venue:
-  - ZOO Monkeyhouse
+venue: ZOO Monkeyhouse
 
 cast:
   - role: Ivy

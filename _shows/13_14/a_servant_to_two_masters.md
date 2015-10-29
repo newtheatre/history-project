@@ -7,8 +7,7 @@ season: In House
 season_sort: 370
 date_start: 2014-06-11
 date_end: 2014-06-14
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Truffaldino Battachio

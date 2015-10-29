@@ -5,8 +5,7 @@ period: Spring
 title: Macbeth
 playwright: William Shakespeare
 season_sort: 230
-venue:
-  - New Theatre
+venue: New Theatre
 cast:
   - role: Duncan
     name: Martin Pye

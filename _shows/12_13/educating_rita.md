@@ -4,8 +4,7 @@ playwright: Willy Russell
 season: In House
 season_sort: 250
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2013-04-24
 date_end: 2013-04-27
 

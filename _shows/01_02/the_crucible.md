@@ -5,8 +5,7 @@ period: Autumn
 title: The Crucible
 playwright: Arthur Miller
 season_sort: 50
-venue:
-  - Djanogly Theatre
+venue: Djanogly Theatre
 date_start: 2001-11-08
 date_end: 2001-11-10
 cast:

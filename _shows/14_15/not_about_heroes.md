@@ -6,8 +6,7 @@ season: "In House"
 season_sort: 260
 date_start: 2015-03-11
 date_end: 2015-03-14
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Siegfried Sassoon

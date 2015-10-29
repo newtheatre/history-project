@@ -4,8 +4,7 @@ playwright: Adam H Wells
 season: Edinburgh
 season_sort: 300
 period: Edinburgh
-venue:
-  - C Venues
+venue: C Venues
 
 cast:
   - role: Edward Maris

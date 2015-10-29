@@ -4,8 +4,7 @@ playwright: Stuart Price
 season: In House
 season_sort: 200
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2014-02-26
 date_end: 2014-03-01
 

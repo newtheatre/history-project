@@ -4,8 +4,7 @@ playwright: Chloe Moss
 season: In House
 season_sort: 210
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2011-02-23
 date_end: 2011-02-26
 

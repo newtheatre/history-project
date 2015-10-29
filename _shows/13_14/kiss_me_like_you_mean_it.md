@@ -6,8 +6,7 @@ season: In House
 season_sort: 230
 date_start: 2014-03-19
 date_end: 2014-03-22
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Don

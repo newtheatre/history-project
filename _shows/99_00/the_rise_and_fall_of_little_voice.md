@@ -4,8 +4,7 @@ season: In House
 period: Autumn
 playwright: Jim Cartwright
 season_sort: 40
-venue:
-  - New Theatre
+venue: New Theatre
 
 crew:
   - role: Director

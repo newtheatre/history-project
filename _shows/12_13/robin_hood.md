@@ -6,8 +6,7 @@ season: External
 season_sort: 300
 date_start: 2014-06-19
 date_end: 2014-06-20
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Robin Hood

@@ -6,8 +6,7 @@ season: Previews
 season_sort: 390
 date_start: 2014-07-24
 
-venue:
-  - New Theatre
+venue: New Theatre
 
 assets:
   - type: poster

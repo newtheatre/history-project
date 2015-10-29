@@ -4,8 +4,7 @@ playwright: Ronnie Barker
 season: In House
 season_sort: 290
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2010-06-09
 date_end: 2010-06-12
 

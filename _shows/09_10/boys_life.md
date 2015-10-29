@@ -4,8 +4,7 @@ playwright: Howard Korder
 season: In House
 season_sort: 30
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2009-10-21
 date_end: 2009-10-24
 

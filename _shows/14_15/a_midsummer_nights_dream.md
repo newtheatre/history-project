@@ -6,8 +6,7 @@ season: "Lakeside"
 season_sort: 305
 date_start: 2015-04-27
 date_end: 2015-05-02
-venue:
-  - Djanogly Theatre
+venue: Djanogly Theatre
 
 cast:
   - role: Puck

@@ -7,8 +7,7 @@ season: "Fringe"
 season_sort: 120
 date_start: 2014-11-30
 date_end: 2014-12-01
-venue:
-  - New Theatre Studio A
+venue: New Theatre Studio A
 
 cast:
   - role: Annie

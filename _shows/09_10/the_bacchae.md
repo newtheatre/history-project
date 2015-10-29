@@ -4,8 +4,7 @@ playwright: Euripedes
 season: In House
 season_sort: 70
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2009-11-18
 date_end: 2009-11-21
 

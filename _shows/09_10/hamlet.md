@@ -5,8 +5,7 @@ adapted: Dan Rae-Scott
 season: In House
 season_sort: 100
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2009-12-08
 date_end: 2009-12-11
 

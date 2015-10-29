@@ -4,8 +4,7 @@ playwright: Chris O'Connell
 season: In House
 season_sort: 280
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2011-06-08
 date_end: 2011-06-11
 

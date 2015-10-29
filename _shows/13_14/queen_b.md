@@ -5,8 +5,7 @@ student_written: true
 period: Edinburgh
 season: Edinburgh
 season_sort: 410
-venue:
-  - ZOO Monkeyhouse
+venue: ZOO Monkeyhouse
 
 cast:
   - role: Dan

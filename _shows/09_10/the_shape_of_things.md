@@ -4,8 +4,7 @@ playwright: Neil Lapute
 season: In House
 season_sort: 250
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2010-03-24
 date_end: 2010-03-27
 

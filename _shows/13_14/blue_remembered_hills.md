@@ -6,8 +6,7 @@ season: Fringe
 season_sort: 205
 date_start: 2014-03-03
 date_end: 2014-03-04
-venue:
-  - New Theatre Studio A
+venue: New Theatre Studio A
 
 cast:
   - role: Donald

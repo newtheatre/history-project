@@ -6,8 +6,7 @@ season: In House
 season_sort: 40
 date_start: 2013-10-30
 date_end: 2013-11-02
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: William

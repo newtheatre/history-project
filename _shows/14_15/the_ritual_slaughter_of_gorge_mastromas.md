@@ -6,8 +6,7 @@ season: "In House"
 season_sort: 130
 date_start: 2014-12-03
 date_end: 2014-12-06
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Gorge Mastromas

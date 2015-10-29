@@ -5,8 +5,7 @@ season: "External"
 season_sort: 230
 date_start: 2015-02-11
 date_end: 2015-02-14
-venue:
-  - New Theatre
+venue: New Theatre
 
 assets:
   - type: poster

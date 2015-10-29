@@ -6,8 +6,7 @@ season: External
 season_sort: 360
 date_start: 2014-06-06
 date_end: 2014-06-07
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Sweets

@@ -7,8 +7,7 @@ season: Fringe
 season_sort: 85
 date_start: 2013-12-02
 date_end: 2013-12-03
-venue:
-  - New Theatre Studio A
+venue: New Theatre Studio A
 
 cast:
   - role: Charlie Parnell

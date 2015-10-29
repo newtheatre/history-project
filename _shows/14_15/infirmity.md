@@ -7,8 +7,7 @@ season: "Fringe"
 season_sort: 80
 date_start: 2014-11-17
 date_end: 2014-11-18
-venue:
-  - New Theatre Studio A
+venue: New Theatre Studio A
 
 cast:
   - role: Connor Matthews

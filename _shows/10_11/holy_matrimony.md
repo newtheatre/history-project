@@ -4,8 +4,7 @@ devised: true
 season: External
 season_sort: 278
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2011-06-03
 date_end: 2011-06-03
 

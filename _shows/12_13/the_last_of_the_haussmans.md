@@ -4,8 +4,7 @@ playwright: Stephen Beresford
 season: UNCUT
 season_sort: 225
 period: Spring
-venue:
-  - PAS, Trent Building
+venue: PAS, Trent Building
 date_start: 2013-03-11
 date_end: 2013-03-12
 

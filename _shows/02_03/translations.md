@@ -4,8 +4,7 @@ playwright: Brian Friel
 season: In House
 season_sort: 1
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2003-03-18
 date_end: 2003-03-21
 

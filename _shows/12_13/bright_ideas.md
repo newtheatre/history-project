@@ -4,8 +4,7 @@ playwright:
 season: Fundraiser
 season_sort: 283
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2011-06-01
 
 crew:

@@ -6,8 +6,7 @@ season: "Edinburgh"
 season_sort: 610
 date_start: 2015-08-08
 date_end: 2015-08-28
-venue:
-  - ZOO Monkeyhouse
+venue: ZOO Monkeyhouse
 cast:
   - role:
     name: Ricki Crook

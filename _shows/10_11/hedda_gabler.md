@@ -4,8 +4,7 @@ playwright: Henrick Ibson
 season: In House
 season_sort: 30
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2010-10-20
 date_end: 2010-10-23
 

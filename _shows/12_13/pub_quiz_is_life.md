@@ -4,8 +4,7 @@ playwright: Richard Bean
 season: In House
 season_sort: 270
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2013-05-08
 date_end: 2013-05-11
 

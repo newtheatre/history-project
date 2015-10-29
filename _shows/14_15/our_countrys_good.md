@@ -6,8 +6,7 @@ season: "In House"
 season_sort: 110
 date_start: 2014-11-24
 date_end: 2014-11-29
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Harry Brewer

@@ -4,8 +4,7 @@ playwright:
 period: Lakeside
 season: Lakeside
 season_sort: 410
-venue:
-  - Lakeside
+venue: Lakeside
 
 smugmug: BXFNXd
 ---

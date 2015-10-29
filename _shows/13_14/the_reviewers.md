@@ -5,8 +5,7 @@ period: Spring
 season: External
 season_sort: 395
 date_start: 2014-07-25
-venue:
-  - New Theatre
+venue: New Theatre
 
 assets:
   - type: poster

@@ -6,8 +6,7 @@ season: "In House"
 season_sort: 150
 date_start: 2014-12-09
 date_end: 2014-12-12
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Lear

@@ -6,8 +6,7 @@ season: In House
 season_sort: 10
 date_start: 2015-10-05
 date_end: 2015-10-06
-venue:
-  - New Theatre
+venue: New Theatre
 
 assets:
   - type: poster

@@ -4,8 +4,7 @@ playwright: Laura Wade
 season: In House
 season_sort: 230
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2013-03-13
 date_end: 2013-03-16
 cast:

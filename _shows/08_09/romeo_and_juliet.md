@@ -4,8 +4,7 @@ playwright:
 period: Spring
 season: In House
 season_sort: 300
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2009-06-10
 date_end: 2009-06-13
 

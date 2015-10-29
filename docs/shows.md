@@ -19,7 +19,7 @@ The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the 
 | `student_written`<br />*(optional)* | Show written by an NT member | Set to `true`, `false` or line missing are equivalent. |
 | `season` | Season show belongs to | Choices: Autumn, Spring, Edinbugh |
 | `season_sort` | Order which this show comes in the entire year | Use multiples of 10 for ease of additions.<br />Roughly: Autumn should start at 30, Spring 200 and Edinburgh 400. Shows then fall at 30, 40, 50 etc |
-| `venue` | Venue show was performed in | There should only be one item in this list. |
+| `venue` | Venue show was performed in |  |
 | `date_start` | Date of first performance | In the format YYYY-MM-DD |
 | `date_end`<br />*(optional)* | Date of last performance | In the format YYYY-MM-DD, omit if show only ran one day |
 | `cast` | Cast members | Uses the [person list](/docs/person_list) format. |
@@ -40,8 +40,7 @@ playwright: Martin McDonagh
 season: In House
 season_sort: 70
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2012-12-12
 date_end: 2012-12-15
 cast:

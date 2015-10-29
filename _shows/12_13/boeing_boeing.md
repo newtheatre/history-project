@@ -4,8 +4,7 @@ playwright: Marc Camoletti
 season: In House
 season_sort: 290
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2013-06-12
 date_end: 2013-06-15
 

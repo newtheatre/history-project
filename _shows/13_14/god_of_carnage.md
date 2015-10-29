@@ -5,8 +5,7 @@ translator: Christoper Hampton
 season: In House
 season_sort: 50
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2013-11-06
 date_end: 2013-11-09
 

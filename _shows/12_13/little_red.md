@@ -4,8 +4,7 @@ devised: Cast and Crew
 season: UNCUT
 season_sort: 265
 period: Spring
-venue:
-  - Lincoln Library
+venue: Lincoln Library
 date_start: 2013-05-06
 date_end: 2013-05-07
 

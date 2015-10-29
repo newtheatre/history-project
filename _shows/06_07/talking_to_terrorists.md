@@ -4,8 +4,7 @@ playwright: Robin Soans
 season: In House
 season_sort: 230
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2007-02-21
 date_end: 2007-02-24
 

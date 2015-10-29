@@ -4,8 +4,7 @@ season: In House
 period: Autumn
 playwright: R.C.Sherriff
 season_sort: 40
-venue:
-  - New Theatre
+venue: New Theatre
 ---
 
 Journey's End is a 1928 drama, the seventh of English playwright R. C. Sherriff.

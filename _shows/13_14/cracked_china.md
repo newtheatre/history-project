@@ -7,8 +7,7 @@ season: Fringe
 season_sort: 235
 date_start: 2014-03-24
 date_end: 2014-03-25
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Jonathan

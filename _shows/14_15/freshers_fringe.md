@@ -5,8 +5,7 @@ season: "In House"
 season_sort: 30
 date_start: 2014-10-06
 date_end: 2014-10-07
-venue:
-  - New Theatre
+venue: New Theatre
 
 crew:
   - role: Lighting Designer

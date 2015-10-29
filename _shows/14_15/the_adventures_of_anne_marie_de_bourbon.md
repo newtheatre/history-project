@@ -7,8 +7,7 @@ season: "Fringe"
 season_sort: 140
 date_start: 2014-12-07
 date_end: 2014-12-08
-venue:
-  - New Theatre Studio A
+venue: New Theatre Studio A
 
 cast:
   - role: Anne Marie de Bourbon

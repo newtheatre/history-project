@@ -5,8 +5,7 @@ season: In House
 period: Spring
 playwright: Alan Ayckbourn
 season_sort: 260
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2002-04-24
 date_end: 2002-04-27
 cast:

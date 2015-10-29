@@ -7,8 +7,7 @@ season: "Fringe"
 season_sort: 100
 date_start: 2014-11-24
 date_end: 2014-11-25
-venue:
-  - Lee Rosy's Tea Rooms
+venue: Lee Rosy's Tea Rooms
 
 cast:
   - role: Glen

@@ -6,8 +6,7 @@ season: "Postgrads"
 season_sort: 200
 date_start: 2015-01-21
 date_end: 2015-01-24
-venue:
-  - New Theatre
+venue: New Theatre
 
 assets:
   - type: poster

@@ -4,8 +4,7 @@ playwright: Patrick Hamilton
 season: In House
 season_sort: 270
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2011-05-11
 date_end: 2011-05-14
 

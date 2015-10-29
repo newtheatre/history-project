@@ -4,8 +4,7 @@ playwright: Patrick Barlow
 season: In House
 season_sort: 270
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2012-05-09
 date_end: 2012-05-12
 

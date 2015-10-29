@@ -6,8 +6,7 @@ season: External
 season_sort: 380
 date_start: 2015-06-01
 date_end: 2015-06-02
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role:

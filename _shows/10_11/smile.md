@@ -4,8 +4,7 @@ playwright: Stephen Lowe
 season: In House
 season_sort: 250
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2011-03-23
 date_end: 2011-03-26
 

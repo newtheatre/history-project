@@ -4,8 +4,7 @@ playwright: Brandon Thomas
 season: In House
 season_sort: 290
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2012-06-13
 date_end: 2012-06-16
 

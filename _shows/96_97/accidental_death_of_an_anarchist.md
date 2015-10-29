@@ -4,8 +4,7 @@ period: Autumn
 title: Accidental Death of an Anarchist
 playwright: Dario Fo
 season_sort: 40
-venue:
-  - New Theatre
+venue: New Theatre
 cast:
   - role: Madman
     name: Jeremy Brooker

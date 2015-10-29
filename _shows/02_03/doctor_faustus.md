@@ -4,8 +4,7 @@ playwright: Christopher Marlowe
 season: In House
 season_sort: 1
 period: Autumn
-venue:
-  - Djanogly Theatre
+venue: Djanogly Theatre
 date_start: 2003-06-04
 date_end: 2003-06-07
 

@@ -7,8 +7,7 @@ season: Fringe
 season_sort: 65
 date_start: 2013-11-18
 date_end: 2013-11-19
-venue:
-  - New Theatre Studio A
+venue: New Theatre Studio A
 
 cast:
   - name: Charlotte Prosser

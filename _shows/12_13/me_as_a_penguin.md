@@ -4,8 +4,7 @@ playwright: Tom Wells
 season: In House
 season_sort: 200
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2013-02-20
 date_end: 2013-02-23
 cast:

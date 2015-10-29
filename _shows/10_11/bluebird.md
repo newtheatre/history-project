@@ -4,8 +4,7 @@ playwright: Simon Stephens
 season: In House
 season_sort: 70
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2010-11-17
 date_end: 2010-11-20
 

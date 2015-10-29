@@ -4,8 +4,7 @@ playwright: Terence Rattigan
 season: In House
 season_sort: 100
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2010-12-07
 date_end: 2010-12-10
 
