@@ -1,6 +1,6 @@
 ---
 title: Accidental Loss of a Baby
-playwright: Eve Wersocki Morris
+playwright: "Eve Wersocki-Morris"
 student_written: true
 season: UNCUT
 season_sort: 285
@@ -12,7 +12,7 @@ date_end: 2012-06-12
 
 crew:
   - role: Director
-    name: Eve Wersocki Morris
+    name: "Eve Wersocki-Morris"
   - role: Technical Director
     name: Joseph Heil
   - role: Lighting Designer
