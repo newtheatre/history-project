@@ -10,7 +10,7 @@ module Jekyll
       # Assign the show as an attr of the asset
       asset["show"] = show
 
-      if asset.has_key?("image") and asset.has_key?("type")
+      if asset.key?("image") and asset.key?("type")
         # Image asset
 
         case asset["type"]
@@ -22,14 +22,14 @@ module Jekyll
             # None
         end
 
-      elsif asset.has_key?("filename") and asset.has_key?("type")
+      elsif asset.key?("filename") and asset.key?("type")
         # File asset
       end
     end
 
     def generate_show_assets(show)
       """Method called for each show, runs asset generators on each"""
-      if show.data.has_key?("assets") and show.data["assets"]
+      if show.data.key?("assets") and show.data["assets"]
         show.data["assets"].each { |asset| generate_asset(show, asset) }
       end
 
