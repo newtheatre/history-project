@@ -31,7 +31,7 @@ module Jekyll
 
     def get_show_year(show)
       path_split = show.path.split("/")
-      path_split[path_split.length-2]
+      path_split[path_split.length - 2]
     end
 
     def get_show_year_page(show)
@@ -57,18 +57,18 @@ module Jekyll
     end
 
     def get_show_asset_type(show, key)
-      show.data["assets"].select { |i|
+      show.data["assets"].select do |i|
         if i.key?("page")
           i["type"] == key and not i["page"] > 1
         else
           i["type"] == key
         end
-      }
+      end
     end
 
     def get_show_display_image(show)
       # Assets required
-      return nil if not show.data.key?("assets")
+      return nil unless show.data.key?("assets")
 
       # Find assets that fit the criteria for being a display image
       override_assets = get_show_override_assets(show)
@@ -100,7 +100,7 @@ module Jekyll
     end
 
     def get_show_legacy_paths(show)
-      "shows/#{show.data["year"]}/#{show.basename_without_ext}.html"
+      "shows/#{show.data['year']}/#{show.basename_without_ext}.html"
     end
 
     def generate_show_pls(show, key)
@@ -147,7 +147,6 @@ module Jekyll
       display_image = get_show_display_image(show)
       show.data["poster"] = display_image
       show.data["display_image"] = display_image
-
     end
 
     def sort_shows(shows)

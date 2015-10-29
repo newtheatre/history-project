@@ -93,6 +93,3 @@ DEPENDENCIES
   mini_magick
   nokogiri
   sass
-
-BUNDLED WITH
-   1.10.6
