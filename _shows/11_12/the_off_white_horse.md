@@ -16,14 +16,13 @@ cast:
   - name: Jenny Kohnhorst
   - name: Henry Blanchard
   - name: Laura Kaye Thomson
-  - name:
-  - name:
 
 crew:
   - role: Director
-    name: Adam H. Wells
+    name: "Adam H. Wells"
   - role: Technical Operator
     name: Joseph Heil
+
 assets:
   - type: poster
     image: the_off_white_horse_poster.jpg

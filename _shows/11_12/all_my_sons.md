@@ -19,7 +19,6 @@ cast:
   - name: Alice Hildreth
   - name: Jonno Lake
   - name: Lizzie Frainier
-  -
 
 crew:
   - role: Director
@@ -27,7 +26,7 @@ crew:
   - role: Lighting Designer
     name: Lawrence Bolton
   - role: Technical Director
-    name: Emma-Louise Amanshia
+    name: "Emma-Louise Amanshia"
   - role: Technical Operator
     name: Joseph Heil
   - role: Set Construction
