@@ -89,6 +89,8 @@ defaults:
       type: people
     values:
       layout: person
+      group: person
+      current: people
   - scope:
       path: "about"
     values:
