@@ -11,6 +11,16 @@ date_end: 2012-03-24
 
 comment: A rewrite of Innocent Infidelity was taken to the Edinburgh Fringe Festival under the title of Porphyria
 
+cast:
+  - role: Reginald Blake
+    name: Jack Finger
+  - role: Julia Oagood
+    name: Alice Ratcliffe
+  - role: Hilary Thornston Blaze
+    name: Eve Wersocki-Morris
+  - role: Mel Morgan
+    name: Lyle Fulton
+
 crew:
   - role: Director
     name: Craig Willman
