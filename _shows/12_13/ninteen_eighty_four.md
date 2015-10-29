@@ -46,7 +46,7 @@ crew:
   - role: Technical Operator
     name: Joseph Heil
   - role: Set Construction
-    name: Jospeh Heil
+    name: Joseph Heil
   - role: Set Construction
     name: Aubrey Turner
   - role: Photography
