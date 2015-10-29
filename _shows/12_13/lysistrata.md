@@ -12,17 +12,17 @@ date_end: 2013-04-27
 
 cast:
   - role: Ismenia/Chorus
-    name: Emma_Louise Amanshia
+    name: "Emma-Louise Amanshia"
   - role: Myrrhine/Chorus
     name: Ali Blatcher
   - role: Cinesias/Chorus
-    name: Philip Damms
+    name: Phil Damms
   - role: Mens Leader/Herald/Chorus
     name: James Gregory
   - role: Calonice/Chorus
-    name: Alix Hatterstone
+    name: Alix Hattenstone
   - role: Lysistrata
-    name: Emma MacDonald
+    name: Emma McDonald
   - role: Teacher
     name: Mitchell Masterson
   - role: Lampito/Chorus
