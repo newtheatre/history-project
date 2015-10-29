@@ -2,6 +2,11 @@ module Jekyll
   class CommitteeDataGenerator < Jekyll::Generator
     priority :normal
 
+    # From people.rb
+    def people_by_filename
+      @people_by_filename ||= generate_people_by_filename(@people)
+    end
+
     def get_committee_legacy_paths(committee)
       "committees/#{committee.basename_without_ext}.html"
     end
@@ -12,7 +17,9 @@ module Jekyll
       committee.data["year"] = year
 
       if committee.data.key?("committee") and committee.data["committee"].class == Array
+        committee.data["committee"] = parse_person_list(committee.data["committee"], people_by_filename)
         fill_people_reverse_index(committee, committee.data["committee"], "people_ri_committees", @site) end
+
 
       # Generate the legacy path for 301 redirect re. #142 Make semantic and pretty urls
       committee.data["redirect_from"] = get_committee_legacy_paths(committee)
@@ -24,6 +31,8 @@ module Jekyll
       @site = site
       committees = @site.collections["committees"].docs
       @committees_by_year = Hash.new
+
+      @people = @site.collections["people"].docs
 
       committees.each { |committee| generate_committee(committee) }
 
