@@ -15,9 +15,9 @@ module Jekyll
     # Attribute generators
 
     def get_show_playwright(show)
-      if show.data.has_key?("playwright")
+      if show.data.key?("playwright")
         return ["playwright", show.data["playwright"], "by #{ show.data["playwright"] }"]
-      elsif show.data.has_key?("devised")
+      elsif show.data.key?("devised")
         if show.data["devised"] == true
           return ["devised", "", "Devised"]
         else
@@ -41,11 +41,11 @@ module Jekyll
     def get_show_playwright_formatted_long(show)
       ret = show.data["playwright_formatted"]
 
-      if show.data.has_key?("translator")
+      if show.data.key?("translator")
         ret = "#{ ret }; Translated by #{ show.data["translator"] }"
       end
 
-      if show.data.has_key?("adaptor")
+      if show.data.key?("adaptor")
         ret = "#{ ret }; Adapted by #{ show.data["adaptor"] }"
       end
 
@@ -58,7 +58,7 @@ module Jekyll
 
     def get_show_asset_type(show, key)
       show.data["assets"].select { |i|
-        if i.has_key?("page")
+        if i.key?("page")
           i["type"] == key and not i["page"] > 1
         else
           i["type"] == key
@@ -68,7 +68,7 @@ module Jekyll
 
     def get_show_display_image(show)
       # Assets required
-      return nil if not show.data.has_key?("assets")
+      return nil if not show.data.key?("assets")
 
       # Find assets that fit the criteria for being a display image
       override_assets = get_show_override_assets(show)
@@ -91,7 +91,7 @@ module Jekyll
     end
 
     def get_show_smugmug(show)
-      if show.data.has_key? "smugmug"
+      if show.data.key? "smugmug"
         smug = Smug.new
         return smug.get_show_photos(show.data["smugmug"], @site)
       else
@@ -104,7 +104,7 @@ module Jekyll
     end
 
     def generate_show_pls(show, key)
-      if show.data.has_key?(key) and show.data[key]
+      if show.data.key?(key) and show.data[key]
         return parse_person_list(show.data[key], people_by_filename)
       else
         return nil
@@ -113,7 +113,7 @@ module Jekyll
 
     def send_people(show, key)
       """Send a person_list to the reverse index"""
-      if show.data.has_key?(key) and show.data[key].class == Array
+      if show.data.key?(key) and show.data[key].class == Array
         fill_people_reverse_index(show, show.data[key], "people_ri_shows", @site)
       end
     end
@@ -152,7 +152,7 @@ module Jekyll
 
     def sort_shows(shows)
       return shows.sort_by do | show |
-        if show.data.has_key?("season_sort")
+        if show.data.key?("season_sort")
           # Sort by year, then by season_sort
           [show.data["year_page"].data["sort"], show.data["season_sort"].to_i]
         else

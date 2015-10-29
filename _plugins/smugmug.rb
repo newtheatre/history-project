@@ -34,7 +34,7 @@ class Smug
     puts "Fetching SmugMug album data #{ albumID }"
     url = api_url("album/#{ albumID }")
     data = self.class.get(url)
-    if data.has_key? "Response"
+    if data.key? "Response"
       return data["Response"]["Album"]
     else
       puts "Error: Invalid SmugMug Response"
@@ -48,7 +48,7 @@ class Smug
     puts "Fetching SmugMug album images #{ albumID }"
     url = api_url("album/#{ albumID }!images")
     data = self.class.get(url)
-    if data.has_key? "Response"
+    if data.key? "Response"
       return data["Response"]["AlbumImage"]
     else
       puts "Error: Invalid SmugMug Response"
