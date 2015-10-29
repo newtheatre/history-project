@@ -25,7 +25,7 @@ crew:
   - role: Set Designer
     name: Alex Jamieson
   - role: Set Construction
-    name: Joesph Heil
+    name: Joseph Heil
   - role: Lighting Designer
     name: Will Pimblett
   - role: Technical Operator

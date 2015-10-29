@@ -56,7 +56,7 @@ crew:
   - role: Set Designer
     name: Liz Cornwell
   - role: Set Construction
-    name: Jospeh Heil
+    name: Joseph Heil
   - role: Costume
     name: Lydia Scott
   - role: Costume
