@@ -201,12 +201,9 @@ module Jekyll
       # Compute extra show data attributes that require sorting to have happened
       @shows.each_with_index { |show, index| generate_show_with_index(show, index) }
 
-      # Get hash of shows by year
-      @shows_by_year = sort_shows_by_year(@shows)
-
       # Accessible chopped and diced shows
       @site.data["shows"] = @shows
-      @site.data["shows_by_year"] = @shows_by_year
+      @site.data["shows_by_year"] = sort_shows_by_year(@shows)
 
     end
   end
