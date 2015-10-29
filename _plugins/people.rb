@@ -40,7 +40,7 @@ module Jekyll
     def generate(site)
       if not site.config["skip_virtual_people"]
         @collection = site.collections["people"]
-        puts "Generating virtual people..."
+        Jekyll.logger.info "Generating virtual people..."
 
         for name in site.data["people_names"]
           unless @collection.docs.detect { |doc| doc.data["title"] == name }
@@ -48,7 +48,7 @@ module Jekyll
           end
         end
       else
-        puts "Skipping virtual people generation"
+        Jekyll.logger.warn "Skipping virtual people generation"
       end
 
     end
@@ -74,7 +74,7 @@ module Jekyll
     end
 
     def generate(site)
-      puts "Processing people..."
+      Jekyll.logger.info "Processing people..."
       people = site.collections["people"].docs
       @site = site
       @people_by_filename = Hash.new
