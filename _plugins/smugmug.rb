@@ -101,7 +101,7 @@ class Smug
 
     if File.exists?(fn)
       # Album cached, load that
-      puts "Loading album #{ albumID } from local cache"
+      # puts "Loading album #{ albumID } from local cache"
       cache_file = File.open(fn, "r")
 
       if cache_file.ctime < cache_invalid_time
