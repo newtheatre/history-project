@@ -10,8 +10,7 @@ module Jekyll
       @has_yaml_header = nil
       @title = title
 
-      # defaults = @site.frontmatter_defaults.all(url, collection.label.to_sym)
-      defaults = @site.config['collections']['people'] # Above no work, this work
+      defaults = @site.frontmatter_defaults.all(url, collection.label.to_sym)
 
       my_data = {
         'title' => @title,
@@ -41,12 +40,15 @@ module Jekyll
     def generate(site)
       if not site.config["skip_virtual_people"]
         @collection = site.collections["people"]
+        puts "Generating virtual people..."
 
         for name in site.data["people_names"]
           unless @collection.docs.detect { |doc| doc.data["title"] == name }
             @collection.docs << PlaceholderPeoplePage.new(site, @collection, name)
           end
         end
+      else
+        puts "Skipping virtual people generation"
       end
 
     end

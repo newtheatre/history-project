@@ -33,8 +33,13 @@ exclude:
 - bower.json
 - package.json
 
+# skip_years: true
 # skip_virtual_people: true
 # skip_smugmug: true
+
+# Specify year range for generation
+year_start: 1940
+year_end: 2015
 
 collections:
   shows:
@@ -48,7 +53,6 @@ collections:
     output: true
     permalink: years/:path/
   people:
-    layout: person
     output: true
     permalink: people/:path/
 
@@ -79,6 +83,12 @@ defaults:
       current: archives
       editable: false
       sitemap: false
+  # People
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: person
   - scope:
       path: "about"
     values:

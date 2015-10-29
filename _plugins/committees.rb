@@ -1,6 +1,6 @@
 module Jekyll
   class CommitteeDataGenerator < Jekyll::Generator
-    priority :high
+    priority :normal
 
     def get_committee_legacy_paths(committee)
       "committees/#{committee.basename_without_ext}.html"
