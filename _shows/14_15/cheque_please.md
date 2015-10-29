@@ -34,6 +34,8 @@ crew:
   - role: Publicity Manager
     name: Lydia Smith
 
+smugmug: qdN3KW
+
 assets:
   - type: poster
     image: cheque_please_fringe.jpg
