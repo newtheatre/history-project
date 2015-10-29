@@ -23,7 +23,7 @@ cast:
   - role: Spinster
     name: Flo Hapgood
   - role: Bosom Lady
-    name: Suzie Rope
+    name: Suzie Roope
   - role: Marjorie
     name: Ellie Cawthorne
 
