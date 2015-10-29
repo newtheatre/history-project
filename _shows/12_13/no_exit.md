@@ -4,8 +4,7 @@ playwright: Jean-Paul Sartre
 season: UNCUT
 season_sort: 65
 period: Autumn
-venue:
-  - Lincoln Library
+venue: Lincoln Library
 date_start: 2012-11-26
 date_end: 2012-11-27
 

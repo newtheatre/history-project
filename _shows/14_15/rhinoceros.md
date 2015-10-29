@@ -6,8 +6,7 @@ season: "In House"
 season_sort: 410
 date_start: 2015-06-10
 date_end: 2015-06-13
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Berenger

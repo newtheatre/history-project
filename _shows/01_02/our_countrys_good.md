@@ -5,8 +5,7 @@ period: Autumn
 title: "Our Country's Good"
 playwright: Timberlake Wertenbaker
 season_sort: 70
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2001-11-21
 date_end: 2001-11-24
 cast:

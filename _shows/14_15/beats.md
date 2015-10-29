@@ -6,8 +6,7 @@ season: "STUFF"
 season_sort: 510
 date_start: 2015-06-18
 date_end: 2015-06-19
-venue:
-  - New Theatre Studio A
+venue: New Theatre Studio A
 
 cast:
   - role: Johnno McCreadie

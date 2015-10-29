@@ -4,8 +4,7 @@ playwright: Jez Butterworth
 season: In House
 season_sort: 200
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2010-02-17
 date_end: 2010-02-20
 

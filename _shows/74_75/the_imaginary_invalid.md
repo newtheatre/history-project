@@ -4,8 +4,7 @@ season: In House
 period: Spring
 playwright: Molière
 season_sort: 130
-venue:
-  - New Theatre
+venue: New Theatre
 
 assets:
   - type: programme

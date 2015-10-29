@@ -4,8 +4,7 @@ season: In House
 period: Spring
 playwright: David Hare
 season_sort: 160
-venue:
-  - New Theatre
+venue: New Theatre
 
 assets:
   - type: programme

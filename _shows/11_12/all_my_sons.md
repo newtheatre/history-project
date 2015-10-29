@@ -4,8 +4,7 @@ playwright: Arthur Miller
 season: In House
 season_sort: 200
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2012-02-22
 date_end: 2012-02-25
 

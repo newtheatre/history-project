@@ -7,8 +7,7 @@ season: "Fringe"
 season_sort: 290
 date_start: 2015-03-22
 date_end: 2015-03-23
-venue:
-  - New Theatre Studio A
+venue: New Theatre Studio A
 
 cast:
   - role: Mr Orange

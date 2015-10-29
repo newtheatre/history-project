@@ -5,8 +5,7 @@ season: "STUFF"
 season_sort: 460
 date_start: 2015-06-17
 date_end:
-venue:
-  - New Theatre Studio A
+venue: New Theatre Studio A
 
 cast:
   - name: Ben Hollands

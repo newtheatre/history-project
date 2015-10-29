@@ -7,8 +7,7 @@ season: External
 season_sort: 380
 date_start: 2014-06-18
 date_end: 2014-06-20
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Rory

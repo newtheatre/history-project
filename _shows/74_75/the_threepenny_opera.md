@@ -4,8 +4,7 @@ season: In House
 period: Autumn
 playwright: Bertolt Brecht
 season_sort: 30
-venue:
-  - New Theatre
+venue: New Theatre
 ---
 
 Joint Production with thee Music Society

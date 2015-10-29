@@ -4,8 +4,7 @@ Music, Book & Lyrics: Jason Robert Brown
 season: External
 season_sort: 440
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2010-06-14
 date_end: 2010-06-17
 

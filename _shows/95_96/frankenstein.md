@@ -4,8 +4,7 @@ period: Autumn
 title: Frankenstein
 playwright: Mary Shelley
 season_sort: 50
-venue:
-  - New Theatre
+venue: New Theatre
 cast:
   - role: Victor Frankenstein
     name: Simon Burkey

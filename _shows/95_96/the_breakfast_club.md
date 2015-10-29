@@ -4,8 +4,7 @@ season: In House
 period: Spring
 playwright: John Hughes
 season_sort: 250
-venue:
-  - New Theatre
+venue: New Theatre
 ---
 
 The Breakfast Club is a 1985 American coming-of-age comedy-drama film written, produced, and directed by John Hughes.

@@ -6,8 +6,7 @@ season: In House
 season_sort: 30
 date_start: 2013-10-23
 date_end: 2013-10-26
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Presley Stray

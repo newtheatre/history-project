@@ -4,8 +4,7 @@ playwright: Harold Pinter
 season: In House
 season_sort: 430
 period: External
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2010-06-03
 date_end: 2010-06-04
 

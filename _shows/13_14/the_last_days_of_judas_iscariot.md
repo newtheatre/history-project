@@ -6,8 +6,7 @@ season: In House
 season_sort: 70
 date_start: 2013-11-20
 date_end: 2013-11-23
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Yusef El-Fayoumy

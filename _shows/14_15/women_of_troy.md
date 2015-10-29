@@ -7,8 +7,7 @@ season: "In House"
 season_sort: 330
 date_start: 2015-05-06
 date_end: 2015-05-09
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Hecuba

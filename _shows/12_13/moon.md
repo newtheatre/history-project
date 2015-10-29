@@ -5,8 +5,7 @@ student_written: True
 season: UNCUT
 season_sort: 45
 period: Autumn
-venue:
-  - "Jubilee Campus: Business School South Auditorum B52"
+venue: "Jubilee Campus: Business School South Auditorum B52"
 date_start: 2012-11-12
 date_end: 2012-11-13
 

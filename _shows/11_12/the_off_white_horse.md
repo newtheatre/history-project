@@ -7,8 +7,7 @@ season_sort: 110
 date_start: 2012-02-15
 date_end: 2012-02-18
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 
 comment: Not sure what season this officially fell into, I think it spilled over from the autumn
 

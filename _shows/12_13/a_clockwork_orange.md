@@ -4,8 +4,7 @@ playwright: Anthony Burgess
 season: In House
 season_sort: 240
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2013-03-19
 date_end: 2013-03-22
 

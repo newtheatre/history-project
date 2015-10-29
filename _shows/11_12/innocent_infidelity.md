@@ -4,8 +4,7 @@ playwright: C. J. Willman
 season: In House
 season_sort: 240
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2012-03-21
 date_end: 2012-03-24
 

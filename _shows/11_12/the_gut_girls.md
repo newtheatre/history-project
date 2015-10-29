@@ -4,8 +4,7 @@ playwright: Sarah Daniels
 season: In House
 season_sort: 210
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2012-02-29
 date_end: 2012-03-03
 

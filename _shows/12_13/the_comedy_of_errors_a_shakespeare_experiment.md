@@ -4,8 +4,7 @@ playwright: William Shakespeare
 season: External
 season_sort: 285
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2013-06-03
 date_end: 2013-06-07
 

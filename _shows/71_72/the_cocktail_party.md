@@ -4,8 +4,7 @@ season: In House
 period: Autumn
 playwright: T.S.Eliot
 season_sort: 40
-venue:
-  - Trent Building
+venue: Trent Building
 ---
 
 

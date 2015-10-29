@@ -5,8 +5,7 @@ student_written: true
 season: UNCUT
 season_sort: 285
 period: Spring
-venue:
-  - Performing Arts Studio
+venue: Performing Arts Studio
 date_start: 2012-06-11
 date_end: 2012-06-12
 

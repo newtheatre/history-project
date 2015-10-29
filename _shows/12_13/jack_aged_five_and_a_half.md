@@ -5,8 +5,7 @@ student_written: true
 season: UNCUT
 season_sort: 75
 period: Autumn
-venue:
-  - New Theatre Studio A
+venue: New Theatre Studio A
 date_start: 2012-12-03
 date_end: 2012-12-04
 

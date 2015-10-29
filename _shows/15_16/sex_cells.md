@@ -4,8 +4,7 @@ playwright: Anna Longaretti
 season: In House
 season_sort: 30
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2015-11-04
 date_end: 2015-11-07
 

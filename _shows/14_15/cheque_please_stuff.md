@@ -6,8 +6,7 @@ period: Spring
 season: "STUFF"
 season_sort: 430
 date_start: 2015-06-17
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Ivy

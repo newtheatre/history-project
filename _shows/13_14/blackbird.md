@@ -6,8 +6,7 @@ season: In House
 season_sort: 220
 date_start: 2014-03-12
 date_end: 2014-03-15
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Una

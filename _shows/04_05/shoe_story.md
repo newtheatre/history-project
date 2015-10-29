@@ -4,6 +4,5 @@ playwright:
 period: Edinburgh
 season: In House
 season_sort: 500
-venue:
-  - New Theatre
+venue: New Theatre
 ---

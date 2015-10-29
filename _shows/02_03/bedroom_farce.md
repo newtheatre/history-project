@@ -4,8 +4,7 @@ playwright: Alan Ayckbourn
 season: In House
 season_sort: 1
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2003-04-30
 date_end: 2003-05-03
 

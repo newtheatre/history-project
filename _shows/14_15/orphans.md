@@ -6,8 +6,7 @@ season: "In House"
 season_sort: 240
 date_start: 2015-02-25
 date_end: 2015-02-28
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Liam

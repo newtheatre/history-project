@@ -4,8 +4,7 @@ playwright: John Osborne
 season: In House
 season_sort: 40
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2011-11-02
 date_end: 2011-11-05
 

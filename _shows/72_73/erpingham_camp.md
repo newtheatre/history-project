@@ -4,8 +4,7 @@ season: In House
 period: Spring
 playwright: Joe Orton
 season_sort: 150
-venue:
-  - New Theatre
+venue: New Theatre
 ---
 
 

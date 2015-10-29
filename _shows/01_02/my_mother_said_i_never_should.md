@@ -5,8 +5,7 @@ season: In House
 period: Spring
 playwright: Charlotte Keatley
 season_sort: 240
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2002-03-12
 date_end: 2002-03-15
 cast:

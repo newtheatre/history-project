@@ -4,8 +4,7 @@ season: In House
 period: Spring
 playwright: Edward Albee
 season_sort: 180
-venue:
-  - New Theatre
+venue: New Theatre
 
 assets:
   - type: programme

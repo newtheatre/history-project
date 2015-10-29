@@ -4,8 +4,7 @@ playwright: Moises Kaufman and the members of Tectonic Theater Project
 season: In House
 season_sort: 260
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2011-05-04
 date_end: 2011-05-07
 

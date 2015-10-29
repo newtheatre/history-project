@@ -4,8 +4,7 @@ playwright: Jim Cartwright
 season: In House
 season_sort: 80
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2011-11-30
 date_end: 2011-12-03
 

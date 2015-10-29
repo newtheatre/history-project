@@ -3,8 +3,7 @@ published: true
 title: The Dark Tower
 season: In House
 period: Autumn
-venue:
-  - Trent Building
+venue: Trent Building
 playwright: George S. Kaufman and Alexander Woollcott
 season_sort: 30
 ---

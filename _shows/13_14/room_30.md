@@ -7,8 +7,7 @@ season: Fringe
 season_sort: 225
 date_start: 2014-03-17
 date_end: 2014-03-18
-venue:
-  - New Theatre Studio A
+venue: New Theatre Studio A
 
 cast:
   - role: Thomas

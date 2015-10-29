@@ -4,8 +4,7 @@ playwright: Tom Stoppard
 season: In House
 season_sort: 80
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2010-11-24
 date_end: 2010-11-27
 

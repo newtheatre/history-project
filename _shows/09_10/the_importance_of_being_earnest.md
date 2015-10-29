@@ -4,8 +4,7 @@ playwright: Oscar Wilde
 season: In House
 season_sort: 60
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2009-11-11
 date_end: 2009-11-14
 

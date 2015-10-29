@@ -4,7 +4,6 @@ season: In House
 period: Autumn
 playwright: "Richard O'Brien"
 season_sort: 60
-venue:
-  - New Theatre
+venue: New Theatre
 ---
 

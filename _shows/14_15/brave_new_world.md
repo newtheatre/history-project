@@ -7,8 +7,7 @@ season: "In House"
 season_sort: 350
 date_start: 2015-05-13
 date_end: 2015-05-16
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Lenina Crowne

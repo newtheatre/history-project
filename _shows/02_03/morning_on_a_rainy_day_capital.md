@@ -44,8 +44,7 @@ crew:
     name: Izzy Trednick
   - role: Publicity Designer
     name: Loic Tallon
-venue:
-  - New Theatre
+venue: New Theatre
 season_sort: 40
 assets:
   - type: programme

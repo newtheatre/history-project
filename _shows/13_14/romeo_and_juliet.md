@@ -6,8 +6,7 @@ season: In House
 season_sort: 240
 date_start: 2014-03-26
 date_end: 2014-03-29
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Romeo

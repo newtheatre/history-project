@@ -4,8 +4,7 @@ playwright: Luigi Pirandello
 period: Spring
 season: In House
 season_sort: 290
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2009-06-03
 date_end: 2009-06-06
 

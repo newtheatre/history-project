@@ -4,8 +4,7 @@ playwright: Patrick Marber
 season: In House
 season_sort: 250
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2012-03-27
 date_end: 2012-03-30
 

@@ -3,8 +3,7 @@ title: Stars in Their Eyes
 season: Fundraiser
 period: Spring
 season_sort: 240
-venue:
-  - New Theatre
+venue: New Theatre
 ---
 
 

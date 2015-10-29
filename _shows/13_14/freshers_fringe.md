@@ -6,8 +6,7 @@ season: In House
 season_sort: 10
 date_start: 2013-10-17
 date_end: 2013-10-18
-venue:
-  - New Theatre
+venue: New Theatre
 
 crew:
   - role: Coordinator

@@ -4,8 +4,7 @@ playwright: Enda Walsh
 season: In House
 season_sort: 280
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2010-05-12
 date_end: 2010-05-15
 

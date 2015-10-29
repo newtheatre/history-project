@@ -5,8 +5,7 @@ season: In House
 period: Autumn
 playwright: Will Openshaw
 season_sort: 30
-venue:
-  - New Theatre
+venue: New Theatre
 cast:
   - role: Martin Grant
     note: An Actor

@@ -201,17 +201,9 @@ prose:
               value: "Edinburgh"
       - name: "venue"
         field:
-          element: "multiselect"
+          element: "text"
           label: "Venue"
-          help: "New Theatre, Studio A, Studio B or the name of an external venue. Only select one option."
-          alterable: true
-          options:
-            - name: "New Theatre"
-              value: "New Theatre"
-            - name: "Studio A"
-              value: "Studio A"
-            - name: "Studio B"
-              value: "Studio B"
+          help: "Venue show was performed in."
       - name: "date_start"
         field:
           element: "text"

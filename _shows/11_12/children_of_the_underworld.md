@@ -1,11 +1,10 @@
 ---
 title: "Children Of The Underworld"
-playwright: 
+playwright:
 season: UNCUT
 season_sort: 150
 period: Spring
-venue:
-  - Open Air, University Park Campus
+venue: Open Air, University Park Campus
 date_start: 2012-02-12
 date_end: 2012-02-13
 

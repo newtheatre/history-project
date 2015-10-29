@@ -4,8 +4,7 @@ playwright:
 period: Spring
 season: Fundraiser
 season_sort: 240
-venue:
-  - New Theatre
+venue: New Theatre
 
 smugmug: Wrw4Jg
 ---

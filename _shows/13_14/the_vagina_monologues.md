@@ -7,8 +7,7 @@ season: External
 season_sort: 180
 date_start: 2014-02-20
 date_end: 2014-02-20
-venue:
-  - New Theatre
+venue: New Theatre
 
 assets:
   - type: poster

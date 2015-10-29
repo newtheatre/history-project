@@ -4,8 +4,7 @@ playwright: Martin McDonagh
 season: In House
 season_sort: 230
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2012-03-14
 date_end: 2012-03-17
 

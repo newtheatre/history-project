@@ -4,8 +4,7 @@ playwright: Joshua Sobol
 season: In House
 season_sort: 80
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2009-11-25
 date_end: 2009-11-28
 

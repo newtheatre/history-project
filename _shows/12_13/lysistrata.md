@@ -5,8 +5,7 @@ translator: Alan Sommerstein
 season: Lakeside
 season_sort: 260
 period: Spring
-venue:
-  - Djanogly Theatre
+venue: Djanogly Theatre
 date_start: 2013-04-26
 date_end: 2013-04-27
 

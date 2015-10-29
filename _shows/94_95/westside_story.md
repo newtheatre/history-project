@@ -3,8 +3,7 @@ season: In House
 period: Autumn
 title: Westside Story
 season_sort: 40
-venue:
-  - New Theatre
+venue: New Theatre
 cast:
   - role: Tony
     name: Andrew Muir

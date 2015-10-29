@@ -6,8 +6,7 @@ season: External
 season_sort: 350
 date_start: 2014-06-02
 date_end: 2014-06-06
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Krapp

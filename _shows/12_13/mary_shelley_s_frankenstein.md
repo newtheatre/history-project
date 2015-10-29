@@ -5,8 +5,7 @@ adaptor: Jake Leonard
 season: In House
 season_sort: 280
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2013-05-15
 date_end: 2013-05-18
 

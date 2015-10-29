@@ -7,8 +7,7 @@ season: Fringe
 season_sort: 245
 date_start: 2014-03-31
 date_end: 2014-04-01
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Richie

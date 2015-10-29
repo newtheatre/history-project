@@ -4,8 +4,7 @@ season: In House
 period: Autumn
 playwright: John Mortimer
 season_sort: 40
-venue:
-  - New Theatre
+venue: New Theatre
 ---
 
 A short play actually put on the lunch hour!

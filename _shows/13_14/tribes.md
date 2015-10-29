@@ -6,8 +6,7 @@ season: In House
 season_sort: 270
 date_start: 2014-05-14
 date_end: 2014-05-17
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Billy

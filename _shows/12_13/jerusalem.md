@@ -4,8 +4,7 @@ playwright: Jez Butterworth
 season: In House
 season_sort: 80
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2012-12-05
 date_end: 2012-12-08
 

@@ -4,8 +4,7 @@ playwright: William Shakespeare
 season: In House
 season_sort: 90
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2013-12-04
 date_end: 2013-12-07
 

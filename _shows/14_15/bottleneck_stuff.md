@@ -6,8 +6,7 @@ season: "STUFF"
 season_sort: 440
 date_start: 2015-06-17
 date_end: 2015-06-19
-venue:
-  - New Theatre Studio A
+venue: New Theatre Studio A
 
 cast:
   - role: Greg

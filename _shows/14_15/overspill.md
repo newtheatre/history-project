@@ -6,8 +6,7 @@ season: "In House"
 season_sort: 300
 date_start: 2015-03-24
 date_end: 2015-03-27
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Baron

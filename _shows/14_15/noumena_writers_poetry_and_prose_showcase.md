@@ -4,8 +4,7 @@ period: Spring
 season: "STUFF"
 season_sort: 520
 date_start: 2015-06-18
-venue:
-  - New Theatre Studio A
+venue: New Theatre Studio A
 
 assets:
   - type: poster

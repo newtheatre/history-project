@@ -5,8 +5,7 @@ student_written: true
 season: In House
 season_sort: 200
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start:
 date_end:
 cast:

@@ -4,8 +4,7 @@ playwright: Moira Buffini
 season: In House
 season_sort: 220
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2010-03-03
 date_end: 2010-03-06
 

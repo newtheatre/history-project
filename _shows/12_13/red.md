@@ -4,8 +4,7 @@ playwright: John Logan
 season: In House
 season_sort: 210
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2013-02-27
 date_end: 2013-03-02
 cast:

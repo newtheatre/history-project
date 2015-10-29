@@ -4,8 +4,7 @@ playwright: Brian Friel
 season: In House
 season_sort: 80
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2013-11-27
 date_end: 2013-11-30
 

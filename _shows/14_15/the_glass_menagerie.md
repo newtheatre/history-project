@@ -6,8 +6,7 @@ season: "In House"
 season_sort: 280
 date_start: 2015-03-18
 date_end: 2015-03-21
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Tom Wingfield

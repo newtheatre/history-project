@@ -4,8 +4,7 @@ playwright: Noel Coward
 season: In House
 season_sort: 50
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2009-11-04
 date_end: 2009-11-07
 

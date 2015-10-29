@@ -4,8 +4,7 @@ playwright: Tom Stoppard
 season: In House
 season_sort: 270
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2010-05-05
 date_end: 2010-05-08
 

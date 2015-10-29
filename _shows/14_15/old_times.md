@@ -6,8 +6,7 @@ season: External
 season_sort: 370
 date_start: 2015-05-30
 date_end: 2015-05-31
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Kate

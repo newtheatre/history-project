@@ -4,8 +4,7 @@ playwright: Ella Hickson
 season: UNCUT
 season_sort: 255
 period: Spring
-venue:
-  - New Theatre Studio B
+venue: New Theatre Studio B
 date_start: 2013-04-29
 date_end: 2013-04-30
 cast:

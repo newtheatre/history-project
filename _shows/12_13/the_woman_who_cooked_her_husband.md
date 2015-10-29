@@ -5,8 +5,7 @@ student_written: true
 season: UNCUT
 season_sort: 86
 period: Autumn
-venue:
-  - Lee Rosy's Tea Rooms
+venue: Lee Rosy's Tea Rooms
 date_start: 2012-12-09
 date_end: 2012-12-10
 

@@ -6,8 +6,7 @@ season: In House
 season_sort: 250
 date_start: 2014-04-02
 date_end: 2014-04-05
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role: Alan Strang

@@ -6,8 +6,7 @@ season: External
 season_sort: 390
 date_start: 2015-06-06
 date_end: 2015-06-07
-venue:
-  - New Theatre Studio A
+venue: New Theatre Studio A
 
 cast:
   - role: Greg

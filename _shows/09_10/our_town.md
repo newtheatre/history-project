@@ -4,8 +4,7 @@ playwright: Thornton Wilder
 season: In House
 season_sort: 210
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2010-02-24
 date_end: 2010-02-27
 

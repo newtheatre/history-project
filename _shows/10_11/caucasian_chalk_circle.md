@@ -4,8 +4,7 @@ playwright: Bertold Brecht
 season: In House
 season_sort: 50
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2010-11-03
 date_end: 2010-11-06
 

@@ -5,8 +5,7 @@ student_written: true
 season: In House
 period: Autumn
 season_sort: 70
-venue:
-  - New Theatre
+venue: New Theatre
 
 crew:
   - role: Director

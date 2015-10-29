@@ -5,8 +5,7 @@ period: Spring
 season: "STUFF"
 season_sort: 500
 date_start: 2015-06-18
-venue:
-  - New Theatre
+venue: New Theatre
 
 cast:
   - role:

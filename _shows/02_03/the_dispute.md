@@ -4,8 +4,7 @@ playwright: Marivaux
 season: In House
 season_sort: 500
 period:
-venue:
-  - New Theatre
+venue: New Theatre
 date_start:
 date_end:
 

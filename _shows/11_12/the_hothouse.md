@@ -4,8 +4,7 @@ playwright: Harold Pinter
 season: In House
 season_sort: 60
 period: Autumn
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2011-11-16
 date_end: 2011-11-19
 

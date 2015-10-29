@@ -4,8 +4,7 @@ playwright: Dennis Kelly
 season: In House
 season_sort: 220
 period: Spring
-venue:
-  - New Theatre
+venue: New Theatre
 date_start: 2011-03-02
 date_end: 2011-03-05
 
