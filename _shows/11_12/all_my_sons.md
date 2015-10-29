@@ -26,8 +26,8 @@ crew:
     name: Dave Porter
   - role: Lighting Designer
     name: Lawrence Bolton
-  - role: Technical director
-    name; Emma-Louise Amanshia
+  - role: Technical Director
+    name: Emma-Louise Amanshia
   - role: Technical Operator
     name: Joseph Heil
   - role: Set Construction
