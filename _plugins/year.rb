@@ -46,7 +46,7 @@ module Jekyll
     def generate(site)
       if not site.config["skip_years"]
         @collection = site.collections["years"]
-        puts "Generating years..."
+        Jekyll.logger.info "Generating years..."
 
         for year in site.config["year_start"]..site.config["year_end"]
           unless @collection.docs.detect { |doc| doc.data["sort"] == year }
@@ -54,7 +54,7 @@ module Jekyll
           end
         end
       else
-        puts "Skipping year generation"
+        Jekyll.logger.warn "Skipping year generation"
       end
     end
   end
@@ -100,7 +100,7 @@ module Jekyll
     end
 
     def generate(site)
-      puts "Processing years..."
+      Jekyll.logger.info "Processing years..."
       @site = site
       @years = get_sorted_years(@site.collections["years"].docs)
       committees = @site.collections["committees"].docs

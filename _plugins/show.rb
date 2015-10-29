@@ -185,7 +185,7 @@ module Jekyll
 
     # Main generation method
     def generate(site)
-      puts "Processing shows..."
+      Jekyll.logger.info "Processing shows..."
 
       @site = site
 

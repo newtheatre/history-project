@@ -40,7 +40,7 @@ module Jekyll
     end
 
     def generate(site)
-      puts "Processing archive assets..."
+      Jekyll.logger.info "Processing archive assets..."
       shows = site.data["shows"]
 
       @posters = Array.new

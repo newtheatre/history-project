@@ -19,7 +19,7 @@ module Jekyll
     end
 
     def generate(site)
-      puts "Processing committees..."
+      Jekyll.logger.info "Processing committees..."
 
       @site = site
       committees = @site.collections["committees"].docs
