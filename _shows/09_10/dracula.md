@@ -2,7 +2,7 @@
 title: Dracula
 playwright:
 company: Postgrads
-season: In House
+season: External
 season_sort: 410
 period: External
 venue: New Theatre

@@ -1,6 +1,6 @@
 ---
 title: "Romeo and Juliet"
-playwright:
+playwright: William Shakespeare
 period: Spring
 season: In House
 season_sort: 300

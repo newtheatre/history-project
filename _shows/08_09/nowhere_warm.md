@@ -1,10 +1,12 @@
 ---
 title: "Nowhere Warm"
-playwright:
+playwright: Elle O'Rorke
 period: Autumn
 season: In House
 season_sort: 60
 venue: New Theatre
+date_start: 2008-11-05
+date_end: 2008-11-08
 
 assets:
   - type: poster
