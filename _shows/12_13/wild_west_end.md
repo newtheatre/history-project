@@ -30,10 +30,6 @@ assets:
   - type: poster
     image: wild_west_end_poster_small.jpg
 
-photos:
-  - type: people
-    image: wild_west_end_people.jpg
-
 smugmug: 9CnkkD
 
 ---

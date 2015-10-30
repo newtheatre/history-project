@@ -14,5 +14,5 @@ assets:
   - type: poster
     image: romeo_and_juliet_2008-09.jpg
   - type: flyer
-    image: romeo_and_juliet_unknown.jpg
+    image: romeo_and_juliet_2008-09_2.jpg
 ---
