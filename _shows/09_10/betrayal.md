@@ -1,15 +1,15 @@
 ---
 title: Betrayal
 playwright: Harold Pinter
-season: In House
-season_sort: 430
-period: External
+season: External
+season_sort: 285
+period: Spring
 venue: New Theatre
 date_start: 2010-06-03
 date_end: 2010-06-04
 
 cast:
-  - role: unknown
+  - role: Emma
     name: Lizzie Bourne
   - role: unknown
     name: Douggie McMeekin

@@ -21,6 +21,9 @@ crew:
     name: Adna Duherich
   - role: Set Designer
     name: Philip Geller
+  - role: Original Score
+    name: Angus MacRae
+    note: NSDF
 
 published: true
 
