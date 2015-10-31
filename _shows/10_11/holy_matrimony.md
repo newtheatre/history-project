@@ -1,12 +1,12 @@
 ---
 title: "Holy Matrimony!"
 devised: true
-season: External
+season: Fundraiser
 season_sort: 278
 period: Spring
 venue: New Theatre
 date_start: 2011-06-03
-date_end: 2011-06-03
+date_end:
 
 Starring:
 name: Nathalie Barclay
