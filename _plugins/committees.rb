@@ -1,6 +1,6 @@
 module Jekyll
   class CommitteeDataGenerator < Jekyll::Generator
-    priority :normal
+    priority :high
 
     # From people.rb
     def people_by_filename
