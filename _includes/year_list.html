@@ -1,18 +1,18 @@
-{% if shows == null %}
+{% if page.shows == nil %}
   {% include boxes/shows_missing_all.html %}
-{% elsif shows.size < site.year_low_shows %}
+{% elsif page.shows.size < site.year_low_shows %}
   {% include boxes/shows_missing_some.html %}
 {% endif %}
 
 {% for period in site.data.periods %}
-  {% assign show_list_shows = shows | where: "period", period.period %}
+  {% assign show_list_shows = page.shows | where: "period", period.period %}
   {% if show_list_shows.size > 0 %}
     <h3 title="{{ period.description }}">{{ period.title }}</h3>
     {% include show_list.html %}
   {% endif %}
 {% endfor %}
 
-{% assign others = shows | where: "period", null %}
+{% assign others = page.shows | where: "period", null %}
 {% if others.size > 0 %}
   {% assign show_list_shows = others %}
   <h3>Unknown</h3>

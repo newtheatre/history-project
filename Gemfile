@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'sass'
-gem 'jekyll'
+gem 'jekyll', '~> 3.0.0'
 gem 'jekyll-sitemap'
 gem 'jekyll-redirect-from'
 gem 'jekyll-coffeescript'
