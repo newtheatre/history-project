@@ -32,9 +32,9 @@ See the [contributing](/contributing/) section for details on how to help out.
 
 ## Build Details
 
-{% assign shows = site.collections.shows.docs %}
-{% assign committees = site.collections.committees.docs %}
-{% assign people = site.collections.people.docs %}
+{% assign shows = site.shows %}
+{% assign committees = site.committees %}
+{% assign people = site.people %}
 
 - Site last updated at {{site.time | date: "%Y-%m-%d %H:%M" }}
 - Build number {% include travis_build_number.txt %}.

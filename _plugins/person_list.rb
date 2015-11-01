@@ -1,24 +1,24 @@
 def fill_people_reverse_index(item, people_list, index_name, site)
 
   # Create the RI for this case if first time
-  unless site.data.has_key?(index_name)
+  unless site.data.key?(index_name)
     site.data[index_name] = Hash.new
   end
 
   # Create the array for people names if first time
-  unless site.data.has_key?("people_names")
+  unless site.data.key?("people_names")
     site.data["people_names"] = Array.new
   end
 
   index = site.data[index_name]
 
   for person in people_list
-    if (person.has_key?("name") and person["name"] != "unknown") and not person["person"] == false
+    if (person.key?("name") and person["name"] != "unknown") and not person["person"] == false
       name = person["name"]
       role = person["role"]
       record_new = {"roles"=>[role], "item"=>item}
 
-      if index.has_key?( name )
+      if index.key?( name )
         # Existing RI record
         existing_record = index[name].detect { |r| r["item"] == item }
         if existing_record
@@ -46,9 +46,9 @@ end
 def parse_person_list(pl, people_by_filename)
   """Add additional data to a person_list"""
   for pli in pl
-    if pli.has_key?("name")
+    if pli.key?("name")
       filename = make_hp_path(pli["name"])
-      if people_by_filename.has_key?(filename)
+      if people_by_filename.key?(filename)
         pli["person_record"] = people_by_filename[filename]
       end
     end

@@ -3,6 +3,7 @@ _site/
 lib/
 node_modules/
 _asset_bundler_cache/
+.jekyll-metadata
 _smugmug_cache/
 tmp/
 

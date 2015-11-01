@@ -113,7 +113,7 @@ module Jekyll
 
       image_source_path = File.join(site_source, image_source, instance[:src])
       unless File.exists?image_source_path
-        puts "Missing: #{image_source_path}"
+        Jekyll.logger.error "Missing: #{image_source_path}"
         return false
       end
 
@@ -180,7 +180,7 @@ module Jekyll
         FileUtils.mkdir_p(gen_dest_dir) unless File.exist?(gen_dest_dir)
 
         # Let people know their images are being generated
-        puts "Generating #{gen_name}"
+        Jekyll.logger.info "Generating #{gen_name}"
 
         # Scale and crop
         image.combine_options do |i|

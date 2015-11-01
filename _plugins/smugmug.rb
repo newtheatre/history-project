@@ -31,13 +31,13 @@ class Smug
 
   def fetch_album_data(albumID)
     # Given an album id, return the SM album
-    puts "Fetching SmugMug album data #{ albumID }"
+    Jekyll.logger.info "Fetching SmugMug album data #{ albumID }"
     url = api_url("album/#{ albumID }")
     data = self.class.get(url)
-    if data.has_key? "Response"
+    if data.key? "Response"
       return data["Response"]["Album"]
     else
-      puts "Error: Invalid SmugMug Response"
+      Jekyll.logger.error "Error: Invalid SmugMug Response"
       return false
     end
 
@@ -45,20 +45,20 @@ class Smug
 
   def fetch_album_images(albumID)
     # Given an album id, return the SM objects in that album
-    puts "Fetching SmugMug album images #{ albumID }"
+    Jekyll.logger.info "Fetching SmugMug album images #{ albumID }"
     url = api_url("album/#{ albumID }!images")
     data = self.class.get(url)
-    if data.has_key? "Response"
+    if data.key? "Response"
       return data["Response"]["AlbumImage"]
     else
-      puts "Error: Invalid SmugMug Response"
+      Jekyll.logger.error "Error: Invalid SmugMug Response"
       return false
     end
   end
 
   def fetch_image_urls(imageIDs, size, sizeClass, sizeParameters=nil)
     # Given a list of image ids, return SM single sized images
-    puts "Fetching SmugMug image #{ imageIDs } #{ size }"
+    Jekyll.logger.info "Fetching SmugMug image #{ imageIDs } #{ size }"
 
     imageIDs_as_parameter = imageIDs.join(',')
     url = api_url("image/#{ imageIDs_as_parameter }!#{ size }", sizeParameters)
@@ -101,7 +101,7 @@ class Smug
 
     if File.exists?(fn)
       # Album cached, load that
-      puts "Loading album #{ albumID } from local cache"
+      # puts "Loading album #{ albumID } from local cache"
       cache_file = File.open(fn, "r")
 
       if cache_file.ctime < cache_invalid_time
@@ -122,8 +122,10 @@ class Smug
       File.open(fn, "w") do |cache_file|
         JSON.dump(album, cache_file)
       end
+    elsif site.config['skip_smugmug']
+      Jekyll.logger.warn "Skipping smugmug fetch"
     else
-      puts "Skipping fetch of #{albumID}"
+      Jekyll.logger.info "Skipping fetch of #{albumID}"
       album = nil
     end
 

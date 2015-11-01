@@ -1,11 +1,23 @@
 module Jekyll
   class ShowDataGenerator < Jekyll::Generator
-    priority :highest
+    priority :high
 
-    def get_playwright(show)
-      if show.data.has_key?("playwright")
+    # From years.rb
+    def years_by_slug
+      @years_by_slug ||= generate_years_by_slug(@years)
+    end
+
+    # From people.rb
+    def people_by_filename
+      @people_by_filename ||= generate_people_by_filename(@people)
+    end
+
+    # Attribute generators
+
+    def get_show_playwright(show)
+      if show.data.key?("playwright")
         return ["playwright", show.data["playwright"], "by #{ show.data["playwright"] }"]
-      elsif show.data.has_key?("devised")
+      elsif show.data.key?("devised")
         if show.data["devised"] == true
           return ["devised", "", "Devised"]
         else
@@ -17,75 +29,129 @@ module Jekyll
       # Return playwright_type, playwright, playwright_formatted
     end
 
-    def get_playwright_formatted_long(show)
+    def get_show_year(show)
+      path_split = show.path.split("/")
+      path_split[path_split.length - 2]
+    end
+
+    def get_show_year_page(show)
+      years_by_slug[show.data["year"]]
+    end
+
+    def get_show_playwright_formatted_long(show)
       ret = show.data["playwright_formatted"]
 
-      if show.data.has_key?("translator")
+      if show.data.key?("translator")
         ret = "#{ ret }; Translated by #{ show.data["translator"] }"
       end
 
-      if show.data.has_key?("adaptor")
+      if show.data.key?("adaptor")
         ret = "#{ ret }; Adapted by #{ show.data["adaptor"] }"
       end
 
       return ret
     end
 
-    # Main generation method
-    def generate(site)
-      puts "Processing shows..."
-      all_shows = site.collections["shows"].docs
-      @years = site.collections["years"].docs
-      @people = site.collections["people"].docs
+    def get_show_override_assets(show)
+      show.data["assets"].select { |i| i["display_image"] == true }
+    end
 
-      # This is here as it's needed here, I expect year.rb to be run after.
-
-      years_by_slug = generate_years_by_slug(@years)
-      people_by_filename = generate_people_by_filename(@people)
-
-      # Compute extra show data attributes
-      shows_by_year = Hash.new
-      for show, index in all_shows.each_with_index do
-        path_split = show.path.split("/")
-        year = path_split[path_split.length-2]
-
-        # Set meta attributes
-        show.data["playwright_type"], show.data["playwright"],
-          show.data["playwright_formatted"] = get_playwright(show)
-
-        show.data["playwright_formatted_long"] = get_playwright_formatted_long(show)
-
-        # Set year attributes
-        show.data["year"] = year
-        year_page = years_by_slug[show.data["year"]]
-        show.data["year_page"] = year_page
-
-        # To put content in meta description
-        show.data["excerpt"] = show.content
-
-        # Add extra data to cast / crew lists
-        if show.data.has_key?("cast") and show.data["cast"]
-          show.data["cast"] = parse_person_list(show.data["cast"], people_by_filename)
+    def get_show_asset_type(show, key)
+      show.data["assets"].select do |i|
+        if i.key?("page")
+          i["type"] == key and not i["page"] > 1
+        else
+          i["type"] == key
         end
-        if show.data.has_key?("crew") and show.data["crew"]
-          show.data["crew"] = parse_person_list(show.data["crew"], people_by_filename)
-        end
-
-        # Fetch SmugMug album data
-        if show.data.has_key? "smugmug"
-          smug = Smug.new
-          show.data["smugmug_album"] = smug.get_show_photos(show.data["smugmug"], site)
-        end
-
-        # Generate the legacy path for 301 redirect re. #142 Make semantic and pretty urls
-        legacy_path = "shows/#{show.data["year"]}/#{show.basename_without_ext}.html"
-        show.data["redirect_from"] = legacy_path
-
       end
+    end
 
-      # Sort Shows
-      sorted_shows = all_shows.sort_by do | show |
-        if show.data.has_key?("season_sort")
+    def get_show_display_image(show)
+      # Assets required
+      return nil unless show.data.key?("assets")
+
+      # Find assets that fit the criteria for being a display image
+      override_assets = get_show_override_assets(show)
+      posters = get_show_asset_type(show, "poster")
+      flyers = get_show_asset_type(show, "flyer")
+      programmes = get_show_asset_type(show, "programme")
+
+      # Pick one in this order of precedence
+      if override_assets.size > 0
+        return override_assets[0]
+      elsif posters.size > 0
+        return posters[0]
+      elsif flyers.size > 0
+        return flyers[0]
+      elsif programmes.size > 0
+        return programmes[0]
+      else
+        return nil
+      end
+    end
+
+    def get_show_smugmug(show)
+      if show.data.key? "smugmug"
+        smug = Smug.new
+        return smug.get_show_photos(show.data["smugmug"], @site)
+      else
+        return nil
+      end
+    end
+
+    def get_show_legacy_paths(show)
+      "shows/#{show.data['year']}/#{show.basename_without_ext}.html"
+    end
+
+    def generate_show_pls(show, key)
+      if show.data.key?(key) and show.data[key]
+        return parse_person_list(show.data[key], people_by_filename)
+      else
+        return nil
+      end
+    end
+
+    def send_people(show, key)
+      """Send a person_list to the reverse index"""
+      if show.data.key?(key) and show.data[key].class == Array
+        fill_people_reverse_index(show, show.data[key], "people_ri_shows", @site)
+      end
+    end
+
+    # Show generator
+    def generate_show(show)
+      # Set year attributes
+      show.data["year"] = get_show_year(show)
+      show.data["year_page"] = get_show_year_page(show)
+
+      # To put content in meta description
+      show.data["excerpt"] = show.content
+
+      # Set meta attributes
+      show.data["playwright_type"], show.data["playwright"],
+        show.data["playwright_formatted"] = get_show_playwright(show)
+
+      show.data["playwright_formatted_long"] = get_show_playwright_formatted_long(show)
+
+      # Add extra data to cast / crew lists
+      show.data["cast"] = generate_show_pls(show, "cast")
+      show.data["crew"] = generate_show_pls(show, "crew")
+
+      # Fetch SmugMug album data
+      show.data["smugmug_album"] = get_show_smugmug(show)
+
+      # Generate the legacy path for 301 redirect re. #142 Make semantic and pretty urls
+      show.data["redirect_from"] = get_show_legacy_paths(show)
+
+      # Set the show poster attribute, see #117
+      display_image = get_show_display_image(show)
+      show.data["poster"] = display_image
+      show.data["display_image"] = display_image
+    end
+
+    def sort_shows(shows)
+      return shows.sort_by do | show |
+        if show.data.key?("season_sort")
           # Sort by year, then by season_sort
           [show.data["year_page"].data["sort"], show.data["season_sort"].to_i]
         else
@@ -93,67 +159,50 @@ module Jekyll
           [show.data["year_page"].data["sort"], 1000]
         end
       end
+    end
 
-      for show, index in sorted_shows.each_with_index do
-        # Put show into an array as a member of the shows_byt_year hash
-        # Create that array if this is the first time we've touched this year
-        (shows_by_year[show.data["year"]] ||= []) << show
+    def generate_show_with_index(show, index)
+      # Set sort dependant attributes
+      show.data["index"] = index
+      show.data["next"] = @shows[index + 1]
+      show.data["previous"] = @shows[index - 1]
 
-        # Set sort dependant attributes
-        show.data["index"] = index
-        show.data["next"] = sorted_shows[index + 1]
-        show.data["previous"] = sorted_shows[index - 1]
+      # Extract cast/crew data for reverse indexing, this wants to happen to
+      # the sorted shows so lists on people records are in order
+      send_people(show, "cast")
+      send_people(show, "crew")
+    end
 
-        # Extract cast/crew data for reverse indexing
-        if show.data.has_key?("cast") and show.data["cast"].class == Array
-          fill_people_reverse_index(show, show.data["cast"], "people_ri_shows", site) end
-        if show.data.has_key?("crew") and show.data["crew"].class == Array
-          fill_people_reverse_index(show, show.data["crew"], "people_ri_shows", site) end
+    def sort_shows_by_year(shows)
+      """Returns a hash of shows by year"""
+      shows_by_year = Hash.new
+      # Iterate through sorted shows
+      # Put show into an array as a member of the shows_by_year hash
+      # Create that array if this is the first time we've touched this year
+      shows.each { |show| (shows_by_year[show.data["year"]] ||= []) << show }
+      return shows_by_year
+    end
 
-        # Set the show poster attribute, see #117
-        if show.data["assets"]
+    # Main generation method
+    def generate(site)
+      Jekyll.logger.info "Processing shows..."
 
-          # Find assets that fit the criteria for being a display image
-          override_assets = show.data["assets"].select { |i| i["display_image"] == true }
-          posters = show.data["assets"].select { |i| i["type"] == "poster" }
-          flyers = show.data["assets"].select { |i|
-            if i.has_key?("page")
-              i["type"] == "flyer" and not i["page"] > 1
-            else
-              i["type"] == "flyer"
-            end
-          }
-          programmes = show.data["assets"].select { |i|
-            if i.has_key?("page")
-              i["type"] == "programme" and not i["page"] > 1
-            else
-              i["type"] == "programme"
-            end
-          }
+      @site = site
 
-          # Pick one in this order of precedence
-          if override_assets.size > 0
-            display_image = override_assets[0]
-          elsif posters.size > 0
-            display_image = posters[0]
-          elsif flyers.size > 0
-            display_image = flyers[0]
-          elsif programmes.size > 0
-            display_image = programmes[0]
-          end
+      @years = @site.collections["years"].docs
+      @people = @site.collections["people"].docs
 
-          # Set attrs
-          if display_image
-            show.data["poster"] = display_image
-            show.data["display_image"] = display_image
-          end
+      # Compute extra show data attributes and sort, get list of shows
+      @shows = sort_shows(
+        @site.collections["shows"].docs.each { |show| generate_show(show) }
+      )
 
-        end
-      end
+      # Compute extra show data attributes that require sorting to have happened
+      @shows.each_with_index { |show, index| generate_show_with_index(show, index) }
 
       # Accessible chopped and diced shows
-      site.data["shows"] = all_shows
-      site.data["shows_by_year"] = shows_by_year
+      @site.data["shows"] = @shows
+      @site.data["shows_by_year"] = sort_shows_by_year(@shows)
 
     end
   end
