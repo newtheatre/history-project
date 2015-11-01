@@ -8,6 +8,10 @@ date_start: 2013-03-07
 date_end:
 venue: New Theatre
 
+crew:
+  - role: Venue Technician
+    name: Will Pimblett
+
 assets:
   - type: poster
     image: wasted.jpg
