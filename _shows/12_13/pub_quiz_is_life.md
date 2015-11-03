@@ -58,7 +58,7 @@ crew:
 
 assets:
   - type: poster
-    image: pub_quiz_is_life_2012-13.jpg
+    image: pub_quiz_is_life_poster.jpg
 
 smugmug: p47xCL
 ---
