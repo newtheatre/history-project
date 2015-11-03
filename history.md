@@ -2,8 +2,6 @@
 layout: page
 title: History
 group: top
-sort: 30
-icon: fa fa-book
 current: history
 ---
 

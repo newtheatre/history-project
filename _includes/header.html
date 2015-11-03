@@ -9,19 +9,12 @@
     </a>
 
     <nav class="site-nav">
-      {% assign top_pages = site.pages | where: "group", "top" | sort: "sort" %}
-      {% for node in top_pages %}
-        {% if node.title %}
-        <a class="page-link{% if node.current == page.current %} current{% endif %}" href="{{ node.url | prepend: site.baseurl }}">
+      {% for node in site.data.header %}
+        <a class="page-link{% if node.slug == page.current %} current{% endif %}" href="{{ node.href | prepend: site.baseurl }}">
           {% if node.icon %}<i class="{{ node.icon }}"></i> {% endif %}
-          <span class="page-link-text">{{ node.title }}</span>
+          <span class="page-link-text">{{ node.section }}</span>
         </a>
-        {% endif %}
       {% endfor %}
-      <a class="page-link{% if page.current == "about" %} current{% endif %}" href="/about/">
-        <i class="octicon octicon-circuit-board"></i>
-        <span class="page-link-text">About</span>
-      </a>
     </nav>
     <div class="site-search">
       {% if page.url != "/search/" %}
