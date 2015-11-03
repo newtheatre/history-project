@@ -34,6 +34,39 @@ $color-debug: #4FFF1F
   left: 2px
   padding: 3px 3px 1px 3px
 
+.debug-breakpoint
+  @include debug-box
+  position: fixed
+  top: 2px + (14px + 2px + 2px) * 2
+  left: 2px
+  padding: 3px 3px 1px 3px
+
+  span
+    display: none
+
+  @include respond-to(mob-port)
+    .mob-port
+      display: inline
+  @include respond-to(mob-land)
+    .mob-land
+      display: inline
+      i:before
+        @include transform(rotate(90deg))
+  @include respond-to(tab-port)
+    .tab-port
+      display: inline
+  @include respond-to(tab-land)
+    .tab-land
+      display: inline
+      i:before
+        @include transform(rotate(90deg))
+  @include respond-to(med-desk)
+    .med-desk
+      display: inline
+  @include respond-to(widescreen)
+    .widescreen
+      display: inline
+
 .debug-mode
   @include debug-box
   position: fixed
