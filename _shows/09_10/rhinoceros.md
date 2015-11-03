@@ -24,7 +24,7 @@ cast:
   - role: Papillon
     name: Anna Sheriff
   - role: Mrs Boeuf / Grocer's Wife
-    name: Elizabeth Stevenson
+    name: Liz Stevenson
   - role: Logician
     name: Chris Walters
   - role: Old Gentleman

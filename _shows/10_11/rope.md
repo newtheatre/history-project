@@ -28,7 +28,7 @@ cast:
 
 crew:
   - role: Director
-    name: Elizabeth Stevenson
+    name: Liz Stevenson
   - role: Producer
     name: James Townend
   - role: Set Designer

@@ -15,7 +15,7 @@ cast:
 
 crew:
   - role: Director
-    name: Elizabeth Stevenson
+    name: Liz Stevenson
   - role: Producer
     name: Rose Williams
   - role: Set Designer
