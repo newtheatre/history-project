@@ -1,8 +1,6 @@
 ---
 layout: page
 title: Alumni
-sort: 20
-icon: "fa fa-users"
 group: top
 current: people
 published: true

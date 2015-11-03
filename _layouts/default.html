@@ -12,11 +12,6 @@
       {{site.time | date: "%Y-%m-%d %H:%M" }}, build {% include travis_build_number.txt %}, section {{ page.current }}
     </div>
 
-    <div class="debug-last-commit" data-debug-toggle>
-      <i class="octicon octicon-history"></i>
-      {% gitlastcommit %}
-    </div>
-
     <div class="debug-badges" data-debug-toggle>
       <a href="https://travis-ci.org/newtheatre/history-project">
         <img src="https://travis-ci.org/newtheatre/history-project.svg?branch=master" alt="Travis Build Badge" />

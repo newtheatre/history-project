@@ -1,0 +1,18 @@
+# Specifies the top level links for the site header
+
+- section: Archives
+  href: /years/
+  slug: archives
+  icon: fa fa-ticket
+- section: People
+  href: /people/
+  slug: people
+  icon: fa fa-users
+- section: History
+  href: /history/
+  slug: history
+  icon: fa fa-book
+- section: About
+  href: /about/
+  slug: about
+  icon: octicon octicon-circuit-board
