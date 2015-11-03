@@ -7,7 +7,7 @@ season: Edinburgh
 season_sort: 410
 venue: ZOO Monkeyhouse
 date_start: 2014-08-02
-date_end: 2014-08-26
+date_end: 2014-08-24
 
 cast:
   - role: Dan
