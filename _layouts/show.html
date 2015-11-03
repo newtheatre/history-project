@@ -184,28 +184,12 @@ layout: default
 
   </div>
 
-  {% elsif show.photos == null %}
+  {% else %}
 
   <div class="show-wrap show-row">
     <div class="col-full">
       {% include boxes/show_photos_missing.html %}
     </div>
-  </div>
-
-  {% else %}
-
-  <div class="show-photos-outer">
-    <section class="show-photos show-photos-legacy">
-      {% for image in show.photos %}
-      <div class="show-photo-single debug-container">
-        <a class="fancybox" rel="photos" href="/images/for_shows/{{ image.image }}" title="{{ image.caption }}">
-          {% image show_photo for_shows/{{ image.image }} title="{{image.caption}}" %}
-          <div class="debug-abs-bottom-left" data-debug-toggle title="Photo type">{{ image.type }}</div>
-          <div class="debug-abs-top-left" data-debug-toggle title="Photo image">{{ image.image }}</div>
-        </a>
-      </div>
-      {% endfor %}
-    </section>
   </div>
 
   {% endif %}
