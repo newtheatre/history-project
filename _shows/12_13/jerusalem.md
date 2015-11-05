@@ -37,6 +37,12 @@ cast:
     name: Grace Rowland
   - role: Parsons
     name: Phoebe Fairbrother
+  - role: Thug
+    note: NSDF
+    name: Will Pimblett
+  - role: Thug
+    note: NSDF
+    name: James Bentley
 
 crew:
   - role: Director
