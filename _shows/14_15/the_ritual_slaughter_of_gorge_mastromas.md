@@ -11,6 +11,9 @@ venue: New Theatre
 cast:
   - role: Gorge Mastromas
     name: Nick Jeffrey
+  - role: Gorge Mastromas
+    note: NSDF
+    name: James Bentley
   - role: A
     name: Amelia Gann
   - role: Pete
