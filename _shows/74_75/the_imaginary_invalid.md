@@ -6,6 +6,53 @@ playwright: Molière
 season_sort: 130
 venue: New Theatre
 
+cast:
+  - role: Argan
+  	name: Hugh Simon
+  - role: Bonnefoy
+  	name: Kevin Buxton
+  - role: Cleante
+  	name: Chris Brazier
+  - role: Dr Diaforus
+  	name: Ian Noble
+  - role: Thomas Diaforus
+  	name: Stephen Hopker
+  - role: Beralde
+  	name: Andrew Pearson
+  - role: Apothecary
+  	name: Ed Nally
+  - role: Dr Purgon
+  	name: Simon Bennett
+  - role: Toinette
+  	name: Diane Gregson
+  - role: Angelica
+  	name: Susan Elliott
+  - role: Belin
+  	name: Sheridan Davis
+  - role: Louise
+  	name: Valerie Hodgkinson
+
+crew:
+  - role: Director
+  	name: Lynn Ireland
+  - role: Producer
+  	name: Gill Brand
+  - role: Lighting Designer
+  	name: Colin Bill
+  - role: Sound Designer
+  	name: Colin Bill
+  - role: Set Construction
+  	name: Peter Webb
+  - role: Set Construction
+  	name: Jonathan Pumfrey
+  - role: Costume Designer
+  	name: Crispin Harris
+  - role: Costume
+  	name: Nottingham Playhouse
+  	person: false
+  - role: Stage Manager
+  	name: Gill Brand
+
 assets:
   - type: programme
     image: the_imaginary_invalid_programme_1.jpg
