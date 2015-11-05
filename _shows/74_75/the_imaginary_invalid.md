@@ -8,50 +8,50 @@ venue: New Theatre
 
 cast:
   - role: Argan
-  	name: Hugh Simon
+    name: Hugh Simon
   - role: Bonnefoy
-  	name: Kevin Buxton
+    name: Kevin Buxton
   - role: Cleante
-  	name: Chris Brazier
+    name: Chris Brazier
   - role: Dr Diaforus
-  	name: Ian Noble
+    name: Ian Noble
   - role: Thomas Diaforus
-  	name: Stephen Hopker
+    name: Stephen Hopker
   - role: Beralde
-  	name: Andrew Pearson
+    name: Andrew Pearson
   - role: Apothecary
-  	name: Ed Nally
+    name: Ed Nally
   - role: Dr Purgon
-  	name: Simon Bennett
+    name: Simon Bennett
   - role: Toinette
-  	name: Diane Gregson
+    name: Diane Gregson
   - role: Angelica
-  	name: Susan Elliott
+    name: Susan Elliott
   - role: Belin
-  	name: Sheridan Davis
+    name: Sheridan Davis
   - role: Louise
-  	name: Valerie Hodgkinson
+    name: Valerie Hodgkinson
 
 crew:
   - role: Director
-  	name: Lynn Ireland
+    name: Lynn Ireland
   - role: Producer
-  	name: Gill Brand
+    name: Gill Brand
   - role: Lighting Designer
-  	name: Colin Bill
+    name: Colin Bill
   - role: Sound Designer
-  	name: Colin Bill
+    name: Colin Bill
   - role: Set Construction
-  	name: Peter Webb
+    name: Peter Webb
   - role: Set Construction
-  	name: Jonathan Pumfrey
+    name: Jonathan Pumfrey
   - role: Costume Designer
-  	name: Crispin Harris
+    name: Crispin Harris
   - role: Costume
-  	name: Nottingham Playhouse
-  	person: false
+    name: Nottingham Playhouse
+    person: false
   - role: Stage Manager
-  	name: Gill Brand
+    name: Gill Brand
 
 assets:
   - type: programme
