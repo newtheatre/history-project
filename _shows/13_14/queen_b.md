@@ -45,6 +45,7 @@ assets:
     page: 2
     image: queen_b_pub_5.jpg
 
+smugmug: WGPL3j
 ---
 
 Dan is lost. Everything hasn't quite turned out how he would have liked and he is afraid the most of his life has already passed him by. When he meets Amy, a completely unfiltered and free-spirited 19-year-old girl with a fractured family life, he finds a way to live again, rebelling against everything he holds dear. But how does a 40-year-old man go about meeting a 19-year-old girl? And can the repercussions from their first meeting ever really go away?
