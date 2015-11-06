@@ -11,11 +11,11 @@ crew:
   - role: Lighting
     name: Jom Cowell
   - role: Sound
-  - name: Nick Bradury
+    name: Nick Bradury
   - role: Stage Manager
-  - name: Tony Ireland
+    name: Tony Ireland
   - role: Stage Manager
-  - name: Sarah Hughes
+    name: Sarah Hughes
 venue: Edinburgh
 
 assets:
