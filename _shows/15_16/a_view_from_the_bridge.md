@@ -37,8 +37,8 @@ crew:
   name: Tim Behrman
 - role: Set Designer
   name: Hannah Kettle
-- role: Harry Bridge
-  name: Darcey Graham
+- role: Lighting Designer
+  name: Harry Bridge
 - role: Shadow Lighting Designer
   name: Arthur Mckechnie
 - role: Technical Director
