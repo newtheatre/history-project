@@ -71,6 +71,8 @@ crew:
   name: Sara Anderson
 - role: Stage Manager
   name: Emma Kendall
+- role: Make-up
+  name: Sasha Gibson
 - role: Poster Designer
   name: Will Berrington
 - role: Artwork
