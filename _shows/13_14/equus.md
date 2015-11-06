@@ -63,6 +63,8 @@ crew:
     name: Hannah Doyle
   - role: Technical Operator
     name: Joseph Heil
+  - role: Stage Manager
+    name: Ollie Shortt
   - role: Costumes & Make-up
     name: Maddie Hardy
 
