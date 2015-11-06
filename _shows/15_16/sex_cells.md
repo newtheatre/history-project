@@ -39,7 +39,7 @@ crew:
   name: Nathan Penney
 - role: Shadow Technical Director
   name: Ross Brisk
-- role: Comstumes
+- role: Costumes
   name: Eden Phillips Harrington
 - role: Set Construction
   name: Nikki Hill

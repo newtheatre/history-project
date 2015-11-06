@@ -45,7 +45,7 @@ crew:
   name: Joanne Blunt
 - role: Shadow Technical Director
   name: Ben Woodford
-- role: Comstumes
+- role: Costume Designer
   name: Hannah Kettle
 - role: Technical Operator
   name: Harry Bridge
