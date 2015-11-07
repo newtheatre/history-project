@@ -1,8 +1,8 @@
 ---
 title: PARADISE
 devised: true
-season: Fringe
-season_sort: 400
+season: External
+season_sort: 170
 period: Spring
 venue: Secret Location in Lenton
 date_start: 2013-02-04
