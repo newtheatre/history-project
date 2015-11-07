@@ -27,7 +27,7 @@ crew:
   - role: Visuals Designer
     name: David Taylor
   - role: Poster Designer
-  	name: Max Miller
+    name: Max Miller
 
 assets:
   - type: poster
