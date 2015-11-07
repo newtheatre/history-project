@@ -75,6 +75,10 @@ crew:
 assets:
   - type: poster
     image: rhinoceros_poster.jpg
+  - type: poster
+    image: rhinoceros_poster_2.jpg
+  - type: poster
+    image: rhinoceros_poster_3.jpg
 
 smugmug: Tz3wCC
 ---

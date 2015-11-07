@@ -26,7 +26,8 @@ crew:
     name: Joanne Blunt
   - role: Visuals Designer
     name: David Taylor
-
+  - role: Poster Designer
+  	name: Max Miller
 
 assets:
   - type: poster
