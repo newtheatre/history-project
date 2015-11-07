@@ -1,5 +1,5 @@
 ---
-title: Rhinocerous
+title: Rhinoceros
 playwright: Eugene Ionesco
 season: In House
 season_sort: 90
