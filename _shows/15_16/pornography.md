@@ -82,6 +82,8 @@ crew:
   - role: Photography
     name: Nathan Penney
 
+smugmug: rChMFv
+
 assets:
   - type: poster
     image: pornography_poster_1.jpg
