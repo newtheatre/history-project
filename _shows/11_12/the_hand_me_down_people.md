@@ -1,6 +1,6 @@
 ---
-title: "The Hand-me-down People"
-playwright:
+title: "The Hand-Me-Down People"
+playwright: Adam H. Wells
 period: Edinburgh
 season: Edinburgh
 season_sort: 410
