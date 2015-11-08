@@ -1,6 +1,6 @@
 ---
 title: "The Lonesome West"
-playwright:
+playwright: Martin McDonagh
 period: Autumn
 season: In House
 season_sort: 100
