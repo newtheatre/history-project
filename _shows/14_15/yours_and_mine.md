@@ -34,7 +34,10 @@ crew:
     name: Beth Mullen
   - role: Technical Operator
     name: Tom Heath
-
+  - role: Set Designer
+    name: Tom Heath
+  - role: Set Designer
+    name: Will Berrington
 
 assets:
   - type: poster

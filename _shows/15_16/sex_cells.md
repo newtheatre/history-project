@@ -73,6 +73,8 @@ crew:
   name: Emma Kendall
 - role: Make-up
   name: Sasha Gibson
+- role: Make-up
+  name: Shannon Moffatt
 - role: Poster Designer
   name: Will Berrington
 - role: Artwork

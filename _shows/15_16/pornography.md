@@ -77,6 +77,8 @@ crew:
     name: Maddy Strauss
   - role: Stage Manager
     name: Emily Sterling
+  - role: Make-up
+    name: Sasha Gibson
   - role: Poster Designer
     name: Max Miller
   - role: Photography
