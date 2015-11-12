@@ -31,6 +31,8 @@ crew:
     name: Joseph Heil
   - role: Technical Operator
     name: Alex Harverson
+  - role: Stage Manager
+    name: Nicola Fox
 
 assets:
   - type: poster

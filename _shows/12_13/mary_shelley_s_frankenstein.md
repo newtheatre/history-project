@@ -92,6 +92,8 @@ crew:
     name: Abby Robinson
   - role: Staging Coordinator
     name: Chelsea Jayne Wright
+  - role: Choreographer
+    name: Nicola Fox
   - role: Publicity Manager
     name: Rory O'Shea
   - role: Publicity Manager

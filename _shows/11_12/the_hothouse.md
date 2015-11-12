@@ -29,6 +29,8 @@ crew:
     name: Matt Wilks
   - role: Producer
     name: Elin Stenner-Matthews
+  - role: Stage Manager
+    name: Nicola Fox
 
 assets:
   - type: poster
