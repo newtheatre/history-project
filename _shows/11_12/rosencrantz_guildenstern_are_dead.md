@@ -28,7 +28,7 @@ cast:
   - role: Hamlet
     name: Oli Kiddell
   - role: Ophelia
-    name: Emma-Louis Amanshia
+    name: Emma-Louise Amanshia
   - role: Gertrude
     name: Ginny Lee
   - role: Claudius
