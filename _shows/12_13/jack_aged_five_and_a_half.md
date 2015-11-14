@@ -23,7 +23,7 @@ crew:
   - role: Producer
     name: Jenny Kohnhorst
   - role: Stage Manager
-    name: Dani Jeyers
+    name: Dani Jeyes
   - role: Publicity Designer
     name: Ben Hollands
 

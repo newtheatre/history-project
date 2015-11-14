@@ -15,7 +15,7 @@ cast:
 
 crew:
   - role: Director
-    name: George Bancroft-Livingstone
+    name: George Bancroft-Livingston
   - role: Producer
     name: James Saville
 

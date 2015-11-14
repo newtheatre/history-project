@@ -16,7 +16,7 @@ cast:
   - name: Ajay Stevenson
   - name: Jess Courtney
   - name: Alice Hildreth
-  - name: Jonno Lake
+  - name: Jono Lake
   - name: Lizzie Frainier
 
 crew:
