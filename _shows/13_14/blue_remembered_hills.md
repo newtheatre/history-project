@@ -37,7 +37,7 @@ crew:
     name: Nathan Penney
   - role: Stage Manager
     name: Rachel Angeli
-  - role: Set COnstruction
+  - role: Set Construction
     name: Will Berrington
 
 assets:
