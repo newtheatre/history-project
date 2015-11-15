@@ -10,35 +10,35 @@ date_end: 2008-11-08
 
 cast:
   - role: Emily
-  	name: Anna Sheriff
+    name: Anna Sheriff
   - role: Eve
-  	name: Lizzie Bourne
+    name: Lizzie Bourne
   - role: Sam
-  	name: Lucy Butler
+    name: Lucy Butler
   - role: Doctor
-  	name: RJ
+    name: RJ
   - role: Daniel
-  	name: Harry Anton
+    name: Harry Anton
   - role: Cecilia
-  	name: Rosie Tressler
+    name: Rosie Tressler
   - role: Nurse
-  	name: Laura Whittaker
+    name: Laura Whittaker
   - role: Harriet
-  	name: Katie Sawhill
+    name: Katie Sawhill
 
 crew:
   - role: Director
-	name: Elle O'Rorke
+    name: Elle O'Rorke
   - role: Producer
-  	name: Kate Scott
+    name: Kate Scott
   - role: Lighting Designer
-  	name: Philip Geller
+    name: Philip Geller
   - role: Sound Designer
-  	name: Bora Hunja
+    name: Bora Hunja
   - role: Set Designer
-  	name: Elle O'Rorke
+    name: Elle O'Rorke
   - role: Photography
-  	name: Nathan Peart
+    name: Nathan Peart
 
 assets:
   - type: poster
