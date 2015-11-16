@@ -18,6 +18,8 @@ crew:
     name: George Bancroft-Livingston
   - role: Producer
     name: James Saville
+  - role: Stage Manager
+    name: Elle O'Rorke
 
 assets:
   - type: poster

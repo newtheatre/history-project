@@ -8,6 +8,14 @@ venue: New Theatre
 date_start: 2009-06-10
 date_end: 2009-06-13
 
+cast:
+    - role: The Nurse
+      name: Elle O'Rorke
+
+crew:
+    - role: Director
+      name: Lizzie Bourne
+
 smugmug: zHWssh
 
 assets:
