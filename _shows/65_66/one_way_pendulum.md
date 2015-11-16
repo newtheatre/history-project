@@ -4,7 +4,7 @@ playwright: "NF Simpson"
 period: Spring
 season: In House
 season_sort: 30
-date_start: 1966-06-04
+date_start: 1966-07-04
 date_end: 1966-07-05
 venue: New Theatre
 
