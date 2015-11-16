@@ -83,6 +83,8 @@ crew:
     name: Max Miller
   - role: Photography
     name: Nathan Penney
+  - role: Photography
+    name: Natalia Gonzalez-Morales
 
 smugmug: rChMFv
 
