@@ -29,7 +29,7 @@ crew:
   name: Jamie Drew
 - role: Lighting Designer
   name: Nathan Penney
-- role: Technical Operator
+- role: Sound Designer
   name: Joanne Blunt
 - role: Technical Director
   name: Rohanna Brown
