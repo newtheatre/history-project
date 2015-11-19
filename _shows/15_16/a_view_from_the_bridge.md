@@ -70,6 +70,7 @@ assets:
   - type: poster
     image: view_poster.jpg
 
+smugmug: RSgMvk
 ---
 
 Eddie Carbone is a longshoreman and straightforward man, with a strong sense of decency and honour. For Eddie, it’s a privilege to take in his wife’s cousins, straight off the boat from Italy. But as his niece begins to fall for one of them, it’s clear that it’s not just, as Eddie claims, that he’s too strange, too effeminate, too careless for her, but that something bigger, deeper is wrong, wrong inside Eddie, in a way that he can’t face. Something that threatens the happiness of their whole family. Arthur Miller’s tragic masterpiece, about the unravelling of a man who holds family and honour above all else, tackles sexuality, community and justice in an unnerving, powerful drama.
