@@ -14,6 +14,8 @@ cast:
     - name: Will Vickers
 
 crew:
+    - role: Director
+      name: Anthony Lau
     - role: Producer
       name: Libby Galvin
     - role: Lighting Designer
