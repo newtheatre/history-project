@@ -38,6 +38,7 @@ assets:
   - type: poster
     image: sketchy_characters.jpg
 
+smugmug: PLjpNs
 ---
 
 “Sketchy Characters” is a sketch show featuring a range of performances. From puns to heresy, ancient Rome to Iron Man, “Sketchy Characters” satirises, demonises, and synthesises ideas and people from across the last 5000 years of human mediocrity.
