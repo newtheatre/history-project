@@ -108,7 +108,7 @@ class Smug
         # Delete and do over as cache invalid
         cache_file.close
         File.delete(fn)
-        return get_show_photos(albumID)
+        return get_show_photos(albumID, site)
       else
         # Cache valid, use that
         album = JSON.load(cache_file)
