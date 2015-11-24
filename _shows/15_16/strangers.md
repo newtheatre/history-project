@@ -1,6 +1,6 @@
 ---
 title: Strangers
-playwright: devised
+devised: true
 season: Fringe
 season_sort: 90
 period: Autumn
