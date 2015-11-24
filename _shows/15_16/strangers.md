@@ -33,7 +33,7 @@ crew:
 - role: Show Designer
   name: Joe Strickland
 - role: Lighting Designer
-  name: Joseph heil
+  name: Joseph Heil
 - role: Technical Director
   name: Emily Sterling
 - role: Technical Director
