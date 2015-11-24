@@ -22,7 +22,7 @@ cast:
 - role: Mr Van Daan
   name: James Curling
 - role: Mrs Van Daan
-  name: Lara cowler
+  name: Lara Cowler
 - role: Peter Van Daan
   name: Andrew Houghton
 - role: Mr Kraler
