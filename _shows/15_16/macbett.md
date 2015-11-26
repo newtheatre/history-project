@@ -1,7 +1,7 @@
 ---
 title: Macbett
 playwright: Eugene Ionesco
-season: Fringe
+season: In House
 season_sort: 100
 period: Autumn
 venue: New Theatre
