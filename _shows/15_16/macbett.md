@@ -12,7 +12,7 @@ cast:
 - role: Macbett
   name: Laurence Cuthbert
 - role: Banco
-  name: Duncan McGillavray
+  name: Duncan McGillivray
 - role: Raven/Lady Duncan/Lady Macbett
   name: Emilie Brittain
 - role: Owl

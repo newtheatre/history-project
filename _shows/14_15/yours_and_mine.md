@@ -28,6 +28,8 @@ crew:
     name: Miriam Dyberg-Tengroth
   - role: Producer
     name: Tom Heath
+  - role: Lighting Designer
+    role: Joanne Blunt
   - role: Stage Manager
     name: Amy Naylor
   - role: Poster Designer
