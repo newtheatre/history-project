@@ -83,7 +83,7 @@ crew:
 - role: Stage Manager
   name: Ed Eggleton
 - role: Stage Manager
-  name: Charotte Kirkman
+  name: Charlotte Kirkman
 - role: Stage Manager
   name: Arnaud Lacey
 
