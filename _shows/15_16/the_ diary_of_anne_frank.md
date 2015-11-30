@@ -66,6 +66,7 @@ assets:
   - type: poster
     image: anne_frank_poster.jpg
 
+smugmug: pfVdD3
 ---
 
 Anne Frank’s is a story that everyone knows. Amidst a backdrop of brutality and devastation, a young girl gives us an insight into the experiences of the persecuted who were battling to maintain their sense of humanity during World
