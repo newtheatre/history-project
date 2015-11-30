@@ -1,3 +1,6 @@
+$('input[type="checkbox"]').change ->
+  $(this).closest("label").toggleClass("child-checked", this.checked)
+
 $("#collect-show-form").submit (e) ->
   e.preventDefault()
 

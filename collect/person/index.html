@@ -69,19 +69,20 @@ President - 2001"></textarea>
       </div>
     </div>
 
-    <div class="collect-row">
+    <div class="collect-row" id="collect-career">
       <div class="collect-label">
         <h3>After graduating</h3>
-        <p>Your current or past jobs, drama school etc.</p>
+        <p>Have you gone into theatre since graduating? Please tick significant areas you've worked in.</p>
+        <p>If you've gone down another career path or have more details about your theatre work, tell us about in in the box below.</p>
       </div>
       <div class="collect-field">
-        <ul>
+        <ul class="collect-checkboxes">
         {% for career in site.data.careers %}
           <li><label><input type="checkbox" name="{{ career.career }}" /> {{ career.career }}</label></li>
         {% endfor %}
         </ul>
         </ul>
-        <textarea class="collect-textarea" name="bio2" placeholder=""></textarea>
+        <textarea class="collect-textarea" name="bio2" placeholder="Another career not listed above and/or further details."></textarea>
       </div>
     </div>
 
