@@ -32,36 +32,6 @@ body_class: collect-person-form
       </div>
     </div>
 
-    <div class="collect-row">
-      <div class="collect-label">
-        <h3>Your time at the theatre</h3>
-        <p>An overview of your interests and roles at the theatre. Fond memories and stories welcome!</p>
-      </div>
-      <div class="collect-field">
-        <textarea class="collect-textarea" name="bio1" placeholder=""></textarea>
-      </div>
-    </div>
-
-    <div class="collect-row">
-      <div class="collect-label">
-        <h3>After graduating</h3>
-        <p>Your current or past jobs, drama school etc.</p>
-      </div>
-      <div class="collect-field">
-        <textarea class="collect-textarea" name="bio2" placeholder=""></textarea>
-      </div>
-    </div>
-
-    <div class="collect-row">
-      <div class="collect-label">
-        <h3>Links</h3>
-        <p>Please include links to personal websites, twitter accounts, Spotlight profiles etc.</p>
-      </div>
-      <div class="collect-field">
-        <textarea class="collect-textarea" name="links" placeholder=""></textarea>
-      </div>
-    </div>
-
     <div class="collect-row" id="collect-shows">
       <div class="collect-label">
         <h3>Shows</h3>
@@ -91,11 +61,47 @@ President - 2001"></textarea>
 
     <div class="collect-row">
       <div class="collect-label">
+        <h3>Your time at the theatre</h3>
+        <p>Tell us about your fond memories or stories of your involvement with the theatre.</p>
+      </div>
+      <div class="collect-field">
+        <textarea class="collect-textarea" name="bio1" placeholder=""></textarea>
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>After graduating</h3>
+        <p>Your current or past jobs, drama school etc.</p>
+      </div>
+      <div class="collect-field">
+        <ul>
+        {% for career in site.data.careers %}
+          <li><label><input type="checkbox" name="{{ career.career }}" /> {{ career.career }}</label></li>
+        {% endfor %}
+        </ul>
+        </ul>
+        <textarea class="collect-textarea" name="bio2" placeholder=""></textarea>
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-label">
         <h3>Awards</h3>
         <p>Did you or a show you were involved with gain awards from the theatre or external bodies?</p>
       </div>
       <div class="collect-field">
         <textarea class="collect-textarea" name="awards" placeholder=""></textarea>
+      </div>
+    </div>
+
+    <div class="collect-row">
+      <div class="collect-label">
+        <h3>Links</h3>
+        <p>Please include links to personal websites, twitter accounts, Spotlight profiles <i>e.t.c.</i></p>
+      </div>
+      <div class="collect-field">
+        <textarea class="collect-textarea" name="links" placeholder=""></textarea>
       </div>
     </div>
 
