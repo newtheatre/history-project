@@ -109,7 +109,7 @@ $("#collect-person-form").submit (e) ->
   form_dict = {}
 
   form_data.forEach (x) ->
-    form_dict[x['name']] = x['value']
+    form_dict[x['name']] = x['value'].replace(/[^\x00-\x7F]/g, "");
 
   form_data_computed =
     'contact_allowed_yn': if form_dict['contact_allowed'] == 'on' then 'Yes' else 'No'
@@ -173,6 +173,8 @@ graduated: #{form_dict['graduation']}
 contact_allowed: #{form_data_computed['contact_allowed_tf']}
 career:
 #{career_choices_yaml}
+links: *fill me out
+award: *fill me out
 ---
 
 #{form_dict['bio1']}
@@ -185,6 +187,8 @@ career:
 ```
 """
 
+  window.message = message
+
   postData = {
     'title': form_dict['name'] + " bio submission",
     'message': message,
@@ -193,21 +197,21 @@ career:
   }
   formURL = $(this).attr 'action'
 
-  # $.ajax
-  #   url : formURL
-  #   type: "POST"
-  #   data : postData,
+  $.ajax
+    url : formURL
+    type: "POST"
+    data : postData,
 
-  #   success: (data, textStatus, jqXHR) ->
-  #     if data.status is "success"
-  #       window.location.href = '/collect/person/thanks/'
-  #     else
-  #       alert('There was a problem with the data you provided')
-  #       enableForm()
+    success: (data, textStatus, jqXHR) ->
+      if data.status is "success"
+        window.location.href = '/collect/person/thanks/'
+      else
+        alert('There was a problem with the data you provided')
+        enableForm()
 
-  #   error: (jqXHR, textStatus, errorThrown) ->
-  #     alert('Oops, something went wrong')
-  #     enableForm();
+    error: (jqXHR, textStatus, errorThrown) ->
+      alert('Oops, something went wrong')
+      enableForm();
 
   disableForm()
 
