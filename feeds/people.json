@@ -9,7 +9,9 @@ layout: null
         "name": {{ person.title | jsonify }},
         "type": "person",
         "excerpt": {{ person.content | strip_html | truncatewords: 50 | jsonify}},
+        "bio": {{ person.content | strip_html | jsonify}},
         {% if person.headshot %}{% capture headshot_path %}people/{{ person.headshot }}{% endcapture %}{% capture image_tag %}{% image show_poster_thumb_sr {{headshot_path}} %}{% endcapture %}"poster_thumb_tag": "<a href='{{person.url}}'>{{ image_tag | replace: '"', "'" }}</a>",{% endif %}
+        "course": {{ person.course | jsonify }},
         "graduated": {{ person.graduated | jsonify }},
         "award": {{ person.award | jsonify }},
         "shows": [{% assign first = true %}{% for item in person.shows %}

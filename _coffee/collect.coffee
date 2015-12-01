@@ -1,3 +1,6 @@
+$('input[type="checkbox"]').change ->
+  $(this).closest("label").toggleClass("child-checked", this.checked)
+
 $("#collect-show-form").submit (e) ->
   e.preventDefault()
 
@@ -106,7 +109,20 @@ $("#collect-person-form").submit (e) ->
   form_dict = {}
 
   form_data.forEach (x) ->
-    form_dict[x['name']] = x['value']
+    form_dict[x['name']] = x['value'].replace(/[^\x00-\x7F]/g, "");
+
+  form_data_computed =
+    'contact_allowed_yn': if form_dict['contact_allowed'] == 'on' then 'Yes' else 'No'
+    'contact_allowed_tf': if form_dict['contact_allowed'] == 'on' then 'true' else 'false'
+
+  career_choices = []
+  career_choices_formatted = ""
+  career_choices_yaml = ""
+  $('.career-choice').each (x) ->
+    if this.checked
+      career_choices.push( $(this).attr('name') )
+      career_choices_formatted += $(this).attr('name') + ", "
+      career_choices_yaml += "  - " + $(this).attr('name') + "\n"
 
   message = """# 'Submit an almni bio' form submission
 
@@ -121,6 +137,8 @@ Course | #{form_dict['course']}
 #{form_dict['bio1']}
 
 ## Bio2 (Post-graduation)
+
+Checked careers: #{career_choices_formatted}
 
 #{form_dict['bio2']}
 
@@ -140,6 +158,10 @@ Course | #{form_dict['course']}
 
 #{form_dict['awards']}
 
+## Contact Preferences
+
+Are we allowed to facilitate contact to this alumnus? **#{form_data_computed['contact_allowed_yn']}**
+
 ## Attempted File Generation
 
 ```
@@ -148,6 +170,11 @@ title: #{form_dict['name']}
 course:
   - #{form_dict['course']}
 graduated: #{form_dict['graduation']}
+contact_allowed: #{form_data_computed['contact_allowed_tf']}
+career:
+#{career_choices_yaml}
+links: *fill me out
+award: *fill me out
 ---
 
 #{form_dict['bio1']}
@@ -159,6 +186,8 @@ graduated: #{form_dict['graduation']}
 #{form_dict['awards']}
 ```
 """
+
+  window.message = message
 
   postData = {
     'title': form_dict['name'] + " bio submission",
@@ -191,19 +220,25 @@ TEMPLATE_DATA = "#collect-template-list"
 
 collectPersonFormSetup = ->
   path = window.getUrlParameter('name')
-  console.log(path)
-  if path.length > 0
+  if path and path.length > 0
     $.get PEOPLE_FEED, (data) ->
       if path of data # (path in data)
-        console.log data[path].name
+        $('[data-have-details-show]').show()
+        $('[data-have-details-style]').addClass('collect-has-data')
+
         $('.collect-field-name').val data[path].name
+        $('.collect-field-graduation').val data[path].graduated
+        $('.collect-field-course').val data[path].course
+        $('.collect-field-bio1').val data[path].bio
 
         template = _.template $(TEMPLATE_DATA).html()
         for item in data[path].shows
+          $('[data-have-details-shows-hide]').hide()
           $("#collect-shows .collect-person-data").append template
             item: item
 
         for item in data[path].committees
+          $('[data-have-details-committees-hide]').hide()
           $("#collect-committees .collect-person-data").append template
             item: item
 

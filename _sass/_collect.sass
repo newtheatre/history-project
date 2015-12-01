@@ -2,9 +2,11 @@
 
 // Layout
 
+$color-collect: #2D9189
+
 .collect-header
   @include grid-wrap
-  background: #2D9189
+  background: $color-collect
   padding-top: $baseline * 3
   padding-bottom: $baseline
   margin-bottom: $baseline * 2
@@ -83,15 +85,53 @@
 .collect-field-graduation
   // width: 30%
 
+.collect-has-data
+  // Applied via JS
+  flex-basis: 50%
+
+.collect-hidden
+  display: none
+
 #collect-shows, #collect-committees
   .collect-textarea
-    flex-basis: 50%
     margin-bottom: 0
     height: auto
     min-height: 200px
 
+.collect-checkboxes
+  @include list-unformatted
+  @include display(flex)
+  @include flex-wrap(wrap)
+
+  @include set-property-to-gutter(margin-right, -1)
+
+  li
+    flex-grow: 1
+    @include set-property-to-gutter(margin-right)
+    margin-bottom: $baseline / 2
+    max-width: 38%
+
+    position: relative
+
+    input
+      position: absolute
+      top: 19px
+      left: 13px
+
+    &.collect-checkboxes-full-width
+      max-width: 100%
+
+  label
+    display: block
+    padding: $baseline / 2
+    background: lighten($color-background, 2%)
+
+    padding-left: 32px
+
+    &.child-checked
+      background: $color-collect
+
 .collect-person-data
-  flex-basis: 50%
   margin: 0
   @include set-property-to-gutter(padding-left)
   list-style: none
