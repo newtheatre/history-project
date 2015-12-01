@@ -78,7 +78,7 @@ President - 2001"></textarea>
       <div class="collect-field">
         <ul class="collect-checkboxes">
         {% for career in site.data.careers %}
-          <li><label><input type="checkbox" name="{{ career.career }}" /> {{ career.career }}</label></li>
+          <li><label><input type="checkbox" name="{{ career.career }}" class="career-choice" /> {{ career.career }}</label></li>
         {% endfor %}
         </ul>
         </ul>

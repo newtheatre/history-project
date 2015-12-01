@@ -115,6 +115,15 @@ $("#collect-person-form").submit (e) ->
     'contact_allowed_yn': if form_dict['contact_allowed'] == 'on' then 'Yes' else 'No'
     'contact_allowed_tf': if form_dict['contact_allowed'] == 'on' then 'true' else 'false'
 
+  career_choices = []
+  career_choices_formatted = ""
+  career_choices_yaml = ""
+  $('.career-choice').each (x) ->
+    if this.checked
+      career_choices.push( $(this).attr('name') )
+      career_choices_formatted += $(this).attr('name') + ", "
+      career_choices_yaml += "  - " + $(this).attr('name') + "\n"
+
   message = """# 'Submit an almni bio' form submission
 
 Field | Data
@@ -129,7 +138,7 @@ Course | #{form_dict['course']}
 
 ## Bio2 (Post-graduation)
 
-#{form_dict['bio2']}
+Checked careers: #{career_choices_formatted}
 
 #{form_dict['bio2']}
 
@@ -162,6 +171,8 @@ course:
   - #{form_dict['course']}
 graduated: #{form_dict['graduation']}
 contact_allowed: #{form_data_computed['contact_allowed_tf']}
+career:
+#{career_choices_yaml}
 ---
 
 #{form_dict['bio1']}
@@ -207,11 +218,9 @@ TEMPLATE_DATA = "#collect-template-list"
 
 collectPersonFormSetup = ->
   path = window.getUrlParameter('name')
-  console.log(path)
   if path.length > 0
     $.get PEOPLE_FEED, (data) ->
       if path of data # (path in data)
-        console.log data[path].name
         $('.collect-field-name').val data[path].name
 
         template = _.template $(TEMPLATE_DATA).html()
