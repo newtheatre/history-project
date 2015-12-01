@@ -85,9 +85,15 @@ $color-collect: #2D9189
 .collect-field-graduation
   // width: 30%
 
+.collect-has-data
+  // Applied via JS
+  flex-basis: 50%
+
+.collect-hidden
+  display: none
+
 #collect-shows, #collect-committees
   .collect-textarea
-    flex-basis: 50%
     margin-bottom: 0
     height: auto
     min-height: 200px
@@ -112,6 +118,9 @@ $color-collect: #2D9189
       top: 19px
       left: 13px
 
+    &.collect-checkboxes-full-width
+      max-width: 100%
+
   label
     display: block
     padding: $baseline / 2
@@ -123,7 +132,6 @@ $color-collect: #2D9189
       background: $color-collect
 
 .collect-person-data
-  flex-basis: 50%
   margin: 0
   @include set-property-to-gutter(padding-left)
   list-style: none

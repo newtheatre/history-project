@@ -218,17 +218,22 @@ TEMPLATE_DATA = "#collect-template-list"
 
 collectPersonFormSetup = ->
   path = window.getUrlParameter('name')
-  if path.length > 0
+  if path and path.length > 0
     $.get PEOPLE_FEED, (data) ->
       if path of data # (path in data)
+        $('[data-have-details-show]').show()
+        $('[data-have-details-style]').addClass('collect-has-data')
+
         $('.collect-field-name').val data[path].name
 
         template = _.template $(TEMPLATE_DATA).html()
         for item in data[path].shows
+          $('[data-have-details-shows-hide]').hide()
           $("#collect-shows .collect-person-data").append template
             item: item
 
         for item in data[path].committees
+          $('[data-have-details-committees-hide]').hide()
           $("#collect-committees .collect-person-data").append template
             item: item
 

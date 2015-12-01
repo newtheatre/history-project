@@ -35,12 +35,15 @@ body_class: collect-person-form
     <div class="collect-row" id="collect-shows">
       <div class="collect-label">
         <h3>Shows</h3>
-        <p>What shows were you involved with? What was your role? What were the dates of the show? Details we have already are shown on the right.</p>
+        <p>
+          What shows were you involved with? What was your role? What were the dates of the show?
+          <span class="collect-hidden" data-have-details-show>Details we have already are shown on the right</span>
+        </p>
       </div>
       <div class="collect-field collect-flex-row">
         <textarea class="collect-textarea" name="shows" placeholder="Benvolio - Romeo And Juliet, 4-8 October 1999"></textarea>
-        <ul class="collect-person-data">
-
+        <ul class="collect-person-data collect-hidden" data-have-details-show data-have-details-style>
+          <li data-have-details-shows-hide>No shows found</li>
         </ul>
       </div>
     </div>
@@ -48,13 +51,16 @@ body_class: collect-person-form
     <div class="collect-row" id="collect-committees">
       <div class="collect-label">
         <h3>Committee Positions</h3>
-        <p>Did you hold any committee positions? What years did you spend on committee? Details we have already are shown on the right.</p>
+        <p>
+          Did you hold any committee positions? What years did you spend on committee?
+          <span class="collect-hidden" data-have-details-show>Details we have already are shown on the right</span>
+        </p>
       </div>
       <div class="collect-field collect-flex-row">
         <textarea class="collect-textarea" name="committees" placeholder="Workshop Manager - 2000
 President - 2001"></textarea>
-        <ul class="collect-person-data">
-
+        <ul class="collect-person-data collect-hidden" data-have-details-show data-have-details-style>
+          <li data-have-details-committees-hide>No committees found</li>
         </ul>
       </div>
     </div>
@@ -78,7 +84,12 @@ President - 2001"></textarea>
       <div class="collect-field">
         <ul class="collect-checkboxes">
         {% for career in site.data.careers %}
-          <li><label><input type="checkbox" name="{{ career.career }}" class="career-choice" /> {{ career.career }}</label></li>
+          <li>
+            <label>
+              <input type="checkbox" name="{{ career.career }}" class="career-choice" />
+              {{ career.career }}
+            </label>
+          </li>
         {% endfor %}
         </ul>
         </ul>
@@ -113,7 +124,12 @@ President - 2001"></textarea>
       </div>
       <div class="collect-field">
         <ul class="collect-checkboxes">
-          <li><label class="child-checked"><input type="checkbox" name="contact_allowed" checked /> I'm happy to be contacted by current students and recent graduates via the Alumni Network</label></li>
+          <li class="collect-checkboxes-full-width">
+            <label class="child-checked">
+              <input type="checkbox" name="contact_allowed" checked />
+              I'm happy to be contacted by current students and recent graduates via the Alumni Network
+            </label>
+          </li>
         </ul>
       </div>
     </div>
