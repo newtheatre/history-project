@@ -209,8 +209,6 @@ career:
   #     alert('Oops, something went wrong')
   #     enableForm();
 
-  console.log(message)
-
   disableForm()
 
 PEOPLE_FEED = "/feeds/people.json"
@@ -225,6 +223,9 @@ collectPersonFormSetup = ->
         $('[data-have-details-style]').addClass('collect-has-data')
 
         $('.collect-field-name').val data[path].name
+        $('.collect-field-graduation').val data[path].graduated
+        $('.collect-field-course').val data[path].course
+        $('.collect-field-bio1').val data[path].bio
 
         template = _.template $(TEMPLATE_DATA).html()
         for item in data[path].shows
