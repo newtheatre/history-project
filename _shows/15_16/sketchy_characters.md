@@ -33,6 +33,12 @@ crew:
   name: Joanne Blunt
 - role: Technical Director
   name: Rohanna Brown
+- role: Stage Manager
+  name: Eden Phillips Harrington
+- role: Stage Manager
+  name: Jodie Marley
+- role: Stage Manager
+  name: Emily Sterling
 
 assets:
   - type: poster

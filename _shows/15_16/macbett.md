@@ -56,12 +56,16 @@ crew:
   name: Emily Sterling
 - role: Set Construction
   name: Anna Scholes
+- role: Set Construction
+  name: Jake Leonard
 - role: Costume and Props
   name: Eden Phillips Harrington
 - role: Costume and Props
   name: Libby Boyd
 - role: Costume and Props
   name: Tom Proffitt
+- role: Costume and Props
+  name: James Curling
 - role: Fight Director
   name: Hayden Ashby
 - role: Musical Advisor
@@ -86,6 +90,20 @@ crew:
   name: Charlotte Kirkman
 - role: Stage Manager
   name: Arnaud Lacey
+- role: Technical Operator
+  name: Andrew Calverley
+- role: Technical Operator
+  name: Mane Davtyan
+- role: Technical Operator
+  name: Joanna Manning
+- role: Technical Operator
+  name: Adam Humphries
+- role: Technical Operator
+  name: James Fox
+- role: Technical Operator
+  name: Rohanna Brown
+- role: Technical Operator
+  name: Ben Woodford
 
 assets:
   - type: poster
