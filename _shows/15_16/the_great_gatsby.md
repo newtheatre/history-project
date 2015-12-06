@@ -14,7 +14,7 @@ cast:
   name: Nick Gill
 - role: Daisy Buchanan
   name: Libby Boyd
-- role: Tom BUchanan
+- role: Tom Buchanan
   name: Harry Bradley
 - role: Jay Gatsby
   name: Ben Standish
@@ -50,6 +50,8 @@ crew:
   name: Omid Faramarzi
 - role: Hair & Make-Up
   name: Dina Elkordy
+- role: Choreographer
+  name: Laura Jayne Bateman
 - role: Poster Designer
   name: Aneesa Kaleem
 
