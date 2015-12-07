@@ -31,6 +31,8 @@ crew:
 
 assets:
   - type: poster
+    image: open_poster.jpg
+  - type: poster
     image: open_fringe.jpg
   - type: flyer
     filename: Open Flyer Back FINAL.pdf

@@ -63,6 +63,7 @@ assets:
   - type: poster
     image: west_poster.jpg
 
+smugmug: 3nCHmK
 ---
 
 West by Steven Berkoff, first published in 1983, is a parable that follows Mike, leader of the N16 Gang, as he gears up to take on his most fearsome enemy, The

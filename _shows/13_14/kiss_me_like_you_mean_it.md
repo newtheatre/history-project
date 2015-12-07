@@ -31,12 +31,16 @@ crew:
     name: Tom Selves
   - role: Lighting Designer
     name: Logan Wamsley
-  - role: Lighting Designer
-    name: Sebastian Frend
   - role: Technical Operator
     name: Will Berrington
   - role: Technical Operator
     name: Ollie Shortt
+  - role: Technical Operator
+    name: Rachel Connolly
+  - role: Stage Manager
+    name: Emily Sterling
+  - role: Stage Manager
+    name: Dave Hanks
 
 smugmug: cR5dxw
 

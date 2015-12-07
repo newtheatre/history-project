@@ -4,6 +4,10 @@ season: In House
 period: Autumn
 playwright: Dylan Thomas
 season_sort: 70
+
+crew:
+  - role: Lighting Designer
+    name: Rod Craig
 ---
 
 

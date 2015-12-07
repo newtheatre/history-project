@@ -11,7 +11,7 @@ published: true
 
 This site is an initiative of the [Nottingham New Theatre Alumni Network](http://newtheatre.org.uk/alumni) and aims to piece together the New Theatre’s dynamic and vibrant history.
 
-This is an extremely exciting project for the network, and we are relying on as many people as possible getting involved and contributing to the story – whether you were an actor, a director, a stage-manager or an audience member, we want you to get in touch with you memories from your time at the theatre.
+This is an extremely exciting project for the network, and we are relying on as many people as possible getting involved and contributing to the story – whether you were an actor, a director, a stage-manager or an audience member, we want you to get in touch with your memories from your time at the theatre.
 
 In particular we are looking for: listings of season shows, casts and crew lists, photographs, programmes, flyers, reviews and anything else which could provide an insight into the history of the theatre.
 

@@ -1,0 +1,28 @@
+# This file defines the acknowledged careers for a person record.
+
+# We are only listing theatre related professions. People who did not enter
+# a theatre related job post graduation can still have their career listed on
+# their profile as careers used in the records do not have to be on this list.
+
+# This list is used to generate the directory pages and the checkboxes shown on
+# the collection form.
+
+- career: Director
+- career: Producer
+  alias:
+    - Production Manager
+- career: Actor
+  alias:
+    - Actress
+- career: Set Designer
+- career: Lighting Designer
+- career: Sound Designer
+- career: Sound Engineer
+- career: Theatre Manager
+- career: Technical Manager
+- career: Stage Manager
+- career: Electrician
+- career: Composer
+- career: Musical Director
+- career: Choreographer
+- career: Musician

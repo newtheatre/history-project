@@ -58,6 +58,8 @@ crew:
     name: Joanna Manning
   - role: Set Construction
     name: Joseph Heil
+  - role: Set Construction
+    name: Adam Bergen
   - role: Stage Manager
     name: Dave Hanks
   - role: Stage Manager
@@ -80,10 +82,6 @@ crew:
     name: Mia Phillips Harrington
   - role: Make-up
     name: Virginia Moore
-  - role: Make-up
-    name: Sophie Wells
-  - role: Make-up
-    name: Mathilde Petford
 
 assets:
   - type: poster

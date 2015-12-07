@@ -1,12 +1,12 @@
 // Site mixins
 
-@mixin set-property-to-gutter($property)
+@mixin set-property-to-gutter($property, $mult: 1)
   @include respond-up(tab-port)
-    #{$property}: $grid-tab-port-gutter
+    #{$property}: $grid-tab-port-gutter * $mult
   @include respond-up(tab-land)
-    #{$property}: $grid-tab-land-gutter
+    #{$property}: $grid-tab-land-gutter * $mult
   @include respond-up(med-desk)
-    #{$property}: $grid-med-desk-gutter
+    #{$property}: $grid-med-desk-gutter * $mult
   @include respond-up(widescreen)
-    #{$property}: $grid-widescreen-gutter
+    #{$property}: $grid-widescreen-gutter * $mult
 

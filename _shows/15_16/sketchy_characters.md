@@ -33,11 +33,18 @@ crew:
   name: Joanne Blunt
 - role: Technical Director
   name: Rohanna Brown
+- role: Stage Manager
+  name: Eden Phillips Harrington
+- role: Stage Manager
+  name: Jodie Marley
+- role: Stage Manager
+  name: Emily Sterling
 
 assets:
   - type: poster
     image: sketchy_characters.jpg
 
+smugmug: PLjpNs
 ---
 
 “Sketchy Characters” is a sketch show featuring a range of performances. From puns to heresy, ancient Rome to Iron Man, “Sketchy Characters” satirises, demonises, and synthesises ideas and people from across the last 5000 years of human mediocrity.
