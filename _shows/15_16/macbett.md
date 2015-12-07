@@ -1,6 +1,7 @@
 ---
 title: Macbett
 playwright: Eugene Ionesco
+translator: Charles Marowitz
 season: In House
 season_sort: 100
 period: Autumn
