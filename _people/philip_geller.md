@@ -1,6 +1,6 @@
 ---
-layout: person
 title: Philip Geller
+gender: male
 headshot: phil_geller.jpg
 course:
   - Mechanical Engineering

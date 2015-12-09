@@ -1,0 +1,15 @@
+# This file defines types of links, can be used to attach icons and other meta-
+# data to external links.
+
+- type: Personal Website
+- type: Portfolio
+
+- type: Spotlight
+- type: StageJobsPro
+- type: IMDb
+
+- type: Twitter
+- type: LinkedIn
+
+- type: Article
+- type: Review
