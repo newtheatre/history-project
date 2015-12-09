@@ -6,6 +6,7 @@ _asset_bundler_cache/
 .jekyll-metadata
 _smugmug_cache/
 tmp/
+.vagrant/
 
 for_shows_uncompressed
 for_shows_process

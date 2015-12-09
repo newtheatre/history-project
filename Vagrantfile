@@ -35,7 +35,7 @@ SCRIPT
 Vagrant::Config.run do |config|
 
   config.vm.box = "ubuntu/trusty64"
-  config.vm.forward_port 8124, 8124
+  config.vm.forward_port 8000, 8000
   config.vm.provision :shell, inline: $provision
 
   config.ssh.forward_agent = true
