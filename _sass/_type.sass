@@ -237,3 +237,26 @@ dl
 
 @mixin text-shadow-effect($background)
   text-shadow: 0 -1px 0 darken($background, 20%)
+
+.micro, .micro a
+  // small text
+  font-size: $base-font-size * 0.7
+
+.subtle
+  // subtle text
+  opacity: 0.2
+  color: $color-text-white
+
+  &:visited
+    color: $color-text-white
+
+  &:hover
+    opacity: 1
+    text-decoration: underline
+    color: $color-link
+
+.no-line-height
+  line-height: 1em
+
+.rhs
+  text-align: right
