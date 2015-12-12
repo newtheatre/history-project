@@ -23,6 +23,21 @@ To get the site running locally you will need a working Ruby environment, the bu
 - `npm install` to install all the Node dependencies the project needs to build.
 - `bower install` to install all the frontend dependencies the project needs to build.
 
+## Vagrant
+Vagrant is a cross platform virtual machine manager. It will allow you to build the site on your local machine in an environemnt as close as possible to the travis script that is actually used. It is strognly recomended that you follow the [Vagrant getting started guide](https://docs.vagrantup.com/v2/getting-started/index.html).
+To get started, you will need:
+
+- [Oracle Virtual Box](https://www.virtualbox.org/wiki/Downloads)
+- [Vagrant](https://www.vagrantup.com/downloads.html)
+
+Once you have download the requirements and installed them successfully you simply need to bring the box up, and connect to it:
+
+- `vagrant up`
+- `vagrant ssh`
+- `cd /vagrant`
+
+The vagrant box has port 8000 mapped to 8000 on your local machine, so `http://127.0.0.1:8000` should still work.
+
 ## Run
 
 - `_bin/build.sh` to build the site to _site.
