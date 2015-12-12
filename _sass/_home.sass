@@ -108,6 +108,9 @@ $home-section-inner-padding: $baseline * 2
 
   background: $color-text-black
 
+  &:hover
+    background: lighten($color-text-black, 3%)
+
   overflow: hidden
 
   &:last-child
@@ -132,10 +135,7 @@ $home-section-inner-padding: $baseline * 2
     h3
       margin-bottom: $baseline / 2
 
-    &:hover
-      text-decoration: none
-      h3
-        text-decoration: underline
+    @include no-underline
 
 // Overrides
 
@@ -152,6 +152,10 @@ $home-section-inner-padding: $baseline * 2
     background: $color-text-black
     padding: $baseline / 4 $baseline / 2
     color: $color-text-white
+    @include no-underline
+
+    &:hover
+      background: lighten($color-text-black, 4%)
 
 .home-shows-counter-container
   p

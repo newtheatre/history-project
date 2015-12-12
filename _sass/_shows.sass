@@ -143,9 +143,7 @@ $show-photos-mob-gutter: 7px
       display: block
       padding: $baseline / 3
 
-      &:hover
-        text-decoration: none
-
+      @include no-underline
 
   .gallery-control
     @include flex-basis(75%)
@@ -233,10 +231,9 @@ $show-photos-mob-gutter: 7px
       pointer-events: none // Ensure clicks go though to the anchor
     a
       display: block
-      text-decoration: none
       color: $color-text-white
       padding: 161px 10px 10px 10px
-
+      @include no-underline
 
   .show-asset-image
     img

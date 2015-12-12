@@ -19,6 +19,7 @@
     <div class="site-search">
       {% if page.url != "/search/" %}
       <form method="get" action="/search" data-search-form>
+        <label for="q" class="access-hidden">Search</label>
         <input type="search" name="q" id="q" placeholder="Search" data-search-input class="site-search-input" />
         <input type="submit" value="Search" class="site-search-submit" />
       </form>

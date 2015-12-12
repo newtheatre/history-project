@@ -39,11 +39,12 @@ $nav-height: 63px
   // Site logo
   display: block
   @include grid-x-col(5)
-  text-decoration: none
   @include respond-down(mob-land)
     width: 180px
     margin: 0 auto
     padding-bottom: $baseline / 2
+
+  @include no-underline
 
 .site-title-logo
   float: left
@@ -95,7 +96,7 @@ $title-text-baseline: 1.2
   line-height: $nav-height
 
   .page-link
-    text-decoration: none
+    @include no-underline
 
     // Mobile nav Styling
     @include respond-down(mob-land)

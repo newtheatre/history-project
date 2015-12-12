@@ -70,8 +70,10 @@
       font-weight: $person-role-weight
     .person-name
 
-  a:hover
-    text-decoration: none
-    .person-name
-      text-decoration: underline
+    @include no-underline
+    &:hover .person-name-underline
+      border-bottom: 1px solid rgba($color-text-white, $link-border-bottom-opacity)
 
+    @include no-focus
+    &:focus .person-name-underline
+      @include link-focus

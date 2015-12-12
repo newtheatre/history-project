@@ -23,6 +23,7 @@ $report-color-step: -60%
     display: block
     color: $color-text-white
 
+    @include no-underline
 
   i, p
     line-height: $baseline
@@ -40,7 +41,7 @@ $report-color-step: -60%
 
   @include transition(all ease-out 0.25s)
 
-  &:hover
+  &:hover, &:focus
     right: 0px
     opacity: 1
     cursor: hand
@@ -106,8 +107,6 @@ $report-color-step: -60%
 
   a
     color: lighten($color-info, 20%)
-    // &:hover
-    //   text-decoration: underline
 
 .report-close
   position: absolute
