@@ -3,6 +3,10 @@ sudo apt-add-repository ppa:brightbox/ruby-ng
 sudo apt-get update && sudo apt-get -y install build-essential git
 sudo apt-get -y install nodejs npm imagemagick ruby2.2 ruby2.2-dev
 
+# Generate locales, fixes bug where Vagrant VM breaks on some UTF-8
+sudo locale-gen en_GB en_GB.UTF-8
+sudo dpkg-reconfigure locales
+
 # http://stackoverflow.com/a/1892889/2126990
 # priority ruby: https://gist.github.com/brodock/7693207
 sudo update-alternatives --remove ruby /usr/bin/ruby2.2
