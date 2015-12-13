@@ -137,15 +137,14 @@ $link-border-bottom-opacity: 0.2
 
 @mixin link-colour($color)
   color: $color
-  text-decoration: none
-  border-bottom-color: rgba($color, $link-border-bottom-opacity)
-
-  &:hover
-    text-decoration: none
-    border-bottom-color: rgba($color, 0.7)
+  text-decoration: underline
 
   &:visited
     color: darken($color-link, 10%)
+
+  &:hover
+    color: lighten($color, 20%)
+    text-decoration: underline
 
 @mixin link-focus
   background: $color-focus
@@ -156,18 +155,17 @@ $link-border-bottom-opacity: 0.2
     background: none
     outline: none
 
-@mixin no-underline
+@mixin no-underline($on-hover: false)
   // No underlines on normal and hover states
   text-decoration: none
-  border-bottom: none
   &:hover
-    text-decoration: none
-    border-bottom: none
+    @if $on-hover
+      text-decoration: underline
+    @else
+      text-decoration: none
 
 a
   font-weight: 600
-
-  border-bottom: 1px solid
   @include link-colour($color-link)
 
   &:focus

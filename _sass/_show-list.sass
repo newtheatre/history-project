@@ -22,9 +22,11 @@
       overflow: auto
       color: $color-text-white
 
-      @include no-underline
+      @include no-underline(false)
       &:hover
         background: $color-link-bg-hover
+        .show-list-title
+          text-decoration: underline
 
     .show-list-title
       color: $color-link

@@ -137,6 +137,10 @@ $home-section-inner-padding: $baseline * 2
 
     @include no-underline
 
+    &:hover
+      h3
+        text-decoration: underline
+
 // Overrides
 
 .home-section
@@ -152,7 +156,7 @@ $home-section-inner-padding: $baseline * 2
     background: $color-text-black
     padding: $baseline / 4 $baseline / 2
     color: $color-text-white
-    @include no-underline
+    @include no-underline(true)
 
     &:hover
       background: lighten($color-text-black, 4%)
