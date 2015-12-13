@@ -39,11 +39,14 @@ $inner-width: 87%
       font-size: $base-font-size * 0.8
       @include no-underline
 
+      &:focus
+        outline: none
+        background: mix($color-focus, $color-nnt-purple)
+
     &.current
       background: darken($color-nnt-purple, 22%)
       a
         color: darken($color-text-white, 2%)
-
 
 #github-issues-widget
   background: #f7f7f7

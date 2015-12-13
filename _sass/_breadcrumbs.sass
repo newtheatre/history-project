@@ -12,6 +12,8 @@ $color-5: darken($color-grey-dark, 18%)
 
 $color-arrow: $color-grey-light
 
+$focus-color: lighten($color-1, 15%)
+
 .breadcrumbs
 
 .breadcrumb-inner
@@ -43,6 +45,12 @@ $color-arrow: $color-grey-light
     float: left
 
     @include no-underline
+
+    &:focus
+      outline: none
+      background: $focus-color
+    &:focus:after
+      border-left-color: $focus-color
 
   li a:after
     content: " "
@@ -94,17 +102,6 @@ $color-arrow: $color-grey-light
     background: $color-5
   li:nth-child(5) a:after
     border-left-color: $color-5
-  // .breadcrumbs li:last-child a
-  //   background: transparent !important
-  //   color: black
-  //   pointer-events: none
-  //   cursor: default
-
-  // Hover on first item looks silly now we've made the breadcrumbs bar full width
-  // .breadcrumbs li:first-child a:hover
-  //   background: darken($color-1, 8%)
-  // .breadcrumbs li:first-child a:hover:after
-  //   border-left-color: darken($color-1, 8%) !important
 
 .breadcrumb-controls
   @include respond-down(mob-land)
@@ -129,3 +126,9 @@ $color-arrow: $color-grey-light
 
     &.enabled:hover
       background: darken($color-1, 6%)
+
+    &:focus
+      background: $focus-color !important
+      outline: none
+    &:focus:after
+      border-left-color: $focus-color !important

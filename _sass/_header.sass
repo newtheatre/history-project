@@ -122,10 +122,12 @@ $title-text-baseline: 1.2
     @include respond-up(tab-port)
       @include all-but-last(margin-right, 38px)
       padding-bottom: 3px
-      &:hover .page-link-text
-        border-bottom: 2px solid $color-text-white
       &.current .page-link-text
+        // Purple underline for current section
         border-bottom: 2px solid $color-nnt-purple
+      &:hover .page-link-text, &.current:focus .page-link-text
+        // White underline for hover and current focus state
+        border-bottom: 2px solid $color-text-white
 
 .site-search
   @include grid-x-col(3)

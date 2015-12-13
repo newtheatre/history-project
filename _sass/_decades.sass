@@ -47,26 +47,39 @@ $background-items: -3
     background: $shift-color
     @include text-shadow-effect(darken($shift-color, 20%))
 
-  // HACK, cos the thing we need to override is quite specifific
+  // HACK, cos the thing we need to override is quite specific
+  // Background of year crumb
   .breadcrumb-#{$i} a
     background: $shift-color !important
   .breadcrumb-#{$i} a:after
     border-left-color: $shift-color !important
-
+  // Hover of year crumb
   $hover-color: lighten($shift-color, 5%)
   .breadcrumb-#{$i} a:hover
     background: $hover-color !important
   .breadcrumb-#{$i} a:hover:after
     border-left-color: $hover-color !important
-
+  // Focus of year crumb
+  $focus-color: lighten($shift-color, 15%)
+  .breadcrumb-#{$i} a:focus
+    background: $focus-color !important
+  .breadcrumb-#{$i} a:focus:after
+    border-left-color: $focus-color !important
+  // Background of show crumb
   $child-color: darken($shift-color, 8%)
   .breadcrumb-#{$i}-child a
     background: $child-color !important
   .breadcrumb-#{$i}-child a:after
     border-left-color: $child-color !important
-
+  // Hover of show crumb
   $child-hover-color: lighten($child-color, 5%)
   .breadcrumb-#{$i}-child a:hover
     background: $child-hover-color !important
   .breadcrumb-#{$i}-child a:hover:after
     border-left-color: $child-hover-color !important
+  // Focus of show crumb
+  $child-focus-color: lighten($child-color, 15%)
+  .breadcrumb-#{$i}-child a:focus
+    background: $focus-color !important
+  .breadcrumb-#{$i}-child a:focus:after
+    border-left-color: $focus-color !important
