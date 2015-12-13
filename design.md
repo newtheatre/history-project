@@ -9,7 +9,7 @@ sitemap: false
 
 # Design Test
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempus magna id dui mollis dignissim. Donec malesuada dolor eget suscipit ullamcorper. Proin facilisis leo quis tellus porta, faucibus malesuada nisl ornare. Cras sed risus accumsan, maximus felis vitae, efficitur risus. Phasellus ornare malesuada urna, sit amet <a href="">mid paragraph link</a> varius massa pulvinar et. Cras molestie sodales nulla vitae feugiat. Donec efficitur nisl dui, ut faucibus nisi interdum nec. Nullam fermentum in sapien quis tincidunt. Etiam hendrerit maximus augue, ut vestibulum quam posuere nec. Suspendisse non nunc ut tortor consectetur tristique. Quisque rutrum diam in justo accumsan volutpat sed sed ligula.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempus magna id dui mollis dignissim. Donec malesuada dolor eget suscipit ullamcorper. Proin facilisis leo quis tellus porta, faucibus malesuada nisl ornare. Cras sed risus accumsan, maximus felis vitae, efficitur risus. Phasellus ornare malesuada urna, sit amet <a data-proofer-ignore href="">mid paragraph link</a> varius massa pulvinar et. Cras molestie sodales nulla vitae feugiat. Donec efficitur nisl dui, ut faucibus nisi interdum nec. Nullam fermentum in sapien quis tincidunt. Etiam hendrerit maximus augue, ut vestibulum quam posuere nec. Suspendisse non nunc ut tortor consectetur tristique. Quisque rutrum diam in justo accumsan volutpat sed sed ligula.
 
 ## Header 2
 
@@ -58,23 +58,23 @@ Sed sit amet nibh lorem. Pellentesque habitant morbi tristique senectus et netus
 
   <div class="box-error">
     <i class="fa fa-ban"></i>
-    <p><strong>Error!</strong> Uh-oh, something is wrong. I'm a <a href="">Link</a>.</p>
+    <p><strong>Error!</strong> Uh-oh, something is wrong. I'm a <a data-proofer-ignore href="">Link</a>.</p>
   </div>
   <div class="box-warning">
     <i class="fa fa-exclamation-triangle"></i>
-    <p><strong>Warning!</strong> Hmm, something's not quite right. I'm a <a href="">Link</a>.</p>
+    <p><strong>Warning!</strong> Hmm, something's not quite right. I'm a <a data-proofer-ignore href="">Link</a>.</p>
   </div>
   <div class="box-success">
     <i class="ion-checkmark"></i>
-    <p><strong>Yipee!</strong> Yeah, something is successful. I'm a <a href="">Link</a>.</p>
+    <p><strong>Yipee!</strong> Yeah, something is successful. I'm a <a data-proofer-ignore href="">Link</a>.</p>
   </div>
   <div class="box-info">
     <i class="fa fa-info-circle"></i>
-    <p><strong>Hey</strong> Here's some info. I'm a <a href="">Link</a>.</p>
+    <p><strong>Hey</strong> Here's some info. I'm a <a data-proofer-ignore href="">Link</a>.</p>
   </div>
   <div class="box-debug">
     <i class="ion-bug"></i>
-    <p><strong>Debug!</strong> Here's some debug output. I'm a <a href="">Link</a>.</p>
+    <p><strong>Debug!</strong> Here's some debug output. I'm a <a data-proofer-ignore href="">Link</a>.</p>
   </div>
 
 
