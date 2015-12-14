@@ -10,7 +10,7 @@ date_end: 2011-03-26
 
 cast:
   - role: Jan
-    name: Benjamin Cave
+    name: Ben Cave
   - role: Deborah
     name: Amy Rushton
 

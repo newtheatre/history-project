@@ -10,7 +10,7 @@ date_end: 2010-06-12
 
 cast:
 - role: Lord Rustless
-  name: Benjamin Cave
+  name: Ben Cave
 - role: Miss Bates
   name: Flo Hapgood
 - role: Badger

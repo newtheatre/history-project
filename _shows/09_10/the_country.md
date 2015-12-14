@@ -9,8 +9,7 @@ date_start: 2009-10-28
 date_end: 2009-10-31
 
 cast:
-  - role: unknown
-    name: Benjamin Cave
+  - name: Ben Cave
   - name: Lizzie Bourne
   - name: Meg Salter
 

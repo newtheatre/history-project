@@ -10,7 +10,7 @@ date_end: 2010-11-13
 
 cast:
 - role: Doctor Justus Wehner
-  name: Benjamin Cave
+  name: Ben Cave
 - role: Peter Kurten
   name: Alex Hollingsworth
 - role: Eva Kurten
