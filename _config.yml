@@ -32,6 +32,7 @@ exclude:
 - Gemfile.lock
 - bower.json
 - package.json
+- Rakefile
 
 # skip_years: true
 # skip_virtual_people: true
