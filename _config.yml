@@ -4,7 +4,7 @@ email: alumni@newtheatre.org.uk
 twitter: nntalumni
 description: "Archive project collecting past shows, committees and alumni biographies to piece together the theatre's dynamic and vibrant history."
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://history.newtheatre.org.uk" # the base hostname & protocol for your site
+url: "https://history.newtheatre.org.uk" # the base hostname & protocol for your site
 ntbot_endpoint: "https://ntbot.flatcar.xyz/post_issue" # For issue posting
 
 # How many shows is too few for a year
@@ -165,7 +165,7 @@ lib:
 # Config for the prose editor
 prose:
   ignore: ['_bin', '_utilities', 'CNAME', '.gitignore', 'js', 'css', '_site', '_sass', '_layouts', '_includes', '.travis.yml', 'Gemfile', 'Gemfile.lock', 'lib', 'js', '_plugins', 'feeds', '_years', '.bowerrc', '.gitmodules', '_config.yml', 'bower.json', 'googlee5aee69e17917677.html', 'package.json', 'robots.txt']
-  siteurl: "http://history.newtheatre.org.uk"
+  siteurl: "https://history.newtheatre.org.uk"
   media: "images"
   metadata:
     _shows:
