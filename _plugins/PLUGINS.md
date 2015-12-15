@@ -17,7 +17,8 @@ plugins run after it.
 
 ### low
 - PeopleDataGenerator
+- YearDataGenerator
 
 ### lowest
 - AssetDataGenerator
-- YearDataGenerator
+- YearGraphGenerator

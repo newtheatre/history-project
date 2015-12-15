@@ -60,7 +60,7 @@ module Jekyll
   end
 
   class YearDataGenerator < Generator
-    priority :lowest  # Should be one of the last to execute
+    priority :low  # Should be one of the last to execute
 
     def get_sorted_years(years)
       years.sort_by { |year| year.data["sort"] }
