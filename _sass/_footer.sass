@@ -14,18 +14,41 @@
     @include grid-row
     padding-bottom: 0
 
-  .twitter, .email
-    background: rgba(#55acee, 0.7)
+  .footer-social > *
+    // External links in footer
+    background: $color-grey
     margin-bottom: $baseline / 2
 
     a
       display: block
+      // 1/4 + 3/2 + 1/4 = 2
       padding: $baseline/4 $baseline/2
+      line-height: $baseline * 1.5
       color: $color-text-white
 
+    i
+      // Larger icon, text same
+      $icon-size: 1.8em
+      font-size: $icon-size
+      vertical-align: -($icon-size / 9.33333333)
+      padding-right: 3px
 
+  $social-trans: 0.7
+  $social-trans-hover: 0.85
+
+  // Different colours
+  .twitter
+    background: rgba(#55acee, $social-trans)
+    &:hover
+      background: rgba(#55acee, $social-trans-hover)
   .email
-    background: rgba(#ed0040, 0.7)
+    background: rgba(#ed0040, $social-trans)
+    &:hover
+      background: rgba(#ed0040, $social-trans-hover)
+  .web
+    background: rgba($color-nnt-purple, $social-trans)
+    &:hover
+      background: rgba($color-nnt-purple, $social-trans-hover)
 
 .footer-contribute
   @include grid-x-percent(68%)
