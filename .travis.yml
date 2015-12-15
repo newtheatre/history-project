@@ -2,7 +2,7 @@ language: ruby
 cache:
   bundler: true
   directories:
-    - _site/images/resized
+    - _site/
     - node_modules/
     - lib/
     - _asset_bundler_cache/
