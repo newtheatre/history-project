@@ -91,9 +91,11 @@ module Jekyll
       year.data["previous"] = @years[index - 1]
       year.data["shows"] = @site.data["shows_by_year"][year_slug]
 
+      # Yucky ruby syntax, if not empty assign size, otherwise 0 cos no shows
       year.data["show_count"] = year.data["shows"] ? year.data["shows"].size : 0
 
-      @top_show_count ||= 0
+      # Keep track of the most number of shows
+      @top_show_count ||= 0 # Instance var common to all years
       @top_show_count = year.data["show_count"] if year.data["show_count"] > @top_show_count
 
       year.data["redirect_from"] = get_year_legacy_path(year)
