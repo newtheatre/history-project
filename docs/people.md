@@ -40,12 +40,12 @@ careers:
   - Lighting Designer
 links:
   - type: Personal Website
-    href: "http://johnsmith.com"
+    href: "https://johnsmith.com"
 news:
   - title: John Smith Best Lighting Design Ever
     type: Article
     date: 2014-01-01
-    href: "http://chorleychronicle.info/johnsmith"
+    href: "https://chorleychronicle.info/johnsmith"
 ---
 
 John did techie stuff

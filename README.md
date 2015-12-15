@@ -52,7 +52,7 @@ The vagrant box has port 8000 mapped to 8000 on your local machine, so `http://1
 
 ## Editing
 
-See the [site documentation](http://history.newtheatre.org.uk/docs/)
+See the [site documentation](https://history.newtheatre.org.uk/docs/)
 
 ## Repo Mirror
 

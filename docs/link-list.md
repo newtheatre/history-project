@@ -25,10 +25,10 @@ A link list is a format for representing a list of external links used in variou
 
 {% highlight yaml %}
 links:
-  - href: "http://example.com"
+  - href: "https://example.com"
     type: Example
     title: Example Site
-  - href: "http://news.com/a-story"
+  - href: "https://news.com/a-story"
     type: News Story
     title: A Story
     date: 1980-01-01

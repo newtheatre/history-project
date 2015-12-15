@@ -35,7 +35,7 @@
         issue tracker</a> about the page you're currently on - <strong>{{page.title}}</strong>. Let us know about
         missing or incorrect details, typos or any other way this page could be improved.</p>
       <div class="report-form">
-        <form name="report-issue-form" id="report-issue-form" action="http://ntbot.io.fullaf.com/post_issue" method="POST">
+        <form name="report-issue-form" id="report-issue-form" action="{{ site.ntbot_endpoint }}" method="POST">
           <input class="report-text" type="text" name="title" required placeholder="Subject" />
           <textarea class="report-textarea" name="message" required placeholder="Message"></textarea>
           <input class="report-text" type="text" name="name" required placeholder="Your Name" />
