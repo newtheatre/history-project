@@ -16,8 +16,8 @@ install:
 before_script:
  - _bin/prep.sh
 script:
- - rake build
- - rake test
+ - bundle exec rake build
+ - bundle exec rake test
 after_success:
  - _bin/deploy.sh
 branches:
