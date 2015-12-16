@@ -4,6 +4,11 @@ layout: default
 {% assign person = page %}
 
 <div class="person">
+
+  {% if person.comment %}
+  <div class="debug-comment wrapper" data-debug-toggle>{{ person.comment }}</div>
+  {% endif %}
+
   <div class="person-info">
     <header class="person-header">
       <h1>{{ person.title }}</h1>
@@ -27,29 +32,56 @@ layout: default
       </div>
     </header>
     <article class="person-bio">
-      {% if person.placeholder %}
+      {% if person.placeholder or person.submitted == false %}
 
       <p>We are looking to collect biographies on New Theatre alumni, if this is you and you're interested in doing so please <a href="/collect/person/?name={{person.path_name}}">submit a biography</a>.</p>
 
       {% else %}
-      <h2>Bio</h2>
       {{ content }}
       {% endif %}
-
-      <div class="person-committees">
-        {% for record in person.committees %}
-        {{ record.roles }} - {{ record.item.title }}<br />
-        {% endfor %}
-      </div>
     </article>
   </div>
 
-  <div class="person-photo">
-    {% if person.headshot %}
-    {% image person_headshot people/{{ person.headshot }} %}
-    {% else %}
-    <i class="ion-ios-person"></i>
-    {% endif %}
+  <div class="person-side">
+    <div class="person-photo">
+      {% if person.headshot %}
+      {% image person_headshot people/{{ person.headshot }} %}
+      {% else %}
+      <img class="person-photo-placeholder" src="/images/human-512.png" alt="Human silhouette" />
+      {% endif %}
+    </div>
+
+    <div class="person-committees">
+      <ul>
+      {% for record in person.committees %}
+        <li>{{ record.roles }} - {{ record.item.title }}</li>
+      {% endfor %}
+      </ul>
+    </div>
+
+    <div class="person-careers">
+      <ul>
+      {% for career in person.careers %}
+        <li>{{ career }}</li>
+      {% endfor %}
+      </ul>
+    </div>
+
+    <div class="person-links">
+      <ul>
+      {% for link in person.links %}
+        <li><a href="{{ link.href }}">{{ link.type }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+
+    <div class="person-news">
+      <ul>
+      {% for link in person.news %}
+        <li><a href="{{ link.href }}">{{ link.title }} ({{ link.date }})</a></li>
+      {% endfor %}
+      </ul>
+    </div>
   </div>
 
 </div>
