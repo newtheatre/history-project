@@ -36,7 +36,7 @@ To get the site running locally you will need a working Ruby environment, the bu
 
 ## Vagrant
 
-Vagrant is a cross platform virtual machine manager. It will allow you to build the site on your local machine in an environemnt as close as possible to the travis script that is actually used. It is strognly recomended that you follow the [Vagrant getting started guide](https://docs.vagrantup.com/v2/getting-started/index.html).
+Vagrant is a cross platform virtual machine manager. It will allow you to build the site on your local machine in an environment as close as possible to the travis script that is actually used. It is strognly recomended that you follow the [Vagrant getting started guide](https://docs.vagrantup.com/v2/getting-started/index.html).
 To get started, you will need:
 
 - [Oracle Virtual Box](https://www.virtualbox.org/wiki/Downloads)
