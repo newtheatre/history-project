@@ -46,7 +46,7 @@ class Smug
   def fetch_album_images(albumID)
     # Given an album id, return the SM objects in that album
     Jekyll.logger.info "Fetching SM Image List:", "#{ albumID }"
-    url = api_url("album/#{ albumID }!images")
+    url = api_url("album/#{ albumID }!images?count=9999")
     data = self.class.get(url)
     if data.key? "Response"
       return data["Response"]["AlbumImage"]
