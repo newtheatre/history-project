@@ -27,7 +27,7 @@ module Jekyll
     end
 
     def get_title()
-      "#{ @year.to_s } - #{ year_span_short[1] }"
+      "#{ @year.to_s } &ndash; #{ year_span_short[1] }"
     end
 
     def make_path()
@@ -82,9 +82,6 @@ module Jekyll
       """Method called for every year"""
       year_slug = get_year_slug(year)
       add_to_years_by_decade(year)
-
-      # Title prettyness replacement
-      year.data["title"] = year.data["title"].sub("-","&ndash;")
 
       year.data["committee"] = @site.data["committees_by_year"][year_slug]
       year.data["next"] = @years[index + 1]
