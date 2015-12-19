@@ -1,6 +1,6 @@
 ---
 title: "Chasing Dragons"
-playwright: Adam H Wells
+playwright: Adam H. Wells
 season: Edinburgh
 season_sort: 300
 period: Edinburgh
@@ -22,7 +22,7 @@ cast:
 
 crew:
   - role: Director
-    name: Adam H Wells
+    name: Adam H. Wells
 ---
 Charming. Alarming. Disarming.
 
