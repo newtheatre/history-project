@@ -13,6 +13,7 @@ plugins run after it.
 - CommitteeDataGenerator
 
 ### normal
+- ShowsByGenerator
 - PeoplePlaceholderGenerator
 
 ### low

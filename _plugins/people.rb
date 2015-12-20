@@ -81,6 +81,7 @@ module Jekyll
 
       people.each { |person| generate_person(person) }
 
+      @site.data["people"] = people
       @site.data["people_by_filename"] = @people_by_filename
     end
   end
