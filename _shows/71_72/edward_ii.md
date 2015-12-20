@@ -4,7 +4,7 @@ season: In House
 period: Autumn
 playwright: Christopher Marlowe
 season_sort: 50
-venue: Great Hall
+venue: Trent Great Hall
 
 crew:
    - role: Lighting Designer
