@@ -13,8 +13,8 @@ plugins run after it.
 - CommitteeDataGenerator
 
 ### normal
-- ShowsByGenerator
 - PeoplePlaceholderGenerator
+- ShowsByGenerator
 
 ### low
 - PeopleDataGenerator
@@ -23,3 +23,4 @@ plugins run after it.
 ### lowest
 - AssetDataGenerator
 - YearGraphGenerator
+- PeopleByGenerator
