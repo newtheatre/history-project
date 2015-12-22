@@ -5,7 +5,6 @@ season: In House
 period: Autumn
 season_sort: 60
 venue: New Theatre
-
-About the murderer John Christie.
 ---
 
+About the murderer John Christie.

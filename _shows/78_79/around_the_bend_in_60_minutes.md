@@ -19,7 +19,6 @@ crew:
   - role: Bass
     name: Peter Sells
 
-NTG's late night review at the Edinburgh Fringe.
 ---
 
-
+NTG's late night review at the Edinburgh Fringe.

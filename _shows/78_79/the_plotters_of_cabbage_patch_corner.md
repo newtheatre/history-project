@@ -22,7 +22,7 @@ crew:
   - role: Band
     name: Peter Sells
 
-Children's muscial.
+comment: Children's muscial.
 ---
 
 

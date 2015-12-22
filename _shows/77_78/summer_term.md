@@ -15,7 +15,7 @@ crew:
  - role: ASM
    name: Alison Lumb
 
-A showcase of five one-act plays in the New Theatre.
+comment: A showcase of five one-act plays in the New Theatre.
 
 ---
 
