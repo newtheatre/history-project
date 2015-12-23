@@ -103,8 +103,11 @@ permalink: /years/
         <ul class="season-list archive-list">
           {% assign sorted_seasons = site.seasons | sort: "-sort" %}
           {% for item in sorted_seasons %}
-          <li {% if venue.shows.size < 3 %}class="minor"{% endif %}>
-            <a href="{{ item.url }}">{{ item.title }}</a>
+          <li {% if item.shows.size < 3 %}class="minor"{% endif %}>
+            <a href="{{ item.url }}">
+              <span class="season-icon season-{{ item.class }}">{{ item.title }}
+              </span>
+            </a>
             <div class="decade-list-counts archive-list-counts" data-debug-toggle title="Show counts for venue">
               {% if item.shows %}{{ item.shows.size }}{% endif %}
             </div>

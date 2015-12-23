@@ -14,7 +14,8 @@ module Jekyll
       my_data = {
         "title" => get_title(),
         "sort" => shows.size,
-        "shows" => shows
+        "shows" => shows,
+        "class" => @path[1..-1],
       }
 
       @data = Utils.deep_merge_hashes(defaults, my_data)

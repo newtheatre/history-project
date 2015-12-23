@@ -127,3 +127,28 @@ $color-arrow: $color-grey-light
     &.enabled:hover
       text-decoration: none
       background: darken($color-1, 6%)
+
+@mixin breadcrumb-color($i, $color)
+  // HACK, cos the thing we need to override is quite specifific
+  .breadcrumb-#{$i} a
+    background: $color !important
+  .breadcrumb-#{$i} a:after
+    border-left-color: $color !important
+
+  $hover-color: lighten($color, 5%)
+  .breadcrumb-#{$i} a:hover
+    background: $hover-color !important
+  .breadcrumb-#{$i} a:hover:after
+    border-left-color: $hover-color !important
+
+  $child-color: darken($color, 8%)
+  .breadcrumb-#{$i}-child a
+    background: $child-color !important
+  .breadcrumb-#{$i}-child a:after
+    border-left-color: $child-color !important
+
+  $child-hover-color: lighten($child-color, 5%)
+  .breadcrumb-#{$i}-child a:hover
+    background: $child-hover-color !important
+  .breadcrumb-#{$i}-child a:hover:after
+    border-left-color: $child-hover-color !important
