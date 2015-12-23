@@ -1,30 +1,46 @@
-// Decade display on the /year page
+// /years Archive section
 
 // Lists
 
-.decade
-  @include grid-x-col(4)
-  @include block
+@mixin archive-section-background($color)
+  background: $color
+  @include text-shadow-effect(darken($color, 20%))
 
+
+.archive-section
   h3
-    background: $color-success
+    @include archive-section-background($color-success)
     margin-bottom: $baseline / 2
     padding: $baseline
 
-.decade-list
+.archive-section-content
+  padding-left: $baseline / 2
+  padding-right: $baseline / 2
+
+.archive-list
   @include columns(2 12px)
   @include list-unformatted
-  margin: 0 8px 0 10px
   li
     margin-bottom: 2px
-    text-align: center
-    padding-right: 8px
     position: relative
-  .empty
-    a
-      color: $color-grey
+  .empty a
+    color: $color-grey-dark
+  .minor a
+    color: $color-grey
 
-.decade-list-counts
+  a
+    @include respond-down(tab-port)
+      display: block
+      padding: $baseline / 4
+      background: lighten($color-background, 3%)
+
+.decade-list
+  li
+    text-align: center
+
+.season-list
+
+.archive-list-counts
   // Debug feature
   @include debug-box
   position: absolute
@@ -40,8 +56,7 @@ $background-items: -3
   $shift-color: adjust-hue($background-base, $shift)
 
   .decade-#{$i} h3
-    background: $shift-color
-    @include text-shadow-effect(darken($shift-color, 20%))
+    @include archive-section-background($shift-color)
 
   // HACK, cos the thing we need to override is quite specifific
   .breadcrumb-#{$i} a
@@ -66,3 +81,30 @@ $background-items: -3
     background: $child-hover-color !important
   .breadcrumb-#{$i}-child a:hover:after
     border-left-color: $child-hover-color !important
+
+// Specifics for /years page
+
+.archives
+  .decades, .others
+    // Row element
+    @include display(flex)
+    @include flex-wrap(wrap)
+
+    @include respond-down(mob-land)
+      @include flex-direction(column)
+
+  .archive-section
+    // Row item
+    @include flex-basis(25%)
+    @include block
+
+    @include set-property-to-gutter(padding-right)
+
+  .decade
+    @include flex-basis(50%)
+    @include respond-up(tab-land)
+      @include flex-basis(25%)
+
+  .venues
+    // Wider row item
+    @include flex-basis(50%)

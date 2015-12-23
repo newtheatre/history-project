@@ -1,0 +1,30 @@
+---
+layout: default
+current: archives
+---
+
+<div class="breadcrumbs">
+  <div class="breadcrumb-inner">
+    <ul class="breadcrumb-list">
+      <li class="breadcrumb">
+        <a href="/years/">Archives</a>
+      </li>
+      <li class="breadcrumb breadcrumb-{{ page.decade }}">
+        <a href="{{ page.url }}">{{ page.title }}</a>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+<div class="page">
+  <div class="year-shows">
+    {% assign show_list_shows = page.shows %}
+    {% include show_list.html %}
+
+    <p class="micro">
+      <a href="/collect/show/" class="subtle">Shows missing? Tell us about them&hellip;</a>
+    </p>
+  </div>
+</div>
+
