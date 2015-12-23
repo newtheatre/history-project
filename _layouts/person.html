@@ -10,7 +10,11 @@ layout: default
       <div class="meta-row">
         <i class="meta-icon fa fa-mortar-board"></i>
         <div class="meta-col person-graduated">
-          <p>{% if person.graduated %}{{ person.graduated }}{% else %}<span class="unknown">Unknown</span>{% endif %}</p>
+          <p>
+            {% if person.graduated_actual %}{{ person.graduated }}
+            {% elsif person.graduated %}<em title="Estimated">{{ person.graduated }}</em>
+            {% else %}<span class="unknown">Unknown</span>{% endif %}
+          </p>
         </div>
 
         <i class="meta-icon fa fa-book"></i>
