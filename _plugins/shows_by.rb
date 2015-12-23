@@ -9,7 +9,7 @@ module Jekyll
       if show.data["period"]
         (@shows_by_period[show.data["period"]] ||= []) << show
       end
-      if show.data["venue"]
+      if show.data["venue"] and show.data["venue"].downcase != "unknown"
         (@shows_by_venue[show.data["venue"]]   ||= []) << show
       end
     end

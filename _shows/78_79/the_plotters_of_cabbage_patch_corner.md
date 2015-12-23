@@ -4,7 +4,7 @@ playwright: David Wood
 season: Edinburgh
 period: Edinburgh
 season_sort: 400
-venue: Edinburgh
+venue: unknown
 
 cast:
   - name: Alison Golding

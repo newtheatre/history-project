@@ -85,15 +85,14 @@ permalink: /years/
       <h3>Venues</h3>
       <div class="archive-section-content">
         <ul class="venue-list archive-list">
-          {% assign sorted_venues = site.venues | sort: "-sort" %}
-          {% for item in sorted_venues %}
+          {% for item in site.venues %}{% if item.shows.size > 1 %}
           <li {% if item.shows.size < 3 %}class="minor"{% endif %}>
             <a href="{{ item.url }}">{{ item.title }}</a>
             <div class="decade-list-counts archive-list-counts" data-debug-toggle title="Show counts for venue">
               {% if item.shows %}{{ item.shows.size }}{% endif %}
             </div>
           </li>
-          {% endfor %}
+          {% endif %}{% endfor %}
         </ul>
       </div>
     </div>
@@ -101,8 +100,7 @@ permalink: /years/
       <h3>Seasons</h3>
       <div class="archive-section-content">
         <ul class="season-list archive-list">
-          {% assign sorted_seasons = site.seasons | sort: "-sort" %}
-          {% for item in sorted_seasons %}
+          {% for item in site.seasons %}
           <li {% if item.shows.size < 3 %}class="minor"{% endif %}>
             <a href="{{ item.url }}">
               <span class="season-icon season-{{ item.class }}">{{ item.title }}
