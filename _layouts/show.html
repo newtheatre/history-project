@@ -96,7 +96,7 @@ layout: default
           <i class="meta-icon fa fa-home"></i>
           <div class="meta-col show-venue">
             <p>
-            {% if show.venue %}
+            {% if show.venue and show.venue != "unknown" %}
               <a href="{{ show.venue_path }}">{{ show.venue }}</a>
             {% else %}
               <span class="unknown">Venue Unknown</span>
