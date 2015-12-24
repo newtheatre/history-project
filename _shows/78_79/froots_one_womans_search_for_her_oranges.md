@@ -4,7 +4,7 @@ playwright: Crispin Harris
 season: Edinburgh
 period: Edinburgh
 season_sort: 440
-venue: Edinburgh
+venue: unknown
 
 cast:
    - name: Peter Holdway
@@ -24,7 +24,7 @@ crew:
   - role: Band
     name: Peter Sells
 
-comment: A late night review. 
+comment: A late night review.
 ---
 
 

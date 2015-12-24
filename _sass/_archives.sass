@@ -1,0 +1,92 @@
+// /years Archive section
+
+// Lists
+
+@mixin archive-section-background($color)
+  background: $color
+  @include text-shadow-effect(mix(black, $color, 20%))
+
+
+.archive-section
+  h3
+    @include archive-section-background(#1F1F1F)
+    margin-bottom: $baseline / 2
+    padding: $baseline
+
+.archive-section-content
+  padding-left: $baseline / 2
+  padding-right: $baseline / 2
+
+.archive-list
+  @include columns(2 12px)
+  @include list-unformatted
+  li
+    margin-bottom: 2px
+    position: relative
+  .empty a
+    color: $color-grey-dark
+  .minor a
+    color: $color-grey
+
+  a
+    @include respond-down(tab-port)
+      display: block
+      padding: $baseline / 2
+      background: lighten($color-background, 3%)
+
+.decade-list
+  li
+    text-align: center
+
+.season-list
+  @include respond-down(tab-port)
+    @include columns(1)
+  li
+    white-space: nowrap
+
+.archive-list-counts
+  // Debug feature
+  @include debug-box
+  position: absolute
+  right: 0
+  top: 2px
+
+// Colour generator for decade, overrides some stuff in _breadcrumbs.sass
+$background-base: adjust-hue($color-decades-base, 220%)
+$background-items: -3
+
+@for $i from 194 through 201
+  $shift: (100% / $background-items) * (201-$i)
+  $shift-color: adjust-hue($background-base, $shift)
+
+  .decade-#{$i} h3
+    @include archive-section-background($shift-color)
+
+  @include breadcrumb-color($i, $shift-color)
+
+// Specifics for /years page
+
+.archives
+  .decades, .others
+    // Row element
+    @include display(flex)
+    @include flex-wrap(wrap)
+
+    @include respond-down(mob-land)
+      @include flex-direction(column)
+
+  .archive-section
+    // Row item
+    @include flex-basis(25%)
+    @include block
+
+    @include set-property-to-gutter(padding-right)
+
+  .decade
+    @include flex-basis(50%)
+    @include respond-up(tab-land)
+      @include flex-basis(25%)
+
+  .venues
+    // Wider row item
+    @include flex-basis(50%)

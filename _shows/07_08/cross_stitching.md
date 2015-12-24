@@ -5,7 +5,7 @@ student_written: true
 season: Edinburgh
 season_sort: 401
 period: Edinburgh
-venue: C Soco Chambers Street
+venue: C soco
 date_start: 2008-08-13
 date_end: 2008-08-25
 

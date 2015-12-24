@@ -1,0 +1,44 @@
+---
+group: util
+sitemap: false
+search_exclude: true
+---
+<style type="text/css">
+ul {
+  -webkit-column-count: 4;
+  column-count: 4;
+}
+</style>
+
+<h1>by season</h1>
+
+{% for by_type in site.data.shows_by_season %}
+  <h2>{{ by_type[0] }}</h2>
+  <ul>
+    {% for show in by_type[1] %}
+    <li><a href="{{ show.url }}">{{ show.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+<h1>by period</h1>
+
+{% for by_type in site.data.shows_by_period %}
+  <h2>{{ by_type[0] }}</h2>
+  <ul>
+    {% for show in by_type[1] %}
+    <li><a href="{{ show.url }}">{{ show.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+<h1>by venue</h1>
+
+{% for by_type in site.data.shows_by_venue %}
+  <h2>{{ by_type[0] }}</h2>
+  <ul>
+    {% for show in by_type[1] %}
+    <li><a href="{{ show.url }}">{{ show.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}

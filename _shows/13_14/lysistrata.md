@@ -1,9 +1,8 @@
 ---
 title: "Lysistrata"
 playwright: Aristophanes
-company: Postgrads
 period: Spring
-season: External
+season: Postgrads
 season_sort: 275
 date_start: 2014-05-21
 date_end: 2014-05-24
