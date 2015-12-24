@@ -5,7 +5,7 @@
   <div class="debug-abs-top-left" data-debug-toggle title="season_sort Number">{{ show.season_sort }}</div>
   <a href="{{ show.url }}">
     {% if show.poster %}
-      {% image show_poster_thumb for_shows/{{ show.poster.image }} %}
+      {% image show_poster_thumb for_shows/{{ show.poster.image }} alt="{{ show.title }} poster" %}
     {% endif %}
     <span class="show-list-title">{{ show.title }}</span>
     {% if show.playwright %}

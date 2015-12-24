@@ -50,7 +50,7 @@ layout: default
 
   <div class="person-photo">
     {% if person.headshot %}
-    {% image person_headshot people/{{ person.headshot }} %}
+    {% image person_headshot people/{{ person.headshot }} alt="{{ person.title }}" %}
     {% else %}
     <i class="ion-ios-person"></i>
     {% endif %}
@@ -65,7 +65,7 @@ layout: default
       <div class="person-show-poster">
         <a href="{{ record.item.url }}" title="{{ record.item.title }}">
         {% if record.item.poster %}
-          {% image person_show_poster for_shows/{{ record.item.poster.image }} %}
+          {% image person_show_poster for_shows/{{ record.item.poster.image }} alt="{{ record.item.title }} poster" %}
         {% else %}
           <!-- Missing Poster -->
         {% endif %}

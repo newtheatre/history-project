@@ -126,7 +126,7 @@ layout: default
           {% elsif asset.image %}
             <li class="show-asset-image debug-container">
               <a class="fancybox" rel="assets" href="/images/for_shows/{{ asset.image }}" title="{{ asset.caption }}">
-                {% image show_asset for_shows/{{ asset.image }} title="{{image.caption}}" %}
+                {% image show_asset for_shows/{{ asset.image }} alt="{{ asset.type }} {{ asset.caption }}" %}
               </a>
               <div class="debug-abs-bottom-left" data-debug-toggle title="Asset type">{{ asset.type }}</div>
               <div class="debug-abs-top-left" data-debug-toggle title="Asset image">{{ asset.image }}</div>
@@ -141,7 +141,7 @@ layout: default
     </div>
     <div class="show-poster">
       {% if show.poster %}
-        {% image show_poster for_shows/{{ show.poster.image }} %}
+        {% image show_poster for_shows/{{ show.poster.image }} alt="{{ show.title }} poster" %}
       {% else %}
         {% include boxes/show_poster_missing.html %}
       {% endif %}
