@@ -65,7 +65,7 @@ layout: default
           <div class="meta-col show-playwright show-playwright-{{ show.playwright_type }}">
             <p>
               {% if show.playwright %}
-                {{ show.playwright_formatted }}
+                <a href="/search?q={{ show.playwright }}">{{ show.playwright_formatted }}</a>
               {% else %}
                 <span class="unknown">Playwright Unknown</span>
               {% endif %}
@@ -107,7 +107,6 @@ layout: default
 
       </header>
       <article class="show-synopsys">
-        <h3>Synopsis</h3>
         {{ content }}
       </article>
       {% if show.assets %}
