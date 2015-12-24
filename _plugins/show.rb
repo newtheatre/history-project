@@ -126,10 +126,10 @@ module Jekyll
 
       # If season / venue specified store relative path to its page
       if show.data["season"]
-        show.data["season_path"] = "/seasons" + SeasonPage.make_path(show.data["season"])
+        show.data["season_path"] = "/seasons" + SeasonPage.make_path(show.data["season"]) + "/"
       end
       if show.data["venue"]
-        show.data["venue_path"] = "/venues" + VenuePage.make_path(show.data["venue"])
+        show.data["venue_path"] = "/venues" + VenuePage.make_path(show.data["venue"]) + "/"
       end
 
       # To put content in meta description
