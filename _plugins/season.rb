@@ -28,6 +28,8 @@ module Jekyll
     def self.make_path(season_name)
       # Downcase, remove specials, space->underscore
       season_path = season_name.downcase.gsub(/[^a-z0-9 -]/, '').gsub(/ /, '-').gsub('---', '-')
+      # Special case, UNCUT/Fringe being the same thing
+      if season_name == "UNCUT" then season_path = "fringe" end
       "/#{ season_path }"
     end
 
