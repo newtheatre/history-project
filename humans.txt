@@ -2,15 +2,26 @@
 ---
 /* TEAM */
   Project Lead / Developer: Will Pimblett
+  Bio: https://history.newtheatre.org.uk/people/will_pimblett/
   Contact: webmaster [at] newtheatre.org.uk
   Twitter: @willpimblett
   From: Cambridge, UK
 
   Project Lead / Content: Phil Geller
+  Bio: https://history.newtheatre.org.uk/people/philip_geller/
+  Twitter: @PJGeller
+
+  Editor: Nick Stevenson
+  Bio: https://history.newtheatre.org.uk/people/nick_stevenson/
+  Twitter: @njstevenson14
+
+  Editor: Nathan Penney
+  Bio: https://history.newtheatre.org.uk/people/nathan_penney/
+  Twitter: @nhyty96
 
 /* THANKS */
 
-  Content: Person Name
+  Vagrant Setup: Tom Price
 
 /* SITE */
   Last update: {{site.time | date: "%Y-%m-%d" }}

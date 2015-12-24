@@ -27,7 +27,7 @@ module Jekyll
     end
 
     def get_title()
-      "#{ @year.to_s } - #{ year_span_short[1] }"
+      "#{ @year.to_s } &ndash; #{ year_span_short[1] }"
     end
 
     def make_path()
@@ -60,7 +60,7 @@ module Jekyll
   end
 
   class YearDataGenerator < Generator
-    priority :lowest  # Should be one of the last to execute
+    priority :low  # Should be one of the last to execute
 
     def get_sorted_years(years)
       years.sort_by { |year| year.data["sort"] }
@@ -83,17 +83,16 @@ module Jekyll
       year_slug = get_year_slug(year)
       add_to_years_by_decade(year)
 
-      # Title prettyness replacement
-      year.data["title"] = year.data["title"].sub("-","&ndash;")
-
       year.data["committee"] = @site.data["committees_by_year"][year_slug]
       year.data["next"] = @years[index + 1]
       year.data["previous"] = @years[index - 1]
       year.data["shows"] = @site.data["shows_by_year"][year_slug]
 
+      # Yucky ruby syntax, if not empty assign size, otherwise 0 cos no shows
       year.data["show_count"] = year.data["shows"] ? year.data["shows"].size : 0
 
-      @top_show_count ||= 0
+      # Keep track of the most number of shows
+      @top_show_count ||= 0 # Instance var common to all years
       @top_show_count = year.data["show_count"] if year.data["show_count"] > @top_show_count
 
       year.data["redirect_from"] = get_year_legacy_path(year)

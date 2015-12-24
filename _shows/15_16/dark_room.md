@@ -4,7 +4,7 @@ playwright: Tom Proffit
 season: Fringe
 season_sort: 70
 period: Autumn
-venue: Studio A
+venue: New Theatre Studio A
 date_start: 2015-11-23
 date_end: 2015-11-24
 

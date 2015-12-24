@@ -40,7 +40,7 @@ cast:
   - role: Chorus
     name: Mitchell Masterton
   - role: Chorus
-    name: Sian Beavan
+    name: Sian Beaven
 
 crew:
   - role: Director

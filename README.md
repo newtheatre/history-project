@@ -2,11 +2,12 @@
 
 [![Build Status](https://travis-ci.org/newtheatre/history-project.svg?branch=master)](https://travis-ci.org/newtheatre/history-project)
 [![Dependency Status](https://gemnasium.com/newtheatre/history-project.svg)](https://gemnasium.com/newtheatre/history-project)
-[![Code Climate](https://codeclimate.com/github/newtheatre/history-project/badges/gpa.svg)](https://codeclimate.com/github/newtheatre/history-project)
 
 The history project aims to collect information on past shows, committees and other goings-on at The Nottingham New Theatre.
 
-## System
+## Running Locally
+
+### System
 
 To get the site running locally you will need a working Ruby environment, the bundler gem installed, ImageMagick, Node.js, Coffeescript, and Bower. The following instructions work on Ubuntu.
 
@@ -15,7 +16,7 @@ To get the site running locally you will need a working Ruby environment, the bu
 - `sudo ln -s /usr/bin/nodejs /usr/bin/node` because some Node packages put it in the wrong place
 - `sudo npm install -g coffee-script bower` for Coffeescript and Bower
 
-## Project Install
+### Project Install
 
 - `git clone https://github.com/newtheatre/history-project.git` to clone the repo to your computer.
 - `cd history-project` to change into the directory.
@@ -23,8 +24,18 @@ To get the site running locally you will need a working Ruby environment, the bu
 - `npm install` to install all the Node dependencies the project needs to build.
 - `bower install` to install all the frontend dependencies the project needs to build.
 
+### Run
+
+- `bundle exec rake build` to build the site to _site.
+- `cd _site && python -m SimpleHTTPServer` to serve the site using the Python HTTP server (should be on all *nix machines)
+
+### Test
+
+- `bundle exec rake test` to run test suite locally.
+
 ## Vagrant
-Vagrant is a cross platform virtual machine manager. It will allow you to build the site on your local machine in an environemnt as close as possible to the travis script that is actually used. It is strognly recomended that you follow the [Vagrant getting started guide](https://docs.vagrantup.com/v2/getting-started/index.html).
+
+Vagrant is a cross platform virtual machine manager. It will allow you to build the site on your local machine in an environment as close as possible to the travis script that is actually used. It is strognly recomended that you follow the [Vagrant getting started guide](https://docs.vagrantup.com/v2/getting-started/index.html).
 To get started, you will need:
 
 - [Oracle Virtual Box](https://www.virtualbox.org/wiki/Downloads)
@@ -38,21 +49,9 @@ Once you have download the requirements and installed them successfully you simp
 
 The vagrant box has port 8000 mapped to 8000 on your local machine, so `http://127.0.0.1:8000` should still work.
 
-## Run
-
-- `_bin/build.sh` to build the site to _site.
-- `cd _site && python -m SimpleHTTPServer` to serve the site using the Python HTTP server (should be on all *nix machines)
-
 ## Editing
 
-See the [site documentation](http://history.newtheatre.org.uk/docs/)
-
-## Useful Stuff
-
-### HTML Proofing
-
-`bundle exec htmlproof _site` will check the site for mistakes in the generated output (broken links, missing alt attributes on images etc).
-
+See the [site documentation](https://history.newtheatre.org.uk/docs/)
 
 ## Repo Mirror
 

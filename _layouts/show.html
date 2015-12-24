@@ -35,7 +35,10 @@ layout: default
 
 <div class="show">
   {% if show.comment %}
-  <div class="debug-comment wrapper" data-debug-toggle>{{ show.comment }}</div>
+  <div class="debug-comment wrapper" data-debug-toggle>
+    <i class="ion-chatbox"></i>
+    {{ show.comment }}
+  </div>
   {% endif %}
 
   {% if show.date_start == null %}
@@ -78,7 +81,13 @@ layout: default
           </div>
           <i class="meta-icon fa fa-reorder"></i>
           <div class="meta-col show-season">
-            <p class="season-{{ show.season | downcase | replace:" ","-" }}">{% if show.season %}{{show.season}}{% else %}<span class="unknown">Season Unknown</span>{% endif %}</p>
+            <p class="season-{{ show.season | downcase | replace:" ","-" }}">
+            {% if show.season %}
+              <a href="{{ show.season_path }}">{{ show.season }}</a>
+            {% else %}
+              <span class="unknown">Season Unknown</span>
+            {% endif %}
+            </p>
           </div>
           <i class="meta-icon fa fa-calendar"></i>
           <div class="meta-col show-date">
@@ -86,7 +95,13 @@ layout: default
           </div>
           <i class="meta-icon fa fa-home"></i>
           <div class="meta-col show-venue">
-            <p>{% if show.venue %}{{ show.venue }}{% else %}<span class="unknown">Venue Unknown</span>{% endif %}</p>
+            <p>
+            {% if show.venue and show.venue != "unknown" %}
+              <a href="{{ show.venue_path }}">{{ show.venue }}</a>
+            {% else %}
+              <span class="unknown">Venue Unknown</span>
+            {% endif %}
+            </p>
           </div>
         </div>
 
@@ -136,6 +151,15 @@ layout: default
 
   {% if show.smugmug_album %}
 
+  <div class="debug-comment wrapper" data-debug-toggle>
+    <i class="ion-camera"></i>
+    SmugMug album {{ show.smugmug_album.AlbumKey }}: {{ show.smugmug_album.Title }} ({{ show.smugmug_album.UrlName }})<br />
+    Last retrieved at {{ show.smugmug_album.LastFetched }}<br />
+    Album last organised at: {{ show.smugmug_album.LastUpdated }}<br />
+    Album images last updated at: {{ show.smugmug_album.ImagesLastUpdated }}<br />
+    {{ show.smugmug_album.ImageCount }} total images
+  </div>
+
   <div class="show-photos-outer">
 
     <section class="show-photos show-photos-smug">
@@ -160,7 +184,7 @@ layout: default
         <a href="{{ show.smugmug_album.WebUri }}" title="Show all photos">
           <div class="show-label" data-show-label>
             <i class="ion-ios-arrow-down"></i>
-            {{ show.smugmug_album.Images[-1].ImageCount | plus:1 }} production shots
+            {{ show.smugmug_album.ImageCount }} production shots
             <i class="ion-ios-arrow-down"></i>
           </div>
           <div class="hide-label" data-hide-label>
@@ -199,7 +223,8 @@ layout: default
   </div> -->
 
   <div class="show-wrap show-row">
-    <section class="show-cast">
+    <section class="show-cast debug-container">
+      <div class="debug-abs-top-left" data-debug-toggle title="Number of cast">{{ show.cast.size }}</div>
       <h3>Cast</h3>
       {% if show.cast == null %}
       {% include boxes/show_cast_missing.html %}
@@ -208,7 +233,8 @@ layout: default
       {% include person_list.html %}
       {% endif %}
     </section>
-    <section class="show-crew">
+    <section class="show-crew debug-container">
+      <div class="debug-abs-top-left" data-debug-toggle title="Nunber of crew">{{ show.crew.size }}</div>
       <h3>Crew</h3>
       {% if show.crew.size < site.show_low_crew %}
       {% include boxes/show_crew_short.html %}

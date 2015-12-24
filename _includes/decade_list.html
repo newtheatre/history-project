@@ -1,11 +1,11 @@
-<ul class="decade-list">
+<ul class="decade-list archive-list">
   {% for year in year_pages_decade %}
 
   <li {% if year.shows == null %}class="empty"{% endif %}>
 
-    <a href="{{year.url}}">{{year.title}}</a>
+    <a href="{{ year.url }}">{{ year.title }}</a>
 
-    <div class="decade-list-counts" data-debug-toggle title="Show counts for year, C denotes a committee record">
+    <div class="decade-list-counts archive-list-counts" data-debug-toggle title="Show counts for year, C denotes a committee record">
       {% if year.shows %}{{ year.shows.size }}{% endif %}
       {% if year.committee %}C{% endif %}
     </div>

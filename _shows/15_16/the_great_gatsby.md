@@ -5,7 +5,7 @@ adaptor: "L. J. Bateman"
 season: Fringe
 season_sort: 110
 period: Autumn
-venue: Trent PAS
+venue: PAS, Trent Building
 date_start: 2015-12-06
 date_end: 2015-12-07
 

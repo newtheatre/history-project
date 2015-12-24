@@ -124,6 +124,14 @@ module Jekyll
       show.data["year"] = get_show_year(show)
       show.data["year_page"] = get_show_year_page(show)
 
+      # If season / venue specified store relative path to its page
+      if show.data["season"]
+        show.data["season_path"] = "/seasons" + SeasonPage.make_path(show.data["season"])
+      end
+      if show.data["venue"]
+        show.data["venue_path"] = "/venues" + VenuePage.make_path(show.data["venue"])
+      end
+
       # To put content in meta description
       show.data["excerpt"] = show.content
 

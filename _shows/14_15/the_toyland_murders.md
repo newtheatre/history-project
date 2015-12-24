@@ -7,7 +7,7 @@ season: Fringe
 season_sort: 400
 date_start: 2015-06-08
 date_end: 2015-06-09
-venue: Performing Arts Studio, Trent Building
+venue: PAS, Trent Building
 
 cast:
   - role: Inspector Carmen McGraw

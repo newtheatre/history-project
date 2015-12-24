@@ -16,7 +16,7 @@ crew:
     name: Tony Ireland
   - role: Stage Manager
     name: Sarah Hughes
-venue: Edinburgh
+venue: unknown
 
 assets:
   - type: poster

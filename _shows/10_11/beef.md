@@ -4,7 +4,7 @@ playwright: Rose Williams
 season: Edinburgh
 season_sort: 290
 period: Edinburgh
-venue: C Venues - C Soco
+venue: C soco
 date_start: 2011-08-03
 date_end: 2011-08-29
 

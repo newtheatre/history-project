@@ -16,7 +16,10 @@
       {{ show.playwright_formatted_long }}
     </span>
     {% endif %}
-    <br /><span class="show-list-season season-{{ show.season | downcase | replace:" ","-" }}">{{ show.season }}</span>{% if show.date_start %}<span class="show-list-date">{% include liquid/date_range.html %}</span>{% endif %}
+    <br />
+    <span class="show-list-season season-{{ show.season | downcase | replace:" ","-" }}">{{ show.season }}</span>
+    {% if show.date_start %}<span class="show-list-date">{% include liquid/date_range.html %}</span>
+    {% else %}<span class="show-list-date">{{ show.year_page.title }}</span>{% endif %}
   </a>
 </li>
 

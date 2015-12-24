@@ -8,6 +8,8 @@ cache:
     - _asset_bundler_cache/
     - vendor/bundle
     - _smugmug_cache/
+    - tmp/
+    - .sass-cache
 install:
   - bundle install --jobs=3 --retry=3 --deployment --path=${BUNDLE_PATH:-vendor/bundle}
   - npm install
@@ -15,15 +17,15 @@ install:
 before_script:
  - _bin/prep.sh
 script:
- - bundle exec jekyll build --profile
- - coffee _coffee/search_index_generator.coffee
- - bundle exec htmlproof _site --file-ignore /lib/
- - jsonlint -q _site/feeds/search.json
+ - bundle exec rake build
+ - bundle exec rake test
 after_success:
  - _bin/deploy.sh
 branches:
   only:
   - master
+git:
+  depth: 6
 rvm:
 - 2.1.2
 env:

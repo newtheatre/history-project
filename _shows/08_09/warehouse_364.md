@@ -5,7 +5,7 @@ student_written: true
 season: Edinburgh
 season_sort: 400
 period: Edinburgh
-venue: C Cubed Main
+venue: C cubed
 date_start: 2009-08-06
 date_end: 2009-08-31
 
