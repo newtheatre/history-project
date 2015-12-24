@@ -1,8 +1,7 @@
 ---
 title: Dracula
 playwright:
-company: Postgrads
-season: External
+season: Postgrads
 season_sort: 410
 period: External
 venue: New Theatre
