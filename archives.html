@@ -85,14 +85,14 @@ permalink: /years/
       <h3>Venues</h3>
       <div class="archive-section-content">
         <ul class="venue-list archive-list">
-          {% for item in site.venues %}{% if item.shows.size > 1 %}
-          <li {% if item.shows.size < 3 %}class="minor"{% endif %}>
+          {% for item in site.venues %}
+          <li {% if item.shows.size < 2 %}class="debug debug-hidden-content" data-debug-toggle{% endif %}>
             <a href="{{ item.url }}">{{ item.title }}</a>
             <div class="decade-list-counts archive-list-counts" data-debug-toggle title="Show counts for venue">
               {% if item.shows %}{{ item.shows.size }}{% endif %}
             </div>
           </li>
-          {% endif %}{% endfor %}
+          {% endfor %}
         </ul>
       </div>
     </div>
