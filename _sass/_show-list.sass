@@ -12,9 +12,13 @@
       padding: 10px
       overflow: auto
       color: $color-text-white
+
+      @include no-underline(false)
       &:hover
         background: $color-link-bg-hover
-        text-decoration: none
+        .show-list-title
+          text-decoration: underline
+
     .show-list-title
       color: $color-link
       font-weight: 600

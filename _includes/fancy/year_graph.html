@@ -4,7 +4,7 @@
   {% assign bar_height = year.show_count | times: 4 | plus: 2 %}
   {% assign mtop = max_bar_height | minus: bar_height %}
   <div class="year-graph-bar breadcrumb-{{ year.decade }}" title="{{ year.title }}: {{ year.show_count }}" style="margin-top:{{ mtop }}px">
-    <a href="{{ year.url }}" style="height:{{ bar_height }}px">&nbsp;</a>
+    <a href="{{ year.url }}" style="height:{{ bar_height }}px" tabindex="-1">&nbsp;<span class="access-hidden">{{ year.title }}</span></a>
   </div>
 {% endfor %}
 </div>

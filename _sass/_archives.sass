@@ -29,6 +29,7 @@
     color: $color-grey
 
   a
+    @include no-underline(true)
     @include respond-down(tab-port)
       display: block
       padding: $baseline / 2

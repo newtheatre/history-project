@@ -12,6 +12,8 @@ $color-5: darken($color-grey-dark, 18%)
 
 $color-arrow: $color-grey-light
 
+$focus-color: lighten($color-1, 15%)
+
 .breadcrumbs
 
 .breadcrumb-inner
@@ -36,12 +38,19 @@ $color-arrow: $color-grey-light
 
   li a
     color: $color-text-white
-    text-decoration: none
     padding: $breadcrumb-item-pad 10px $breadcrumb-item-pad 65px
     // background: $color-1
     position: relative
     display: block
     float: left
+
+    @include no-underline
+
+    &:focus
+      outline: none
+      background: $focus-color
+    &:focus:after
+      border-left-color: $focus-color
 
   li a:after
     content: " "
@@ -93,17 +102,6 @@ $color-arrow: $color-grey-light
     background: $color-5
   li:nth-child(5) a:after
     border-left-color: $color-5
-  // .breadcrumbs li:last-child a
-  //   background: transparent !important
-  //   color: black
-  //   pointer-events: none
-  //   cursor: default
-
-  // Hover on first item looks silly now we've made the breadcrumbs bar full width
-  // .breadcrumbs li:first-child a:hover
-  //   background: darken($color-1, 8%)
-  // .breadcrumbs li:first-child a:hover:after
-  //   border-left-color: darken($color-1, 8%) !important
 
 .breadcrumb-controls
   @include respond-down(mob-land)
@@ -120,33 +118,47 @@ $color-arrow: $color-grey-light
     background: darken($color-1, 10%)
     padding: $breadcrumb-item-pad 20px
 
+    @include no-underline
+
     &.disabled
       background: darken($color-1, 3%)
       color: lighten($color-1, 6%)
 
     &.enabled:hover
-      text-decoration: none
       background: darken($color-1, 6%)
 
+    &:focus
+      background: $focus-color !important
+      outline: none
+    &:focus:after
+      border-left-color: $focus-color !important
+
 @mixin breadcrumb-color($i, $color)
-  // HACK, cos the thing we need to override is quite specifific
+  // HACK, cos the thing we need to override is quite specific
+  // Background of year crumb
   .breadcrumb-#{$i} a
     background: $color !important
   .breadcrumb-#{$i} a:after
     border-left-color: $color !important
-
+  // Hover of year crumb
   $hover-color: lighten($color, 5%)
   .breadcrumb-#{$i} a:hover
     background: $hover-color !important
   .breadcrumb-#{$i} a:hover:after
     border-left-color: $hover-color !important
-
+  // Focus of year crumb
+  $focus-color: lighten($color, 15%)
+  .breadcrumb-#{$i} a:focus
+    background: $focus-color !important
+  .breadcrumb-#{$i} a:focus:after
+    border-left-color: $focus-color !important
+  // Background of show crumb
   $child-color: darken($color, 8%)
   .breadcrumb-#{$i}-child a
     background: $child-color !important
   .breadcrumb-#{$i}-child a:after
     border-left-color: $child-color !important
-
+  // Hover of show crumb
   $child-hover-color: lighten($child-color, 5%)
   .breadcrumb-#{$i}-child a:hover
     background: $child-hover-color !important

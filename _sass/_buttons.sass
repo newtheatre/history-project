@@ -24,15 +24,13 @@
   font-weight: bold
 
   color: $color-text-white
+  @include no-underline
 
   // Hand pointer & no text highlighting
   cursor: pointer
   @include user-select(none)
 
   position: relative
-
-  &:hover
-    text-decoration: none
 
   &:active
     top: 1px
@@ -41,9 +39,13 @@
     outline: 0
     margin-bottom: $baseline + 1
 
-  &:focus
-    outline: 0
+  @include block-focus
 
-.button-search
+.button-primary, .button-search
   @include button(lighten($color-info, 20%))
 
+.button-delete
+  @include button(lighten($color-error, 20%))
+
+.button-complete
+  @include button(lighten($color-success, 20%))

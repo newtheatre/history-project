@@ -44,6 +44,17 @@
         // Make whole element a block
         display: block
         height: 100%
+
+        @include no-underline
+        @include block-focus
+
+        &:focus
+          // Set whole element background to focus
+          background: $color-focus
+          outline: none
+          img
+            // Semi-trans the image so you can see the colour thru it
+            opacity: 0.4
       img
         width: 100%
 
