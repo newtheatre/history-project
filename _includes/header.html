@@ -1,4 +1,4 @@
-<header class="site-header">
+<header class="site-header" role="banner">
   <div class="wrapper">
     <a class="site-title" href="{{ site.baseurl }}/">
       <img src="/images/logo.png" alt="Logo" class="site-title-logo" />
@@ -8,7 +8,7 @@
       </h2>
     </a>
 
-    <nav class="site-nav">
+    <nav class="site-nav" role="navigation">
       {% for node in site.data.header %}
         <a class="page-link{% if node.slug == page.current %} current{% endif %}" href="{{ node.href | prepend: site.baseurl }}">
           {% if node.icon %}<i class="{{ node.icon }}"></i> {% endif %}
@@ -16,7 +16,7 @@
         </a>
       {% endfor %}
     </nav>
-    <div class="site-search">
+    <div class="site-search" role="search">
       {% if page.url != "/search/" %}
       <form method="get" action="/search" data-search-form>
         <label for="q" class="access-hidden">Search</label>
