@@ -7,7 +7,7 @@ season_sort: 95
 period: Autumn
 venue: The Den
 date_start: 2011-12-11
-date_end: 2012-12-12
+date_end: 2011-12-12
 
 cast:
   - role: Soup Fly
