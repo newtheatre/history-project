@@ -12,7 +12,7 @@ comment: dates estimated from impact review
 
 cast:
   - role: Photographer
-    name: Eloie Hyde
+    name: Eloise Hyde
   - role: Living Sculpture
     name: Alix Hattenstone
   - role: Living Sculpture
