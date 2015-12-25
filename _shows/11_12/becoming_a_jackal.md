@@ -6,8 +6,8 @@ season: UNCUT
 season_sort: 95
 period: Spring
 venue: PAS, Trent Building
-date_start: 2012-12-05
-date_end: 2012-12-07
+date_start: 2012-02-05
+date_end: 2012-02-07
 
 cast:
   - role: Jack
