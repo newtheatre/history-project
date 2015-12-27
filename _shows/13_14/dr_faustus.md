@@ -48,7 +48,7 @@ crew:
   - role: Assistant to Publicity Designer
     name: Emily Zinkin
 
-smugmug: FgKb4
+smugmug: FZgKb4
 
 assets:
   - type: poster
