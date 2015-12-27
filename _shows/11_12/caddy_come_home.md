@@ -2,7 +2,7 @@
 title: Caddy Come Home
 playwright: Peter Cary
 season: External
-season_sort: 300
+season_sort: 282
 period: Spring
 venue: New Theatre
 date_start: 2012-06-05
