@@ -48,6 +48,8 @@ crew:
   - role: Assistant to Publicity Designer
     name: Emily Zinkin
 
+smugmug: FgKb4
+
 assets:
   - type: poster
     image: dr_faustus_poster.jpg
