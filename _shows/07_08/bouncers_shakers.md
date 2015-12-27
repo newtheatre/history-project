@@ -7,4 +7,8 @@ season_sort: 30
 venue: New Theatre
 
 smugmug: pNfn7g
+
+assets:
+  - type: poster
+    image: bouncers_and_shakers.jpg
 ---

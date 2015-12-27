@@ -7,4 +7,8 @@ season_sort: 80
 venue: New Theatre
 
 smugmug: Stmczp
+
+assets:
+  - type: poster
+    image: proof.jpg
 ---
