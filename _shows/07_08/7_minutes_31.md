@@ -5,6 +5,9 @@ period: Autumn
 season: In House
 season_sort: 60
 venue: New Theatre
+date_start: 2007-11-07
+date_end: 2007-11-10
+
 
 assets:
   - type: poster
