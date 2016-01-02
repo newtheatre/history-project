@@ -49,6 +49,12 @@ crew:
     name: Zoe Plumber
   - role: Technical Operator
     name: Joseph Heil
+  - role: Stage Manager
+    name: Nat Mortimer
+  - role: Stage Manager
+    name: Amanda Schaerer
+  - role: Publictiy
+    name: Nick Barker
 
 assets:
   - type: poster

@@ -35,7 +35,18 @@ crew:
     name: Nick Hughes
   - role: Producer
     name: James Lovell
-
+  - role: Lighting Designer
+    name: Lawrence Bolton
+  - role: Technical Director
+    name: "Emma-Louise Amanshia"
+  - role: Technical Operator
+    name: Jess Courtney
+  - role: Technical Operator
+    name: Emily Zinkin
+  - role: Technical Operator
+    name: Roger Smissen
+  - role: Technical Operator
+    name: Pete Bradley
 assets:
   - type: poster
     image: a_view_from_the_bridge_2010-11.jpg
