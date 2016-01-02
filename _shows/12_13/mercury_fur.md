@@ -50,7 +50,7 @@ crew:
   - role: Technical Operator
     name: Joseph Heil
   - role: Stage Manager
-    name: Nat Mortimer
+    name: Natasha Mortimer
   - role: Stage Manager
     name: Amanda Schaerer
   - role: Publictiy
