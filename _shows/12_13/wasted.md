@@ -1,8 +1,9 @@
 ---
-title: "Wasted"
-playwright: "Kate Tempest"
+title: Wasted
+playwright: Kate Tempest
+company: Paines Plough
 period: Spring
-season: "External"
+season: External
 season_sort: 222
 date_start: 2013-03-07
 date_end:
