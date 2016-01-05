@@ -1,8 +1,9 @@
 ---
-title: "Hopelessly Devoted"
-playwright: "Kate Tempest"
+title: Hopelessly Devoted
+playwright: Kate Tempest
+company: Paines Plough
 period: Autumn
-season: "External"
+season: External
 season_sort: 70
 date_start: 2014-11-16
 date_end:

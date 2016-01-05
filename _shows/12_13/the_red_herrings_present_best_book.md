@@ -1,7 +1,8 @@
 ---
 title: "The Red Herrings Present: The Best Book I Never Wrote"
 period: Spring
-season: "External"
+company: The Red Herrings
+season: External
 season_sort: 190
 date_start: 2013-02-13
 date_end: 2013-02-16

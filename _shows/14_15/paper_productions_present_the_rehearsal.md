@@ -1,8 +1,9 @@
 ---
 title: "Paper Productions Present: The Rehearsal"
 devised: true
+company: Paper Productions
 period: Spring
-season: "External"
+season: External
 season_sort: 210
 date_start: 2015-01-28
 date_end: 2015-01-31

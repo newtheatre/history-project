@@ -1,6 +1,7 @@
 ---
 title: "The Comedy of Errors - A Shakespeare Experiment"
 playwright: William Shakespeare
+company: Fine Frenzy Theatre
 season: External
 season_sort: 285
 period: Spring

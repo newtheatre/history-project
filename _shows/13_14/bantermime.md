@@ -1,7 +1,7 @@
 ---
 title: "Bantermime"
 playwright:
-company: Improv
+company: The Red Herrings
 period: Spring
 season: External
 season_sort: 170
