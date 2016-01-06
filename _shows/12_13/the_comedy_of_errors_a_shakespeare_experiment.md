@@ -44,6 +44,10 @@ crew:
     name: Gus Miller
   - role: Producer
     name: Martha Wilson
+  - role: Assistant Director
+    name: Dave Porter
+  - role: Lighting Designer
+    name: Aubrey Turner
 
 assets:
   - type: poster
