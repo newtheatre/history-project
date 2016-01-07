@@ -1,12 +1,12 @@
 ---
 title: Bed
 playwright: Jim Cartwright
-season: In House
-season_sort: 80
-period: Autumn
-venue: New Theatre
-date_start: 2011-11-30
-date_end: 2011-12-03
+season: Laeside
+season_sort: 255
+period: Spring
+venue: Djanogly Theatre
+date_start: 2012-05-02
+date_end: 2012-05-05
 
 cast:
   - role: Charles
@@ -37,6 +37,8 @@ crew:
     name: Grace Lowe
   - role: Set Designer
     name: Jess Courtney
+  - role: Set Designer
+    name: Phil Geller
   - role: Stage Manager
     name: Elin Stenner-Matthews
   - role: Stage Manager
@@ -44,17 +46,23 @@ crew:
   - role: Technical Director
     name: Bora Hunja
   - role: Lighting Designer
-    name: Lawrence Bolton
+    name: Matt Leventhall
+  - role: Set Construction
+    name: Chelsea Jayne Wright  
+  - role: Set Construction
+    name: Gareth Morris  
+  - role: Set Construction
+    name: Nick Stevenson  
   - role: Make Up Artist
     name: Emily Heaton
 
 assets:
   - type: poster
-    image: bed.jpg
+    image: bed_poster_lakeside.jpg
   - type: programme
-    asset: bed_programme
+    asset: bed_lakeside_programme
 
-smugmug: ZJCjTC
+smugmug: tBcWnN
 ---
 
 
