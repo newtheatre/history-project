@@ -46,7 +46,7 @@ crew:
   - role: Technical Operator
     name: Megan Seely
   - role: Technical Operator
-    name: Zoe Plumber
+    name: Zoe Plummer
   - role: Technical Operator
     name: Joseph Heil
   - role: Stage Manager
