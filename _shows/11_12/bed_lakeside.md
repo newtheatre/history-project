@@ -60,7 +60,7 @@ assets:
   - type: poster
     image: bed_poster_lakeside.jpg
   - type: programme
-    asset: bed_lakeside_programme.pdf
+    filename: bed_lakeside_programme.pdf
 
 smugmug: tBcWnN
 ---

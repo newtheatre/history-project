@@ -52,7 +52,7 @@ assets:
   - type: poster
     image: bed.jpg
   - type: programme
-    asset: bed_programme.pdf
+    filename: bed_programme.pdf
 
 smugmug: ZJCjTC
 ---
