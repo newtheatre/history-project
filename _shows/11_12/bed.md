@@ -53,6 +53,7 @@ assets:
     image: bed.jpg
   - type: programme
     filename: bed_programme.pdf
+    title: Programme
 
 smugmug: ZJCjTC
 ---

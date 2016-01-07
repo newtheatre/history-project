@@ -19,8 +19,18 @@ cast:
 crew:
   - role: Director
     name: "Adam H. Wells"
+  - role: Producer
+    name: Rob Greenman
+  - role: Technical Director
+    name: Lydia Scott
+  - role: Lighting Designer
+    name: Kathryn Feavers
+  - role: Technical Operator
+    name: "Emma-Louise Amanshia"
   - role: Technical Operator
     name: Joseph Heil
+  - role: Set Designer
+    name: Fran Rylands
 
 assets:
   - type: poster
