@@ -8,9 +8,15 @@ date_start: 2014-05-21
 date_end: 2014-05-24
 venue: New Theatre
 
+crew:
+  - role: Venue Technician
+    name: Joseph Heil
+
 assets:
   - type: poster
     image: lysistrata_poster.jpg
+
+
 
 ---
 

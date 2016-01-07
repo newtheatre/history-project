@@ -5,11 +5,15 @@ season: Fundraiser
 season_sort: 283
 period: Spring
 venue: New Theatre
-date_start: 2011-06-01
+date_start: 2013-06-01
 
 crew:
   - role: Coordinator
     name: Lyle Fulton
+  - role: Technical Director
+    name: Joseph Heil
+  - role: Lighting Designer
+    name: Joseph Heil
   - role: Stage Manager
     name: Will Pimblett
 ---

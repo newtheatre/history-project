@@ -7,6 +7,9 @@ season_sort: 160
 date_start: 2014-01-22
 date_end: 2014-01-25
 venue: New Theatre
+crew:
+  - role: Venue Technician
+    name: Joseph Heil
 
 assets:
   - type: poster

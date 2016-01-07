@@ -8,6 +8,10 @@ date_start: 2015-01-21
 date_end: 2015-01-24
 venue: New Theatre
 
+crew:
+  - role: Venue Technician
+    name: Joseph Heil
+
 assets:
   - type: poster
     image: postgrads_our_countrys_good_poster.jpg

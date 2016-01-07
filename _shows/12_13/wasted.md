@@ -12,7 +12,8 @@ venue: New Theatre
 crew:
   - role: Venue Technician
     name: Will Pimblett
-
+  - role: Venue Technician
+    name: Joseph Heil
 assets:
   - type: poster
     image: wasted.jpg
