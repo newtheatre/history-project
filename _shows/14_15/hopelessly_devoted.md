@@ -8,7 +8,7 @@ season_sort: 70
 date_start: 2014-11-16
 date_end:
 venue: New Theatre
-
+crew:
   - role: Venue Technician
     name: Joseph Heil
   - role: Venue Technician
