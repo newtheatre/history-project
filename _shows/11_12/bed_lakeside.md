@@ -1,7 +1,7 @@
 ---
 title: Bed
 playwright: Jim Cartwright
-season: Laeside
+season: Lakeside
 season_sort: 255
 period: Spring
 venue: Djanogly Theatre
