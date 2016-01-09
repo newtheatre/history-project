@@ -9,8 +9,18 @@ date_start: 2012-03-07
 date_end: 2012-03-10
 
 cast:
-  - name: Richard Hill
-  - name: Georgina Norie
+  - role: Pete
+    name: Alex Mawby
+  - role: Georgina Norie
+    name: Elena
+  - role: Richard Hill
+    name: Donny
+  - role: Laura Gallop
+    name: Chorus
+  - role: Alice Noone
+    name: Chorus
+  - role: Chris Read
+    name: Chorus
 
 crew:
   - role: Director
@@ -21,12 +31,43 @@ crew:
     name: Dan Turek
   - role: Lighting Designer
     name: Lydia Scott
+  - role: Editor
+    name: Lawrence Bolton
+  - role: Editor
+    name: Tom Walsh
+  - role: Editor
+    name: Jess Courtney
+  - role: Camera
+    name: Alex Jamieson
   - role: Video Technician
     name: Will Pimblett
+  - role: Technical Operator
+    name: Jenny Kohnhorst
+  - role: Technical Operator
+    name: Sam Wilcock
+
 
 assets:
   - type: poster
     image: faust_is_dead_poster.jpg
+  - type: programme
+    image: faust-is-dead-programme-1.jpg
+    page: 1
+  - type: programme
+    image: faust-is-dead-programme-2.jpg
+    page: 2
+  - type: programme
+    image: faust-is-dead-programme-3.jpg
+    page: 3
+  - type: programme
+    image: faust-is-dead-programme-4.jpg
+    page: 4
+  - type: programme
+    image: faust-is-dead-programme-5.jpg
+    page: 5
+  - type: programme
+    image: faust-is-dead-programme-6.jpg
+    page: 6
 
 smugmug: gZXJhk
 ---
