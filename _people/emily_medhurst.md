@@ -1,5 +1,6 @@
 ---
 title: Emily Medhurst
+submitted: 2015-11-06
 gender: female
 course:
   - English Studies

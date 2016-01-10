@@ -1,5 +1,6 @@
 ---
 title: Terri Norris
+submitted: 2015-10-04
 gender: female
 course:
   - History

@@ -1,5 +1,6 @@
 ---
 title: Tim Sluckin
+submitted: 2015-11-26
 gender: male
 course:
   - Theoretical Physics PhD
