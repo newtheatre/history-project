@@ -1,6 +1,7 @@
 ---
 title: The Retreat
 playwright: Jenni Herzberg
+student_written: true
 season: Edinburgh
 season_sort: 510
 period: Edinburgh
