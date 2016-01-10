@@ -11,16 +11,16 @@ date_end: 2012-03-10
 cast:
   - role: Pete
     name: Alex Mawby
-  - role: Georgina Norie
-    name: Elena
-  - role: Richard Hill
-    name: Donny
-  - role: Laura Gallop
-    name: Chorus
-  - role: Alice Noone
-    name: Chorus
-  - role: Chris Read
-    name: Chorus
+  - role: Elena
+    name: Georgina Norie
+  - role: Donny
+    name: Richard Hill
+  - role: Chorus
+    name: Laura Gallop
+  - role: Chorus
+    name: Alice Noone
+  - role: Chorus
+    name: Chris Read
 
 crew:
   - role: Director
