@@ -63,6 +63,8 @@ crew:
   name: Aaron Tej
 - role: Poster Designer
   name: Max Miller
+- role: Set Construction
+  name: Joseph Heil
 - role: Trailer Lighting
   name: Nathan Penney
 
