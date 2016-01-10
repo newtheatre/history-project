@@ -12,4 +12,18 @@ date_end: 2010-08-21
 assets:
   - type: poster
     image: the_retreat_edinburgh_2009-10.jpg
+
+cast:
+ - role: Nick
+   name: Sam Pearce
+ - role: Curtis
+   name: Peter Cary
+ - role: Ellie
+   name: Amy Rushton
+ - role: Flora
+   name: Jamie Munro
+
+crew:
+ - role: Director
+   name: Becky Catlin
 ---

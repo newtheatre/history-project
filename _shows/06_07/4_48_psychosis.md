@@ -1,6 +1,6 @@
 ---
 title: "4.48 Psychosis"
-playwright:
+playwright: Sarah Kane
 period: Autumn
 season: In House
 season_sort: 80

@@ -16,12 +16,17 @@ cast:
  - role: Witch
    name: Jess Courtney
  - role: Princess
+   name: Kerry Stevenson
+ - role: Doll
    name: Georgina Norey
 
 crew:
  - role: Director
    name: "Adam H. Wells"
  - name: Jake Leonard
+ - role: Music
+   name: Alice Ratcliffe
+
 
 assets:
   - type: poster
