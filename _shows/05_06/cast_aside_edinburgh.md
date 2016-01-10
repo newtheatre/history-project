@@ -6,5 +6,5 @@ season: Edinburgh
 season_sort: 520
 venue: The Zoo
 
-smugmug: 7FLqS
+smugmug: 7FLqSZ
 ---

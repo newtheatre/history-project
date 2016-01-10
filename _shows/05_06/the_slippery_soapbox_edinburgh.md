@@ -6,5 +6,5 @@ season: Edinburgh
 season_sort: 510
 venue: 
 
-smugmug: 7FLqS
+smugmug: 7FLqSZ
 ---
