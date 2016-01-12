@@ -34,7 +34,11 @@ crew:
     name: Tess Monro-Somerville
   - role: Director
     name: Ellie Cawthorne
-
+  - role: Venue Technician
+    name: Joseph Heil
+  - role: Venue Technician
+    name: Nathan Penney
+    
 assets:
   - type: poster
     image: paper_productions_the_rehearsal_poster.jpg

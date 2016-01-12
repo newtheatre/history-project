@@ -11,6 +11,14 @@ cast:
   - name: Ben Hollands
   - name: Emily Brady
 
+
+crew:
+  - role: Venue Technician
+    name: Joseph Heil
+  - role: Lighting Designer
+    name: Ben Macpherson
+  - role: Musician
+    name: Manuel Barenz
 assets:
   - type: poster
     image: ben_emily_stuff.jpg

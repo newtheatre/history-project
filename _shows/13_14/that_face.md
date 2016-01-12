@@ -37,6 +37,8 @@ crew:
     name: Sebastian Frend
   - role: Stage Manager
     name: Tom Selves
+  - role: Set Contruction
+    name: Joseph Heil
   - role: Costumes & Make-up
     name: Maddie Hardy
 
