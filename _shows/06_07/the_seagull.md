@@ -10,9 +10,9 @@ date_end: 2007-05-12
 
 assets:
   - type: poster
-    image: seagull_1.jpg
+    image: the_seagull_1.jpg
   - type: poster
-    image: seagull_2.jpg
+    image: the_seagull_2.jpg
 
 smugmug: BXFNXd
 ---
