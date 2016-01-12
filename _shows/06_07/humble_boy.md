@@ -1,6 +1,6 @@
 ---
 title: "Humble Boy"
-playwright:
+playwright: Charlotte Jones
 period: Autumn
 season: In House
 season_sort: 50
