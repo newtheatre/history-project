@@ -8,6 +8,12 @@ venue: Djanogly Theatre
 date_start: 2007-05-09
 date_end: 2007-05-12
 
+assets:
+  - type: poster
+    image: seagull_1.jpg
+  - type: poster
+    image: seagull_2.jpg
+
 smugmug: BXFNXd
 ---
 
