@@ -4,20 +4,38 @@
   @include list-unformatted
 
   .show-list-single
+    $poster-width: 33px
+    $padding: 10px
+
     position: relative
     margin-bottom: $baseline / 2
+
     a
       font-weight: 400
       display: block
-      padding: 10px
       overflow: auto
       color: $color-text-white
+      padding: $padding $padding $padding ($poster-width + $padding + 6px)
 
       @include no-underline(false)
       &:hover
         background: $color-link-bg-hover
         .show-list-title
           text-decoration: underline
+
+    .show-list-poster
+      // Poster container
+      position: absolute
+      left: $padding
+      width: $poster-width
+      height: 44px
+      overflow: hidden
+
+      background: mix($color-black, $color-background, 30%)
+
+    .show-poster-thumb
+      // IMG poster
+      width: 100%
 
     .show-list-title
       color: $color-link
@@ -39,7 +57,3 @@
 .show-student-written
   color: $color-grey
 
-.show-poster-thumb
-  width: 39px
-  float: left
-  padding-right: 6px
