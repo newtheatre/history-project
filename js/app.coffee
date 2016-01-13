@@ -15,3 +15,4 @@
 {% include_root _coffee/show-photos.coffee %}
 {% include_root _coffee/person-list.coffee %}
 {% include_root _coffee/people.coffee %}
+{% include_root _coffee/antifocus.coffee %}

@@ -31,9 +31,15 @@
   a
     @include no-underline(true)
     @include respond-down(tab-port)
+      // Improve touch target size
       display: block
       padding: $baseline / 2
       background: lighten($color-background, 3%)
+      // Make focus less spaz
+      @include no-focus
+      &:focus
+        background: lighten($color-background, 12%)
+
 
 .decade-list
   li

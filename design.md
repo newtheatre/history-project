@@ -42,11 +42,11 @@ Sed sit amet nibh lorem. Pellentesque habitant morbi tristique senectus et netus
 
 ## Buttons
 
-<a href="" data-proofer-ignore class="button">A button</a>
-<a href="" data-proofer-ignore class="button button-search">A button</a>
-<a href="" data-proofer-ignore class="button button-improve">A button</a>
-<a href="" data-proofer-ignore class="button button-delete">A button</a>
-<a href="" data-proofer-ignore class="button button-complete">A button</a>
+<a href="#0" data-proofer-ignore class="button">A button</a>
+<a href="#0" data-proofer-ignore class="button button-search">A button</a>
+<a href="#0" data-proofer-ignore class="button button-improve">A button</a>
+<a href="#0" data-proofer-ignore class="button button-delete">A button</a>
+<a href="#0" data-proofer-ignore class="button button-complete">A button</a>
 
 <p>Paragraph here</p>
 
