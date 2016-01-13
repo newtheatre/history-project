@@ -6,5 +6,9 @@ season: Fundraiser
 season_sort: 240
 venue: New Theatre
 
+assets:
+  - type: poster
+    image: stars_2007.jpg
+
 smugmug: Wrw4Jg
 ---

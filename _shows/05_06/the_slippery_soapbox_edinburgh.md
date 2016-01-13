@@ -4,7 +4,14 @@ playwright:
 period: Edinburgh
 season: Edinburgh
 season_sort: 510
-venue: 
+venue: The Zoo
+date_start: 2007-08-03
+date_end: 2007-08-27
+
+assets:
+  - type: poster
+    image: slippery_soapbox_edinburgh.jpg
 
 smugmug: 7FLqSZ
 ---
+
