@@ -164,3 +164,9 @@ $focus-color: lighten($color-1, 15%)
     background: $child-hover-color !important
   .breadcrumb-#{$i}-child a:hover:after
     border-left-color: $child-hover-color !important
+  // Focus of show crumb
+  $child-focus-color: lighten($child-color, 15%)
+  .breadcrumb-#{$i}-child a:focus
+    background: $child-focus-color !important
+  .breadcrumb-#{$i}-child a:focus:after
+    border-left-color: $child-focus-color !important
