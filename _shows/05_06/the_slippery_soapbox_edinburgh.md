@@ -5,8 +5,8 @@ period: Edinburgh
 season: Edinburgh
 season_sort: 510
 venue: The Zoo
-date_start: 2007-08-03
-date_end: 2007-08-27
+date_start: 2006-08-03
+date_end: 2006-08-27
 
 assets:
   - type: poster
