@@ -5,6 +5,8 @@ season: Edinburgh
 season_sort: 300
 period: Edinburgh
 venue: C soco
+date_start: 2011-08-03
+date_end: 2011-08-29
 
 cast:
   - role: Edward Maris
@@ -23,6 +25,10 @@ cast:
 crew:
   - role: Director
     name: Adam H. Wells
+
+assets:
+  - type: poster
+    image: chasing_dragons.jpg
 ---
 Charming. Alarming. Disarming.
 
