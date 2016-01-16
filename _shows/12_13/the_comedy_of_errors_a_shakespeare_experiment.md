@@ -27,7 +27,7 @@ cast:
   - role: Egeon
     name: Greg Link
   - role: Angelo
-    name: Tom Tolond
+    name: Ben Hollands
   - role: Prologue/The Strong Arm of the Law
     name: Ben Williamson
   - role: Courtesan
@@ -37,7 +37,7 @@ cast:
   - role: 1st Merchant/Messenger
     name: Chloe Bickford
   - role: 2nd Merchant
-    name: Ben Hollands
+    name: Sam Greenwood
 
 crew:
   - role: Director
