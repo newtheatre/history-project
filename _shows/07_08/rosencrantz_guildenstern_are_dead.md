@@ -1,6 +1,6 @@
 ---
 title: "Rosencrantz and Guildenstern Are Dead"
-playwright:
+playwright: Tom Stoppard
 period: Spring
 season: In House
 season_sort: 270

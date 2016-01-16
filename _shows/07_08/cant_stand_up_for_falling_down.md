@@ -1,6 +1,6 @@
 ---
 title: "Can't Stand Up For Falling Down"
-playwright:
+playwright: Richard Cameron
 period: Autumn
 season: In House
 season_sort: 90

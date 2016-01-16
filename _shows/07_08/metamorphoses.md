@@ -1,8 +1,8 @@
 ---
 title: "Metamorphoses"
-playwright:
+playwright: Mary Zimmermann 
 period: Spring
-season: In House
+season: Postgrads
 season_sort: 330
 venue: New Theatre
 ---

@@ -1,6 +1,6 @@
 ---
 title: "The Dragon Botherers"
-playwright:
+playwright: Robert Jones
 period: Spring
 season: In House
 season_sort: 260

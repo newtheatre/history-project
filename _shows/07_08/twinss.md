@@ -1,6 +1,7 @@
 ---
 title: "TwinSS"
-playwright:
+playwright: Ali Blackwell
+student_written: true
 period: Spring
 season: In House
 season_sort: 210

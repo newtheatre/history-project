@@ -1,6 +1,7 @@
 ---
 title: "Nature's Pretenders"
-playwright:
+playwright: Adam Wood
+student_written: true
 period: Autumn
 season: In House
 season_sort: 100

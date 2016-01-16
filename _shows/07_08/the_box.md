@@ -1,6 +1,7 @@
 ---
 title: "The Box"
-playwright:
+playwright: Luke Leonard
+student_written: true
 period: Spring
 season: In House
 season_sort: 310

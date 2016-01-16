@@ -1,6 +1,6 @@
 ---
 title: "No Exit"
-playwright:
+playwright: Jean-Paul Satre
 period: Autumn
 season: In House
 season_sort: 50

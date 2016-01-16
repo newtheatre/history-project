@@ -1,6 +1,6 @@
 ---
 title: "Death of a Salesman"
-playwright:
+playwright: Arthur Miller
 period: Autumn
 season: In House
 season_sort: 110

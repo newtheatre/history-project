@@ -1,6 +1,6 @@
 ---
 title: The Laramie Project
-playwright: Moises Kaufman and the members of Tectonic Theater Project
+playwright: Moises Kaufman and the members of Tectonic Theatre Project
 season: In House
 season_sort: 260
 period: Spring
@@ -9,8 +9,7 @@ date_start: 2011-05-04
 date_end: 2011-05-07
 
 cast:
-  - role: unknown
-    name: Lawrence Bolton
+  - name: Lawrence Bolton
   - name: Phil Damms
   - name: Phoebe Fairbrother
   - name: Sarah Head

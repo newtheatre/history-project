@@ -1,8 +1,8 @@
 ---
 title: The Fire-Raisers
-playwright:
+playwright: Max Frisch
 season: Postgrads
-season_sort: 420
-period: External
+season_sort: 280
+period: Spring
 venue: New Theatre
 ---

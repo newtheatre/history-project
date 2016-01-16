@@ -1,8 +1,9 @@
 ---
 title: Dracula
-playwright:
+playwright: Bram Stoker
+adaptor: Hamilton Deane
 season: Postgrads
-season_sort: 410
-period: External
+season_sort: 140
+period: Spring
 venue: New Theatre
 ---

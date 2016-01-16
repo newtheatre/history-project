@@ -1,6 +1,6 @@
 ---
 title: "After Miss Julie"
-playwright:
+playwright: Patrick Marber
 period: Spring
 season: In House
 season_sort: 230

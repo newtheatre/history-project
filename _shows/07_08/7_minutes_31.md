@@ -1,6 +1,7 @@
 ---
 title: "7 Minutes 31"
-playwright:
+playwright: Anthony Lau
+student_written: true
 period: Autumn
 season: In House
 season_sort: 60

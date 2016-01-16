@@ -1,6 +1,7 @@
 ---
 title: "Under the Blacklight"
 playwright: Nick Moran
+student_written: true
 period: Autumn
 season: In House
 season_sort: 70

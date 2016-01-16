@@ -1,6 +1,6 @@
 ---
 title: "The Crucible"
-playwright:
+playwright: Arthur Miller
 period: Spring
 season: In House
 season_sort: 300
