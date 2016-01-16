@@ -9,15 +9,15 @@ date_start: 2010-02-17
 date_end: 2010-02-20
 
 cast:
-  - role: unknown
+  - role: Len West
     name: Adam Wood
-  - role: unknown
+  - role: Wally
     name: Douggie McMeekin
-  - role: unknown
+  - role: Patsy
     name: Ollie Silver
-  - role: unknown
+  - role: Lou
     name: Jenni Herzberg
-  - role: unknown
+  - role: Draycott
     name: Dave Maggs
 
 crew:

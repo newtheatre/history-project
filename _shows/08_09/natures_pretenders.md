@@ -9,6 +9,10 @@ venue: New Theatre
 date_start: 2008-11-26
 date_end: 2008-11-29
 
+cast:
+  - role: Tess
+    name: Rose Eccleshare
+
 crew:
   - role: Director
     name: Adam Wood

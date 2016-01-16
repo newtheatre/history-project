@@ -9,6 +9,16 @@ venue: New Theatre
 date_start: 2009-03-17
 date_end: 2009-03-20
 
+cast:
+  - role: Pheidippides
+    name: Lucy Preston
+  - role: Strepsiades
+    name: Alex MacGillvray
+
+crew:
+  - role: Director
+    name: Michael Moore
+
 assets:
   - type: poster
     image: the_clouds_2008-09.jpg
