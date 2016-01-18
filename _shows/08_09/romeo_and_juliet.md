@@ -12,6 +12,9 @@ cast:
     - role: The Nurse
       name: Elle O'Rorke
     - name: Ben Cave
+    - role: Mercutio
+      name: Lee Denny
+    - name: Fran Rylands
 
 crew:
     - role: Director

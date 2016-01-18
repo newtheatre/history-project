@@ -9,6 +9,13 @@ venue: C cubed
 date_start: 2009-08-06
 date_end: 2009-08-31
 
+cast:
+  - role: Lipson
+    name: Will Vickers
+  - name: Sophie Burgess
+  - role: Tufnell
+    name: Tom Warren
+
 crew:
   - role: Director
     name: Andy McNamee
