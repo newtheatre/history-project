@@ -11,7 +11,7 @@ date_end: 2007-11-10
 
 crew:
   - role: Director
-    name: Nicholas Moran
+    name: Nick Moran
 
 smugmug: bd5QFB
 
