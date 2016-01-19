@@ -19,6 +19,18 @@ crew:
   - role: Bass
     name: Peter Sells
 
+assets:
+  - type: flyer
+    filename: ntg_review_1978_1.pdf
+    title: Flyer Front
+    page: 1
+  - type: flyer
+    filename: ntg_review_1978_2.pdf
+    title: Flyer Back
+    page: 2
+  - type: programme
+    filename: ntg_review_1978_program.pdf
+    title: Programme
 ---
 
 NTG's late night review at the Edinburgh Fringe.
