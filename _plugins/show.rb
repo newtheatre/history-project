@@ -56,8 +56,12 @@ module Jekyll
       show.data["assets"].select { |i| i["display_image"] == true }
     end
 
-    def get_show_asset_type(show, key)
+    def get_show_asset_type(show, key, image_only=true)
       show.data["assets"].select do |i|
+        # Skip non-images if image_only
+        if image_only and not i.key?("image") then next end
+
+        # If assets are paginated take page 1 only, else take first occurrence
         if i.key?("page")
           i["type"] == key and not i["page"] > 1
         else
