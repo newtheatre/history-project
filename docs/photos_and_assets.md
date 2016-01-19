@@ -9,7 +9,6 @@ Show records currently have a *'Publicity Materials'* and *'Production Shots'* s
 
 For files in the repo image files are kept in the `images/for_shows/` folder whereas anything else (PDFs etc) are kept in `assets/for_shows/`.
 
-
 ## <i class="fa fa-tags"></i> Attribute Reference
 
 | Attribute | Job | Description |
@@ -19,7 +18,8 @@ For files in the repo image files are kept in the `images/for_shows/` folder whe
 | `filename`<br />*(semi-optional)* | If non-image (PDF etc) the filename | Will look under `assets/for_shows/`. |
 | `title`<br />*(optional)* | Asset title | Is shown when graphical representation of file is not possible, required for PDF files and similar. |
 | `caption`<br />*(image only, optional)* | Image caption | Is shown when image is clicked on to make big. |
-| `page`<br />*(optional)* | Orders within a type, should be a number | For type programme it is the page number where the front page is `1`, for a single page flyer the front would be `1` and the back `2`. Shouldn't be required for multipage file such as PDF. |
+| `page`<br />*(optional)* | Orders within a type, should be a number | For type programme it is the page number where the front page is `1`, for a single page flyer the front would be `1` and the back `2`. Shouldn't be required for multipage files such as PDFs. |
+| `display_image`<br />*(optional)* | If `true` sets asset as display image | Overrides the order of precedence in selecting a show's display image. Ensure asset is an image. |
 
 ## <i class="octicon octicon-code"></i> Example
 
@@ -43,6 +43,6 @@ assets:
 
 <div class="box-warning">This needs writing up.</div>
 
-Uploading images and assets needs to be done using Git directly. GUI clients for [Windows](https://windows.github.com/) and [Mac](https://mac.github.com/) are avaliable.
+Uploading images and assets needs to be done using Git directly. GUI clients for [Windows](https://windows.github.com/) and [Mac](https://mac.github.com/) are available.
 
 Now we use SmugMug for production shots the upload process is a lot more accessible.
