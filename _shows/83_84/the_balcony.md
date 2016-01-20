@@ -14,7 +14,7 @@ crew:
 
 cast:
   - role: Prostitute/Assassin
-    name: Victoria Greatorix
+    name: Vanessa Greatorex
 
 ---
 

@@ -10,7 +10,7 @@ date_end:
 
 cast:
   - role: Glumdalca
-    name: Victoria Greatorix
+    name: Vanessa Greatorex
   - role: Princess Huncamunca
     name: Andy Katz
 
