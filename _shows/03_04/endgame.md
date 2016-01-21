@@ -1,6 +1,6 @@
 ---
 title: "Endgame"
-playwright:
+playwright: Samuel Beckett
 period: Autumn
 season: In House
 season_sort: 30

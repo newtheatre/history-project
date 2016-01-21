@@ -1,6 +1,6 @@
 ---
 title: "An Inspector Calls"
-playwright:
+playwright: "J. B. Priestly"
 period: Autumn
 season: In House
 season_sort: 40

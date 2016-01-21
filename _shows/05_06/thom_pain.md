@@ -1,6 +1,6 @@
 ---
 title: "Thom Pain"
-playwright:
+playwright: Will Eno
 period: Autumn
 season: In House
 season_sort: 120

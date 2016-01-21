@@ -1,6 +1,6 @@
 ---
 title: "Waiting for Godot"
-playwright:
+playwright: Samuel Beckett
 period: Autumn
 season: In House
 season_sort: 50
