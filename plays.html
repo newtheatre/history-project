@@ -1,0 +1,44 @@
+---
+layout: default
+title: Plays
+layout_body_class: header-nobr breadcrumb-no-bottom-margin
+current: archives
+permalink: /plays/
+published: true
+sitemap: false
+search_exclude: true
+---
+
+{% include archive_breadcrumbs.html %}
+
+<div class="banner-header plays-header">
+<h1>Plays</h1>
+<i class="banner-header-icon fa fa-book"></i>
+</div>
+
+<div class="wrapper">
+  <ol class="playwrights-list">
+  {% for item in site.data.shows_by_title %}
+    <li>
+      <div class="playwright-count">{{ item[1].size }}</div>
+      <div class="playwright-name">{{ item[0] }}</div>
+      <ul class="playwright-show-list">
+        {% for show in item[1] %}
+        <li>
+          <a href="{{ show.url }}">
+            {% if show.poster %}
+              <div class="playwright-list-poster">
+                {% image show_poster_thumb for_shows/{{ show.poster.image }} alt="{{ show.title }} poster" %}
+              </div>
+            {% else %}
+              <div class="playwright-list-poster missing"></div>
+            {% endif %}
+            {{ show.title }} {{ show.year_page.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+  </ol>
+</div>

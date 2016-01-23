@@ -19,9 +19,9 @@ module Jekyll
         return ["playwright", show.data["playwright"], "by #{ show.data["playwright"] }"]
       elsif show.data.key?("devised")
         if show.data["devised"] == true
-          return ["devised", "", "Devised"]
+          return ["devised", nil, "Devised"]
         else
-          return ["devised", show.data["devised"], "Devised by #{ show.data["devised"] }"]
+          return ["devised", nil, "Devised by #{ show.data["devised"] }"]
         end
       else
         return ["unknown", nil, "Playwright Unknown"]

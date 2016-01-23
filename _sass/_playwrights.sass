@@ -1,0 +1,26 @@
+.playwrights-header
+  background: $color-playwright
+.plays-header
+  background: lighten($color-playwright, 15%)
+
+.playwrights-list
+  @include list-unformatted
+
+  li
+    margin-bottom: $baseline / 2
+
+  .playwright-count
+    font-size: 2em
+    float: left
+    font-weight: bold
+
+  .playwright-name
+    font-size: 2em
+    font-weight: lighter
+
+  .playwright-name, .playwright-show-list
+    padding-left: 3rem
+
+  .playwright-show-list
+    @include list-unformatted
+    @include columns(4 2em)

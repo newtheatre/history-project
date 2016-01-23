@@ -45,12 +45,6 @@
   li
     text-align: center
 
-.season-list
-  @include respond-down(tab-port)
-    @include columns(1)
-  li
-    white-space: nowrap
-
 .archive-list-counts
   // Debug feature
   @include debug-box
@@ -94,6 +88,19 @@ $background-items: -3
     @include respond-up(tab-land)
       @include flex-basis(25%)
 
+  .season-list
+    @include respond-down(tab-port)
+      @include columns(1)
+    li
+      white-space: nowrap
+
   .venues
     // Wider row item
     @include flex-basis(50%)
+
+  .plays
+    h3
+      @include archive-section-background($color-playwright)
+
+  .play-list
+    @include columns(1)

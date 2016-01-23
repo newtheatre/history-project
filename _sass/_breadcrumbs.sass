@@ -25,6 +25,11 @@ $focus-color: lighten($color-1, 15%)
   // @include respond-up($grid-column-start)
   //   margin-top: - $baseline * 2
 
+// Override for breadcrumb bottom margin
+.breadcrumb-no-bottom-margin
+  .breadcrumb-inner
+    margin-bottom: 0
+
 .breadcrumb-list
   margin: 0
   list-style: none
