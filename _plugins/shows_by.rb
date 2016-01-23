@@ -43,8 +43,8 @@ module Jekyll
 
       site.data["shows"].each { |show| show_iterator(show) }
 
-      shows_by_playwright_sorted = @shows_by_playwright.sort_by {
-        |playwright, shows| -shows.count }.to_h
+      # shows_by_playwright_sorted = @shows_by_playwright.sort_by {
+        # |playwright, shows| playwright }.to_h
 
       # Save sorted hashes
       site.data["shows_by_season"] = @shows_by_season.sort.to_h
@@ -52,7 +52,7 @@ module Jekyll
       site.data["shows_by_venue"] = @shows_by_venue.sort.to_h
       site.data["shows_by_tour"] = @shows_by_tour.sort.to_h
       site.data["shows_by_title"] = @shows_by_title.sort.to_h
-      site.data["shows_by_playwright"] = shows_by_playwright_sorted
+      site.data["shows_by_playwright"] = @shows_by_playwright.sort.to_h
     end
   end
 end

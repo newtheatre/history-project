@@ -2,43 +2,58 @@
 layout: default
 title: Plays
 layout_body_class: header-nobr breadcrumb-no-bottom-margin
+class: plays
 current: archives
 permalink: /plays/
 published: true
-sitemap: false
-search_exclude: true
 ---
 
 {% include archive_breadcrumbs.html %}
 
-<div class="banner-header plays-header">
-<h1>Plays</h1>
-<i class="banner-header-icon fa fa-book"></i>
-</div>
+{% include archive_plays_banner.html %}
 
 <div class="wrapper">
-  <ol class="playwrights-list">
+  <ul id="archive-sort-list" class="playwrights-list">
   {% for item in site.data.shows_by_title %}
-    <li>
+    <li
+      id="{{ item[0] | anchor }}"
+      data-alpha="{{ item[0] }}"
+      data-shows={{ item[1].size }}
+      class="{% if item[1].size < 3 %}low-shows{% else %}high-shows{% endif %}"
+      >
       <div class="playwright-count">{{ item[1].size }}</div>
-      <div class="playwright-name">{{ item[0] }}</div>
+      <div
+        class="{% if item[1][-1].playwright_type == "playwright" %}play-title{% else %}playwright-name{% endif %}">
+
+        {% if item[1][-1].playwright_type == "playwright" %}
+        <span class="play-title-inner">{{ item[0] }}</span>
+        <span class="play-playwright-inner">
+          <a href="/playwrights/#{{ item[1][-1].playwright | anchor }}">
+            {{ item[1][-1].playwright_formatted }}
+          </a>
+        </span>
+
+        {% else %}
+        <span class="playwright-name-inner">{{ item[0] }}</span>
+        {% endif %}
+
+      </div>
       <ul class="playwright-show-list">
         {% for show in item[1] %}
         <li>
           <a href="{{ show.url }}">
-            {% if show.poster %}
-              <div class="playwright-list-poster">
-                {% image show_poster_thumb for_shows/{{ show.poster.image }} alt="{{ show.title }} poster" %}
-              </div>
-            {% else %}
-              <div class="playwright-list-poster missing"></div>
-            {% endif %}
-            {{ show.title }} {{ show.year_page.title }}
+            <div class="playwright-list-poster">
+              {% if show.poster %}
+              {% image show_poster_thumb for_shows/{{ show.poster.image }} alt="{{ show.title }} poster" %}
+              {% endif %}
+            </div>
+            <div class="playwright-show-title">{{ show.title }}</div>
+            <div class="playwright-show-meta">{{ show.year_page.title }}</div>
           </a>
         </li>
         {% endfor %}
       </ul>
     </li>
   {% endfor %}
-  </ol>
+  </ul>
 </div>

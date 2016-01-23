@@ -1,11 +1,13 @@
-window.GITHUB_ISSUES_USER = "newtheatre"
-window.GITHUB_ISSUES_REPO = "history-project"
+GITHUB_ISSUES_USER = "newtheatre"
+GITHUB_ISSUES_REPO = "history-project"
 
-window.getUrlParameter = (name) ->
+delay = (ms, func) -> setTimeout func, ms
+
+getUrlParameter = (name) ->
   match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search)
   match and decodeURIComponent(match[1].replace(/\+/g, ' '))
 
-window.debounce = (fn) ->
+debounce = (fn) ->
   timeout = undefined
   ->
     args = Array::slice.call(arguments)
