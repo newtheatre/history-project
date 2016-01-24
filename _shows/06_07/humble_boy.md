@@ -15,5 +15,5 @@ assets:
 smugmug: 9rBkt9
 ---
 
-All is not well in the Humble hive. 35 year old Felix Humble is a Cambridge astrophysicist in searcj of a unified field theory. Following the of his fatherm Felix, returns his middle England index and his difficult and demanding mother and soon realizes that his search for unity must include his own chaotic index life. Humble Boy us a 'tragi-comedy' about broken vows, failed hopes and the joys of bee-keeping!
+All is not well in the Humble hive. 35 year old Felix Humble is a Cambridge astrophysicist in search of a unified field theory. Following the of his father Felix, returns his middle England index and his difficult and demanding mother and soon realizes that his search for unity must include his own chaotic index life. Humble Boy us a 'tragi-comedy' about broken vows, failed hopes and the joys of bee-keeping!
 
