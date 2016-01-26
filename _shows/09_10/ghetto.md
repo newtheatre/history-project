@@ -53,6 +53,8 @@ crew:
     name: Matt Leventhall
   - role: Musical Direction
     name: Angus MacRae
+  - role: Stage Manager
+    name: Emma Rutherford
 
 assets:
   - type: poster

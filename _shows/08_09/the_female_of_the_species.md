@@ -13,6 +13,14 @@ cast:
     name: Lara Money
   - role: Margot
     name: Laura Free
+  - role: Molly
+    name: Emma Rutherford
+  - role: Brian
+    name: Tom Burke
+  - role: Frank
+    name: Hugh Williams
+  - role: Theo
+    name: "Sam Greville-Smith"
 
 assets:
   - type: poster

@@ -29,6 +29,8 @@ crew:
   name: Lawrence Bolton
 - role: Producer
   name: unknown
+- role: Stage Manager
+  name: Emma Rutherford
 
 assets:
   - type: poster
