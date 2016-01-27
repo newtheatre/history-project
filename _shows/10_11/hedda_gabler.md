@@ -1,6 +1,6 @@
 ---
 title: Hedda Gabler
-playwright: Henrick Ibson
+playwright: Henrick Ibsen
 season: In House
 season_sort: 30
 period: Autumn

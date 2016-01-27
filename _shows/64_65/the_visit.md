@@ -2,7 +2,7 @@
 title: The Visit
 season: In House
 period: Autumn
-playwright: Friedrich Durrenmatt
+playwright: "Friedrich Dürrenmatt"
 season_sort: 30
 ---
 

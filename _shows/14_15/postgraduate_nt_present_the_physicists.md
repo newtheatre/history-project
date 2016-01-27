@@ -1,6 +1,6 @@
 ---
 title: "Postgraduate NT Present: The Physicists"
-playwright: "F. Dürrenmatt"
+playwright: "Friedrich Dürrenmatt"
 period: Spring
 season: Postgrads
 season_sort: 360

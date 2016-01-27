@@ -1,6 +1,6 @@
 ---
 title: The Bacchae
-playwright: Euripedes
+playwright: Euripides
 season: In House
 season_sort: 70
 period: Autumn

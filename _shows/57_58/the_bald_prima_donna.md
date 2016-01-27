@@ -2,7 +2,7 @@
 title: The Bald Prima Donna
 season: In House
 period: Autumn
-playwright: Eugene Ionesco
+playwright: "Eugène Ionesco"
 season_sort: 30
 ---
 

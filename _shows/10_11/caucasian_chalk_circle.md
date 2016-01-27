@@ -1,6 +1,6 @@
 ---
 title: Caucasian Chalk Circle
-playwright: Bertold Brecht
+playwright: Bertolt Brecht
 season: In House
 season_sort: 50
 period: Autumn

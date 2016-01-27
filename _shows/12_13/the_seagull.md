@@ -1,6 +1,6 @@
 ---
 title: "The Seagull"
-playwright: "Anton Checkov"
+playwright: "Anton Chekhov"
 period: Spring
 season: Postgrads
 season_sort: 160
