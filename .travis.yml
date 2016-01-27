@@ -21,9 +21,6 @@ script:
  - bundle exec rake test
 after_success:
  - _bin/deploy.sh
-branches:
-  only:
-  - master
 git:
   depth: 6
 rvm:

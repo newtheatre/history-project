@@ -15,16 +15,24 @@ module Jekyll
     # Attribute generators
 
     def get_show_playwright(show)
-      if show.data.key?("playwright")
-        return ["playwright", show.data["playwright"], "by #{ show.data["playwright"] }"]
-      elsif show.data.key?("devised")
-        if show.data["devised"] == true
-          return ["devised", "", "Devised"]
+      if show.data.key?("playwright") and not show.data["playwright"].nil?
+        if show.data["playwright"] == "various"
+          # Is various, special case
+          ["various", nil, "Various Writers"]
         else
-          return ["devised", show.data["devised"], "Devised by #{ show.data["devised"] }"]
+          # Is a proper playwright
+          ["playwright", show.data["playwright"], "by #{ show.data["playwright"] }"]
+        end
+      elsif show.data.key?("devised")
+        # Is devised
+        if show.data["devised"] == true
+          ["devised", nil, "Devised"]
+        else
+          ["devised", nil, "Devised by #{ show.data["devised"] }"]
         end
       else
-        return ["unknown", nil, "Playwright Unknown"]
+        # Is
+        ["unknown", nil, "Playwright Unknown"]
       end
       # Return playwright_type, playwright, playwright_formatted
     end

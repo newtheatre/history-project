@@ -10,8 +10,6 @@
 html
   overflow-y: scroll
 
-html
-
 body
   height: 100%
 
@@ -75,3 +73,21 @@ body
 @mixin block-focus
   &:focus
     outline: 6px solid $color-focus
+
+.banner-header
+  @include grid-wrap
+  background: $color-grey
+  padding-top: $baseline * 3
+  padding-bottom: $baseline
+  margin-bottom: $baseline * 2
+
+  // Because .collect-header-icon
+  position: relative
+  overflow: hidden
+
+.banner-header-icon
+  position: absolute
+  bottom: -10rem
+  @include abs-right-wrap-pad(0px)
+  font-size: 23em
+  opacity: 0.3

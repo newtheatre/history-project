@@ -8,7 +8,7 @@ layout: default
   <div class="breadcrumb-inner">
 
     <div class="breadcrumb-controls">
-      <a {% if show.previous %}href="{{show.previous.url}}" class="enabled"{% else %}href="{{ show.year_page.url }}" class="disabled"{% endif %} title="Previous Show"><i class="ion-chevron-left"></i></a>
+      <a {% if show.previous %}href="{{ show.previous.url }}" class="enabled"{% else %}href="{{ show.year_page.url }}" class="disabled"{% endif %} title="Previous Show"><i class="ion-chevron-left"></i></a>
       <a {% if show.next %}href="{{show.next.url}}" class="enabled"{% else %}href="{{ show.year_page.url }}" class="disabled"{% endif %} title="Next Show"><i class="ion-chevron-right"></i></a>
     </div>
 
@@ -64,8 +64,12 @@ layout: default
           {% endif %}
           <div class="meta-col show-playwright show-playwright-{{ show.playwright_type }}">
             <p>
-              {% if show.playwright %}
-                <a href="/search/?q={{ show.playwright }}">{{ show.playwright_formatted }}</a>
+              {% if show.playwright_type != "unknown" %}
+                {% if show.playwright %}
+                <a href="/playwrights/#{{ show.playwright | anchor }}">
+                  {{ show.playwright_formatted }}
+                </a>
+                {% else %}{{ show.playwright_formatted }}{% endif %}
               {% else %}
                 <span class="unknown">Playwright Unknown</span>
               {% endif %}

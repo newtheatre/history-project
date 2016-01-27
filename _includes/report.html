@@ -9,17 +9,17 @@
 {% unless page.editable == false %}
 {% capture edit_link %}https://github.com/newtheatre/history-project/edit/master/{{ page_path }}{% endcapture %}
 <div id="improve-this-page" class="side-tab edit-tab">
-  <a href="{{ edit_link }}">
+  <a href="{{ edit_link }}" data-proofer-ignore>
     <i class="octicon octicon octicon-pencil"></i><p class="report-tab-text">Improve This Page</p>
   </a>
 </div>
 <div class="side-tab history-tab">
-  <a href="https://github.com/newtheatre/history-project/commits/master/{{ page_path }}">
+  <a href="https://github.com/newtheatre/history-project/commits/master/{{ page_path }}" data-proofer-ignore>
     <i class="octicon octicon octicon-history"></i><p class="report-tab-text">Page History</p>
   </a>
 </div>
 <div class="side-tab blame-tab">
-  <a href="https://github.com/newtheatre/history-project/blame/master/{{ page_path }}">
+  <a href="https://github.com/newtheatre/history-project/blame/master/{{ page_path }}" data-proofer-ignore>
     <i class="octicon octicon octicon-microscope"></i><p class="report-tab-text">Blame</p>
   </a>
 </div>
@@ -59,7 +59,7 @@
 
       <div class="improve-actions">
         <div class="improve-action">
-          <a href="{{ edit_link }}" class="button button-improve">Propose improvements</a>
+          <a href="{{ edit_link }}" class="button button-improve" data-proofer-ignore>Propose improvements</a>
           <p>Slower, but helps us more.</p>
         </div>
         <div class="improve-action">
