@@ -12,7 +12,7 @@ The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the 
 | Attribute | Job | Description |
 |:-|:-|:-|
 | `title` | Show title | Displayed at the top of the show page and on various other pages. |
-| `playwright`<br />*(semi-optional)* | Full name of the playwright | Omit if using `devised` |
+| `playwright`<br />*(semi-optional)* | Full name of the playwright | Omit if using `devised`, set to `various` if compilation. |
 | `devised`<br />*(semi-optional)* | Used if play was devised | Either `true` for generic output or a descriptor. Example descriptor: `"Cast and Crew"` will output "Devised by Cast and Crew". Omit if using `playwright`. |
 | `adaptor`<br />*(optional)* | Full name of adaptor | Outputs as "Adapted by adaptor" |
 | `translator`<br />*(optional)* | Full name of the translator | Outputs as "Translated by translator" |

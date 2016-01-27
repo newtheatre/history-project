@@ -1,6 +1,6 @@
 ---
 title: "Freshers' Fringe"
-playwright: (Various)
+playwright: various
 period: Autumn
 season: In House
 season_sort: 10

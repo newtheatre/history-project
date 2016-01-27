@@ -64,8 +64,12 @@ layout: default
           {% endif %}
           <div class="meta-col show-playwright show-playwright-{{ show.playwright_type }}">
             <p>
-              {% if show.playwright %}
-                <a href="/playwrights/#{{ show.playwright | anchor }}">{{ show.playwright_formatted }}</a>
+              {% if show.playwright_type != "unknown" %}
+                {% if show.playwright %}
+                <a href="/playwrights/#{{ show.playwright | anchor }}">
+                  {{ show.playwright_formatted }}
+                </a>
+                {% else %}{{ show.playwright_formatted }}{% endif %}
               {% else %}
                 <span class="unknown">Playwright Unknown</span>
               {% endif %}
