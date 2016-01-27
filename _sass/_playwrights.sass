@@ -89,10 +89,8 @@ $color-plays: lighten($color-playwright, 15%)
         color: $color-grey-dark
         font-weight: lighter
         vertical-align: middle
-
-    a:focus
-      .playwright-name, .play-title
-        @include link-focus
+      a:focus
+        color: $color-text-white
 
     .playwright-show-list
       @include list-unformatted
@@ -110,6 +108,10 @@ $color-plays: lighten($color-playwright, 15%)
 
         padding-left: 0.3em + $poster-width
         margin-bottom: $baseline / 3
+
+        a:focus .playwright-show-title
+          background: red
+          @include link-focus
 
         .playwright-list-poster
           position: absolute
@@ -138,12 +140,12 @@ $color-plays: lighten($color-playwright, 15%)
           .playwright-show-title
             text-decoration: underline
 
-
   li.low-shows
     background: none
     @include respond-up(tab-port)
       width: 25%
     padding-right: 1rem
+    padding-top: 0
 
     // Little separation for small entries
     margin: 0
@@ -152,6 +154,7 @@ $color-plays: lighten($color-playwright, 15%)
 
     .playwright-count
       font-weight: lighter
+      top: 0
 
     .playwright-name, .play-title
       // Similar to above but w/o enforced height
@@ -182,4 +185,6 @@ $color-plays: lighten($color-playwright, 15%)
 
     .playwright-show-list li
       width: 100%
+      &:last-child
+        margin-bottom: 0
 
