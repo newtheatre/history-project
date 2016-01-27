@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Only deploy if not PR
-if [[ $TRAVIS_PULL_REQUEST = "false" ]]
+if [[ $TRAVIS_PULL_REQUEST = "false" && $TRAVIS_BRANCH = "master" ]]
   then
   cd _site
 
