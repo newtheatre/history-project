@@ -15,16 +15,16 @@ module Jekyll
     # Attribute generators
 
     def get_show_playwright(show)
-      if show.data.key?("playwright")
-        return ["playwright", show.data["playwright"], "by #{ show.data["playwright"] }"]
+      if show.data.key?("playwright") and not show.data["playwright"].nil?
+        ["playwright", show.data["playwright"], "by #{ show.data["playwright"] }"]
       elsif show.data.key?("devised")
         if show.data["devised"] == true
-          return ["devised", nil, "Devised"]
+          ["devised", nil, "Devised"]
         else
-          return ["devised", nil, "Devised by #{ show.data["devised"] }"]
+          ["devised", nil, "Devised by #{ show.data["devised"] }"]
         end
       else
-        return ["unknown", nil, "Playwright Unknown"]
+        ["unknown", nil, "Playwright Unknown"]
       end
       # Return playwright_type, playwright, playwright_formatted
     end
