@@ -1,5 +1,6 @@
-GITHUB_ISSUES_USER = "newtheatre"
-GITHUB_ISSUES_REPO = "history-project"
+# Needs to be window as used in third party script
+window.GITHUB_ISSUES_USER = "newtheatre"
+window.GITHUB_ISSUES_REPO = "history-project"
 
 delay = (ms, func) -> setTimeout func, ms
 

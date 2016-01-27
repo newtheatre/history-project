@@ -219,7 +219,7 @@ PEOPLE_FEED = "/feeds/people.json"
 TEMPLATE_DATA = "#collect-template-list"
 
 collectPersonFormSetup = ->
-  path = window.getUrlParameter('name')
+  path = getUrlParameter('name')
   if path and path.length > 0
     $.get PEOPLE_FEED, (data) ->
       if path of data # (path in data)
