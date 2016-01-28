@@ -1,0 +1,44 @@
+---
+group: util
+sitemap: false
+search: false
+---
+<style type="text/css">
+ul {
+  -webkit-column-count: 4;
+  column-count: 4;
+}
+</style>
+
+<h1>by crole</h1>
+
+{% for by_type in site.data.people_by_crole %}
+  <h2>{{ by_type[0] }}</h2>
+  <ul>
+    {% for person in by_type[1] %}
+    <li><a href="{{ person.url }}">{{ person.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+<h1>by award</h1>
+
+{% for by_type in site.data.people_by_award %}
+  <h2>{{ by_type[0] }}</h2>
+  <ul>
+    {% for person in by_type[1] %}
+    <li><a href="{{ person.url }}">{{ person.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+<h1>by graduation year</h1>
+
+{% for by_type in site.data.people_by_graduation_year %}
+  <h2>{{ by_type[0] }}</h2>
+  <ul>
+    {% for person in by_type[1] %}
+    <li><a href="{{ person.url }}">{{ person.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}

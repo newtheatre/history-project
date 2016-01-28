@@ -1,6 +1,6 @@
 ---
 title: "Blood Wedding"
-playwright:
+playwright: Federico García Lorca
 period: Autumn
 season: In House
 season_sort: 50

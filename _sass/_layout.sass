@@ -10,8 +10,6 @@
 html
   overflow-y: scroll
 
-html
-
 body
   height: 100%
 
@@ -63,3 +61,33 @@ body
   @include respond-up(tab-port)
     height: 420px
 
+.access-hidden
+  // Hide elements present for accessibility reasons
+  position: absolute !important
+  height: 1px
+  width: 1px
+  overflow: hidden
+  clip: rect(1px 1px 1px 1px) /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px)
+
+@mixin block-focus
+  &:focus
+    outline: 6px solid $color-focus
+
+.banner-header
+  @include grid-wrap
+  background: $color-grey
+  padding-top: $baseline * 3
+  padding-bottom: $baseline
+  margin-bottom: $baseline * 2
+
+  // Because .collect-header-icon
+  position: relative
+  overflow: hidden
+
+.banner-header-icon
+  position: absolute
+  bottom: -10rem
+  @include abs-right-wrap-pad(0px)
+  font-size: 23em
+  opacity: 0.3

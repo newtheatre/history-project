@@ -1,6 +1,6 @@
 ---
 title: Rhinoceros
-playwright: Eugene Ionesco
+playwright: "Eugène Ionesco"
 season: In House
 season_sort: 90
 period: Autumn

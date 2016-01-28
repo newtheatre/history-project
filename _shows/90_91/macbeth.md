@@ -1,7 +1,7 @@
 ---
 title: "Macbeth"
 playwright: William Shakespeare
-season: In-House
+season: In House
 season_sort: 10
 period:
 venue:

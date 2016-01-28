@@ -1,7 +1,7 @@
 ---
 title: "Frosted Icing"
 playwright:
-season: In-House
+season: In House
 season_sort: 20
 period:
 venue:

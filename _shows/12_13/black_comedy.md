@@ -39,10 +39,23 @@ crew:
   - role: Set Construction
     name: Joseph Heil
   - role: Technical Director
+    name: Lydia Scott
   - role: Lighting Designer
+    name: Wawa Hunja
   - role: Make Up Artist
+    name: Emily Heaton
   - role: Technical Operator
+    name: Andy Routeledge
+  - role: Technical Operator
+    name: Rhianna Bennett
+  - role: Technical Operator
+    name: Liv Clark
   - role: Publicity Designer
+    name: Ben Hollands
+  - role: Publicity Manager
+    name: Rory O'Shea
+  - role: Publicity Manager
+    name: Claire Lennox
 
 assets:
   - type: poster

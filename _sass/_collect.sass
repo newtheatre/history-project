@@ -5,22 +5,11 @@
 $color-collect: #2D9189
 
 .collect-header
-  @include grid-wrap
+  @extend .banner-header
   background: $color-collect
-  padding-top: $baseline * 3
-  padding-bottom: $baseline
-  margin-bottom: $baseline * 2
-
-  // Because .collect-header-icon
-  position: relative
-  overflow: hidden
 
 .collect-header-icon
-  position: absolute
-  bottom: -10rem
-  @include abs-right-wrap-pad(0px)
-  font-size: 23em
-  opacity: 0.3
+  @extend .banner-header-icon
 
 .collect-form
   @include grid-wrap

@@ -19,7 +19,7 @@ configureWindow = ->
   # window.index = index
 
   # Search based on url param from previous page
-  urlQ = window.getUrlParameter('q')
+  urlQ = getUrlParameter('q')
   if urlQ != null
     sView.search urlQ
     $('#q').val urlQ

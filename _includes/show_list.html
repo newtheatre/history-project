@@ -4,10 +4,17 @@
 <li class="show-list-single">
   <div class="debug-abs-top-left" data-debug-toggle title="season_sort Number">{{ show.season_sort }}</div>
   <a href="{{ show.url }}">
+
     {% if show.poster %}
-      {% image show_poster_thumb for_shows/{{ show.poster.image }} %}
+      <div class="show-list-poster">
+        {% image show_poster_thumb for_shows/{{ show.poster.image }} alt="{{ show.title }} poster" %}
+      </div>
+    {% else %}
+      <div class="show-list-poster missing"></div>
     {% endif %}
+
     <span class="show-list-title">{{ show.title }}</span>
+
     {% if show.playwright %}
     <span class="show-list-playwright show-list-playwright-{{ show.playwright.playwright_type }}">
       {% if show.student_written %}
@@ -16,7 +23,15 @@
       {{ show.playwright_formatted_long }}
     </span>
     {% endif %}
-    <br /><span class="show-list-season season-{{ show.season | downcase | replace:" ","-" }}">{{ show.season }}</span>{% if show.date_start %}<span class="show-list-date">{% include liquid/date_range.html %}</span>{% endif %}
+
+    <br />
+
+    <span class="show-list-season season-{{ show.season | downcase | replace:" ","-" }}">{{ show.season }}</span>
+
+    {% if show.date_start %}<span class="show-list-date">{% include liquid/date_range.html %}</span>
+
+    {% else %}<span class="show-list-date">{{ show.year_page.title }}</span>{% endif %}
+
   </a>
 </li>
 

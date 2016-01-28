@@ -103,6 +103,16 @@ $show-photos-mob-gutter: 7px
       width: 100%
       box-shadow: 0px -1px darken($color-black, 20%)
 
+    a
+      @include no-underline
+      &:focus
+        // Set whole element background to focus
+        background: $color-focus
+        outline: none
+        img
+          // Semi-trans the image so you can see the colour thru it
+          opacity: 0.4
+
     @include respond-down(mob-land)
       // 2x2 grid
       max-width: 50%
@@ -143,9 +153,7 @@ $show-photos-mob-gutter: 7px
       display: block
       padding: $baseline / 3
 
-      &:hover
-        text-decoration: none
-
+      @include no-underline
 
   .gallery-control
     @include flex-basis(75%)
@@ -233,10 +241,9 @@ $show-photos-mob-gutter: 7px
       pointer-events: none // Ensure clicks go though to the anchor
     a
       display: block
-      text-decoration: none
       color: $color-text-white
       padding: 161px 10px 10px 10px
-
+      @include no-underline
 
   .show-asset-image
     img

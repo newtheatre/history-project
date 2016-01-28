@@ -1,5 +1,6 @@
 ---
 title: Nick Stevenson
+submitted: 2015-09-17
 gender: male
 headshot: nick_stevenson.jpg
 course:

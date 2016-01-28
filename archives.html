@@ -1,0 +1,129 @@
+---
+layout: default
+title: Archives
+excerpt: Index of the archives of the Nottingham New Theatre year-by-year or by venue, season, play or playwright.
+group: top
+editable: false
+body_class: header-nobr
+current: archives
+permalink: /years/
+---
+<div class="breadcrumbs">
+  <div class="breadcrumb-inner">
+
+    <ul class="breadcrumb-list">
+      <li class="breadcrumb">
+        <a href="/years/">Archives</a>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+<div class="page archives">
+  <div class="decades">
+    <div class="archive-section decade decade-201">
+      <h3>2010s</h3>
+      <div class="archive-section-content">
+        {% assign year_pages_decade = site.data.years_by_decade_reversed.201 %}
+        {% include decade_list.html %}
+      </div>
+    </div>
+    <div class="archive-section decade decade-200">
+      <h3>2000s</h3>
+      <div class="archive-section-content">
+        {% assign year_pages_decade = site.data.years_by_decade_reversed.200 %}
+        {% include decade_list.html %}
+      </div>
+    </div>
+    <div class="archive-section decade decade-199">
+      <h3>1990s</h3>
+      <div class="archive-section-content">
+        {% assign year_pages_decade = site.data.years_by_decade_reversed.199 %}
+        {% include decade_list.html %}
+      </div>
+    </div>
+    <div class="archive-section decade decade-198">
+      <h3>1980s</h3>
+      <div class="archive-section-content">
+        {% assign year_pages_decade = site.data.years_by_decade_reversed.198 %}
+        {% include decade_list.html %}
+      </div>
+    </div>
+    <div class="archive-section decade decade-197">
+      <h3>1970s</h3>
+      <div class="archive-section-content">
+        {% assign year_pages_decade = site.data.years_by_decade_reversed.197 %}
+        {% include decade_list.html %}
+      </div>
+    </div>
+    <div class="archive-section decade decade-196">
+      <h3>1960s</h3>
+      <div class="archive-section-content">
+        {% assign year_pages_decade = site.data.years_by_decade_reversed.196 %}
+        {% include decade_list.html %}
+      </div>
+    </div>
+    <div class="archive-section decade decade-195">
+      <h3>1950s</h3>
+      <div class="archive-section-content">
+        {% assign year_pages_decade = site.data.years_by_decade_reversed.195 %}
+        {% include decade_list.html %}
+      </div>
+    </div>
+    <div class="archive-section decade decade-194">
+      <h3>1940s</h3>
+      <div class="archive-section-content">
+        {% assign year_pages_decade = site.data.years_by_decade_reversed.194 %}
+        {% include decade_list.html %}
+      </div>
+    </div>
+  </div>
+
+  <div class="others">
+    <div class="archive-section venues">
+      <h3>Venues</h3>
+      <div class="archive-section-content">
+        <ul class="venue-list archive-list">
+          {% for item in site.venues %}
+          <li {% if item.shows.size < 2 %}class="debug debug-hidden-content" data-debug-toggle{% endif %}>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+            <div class="decade-list-counts archive-list-counts" data-debug-toggle title="Show counts for venue">
+              {% if item.shows %}{{ item.shows.size }}{% endif %}
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="archive-section seasons">
+      <h3>Seasons</h3>
+      <div class="archive-section-content">
+        <ul class="season-list archive-list">
+          {% for item in site.seasons %}
+          <li {% if item.shows.size < 3 %}class="minor"{% endif %}>
+            <a href="{{ item.url }}">
+              <span class="season-icon season-{{ item.class }}">{{ item.title }}
+              </span>
+            </a>
+            <div class="decade-list-counts archive-list-counts" data-debug-toggle title="Show counts for venue">
+              {% if item.shows %}{{ item.shows.size }}{% endif %}
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="archive-section plays">
+      <h3>Plays</h3>
+      <div class="archive-section-content">
+        <ul class="play-list archive-list">
+          <li><a href="/plays/">Shows by play</a></li>
+          <li><a href="/playwrights/">Shows by playwright</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</div>

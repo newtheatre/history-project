@@ -22,6 +22,8 @@ crew:
     name: Ben Williamson
   - role: Producer
     name: Nick Davies
+  - role: Lighting Designer
+    name: Tessa Denney
   - role: Technical Director
     name: Jo Estrin
   - role: Publicity Manager

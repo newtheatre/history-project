@@ -29,7 +29,7 @@ The Nottingham New Theatre is a playhouse and production company based on Univer
 
 The New Theatre has existed in one form or another for about 70 years. The earliest member on our database graduated from the university in 1945, and we have had a solid stream of members for the last 70 years.
 
-The New Theatre was originally housed in the Archaeology and Classics building of the University of Nottingham.In 1966, members of the Technical Committee (responsible for the stage lighting activities and equipment on behalf of the Students' Union), were involved with equipping the theatre. At this point, the New Theatre company had not been formed.
+The New Theatre was originally housed in the Archaeology and Classics building of the University of Nottingham. In 1966, members of the Technical Committee (responsible for the stage lighting activities and equipment on behalf of the Students' Union), were involved with equipping the theatre. At this point, the New Theatre company had not been formed.
 
 In 2001 an extended foyer was added to the building, following a donation from an alumnus of the University.
 

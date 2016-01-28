@@ -1,7 +1,8 @@
 ---
 title: "The Red Herrings Present: Small World"
 period: Spring
-season: "External"
+company: The Red Herrings
+season: External
 season_sort: 230
 date_start: 2015-02-11
 date_end: 2015-02-14

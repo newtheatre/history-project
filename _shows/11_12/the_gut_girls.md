@@ -11,12 +11,21 @@ date_end: 2012-03-03
 cast:
   - role: Kate
     name: Nicola Fox
+  - name: Ginny Lee
+  - name: Abby Isabella Robinson
+  - name: Lauren Grant
+  - name: Lucy Dollman
+  - name: Roger Smissen
 
 crew:
   - role: Director
     name: Kathryn Feavers
   - role: Producer
     name: Wawa Hunja
+  - role: Technical Director
+    name: "Emma-Louise Amanshia"
+  - role: Lighting Designer
+    name: Kathryn Feavers
   - role: Technical Operator
     name: Joseph Heil
   - role: Set Construction

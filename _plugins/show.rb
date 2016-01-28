@@ -15,16 +15,24 @@ module Jekyll
     # Attribute generators
 
     def get_show_playwright(show)
-      if show.data.key?("playwright")
-        return ["playwright", show.data["playwright"], "by #{ show.data["playwright"] }"]
-      elsif show.data.key?("devised")
-        if show.data["devised"] == true
-          return ["devised", "", "Devised"]
+      if show.data.key?("playwright") and not show.data["playwright"].nil?
+        if show.data["playwright"] == "various"
+          # Is various, special case
+          ["various", nil, "Various Writers"]
         else
-          return ["devised", show.data["devised"], "Devised by #{ show.data["devised"] }"]
+          # Is a proper playwright
+          ["playwright", show.data["playwright"], "by #{ show.data["playwright"] }"]
+        end
+      elsif show.data.key?("devised")
+        # Is devised
+        if show.data["devised"] == true
+          ["devised", nil, "Devised"]
+        else
+          ["devised", nil, "Devised by #{ show.data["devised"] }"]
         end
       else
-        return ["unknown", nil, "Playwright Unknown"]
+        # Is
+        ["unknown", nil, "Playwright Unknown"]
       end
       # Return playwright_type, playwright, playwright_formatted
     end
@@ -56,8 +64,12 @@ module Jekyll
       show.data["assets"].select { |i| i["display_image"] == true }
     end
 
-    def get_show_asset_type(show, key)
+    def get_show_asset_type(show, key, image_only=true)
       show.data["assets"].select do |i|
+        # Skip non-images if image_only
+        if image_only and not i.key?("image") then next end
+
+        # If assets are paginated take page 1 only, else take first occurrence
         if i.key?("page")
           i["type"] == key and not i["page"] > 1
         else
@@ -123,6 +135,14 @@ module Jekyll
       # Set year attributes
       show.data["year"] = get_show_year(show)
       show.data["year_page"] = get_show_year_page(show)
+
+      # If season / venue specified store relative path to its page
+      if show.data["season"]
+        show.data["season_path"] = "/seasons" + SeasonPage.make_path(show.data["season"]) + "/"
+      end
+      if show.data["venue"]
+        show.data["venue_path"] = "/venues" + VenuePage.make_path(show.data["venue"]) + "/"
+      end
 
       # To put content in meta description
       show.data["excerpt"] = show.content

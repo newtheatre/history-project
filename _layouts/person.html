@@ -15,7 +15,11 @@ layout: default
       <div class="meta-row">
         <i class="meta-icon fa fa-mortar-board"></i>
         <div class="meta-col person-graduated">
-          <p>{% if person.graduated %}{{ person.graduated }}{% else %}<span class="unknown">Unknown</span>{% endif %}</p>
+          <p>
+            {% if person.graduated_actual %}{{ person.graduated }}
+            {% elsif person.graduated %}<em title="Estimated">{{ person.graduated }}</em>
+            {% else %}<span class="unknown">Unknown</span>{% endif %}
+          </p>
         </div>
 
         <i class="meta-icon fa fa-book"></i>
@@ -93,7 +97,7 @@ layout: default
       <div class="person-show-poster">
         <a href="{{ record.item.url }}" title="{{ record.item.title }}">
         {% if record.item.poster %}
-          {% image person_show_poster for_shows/{{ record.item.poster.image }} %}
+          {% image person_show_poster for_shows/{{ record.item.poster.image }} alt="{{ record.item.title }} poster" %}
         {% else %}
           <!-- Missing Poster -->
         {% endif %}

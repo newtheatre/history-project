@@ -86,6 +86,8 @@ crew:
 - role: Technical Operator
   name: Arthur Mckechnie
 
+smugmug: 92R66x
+
 assets:
   - type: poster
     image: master.jpg

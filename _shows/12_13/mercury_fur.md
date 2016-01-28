@@ -46,9 +46,15 @@ crew:
   - role: Technical Operator
     name: Megan Seely
   - role: Technical Operator
-    name: Zoe Plumber
+    name: Zoe Plummer
   - role: Technical Operator
     name: Joseph Heil
+  - role: Stage Manager
+    name: Natasha Mortimer
+  - role: Stage Manager
+    name: Amanda Schaerer
+  - role: Publictiy
+    name: Nick Barker
 
 assets:
   - type: poster

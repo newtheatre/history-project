@@ -36,12 +36,17 @@ exclude:
 - Rakefile
 
 # skip_years: true
+# skip_venues: true
+# skip_seasons: true
 # skip_virtual_people: true
 # skip_smugmug: true
 
 # Specify year range for generation
 year_start: 1940
 year_end: 2015
+
+# Estimation conf
+estimate_recency_limit: 2 # How many years to wait until guessing someone has left
 
 collections:
   shows:
@@ -54,6 +59,12 @@ collections:
   years:
     output: true
     permalink: years/:path/
+  venues:
+    output: true
+    permalink: venues/:path/
+  seasons:
+    output: true
+    permalink: seasons/:path/
   people:
     output: true
     permalink: people/:path/
@@ -85,6 +96,24 @@ defaults:
       current: archives
       editable: false
       sitemap: false
+  - scope:
+      path: ""
+      type: venues
+    values:
+      layout: venue
+      group: venue
+      body_class: header-nobr
+      current: archives
+      editable: false
+  - scope:
+      path: ""
+      type: seasons
+    values:
+      layout: season
+      group: season
+      body_class: header-nobr
+      current: archives
+      editable: false
   # People
   - scope:
       path: ""

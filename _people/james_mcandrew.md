@@ -1,5 +1,6 @@
 ---
 title: James McAndrew
+submitted: 2015-11-03
 gender: male
 course:
   - Film and Television

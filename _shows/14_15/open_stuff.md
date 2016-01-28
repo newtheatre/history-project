@@ -26,6 +26,10 @@ crew:
     name: Emma Kendall
   - role: Technical Director
     name: Darcey Graham
+  - role: Venue Technician
+    name: Joanne Blunt
+  - role: Venue Technician
+    name: Joseph Heil
 
 assets:
   - type: poster

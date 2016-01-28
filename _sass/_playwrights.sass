@@ -1,0 +1,190 @@
+$color-plays: lighten($color-playwright, 15%)
+.playwright-header
+  background: $color-playwright
+.plays-header
+  background: $color-plays
+
+.playwright-header, .plays-header
+  h1
+    // For continuation with sort line
+    margin-bottom: 0
+
+@include breadcrumb-color("playwright", darken($color-playwright, 8%))
+@include breadcrumb-color("plays", darken($color-plays, 8%))
+
+.archive-sort
+  font-weight: bold
+
+.archive-sort-select
+  position: relative
+
+  select
+    @include appearance(none)
+    font-size: 1em
+    font-weight: bold
+
+    color: $color-text-white
+    background: none
+    border: none
+
+    // To make room for custom drop arrow
+    padding-right: 1em
+
+    border-bottom: 2px dotted mix($color-plays, black, 80%)
+
+    @include no-focus
+
+    &:focus
+      border-bottom: 2px dotted mix($color-plays, white, 80%)
+
+    option
+      background: $color-plays
+
+  i
+    // Move custom arrow inside select and pass through
+    // pointer events
+    position: absolute
+    top: 0
+    right: 0
+    pointer-events: none
+
+
+.playwrights-list
+  @include list-unformatted
+  @include display(flex)
+  @include flex-wrap(wrap)
+
+  & > li
+    position: relative
+    width: 100%
+    padding: $baseline / 2
+    background: mix($color-nnt-purple, $color-background, 10%)
+
+    // Large separation for large entries
+    margin-bottom: $baseline
+    margin-top: $baseline
+    &:first-child
+      margin-top: 0
+
+    .playwright-count
+      position: absolute
+      top: $baseline / 2
+      left: $baseline / 2
+      font-size: 2em
+      font-weight: bold
+
+      color: mix($color-nnt-purple, $color-text-white)
+
+    .playwright-name, .play-title
+      margin-bottom: $baseline / 2
+      font-size: 2em
+      font-weight: bold
+
+    .playwright-name, .playwright-show-list, .play-title
+      padding-left: 3rem
+
+    .play-playwright-inner
+      font-size: 0.7em
+      &, a
+        color: $color-grey-dark
+        font-weight: lighter
+        vertical-align: middle
+      a:focus
+        color: $color-text-white
+
+    .playwright-show-list
+      @include list-unformatted
+      @include display(flex)
+      @include flex-wrap(wrap)
+
+      $poster-height: 2em
+      $poster-width: 1.3em
+
+      li
+        @include respond-up(tab-port)
+          width: 25%
+        position: relative
+        min-height: $poster-height
+
+        padding-left: 0.3em + $poster-width
+        margin-bottom: $baseline / 3
+
+        a:focus .playwright-show-title
+          background: red
+          @include link-focus
+
+        .playwright-list-poster
+          position: absolute
+          top: 0
+          left: 0
+          height: $poster-height
+          width: $poster-width
+          overflow: hidden
+
+          background: $color-empty-poster
+
+          img
+            height: 100%
+
+        .playwright-show-title
+          font-weight: normal
+          font-size: 0.9em
+          line-height: 1em
+        .playwright-show-meta
+          font-weight: normal
+          font-size: 0.7em
+          color: mix($color-grey, $color-background)
+
+        a:hover
+          text-decoration: none
+          .playwright-show-title
+            text-decoration: underline
+
+  li.low-shows
+    background: none
+    @include respond-up(tab-port)
+      width: 25%
+    padding-right: 1rem
+    padding-top: 0
+
+    // Little separation for small entries
+    margin: 0
+    &:last-child
+      margin-bottom: 0
+
+    .playwright-count
+      font-weight: lighter
+      top: 0
+
+    .playwright-name, .play-title
+      // Similar to above but w/o enforced height
+      min-height: 3em
+      font-size: 0.95em
+      text-transform: uppercase
+      margin-bottom: 0
+
+    .playwright-name
+      // Local mum middle aligns with this one weird trick
+      // Browsers hate her
+      line-height: 2.7em
+      .playwright-name-inner
+        display: inline-block
+        line-height: normal
+        vertical-align: middle
+
+    .play-title-inner
+      display: block
+      line-height: 1em
+      padding-top: 0.5em
+      padding-bottom: 0.09em
+
+    .play-playwright-inner
+      display: block
+      line-height: 1em
+      padding-bottom: 0.6em
+
+    .playwright-show-list li
+      width: 100%
+      &:last-child
+        margin-bottom: 0
+

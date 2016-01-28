@@ -16,19 +16,19 @@ We've prepared three example profiles for you to look at:
 
   <li>
     <a href="/people/philip_geller">
-      {% image person_headshot people/phil_geller.jpg %}
+      {% image person_headshot people/phil_geller.jpg alt="Phil's headshot" %}
       <h6>Phil Geller</h6>
     </a>
   </li>
   <li>
     <a href="/people/will_pimblett">
-      {% image person_headshot people/will_pimblett.jpg %}
+      {% image person_headshot people/will_pimblett.jpg alt="Will's headshot" %}
       <h6>Will Pimblett</h6>
     </a>
   </li>
   <li>
     <a href="/people/nick_stevenson">
-      {% image person_headshot people/nick_stevenson.jpg %}
+      {% image person_headshot people/nick_stevenson.jpg alt="Nick's headshot" %}
       <h6>Nick Stevenson</h6>
     </a>
   </li>

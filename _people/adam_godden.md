@@ -1,5 +1,6 @@
 ---
 title: Adam Godden
+submitted: 2015-10-06
 gender: male
 course:
   - MEng Electronic Engineering

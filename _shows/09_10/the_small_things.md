@@ -8,13 +8,13 @@ venue: New Theatre
 date_start: 2010-05-12
 date_end: 2010-05-15
 
-crew:
+cast:
   - role: Man
     name: Will Vickers
   - role: Woman
     name: Meg Salter
 
-cast:
+crew:
   - role: Director
     name: Andy McNamee
   - role: Producer

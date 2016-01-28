@@ -10,7 +10,7 @@ date_start: 2012-05-02
 date_end: 2012-05-05
 
 cast:
-  - name: Rob Leventhall
+  - name: Robert Leventhall
   - name: Ashiana Pradhan
   - name: Matt Miller
   - name: Tom Sheldon

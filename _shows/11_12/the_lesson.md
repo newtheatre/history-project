@@ -1,5 +1,6 @@
 ---
 title: The Lesson
+playwright: "Eugène Ionesco"
 season: UNCUT
 season_sort: 235
 period: Spring

@@ -1,6 +1,6 @@
 ---
-title: "Checkov Double Bill: The Proposal / The Bear"
-playwright: Anton Checkov
+title: "Chekhov Double Bill: The Proposal / The Bear"
+playwright: Anton Chekhov
 season: UNCUT
 season_sort: 55
 period: Autumn

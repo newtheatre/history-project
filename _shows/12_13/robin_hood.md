@@ -4,8 +4,8 @@ devised: true
 period: Spring
 season: External
 season_sort: 300
-date_start: 2014-06-19
-date_end: 2014-06-20
+date_start: 2013-06-19
+date_end: 2013-06-20
 venue: New Theatre
 
 cast:
@@ -40,7 +40,7 @@ cast:
   - role: Chorus
     name: Mitchell Masterton
   - role: Chorus
-    name: Sian Beavan
+    name: Sian Beaven
 
 crew:
   - role: Director

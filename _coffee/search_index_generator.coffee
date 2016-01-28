@@ -13,6 +13,8 @@ index = lunr ->
     boost: 3
   @field 'crew',
     boost: 3
+  @field 'type',
+    boost: 30
   @ref 'url'
 
 fs.readFile './_site/feeds/search.json', (err, data) ->
@@ -25,6 +27,7 @@ fs.readFile './_site/feeds/search.json', (err, data) ->
     reverse_index[ item['link'] ] = item
     index.add
       title: item['title']
+      type: item['type']
       body: item['content']
       playwright: item['playwright']
       cast: item['cast']

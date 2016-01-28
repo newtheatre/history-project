@@ -35,6 +35,8 @@ crew:
   - role: Technical Operator
     name: Joanne Blunt
 
+smugmug: 42n8wt
+
 assets:
   - type: poster
     image: back_to_oblivion_poster.jpg

@@ -13,12 +13,13 @@ js: "<script type='text/javascript' src='/lib/github-issues-widget/github-issues
 
 Our current timeline:
 
-- <del>[**April 15**](https://github.com/newtheatre/history-project/issues?utf8=✓&q=milestone%3Aalpha-1): Establish the site and define how data is going to be stored.</del>
-- <del>[**May 15**](https://github.com/newtheatre/history-project/issues?utf8=✓&q=milestone%3Aalpha-2): Add a number of shows, polish the styling, make sure the site is working well on mobile devices, optimise search.</del>
-- <del>[**September 15**](https://github.com/newtheatre/history-project/issues?utf8=✓&q=milestone%3Alaunch): Have all the shows we have on record entered into the site. Officially launch via newsletter.</del>
-- [**November 15**](https://github.com/newtheatre/history-project/issues?utf8=✓&q=milestone%3Abefore-50th-event): Jobs to be done before 50th Anniversary Event
-- [**January 16**](https://github.com/newtheatre/history-project/issues?utf8=✓&q=milestone%3Anew-year): Intermediary milestone
-- [**March 16**](https://github.com/newtheatre/history-project/issues?utf8=✓&q=milestone%3Abefore-dinner): Jobs to be done before Alumni Dinner event
+- <del>[**April 15**](https://github.com/newtheatre/history-project/issues?q=milestone%3A%221%3A+Alpha+1%22): Establish the site and define how data is going to be stored.</del>
+- <del>[**May 15**](https://github.com/newtheatre/history-project/issues?q=milestone%3A%222%3A+Alpha+2%22): Add a number of shows, polish the styling, make sure the site is working well on mobile devices, optimise search.</del>
+- <del>[**September 15**](https://github.com/newtheatre/history-project/issues?q=milestone%3A%223%3A+Launch%22): Have all the shows we have on record entered into the site. Officially launch via newsletter.</del>
+- <del>[**November 15**](https://github.com/newtheatre/history-project/issues?q=milestone%3A%224%3A+Before+50th+Event%22)</del>: Jobs to be done before 50th Anniversary Event
+- [**January 16**](https://github.com/newtheatre/history-project/milestones/5:%20New%20Year): Intermediary milestone
+- [**Feburary 16**](https://github.com/newtheatre/history-project/milestones/6:%20Mid-Feb): Intermediary milestone
+- [**March 16**](https://github.com/newtheatre/history-project/milestones/7:%20Before%20Dinner): Jobs to be done before Alumni Dinner event
 - [**And Beyond**](https://github.com/newtheatre/history-project/milestones): Continue to collect archive material and update and improve the site.
 
 </div>

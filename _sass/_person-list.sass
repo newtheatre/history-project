@@ -72,8 +72,11 @@
       font-weight: $person-role-weight
     .person-name
 
-  a:hover
-    text-decoration: none
-    .person-name
-      text-decoration: underline
+    @include no-underline(false)
+    &:hover
+      .person-name
+        text-decoration: underline // Only underline name
 
+    @include no-focus
+    &:focus .person-name-underline
+      @include link-focus

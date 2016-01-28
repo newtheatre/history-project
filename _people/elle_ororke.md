@@ -1,5 +1,6 @@
 ---
 title: Elle O'Rorke
+submitted: 2015-11-15
 gender: female
 course:
   - English and American with International Studies

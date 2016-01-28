@@ -50,7 +50,10 @@ crew:
 
 assets:
   - type: poster
-    image: bed_poster_lakeside.jpg
+    image: bed.jpg
+  - type: programme
+    filename: bed_programme.pdf
+    title: Programme
 
 smugmug: ZJCjTC
 ---

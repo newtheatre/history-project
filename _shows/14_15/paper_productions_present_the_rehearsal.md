@@ -1,12 +1,13 @@
 ---
 title: "Paper Productions Present: The Rehearsal"
 devised: true
+company: Paper Productions
 period: Spring
-season: "External"
+season: External
 season_sort: 210
 date_start: 2015-01-28
 date_end: 2015-01-31
-venue: New Theatre
+venue: New Theatre Backstage
 
 cast:
   - role: Al
@@ -33,7 +34,11 @@ crew:
     name: Tess Monro-Somerville
   - role: Director
     name: Ellie Cawthorne
-
+  - role: Venue Technician
+    name: Joseph Heil
+  - role: Venue Technician
+    name: Nathan Penney
+    
 assets:
   - type: poster
     image: paper_productions_the_rehearsal_poster.jpg

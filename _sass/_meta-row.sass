@@ -5,6 +5,7 @@ $meta-row-font-size: $base-font-size * 0.88
 
 @mixin meta-row
   @include flex-row
+  margin-bottom: 0
 
 @mixin meta-icon
   // Generic icon formatting
@@ -24,6 +25,10 @@ $meta-row-font-size: $base-font-size * 0.88
     font-size: $meta-row-font-size
     padding-left: 4px
     padding-right: 4px
+
+  a
+    color: $color-text-white
+    @include no-underline(true)
 
 .meta-row
   @include meta-row

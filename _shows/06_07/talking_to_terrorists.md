@@ -11,6 +11,10 @@ date_end: 2007-02-24
 published: true
 
 smugmug: 5mqdTt
+
+assets:
+  - type: poster
+    image: talking_to_terrorists.jpg
 ---
 
 Talking to Terrorists, written by Robin Soans and originally commissioned by the Royal Court and Out of Joint Theatre Company, is the result of 12 months of meetings with peacemakers, politicians, journalists, hostages, psychologists and, perhaps most importantly, with those who've crossed the line themselves.The basic question? What makes ordinary people do extreme things?

@@ -1,5 +1,8 @@
 // Forms
 
+input, textarea
+  @include block-focus
+
 .input-text, .input-textarea, .input-submit
   @include block
   width: 100%
@@ -19,6 +22,8 @@
   @include text-shadow-effect($bg)
 
   position: relative
+
+  @include block-focus
 
   &:active
     top: 1px

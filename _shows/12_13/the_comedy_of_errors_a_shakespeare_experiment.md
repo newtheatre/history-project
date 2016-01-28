@@ -1,6 +1,7 @@
 ---
 title: "The Comedy of Errors - A Shakespeare Experiment"
 playwright: William Shakespeare
+company: Fine Frenzy Theatre
 season: External
 season_sort: 285
 period: Spring
@@ -26,7 +27,7 @@ cast:
   - role: Egeon
     name: Greg Link
   - role: Angelo
-    name: Tom Tolond
+    name: Ben Hollands
   - role: Prologue/The Strong Arm of the Law
     name: Ben Williamson
   - role: Courtesan
@@ -36,13 +37,17 @@ cast:
   - role: 1st Merchant/Messenger
     name: Chloe Bickford
   - role: 2nd Merchant
-    name: Ben Hollands
+    name: Sam Greenwood
 
 crew:
   - role: Director
     name: Gus Miller
   - role: Producer
     name: Martha Wilson
+  - role: Assistant Director
+    name: Dave Porter
+  - role: Lighting Designer
+    name: Aubrey Turner
 
 assets:
   - type: poster

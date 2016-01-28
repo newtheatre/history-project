@@ -31,13 +31,13 @@ class Smug
 
   def fetch_album_data(albumID)
     # Given an album id, return the SM album
-    Jekyll.logger.info "Fetching SmugMug album data #{ albumID }"
+    Jekyll.logger.info "Fetching SM Album:", "#{ albumID }"
     url = api_url("album/#{ albumID }")
     data = self.class.get(url)
     if data.key? "Response"
       return data["Response"]["Album"]
     else
-      Jekyll.logger.error "Error: Invalid SmugMug Response"
+      Jekyll.logger.error "SM Error:", "Invalid album response"
       return false
     end
 
@@ -45,20 +45,21 @@ class Smug
 
   def fetch_album_images(albumID)
     # Given an album id, return the SM objects in that album
-    Jekyll.logger.info "Fetching SmugMug album images #{ albumID }"
-    url = api_url("album/#{ albumID }!images")
+    Jekyll.logger.info "Fetching SM Image List:", "#{ albumID }"
+    url = api_url("album/#{ albumID }!images", "count=9999")
     data = self.class.get(url)
     if data.key? "Response"
       return data["Response"]["AlbumImage"]
     else
-      Jekyll.logger.error "Error: Invalid SmugMug Response"
+      Jekyll.logger.error "SM Error:", "Invalid album images response"
+      puts url
       return false
     end
   end
 
   def fetch_image_urls(imageIDs, size, sizeClass, sizeParameters=nil)
     # Given a list of image ids, return SM single sized images
-    Jekyll.logger.info "Fetching SmugMug image #{ imageIDs } #{ size }"
+    Jekyll.logger.info "Fetching SM Images:", "#{ imageIDs.size } at #{ size }"
 
     imageIDs_as_parameter = imageIDs.join(',')
     url = api_url("image/#{ imageIDs_as_parameter }!#{ size }", sizeParameters)
@@ -68,7 +69,10 @@ class Smug
 
   def fetch_album(albumID)
     album_data = fetch_album_data(albumID)
+    if not album_data then return false end
+
     album_images = fetch_album_images(albumID)
+    if not album_images then return false end
 
     if album_data and album_images
       # Create and array of image IDs and fetch their custom sizes
@@ -90,9 +94,11 @@ class Smug
 
       # Patch images into album_data
       album_data["Images"] = album_images
-    end
+      album_data["LastFetched"] = Time.now
+      album_data["ImageCount"] = i
 
-    return album_data
+      return album_data
+    end
   end
 
   def get_show_photos(albumID, site)
@@ -118,14 +124,17 @@ class Smug
       # No cache, do properly
       album = fetch_album(albumID)
 
-      Dir.mkdir(cache_dir) unless File.directory?(cache_dir)
-      File.open(fn, "w") do |cache_file|
-        JSON.dump(album, cache_file)
+      if album
+        # Don't save failed attempts
+        Dir.mkdir(cache_dir) unless File.directory?(cache_dir)
+        File.open(fn, "w") do |cache_file|
+          JSON.dump(album, cache_file)
+        end
       end
     elsif site.config['skip_smugmug']
-      Jekyll.logger.warn "Skipping smugmug fetch"
+      Jekyll.logger.info "SM Skip:",  "Skipping due to config setting"
     else
-      Jekyll.logger.info "Skipping fetch of #{albumID}"
+      Jekyll.logger.info "SM Skip:",  "Skipping album #{albumID}"
       album = nil
     end
 

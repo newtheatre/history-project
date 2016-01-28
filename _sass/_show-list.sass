@@ -1,29 +1,42 @@
 // Show list on /year/YY_YY pages
 
-@mixin show-season-circle
-  color: darken($color-grey, 4%)
-  &:before
-    @extend .ion
-    content: "\f21b"
-    padding-left: 1px
-    padding-right: 4px
-    font-size: 0.95em
-
 .show-list
   @include list-unformatted
 
   .show-list-single
+    $poster-width: 33px
+    $padding: 10px
+
     position: relative
     margin-bottom: $baseline / 2
+
     a
       font-weight: 400
       display: block
-      padding: 10px
       overflow: auto
       color: $color-text-white
+      padding: $padding $padding $padding ($poster-width + $padding + 6px)
+
+      @include no-underline(false)
       &:hover
         background: $color-link-bg-hover
-        text-decoration: none
+        .show-list-title
+          text-decoration: underline
+
+    .show-list-poster
+      // Poster container
+      position: absolute
+      left: $padding
+      width: $poster-width
+      height: 44px
+      overflow: hidden
+
+      background: $color-empty-poster
+
+    .show-poster-thumb
+      // IMG poster
+      width: 100%
+
     .show-list-title
       color: $color-link
       font-weight: 600
@@ -44,7 +57,3 @@
 .show-student-written
   color: $color-grey
 
-.show-poster-thumb
-  width: 39px
-  float: left
-  padding-right: 6px

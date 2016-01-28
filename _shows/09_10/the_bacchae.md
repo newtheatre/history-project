@@ -1,6 +1,6 @@
 ---
 title: The Bacchae
-playwright: Euripedes
+playwright: Euripides
 season: In House
 season_sort: 70
 period: Autumn
@@ -8,11 +8,21 @@ venue: New Theatre
 date_start: 2009-11-18
 date_end: 2009-11-21
 
+cast:
+  - role: Dionysus
+    name: Hassan Govia
+  - role: Pentheus
+    name: Tom Burke
+  - role: Agave
+    name: Amanda Chacksfield
+  - role: Cadmus
+    name: Pete Allott
+
 crew:
   - role: Director
     name: Fu Baxter
   - role: Producer
-    name: unknown
+    name: Zoe Sharp
 
 assets:
   - type: poster

@@ -17,6 +17,8 @@ cast:
 crew:
   - role: Director
     name: Tom Barnes
+  - role: Director
+    name: Matt Wilks
   - role: Producer
     name: Gabriella Carboneri
   - role: Photography

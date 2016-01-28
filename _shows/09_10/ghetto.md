@@ -9,25 +9,25 @@ date_start: 2009-11-25
 date_end: 2009-11-28
 
 cast:
-  - role: unknown
+  - role: Srulik
     name: Cem Aytacli
-  - role: unknown
+  - role: The Dummy
     name: Lauren Grant
-  - role: unknown
+  - role: Kittles
     name: Florian Goebel
-  - role: unknown
+  - role: Genz
     name: Will Vickers
-  - role: unknown
+  - role: Kruk
     name: Douggie McMeekin
   - role: unknown
     name: Alanna Southgate
-  - role: unknown
+  - role: Weiskopf
     name: Oliver Margolis
   - role: unknown
     name: Chloe Keedy
   - role: unknown
     name: Topher Collins
-  - role: unknown
+  - role: Dessler
     name: Paul Whickman
   - role: unknown
     name: Rose Eccleshare
@@ -53,6 +53,8 @@ crew:
     name: Matt Leventhall
   - role: Musical Direction
     name: Angus MacRae
+  - role: Stage Manager
+    name: Emma Rutherford
 
 assets:
   - type: poster

@@ -23,20 +23,65 @@ cast:
 crew:
   - role: Director
     name: Craig Willman
+  - role: Producer
+    name: Chami Dhillon
+  - role: Composer
+    name: Jin Matsutoja
+  - role: Musician
+    note: Violin
+    name: Jin Matsutoja
   - role: Technical Director
     name: Will Pimblett
   - role: Lighting Designer
     name: Will Pimblett
   - role: Technical Operator
-    name: Joseph Heil
-  - role: Set Design
+    name: Emma McDonald
+  - role: Technical Operator
+    name: Rebecca René
+  - role: Technical Operator
+    name: Lizzie Frainier
+  - role: Technical Operator
+    name: Alice Child
+  - role: Technical Operator
+    name: Emma-Louise Amanshia
+  - role: Hair and Make-Up
+    name: Emma McDonald
+  - role: Set Designer
     name: Alex Jamieson
   - role: Set Construction
+    name: Steph Warren
+  - role: Set Construction
+    name: James Watson
+  - role: Set Construction
     name: Joseph Heil
+  - role: Set Construction
+    name: James Bentley
+  - role: Set Construction
+    name: Emily Davenport
+  - role: Set Construction
+    name: Bryony Blackler
 
 assets:
   - type: poster
     image: innocent_infidelity_poster.jpg
+  - type: programme
+    image: innocent-infidelity-programme-1.jpg
+    page: 1
+  - type: programme
+    image: innocent-infidelity-programme-2.jpg
+    page: 2
+  - type: programme
+    image: innocent-infidelity-programme-3.jpg
+    page: 3
+  - type: programme
+    image: innocent-infidelity-programme-4.jpg
+    page: 4
+  - type: programme
+    image: innocent-infidelity-programme-5.jpg
+    page: 5
+  - type: programme
+    image: innocent-infidelity-programme-6.jpg
+    page: 6
 
 smugmug: DnKhwP
 ---

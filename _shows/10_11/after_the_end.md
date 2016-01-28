@@ -24,6 +24,16 @@ crew:
   - role: Original Score
     name: Angus MacRae
     note: NSDF
+  - role: Stage Manager
+    name: Peter Bradley
+  - role: Technical Operator
+    name: Jess Courtney
+  - role: Technical Operator
+    name: "Emma-Louise Amanshia"
+  - role: Technical Operator
+    name: Aneira Pugh
+  - role: Make-Up
+    name: Emily Heaton
 
 published: true
 

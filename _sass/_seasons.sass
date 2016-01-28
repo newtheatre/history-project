@@ -5,22 +5,41 @@ $color-fringe: darken($color-nnt-orange, 10%)
 $color-edinburgh: #3CD861
 $color-lakeside: #4AAEDB
 $color-stuff: #E20013
-$color-fundraiser: #E296D1
+$color-fundraiser: darken(#E296D1, 30%)
 
-.show-list-season, .person-show-season
+@mixin show-season-circle
+  &:before
+    @extend .ion
+    color: darken($color-grey, 4%)
+    content: "\f21b"
+    padding-left: 1px
+    padding-right: 4px
+    font-size: 0.95em
+  &:before:hover
+    // Prevent anchor underline leak
+    text-decoration: none !important
+
+.season-icon
+  @include show-season-circle
+  &:before
+    padding-right: 6px
+
+// Circles in show_list.html
+.show-list-season, .person-show-season, .season-icon
   &.season-in-house:before
-    color: $color-in-house
+    color: $color-in-house !important
   &.season-fringe:before, &.season-uncut:before
-    color: $color-fringe
+    color: $color-fringe !important
   &.season-edinburgh:before, &.season-previews:before
-    color: $color-edinburgh
+    color: $color-edinburgh !important
   &.season-lakeside:before
-    color: $color-lakeside
+    color: $color-lakeside !important
   &.season-stuff:before
-    color: $color-stuff
+    color: $color-stuff !important
   &.season-fundraiser:before
-    color: $color-fundraiser
+    color: $color-fundraiser !important
 
+// Background of season meta-col col
 .show-season
   $opacity-jigging: 0.8
   .season-in-house
@@ -35,3 +54,13 @@ $color-fundraiser: #E296D1
     background: rgba($color-stuff, $opacity-jigging)
   .season-fundraiser
     background: rgba($color-fundraiser, $opacity-jigging)
+
+// Breadcrumbs
+@include breadcrumb-color("in-house", $color-in-house)
+@include breadcrumb-color("fringe", darken($color-fringe, 20%))
+@include breadcrumb-color("uncut", darken($color-fringe, 20%))
+@include breadcrumb-color("edinburgh", darken($color-edinburgh, 30%))
+@include breadcrumb-color("previews", darken($color-edinburgh, 30%))
+@include breadcrumb-color("lakeside", darken($color-lakeside, 10%))
+@include breadcrumb-color("stuff", $color-stuff)
+@include breadcrumb-color("fundraiser", $color-fundraiser)

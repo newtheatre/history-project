@@ -1,6 +1,6 @@
 ---
 title: "Equus"
-playwright:
+playwright: Peter Shaffer
 period: Autumn
 season: In House
 season_sort: 60

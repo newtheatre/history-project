@@ -6,7 +6,7 @@ season: Fringe
 season_sort: 215
 date_start: 2014-03-10
 date_end: 2014-03-11
-venue: New Theatre Studio A
+venue: New Theatre Backstage
 
 cast:
   - role: Al
