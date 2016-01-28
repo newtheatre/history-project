@@ -16,7 +16,7 @@ The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the 
 | `devised`<br />*(semi-optional)* | Used if play was devised | Either `true` for generic output or a descriptor. Example descriptor: `"Cast and Crew"` will output "Devised by Cast and Crew". Omit if using `playwright`. |
 | `adaptor`<br />*(optional)* | Full name of adaptor | Outputs as "Adapted by adaptor" |
 | `translator`<br />*(optional)* | Full name of the translator | Outputs as "Translated by translator" |
-| `student_written`<br />*(optional)* | Show written by an NT member | Set to `true`, `false` or line missing are equivalent. |
+| `student_written`<br />*(optional)* | Show written by a NNT member | Set to `true`, `false` or line missing are equivalent. |
 | `company`<br />*(optional)* | If non-NNT the name of the company |  |
 | `season` | Season show belongs to | Choices: Autumn, Spring, Edinbugh |
 | `season_sort` | Order which this show comes in the entire year | Use multiples of 10 for ease of additions.<br />Roughly: Autumn should start at 30, Spring 200 and Edinburgh 400. Shows then fall at 30, 40, 50 etc |
