@@ -20,7 +20,7 @@ layout: null
         "venue": {{ show.venue | jsonify }},
         "link": "{{ show.url }}",
         "date": "{{ show.date_start }}",
-        "run": "{% if show.date_start %}{% include liquid/date_range.html %} {{ show.date_start | date: "%Y" }}{% else %}{{ show.year_page.title }} (Dates Unknown){% endif %}",
+        "run": "{% if show.date_start %}{% include liquid/date_range.html %}{% else %}{{ show.year_page.title }} (Dates Unknown){% endif %}",
         "excerpt": {{ show.content | strip_html | truncatewords: 50 | jsonify}},
         "cast": "{% for person in show.cast %}{{person.name}}, {% endfor %}",
         "crew": "{% for person in show.crew %}{{person.name}}, {% endfor %}"
