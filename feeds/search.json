@@ -21,7 +21,7 @@ layout: null
         "link": "{{ show.url }}",
         "date": "{{ show.date_start }}",
         "run": "{% if show.date_start %}{% include liquid/date_range.html %}{% else %}{{ show.year_page.title }} (Dates Unknown){% endif %}",
-        "excerpt": {{ show.content | strip_html | truncatewords: 50 | jsonify}},
+        "excerpt": {{ show.content | strip_html | truncatewords: 50 | jsonify }},
         "cast": "{% for person in show.cast %}{{person.name}}, {% endfor %}",
         "crew": "{% for person in show.crew %}{{person.name}}, {% endfor %}"
     }
@@ -43,7 +43,7 @@ layout: null
 {% endfor %}
 
 {% for page in site.pages %}
-    {% if page.title != null and page.title != empty and page.group != "year" and page.search_exclude != true %}
+    {% if page.title != null and page.title != empty and page.group != "year" and page.search != false %}
     {% unless first %},{% endunless %}{
         "title": {{ page.title | jsonify }},
         "type": "page",
@@ -51,7 +51,7 @@ layout: null
         "content": {{ page.content | strip_html | jsonify }},
         "link": "{{ page.url | replace: 'index.html', '' }}",
         "date": {{ page.date | jsonify }},
-        "excerpt": {{ page.content | strip_html | truncatewords: 50 | jsonify}}
+        "excerpt": {% if page.excerpt %}{{ page.excerpt | jsonify }}{% else %}{{ page.content | strip_html | truncatewords: 50 | jsonify}}{% endif %}
     }
     {% assign first = false %}
     {% endif %}
