@@ -7,6 +7,11 @@ period: Spring
 venue: New Theatre
 date_start: 2003-06-04
 date_end: 2003-06-07
+canonical:
+  - title: Crave
+    playwright: Sarah Kane
+  - title: The Ruffian On the Stair
+    playwright: Joe Orton
 
 cast:
   - role: Mike

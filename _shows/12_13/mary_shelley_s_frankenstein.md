@@ -8,6 +8,8 @@ period: Spring
 venue: New Theatre
 date_start: 2013-05-15
 date_end: 2013-05-18
+canonical:
+  - title: Frankenstein
 
 comment: "This is a weird case of student adaption, rather than writing. Also video: youtube>E6q8xO3FNic"
 

@@ -5,6 +5,8 @@ period: Spring
 playwright: Christopher Marlowe
 season_sort: 260
 venue: New Theatre
+canonical:
+ - title: Doctor Faustas
 ---
 
 

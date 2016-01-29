@@ -7,6 +7,11 @@ season_sort: 30
 venue: New Theatre
 date_start: 2007-10-24
 date_end: 2007-10-27
+canonical:
+  - title: Bouncers
+    playwright: John Godber
+  - title: Shakers 
+    name: Jane Thornton
 
 crew:
   - role: Director
