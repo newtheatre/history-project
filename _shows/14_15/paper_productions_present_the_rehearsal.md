@@ -8,6 +8,8 @@ season_sort: 210
 date_start: 2015-01-28
 date_end: 2015-01-31
 venue: New Theatre Backstage
+canonical:
+  - title: The Rehearsal
 
 cast:
   - role: Al

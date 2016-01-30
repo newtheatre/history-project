@@ -1,6 +1,6 @@
 ---
 title: Blithe Spirit
-playwright: Noel Coward
+playwright: Noël Coward
 season: In House
 season_sort: 50
 period: Autumn

@@ -1,6 +1,6 @@
 ---
 title: "Porphyria"
-playwright: "C. J. Wilmann"
+playwright: "C. J. Willman"
 student_written: true
 period: Edinburgh
 season: Edinburgh

@@ -7,6 +7,8 @@ season_sort: 200
 date_start: 2015-01-21
 date_end: 2015-01-24
 venue: New Theatre
+canonical:
+  - title: Our Country's Good
 
 crew:
   - role: Venue Technician

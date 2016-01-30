@@ -7,6 +7,8 @@ season_sort: 360
 date_start: 2015-05-20
 date_end: 2015-05-23
 venue: New Theatre
+canonical:
+  - title: The Physicists
 
 assets:
   - type: poster

@@ -1,6 +1,6 @@
 ---
 title: "Shoot/Get Treasure/Repeat"
-playwright: Mark Raverhill
+playwright: Mark Ravenhill
 period: Spring
 season: In House
 season_sort: 270

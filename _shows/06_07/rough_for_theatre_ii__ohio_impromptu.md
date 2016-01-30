@@ -7,6 +7,9 @@ season_sort: 250
 venue: New Theatre
 date_start: 2007-03-07
 date_end: 2007-03-10
+canonical:
+  - title: Rough for Theatre II
+  - title: Ohio Impromptu
 
 smugmug: dRQ4MN
 ---

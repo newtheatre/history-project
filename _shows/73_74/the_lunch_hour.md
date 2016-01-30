@@ -1,5 +1,5 @@
 ---
-title: The Lunch Hour
+title: Lunch Hour
 season: In House
 period: Autumn
 playwright: John Mortimer
