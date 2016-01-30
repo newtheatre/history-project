@@ -1,5 +1,5 @@
 ---
-title: The Importance Of Being Earnest
+title: The Importance of Being Earnest
 playwright: Oscar Wilde
 season: In House
 season_sort: 60

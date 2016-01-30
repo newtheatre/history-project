@@ -8,6 +8,8 @@ period: Spring
 venue: New Theatre
 date_start: 2013-06-03
 date_end: 2013-06-07
+canonical:
+  - title: The Comedy of Errors
 
 cast:
   - role: Antipholus of Syracuse

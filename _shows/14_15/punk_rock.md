@@ -7,7 +7,9 @@ season_sort: 50
 date_start: 2014-11-05
 date_end: 2014-11-08
 venue: New Theatre
-
+canonical:
+  - title: Punk Rock
+  
 cast:
   - role: William Carlisle
     name: Jacob Hayes

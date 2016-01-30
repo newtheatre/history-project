@@ -1,5 +1,5 @@
 ---
-title: "Romeo And Juliet"
+title: "Romeo and Juliet"
 playwright: William Shakespeare
 period: Spring
 season: In House
