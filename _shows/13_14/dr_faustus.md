@@ -8,7 +8,7 @@ date_start: 2014-05-12
 date_end: 2014-05-17
 venue: Djanogly Theatre
 canonical:
- - title: Doctor Faustas
+ - title: Doctor Faustus
 
 cast:
   - role: Dr Faustus
