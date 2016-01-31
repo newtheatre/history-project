@@ -1,13 +1,15 @@
 // Site mixins
 
-@mixin set-property-to-gutter($property, $mult: 1)
+@mixin set-property-to-gutter($property, $mult: 1, $min: 0)
+  @if $min > 0
+    #{$property}: $min
   @include respond-up(tab-port)
-    #{$property}: $grid-tab-port-gutter * $mult
+    #{$property}: max($grid-tab-port-gutter * $mult, $min)
   @include respond-up(tab-land)
-    #{$property}: $grid-tab-land-gutter * $mult
+    #{$property}: max($grid-tab-land-gutter * $mult, $min)
   @include respond-up(med-desk)
-    #{$property}: $grid-med-desk-gutter * $mult
+    #{$property}: max($grid-med-desk-gutter * $mult, $min)
   @include respond-up(widescreen)
-    #{$property}: $grid-widescreen-gutter * $mult
+    #{$property}: max($grid-widescreen-gutter * $mult, $min)
 
 

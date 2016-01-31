@@ -105,6 +105,7 @@ module Jekyll
 
       # Person additional data
       person.data["path_name"] = make_hp_path(person.data["title"])
+      person.data["decade"] = "#{person.data["graduated"]}"[0,3]
 
       # People by filename
       @people_by_filename[person.basename_without_ext] = person

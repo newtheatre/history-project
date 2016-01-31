@@ -121,7 +121,10 @@ defaults:
     values:
       layout: person
       group: person
+      body_class: header-nobr content-nobr
       current: people
+      contact_allowed: false
+      placeholder: false
   - scope:
       path: "about"
     values:
@@ -169,7 +172,7 @@ image:
     person_headshot:
       attr:
         alt: Person headshot
-      width: 350
+      width: 160
     person_headshot_micro:
       attr:
         alt: Person headshot

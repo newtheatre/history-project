@@ -8,7 +8,7 @@ graduated: 2011
 awards: Commendation
 links:
   - type: Twitter
-    href: "https://twitter.com/ergeaney"
+    username: ergeaney
 ---
 
 The New Theatre was like my second home, I loved and adored everyone there and it really shaped my entire university life.
