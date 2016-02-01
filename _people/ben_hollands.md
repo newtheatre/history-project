@@ -5,7 +5,7 @@ gender: male
 course:
   - English
 graduated: 2015
-
+contact_allowed: false
 ---
 
 I owe a great deal of my university experience to The Nottingham New Theatre. It gave me the opportunity to meet and work with countless wonderful theatre makers and helped improve my own abilities invaluably. I joined in 2011 with the hope of getting some acting opportunities and left as a publicity and sound designer, writer and director (and actor, I should add).
