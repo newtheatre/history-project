@@ -18,7 +18,7 @@ cast:
   - role: Underthorn
     name: Ben Cave
   - role: Witch
-    name: Laura Thomson
+    name: Laura Kaye Thomson
   - role: Hermit/Bridgekeeper
     name: James McAndrew
 
