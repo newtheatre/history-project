@@ -8,6 +8,7 @@ graduated: 2013
 links:
   - type: Portfolio
     href: "www.linkedin.com/rml1007"
+contact_allowed: true
 ---
 
 Currently undertaking an MRes in Psychological Research Methods in preparation for my PhD.
