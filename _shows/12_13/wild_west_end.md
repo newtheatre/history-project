@@ -4,8 +4,8 @@ Book: "Matt Leventhall and Adam Paulden; Lyrics: Ed Clarke and Andrew Doyle"
 period: Spring
 season: External
 season_sort: 180
-date_start: 2014-02-07
-date_end: 2014-02-09
+date_start: 2013-02-07
+date_end: 2013-02-09
 venue: New Theatre
 
 cast:
