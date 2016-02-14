@@ -66,23 +66,34 @@ President - 2001"></textarea>
       </div>
     </div>
 
-    <div class="collect-row">
+    <div class="collect-row collect-row-continue">
       <div class="collect-label">
         <h3>Your time at the theatre</h3>
         <p>Pick a few fond memories or stories of your involvement with the theatre.</p>
+        <p class="aside">Around 80 words would be ideal.</p>
       </div>
       <div class="collect-field">
         <textarea class="collect-textarea collect-field-bio1" name="bio1" placeholder=""></textarea>
       </div>
     </div>
 
-    <div class="collect-row" id="collect-career">
+    <div class="collect-row collect-row-continue" id="collect-career">
       <div class="collect-label">
         <h3>After graduating</h3>
-        <p>Have you gone into theatre since graduating? Please tick significant areas you've worked in.</p>
-        <p>If you've gone down another career path or have more details about your theatre work, tell us about in the box below.</p>
+        <p>Let us know a little about what you've been up to since graduating.</p>
+        <p class="aside">Around 30 words would be ideal.</p>
       </div>
-      <div class="collect-field">
+      <div class="collect-field ">
+        <textarea class="collect-textarea collect-field-bio2" name="bio2" placeholder="Further studies, drama school, careers, achivements."></textarea>
+      </div>
+    </div>
+
+    <div class="collect-row" id="collect-career">
+      <div class="collect-label">
+        <p>Have you gone into theatre since graduating? Please tick significant areas you've worked in.</p>
+        <p>If you've gone down another career path enter titles in the box below.</p>
+      </div>
+      <div class="collect-field collect-field-no-drop">
         <ul class="collect-checkboxes">
         {% for career in site.data.careers %}
           <li>
@@ -93,8 +104,7 @@ President - 2001"></textarea>
           </li>
         {% endfor %}
         </ul>
-        </ul>
-        <textarea class="collect-textarea collect-field-bio2" name="bio2" placeholder="Another career not listed above and/or further details."></textarea>
+        <input type="text" class="collect-text career-other" name="career-other" placeholder="Anything not listed above" />
       </div>
     </div>
 
@@ -111,7 +121,7 @@ President - 2001"></textarea>
     <div class="collect-row">
       <div class="collect-label">
         <h3>Links</h3>
-        <p>Please include links to personal websites, twitter accounts, Spotlight profiles <i>e.t.c.</i></p>
+        <p>Please include links to personal websites, Twitter / LinkedIn accounts, Spotlight or other profiles <i>e.t.c.</i></p>
       </div>
       <div class="collect-field">
         <textarea class="collect-textarea" name="links" placeholder=""></textarea>

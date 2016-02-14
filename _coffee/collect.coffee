@@ -138,9 +138,12 @@ Course | #{form_dict['course']}
 
 ## Bio2 (Post-graduation)
 
-Checked careers: #{career_choices_formatted}
-
 #{form_dict['bio2']}
+
+Field | Data
+------| ----
+Checked careers | #{career_choices_formatted}
+Other careers | #{form_dict['career-other']}
 
 ## Links
 
@@ -173,17 +176,17 @@ graduated: #{form_dict['graduation']}
 contact_allowed: #{form_data_computed['contact_allowed_tf']}
 career:
 #{career_choices_yaml}
+#{form_dict['career-other']}
 links: *fill me out
+#{form_dict['links']}
 award: *fill me out
+#{form_dict['awards']}
 ---
 
 #{form_dict['bio1']}
 
 #{form_dict['bio2']}
 
-#{form_dict['links']}
-
-#{form_dict['awards']}
 ```
 """
 

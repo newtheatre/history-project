@@ -17,17 +17,29 @@ $color-collect: #2D9189
 .collect-row
   @include grid-row
 
-  padding-bottom: $baseline * 2
   border-bottom: 1px solid rgba(255,255,255,0.1)
-  margin-bottom: $baseline * 2
+
+  padding-bottom: $baseline
+  margin-bottom: $baseline
+
+  @include respond-up(tab-port)
+    padding-bottom: $baseline * 2
+    margin-bottom: $baseline * 2
+
+.collect-row-continue
+  margin-bottom: 0
+  border-bottom: none
 
 .collect-label
   @include grid-x-col(5)
 
 .collect-field
   @include grid-x-col(16-5)
+  @include respond-up(tab-port)
+    padding-top: $baseline * 2
 
-  padding-top: $baseline * 2
+.collect-field-no-drop
+  padding-top: 0
 
 .collect-flex-row
   @include display(flex)
@@ -98,7 +110,12 @@ $color-collect: #2D9189
     flex-grow: 1
     @include set-property-to-gutter(margin-right)
     margin-bottom: $baseline / 2
-    max-width: 38%
+
+    width: 100%
+
+    @include respond-up(tab-port)
+      width: auto
+      max-width: 38%
 
     position: relative
 
