@@ -1,6 +1,7 @@
 ---
 title: Sketchy Characters
 playwright: Ian Sheard & Jamie Drew
+student_written: true
 season: Fringe
 season_sort: 50
 period: Autumn

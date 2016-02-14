@@ -1,6 +1,7 @@
 ---
 title: Dark Room
 playwright: Tom Proffit
+student_written: true
 season: Fringe
 season_sort: 70
 period: Autumn
