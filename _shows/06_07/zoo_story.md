@@ -8,6 +8,10 @@ venue: New Theatre
 date_start: 2007-03-14
 date_end: 2007-03-17
 
+assets:
+  - type: poster
+    image: zoostoryposter.jpg
+
 smugmug: Wh4bZc
 ---
 

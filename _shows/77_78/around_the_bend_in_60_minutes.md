@@ -8,6 +8,8 @@ venue: Cephas Cellar
 cast:
   - name: Crispin Harris
   - name: Peter Holdway
+  - name: Sally Thompson
+  - name: Tim Killick
 
 crew:
   - role: Stage Manager

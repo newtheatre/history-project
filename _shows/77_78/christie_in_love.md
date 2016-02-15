@@ -10,6 +10,9 @@ assets:
   - type: programme
     filename: ntg_review_1978_program.pdf
     title: Programme
+
+cast:
+   - name: Richard Simpson
 ---
 
 About the murderer John Christie.

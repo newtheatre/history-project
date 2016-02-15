@@ -9,6 +9,10 @@ venue: New Theatre
 date_start: 2008-04-23
 date_end: 2008-04-26
 
+assets:
+  - type: poster
+    image: thirdcondiment.jpg
+
 crew:
   - role: Director
     name: Charlie Brafman
