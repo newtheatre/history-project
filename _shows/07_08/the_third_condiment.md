@@ -11,7 +11,7 @@ date_end: 2008-04-26
 
 assets:
   - type: poster
-    image: thirdcondiment.jpg
+    image: thirdcondiment.gif
 
 crew:
   - role: Director

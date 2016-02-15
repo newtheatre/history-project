@@ -9,6 +9,12 @@ venue: New Theatre
 date_start: 2007-12-05
 date_end: 2007-12-08
 
+assets:
+  - type: poster
+    image: macbeth.jpg
+  - type: poster
+    image: macbeth 093.jpg
+
 cast:
   - role: unknown
     name: Ali Blackwell
