@@ -11,7 +11,7 @@ date_end: 2007-12-08
 
 assets:
   - type: poster
-    image: macbeth.jpg
+    image: macbeth.gif
   - type: poster
     image: macbeth 093.jpg
 
