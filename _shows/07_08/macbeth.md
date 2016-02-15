@@ -13,7 +13,7 @@ assets:
   - type: poster
     image: macbeth.gif
   - type: poster
-    image: macbeth 093.jpg
+    image: macbeth_093.jpg
 
 cast:
   - role: unknown
