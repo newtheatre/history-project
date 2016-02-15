@@ -63,13 +63,18 @@ $title-text-baseline: 1.2
 
   .logo-line-tnnt
     font-weight: normal
-    padding-top: 12px
+    padding-top: 11px
     font-family: $header-font-stack
     font-size: $title-text-size / 2
     line-height: ($title-text-size * $title-text-baseline) / 2
+    letter-spacing: -0.3px
 
   .logo-line-hp
     font-family: $header-font-stack
+    letter-spacing: $montserrat-letter-spacing
+
+    @include respond-down(mob-land)
+
 
   @include respond-down(tab-port)
     $title-text-size-tab-port: $title-text-size * 0.7
@@ -83,12 +88,15 @@ $title-text-baseline: 1.2
     $title-text-size-mob-land: $title-text-size * 0.6
     font-size: $title-text-size-mob-land
 
+    padding-left: 42px
+
     .logo-line-tnnt
       font-size: $title-text-size-mob-land / 2
       padding-top: 0
 
-    padding-left: 42px
-
+    .logo-line-hp
+      // Adjust line size from h2
+      line-height: 1.4em
 
 .site-nav
   @include grid-x-col(8)

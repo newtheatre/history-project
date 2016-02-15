@@ -8,6 +8,7 @@ $site-url: "{{ site.url }}"
 // Our variables
 $body-font-stack: 'Open Sans', Helvetica, sans-serif
 $header-font-stack: 'Montserrat', sans-serif
+$montserrat-letter-spacing: -0.7px
 $base-font-size: 17px
 $base-font-size-compact:  $base-font-size * 0.875
 $baseline-multiplier: 1.6
@@ -54,7 +55,7 @@ $grid-row-padding: $baseline
 $grid-column-start: "tab-port"
 $grid-column-end: "mob-land"
 
-// Import partials from `sass_dir` (defaults to `_sass`)
+// Library imports
 
 @import "../lib/bourbon/app/assets/stylesheets/bourbon"
 @import "../lib/fgrid/fgrid"
@@ -68,7 +69,13 @@ $ionicons-font-path: "/lib/ionicons/fonts"
 $octicons-font-path: "/lib/octicons/octicons/"
 @import "../lib/octicons/octicons/sprockets-octicons.scss"
 
-// @import "pygments/monokai"
+$montserrat-font-path: "/lib/montserrat-webfont/fonts/"
+@import "../lib/montserrat-webfont/scss/montserrat-webfont"
+
+$OpenSansPath: "/lib/open-sans-fontface/fonts"
+@import "../lib/open-sans-fontface/sass/open-sans"
+
+// Import partials from `sass_dir` (defaults to `_sass`)
 
 @import "mixins"
 
