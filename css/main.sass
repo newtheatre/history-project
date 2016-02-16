@@ -13,6 +13,7 @@ $base-font-size: 17px
 $base-font-size-compact:  $base-font-size * 0.875
 $baseline-multiplier: 1.6
 $baseline: $base-font-size * $baseline-multiplier
+$font-weight-bold: 600
 
 $color-nnt-purple: #A54499
 $color-nnt-orange: #FFC425
@@ -73,7 +74,18 @@ $montserrat-font-path: "/lib/montserrat-webfont/fonts/"
 @import "../lib/montserrat-webfont/scss/montserrat-webfont"
 
 $OpenSansPath: "/lib/open-sans-fontface/fonts"
-@import "../lib/open-sans-fontface/sass/open-sans"
+@import "../lib/open-sans-fontface/sass/variables"
+@import "../lib/open-sans-fontface/sass/mixins"
+@import "../lib/open-sans-fontface/sass/Light"
+// @import "../lib/open-sans-fontface/sass/LightItalic"
+@import "../lib/open-sans-fontface/sass/Regular"
+@import "../lib/open-sans-fontface/sass/Italic"
+@import "../lib/open-sans-fontface/sass/Semibold"
+// @import "../lib/open-sans-fontface/sass/SemiboldItalic"
+// @import "../lib/open-sans-fontface/sass/Bold"
+// @import "../lib/open-sans-fontface/sass/BoldItalic"
+// @import "../lib/open-sans-fontface/sass/ExtraBold"
+// @import "../lib/open-sans-fontface/sass/ExtraBoldItalic"
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 

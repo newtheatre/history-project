@@ -67,7 +67,7 @@ h6
 
 .headerlite
   font-size: 0.7em
-  font-weight: 100
+  font-weight: light
 
 // GENERIC TEXT STYLING
 
@@ -167,7 +167,7 @@ $link-border-bottom-opacity: 0.2
       text-decoration: none
 
 a
-  font-weight: 600
+  font-weight: $font-weight-bold
   @include link-colour($color-link)
 
   &:focus
@@ -190,7 +190,7 @@ a.pagelink
 // INLINE STYLES
 
 strong
-  font-weight: 600
+  font-weight: $font-weight-bold
 
 .unknown
   display: inline-block
@@ -235,7 +235,7 @@ ul, ol
   &.minimal
     margin-left: 0
   h3, h4, h5, h6
-    font-weight: bold
+    font-weight: $font-weight-bold
 
 ul
   list-style: square
@@ -289,7 +289,7 @@ figure.highlight
 
 dl
   dt
-    font-weight: bold
+    font-weight: $font-weight-bold
   dd
     margin-bottom: $baseline / 2
 

@@ -13,7 +13,7 @@ $color-plays: lighten($color-playwright, 15%)
 @include breadcrumb-color("plays", darken($color-plays, 8%))
 
 .archive-sort
-  font-weight: bold
+  font-weight: $font-weight-bold
 
 .archive-sort-select
   position: relative
@@ -21,7 +21,7 @@ $color-plays: lighten($color-playwright, 15%)
   select
     @include appearance(none)
     font-size: 1em
-    font-weight: bold
+    font-weight: $font-weight-bold
 
     color: $color-text-white
     background: none
@@ -71,14 +71,14 @@ $color-plays: lighten($color-playwright, 15%)
       top: $baseline / 2
       left: $baseline / 2
       font-size: 2em
-      font-weight: bold
+      font-weight: $font-weight-bold
 
       color: mix($color-nnt-purple, $color-text-white)
 
     .playwright-name, .play-title
       margin-bottom: $baseline / 2
       font-size: 2em
-      font-weight: bold
+      font-weight: $font-weight-bold
 
     .playwright-name, .playwright-show-list, .play-title
       padding-left: 3rem
@@ -87,7 +87,7 @@ $color-plays: lighten($color-playwright, 15%)
       font-size: 0.7em
       &, a
         color: $color-grey-dark
-        font-weight: lighter
+        font-weight: light
         vertical-align: middle
       a:focus
         color: $color-text-white
@@ -153,7 +153,7 @@ $color-plays: lighten($color-playwright, 15%)
       margin-bottom: 0
 
     .playwright-count
-      font-weight: lighter
+      font-weight: light
       top: 0
 
     .playwright-name, .play-title
