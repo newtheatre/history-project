@@ -3,7 +3,7 @@ title: Amadeus
 playwright: Peter Shaffer
 season: In House
 season_sort: 1
-period:
+period: Spring
 venue: New Theatre
 date_start:
 date_end:
