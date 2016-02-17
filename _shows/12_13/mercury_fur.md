@@ -21,7 +21,7 @@ cast:
   - role: Duchess
     name: Ginny Lee
   - role: Party Guest
-    name: Rosie Van Oss
+    name: Rosie van Oss
   - role: Party Piece
     name: Holly Daniels
 crew:
@@ -44,7 +44,7 @@ crew:
   - role: Technical Operator
     name: Nick Ward
   - role: Technical Operator
-    name: Megan Seely
+    name: Meghan Seely
   - role: Technical Operator
     name: Zoe Plummer
   - role: Technical Operator

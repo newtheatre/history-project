@@ -37,7 +37,7 @@ crew:
 - role: Technical Operator
   name: Aneesa Kaleem
 - role: Stage Manager
-  name: Tom Heath-Harvey
+  name: Tom Heath
 - role: Stage Manager
   name: Ed Eggleton
 - role: Stage Manager

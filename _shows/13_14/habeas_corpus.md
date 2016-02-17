@@ -16,7 +16,7 @@ cast:
   - role: Dennis Wicksteed
     name: Giles Gear
   - role: Connie Wicksteed
-    name: Rosie Van Oss
+    name: Rosie van Oss
   - role: Mrs Swabb
     name: Amelia Gann
   - role: Canon Throbbing
@@ -26,7 +26,7 @@ cast:
   - role: Shanks
     name: Will Berrington
   - role: Lady Rumpers
-    name: Charlotte Van Rhee
+    name: Charlotte van Rhee
   - role: Felicity Rumpers
     name: Rachel Connolly
   - role: Mr Purdue

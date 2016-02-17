@@ -12,7 +12,7 @@ cast:
   - role: Evelyn
     name: Hatty Preston
   - role: Adam
-    name: David Cornis
+    name: David Cornish
   - role: Jenny
     name: Lizzie Bourne
   - role: Phillip

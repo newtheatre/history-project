@@ -67,7 +67,7 @@ crew:
   - role: Technical Operator
     name: Rosie Cave
   - role: Technical Operator
-    name: Mitchell Masterton
+    name: Mitchell Masterson
   - role: Technical Operator
     name: Alexandra Day
   - role: Technical Operator

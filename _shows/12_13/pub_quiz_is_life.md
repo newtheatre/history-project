@@ -38,7 +38,7 @@ crew:
   - role: Lighting Designer
     name: Emma-Louise Amanshia
   - role: Technical Operator
-    name: Mia Orbertelli
+    name: Mia Obertelli
   - role: Technical Operator
     name: Hannah Olley
   - role: Technical Operator

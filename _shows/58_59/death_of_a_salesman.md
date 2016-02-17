@@ -1,5 +1,5 @@
 ---
-title: Death of A Salesman
+title: Death of a Salesman
 season: In House
 period: Autumn
 playwright: Arthur Miller

@@ -37,7 +37,7 @@ crew:
 - role: Director
   name: Gus Miller
 - role: Producer
-  name: James Townend
+  name: James Townsend
 - role: Set Designer
   name: Fran Rylands
 - role: Set Designer

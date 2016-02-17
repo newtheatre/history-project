@@ -15,7 +15,7 @@ cast:
   - name: Natalie Barclay
   - name: Robert Leventhall
   - name: Emily Davenport
-  - name: Will Warren
+  - name: William Warren
   - name: Abi Byrne
   - name: Pete Allott
 

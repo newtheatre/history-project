@@ -14,7 +14,7 @@ cast:
 - role: Miss Bates
   name: Flo Hapgood
 - role: Badger
-  name: James Townend
+  name: James Townsend
 - role: Dithers
   name: James McAndrew
 - role: Cook

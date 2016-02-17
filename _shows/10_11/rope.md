@@ -30,7 +30,7 @@ crew:
   - role: Director
     name: Liz Stevenson
   - role: Producer
-    name: James Townend
+    name: James Townsend
   - role: Set Designer
     name: Philip Geller
   - role: Set Designer

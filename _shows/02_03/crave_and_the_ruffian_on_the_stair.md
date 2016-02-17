@@ -28,7 +28,7 @@ cast:
     name: Anneliese Mackintosh
   - role: M
     note: Crave
-    name: Janey Lawson
+    name: Jane Lawson
   - role: B
     note: Crave
     name: Phil Sarson

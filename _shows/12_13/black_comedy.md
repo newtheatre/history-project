@@ -45,7 +45,7 @@ crew:
   - role: Make Up Artist
     name: Emily Heaton
   - role: Technical Operator
-    name: Andy Routeledge
+    name: Andy Routledge
   - role: Technical Operator
     name: Rhianna Bennett
   - role: Technical Operator

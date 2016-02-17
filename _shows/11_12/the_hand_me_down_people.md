@@ -18,7 +18,7 @@ cast:
  - role: Princess
    name: Kerry Stevenson
  - role: Doll
-   name: Georgina Norey
+   name: Georgina Norie
 
 crew:
  - role: Director

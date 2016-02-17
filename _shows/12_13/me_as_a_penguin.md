@@ -9,7 +9,7 @@ date_start: 2013-02-20
 date_end: 2013-02-23
 cast:
   - role: Stitch
-    name: Oliver Kiddell
+    name: Oli Kiddell
   - role: Mark
     name: John Bell
   - role: Liz

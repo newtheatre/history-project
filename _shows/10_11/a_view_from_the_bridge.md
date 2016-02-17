@@ -1,5 +1,5 @@
 ---
-title: A View from The Bridge
+title: A View From The Bridge
 playwright: Arthur Miller
 season: In House
 season_sort: 240

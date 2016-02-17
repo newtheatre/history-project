@@ -12,7 +12,7 @@ cast:
   - role: Kate
     name: Nicola Fox
   - name: Ginny Lee
-  - name: Abby Isabella Robinson
+  - name: Abby Robinson
   - name: Lauren Grant
   - name: Lucy Dollman
   - name: Roger Smissen

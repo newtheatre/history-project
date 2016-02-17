@@ -29,7 +29,7 @@ cast:
 - role: Ophelia
   name: Jenni Herzberg
 - role: Gravedigger
-  name: Amelia O'Shae
+  name: Amelia O'Shea
 - role: Marcelius
   name: Grace Rowland
 - role: Bernardo

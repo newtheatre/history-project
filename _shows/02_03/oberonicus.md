@@ -34,7 +34,7 @@ cast:
   - role: Titania
     name: Chloe Osborn
   - role: Puck
-    name: Anneliesse Mackintosh
+    name: Anneliese Mackintosh
   - role: Mustardblossom
     name: Jen Smith
   - role: Springshine

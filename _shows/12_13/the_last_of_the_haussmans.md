@@ -29,6 +29,7 @@ crew:
     name: Amy McWalters
   - role: Technical Director
     name: Unknown
+    person: false
   - role: Lighting Designer
     name: Will Pimblett
   - role: Set Designer

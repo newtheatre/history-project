@@ -26,7 +26,7 @@ cast:
 - role: Miss Prism
   name: Fran Rylands
 - role: Lane / Merriman
-  name: James Townend
+  name: James Townsend
 
 crew:
 - role: Director

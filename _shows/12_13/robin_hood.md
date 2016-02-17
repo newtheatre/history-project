@@ -38,7 +38,7 @@ cast:
   - role: Chorus
     name: Catherine Cunningham
   - role: Chorus
-    name: Mitchell Masterton
+    name: Mitchell Masterson
   - role: Chorus
     name: Sian Beaven
 

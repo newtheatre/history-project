@@ -1,5 +1,5 @@
 ---
-title: "A Streetcar Names Desire"
+title: "A Streetcar Named Desire"
 playwright: Tennessee Williams
 period: Autumn
 season: In House

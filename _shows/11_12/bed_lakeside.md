@@ -38,7 +38,7 @@ crew:
   - role: Set Designer
     name: Jess Courtney
   - role: Set Designer
-    name: Phil Geller
+    name: Philip Geller
   - role: Stage Manager
     name: Elin Stenner-Matthews
   - role: Stage Manager
