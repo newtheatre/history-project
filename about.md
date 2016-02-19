@@ -25,8 +25,8 @@ See the [contributing](/contributing/) section for details on how to help out.
 
 - **Project Lead:** Phil Geller
 - **Development Lead:** Will Pimblett
-- **Editor:** Nick Stevenson
 - **Editor:** Nathan Penney
+- **Editor:** Nick Stevenson
 
 </div>
 <div class="grid-8" markdown="1">
