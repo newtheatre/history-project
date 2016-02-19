@@ -26,15 +26,16 @@ layout: default
 
     <div class="person-graduated">
       {% if person.graduated_actual %}
-      <div class="person-graduated-actual decade-background-{{ person.decade }}">
+      <div class="person-graduated-inner person-graduated-actual decade-background-{{ person.decade }}">
         {{ person.graduated }}
       </div>
       {% elsif person.graduated %}
-      <div class="person-graduated-estimated decade-background-{{ person.decade }}" title="Estimated">
+      <div class="person-graduated-inner person-graduated-estimated decade-background-{{ person.decade }}" title="Estimated">
         {{ person.graduated }}
       </div>
+      <div class="person-graduated-estimated-text">Estimated</div>
       {% else %}
-        <div class="person-graduated-student">
+        <div class="person-graduated-inner person-graduated-student">
           Student
         </div>
       {% endif %}

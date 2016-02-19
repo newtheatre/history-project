@@ -46,11 +46,12 @@
         line-height: $header-height
 
   .person-graduated
+    position: relative
     line-height: $header-small-height
     @include respond-up(tab-port)
       line-height: $header-height
     @include set-property-to-gutter(padding-right)
-    & > *
+    .person-graduated-inner
       display: inline-block
       background: red
       opacity: 0.9
@@ -62,11 +63,23 @@
         padding: 0 $baseline
 
     .person-graduated-actual
-      background: green
+      // background: green
     .person-graduated-estimated
-      background: cyan
+      font-variant: italic
     .person-graduated-student
       background: purple
+
+    .person-graduated-estimated-text
+      position: absolute
+      @include set-property-to-gutter(padding-right)
+      bottom: 8px
+      width: 100%
+      font-size: 0.8em
+      line-height: 1em
+      text-align: center
+
+      font-style: italic
+      opacity: 0.5
 
 .person-body
   @extend .wrapper
