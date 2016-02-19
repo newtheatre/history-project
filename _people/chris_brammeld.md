@@ -10,7 +10,7 @@ links:
   - type: Personal Website
     href: "www.chrisbrammeldmusic.com"
   - type: Twitter
-    href: bramcomposer
+    username: bramcomposer
   - type: Personal Website
     href: "https://www.facebook.com/chrisbrammeldmusic"   
 ---
