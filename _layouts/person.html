@@ -82,12 +82,19 @@ layout: default
         <dd>{{ person.award }}</dd>
         {% endif %}
 
-        {% if person.award %}
+        {% if person.committees %}
         <dt><i class="fa fa-fw fa-group"></i>Committees</dt>
         <dd>
           <ul class="person-meta-list">
           {% for record in person.committees %}
-            <li><span class="person-meta-year">{{ record.item.title }}</span> {{ record.roles }}</li>
+            <li>
+              <a href="{{ record.item.year_page.url }}" class="person-meta-year">
+               {{ record.item.title }}
+              </a>
+              {% for role in record.roles %}
+                <span class="person-meta-role">{{ role }}</span>
+              {% endfor %}
+            </li>
           {% endfor %}
           </ul>
         </dd>

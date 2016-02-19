@@ -128,10 +128,25 @@
   dd
     padding-left: $icon-width
 
+  li
+    clear: left
+
   .person-meta-year
-    background: darken($color-nnt-orange, 20%)
+    @include no-underline
+    display: block
+    float: left
     font-size: 0.8em
+    line-height: 1.3rem
+    margin-top: 0.1rem
     padding: 0 0.5em
+    color: $color-text-white
+    background: rgba(darken($color-nnt-orange, 20%), 0.25)
+    &:hover
+      background: rgba(darken($color-nnt-orange, 20%), 0.6)
+
+  .person-meta-role
+    display: block
+    padding-left: 4em
 
 .person-shows-outer
   @include grid-wrap
