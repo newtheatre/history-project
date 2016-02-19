@@ -1,6 +1,6 @@
 ---
 title: Sejanus
-season: In-house
+season: In House
 period: 
 season_sort: 300
 venue: New Theatre
