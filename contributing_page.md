@@ -7,7 +7,7 @@ sort: 20
 permalink: /contributing/
 ---
 
-# <i class="octicon octicon-git-pull-request"></i> {{ page.title }}
+# <i class="octicon octicon-git-pull-request fa-fw"></i> {{ page.title }}
 
 This project relies on help from the alumni community. If you see a show missing information, a committee record a few names short or just have an interesting story to tell you can help out in a number of ways.
 

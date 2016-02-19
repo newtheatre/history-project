@@ -7,6 +7,6 @@ sort: 40
 regenerate: true
 ---
 
-# <i class="octicon octicon-history"></i> Recent Changes
+# <i class="octicon octicon-history fa-fw"></i> Recent Changes
 
 {% gitactivity %}

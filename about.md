@@ -7,7 +7,7 @@ published: true
 ---
 
 
-# <i class="octicon octicon-circuit-board"></i> {{ page.title }}
+# <i class="octicon octicon-circuit-board fa-fw"></i> {{ page.title }}
 
 This site is an initiative of the [Nottingham New Theatre Alumni Network](http://newtheatre.org.uk/alumni) and aims to piece together the New Theatre’s dynamic and vibrant history.
 
@@ -26,7 +26,7 @@ See the [contributing](/contributing/) section for details on how to help out.
 - **Project Lead:** Phil Geller
 - **Development Lead:** Will Pimblett
 - **Editor:** Nick Stevenson
-- **Editor:** Nathan Penney 
+- **Editor:** Nathan Penney
 
 </div>
 <div class="grid-8" markdown="1">

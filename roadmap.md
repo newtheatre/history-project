@@ -9,7 +9,7 @@ js: "<script defer type='text/javascript' src='/lib/github-issues-widget/github-
 
 <div class="col-2-3" markdown="1">
 
-# <i class="octicon octicon-milestone"></i> {{ page.title }}
+# <i class="octicon octicon-milestone fa-fw"></i> {{ page.title }}
 
 Our current timeline:
 
