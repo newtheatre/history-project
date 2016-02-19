@@ -27,6 +27,7 @@ module Jekyll
       # Defaults
       title = link['type']
       icon = link_type_default['icon']
+      data = ""
 
       # If title, use
       if link.key?('title') then title = link['title'] end
@@ -34,6 +35,7 @@ module Jekyll
       # Apply link type stuff
       if link_type
         if link_type.key?('icon') then icon = link_type['icon'] end
+        if link_type.key?('data') then data = link_type['data'] end
         if link_type.key?('href')
           if not link.key?('username') then Jekyll.logger.abort_with(
             "Link list:", "Missing username in #{@page['path']}") end
@@ -45,7 +47,11 @@ module Jekyll
         href = single_get_href(link)
       end
 
-      "<dt class=\"single-line\"><i class=\"fa fa-fw #{icon}\"></i><a href=\"#{href}\">#{title}</a></dt><dd class=\"hidden\">#{href}</dd>\n"
+      """<dt class=\"single-line\">
+           <i class=\"fa fa-fw #{icon}\"></i>
+           <a href=\"#{href}\" #{data}>#{title}</a>
+         </dt>
+         <dd class=\"hidden\">#{href}</dd>\n"""
     end
 
     def render(context)

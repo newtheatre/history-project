@@ -18,6 +18,7 @@
   href: https://twitter.com/???
 - type: LinkedIn
   icon: fa fa-linkedin-square
+  data: data-proofer-ignore
   href: https://www.linkedin.com/in/???
 
 - type: Article
