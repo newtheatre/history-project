@@ -15,6 +15,7 @@ careers:
 links:
   - type: Personal Website
     href: "http://wjdp.co.uk"
+    comment: "Change to wjdp.uk when live"
   - type: Twitter
     username: willpimblett
   - type: LinkedIn

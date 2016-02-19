@@ -28,6 +28,7 @@ module Jekyll
       title = link['type']
       icon = link_type_default['icon']
       data = ""
+      comment = link['comment'] if link.key?('comment') else nil
 
       # If title, use
       if link.key?('title') then title = link['title'] end
@@ -50,6 +51,7 @@ module Jekyll
       """<dt class=\"single-line\">
            <i class=\"fa fa-fw #{icon}\"></i>
            <a href=\"#{href}\" #{data}>#{title}</a>
+           <span class=\"debug debug-hidden-content\" data-debug-toggle>#{comment}</span>
          </dt>
          <dd class=\"hidden\">#{href}</dd>\n"""
     end
