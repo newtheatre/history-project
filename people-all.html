@@ -1,0 +1,21 @@
+---
+layout: page
+permalink: people/all/
+title: People List
+current: people
+published: true
+sitemap: false
+search: false
+---
+
+<h2>People Records</h2>
+
+{% assign sorted_people = site.people | sort: "title" %}
+
+<ul>
+{% for person in sorted_people %}
+  <li>
+    <a href="{{ person.url }}">{{ person.title }}</a><!-- {{ person.person }} -->
+  </li>
+{% endfor %}
+</ul>

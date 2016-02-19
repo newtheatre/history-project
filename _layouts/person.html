@@ -2,58 +2,127 @@
 layout: default
 ---
 {% assign person = page %}
+{% capture submit_link %}/collect/person/?name={{person.path_name}}{% endcapture %}
 
 <div class="person">
-  <div class="person-info">
-    <header class="person-header">
-      <h1>{{ person.title }}</h1>
-      <div class="meta-row">
-        <i class="meta-icon fa fa-mortar-board"></i>
-        <div class="meta-col person-graduated">
-          <p>
-            {% if person.graduated_actual %}{{ person.graduated }}
-            {% elsif person.graduated %}<em title="Estimated">{{ person.graduated }}</em>
-            {% else %}<span class="unknown">Unknown</span>{% endif %}
-          </p>
-        </div>
 
-        <i class="meta-icon fa fa-book"></i>
-        <div class="meta-col person-course">
-          <p>{% if person.course %}{{ person.course }}{% else %}<span class="unknown">Unknown</span>{% endif %}</p>
+  {% if person.comment %}
+  <div class="debug-comment wrapper" data-debug-toggle>{{ person.comment }}</div>
+  {% endif %}
+
+  <!-- Full width -->
+  <header class="person-header">
+    <div class="person-headshot">
+      {% if person.headshot %}
+      {% image person_headshot people/{{ person.headshot }} class="person-headshot-actual" alt="{{ person.title }}" %}
+      {% else %}
+      <img class="person-headshot-placeholder" src="/images/human-512-cropped.png" alt="Human silhouette" />
+      {% endif %}
+    </div>
+
+    <div class="person-details">
+      <h1 class="person-name">{{ person.title }}</h1>
+    </div>
+
+    <div class="person-graduated">
+      {% if person.graduated_actual %}
+      <div class="person-graduated-inner person-graduated-actual decade-background-{{ person.decade }}">
+        {{ person.graduated }}
+      </div>
+      {% elsif person.graduated %}
+      <div class="person-graduated-inner person-graduated-estimated decade-background-{{ person.decade }}" title="Estimated">
+        {{ person.graduated }}
+      </div>
+      <div class="person-graduated-estimated-text">Estimated</div>
+      {% else %}
+        <div class="person-graduated-inner person-graduated-student">
+          Student
         </div>
+      {% endif %}
+    </div>
+  </header>
+
+
+  <div class="person-body">
+
+    {% if person.submitted %}
+    <!-- Person has submitted a bio -->
+    <article class="person-bio">
+      <h2>Biography</h2>
+      {{ content }}
+      <p class="person-bio-last-updated">
+        Bio last updated on {{ person.submitted }}, <a href="{{ submit_link }}">submit updates</a>.
+      </p>
+    </article>
+
+    {% else %}
+    <!-- Person not submitted -->
+    <div class="person-submit">
+      <div class="box-warning">
+        <i class="fa fa-question"></i>
+        <h3>Missing Biography</h3>
+        <p>We are collecting biographies on New Theatre alumni, if this is you please <a href="{{ submit_link }}">submit one here</a>.</p>
+      </div>
+    </div>
+    {% endif %}
+
+    <section class="person-past">
+      <h2>Then</h2>
+      <dl class="person-meta-list">
+        {% for course in person.course %}
+          <dt><i class="fa fa-fw fa-book"></i>Course</dt>
+          <dd>{{ course }}</dd>
+        {% else %}
+          <dt><i class="fa fa-fw fa-book"></i>Course</dt>
+          <dd><span class="unknown">Unknown</span></dd>
+        {% endfor %}
 
         {% if person.award %}
-        <i class="meta-icon fa fa-trophy"></i>
-        <div class="meta-col person-award">
-          <p>{{ person.award }}</p>
-        </div>
+        <dt><i class="fa fa-fw fa-trophy"></i>Award</dt>
+        <dd>{{ person.award }}</dd>
         {% endif %}
-      </div>
-    </header>
-    <article class="person-bio">
-      {% if person.placeholder %}
 
-      <p>We are looking to collect biographies on New Theatre alumni, if this is you and you're interested in doing so please <a href="/collect/person/?name={{person.path_name}}">submit a biography</a>.</p>
+        {% if person.committees %}
+        <dt><i class="fa fa-fw fa-group"></i>Committees</dt>
+        <dd>
+          <ul class="person-meta-list">
+          {% for record in person.committees %}
+            <li>
+              <a href="{{ record.item.year_page.url }}" class="person-meta-year">
+               {{ record.item.title }}
+              </a>
+              {% for role in record.roles %}
+                <span class="person-meta-role">{{ role }}</span>
+              {% endfor %}
+            </li>
+          {% endfor %}
+          </ul>
+        </dd>
+        {% endif %}
+      </dl>
+    </section>
 
-      {% else %}
-      <h2>Bio</h2>
-      {{ content }}
-      {% endif %}
+    {% if person.placeholder == false %}
+    <!-- Person has a file -->
 
-      <div class="person-committees">
-        {% for record in person.committees %}
-        {{ record.roles }} - {{ record.item.title }}<br />
-        {% endfor %}
-      </div>
-    </article>
-  </div>
+    <section class="person-current">
+      <h2>Now</h2>
+      <dl class="person-meta-list">
 
-  <div class="person-photo">
-    {% if person.headshot %}
-    {% image person_headshot people/{{ person.headshot }} alt="{{ person.title }}" %}
-    {% else %}
-    <i class="ion-ios-person"></i>
+      {% for career in person.careers %}
+        <dt><i class="fa fa-fw fa-building"></i>Career</dt>
+        <dd>{{ career }}</dd>
+      {% endfor %}
+
+      {% link_list links %}
+
+      {% link_list news %}
+      </dl>
+
+    </section>
+
     {% endif %}
+
   </div>
 
 </div>

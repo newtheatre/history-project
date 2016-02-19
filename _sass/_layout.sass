@@ -26,9 +26,12 @@ body
   height: 220px
   @include background-image(linear-gradient($color-background-alt 0, transparent 99%))
 
-.content
+.site-content
   min-height: 500px
   margin-bottom: $baseline
+
+.content-nobr .site-content
+  margin-bottom: 0
 
 .lotsa-cols
   // Quick and dirty cleanup for long lists
@@ -91,3 +94,6 @@ body
   @include abs-right-wrap-pad(0px)
   font-size: 23em
   opacity: 0.3
+
+.hidden
+  display: none

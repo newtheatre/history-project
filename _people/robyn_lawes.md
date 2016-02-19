@@ -6,8 +6,8 @@ course:
   - Psychology BSc
 graduated: 2013
 links:
-  - type: Portfolio
-    href: "www.linkedin.com/rml1007"
+  - type: LinkedIn
+    username: rml1007
 contact_allowed: true
 ---
 

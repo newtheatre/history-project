@@ -1,5 +1,10 @@
 # This file defines types of links, can be used to attach icons and other meta-
 # data to external links.
+# Icon classes used in link lists and other areas of the site. See
+# http://fontawesome.io/icons/ for the icon names.
+
+- type: default
+  icon: fa fa-link
 
 - type: Personal Website
 - type: Portfolio
@@ -9,7 +14,14 @@
 - type: IMDb
 
 - type: Twitter
+  icon: fa fa-twitter
+  href: https://twitter.com/???
 - type: LinkedIn
+  icon: fa fa-linkedin-square
+  data: data-proofer-ignore
+  href: https://www.linkedin.com/in/???
 
 - type: Article
+  icon: fa fa-newspaper-o
 - type: Review
+  icon: fa fa-newspaper-o

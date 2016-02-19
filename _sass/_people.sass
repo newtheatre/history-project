@@ -1,35 +1,172 @@
 // People pages (alumni bios)
 
-.person
-  @include grid-wrap
+.person-header
+  @extend .wrapper
+  margin-bottom: $baseline
+  @include display(flex)
 
-.person-info
-  @include grid-x-col(11)
+  position: relative
 
-.person-photo
-  @include grid-x-col(5)
-  img
-    width: 100%
+  $header-small-height: 6rem
+  $header-height: 10rem
+  max-height: $header-small-height
+  @include respond-up(tab-port)
+    max-height: $header-height
+
+  overflow: hidden
+
+  background: lighten($color-background, 4%)
+
+  .person-headshot
+    max-height: $header-small-height
+    max-width: $header-small-height
+    @include respond-up(tab-port)
+      max-height: $header-height
+      max-width: $header-height
+
+    overflow: hidden
+    @include set-property-to-gutter(margin-right, 1, 8px)
+    @include respond-down(mob-port)
+      display: none
+    img
+      width: 100%
+    .person-headshot-actual
+      position: relative
+    .person-headshot-placeholder
+      padding: 2rem
+
+  .person-details
+    @include flex(1)
+
+    .person-name
+      line-height: $header-small-height
+      @include respond-down(mob-land)
+        font-size: $base-font-size * 1.6
+      @include respond-up(tab-port)
+        line-height: $header-height
+
+  .person-graduated
+    position: relative
+    line-height: $header-small-height
+    @include respond-up(tab-port)
+      line-height: $header-height
+    @include set-property-to-gutter(padding-right)
+    .person-graduated-inner
+      display: inline-block
+      background: red
+      opacity: 0.9
+
+      font-size: 1.2em
+      padding: 0 $baseline / 2
+      @include respond-up(tab-port)
+        font-size: 2em
+        padding: 0 $baseline
+
+    .person-graduated-actual
+      // background: green
+    .person-graduated-estimated
+      font-variant: italic
+    .person-graduated-student
+      background: purple
+
+    .person-graduated-estimated-text
+      position: absolute
+      @include set-property-to-gutter(padding-right)
+      bottom: 8px
+      width: 100%
+      font-size: 0.8em
+      line-height: 1em
+      text-align: center
+
+      font-style: italic
+      opacity: 0.5
+
+.person-body
+  @extend .wrapper
+  @include display(flex)
+  margin-bottom: $baseline
+  @include flex-direction(column)
+  @include respond-up(tab-port)
+    @include flex-direction(row)
+
+  h2
+    font-size: 2em
+    line-height: 1em
+    margin-bottom: 1rem
+    padding: 1rem
+    background: lighten($color-background, 4%)
+
+  & > *
+    @include set-property-to-gutter(padding-right)
+    & > p, & > dl, & > ul
+      padding: 0 1rem
+
+
+  .person-bio
+    @include flex(2)
+    @include respond-up(tab-port)
+      max-width: 60%
+
+  .person-bio-last-updated
+    opacity: 0.2
+    font-size: 0.8em
+
+  .person-past, .person-current
+    @include flex(1)
+    min-width: 20%
+
+  .person-submit
+    @include flex(2)
+
+.person-meta-list
+  @include list-unformatted
+
+  $icon-width: 1.3em
+  .fa-fw
+    width: $icon-width
+    padding-right: 1em
+  dd
+    padding-left: $icon-width
+
+  li
+    clear: left
+
+  .person-meta-year
+    @include no-underline
+    display: block
+    float: left
+    font-size: 0.8em
+    line-height: 1.3rem
+    margin-top: 0.1rem
+    padding: 0 0.5em
+    color: $color-text-white
+    background: rgba(darken($color-nnt-orange, 20%), 0.25)
+    &:hover
+      background: rgba(darken($color-nnt-orange, 20%), 0.6)
+
+  .person-meta-role
+    display: block
+    padding-left: 4em
 
 .person-shows-outer
   @include grid-wrap
-  margin-bottom: $baseline * 2
   @include set-property-to-gutter(padding-top)
   background: $color-black
 
 .person-shows
   @include grid-row
   padding-bottom: 0
-  @include set-property-to-gutter(margin-top)
-  @include set-property-to-gutter(margin-bottom)
+
+  margin-top: $baseline / 2
+  margin-bottom: $baseline / 2
 
   @include display(flex)
   @include flex-direction(horizontal)
   @include flex-wrap(wrap)
 
   .person-show
-    @include set-property-to-gutter(margin-bottom)
-    @include set-property-to-gutter(padding-right)
+    @include set-property-to-gutter(margin-bottom, 1, 8px)
+    @include set-property-to-gutter(padding-right, 1, 8px)
     @include flex-basis(180px)
     max-width: 190px
     @include flex-grow(1)
