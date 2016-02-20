@@ -50,6 +50,8 @@ $section-colour-tre: #601123
 
   .home-info
     @include grid-x-percent($golden-counterpart)
+    @include respond-up(widescreen)
+      padding-top: $baseline
 
 .home-network, .home-contribute
   @include grid-wrap
@@ -145,8 +147,11 @@ $home-section-inner-padding: $baseline * 2
 
 .home-section
   // High level block on the home page
-  padding-top: $baseline * 2
-  padding-bottom: $baseline * 2
+  padding-top: $baseline
+  padding-bottom: $baseline
+  @include respond-up(tab-port)
+    padding-top: $baseline * 2
+    padding-bottom: $baseline * 2
 
 .home-button
   width: 100%
