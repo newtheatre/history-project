@@ -1,6 +1,7 @@
 ---
 title: "Reservoir Dogs"
 playwright: "Quenton Tarantino"
+student_written: true
 adaptor: Carn Truscott
 period: Spring
 season: "Fringe"

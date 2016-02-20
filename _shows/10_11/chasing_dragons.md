@@ -1,6 +1,7 @@
 ---
 title: "Chasing Dragons"
 playwright: Adam H. Wells
+student_written: true
 season: Edinburgh
 season_sort: 300
 period: Edinburgh

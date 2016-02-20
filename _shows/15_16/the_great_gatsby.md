@@ -2,6 +2,7 @@
 title: The Great Gatsby
 playwright: F. Scott Fitzgerald
 adaptor: "L. J. Bateman"
+student_written: true
 season: Fringe
 season_sort: 110
 period: Autumn

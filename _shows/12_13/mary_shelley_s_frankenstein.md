@@ -2,6 +2,7 @@
 title: "Mary Shelley's Frankenstein"
 playwright: Mary Shelley
 adaptor: Jake Leonard
+student_written: true
 season: In House
 season_sort: 280
 period: Spring
