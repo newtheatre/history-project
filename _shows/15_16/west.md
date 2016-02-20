@@ -59,6 +59,11 @@ crew:
 - role: Poster Designer
   name: Max Miller
 
+tour:
+- venue: NSDF 2016
+- date_start: 
+- date_end:
+
 assets:
   - type: poster
     image: west_poster.jpg

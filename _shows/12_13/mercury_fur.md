@@ -56,6 +56,13 @@ crew:
   - role: Publictiy
     name: Nick Barker
 
+tour:
+- venue: NSDF 2013
+- date_start: 
+- date_end:
+- notes: Acting Commendation  |  Laura Gallop for Naz In Mercury Fur
+
+
 assets:
   - type: poster
     image: mercury_fur_poster.jpg

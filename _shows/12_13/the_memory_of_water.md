@@ -8,6 +8,13 @@ venue: PAS, Trent Building
 date_start: 2012-11-07
 date_end: 2012-11-10
 
+tour:
+- venue: NSDF 2013
+- date_start: 
+- date_end:
+- notes: Acting Commendation  |  Rosanna Stoker for Mary in The Memory Of Water
+
+
 cast:
   - role: Mary
     name: Rosanna Stoker

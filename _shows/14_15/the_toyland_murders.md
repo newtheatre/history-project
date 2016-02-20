@@ -9,6 +9,11 @@ date_start: 2015-06-08
 date_end: 2015-06-09
 venue: PAS, Trent Building
 
+tour:
+- venue: NSDF 2016
+- date_start: 
+- date_end:
+
 cast:
   - role: Inspector Carmen McGraw
     name: Amy Brough-Aikin

@@ -8,7 +8,12 @@ venue: New Theatre
 date_start: 2012-12-05
 date_end: 2012-12-08
 
-comment: Went to NSDF
+
+tour:
+- venue: NSDF 2013
+- date_start: 
+- date_end:
+- notes: Buzz Goodbody Student Director’s Award  |  Peter Bradley For Jerusalem, Acting (Supporting Role)  |  Jake Leonard for Wesley in Jerusalem, Acting (Company)  |  Jerusalem, Design  |  Jessica Courtney for Jerusalem
 
 cast:
   - role: Johnny 'Rooster' Byron
