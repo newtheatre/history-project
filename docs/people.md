@@ -16,16 +16,16 @@ Biographies of theatre alumni are stored as `_people/firstname_lastname.md`.
 | Attribute | Job | Description |
 |:-|:-|:-|
 | `title` | Person name. | In the format Firstname Lastname. |
-| `submitted` | The date the last submission was made. | **YYYY-MM-DD** If this is omitted it means person has not yet made a submission, we have collated data for them. |
-| `gender` | Person gender. | Recognises `male` or `female`. |
-| `headshot` | Filename of a photo. | Will look in the `images/people/` directory. Filename should be `firstname_lastname.jpg`. |
-| `course` | The course, or courses the person studied. | Can be a single value or a list if multiple courses studied. |
-| `graduated` | The year the person graduated. | **YYYY** |
+| `submitted`<br />*(optional)* | The date the last submission was made. | **YYYY-MM-DD** If this is omitted it means person has not yet made a submission, we have collated data for them. |
+| `gender`<br />*(optional)* | Person gender. | Recognises `male` or `female`. |
+| `headshot`<br />*(optional)* | Filename of a photo. | Will look in the `images/people/` directory. Filename should be `firstname_lastname.jpg`. Will be moving to SmugMug soon [#516](https://github.com/newtheatre/history-project/issues/516). |
+| `course`<br />*(optional)* | The course, or courses the person studied. | Can be a single value or a list if multiple courses studied. |
+| `graduated`<br />*(optional)* | The year the person graduated. | **YYYY** |
 | `award`<br />*(optional)* | Award person received on leaving the theatre. | Should be in title case, Fellowship, Commendation. If not applicable line should be omitted. |
-| `careers` | List of careers, theatre or non-theatre related. | Recognised theatre careers are listed in [_data/careers.yaml](https://github.com/newtheatre/history-project/blob/master/_data/careers.yaml). |
-| `links` | A [link list](/docs/link-list) to external profiles and other sites. | Should implement `type`, and `href`, can optionally use `title`. Common types are listed in [_data/link-types.yaml](https://github.com/newtheatre/history-project/blob/master/_data/link-types.yaml). |
-| `news` | A [link list](/docs/link-list) to news stories. | For collecting notable news stories relating to the alumnus. Should implement `title`, `date` and `href`. |
-| `comment` | Reserved for editor comments, only displayed in [editors' mode](/docs/#super-secret-editors-mode). |
+| `careers`<br />*(optional)* | List of careers, theatre or non-theatre related. | Recognised theatre careers are listed in [_data/careers.yaml](https://github.com/newtheatre/history-project/blob/master/_data/careers.yaml). |
+| `links`<br />*(optional)* | A [link list](/docs/link-list) to external profiles and other sites. | Should implement `type`, and `href`, can optionally use `title`. Common types are listed in [_data/link-types.yaml](https://github.com/newtheatre/history-project/blob/master/_data/link-types.yaml). |
+| `news`<br />*(optional)* | A [link list](/docs/link-list) to news stories. | For collecting notable news stories relating to the alumnus. Should implement `title`, `date` and `href`. |
+| `comment`<br />*(optional)* | Reserved for editor comments, only displayed in [editors' mode](/docs/#super-secret-editors-mode). |
 
 
 ## <i class="octicon octicon-code"></i> Example Person

@@ -16,11 +16,11 @@ A link list is a format for representing a list of external links used in variou
 | Attribute | Job | Description |
 |:-|:-|:-|
 | `type` | Type of the resource. | Non-exhaustive common types are listed in [_data/link-types.yaml](https://github.com/newtheatre/history-project/blob/master/_data/link-types.yaml). |
-| `href` | URL of the resource. | Should be wrapped in quotes. |
-| `username` | Username on a service. | If `type` has an href attribute in [_data/link-types.yaml](https://github.com/newtheatre/history-project/blob/master/_data/link-types.yaml) you **must** use this field instead of `href`. |
-| `title` | Title of the resource, useful for headlines. | Only include if suitable. |
-| `date` | Date resource was published, relevant to news stories. | Formatted YYYY-MM-DD. Only include if suitable. |
-| `comment` | Reserved for editor comments, only displayed in [editors' mode](/docs/#super-secret-editors-mode). |
+| `href`<br />*(semi-optional)* | URL of the resource. | Should be wrapped in quotes. |
+| `username`<br />*(semi-optional)* | Username on a service. | If `type` has an href attribute in [_data/link-types.yaml](https://github.com/newtheatre/history-project/blob/master/_data/link-types.yaml) you **must** use this field instead of `href`. |
+| `title`<br />*(optional)* | Title of the resource, useful for headlines. | Only include if suitable. |
+| `date`<br />*(optional)* | Date resource was published, relevant to news stories. | Formatted YYYY-MM-DD. Only include if suitable. |
+| `comment`<br />*(optional)* | Reserved for editor comments, only displayed in [editors' mode](/docs/#super-secret-editors-mode). |
 
 ## <i class="octicon octicon-code"></i> Example Link List
 

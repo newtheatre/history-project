@@ -5,6 +5,10 @@ title: Photos and Assets
 sort: 100
 ---
 
+<div class="box-warning" markdown="1">
+  <i class="fa fa-exclamation-triangle"></i> All show assets will be migrated to SmugMug soon, see [#515](https://github.com/newtheatre/history-project/issues/515).
+</div>
+
 Show records currently have a *'Publicity Materials'* and *'Production Shots'* section. Photos are stored in SmugMug albums, and publicity materials in the repo.
 
 For files in the repo image files are kept in the `images/for_shows/` folder whereas anything else (PDFs etc) are kept in `assets/for_shows/`.
@@ -39,10 +43,3 @@ assets:
     title: Programme
 {% endhighlight %}
 
-## <i class="fa fa-upload"></i> Uploading
-
-<div class="box-warning">This needs writing up.</div>
-
-Uploading images and assets needs to be done using Git directly. GUI clients for [Windows](https://windows.github.com/) and [Mac](https://mac.github.com/) are available.
-
-Now we use SmugMug for production shots the upload process is a lot more accessible.
