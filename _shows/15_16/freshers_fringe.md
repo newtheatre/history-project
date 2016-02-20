@@ -12,6 +12,12 @@ assets:
   - type: poster
     image: freshers_fringe_2015.jpg
 
+crew:
+ - role: Technical Director
+   name: Joanne Blunt
+ - role: Technical Operator
+   name: Emma Barber
+
 ---
 
 
