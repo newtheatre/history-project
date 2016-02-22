@@ -133,6 +133,13 @@ defaults:
       path: "docs"
     values:
       current: about
+  - scope:
+      path: "util"
+    values:
+      layout: util
+      group: util
+      sitemap: false
+      search: false
 
 image:
   source: images
