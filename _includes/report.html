@@ -38,7 +38,7 @@
         <form name="report-issue-form" id="report-issue-form" action="{{ site.ntbot_endpoint }}" method="POST">
           <input class="report-text" type="text" name="title" required placeholder="Subject" />
           <textarea class="report-textarea" name="message" required placeholder="Message"></textarea>
-          <input class="report-text" type="text" name="name" required placeholder="Your Name" />
+          <input class="report-text" type="text" name="name" required placeholder="Your name and year of graduation" />
           <input type="hidden" name="page_url" value="{{page.url}}"/>
           <button class="report-submit" type="submit" />Submit</button>
         </form>
