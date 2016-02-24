@@ -14,7 +14,7 @@ cast:
 - role: Entertainer
   name: Josh Mallalieu
 - role: Waitress
-  name: Natalie Gonzalez
+  name: Natalia Gonzalez
 - role: Gambler
   name: Chloe Wilson
 - role: Interest
