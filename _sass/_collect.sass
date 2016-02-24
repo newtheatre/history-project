@@ -172,3 +172,13 @@ $color-collect: #2D9189
 
 .collect-thanks-content
   @include grid-x-percent(70%)
+
+.collect-next-steps
+  @include block
+  display: flex
+  flex-direction: row
+
+  .step
+    background: mix($color-collect, black, 50%)
+    padding: 1em
+    margin-right: 8px

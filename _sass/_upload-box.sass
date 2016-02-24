@@ -1,0 +1,13 @@
+$color-upload: #5b8800
+
+.upload-box
+  background: #121212
+  padding: 1rem
+
+.button-upload, a.button-upload
+  @include button($color-upload)
+  margin: 0
+
+  &:active
+    // Because of weird button, see .button:active
+    margin-bottom: 1.2px
