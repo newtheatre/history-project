@@ -6,6 +6,10 @@ season_sort: 40
 venue: New Theatre
 canonical:
  - title: Grease
+
+cast:
+ - role: Cha Cha
+   name: Michelle Harper
 ---
 
 
