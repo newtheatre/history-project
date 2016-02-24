@@ -84,7 +84,7 @@ crew:
   - role: Photography
     name: Nathan Penney
   - role: Photography
-    name: Natalia Gonzalez-Morales
+    name: Natalia Gonzalez
 
 smugmug: rChMFv
 
