@@ -4,6 +4,7 @@ group: about
 current: about
 title: About This Site
 published: true
+permalink: /about/
 ---
 
 
