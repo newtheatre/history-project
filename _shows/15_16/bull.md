@@ -1,5 +1,6 @@
 ---
 title: Bull
+playwright: Mike Bartlett
 period: Spring
 season: In-House
 season_sort: 240
