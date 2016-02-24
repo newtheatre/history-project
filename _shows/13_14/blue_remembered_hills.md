@@ -39,6 +39,8 @@ crew:
     name: Rachel Angeli
   - role: Set Construction
     name: Will Berrington
+  - role: Poster Designer
+    name: Jamie Stevens
 
 assets:
   - type: poster
