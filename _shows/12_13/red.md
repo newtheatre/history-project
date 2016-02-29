@@ -35,7 +35,7 @@ assets:
   - type: poster
     image: red_poster.jpg
 
-smugmug: b9rB8K
+prod_shots: b9rB8K
 ---
 
 It's 1958. Mark Rothko the legendary expressionist works alone in this Bowery Street studio, where he is joined by assistant Ken, a young emerging artist. As their work draws them closer together, Mark finds himself fighting for his artistic philosophies. What is art? What is creativity, violence, madness, sexuality and power? Above all what is our humanity worth?

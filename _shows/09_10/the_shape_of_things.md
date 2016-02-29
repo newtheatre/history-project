@@ -34,7 +34,7 @@ assets:
 
 published: true
 
-smugmug: mrtKV4
+prod_shots: mrtKV4
 ---
 
 An unconfident, unattractive English student in a Midwestern college enters, by means he cannot comprehend, into a relationship with a beautiful, enigmatic art student. Under her guidance he undergoes a huge physical transformation. But what is the price of beauty?

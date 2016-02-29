@@ -10,7 +10,7 @@ date_end: 2012-11-10
 
 tour:
 - venue: NSDF 2013
-- date_start: 
+- date_start:
 - date_end:
 - notes: Acting Commendation  |  Rosanna Stoker for Mary in The Memory Of Water
 
@@ -51,7 +51,7 @@ assets:
   - type: poster
     image: memory_of_water_poster.jpg
 
-smugmug: pkW8Vv
+prod_shots: pkW8Vv
 ---
 
 "Someone dies, you drink whiskey. It's normal, it's a sedative, it's what normal people do at abnormal times." Three sisters; Teresa, Mary and Catherine, come together before their mother's funeral, each haunted by their own demons, each possessing different memories of the same events. Darkly comic, the play shows that even in traumatic times, humour can be found anywhere.

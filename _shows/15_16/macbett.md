@@ -110,7 +110,7 @@ assets:
   - type: poster
     image: macbett.jpg
 
-smugmug: KgHbCr
+prod_shots: KgHbCr
 ---
 
 If Monty Python and Terry Gilliam did Shakespeare, it'd be something like this. Arguably, a lot of Shakespeare’s work conveys a message of power being an inherently corrupting force - Macbeth being a prime example. Ionesco (one of the most prominent avant-garde writers within ‘The Theatre of the Absurd’) wrote Macbett as a fond parody of Macbeth. Ionesco is not mocking Shakespeare, he is satirising war and government in this profoundly funny and profane depiction of human nature.

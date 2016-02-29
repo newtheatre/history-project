@@ -62,7 +62,7 @@ assets:
   - type: poster
     image: the_infant_poster.jpg
 
-smugmug: XxgxsK
+prod_shots: XxgxsK
 ---
 
 They have a picture, a picture that could spell the destruction of civilised society. And it might have been drawn by a 4 year old child. Who’s telling the truth? What is the truth? And does the truth really matter any more?

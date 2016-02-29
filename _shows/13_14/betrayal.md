@@ -54,7 +54,7 @@ crew:
   - role: Photography
     name: Erina Bogoeva
 
-smugmug: 4Rzt7j
+prod_shots: 4Rzt7j
 
 assets:
   - type: poster

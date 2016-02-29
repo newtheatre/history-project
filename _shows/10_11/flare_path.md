@@ -9,8 +9,6 @@ date_start: 2010-12-07
 date_end: 2010-12-10
 
 cast:
-- role: Peter Kyle
-  name: Izzy Scrimshire
 - role: Countess Dorris Skriczevinsky
   name: Laura Kaye Thomson
 - role: Mrs Oakes
@@ -59,7 +57,7 @@ assets:
 
 published: true
 
-smugmug: HXQWpd
+prod_shots: HXQWpd
 ---
 
 1941, and the Falcon hotel in Milchester plays host to the brave young men of the RAF and their loved ones. Patricia, wife of the charming and heroic Flight-Lieutenant Teddy Graham arrives to tell him that she is leaving him for her old flame, Hollywood heartthrob Peter Kyle. However, when Teddy and the others are called off on a dangerous night bombing mission and things start to go awry, Patricia struggles to find the right moment to break her news.

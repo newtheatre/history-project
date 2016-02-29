@@ -43,7 +43,7 @@ assets:
   - type: poster
     image: letting_go_poster.jpg
 
-smugmug: RChW6m
+prod_shots: RChW6m
 
 comment: "Video here:  https://www.youtube.com/watch?v=Ltw1tYemf6A&app=desktop"
 ---

@@ -24,7 +24,7 @@ crew:
   - role: Poster Designer
     name: Max Miller
 
-smugmug: JHTfPQ
+prod_shots: JHTfPQ
 
 assets:
   - type: poster

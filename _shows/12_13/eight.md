@@ -35,6 +35,6 @@ assets:
   - type: poster
     image: eight_2012-13.jpg
 
-smugmug: ZHGQTg
+prod_shots: ZHGQTg
 ---
 Are we a generation that has lost the faculty of faith; societal refugees, struggling to muster belief in ourselves and the world around us? Eight presents six compelling monologues exploring what happens growing up in a world where everything has become acceptable.

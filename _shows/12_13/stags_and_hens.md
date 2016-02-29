@@ -65,7 +65,7 @@ assets:
   - type: poster
     image: stags_and_hens_poster_cropped.jpg
 
-smugmug: FB65P2
+prod_shots: FB65P2
 
 ---
 

@@ -87,7 +87,7 @@ assets:
   - type: poster
     image: women_of_troy_poster.jpg
 
-smugmug: xdfV9r
+prod_shots: xdfV9r
 ---
 
 The Trojan War is over. All its men are dead, all its women's fate lie in the hands of their conquerors. In a prison, as the women await their fate, they struggle to keep alive their dignity, their humanity and their memories of a civilisation soon to be lost forever. Two thoughts keep them alive: to see their prince, Astyanax, survive to found a new Troy. And to see the punishment by death of the woman they blame for all their suffering, Helen.

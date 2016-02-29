@@ -84,7 +84,7 @@ assets:
   - type: poster
     image: sex_cells_poster.png
 
-smugmug: ZB3PM9
+prod_shots: ZB3PM9
 ---
 
 In a busy call centre, the four employees of Aphrodite, a sex toy manufacturer, take telephone orders for Teasey Maids, Titivators, and rotating pearl g-strings. However, beneath the cheerful customer service and easy banter, these very different women nurse their own desires and disappointments. Join Lily, Sylvie, Janice, Tiffany, and the hapless Mr Causeway in this wickedly funny and poignant new play about motherhood, relationships, anger, acceptance, motherhood, compassion, love, motherhood, belonging, motherhood, sex, cake and motherhood.

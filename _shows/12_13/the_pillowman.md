@@ -56,7 +56,7 @@ crew:
   - role: Photographer
     name: Frazer Roberts
 
-smugmug: DhnJMK
+prod_shots: DhnJMK
 
 assets:
   - type: poster

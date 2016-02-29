@@ -54,5 +54,5 @@ assets:
   - type: poster
     image: rosencrantz_and_guildenstern_are_dead_poster.jpg
 
-smugmug: 52cPmm
+prod_shots: 52cPmm
 ---

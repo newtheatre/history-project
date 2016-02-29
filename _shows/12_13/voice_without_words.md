@@ -25,7 +25,7 @@ assets:
   - type: poster
     image: voice_without_words_poster.jpg
 
-smugmug: jsqxv7
+prod_shots: jsqxv7
 ---
 
 A great storm has passed. An old clown walks the barren wasteland, desperate and alone. He is haunted by dreams of a long forgotten life, the ghosts of a thousand people walk beside him. He cannot speak. But in his silence he seeks to entertain and spread his message of hope. He cannot be the last. There must be some humanity left…

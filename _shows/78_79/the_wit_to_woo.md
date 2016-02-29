@@ -9,6 +9,6 @@ playwright: Mervyn Peake
 cast:
   - name: Scott Cherry
 
-smugmug: dxHWH3
+prod_shots: dxHWH3
 ---
 

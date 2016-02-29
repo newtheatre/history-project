@@ -68,7 +68,7 @@ assets:
   - type: poster
     image: judas_poster.jpg
 
-smugmug: Mn7LBT
+prod_shots: Mn7LBT
 
 ---
 Set in a place between Heaven and Hell, where Mother Teresa and Satan sit side-by-side, you have been summoned for jury duty to participate in the sentencing of history’s most notorious betrayer, Judas Iscariot. Fast-paced, witty and controversial ‘The Last Days of Judas Iscariot’ doesn’t settle for simplistic answers but rather explores the violent rupture of relationships between iconic figures in history. Not anti-Christian or anti-Catholic…but you’ll definitely fall in love with the anti-Christ.

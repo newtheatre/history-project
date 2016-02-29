@@ -40,7 +40,7 @@ crew:
   - role: Photography
     name: Nick Barker
 
-smugmug: s4QTx7
+prod_shots: s4QTx7
 
 assets:
   - type: poster

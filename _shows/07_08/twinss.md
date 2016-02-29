@@ -9,7 +9,7 @@ venue: New Theatre
 date_start: 2008-02-06
 date_end: 2008-02-09
 
-smugmug: JRm8Gg
+prod_shots: JRm8Gg
 ---
 
 Theatrical Theatrics Productions proudly presents TwinSS, an almost-modern day Comedy of Errors by third year undergraduate Ali Blackwell.

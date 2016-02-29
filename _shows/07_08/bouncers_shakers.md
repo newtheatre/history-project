@@ -10,7 +10,7 @@ date_end: 2007-10-27
 canonical:
   - title: Bouncers
     playwright: John Godber
-  - title: Shakers 
+  - title: Shakers
     name: Jane Thornton
 
 crew:
@@ -19,7 +19,7 @@ crew:
   - role: Director
     name: Adam Paulden
 
-smugmug: pNfn7g
+prod_shots: pNfn7g
 
 assets:
   - type: poster

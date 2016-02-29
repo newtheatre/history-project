@@ -36,7 +36,7 @@ assets:
 
 published: true
 
-smugmug: BF99sF
+prod_shots: BF99sF
 ---
 
 Hedda Gabler, the sophisticated daughter of an aristocratic general, has returned from her honeymoon with the somewhat less sophisticated Jorgen Tesman, a 14th Century Domestic Crafts Specialist. As they settle into their new home, the reappearance of Tesman's academic rival and Hedda's old flame, Ejlbert Lovborg throws their lives into disarray. Jealousy, blackmail and manipulation soon ensue as secrets are uncovered and lies unspun, culminating in the play's dramatic conclusion.

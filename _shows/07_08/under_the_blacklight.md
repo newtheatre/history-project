@@ -13,7 +13,7 @@ crew:
   - role: Director
     name: Nick Moran
 
-smugmug: bd5QFB
+prod_shots: bd5QFB
 
 assets:
   - type: poster

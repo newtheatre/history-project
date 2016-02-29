@@ -15,7 +15,7 @@ crew:
   - role: Director
     name: Briony Gittins
 
-smugmug: CxTnwf
+prod_shots: CxTnwf
 ---
 
 A series of intertwining monologues exploring the past and present of three women who have never met yet are all deeply connected through the suffering that they have endured at the hand of one man. These poignant, partial perspectives reveal hidden strength despite the oppressive force of abuse, cruelty and loss.

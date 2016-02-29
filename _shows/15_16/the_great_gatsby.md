@@ -56,7 +56,7 @@ crew:
 - role: Poster Designer
   name: Aneesa Kaleem
 
-smugmug: RMrTB5
+prod_shots: RMrTB5
 
 assets:
   - type: poster

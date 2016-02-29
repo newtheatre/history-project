@@ -21,6 +21,6 @@ cast:
 assets:
   - type: poster
     image: popcorn.jpg
-  
-smugmug: c7H5NP
+
+prod_shots: c7H5NP
 ---

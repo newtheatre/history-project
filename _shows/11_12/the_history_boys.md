@@ -48,7 +48,7 @@ assets:
   - type: poster
     image: the_history_boys_poster.jpg
 
-smugmug: f5rCtk
+prod_shots: f5rCtk
 ---
 
 Alan Bennett’s ‘The History Boys’ is a funny, intelligent and provocative drama set in 1980s Sheffield, that tracks eight boys preparing for their Oxbridge entrance exams. It explores conflicting values about education, sexuality and social constructions, encompassing musical and theatrical elements to provide both a poignant and truly entertaining production.

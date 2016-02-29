@@ -52,7 +52,7 @@ assets:
   - type: poster
     image: educating_rita_poster.jpg
 
-smugmug: 4PNWCh
+prod_shots: 4PNWCh
 ---
 
 Rita is a 26 year-old hairdresser with a desire to ‘learn everything’ and Frank is a fifty-something lecturer who has fallen out of love with his job, his wife and just about everything except his hoard of whisky hidden within his bookshelves. A tale of a working class, Liverpool woman’s hunger for education, and both the humorous and serious effects higher education can have.

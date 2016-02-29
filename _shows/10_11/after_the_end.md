@@ -37,7 +37,7 @@ crew:
 
 published: true
 
-smugmug: 4DbWrF
+prod_shots: 4DbWrF
 
 assets:
   - type: poster

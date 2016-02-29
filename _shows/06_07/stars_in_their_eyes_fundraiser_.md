@@ -10,5 +10,5 @@ assets:
   - type: poster
     image: stars_2007.jpg
 
-smugmug: Wrw4Jg
+prod_shots: Wrw4Jg
 ---

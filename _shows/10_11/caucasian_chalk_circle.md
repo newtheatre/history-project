@@ -31,7 +31,7 @@ assets:
 
 published: true
 
-smugmug: HqbXJm
+prod_shots: HqbXJm
 ---
 
 The city burns in the heat of civil war and a servant girl sacrifices everything to protect an abandoned child. But when peace is finally restored, the boy's mother comes to claim him. Calling upon the ancient tradition of the chalk circle, a comical judge sets about resolving the dispute. But in a culture of corruption and deception, who wins?

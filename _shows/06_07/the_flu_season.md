@@ -12,7 +12,7 @@ assets:
   - type: poster
     image: flu_season.jpg
 
-smugmug: MMRbHW
+prod_shots: MMRbHW
 ---
 
 Set in a hospital and in a theatre, a love story turns sour, a play is written in painful fits and starts, snow falls and turns to slush.

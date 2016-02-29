@@ -72,7 +72,7 @@ assets:
   - type: poster
     image: a_midsummer_nights_dream_2011-12.jpg
 
-smugmug: BLFMXP
+prod_shots: BLFMXP
 ---
 
 Four lovers, six amateur actors and a gathering of spirits move through a wild forest one night. Around them nature itself is turned on its head as the King and Queen of the Fairies face-off. The moon watches on.

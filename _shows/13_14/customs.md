@@ -41,7 +41,7 @@ assets:
   - type: poster
     image: customs_poster.jpg
 
-smugmug: qHV3rs
+prod_shots: qHV3rs
 
 ---
 

@@ -55,7 +55,7 @@ assets:
     filename: bed_programme.pdf
     title: Programme
 
-smugmug: ZJCjTC
+prod_shots: ZJCjTC
 ---
 
 

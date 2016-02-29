@@ -35,7 +35,7 @@ crew:
   - role: Technical Operator
     name: Joanne Blunt
 
-smugmug: 42n8wt
+prod_shots: 42n8wt
 
 assets:
   - type: poster

@@ -50,7 +50,7 @@ assets:
 
 published: true
 
-smugmug: nGMwFs
+prod_shots: nGMwFs
 ---
 
 Set in the late 80's, Boys' Life tracks the misadventures of three former college mates as they simultaneously pursue and refuse adulthood; and the women who are both attracted to and repelled by them along the way. Told in a series of fast-paced and bitingly funny scenes, Boys' Life digs up some uncomfortable truths as the friends 'crawl through the gutter for regular sex.'

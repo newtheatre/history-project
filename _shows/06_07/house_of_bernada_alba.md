@@ -11,7 +11,7 @@ date_end: 2007-03-13
 cast:
   - name: Emily Medhurst
 
-smugmug: PWJLr4
+prod_shots: PWJLr4
 ---
 
 Five sisters all live in the same house as their dominating mother. With strict rules and little freedom, the girls pine for love and excitement in their lives. Upon the discovery that one sistaer is to marry, a family rivalry develops causing adultery, betrayal and resentment.

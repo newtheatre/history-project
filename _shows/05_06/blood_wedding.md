@@ -6,5 +6,5 @@ season: In House
 season_sort: 50
 venue: New Theatre
 
-smugmug: cWGWDN
+prod_shots: cWGWDN
 ---

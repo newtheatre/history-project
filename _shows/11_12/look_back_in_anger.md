@@ -30,7 +30,7 @@ assets:
   - type: poster
     image: look_back_in_anger_2011-12.jpg
 
-smugmug: MZ97ds
+prod_shots: MZ97ds
 ---
 ‘I learnt at an early age what it was to be angry – angry and helpless.’
 

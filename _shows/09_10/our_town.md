@@ -30,7 +30,7 @@ assets:
 
 published: true
 
-smugmug: bNHmqg
+prod_shots: bNHmqg
 ---
 
 Our Town is Thornton Wilder's Pulitzer-prizewinning classic. The story follows George Gibbs and Emlly Webb from their first romance, to marriage and ultimately to Emily's death in childbirth.

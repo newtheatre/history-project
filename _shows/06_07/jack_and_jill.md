@@ -8,7 +8,7 @@ venue: New Theatre
 date_start: 2007-06-06
 date_end: 2007-06-09
 
-smugmug: JML6rm
+prod_shots: JML6rm
 ---
 
 When does love become obsession?

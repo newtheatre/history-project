@@ -83,7 +83,7 @@ assets:
     image: innocent-infidelity-programme-6.jpg
     page: 6
 
-smugmug: DnKhwP
+prod_shots: DnKhwP
 ---
 
 Reg is sleeping with Julia behind Hilary’s back but he’s doing nothing wrong. Julia only exists in his imagination. She is literally his dream woman. So, when Reg comes home one night to find Julia in his house, speaking to Hilary, his world is plunged into chaos and confusion.

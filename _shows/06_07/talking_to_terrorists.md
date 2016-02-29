@@ -10,7 +10,7 @@ date_end: 2007-02-24
 
 published: true
 
-smugmug: 5mqdTt
+prod_shots: 5mqdTt
 
 assets:
   - type: poster

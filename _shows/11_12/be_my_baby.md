@@ -32,7 +32,7 @@ assets:
     image: be_my_baby_poster.jpg
 published: true
 
-smugmug: gwCnzK
+prod_shots: gwCnzK
 ---
 
 Set in a Mother and Baby Home in 1964, Be My Baby follows a 19 and unmarried Mary Adams who has fallen pregnant. Forced to go to the home by her mother, Mary along with the other girls, has to cope with the shame of her situation and the dawning realisation that her baby will be taken away and given up for adoption whether she likes it or not. Despite the hard hitting nature of the play, the youthfulness and positive spirit of the girls is echoed in the 1960s girl-group music which they sing along to.

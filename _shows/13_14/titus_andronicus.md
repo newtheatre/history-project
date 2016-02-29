@@ -99,7 +99,7 @@ assets:
   - type: poster
     image: titus_andronicus_poster.jpg
 
-smugmug: tW92hS
+prod_shots: tW92hS
 
 ---
 

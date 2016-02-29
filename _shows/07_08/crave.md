@@ -16,7 +16,7 @@ crew:
     - role: Director
       name: Fu Baxter
 
-smugmug: 39SzSb
+prod_shots: 39SzSb
 ---
 
 Set in an unnamed city from which voices and images spring, Crave charts the disintegration of a human mind under the pressures of love, loss and desire. Four nameless characters tell their tales, with poetic dialogues that meet, converge and move apart with balletic grace.

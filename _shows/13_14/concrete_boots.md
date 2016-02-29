@@ -40,7 +40,7 @@ crew:
   - role: Photography
     name: Erina Bogoeva
 
-smugmug: STZnZt
+prod_shots: STZnZt
 
 assets:
   - type: poster

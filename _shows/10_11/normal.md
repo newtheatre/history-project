@@ -32,7 +32,7 @@ assets:
 
 published: true
 
-smugmug: ftZrLS
+prod_shots: ftZrLS
 ---
 
 "It seemed to me that the chill he had placed in my soul had finally thawed. I had not reckoned on feeling that chill again so soon…”

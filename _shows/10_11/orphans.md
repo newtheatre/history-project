@@ -38,7 +38,7 @@ assets:
 
 published: true
 
-smugmug: 7hRj7P
+prod_shots: 7hRj7P
 ---
 
 ‘I hate violence. It makes me cry. Always has…’

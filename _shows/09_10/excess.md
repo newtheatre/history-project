@@ -33,7 +33,7 @@ assets:
 
 published: true
 
-smugmug: xGQFtD
+prod_shots: xGQFtD
 ---
 
 A tango bar. A bedroom.

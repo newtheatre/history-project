@@ -30,7 +30,7 @@ assets:
   - type: poster
     image: osama_the_hero_poster_cropped.jpg
 
-smugmug: gQdpgv
+prod_shots: gQdpgv
 
 ---
 
