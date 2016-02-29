@@ -11,7 +11,7 @@ date_end: 2012-12-08
 
 tour:
 - venue: NSDF 2013
-- date_start: 
+- date_start:
 - date_end:
 - notes: Buzz Goodbody Student Director’s Award  |  Peter Bradley For Jerusalem, Acting (Supporting Role)  |  Jake Leonard for Wesley in Jerusalem, Acting (Company)  |  Jerusalem, Design  |  Jessica Courtney for Jerusalem
 
@@ -91,7 +91,7 @@ assets:
   - type: poster
     image: jerusalem_poster.jpg
 
-smugmug: Btr98g
+prod_shots: Btr98g
 ---
 
 Join infamous scumbag Johnny Rooster Byron and a host of other outcasts as they fight back against their local village council. It’s the day of the annual village fete and Johnny’s just been evicted from his dilapidated caravan in the middle of the woods. Vivid characters. Fast-paced, anarchic dialogue. A woodland set complete with a real smashed up caravan. What’s not to love?!

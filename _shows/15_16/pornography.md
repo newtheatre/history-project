@@ -86,7 +86,7 @@ crew:
   - role: Photography
     name: Natalia Gonzalez
 
-smugmug: rChMFv
+prod_shots: rChMFv
 
 assets:
   - type: poster

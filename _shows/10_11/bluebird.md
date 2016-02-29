@@ -40,7 +40,7 @@ assets:
 
 published: true
 
-smugmug: hK3T2p
+prod_shots: hK3T2p
 ---
 
 “This is an extraordinary city. It's a city that you should see primarily at nighttime. It is becomes more concentrated at nighttime. We could take a look at it for a while...”

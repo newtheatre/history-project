@@ -32,7 +32,7 @@ assets:
   - type: poster
     image: conviction_poster.jpg
 
-smugmug: X5XMTr
+prod_shots: X5XMTr
 
 ---
 A comic tragedy, Conviction tells the story of Zane and Javan: two unhinged cellmates who've lost their memory. Forced by circumstance to cooperate, their sanity tested as they both desperately try to remember who they are, and ultimately why they deserve punishment. But do they really, truly want to remember?

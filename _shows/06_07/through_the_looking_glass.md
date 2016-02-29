@@ -10,7 +10,7 @@ date_start: 2007-08-02
 date_end: 2007-08-27
 
 
-smugmug: vgSZgm
+prod_shots: vgSZgm
 ---
 
 Alice is in trouble! Can she survive the dangers of Looking Glass World and become Queen? Ingenious new musical production featuring an unforgettable fairground of characters including the Jabberwocky, the Red Queen and Humpty Dumpty.

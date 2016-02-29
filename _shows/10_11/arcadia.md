@@ -58,7 +58,7 @@ assets:
 
 published: true
 
-smugmug: 4d8T8x
+prod_shots: 4d8T8x
 ---
 
 "When we have found all the mysteries and lost all the meanings, we will be alone, on an empty shore"

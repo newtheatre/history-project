@@ -48,11 +48,11 @@ crew:
   - role: Lighting Designer
     name: Matt Leventhall
   - role: Set Construction
-    name: Chelsea Jayne Wright  
+    name: Chelsea Jayne Wright
   - role: Set Construction
-    name: Gareth Morris  
+    name: Gareth Morris
   - role: Set Construction
-    name: Nick Stevenson  
+    name: Nick Stevenson
   - role: Make Up Artist
     name: Emily Heaton
 
@@ -63,7 +63,7 @@ assets:
     filename: bed_lakeside_programme.pdf
     title: Programme
 
-smugmug: tBcWnN
+prod_shots: tBcWnN
 ---
 
 

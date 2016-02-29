@@ -12,7 +12,7 @@ crew:
   - role: Director
     name: Cal Lewis
 
-smugmug: ssQzpS
+prod_shots: ssQzpS
 ---
 
 Whats some hearts desire, they must posess.

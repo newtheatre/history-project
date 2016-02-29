@@ -27,7 +27,7 @@ The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the 
 | `tour`<br>Not yet implemented<br />*(optional)* | List of *tours* the show has been on (NSDF *e.t.c.*). | Specify `venue`, `date_start`, `date_end` and `notes`. See [#12](https://github.com/newtheatre/history-project/issues/12). Shows taken to Edinbugh should have a separate show created under the `Edinburgh` period. |
 | `cast` | Cast members | Uses the [person list](/docs/person_list) format. |
 | `crew` | Crew members | Uses the [person list](/docs/person_list) format. |
-| `smugmug`<br />*(optional)* | SmugMug album ID for production shots | Use [util/smug-albums](/util/smug-albums/) to find the AlbumID. |
+| `prod_shots`<br />*(optional)* | SmugMug album ID for production shots | Use [util/smug-albums](/util/smug-albums/) to find the AlbumID. |
 | `photos`<br />*(optional)* | Production shots **(depreciated)** | Uses the [photos and assets](/docs/photos_and_assets) format. |
 | `assets`<br />*(optional)* | Publicity and other materials | Uses the [photos and assets](/docs/photos_and_assets) format. |
 | `published`<br>Not yet implemented<br />*(optional)* | *Not yet used!* | Will in the future hide the show if set to false. |
@@ -62,7 +62,7 @@ crew:
   - role: Producer
     name: Nick Stevenson
 
-smugmug: abcd123
+prod_shots: abcd123
 
 assets:
   - type: poster

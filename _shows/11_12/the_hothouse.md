@@ -36,7 +36,7 @@ assets:
   - type: poster
     image: the_hothouse_poster.jpg
 
-smugmug: 9L7cvg
+prod_shots: 9L7cvg
 
 ---
 

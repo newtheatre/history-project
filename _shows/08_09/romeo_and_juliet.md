@@ -20,7 +20,7 @@ crew:
     - role: Director
       name: Lizzie Bourne
 
-smugmug: zHWssh
+prod_shots: zHWssh
 
 assets:
   - type: poster

@@ -39,7 +39,7 @@ assets:
   - type: poster
     image: the_last_of_the_haussmans_2012-13.jpg
 
-smugmug: mD6gXn
+prod_shots: mD6gXn
 ---
 
 Think you have a disfunctional family? Think again. The Haussmann's relationships are challenged by addiction, infatuation, resentment and free love. This play is a savage yet heartwarming portrait of the love-hate relationships within a contemporary family

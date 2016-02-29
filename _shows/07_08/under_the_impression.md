@@ -13,7 +13,7 @@ crew:
   - role: Director
     name: Tom Warren
 
-smugmug: DtC6mw
+prod_shots: DtC6mw
 ---
 
 Jacob has hit a wall in his work. Frustratingly unable to complete a short story, he embarks on a desperate search for inspiration. However, as his personal pursuit for insight gains ground, Jacob finds himself increasingly alienated from the people around him. Despite this, he sees a conclusion in sight, although it's not quite what he had imagined...

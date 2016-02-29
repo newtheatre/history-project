@@ -44,7 +44,7 @@ assets:
     image: the_proposal_the_bear_poster.jpg
 
 
-smugmug: b2NgXt
+prod_shots: b2NgXt
 ---
 
 ### The Proposal

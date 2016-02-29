@@ -12,7 +12,7 @@ crew:
   - role: Director
     name: Guy Unsworth
 
-smugmug: Stmczp
+prod_shots: Stmczp
 
 assets:
   - type: poster

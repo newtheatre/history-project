@@ -68,7 +68,7 @@ assets:
   - type: poster
     image: a_midsummer_nights_dream_lakeside.jpg
 
-smugmug: Dhcwp6
+prod_shots: Dhcwp6
 
 ---
 

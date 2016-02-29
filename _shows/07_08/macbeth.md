@@ -35,7 +35,7 @@ crew:
   - role: Designer
     name: Daniel Xavier Vizer
 
-smugmug: Ppd7Sb
+prod_shots: Ppd7Sb
 ---
 
 A one hour powerhouse production of the classic take of ambition, power, murder and madness. From the only student-run theatre in England, The New Theatre. In association with Ankle Productions winners of the National Student Drama Festival and an Edinburgh Festival Sell-Out company.

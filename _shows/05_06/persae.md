@@ -6,5 +6,5 @@ season: Edinburgh
 season_sort: 500
 venue: Underbelly
 
-smugmug: TwwS6j
+prod_shots: TwwS6j
 ---

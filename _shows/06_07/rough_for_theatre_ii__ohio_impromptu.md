@@ -11,7 +11,7 @@ canonical:
   - title: Rough for Theatre II
   - title: Ohio Impromptu
 
-smugmug: dRQ4MN
+prod_shots: dRQ4MN
 ---
 
 Rough Theatre II and Ohio Impromptu represent Beckett's early and late career respectively. The plays vary in their style enormously, however what ties them together is the way Beckett manages to present the predicament of humanity itself with humour and indescribable beauty.

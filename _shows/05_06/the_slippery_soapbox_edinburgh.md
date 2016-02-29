@@ -1,6 +1,6 @@
 ---
 title: The Slippery Soapbox
-playwright: 
+playwright:
 period: Edinburgh
 season: Edinburgh
 season_sort: 510
@@ -12,6 +12,6 @@ assets:
   - type: poster
     image: slippery_soapbox_edinburgh.jpg
 
-smugmug: 7FLqSZ
+prod_shots: 7FLqSZ
 ---
 

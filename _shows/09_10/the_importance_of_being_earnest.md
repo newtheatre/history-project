@@ -48,7 +48,7 @@ crew:
 
 published: true
 
-smugmug: sPzn5L
+prod_shots: sPzn5L
 ---
 
 The importance of being Earnest - To avoid family duties, Algernon Moncrieff, a bachelor-about-town, has invented Bunbury, a sick relative who frequently calls him away. His friend, Jack Worthing, has invented a wicked brother called Ernest to disguise his own misdemeanors. When Algernon poses as Ernest in order to meet the excessively pretty Cecily, confusion takes hold. And it's not until the full significance of an ordinary black handbag is discovered that Jack is allowed to marry his beloved Gwendolen.

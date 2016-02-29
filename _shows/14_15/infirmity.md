@@ -35,7 +35,7 @@ assets:
   - type: poster
     image: infirmity_poster.jpg
 
-smugmug: jDNnN5
+prod_shots: jDNnN5
 ---
 
 Connor and Charlotte have been together since university. Now in their early 30’s, they’re struggling to maintain their relationship, so have sought help from a psychotherapist: Peter. Through a series of flashbacks, Peter explores the couple’s past, and begins to uncover the potential contributing issues. However, all is not as it seems, and a dark secret is being kept that threatens to tear Connor and Charlotte apart…

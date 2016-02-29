@@ -12,7 +12,7 @@ assets:
   - type: poster
     image: zoostoryposter.jpg
 
-smugmug: Wh4bZc
+prod_shots: Wh4bZc
 ---
 
 Edward Albee's ground-breaking one-act play - lyrical, abrasive, daring and witty in theme and form. Two strangers meet in Central Park, and the ensuing dialogue, with a shocking ending, brings into question many of the values - family, friendship, security, ownership - that shapes our live.

@@ -5,10 +5,10 @@ period: Edinburgh
 season_sort: 420
 venue: unknown
 
-cast: 
+cast:
 - name: Matthew Bannister
 
-smugmug: GbTtM9
+prod_shots: GbTtM9
 ---
 
 

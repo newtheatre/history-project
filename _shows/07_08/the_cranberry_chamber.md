@@ -9,7 +9,7 @@ venue: New Theatre
 date_start: 2008-02-13
 date_end: 2008-02-16
 
-smugmug: phxdJC
+prod_shots: phxdJC
 ---
 
 Do you like murder, intrigue and suspense? Do you like to control events and imagine yourself as some sort of all-powerful demi-God? If so then we think you might enjoy this...

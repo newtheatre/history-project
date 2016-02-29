@@ -32,7 +32,7 @@ assets:
   - type: poster
     image: abigails_party_2011-12.jpg
 
-smugmug: 46ngMs
+prod_shots: 46ngMs
 ---
 It’s 1977. The record player is rolling and the fibre light illuminates a crowded living room. Trapped in stifling suburbia and confrontational, dead end marriages, five neighbours, who have little more in common than geographic proximity, get together, get drunk and get increasingly disorderly. Meanwhile, Abigail is holding her own party next door.
 

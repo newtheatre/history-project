@@ -54,7 +54,7 @@ assets:
   - type: poster
     image: a_clockwork_orange_poster.jpg
 
-smugmug: LXKVTq
+prod_shots: LXKVTq
 
 ---
 

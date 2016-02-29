@@ -42,7 +42,7 @@ crew:
   - role: Stage Manager
     name: Dave Hanks
 
-smugmug: cR5dxw
+prod_shots: cR5dxw
 
 assets:
   - type: poster

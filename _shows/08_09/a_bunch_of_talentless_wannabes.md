@@ -12,5 +12,5 @@ assets:
   - type: poster
     image: a_bunch_of_talentless_wannabees_2008-09.jpg
 
-smugmug: DVdGzx
+prod_shots: DVdGzx
 ---

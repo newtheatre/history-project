@@ -26,7 +26,7 @@ assets:
 
 published: true
 
-smugmug: d5RBFx
+prod_shots: d5RBFx
 ---
 
 On her release from prison, Lorraine heads straight to Marie's.

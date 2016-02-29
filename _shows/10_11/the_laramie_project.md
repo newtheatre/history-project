@@ -19,7 +19,6 @@ cast:
   - name: Dave Porter
   - name: Andy Routledge
   - name: Fran Rylands
-  - name: Izzy Scrimshire
   - name: Sophia Stanley
   - name: Weston Twardowski
 
@@ -35,7 +34,7 @@ assets:
 
 published: true
 
-smugmug: hWS9Mn
+prod_shots: hWS9Mn
 ---
 
 Laramie Wyoming. October 7th, 1998. A gay university student is found tied to a fence in an isolated field, beaten and left for dead - purely because of his sexuality. Matthew Shepard's abduction by two of the local boys created a media firestorm that spanned the globe, and inspired a generation to fight against intolerance.

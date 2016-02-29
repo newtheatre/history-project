@@ -31,5 +31,5 @@ assets:
   - type: poster
     image: jack_aged_five_and_a_half_poster.jpg
 
-smugmug: B3VXLC
+prod_shots: B3VXLC
 ---

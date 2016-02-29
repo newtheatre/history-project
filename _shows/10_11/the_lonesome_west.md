@@ -25,5 +25,5 @@ assets:
   - type: poster
     image: the_lonesome_west_2011.jpg
 
-smugmug: gSSjXh
+prod_shots: gSSjXh
 ---

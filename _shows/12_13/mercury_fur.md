@@ -58,7 +58,7 @@ crew:
 
 tour:
 - venue: NSDF 2013
-- date_start: 
+- date_start:
 - date_end:
 - notes: Acting Commendation  |  Laura Gallop for Naz In Mercury Fur
 
@@ -67,7 +67,7 @@ assets:
   - type: poster
     image: mercury_fur_poster.jpg
 
-smugmug: m4KPV7
+prod_shots: m4KPV7
 ---
 
 Set in London, in the not so distant future, where gangs prevail and memory has been wiped by the consumption of hallucinogenic butterflies, brothers Elliot and Darren survive by organising ‘parties’ where their clients’ most sadistic fantasies are realised. But it soon becomes clear that the success of one particular party will guarantee not just their safety, but their salvation.

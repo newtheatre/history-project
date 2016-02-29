@@ -12,5 +12,5 @@ assets:
   - type: poster
     image: freshers_fringe_2009-10.jpg
 
-smugmug: vv4w85
+prod_shots: vv4w85
 ---

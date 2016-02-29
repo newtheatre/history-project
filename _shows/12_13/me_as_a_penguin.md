@@ -54,7 +54,7 @@ assets:
     image: me_as_a_penguin_poster.jpg
 published: true
 
-smugmug: GGpqn2
+prod_shots: GGpqn2
 ---
 
 Stitch is looking to gain some direction in his life by visiting his sister and exploring the very exciting gay scene of Hull. What results is an obsessive crush on a man that works in the local aquarium and Stitch stealing a baby penguin. Brilliantly funny, emotionally moving, ‘Me, As Penguin’ is a unique, witty and northern comedy.

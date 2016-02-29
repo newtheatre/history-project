@@ -9,5 +9,5 @@ venue: New Theatre
 cast:
   - name: Emily Medhurst
 
-smugmug: RBNL4h
+prod_shots: RBNL4h
 ---

@@ -115,7 +115,7 @@ assets:
   - type: poster
     image: frankenstein_poster.jpg
 
-smugmug: S4pKW6
+prod_shots: S4pKW6
 
 ---
 

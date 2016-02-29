@@ -26,7 +26,7 @@ crew:
   - role: Editing
     name: Alex Jamieson
 
-smugmug: 5j5PKS
+prod_shots: 5j5PKS
 
 assets:
   - type: poster

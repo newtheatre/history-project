@@ -14,7 +14,7 @@ assets:
   - type: poster
     image: the_seagull_2.jpg
 
-smugmug: BXFNXd
+prod_shots: BXFNXd
 ---
 
 The Seagull centers on the romantic and artistic conflicts of an ensemble cast of diverse and fully developed characters. Most centrally the aspiring actress Nina, the fading leading lady Irina Arkadina, her son the experimental playwright Konstantin Treplyov, and the famous middlebrow story writer Trigorin. This is a play about the pain of unrequited love and the power and problems of art.

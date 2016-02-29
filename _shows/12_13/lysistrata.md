@@ -76,7 +76,7 @@ crew:
   - role: Production Assistant
     name: Joseph Heil
 
-smugmug: jnNkKq
+prod_shots: jnNkKq
 ---
 
 The ancient world is gripped by a seemingly interminable war. With the men of Athens all serving in the forces, the women of the city can take no more. In secret, they meet with the enemy women and form a pact. The battle moves into the bedroom. No sex for the men - unless the women get peace. Lysistrata is the original battle of the sexes and its themes of feminism, power and politics are as relevant now as they were in ancient Greece.

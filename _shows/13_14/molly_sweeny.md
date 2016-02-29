@@ -100,7 +100,7 @@ assets:
   - type: poster
     image: molly_sweeney_poster.jpg
 
-smugmug: q5TP5z
+prod_shots: q5TP5z
 
 ---
 

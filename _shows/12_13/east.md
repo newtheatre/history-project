@@ -59,7 +59,7 @@ crew:
     name: Dimitrios Darzentas
   - role: Photography
     name: Nick Barker
-smugmug: dvVPZh
+prod_shots: dvVPZh
 
 assets:
   - type: poster

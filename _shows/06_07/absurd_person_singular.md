@@ -12,7 +12,7 @@ assets:
   - type: poster
     image: absurd_person_singular.jpg
 
-smugmug: XKFt7R
+prod_shots: XKFt7R
 ---
 
 Three Christmases. Three kitchens. Three couples. A 'tragi-comedy' focusing on the importance of an outwardly appearing happy marriage in the 1970s, conveyed through behind-the-scenes disasters at Christmas parties. A charcter based cast including a multitude of emotions but if nothing else, laughter.

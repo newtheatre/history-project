@@ -80,7 +80,7 @@ assets:
   - type: poster
     image: boeing_boeing_poster.jpg
 
-smugmug: mFhRGn
+prod_shots: mFhRGn
 ---
 
 Bernard has got three fiancées. They’re all airhostesses for different airlines and their timetables work out perfectly so none of them realise the others exist. One day an old friend turns up out of the blue and things couldn’t be jollier. But severe weather plays havoc with both the airlines’ and Bernard’s timetables. Chaos and hilarity, inevitably, ensue
