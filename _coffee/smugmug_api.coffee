@@ -13,13 +13,13 @@ fetch_sm = (url, callback) ->
 fill_album_list = (albums) ->
   ret = $("#smug-albums").html()
   $(albums).each (i, album) ->
-    ret += "<tr class=\"album-row\" data-key=\"#{ album["AlbumKey"] }\"><td>#{ i+1 }</td><td>#{ album["Name"] }</td><td>#{ album["AlbumKey"] }</td><td>#{ album["ImageCount"] }</td><td class=\"usage\">?</td></tr>\n"
+    ret += "<tr class=\"album-row\" data-key=\"#{ album["AlbumKey"] }\"><td>#{ i+1 }</td><td><a href=\"#{ album['WebUri'] }\" class=\"usage-link\">#{ album["Name"] }</a></td><td>#{ album["AlbumKey"] }</td><td>#{ album["ImageCount"] }</td><td class=\"usage\">?</td></tr>\n"
   $("#smug-albums").html(ret)
 
 fill_image_list = (images) ->
   ret = $("#smug-images").html()
   $(images).each (i, image) ->
-    ret += "<tr><td>#{ i+1 }</td><td><img src=\"#{ image["ThumbnailUrl"] }\" alt=\"Thumb\"/><td>#{ image["Title"] }</td><td>#{ image["FileName"] }</td><td>#{ image["ImageKey"] }</tr>\n"
+    ret += "<tr><td>#{ i+1 }</td><td><a href=\"#{ image['WebUri'] }\"><img src=\"#{ image["ThumbnailUrl"] }\" alt=\"Thumb\"/></a><td>#{ image["Title"] }</td><td>#{ image["FileName"] }</td><td><a href=\"#{ image['WebUri'] }\" class=\"usage-link\">#{ image["ImageKey"] }</a></td></tr>\n"
   $("#smug-images").html(ret)
 
 fetch_album_list = (callback) ->
@@ -34,7 +34,7 @@ fetch_album_list = (callback) ->
 
 add_used_album_data = (albums) ->
   $.each albums, (albumKey, show) ->
-    $("[data-key=#{albumKey}] .usage").html("Y").addClass("yes")
+    $("[data-key=#{albumKey}] .usage").html("<a href=\"#{ show['link'] }\" class=\"usage-link\">Y</a>").addClass("yes")
 
 $(document).ready ->
   if $('body').hasClass 'util-smug-albums'
