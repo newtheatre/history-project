@@ -63,6 +63,7 @@ cast:
     name: Andrew Batty
   - role: "glad-Hand"
     name: Malcolm Rothera
+  - name: Christopher Wix
 crew:
   - role: Director
     name: Kate McIntyre
@@ -119,5 +120,6 @@ crew:
   - role: "Special Thanks - for providing Beer Crates"
     name: Buttery Bar
     person: false
+  - name: Christopher Wix
 ---
 

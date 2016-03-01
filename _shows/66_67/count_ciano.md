@@ -8,5 +8,16 @@ date_start: 1966-06-26
 date_end: 1966-06-29
 venue: Trent Great Hall
 
-
+cast:
+ - role: Mussolini
+   name: Martin Lees
+ - role: The Italian Man
+   name: Roger Lancaster
+ - role: Count Ciano
+   name: Tim Daniels
+ - role: Adolph Hitler
+   name: Dick Downing
+ - name: Jo Roselman
+ - name: Fidel Backhouse
+ - name: John Turner
 ---
