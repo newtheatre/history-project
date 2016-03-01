@@ -1,0 +1,16 @@
+// .big-icon
+//
+// show a big icon in the centre of the container, probably unsuitable for
+// small screens
+
+.big-icon
+  text-align: center
+  pointer-events: none
+
+  display: none
+  @include respond-up(tab-port)
+    display: block
+
+  i
+    font-size: 12em
+    opacity: 0.03
