@@ -14,7 +14,7 @@ If you have photographs or other media relating to past shows or activities of t
 ## Biography headshots
 
 <div class="upload-box right">
-  <a href="https://photos.newtheatre.org.uk/upload/hZh8Jt/headshots" target="_blank" class="button-upload button">Upload headshot <i class="ion-ios-arrow-right"></i></a>
+  <a href="https://newtheatre.smugmug.com/upload/hZh8Jt/headshots" target="_blank" class="button-upload button">Upload headshot <i class="ion-ios-arrow-right"></i></a>
 </div>
 
 For inclusion on your alumni biography. Please ensure your upload has a filename so we can identify you, such as `firstname_lastname.jpg`.
@@ -22,7 +22,7 @@ For inclusion on your alumni biography. Please ensure your upload has a filename
 ## Show photographs and other
 
 <div class="upload-box right">
-  <a href="https://photos.newtheatre.org.uk/upload/7zcZFT/incoming" target="_blank" class="button-upload button">Upload photographs <i class="ion-ios-arrow-right"></i></a>
+  <a href="https://newtheatre.smugmug.com/upload/7zcZFT/incoming" target="_blank" class="button-upload button">Upload photographs <i class="ion-ios-arrow-right"></i></a>
 </div>
 
 Please let us know you're going to upload by sending a message using the <strong class="tag"><i class="octicon octicon-issue-opened"></i> Report This Page</strong> on the page the images pertain to. Files should have sensible filenames so we know which show they go with.
