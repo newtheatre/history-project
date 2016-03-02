@@ -102,6 +102,11 @@ class Smug
   end
 
   def get_show_photos(albumID, site)
+    if not api_key
+      Jekyll.logger.error "SM Skip:",  "No API key"
+      return nil
+    end
+
     fn = "#{ cache_dir }/#{ albumID }.json"
     album = nil
 
