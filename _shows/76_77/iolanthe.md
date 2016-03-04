@@ -187,15 +187,15 @@ crew:
 
 assets:
   - type: programme
-    filename: iolanthe_1.pdf
+    filename: iolanthe_1.PDF
     title: Programme Page 1
   - type: programme
-    filename: iolanthe_2.pdf
+    filename: iolanthe_2.PDF
     title: Programme Page 2
   - type: programme
-    filename: iolanthe_3.pdf
+    filename: iolanthe_3.PDF
     title: Programme Page 3
   - type: programme
-    filename: iolanthe_4.pdf
+    filename: iolanthe_4.PDF
     title: Programme Page 4
 ---
