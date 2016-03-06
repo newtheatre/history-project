@@ -28,7 +28,7 @@ crew:
 - role: Producer
   name: Lydia Smith
 - role: Production Assistant
-  name: GiGi George
+  name: Gigi George
 - role: Lighting Designer
   name: James Fox
 - role: Technical Director
