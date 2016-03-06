@@ -19,8 +19,8 @@ cast:
    name: Sophie Walton
  - role: Sylvia Shaw
    name: Lou Knapp
- - role: Vickie Martin
-   name: Sasha Butler
+ - role: Doris Judd
+   name: Gigi George
  - role: Vickie Martin
    name: Sasha Butler
 
