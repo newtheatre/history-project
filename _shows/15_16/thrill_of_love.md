@@ -64,6 +64,8 @@ crew:
  - role: Poster Designer
    name: Aneesa Kaleem
 
+prod_shots: L6sBnf
+
 ---
 
 London, 1955. Britain, its empire and economy in chaos, struggles to rebuild itself from the ashes of the Second World War. On Easter Sunday, 28 year-old Ruth Ellis shoots her boyfriend dead. She offers no defence at her trial and becomes, despite public outcry, the last woman to be hanged in Britain. It is up to the troubled Inspector Gale to navigate the violent, exploitative underworld of post-war London to uncover the truth behind the murder. Based on true events, The Thrill of Love offers an unflinching insight into the treatment of women by the Western justice system.
