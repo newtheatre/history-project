@@ -8,16 +8,11 @@ date_start: 2015-08-08
 date_end: 2015-08-28
 venue: ZOO Monkeyhouse
 cast:
-  - role:
-    name: Ricki Crook
-  - role:
-    name: Holly Gatfield
-  - role:
-    name: Amy Brough-Aikin
-  - role:
-    name: Jonathan Taylor Davies
-  - role:
-    name: Arnaud Lacey
+  - name: Ricki Crook
+  - name: Holly Gatfield
+  - name: Amy Brough-Aikin
+  - name: Jonathan Taylor Davies
+  - name: Arnaud Lacey
 
 crew:
   - role: Director
