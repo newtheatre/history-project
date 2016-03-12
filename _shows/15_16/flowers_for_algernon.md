@@ -34,8 +34,6 @@ crew:
    name: Shannon Moffat
  - role: Design Assistant
    name: Josh Mallalieu
- - role: Technical Director
-   name: James Fox
  - role: Lighting Designer
    name: Joseph Heil
  - role: Sound Designer
