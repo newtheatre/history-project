@@ -22,7 +22,6 @@ gems:
 - jekyll-sitemap
 - jekyll-redirect-from
 - jekyll-coffeescript
-- jekyll-jsminify
 
 exclude:
 - vendor
