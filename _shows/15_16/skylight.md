@@ -69,7 +69,7 @@ crew:
    name: Max Miller
 
 
-prod_shots: Nptrfc
+prod_shots: NptrFC
 ---
 
 Skylight begins with Kyra Hollis, a dutiful but impoverished Maths teacher, returning to her run down London flat expecting a banal night of homework marking and home cooked spaghetti bolognese. She is shocked however when Tom Sergeant, a wealthy restauranter whom she had an affair with three years ago, turns up at her flat requesting answers as to why she left him in the hope that he can rekindle their relationship. As they debate why they broke up, their arguments go on to ask more important questions about life - such as parenthood, the importance of personal satisfaction over that which you give others, the dichtomy between wealth and social welfare, and the problems which arise when individuals allow themselves to be defined too closely by their pasts.
