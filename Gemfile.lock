@@ -43,8 +43,6 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-coffeescript (1.0.1)
       coffee-script (~> 2.2)
-    jekyll-jsminify (0.3.0)
-      uglifier (~> 2.5)
     jekyll-redirect-from (0.9.1)
       jekyll (>= 2.0)
     jekyll-sass-converter (1.4.0)
@@ -94,13 +92,13 @@ DEPENDENCIES
   httparty
   jekyll (~> 3.1.0)
   jekyll-coffeescript
-  jekyll-jsminify
   jekyll-redirect-from
   jekyll-sitemap
   liquid-c
   mini_magick
   rake
   sass
+  uglifier (~> 2.7)
 
 BUNDLED WITH
    1.11.2
