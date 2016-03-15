@@ -13,6 +13,10 @@ assets:
 
 cast:
    - name: Richard Simpson
+
+crew:
+  - role: Technical Manager
+    name: Chris Toms
 ---
 
 About the murderer John Christie.

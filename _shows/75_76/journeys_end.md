@@ -5,6 +5,14 @@ period: Autumn
 playwright: R.C.Sherriff
 season_sort: 40
 venue: New Theatre
+
+crew:
+  - role: Lighting Designer
+    name: Chris Toms
+  - role: Sound Designer
+    name: Peter Hart
+
+prod_shots: 5KMVL7
 ---
 
 Journey's End is a 1928 drama, the seventh of English playwright R. C. Sherriff.

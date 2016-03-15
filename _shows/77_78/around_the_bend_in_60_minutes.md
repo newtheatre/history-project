@@ -12,6 +12,8 @@ cast:
   - name: Tim Killick
 
 crew:
+  - role: Technical Manager
+    name: Chris Toms
   - role: Stage Manager
     name: Patrick Grice
   - role: ASM
@@ -33,6 +35,8 @@ assets:
   - type: programme
     filename: ntg_review_1978_program.pdf
     title: Programme
+
+prod_shots: n3btsV
 ---
 
 NTG's late night review at the Edinburgh Fringe.

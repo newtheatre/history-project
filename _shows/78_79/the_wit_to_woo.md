@@ -9,6 +9,10 @@ playwright: Mervyn Peake
 cast:
   - name: Scott Cherry
 
+crew:
+  - role: Technical Manager
+    name: Chris Tom
+
 prod_shots: dxHWH3
 ---
 

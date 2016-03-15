@@ -11,6 +11,8 @@ cast:
   - name: Peter Holdway
 
 crew:
+  - role: Technical Manager
+    name: Chris Toms
   - role: Musical Director
     name: Graeme Belchere
   - role: Band
@@ -21,6 +23,8 @@ crew:
     name: Alison Scarr
   - role: Band
     name: Peter Sells
+
+prod_shots: hwHJMV
 
 comment: Children's muscial.
 ---

@@ -5,6 +5,8 @@ period: Autumn
 playwright: Robert Bolt
 season_sort: 40
 venue: New Theatre
+
+prod_shots: 3zGbRg
 ---
 
 A Man For All Seasons is a play by Robert Bolt.
