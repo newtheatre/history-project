@@ -1,5 +1,5 @@
-require 'html/proofer'
 require 'uglifier'
+require 'html-proofer'
 
 def nthp()
   puts "       _   _ ______ _  _ ____   "
@@ -56,9 +56,9 @@ task :debug do
 end
 
 task :test do
-  HTML::Proofer.new("./_site", {
+  HTMLProofer::check_directory("./_site", {
     :file_ignore => [/.*\/lib\/.*/],
-    :parallel => { :in_processes => 4},
+    :parallel => { :in_processes => 4 },
     :cache => { :timeframe => '2w' },
   }).run
   sh "jsonlint -q ./_site/feeds/search.json"
