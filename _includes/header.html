@@ -1,4 +1,5 @@
 <header class="site-header" role="banner">
+
   <div class="wrapper">
     <a class="site-title" href="{{ site.baseurl }}/">
       <img src="/images/logo.png" alt="The New Theatre logo, a purple square with a smaller orange square on its top left corner." class="site-title-logo" />
@@ -16,6 +17,7 @@
         </a>
       {% endfor %}
     </nav>
+
     <div class="site-search" role="search">
       {% if page.url != "/search/" %}
       <form method="get" action="/search" data-search-form>
@@ -26,4 +28,5 @@
       {% endif %}
     </div>
   </div>
+
 </header>
