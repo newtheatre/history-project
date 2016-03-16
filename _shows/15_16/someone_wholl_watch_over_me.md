@@ -16,7 +16,7 @@ cast:
  - role: Adam Canning
    name: "Gil Eplan-Frankel"
  - role: Edward Sheridan
-   name: "Chris Sharpe-Paul"
+   name: "Chris Sharp-Paul"
  - role: Michael Watters
    name: Sam Peake
 
