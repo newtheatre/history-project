@@ -1,9 +1,9 @@
 ---
 title: Doctor Faustus
 playwright: Christopher Marlowe
-season: In House
-season_sort: 1
-period: Autumn
+season: Lakeside
+season_sort: 150
+period: Spring
 venue: Djanogly Theatre
 date_start: 2003-06-04
 date_end: 2003-06-07

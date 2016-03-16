@@ -2,7 +2,7 @@
 title: "'Crave' and 'The Ruffian On The Stair'"
 playwright: Joe Orton, Sarah Kane
 season: In House
-season_sort: 1
+season_sort: 150
 period: Spring
 venue: New Theatre
 date_start: 2003-06-04

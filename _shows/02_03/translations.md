@@ -2,7 +2,7 @@
 title: Translations
 playwright: Brian Friel
 season: In House
-season_sort: 1
+season_sort: 100
 period: Spring
 venue: New Theatre
 date_start: 2003-03-18

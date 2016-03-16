@@ -1,11 +1,11 @@
 ---
 published: true
 season: In House
-period: Autumn
+period: Spring
 playwright: James Ashton
 venue: New Theatre
 title: Oberonicus
-season_sort: 30
+season_sort: 200
 cast:
   - role: Shakespeare
     name: Matt Jones

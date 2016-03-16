@@ -2,7 +2,7 @@
 title: Bedroom Farce
 playwright: Alan Ayckbourn
 season: In House
-season_sort: 1
+season_sort: 140
 period: Spring
 venue: New Theatre
 date_start: 2003-04-30
