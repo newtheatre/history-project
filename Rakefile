@@ -2,11 +2,11 @@ require 'uglifier'
 require 'html-proofer'
 
 def nthp()
-  puts "       _   _ ______ _  _ ____   "
-  puts "      / | / /_  __/ / / / __ \\ "
-  puts "     /  |/ / / / / /_/ / /_/ /  "
-  puts "    / /|  / / / / __  / ____/   "
-  puts "   /_/ |_/ /_/ /_/ /_/_/        "
+  puts "     _   _ ______ _  _ ____   "
+  puts "    / | / /_  __/ / / / __ \\ "
+  puts "   /  |/ / / / / /_/ / /_/ /  "
+  puts "  / /|  / / / / __  / ____/   "
+  puts " /_/ |_/ /_/ /_/ /_/_/        "
   puts ""
 end
 
@@ -28,7 +28,7 @@ def jsminify(fn)
 end
 
 def logline(line)
-  ds = (34 - line.length - 2) / 2
+  ds = (72 - line.length - 2) / 2
   d = "+" * ds
   puts "#{d} #{line} #{d}"
 end
@@ -56,10 +56,12 @@ task :debug do
 end
 
 task :test do
+  logline "HTML TEST"
   HTMLProofer::check_directory("./_site", {
     :file_ignore => [/.*\/lib\/.*/],
     :parallel => { :in_processes => 4 },
     :cache => { :timeframe => '2w' },
   }).run
+  logline "JSON LINT"
   sh "jsonlint -q ./_site/feeds/search.json"
 end

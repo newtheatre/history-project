@@ -184,8 +184,8 @@ module Jekyll
     def generate_show_with_index(show, index)
       # Set sort dependant attributes
       show.data["index"] = index
-      show.data["next"] = @shows[index + 1]
-      show.data["previous"] = @shows[index - 1]
+      show.data["seq_next"] = @shows[index + 1]
+      show.data["seq_previous"] = @shows[index - 1]
 
       # Extract cast/crew data for reverse indexing, this wants to happen to
       # the sorted shows so lists on people records are in order
@@ -193,7 +193,7 @@ module Jekyll
       send_people(show, "crew")
     end
 
-    def sort_shows_by_year(shows)
+    def hash_shows_by_year(shows)
       """Returns a hash of shows by year"""
       shows_by_year = Hash.new
       # Iterate through sorted shows
@@ -213,16 +213,16 @@ module Jekyll
       @people = @site.collections["people"].docs
 
       # Compute extra show data attributes and sort, get list of shows
-      @shows = sort_shows(
-        @site.collections["shows"].docs.each { |show| generate_show(show) }
-      )
+      @shows = @site.collections["shows"].docs.each { |show| generate_show(show) }
+
+      @shows = sort_shows(@shows)
 
       # Compute extra show data attributes that require sorting to have happened
       @shows.each_with_index { |show, index| generate_show_with_index(show, index) }
 
       # Accessible chopped and diced shows
       @site.data["shows"] = @shows
-      @site.data["shows_by_year"] = sort_shows_by_year(@shows)
+      @site.data["shows_by_year"] = hash_shows_by_year(@shows)
 
     end
   end

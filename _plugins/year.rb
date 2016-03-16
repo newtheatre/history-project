@@ -84,8 +84,8 @@ module Jekyll
       add_to_years_by_decade(year)
 
       year.data["committee"] = @site.data["committees_by_year"][year_slug]
-      year.data["next"] = @years[index + 1]
-      year.data["previous"] = @years[index - 1]
+      # year.data["seq_next"] = @years[index + 1]
+      # year.data["seq_previous"] = @years[index - 1]
       year.data["shows"] = @site.data["shows_by_year"][year_slug]
 
       # Yucky ruby syntax, if not empty assign size, otherwise 0 cos no shows

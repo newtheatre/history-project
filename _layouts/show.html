@@ -8,8 +8,8 @@ layout: default
   <div class="breadcrumb-inner">
 
     <div class="breadcrumb-controls">
-      <a {% if show.previous %}href="{{ show.previous.url }}" class="enabled"{% else %}href="{{ show.year_page.url }}" class="disabled"{% endif %} title="Previous Show"><i class="ion-chevron-left"></i></a>
-      <a {% if show.next %}href="{{show.next.url}}" class="enabled"{% else %}href="{{ show.year_page.url }}" class="disabled"{% endif %} title="Next Show"><i class="ion-chevron-right"></i></a>
+      <a {% if show.seq_previous %}href="{{ show.seq_previous.url }}" class="enabled"{% else %}href="{{ show.year_page.url }}" class="disabled"{% endif %} title="Previous Show"><i class="ion-chevron-left"></i></a>
+      <a {% if show.seq_next %}href="{{ show.seq_next.url }}" class="enabled"{% else %}href="{{ show.year_page.url }}" class="disabled"{% endif %} title="Next Show"><i class="ion-chevron-right"></i></a>
     </div>
 
     <ul class="breadcrumb-list">
@@ -52,6 +52,7 @@ layout: default
   <div class="show-wrap show-row">
     <div class="show-info">
       <header class="show-header">
+        <div class="debug-abs-top-left" data-debug-toggle title="season_sort Number">{{ show.season_sort }}</div>
         <h1 class="show-title">{{ show.title }}</h1>
 
         <div class="meta-row">
@@ -260,6 +261,6 @@ layout: default
 <script type="text/javascript">
 // Reversed to make sense with direction
 var jekyll_page_up = "/years/{{ show.year }}";
-var jekyll_page_previous = "{{ show.previous.url }}";
-var jekyll_page_next = "{{ show.next.url }}";
+var jekyll_page_previous = "{{ show.seq_previous.url }}";
+var jekyll_page_next = "{{ show.seq_next.url }}";
 </script>
