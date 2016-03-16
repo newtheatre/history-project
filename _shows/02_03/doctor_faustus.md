@@ -1,6 +1,7 @@
 ---
 title: Doctor Faustus
 playwright: Christopher Marlowe
+company: The BAR Production Co.
 season: Lakeside
 season_sort: 150
 period: Spring
