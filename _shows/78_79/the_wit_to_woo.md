@@ -11,7 +11,7 @@ cast:
 
 crew:
   - role: Technical Manager
-    name: Chris Tom
+    name: Chris Toms
 
 prod_shots: dxHWH3
 ---
