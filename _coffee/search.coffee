@@ -103,3 +103,6 @@ class SearchResultView
 $(document).ready ->
   if $('body').hasClass 'search'
     loadIndex()
+    urlQ = getUrlParameter('q')
+    if urlQ != null
+      $('#q').val urlQ

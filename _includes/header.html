@@ -18,15 +18,24 @@
       {% endfor %}
     </nav>
 
-    <div class="site-search" role="search">
+    {% if page.url != "/search/" %}
+    <div id="site-search-show" class="site-search-show">
+      <i class="ion-search"></i>
+    </div>
+    {% endif %}
+
+    <div id="site-search" class="site-search" role="search">
       {% if page.url != "/search/" %}
       <form method="get" action="/search" data-search-form>
         <label for="q" class="access-hidden">Search</label>
+        <i class="ion-search"></i>
         <input type="search" name="q" id="q" placeholder="Search" data-search-input class="site-search-input" />
         <input type="submit" value="Search" class="site-search-submit" />
       </form>
       {% endif %}
     </div>
+
+    <div id="site-search-bg" class="elem-hidden modal-bg"></div>
   </div>
 
 </header>
