@@ -2,18 +2,16 @@
 layout: default
 title: Search
 editable: false
-body_class: search
+body_class: header-nobr search
 sitemap: false
 search: false
 ---
 
 <div class="search-form">
-  <div class="search-form-title">
-    <h1><i class="fa fa-search"></i></h1>
-  </div>
   <!-- Search form -->
   <form method="get" action="/search" data-search-form>
-  <div class="search-form-text">
+  <div class="search-form-inner">
+    <i class="ion-search"></i>
     <input class="search-q" type="search" name="q" id="q" placeholder="Enter search term" data-search-input />
   </div>
   </form>

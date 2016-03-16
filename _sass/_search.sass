@@ -1,35 +1,49 @@
 // Search
 
-body.search
-  .site-header
-    margin-bottom: 0
-
 .search-form
-  background: $color-grey-dark
   @include grid-wrap
   @include block
-  padding-top: $baseline
-  padding-bottom: $baseline
-  .search-form-title
-    @include grid-x-col(3)
+  position: relative
+  background: $color-grey-dark
 
-  .search-form-text
-    // Same as h1 baseline to match icon
-    line-height: $baseline * 3
-    input, .button
-      font-size: $base-font-size * 1.2
-      padding: $baseline / 4
-      line-height: $baseline
+  padding-top: $baseline / 2
+  padding-bottom: $baseline / 2
+
+  font-size: 1.5rem
+  line-height: 1em
+
+  @include respond-up(tab-port)
+    padding-top: $baseline
+    padding-bottom: $baseline
+
+    font-size: 2rem
+
+  .search-form-inner
+    @include set-property-to-gutter(padding-right)
+
+    i
+      position: absolute
+      font-size: 1.2em
+      line-height: 1.6em
+
+    .search-q
       width: 100%
 
-  .search-form-text
-    @include grid-x-col(13)
+      font-size: 1em
+      padding: $baseline / 4
+      padding-left: 1.5em
 
-  .search-q
-    background: none
-    color: $color-text-white
-    border: 2px $color-text-white solid
-    border-radius: 2px
+      background: none
+      color: $color-text-white
+
+      border: none
+      border-bottom: 1px solid $color-white
+      margin-bottom: 1px
+
+      @include no-focus
+      &:focus
+        border-bottom-width: 2px
+        margin-bottom: 0px
 
 .search-results
   @include grid-wrap

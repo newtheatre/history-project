@@ -1,6 +1,8 @@
 // Header
 
 .site-header
+  position: relative
+
   padding: $baseline/2 0 0 0
   margin-bottom: $baseline
   background: $color-background-alt
@@ -116,12 +118,12 @@ $title-text-baseline: 1.2
 
       i
         display: block
-        font-size: 2rem
-        padding-bottom: 1rem
+        font-size: 1.5rem
+        padding-bottom: 0.7rem
 
       .page-link-text
         display: block
-        line-height: 1em
+        line-height: 0.9em
 
       &.current
         background: darken($color-nnt-purple, 10%)
@@ -137,29 +139,89 @@ $title-text-baseline: 1.2
         // White underline for hover and current focus state
         border-bottom: 2px solid $color-text-white
 
-.site-search
-  @include grid-x-col(3)
-  text-align: right
-  line-height: $nav-height
+.site-search-show
+  position: absolute
+  right: 0
+  top: 0
 
+  font-size: 1.4rem
+  padding: 0.1rem 1rem
+
+  @include respond-up(tab-port)
+    display: none
+
+.site-search
   @include respond-down(mob-land)
-    display: none // HACK
+    // display: none // H
+    position: fixed
+    width: 100%
+    top: 0
+    left: 0
+
+    z-index: 110
+
+    transform: translateY(-4em)
+    transition: transform 0.3s ease-out
+
+    background: $color-white
+
+    i
+      color: $color-text-black
+      opacity: 0.5
+      font-size: 2rem
+      top: 0.15em
+      left: 0.25em
+
+  @include respond-up(tab-port)
+    @include grid-x-col(3)
+    position: relative
+    text-align: right
+    line-height: $nav-height
+
+    i
+      color: $color-text-white
+      font-size: 1.2rem
+      left: .5rem
+
+  &.elem-show
+    transform: translateY(0em)
+
+  i
+    position: absolute
+
+.search-bg
+  @extend .report-bg
 
 .site-search-input
-  padding: 6px
-  background: $color-background
-  border: 1px solid $color-nnt-purple
-  color: $color-text-white
+  color: $color-text-black
   width: 100%
-  padding-left: 32px
 
-  background: url('/images/search-18.png') no-repeat
-  background-position: 6px
+  font-size: 1rem
+  padding: 1em
+  padding-left: 2.5em
+
+  border: none
 
   @include placeholder
-    color: rgba($color-text-white, 0.25)
+    color: rgba($color-text-black, 0.3)
+
+  @include no-focus
+
+  @include respond-up(tab-port)
+    padding: 6px
+    padding-left: 32px
+
+    border: 1px solid $color-nnt-purple
+    color: $color-text-white
+    background: none
+
+    font-size: 0.9rem
+
+    @include placeholder
+      color: rgba($color-text-white, 0.25)
+
+    // Re-enable as disable by default
+    @include block-focus
 
 .site-search-submit
   display: none
-
-
