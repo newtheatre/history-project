@@ -1,6 +1,41 @@
-languages:
-  Ruby: true
-  JavaScript: true
-
+---
+engines:
+  shellcheck:
+    enabled: true
+  markdownlint:
+    enabled: true
+  bundler-audit:
+    enabled: true
+  csslint:
+    enabled: true
+  coffeelint:
+    enabled: true
+  scss-lint:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+      - javascript
+      - python
+  fixme:
+    enabled: true
+  radon:
+    enabled: true
+  rubocop:
+    enabled: true
+ratings:
+  paths:
+  - Gemfile.lock
+  - "**.css"
+  - "**.coffee"
+  - "**.inc"
+  - "**.module"
+  - "**.py"
+  - "**.rb"
+  - "**.sass"
+  - "**.scss"
 exclude_paths:
-- "lib/*"
+- node_modules/
+- lib/
