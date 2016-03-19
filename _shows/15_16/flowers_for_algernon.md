@@ -29,7 +29,7 @@ crew:
  - role: Director
    name: Emily Sterling
  - role: Producer
-   name: Eden Philips Harrington
+   name: Eden Phillips Harrington
  - role: Production Assistant
    name: Shannon Moffat
  - role: Design Assistant
