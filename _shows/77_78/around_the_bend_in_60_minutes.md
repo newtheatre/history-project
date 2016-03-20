@@ -1,9 +1,15 @@
 ---
 title: Around the Bend in 60 Minutes
+playwright: Howard Bird, Crispin Harris and Tim Killick
 season: Edinburgh
 period: Edinburgh
 season_sort: 400
 venue: Cephas Cellar
+
+canonical:
+  - playwright: Howard Bird
+  - playwright: Crispin Harris
+  - playwright: Tim Killick
 
 cast:
   - name: Crispin Harris
@@ -12,16 +18,42 @@ cast:
   - name: Tim Killick
 
 crew:
-  - role: Technical Manager
-    name: Chris Toms
-  - role: Stage Manager
-    name: Patrick Grice
-  - role: ASM
-    name: Alison Lumb
+  - role: Director
+    name: Matthew Bannister
+  - role: Composer
+    name: Michael Szpakowski
+  - role: Pianist
+    name: Adrian Bassett
   - role: Pianist
     name: Alison Lumb
   - role: Bass
     name: Peter Sells
+  - role: Stage Manager
+    name: Patrick Grice
+  - role: ASM
+    name: Alison Lumb
+  - role: ASM
+    name: Ruth McNally
+  - role: ASM
+    name: Fran Casey
+  - role: ASM
+    name: Julie Cope
+  - role: Technical Manager
+    name: Chris Toms
+  - role: Technical Crew
+    name: Lynne Harrison
+  - role: Technical Crew
+    name: Clive Loughlin
+  - role: Technical Crew
+    name: Andy Moseley
+  - role: Technical Crew
+    name: Pete Wasylko
+  - role: Set Construction
+    name: Patrick Grice
+  - role: Set Construction
+    name: Vernon Larcombe
+  - role: Administrator
+    name: Rosemary Farrar
 
 assets:
   - type: flyer
