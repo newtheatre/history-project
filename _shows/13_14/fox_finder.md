@@ -46,6 +46,8 @@ crew:
     name: Tyler-Antonia Gordon
   - role: Technical Operator
     name: Tom Gloess
+  - role: Hair and Make-Up
+    name: Page Phillips Harrington
 
 assets:
   - type: poster

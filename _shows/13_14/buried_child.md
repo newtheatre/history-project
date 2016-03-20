@@ -53,6 +53,8 @@ crew:
     name: Rachel Lee
   - role: Technical Operator
     name: Tom Gloess
+  - role: Publicity Manager
+    name: Page Phillips Harrington
   - role: Publicity Designer
     name: Ben Hollands
 

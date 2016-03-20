@@ -41,6 +41,8 @@ crew:
     name: Lydia Scott
   - role: Technical Director
     name: Joseph Heil
+  - role: Technical Operator
+    name: Page Phillips Harrington
   - role: Set Designer
     name: Natasha Mortimer
   - role: Stage Manager
