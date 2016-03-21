@@ -26,6 +26,8 @@ cast:
   name: Joe Biccaragie
 
 crew:
+  - role: Director
+    name: Matthew Bannister
   - role: Lighting Designer
     name: Chris Toms
 ---

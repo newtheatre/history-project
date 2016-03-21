@@ -6,7 +6,14 @@ playwright: R.C.Sherriff
 season_sort: 40
 venue: New Theatre
 
+cast:
+  - name: Nick Frost
+  - name: Matthew Bannister
+  - name: Ed Nally
+
 crew:
+  - role: Director
+    name: Hugh Simon
   - role: Lighting Designer
     name: Chris Toms
   - role: Sound Designer
