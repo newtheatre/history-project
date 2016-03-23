@@ -39,7 +39,7 @@ crew:
   - role: Technical Operator
     name: Lyle Fulton
   - role: Technical Operator
-    name: Dan Turke
+    name: Dan Turek
   - role: Technical Operator
     name: Claire Nias
   - role: Technical Operator

@@ -21,7 +21,7 @@ cast:
  - role: Professor Nemur
    name: Ben Dillon
  - role: Dr Strauss
-   name: Rob Goodall
+   name: Robert Goodall
  - role: Alberta
    name: Darcey Graham
 

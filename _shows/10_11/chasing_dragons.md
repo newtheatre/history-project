@@ -13,7 +13,7 @@ cast:
   - role: Edward Maris
     name: Tom Walsh
   - role: Jane Maris
-    name: Becky Catlin
+    name: Rebecca Catlin
   - role: Sally Goddard
     name: Hannah Dale
   - role: Underthorn

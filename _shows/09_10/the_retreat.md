@@ -25,5 +25,5 @@ cast:
 
 crew:
  - role: Director
-   name: Becky Catlin
+   name: Rebecca Catlin
 ---
