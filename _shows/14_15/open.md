@@ -30,13 +30,13 @@ assets:
   - type: poster
     image: open_fringe.jpg
   - type: flyer
-    filename: Open Flyer Back FINAL.pdf
-    title: Back of Flyer
-  - type: flyer
-    filename: Open Flyer Front.pdf
+    filename: open_front_flyer.pdf
     title: Front of Flyer
+  - type: flyer
+    filename: open_back_flyer.pdf
+    title: Back of Flyer
   - type: poster
-    filename: Open Poster Front.pdf
+    filename: open_poster.pdf
     title: Edinburgh Poster
 
 prod_shots: 4VFmSk
