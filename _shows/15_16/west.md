@@ -36,6 +36,10 @@ crew:
   name: Rachel Angeli
 - role: Producer
   name: Jessica Millott
+  note: NNT
+- role: Producer
+  name: Emma Kendall
+  note: NSDF
 - role: Lighting Designer
   name: Will Pimblett
 - role: Technical Director
@@ -56,13 +60,16 @@ crew:
   name: Beth Wilson
 - role: Stage Manager
   name: James Gray
+- role: Stage Manager
+  name: Natalia Gonzalez
+  note: NSDF
 - role: Poster Designer
   name: Max Miller
 
 tour:
 - venue: NSDF 2016
-- date_start:
-- date_end:
+  date_start: 2016-03-24
+  note: Awards for Shannon Smith, Becca Jones and James Roscow
 
 assets:
   - type: poster
