@@ -11,8 +11,10 @@ venue: PAS, Trent Building
 
 tour:
 - venue: NSDF 2016
-- date_start:
-- date_end:
+  date_start: 2016-03-20
+  date_end: 2016-03-22
+  note: Award for James Roscow
+
 
 cast:
   - role: Inspector Carmen McGraw
