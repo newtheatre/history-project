@@ -1,6 +1,9 @@
 engines:
   shellcheck:
     enabled: true
+    checks:
+      SC2039:
+        enabled: false
   # markdownlint:
   #   enabled: true
   bundler-audit:

@@ -3,11 +3,11 @@
 # Only deploy if not PR
 if [[ $TRAVIS_PULL_REQUEST = "false" && $TRAVIS_BRANCH = "master" ]]
   then
-  cd _site
+  cd _site || exit
 
   git init
   git checkout -b gh-pages
-  git remote add origin https://${GH_TOKEN}@github.com/newtheatre/history-project-gh-pages.git
+  git remote add origin "https://${GH_TOKEN}@github.com/newtheatre/history-project-gh-pages.git"
 
   # commit and push generated content to built branch
   # since remote was added with token auth - we can push there
