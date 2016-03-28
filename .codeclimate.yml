@@ -36,6 +36,9 @@ ratings:
   - "**.rb"
   - "**.sass"
   - "**.scss"
+  - "**.md"
 exclude_paths:
 - node_modules/
 - lib/
+- assets/
+- images/
