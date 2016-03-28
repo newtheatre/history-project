@@ -1,9 +1,8 @@
----
 engines:
   shellcheck:
     enabled: true
-  markdownlint:
-    enabled: true
+  # markdownlint:
+  #   enabled: true
   bundler-audit:
     enabled: true
   csslint:
