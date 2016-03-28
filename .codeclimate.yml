@@ -25,8 +25,11 @@ engines:
     enabled: true
   radon:
     enabled: true
+    exclude_fingerprints:
+    - 1365834d5e34d87fd4ff8ea7c3c25d3e
   rubocop:
     enabled: true
+
 ratings:
   paths:
   - Gemfile.lock
@@ -39,6 +42,7 @@ ratings:
   - "**.sass"
   - "**.scss"
   - "**.md"
+
 exclude_paths:
 - node_modules/
 - lib/
