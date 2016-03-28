@@ -2,13 +2,13 @@
 
 # Resize everything to a max width of 2000 pixels
 
-cd images/
+cd images/ || exit
 
 mkdir for_shows_process/
 cp for_shows_uncompressed/* for_shows_process/
 
 # Lowercase ONLY
-find for_shows_process/ -depth -exec rename 's/(.*)\/([^\/]*)/$1\/\L$2/' {} \;
+find for_shows_process/ -depth -exec rename "s/(.*)\/([^\/]*)/$1\/\L$2/" {} \;
 
 # Convert PNG to JPEG and remove PNGs
 find for_shows_process/ -name "*.png" -exec mogrify -format jpg {} \;
