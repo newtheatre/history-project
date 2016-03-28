@@ -19,7 +19,7 @@ fill_album_list = (albums) ->
 fill_image_list = (images) ->
   ret = $("#smug-images").html()
   $(images).each (i, image) ->
-    ret += "<tr><td>#{ i+1 }</td><td><a href=\"#{ image['WebUri'] }\"><img src=\"#{ image["ThumbnailUrl"] }\" alt=\"Thumb\"/></a><td>#{ image["Title"] }</td><td>#{ image["FileName"] }</td><td><a href=\"#{ image['WebUri'] }\" class=\"usage-link\">#{ image["ImageKey"] }</a></td></tr>\n"
+    ret += "<tr><td>#{ i+1 }</td><td><a href=\"#{ image['WebUri'] }\"><img src=\"#{ image["ThumbnailUrl"] }\" alt=\"Thumb\"/></a><td>#{ image["Title"] }</td><td>#{ image["FileName"] }</td><td>#{ image["ImageKey"] }</td></tr>\n"
   $("#smug-images").html(ret)
 
 fetch_album_list = (callback) ->
