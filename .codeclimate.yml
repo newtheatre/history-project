@@ -41,3 +41,4 @@ exclude_paths:
 - lib/
 - assets/
 - images/
+- _sass/_fancybox.scss
