@@ -2,6 +2,7 @@
 title: James McAndrew
 submitted: 2015-11-03
 gender: male
+headshot: 5GmrwHr
 course:
   - Film and Television
 graduated: 2014

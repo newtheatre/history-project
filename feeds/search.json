@@ -34,7 +34,7 @@ layout: null
         "title": {{ person.title | jsonify }},
         "type": "person",
         "excerpt": {{ person.content | strip_html | truncatewords: 50 | jsonify}},
-        {% if person.headshot %}{% capture headshot_path %}people/{{ person.headshot }}{% endcapture %}{% capture image_tag %}{% image show_poster_thumb_sr {{headshot_path}} %}{% endcapture %}"poster_thumb_tag": "<a href='{{person.url}}'>{{ image_tag | replace: '"', "'" }}</a>",{% endif %}
+        {% if person.headshot %}"poster_thumb_tag": "<a href='{{person.url}}'><img src='{{person.headshot.person_search}}' class='search-result-poster-thumb' alt='{{person.name}}' /></a>",{% endif %}
         "graduated": {{ person.graduated | jsonify }},
         "award": {{ person.award | jsonify }},
         "link": {{ person.url | jsonify }}

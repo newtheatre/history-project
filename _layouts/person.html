@@ -14,9 +14,9 @@ layout: default
   <header class="person-header">
     <div class="person-headshot">
       {% if person.headshot %}
-      {% image person_headshot people/{{ person.headshot }} class="person-headshot-actual" alt="{{ person.title }}" %}
+        <img src="{{ person.headshot.person_bio }}" alt="{{ person.title }}" class="person-headshot-actual" />
       {% else %}
-      <img class="person-headshot-placeholder" src="/images/human-512-cropped.png" alt="Human silhouette" />
+        <img class="person-headshot-placeholder" src="/images/human-512-cropped.png" alt="Human silhouette" />
       {% endif %}
     </div>
 
