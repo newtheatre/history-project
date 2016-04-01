@@ -30,7 +30,7 @@ class SmugImage < Smug
     Jekyll.logger.info "Fetching SM Image:", "#{ @imageID }, many sizes"
     url = api_url("image/#{ @imageID }!sizedetails")
     data = self.class.get(url)
-    if data.key? "Response"
+    if data.key? "Response" and data["Response"].key? "ImageSizeDetails"
       return data["Response"]["ImageSizeDetails"]
     else
       Jekyll.logger.error "SM Error:", "Invalid ImageSizeDetails response"

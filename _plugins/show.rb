@@ -167,12 +167,7 @@ module Jekyll
       show.data["assets"] ||= []
       show.data["assets"].each do |asset|
         if asset.key? "image"
-          # FIXME remove this check once all the show files are up to date, PR #556
-          if not asset["image"].index(".")
-            asset["image"] = SmugImage.new(asset["image"])
-          else
-            asset["image"] = nil
-          end
+          asset["image"] = SmugImage.new(asset["image"])
         end
       end
 
