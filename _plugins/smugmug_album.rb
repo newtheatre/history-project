@@ -1,3 +1,8 @@
+# SmugAlbum
+# Author: Will Pimblett, October 2015
+#
+# Fetches SmugMug albums for Jekyll sites. We use for production shot galleries.
+
 require_relative 'smugmug'
 
 class SmugAlbum < Smug
@@ -74,46 +79,16 @@ class SmugAlbum < Smug
     end
   end
 
-  def get_show_photos(albumID, site)
-    if not api_key
-      Jekyll.logger.error "SM Skip:",  "No API key"
-      return nil
-    end
+  def get_show_photos(albumID)
+    # Attempt fetch from cache
+    album = cache_fetch(albumID)
 
-    fn = "#{ cache_dir }/#{ albumID }.json"
-    album = nil
-
-    if File.exist?(fn)
-      # Album cached, load that
-      # puts "Loading album #{ albumID } from local cache"
-      cache_file = File.open(fn, "r")
-
-      if cache_file.ctime < cache_invalid_time
-        # Delete and do over as cache invalid
-        cache_file.close
-        File.delete(fn)
-        return get_show_photos(albumID, site)
-      else
-        # Cache valid, use that
-        album = JSON.load(cache_file)
-      end
-
-    elsif not site.config['skip_smugmug']
-      # No cache, do properly
+    if not album and api_key
+      # Not in cache, fetch new and save to cache
       album = fetch_album(albumID)
-
-      if album
-        # Don't save failed attempts
-        Dir.mkdir(cache_dir) unless File.directory?(cache_dir)
-        File.open(fn, "w") do |new_cache_file|
-          JSON.dump(album, new_cache_file)
-        end
-      end
-    elsif site.config['skip_smugmug']
-      Jekyll.logger.info "SM Skip:",  "Skipping due to config setting"
-    else
-      Jekyll.logger.info "SM Skip:",  "Skipping album #{albumID}"
-      album = nil
+      if album then cache_save(albumID, album) end
+    elsif not album and not api_key
+      Jekyll.logger.error "SM Skip:",  "No API key"
     end
 
     return album

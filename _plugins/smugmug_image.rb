@@ -25,11 +25,7 @@ class SmugImage < Smug
   end
 
   def fetchImageSizeDetails
-    if not api_key
-      Jekyll.logger.error "SM Skip:",  "No API key"
-      return nil
-    end
-
+    # Fetch ISD from API
     Jekyll.logger.info "Fetching SM Image:", "#{ @imageID }, many sizes"
     url = api_url("image/#{ @imageID }!sizedetails")
     data = self.class.get(url)
@@ -40,8 +36,23 @@ class SmugImage < Smug
     end
   end
 
+  def getImageSizeDetails
+    # Attempt fetch from cache
+    isd = cache_fetch(@imageID)
+
+    if not isd and api_key
+      # Not in cache, fetch new and save to cache
+      isd = fetchImageSizeDetails
+      if isd then cache_save(@imageID, isd) end
+    elsif not isd and not api_key
+      Jekyll.logger.error "SM Skip:",  "No API key"
+    end
+
+    return isd
+  end
+
   def imageSizeDetails
-    @isd ||= fetchImageSizeDetails
+    @isd ||= getImageSizeDetails
   end
 
   def getSize(size)

@@ -105,7 +105,7 @@ module Jekyll
     def get_show_smugmug(show)
       if show.data.key? "prod_shots"
         smugalbum = SmugAlbum.new
-        return smugalbum.get_show_photos(show.data["prod_shots"], @site)
+        return smugalbum.get_show_photos(show.data["prod_shots"])
       else
         return nil
       end
