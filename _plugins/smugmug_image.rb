@@ -7,6 +7,7 @@ require_relative 'smugmug'
 
 class SmugImage < Smug
 
+  # See http://help.smugmug.com/customer/portal/articles/93250
   SIZES = [
     'ImageSizeTiny',
     'ImageSizeThumb',
@@ -79,6 +80,11 @@ class SmugImage < Smug
         "x2large" => getSize("ImageSizeX2Large"),
         "x3large" => getSize("ImageSizeX3Large"),
         "original" => getSize("ImageSizeOriginal"),
+
+        "poster_thumb" => customSize("33x44!"),
+        "poster_search" => customSize("128x162"),
+        "poster_grid" => customSize("200x282!"),
+        "poster_large" => customSize("440x622"),
 
         "person_list" => customSize("41x41!"),
         "person_bio" => customSize("160x160!"),

@@ -163,6 +163,19 @@ module Jekyll
       # Generate the legacy path for 301 redirect re. #142 Make semantic and pretty urls
       show.data["redirect_from"] = get_show_legacy_paths(show)
 
+      # Replace assets' image attr with a SmugImage
+      show.data["assets"] ||= []
+      show.data["assets"].each do |asset|
+        if asset.key? "image"
+          # FIXME remove this check once all the show files are up to date, PR #556
+          if not asset["image"].index(".")
+            asset["image"] = SmugImage.new(asset["image"])
+          else
+            asset["image"] = nil
+          end
+        end
+      end
+
       # Set the show poster attribute, see #117
       display_image = get_show_display_image(show)
       show.data["poster"] = display_image
