@@ -83,7 +83,7 @@ class SmugAlbum < Smug
     fn = "#{ cache_dir }/#{ albumID }.json"
     album = nil
 
-    if File.exists?(fn)
+    if File.exist?(fn)
       # Album cached, load that
       # puts "Loading album #{ albumID } from local cache"
       cache_file = File.open(fn, "r")
@@ -105,8 +105,8 @@ class SmugAlbum < Smug
       if album
         # Don't save failed attempts
         Dir.mkdir(cache_dir) unless File.directory?(cache_dir)
-        File.open(fn, "w") do |cache_file|
-          JSON.dump(album, cache_file)
+        File.open(fn, "w") do |new_cache_file|
+          JSON.dump(album, new_cache_file)
         end
       end
     elsif site.config['skip_smugmug']

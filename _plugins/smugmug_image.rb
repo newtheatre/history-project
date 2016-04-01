@@ -30,7 +30,7 @@ class SmugImage < Smug
       return nil
     end
 
-    Jekyll.logger.info "Fetching SM Image#{}:", "#{ @imageID }, many sizes"
+    Jekyll.logger.info "Fetching SM Image:", "#{ @imageID }, many sizes"
     url = api_url("image/#{ @imageID }!sizedetails")
     data = self.class.get(url)
     if data.key? "Response"
