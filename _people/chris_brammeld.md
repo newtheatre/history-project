@@ -7,8 +7,6 @@ course:
 graduated: 2004
 contact_allowed: true
 links:
-  - type: Personal Website
-    href: "http://www.chrisbrammeldmusic.com"
   - type: Twitter
     username: bramcomposer
   - type: Personal Website
