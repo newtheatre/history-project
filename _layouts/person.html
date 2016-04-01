@@ -134,7 +134,7 @@ layout: default
       <div class="person-show-poster">
         <a href="{{ record.item.url }}" title="{{ record.item.title }}">
         {% if record.item.poster %}
-          <img src="{{ show.poster.image.poster_grid }}" alt="{{ show.title }} poster" />
+          <img src="{{ record.item.poster.image.poster_grid }}" alt="{{ record.item.title }} poster" />
         {% else %}
           <!-- Missing Poster -->
         {% endif %}
