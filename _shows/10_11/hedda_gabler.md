@@ -32,7 +32,7 @@ crew:
 
 assets:
   - type: poster
-    image: hedda_gabler_2010-11.jpg
+    image: NPqzTXM
 
 published: true
 

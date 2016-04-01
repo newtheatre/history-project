@@ -63,7 +63,7 @@ crew:
 
 assets:
   - type: poster
-    image: stags_and_hens_poster_cropped.jpg
+    image: TbJsdg6
 
 prod_shots: FB65P2
 

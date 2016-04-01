@@ -9,7 +9,7 @@ venue: New Theatre
 
 assets:
   - type: poster
-    image: the_reviewers_poster.jpg
+    image: N8wq98S
 
 ---
 

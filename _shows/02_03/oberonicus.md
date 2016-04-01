@@ -65,10 +65,10 @@ crew:
 
 assets:
   - type: programme
-    image: oberonicus_programme_1.jpg
+    image: cGW7F3B
     page: 1
   - type: programme
-    image: oberonicus_programme_2.jpg
+    image: k7hPHtS
     page: 2
 
 ---

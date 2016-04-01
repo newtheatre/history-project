@@ -21,5 +21,5 @@ name: Liz Stevenson
 
 assets:
   - type: poster
-    image: holy_matrimony_2011.jpg
+    image: b8S3kr5
 ---

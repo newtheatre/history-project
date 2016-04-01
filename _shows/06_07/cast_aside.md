@@ -10,5 +10,5 @@ date_end: 2007-02-02
 
 assets:
   - type: poster
-    image: cast_aside.jpg
+    image: gDw5cnx
 ---

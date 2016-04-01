@@ -63,24 +63,24 @@ crew:
 
 assets:
   - type: poster
-    image: innocent_infidelity_poster.jpg
+    image: KR2cTRG
   - type: programme
-    image: innocent-infidelity-programme-1.jpg
+    image: z8hTnTr
     page: 1
   - type: programme
-    image: innocent-infidelity-programme-2.jpg
+    image: vtPMZ4J
     page: 2
   - type: programme
-    image: innocent-infidelity-programme-3.jpg
+    image: gQXfdtv
     page: 3
   - type: programme
-    image: innocent-infidelity-programme-4.jpg
+    image: 6Wp5LJc
     page: 4
   - type: programme
-    image: innocent-infidelity-programme-5.jpg
+    image: xwff6sd
     page: 5
   - type: programme
-    image: innocent-infidelity-programme-6.jpg
+    image: B86XVns
     page: 6
 
 prod_shots: DnKhwP

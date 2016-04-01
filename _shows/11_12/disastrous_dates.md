@@ -41,6 +41,6 @@ crew:
 
 assets:
   - type: poster
-    image: disastrous_dates.jpg
+    image: fqKFCWV
 
 ---

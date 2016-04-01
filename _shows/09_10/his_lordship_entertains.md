@@ -46,7 +46,7 @@ crew:
 
 assets:
   - type: poster
-    image: his_lordship_entertains_2009-10.jpg
+    image: vf2VHh6
 
 published: true
 ---

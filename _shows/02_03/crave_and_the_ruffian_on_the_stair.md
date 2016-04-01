@@ -64,13 +64,13 @@ crew:
 
 assets:
   - type: poster
-    image: crave_and_ruffian_poster.jpg
+    image: S5FgQ5c
   - type: poster
-    image: the_ruffian_on_the_stair_poster.jpg
+    image: r8cGpFZ
   - type: programme
-    image: crave_and_ruffian_programme_1.jpg
+    image: MzcPXqb
   - type: programme
-    image: crave_and_ruffian_programme_2.jpg
+    image: zQT2dbt
 
 published: true
 ---

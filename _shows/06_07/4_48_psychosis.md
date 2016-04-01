@@ -10,7 +10,7 @@ date_end: 2006-12-09
 
 assets:
   - type: poster
-    image: 448_psychosis.jpg
+    image: t3vNdDS
 
 prod_shots: 6F3ctk
 ---

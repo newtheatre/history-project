@@ -11,7 +11,7 @@ venue: New Theatre Studio A
 
 assets:
   - type: poster
-    image: ambergate.jpg
+    image: 8gkppBh
 
 cast:
  - role: Christine

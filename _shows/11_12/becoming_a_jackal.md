@@ -25,6 +25,6 @@ crew:
 
 assets:
   - type: poster
-    image: becoming_a_jackal.jpg
+    image: NRSqdxF
 
 ---

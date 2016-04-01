@@ -33,7 +33,7 @@ crew:
 
 assets:
   - type: poster
-    image: eight_2012-13.jpg
+    image: Z7brV7W
 
 prod_shots: ZHGQTg
 ---

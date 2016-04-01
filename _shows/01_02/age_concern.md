@@ -32,9 +32,9 @@ crew:
 
 assets:
   - type: programme
-    image: age_concern_programme_1.jpg
+    image: Mh8Kx4b
   - type: programme
-    image: age_concern_programme_2.jpg
+    image: PHnKjcT
 ---
 
 24 Hour Play

@@ -40,7 +40,7 @@ crew:
 
 assets:
   - type: poster
-    image: dinner_2009-10.jpg
+    image: NvZ3DFZ
 
 published: true
 ---

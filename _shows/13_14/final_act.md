@@ -55,7 +55,7 @@ crew:
 
 assets:
   - type: poster
-    image: final_act_poster.jpg
+    image: 9szH4tS
 
 ---
 

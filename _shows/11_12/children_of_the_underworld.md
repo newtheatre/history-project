@@ -10,7 +10,7 @@ date_end: 2012-02-13
 
 assets:
   - type: poster
-    image: children_of_the_underworld_2011-12.jpg
+    image: SdbtBqR
 ---
 
 Vallance and Shipman in association with The New Theatre

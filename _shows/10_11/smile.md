@@ -24,7 +24,7 @@ crew:
 
 assets:
   - type: poster
-    image: smile_2010-11.jpg
+    image: gFrFKx5
 
 published: true
 

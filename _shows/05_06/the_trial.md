@@ -11,5 +11,5 @@ date_end: 2006-06-10
 
 assets:
   - type: poster
-    image: thetrialposter.jpg
+    image: jFd6Gzf
 ---

@@ -60,9 +60,9 @@ prod_shots: DhnJMK
 
 assets:
   - type: poster
-    image: pillowman_poster.jpg
+    image: XJZCPfW
   - type: flyer
-    image: pillowman_flyer_2.jpg
+    image: XKsW92t
   - type: programme
     filename: the_pillowman_programme.pdf
     title: Programme

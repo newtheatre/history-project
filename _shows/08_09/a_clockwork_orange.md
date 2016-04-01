@@ -10,7 +10,7 @@ date_end: 2008-11-01
 
 assets:
   - type: poster
-    image: a_clockwork_orange_poster_2008.jpg
+    image: HRfjFr7
 ---
 
 

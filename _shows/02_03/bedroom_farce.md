@@ -48,11 +48,11 @@ crew:
 
 assets:
   - type: poster
-    image: bedroom_farce_poster.jpg
+    image: k7tCJCr
   - type: programme
-    image: bedroom_farce_programme_1.jpg
+    image: 8q5RNB9
   - type: programme
-    image: bedroom_farce_programme_2.jpg
+    image: SfQRvzJ
 
 
 published: true

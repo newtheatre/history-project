@@ -14,9 +14,9 @@ layout: default
   <header class="person-header">
     <div class="person-headshot">
       {% if person.headshot %}
-      {% image person_headshot people/{{ person.headshot }} class="person-headshot-actual" alt="{{ person.title }}" %}
+        <img src="{{ person.headshot.person_bio }}" alt="{{ person.title }}" class="person-headshot-actual" />
       {% else %}
-      <img class="person-headshot-placeholder" src="/images/human-512-cropped.png" alt="Human silhouette" />
+        <img class="person-headshot-placeholder" src="/images/human-512-cropped.png" alt="Human silhouette" />
       {% endif %}
     </div>
 
@@ -134,7 +134,7 @@ layout: default
       <div class="person-show-poster">
         <a href="{{ record.item.url }}" title="{{ record.item.title }}">
         {% if record.item.poster %}
-          {% image person_show_poster for_shows/{{ record.item.poster.image }} alt="{{ record.item.title }} poster" %}
+          <img src="{{ record.item.poster.image.poster_grid }}" alt="{{ record.item.title }} poster" />
         {% else %}
           <!-- Missing Poster -->
         {% endif %}

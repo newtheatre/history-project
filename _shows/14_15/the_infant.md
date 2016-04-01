@@ -60,7 +60,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_infant_poster.jpg
+    image: 583KrF4
 
 prod_shots: XxgxsK
 ---

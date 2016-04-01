@@ -49,7 +49,7 @@ crew:
 
 assets:
   - type: poster
-    image: memory_of_water_poster.jpg
+    image: BLBgZWm
 
 prod_shots: pkW8Vv
 ---

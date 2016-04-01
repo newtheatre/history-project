@@ -74,11 +74,11 @@ crew:
 
 assets:
   - type: poster
-    image: rhinoceros_poster.jpg
+    image: r8xWsHz
   - type: poster
-    image: rhinoceros_poster_2.jpg
+    image: SVhSc3c
   - type: poster
-    image: rhinoceros_poster_3.jpg
+    image: Lg2x2Cm
 
 prod_shots: Tz3wCC
 ---

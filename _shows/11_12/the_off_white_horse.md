@@ -34,7 +34,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_off_white_horse_poster.jpg
+    image: 9qnRcDS
 
 prod_shots: MqcWrs
 ---

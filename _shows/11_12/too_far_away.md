@@ -32,7 +32,7 @@ crew:
 
 assets:
   - type: poster
-    image: too_far_away_poster.jpg
+    image: n8VBLKk
 
 prod_shots: 8tcnFz
 ---

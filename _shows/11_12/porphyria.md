@@ -12,7 +12,7 @@ date_end: 2012-08-20
 
 assets:
   - type: poster
-    image: porphyria.jpg
+    image: bxqQf9h
 
 cast:
   - role: Reginald Blake

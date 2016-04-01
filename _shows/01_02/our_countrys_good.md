@@ -70,10 +70,10 @@ crew:
 
 assets:
   - type: programme
-    image: our_countrys_good_01_programme_1.jpg
+    image: BkhL2sk
     page: 1
   - type: programme
-    image: our_countrys_good_01_programme_2.jpg
+    image: TZ6smcD
     page: 2
 
 ---

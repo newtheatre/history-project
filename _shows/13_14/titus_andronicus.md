@@ -97,7 +97,7 @@ crew:
 
 assets:
   - type: poster
-    image: titus_andronicus_poster.jpg
+    image: Cp2CBh9
 
 prod_shots: tW92hS
 

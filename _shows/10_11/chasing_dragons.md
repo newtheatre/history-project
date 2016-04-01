@@ -29,7 +29,7 @@ crew:
 
 assets:
   - type: poster
-    image: chasing_dragons.jpg
+    image: DF9fsRr
 ---
 Charming. Alarming. Disarming.
 

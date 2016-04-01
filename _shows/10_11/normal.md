@@ -28,7 +28,7 @@ crew:
 
 assets:
   - type: poster
-    image: normal_2010-11.jpg
+    image: RdckhKd
 
 published: true
 

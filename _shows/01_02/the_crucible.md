@@ -117,13 +117,13 @@ crew:
 
 assets:
   - type: programme
-    image: the_crucible_programme_1.jpg
+    image: 2NVVg5n
     page: 1
   - type: programme
-    image: the_crucible_programme_2.jpg
+    image: RRG27Rx
     page: 2
   - type: programme
-    image: the_crucible_programme_3.jpg
+    image: XVdgvht
     page: 3
 
 ---

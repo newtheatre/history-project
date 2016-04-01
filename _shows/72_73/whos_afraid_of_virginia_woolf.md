@@ -8,10 +8,10 @@ venue: New Theatre
 
 assets:
   - type: programme
-    image: whos_afraid_of_virginia_woolf_progamme_1.jpg
+    image: 9ZQ5vqX
     page: 1
   - type: programme
-    image: whos_afraid_of_virginia_woolf_progamme_2.jpg
+    image: FMHCXtB
     page: 2
 
 ---

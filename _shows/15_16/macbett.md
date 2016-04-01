@@ -108,7 +108,7 @@ crew:
 
 assets:
   - type: poster
-    image: macbett.jpg
+    image: rKRHmq7
 
 prod_shots: KgHbCr
 ---

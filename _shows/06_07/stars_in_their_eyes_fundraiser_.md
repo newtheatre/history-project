@@ -8,7 +8,7 @@ venue: New Theatre
 
 assets:
   - type: poster
-    image: stars_2007.jpg
+    image: nvLGZQS
 
 prod_shots: Wrw4Jg
 ---

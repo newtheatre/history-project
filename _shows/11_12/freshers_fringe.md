@@ -13,5 +13,5 @@ prod_shots: x6s4R2
 
 assets:
   - type: poster
-    image: freshers_fringe_2011.jpg
+    image: dVFFLDd
 ---

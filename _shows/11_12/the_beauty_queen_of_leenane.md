@@ -18,7 +18,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_beauty_queen_of_leenane_poster.jpg
+    image: NTKL53t
 
 prod_shots: MLs3Sn
 ---

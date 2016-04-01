@@ -10,7 +10,7 @@ venue: New Theatre
 
 assets:
   - type: poster
-    image: the_seagull_postgrads.jpg
+    image: T7m2gSb
 ---
 
 

@@ -50,7 +50,7 @@ crew:
 
 assets:
   - type: poster
-    image: bed.jpg
+    image: 2NBKC8r
   - type: programme
     filename: bed_programme.pdf
     title: Programme

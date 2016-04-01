@@ -46,13 +46,13 @@ crew:
 
 assets:
   - type: programme
-    image: the_homecoming_programme_1.jpg
+    image: kQfkzFK
     page: 1
   - type: programme
-    image: the_homecoming_programme_2.jpg
+    image: NpBnsSS
     page: 2
   - type: programme
-    image: the_homecoming_programme_3.jpg
+    image: Rq8s7fh
     page: 3
 
 published: true

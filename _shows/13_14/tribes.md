@@ -54,7 +54,7 @@ crew:
 
 assets:
   - type: poster
-    image: tribes_poster.jpg
+    image: XcCJJsT
 
 prod_shots: Gt964M
 ---

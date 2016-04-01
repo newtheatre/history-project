@@ -40,13 +40,13 @@ crew:
 
 assets:
   - type: programme
-    image: educating_rita_programmme_1.jpg
+    image: NnVFL9Z
     page: 1
   - type: programme
-    image: educating_rita_programmme_2.jpg
+    image: 9HprZWv
     page: 2
   - type: programme
-    image: educating_rita_programmme_3.jpg
+    image: 8pcXsN2
     page: 3
 
 published: true

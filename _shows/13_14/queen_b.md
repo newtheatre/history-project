@@ -33,19 +33,19 @@ crew:
 
 assets:
   - type: poster
-    image: queen_b_poster.jpg
+    image: s8ZX4c8
   - type: banner
-    image: queen_b_pub_1.jpg
+    image: rFCP4X2
   - type: logo
-    image: queen_b_pub_2.jpg
+    image: crgNtbK
   - type: banner
-    image: queen_b_pub_3.jpg
+    image: ZSFcK4X
   - type: flyer
     page: 1
-    image: queen_b_pub_4.jpg
+    image: 2SNpcsw
   - type: flyer
     page: 2
-    image: queen_b_pub_5.jpg
+    image: FpFqfzx
 
 prod_shots: WGPL3j
 ---

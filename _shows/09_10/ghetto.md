@@ -58,7 +58,7 @@ crew:
 
 assets:
   - type: poster
-    image: ghetto_2009-10.jpg
+    image: KG7MmgG
 
 published: true
 ---

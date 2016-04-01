@@ -28,13 +28,8 @@ crew:
 
 assets:
   - type: poster
-    image: wild_west_end_poster_small.jpg
-
-photos:
-  - type: people
-    image: wild_west_end_people.jpg
+    image: Jk8jmRF
 
 prod_shots: 9CnkkD
-
 ---
 

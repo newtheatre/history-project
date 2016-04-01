@@ -36,7 +36,7 @@ crew:
 
 assets:
   - type: poster
-    image: beef_edinburgh_2011.jpg
+    image: fDGJ9M5
 ---
 “I don’t know what you think is going to happen, it’s just a bit of rain”
 

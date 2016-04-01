@@ -9,5 +9,5 @@ date_end: 2012-05-15
 
 assets:
   - type: poster
-    image: antigone_2011-12.jpg
+    image: rPwWNW3
 ---

@@ -27,7 +27,7 @@ crew:
 
 assets:
   - type: poster
-    image: caucasian_chalk_circle_2010-11.jpg
+    image: rGHnv93
 
 published: true
 

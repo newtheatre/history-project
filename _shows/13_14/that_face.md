@@ -44,7 +44,7 @@ crew:
 
 assets:
   - type: poster
-    image: that_face_poster.jpg
+    image: M3gcbf4
 
 ---
 

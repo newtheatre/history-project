@@ -49,24 +49,24 @@ crew:
 
 assets:
   - type: poster
-    image: faust_is_dead_poster.jpg
+    image: LcwmWhf
   - type: programme
-    image: faust-is-dead-programme-1.jpg
+    image: RjKW4fQ
     page: 1
   - type: programme
-    image: faust-is-dead-programme-2.jpg
+    image: tHJ4wkS
     page: 2
   - type: programme
-    image: faust-is-dead-programme-3.jpg
+    image: VkgRdJV
     page: 3
   - type: programme
-    image: faust-is-dead-programme-4.jpg
+    image: nWpxRcJ
     page: 4
   - type: programme
-    image: faust-is-dead-programme-5.jpg
+    image: 9rWK2GG
     page: 5
   - type: programme
-    image: faust-is-dead-programme-6.jpg
+    image: TddVn5B
     page: 6
 
 prod_shots: gZXJhk

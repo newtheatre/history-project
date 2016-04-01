@@ -20,12 +20,12 @@ venue: unknown
 
 assets:
   - type: poster
-    image: vatzlav_poster.jpg
+    image: JBkwhQs
   - type: programme
-    image: vatzlav_programme_1.jpg
+    image: zdXKmK4
     page: 1
   - type: programme
-    image: vatzlav_programme_2.jpg
+    image: rhPTsms
     page: 2
 
 ---

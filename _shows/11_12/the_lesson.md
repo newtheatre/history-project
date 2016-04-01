@@ -10,5 +10,5 @@ date_end: 2012-03-20
 
 assets:
   - type: poster
-    image: the_lesson_uncut_2011-12.jpg
+    image: GM3TNcM
 ---

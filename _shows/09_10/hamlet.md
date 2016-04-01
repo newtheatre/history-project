@@ -43,7 +43,7 @@ crew:
 
 assets:
   - type: poster
-    image: hamlet_2009-10.jpg
+    image: JKqTV85
 
 published: true
 ---

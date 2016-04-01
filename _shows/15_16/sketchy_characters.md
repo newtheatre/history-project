@@ -43,7 +43,7 @@ crew:
 
 assets:
   - type: poster
-    image: sketchy_characters.jpg
+    image: RLwSppJ
 
 prod_shots: PLjpNs
 ---

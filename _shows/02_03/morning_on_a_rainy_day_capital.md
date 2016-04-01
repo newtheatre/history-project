@@ -51,13 +51,13 @@ venue: New Theatre
 season_sort: 40
 assets:
   - type: programme
-    image: morning_on_a_rainy_day_programme_1.jpg
+    image: VxbkxfK
     page: 1
   - type: programme
-    image: morning_on_a_rainy_day_programme_2.jpg
+    image: NmGpfxZ
     page: 2
   - type: programme
-    image: morning_on_a_rainy_day_programme_3.jpg
+    image: MPJ6Wcc
     page: 3
 ---
 

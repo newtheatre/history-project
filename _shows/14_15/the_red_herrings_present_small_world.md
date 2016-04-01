@@ -10,7 +10,7 @@ venue: New Theatre
 
 assets:
   - type: poster
-    image: red_herrings_small_world_poster.jpg
+    image: jNttcGX
 ---
 
 From your suggestions comes a world unlike anything ever seen before (or after). Watch in delight as UoN Improv society's Red Herrings create astonishing worlds, whimsical characters, and heartwarming relationships of front of your very eyes.

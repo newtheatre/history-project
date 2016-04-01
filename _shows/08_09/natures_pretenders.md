@@ -21,5 +21,5 @@ crew:
 
 assets:
   - type: poster
-    image: natures_pretenders_2008-09.jpg
+    image: v8wKrxF
 ---

@@ -20,7 +20,7 @@ cast:
 
 assets:
   - type: poster
-    image: popcorn.jpg
+    image: tLWL9Tg
 
 prod_shots: c7H5NP
 ---

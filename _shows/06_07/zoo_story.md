@@ -10,7 +10,7 @@ date_end: 2007-03-17
 
 assets:
   - type: poster
-    image: zoostoryposter.jpg
+    image: DcqNvVt
 
 prod_shots: Wh4bZc
 ---

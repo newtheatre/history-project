@@ -9,7 +9,7 @@ layout: null
         "title": {{show.title | jsonify}},
         "type": "show",
         {% assign posters = show.assets | where:'type', 'poster' %}
-        {% if show.poster %}{% capture poster_path %}for_shows/{{ show.poster.image }}{% endcapture %}{% capture image_tag %}{% image show_poster_thumb_sr {{poster_path}} %}{% endcapture %}"poster_thumb_tag": "<a href='{{show.url}}'>{{ image_tag | replace: '"', "'" }}</a>",{% endif %}
+        {% if show.poster %}"poster_thumb_tag": "<a href='{{show.url}}'><img src='{{ show.poster.image.poster_search }}' class='search-result-poster-thumb' alt='{{ show.title }} poster' /></a>",{% endif %}
         {% assign year_page = site.pages | where: "group", "year" | where: "year", show.year %}
         "year_title": {{ show.year_page.title | jsonify }},
         "content": {{ show.content | markdownify | strip_html | jsonify }},
@@ -34,7 +34,7 @@ layout: null
         "title": {{ person.title | jsonify }},
         "type": "person",
         "excerpt": {{ person.content | strip_html | truncatewords: 50 | jsonify}},
-        {% if person.headshot %}{% capture headshot_path %}people/{{ person.headshot }}{% endcapture %}{% capture image_tag %}{% image show_poster_thumb_sr {{headshot_path}} %}{% endcapture %}"poster_thumb_tag": "<a href='{{person.url}}'>{{ image_tag | replace: '"', "'" }}</a>",{% endif %}
+        {% if person.headshot %}"poster_thumb_tag": "<a href='{{person.url}}'><img src='{{person.headshot.person_search}}' class='search-result-poster-thumb' alt='{{person.name}}' /></a>",{% endif %}
         "graduated": {{ person.graduated | jsonify }},
         "award": {{ person.award | jsonify }},
         "link": {{ person.url | jsonify }}

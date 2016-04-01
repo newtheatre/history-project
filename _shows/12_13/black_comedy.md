@@ -59,7 +59,7 @@ crew:
 
 assets:
   - type: poster
-    image: black_comedy_poster.jpg
+    image: LFgJS8X
 
 prod_shots: QjMHKp
 ---

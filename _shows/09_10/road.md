@@ -25,7 +25,7 @@ crew:
 
 assets:
   - type: poster
-    image: road_2009-10.jpg
+    image: 8QFkVcv
 
 published: true
 ---

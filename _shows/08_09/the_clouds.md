@@ -21,5 +21,5 @@ crew:
 
 assets:
   - type: poster
-    image: the_clouds_2008-09.jpg
+    image: xnNQ4JV
 ---

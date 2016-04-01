@@ -10,9 +10,9 @@ date_end: 2007-05-12
 
 assets:
   - type: poster
-    image: the_seagull_1.jpg
+    image: mxHBN6M
   - type: poster
-    image: the_seagull_2.jpg
+    image: FDJDq3z
 
 prod_shots: BXFNXd
 ---

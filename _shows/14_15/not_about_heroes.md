@@ -44,7 +44,7 @@ crew:
 
 assets:
   - type: poster
-    image: not_about_heroes_poster.jpg
+    image: NTvsBZ6
 
 prod_shots: hn8nZP
 ---

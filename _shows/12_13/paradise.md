@@ -29,6 +29,6 @@ crew:
 
 assets:
   - type: poster
-    image: paradise_poster.jpg
+    image: n3kjZhQ
 
 ---

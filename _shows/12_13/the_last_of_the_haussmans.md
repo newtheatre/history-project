@@ -37,7 +37,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_last_of_the_haussmans_2012-13.jpg
+    image: qtphrP4
 
 prod_shots: mD6gXn
 ---

@@ -43,7 +43,7 @@ crew:
 
 assets:
   - type: poster
-    image: clean_poster.jpg
+    image: 2MhH4dD
 
 ---
 An exploration of human waste and consumption. CLEAN is a synthesis of dance, monologue, poetry and rap exploring the lives of five young people obsessed with reputation. Focussed around a drug fuelled party, CLEAN explores the relationships between friends, the pressure of conformity and our personal histories that plague us.

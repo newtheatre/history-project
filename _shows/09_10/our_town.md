@@ -26,7 +26,7 @@ crew:
 
 assets:
   - type: poster
-    image: our_town_2009-10.jpg
+    image: m8gPPWR
 
 published: true
 

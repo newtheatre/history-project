@@ -28,7 +28,7 @@ crew:
 
 assets:
   - type: poster
-    image: osama_the_hero_poster_cropped.jpg
+    image: M2kCXPN
 
 prod_shots: gQdpgv
 

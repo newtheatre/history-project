@@ -30,7 +30,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_larimie_project_2010-11.jpg
+    image: gzmbvML
 
 published: true
 

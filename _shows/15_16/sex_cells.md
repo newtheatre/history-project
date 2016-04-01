@@ -82,7 +82,7 @@ crew:
 
 assets:
   - type: poster
-    image: sex_cells_poster.png
+    image: GdV8Sqx
 
 prod_shots: ZB3PM9
 ---

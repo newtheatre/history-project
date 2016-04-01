@@ -9,16 +9,14 @@ sort: 100
   <i class="fa fa-exclamation-triangle"></i> All show assets will be migrated to SmugMug soon, see [#515](https://github.com/newtheatre/history-project/issues/515).
 </div>
 
-Show records currently have a *'Publicity Materials'* and *'Production Shots'* section. Photos are stored in SmugMug albums, and publicity materials in the repo.
-
-For files in the repo image files are kept in the `images/for_shows/` folder whereas anything else (PDFs etc) are kept in `assets/for_shows/`.
+Show records currently have a *'Publicity Materials'* and *'Production Shots'* section. All images are stored in the [New Theatre SmugMug](https://photos.newtheatre.org.uk), other binaries are stored in the repo's `assets/for_shows/` folder.
 
 ## <i class="fa fa-tags"></i> Attribute Reference
 
 | Attribute | Job | Description |
 |:-|:-|:-|
 | `type` | Type of asset | The type of asset, the first of type *poster* will be used as the show's poster. List non-exhaustive, should be lowercase: *photo, poster, flyer, programme*. |
-| `image`<br />*(semi-optional)*| If image (JPG, PNG) the filename | Will look under `images/for_shows/`. |
+| `image`<br />*(semi-optional)*| The SmugMug ID of the image | Find IDs using the [show asset utility](/util/smug-show-assets/). |
 | `filename`<br />*(semi-optional)* | If non-image (PDF etc) the filename | Will look under `assets/for_shows/`. |
 | `title`<br />*(optional)* | Asset title | Is shown when graphical representation of file is not possible, required for PDF files and similar. |
 | `caption`<br />*(image only, optional)* | Image caption | Is shown when image is clicked on to make big. |
@@ -28,7 +26,6 @@ For files in the repo image files are kept in the `images/for_shows/` folder whe
 ## <i class="octicon octicon-code"></i> Example
 
 {% highlight yaml %}
-
 assets:
   - type: poster
     image: pillowman_poster.jpg

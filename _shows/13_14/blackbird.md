@@ -44,7 +44,7 @@ prod_shots: s4QTx7
 
 assets:
   - type: poster
-    image: blackbird_poster.jpg
+    image: xhLFfCb
 
 ---
 

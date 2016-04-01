@@ -36,7 +36,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_winterling_2009-10.jpg
+    image: pBP48xc
 
 published: true
 ---

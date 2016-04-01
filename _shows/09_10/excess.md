@@ -29,7 +29,7 @@ crew:
 
 assets:
   - type: poster
-    image: excess_2009-10.jpg
+    image: 9wjW4hX
 
 published: true
 

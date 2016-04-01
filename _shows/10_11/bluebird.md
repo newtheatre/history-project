@@ -36,7 +36,7 @@ crew:
 
 assets:
   - type: poster
-    image: bluebird_2010-11.jpg
+    image: ZncfGv3
 
 published: true
 

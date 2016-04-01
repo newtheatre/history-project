@@ -34,7 +34,7 @@ crew:
 
 assets:
   - type: poster
-    image: blithe_spirit_2009-10.jpg
+    image: gQwqXpq
 
 published: true
 ---

@@ -78,7 +78,7 @@ crew:
 
 assets:
   - type: poster
-    image: boeing_boeing_poster.jpg
+    image: fMtX5q6
 
 prod_shots: mFhRGn
 ---

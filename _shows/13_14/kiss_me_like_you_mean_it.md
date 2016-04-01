@@ -46,7 +46,7 @@ prod_shots: cR5dxw
 
 assets:
   - type: poster
-    image: kiss_me_like_you_mean_it_poster.jpg
+    image: zr5974Q
 
 ---
 

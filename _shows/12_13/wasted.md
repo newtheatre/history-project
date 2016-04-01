@@ -16,7 +16,7 @@ crew:
     name: Joseph Heil
 assets:
   - type: poster
-    image: wasted.jpg
+    image: gdbKnPW
 ---
 
 WASTED is the debut play by poet and rapper Kate Tempest. Following a critically acclaimed 42 date national tour and sold-out run at London's Roundhouse, WASTED is back on tour and heading to our very own little Nottingham New Theatre....

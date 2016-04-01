@@ -53,7 +53,7 @@ crew:
 
 assets:
   - type: poster
-    image: 1984_poster.jpg
+    image: zcmXrw7
 
 prod_shots: ZMVCKk
 ---

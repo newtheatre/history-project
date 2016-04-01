@@ -39,7 +39,7 @@ prod_shots: 42n8wt
 
 assets:
   - type: poster
-    image: back_to_oblivion_poster.jpg
+    image: cBv5mWL
 ---
 
 An unwelcome discovery has caused Gary to run from everything his life has become in the last year. He runs straight back to Andy, his estranged best mate, who is living in a smoky haze with his girlfriend Debbie and doing little else.

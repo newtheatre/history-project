@@ -70,7 +70,7 @@ crew:
 
 assets:
   - type: poster
-    image: view_poster.jpg
+    image: vnHsrmX
 
 prod_shots: RSgMvk
 ---

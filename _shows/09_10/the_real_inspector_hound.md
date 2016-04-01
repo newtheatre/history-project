@@ -58,7 +58,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_real_inspector_hound_2009-10.jpg
+    image: Lr5srb9
 
 published: true
 ---

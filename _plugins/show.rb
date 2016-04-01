@@ -104,8 +104,8 @@ module Jekyll
 
     def get_show_smugmug(show)
       if show.data.key? "prod_shots"
-        smug = Smug.new
-        return smug.get_show_photos(show.data["prod_shots"], @site)
+        smugalbum = SmugAlbum.new
+        return smugalbum.get_show_photos(show.data["prod_shots"])
       else
         return nil
       end
@@ -162,6 +162,14 @@ module Jekyll
 
       # Generate the legacy path for 301 redirect re. #142 Make semantic and pretty urls
       show.data["redirect_from"] = get_show_legacy_paths(show)
+
+      # Replace assets' image attr with a SmugImage
+      show.data["assets"] ||= []
+      show.data["assets"].each do |asset|
+        if asset.key? "image"
+          asset["image"] = SmugImage.new(asset["image"])
+        end
+      end
 
       # Set the show poster attribute, see #117
       display_image = get_show_display_image(show)

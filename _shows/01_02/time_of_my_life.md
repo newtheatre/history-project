@@ -64,13 +64,13 @@ crew:
 
 assets:
   - type: programme
-    image: time_of_my_life_programme_1.jpg
+    image: mSnbzPw
     page: 1
   - type: programme
-    image: time_of_my_life_programme_2.jpg
+    image: X52CLsQ
     page: 2
   - type: programme
-    image: time_of_my_life_programme_3.jpg
+    image: VFH2zdB
     page: 3
 
 ---

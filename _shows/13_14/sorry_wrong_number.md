@@ -50,7 +50,7 @@ crew:
 
 assets:
   - type: poster
-    image: sorry_wrong_number_poster.jpg
+    image: 5TktvjZ
 
 ---
 Mrs Stevenson is home all alone, unable to leave her bed, trying to get hold of her husband. Instead of hearing his comforting voice, she hears a murder plot. Armed with only a telephone she must race against time to stop a murder that affects her more than she knows...

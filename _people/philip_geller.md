@@ -2,7 +2,7 @@
 title: Philip Geller
 submitted: 2015-09-17
 gender: male
-headshot: phil_geller.jpg
+headshot: r7mQ7H6
 course:
   - Mechanical Engineering
 graduated: 2011

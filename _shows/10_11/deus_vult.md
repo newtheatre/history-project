@@ -31,7 +31,7 @@ crew:
 
 assets:
   - type: poster
-    image: deus_vult_2010-11.jpg
+    image: jc46gNp
 
 published: true
 

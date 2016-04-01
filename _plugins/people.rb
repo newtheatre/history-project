@@ -103,6 +103,11 @@ module Jekyll
         person.data["graduated_estimated"] = false
       end
 
+      # Replace headshots with SmugMug Images
+      if person.data["headshot"]
+        person.data["headshot"] = SmugImage.new(person.data["headshot"])
+      end
+
       # Person additional data
       person.data["path_name"] = make_hp_path(person.data["title"])
       person.data["decade"] = "#{person.data["graduated"]}"[0,3]

@@ -113,7 +113,7 @@ assets:
 
 assets:
   - type: poster
-    image: frankenstein_poster.jpg
+    image: GBVxfrt
 
 prod_shots: S4pKW6
 

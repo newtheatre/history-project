@@ -90,7 +90,7 @@ prod_shots: 92R66x
 
 assets:
   - type: poster
-    image: master.jpg
+    image: fgFWHzp
 
 ---
 

@@ -48,19 +48,19 @@ crew:
 
 assets:
   - type: programme
-    image: habeas_corpus_programme_1.jpg
+    image: MwLdd3H
     page: 1
   - type: programme
-    image: habeas_corpus_programme_2.jpg
+    image: WNS7b9K
     page: 2
   - type: programme
-    image: habeas_corpus_programme_3.jpg
+    image: MCvqf7S
     page: 3
   - type: programme
-    image: habeas_corpus_programme_4.jpg
+    image: jZfBx7L
     page: 4
   - type: programme
-    image: habeas_corpus_programme_5.jpg
+    image: 38tGgGB
     page: 5
 
 published: true

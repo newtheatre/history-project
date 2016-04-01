@@ -21,6 +21,6 @@ crew:
 
 assets:
   - type: poster
-    image: the_dumb_waiter_poster.jpg
+    image: W6wSwHK
 
 ---

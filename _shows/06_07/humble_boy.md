@@ -10,7 +10,7 @@ date_end: 2006-11-18
 
 assets:
   - type: poster
-    image: humble_boy.jpg
+    image: VtFQ3pS
 
 prod_shots: 9rBkt9
 ---

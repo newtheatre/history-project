@@ -66,7 +66,7 @@ crew:
 
 assets:
   - type: poster
-    image: judas_poster.jpg
+    image: PDnhhds
 
 prod_shots: Mn7LBT
 

@@ -30,5 +30,5 @@ crew:
 
 assets:
   - type: poster
-    image: the_last_5_years_2010-11.jpg
+    image: N8kFx8V
 ---

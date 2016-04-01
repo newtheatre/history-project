@@ -39,7 +39,7 @@ crew:
 
 assets:
   - type: poster
-    image: customs_poster.jpg
+    image: kqTZ3wC
 
 prod_shots: qHV3rs
 

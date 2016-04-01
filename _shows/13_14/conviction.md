@@ -30,7 +30,7 @@ crew:
 
 assets:
   - type: poster
-    image: conviction_poster.jpg
+    image: tmgCHHK
 
 prod_shots: X5XMTr
 

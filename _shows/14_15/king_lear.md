@@ -104,9 +104,9 @@ crew:
 
 assets:
   - type: poster
-    image: king_lear_poster.jpg
+    image: J4bNhcx
   - type: poster
-    image: king_lear_poster_2.jpg
+    image: JXCJvSX
 
 
 ---

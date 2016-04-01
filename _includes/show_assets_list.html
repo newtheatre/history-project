@@ -1,0 +1,32 @@
+<ul class="show-assets-list">
+{% for asset in include.assets %}
+
+  {% if asset.filename %}
+
+    <li class="show-asset-file debug-container">
+
+      {% if asset.type == "programme" %}
+        <i class="ion-ios-book-outline"></i>
+      {% else %}
+        <i class="ion-document-text"></i>
+      {% endif %}
+
+      <a href="/assets/for_shows/{{ asset.filename }}" target="_blank">{{ asset.title }}</a>
+      <div class="debug-abs-bottom-left" data-debug-toggle title="Asset type">{{ asset.type }}</div>
+      <div class="debug-abs-top-left" data-debug-toggle title="Asset filename">{{ asset.filename }}</div>
+    </li>
+
+  {% elsif asset.image %}
+
+    <li class="show-asset-image debug-container">
+      <a class="fancybox" rel="assets" href="{{ asset.image.xlarge }}" title="{{ asset.caption }}">
+        <img src="{{ asset.image.small }}" alt="{{ asset.type }} {{ asset.caption }}" title="{{ asset.caption }}" />
+      </a>
+      <div class="debug-abs-bottom-left" data-debug-toggle title="Asset type">{{ asset.type }}</div>
+      <div class="debug-abs-top-left" data-debug-toggle title="Asset image">{{ asset.image }}</div>
+    </li>
+
+  {% endif %}
+
+{% endfor %}
+</ul>

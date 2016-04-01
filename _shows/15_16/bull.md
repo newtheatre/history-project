@@ -10,7 +10,7 @@ venue: New Theatre
 
 assets:
   - type: poster
-    image: bull.jpg
+    image: H7ngRhN
 
 cast:
  - role: Thomas

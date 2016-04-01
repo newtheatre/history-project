@@ -67,22 +67,22 @@ crew:
 
 assets:
   - type: programme
-    image: let_my_people_go_programme_1.jpg
+    image: 9Gs6hT2
     page: 1
   - type: programme
-    image: let_my_people_go_programme_2.jpg
+    image: sQQr67Z
     page: 2
   - type: programme
-    image: let_my_people_go_programme_3.jpg
+    image: B8XCWSn
     page: 3
   - type: programme
-    image: let_my_people_go_programme_4.jpg
+    image: 7S9thK9
     page: 4
   - type: programme
-    image: let_my_people_go_programme_5.jpg
+    image: bHK3XHB
     page: 5
   - type: programme
-    image: let_my_people_go_programme_6.jpg
+    image: 7mH3cLB
     page: 6
 
 ---

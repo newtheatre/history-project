@@ -33,7 +33,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_gut_girls_2011-12.jpg
+    image: fhz7NF2
 
 prod_shots: 8wC2fv
 ---

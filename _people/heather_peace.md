@@ -2,6 +2,7 @@
 title: Heather Peace
 submitted: 2016-03-09
 gender: female
+headshot: D3d7Gqt
 course:
   - English
 graduated: 1978

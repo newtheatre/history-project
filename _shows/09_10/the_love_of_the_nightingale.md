@@ -39,5 +39,5 @@ crew:
 
 assets:
   - type: poster
-    image: the_love_of_the_nightingale_2009-10.jpg
+    image: QqzRSBg
 ---

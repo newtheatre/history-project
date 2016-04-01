@@ -50,7 +50,7 @@ crew:
 
 assets:
   - type: poster
-    image: charleys_aunt_poster.jpg
+    image: mxw55Sk
 
 prod_shots: mMFMrF
 ---

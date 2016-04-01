@@ -54,7 +54,7 @@ crew:
 
 assets:
   - type: poster
-    image: macbeth_poster.jpg
+    image: rgd9G4S
 
 prod_shots: 3mLjwg
 ---

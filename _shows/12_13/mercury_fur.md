@@ -65,7 +65,7 @@ tour:
 
 assets:
   - type: poster
-    image: mercury_fur_poster.jpg
+    image: F6TKnf8
 
 prod_shots: m4KPV7
 ---

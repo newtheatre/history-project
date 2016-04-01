@@ -30,7 +30,7 @@ prod_shots: 5j5PKS
 
 assets:
   - type: poster
-    image: paradise_fringe_poster.jpg
+    image: 9jV9RhX
 
 ---
 Paradise takes place on one unusual night on the London Underground.

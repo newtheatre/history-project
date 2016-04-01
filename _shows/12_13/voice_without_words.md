@@ -23,7 +23,7 @@ crew:
 
 assets:
   - type: poster
-    image: voice_without_words_poster.jpg
+    image: 6kcTd2q
 
 prod_shots: jsqxv7
 ---

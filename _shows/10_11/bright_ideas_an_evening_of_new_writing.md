@@ -13,5 +13,5 @@ canonical:
 
 assets:
   - type: poster
-    image: an_evening_of_new_writing_2011.jpg
+    image: rPNkCD3
 ---

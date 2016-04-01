@@ -11,7 +11,7 @@ date_end: 2010-08-21
 
 assets:
   - type: poster
-    image: the_retreat_edinburgh_2009-10.jpg
+    image: LdgBZv3
 
 cast:
  - role: Nick

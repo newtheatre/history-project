@@ -42,7 +42,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_talented_mr_ripley_2010-11.jpg
+    image: bMCccKc
 
 published: true
 ---

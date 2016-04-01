@@ -40,7 +40,7 @@ crew:
 
 assets:
   - type: poster
-    image: little_red_poster.jpg
+    image: JVVL29n
 
 prod_shots: RvnCQ5
 ---

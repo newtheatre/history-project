@@ -39,7 +39,7 @@ crew:
 
 assets:
   - type: poster
-    image: god_of_carnage_poster.jpg
+    image: CW7Bbs9
 ---
 
 "Boys will be boys, but the adults are usually worse- much worse." Yasmina Reza's biting satire God of Carnage depicts a civilised meeting between the Novaks and the Raleighs to discuss the unruly behaviour of their sons. However, this spirals into an evening of tears, tantrums, laughter and chaos through which Reza deftly dissects the bourgeois values of modern society.

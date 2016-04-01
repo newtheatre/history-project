@@ -14,7 +14,7 @@ crew:
 
 assets:
   - type: poster
-    image: lysistrata_poster.jpg
+    image: JHrmJSP
 
 
 

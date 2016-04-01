@@ -16,7 +16,7 @@ prod_shots: Stmczp
 
 assets:
   - type: poster
-    image: proof.jpg
+    image: 47KDH35
 ---
 
 Proof premiered in 2000 and in 2001 it won the Tony Award for Best Play along with twelve other awards in the same year. Proof is a "gripping but witty drama" which explores the unknowability of love as much as it does the mysteries of mathematics. "All four characters - whether loving, hating, encouraging or impeding one another - are intensely alive, complex, funny, and human." John Simon, New York.

@@ -59,22 +59,22 @@ crew:
 
 assets:
   - type: programme
-    image: my_mother_said_i_never_should_programme_1.jpg
+    image: w6bgGND
     page: 1
   - type: programme
-    image: my_mother_said_i_never_should_programme_2.jpg
+    image: Zm4qRG7
     page: 2
   - type: programme
-    image: my_mother_said_i_never_should_programme_3.jpg
+    image: MHzLjpg
     page: 3
   - type: programme
-    image: my_mother_said_i_never_should_programme_4.jpg
+    image: Ttc4hnk
     page: 4
   - type: programme
-    image: my_mother_said_i_never_should_programme_5.jpg
+    image: RTDtGvW
     page: 5
   - type: programme
-    image: my_mother_said_i_never_should_programme_6.jpg
+    image: j5XnJW3
     page: 6
 
 ---

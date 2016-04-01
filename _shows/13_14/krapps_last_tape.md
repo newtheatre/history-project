@@ -42,7 +42,7 @@ prod_shots: jz7XxB
 
 assets:
   - type: poster
-    image: krapps_last_tape_poster.jpg
+    image: GQWzQnR
 
 ---
 

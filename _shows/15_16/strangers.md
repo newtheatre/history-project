@@ -43,7 +43,7 @@ crew:
 
 assets:
   - type: poster
-    image: strangers.jpg
+    image: q3kdpxT
 
 ---
 

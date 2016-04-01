@@ -46,7 +46,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_history_boys_poster.jpg
+    image: vgGbjFB
 
 prod_shots: f5rCtk
 ---

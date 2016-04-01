@@ -30,7 +30,7 @@ crew:
 
 assets:
   - type: poster
-    image: cracked_china_poster.jpg
+    image: 7T4qrq4
 
 ---
 

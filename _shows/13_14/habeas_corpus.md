@@ -64,7 +64,7 @@ crew:
 
 assets:
   - type: poster
-    image: habeas_corpus_poster.jpg
+    image: zZmcqXJ
 
 
 prod_shots: vK28q8

@@ -50,7 +50,7 @@ crew:
 
 assets:
   - type: poster
-    image: overspill_poster.jpg
+    image: kNqjJLP
 
 prod_shots: 2fMH2s
 ---

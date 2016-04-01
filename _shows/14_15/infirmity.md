@@ -33,7 +33,7 @@ crew:
 
 assets:
   - type: poster
-    image: infirmity_poster.jpg
+    image: 8FX9qfp
 
 prod_shots: jDNnN5
 ---

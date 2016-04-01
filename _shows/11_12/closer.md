@@ -36,7 +36,7 @@ crew:
 
 assets:
   - type: poster
-    image: closer_2011-12.jpg
+    image: b8NPVPH
 
 prod_shots: wfjW9W
 ---

@@ -36,7 +36,7 @@ crew:
 
 assets:
   - type: poster
-    image: no_exit_poster.jpg
+    image: hvn7jT3
 
 prod_shots: sqVqKs
 ---

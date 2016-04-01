@@ -10,5 +10,5 @@ venue: New Theatre
 
 assets:
   - type: poster
-    image: freshers_fringe_2010-11.jpg
+    image: QFwRLdn
 ---

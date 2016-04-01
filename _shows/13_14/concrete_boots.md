@@ -44,7 +44,7 @@ prod_shots: STZnZt
 
 assets:
   - type: poster
-    image: concrete_boots_poster.jpg
+    image: 4kM5tpq
 ---
 
 Cubby has always lived in his brother Toby's shadow. Partly because he's much taller than him but also partly because Toby seems to be Mr. Perfect while Cubby just messes things up for everyone. We find Toby and Cubby on the shore of the beach with their feet concreted to the floor because Cubby's latest screw-up was to sleep with local gangster Big Chris's fiancé...on the day of their engagement party.

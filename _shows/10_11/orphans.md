@@ -34,7 +34,7 @@ crew:
 
 assets:
   - type: poster
-    image: orphans_2010-11.jpg
+    image: Dc3nnVZ
 
 published: true
 

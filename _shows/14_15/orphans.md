@@ -40,7 +40,7 @@ crew:
 
 assets:
   - type: poster
-    image: orphans_poster.jpg
+    image: C6bKHvD
 
 prod_shots: r5bkP7
 ---

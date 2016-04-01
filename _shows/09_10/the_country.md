@@ -29,7 +29,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_county_2009-10.jpg
+    image: qqMpFcB
 
 prod_shots: jW4sSZ
 
