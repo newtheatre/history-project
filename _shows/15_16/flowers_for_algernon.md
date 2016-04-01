@@ -41,6 +41,7 @@ crew:
  - role: Poster Designer
    name: Beth Wilson
 
+prod_shots: 6DNrjz
 ---
 
 Told through a series of journal entries, Flowers for Algernon is the story of Charlie Gordon, an adult with learning difficulties, who takes part in an experimental medical trial to raise his IQ. Charlie’s story is paralleled with Algernon, the lab mouse who is the successful model of the treatment. As Charlie’s IQ begins to rise he grows both mentally and emotionally but his growth is unsustainable and before too long, he becomes more isolated than he ever was before. This play asks questions about innocence and disability, and whether it is right for scientists to play God.
