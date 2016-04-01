@@ -10,7 +10,7 @@ venue: New Theatre
 
 assets:
   - type: poster
-    image: skylight.jpg
+    image: QKDtbRb
 
 cast:
  - role: Kyra Hollis

@@ -29,7 +29,7 @@ crew:
 
 assets:
   - type: poster
-    image: dark_room.jpg
+    image: 9QjpDXH
 
 ---
 

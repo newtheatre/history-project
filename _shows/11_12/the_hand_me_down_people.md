@@ -31,7 +31,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_hand_me_down_people.jpg
+    image: Zx7r3tM
 
 ---
 

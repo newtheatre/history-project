@@ -20,7 +20,7 @@ crew:
 
 assets:
   - type: poster
-    image: freshers_fringe_2014_poster.jpg
+    image: gDfzfHk
 ---
 
 A collection of the most exciting new talent to descend upon England's only student-run theatre this year bring you one electrifying show. An evening of short plays and sketches guaranteed to tantalise, transfix and titillate.

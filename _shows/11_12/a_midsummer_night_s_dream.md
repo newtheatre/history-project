@@ -70,7 +70,7 @@ crew:
 
 assets:
   - type: poster
-    image: a_midsummer_nights_dream_2011-12.jpg
+    image: LQnq62P
 
 prod_shots: BLFMXP
 ---

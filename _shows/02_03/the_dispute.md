@@ -54,19 +54,19 @@ crew:
 
 assets:
   - type: programme
-    image: the_dispute_programme_1.jpg
+    image: 8K2d6mf
     page: 1
   - type: programme
-    image: the_dispute_programme_2.jpg
+    image: xnCJ5V5
     page: 2
   - type: programme
-    image: the_dispute_programme_3.jpg
+    image: jt6mFqF
     page: 3
   - type: programme
-    image: the_dispute_programme_4.jpg
+    image: Z2LjJqk
     page: 4
   - type: programme
-    image: the_dispute_programme_5.jpg
+    image: 5Hd8Qth
     page: 5
 
 published: true

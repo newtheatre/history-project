@@ -16,6 +16,6 @@ cast:
 
 assets:
   - type: poster
-    image: the_project_poster.jpg
+    image: pKL7gSt
 
 ---

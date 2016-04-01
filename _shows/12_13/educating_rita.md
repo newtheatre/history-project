@@ -50,7 +50,7 @@ crew:
 
 assets:
   - type: poster
-    image: educating_rita_poster.jpg
+    image: crPgHNk
 
 prod_shots: 4PNWCh
 ---

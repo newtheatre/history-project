@@ -12,5 +12,5 @@ canonical:
 
 assets:
   - type: poster
-    image: strictly_come_stars_2.jpg
+    image: 5bzDpqP
 ---

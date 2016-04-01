@@ -10,7 +10,7 @@ date_end: 2006-11-04
 
 assets:
   - type: poster
-    image: fish_chips.jpg
+    image: G3FkQ4g
 
 prod_shots: zWxrtK
 ---

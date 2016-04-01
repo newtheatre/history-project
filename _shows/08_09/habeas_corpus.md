@@ -18,5 +18,5 @@ cast:
 
 assets:
   - type: poster
-    image: habeas_corpus_08-09.jpg
+    image: Fb8GnsH
 ---

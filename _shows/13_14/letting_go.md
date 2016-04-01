@@ -41,7 +41,7 @@ crew:
 
 assets:
   - type: poster
-    image: letting_go_poster.jpg
+    image: rDXsL96
 
 prod_shots: RChW6m
 

@@ -10,7 +10,7 @@ venue: New Theatre
 
 assets:
   - type: poster
-    image: freshers_fringe_2015.jpg
+    image: h8N65Xc
 
 crew:
  - role: Technical Director

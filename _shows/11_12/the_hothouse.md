@@ -34,7 +34,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_hothouse_poster.jpg
+    image: tsHQmgx
 
 prod_shots: 9L7cvg
 

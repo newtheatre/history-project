@@ -10,7 +10,7 @@ venue: New Theatre
 
 assets:
   - type: poster
-    image: someone_wholl_2016.jpg
+    image: HQZcQ57
 
 cast:
  - role: Adam Canning

@@ -10,7 +10,7 @@ venue: New Theatre
 
 assets:
   - type: poster
-    image: vessel_poster.jpg
+    image: 9MMMwpw
 
 cast:
   - role: Daragh

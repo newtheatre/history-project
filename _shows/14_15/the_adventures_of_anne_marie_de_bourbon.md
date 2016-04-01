@@ -50,7 +50,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_adventures_of_anne_marie_de_bourbon_poster.jpg
+    image: MKz8ND5
 ---
 
 A first for the New Theatre - a musical puppet show! This cleverly comic show depicts the extraordinary adventures of Anne Marie, a French aristocrat. After stowing away on a pirate ship, Anne is taken to a mysterious island, hitherto untouched by the outside world, hidden in the Bermuda Triangle. Join Anne Marie as she tries to understand the bizarre world she has been thrust into.

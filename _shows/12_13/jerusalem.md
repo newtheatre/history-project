@@ -89,7 +89,7 @@ crew:
 
 assets:
   - type: poster
-    image: jerusalem_poster.jpg
+    image: dwKDjG7
 
 prod_shots: Btr98g
 ---

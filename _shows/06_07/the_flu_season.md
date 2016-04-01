@@ -10,7 +10,7 @@ date_end: 2006-12-02
 
 assets:
   - type: poster
-    image: flu_season.jpg
+    image: 5sNqfwQ
 
 prod_shots: MMRbHW
 ---

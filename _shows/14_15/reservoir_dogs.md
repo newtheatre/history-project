@@ -43,7 +43,7 @@ crew:
 
 assets:
   - type: poster
-    image: reservoir_dogs_poster.jpg
+    image: ScF4bKS
 ---
 
 Perfect Crime. Perfect Killers. But when the diamond heist goes wrong, violence ensues. They have to find the rat, escape the pigs, and most importantly, survive each other. This fresh adaptation of the cult classic is set in a real warehouse, and will put the audience right in the centre of the action. Tense, brutal, witty, and with a killer soundtrack, Reservoir Dogs will entertain the whole family (as long as that family is old enough to remember the 90s)

@@ -71,7 +71,7 @@ crew:
 
 assets:
   - type: poster
-    image: ritual_slaughter_poster.jpg
+    image: JsNXG5S
 
 prod_shots: rkQVgT
 ---

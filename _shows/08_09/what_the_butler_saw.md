@@ -26,5 +26,5 @@ crew:
 
 assets:
   - type: poster
-    image: what_the_butler_saw_08-09.jpg
+    image: V7w2Vgk
 ---

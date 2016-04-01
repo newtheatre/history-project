@@ -42,7 +42,7 @@ prod_shots: sHb6xL
 
 assets:
   - type: poster
-    image: the_rehearsal_poster.jpg
+    image: GxR6qFV
 
 ---
 

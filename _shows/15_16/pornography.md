@@ -90,11 +90,11 @@ prod_shots: rChMFv
 
 assets:
   - type: poster
-    image: pornography_poster_1.jpg
+    image: F5dMrKL
   - type: poster
-    image: pornography_poster_2.jpg
+    image: Wmj4sxX
   - type: poster
-    image: pornography_poster_3.jpg
+    image: RNNPSGD
 
 ---
 

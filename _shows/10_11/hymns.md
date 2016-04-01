@@ -26,7 +26,7 @@ crew:
 
 assets:
   - type: poster
-    image: hymns_poster.jpg
+    image: T7LWdVm
 
 published: true
 

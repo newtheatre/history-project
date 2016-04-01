@@ -49,7 +49,7 @@ crew:
 
 assets:
   - type: poster
-    image: posh_2012-13.jpg
+    image: mSjqQfB
 ---
 
 Eight Oxford University boys, unlimited champagne, one escort and a night of debauchery and destruction. Welcome to the Riot Club. Royal Court’s play of the year 2012. Contemporary, outrageous and intelligent. Posh is the perfect combination of disturbingly relevant satire and a scandalous and savagely funny cast. Bottoms up.

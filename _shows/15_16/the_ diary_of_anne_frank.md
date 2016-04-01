@@ -64,7 +64,7 @@ crew:
 
 assets:
   - type: poster
-    image: anne_frank_poster.jpg
+    image: k7ZdgBN
 
 prod_shots: pfVdD3
 ---

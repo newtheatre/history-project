@@ -62,7 +62,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_glass_menagerie_poster.jpg
+    image: wKwD7pt
 
 prod_shots: prJzNs
 ---

@@ -26,7 +26,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_bacchae_2009-10.jpg
+    image: ZQZFVLF
 
 published: true
 ---

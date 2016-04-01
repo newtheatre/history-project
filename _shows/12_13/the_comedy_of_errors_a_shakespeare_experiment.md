@@ -53,7 +53,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_comedy_of_errors.jpg
+    image: tcXJqWH
 ---
 
 A co-production between Fine Frenzy Theatre and The Nottingham New Theatre

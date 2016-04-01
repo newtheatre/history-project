@@ -70,7 +70,7 @@ crew:
 
 assets:
   - type: poster
-    image: equus_poster.jpg
+    image: hn8BzqV
 
 prod_shots: sQvgwk
 ---

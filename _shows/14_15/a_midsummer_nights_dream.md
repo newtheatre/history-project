@@ -66,7 +66,7 @@ crew:
 
 assets:
   - type: poster
-    image: a_midsummer_nights_dream_lakeside.jpg
+    image: qDwTjTt
 
 prod_shots: Dhcwp6
 

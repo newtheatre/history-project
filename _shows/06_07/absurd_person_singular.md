@@ -10,7 +10,7 @@ date_end: 2006-12-15
 
 assets:
   - type: poster
-    image: absurd_person_singular.jpg
+    image: JpPZS57
 
 prod_shots: XKFt7R
 ---

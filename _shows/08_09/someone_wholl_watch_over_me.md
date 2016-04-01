@@ -27,7 +27,7 @@ crew:
 
 assets:
   - type: poster
-    image: someone_who_ll_watch_over_me_2008-09.jpg
+    image: vkFrqdq
 
 prod_shots: f54j2s
 ---

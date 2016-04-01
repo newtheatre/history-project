@@ -10,7 +10,7 @@ venue: New Theatre
 
 assets:
   - type: poster
-    image: thrill_of_love.jpg
+    image: h3sCHFz
 
 cast:
  - role: Jack Gale

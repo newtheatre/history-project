@@ -10,7 +10,7 @@ date_end: 2012-02-25
 
 assets:
   - type: poster
-    image: all_my_sons_2011-12.jpg
+    image: fK7rLS3
 
 cast:
   - name: Ajay Stevenson

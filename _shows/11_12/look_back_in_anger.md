@@ -28,7 +28,7 @@ crew:
 
 assets:
   - type: poster
-    image: look_back_in_anger_2011-12.jpg
+    image: 73rRQ9p
 
 prod_shots: MZ97ds
 ---

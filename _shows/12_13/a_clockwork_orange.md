@@ -54,7 +54,7 @@ crew:
 
 assets:
   - type: poster
-    image: a_clockwork_orange_poster.jpg
+    image: rCCdDhq
 
 prod_shots: LXKVTq
 

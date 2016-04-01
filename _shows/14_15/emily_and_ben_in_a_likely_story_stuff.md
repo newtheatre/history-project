@@ -21,7 +21,7 @@ crew:
     name: Manuel Barenz
 assets:
   - type: poster
-    image: ben_emily_stuff.jpg
+    image: qZWqbGh
 ---
 
 For one day only, join Emily Brady (‘a beguiling comic energy’ - Beeston People) and Ben Hollands (‘pure pleasure’ – also Beeston People) in a warm and cosy room for an afternoon of improvised storytelling. With new stories and characters every evening and featuring a live improvised soundtrack, A Likely Story promises to amuse, delight and enchant. Cloakrooms will be provided for your cynicism and ennui.

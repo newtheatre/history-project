@@ -70,7 +70,7 @@ crew:
 
 assets:
   - type: poster
-    image: rhinoceros_09-10.jpg
+    image: hCsDcnX
 
 published: true
 ---

@@ -73,7 +73,7 @@ tour:
 
 assets:
   - type: poster
-    image: west_poster.jpg
+    image: jSrJSMz
 
 prod_shots: 3nCHmK
 ---

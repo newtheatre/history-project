@@ -10,7 +10,7 @@ venue: New Theatre
 
 assets:
   - type: poster
-    image: best_book_poster.jpg
+    image: rFpNRqw
 ---
 
 A Writer, A Deadline, Two angry Publishers and an intense night of fully improvised comedy action. 

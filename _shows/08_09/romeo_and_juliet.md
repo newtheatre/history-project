@@ -24,7 +24,7 @@ prod_shots: zHWssh
 
 assets:
   - type: poster
-    image: romeo_and_juliet_2008-09.jpg
+    image: xXp6TNr
   - type: flyer
-    image: romeo_and_juliet_unknown.jpg
+    image: psx3vGm
 ---

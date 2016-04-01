@@ -42,7 +42,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_pitchfork_disney_poster.jpg
+    image: pjtntf6
 
 prod_shots: FHND75
 

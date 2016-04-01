@@ -65,10 +65,10 @@ crew:
 
 assets:
   - type: programme
-    image: translations_programme_1.jpg
+    image: wspKHLC
     page: 1
   - type: programme
-    image: translations_programme_2.jpg
+    image: 6ZzNwzB
     page: 2
 
 published: true

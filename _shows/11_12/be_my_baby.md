@@ -29,7 +29,7 @@ crew:
     name: Sophie Hiscock
 assets:
   - type: poster
-    image: be_my_baby_poster.jpg
+    image: HNpn7GJ
 published: true
 
 prod_shots: gwCnzK

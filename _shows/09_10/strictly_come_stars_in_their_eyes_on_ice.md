@@ -10,7 +10,7 @@ date_end: 2010-02-13
 
 assets:
   - type: poster
-    image: strictly_come_stars.jpg
+    image: GJ6HbfX
 
 comment: http://www.impactnottingham.com/2010/02/strictly-come-stars-in-their-eyes-on-ice-the-new-theatre/
 ---

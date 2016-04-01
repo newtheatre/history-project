@@ -23,7 +23,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_lonesome_west_2011.jpg
+    image: 76HdQV4
 
 prod_shots: gSSjXh
 ---

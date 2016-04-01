@@ -54,7 +54,7 @@ crew:
 
 assets:
   - type: poster
-    image: punk_rock_poster.jpg
+    image: f3J9gfx
 ---
 
 Combining sharp humour, ruthless violence and compassion, Simon Stephens’ Punk Rock provides an unnerving chronicle of contemporary adolescence at the breaking point. A controversial and acute production that remains scarily relevant to the present day. This performance contains smoking.

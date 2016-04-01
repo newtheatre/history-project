@@ -10,9 +10,9 @@ date_end: 2006-11-25
 
 assets:
   - type: poster
-    image: streetcar_1.jpg
+    image: 63NfNkg
   - type: poster
-    image: streetcar_2.jpg
+    image: bMps7bc
 
 prod_shots: XT8Jwq
 ---

@@ -29,7 +29,7 @@ crew:
 
 assets:
   - type: poster
-    image: jack_aged_five_and_a_half_poster.jpg
+    image: 8q67xQK
 
 prod_shots: B3VXLC
 ---

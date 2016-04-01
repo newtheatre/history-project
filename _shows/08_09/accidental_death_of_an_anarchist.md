@@ -13,5 +13,5 @@ cast:
 
 assets:
   - type: poster
-    image: accidental_death_of_an_anarchist_2008-09.jpg
+    image: kb6c29Q
 ---

@@ -60,7 +60,7 @@ prod_shots: RMrTB5
 
 assets:
   - type: poster
-    image: gatsby.jpg
+    image: QLDPQDz
 
 ---
 

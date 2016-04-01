@@ -58,7 +58,7 @@ crew:
 
 assets:
   - type: poster
-    image: robin_hood.jpg
+    image: cPcc5wM
 
 
 ---

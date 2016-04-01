@@ -56,7 +56,7 @@ crew:
 
 assets:
   - type: poster
-    image: rope_2010-11.jpg
+    image: SDPNDhj
 
 published: true
 

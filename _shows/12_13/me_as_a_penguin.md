@@ -51,7 +51,7 @@ crew:
 
 assets:
   - type: poster
-    image: me_as_a_penguin_poster.jpg
+    image: PsdBmBZ
 published: true
 
 prod_shots: GGpqn2

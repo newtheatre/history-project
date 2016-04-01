@@ -33,5 +33,5 @@ crew:
 
 assets:
   - type: poster
-    image: the_fall_of_the_house_of_usher_2008-09.jpg
+    image: PqZHVnK
 ---

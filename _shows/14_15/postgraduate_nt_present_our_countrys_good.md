@@ -16,7 +16,7 @@ crew:
 
 assets:
   - type: poster
-    image: postgrads_our_countrys_good_poster.jpg
+    image: rcCX75N
 ---
 
 What better way to administer a penal colony of convicts than to make the prisoners act in a 18th century play? "Our Country's Good" by T. Wertenbaker is inspired by true events that happened in the first British penal colony in New South Wales, Australia, in which officers used the "theatre as a humanising force" to rehabilitate the prisoners. However, things didn't go smoothly…

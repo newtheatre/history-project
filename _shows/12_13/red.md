@@ -33,7 +33,7 @@ crew:
 
 assets:
   - type: poster
-    image: red_poster.jpg
+    image: rJwsP4r
 
 prod_shots: b9rB8K
 ---

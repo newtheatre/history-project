@@ -58,7 +58,7 @@ crew:
 
 assets:
   - type: poster
-    image: pub_quiz_is_life_poster.jpg
+    image: RwWt34q
 
 prod_shots: p47xCL
 ---

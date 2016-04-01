@@ -54,7 +54,7 @@ crew:
 
 assets:
   - type: poster
-    image: arcadia_2010-11.jpg
+    image: ccGfchq
 
 published: true
 

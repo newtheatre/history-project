@@ -29,7 +29,7 @@ crew:
 
 assets:
   - type: poster
-    image: room_30_poster.jpg
+    image: JRxfBrd
 
 ---
 

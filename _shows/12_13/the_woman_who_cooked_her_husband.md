@@ -35,7 +35,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_woman_who_cooked_her_husband_poster.jpg
+    image: NPGhGfP
 
 prod_shots: 5ccxNm
 ---

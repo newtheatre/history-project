@@ -8,5 +8,5 @@ venue: New Theatre
 
 assets:
   - type: poster
-    image: the_dinner_game_2008-09.jpg
+    image: 9D4VCFx
 ---

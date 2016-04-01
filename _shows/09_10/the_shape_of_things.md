@@ -30,7 +30,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_shape_of_things_2009-10.jpg
+    image: hN3JBTH
 
 published: true
 

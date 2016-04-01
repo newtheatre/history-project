@@ -85,7 +85,7 @@ crew:
 
 assets:
   - type: poster
-    image: women_of_troy_poster.jpg
+    image: xTfhZVs
 
 prod_shots: xdfV9r
 ---

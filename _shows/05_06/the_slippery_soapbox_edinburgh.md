@@ -10,7 +10,7 @@ date_end: 2006-08-27
 
 assets:
   - type: poster
-    image: slippery_soapbox_edinburgh.jpg
+    image: bQg3F6W
 
 prod_shots: 7FLqSZ
 ---

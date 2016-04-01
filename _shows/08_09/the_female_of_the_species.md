@@ -24,5 +24,5 @@ cast:
 
 assets:
   - type: poster
-    image: the_female_of_the_species_08-09.jpg
+    image: QknCBvG
 ---

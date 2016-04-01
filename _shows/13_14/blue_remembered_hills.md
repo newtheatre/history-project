@@ -44,7 +44,7 @@ crew:
 
 assets:
   - type: poster
-    image: blue_remembered_hills_poster.jpg
+    image: Fch6VMG
 
 comment: "Cast picture here: https://www.facebook.com/photo.php?fbid=10153932403200193&set=a.10150172756095193.403901.571265192&type=3&theater"
 

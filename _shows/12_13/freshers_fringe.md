@@ -24,7 +24,7 @@ crew:
 
 assets:
   - type: poster
-    image: freshers_fringe_2012_poster.jpg
+    image: zG5FP9c
 
 prod_shots: pmLRD9
 ---

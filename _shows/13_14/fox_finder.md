@@ -51,7 +51,7 @@ crew:
 
 assets:
   - type: poster
-    image: fox_finder_poster.jpg
+    image: Gqwc5Pq
 
 prod_shots: SGZvsM
 

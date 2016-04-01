@@ -11,9 +11,9 @@ date_end: 2007-12-08
 
 assets:
   - type: poster
-    image: macbeth.gif
+    image: pCd4Hsc
   - type: poster
-    image: macbeth_093.jpg
+    image: psWpKZR
 
 cast:
   - role: unknown

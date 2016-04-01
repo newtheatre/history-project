@@ -108,7 +108,7 @@ prod_shots: 6DhKFZ
 
 assets:
   - type: poster
-    image: romeo_and_juliet_poster.jpg
+    image: xD53hMW
 
 ---
 

@@ -8,9 +8,9 @@ venue: New Theatre
 
 assets:
   - type: programme
-    image: slag_progamme_1.jpg
+    image: vSr4Cjc
   - type: programme
-    image: slag_progamme_2.jpg
+    image: sfB43Zx
 
 ---
 

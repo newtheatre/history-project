@@ -49,7 +49,7 @@ crew:
     name: Pete Bradley
 assets:
   - type: poster
-    image: a_view_from_the_bridge_2010-11.jpg
+    image: 2svCk98
 
 published: true
 

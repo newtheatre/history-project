@@ -32,7 +32,7 @@ crew:
 
 assets:
   - type: poster
-    image: night_mother_poster.jpg
+    image: 2TqxzSz
 
 prod_shots: FTpG92
 ---

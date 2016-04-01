@@ -98,22 +98,22 @@ crew:
 
 assets:
   - type: programme
-    image: doctor_faustus_programme_1.jpg
+    image: c5pfS2n
     page: 1
   - type: programme
-    image: doctor_faustus_programme_2.jpg
+    image: XRSRzJD
     page: 2
   - type: programme
-    image: doctor_faustus_programme_3.jpg
+    image: tRQfsnh
     page: 3
   - type: programme
-    image: doctor_faustus_programme_4.jpg
+    image: tZ4JfZs
     page: 4
   - type: programme
-    image: doctor_faustus_programme_5.jpg
+    image: MRbzrRw
     page: 5
   - type: programme
-    image: doctor_faustus_programme_6.jpg
+    image: NKS8jXX
     page: 6
 
 published: true

@@ -98,7 +98,7 @@ crew:
 
 assets:
   - type: poster
-    image: molly_sweeney_poster.jpg
+    image: N3KhZ9n
 
 prod_shots: q5TP5z
 

@@ -11,7 +11,7 @@ date_end: 2001-11-03
 
 assets:
   - type: flyer
-    image: once_a_catholic_flyer.jpg
+    image: LHVKXFF
     page: 1
 ---
 

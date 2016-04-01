@@ -12,7 +12,7 @@ prod_shots: CT6DNv
 
 assets:
   - type: poster
-    image: caddy_come_home.jpg
+    image: KL67bLS
 ---
 
 

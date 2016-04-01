@@ -36,7 +36,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_small_things_2009-10.jpg
+    image: MmrPGft
 
 published: true
 ---

@@ -26,9 +26,9 @@ crew:
 
 assets:
   - type: poster
-    image: open_poster.jpg
+    image: JHksczK
   - type: poster
-    image: open_fringe.jpg
+    image: pJhHVTc
   - type: flyer
     filename: open_front_flyer.pdf
     title: Front of Flyer

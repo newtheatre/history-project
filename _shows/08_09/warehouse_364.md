@@ -22,7 +22,7 @@ crew:
 
 assets:
   - type: poster
-    image: warehouse_364_poster.jpg
+    image: Jtv6LRx
 
 prod_shots: tVMbqg
 

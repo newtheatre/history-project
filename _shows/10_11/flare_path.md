@@ -53,7 +53,7 @@ crew:
 
 assets:
   - type: poster
-    image: flare_path_poster.jpg
+    image: t8JQn67
 
 published: true
 

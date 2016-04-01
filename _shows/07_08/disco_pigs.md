@@ -14,7 +14,7 @@ crew:
 
 assets:
   - type: poster
-    image: disco_pigs.jpg
+    image: nK6fWMQ
 ---
 
 Pig and Runt are two 17 yr olds who share everything: birthday, language, world views - and that moment when pop songs and life changing orgasms flash by and last forever. On the evening of their 17th birthdays we set out with them to celebrate through the nightclubs of Cork, a city lost in pounding rave rhythms. Disco Pigs is an involving tale of survival providing extremely challenging work and great opportunities for two serious actors.

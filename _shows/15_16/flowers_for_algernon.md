@@ -11,7 +11,7 @@ venue: Sherwood Library
 
 assets:
   - type: poster
-    image: algernon.jpg
+    image: mc5KfV7
 
 cast:
  - role: Charlie

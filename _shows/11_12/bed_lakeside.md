@@ -58,7 +58,7 @@ crew:
 
 assets:
   - type: poster
-    image: bed_poster_lakeside.jpg
+    image: FbV7njc
   - type: programme
     filename: bed_lakeside_programme.pdf
     title: Programme

@@ -30,7 +30,7 @@ crew:
 
 assets:
   - type: poster
-    image: abigails_party_2011-12.jpg
+    image: 6HRG5mq
 
 prod_shots: 46ngMs
 ---

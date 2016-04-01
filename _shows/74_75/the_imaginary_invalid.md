@@ -55,10 +55,10 @@ crew:
 
 assets:
   - type: programme
-    image: the_imaginary_invalid_programme_1.jpg
+    image: rWTDMjL
     page: 1
   - type: programme
-    image: the_imaginary_invalid_programme_2.jpg
+    image: dqwQgK7
     page: 2
 
 ---

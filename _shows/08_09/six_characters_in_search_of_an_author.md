@@ -10,5 +10,5 @@ date_end: 2009-06-06
 
 assets:
   - type: poster
-    image: 6_characters_in_search_of_an_author_2008-09.jpg
+    image: Gt8nFLP
 ---

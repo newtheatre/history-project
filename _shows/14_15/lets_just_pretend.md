@@ -60,7 +60,7 @@ crew:
 
 assets:
   - type: poster
-    image: lets_just_pretend_poster.jpg
+    image: kDKH98S
 
 prod_shots: Lxr89p
 ---

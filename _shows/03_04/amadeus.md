@@ -87,15 +87,15 @@ crew:
 
 assets:
   - type: programme
-    image: amadeus_programme_1.jpg
+    image: wCdfk7t
   - type: programme
-    image: amadeus_programme_2.jpg
+    image: J43NND3
   - type: programme
-    image: amadeus_programme_3.jpg
+    image: 7bgPd2w
   - type: programme
-    image: amadeus_programme_4.jpg
+    image: NjfdVn8
   - type: programme
-    image: amadeus_programme_5.jpg
+    image: gbgRqR3
 
 published: true
 ---

@@ -32,7 +32,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_39_steps_poster.jpg
+    image: LnbDFKk
 
 prod_shots: H4XNfz
 ---

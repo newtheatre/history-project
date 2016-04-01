@@ -71,7 +71,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_toyland_murders_poster.jpg
+    image: VRZv846
 
 prod_shots: BKLFFS
 ---

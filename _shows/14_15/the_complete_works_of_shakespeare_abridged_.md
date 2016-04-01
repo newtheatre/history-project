@@ -28,7 +28,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_complete_works_of_william_shakespeare_abridged_poster.jpg
+    image: bGRKP9X
 
 ---
 

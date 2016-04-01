@@ -26,7 +26,7 @@ crew:
 
 assets:
   - type: poster
-    image: betrayal_2009-10.jpg
+    image: Fw5zg2N
 
 published: true
 ---

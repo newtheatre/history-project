@@ -43,7 +43,7 @@ crew:
 
 assets:
   - type: poster
-    image: nowhere_warm_2008-09.jpg
+    image: QFphdj3
 
 prod_shots: zjH2L9
 ---

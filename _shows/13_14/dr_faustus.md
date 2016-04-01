@@ -54,7 +54,7 @@ prod_shots: FZgKb4
 
 assets:
   - type: poster
-    image: dr_faustus_poster.jpg
+    image: m22M7wF
 
 ---
 

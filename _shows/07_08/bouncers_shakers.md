@@ -23,7 +23,7 @@ prod_shots: pNfn7g
 
 assets:
   - type: poster
-    image: bouncers_and_shakers.jpg
+    image: RmvhJph
 ---
 
 Two hilarious pieces of theatre which speak to "a generation of clubbers". Bouncers & Shakers focuses on four misunderstood doormen, four weary cocktail waitresses and their rowdy customers, following them through the glitz and glamour of a nightclub. "Absorbing, yet revealing, modern comedy! You'll laugh until they throw you out!"

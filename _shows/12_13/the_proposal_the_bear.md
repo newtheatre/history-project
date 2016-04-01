@@ -41,7 +41,7 @@ crew:
 
 assets:
   - type: poster
-    image: the_proposal_the_bear_poster.jpg
+    image: GBCcQkw
 
 
 prod_shots: b2NgXt

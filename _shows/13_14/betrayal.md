@@ -58,7 +58,7 @@ prod_shots: 4Rzt7j
 
 assets:
   - type: poster
-    image: betrayal_poster.jpg
+    image: DWTvpvs
 ---
 
 Harold Pinter’s Betrayal examines the vast and complicated permutations of disloyalty and unfaithfulness that relates to a seven-year affair involving a married couple, Robert and Emma, and Robert’s “Best Friend” Jerry. By reversing the chronological order of events, Pinter does not evoke questions relating to when events took place, but rather how and why. In a play where the network of relations is finely crafted: Pinter juggles around his three characters in all possible arrangements of the bitter triangle, each betrayer becoming, in turn, the betrayed.

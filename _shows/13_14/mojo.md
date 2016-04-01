@@ -40,7 +40,7 @@ crew:
 
 assets:
   - type: poster
-    image: mojo_poster.jpg
+    image: KX7wvQG
 
 ---
 
