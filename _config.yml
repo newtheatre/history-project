@@ -14,6 +14,10 @@ show_low_crew: 5
 # How many members members is too few for a committee
 committee_low_members: 12
 
+# Styling vars shared between CSS and HEAD
+color_nnt_purple: "#A54499"
+color_nnt_orange: "#FFC425"
+
 # Build settings
 markdown: kramdown
 permalink: pretty
