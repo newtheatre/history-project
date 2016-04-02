@@ -28,7 +28,8 @@ module Jekyll
       title = link['type']
       icon = link_type_default['icon']
       data = ""
-      comment = link['comment'] if link.key?('comment') else nil
+      if link.key?('comment') then comment = link['comment']
+      else comment = nil end
 
       # If title, use
       if link.key?('title') then title = link['title'] end
