@@ -116,13 +116,13 @@ body_class: section-archives layout-show
         {{ content }}
       </article>
 
-      {% if show.assets %}
+      {% if show.assets.size > 0 %}
       <section class="show-assets">
         <h3>Publicity Materials</h3>
         {% include show_assets_list.html assets=show.assets %}
       </section>
       {% else %}
-        {% include boxes/show_assets_missing.html %}
+        {% unless show.ignore_missing %}{% include boxes/show_assets_missing.html %}{% endunless %}
       {% endif %}
 
     </div>
@@ -197,11 +197,13 @@ body_class: section-archives layout-show
 
   {% else %}
 
+  {% unless show.ignore_missing %}
   <div class="show-wrap show-row">
     <div class="col-full">
       {% include boxes/show_photos_missing.html %}
     </div>
   </div>
+  {% endunless %}
 
   {% endif %}
 
@@ -212,9 +214,9 @@ body_class: section-archives layout-show
   <div class="show-wrap show-row">
     <section class="show-cast debug-container">
       <div class="debug-abs-top-left" data-debug-toggle title="Number of cast">{{ show.cast.size }}</div>
-      <h3>Cast</h3>
+      {% unless show.ignore_missing and show.cast.size == null %}<h3>Cast</h3>{% endunless %}
       {% if show.cast == null %}
-      {% include boxes/show_cast_missing.html %}
+      {% unless show.ignore_missing %}{% include boxes/show_cast_missing.html %}{% endunless %}
       {% else %}
       {% assign people = show.cast %}
       {% include person_list.html %}
@@ -222,12 +224,12 @@ body_class: section-archives layout-show
     </section>
     <section class="show-crew debug-container">
       <div class="debug-abs-top-left" data-debug-toggle title="Nunber of crew">{{ show.crew.size }}</div>
-      <h3>Crew</h3>
+      {% unless show.ignore_missing and show.crew.size == null %}<h3>Crew</h3>{% endunless %}
       {% if show.crew.size < site.show_low_crew %}
-      {% include boxes/show_crew_short.html %}
+      {% unless show.ignore_missing %}{% include boxes/show_crew_short.html %}{% endunless %}
       {% endif %}
       {% if show.crew == null %}
-      {% include boxes/show_crew_missing.html %}
+      {% unless show.ignore_missing %}{% include boxes/show_crew_missing.html %}{% endunless %}
       {% else %}
       {% assign people = show.crew %}
       {% include person_list.html %}

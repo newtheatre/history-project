@@ -115,6 +115,17 @@ module Jekyll
       "shows/#{show.data['year']}/#{show.basename_without_ext}.html"
     end
 
+    IGNORE_MISSING_IN_SEASONS = [
+      'External',
+      'Postgrads',
+      'STUFF',
+    ]
+
+    def ignore_missing(show)
+      # Should we ignore most errors on this show record?
+      IGNORE_MISSING_IN_SEASONS.include? show.data['season']
+    end
+
     def generate_show_pls(show, key)
       if show.data.key?(key) and show.data[key]
         return parse_person_list(show.data[key], people_by_filename)
@@ -175,6 +186,9 @@ module Jekyll
       display_image = get_show_display_image(show)
       show.data["poster"] = display_image
       show.data["display_image"] = display_image
+
+      # Set ignore_missing if not already
+      show.data["ignore_missing"] ||= ignore_missing(show)
     end
 
     def sort_shows(shows)
