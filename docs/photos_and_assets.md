@@ -5,10 +5,6 @@ title: Photos and Assets
 sort: 100
 ---
 
-<div class="box-warning" markdown="1">
-  <i class="fa fa-exclamation-triangle"></i> All show assets will be migrated to SmugMug soon, see [#515](https://github.com/newtheatre/history-project/issues/515).
-</div>
-
 Show records currently have a *'Publicity Materials'* and *'Production Shots'* section. All images are stored in the [New Theatre SmugMug](https://photos.newtheatre.org.uk), other binaries are stored in the repo's `assets/for_shows/` folder.
 
 ## <i class="fa fa-tags"></i> Attribute Reference
@@ -28,12 +24,12 @@ Show records currently have a *'Publicity Materials'* and *'Production Shots'* s
 {% highlight yaml %}
 assets:
   - type: poster
-    image: pillowman_poster.jpg
+    image: XJZCPfW
   - type: flyer
-    image: pillowman_flyer_1.png
+    image: XKsW92t
     page: 1
   - type: flyer
-    image: pillowman_flyer_2.png
+    image: XKsW92u
     page: 2
   - type: programme
     filename: the_pillowman_programme.pdf

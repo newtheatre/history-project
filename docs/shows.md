@@ -66,9 +66,9 @@ prod_shots: abcd123
 
 assets:
   - type: poster
-    image: pillowman_poster.jpg
+    image: XJZCPfW
   - type: flyer
-    image: pillowman_flyer_2.png
+    image: XKsW92t
   - type: programme
     filename: the_pillowman_programme.pdf
     title: Programme
