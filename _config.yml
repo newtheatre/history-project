@@ -123,7 +123,6 @@ defaults:
     values:
       layout: person
       group: person
-      body_class: header-nobr content-nobr
       current: people
       contact_allowed: false
       placeholder: false
