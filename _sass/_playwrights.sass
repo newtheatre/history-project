@@ -91,6 +91,10 @@ $color-plays: lighten($color-playwright, 15%)
       a:focus
         color: $color-text-white
 
+    &:target .playwright-name-inner
+      background: $color-nnt-purple
+      outline: 6px solid $color-nnt-purple
+
     .playwright-show-list
       @include list-unformatted
       @include display(flex)
