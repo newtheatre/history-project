@@ -13,4 +13,9 @@ assets:
     image: MLPNtzF
 
 prod_shots: vv4w85
+
+crew:
+  - role: Director
+    note: Educating Rita
+    name: Emma Rutherford
 ---

@@ -11,6 +11,14 @@ date_end: 2008-11-01
 assets:
   - type: poster
     image: HRfjFr7
+
+crew:
+  - role: Director
+    name: Fu Baxter
+  - role: Composer
+    name: Yichen Wu
+  - role: Flute
+    name: Emma Rutherford
 ---
 
 

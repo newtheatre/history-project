@@ -12,5 +12,9 @@ assets:
   - type: poster
     image: GJ6HbfX
 
+cast:
+  - name: Emma Rutherford
+    note: Winner on Night One
+
 comment: http://www.impactnottingham.com/2010/02/strictly-come-stars-in-their-eyes-on-ice-the-new-theatre/
 ---
