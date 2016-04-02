@@ -127,6 +127,8 @@ layout: default
 
 </div>
 
+
+{% if person.shows %}
 <div class="person-shows-outer">
   <section class="person-shows">
     {% for record in person.shows %}
@@ -159,4 +161,18 @@ layout: default
     </div>
     {% endfor %}
   </section>
+{% else %}
+
+<div class="wrapper">
+  <div class="full-width block">
+    <div class="box-warning">
+      <i class="fa fa-question"></i>
+      <h3>Missing Show Credits</h3>
+      <p>We don't have any show credits on record for {{ person.title }}, if you know of any please <a href="https://github.com/newtheatre/history-project/issues/new?body={{page.url}}" data-proofer-ignore data-report-this-page>send the editors a message</a>.</p>
+    </div>
+  </div>
+</div>
+
+{% endif %}
+
 </div>
