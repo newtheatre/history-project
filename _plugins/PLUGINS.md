@@ -27,3 +27,4 @@ only five levels we don't get fine grained control over the run order.
 - AssetDataGenerator
 - YearGraphGenerator
 - PeopleByGenerator
+- AwardDataGenerator

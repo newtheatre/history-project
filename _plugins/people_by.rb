@@ -35,7 +35,7 @@ module Jekyll
 
       # Save sorted hashes
       site.data["people_by_crole"] = @people_by_crole.sort.to_h
-      site.data["people_by_award"] = @people_by_award.sort.to_h
+      site.data["people_by_award"] = @people_by_award
       site.data["people_by_graduation_year"] = @people_by_graduation_year.sort.to_h
     end
   end
