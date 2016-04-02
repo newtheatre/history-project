@@ -62,5 +62,16 @@ crew:
   - role: Official Cast Photographer
     name: "Ajay's Dad"
     person: false
+
+assets:
+  - type: programme
+    image: 4g892tS
+    page: 1
+  - type: programme
+    image: fpQ332d
+    page: 2
+  - type: programme
+    image: PCkCt38
+    page: 3
 ---
 
