@@ -1,0 +1,22 @@
+---
+---
+{
+  {% assign first_actual = true %}
+
+{% for show in site.shows %}
+{% if show.assets %}
+{% for asset in show.assets %}
+{% if asset.image %}
+{% unless first_actual %},{% endunless %}
+  {% assign first_actual = false %}
+  {{ asset.image.key | jsonify }}: {
+    "title": {{ show.title | jsonify }},
+    "year_title": {{ show.year_page.title | jsonify }},
+    "link": {{ show.url | jsonify }}
+  }
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+}

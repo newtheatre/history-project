@@ -19,12 +19,12 @@ fill_album_list = (albums) ->
 fill_image_list = (images) ->
   ret = $("#smug-images").html()
   $(images).each (i, image) ->
-    ret += "<tr><td>#{ i+1 }</td><td><a href=\"#{ image['WebUri'] }\"><img src=\"#{ image["ThumbnailUrl"] }\" alt=\"Thumb\"/></a><td>#{ image["Title"] }</td><td>#{ image["FileName"] }</td><td>#{ image["ImageKey"] }</td></tr>\n"
+    ret += "<tr class=\"image-row\" data-key=\"#{ image["ImageKey"] }\"><td>#{ i+1 }</td><td><a href=\"#{ image['WebUri'] }\"><img src=\"#{ image["ThumbnailUrl"] }\" alt=\"Thumb\"/></a><td>#{ image["Title"] }</td><td>#{ image["FileName"] }</td><td>#{ image["ImageKey"] }</td><td class=\"usage\">?</td></tr>\n"
   $("#smug-images").html(ret)
 
-fetch_album_list = (callback) ->
+fetch_usage_list = (url, callback) ->
   $.ajax
-    url: "/feeds/smug_albums.json"
+    url: url
     method: "GET"
     contentType: "application/json; charset=utf-8",
     dataType: "json",
@@ -32,7 +32,7 @@ fetch_album_list = (callback) ->
     error: (err) ->
       alert "Error: #{err}"
 
-add_used_album_data = (albums) ->
+add_usage_data = (albums) ->
   $.each albums, (albumKey, show) ->
     $("[data-key=#{albumKey}] .usage").html("<a href=\"#{ show['link'] }\" class=\"usage-link\">Y</a>").addClass("yes")
 
@@ -42,12 +42,15 @@ $(document).ready ->
       window.d = data
       fill_album_list(data["Response"]["Album"])
 
-      fetch_album_list (data) ->
-        add_used_album_data(data)
+      fetch_usage_list "/feeds/smug_albums.json", (data) ->
+        add_usage_data(data)
 
   if $('body').hasClass 'util-smug-album'
     key = $('#smug-images').data("album")
     fetch_sm "album/#{ key }!images", (data) ->
       window.d = data
       fill_image_list(data["Response"]["AlbumImage"])
+
+      fetch_usage_list "/feeds/smug_images.json", (data) ->
+        add_usage_data(data)
 

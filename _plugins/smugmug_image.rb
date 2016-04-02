@@ -71,6 +71,8 @@ class SmugImage < Smug
   def to_liquid
     if @isd
       {
+        "key" => @imageID,
+
         "tiny" => getSize("ImageSizeTiny"),
         "thumb" => getSize("ImageSizeThumb"),
         "small" => getSize("ImageSizeSmall"),
