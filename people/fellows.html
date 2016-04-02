@@ -1,0 +1,24 @@
+---
+layout: page
+title: Fellows
+current: people
+---
+
+<h1>Fellows</h1>
+
+<ul>
+{% for year in site.years %}
+{% unless year.fellows.size == 0 %}
+  <li>
+    <h3>{{ year.grad_year }}</h3>
+    <ul>
+    {% for person in year.fellows %}
+      <li>
+        <a href="{{ person.url }}">{{ person.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </li>
+{% endunless %}
+{% endfor %}
+</ul>
