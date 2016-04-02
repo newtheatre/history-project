@@ -35,21 +35,21 @@ $("#report-issue-form").submit (e) ->
         reportThanks(data.url)
       else
         alert('There was a problem with the data your provided')
-        enableForm()
+        enableReportForm()
 
     error: (jqXHR, textStatus, errorThrown) ->
       alert('Oops, something went wrong')
-      enableForm();
+      enableReportForm()
 
-  disableForm()
+  disableReportForm()
 
-disableForm = ->
+disableReportForm = ->
   $('.report-submit').attr("disabled", true)
   $('.report-submit').addClass('disabled')
   $('.report-submit').html('<i class="fa fa-circle-o-notch fa-spin"></i>')
 
 
-enableForm = ->
+enableReportForm = ->
   $('.report-submit').attr("disabled", false)
   $('.report-submit').removeClass('disabled')
   $('.report-submit').html('Try Again')

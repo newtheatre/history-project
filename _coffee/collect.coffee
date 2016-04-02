@@ -94,13 +94,13 @@ published: true
         window.location.href = '/collect/show/thanks/'
       else
         alert('There was a problem with the data you provided')
-        enableForm()
+        enableCollectForm()
 
     error: (jqXHR, textStatus, errorThrown) ->
       alert('Oops, something went wrong')
-      enableForm();
+      enableCollectForm();
 
-  disableForm()
+  disableCollectForm()
 
 $("#collect-person-form").submit (e) ->
   e.preventDefault()
@@ -216,7 +216,7 @@ award: *fill me out
       alert('Oops, something went wrong')
       enableForm();
 
-  disableForm()
+  disableCollectForm()
 
 PEOPLE_FEED = "/feeds/people.json"
 TEMPLATE_DATA = "#collect-template-list"
@@ -247,13 +247,13 @@ collectPersonFormSetup = ->
 
     , 'json'
 
-disableForm = ->
+disableCollectForm = ->
   $('.collect-submit').attr("disabled", true)
   $('.collect-submit').addClass('disabled')
   $('.collect-submit').html('<i class="fa fa-circle-o-notch fa-spin"></i>')
 
 
-enableForm = ->
+enableCollectForm = ->
   $('.collect-submit').attr("disabled", false)
   $('.collect-submit').removeClass('disabled')
   $('.collect-submit').html('Try Again')
