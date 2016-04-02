@@ -14,8 +14,7 @@ careers:
   - Technician
 links:
   - type: Personal Website
-    href: "http://wjdp.co.uk"
-    comment: "Change to wjdp.uk when live"
+    href: "http://wjdp.uk"
   - type: Twitter
     username: willpimblett
   - type: LinkedIn
