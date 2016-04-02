@@ -1,4 +1,5 @@
 Jekyll::Hooks.register :site, :pre_render do |site|
+  Jekyll.logger.info "Reticulating splines..."
   Jekyll.logger.info "Rendering site..."
 end
 

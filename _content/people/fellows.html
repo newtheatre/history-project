@@ -11,14 +11,14 @@ body_class: header-nobr
 </div>
 
 <div class="wrapper">
-  <ul class="fellows-list">
+  <ul class="people-grid">
   {% for year in site.years %}
   {% unless year.fellows.size == 0 %}
     <li>
-      <div class="year">
+      <div class="title">
         <a href="{{ year.url }}">{{ year.grad_year }}</a>
       </div>
-      <ul class="fellows-person-list">
+      <ul class="people-grid-list fellows-grid-list">
       {% for person in year.fellows %}
         <li>
           <a href="{{ person.url }}">

@@ -1,0 +1,63 @@
+// Grid of people for the /people index pages, fellows listing etc
+
+.people-grid
+  @include list-unformatted
+  @include block
+
+  li
+    display: flex
+    padding: $baseline / 2 0
+  .title
+    min-width: 10%
+    @include set-property-to-gutter(margin-right)
+    &
+      font-size: 1.5em
+      @include respond-up(tab-port)
+        font-size: 2.5em
+      letter-spacing: -1px
+    &, a
+      font-weight: $font-weight-light
+      color: $color-text-accent
+    a
+      @include no-underline(true)
+
+  .people-grid-list
+    flex: 1
+
+@mixin people-grid-list-scale($scale)
+  li
+    padding: $baseline / 2
+
+    max-width: ($baseline + 160px) / $scale
+
+    @include respond-up(mob-port)
+      width: 50% / $scale
+    @include respond-up(tab-port)
+      width: 33% / $scale
+    @include respond-up(tab-land)
+      width: 25% / $scale
+    @include respond-up(med-desk)
+      width: 20% / $scale
+
+
+.people-grid-list
+  @include list-unformatted
+  display: flex
+  flex-wrap: wrap
+
+  @include people-grid-list-scale(1)
+
+  li
+    @include set-property-to-gutter(padding-right)
+
+  .name
+    text-align: center
+    color: $color-text-white
+    font-size: 0.9em
+    font-weight: normal
+
+  .person-headshot-actual, .person-headshot-placeholder
+    width: 100%
+
+  .person-headshot-placeholder
+    opacity: 0.2

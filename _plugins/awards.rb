@@ -19,6 +19,10 @@ module Jekyll
       fellows = people.select { |p| p.data["award"].include? "Fellowship" }
       commendations = people.select { |p| p.data["award"].include? "Commendation" }
 
+      # sort_people from people.rb
+      fellows.sort!(&method(:sort_people))
+      commendations.sort!(&method(:sort_people))
+
       input_holders_into_years(fellows, "fellows")
       input_holders_into_years(commendations, "commendations")
 
