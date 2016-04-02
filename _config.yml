@@ -126,6 +126,10 @@ defaults:
       current: people
       contact_allowed: false
       placeholder: false
+      award: []
+      careers: []
+      links: []
+      news: []
   - scope:
       path: "about"
     values:

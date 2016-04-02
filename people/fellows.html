@@ -1,0 +1,41 @@
+---
+layout: default
+title: Fellows
+current: people
+body_class: header-nobr
+---
+
+<div class="banner-header fellows-header">
+  <h1>{{ page.title }}</h1>
+  <i class="banner-header-icon fa fa-mortar-board"></i>
+</div>
+
+<div class="wrapper">
+  <ul class="fellows-list">
+  {% for year in site.years %}
+  {% unless year.fellows.size == 0 %}
+    <li>
+      <div class="year">
+        <a href="{{ year.url }}">{{ year.grad_year }}</a>
+      </div>
+      <ul class="fellows-person-list">
+      {% for person in year.fellows %}
+        <li>
+          <a href="{{ person.url }}">
+            <div class="headshot">
+              {% if person.headshot %}
+                <img class="person-headshot-actual" src="{{ person.headshot.person_bio }}" alt="{{ person.title }}" />
+              {% else %}
+                <img class="person-headshot-placeholder" src="/images/human-512-cropped.png" alt="Human silhouette" />
+              {% endif %}
+            </div>
+            <div class="name">{{ person.title }}</div>
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
+    </li>
+  {% endunless %}
+  {% endfor %}
+  </ul>
+</div>

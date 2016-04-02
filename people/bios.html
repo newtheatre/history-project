@@ -1,0 +1,20 @@
+---
+layout: page
+title: People Bios
+current: people
+published: true
+sitemap: false
+search_exclude: true
+---
+
+<h1>Biographies</h1>
+
+{% assign sorted_people = site.people | sort: "title" %}
+
+<ul>
+{% for person in sorted_people %}{% if person.placeholder != true %}
+  <li>
+    <a href="{{ person.url }}">{{ person.title }}</a><!-- {{ person.person }} -->
+  </li>
+{% endif %}{% endfor %}
+</ul>

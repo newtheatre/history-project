@@ -14,8 +14,11 @@ module Jekyll
       my_data = {
         "title" => get_title(),
         "sort" => @year,
+        "grad_year" => @year+1,
         "year" => "#{ year_span_short[0] }_#{ year_span_short[1] }",
         "decade" => @year.to_s[0..2],
+        "fellows" => [],
+        "commendations" => [],
       }
 
       @data = Utils.deep_merge_hashes(defaults, my_data)

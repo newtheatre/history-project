@@ -15,7 +15,7 @@ body_class: layout-person header-nobr content-nobr
   <header class="person-header">
     <div class="person-headshot">
       {% if person.headshot %}
-        <img src="{{ person.headshot.person_bio }}" alt="{{ person.title }}" class="person-headshot-actual" />
+        <img class="person-headshot-actual" src="{{ person.headshot.person_bio }}" alt="{{ person.title }}" />
       {% else %}
         <img class="person-headshot-placeholder" src="/images/human-512-cropped.png" alt="Human silhouette" />
       {% endif %}
