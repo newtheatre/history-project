@@ -4,6 +4,6 @@
 
 <pre><code>
 {% assign sorted_people = site.people | sort: "title" %}
-{% for person in sorted_people %}{% unless person.placeholder %}
-{% if person.headshot %}- [x] [{{ person.title }}]({{ site.url }}{{ person.url }}){% else %}- [ ] [{{ person.title }}]({{ site.url }}{{ person.url }}){% endif %}{% endunless %}{% endfor %}
+{% for person in sorted_people %}{% if person.submitted %}
+{% if person.headshot %}- [x] [{{ person.title }}]({{ site.url }}{{ person.url }}){% else %}- [ ] [{{ person.title }}]({{ site.url }}{{ person.url }}){% endif %}{% endif %}{% endfor %}
 </code></pre>
