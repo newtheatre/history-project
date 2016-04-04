@@ -8,7 +8,6 @@ venue: New Theatre
 date_start: 2007-11-21
 date_end: 2007-11-24
 
-
 crew:
   - role: Director
     name: Maia Gibbs

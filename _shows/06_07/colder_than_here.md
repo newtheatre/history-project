@@ -8,6 +8,14 @@ venue: New Theatre
 date_start: 2007-05-02
 date_end: 2007-05-05
 
+crew:
+  - role: Director
+    name: Sam German
+
+cast:
+ - role: Myra
+   name: Maia Gibbs
+
 prod_shots: Dk5WqL
 ---
 

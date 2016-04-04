@@ -12,6 +12,13 @@ assets:
   - type: poster
     image: t3vNdDS
 
+crew:
+  - role: Director
+    name: Ben Ford
+
+cast:
+  - name: Maia Gibbs
+
 prod_shots: 6F3ctk
 ---
 
