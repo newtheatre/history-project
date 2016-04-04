@@ -17,7 +17,7 @@ cast:
  - role: Jean
    name: Maia Gibbs
  - name: Eleanor Yates
- - name: Georgina Strawson
+ - name: Georgie Strawson
  - name: Henry Proffit
  - name: Charlie Dupre
 ---
