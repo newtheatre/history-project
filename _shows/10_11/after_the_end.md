@@ -42,6 +42,8 @@ prod_shots: 4DbWrF
 assets:
   - type: poster
     image: 9XGVpnv
+  - type: poster
+    image: nPTHzD8
 ---
 
 Louise wakes up alone with a work colleague, Mark, in his nuclear fallout shelter.

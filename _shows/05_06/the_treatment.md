@@ -16,5 +16,9 @@ cast:
  - role: Bride
    name: Maia Gibbs
 
+assets:
+  - type: poster
+    image: d4GRQrD
+
 prod_shots: Cr3MsK
 ---
