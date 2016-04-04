@@ -1,7 +1,7 @@
 ---
 title: The Treatment
 playwright: Martin Crimp
-period: Sprin
+period: Spring
 season: In House
 season_sort: 300
 venue: New Theatre
