@@ -11,6 +11,10 @@ date_end: 2008-03-01
 crew:
   - role: Director
     name: Anthony Lau
+
+cast:
+  - role: Julie
+    name: Maia Gibbs
 ---
 
 1945 and as the Labour Party rise to victory in the general election, Miss Julie is busy in her family mansion's kitchen; drunk and seducing her father's chauffeur. Sexual power becomes a weapon as the characters carve into the tension in an attempt to break out of their class, status and gender.

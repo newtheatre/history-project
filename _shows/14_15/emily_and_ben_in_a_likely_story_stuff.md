@@ -4,13 +4,11 @@ period: Spring
 season: "STUFF"
 season_sort: 460
 date_start: 2015-06-17
-date_end:
 venue: New Theatre Studio A
 
 cast:
   - name: Ben Hollands
   - name: Emily Brady
-
 
 crew:
   - role: Venue Technician
@@ -19,6 +17,7 @@ crew:
     name: Ben Macpherson
   - role: Musician
     name: Manuel Barenz
+
 assets:
   - type: poster
     image: qZWqbGh

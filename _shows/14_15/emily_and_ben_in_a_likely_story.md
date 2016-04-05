@@ -8,11 +8,8 @@ date_end: 2015-02-10
 venue: New Theatre
 
 cast:
-  - role:
-    name: Ben Hollands
-  - role:
-    name: Emily Brady
-
+  - name: Ben Hollands
+  - name: Emily Brady
 
 assets:
   - type: poster

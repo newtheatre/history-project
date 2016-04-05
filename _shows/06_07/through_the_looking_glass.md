@@ -9,6 +9,13 @@ venue: C too
 date_start: 2007-08-02
 date_end: 2007-08-27
 
+crew:
+  - role: Director
+    name: Sam German
+
+cast:
+ - role: Alice
+   name: Maia Gibbs
 
 prod_shots: vgSZgm
 ---
