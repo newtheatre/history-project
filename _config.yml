@@ -28,15 +28,18 @@ gems:
 - jekyll-coffeescript
 
 exclude:
-- vendor
-- node_modules
-- README.md
+- bower.json
+- coffeelint.json
 - CONTRIBUTING.md
 - Gemfile
 - Gemfile.lock
-- bower.json
+- node_modules
 - package.json
 - Rakefile
+- README.md
+- tmp/
+- Vagrantfile
+- vendor
 
 # skip_years: true
 # skip_venues: true
