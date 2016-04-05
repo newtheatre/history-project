@@ -1,16 +1,25 @@
 <head>
+  <!-- Meta -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} &middot; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 156 }}{% else %}{{ site.description }}{% endif %}">
 
+  <!-- CDN Provided Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600|Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+  <!-- Local Styles -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?cachebust={{ site.time | date: "%Y%m%d%H%M"}}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" data-proofer-ignore>
-  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
+
+  <!-- humans.txt -->
   <link rel="author" href="/humans.txt" />
 
+  <!-- Icons -->
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
   <link rel="apple-touch-icon" sizes="57x57" href="/images/browser/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/images/browser/apple-touch-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/images/browser/apple-touch-icon-72x72.png">
@@ -24,7 +33,6 @@
   <link rel="icon" type="image/png" href="/images/browser/android-chrome-192x192.png" sizes="192x192">
   <link rel="icon" type="image/png" href="/images/browser/favicon-96x96.png" sizes="96x96">
   <link rel="icon" type="image/png" href="/images/browser/favicon-16x16.png" sizes="16x16">
-
   <link rel="manifest" href="/manifest.json">
   <link rel="mask-icon" href="/images/browser/safari-pinned-tab.svg" color="{{ site.color_nnt_purple }}">
   <meta name="apple-mobile-web-app-title" content="History Project">
