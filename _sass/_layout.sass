@@ -42,12 +42,21 @@ body
   -webkit-column-gap: 20px
 
 .left
+  display: block
+  clear: both
   float: left
-  margin: 0 32px 32px 0
+  margin: 0 $baseline $baseline 0
 
 .right
+  display: block
+  clear: both
   float: right
-  margin: 0 32px 0 32px
+  margin: 0 $baseline 0 $baseline
+
+.page-photo
+  width: 30%
+  margin-top: $baseline
+  margin-bottom: $baseline
 
 .fade
   opacity: 0.1
