@@ -5,7 +5,11 @@
 [![Code Climate](https://codeclimate.com/github/newtheatre/history-project/badges/gpa.svg)](https://codeclimate.com/github/newtheatre/history-project)
 [![Issue Count](https://codeclimate.com/github/newtheatre/history-project/badges/issue_count.svg)](https://codeclimate.com/github/newtheatre/history-project)
 
-The history project aims to collect information on past shows, committees and other goings-on at The Nottingham New Theatre.
+The history project collects and publishes information on past shows, committees and other goings-on at [The Nottingham New Theatre](http://newtheatre.org.uk) the only student run theatre in England.
+
+We use a static site generator ([Jekyll](jekyllrb.com)) among other tools to turn the data and website source hosted here into the website published at [history.newtheatre.org.uk](https://history.newtheatre.org.uk).
+
+This project is run by a group from the New Theatre's Alumni Network.
 
 ## Running Locally
 
@@ -33,11 +37,12 @@ To get the site running locally you will need a working Ruby environment, the bu
 
 ### Test
 
-- `bundle exec rake test` to run test suite locally.
+- `bundle exec rake test` to run test suite locally. Currently we test for bad links, valid image tags, script references and the validity of site JSON feeds.
 
 ## Vagrant
 
-Vagrant is a cross platform virtual machine manager. It will allow you to build the site on your local machine in an environment as close as possible to the travis script that is actually used. It is strognly recomended that you follow the [Vagrant getting started guide](https://docs.vagrantup.com/v2/getting-started/index.html).
+Vagrant is a cross platform virtual machine manager. It will allow you to build the site on your local machine in an environment as close as possible to the Travis script that is actually used. It is strongly recommended that you follow the [Vagrant getting started guide](https://docs.vagrantup.com/v2/getting-started/index.html).
+
 To get started, you will need:
 
 - [Oracle Virtual Box](https://www.virtualbox.org/wiki/Downloads)
@@ -53,7 +58,7 @@ The vagrant box has port 8000 mapped to 8000 on your local machine, so `http://1
 
 ## Editing
 
-See the [site documentation](https://history.newtheatre.org.uk/docs/)
+See the [site documentation](https://history.newtheatre.org.uk/docs/).
 
 ## Repo Mirror
 
