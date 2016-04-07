@@ -3,7 +3,7 @@ title: A One Act play
 playwright: Eugène Ionesco
 period: Autumn
 season: In House
-season_sort: 60
+season_sort: 70
 date_start: 
 date_end: 
 venue: New Theatre

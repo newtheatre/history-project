@@ -3,7 +3,7 @@ title: "Iolanthe"
 playwright: "Gilbert & Sullivan"
 period: Autumn
 season: In House
-season_sort: 60
+season_sort: 80
 date_start: 1976-12-07
 date_end: 1976-12-11
 venue: New Theatre

@@ -2,7 +2,7 @@
 title: Summer Term
 season: In House
 period: Spring
-season_sort: 60
+season_sort: 200
 venue: New Theatre
 
 cast:

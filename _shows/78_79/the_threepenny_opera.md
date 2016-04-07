@@ -3,7 +3,7 @@ title: The Threepenny Opera
 season: In House
 playwright: John Gay
 translator: Elisabeth Hauptmann
-season_sort: 901
+season_sort: 310
 comment: "Could be 77-78, or 78-79, see #239"
 
 cast:

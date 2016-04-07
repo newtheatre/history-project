@@ -3,7 +3,7 @@ title: Aberald and Heloise
 playwright: 
 period: Autumn
 season: In House
-season_sort: 60
+season_sort: 50
 date_start: 
 date_end: 
 venue: New Theatre

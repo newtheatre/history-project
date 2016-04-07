@@ -3,7 +3,7 @@ title: Christie in Love
 playwright: Howard Brenton
 season: Edinburgh
 period: Edinburgh
-season_sort: 60
+season_sort: 410
 venue: Cephas Cellar
 
 assets:
