@@ -2,7 +2,7 @@
 title: The Small Things
 playwright: Enda Walsh
 season: In House
-season_sort: 280
+season_sort: 275
 period: Spring
 venue: New Theatre
 date_start: 2010-05-12
