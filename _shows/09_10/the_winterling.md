@@ -33,6 +33,8 @@ crew:
     name: Philip Geller
   - role: Lighting Designer
     name: Matt Leventhall
+  - role: Stage Manager
+    name: Nicci Samuels
 
 assets:
   - type: poster

@@ -45,6 +45,8 @@ crew:
     name: Matt Leventhall
   - role: Set Designer
     name: Philip Geller
+  - role: Set Construction
+    name: Nicci Samuels
   - role: Stage Manager
     name: Lawrence Bolton
   - role: Lighting Designer

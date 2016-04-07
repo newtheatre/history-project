@@ -40,6 +40,8 @@ crew:
   name: Dan Rae-Scott
 - role: Producer
   name: Emily Adams
+- role: Costume and Make-Up
+  name: Nicci Samuels
 
 assets:
   - type: poster

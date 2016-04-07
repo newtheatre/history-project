@@ -19,6 +19,8 @@ cast:
 crew:
     - role: Director
       name: Lizzie Bourne
+    - role: Producer
+      name: Nicci Samuels
 
 prod_shots: zHWssh
 
