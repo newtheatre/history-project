@@ -21,6 +21,10 @@ crew:
       name: Lizzie Bourne
     - role: Producer
       name: Nicci Samuels
+    - role: Lighting Designer
+      name: Matt Leventhall
+    - role: Set Designer
+      name: Emily O'Dwyer
 
 prod_shots: zHWssh
 

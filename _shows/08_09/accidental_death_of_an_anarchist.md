@@ -11,6 +11,12 @@ date_end: 2008-12-14
 cast:
   - name: Nick Medhurst
 
+crew:
+  - role: Director
+    name: Andy McNamee
+  - role: Lighting Designer
+    name: Matt Leventhall
+
 assets:
   - type: poster
     image: kb6c29Q

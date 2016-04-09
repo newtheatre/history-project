@@ -27,6 +27,8 @@ crew:
     name: Fran Rylands
   - role: Original Score
     name: Angus MacRae
+  - role: Lighting Desinger
+    name: Matt Leventhall
 
 assets:
   - type: poster

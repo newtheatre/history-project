@@ -11,6 +11,8 @@ date_end: 2008-04-19
 crew:
   - role: Director
     name: Andy McNamee
+  - role: Lighting Designer
+    name: Matt Levethall
 
 ---
 

@@ -11,6 +11,8 @@ date_end: 2007-12-01
 crew:
   - role: Director
     name: Cal Lewis
+  - role: Lighting Designer
+    name: Matt Leventhall
 
 prod_shots: 224bCp
 ---

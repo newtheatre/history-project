@@ -19,6 +19,8 @@ cast:
 crew:
   - role: Director
     name: Andy McNamee
+  - role: Lighting Desinger
+    name: Matt Leventhall
 
 assets:
   - type: poster

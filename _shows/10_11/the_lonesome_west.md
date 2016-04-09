@@ -18,6 +18,8 @@ crew:
     name: George Bancroft-Livingston
   - role: Producer
     name: James Saville
+  - role: Lighting Deisgner
+    name: Matt Leventhall
   - role: Stage Manager
     name: Elle O'Rorke
 

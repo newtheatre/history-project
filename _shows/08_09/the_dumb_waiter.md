@@ -11,5 +11,11 @@ assets:
   - type: poster
     image: 2MLvFZL
 
+crew:
+ - role: Director
+   name: Andy McNamee
+ - role: Lighting Designer
+   name: Matt Leventhall
+
 prod_shots: zfpsTT
 ---
