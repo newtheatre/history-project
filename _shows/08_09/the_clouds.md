@@ -14,6 +14,8 @@ cast:
     name: Lucy Preston
   - role: Strepsiades
     name: Alex MacGillvray
+  - role: Socrates
+    name: Topher Collins
 
 crew:
   - role: Director
