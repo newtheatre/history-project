@@ -9,7 +9,8 @@ date_start: 2011-05-04
 date_end: 2011-05-07
 
 cast:
-  - name: Lawrence Bolton
+  - role: Jedadiah Schultz
+    name: Lawrence Bolton
   - name: Phil Damms
   - name: Phoebe Fairbrother
   - name: Sarah Head

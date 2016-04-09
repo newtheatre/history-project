@@ -13,6 +13,8 @@ cast:
   - name: Harry MacDonald
   - name: Lauren Grant
   - name: Claire Horn
+  - role: 'Mr. Charles Webb'
+    name: Topher Collins
 
 crew:
   - role: Director

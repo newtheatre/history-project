@@ -25,7 +25,7 @@ cast:
     name: Oliver Margolis
   - role: unknown
     name: Chloe Keedy
-  - role: unknown
+  - role: 'Dr. Ernst Paul' 
     name: Topher Collins
   - role: Dessler
     name: Paul Whickman

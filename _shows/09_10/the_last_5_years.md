@@ -27,6 +27,8 @@ crew:
     name: Stephen Irvine
   - role: Producer
     name: Lauren Grant
+  - role: Musical Director
+    name: Pete Allott
 
 assets:
   - type: poster

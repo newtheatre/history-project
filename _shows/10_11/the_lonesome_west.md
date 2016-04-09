@@ -12,6 +12,8 @@ cast:
   - name: Cressida McGill
   - name: Douggie McMeekin
   - name: Oliver Margolis
+  - role: Father Welsh
+    name: Tom Walsh
 
 crew:
   - role: Director

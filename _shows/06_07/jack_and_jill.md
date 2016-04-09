@@ -8,6 +8,14 @@ venue: New Theatre
 date_start: 2007-06-06
 date_end: 2007-06-09
 
+cast:
+  - role: Amelia
+    name: Nicole Pyrathon
+
+crew:
+  - role: Director
+    name: Meir Adler
+
 prod_shots: JML6rm
 ---
 

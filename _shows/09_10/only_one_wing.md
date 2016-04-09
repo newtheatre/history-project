@@ -8,6 +8,10 @@ venue: The Zoo
 date_start: 2010-08-06
 date_end: 2010-08-21
 
+cast:
+ - role: Esther
+   name: Lauren Grant
+
 crew:
   - role: Director
     name: Lizzie Bourne
