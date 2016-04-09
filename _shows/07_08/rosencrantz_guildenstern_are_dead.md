@@ -12,7 +12,7 @@ crew:
   - role: Director
     name: Andy McNamee
   - role: Lighting Designer
-    name: Matt Levethall
+    name: Matt Leventhall
 
 ---
 
