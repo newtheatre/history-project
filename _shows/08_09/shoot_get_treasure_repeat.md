@@ -10,4 +10,8 @@ date_end: 2009-05-16
 assets:
   - type: poster
     image: SvL5Gqz
+
+crew:
+  - role: Director
+    name: Rebecca Catlin
 ---
