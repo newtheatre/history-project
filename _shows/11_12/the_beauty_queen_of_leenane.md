@@ -8,6 +8,10 @@ venue: New Theatre
 date_start: 2012-03-14
 date_end: 2012-03-17
 
+cast:
+ - name: Ben Williamson
+ - name: Cressida McGill
+
 crew:
   - role: Director
     name: Ellie Cawthorne

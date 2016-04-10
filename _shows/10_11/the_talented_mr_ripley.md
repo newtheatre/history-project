@@ -44,6 +44,8 @@ assets:
   - type: poster
     image: bMCccKc
 
+prod_shots: vm4gwG
+
 published: true
 ---
 
