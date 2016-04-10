@@ -15,7 +15,7 @@ assets:
 
 cast:
  - role: Charlie
-   name: Miguel Barullas
+   name: Miguel Barrulas
  - role: Alice Kinnian
    name: Alice Simmons
  - role: Professor Nemur
