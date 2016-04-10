@@ -2,6 +2,7 @@
 title: Nicola Fox
 submitted: 2015-11-10
 gender: female
+headshot: FCdbFMb
 course:
   - English
 graduated: 2014
