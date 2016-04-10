@@ -28,6 +28,8 @@ assets:
   - type: poster
     image: FtsCrs8
 
+prod_shots: dQPTqG
+
 published: true
 ---
 
