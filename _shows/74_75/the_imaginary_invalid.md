@@ -5,6 +5,8 @@ period: Spring
 playwright: Molière
 season_sort: 130
 venue: New Theatre
+date_start: 1975-03-03
+date_end: 1975-03-08
 
 cast:
   - role: Argan
@@ -54,6 +56,8 @@ crew:
     name: Gill Brand
 
 assets:
+  - type: poster
+    image: 3SDpncP
   - type: programme
     image: rWTDMjL
     page: 1

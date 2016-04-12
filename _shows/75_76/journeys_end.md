@@ -19,6 +19,10 @@ crew:
   - role: Sound Designer
     name: Peter Hart
 
+assets:
+  - type: poster
+    image: v484CKN
+
 prod_shots: 5KMVL7
 ---
 

@@ -25,4 +25,8 @@ cast:
 crew:
  - role: Director
    name: Jon Turner
+
+assets:
+  - type: poster
+    image: FrnMLZh
 ---
