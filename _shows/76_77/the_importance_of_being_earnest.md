@@ -16,7 +16,7 @@ cast:
 - role: Lady Bracknell
   name: Sue Candy
 - role: Gwendolyn Fairfax
-  name: Haydn Gwynn
+  name: Haydn Gwynne
 - role: Miss Prism
   name: Terry
   person: false
