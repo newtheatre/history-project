@@ -18,8 +18,7 @@ cast:
 - role: Gwendolyn Fairfax
   name: Haydn Gwynne
 - role: Miss Prism
-  name: Terry
-  person: false
+  name: Terri Norris
 - role: Lane
   name: John Turner
 - role: Merriman
