@@ -5,6 +5,11 @@ period: Autumn
 playwright: Peter Shaffer
 season_sort: 30
 venue: New Theatre
+
+assets:
+  - type: poster
+    image: TGMWMh9
+
 ---
 
 Black Comedy is a one-act farce by Peter Shaffer, first performed in 1965.
