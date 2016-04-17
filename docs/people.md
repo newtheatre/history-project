@@ -18,7 +18,7 @@ Biographies of theatre alumni are stored as `_people/firstname_lastname.md`.
 | `title` | Person name. | In the format Firstname Lastname. |
 | `submitted`<br />*(optional)* | The date the last submission was made. | **YYYY-MM-DD** If this is omitted it means person has not yet made a submission, we have collated data for them. |
 | `gender`<br />*(optional)* | Person gender. | Recognises `male` or `female`. |
-| `headshot`<br />*(optional)* | Filename of a photo. | Will look in the `images/people/` directory. Filename should be `firstname_lastname.jpg`. Will be moving to SmugMug soon [#516](https://github.com/newtheatre/history-project/issues/516). |
+| `headshot`<br />*(optional)* | The SmugMug ID of the headshot. | Find IDs using [headshot utility](https://history.newtheatre.org.uk/util/smug-headshots/). |
 | `course`<br />*(optional)* | The course, or courses the person studied. | Can be a single value or a list if multiple courses studied. |
 | `graduated`<br />*(optional)* | The year the person graduated. | **YYYY** |
 | `award`<br />*(optional)* | Award person received on leaving the theatre. | Should be in title case, Fellowship, Commendation. If not applicable line should be omitted. |
@@ -34,7 +34,7 @@ Biographies of theatre alumni are stored as `_people/firstname_lastname.md`.
 ---
 title: John Smith
 gender: male
-headshot: john_smith.jpg
+headshot: ABC123
 course: BEng Mechanical Engineering
 graduated: 2010
 careers:
@@ -57,7 +57,7 @@ John did techie stuff
 ---
 title: Alice Smith
 gender: female
-headshot: alice_smith.jpg
+headshot: ABC124
 course:
   - Creative Writing BA
   - English MA
