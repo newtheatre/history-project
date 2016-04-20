@@ -1,9 +1,10 @@
 ---
+layout: null
 ---
-<h1>People with headshots</h1>
+Collect headshots from people, collection form doesn't support uploads so we need people to email them in or say yes to one we've found. This issue should never close.
 
-<pre><code>
+*This list is automatically generated from http://history.newtheatre.org.uk/util/people-headshots-list.txt*
+
 {% assign sorted_people = site.people | sort: "title" %}
 {% for person in sorted_people %}{% if person.submitted %}
 {% if person.headshot %}- [x] [{{ person.title }}]({{ site.url }}{{ person.url }}){% else %}- [ ] [{{ person.title }}]({{ site.url }}{{ person.url }}){% endif %}{% endif %}{% endfor %}
-</code></pre>

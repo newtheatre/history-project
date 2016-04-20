@@ -2,25 +2,25 @@ language: ruby
 cache:
   bundler: true
   directories:
-    - _site/images/resized
-    - node_modules/
-    - lib/
-    - _asset_bundler_cache/
-    - vendor/bundle
-    - _smugmug_cache/
-    - tmp/
-    - .sass-cache
+  - _site/images/resized
+  - node_modules/
+  - lib/
+  - _asset_bundler_cache/
+  - vendor/bundle
+  - _smugmug_cache/
+  - tmp/
+  - ".sass-cache"
 install:
-  - bundle install --jobs=3 --retry=3 --deployment --path=${BUNDLE_PATH:-vendor/bundle}
-  - npm install
-  - bower install
+- bundle install --jobs=3 --retry=3 --deployment --path=${BUNDLE_PATH:-vendor/bundle}
+- npm install
+- bower install
 before_script:
- - _bin/prep.sh
+- _bin/prep.sh
 script:
- - bundle exec rake build
- - bundle exec rake test
+- bundle exec rake build
+- bundle exec rake test
 after_success:
- - _bin/deploy.sh
+- _bin/deploy.sh
 git:
   depth: 6
 rvm:
@@ -29,4 +29,5 @@ env:
   global:
   - secure: KEaPPezS8BSGFmCLKkHikaCxIibWIq3Pp6fXLwNc7avkvlgF9qsFVgMS2GsCL3c/Hj+xXjmwziXAl9VCP/s8+K1Q1epXKlqXz3HOXFnt9Y5rpaOtHgugq4e9KhmQrlQp52cnemVGvfQNbXxMw6D/cvaa2O++Dne+cvGcENLvCB8=
   - secure: NZXEvEfEjB+9Adgc4irbQWF6xYGIjvlAIkUYOzsK135sIbsK4xxjnAGfkEuaKv0LBaUeTh7jGJZKPE8IeStPkcbX6K4G6P3Q9joOCnwBF+hz43wheKpBmkv5wZSJ3+TEdo42D4E1/5D1cX2rzYY4QyWZ5FSzkO7B2RitZ+cEN0Q=
-  - secure: "TgCyjoUgVWTCGoUCO+vuxI+ZsWCfQqlSLbBciTjskD/PfN/2s3O0ahcDkJEw+Tpaok4I3wPOF8L+eydet9GSQnnz4nF+RS+UF6tu+CDnVQtZjN4l9xTxoSpHHLkALohftes08NxR1fumPC3Ip9/8nBcEHGgQRB+KDrHUqxtSjXk="
+  - secure: TgCyjoUgVWTCGoUCO+vuxI+ZsWCfQqlSLbBciTjskD/PfN/2s3O0ahcDkJEw+Tpaok4I3wPOF8L+eydet9GSQnnz4nF+RS+UF6tu+CDnVQtZjN4l9xTxoSpHHLkALohftes08NxR1fumPC3Ip9/8nBcEHGgQRB+KDrHUqxtSjXk=
+  - secure: hp4bb8UUlTfIq49EEuPdKUerFMIBevvYpcxQmm8eBHucPFR6z9MY1XRAz8NHeis8RMppawhIfu6SErip5eub2f2Ds/WEqId078+3d56oI517HS7PnP9ZrW2dfX18I5dbRd9onUdPHHdC5DdYR/mVZFi6YJrRs7+WeklGE8VrAzg=
