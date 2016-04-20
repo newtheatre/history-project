@@ -27,4 +27,5 @@
   Last update: {{site.time | date: "%Y-%m-%d" }}
   Language: English
   Doctype: HTML5
-  IDE: Sublime Text, Prose.io
+  Build: Jekyll, Travis CI
+  IDE: Sublime Text

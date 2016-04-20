@@ -7,11 +7,11 @@ sort: 10
 
 To edit the site you have several options. To make direct edits you must be added as a trusted editor to the [repository](http://github.com/newtheatre/history-project) by an [owner](https://github.com/orgs/newtheatre/people) however you can propose edits straight away for an editor to merge in.
 
-## Editing Online
-
-You can either use the GitHub website, Prose or using a text editor on your computer. Either way you'll need a free GitHub account, you can [sign up here](https://github.com/join).
+You can either use the GitHub website or using a text editor on your computer. Either way you'll need a free GitHub account, you can [sign up here](https://github.com/join).
 
 Ensure you have a verified email address with GitHub otherwise your changes will not trigger a build.
+
+## Editing Online
 
 ### GitHub
 
@@ -20,18 +20,6 @@ Ensure you have a verified email address with GitHub otherwise your changes will
 To use the GitHub website use the <strong class="tag"><i class="octicon octicon octicon-pencil"></i> Improve This Page</strong> button on the right hand edge of a page to launch the editor.
 
 If you're not a trusted editor you'll be prompted to create a _fork_ and will be led through the process of creating a pull request. Later an editor will check your changes are valid and merge them into the repo.
-
-### Prose
-
-<div class="box-warning">
-
-<i class="fa fa-exclamation-triangle"></i> You'll need write access to the repo to use Prose.
-
-</div>
-
-[Prose](http://prose.io) is a bit nicer to use when doing a lot of editing. Visit the site and authorise with GitHub. Find the history-project repo to load up the file list. Navigate to the file you're interested in and click 'Edit'.
-
-Meta data can be edited on Prose by using one of the buttons on the far right, a preview should also be available.
 
 ## Editing Locally
 
