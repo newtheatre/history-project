@@ -44,7 +44,7 @@ exclude:
 # skip_years: true
 # skip_venues: true
 # skip_seasons: true
-skip_virtual_people: true
+# skip_virtual_people: true
 
 # Specify year range for generation
 year_start: 1940
