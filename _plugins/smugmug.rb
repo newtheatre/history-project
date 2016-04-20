@@ -41,7 +41,7 @@ class Smug
       if not cache_data.key? "FetchTime" or
         cache_data["FetchTime"] < cache_invalid_time
         # Delete and do over as cache invalid
-        Jekyll.logger.warn("SM Cache Invalid:", "Refreshing #{id}")
+        Jekyll.logger.warn("SM cache invalidated:", "Refreshing #{id}")
         File.delete(cache_filename(id))
         return nil
       else

@@ -9,13 +9,13 @@ class SmugAlbum < Smug
 
   def fetch_album_data(albumID)
     # Given an album id, return the SM album
-    Jekyll.logger.info "Fetching SM Album:", "#{ albumID }"
+    Jekyll.logger.info "Fetching SM album:", "#{ albumID }"
     url = api_url("album/#{ albumID }")
     data = self.class.get(url)
     if data.key? "Response"
       return data["Response"]["Album"]
     else
-      Jekyll.logger.error "SM Error:", "Invalid album response"
+      Jekyll.logger.error "SM error:", "Invalid album response"
       return false
     end
 
@@ -29,7 +29,7 @@ class SmugAlbum < Smug
     if data.key? "Response" and data["Response"].key? "AlbumImage"
       return data["Response"]["AlbumImage"]
     else
-      Jekyll.logger.error "SM Error:", "Invalid album images response"
+      Jekyll.logger.error "SM error:", "Invalid album images response"
       puts url
       return false
     end
@@ -37,7 +37,7 @@ class SmugAlbum < Smug
 
   def fetch_image_urls(imageIDs, size, sizeClass, sizeParameters=nil)
     # Given a list of image ids, return SM single sized images
-    Jekyll.logger.info "Fetching SM Images:", "#{ imageIDs.size } at #{ size }"
+    Jekyll.logger.info "Fetching SM images:", "#{ imageIDs.size } at #{ size }"
 
     imageIDs_as_parameter = imageIDs.join(',')
     url = api_url("image/#{ imageIDs_as_parameter }!#{ size }", sizeParameters)
@@ -88,7 +88,7 @@ class SmugAlbum < Smug
       album = fetch_album(albumID)
       if album then cache_save(albumID, album) end
     elsif not album and not api_key
-      Jekyll.logger.error "SM Skip:",  "No API key"
+      Jekyll.logger.error "Skipping SM fetch:",  "No API key"
     end
 
     return album

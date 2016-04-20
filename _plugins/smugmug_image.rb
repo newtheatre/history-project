@@ -27,13 +27,13 @@ class SmugImage < Smug
 
   def fetchImageSizeDetails
     # Fetch ISD from API
-    Jekyll.logger.info "Fetching SM Image:", "#{ @imageID }, many sizes"
+    Jekyll.logger.info "Fetching SM image:", "#{ @imageID }, many sizes"
     url = api_url("image/#{ @imageID }!sizedetails")
     data = self.class.get(url)
     if data.key? "Response" and data["Response"].key? "ImageSizeDetails"
       return data["Response"]["ImageSizeDetails"]
     else
-      Jekyll.logger.error "SM Error:", "Invalid ImageSizeDetails response"
+      Jekyll.logger.error "SM error:", "Invalid ImageSizeDetails response"
     end
   end
 
@@ -46,7 +46,7 @@ class SmugImage < Smug
       isd = fetchImageSizeDetails
       if isd then cache_save(@imageID, isd) end
     elsif not isd and not api_key
-      Jekyll.logger.error "SM Skip:",  "No API key"
+      Jekyll.logger.error "Skipping SM fetch:",  "No API key"
     end
 
     return isd
