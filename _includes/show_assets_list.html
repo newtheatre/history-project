@@ -22,8 +22,7 @@
       <a class="fancybox" rel="assets" href="{{ asset.image.xlarge }}" title="{{ asset.caption }}">
         <img src="{{ asset.image.small }}" alt="{{ asset.type }} {{ asset.caption }}" title="{{ asset.caption }}" />
       </a>
-      <div class="debug-abs-bottom-left" data-debug-toggle title="Asset type">{{ asset.type }}</div>
-      <div class="debug-abs-top-left" data-debug-toggle title="Asset image">{{ asset.image }}</div>
+      <div class="debug-abs-bottom-left" data-debug-toggle title="ImageKey">{{ asset.image.key }}</div>
     </li>
 
   {% endif %}
