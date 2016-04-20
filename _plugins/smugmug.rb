@@ -21,27 +21,32 @@ class Smug
   end
 
   def cache_invalid_time
-    # Time now, minus some seconds
+    # Time now, minus 2 to 4 weeks
     # We compare the cache file ctime to this
     #            s  m  h  days
-    Time.new - ( 60*60*24*14 )
+    ( Time.now - ( 60*60*24*7*2 ) - rand( 60*60*24*7*2 ) ).to_i
   end
 
   def cache_filename(id)
     "#{ cache_dir }/#{ id }.json"
   end
 
+
   def cache_fetch(id)
     if File.exist?(cache_filename(id))
       cache_file = File.open(cache_filename(id), "r")
-      if cache_file.ctime < cache_invalid_time
+      cache_data = JSON.load(cache_file)
+      cache_file.close
+
+      if not cache_data.key? "FetchTime" or
+        cache_data["FetchTime"] < cache_invalid_time
         # Delete and do over as cache invalid
-        cache_file.close
+        Jekyll.logger.warn("SM Cache Invalid:", "Refreshing #{id}")
         File.delete(cache_filename(id))
         return nil
       else
         # Cache valid, use that
-        return JSON.load(cache_file)
+        return cache_data
       end
     else
       return nil
@@ -49,6 +54,9 @@ class Smug
   end
 
   def cache_save(id, data)
+    # Set fetch time for later cache invalidation checks
+    data["FetchTime"] = Time.now.to_i
+    # Create cache_dir and dump data as JSON
     Dir.mkdir(cache_dir) unless File.directory?(cache_dir)
     File.open(cache_filename(id), "w") do |new_cache_file|
       JSON.dump(data, new_cache_file)
