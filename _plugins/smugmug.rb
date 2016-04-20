@@ -37,7 +37,7 @@ class Smug
       if cache_file.ctime < cache_invalid_time
         # Delete and do over as cache invalid
         cache_file.close
-        File.delete(fn)
+        File.delete(cache_filename(id))
         return nil
       else
         # Cache valid, use that
