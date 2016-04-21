@@ -18,5 +18,5 @@ if [[ $TRAVIS_PULL_REQUEST = "false" && $TRAVIS_BRANCH = "master" ]]
   git push --quiet -f origin gh-pages > /dev/null 2>&1 # Hiding all the output from git push command, to prevent token leak.
 
   # Inform ntbot a push has happened, we do this with a HTTP call as using a GitHub > AWS SNS notification has a payload that's far too bif for AWS Lambda
-  curl --data "{\"build\":${TRAVIS_BUILD_NUMBER}, \"commit\":\"${TRAVIS_COMMIT}\", \"token\": \"${GH_TOKEN}\"}" $NTBOT_PUSH_URI
+  curl --data "{\"TRAVIS_BUILD_NUMBER\":${TRAVIS_BUILD_NUMBER}, \"TRAVIS_COMMIT\":\"${TRAVIS_COMMIT}\", \"GH_TOKEN\": \"${GH_TOKEN}\"}" $NTBOT_PUSH_URI
 fi
