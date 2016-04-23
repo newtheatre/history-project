@@ -27,7 +27,7 @@ def run()
   update_393(g)
 end
 
-if true #TRAVIS_PULL_REQUEST == "false" and TRAVIS_BRANCH == "master"
+if TRAVIS_PULL_REQUEST == "false" and TRAVIS_BRANCH == "master"
   puts "Running GitHub tasks..."
   run
 else
