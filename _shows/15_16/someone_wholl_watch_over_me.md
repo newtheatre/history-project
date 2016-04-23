@@ -56,7 +56,7 @@ crew:
  - role: "Make-Up"
    name: Sue White
  - role: Poster Designer
-   name: Jamie Stephens
+   name: Jamie Stevens
  - role: Poster Designer
    name: Ella Quinton
 
