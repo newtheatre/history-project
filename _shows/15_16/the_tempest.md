@@ -3,7 +3,7 @@ title: "The Tempest"
 playwright: William Shakespeare
 period: Spring
 season: In House
-season_sort: 310
+season_sort: 320
 date_start: 2016-04-20
 date_end: 2016-04-23
 venue: New Theatre
