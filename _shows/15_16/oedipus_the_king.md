@@ -3,13 +3,13 @@ title: "Oedipus The King"
 playwright: "Steven Berkoff"
 period: Spring
 season: "Lakeside"
-season_sort: 320
+season_sort: 310
 date_start: 2016-04-19
-date_end: 2016-04-13
+date_end: 2016-04-23
 venue: Djanogly Theatre
 
 cast:
- - name: Joshua Battaliou
+ - name: Josh Battaliou
  - name: Beth Wilson
  - name: Libby Boyd
  - name: Arnaud Lacey
