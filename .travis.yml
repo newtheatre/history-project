@@ -21,6 +21,7 @@ script:
 - bundle exec rake test
 after_success:
 - _bin/deploy.sh
+- bundle exec ruby _bin/github_tasks.rb
 git:
   depth: 6
 rvm:

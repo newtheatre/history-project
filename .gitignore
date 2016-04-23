@@ -1,12 +1,12 @@
-_site/
+.jekyll-metadata
 .sass-cache/
+.vagrant/
+_asset_bundler_cache/
+_site/
+_smugmug_cache/
 lib/
 node_modules/
-_asset_bundler_cache/
-.jekyll-metadata
-_smugmug_cache/
 tmp/
-.vagrant/
 
 for_shows_uncompressed
 for_shows_process
