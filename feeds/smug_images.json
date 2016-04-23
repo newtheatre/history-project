@@ -1,4 +1,6 @@
 ---
+# Lists all show assets by their SM ImageKey's, used to test usage of images
+# within show asset SM album.
 ---
 {
   {% assign first_actual = true %}

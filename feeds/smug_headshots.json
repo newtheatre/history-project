@@ -1,0 +1,19 @@
+---
+# Lists all headshots by their SM ImageKey's, used to test usage of images
+# within headshot SM album.
+---
+{
+  {% assign first_actual = true %}
+
+{% for person in site.people %}
+{% if person.headshot %}
+{% unless first_actual %},{% endunless %}
+  {% assign first_actual = false %}
+  {{ person.headshot.key | jsonify }}: {
+    "title": {{ person.title | jsonify }},
+    "link": {{ person.url | jsonify }}
+  }
+{% endif %}
+{% endfor %}
+
+}

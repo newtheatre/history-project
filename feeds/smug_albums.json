@@ -1,4 +1,5 @@
 ---
+# Lists all SM albums in use for prod shots, used to test usage of albums
 ---
 {
   {% assign first_actual = true %}
