@@ -51,6 +51,12 @@ $(document).ready ->
       window.d = data
       fill_image_list(data["Response"]["AlbumImage"])
 
-      fetch_usage_list "/feeds/smug_images.json", (data) ->
-        add_usage_data(data)
+      # Show assets
+      if key == "C87GJX"
+        fetch_usage_list "/feeds/smug_images.json", (data) ->
+          add_usage_data(data)
+      # Headshots
+      if key == "hZh8Jt"
+        fetch_usage_list "/feeds/smug_headshots.json", (data) ->
+          add_usage_data(data)
 

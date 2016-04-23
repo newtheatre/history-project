@@ -1,5 +1,6 @@
 ---
-layout: null
+# People feed, used by several frontend scripts inc. person collect form to
+# populate fields with person data (name, grad year, shows/commitees).
 ---
 {% assign first = true %}
 {
