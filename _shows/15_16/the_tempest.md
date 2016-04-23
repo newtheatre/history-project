@@ -48,7 +48,7 @@ crew:
  - role: Shadow Technical Director
    name: Jess Donn
  - role: Shadow Lighting Designer
-   name: Ravi Thakrar
+   name: Ravin Thakrar
  - role: Shadow Sound Designer
    name: Emma Barber
  - role: Technical Operator
@@ -61,7 +61,7 @@ crew:
    name: Mane Davtyan
  - role: Technical Operator
    name: Joseph Heil
- - role: Tecnical Operator
+ - role: Technical Operator
    name: Nathan Penney
  - role: Technical Operator
    name: Emily Dimino
