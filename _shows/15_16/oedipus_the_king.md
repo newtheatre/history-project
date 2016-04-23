@@ -1,6 +1,6 @@
 ---
 title: "Oedipus The King"
-playwright: ""
+playwright: "Steven Berkoff"
 period: Spring
 season: "Lakeside"
 season_sort: 320
