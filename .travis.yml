@@ -21,6 +21,7 @@ script:
 - bundle exec rake test
 after_success:
 - _bin/deploy.sh
+- bundle exec ruby _bin/github_tasks.rb
 git:
   depth: 6
 rvm:
@@ -32,3 +33,5 @@ env:
   - secure: TgCyjoUgVWTCGoUCO+vuxI+ZsWCfQqlSLbBciTjskD/PfN/2s3O0ahcDkJEw+Tpaok4I3wPOF8L+eydet9GSQnnz4nF+RS+UF6tu+CDnVQtZjN4l9xTxoSpHHLkALohftes08NxR1fumPC3Ip9/8nBcEHGgQRB+KDrHUqxtSjXk=
   - secure: hp4bb8UUlTfIq49EEuPdKUerFMIBevvYpcxQmm8eBHucPFR6z9MY1XRAz8NHeis8RMppawhIfu6SErip5eub2f2Ds/WEqId078+3d56oI517HS7PnP9ZrW2dfX18I5dbRd9onUdPHHdC5DdYR/mVZFi6YJrRs7+WeklGE8VrAzg=
   - secure: AXtiDdkQ/EMJEw37WGrF8rCcETvC4JswCJDrCTRH54Y/mGbs8kNJw/yX7bEzWCWLaX5eqLhyQzldh8k38EwPTcb1VKJS32SH2ce730+hbpgYuhAVwB2WwgVFdOlqXUd6eIeb6EVgcvIshFKdcjQ6ww4MunG79oG8E76tQGoJ+PM=
+  - secure: PxTpXT3mGNU+uWE/OYaOyGMziJ/cJ0uPAfr73enUx7i+8SRYeLLFQxwZBcbHcD/7ZDpEZcYYFHTC3d3nX5OItmOhJqbtaB0cNHFq+VVj9yiZJLjw9L/FdDwWrwxOzccGdsGyDVEWv+v8jnu5EoP+lHYVmKSV8zt5aOe65AIXMYM=
+  - secure: gD9bKWPench6Qbh5CDwNK2co6F1BJGGIZIP06MAZ3YJLZJR5n20XpPTofHVNb/kvW6LsCD4OWa+r2ZXVg+CrGgt82KZfpHuQ53j3wVpqbCBMTAcdLuRCVyADBsCW3xO4xPQCX3NuHWDQaAzmGr2SPE+uRa3mIpNP9cMhIP4PeDk=
