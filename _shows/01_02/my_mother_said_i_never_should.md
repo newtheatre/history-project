@@ -59,23 +59,26 @@ crew:
 
 assets:
   - type: programme
-    image: w6bgGND
+    image: s66J3r3
     page: 1
   - type: programme
-    image: Zm4qRG7
+    image: 7mMvtpW
     page: 2
   - type: programme
-    image: MHzLjpg
+    image: TsXHps9
     page: 3
   - type: programme
-    image: Ttc4hnk
+    image: Bn4NZPW
     page: 4
   - type: programme
-    image: RTDtGvW
+    image: 9sF2XL9
     page: 5
   - type: programme
-    image: j5XnJW3
+    image: GC33xDg
     page: 6
+  - type: programme
+    image: gbxhgRH
+    page: 7
 
 ---
 

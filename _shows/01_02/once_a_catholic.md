@@ -11,7 +11,7 @@ date_end: 2001-11-03
 
 assets:
   - type: flyer
-    image: LHVKXFF
+    image: pm3j7jW
     page: 1
 ---
 
