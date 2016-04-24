@@ -67,6 +67,13 @@ crew:
   - role: Lighting Designer
     name: Caroline Blinkhorn
   - role: Sound
+    name: Caroline Cracknell
+  - role: Make-Up
+    name: Jo Henderson
+  - role: Costumes
+    name: Judith Thei
+  - role: Costumes
+    name: Lucie Greene
 
 assets:
   - type: programme

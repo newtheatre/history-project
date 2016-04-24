@@ -1,6 +1,7 @@
 ---
 title: Let My People Go
 published: true
+student_written: true
 season: In House
 period: Spring
 playwright: Ben Richards
