@@ -51,7 +51,7 @@ crew:
 - role: Technical Operator
   name: Will Berrington
 - role: Technical Operator
-  name: Natalia Gonzalez-Morales
+  name: Natalia Gonzalez Morales
 - role: Technical Operator
   name: James Fox
 - role: Technical Operator
@@ -61,7 +61,7 @@ crew:
 - role: Stage Manager
   name: James Gray
 - role: Stage Manager
-  name: Natalia Gonzalez
+  name: Natalia Gonzalez Morales
   note: NSDF
 - role: Poster Designer
   name: Max Miller

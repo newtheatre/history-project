@@ -84,7 +84,7 @@ crew:
   - role: Photography
     name: Nathan Penney
   - role: Photography
-    name: Natalia Gonzalez
+    name: Natalia Gonzalez Morales
 
 prod_shots: rChMFv
 

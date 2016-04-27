@@ -28,7 +28,7 @@ crew:
  - role: Producer
    name: Lydia Smith
  - role: Production Assistant
-   name: Natalia Gonzalez
+   name: Natalia Gonzalez Morales
  - role: Technical Director
    name: Tom Selves
  - role: Lighting Designer
