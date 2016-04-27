@@ -23,7 +23,6 @@ cast:
  - role: The Nurse
    name: Iona Hampson
 
-
 crew:
  - role: Director
    name: Boo Jackson
@@ -48,6 +47,7 @@ crew:
  - role: Choir
    name: Tabitha Bennett
 
+prod_shots: 7wmZkz
 ---
 
 Hinged follows three women in 1901, Georgiana, Isabelle and Catherine, as they are plunged into the world of Bethlem asylum. Separated from the outside world, the three are labelled as suffering from ‘hysteria’, and are forced to remain trapped in a solitary ward. The play details the turbulent relationships between these women and their terrible experience existing in Bethlem, each being forced to question everything that forms their identity, and ultimately their sanity.
