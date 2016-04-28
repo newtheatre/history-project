@@ -23,6 +23,8 @@
 
   Vagrant Setup: Tom Price
 
+  Browser testing tools generously provided by BrowserStack.
+
 /* SITE */
   Last update: {{site.time | date: "%Y-%m-%d" }}
   Language: English

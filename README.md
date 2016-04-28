@@ -63,3 +63,7 @@ See the [site documentation](https://history.newtheatre.org.uk/docs/).
 ## Repo Mirror
 
 This repo is mirrored here: http://git.fullaf.com/wjdp/history-project. It's kept up to date by Will's pushes so may be a little behind.
+
+## Special Thanks
+
+- Browser testing tools generously provided by [BrowserStack](https://www.browserstack.com/).

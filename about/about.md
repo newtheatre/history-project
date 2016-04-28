@@ -29,6 +29,10 @@ See the [contributing](/contributing/) section for details on how to help out.
 - **Editor:** Nathan Penney
 - **Editor:** Nick Stevenson
 
+## Special Thanks
+
+- Browser testing tools generously provided by [BrowserStack](https://www.browserstack.com/).
+
 </div>
 <div class="grid-8" markdown="1">
 
