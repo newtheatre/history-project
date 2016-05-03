@@ -48,8 +48,6 @@ crew:
  - role: Technical Operator
    name: Elis Edhem
  - role: Technical Operator
-   name: Joseph Heil
- - role: Technical Operator
    name: Jess Donn
  - role: Technical Operator
    name: Emily Dimino
