@@ -54,8 +54,6 @@ crew:
 - role: Technical Operator
   name: Darcey Graham
 - role: Technical Operator
-  name: Ollie Shortt
-- role: Technical Operator
   name: Elis Edhem
 - role: Stage Manager
   name: Rachel Connolly
