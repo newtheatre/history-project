@@ -1,5 +1,5 @@
 ---
-title: "Accrington Pals"
+title: "The Accrington Pals"
 playwright: Peter Whelan
 period: Spring
 season: In House
