@@ -45,6 +45,8 @@ crew:
    name: Rohanna Brown
  - role: Lighting Designer
    name: Will Pimblett
+ - role: Sound Designer
+   name: Will Pimblett
  - role: Set Designer
    name: Ollie Shortt
  - role: Technical Operator
