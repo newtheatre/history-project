@@ -40,14 +40,17 @@ crew:
 
 assets:
   - type: programme
-    image: NnVFL9Z
+    image: GJnz7Pg
     page: 1
   - type: programme
-    image: 9HprZWv
+    image: TwF7mtw
     page: 2
   - type: programme
-    image: 8pcXsN2
+    image: K7fjSFv
     page: 3
+  - type: programme
+    image: xMSbgzr
+    page: 4
 
 published: true
 ---

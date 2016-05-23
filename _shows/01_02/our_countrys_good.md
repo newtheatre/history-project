@@ -77,10 +77,10 @@ crew:
 
 assets:
   - type: programme
-    image: BkhL2sk
+    image: BxFLJxK
     page: 1
   - type: programme
-    image: TZ6smcD
+    image: Gm6PcS2
     page: 2
 
 ---

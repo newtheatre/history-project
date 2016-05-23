@@ -49,10 +49,10 @@ assets:
     image: kQfkzFK
     page: 1
   - type: programme
-    image: NpBnsSS
+    image: cLJWJ5k
     page: 2
   - type: programme
-    image: Rq8s7fh
+    image: vMpFPpB
     page: 3
 
 published: true
