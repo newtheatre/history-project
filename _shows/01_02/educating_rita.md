@@ -45,12 +45,6 @@ assets:
   - type: programme
     image: TwF7mtw
     page: 2
-  - type: programme
-    image: K7fjSFv
-    page: 3
-  - type: programme
-    image: xMSbgzr
-    page: 4
 
 published: true
 ---
