@@ -7,7 +7,8 @@ season_sort: 210
 venue: New Theatre
 
 cast:
-  - name: Emily Medhurst
+  - role: The Woman Who Loved...
+    name: Emily Medhurst
 
 prod_shots: RBNL4h
 ---
