@@ -17,6 +17,9 @@ cast:
     name: Fran Roper
   - role: Wayne Hudson
     name: Magnus McCullagh
+crew:
+  - role: Director
+    name: Charlie Brafman
 
 assets:
   - type: poster
