@@ -15,6 +15,8 @@ crew:
 cast:
  - role: Bride
    name: Maia Gibbs
+ - role: Nicky
+   name: Emily Medhurst
 
 assets:
   - type: poster
