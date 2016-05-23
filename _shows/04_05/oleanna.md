@@ -6,7 +6,11 @@ playwright: David Mamet
 season_sort: 100
 
 cast:
-  - name: Emily Medhurst
+  - role: Carol
+    name: Emily Medhurst
+crew:
+  - role: Director
+    name: Lauren Gurteen
 ---
 
 
