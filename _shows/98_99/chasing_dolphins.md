@@ -7,7 +7,8 @@ season_sort: 260
 venue: New Theatre
 
 cast:
-  - name: Katie Rowley Jones
+  - role: Ronnie
+    name: Katie Rowley-Jones
 ---
 
 
