@@ -27,7 +27,7 @@ cast:
    name: Beth Summerfield
    note: Ego
  - role: Derelict Woman/Corpse
-   name: Beth Angela
+   name: Beth Angella
  - role: Drunk American Woman/Business Woman
    name: Arshia Jain
  - role: Child/Dead Child
