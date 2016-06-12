@@ -29,7 +29,8 @@
     "lunr.js": "~0.7.0",
     "letteringjs": "~0.7.0",
     "montserrat-webfont": "~1.0.3",
-    "open-sans-fontface": "~1.4.2"
+    "open-sans-fontface": "~1.4.2",
+    "turbolinks": "https://github.com/turbolinks/turbolinks.git"
   },
   "resolutions": {
     "bourbon": "~4.2.2"
