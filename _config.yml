@@ -200,6 +200,7 @@ lib:
   js:
     - lib/jquery/dist/jquery.js
     - lib/underscore/underscore.js
+    - lib/turbolinks/dist/turbolinks.js
     - lib/fancybox/lib/jquery.mousewheel-3.0.6.pack.js
     - lib/fancybox/source/jquery.fancybox.pack.js
     - lib/fancybox/source/helpers/jquery.fancybox-buttons.js
