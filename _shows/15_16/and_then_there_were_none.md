@@ -1,5 +1,5 @@
 ---
-title: And Then There Were None
+title: "And Then There Were None"
 playwright: Agatha Christie
 period: Spring
 season: In House

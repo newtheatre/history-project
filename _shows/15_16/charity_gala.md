@@ -1,5 +1,6 @@
 ---
 title: "Charity Gala"
+playwright: various
 period: Spring
 season: External
 season_sort: 420
