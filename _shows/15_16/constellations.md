@@ -6,7 +6,7 @@ season: Fringe
 season_sort: 430
 date_start: 2016-06-06
 date_end: 2016-06-07
-venue: Lakeside
+venue: Djanogly Theatre
 
 assets:
   - type: poster
