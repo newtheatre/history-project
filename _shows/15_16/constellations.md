@@ -1,5 +1,6 @@
 ---
 title: Constellations
+playwright: Nick Payne
 period: Spring
 season: Fringe
 season_sort: 430
