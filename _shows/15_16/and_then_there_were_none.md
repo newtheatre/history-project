@@ -72,6 +72,7 @@ crew:
  - role: Pianist
    name: Amy Summers
 
+prod_shots: 74VRzx
 ---
 
 Eight unique guests are invited to an isolated island off the Devonshire coast by a mysterious host. The guests have never met one another before, nor have they met their host. While assembled for cocktails a voice comes out of the air, accusing everyone present of murder. The incident starts the chain of events, and one by one, death surreptitiously finds each one of the guests. The tense play depicts the guests’ struggle to discover their assailant before their own death penalty is awarded in line with the final line of the rhyme And Then There Were None.
