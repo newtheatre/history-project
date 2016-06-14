@@ -1,6 +1,6 @@
 # Stuff for /people/first_last/ pages
 
-$(window).load ->
+$(document).ready ->
   $('.person-show-poster').each ->
     crop_height = $(this).height()
     image = $('img', this)

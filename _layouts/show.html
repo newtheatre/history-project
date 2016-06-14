@@ -149,11 +149,18 @@ body_class: section-archives layout-show
 
   <div class="show-photos-outer">
 
-    <section class="show-photos show-photos-smug">
+    <section class="show-photos show-photos-smug lightbox-group">
       {% for image in show.smugmug_album.Images %}
       <div class="show-photo-single debug-container">
-        <a class="fancybox" rel="photos" href="{{ image.LargeImage.Url }}" title="{{ image.Title }}">
-          <img class="lazy-image" src="/images/image-preload.png" data-lazy-src="{{ image.ThumbImage.Url }}" data-image-count={{ image.ImageCount }} alt="Show production shot" title="{{ image.Title }}" />
+        <a class="lightbox-link"
+           href="{{ image.LargeImage.Url }}"
+           title="{{ image.Title }}">
+          <img class="lazy-image"
+               src="/images/image-preload.png"
+               data-lazy-src="{{ image.ThumbImage.Url }}"
+               data-image-count={{ image.ImageCount }}
+               alt="Show production shot"
+               title="{{ image.Title }}" />
           <noscript>
             <img src="{{ image.ThumbImage.Url }}" alt="Show production shot" title="{{ image.Title }}" />
           </noscript>
