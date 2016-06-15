@@ -6,7 +6,7 @@ season: External
 season_sort: 400
 date_start: 2016-05-30
 date_end: 2016-05-31
-venue: New Theatre
+venue: New Theatre Studio A
 
 assets:
   - type: poster
