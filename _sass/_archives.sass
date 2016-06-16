@@ -76,20 +76,28 @@ $background-items: -3
     @include display(flex)
     @include flex-wrap(wrap)
 
-    @include respond-down(mob-land)
-      @include flex-direction(column)
-
   .archive-section
     // Row item
-    @include flex-basis(25%)
+    @include flex-basis(100%)
+    @include respond-up(tab-port)
+      @include flex-basis(33.333%)
+    @include respond-up(tab-land)
+      @include flex-basis(25%)
     @include block
 
     @include set-property-to-gutter(padding-right)
 
-  .decade
-    @include flex-basis(50%)
+  .venues
+    // Wider row item
+    @include flex-basis(100%)
+    @include respond-up(tab-port)
+      @include flex-basis(33.333%)
     @include respond-up(tab-land)
-      @include flex-basis(25%)
+      @include flex-basis(50%)
+
+  .plays
+    h3
+      @include archive-section-background($color-playwright)
 
   .season-list
     @include respond-down(tab-port)
@@ -97,13 +105,10 @@ $background-items: -3
     li
       white-space: nowrap
 
-  .venues
-    // Wider row item
-    @include flex-basis(50%)
-
-  .plays
-    h3
-      @include archive-section-background($color-playwright)
-
   .play-list
     @include columns(1)
+
+  @include respond-to(tab-port)
+    .season-list, .venue-list
+      // Not quite enough room in this size
+      @include columns(1)
