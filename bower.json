@@ -17,7 +17,6 @@
   "dependencies": {
     "bourbon": "~4.2.2",
     "fgrid": "*",
-    "fancybox": "~2.1.5",
     "font-awesome": "~4.5.0",
     "ionicons": "~2.0.1",
     "mousetrap": "~1.5.2",

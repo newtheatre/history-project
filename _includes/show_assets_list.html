@@ -1,4 +1,4 @@
-<ul class="show-assets-list">
+<ul class="show-assets-list lightbox-group">
 {% for asset in include.assets %}
 
   {% if asset.filename %}
@@ -19,7 +19,7 @@
   {% elsif asset.image %}
 
     <li class="show-asset-image debug-container">
-      <a class="fancybox" rel="assets" href="{{ asset.image.xlarge }}" title="{{ asset.caption }}">
+      <a class="lightbox-link" rel="assets" href="{{ asset.image.xlarge }}" title="{{ asset.caption }}">
         <img src="{{ asset.image.small }}" alt="{{ asset.type }} {{ asset.caption }}" title="{{ asset.caption }}" />
       </a>
       <div class="debug-abs-bottom-left" data-debug-toggle title="ImageKey">{{ asset.image.key }}</div>

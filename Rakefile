@@ -49,7 +49,7 @@ end
 
 task :debug do
   logline "NTHP DEBUG"
-  sh "bundle exec jekyll build --trace  --incremental"
+  sh "bundle exec jekyll build --trace --incremental --profile"
 
   logline "SEARCH INDEX"
   sh "coffee ./_coffee/search_index_generator.coffee"

@@ -1,0 +1,99 @@
+#lightbox-blur
+  @extend .modal-bg
+  display: none
+
+.lightbox-blur--show
+  display: block !important
+
+.lightbox-box
+  position: fixed
+  z-index: 1000
+
+  top: 5vh
+  left: 5%
+  width: 90% // Percentages exclude scroll bar, vw does not
+  height: 90vh
+
+  background: $color-black
+
+.lightbox-box__inner
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 100%
+
+@keyframes lightbox-spin
+  0%
+    -webkit-transform: rotate(0deg)
+    transform: rotate(0deg)
+  100%
+    -webkit-transform: rotate(360deg)
+    transform: rotate(360deg)
+
+.lightbox-box__image
+  height: 100%
+
+.lightbox-box__load
+  position: fixed
+  top: 50%
+  left: 50%
+  margin-left: -1.5rem
+  margin-top: -1.5rem
+
+  display: none
+  transform: rotate(270deg)
+
+  i
+    display: block
+
+    animation: lightbox-spin 1.5s infinite cubic-bezier(0.48, 0.07, 0.5, 0.93)
+    font-size: 3rem
+
+.lightbox-box__load--show
+  display: block
+
+.lightbox-box__image--load
+  // blur image before fully loaded
+  opacity: 0.5
+  transition: opacity 0.3s ease-out
+
+.lightbox-box__prev, .lightbox-box__next, .lightbox-box__close
+  color: $color-white
+  font-size: 2rem
+
+  position: fixed
+  cursor: pointer
+
+  // Centre icons
+  display: flex
+  align-items: center
+  justify-content: center
+
+.lightbox-box__prev, .lightbox-box__next
+  // Next / prev bars
+  top: 5vh
+  width: 5%
+  min-width: 4rem
+  height: 90vh
+
+  &:hover
+    background: rgba(255, 255, 255, 0.10)
+
+.lightbox-box__prev
+  left: 0
+
+.lightbox-box__next
+  right: 0
+
+.lightbox-box__close
+  top: 0
+  right: 0
+  height: 5vh
+  width: 5%
+
+  background: rgba($color-nnt-orange, 0.5)
+
+  &:hover
+    background: rgba($color-nnt-orange, 0.8)
+
+

@@ -28,7 +28,7 @@ $("[data-show-photos-toggle]").click (e) ->
       $(this).attr("src", $(this).data("lazy-src"))
 
 # Delay image loading
-$(window).load ->
+$(document).ready ->
   window.isMobile = $('.gallery-control').css('display') == "none"
 
   $('.lazy-image').each ->
