@@ -1,6 +1,7 @@
 ---
-title: “Tyrnnosaurus Sketch”
+title: Tyrnnosaurus Sketch
 playwright: Ian Sheard & Jamie Drew
+student_written: true
 period: Spring
 season: STUFF
 season_sort: 480

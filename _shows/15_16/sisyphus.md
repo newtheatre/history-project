@@ -1,5 +1,5 @@
 ---
-title: “Sisyphus's Safari (The Boy With No Face)”
+title: Sisyphus's Safari (The Boy With No Face)
 playwright: Jack Solloway
 company: Jack Solloway
 period: Spring

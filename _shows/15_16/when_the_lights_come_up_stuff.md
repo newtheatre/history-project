@@ -1,5 +1,5 @@
 ---
-title: “When The Lights Come Up”
+title: When The Lights Come Up
 company: Red Herrings
 period: Spring
 season: STUFF
