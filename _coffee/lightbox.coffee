@@ -90,8 +90,8 @@ class Lightbox
 
     # Remove L&R if single image
     if @lightboxGallery.galleryLinks.length == 1
-      @lb.removeChild(prevEl)
-      @lb.removeChild(nextEl)
+      prevEl.remove()
+      nextEl.remove()
 
   nextImage: =>
     if (@i + 1) < @lightboxGallery.galleryLinks.length
