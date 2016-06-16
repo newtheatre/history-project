@@ -40,7 +40,9 @@ class Lightbox
         @changeImage(i)
 
         # Keyboard bindings
+        Mousetrap.unbind('left')
         Mousetrap.bind('left', @prevImage)
+        Mousetrap.unbind('right')
         Mousetrap.bind('right', @nextImage)
         Mousetrap.bind('esc', @close)
 
