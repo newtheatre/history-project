@@ -82,23 +82,19 @@ published: true
     'name': ''
     'page_url': '/collect/show/'
   }
-  formURL = $(this).attr 'action'
 
-  $.ajax
-    url : formURL
-    type: "POST"
-    data : postData,
+  report = new ReportModel
+    title: form_dict['title']
+    message: message,
+    name: ''
+    page_url: '/collect/show/'
+    url: $(this).attr 'action'
 
-    success: (data, textStatus, jqXHR) ->
-      if data.status is "success"
-        window.location.href = '/collect/show/thanks/'
-      else
-        alert('There was a problem with the data you provided')
-        enableCollectForm()
-
-    error: (jqXHR, textStatus, errorThrown) ->
-      alert('Oops, something went wrong')
-      enableCollectForm();
+  report.save
+    success: (data) ->
+      Turbolinks.visit('/collect/show/thanks/')
+    error: (data) ->
+      enableCollectForm()
 
   disableCollectForm()
 
@@ -192,29 +188,18 @@ award: *fill me out
 
   window.message = message
 
-  postData = {
-    'title': form_dict['name'] + " bio submission",
-    'message': message,
-    'name': ''
-    'page_url': '/collect/person/'
-  }
-  formURL = $(this).attr 'action'
+  report = new ReportModel
+    title: form_dict['name'] + " bio submission"
+    message: message,
+    name: ''
+    page_url: '/collect/person/'
+    url: $(this).attr 'action'
 
-  $.ajax
-    url : formURL
-    type: "POST"
-    data : postData,
-
-    success: (data, textStatus, jqXHR) ->
-      if data.status is "success"
-        window.location.href = '/collect/person/thanks/'
-      else
-        alert('There was a problem with the data you provided')
-        enableForm()
-
-    error: (jqXHR, textStatus, errorThrown) ->
-      alert('Oops, something went wrong')
-      enableForm();
+  report.save
+    success: (data) ->
+      Turbolinks.visit('/collect/person/thanks/')
+    error: (data) ->
+      enableCollectForm()
 
   disableCollectForm()
 

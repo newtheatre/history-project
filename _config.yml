@@ -5,7 +5,7 @@ twitter: nntalumni
 description: "Archive project collecting past shows, committees and alumni biographies to piece together the theatre's dynamic and vibrant history."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://history.newtheatre.org.uk" # the base hostname & protocol for your site
-ntbot_endpoint: "https://ntbot.flatcar.xyz/post_issue" # For issue posting
+ntbot_endpoint: "https://703eeix5l8.execute-api.eu-west-1.amazonaws.com/prod/issue" # For issue posting
 
 # How many shows is too few for a year
 year_low_shows: 16

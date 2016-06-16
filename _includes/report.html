@@ -35,11 +35,11 @@
         issue tracker</a> about the page you're currently on - <strong>{{page.title}}</strong>. Let us know about
         missing or incorrect details, typos or any other way this page could be improved.</p>
       <div class="report-form">
-        <form name="report-issue-form" id="report-issue-form" action="{{ site.ntbot_endpoint }}" method="POST">
-          <input class="report-text" type="text" name="title" required placeholder="Subject" />
-          <textarea class="report-textarea" name="message" required placeholder="Message"></textarea>
-          <input class="report-text" type="text" name="name" required placeholder="Your name and year of graduation" />
-          <input type="hidden" name="page_url" value="{{page.url}}"/>
+        <form id="report-issue-form" action="{{ site.ntbot_endpoint }}" method="POST">
+          <input class="report-text" type="text" id="title" required placeholder="Subject" />
+          <textarea class="report-textarea" id="message" required placeholder="Message"></textarea>
+          <input class="report-text" type="text" id="name" required placeholder="Your name and year of graduation" />
+          <input type="hidden" id="page_url" value="{{ page.url }}"/>
           <button class="report-submit" type="submit" />Submit</button>
         </form>
       </div>

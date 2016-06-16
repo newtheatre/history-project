@@ -1,3 +1,36 @@
+class ReportModel
+  constructor: (opts) ->
+    @title = opts.title
+    @page_url = opts.page_url
+    @message = opts.message
+    @name = opts.name
+    @url = opts.url
+
+  buildJSON: =>
+    JSON.stringify
+      title: @title
+      page_url: @page_url
+      message: @message
+      name: @name
+
+  save: (opts) ->
+    FORM_URL = @url
+    console.log @buildJSON()
+    $.ajax
+      url : FORM_URL
+      type: "POST"
+      data : @buildJSON()
+      success: (data, textStatus, jqXHR) ->
+        if data.status is "success"
+          opts.success(data)
+        else
+          alert('There was a problem with the data your provided')
+          opts.error()
+      error: (jqXHR, textStatus, errorThrown) ->
+        alert('Oops, something went wrong')
+        error()
+
+
 $(document).ready ->
   $('#report-this-page').click (e) ->
     e.preventDefault()
@@ -22,23 +55,17 @@ $(document).ready ->
 $("#report-issue-form").submit (e) ->
   e.preventDefault()
 
-  postData = $(this).serializeArray()
-  formURL = $(this).attr 'action'
+  report = new ReportModel
+    title: $("#title", this).val()
+    page_url: $("#page_url", this).val()
+    message: $("#message", this).val()
+    name: $("#name", this).val()
+    url: $(this).attr 'action'
 
-  $.ajax
-    url : formURL
-    type: "POST"
-    data : postData,
-
-    success: (data, textStatus, jqXHR) ->
-      if data.status is "success"
-        reportThanks(data.url)
-      else
-        alert('There was a problem with the data your provided')
-        enableReportForm()
-
-    error: (jqXHR, textStatus, errorThrown) ->
-      alert('Oops, something went wrong')
+  report.save
+    success: (data) ->
+      reportThanks(data.url)
+    error: (data) ->
       enableReportForm()
 
   disableReportForm()
