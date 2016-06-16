@@ -48,8 +48,9 @@ class Lightbox
     window.disable_keyboard_nav = true
 
     # Freeze scrolling
-    document.body.style.top = document.body.scrollTop
+    @scrollTop = document.body.scrollTop
     document.body.style.position = "fixed"
+    document.body.style.top = "-#{@scrollTop}px"
 
   addElement: ->
     @lb = document.createElement('div')
@@ -121,6 +122,7 @@ class Lightbox
   close: =>
     # Unfreeze scrolling
     document.body.style.position = "static"
+    document.body.scrollTop = @scrollTop
 
     # Remove blur
     @blur.classList.remove('lightbox-blur--show')
