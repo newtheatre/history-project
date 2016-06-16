@@ -10,7 +10,7 @@ class LightboxGallery
     ev.preventDefault()
     window.ev = ev
     # Get image index in gallery
-    i = @getLinkIndex ev.path[1]
+    i = @getLinkIndex ev.srcElement.parentElement
 
     @lightbox = new Lightbox(@, i)
 
