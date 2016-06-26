@@ -61,6 +61,8 @@ task :test do
     :file_ignore => [/.*\/lib\/.*/],
     :parallel => { :in_processes => 4 },
     :cache => { :timeframe => '2w' },
+    :disable_external => true,
+    # :log_level => :debug,
   }).run
   logline "JSON LINT"
   sh "jsonlint -q ./_site/feeds/search.json"
