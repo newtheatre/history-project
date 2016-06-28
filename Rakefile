@@ -62,7 +62,7 @@ task :test do
     :parallel => { :in_processes => 4 },
     :cache => { :timeframe => '2w' },
     :typhoeus => {
-      :timeout => 5,
+      :timeout => 15,
     },
   }).run
   logline "JSON LINT"
