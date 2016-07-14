@@ -5,6 +5,7 @@ season: UNCUT
 season_sort: 235
 period: Spring
 venue: A barn in Lenton
+venue_sort: Lenton
 date_start: 2013-03-17
 date_end: 2013-03-18
 

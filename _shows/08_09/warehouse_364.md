@@ -6,6 +6,7 @@ season: Edinburgh
 season_sort: 400
 period: Edinburgh
 venue: C cubed
+venue_sort: C venues
 date_start: 2009-08-06
 date_end: 2009-08-31
 

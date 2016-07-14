@@ -5,6 +5,7 @@ season: External
 season_sort: 170
 period: Spring
 venue: Secret Location in Lenton
+venue_sort: Lenton
 date_start: 2013-02-04
 date_end: 2013-02-05
 

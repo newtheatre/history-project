@@ -6,6 +6,7 @@ period: Edinburgh
 season: Edinburgh
 season_sort: 410
 venue: ZOO Monkeyhouse
+venue_sort: ZOO
 date_start: 2014-08-02
 date_end: 2014-08-24
 

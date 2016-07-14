@@ -6,6 +6,7 @@ period: Edinburgh
 season: Edinburgh
 season_sort: 500
 venue: C too
+venue_sort: C venues
 date_start: 2007-08-02
 date_end: 2007-08-27
 
