@@ -27,7 +27,7 @@ cast:
   - role: Joe
     name: Johnny Fitpatrick
   - role:
-    name: Adne Duuheric
+    name: Adna Duherich
   - role: Pete
     name: Lawrence Court
   - role: Hannah
