@@ -17,12 +17,15 @@ module Jekyll
         (@shows_by_period[show.data["period"]] ||= []) << show
       end
 
-      if show.data["venue"] and show.data["venue"].downcase != "unknown"
-        (@shows_by_venue[show.data["venue"]]   ||= []) << show
+      # Group similar venues together, #457
+      if show.data["venue_sort"]
+        (@shows_by_venue[show.data["venue_sort"]] ||= []) << show
+      elsif show.data["venue"] and show.data["venue"].downcase != "unknown"
+        (@shows_by_venue[show.data["venue"]] ||= []) << show
       end
 
       if show.data["title"]
-        (@shows_by_title[show.data["title"]]   ||= []) << show
+        (@shows_by_title[show.data["title"]] ||= []) << show
       end
 
       if show.data.key?("playwright") and show.data["playwright"] and show.data["playwright"] != "(Various)"
