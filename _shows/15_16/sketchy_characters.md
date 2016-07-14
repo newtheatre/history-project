@@ -5,7 +5,7 @@ student_written: true
 season: Fringe
 season_sort: 50
 period: Autumn
-venue: Trent Great Hall
+venue: Trent, Great Hall
 date_start: 2015-11-16
 date_end: 2015-11-17
 

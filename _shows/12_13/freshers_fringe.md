@@ -6,7 +6,7 @@ season: In House
 season_sort: 10
 date_start: 2012-10-26
 date_end: 2012-10-27
-venue: PAS, Trent Building
+venue: Trent, Performing Arts Studio
 
 crew:
   - role: Coordinator

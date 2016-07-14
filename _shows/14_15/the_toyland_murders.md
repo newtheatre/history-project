@@ -7,7 +7,7 @@ season: Fringe
 season_sort: 400
 date_start: 2015-06-08
 date_end: 2015-06-09
-venue: PAS, Trent Building
+venue: Trent, Performing Arts Studio
 
 tour:
 - venue: NSDF 2016
