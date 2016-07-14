@@ -6,6 +6,7 @@ period: Edinburgh
 season: Edinburgh
 season_sort: 400
 venue: ZOO Southside
+venue_sort: ZOO
 
 date_start: 2012-08-06
 date_end: 2012-08-20

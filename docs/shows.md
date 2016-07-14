@@ -21,7 +21,8 @@ The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the 
 | `company`<br />*(optional)* | If non-NNT the name of the company |  |
 | `season` | Season show belongs to | Choices: Autumn, Spring, Edinburgh. |
 | `season_sort` | Order which this show comes in the entire year | Use multiples of 10 for ease of additions.<br />Roughly: Autumn should start at 30, Spring 200 and Edinburgh 400. Shows then fall at 30, 40, 50 *e.t.c.* |
-| `venue` | Venue show was performed in |  |
+| `venue` | Venue show was performed in. |  |
+| `venue_sort` | Group of venues `venue` belongs to. | Will group show together with other shows with the same `venue_sort`. For example C cubed, C nova, C soco, C too can all be grouped as C venues. |
 | `date_start` | Date of first performance | In the format YYYY-MM-DD. |
 | `date_end`<br />*(optional)* | Date of last performance | In the format YYYY-MM-DD, omit if show only ran one day. |
 | `tour`<br>Not yet implemented<br />*(optional)* | List of *tours* the show has been on (NSDF *e.t.c.*). | Specify `venue`, `date_start`, `date_end` and `notes`. See [#12](https://github.com/newtheatre/history-project/issues/12). Shows taken to Edinbugh should have a separate show created under the `Edinburgh` period. |

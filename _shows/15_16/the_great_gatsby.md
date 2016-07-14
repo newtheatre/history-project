@@ -6,7 +6,7 @@ student_written: true
 season: Fringe
 season_sort: 110
 period: Autumn
-venue: PAS, Trent Building
+venue: Trent, Performing Arts Studio
 date_start: 2015-12-06
 date_end: 2015-12-07
 

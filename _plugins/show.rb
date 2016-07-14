@@ -152,7 +152,9 @@ module Jekyll
         show.data["season_path"] = "/seasons" + SeasonPage.make_path(show.data["season"]) + "/"
       end
       if show.data["venue"]
-        show.data["venue_path"] = "/venues" + VenuePage.make_path(show.data["venue"]) + "/"
+        # Prioritise venue sort for link, as if set URL based on venue will not exist. PR #603.
+        v = show.data["venue_sort"] || show.data["venue"]
+        show.data["venue_path"] = "/venues" + VenuePage.make_path(v) + "/"
       end
 
       # To put content in meta description

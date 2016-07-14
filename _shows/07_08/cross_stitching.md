@@ -6,6 +6,7 @@ season: Edinburgh
 season_sort: 401
 period: Edinburgh
 venue: C soco
+venue_sort: C venues
 date_start: 2008-08-13
 date_end: 2008-08-25
 

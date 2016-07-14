@@ -5,7 +5,7 @@ student_written: true
 season: UNCUT
 season_sort: 95
 period: Spring
-venue: PAS, Trent Building
+venue: Trent, Performing Arts Studio
 date_start: 2012-02-05
 date_end: 2012-02-07
 
