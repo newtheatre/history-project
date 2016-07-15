@@ -7,20 +7,20 @@ company: Paines Plough
 season_sort: 350
 date_start: 2016-05-02
 venue: New Theatre Studio A
+
 assets:
   - type: poster
     image: cjzr7qj
 
-
 ---
 
-2001. Raves. Revision. Re-election.
+2001, Raves, Revision, Re-election.
 
 Nadia is swept up in one hot summer’s night of love that promises endless possibilities. Drinking, dancing, hope, ambition, lust, greed… and decisions that will determine the rest of her life.
 
 Rhythmically underscored by a live mix of old school UK Garage, award-winning writer Sabrina Mahfouz explores the legacy of a cultural movement that defined the hopes of a generation.
 
-2016. Re-wind.
+2016, Re-wind.
 
 Warning that the production contains haze effects, strong language and a representation of drug use.
 
