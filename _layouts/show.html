@@ -88,7 +88,9 @@ body_class: section-archives layout-show
           <i class="meta-icon fa fa-reorder"></i>
           <div class="meta-col show-season">
             <p class="season-{{ show.season | downcase | replace:" ","-" }}">
-            {% if show.season %}
+            {% if show.company %}
+              <a href="{{ show.season_path }}">{{ show.company }}</a>
+            {% elsif show.season %}
               <a href="{{ show.season_path }}">{{ show.season }}</a>
             {% else %}
               <span class="unknown">Season Unknown</span>

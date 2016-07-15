@@ -26,7 +26,10 @@
 
     <br />
 
-    <span class="show-list-season season-{{ show.season | downcase | replace:" ","-" }}">{{ show.season }}</span>
+    <span class="show-list-season season-{{ show.season | downcase | replace:" ","-" }}">
+      {% if show.company %}{{ show.company }}
+      {% else %}{{ show.season }}{% endif %}
+    </span>
 
     {% if show.date_start %}<span class="show-list-date">{% include liquid/date_range.html %}</span>
 
