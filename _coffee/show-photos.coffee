@@ -101,6 +101,8 @@ class ProdShotsGallery
       else
         @controls.classList.add('show-photos-controls--sticky')
         @elemContainer.style.paddingBottom = "#{controlsHeight}px"
+    else
+      @elemContainer.style.paddingBottom = ""
 
     window.requestAnimationFrame(@computeControlStickyness)
 
