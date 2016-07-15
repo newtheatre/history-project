@@ -1,0 +1,84 @@
+---
+layout: default
+body_class: home
+no_report_links: true
+permalink: /
+---
+
+<section class="home-section home-shows wrapper">
+  <div class="home-shows-design-element">
+
+    <a href="/years/">
+      <img src="/images/posterwall-bodge.png" class="posterwall-bodge" alt="An array of NNT posters" />
+    </a>
+
+  </div>
+
+  <div class="home-info">
+
+    <p>Piecing together the New Theatre’s dynamic and vibrant history we have collected records on</p>
+
+
+    {% assign shows = site.shows %}
+    {% assign people = site.people %}
+
+    <div class="flex-row home-shows-counter-container">
+      <div class="flex-1">
+        <div class="home-shows-counter js-lettering">{{shows.size}}</div>
+        <p>shows</p>
+      </div>
+      <div class="flex-1">
+        <div class="home-shows-counter js-lettering">{{people.size}}</div>
+        <p>people</p>
+      </div>
+    </div>
+
+    <p class="home-button">
+      <a href="/years/">Explore the archives&hellip;</a>
+    </p>
+
+  </div>
+
+</section>
+
+<section class="home-section home-network">
+
+ <div class="home-info">
+  <h2>Alumni Network</h2>
+
+  <p>The <strong>inaugural annual dinner</strong> of the alumni network is to be held on <strong>Saturday 19<sup>th</sup> March 2016</strong></p>
+
+  <p>For more information see the <a href="https://www.nottingham.ac.uk/alumni/newseventsandfeatures/events/event-records/nottingham-new-theatre-alumni-dinner.aspx">event page</a> on the university website.</p>
+
+ </div>
+
+</section>
+
+<section class="home-section home-contribute">
+ <div class="home-info">
+  <h2>Tell Your Story</h2>
+  {% assign people = site.people %}
+
+  <p>We're still a long way off collecting details on every show and every alumnus!</p>
+
+  <div class="home-contribute-actions">
+    <div class="home-contribute-action">
+      <a href="/search/">
+        <i class="ion-ios-person"></i>
+        <h3>Find yourself</h3>
+        <p>And send in your memories</p>
+      </a>
+    </div>
+    <div class="home-contribute-action">
+      <a href="/search/">
+        <i class="fa fa-ticket"></i>
+        <h3>Find your shows</h3>
+        <p>If we're missing details, let us know</p>
+      </a>
+    </div>
+  </div>
+
+  <p>If you have something else to give, see the <a href="/contributing/">contributing page</a>.</p>
+
+ </div>
+</section>

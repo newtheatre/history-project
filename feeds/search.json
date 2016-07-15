@@ -43,7 +43,7 @@
     {% assign first = false %}
 {% endfor %}
 
-{% for page in site.pages %}
+{% for page in site.content %}
     {% if page.title != null and page.title != empty and page.group != "year" and page.search != false %}
     {% unless first %},{% endunless %}{
         "title": {{ page.title | jsonify }},
