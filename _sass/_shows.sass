@@ -34,7 +34,7 @@ $show-photos-bg: $color-black
 $show-photos-mob-gutter: 7px
 
 .show-photos-outer, .show-assets-outer
-  @include grid-wrap
+  // Contain gallery and controlls
   margin-bottom: $baseline * 2
   background: $show-photos-bg
 
@@ -63,6 +63,10 @@ $show-photos-mob-gutter: 7px
   //   @include flex-basis(25%)
 
 .show-photos
+  // Contains gallery
+  @include grid-wrap
+
+.show-photos__inner
   @include gallery-outer
 
   padding-top: $show-photos-mob-gutter
@@ -78,7 +82,7 @@ $show-photos-mob-gutter: 7px
   // Show-y hide-y
   @include transition(max-height 0.3s ease-out)
 
-  &.toggle-show
+  &.show-photos__inner--show
     // We now calculate a max-height on an ad-hoc basis
     // max-height: 9999px
 
@@ -138,7 +142,18 @@ $show-photos-mob-gutter: 7px
       // Rather limiting, put prevents uglyness
       max-height: 100px
 
-.show-photos-controls-bar
+
+.show-photos-controls
+  @include grid-wrap
+  overflow: visible
+
+.show-photos-controls--sticky
+  position: fixed
+  bottom: 0 
+  left: 0
+  width: 100%
+
+.show-photos-controls__inner
   @include flex-row
   @include flex-direction(horizontal)
   position: relative // so .fade-out-overlay can be absolute
@@ -158,9 +173,6 @@ $show-photos-mob-gutter: 7px
   .gallery-control
     @include flex-basis(75%)
     background: darken($color-black, 4%)
-
-    &:hover
-      background: darken($color-nnt-purple, 10%)
 
     a
       text-align: center

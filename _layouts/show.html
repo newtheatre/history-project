@@ -147,9 +147,10 @@ body_class: section-archives layout-show
     {{ show.smugmug_album.ImageCount }} total images
   </div>
 
-  <div class="show-photos-outer">
+  <div id="show-prod-shots" class="show-photos-outer">
 
     <section class="show-photos show-photos-smug lightbox-group">
+      <div class="show-photos__inner">
       {% for image in show.smugmug_album.Images %}
       <div class="show-photo-single debug-container">
         <a class="lightbox-link"
@@ -170,12 +171,16 @@ body_class: section-archives layout-show
         </a>
       </div>
       {% endfor %}
+      </div>
     </section>
 
-    <div class="show-photos-controls-bar">
-      <div class="fade-out-overlay" data-show-label data-show-photos-toggle></div>
-      <div class="gallery-control" data-show-photos-toggle>
-        <a href="{{ show.smugmug_album.WebUri }}" title="Show all photos">
+    <div class="show-photos-controls">
+     <div class="show-photos-controls__inner">
+      <div class="fade-out-overlay"></div>
+      <div class="gallery-control">
+        <a href="{{ show.smugmug_album.WebUri }}" 
+           title="Show all photos"
+           data-gallery-toggle>
           <div class="show-label" data-show-label>
             <i class="ion-ios-arrow-down"></i>
             {{ show.smugmug_album.ImageCount }} production shots
@@ -198,6 +203,7 @@ body_class: section-archives layout-show
           </div>
         </a>
       </div>
+     </div>
     </div>
 
   </div>

@@ -1,45 +1,112 @@
-# Stuff for show pages photo gallery
+class ProdShotsGallery
+  maxImages:
+    limited: 4
+    full: 12
 
-mobile_max_images = 4
-desktop_max_images = 12
+  constructor: (opts) ->
+    @elemContainer = opts.elemContainer
+    
+    @toggleButton = @elemContainer.querySelector('[data-gallery-toggle]')
+    @showLabel = @elemContainer.querySelector('[data-show-label]')
+    @hideLabel = @elemContainer.querySelector('[data-hide-label]')
+    @fadeOverlay = @elemContainer.querySelector('.fade-out-overlay')
 
-# Show / hide toggle
-$("[data-show-photos-toggle]").click (e) ->
-  e.preventDefault()
-  gallery = $('.show-photos')
-  show_label = $('[data-show-label]')
-  hide_label = $('[data-hide-label]')
+    @gallery = @elemContainer.querySelector('.show-photos')
+    @galleryInner = @elemContainer.querySelector('.show-photos__inner')
 
-  if $('.show-photos').hasClass('toggle-show')
-    # Is open, close
-    gallery.removeClass('toggle-show')
-    gallery.css("max-height", "")
-    hide_label.hide()
-    show_label.show()
-  else
-    # Is closed, open
-    gallery.addClass('toggle-show')
-    gallery.css("max-height", gallery[0].scrollHeight)
-    hide_label.show()
-    show_label.hide()
+    @galleryOpen
 
-    # Load all images
-    $('.lazy-image').each ->
-      $(this).attr("src", $(this).data("lazy-src"))
+    @controls = @elemContainer.querySelector('.show-photos-controls')
 
-# Delay image loading
+    # Lazy image loading
+    @lazyImages = @elemContainer.querySelectorAll('.lazy-image')
+    @lazyComplete = false
+    @prePreLoad()
+
+    # Limited gallery (doesn't open, just forwards to smugmug)
+    @limitedGallery = @elemContainer.querySelector('.gallery-control').style.display == "none"
+    
+    # Event listeners
+    if not @limitedGallery
+      @toggleButton.addEventListener('click', @toggleClick)
+      @fadeOverlay.addEventListener('click', @toggleClick)
+      window.requestAnimationFrame(@computeControlStickyness)
+
+  prePreLoad: ->
+    if @limitedGallery
+      pre = @maxImages.limited
+    else
+      pre = @maxImages.full
+
+    for iKey in [0..pre]
+      @lazyLoad(@lazyImages[iKey])
+
+  lazyLoad: (elem) ->
+    if elem.src != elem.dataset.lazySrc
+      elem.src = elem.dataset.lazySrc
+
+  lazyLoads: (elems) ->
+    for elem in elems
+      @lazyLoad(elem)
+    @lazyComplete = true
+
+  toggleClick: (ev) =>
+    ev.preventDefault()
+    @toggleButton.blur()
+
+    if @galleryOpen
+      @closeGallery(ev)
+    else
+      @openGallery(ev)
+
+  openGallery: (ev) =>
+    # Open gallery
+    @galleryInner.classList.add('show-photos__inner--show')
+    @controls.classList.add('show-photos-controls--sticky')
+    @galleryInner.style.maxHeight = "#{@galleryInner.scrollHeight}px"
+    @showLabel.style.display = "none"
+    @fadeOverlay.style.display = "none"
+    @hideLabel.style.display = "block"
+    # Lazy load images if needed
+    if not @lazyComplete
+      @lazyLoads(@lazyImages)
+
+    @galleryOpen = true
+
+  closeGallery: (ev) =>
+    # Hide gallery
+    @galleryInner.classList.remove('show-photos__inner--show')
+    @controls.classList.remove('show-photos-controls--sticky')
+    @galleryInner.style.maxHeight = ""
+    @showLabel.style.display = "block"
+    @fadeOverlay.style.display = "block"
+    @hideLabel.style.display = "none"
+
+    @galleryOpen = false
+
+    scrollToAnimated(@gallery.offsetTop-200, 160)
+
+  computeControlStickyness: =>
+    # Sticks the controls to bottom when scrolled beneith, hides
+    # when beyond bounds of elemContainer
+    if @galleryOpen
+      viewportBottom = window.scrollY + window.innerHeight
+      galleryTop = @gallery.offsetTop
+      galleryBottom = @gallery.offsetHeight + @gallery.offsetTop
+      controlsHeight = @controls.offsetHeight
+
+      if viewportBottom > (galleryBottom + controlsHeight) or viewportBottom < (galleryTop + controlsHeight)
+        @controls.classList.remove('show-photos-controls--sticky')
+        @elemContainer.style.paddingBottom = ""
+      else
+        @controls.classList.add('show-photos-controls--sticky')
+        @elemContainer.style.paddingBottom = "#{controlsHeight}px"
+
+    window.requestAnimationFrame(@computeControlStickyness)
+
+
 $(document).ready ->
-  window.isMobile = $('.gallery-control').css('display') == "none"
-
-  $('.lazy-image').each ->
-    # Show (4) only on mobile and (12) on desktop, definitions at top of file
-    if window.isMobile and $(this).data('image-count') < mobile_max_images
-      $(this).attr("src", $(this).data("lazy-src"))
-    if not window.isMobile and $(this).data('image-count') < desktop_max_images
-      $(this).attr("src", $(this).data("lazy-src"))
-
-    $(this).load ->
-      # Centre photos vertically in their containers
-      container = $(this).parent().parent()
-      hAdjust = (($(this).height() - container.height()) / 2) * (2/3)
-      $(this).css("top", -hAdjust)
+  prodShotsGalleryElem = document.querySelector('#show-prod-shots')
+  if prodShotsGalleryElem
+    window.prodShotsGallery = new ProdShotsGallery
+      elemContainer: prodShotsGalleryElem
