@@ -4,6 +4,7 @@ title: Alumni
 group: top
 current: people
 published: true
+permalink: /people/
 ---
 
 ## Alumni Biographies
