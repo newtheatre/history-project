@@ -8,7 +8,7 @@ class LightboxGallery
 
   imageClick: (ev) =>
     ev.preventDefault()
-    window.ev = ev
+    ev.srcElement.blur()
     # Get image index in gallery
     i = @getLinkIndex ev.srcElement.parentElement
 
