@@ -1,6 +1,6 @@
 module Jekyll
   class VenuePage < Document
-    def initialize(site, collection, venue, shows)
+    def initialize(site, collection, venue)
       @site = site
       @venue = venue
       @path = VenuePage.make_path(venue)
@@ -11,14 +11,7 @@ module Jekyll
 
       defaults = @site.frontmatter_defaults.all(url, collection.label.to_sym)
 
-      my_data = {
-        "title" => get_title(),
-        "sort" => shows.size,
-        "shows" => shows,
-        "class" => @path[1..-1],
-      }
-
-      @data = Utils.deep_merge_hashes(defaults, my_data)
+      @data = Utils.deep_merge_hashes(defaults, {"title" => get_title()})
     end
 
     def get_title()
@@ -40,17 +33,28 @@ module Jekyll
     priority :low
 
     def generate(site)
+      # Generate venue pages for venues without manually created pages.
       if not site.config["skip_venues"]
         @collection = site.collections["venues"]
         Jekyll.logger.info "Generating venues..."
 
         for venue in site.data["shows_by_venue"]
           unless @collection.docs.detect { |doc| doc.data["title"] == venue[0] }
-            @collection.docs << VenuePage.new(site, @collection, venue[0], venue[1])
+            @collection.docs << VenuePage.new(site, @collection, venue[0])
           end
         end
       else
         Jekyll.logger.warn "Skipping venue generation"
+      end
+
+      for venue_page in @collection.docs
+        # Assign shows to venue, or not
+        venue_page.data['shows'] = site.data['shows_by_venue'][venue_page.data['title']] || []
+
+        venue_page.data['sort']  = venue_page.data['shows'].size
+        venue_page.data['class'] = venue_page.path.split('/')[-1][0..-4]
+
+        puts venue_page.data['title'], venue_page.data['shows'].size
       end
     end
   end
