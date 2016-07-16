@@ -19,7 +19,7 @@ cast:
  - name: Daniella Finch
  - name: Sam Peake
 
-crew:P
+crew:
  - role: Director
    name: Jamie Drew
  - role: Producer
