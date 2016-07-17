@@ -21,7 +21,7 @@ class ProdShotsGallery
     # Lazy image loading
     @lazyImages = @elemContainer.querySelectorAll('.lazy-image')
     @lazyComplete = false
-    @prePreLoad()
+    @preLazyLoad()
 
     # Limited gallery (doesn't open, just forwards to smugmug)
     @limitedGallery = @elemContainer.querySelector('.gallery-control').style.display == "none"
@@ -32,14 +32,15 @@ class ProdShotsGallery
       @fadeOverlay.addEventListener('click', @toggleClick)
       window.requestAnimationFrame(@computeControlStickyness)
 
-  prePreLoad: ->
+  preLazyLoad: ->
     if @limitedGallery
       pre = @maxImages.limited
     else
       pre = @maxImages.full
 
     for iKey in [0..pre]
-      @lazyLoad(@lazyImages[iKey])
+      if @lazyImages[iKey]
+        @lazyLoad(@lazyImages[iKey])
 
   lazyLoad: (elem) ->
     if elem.src != elem.dataset.lazySrc
