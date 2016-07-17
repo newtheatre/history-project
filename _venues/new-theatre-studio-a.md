@@ -2,6 +2,8 @@
 title: New Theatre Studio A
 title_short: Studio A
 built: 2012
+images:
+  - 4ZvgFMq
 location:
   lat: 52.938035
   lon: -1.196260

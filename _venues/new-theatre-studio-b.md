@@ -2,6 +2,8 @@
 title: New Theatre Studio B
 title_short: Studio B
 built: 2012
+images:
+  - XzJnJk6
 location:
   lat: 52.938035
   lon: -1.196260

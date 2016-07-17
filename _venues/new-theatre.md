@@ -2,6 +2,14 @@
 title: New Theatre 
 title_short: New Theatre
 built: 1965
+images:
+  - nQTq7s8
+  - Xnt862b
+  - Lh6MCVM
+  - THrZZPJ
+  - dfBpdKV
+  - hkpwBX7
+  - 78Jv8c5
 location:
   lat: 52.938035
   lon: -1.196260

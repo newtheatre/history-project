@@ -52,7 +52,8 @@ module Jekyll
         venue_page.data['shows'] = site.data['shows_by_venue'][venue_page.data['title']] || []
 
         venue_page.data['sort']  = venue_page.data['shows'].size
-        venue_page.data['class'] = venue_page.path.split('/')[-1][0..-4]
+        # venue_page.data['class'] = venue_page.path.split('/')[-1][0..-4]
+        venue_page.data['class'] = 'venue'
 
         if venue_page.data['images']
           venue_page.data['smug_images'] = []

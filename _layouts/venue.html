@@ -2,9 +2,10 @@
 layout: default
 body_class: section-archives layout-venue header-nobr breadcrumb-no-bottom-margin
 current: archives
+class: venue
 ---
 
-{% include archive_breadcrumbs.html %}
+{% include archive_breadcrumbs.html section_title="Venues" section_tag="venues" %}
 
 {% unless page.placeholder %}
 
@@ -12,7 +13,8 @@ current: archives
   <div class="venue-info venue-header__col">
     {{ page.content }}
     <div class="venue-info__meta">
-      {% if page.built %}<i class="ion-calendar"></i> {{ page.built }}{% endif %}
+      {% if page.built %}<span><i class="ion-calendar"></i> {{ page.built }}</span>{% endif %}
+      <span><i class="fa fa-ticket"></i> {{ page.shows.size }} shows</span>
     </div>
   </div>
 

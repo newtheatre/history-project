@@ -2,6 +2,8 @@
 title: Djanogly Theatre 
 title_short: Djanogly Theatre
 built: 2001
+images:
+  - sSSNNhX
 location:
   lat: 52.938478
   lon: -1.189908
