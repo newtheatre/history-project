@@ -87,6 +87,13 @@ $background-items: -3
 
     @include set-property-to-gutter(padding-right)
 
+  $bottom-group-border-thick: 4px
+
+  .venues, .seasons, .plays
+    h3
+      padding-bottom: $baseline - $bottom-group-border-thick
+      border-bottom: $bottom-group-border-thick solid
+
   .venues
     // Wider row item
     @include flex-basis(100%)
@@ -95,9 +102,16 @@ $background-items: -3
     @include respond-up(tab-land)
       @include flex-basis(50%)
 
+    h3
+      border-bottom-color: $color-venues
+
+  .seasons
+    h3
+      border-bottom-color: $color-seasons
+
   .plays
     h3
-      @include archive-section-background($color-playwright)
+      border-bottom-color: $color-playwright
 
   .season-list
     @include respond-down(tab-port)

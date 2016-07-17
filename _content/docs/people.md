@@ -18,7 +18,7 @@ Biographies of theatre alumni are stored as `_people/firstname_lastname.md`.
 | `title` | Person name. | In the format Firstname Lastname. |
 | `submitted`<br />*(optional)* | The date the last submission was made. | **YYYY-MM-DD** If this is omitted it means person has not yet made a submission, we have collated data for them. |
 | `gender`<br />*(optional)* | Person gender. | Recognises `male` or `female`. |
-| `headshot`<br />*(optional)* | The SmugMug ID of the headshot. | Find IDs using [headshot utility](https://history.newtheatre.org.uk/util/smug-headshots/). |
+| `headshot`<br />*(optional)* | The SmugMug ID of the headshot. | Find IDs using [headshot utility](/util/smug-headshots/). |
 | `course`<br />*(optional)* | The course, or courses the person studied. | Can be a single value or a list if multiple courses studied. |
 | `graduated`<br />*(optional)* | The year the person graduated. | **YYYY** |
 | `award`<br />*(optional)* | Award person received on leaving the theatre. | Should be in title case, Fellowship, Commendation. If not applicable line should be omitted. |
