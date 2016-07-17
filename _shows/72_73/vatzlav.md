@@ -4,7 +4,24 @@ title: Vatzlav
 season: Edinburgh
 period: Edinburgh
 playwright: Slawomir Mrozek
+translator: Ralph Manheim
 season_sort: 300
+venue: Herriot Watt Building
+date_start: 1973-08-18
+date_end: 1973-09-01
+
+cast:
+  - name: Charles Barnecut
+  - name: Janis Bryan
+  - name: Sue Compston
+  - name: Mark Everest
+  - name: Larry George
+  - name: Martin Holland
+  - name: Nick Pease
+  - name: Pete Rushton
+  - name: Tim Sluckin
+  - name: Frank Ward
+
 crew:
   - role: Director
     name: Frank Ward
@@ -16,7 +33,6 @@ crew:
     name: Tony Ireland
   - role: Stage Manager
     name: Sarah Hughes
-venue: unknown
 
 assets:
   - type: poster
@@ -29,7 +45,6 @@ assets:
     page: 2
 
 ---
-
 
 Nottingham Theatre Group at Heriot Watt Student's Union Building, Edinburgh Festival:
 
