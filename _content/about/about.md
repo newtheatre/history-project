@@ -32,6 +32,7 @@ See the [contributing](/contributing/) section for details on how to help out.
 ## Special Thanks
 
 - Browser testing tools generously provided by [BrowserStack](https://www.browserstack.com/).
+- Mapping © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>
 
 </div>
 <div class="grid-8" markdown="1">
