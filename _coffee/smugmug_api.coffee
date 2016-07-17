@@ -11,16 +11,16 @@ fetch_sm = (url, callback) ->
       alert "Error: #{err}"
 
 fill_album_list = (albums) ->
-  ret = $("#smug-albums").html()
+  ret = ""
   $(albums).each (i, album) ->
     ret += "<tr class=\"album-row\" data-key=\"#{ album["AlbumKey"] }\"><td>#{ i+1 }</td><td><a href=\"#{ album['WebUri'] }\" class=\"usage-link\">#{ album["Name"] }</a></td><td>#{ album["AlbumKey"] }</td><td>#{ album["ImageCount"] }</td><td class=\"usage\">?</td></tr>\n"
-  $("#smug-albums").html(ret)
+  $("#smug-albums tbody").html(ret)
 
 fill_image_list = (images) ->
-  ret = $("#smug-images").html()
+  ret = ""
   $(images).each (i, image) ->
     ret += "<tr class=\"image-row\" data-key=\"#{ image["ImageKey"] }\"><td>#{ i+1 }</td><td><a href=\"#{ image['WebUri'] }\"><img src=\"#{ image["ThumbnailUrl"] }\" alt=\"Thumb\"/></a><td>#{ image["Title"] }</td><td>#{ image["FileName"] }</td><td>#{ image["ImageKey"] }</td><td class=\"usage\">?</td></tr>\n"
-  $("#smug-images").html(ret)
+  $("#smug-images tbody").html(ret)
 
 fetch_usage_list = (url, callback) ->
   $.ajax
@@ -44,6 +44,9 @@ $(document).ready ->
 
       fetch_usage_list "/feeds/smug_albums.json", (data) ->
         add_usage_data(data)
+        $("#smug-albums").tablesorter()
+
+
 
   if $('body').hasClass 'util-smug-album'
     key = $('#smug-images').data("album")
@@ -55,8 +58,12 @@ $(document).ready ->
       if key == "C87GJX"
         fetch_usage_list "/feeds/smug_images.json", (data) ->
           add_usage_data(data)
+          $("#smug-images").tablesorter()
       # Headshots
       if key == "hZh8Jt"
         fetch_usage_list "/feeds/smug_headshots.json", (data) ->
           add_usage_data(data)
+          $("#smug-images").tablesorter()
+
+
 
