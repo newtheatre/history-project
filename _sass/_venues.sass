@@ -1,0 +1,39 @@
+.venue-header
+  // Modified .banner-header
+  @include grid-wrap
+  background: $color-venues
+  padding-bottom: 0
+  margin-bottom: $baseline
+
+  display: flex
+
+  .venue-header__col
+    @include set-property-to-gutter(padding-right)
+
+  .venue-info
+    flex: 2
+    padding-top: $baseline
+    padding-bottom: $baseline
+
+  .venue-photo, .venue-map
+    max-width: 25%
+    height: $baseline * 9
+    flex: 1
+
+  .venue-photo
+    overflow: hidden
+    img
+      height: 100%
+
+  .venue-map
+    .map-container
+      min-height: $baseline * 9
+      height: 100%
+
+.venue-page
+  // For no header
+  margin-top: $baseline
+
+.venue-header + .venue-page
+  // Remove margin when header present
+  margin-top: 0

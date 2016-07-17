@@ -11,7 +11,7 @@ module Jekyll
 
       defaults = @site.frontmatter_defaults.all(url, collection.label.to_sym)
 
-      @data = Utils.deep_merge_hashes(defaults, {"title" => get_title()})
+      @data = Utils.deep_merge_hashes(defaults, {"title" => get_title(), "placeholder" => true})
     end
 
     def get_title()
@@ -54,7 +54,13 @@ module Jekyll
         venue_page.data['sort']  = venue_page.data['shows'].size
         venue_page.data['class'] = venue_page.path.split('/')[-1][0..-4]
 
-        puts venue_page.data['title'], venue_page.data['shows'].size
+        if venue_page.data['images']
+          venue_page.data['smug_images'] = []
+          for imageKey in venue_page.data['images']
+            smugImage = SmugImage.new(imageKey)
+            venue_page.data['smug_images'].push(smugImage)
+          end
+        end
       end
     end
   end

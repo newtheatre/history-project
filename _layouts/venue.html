@@ -1,12 +1,39 @@
 ---
 layout: default
-body_class: section-archives layout-venue
+body_class: section-archives layout-venue header-nobr breadcrumb-no-bottom-margin
 current: archives
 ---
 
 {% include archive_breadcrumbs.html %}
 
-<div class="page">
+{% unless page.placeholder %}
+
+<div class="venue-header">
+  <div class="venue-info venue-header__col">
+    {{ page.content }}
+    <div class="venue-info__meta">
+      {% if page.built %}<i class="ion-calendar"></i> {{ page.built }}{% endif %}
+    </div>
+  </div>
+
+  <div class="venue-photo venue-header__col">
+    {% if page.smug_images %}
+      {% for image in page.smug_images %}
+      <img src="{{ image.medium }}" alt="{{ page.title }}" />
+      {% endfor %}
+    {% else %}
+    &nbsp;
+    {% endif %}
+  </div>
+
+  <div class="venue-map venue-header__col">
+    {% include elements/map.html location=page.location %}
+  </div>
+</div>
+
+{% endunless %}
+
+<div class="venue-page page">
   <div class="year-shows">
     {% assign show_list_shows = page.shows %}
     {% include show_list.html %}

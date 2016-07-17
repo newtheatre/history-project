@@ -4,7 +4,7 @@ title_short: Studio B
 built: 2012
 location:
   lat: 52.938035
-  long: -1.196260
+  lon: -1.196260
 ---
 
 Part of the Archaeology and Classics building left up when building was demolished.
