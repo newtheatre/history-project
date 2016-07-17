@@ -14,7 +14,7 @@ cast:
   - name: Charles Barnecut
   - name: Janis Bryan
   - name: Sue Compston
-  - name: Mark Everest
+  - name: Mark Everett
   - name: Larry George
   - name: Martin Holland
   - name: Nick Pease
