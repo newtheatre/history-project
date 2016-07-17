@@ -8,10 +8,14 @@ season_sort: 10
 
 cast:
  - role: Macbeth
-   name: Roger Lancaster
+   name: John Turner
  - role: Banquo
    name: Dick Downing
  - name: John Holmes
  - name: Gordon Parsons
 
+
+crew:
+ - role: Director
+   name: Roger Lancaster
 ---
