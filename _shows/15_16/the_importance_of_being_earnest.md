@@ -52,7 +52,7 @@ crew:
  - role: Technical Operator
    name: Rohanna Brown
  - role: Technical Operator
-   name: Tom Proffit
+   name: Tom Proffitt
  - role: Technical Operator
    name: Emily Dimino
  - role: Technical Operator

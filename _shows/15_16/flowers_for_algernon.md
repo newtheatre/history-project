@@ -31,7 +31,7 @@ crew:
  - role: Producer
    name: Eden Phillips Harrington
  - role: Production Assistant
-   name: Shannon Moffat
+   name: Shannon Moffatt
  - role: Design Assistant
    name: Josh Mallalieu
  - role: Lighting Designer

@@ -10,7 +10,7 @@ date_end: 1973-11-22
 
 cast:
   - role: Rachel Brown
-    name: Susan Elliot
+    name: Susan Elliott
   - role: Meeker
     name: Nigel Hughes
   - role: Bertram Cates
@@ -38,7 +38,7 @@ cast:
   - role: Mrs Blair
     name: Claire Rothwell
   - role: Elijah
-    name: Tim Slukin
+    name: Tim Sluckin
   - role: "E.K. Hornbeck"
     name: Nick Williams
   - role: Timmy

@@ -12,7 +12,7 @@ cast:
 - role: Algernon Moncrief
   name: Nick Williams
 - role: Cecily Cardew
-  name: Rosie Farrar
+  name: Rosemary Farrar
 - role: Lady Bracknell
   name: Sue Candy
 - role: Gwendolyn Fairfax
