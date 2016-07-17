@@ -87,15 +87,13 @@ crew:
 
 assets:
   - type: programme
-    image: wCdfk7t
+    image: wpp7dbH
   - type: programme
-    image: J43NND3
+    image: R8szNG9
   - type: programme
-    image: 7bgPd2w
+    image: Jsx7xVz
   - type: programme
-    image: NjfdVn8
-  - type: programme
-    image: gbgRqR3
+    image: z6K5D5n
 
 published: true
 ---

@@ -7,20 +7,14 @@ season_sort: 280
 venue: New Theatre
 date_start: 2002-06-03
 cast:
-  - role: unknown
-    name: Amy Goodall
-  - role: unknown
-    name: Caroline Jones
-  - role: unknown
-    name: Ged Pfeifer
-  - role: unknown
-    name: "Henry Filloux-Bennett"
-  - role: unknown
-    name: John Cuzick
-  - role: unknown
-    name: Judith Thei
-  - role: unknown
-    name: Michael Hyde
+  - name: Amy Goodall
+  - name: Caroline Jones
+  - name: Ged Pfeifer
+  - name: "Henry Filloux-Bennett"
+  - name: John Cuzick
+  - name: Judith Thei
+  - name: Michael Hyde
+
 crew:
   - role: Coordinator
     name: Alexandra Turner
@@ -31,9 +25,9 @@ crew:
 
 assets:
   - type: programme
-    image: Mh8Kx4b
+    image: 8cFpzMc
   - type: programme
-    image: PHnKjcT
+    image: 7PDh7SZ
 ---
 
 24 Hour Play
