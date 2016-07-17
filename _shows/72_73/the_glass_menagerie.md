@@ -5,6 +5,14 @@ period: Spring
 playwright: Tennessee Williams
 season_sort: 170
 venue: New Theatre
+date_start: 1973-02-24
+date_end: 1973-03-01
+
+assets:
+  - type: programme
+    image: hQPXWdb
+  - type: programme
+    image: P6KXHLK
 ---
 
 The Glass Menagerie is a four-character memory play by Tennessee Williams which premiered in 1944 and catapulted Williams from obscurity to fame. The play has strong autobiographical elements, featuring characters based on Williams himself, his histrionic mother, and his mentally fragile sister Laura. In writing the play, Williams drew on an earlier short story, as well as a screenplay he had written under the title of The Gentleman Caller.

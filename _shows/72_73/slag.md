@@ -5,6 +5,8 @@ period: Spring
 playwright: David Hare
 season_sort: 160
 venue: New Theatre
+date_start: 1973-02-19
+date_end: 1973-02-23
 
 assets:
   - type: programme
