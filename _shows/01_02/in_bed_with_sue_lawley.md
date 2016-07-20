@@ -65,13 +65,11 @@ crew:
 
 assets:
   - type: programme
-    image: 4g892tS
+    image: VgzGjt7
     page: 1
   - type: programme
-    image: fpQ332d
+    image: k4VQmLB
     page: 2
-  - type: programme
-    image: PCkCt38
-    page: 3
+
 ---
 
