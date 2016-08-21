@@ -11,6 +11,12 @@ date_end: 2016-08-26
 venue: Royal Terrace, Greenside
 venue_sort: Greenside
 
+assets:
+  - type: poster
+    image: PMJTJV2
+
+prod_shots: DdZTWt
+
 cast:
  - role: Nick Carraway
    name: Nick Gill
