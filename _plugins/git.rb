@@ -13,14 +13,16 @@ module Jekyll
 
       index = 0
       g.log.each do |log|
-        if(index < 10)
+        if(index < 30)
           result << "<li>"
           result << log.date.strftime("%d %b")
-          result << " - <a href='https://github.com/newtheatre/history-project/commit/"
+          result << " ­– <a href='https://github.com/newtheatre/history-project/commit/"
           result << log.sha
           result << "/' data-proofer-ignore>"
-          result << log.message
-          result << "</a></li>"
+          result << log.message.lines[0]
+          result << "</a> – "#
+          result << log.author.name
+          result << "</li>"
           index += 1
         end
       end
