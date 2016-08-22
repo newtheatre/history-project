@@ -10,6 +10,9 @@ date_end: 2016-08-27
 venue: Royal Terrace, Greenside
 venue_sort: Greenside
 
+assets:
+  - type: poster
+    image: GFP3f9H
 
 cast:
  - name: Arnaud Lacey
