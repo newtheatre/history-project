@@ -9,7 +9,7 @@ The history project collects and publishes information on past shows, committees
 
 We use a static site generator ([Jekyll](jekyllrb.com)) among other tools to turn the data and website source hosted here into the website published at [history.newtheatre.org.uk](https://history.newtheatre.org.uk).
 
-This project is run by a group from the New Theatre's Alumni Network.
+This project is run by [a group](https://history.newtheatre.org.uk/humans.txt) from the New Theatre's Alumni Network.
 
 ## Running Locally
 
@@ -33,6 +33,7 @@ To get the site running locally you will need a working Ruby environment, the bu
 ### Run
 
 - `bundle exec rake build` to build the site to _site.
+- OR `bundle exec rake debug` does the same but skips minification and enables Jekyll's incremental builds.
 - `cd _site && python -m SimpleHTTPServer` to serve the site using the Python HTTP server (should be on all *nix machines)
 
 ### Test
@@ -67,3 +68,11 @@ This repo is mirrored here: http://git.wjdp.uk/wjdp/history-project. It's kept u
 ## Special Thanks
 
 - Browser testing tools generously provided by [BrowserStack](https://www.browserstack.com/).
+
+## Licence
+
+This project as a whole isn't particularly helpful for other organizations, what we're doing here can be described as [*coding in the open*](https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/), rather than building an open source project. That said parts of the project may be of interest or use to others. This repository is a mix of source and content, as such there are two licences that apply.
+
+- All source files (HTML templates, Sass, CoffeeScript, Ruby, shell scripts) are released under the [MIT licence](https://opensource.org/licenses/MIT).
+- All content files (HTML files, Markdown, YAML datafiles, images, graphics) are copyright © The Nottingham New Theatre 2016.
+
