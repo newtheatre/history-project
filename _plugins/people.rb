@@ -63,12 +63,20 @@ module Jekyll
       # Return the last year someone worked at the theatre given a list of
       # shows or years
       if data and data.size > 0
-        last = data[-1]["item"]
-        last_year = last.data["year_page"]
-        return last_year.data["sort"] + 1
-      else
-        return 0
+        # Filter the data set to only items with valid year_pages
+        data.select! { |i| not i["item"].nil? }
+        data.select! { |i| not i["item"].data["year_page"].nil? }
+        
+        # If we have a valid item return its year sort
+        if data.size > 0
+          last_item = data[-1]["item"]
+          last_year = last_item.data["year_page"]
+          return last_year.data["sort"] + 1
+        end
       end
+
+      # Data empty or no useful data
+      return 0
     end
 
     def estimate_graduated(person)
