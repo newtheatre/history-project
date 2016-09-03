@@ -13,4 +13,4 @@ The following is a listing of the last thirty commits to the project's [reposito
 
 {% gitactivity %}
 
-<i class="ion-more"></i> *Further change history can be found on our [GitHub repository](https://github.com/newtheatre/history-project).*
+*<i class="fa fa-external-link"></i> Further change history can be found on our [GitHub repository](https://github.com/newtheatre/history-project).*
