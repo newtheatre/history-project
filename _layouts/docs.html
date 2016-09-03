@@ -2,28 +2,3 @@
 layout: default
 body_class: layout-docs
 ---
-<div class="docs">
-  <nav class="docs-nav">
-    <div class="docs-nav-tabs">
-      <div class="docs-nav-tab">
-        <a href='/about/'>About</a>
-      </div>
-      <div class="docs-nav-tab current">
-        <a href='/docs/'>Docs</a>
-      </div>
-    </div>
-    <div class="docs-nav-inner">
-      <ul>
-      {% assign docs_pages = site.content | where:"group", "docs" | sort: "sort" %}
-      {% for node in docs_pages %}
-        <li><a href="{{ node.url }}">{{ node.title }}</a></li>
-      {% endfor %}
-      </ul>
-    </div>
-  </nav>
-  <article class="docs-content">
-    <h1>{{ page.title }}</h1>
-    {{ content }}
-  </article>
-
-</div>
