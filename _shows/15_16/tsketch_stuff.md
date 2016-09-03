@@ -1,5 +1,5 @@
 ---
-title: Tyrnnosaurus Sketch
+title: Tyrannosaurus Sketch
 playwright: Ian Sheard & Jamie Drew
 student_written: true
 period: Spring
