@@ -36,7 +36,7 @@ end
 task :build do
   nthp()
   logline "NTHP BUILD"
-  sh "bundle exec jekyll build --profile"
+  sh "bundle exec jekyll build --trace --profile"
 
   logline "JS UGLIFY "
   jsminify("_site/js/app.js")
