@@ -29,6 +29,8 @@ crew:
     name: Natasha Mortimer
   - role: Lighting Designer
     name: Tyler-Antonia Gordon
+  - role: Technical Operator
+    name: Joanne Blunt
   - role: Musician
     name: Lyle Fulton
   - role: Musician

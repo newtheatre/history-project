@@ -16,6 +16,8 @@ crew:
   - role: Technical Operator
     name: Joseph Heil
   - role: Technical Operator
+    name: Joanne Blunt
+  - role: Technical Operator
     name: Sam Osborne
 
 assets:

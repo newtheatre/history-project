@@ -13,8 +13,10 @@ cast:
 crew:
   - role: Venue Technician
     name: Joseph Heil
+  - role: Technical Director
+    name: Joanne Blunt
   - role: Lighting Designer
-    name: Ben Macpherson
+    name: Joanne Blunt
   - role: Musician
     name: Manuel Barenz
 

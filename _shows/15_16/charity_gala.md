@@ -60,6 +60,8 @@ crew:
    name: Laura Jayne Bateman
  - role: Producer
    name: Lydia Smith
+ - role: Lighting Deisgner
+   name: Joanne Blunt
  - role: Technical Director
    name: Rohanna Brown
  - role: Poster Designer

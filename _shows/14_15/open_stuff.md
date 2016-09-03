@@ -27,8 +27,6 @@ crew:
   - role: Technical Director
     name: Darcey Graham
   - role: Venue Technician
-    name: Joanne Blunt
-  - role: Venue Technician
     name: Joseph Heil
 
 assets:
