@@ -25,10 +25,11 @@ window.disable_keyboard_nav = false
 
 $(window).load ->
   # DO NOT DO ON EVERY TURBONAV
+  bindArrows()
+
+$(document).ready ->
   if localStorage.debug_mode is "yes"
     $('[data-debug-toggle]').show()
-
-  bindArrows()
 
 document.addEventListener 'turbolinks:visit', ->
   window.jekyll_page_up = null
