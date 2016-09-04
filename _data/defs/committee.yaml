@@ -1,0 +1,15 @@
+- attr: title
+  short: Page title
+  description: "Used to set the title of the page, should be in the format YYYY-YY."
+  generated: false
+  required: true
+
+- attr: committee
+  short: Committee members
+  description: "Uses the person list format"
+  generated: false
+
+- attr: comment
+  short: Reserved for editor comments
+  description: "Displayed in editors’ mode."
+  generated: false

@@ -1,0 +1,25 @@
+- attr: title
+  short: Venue title
+  description: "  Should match usage with shows, if using venue_sort should match that. Must also match filename."
+  generated: false
+  required: true
+
+- attr: built
+  short: Year the venue was constructed
+  description: "YYYY"
+  generated: false
+
+- attr: images
+  short: List of SmugMug image IDs of the venue
+  description: "Find IDs using venue utility."
+  generated: false
+
+- attr: location
+  short:  Exact location of the venue, two child attibutes lat and lon as decimals
+  description: "Used for map marker."
+  generated: false
+
+- attr: comment
+  short: Reserved for editor comments
+  description: "Displayed in editors’ mode."
+  generated: false

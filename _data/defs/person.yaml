@@ -1,0 +1,55 @@
+- attr: title
+  short: Person name 
+  description: "In the format Firstname Lastname"
+  generated: false
+  required: true
+
+- attr: submitted
+  short: The date the last submission was made
+  description: "YYYY-MM-DD If this is omitted it means person has not yet made a submission, we have collated data for them."
+  generated: false
+
+- attr: gender
+  short: Person gender
+  description: "Recognises male or female."
+  generated: false
+
+- attr: headshot
+  short: The SmugMug ID of the headshot
+  description: "Find IDs using headshot utility."
+  generated: false
+
+- attr: course
+  short: The course, or courses the person studied
+  description: "Can be a single value or a list if multiple courses studied."
+  generated: false
+
+- attr: graduated
+  short: The year the person graduated
+  description: "YYYY"
+  generated: false
+
+- attr: award
+  short: Award person recieved on leaving the theatre
+  description: "Should be in title case, Fellowship, Commendation. If not applicable line should be omitted."
+  generated: false
+
+- attr: careers
+  short: List of careers, theatre or non-theatre related
+  description: "Recognised theatre careers are listed in _data/careers.yaml."
+  generated: false
+
+- attr: links
+  short: A link list to external profiles and other sites
+  description: "Should implement type, and href, can optionally use title. Common types are listed in _data/link-types.yaml."
+  generated: false
+
+- attr: news
+  short:  A link list to news stories
+  description: "For collecting notable news stories relating to the alumnus. Should implement title, date and href."
+  generated: false
+
+- attr: comment
+  short: Reserved for editor comments
+  description: "Displayed in editors’ mode."
+  generated: false
