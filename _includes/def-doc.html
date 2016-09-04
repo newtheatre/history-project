@@ -1,0 +1,23 @@
+<table class="def-table">
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Job</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for attr in include.def %}
+        <tr id="{{ attr.attr }}"
+            class="{% if attr.generated %}def-table-attr__generated{% endif %}
+                   {% if attr.required %}def-table-attr__required{% endif %}">
+            <td>
+                <code class="def-table-attr__attr-name">{{ attr.attr }}</code><br />
+                {{ attr.type }}
+            </td>
+            <td>{{ attr.short }}</td>
+            <td>{{ attr.description }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

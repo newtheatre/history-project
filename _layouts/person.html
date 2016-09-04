@@ -7,9 +7,9 @@ body_class: layout-person header-nobr content-nobr
 
 <div class="person">
 
-  {% if person.comment %}
-  <div class="debug-comment wrapper" data-debug-toggle>{{ person.comment }}</div>
-  {% endif %}
+  <div class="grid-wrap grid-row debug" data-debug-toggle>
+    {% include def-data.html def=site.data.defs.person model='person' %}
+  </div>
 
   <!-- Full width -->
   <header class="person-header">

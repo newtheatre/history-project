@@ -3,6 +3,10 @@ layout: default
 body_class: layout-committee
 ---
 
+<div class="grid-wrap grid-row debug" data-debug-toggle>
+  {% include def-data.html def=site.data.defs.committee model='committee' %}
+</div>
+
 <div class="page">
   <h1>Committee {{page.title}}</h1>
 

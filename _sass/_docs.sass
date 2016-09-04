@@ -52,3 +52,15 @@ $inner-width: 87%
   background: #f7f7f7
   border: none
   padding: $baseline / 4
+
+.def-table
+  tr:target
+    background: rgba(255,255,255,0.1)
+  .def-table-attr__attr-name
+    background: $color-debug-attr-base
+  .def-table-attr__generated
+    .def-table-attr__attr-name
+      background: $color-debug-attr-generated
+  .def-table-attr__required
+    .def-table-attr__attr-name
+      background: $color-debug-attr-required

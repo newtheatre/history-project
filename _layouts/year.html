@@ -26,6 +26,10 @@ current: archives
   </div>
 </div>
 
+<div class="grid-wrap grid-row debug" data-debug-toggle>
+  {% include def-data.html def=site.data.defs.year model='year' %}
+</div>
+
 <div class="page">
   <div class="year-shows">
     {% include year_list.html %}

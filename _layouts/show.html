@@ -35,8 +35,8 @@ body_class: section-archives layout-show
 </div>
 
 <div class="show">
-  <div class="show-wrap show-row">
-    {% include debug-data.html %}
+  <div class="show-wrap show-row debug" data-debug-toggle>
+    {% include def-data.html def=site.data.defs.show model='show' %}
   </div>
 
   {% if show.date_start == null %}

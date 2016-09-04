@@ -1,6 +1,5 @@
 // Debug message styling, content shown when editors' mode is enabled
-
-$color-debug: #4FFF1F
+// See https://history.newtheatre.org.uk/docs/#super-secret-editors-mode
 
 @mixin debug-box
   display: none
@@ -24,22 +23,51 @@ $color-debug: #4FFF1F
 .debug-comment
   @include debug-box
 
+$debug-data-term-width: 20%
+
 .debug-data
   @include debug-box
-  $debug-data-term-width: 15%
   dl
     dt
-      background: mix($color-debug, black, 20%)
+      background: $color-debug-attr-base
       padding: 0.5em
 
       float: left
       clear: left
       width: $debug-data-term-width
       text-align: right
+
+      a, a:visited
+        color: white
+    .debug-data__term--required
+      background: $color-debug-attr-required
+    .debug-data__term--generated
+      background: $color-debug-attr-generated
+    
     dd
       margin-left: $debug-data-term-width
       margin-bottom: 0
       padding: 0.5em
+      min-height: 1em + 0.5em*2
+      max-height: 6em
+      overflow: hidden
+      &:focus
+        max-height: none
+        background: mix($color-debug-attr-base, black)
+        color: white
+
+    .debug-data__value--true
+      color: #bcff00
+    .debug-data__value--false
+      color: red
+
+    pre
+      margin-bottom: 0
+      white-space: pre-wrap
+
+    code
+      background: none
+
 
 .debug-build-details
   @include debug-box
