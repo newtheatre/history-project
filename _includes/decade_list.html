@@ -5,9 +5,9 @@
 
     <a href="{{ year.url }}">{{ year.title }}</a>
 
-    <div class="decade-list-counts archive-list-counts" data-debug-toggle title="Show counts for year, C denotes a committee record">
+    <div class="decade-list-counts archive-list-counts" data-debug-toggle title="Show counts for year, icon denotes a committee record">
       {% if year.shows %}{{ year.shows.size }}{% endif %}
-      {% if year.committee %}C{% endif %}
+      {% if year.committee %}<i class="fa fa-users"></i>{% endif %}
     </div>
 
   </li>
