@@ -1,107 +1,176 @@
 - attr: title
+  type: string
   short: Show title
   description: "Displayed at the top of the show page and on various other pages. Should be the title of this performance, may not quite match the title of the play – see canonical."
-  generated: false
   required: true
 
 - attr: playwright
+  type: string
   short: Full name of the playwright
   description: "Omit if using devised, set to various if compilation."
-  generated: false
 
 - attr: devised
   short: Used if play was devised
   description: "Either true for generic output or a descriptor. Example descriptor: \"Cast and Crew\" will output “Devised by Cast and Crew”. Omit if using playwright."
-  generated: false
 
 - attr: adaptor
+  type: string
   short: Full name of adaptor
   description: "Outputs as “Adapted by adaptor”."
-  generated: false
 
 - attr: translator
+  type: string
   short: Full name of the translator
   description: "Outputs as “Translated by translator”."
-  generated: false
+
+- attr: playwright_type
+  type: string
+  generated: true
+
+- attr: playwright_formatted
+  type: string
+  short: Short form formatted playwright string
+  description: Excludes adaptor and other additional details.
+  generated: true
+
+- attr: playwright_formatted_long
+  type: string
+  short: Long form formatted playwright string
+  description: Includes adaptor and othe additional details.
+  generated: true
 
 - attr: canonical
+  # type: not defined yet
   short: List of canonical titles and playwrights for reverse lookup.
-  description: "Specify titles and/or playwrights in a list. See #486."
-  generated: false
+  description: "Specify titles and/or playwrights in a list. See [#486](https://github.com/newtheatre/history-project/issues/486)."
 
 - attr: student_written
+  type: boolean
   short: Show written by a NNT member
   description: "Set to true, false or line missing are equivalent."
-  generated: false
 
 - attr: company
+  type: string
   short: If non-NNT the name of the company
   description: " "
-  generated: false
 
 - attr: season
+  type: string
   short: Season show belongs to
   description: "Choices: Autumn, Spring, Edinburgh."
-  generated: false
   required: true
+
+- attr: season_path
+  type: string
+  generated: true
 
 - attr: season_sort
+  type: number
   short: Order which this show comes in the entire year
-  description: "Use multiples of 10 for ease of additions.\nRoughly: Autumn should start at 30, Spring 200 and Edinburgh 400. Shows then fall at 30, 40, 50 e.t.c."
-  generated: false
+  description: "Use multiples of 10 for ease of additions.\nRoughly: Autumn should start at 30, Spring 200 and Edinburgh 400. Shows then fall at 30, 40, 50 &c"
   required: true
 
+- attr: ignore_missing
+  type: boolean
+  generated: true
+
+- attr: year
+  type: string
+  generated: true
+
+- attr: year_page
+  type: document
+  generated: true
+
+- attr: seq_index
+  type: number
+  short: Index of set of all shows
+  generated: true
+
+- attr: seq_next
+  type: document
+  generated: true
+
+- attr: seq_previous
+  type: document
+  generated: true
+
+- attr: redirect_from
+  type: array
+  short: Array of URLs to redirect to this record
+  description: "Used to migrate from old URL scheme to new, jekyll-redirect-from generates the redirects (pages with meta redirect tags)."
+  generated: true
+
 - attr: venue
+  type: string
   short: Venue show was performed in.
   description: " "
-  generated: false
+
+- attr: venue_path
+  type: string
+  generated: true
 
 - attr: venue_sort
+  type: string
   short: Group of venues venue belongs to.
   description: "Will group show together with other shows with the same venue_sort. For example C cubed, C nova, C soco, C too can all be grouped as C venues."
-  generated: false
 
 - attr: date_start
+  type: date
   short: Date of first performance
   description: "In the format YYYY-MM-DD."
-  generated: false
 
 - attr: date_end
+  type: date
   short: Date of last performance
   description: "In the format YYYY-MM-DD, omit if show only ran one day."
-  generated: false
 
 - attr: tour
-  short: List of tours the show has been on (NSDF e.t.c.).
+  type: array
+  short: List of tours the show has been on (NSDF &c).
   description: "Specify venue, date_start, date_end and notes. See #12. Shows taken to Edinbugh should have a separate show created under the Edinburghperiod."
-  generated: false
+
+- attr: excerpt
+  type: string
+  generated: true
 
 - attr: cast
+  type: array
   short: Cast members
-  description: "Uses the person list format."
-  generated: false
+  description: "Uses the [person list](/docs/person_list) format."
 
 - attr: crew
+  type: array
   short: Crew members
-  description: "Uses the person list format."
-  generated: false
+  description: "Uses the [person list](/docs/person_list) format."
 
 - attr: prod_shots
+  type: string
   short: SmugMug album ID for production shots
-  description: "Use util/smug-albums to find the AlbumID."
-  generated: false
+  description: "Use [util/smug-albums](/util/smug-albums/) to find the AlbumID."
+
+- attr: smugmug_album
+  type: hash
+  short: API response from SmugMug for the provided key in prod_shots
+  generated: true
 
 - attr: assets
+  type: array
   short: Publicity and other materials
-  description: "Uses the photos and assets format."
-  generated: false
+  description: "Uses the [photos and assets](/docs/photos_and_assets) format."
 
-- attr: published
-  short: Not yet used!
-  description: "Will in the future hide the show if set to false."
-  generated: false
+- attr: poster
+  type: hash
+  short: Selected asset to use as show poster, identical to `display_image`
+  generated: true
+
+- attr: display_image
+  type: hash
+  short: Selected asset to use as show display image
+  generated: true
 
 - attr: comment
+  type: string
   short: Reserved for editor comments
   description: "Displayed in editors’ mode."
   generated: false

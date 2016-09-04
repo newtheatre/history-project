@@ -24,8 +24,8 @@ module Jekyll
 
       if committee.data.key?("committee") and committee.data["committee"].class == Array
         committee.data["committee"] = parse_person_list(committee.data["committee"], people_by_filename)
-        fill_people_reverse_index(committee, committee.data["committee"], "people_ri_committees", @site) end
-
+        fill_people_reverse_index(committee, committee.data["committee"], "people_ri_committees", @site)
+      end
 
       # Generate the legacy path for 301 redirect re. #142 Make semantic and pretty urls
       committee.data["redirect_from"] = get_committee_legacy_paths(committee)

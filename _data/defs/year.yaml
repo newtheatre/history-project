@@ -1,0 +1,56 @@
+- attr: title
+  type: string
+  short: Title
+  generated: true
+
+- attr: sort
+  type: number
+  short: Sort index
+  generated: true
+
+- attr: grad_year
+  type: number
+  short: The year members will have graduated in if this is their last year of activity
+  generated: true
+
+- attr: year
+  type: string
+  short: Identifier for this year
+  description: Used in paths
+  generated: true
+
+- attr: decade
+  type: number
+  short: Decade identifier for the decade this show belongs to
+  generated: true
+
+- attr: fellows
+  type: documentarray
+  short: List of this years fellows
+  generated: true
+
+- attr: commendations
+  type: documentarray
+  short: List of this years commendations
+  generated: true
+
+- attr: committee
+  type: document
+  short: This years committee
+  generated: true
+
+- attr: shows
+  type: documentarray
+  short: List of this years shows
+  generated: true
+
+- attr: show_count
+  type: number
+  short: Size of shows array
+  generated: true
+
+- attr: redirect_from
+  type: array
+  short: Array of URLs to redirect to this record
+  description: "Used to migrate from old URL scheme to new, jekyll-redirect-from generates the redirects (pages with meta redirect tags)."
+  generated: true

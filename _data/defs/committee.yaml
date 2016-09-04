@@ -1,15 +1,29 @@
 - attr: title
+  type: string
   short: Page title
   description: "Used to set the title of the page, should be in the format YYYY-YY."
-  generated: false
   required: true
 
 - attr: committee
+  type: array
   short: Committee members
   description: "Uses the person list format"
-  generated: false
+
+- attr: year
+  type: string
+  short: YY_YY year identifier pertaining to this committee
+
+- attr: year_page
+  type: document
+  short: Year page pertaining to this committee
+
+- attr: redirect_from
+  type: array
+  short: Array of URLs to redirect to this record
+  description: "Used to migrate from old URL scheme to new, jekyll-redirect-from generates the redirects (pages with meta redirect tags)."
+  generated: true
 
 - attr: comment
+  type: string
   short: Reserved for editor comments
   description: "Displayed in editors’ mode."
-  generated: false
