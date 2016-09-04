@@ -24,6 +24,23 @@ $color-debug: #4FFF1F
 .debug-comment
   @include debug-box
 
+.debug-data
+  @include debug-box
+  $debug-data-term-width: 15%
+  dl
+    dt
+      background: mix($color-debug, black, 20%)
+      padding: 0.5em
+
+      float: left
+      clear: left
+      width: $debug-data-term-width
+      text-align: right
+    dd
+      margin-left: $debug-data-term-width
+      margin-bottom: 0
+      padding: 0.5em
+
 .debug-build-details
   @include debug-box
   position: fixed

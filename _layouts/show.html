@@ -35,12 +35,9 @@ body_class: section-archives layout-show
 </div>
 
 <div class="show">
-  {% if show.comment %}
-  <div class="debug-comment wrapper" data-debug-toggle>
-    <i class="ion-chatbox"></i>
-    {{ show.comment }}
+  <div class="show-wrap show-row">
+    {% include debug-data.html %}
   </div>
-  {% endif %}
 
   {% if show.date_start == null %}
   <div class="show-wrap show-row">
@@ -53,7 +50,6 @@ body_class: section-archives layout-show
   <div class="show-wrap show-row">
     <div class="show-info">
       <header class="show-header">
-        <div class="debug-abs-top-left" data-debug-toggle title="season_sort Number">{{ show.season_sort }}</div>
         <h1 class="show-title">{{ show.title }}</h1>
 
         <div class="meta-row">

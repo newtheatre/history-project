@@ -1,0 +1,107 @@
+- attr: title
+  short: Show title
+  description: "Displayed at the top of the show page and on various other pages. Should be the title of this performance, may not quite match the title of the play – see canonical."
+  generated: false
+  required: true
+
+- attr: playwright
+  short: Full name of the playwright
+  description: "Omit if using devised, set to various if compilation."
+  generated: false
+
+- attr: devised
+  short: Used if play was devised
+  description: "Either true for generic output or a descriptor. Example descriptor: \"Cast and Crew\" will output “Devised by Cast and Crew”. Omit if using playwright."
+  generated: false
+
+- attr: adaptor
+  short: Full name of adaptor
+  description: "Outputs as “Adapted by adaptor”."
+  generated: false
+
+- attr: translator
+  short: Full name of the translator
+  description: "Outputs as “Translated by translator”."
+  generated: false
+
+- attr: canonical
+  short: List of canonical titles and playwrights for reverse lookup.
+  description: "Specify titles and/or playwrights in a list. See #486."
+  generated: false
+
+- attr: student_written
+  short: Show written by a NNT member
+  description: "Set to true, false or line missing are equivalent."
+  generated: false
+
+- attr: company
+  short: If non-NNT the name of the company
+  description: " "
+  generated: false
+
+- attr: season
+  short: Season show belongs to
+  description: "Choices: Autumn, Spring, Edinburgh."
+  generated: false
+  required: true
+
+- attr: season_sort
+  short: Order which this show comes in the entire year
+  description: "Use multiples of 10 for ease of additions.\nRoughly: Autumn should start at 30, Spring 200 and Edinburgh 400. Shows then fall at 30, 40, 50 e.t.c."
+  generated: false
+  required: true
+
+- attr: venue
+  short: Venue show was performed in.
+  description: " "
+  generated: false
+
+- attr: venue_sort
+  short: Group of venues venue belongs to.
+  description: "Will group show together with other shows with the same venue_sort. For example C cubed, C nova, C soco, C too can all be grouped as C venues."
+  generated: false
+
+- attr: date_start
+  short: Date of first performance
+  description: "In the format YYYY-MM-DD."
+  generated: false
+
+- attr: date_end
+  short: Date of last performance
+  description: "In the format YYYY-MM-DD, omit if show only ran one day."
+  generated: false
+
+- attr: tour
+  short: List of tours the show has been on (NSDF e.t.c.).
+  description: "Specify venue, date_start, date_end and notes. See #12. Shows taken to Edinbugh should have a separate show created under the Edinburghperiod."
+  generated: false
+
+- attr: cast
+  short: Cast members
+  description: "Uses the person list format."
+  generated: false
+
+- attr: crew
+  short: Crew members
+  description: "Uses the person list format."
+  generated: false
+
+- attr: prod_shots
+  short: SmugMug album ID for production shots
+  description: "Use util/smug-albums to find the AlbumID."
+  generated: false
+
+- attr: assets
+  short: Publicity and other materials
+  description: "Uses the photos and assets format."
+  generated: false
+
+- attr: published
+  short: Not yet used!
+  description: "Will in the future hide the show if set to false."
+  generated: false
+
+- attr: comment
+  short: Reserved for editor comments
+  description: "Displayed in editors’ mode."
+  generated: false

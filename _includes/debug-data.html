@@ -1,0 +1,8 @@
+<div class="debug-data" data-debug-toggle>
+  <dl>
+    {% for def in site.data.show-attrs %}
+      <dt title="{{ def.short }}">{{ def.attr }}</dt>
+      <dd>{{ page[def.attr] }}&nbsp;</dd>
+    {% endfor %}
+  </dl>
+</div>
