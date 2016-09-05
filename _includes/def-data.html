@@ -4,13 +4,17 @@
       <dt title="{{ def.short }}"
           class="{% if def.generated %}debug-data__term--generated{% endif %}
                  {% if def.required %}debug-data__term--required{% endif %}">
-          <a href="/docs/{{ include.model }}/#{{ def.attr }}">{{ def.attr }}</a>
+          <a href="/docs/{{ include.model }}/#{{ def.attr }}" data-proofer-ignore>
+            {{ def.attr }}
+          </a>
       </dt>
       <dd tabindex="0">
           <!-- document -->
           {% if def.type == "document" and page[def.attr] != nil %}
             <i class="fa fa-file-o"></i>
-            <a href="{{ page[def.attr].url }}">{{ page[def.attr].title }}</a>
+            <a href="{{ page[def.attr].url }}" data-proofer-ignore>
+              {{ page[def.attr].title }}
+            </a>
           <!-- boolean -->
           {% elsif def.type == "boolean" %}
             {% if page[def.attr] %}
@@ -30,7 +34,7 @@
             {% for i in page[def.attr] %}
             <div>
               <i class="fa fa-file-o"></i>
-              <a href="{{ i.url }}">{{ i.title }}</a>
+              <a href="{{ i.url }}" data-proofer-ignore>{{ i.title }}</a>
             </div>
             {% endfor %}
           <!-- hash -->

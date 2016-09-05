@@ -58,12 +58,28 @@ end
 task :test do
   logline "HTML TEST"
   HTMLProofer::check_directory("./_site", {
+    # :log_level => :debug,
     :file_ignore => [/.*\/lib\/.*/],
     :parallel => { :in_processes => 4 },
     :cache => { :timeframe => '2w' },
     :typhoeus => {
       :timeout => 15,
     },
+  }).run
+  logline "JSON LINT"
+  sh "jsonlint -q ./_site/feeds/search.json"
+end
+
+task :travis_test do
+  logline "HTML TEST (Travis)"
+  HTMLProofer::check_directory("./_site/", {
+    # :log_level => :debug,
+    :file_ignore => [/.*\/lib\/.*/],
+    :parallel => { :in_processes => 3 },
+    :cache => { :timeframe => '2w' },
+    :typhoeus => { :timeout => 15 },
+    :hydra => { :max_concurrency => 50 },
+    :url_ignore => [/photos.newtheatre.org.uk/, /photos.smugmug.com/],
   }).run
   logline "JSON LINT"
   sh "jsonlint -q ./_site/feeds/search.json"

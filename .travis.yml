@@ -18,7 +18,7 @@ before_script:
 - _bin/prep.sh
 script:
 - bundle exec rake build
-- bundle exec rake test
+- bundle exec rake travis_test
 after_success:
 - _bin/deploy.sh
 - bundle exec ruby _bin/github_tasks.rb
