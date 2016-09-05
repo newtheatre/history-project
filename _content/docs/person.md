@@ -4,7 +4,7 @@ group: docs
 title: People
 sort: 35
 redirect_from:
-  - /docs/people/
+  - /docs/people/index.html
 ---
 
 <div class="box-warning">

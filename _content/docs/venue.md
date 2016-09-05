@@ -4,7 +4,7 @@ group: docs
 title: Venues
 sort: 38
 redirect_from:
-  - /docs/venues/
+  - /docs/venues/index.html
 ---
 
 Venue data is stored as `_venues/venue-name.md`. The content is the venue description.

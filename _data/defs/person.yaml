@@ -1,11 +1,12 @@
 - attr: title
   type: string
   short: Person name 
-  description: "In the format Firstname Lastname"
+  description: "Formatted as: *Firstname Lastname*, must match filename."
   required: true
 
 - attr: path_name
   type: string
+  short: Filename without extension
   generated: true
 
 - attr: placeholder
@@ -73,14 +74,9 @@
   short: A link list to news stories
   description: "Uses [link list](/docs/link-list) hashes. For collecting notable news stories relating to the alumnus. Should implement title, date and href."
 
-- attr: comment
-  type: string
-  short: Reserved for editor comments
-  description: "Displayed in editors’ mode."
-
 - attr: shows
   type: array
-  short: Array of [role, item] hashes for shows person was involved in.
+  short: Array of role/item hashes for shows person was involved in.
   generated: true
 
 - attr: shows_count
@@ -90,10 +86,15 @@
 
 - attr: committees
   type: array
-  short: Array of [role, item] hashes for committees person was involved in.
+  short: Array of role/item hashes for committees person was involved in.
   generated: true
 
 - attr: committees_count
   type: number
   short: Count of number of items in committees.
   generated: true
+
+- attr: comment
+  type: string
+  short: Reserved for editor comments
+  description: "Displayed in editors’ mode."

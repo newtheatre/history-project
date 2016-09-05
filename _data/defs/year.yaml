@@ -10,7 +10,8 @@
 
 - attr: grad_year
   type: number
-  short: The year members will have graduated in if this is their last year of activity
+  short: Graduation year
+  description: The year members will have graduated in if this is their last year of activity.
   generated: true
 
 - attr: year
@@ -52,5 +53,5 @@
 - attr: redirect_from
   type: array
   short: Array of URLs to redirect to this record
-  description: "Used to migrate from old URL scheme to new, jekyll-redirect-from generates the redirects (pages with meta redirect tags)."
+  description: "Used to migrate from old URL scheme to new; jekyll-redirect-from generates the redirects (pages with meta redirect tags)."
   generated: true

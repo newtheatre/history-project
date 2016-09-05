@@ -1,17 +1,17 @@
 - attr: title
   type: string
   short: Show title
-  description: "Displayed at the top of the show page and on various other pages. Should be the title of this performance, may not quite match the title of the play – see canonical."
+  description: "Displayed at the top of the show page and on various other pages. Should be the title of this performance, may not quite match the title of the play – see `canonical`."
   required: true
 
 - attr: playwright
   type: string
   short: Full name of the playwright
-  description: "Omit if using devised, set to various if compilation."
+  description: "Omit if using devised, set to `various` if compilation."
 
 - attr: devised
   short: Used if play was devised
-  description: "Either true for generic output or a descriptor. Example descriptor: \"Cast and Crew\" will output “Devised by Cast and Crew”. Omit if using playwright."
+  description: "Either `true` for generic output or a descriptor. Example descriptor: `Cast and Crew` will output “Devised by Cast and Crew”. Omit if using playwright."
 
 - attr: adaptor
   type: string
@@ -25,6 +25,8 @@
 
 - attr: playwright_type
   type: string
+  short: Playwright type
+  description: Either `playwright`, `devised`, `various`, or `unknown`.
   generated: true
 
 - attr: playwright_formatted
@@ -42,78 +44,91 @@
 - attr: canonical
   # type: not defined yet
   short: List of canonical titles and playwrights for reverse lookup.
-  description: "Specify titles and/or playwrights in a list. See [#486](https://github.com/newtheatre/history-project/issues/486)."
+  description: "Specify titles and/or playwrights in a list. See [#486](https://github.com/newtheatre/history-project/issues/486)."
 
 - attr: student_written
   type: boolean
   short: Show written by a NNT member
-  description: "Set to true, false or line missing are equivalent."
+  description: "Set to `true`; `false` or line missing are equivalent."
 
 - attr: company
   type: string
-  short: If non-NNT the name of the company
-  description: " "
+  short: Non-NNT only, the name of the company
 
 - attr: season
   type: string
   short: Season show belongs to
-  description: "Choices: Autumn, Spring, Edinburgh."
+  description: "Choices: `Autumn`, `Spring` or `Edinburgh`."
   required: true
 
 - attr: season_path
   type: string
+  short: Absolute path to season page
+  description: "Path instead of document as show pages data is generated before season documents exist."
   generated: true
 
 - attr: season_sort
   type: number
   short: Order which this show comes in the entire year
-  description: "Use multiples of 10 for ease of additions.\nRoughly: Autumn should start at 30, Spring 200 and Edinburgh 400. Shows then fall at 30, 40, 50 &c"
+  description: "Use multiples of 10 for ease of additions.\nRoughly: Autumn should start at 30, Spring 200 and Edinburgh 400. Shows then fall at 30, 40, 50 *&c*"
   required: true
 
 - attr: ignore_missing
   type: boolean
+  short: Suppresses missing detail warnings
+  description: "Is `true` when season matches External, Postgrads or STUFF."
   generated: true
 
 - attr: year
   type: string
+  short: Year identifier
+  description: YY_YY
   generated: true
 
 - attr: year_page
   type: document
+  short: Year page
   generated: true
 
 - attr: seq_index
   type: number
   short: Index of set of all shows
+  description: "Zero is youngest show."
   generated: true
 
 - attr: seq_next
   type: document
+  short: Show page next in sequence
+  description: "`seq_index` + 1"
   generated: true
 
 - attr: seq_previous
   type: document
+  short: Show page previous in sequence
+  description: "`seq_index` - 1"
   generated: true
 
 - attr: redirect_from
   type: array
   short: Array of URLs to redirect to this record
-  description: "Used to migrate from old URL scheme to new, jekyll-redirect-from generates the redirects (pages with meta redirect tags)."
+  description: "Used to migrate from old URL scheme to new; jekyll-redirect-from generates the redirects (pages with meta redirect tags)."
   generated: true
 
 - attr: venue
   type: string
   short: Venue show was performed in.
-  description: " "
-
-- attr: venue_path
-  type: string
-  generated: true
+  description: "Used to match all shows performed in venue, ensure text matches."
 
 - attr: venue_sort
   type: string
-  short: Group of venues venue belongs to.
-  description: "Will group show together with other shows with the same venue_sort. For example C cubed, C nova, C soco, C too can all be grouped as C venues."
+  short: Group of venues venue belongs to.
+  description: "Will group show together with other shows with the same sort. For example C cubed, C nova, C soco, C too can all be grouped as C venues."
+
+- attr: venue_path
+  type: string
+  short: Absolute path to venue page
+  description: "Path instead of document as show pages data is generated before venue documents exist."
+  generated: true
 
 - attr: date_start
   type: date
@@ -127,31 +142,32 @@
 
 - attr: tour
   type: array
-  short: List of tours the show has been on (NSDF &c).
-  description: "Specify venue, date_start, date_end and notes. See #12. Shows taken to Edinbugh should have a separate show created under the Edinburghperiod."
+  short: List of tours the show has been on (NSDF &c).
+  description: "Specify venue, date_start, date_end and notes. See [#12](https://github.com/newtheatre/history-project/issues/12). Shows taken to Edinburgh should have a separate show created under the Edinburgh period."
 
 - attr: excerpt
   type: string
+  description: "Generated excerpt of synopsis for use in search results and other summaries."
   generated: true
 
 - attr: cast
   type: array
   short: Cast members
-  description: "Uses the [person list](/docs/person_list) format."
+  description: "Uses the [person list](/docs/person_list) format."
 
 - attr: crew
   type: array
   short: Crew members
-  description: "Uses the [person list](/docs/person_list) format."
+  description: "Uses the [person list](/docs/person_list) format."
 
 - attr: prod_shots
   type: string
   short: SmugMug album ID for production shots
-  description: "Use [util/smug-albums](/util/smug-albums/) to find the AlbumID."
+  description: "Use [util/smug-albums](/util/smug-albums/) to find the AlbumID."
 
 - attr: smugmug_album
   type: hash
-  short: API response from SmugMug for the provided key in prod_shots
+  short: SmugAlbum object for prod_shots
   generated: true
 
 - attr: assets
@@ -161,16 +177,18 @@
 
 - attr: poster
   type: hash
-  short: Selected asset to use as show poster, identical to `display_image`
+  short: Selected asset to use as show poster
+  description: Currently identical to `display_image`.
   generated: true
 
 - attr: display_image
   type: hash
   short: Selected asset to use as show display image
+  description: "Used to represent show in search results, people records *&c*. Order of precedence: override assets, posters, flyers, programmes."
   generated: true
 
 - attr: comment
   type: string
   short: Reserved for editor comments
-  description: "Displayed in editors’ mode."
+  description: "Displayed in editors’ mode."
   generated: false

@@ -16,7 +16,9 @@
                 {{ attr.type }}
             </td>
             <td>{{ attr.short }}</td>
-            <td>{{ attr.description }}</td>
+            <td>
+                {% unless attr.description == nil %}{{ attr.description | markdownify }}{% endunless %}
+            </td>
         </tr>
         {% endfor %}
     </tbody>

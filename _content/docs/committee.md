@@ -4,7 +4,7 @@ group: docs
 title: Committees
 sort: 30
 redirect_from: 
-  - /docs/committees/
+  - /docs/committees/index.html
 ---
 
 Committee listings are stored as `_committees/YY_YY.md` with YY_YY being the academic year 'span'.

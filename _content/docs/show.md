@@ -4,7 +4,7 @@ group: docs
 title: Shows
 sort: 20
 redirect_from: 
-  - /docs/shows/
+  - /docs/shows/index.html
 ---
 
 The show records are stored as `_shows/YY_YY/show_name.md` with YY_YY being the academic year 'span'. The synopsis is the content of the page, i.e. goes after the attribute section.

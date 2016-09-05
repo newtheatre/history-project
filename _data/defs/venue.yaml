@@ -2,7 +2,7 @@
   type: string
   short: Venue title
   description: "Should match usage with shows, if using venue_sort will match that. Must also match filename."
-  required: true#
+  required: true
 
 - attr: placeholder
   type: boolean
@@ -26,12 +26,13 @@
 
 - attr: location
   type: hash
-  short:  Exact location of the venue, two child attibutes lat and lon as decimals
-  description: "Used for map marker."
+  short: Exact location of the venue
+  description: "Hash with two keys: `lat` and `lon` as decimals. Used for map marker."
 
 - attr: shows
   type: documentarray
   short: List of shows performed in this venue
+  generated: true
 
 - attr: sort
   type: number
