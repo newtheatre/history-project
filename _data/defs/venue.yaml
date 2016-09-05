@@ -1,0 +1,44 @@
+- attr: title
+  type: string
+  short: Venue title
+  description: "Should match usage with shows, if using venue_sort will match that. Must also match filename."
+  required: true#
+
+- attr: placeholder
+  type: boolean
+  short: Is this venue virtual / generated at runtime
+  generated: true
+
+- attr: built
+  type: number
+  short: Year the venue was constructed
+  description: "YYYY"
+
+- attr: images
+  type: array
+  short: List of SmugMug image IDs of the venue
+  description: "Find IDs using [util/smug-venues](/util/smug-venues/)."
+
+- attr: smug_images
+  type: array
+  short: SmugImages for given images
+  generated: true
+
+- attr: location
+  type: hash
+  short:  Exact location of the venue, two child attibutes lat and lon as decimals
+  description: "Used for map marker."
+
+- attr: shows
+  type: documentarray
+  short: List of shows performed in this venue
+
+- attr: sort
+  type: number
+  short: Sort index of venue
+  description: Currently we use the number of shows
+  generated: true
+
+- attr: comment
+  short: Reserved for editor comments
+  description: "Displayed in editors’ mode."

@@ -98,8 +98,10 @@ module Jekyll
       """Method called on all people"""
       # Populate person record with data from the reverse index
       if @site.data["people_names"].include?( person.data["title"] )
-        person.data["shows"] = @site.data["people_ri_shows"][ person.data["title"] ]
-        person.data["committees"] = @site.data["people_ri_committees"][ person.data["title"] ]
+        person.data["shows"] = @site.data["people_ri_shows"][ person.data["title"] ] || []
+        person.data["shows_count"] = person.data["shows"].size
+        person.data["committees"] = @site.data["people_ri_committees"][ person.data["title"] ] || []
+        person.data["committees_count"] = person.data["committees"].size
       end
 
       # Graduation estimation

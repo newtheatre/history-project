@@ -1,0 +1,99 @@
+- attr: title
+  type: string
+  short: Person name 
+  description: "In the format Firstname Lastname"
+  required: true
+
+- attr: path_name
+  type: string
+  generated: true
+
+- attr: placeholder
+  type: boolean
+  short: Is this person virtual / generated at runtime
+  generated: true
+
+- attr: submitted
+  type: date
+  short: The date the last submission was made
+  description: "YYYY-MM-DD If this is omitted it means person has not yet made a submission, we have collated data for them."
+
+- attr: gender
+  type: string
+  short: Person gender
+  description: "Recognises male or female."
+
+- attr: headshot
+  type: hash
+  short: The SmugMug ID of the headshot
+  description: "Find IDs using [headshot utility](/util/smug-headshots/). Replaced with a SmugImage at runtime."
+
+- attr: course
+  type: array
+  short: The course, or courses the person studied
+  description: "Can be a single value or a list if multiple courses studied."
+
+- attr: graduated
+  type: number
+  short: The year the person graduated
+  description: "YYYY"
+
+- attr: graduated_estimated
+  type: boolean
+  short: Did we estimate graduated at runtime?
+  generated: true
+
+- attr: graduated_actual
+  type: number
+  short: The year the person graduated, only set if we don't estimate
+  generated: true
+
+- attr: decade
+  type: number
+  short: Decade identifier graduated falls into
+  generated: true
+
+- attr: award
+  type: string
+  short: Award person recieved on leaving the theatre
+  description: "Should be in title case, Fellowship, Commendation. If not applicable line should be omitted."
+
+- attr: careers
+  type: array
+  short: List of careers, theatre or non-theatre related
+  description: "Recognised theatre careers are listed in [_data/careers.yaml](https://github.com/newtheatre/history-project/blob/master/_data/careers.yaml)."
+
+- attr: links
+  type: array
+  short: A link list to external profiles and other sites
+  description: "Uses [link list](/docs/link-list) hashes. Should implement type, and href, can optionally use title. Common types are listed in [_data/link-types.yaml](https://github.com/newtheatre/history-project/blob/master/_data/link-types.yaml)."
+
+- attr: news
+  type: array
+  short: A link list to news stories
+  description: "Uses [link list](/docs/link-list) hashes. For collecting notable news stories relating to the alumnus. Should implement title, date and href."
+
+- attr: comment
+  type: string
+  short: Reserved for editor comments
+  description: "Displayed in editors’ mode."
+
+- attr: shows
+  type: array
+  short: Array of [role, item] hashes for shows person was involved in.
+  generated: true
+
+- attr: shows_count
+  type: number
+  short: Count of number of items in shows.
+  generated: true
+
+- attr: committees
+  type: array
+  short: Array of [role, item] hashes for committees person was involved in.
+  generated: true
+
+- attr: committees_count
+  type: number
+  short: Count of number of items in committees.
+  generated: true

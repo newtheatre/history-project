@@ -98,7 +98,7 @@ module Jekyll
       @top_show_count ||= 0 # Instance var common to all years
       @top_show_count = year.data["show_count"] if year.data["show_count"] > @top_show_count
 
-      year.data["redirect_from"] = get_year_legacy_path(year)
+      year.data["redirect_from"] = Array(get_year_legacy_path(year)).freeze
     end
 
     def generate(site)

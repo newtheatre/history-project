@@ -174,7 +174,7 @@ module Jekyll
       show.data["smugmug_album"] = get_show_smugmug(show)
 
       # Generate the legacy path for 301 redirect re. #142 Make semantic and pretty urls
-      show.data["redirect_from"] = get_show_legacy_paths(show)
+      show.data["redirect_from"] = Array(get_show_legacy_paths(show)).freeze
 
       # Replace assets' image attr with a SmugImage
       show.data["assets"] ||= []
@@ -207,7 +207,7 @@ module Jekyll
 
     def generate_show_with_index(show, index)
       # Set sort dependant attributes
-      show.data["index"] = index
+      show.data["seq_index"] = index
       show.data["seq_next"] = @shows[index + 1]
       show.data["seq_previous"] = @shows[index - 1]
 

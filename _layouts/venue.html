@@ -9,6 +9,10 @@ class: venue
 
 {% unless page.placeholder %}
 
+<div class="grid-wrap grid-row debug" data-debug-toggle>
+  {% include def-data.html def=site.data.defs.venue model='venue' %}
+</div>
+
 <div class="venue-header">
   <div class="venue-info venue-header__col">
     {{ page.content }}

@@ -1,0 +1,57 @@
+<div class="debug-data" data-debug-toggle>
+  <dl>
+    {% for def in include.def %}
+      <dt title="{{ def.short }}"
+          class="{% if def.generated %}debug-data__term--generated{% endif %}
+                 {% if def.required %}debug-data__term--required{% endif %}">
+          <a href="/docs/{{ include.model }}/#{{ def.attr }}" data-proofer-ignore>
+            {{ def.attr }}
+          </a>
+      </dt>
+      <dd tabindex="0">
+          <!-- document -->
+          {% if def.type == "document" and page[def.attr] != nil %}
+            <i class="fa fa-file-o"></i>
+            <a href="{{ page[def.attr].url }}" data-proofer-ignore>
+              {{ page[def.attr].title }}
+            </a>
+          <!-- boolean -->
+          {% elsif def.type == "boolean" %}
+            {% if page[def.attr] %}
+                <i class="fa fa-check debug-data__value--true"></i>
+            {% else %}
+                <i class="fa fa-times debug-data__value--false""></i>
+            {% endif %}   
+          <!-- array -->
+          {% elsif def.type == "array" %}
+            {% for i in page[def.attr] %}
+            <div>
+              <code>{{ i | escape_once }}</code>
+            </div>
+            {% endfor %}
+          <!-- documentarray -->
+          {% elsif def.type == "documentarray" %}
+            {% for i in page[def.attr] %}
+            <div>
+              <i class="fa fa-file-o"></i>
+              <a href="{{ i.url }}" data-proofer-ignore>{{ i.title }}</a>
+            </div>
+            {% endfor %}
+          <!-- hash -->
+          {% elsif def.type == "hash" %}
+            {% for i in page[def.attr] %}
+            <div>
+                {{ i[0] | escape_once }} <i class="fa fa-arrow-right"></i> 
+                <code>{{ i[1] | escape_once }}</code>
+            </div>
+            {% endfor %}
+          <!-- string / else -->
+          {% else %}
+            <pre>{{ page[def.attr] | escape_once }}</pre>
+            {% if page[def.attr] == nil %}&nbsp;{% endif %}
+          {% endif %}
+
+      </dd>
+    {% endfor %}
+  </dl>
+</div>
