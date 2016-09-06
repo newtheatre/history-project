@@ -52,6 +52,9 @@ crew:
 assets:
   - type: poster
     image: kf9JtCh
+  - type: plan
+    filename: servant_lx.pdf
+    title: LX Plan
 ---
 
 Lee Hall’s hilarious 21st Century adaptation of Carlo Goldoni’s ‘A Servant to Two Masters’, depicts the quick witted–and perpetually hungry- Truffaldino as he tries to hold down two jobs in order to earn more money and satisfy his growling stomach. However a series of blunders soon snowball into the laugh out loud mayhem only commedia can provide, with this story of love, greed and mistaken identities.

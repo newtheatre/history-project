@@ -72,8 +72,16 @@ tour:
   note: Awards for Shannon Smith, Becca Jones and James Roscow
 
 assets:
-  - type: poster
-    image: jSrJSMz
+- type: poster
+  image: jSrJSMz
+- type: plan
+  title: LX Plot 1
+  filename: west_lx1.pdf
+  page: 1
+- type: plan
+  title: LX Plot 2
+  filename: west_lx2.pdf
+  page: 2
 
 prod_shots: 3nCHmK
 ---
