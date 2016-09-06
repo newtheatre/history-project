@@ -56,7 +56,7 @@ task :debug do
 end
 
 task :test do
-  logline "HTML TEST"
+  logline "HTML-PROOFER"
   HTMLProofer::check_directory("./_site", {
     # :log_level => :debug,
     :file_ignore => [/.*\/lib\/.*/],
@@ -71,7 +71,7 @@ task :test do
 end
 
 task :travis_test do
-  logline "HTML TEST (Travis)"
+  logline "HTML-PROOFER (Travis)"
   HTMLProofer::check_directory("./_site/", {
     # :log_level => :debug,
     :file_ignore => [/.*\/lib\/.*/],
@@ -83,4 +83,15 @@ task :travis_test do
   }).run
   logline "JSON LINT"
   sh "jsonlint -q ./_site/feeds/search.json"
+end
+
+task :html_test do
+logline "HTML-PROOFER (HTML)"
+  HTMLProofer::check_directory("./_site/", {
+    # :log_level => :debug,
+    :file_ignore => [/.*\/lib\/.*/],
+    :parallel => { :in_processes => 4 },
+    :checks_to_ignore => ["LinkCheck", "ImageCheck", "ScriptCheck"],
+    :check_html => true,
+  }).run
 end
