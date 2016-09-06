@@ -61,6 +61,12 @@ The vagrant box has port 8000 mapped to 8000 on your local machine, so `http://1
 
 See the [site documentation](https://history.newtheatre.org.uk/docs/).
 
+## Asset Storage
+
+All photographs and image assets are stored using the [theatre's SmugMug](https://photos.newtheatre.org.uk/).
+
+Other binary assets are stored under `assets/` using [Git LFS](https://git-lfs.github.com/). This separates these large files from the main repository. If you do not have LFS set up on your machine please do not attempt to commit assets as this would bloat the repository.
+
 ## Repo Mirror
 
 This repo is mirrored here: http://git.wjdp.uk/wjdp/history-project. It's kept up to date by Will's pushes so may be a little behind.
