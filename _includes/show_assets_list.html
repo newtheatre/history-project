@@ -11,7 +11,7 @@
         <i class="ion-document-text"></i>
       {% endif %}
 
-      <a href="/assets/for_shows/{{ asset.filename }}" target="_blank">{{ asset.title }}</a>
+      <a href="{{ site.assets_baseurl }}/assets/for_shows/{{ asset.filename }}" target="_blank">{{ asset.title }}</a>
       <div class="debug-abs-bottom-left" data-debug-toggle title="Asset type">{{ asset.type }}</div>
       <div class="debug-abs-top-left" data-debug-toggle title="Asset filename">{{ asset.filename }}</div>
     </li>
