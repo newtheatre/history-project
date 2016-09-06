@@ -1,0 +1,45 @@
+- attr: type
+  type: string
+  short: Type of the resource
+  description: "Non-exhaustive common types are listed in [_data/link-types.yaml](https://github.com/newtheatre/history-project/blob/master/_data/link-types.yaml)."
+  required: true
+
+- attr: href
+  type: string
+  short: URL of the resource
+  description: "Should be wrapped in quotes."
+
+- attr: snapshot
+  type: string
+  short: Archive snapshot reference
+  description: "The five-character [archive.is](https://archive.is) snapshot reference. References are case-sensitive."
+
+- attr: username
+  type: string
+  short: Username on a service.
+  description: "If `type` has an href attribute in [_data/link-types.yaml](https://github.com/newtheatre/history-project/blob/master/_data/link-types.yaml) you **must** use this field instead of `href`, otherwise omit."
+
+- attr: title
+  type: string
+  short: Title of resource 
+  description: "Useful for headlines of news articles. Only include if suitable."
+
+- attr: date
+  type: date
+  short: Date resource was published
+  description: "Useful for news articles. Formatted YYYY-MM-DD. Only include if suitable."
+
+- attr: stars
+  type: number
+  short: Number of stars a review gave
+  description: "Only applies to reviews."
+
+- attr: quote
+  type: string
+  short: Short quote from resource
+  description: "Applicable for news stories or reviews. A short quotation summarising the resource."
+
+- attr: comment
+  type: string
+  short: Reserved for editor comments
+  description: "Displayed in editors’ mode."

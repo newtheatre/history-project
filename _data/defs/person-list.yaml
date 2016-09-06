@@ -1,0 +1,24 @@
+- attr: role
+  type: string
+  short: Name of the role
+  description: "Corresponds to name of a role (acting, crew) or position (committee). To flag as unknown set to `unknown`."
+
+- attr: name
+  type: string
+  short: "The person's name"
+  description: "Formatted `FirstName LastName`. A person's name should be unique and match exactly across the site. To flag as unknown set to `unknown`."
+
+- attr: note
+  type: string
+  short: An optional note
+  description: "Currently this is shown in brackets after the role when rendered. Useful when clarification is needed, such as specifying which show in a double-bill this item pertains to."
+
+- attr: person
+  type: boolean
+  short: Is an NT member? 
+  description: "Defaults to `true`. Set to `false` for items that are not NT people, e.g. Companies, Departments, Externals… When `false` prevents the creation of a [person record](/docs/person/)."
+  
+- attr: comment
+  type: string
+  short: Reserved for editor comments
+  description: "Displayed in editors’ mode."

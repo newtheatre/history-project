@@ -3,6 +3,7 @@ layout: docs
 group: docs
 title: Photos and Assets
 sort: 100
+redirect_from: /docs/photos_and_assets/index.html
 ---
 
 Show records currently have a *'Publicity Materials'* and *'Production Shots'* section. All images are stored in the [New Theatre SmugMug](https://photos.newtheatre.org.uk), other binaries are stored in the repo's `assets/for_shows/` folder.
