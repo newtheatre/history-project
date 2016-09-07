@@ -6,11 +6,11 @@
       </li>
       {% if include.section_title %}
       <li class="breadcrumb breadcrumb-{{ include.section_tag }}">
-        <a href="/years/#{{ include.section_tag }}">{{ include.section_title }}</a>
+        <a href="/years/#{{ include.section_tag }}">{{ include.section_title | escape_once }}</a>
       </li>
       {% endif %}
       <li class="breadcrumb breadcrumb-{{ page.class }}">
-        <a href="{{ page.url }}">{{ page.title }}</a>
+        <a href="{{ page.url }}">{{ page.title | escape_once }}</a>
       </li>
     </ul>
 

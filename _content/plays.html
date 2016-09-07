@@ -18,7 +18,7 @@ published: true
   {% for item in site.data.shows_by_title %}
     <li
       id="{{ item[0] | anchor }}"
-      data-alpha="{{ item[0] }}"
+      data-alpha="{{ item[0] | escape_once }}"
       data-shows={{ item[1].size }}
       class="{% if item[1].size < 3 %}low-shows{% else %}high-shows{% endif %}"
       >
@@ -27,15 +27,15 @@ published: true
         class="{% if item[1][-1].playwright_type == "playwright" %}play-title{% else %}playwright-name{% endif %}">
 
         {% if item[1][-1].playwright_type == "playwright" %}
-        <span class="play-title-inner">{{ item[0] }}</span>
+        <span class="play-title-inner">{{ item[0] | escape_once }}</span>
         <span class="play-playwright-inner">
           <a href="/playwrights/#{{ item[1][-1].playwright | anchor }}">
-            {{ item[1][-1].playwright_formatted }}
+            {{ item[1][-1].playwright_formatted | escape_once }}
           </a>
         </span>
 
         {% else %}
-        <span class="playwright-name-inner">{{ item[0] }}</span>
+        <span class="playwright-name-inner">{{ item[0] | escape_once }}</span>
         {% endif %}
 
       </div>
@@ -45,10 +45,10 @@ published: true
           <a href="{{ show.url }}">
             <div class="playwright-list-poster">
               {% if show.poster %}
-              <img src="{{ show.poster.image.poster_thumb }}" alt="{{ show.title }} poster" />
+              <img src="{{ show.poster.image.poster_thumb }}" alt="{{ show.title | escape_once }} poster" />
               {% endif %}
             </div>
-            <div class="playwright-show-title">{{ show.title }}</div>
+            <div class="playwright-show-title">{{ show.title | escape_once }}</div>
             <div class="playwright-show-meta">{{ show.year_page.title }}</div>
           </a>
         </li>

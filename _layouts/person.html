@@ -15,14 +15,14 @@ body_class: layout-person header-nobr content-nobr
   <header class="person-header">
     <div class="person-headshot">
       {% if person.headshot %}
-        <img class="person-headshot-actual" src="{{ person.headshot.person_bio }}" alt="{{ person.title }}" />
+        <img class="person-headshot-actual" src="{{ person.headshot.person_bio }}" alt="{{ person.title | escape_once }}" />
       {% else %}
         <img class="person-headshot-placeholder" src="/images/human-512-cropped.png" alt="Human silhouette" />
       {% endif %}
     </div>
 
     <div class="person-details">
-      <h1 class="person-name">{{ person.title }}</h1>
+      <h1 class="person-name">{{ person.title | escape_once }}</h1>
     </div>
 
     <div class="person-graduated">
@@ -93,7 +93,7 @@ body_class: layout-person header-nobr content-nobr
                {{ record.item.title }}
               </a>
               {% for role in record.roles %}
-                <span class="person-meta-role">{{ role }}</span>
+                <span class="person-meta-role">{{ role | escape_once }}</span>
               {% endfor %}
             </li>
           {% endfor %}
@@ -135,9 +135,9 @@ body_class: layout-person header-nobr content-nobr
     {% for record in person.shows %}
     <div class="person-show">
       <div class="person-show-poster">
-        <a href="{{ record.item.url }}" title="{{ record.item.title }}">
+        <a href="{{ record.item.url }}" title="{{ record.item.title | escape_once }}">
         {% if record.item.poster %}
-          <img src="{{ record.item.poster.image.poster_grid }}" alt="{{ record.item.title }} poster" />
+          <img src="{{ record.item.poster.image.poster_grid }}" alt="{{ record.item.title | escape_once }} poster" />
         {% else %}
           <!-- Missing Poster -->
         {% endif %}
@@ -145,7 +145,7 @@ body_class: layout-person header-nobr content-nobr
       </div>
 
       <h3 class="person-show-title">
-        {{ record.item.title }}
+        {{ record.item.title | escape_once }}
       </h3>
 
       <div class="person-show-meta">
@@ -155,7 +155,7 @@ body_class: layout-person header-nobr content-nobr
 
       <ul class="person-show-roles">
       {% for role in record.roles %}
-        <li>{{ role }}</li>
+        <li>{{ role | escape_once }}</li>
       {% endfor %}
       </ul>
 
@@ -169,7 +169,7 @@ body_class: layout-person header-nobr content-nobr
     <div class="box-warning">
       <i class="fa fa-question"></i>
       <h3>Missing Show Credits</h3>
-      <p>We don't have any show credits on record for {{ person.title }}, if you know of any please <a href="https://github.com/newtheatre/history-project/issues/new?body={{page.url}}" data-proofer-ignore data-report-this-page>send the editors a message</a>.</p>
+      <p>We don't have any show credits on record for {{ person.title | escape_once }}, if you know of any please <a href="https://github.com/newtheatre/history-project/issues/new?body={{page.url}}" data-proofer-ignore data-report-this-page>send the editors a message</a>.</p>
     </div>
   </div>
 </div>

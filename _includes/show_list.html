@@ -7,27 +7,27 @@
 
     {% if show.poster %}
       <div class="show-list-poster">
-        <img src="{{ show.poster.image.poster_thumb }}" alt="{{ show.title }} poster" />
+        <img src="{{ show.poster.image.poster_thumb }}" alt="{{ show.title | escape_once }} poster" />
       </div>
     {% else %}
       <div class="show-list-poster missing"></div>
     {% endif %}
 
-    <span class="show-list-title">{{ show.title }}</span>
+    <span class="show-list-title">{{ show.title | escape_once }}</span>
 
     {% if show.playwright %}
     <span class="show-list-playwright show-list-playwright-{{ show.playwright.playwright_type }}">
       {% if show.student_written %}
         <i class="fa fa-pencil show-student-written" title="Student Written"></i>
       {% endif %}
-      {{ show.playwright_formatted_long }}
+      {{ show.playwright_formatted_long | escape_once }}
     </span>
     {% endif %}
 
     <br />
 
     <span class="show-list-season season-{{ show.season | downcase | replace:" ","-" }}">
-      {% if show.company %}{{ show.company }}
+      {% if show.company %}{{ show.company | escape_once }}
       {% else %}{{ show.season }}{% endif %}
     </span>
 

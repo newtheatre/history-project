@@ -16,19 +16,19 @@ class ReportModel
   save: (opts) ->
     FORM_URL = @url
     console.log @buildJSON()
-    $.ajax
-      url : FORM_URL
-      type: "POST"
-      data : @buildJSON()
-      success: (data, textStatus, jqXHR) ->
-        if data.status is "success"
-          opts.success(data)
-        else
-          alert('There was a problem with the data your provided')
-          opts.error()
-      error: (jqXHR, textStatus, errorThrown) ->
-        alert('Oops, something went wrong')
-        error()
+    # $.ajax
+    #   url : FORM_URL
+    #   type: "POST"
+    #   data : @buildJSON()
+    #   success: (data, textStatus, jqXHR) ->
+    #     if data.status is "success"
+    #       opts.success(data)
+    #     else
+    #       alert('There was a problem with the data your provided')
+    #       opts.error()
+    #   error: (jqXHR, textStatus, errorThrown) ->
+    #     alert('Oops, something went wrong')
+    #     error()
 
 
 $(document).ready ->
@@ -56,10 +56,10 @@ $("#report-issue-form").submit (e) ->
   e.preventDefault()
 
   report = new ReportModel
-    title: $("#title", this).val()
-    page_url: $("#page_url", this).val()
-    message: $("#message", this).val()
-    name: $("#name", this).val()
+    title: $("#report-title", this).val()
+    page_url: $("#report-page_url", this).val()
+    message: $("#report-message", this).val()
+    name: $("#report-name", this).val()
     url: $(this).attr 'action'
 
   report.save

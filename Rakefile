@@ -56,31 +56,42 @@ task :debug do
 end
 
 task :test do
-  logline "HTML TEST"
+  logline "HTML-PROOFER"
   HTMLProofer::check_directory("./_site", {
     # :log_level => :debug,
+    :cache => { :timeframe => '2w' },
     :file_ignore => [/.*\/lib\/.*/],
     :parallel => { :in_processes => 4 },
-    :cache => { :timeframe => '2w' },
-    :typhoeus => {
-      :timeout => 15,
-    },
+    :typhoeus => { :timeout => 15 },
+    :hydra => { :max_concurrency => 50 },
   }).run
   logline "JSON LINT"
   sh "jsonlint -q ./_site/feeds/search.json"
 end
 
 task :travis_test do
-  logline "HTML TEST (Travis)"
+  logline "HTML-PROOFER (Travis)"
   HTMLProofer::check_directory("./_site/", {
     # :log_level => :debug,
+    :cache => { :timeframe => '2w' },
+    :check_html => true,
     :file_ignore => [/.*\/lib\/.*/],
     :parallel => { :in_processes => 3 },
-    :cache => { :timeframe => '2w' },
     :typhoeus => { :timeout => 15 },
     :hydra => { :max_concurrency => 50 },
     :url_ignore => [/photos.newtheatre.org.uk/, /photos.smugmug.com/],
   }).run
   logline "JSON LINT"
   sh "jsonlint -q ./_site/feeds/search.json"
+end
+
+task :html_test do
+logline "HTML-PROOFER (HTML)"
+  HTMLProofer::check_directory("./_site/", {
+    # :log_level => :debug,
+    :check_html => true,
+    :checks_to_ignore => ["LinkCheck", "ImageCheck", "ScriptCheck"],
+    :file_ignore => [/.*\/lib\/.*/],
+    :parallel => { :in_processes => 4 },
+  }).run
 end
