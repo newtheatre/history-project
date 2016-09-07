@@ -124,7 +124,9 @@ module Jekyll
 
       # Person link lists
       person.data["links"] = LinkList::LinkList.new(@site, person.data["links"])
+      @site.data['link-register'].add_list(person.data["links"], person)
       person.data["news"] = LinkList::LinkList.new(@site, person.data["news"])
+      @site.data['link-register'].add_list(person.data["news"], person)
 
       # People by filename
       @people_by_filename[person.basename_without_ext] = person

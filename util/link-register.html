@@ -1,0 +1,49 @@
+---
+---
+
+<h1>Link Register</h1>
+
+<table id="link-register" class="tablesorter">
+
+    <thead>
+        <tr>
+            <th>page</th>
+            <th>type</th>
+            <th>title</th>
+            <th>date</th>
+            <th>stars</th>
+            <th>quote</th>
+            <th>href</th>
+            <th>snapshot</th>
+            <th>comment</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+    {% for link in site.data.link-register %}
+        <tr>
+            <td><a href="{{ link.page.url }}">{{ link.page.title }}</a></td>
+            <td>{{ link.type }}</td>
+            <td>{{ link.title }}</td>
+            <td>{{ link.date }}</td>
+            <td>{{ link.stars }}</td>
+            <td>{{ link.quote }}</td>
+            <td><a href="{{ link.href }}" data-proofer-ignore>{{ link.href }}</a></td>
+            <td><a href="{{ link.href_snapshot }}" data-proofer-ignore>{{ link.snapshot }}</a></td>
+            <td>{{ link.comment }}</td>
+        </tr>
+    {% endfor %}
+
+    </tbody>
+
+</table>
+
+<script src="/js/lib.js"></script>
+<script src="/lib/tablesorter/dist/js/jquery.tablesorter.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/lib/tablesorter/dist/css/theme.default.min.css" />
+
+<script type="text/javascript">
+    $("#link-register").tablesorter()
+</script>
