@@ -32,15 +32,15 @@
     <h3><i class="octicon octicon-issue-opened"></i> Report a problem with this page</h3>
     <div id="report-modal-content">
       <p>You can use the form below to post to our public <a href="https://github.com/newtheatre/history-project/issues">
-        issue tracker</a> about the page you're currently on - <strong>{{page.title}}</strong>. Let us know about
+        issue tracker</a> about the page you're currently on - <strong>{{ page.title | escape_once }}</strong>. Let us know about
         missing or incorrect details, typos or any other way this page could be improved.</p>
       <div class="report-form">
         <form id="report-issue-form" action="{{ site.ntbot_endpoint }}" method="POST">
-          <input class="report-text" type="text" id="title" required placeholder="Subject" />
-          <textarea class="report-textarea" id="message" required placeholder="Message"></textarea>
-          <input class="report-text" type="text" id="name" required placeholder="Your name and year of graduation" />
-          <input type="hidden" id="page_url" value="{{ page.url }}"/>
-          <button class="report-submit" type="submit" />Submit</button>
+          <input class="report-text" type="text" id="report-title" required placeholder="Subject" />
+          <textarea class="report-textarea" id="report-message" required placeholder="Message"></textarea>
+          <input class="report-text" type="text" id="report-name" required placeholder="Your name and year of graduation" />
+          <input type="hidden" id="report-page_url" value="{{ page.url }}"/>
+          <button class="report-submit" type="submit">Submit</button>
         </form>
       </div>
     </div>

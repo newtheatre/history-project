@@ -1,5 +1,5 @@
 ---
-title: The Fire-Raisers
+title: The Fire Raisers
 playwright: Max Frisch
 season: Postgrads
 season_sort: 280

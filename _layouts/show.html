@@ -26,7 +26,7 @@ body_class: section-archives layout-show
       </li>
       <li class="breadcrumb breadcrumb-{{ show.year_page.decade }}-child">
         <a href="{{ show.url }}">
-          {{ show.title }}
+          {{ show.title | escape_once }}
         </a>
       </li>
     </ul>
@@ -50,7 +50,7 @@ body_class: section-archives layout-show
   <div class="show-wrap show-row">
     <div class="show-info">
       <header class="show-header">
-        <h1 class="show-title">{{ show.title }}</h1>
+        <h1 class="show-title">{{ show.title | escape_once }}</h1>
 
         <div class="meta-row">
           {% if show.student_written %}
@@ -65,19 +65,19 @@ body_class: section-archives layout-show
               {% if show.playwright_type != "unknown" %}
                 {% if show.playwright %}
                 <a href="/playwrights/#{{ show.playwright | anchor }}">
-                  {{ show.playwright_formatted }}
+                  {{ show.playwright_formatted | escape_once }}
                 </a>
-                {% else %}{{ show.playwright_formatted }}{% endif %}
+                {% else %}{{ show.playwright_formatted | escape_once }}{% endif %}
               {% else %}
                 <span class="unknown">Playwright Unknown</span>
               {% endif %}
 
               {% if show.translator %}
-                <br /><span class="translator">Translated by {{ show.translator }}</span>
+                <br /><span class="translator">Translated by {{ show.translator | escape_once }}</span>
               {% endif %}
 
               {% if show.adaptor %}
-                <br /><span class="adaptor">Adapted by {{ show.adaptor }}</span>
+                <br /><span class="adaptor">Adapted by {{ show.adaptor | escape_once }}</span>
               {% endif %}
             </p>
           </div>
@@ -85,7 +85,7 @@ body_class: section-archives layout-show
           <div class="meta-col show-season">
             <p class="season-{{ show.season | downcase | replace:" ","-" }}">
             {% if show.company %}
-              <a href="{{ show.season_path }}">{{ show.company }}</a>
+              <a href="{{ show.season_path }}">{{ show.company | escape_once }}</a>
             {% elsif show.season %}
               <a href="{{ show.season_path }}">{{ show.season }}</a>
             {% else %}
@@ -126,7 +126,7 @@ body_class: section-archives layout-show
     </div>
     <div class="show-poster">
       {% if show.poster %}
-        <img src="{{ show.poster.image.poster_large }}" alt="{{ show.title }} poster" />
+        <img src="{{ show.poster.image.poster_large }}" alt="{{ show.title | escape_once }} poster" />
       {% else %}
         {% include boxes/show_poster_missing.html %}
       {% endif %}
@@ -138,7 +138,7 @@ body_class: section-archives layout-show
 
   <div class="debug-comment wrapper" data-debug-toggle>
     <i class="ion-camera"></i>
-    SmugMug album {{ show.smugmug_album.AlbumKey }}: {{ show.smugmug_album.Title }} ({{ show.smugmug_album.UrlName }})<br />
+    SmugMug album {{ show.smugmug_album.AlbumKey }}: {{ show.smugmug_album.Title | escape_once }} ({{ show.smugmug_album.UrlName }})<br />
     Last retrieved at {{ show.smugmug_album.LastFetched }}<br />
     Album last organised at: {{ show.smugmug_album.LastUpdated }}<br />
     Album images last updated at: {{ show.smugmug_album.ImagesLastUpdated }}<br />
@@ -153,15 +153,15 @@ body_class: section-archives layout-show
       <div class="show-photo-single debug-container">
         <a class="lightbox-link"
            href="{{ image.LargeImage.Url }}"
-           title="{{ image.Title }}">
+           title="{{ image.Title | escape_once }}">
           <img class="lazy-image"
                src="/images/image-preload.png"
                data-lazy-src="{{ image.ThumbImage.Url }}"
                data-image-count={{ image.ImageCount }}
                alt="Show production shot"
-               title="{{ image.Title }}" />
+               title="{{ image.Title | escape_once }}" />
           <noscript>
-            <img src="{{ image.ThumbImage.Url }}" alt="Show production shot" title="{{ image.Title }}" />
+            <img src="{{ image.ThumbImage.Url }}" alt="Show production shot" title="{{ image.Title | escape_once }}" />
           </noscript>
           <div class="debug-abs-bottom-left" data-debug-toggle title="Photo type">{{ image.ImageKey }}</div>
           <div class="debug-abs-top-left" data-debug-toggle title="Photo image">{{ image.FileName }}</div>

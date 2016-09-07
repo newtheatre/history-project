@@ -13,7 +13,7 @@ ul {
   <h2>{{ by_type[0] }}</h2>
   <ul>
     {% for show in by_type[1] %}
-    <li><a href="{{ show.url }}">{{ show.title }}</a></li>
+    <li><a href="{{ show.url }}">{{ show.title | escape_once }}</a></li>
     {% endfor %}
   </ul>
 {% endfor %}
@@ -24,7 +24,7 @@ ul {
   <h2>{{ by_type[0] }}</h2>
   <ul>
     {% for show in by_type[1] %}
-    <li><a href="{{ show.url }}">{{ show.title }}</a></li>
+    <li><a href="{{ show.url }}">{{ show.title | escape_once }}</a></li>
     {% endfor %}
   </ul>
 {% endfor %}
@@ -35,7 +35,7 @@ ul {
   <h2>{{ by_type[0] }}</h2>
   <ul>
     {% for show in by_type[1] %}
-    <li><a href="{{ show.url }}">{{ show.title }}</a></li>
+    <li><a href="{{ show.url }}">{{ show.title | escape_once }}</a></li>
     {% endfor %}
   </ul>
 {% endfor %}
