@@ -115,10 +115,11 @@ body_class: layout-person header-nobr content-nobr
         <dd>{{ career }}</dd>
       {% endfor %}
 
-      {% link_list links %}
-
-      {% link_list news %}
       </dl>
+
+      {% include link-list.html list=person.links %}
+
+      {% include link-list.html list=person.news %}
 
     </section>
 

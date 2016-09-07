@@ -122,6 +122,10 @@ module Jekyll
       person.data["path_name"] = make_hp_path(person.data["title"])
       person.data["decade"] = "#{person.data["graduated"]}"[0,3]
 
+      # Person link lists
+      person.data["links"] = LinkList::LinkList.new(@site, person.data["links"])
+      person.data["news"] = LinkList::LinkList.new(@site, person.data["news"])
+
       # People by filename
       @people_by_filename[person.basename_without_ext] = person
     end
