@@ -13,17 +13,20 @@
 
   .wrapper
     @include grid-wrap
-    @include grid-row
-    padding-bottom: 0
+    
+    // Flex container for title, nav and search
+    display: flex
 
     // Remove left and right pad from header on mobile
     @include respond-down(mob-land)
       padding-left: 0
       padding-right: 0
+      // Make vertical
+      flex-direction: column
 
     @include respond-up($grid-column-start)
       // Fix container overflow
-      padding-bottom: $baseline
+      padding-bottom: 2/3 * $baseline
 
   &, a
     color: $color-text-white
@@ -31,16 +34,32 @@
 .header-nobr .site-header, .home .site-header
   margin-bottom: 0
 
-$nav-height: 63px
+$nav-height-port: 60px
+$nav-height-land: 73px
 
 .site-title, .site-nav, .site-search
   @include respond-up(tab-port)
-    height: $nav-height
+    line-height: $nav-height-port
+  @include respond-up(tab-land)
+    line-height: $nav-height-land
 
 .site-title
   // Site logo
   display: block
-  @include grid-x-col(5)
+  flex: 1
+
+  @include no-focus
+  &:focus
+    opacity: 0.8
+
+  @include respond-up(tab-port)
+    // Prevent crush
+    min-width: 212px
+
+  @include respond-up(tab-land)
+    // Prevent crush
+    min-width: 272px
+  
   @include respond-down(mob-land)
     width: 180px
     margin: 0 auto
@@ -50,8 +69,11 @@ $nav-height: 63px
 
 .site-title-logo
   float: left
-  @include respond-down(mob-land)
-    width: 32px
+  width: 32px
+  @include respond-up(tab-port)
+    width: 54px
+  @include respond-up(tab-land)
+    width: 64px
 
 $title-text-size: 26px
 $title-text-baseline: 1.2
@@ -65,7 +87,7 @@ $title-text-baseline: 1.2
 
   .logo-line-tnnt
     font-weight: normal
-    padding-top: 11px
+    padding-top: 11px  
     font-family: $header-font-stack
     font-size: $title-text-size / 2
     line-height: ($title-text-size * $title-text-baseline) / 2
@@ -101,9 +123,16 @@ $title-text-baseline: 1.2
       line-height: 1.4em
 
 .site-nav
-  @include grid-x-col(8)
+  flex: 2
+
+  display: flex
   text-align: center
-  line-height: $nav-height
+
+  @include respond-up(tab-port)
+    // Ensure we don't wrap, re #579
+    min-width: 465px
+    padding: 0 $baseline
+    justify-content: space-around
 
   .page-link
     @include no-underline
@@ -128,14 +157,18 @@ $title-text-baseline: 1.2
       &.current
         background: darken($color-nnt-purple, 10%)
 
+      @include no-focus
+      &:hover
+        background: $color-focus
+
     // Desktop nav styling
     @include respond-up(tab-port)
-      @include all-but-last(margin-right, 38px)
       padding-bottom: 3px
       &.current .page-link-text
         // Purple underline for current section
         border-bottom: 2px solid $color-nnt-purple
-      &:hover .page-link-text, &.current:focus .page-link-text
+      @include no-focus
+      &:hover .page-link-text, &.current:focus .page-link-text, &:focus .page-link-text
         // White underline for hover and current focus state
         border-bottom: 2px solid $color-text-white
 
@@ -151,6 +184,7 @@ $title-text-baseline: 1.2
     display: none
 
 .site-search
+  flex: 1
   @include respond-down(mob-land)
     // display: none // H
     position: fixed
@@ -173,10 +207,8 @@ $title-text-baseline: 1.2
       left: 0.25em
 
   @include respond-up(tab-port)
-    @include grid-x-col(3)
     position: relative
     text-align: right
-    line-height: $nav-height
 
     i
       color: $color-text-white
