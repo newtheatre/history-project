@@ -1,74 +1,136 @@
-module Jekyll
-  class LinkListTag < Liquid::Tag
+SNAPSHOT_BASE = "https://archive.is"
 
-    def initialize(tag_name, markup, tokens)
-      super
-      @link_hash = markup.strip
-    end
+module LinkList
+  class Link
+    # Single link within a link list or link register
 
-    def single_get_href(link)
-      # Used several times so spun out here
-      if not link.key?('href') then Jekyll.logger.abort_with(
-        "Link list:", "Missing href in #{@page['path']}") end
-      return link['href']
-    end
-
-    def single_link(link)
-      # Some sanity checks and useful exceptions
-      if not link.key?('type') then Jekyll.logger.abort_with(
-        "Link list:", "Missing type in #{@page['path']}") end
+    def initialize(site, link_hash, page_ref=nil)
+      @link_hash = link_hash
+      @site = site
+      @page_ref = page_ref
 
       # Select link type from data path or nil
-      link_type = @site.data['link-types'].select {
-        |i| i['type'] == link['type'] }[0]
-      link_type_default = @site.data['link-types'].select {
+      @link_type = @site.data['link-types'].select {
+        |i| i['type'] == link_hash['type'] }[0]
+      @link_type_default = @site.data['link-types'].select {
         |i| i['type'] == "default" }[0]
-
-      # Defaults
-      title = link['type']
-      icon = link_type_default['icon']
-      data = ""
-      if link.key?('comment') then comment = link['comment']
-      else comment = nil end
-
-      # If title, use
-      if link.key?('title') then title = link['title'] end
-
-      # Apply link type stuff
-      if link_type
-        if link_type.key?('icon') then icon = link_type['icon'] end
-        if link_type.key?('data') then data = link_type['data'] end
-        if link_type.key?('href')
-          if not link.key?('username') then Jekyll.logger.abort_with(
-            "Link list:", "Missing username in #{@page['path']}") end
-          href = link_type['href'].sub("???", link['username'])
-        else
-          href = single_get_href(link)
-        end
-      else
-        href = single_get_href(link)
-      end
-
-      """<dt class=\"single-line\">
-           <i class=\"fa fa-fw #{icon}\"></i>
-           <a href=\"#{href}\" #{data}>#{title}</a>
-           <span class=\"debug debug-hidden-content\" data-debug-toggle>#{comment}</span>
-         </dt>
-         <dd class=\"hidden\">#{href}</dd>\n"""
     end
 
-    def render(context)
-      @site = context.registers[:site]
-      @page = context.environments.first['page']
-
-      if @page.key?(@link_hash)
-        links = @page[@link_hash]
-        return links.collect { |link| single_link(link) }
+    def type
+      if @link_type['type']
+        @link_type['type']
       else
-        return nil
+        # TODO feed back into calling Jekyll plugin
+        raise 'Missing link type'
       end
+    end
+
+    def href
+      if @link_type.key?('href')
+        @link_type['href'].sub("???", @link_hash['username'])
+      else
+        @link_hash['href']
+      end
+    end
+
+    def href_snapshot
+      if @link_hash.key?('snapshot')
+        "#{SNAPSHOT_BASE}/#{@link_hash['snapshot']}"
+      end
+    end
+
+    def snapshot
+      @link_hash['snapshot']
+    end
+
+    def username
+      @link_hash['username']
+    end
+
+    def title
+      if @link_hash.key?('title')
+        @link_hash['title']
+      else
+        @link_hash['type']
+      end
+    end
+    
+    def icon
+      @link_hash['icon'] || @link_type['icon'] || @link_type_default['icon']
+    end
+
+    def data
+      @link_hash['data'] || @link_type['data'] || @link_type_default['data']
+    end
+
+    def date
+      @link_hash['date']
+    end
+
+    def stars
+      @link_hash['stars']
+    end
+
+    def quote
+      @link_hash['quote']
+    end
+
+    def to_liquid
+      {
+        'type' => type,
+        'href' => href,
+        'href_snapshot' => href_snapshot,
+        'snapshot' => snapshot,
+        'username' => username,
+        'title' => title,
+        'icon' => icon,
+        'data' => data,
+        'date' => date,
+        'stars' => stars,
+        'quote' => quote,
+        'comment' => @link_hash['comment'],
+        'page' => @page_ref,
+      }
+    end
+  end
+
+  class LinkList
+    # List of links
+
+    def initialize(site, linklist)
+      @linklist = linklist
+      @site = site
+      @page_ref = nil
+    end
+
+    def links(page_ref=nil)
+      @linklist.map do |link|
+        link = Link.new(@site, link, page_ref)
+        link
+      end
+    end
+
+    def to_liquid
+      links
+    end
+  end
+
+  class LinkRegister
+    # Register for holding all links to external resources for the site
+
+    def initialize
+      @link_register = Array.new
+    end
+
+    def add_list(list, page_ref)
+      # Create LinkList with page refs and push to register array
+      list.links(page_ref).each do |link|
+        @link_register << link
+      end
+    end
+
+    def to_liquid
+      @link_register
     end
   end
 end
-
-Liquid::Template.register_tag('link_list', Jekyll::LinkListTag)

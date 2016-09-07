@@ -1,0 +1,17 @@
+<dl class="link-list">
+{% for link in include.list %}
+
+  <dt class="single-line">
+	<i class="fa fa-fw {{ link.icon }}"></i>
+	{% if link.href_snapshot %}
+	  <a href="{{ link.href_snapshot }}" {{ link.data }}>{{ link.title }}</a>
+	{% else %}
+	  <a href="{{ link.href }}" {{ link.data }}>{{ link.title }}</a>
+	{% endif %}
+	<span class="debug debug-hidden-content" data-debug-toggle>{{ link.comment }}</span>
+  </dt>
+  
+  <dd class="hidden">{{ link.href }}</dd>
+
+{% endfor %}
+</dl>

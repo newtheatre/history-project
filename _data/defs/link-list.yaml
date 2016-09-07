@@ -14,6 +14,11 @@
   short: Archive snapshot reference
   description: "The five-character [archive.is](https://archive.is) snapshot reference. References are case-sensitive."
 
+- attr: href_snapshot
+  type: string
+  short: URL to archive snapshot
+  generated: true
+
 - attr: username
   type: string
   short: Username on a service.
@@ -23,6 +28,11 @@
   type: string
   short: Title of resource 
   description: "Useful for headlines of news articles. Only include if suitable."
+
+- attr: icon
+  type: string
+  short: Icon class
+  description: Usually set by link type
 
 - attr: date
   type: date
