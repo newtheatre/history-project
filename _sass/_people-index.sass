@@ -1,0 +1,52 @@
+.people-index
+  @include grid-wrap
+  min-height: 600px
+
+.people-index__filters
+  position: absolute
+  width: 300px
+  padding: $baseline / 2
+  background: $color-background-alt
+
+  label
+    display: block
+
+  .input-text, .input-select
+    padding: $baseline / 4
+    margin-bottom: $baseline / 2
+
+    color: $color-white
+    background: lighten($color-background-alt, 10%)
+    border: none
+    border-bottom: 3px solid $color-white
+
+.people-index__filters--fixed
+  position: fixed
+  top: $baseline
+
+.people-index__results
+  margin-left: 300px
+  padding-left: $baseline / 2
+
+  ol
+    @include list-unformatted
+
+    display: flex
+    flex-wrap: wrap
+
+  li
+    width: 33.333%
+    padding-left: $baseline / 2
+    margin-bottom: $baseline / 2
+
+  .people-result
+    display: block
+    padding: $baseline / 2
+    background: $color-background-alt
+
+  .person-headshot
+    float: left
+    width: 32px
+
+  .person-name
+    font-size: $base-font-size

@@ -1,0 +1,115 @@
+---
+layout: default
+title: People
+current: people
+search: false
+editable: false
+permalink: /people/
+---
+
+<div class="people-index">
+
+  <div class="people-index__filters" id="psFilter">
+
+    <!-- name -->
+    <label>
+      <span>Name</span>
+      <input type="text" id="people-filter-name" class="input-text" />
+    </label>
+
+    <!-- graduated year -->
+    <label>
+      <span>Graduation year</span>
+      <select id="people-filter-graduated" class="input-select">
+        <option value="">(All)</option>
+      {% for item in site.data.people_by_graduation_year %}
+        {% if item[1].size > 0 %}
+        <option value="{{ item[0] }}">{{ item[0] | escape_once }}</option>
+        {% endif %}
+      {% endfor %}
+      </select>
+    </label>
+
+    <!-- work -->
+    <label>
+      <span>Career</span>
+      <select id="people-filter-career" class="input-select">
+        <option value="">(All)</option>
+      {% for item in site.data.people_by_career %}
+        <option value="{{ item[0] }}">{{ item[0] | escape_once }}</option>
+      {% endfor %}
+      </select>
+    </label>
+
+    <!-- role -->
+    <label>
+      <span>Show Role</span>
+      <select id="people-filter-srole" class="input-select">
+        <option value="">(All)</option>
+      {% for item in site.data.roles %}
+        {% unless item.show == false %}
+        <option value="{{ item.role }}">{{ item.role | escape_once }}</option>
+        {% endunless %}
+      {% endfor %}
+      </select>
+    </label>
+
+    <!-- course -->
+    <label>
+      <span>Course</span>
+      <select id="people-filter-course" class="input-select">
+        <option value="">(All)</option>
+      {% for item in site.data.people_by_course %}
+        <option value="{{ item[0] }}">{{ item[0] | escape_once }}</option>
+      {% endfor %}
+      </select>
+    </label>
+
+    <!-- committee -->
+    <label>
+      <span>Committee Role</span>
+      <select id="people-filter-crole" class="input-select">
+        <option value="">(All)</option>
+        <option value="(any)">(Any)</option>
+      {% for item in site.data.people_by_crole %}
+        <option value="{{ item[0] }}">{{ item[0] | escape_once }}</option>
+      {% endfor %}
+      </select>
+    </label>
+
+    <!-- award -->
+    <label>
+      <span>Award</span>
+      <select id="people-filter-award" class="input-select">
+        <option value="">(All)</option>
+        <option value="(any)">(Any)</option>
+      {% for item in site.data.people_by_award %}
+        {% if item[0] | escape_once.size > 0 %}
+        <option value="{{ item[0] }}">{{ item[0] | escape_once }}</option>
+        {% endif %}
+      {% endfor %}
+      </select>
+    </label>
+
+  </div>
+
+  <div class="people-index__results">
+    <ol class="people-index__results__list" id="psResults">
+    </ol>
+  </div>
+
+</div>
+
+<!-- PeopleResult template -->
+<script type="text/x-template" id="psResultTemplate">
+  <a href="<%= item.url %>" class="people-result">
+    <% if (item.headshot) { %>
+    <img class="person-headshot person-headshot--actual"
+         src="<%= item.headshot.person_list %>" alt="<%= item.title %>" />
+    <% } else { %>
+    <img class="person-headshot person-headshot--placeholder"
+         src="/images/human-512-cropped.png" alt="Human silhouette" />
+    <% } %>
+    <h3 class="person-name"><%= item.title %></h3>
+  </a>
+</script>

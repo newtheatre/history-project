@@ -1,45 +1,60 @@
-# This file defines the icon classes used in crew lists and other areas of the site. See http://fontawesome.io/icons/ for the icon names.
+# This file defines the main roles a crew member can take along with representative icons.
+# See http://fontawesome.io/icons/ or http://ionicons.com/ for the icon names.
+
+- role: Acting
 
 - role: Director
   icon: ion-film-marker
-- role: Co-director
-  icon: ion-film-marker
+  aliases:
+    - Co-director
+
 - role: Producer
   icon: fa fa-money
+
 - role: Set Designer
   icon: ion-paintbucket
 - role: Designer
   icon: ion-paintbucket
+
 - role: Stage Manager
   icon: fa fa-bookmark
 - role: Technical Director
   icon: fa fa-plug
 - role: Lighting Designer
   icon: fa fa-lightbulb-o
+  aliases:
+    - Lighting Design
+- role: Sound Designer
+  icon: fa fa-volume-up
+  aliases:
+    - Sound Design
 - role: Video Designer
   icon: ion-videocamera
+  aliases:
+    - Video Design
 - role: Technical Operator
   icon: fa fa-headphones
-- role: Original Score
-  icon: fa fa-music
+  aliases:
+    - Sound Operator
+
 - role: Composer
   icon: fa fa-music
+  aliases:
+    - Original Score
 - role: Musical Director
   icon: fa fa-music
 - role: Vocalist
   icon: fa fa-music
 - role: Musician
   icon: fa fa-music
-- role: Sound Designer
-  icon: fa fa-volume-up
-- role: Sound Operator
-  icon: fa fa-volume-up
+
 - role: Make Up Artist
   icon: ion-paintbrush
 - role: Costume Designer
   icon: ion-tshirt
-- role: Costume Design
-  icon: ion-tshirt
+  aliases:
+    - Costume Design
+
 - role: Publicity Designer
   icon: fa fa-picture-o
 - role: Publicity Manager
@@ -52,16 +67,20 @@
   icon: fa fa-picture-o
 - role: Photographer
   icon: fa fa-camera-retro
-- role: Photography
-  icon: fa fa-camera-retro
+  aliases:
+    - Photography
+
 - role: Set Construction
   icon: ion-hammer
-- role: Choreography
-  icon: fa fa-street-view
+
 - role: Choreographer
   icon: fa fa-street-view
+  aliases:
+    - Choreography
 
 - role: President
   icon: fa fa-star
+  show: false
 - role: Treasurer
   icon: fa fa-money
+  show: false

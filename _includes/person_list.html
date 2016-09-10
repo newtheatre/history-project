@@ -47,7 +47,10 @@ X
       {% if person.role == "unknown" %}
         <span class="unknown">Unknown</span>
       {% else %}
-        {% for role in site.data.role-icons %}{% if person.role == role.role %}<i class="{{ role.icon }}"></i>{% endif %}{% endfor %}
+        {% if site.data.role-icons[person.role] %}
+        <i class="{{ site.data.role-icons[person.role] }}"></i>
+        {% endif %}
+
         {{ person.role | escape_once }} {% if person.note %}({{ person.note | escape_once }}){% endif %}
       {% endif %}
     </div>

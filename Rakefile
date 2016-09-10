@@ -45,6 +45,7 @@ task :build do
 
   logline "SEARCH INDEX"
   sh "coffee ./_coffee/search_index_generator.coffee"
+  sh "coffee ./_coffee/people_index_generator.coffee"
 end
 
 task :debug do
@@ -53,6 +54,7 @@ task :debug do
 
   logline "SEARCH INDEX"
   sh "coffee ./_coffee/search_index_generator.coffee"
+  sh "coffee ./_coffee/people_index_generator.coffee"
 end
 
 task :test do

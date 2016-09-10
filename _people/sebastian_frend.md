@@ -5,7 +5,7 @@ gender: Male
 course:
   - French and Russian BA
 graduated: 2014
-career:
+careers:
   - Teaching
 ---
 

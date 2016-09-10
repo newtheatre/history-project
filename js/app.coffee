@@ -19,4 +19,5 @@
 
 # Class based coffee
 {% include_root _coffee/PeopleGrid.coffee %}
+{% include_root _coffee/PeopleSearch.coffee %}
 {% include_root _coffee/ProdShotsGallery.coffee %}

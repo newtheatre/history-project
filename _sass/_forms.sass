@@ -3,11 +3,14 @@
 input, textarea
   @include block-focus
 
-.input-text, .input-textarea, .input-submit
+.input-text, .input-textarea, .input-select, .input-submit
   @include block
   width: 100%
   font-size: $base-font-size
   padding: $baseline / 2
+  border: 1px solid $color-grey
+  background: $color-white
+
 
 .input-textarea
   height: 200px

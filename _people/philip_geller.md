@@ -7,7 +7,7 @@ course:
   - Mechanical Engineering
 graduated: 2011
 award: Fellowship
-career:
+careers:
   - Teaching
   - Production Manager
   - Technician

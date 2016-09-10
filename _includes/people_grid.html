@@ -4,12 +4,12 @@
   {% if section[1].size > 0 or pgFirstSection %}
   {% if include.section_sorted %}
     <li id="{{ section[0] }}"
-        class="scroll-detect" 
-        data-sort={{ section[0] }} 
+        class="scroll-detect"
+        data-sort={{ section[0] }}
         data-sort-label="{{ section[0] }}">
   {% else %}
     <li id="{{ section[0] }}"
-        class="scroll-detect" 
+        class="scroll-detect"
         data-sort={{ forloop.index0 }}
         data-sort-label="{{ section[0] }}">
   {% endif %}
