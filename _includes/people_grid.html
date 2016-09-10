@@ -1,0 +1,74 @@
+<div class="wrapper">
+  <ol class="people-grid" id="pg">
+  {% for section in include.people %}
+  {% if section[1].size > 0 or pgFirstSection %}
+  {% if include.section_sorted %}
+    <li id="{{ section[0] }}"
+        class="scroll-detect" 
+        data-sort={{ section[0] }} 
+        data-sort-label="{{ section[0] }}">
+  {% else %}
+    <li id="{{ section[0] }}"
+        class="scroll-detect" 
+        data-sort={{ forloop.index0 }}
+        data-sort-label="{{ section[0] }}">
+  {% endif %}
+
+  {% unless section[1].size == 0 %}
+      <div class="title">
+        {{ section[0] }}
+      </div>
+      <ol class="people-grid-list">
+      {% for person in section[1] %}
+        <li>
+          <a href="{{ person.url }}">
+            <div class="headshot">
+              {% if person.headshot %}
+                <img class="person-headshot-actual" src="{{ person.headshot.person_bio }}" alt="{{ person.title }}" />
+              {% else %}
+                <img class="person-headshot-placeholder" src="/images/human-512-cropped.png" alt="Human silhouette" />
+              {% endif %}
+            </div>
+            <div class="name">{{ person.title }}</div>
+          </a>
+        </li>
+      {% endfor %}
+      </ol>
+    </li>
+
+  {% unless pgFirstSection %}{% assign pgFirstSection = section[0] %}{% endunless %}
+  {% assign pgLastSection = section[0] %}
+
+  {% endunless %}
+  </li>
+  {% endif %}
+  {% endfor %}
+  </ol>
+</div>
+
+<div class="people-grid-scroller">
+  <div class="inner">
+<!--     <div class="scroller">
+      <input id="pgSlide" type="range"
+        min="{{ pgFirstSection }}"
+        max="{{ pgLastSection }}" step="1"
+        value="{{ pgFirstSection }}" />
+    </div>
+ -->
+  <ol id="pgScroller">
+    {% for section in include.people %}
+    {% if section[0] >= pgFirstSection %}
+      <li {% unless section[1].size == 0 %}class="has-data"{% endunless %} data-sort={{ section[0] }}>
+        <!-- TODO back behavior broken, see https://github.com/turbolinks/turbolinks/issues/75 -->
+        <a href="#{{ section[0] }}" data-turbolinks="false">
+          <div class="link-text">
+            {% unless section[1].size == 0 %}{{ section[0] }}
+            {% else %}&nbsp;{% endunless %}
+          </div>
+        </a>
+      </li>
+    {% endif %}
+    {% endfor %}
+    </ol>
+  </div>
+</div>

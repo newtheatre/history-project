@@ -1,6 +1,6 @@
 ---
 layout: default
-title: People List
+title: Classes of
 current: people
 published: true
 sitemap: false
@@ -14,4 +14,4 @@ editable: false
   <i class="banner-header-icon fa fa-users"></i>
 </div>
 
-{% include people_grid.html people=site.data.people_by_letter %}
+{% include people_grid.html people=site.data.people_by_graduation_year section_sorted = true%}

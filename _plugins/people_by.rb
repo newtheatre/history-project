@@ -18,7 +18,8 @@ module Jekyll
         (@people_by_award[person.data["award"]] ||= []) << person
       end
 
-      if person.data["graduated"]
+      # Only include people who have actually graduated
+      if person.data["graduated"] and person.data["graduated"] < @year_end + 1
         (@people_by_graduation_year[person.data["graduated"]] ||= []) << person
       end
 
@@ -28,16 +29,24 @@ module Jekyll
     def generate(site)
       Jekyll.logger.info "Generating people by..."
 
+      @year_end = site.config['year_end']
+
       # Collection hashes
       @people_by_crole  = Hash.new
-      @people_by_award  = Hash.new
+      @people_by_award  = Hash.new  # replaced by award.rb AwardDataGenerator
       @people_by_graduation_year = Hash.new
       @people_by_letter = Hash.new
+
+      # Fill graduation year hash
+      (site.config["year_start"]..site.config["year_end"]).each do |n|
+        @people_by_graduation_year[n] = []
+      end
 
       site.data["people"].each { |person| people_iterator(person) }
 
       # Sort people alpha under each letter
       # sort_people from people.rb
+      @people_by_graduation_year.each_value { |v| v.sort!(&method(:sort_people)) }
       @people_by_letter.each_value { |v| v.sort!(&method(:sort_people)) }
 
       # Save sorted hashes
