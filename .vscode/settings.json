@@ -1,0 +1,11 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.exclude" : {
+        ".sass-cache": true,
+        "_site": true,
+        "_smugmug_cache": true,
+        "smugmug_cache": true,
+        "node_modules": true,
+        "tmp": true
+    }
+}

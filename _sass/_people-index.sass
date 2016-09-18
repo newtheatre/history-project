@@ -11,14 +11,39 @@
   label
     display: block
 
+    span
+      // Label text
+      font-size: 0.8em
+      text-transform: uppercase
+      font-weight: bold
+      opacity: 0.6
+
   .input-text, .input-select
-    padding: $baseline / 4
+    padding: $baseline / 4 0
     margin-bottom: $baseline / 2
 
     color: $color-white
-    background: lighten($color-background-alt, 10%)
+    background: none
+
     border: none
-    border-bottom: 3px solid $color-white
+    $border-bottom-normal: 1px
+    $border-bottom-focus: 2px
+    border-bottom: $border-bottom-normal solid $color-white
+
+    // Animate bottom border focus change
+  
+    &:focus
+      outline: none
+      border-bottom-width: $border-bottom-focus
+      margin-bottom: ($baseline / 2) + $border-bottom-normal - $border-bottom-focus
+    
+    option
+      // Forces background on dropdown items, otherwise we get white text on 
+      // white background.
+      background: darken($color-background-alt, 10%)
+    
+    .people-filter-all
+      color: #aaa
 
 .people-index__filters--fixed
   position: fixed
@@ -35,7 +60,9 @@
     flex-wrap: wrap
 
   li
-    width: 33.333%
+    width: 50%
+    @include respond-up(tab-land)
+      width: 33.333
     padding-left: $baseline / 2
     margin-bottom: $baseline / 2
 
@@ -50,3 +77,8 @@
 
   .person-name
     font-size: $base-font-size
+
+.people-index__results__intro
+  // Box with people section info shown before search is performed
+  background: $color-brand-alt
+  padding: $baseline / 2

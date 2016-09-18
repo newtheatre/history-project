@@ -10,7 +10,7 @@ getJSON = (url, successHandler, errorHandler) ->
     if (xhr.status)
       successHandler && successHandler(xhr.response)
     else
-      errorHandler && errorHandler(xhr.status);
+      errorHandler && errorHandler(xhr.status)
   xhr.send()
 
 # SearchWorker class
@@ -65,19 +65,19 @@ class SearchWorker
     return dataResults
 
 # Define worker pointer
-searchWorker = null
+self.searchWorker = null
 
 # Worker bindings
 self.addEventListener 'message', (e) ->
   data = e.data
   switch (data.cmd)
     when 'init'
-      searchWorker = new SearchWorker
+      self.searchWorker = new SearchWorker
         indexUrl: data.indexUrl
         dataUrl: data.dataUrl
     when 'search'
-      results = searchWorker.search(data.query)
+      results = self.searchWorker.search(data.query)
       self.postMessage(results)
     when 'stop'
-      delete searchWorker
+      delete self.searchWorker
       self.close()

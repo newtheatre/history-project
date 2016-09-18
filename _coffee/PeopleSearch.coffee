@@ -60,19 +60,26 @@ class PeopleSearch
     query_terms.join ' '
 
   search: =>
-    @searchWorker.postMessage
-      cmd: 'search'
-      query: @searchTerm()
+    q = @searchTerm()
+
+    if q.length > 0
+      @searchWorker.postMessage
+        cmd: 'search'
+        query: q
+    else
+      @psResults.clear()
 
   update: =>
-    if @windowPos != window.scrollY
+    # Only run if scroll changed AND not mobile
+    if (@windowPos != window.scrollY) and not isMobile()
       if window.scrollY > (@psFilterElOffsetTop - PS_FILTER_FIXED_TOP)
         @psFilterEl.classList.add(PS_FILTER_FIXED_CLASS)
       else
         @psFilterEl.classList.remove(PS_FILTER_FIXED_CLASS)
 
       footerOffsetTop = $(@footerEl).offset().top - window.scrollY
-      filterFooterDistance = footerOffsetTop - (@psFilterEl.getBoundingClientRect().height + PS_FILTER_FIXED_TOP)
+      filterFooterDistance = footerOffsetTop - (
+        @psFilterEl.getBoundingClientRect().height + PS_FILTER_FIXED_TOP)
 
       if filterFooterDistance < PS_FILTER_FIXED_TOP
         @psFilterEl.style.top = "#{filterFooterDistance}px"
@@ -86,12 +93,23 @@ class PeopleSearch
 class PeopleResults
   constructor: (opts) ->
     @psResultsEl = opts.psResultsEl
+    @psEmptyTemplate = _.template(
+      document.getElementById('psResultEmpty').textContent)
+    @psIntro = document.getElementById('psIntro')
 
-    @results = []
-
-  render: (results) ->
+  clear: ->
+    if @psIntro?
+      @psIntro.parentNode.removeChild(@psIntro)
+      delete @psIntro
     while @psResultsEl.hasChildNodes()
       @psResultsEl.removeChild(@psResultsEl.lastChild)
+
+  render: (results) ->
+    @clear()
+
+    if results.length == 0
+      @psResultsEl.innerHTML = @psEmptyTemplate()
+    
     output = Array()
     for result in results
       pr = new PeopleResult(result)
