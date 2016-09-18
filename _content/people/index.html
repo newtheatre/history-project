@@ -21,7 +21,7 @@ permalink: /people/
     <label>
       <span>Graduation year</span>
       <select id="people-filter-graduated" class="input-select">
-        <option value="">(All)</option>
+        <option class="people-filter-all" value="">(All)</option>
       {% for item in site.data.people_by_graduation_year %}
         {% if item[1].size > 0 %}
         <option value="{{ item[0] }}">{{ item[0] | escape_once }}</option>
@@ -34,7 +34,7 @@ permalink: /people/
     <label>
       <span>Career</span>
       <select id="people-filter-career" class="input-select">
-        <option value="">(All)</option>
+        <option class="people-filter-all" value="">(All)</option>
       {% for item in site.data.people_by_career %}
         <option value="{{ item[0] }}">{{ item[0] | escape_once }}</option>
       {% endfor %}
@@ -45,7 +45,7 @@ permalink: /people/
     <label>
       <span>Show Role</span>
       <select id="people-filter-srole" class="input-select">
-        <option value="">(All)</option>
+        <option class="people-filter-all" value="">(All)</option>
       {% for item in site.data.roles %}
         {% unless item.show == false %}
         <option value="{{ item.role }}">{{ item.role | escape_once }}</option>
@@ -58,7 +58,7 @@ permalink: /people/
     <label>
       <span>Course</span>
       <select id="people-filter-course" class="input-select">
-        <option value="">(All)</option>
+        <option class="people-filter-all" value="">(All)</option>
       {% for item in site.data.people_by_course %}
         <option value="{{ item[0] }}">{{ item[0] | escape_once }}</option>
       {% endfor %}
@@ -69,8 +69,8 @@ permalink: /people/
     <label>
       <span>Committee Role</span>
       <select id="people-filter-crole" class="input-select">
-        <option value="">(All)</option>
-        <option value="(any)">(Any)</option>
+        <option class="people-filter-all" value="">(All)</option>
+        <!--<option value="(any)">(Any)</option>-->
       {% for item in site.data.people_by_crole %}
         <option value="{{ item[0] }}">{{ item[0] | escape_once }}</option>
       {% endfor %}
@@ -81,8 +81,8 @@ permalink: /people/
     <label>
       <span>Award</span>
       <select id="people-filter-award" class="input-select">
-        <option value="">(All)</option>
-        <option value="(any)">(Any)</option>
+        <option class="people-filter-all" value="">(All)</option>
+        <!--<option value="(any)">(Any)</option>-->
       {% for item in site.data.people_by_award %}
         {% if item[0] | escape_once.size > 0 %}
         <option value="{{ item[0] }}">{{ item[0] | escape_once }}</option>
@@ -94,6 +94,9 @@ permalink: /people/
   </div>
 
   <div class="people-index__results">
+    <div class="people-index__results__intro" id="psIntro">
+      <h1>Alumni List</h1>
+    </div>
     <ol class="people-index__results__list" id="psResults">
     </ol>
   </div>
@@ -112,4 +115,10 @@ permalink: /people/
     <% } %>
     <h3 class="person-name"><%= item.title %></h3>
   </a>
+</script>
+
+<script type="text/x-template" id="psResultEmpty">
+ <div class="big-icon">
+    <i class="ion-sad-outline"></i>
+  </div>
 </script>

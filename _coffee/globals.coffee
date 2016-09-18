@@ -18,3 +18,8 @@ debounce = (fn) ->
       fn.apply ctx, args
       return
     ), 40)
+
+isMobile = ->
+  $('#nthpMobileDetect').css('display') == 'block'
+
+window.im = isMobile
