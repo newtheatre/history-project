@@ -1,22 +1,20 @@
 .people-index
   @include grid-wrap
   min-height: 600px
+  transition: margin-top 0.4s ease-out
 
 .people-index__filters
-  position: absolute
-  width: 300px
-  padding: $baseline / 2
-  background: $color-background-alt
+  z-index: 25
 
   label
     display: block
-
-    span
-      // Label text
-      font-size: 0.8em
-      text-transform: uppercase
-      font-weight: bold
-      opacity: 0.6
+  
+  span
+    // Label text
+    font-size: 0.8em
+    text-transform: uppercase
+    font-weight: bold
+    opacity: 0.6
 
   .input-text, .input-select
     padding: $baseline / 4 0
@@ -45,14 +43,86 @@
     .people-filter-all
       color: #aaa
 
-.people-index__filters--fixed
-  position: fixed
-  top: $baseline
+.people-index__filters__primary
+  background: darken($color-background-alt, 10%)
+
+  display: flex
+
+  .people-index__filters__name, .people-index__filters__toggle 
+    padding: $baseline / 4 $baseline / 4 0 $baseline / 4
+
+  .people-index__filters__name
+    width: 75%
+
+  .people-index__filters__toggle
+    width: 25%
+    background: purple
+
+.people-index__filters__more
+  background: $color-background-alt
+
+  display: flex
+  flex-wrap: wrap
+
+  transition: max-height 0.4s ease-out
+  will-change: max-height
+
+  label
+    // 2 by (3) grid of selects
+    width: 50%
+    padding: $baseline / 4 $baseline / 4 0 
+
+// Style page for mobile, only include stuff that's effort to override
+@include respond-down(mob-land)
+  .body--people-index
+    .site-header
+      margin-bottom: 0
+  
+  .people-index__filters--fixed
+    position: fixed
+    top: 0
+
+  // Animated drawer
+  .people-index__filters__more
+    max-height: 0px
+    overflow: hidden
+  
+  $max-height-hack: 245.391px
+  .people-index__filters__more--open
+    // HACK, hard-coded max-height
+    max-height: $max-height-hack
+  .people-index--push
+    // HACK, also a hack
+    margin-top: $max-height-hack + $baseline / 2 !important
+
+  .people-index
+    margin-top: $baseline / 2
+
+    li:nth-child(2n-1)
+      padding-left: 0
+
+// Style page for tablets and up
+@include respond-up(tab-port)
+  .people-index__filters
+    position: absolute
+    width: 300px
+    @include abs-left-wrap-pad(0px)
+
+  .people-index__filters--fixed
+    position: fixed
+    top: $baseline
+
+  .people-index__filters__more
+    label
+      // Full width on desktop
+      width: 100%
+
+  .people-index__results
+    margin-left: 300px
+    padding-left: $baseline / 2
+
 
 .people-index__results
-  margin-left: 300px
-  padding-left: $baseline / 2
-
   ol
     @include list-unformatted
 
@@ -62,7 +132,7 @@
   li
     width: 50%
     @include respond-up(tab-land)
-      width: 33.333
+      width: 33.333%
     padding-left: $baseline / 2
     margin-bottom: $baseline / 2
 
@@ -82,3 +152,4 @@
   // Box with people section info shown before search is performed
   background: $color-brand-alt
   padding: $baseline / 2
+

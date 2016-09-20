@@ -2,21 +2,27 @@
 layout: default
 title: People
 current: people
+body_class: body--people-index
 search: false
 editable: false
 permalink: /people/
 ---
 
-<div class="people-index">
+<div class="people-index__filters" id="psFilter">
 
-  <div class="people-index__filters" id="psFilter">
-
+  <div class="people-index__filters__primary">
     <!-- name -->
-    <label>
+    <label class="people-index__filters__name">
       <span>Name</span>
       <input type="text" id="people-filter-name" class="input-text" />
     </label>
 
+    <div class="people-index__filters__toggle" id="psMoreToggle">
+      <i class="fa fa-chevron-down"></i>
+    </div>
+  </div>
+
+  <div class="people-index__filters__more" id="psMore">
     <!-- graduated year -->
     <label>
       <span>Graduation year</span>
@@ -90,8 +96,10 @@ permalink: /people/
       {% endfor %}
       </select>
     </label>
-
   </div>
+</div>
+
+<div class="people-index" id="psBody">
 
   <div class="people-index__results">
     <div class="people-index__results__intro" id="psIntro">

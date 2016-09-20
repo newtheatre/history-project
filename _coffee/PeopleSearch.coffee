@@ -14,15 +14,22 @@ class PeopleSearch
 
   PS_FILTER_FIXED_TOP = 27
   PS_FILTER_FIXED_CLASS = 'people-index__filters--fixed'
+  PS_MORE_TOGGLE_CLASS = 'people-index__filters__more--open'
+  PS_BODY_PUSH_CLASS = 'people-index--push'
 
   constructor: (opts) ->
     @enabled = true
 
     @psFilterEl = opts.psFilterEl
+    @psMoreEl = @psFilterEl.querySelector('#psMore')
+    @psMoreToggleEl = @psFilterEl.querySelector('#psMoreToggle')
+    @psBodyEl = opts.psBodyEl
     @psResults = new PeopleResults
       psResultsEl: opts.psResultsEl
-
     @footerEl = document.querySelector('.site-footer')
+
+    @moreIsOpen = false
+    @scrollIsFixed = false
 
     @searchWorker = new Worker(SEARCH_WORKER_URL)
     @searchWorker.postMessage
@@ -34,7 +41,11 @@ class PeopleSearch
 
     @bindSearchFields()
 
+    # TODO touch event
+    @psMoreToggleEl.addEventListener('click', @toggleMore)
+
     @psFilterElOffsetTop = $(@psFilterEl).offset().top
+    @psFilterHeight = @psFilterEl.offsetHeight
     window.requestAnimationFrame(@update)
 
   destructor: ->
@@ -46,7 +57,7 @@ class PeopleSearch
     @searchFields = Array()
     for field in FIELDS
       elem = document.getElementById(field[0])
-      elem.addEventListener('input', @search)
+      elem.addEventListener('input', @onSearch)
       @searchFields.push [elem, field[1]]
 
   searchTerm: ->
@@ -59,7 +70,8 @@ class PeopleSearch
 
     query_terms.join ' '
 
-  search: =>
+  onSearch: =>
+    # Event listener for field changes
     q = @searchTerm()
 
     if q.length > 0
@@ -69,19 +81,51 @@ class PeopleSearch
     else
       @psResults.clear()
 
+  toggleMore: =>
+    # Open/close the 'more' drawer, applicable to mobile
+    @moreIsOpen = !@moreIsOpen
+    @psMoreEl.classList.toggle(PS_MORE_TOGGLE_CLASS)
+    @psBodyEl.classList.toggle(PS_BODY_PUSH_CLASS) if @scrollIsFixed
+
   update: =>
     # Only run if scroll changed AND not mobile
-    if (@windowPos != window.scrollY) and not isMobile()
-      if window.scrollY > (@psFilterElOffsetTop - PS_FILTER_FIXED_TOP)
-        @psFilterEl.classList.add(PS_FILTER_FIXED_CLASS)
+    if (@windowPos != window.scrollY)
+      # No top gap on mobile between header and filter box
+      if isMobile()
+        top_limit = @psFilterElOffsetTop
       else
-        @psFilterEl.classList.remove(PS_FILTER_FIXED_CLASS)
+        top_limit = @psFilterElOffsetTop - PS_FILTER_FIXED_TOP
 
+      # If beyond this limit, add fixed class, otherwise remove
+      # Toggle action
+      if (window.scrollY > top_limit) and !@scrollIsFixed
+        @scrollIsFixed = true
+        @psFilterEl.classList.add(PS_FILTER_FIXED_CLASS)
+        @psBodyEl.style.paddingTop = "#{@psFilterHeight + 6}px" if isMobile()
+        if isMobile() and @moreIsOpen
+          # http://stackoverflow.com/a/16575811/1345360
+          @psBodyEl.classList.add('noTransition')
+          @psBodyEl.classList.add(PS_BODY_PUSH_CLASS)
+          @psBodyEl.offsetHeight
+          @psBodyEl.classList.remove('noTransition')
+      else if !(window.scrollY > top_limit) and @scrollIsFixed
+        @scrollIsFixed = false
+        @psFilterEl.classList.remove(PS_FILTER_FIXED_CLASS)
+        @psBodyEl.style.paddingTop = "" if isMobile()
+        if isMobile()
+          # http://stackoverflow.com/a/16575811/1345360
+          @psBodyEl.classList.add('noTransition')
+          @psBodyEl.classList.remove(PS_BODY_PUSH_CLASS)
+          @psBodyEl.offsetHeight
+          @psBodyEl.classList.remove('noTransition')
+          
+      # Stop the scroll following when we hit the footer
+      # Continious action
       footerOffsetTop = $(@footerEl).offset().top - window.scrollY
       filterFooterDistance = footerOffsetTop - (
         @psFilterEl.getBoundingClientRect().height + PS_FILTER_FIXED_TOP)
 
-      if filterFooterDistance < PS_FILTER_FIXED_TOP
+      if (filterFooterDistance < PS_FILTER_FIXED_TOP) and !isMobile()
         @psFilterEl.style.top = "#{filterFooterDistance}px"
       else
         @psFilterEl.style.top = ""
@@ -132,10 +176,13 @@ class PeopleResult
 
 $(document).ready ->
   psFilter = document.querySelector('#psFilter')
+  psBody = document.querySelector('#psBody')
   psResults = document.querySelector('#psResults')
+
   if psFilter and psResults
     window.peopleSearch = new PeopleSearch
       psFilterEl: psFilter
+      psBodyEl: psBody
       psResultsEl: psResults
 
 document.addEventListener 'turbolinks:visit', ->
