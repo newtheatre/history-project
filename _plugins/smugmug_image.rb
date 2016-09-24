@@ -5,6 +5,8 @@
 
 require_relative 'smugmug'
 
+Struct.new("CustomSize", :name, :size)
+
 class SmugImage < Smug
 
   # See http://help.smugmug.com/customer/portal/articles/93250
@@ -18,6 +20,21 @@ class SmugImage < Smug
     'ImageSizeX2Large',
     'ImageSizeX3Large',
     'ImageSizeOriginal',
+  ]
+
+  CUSTOM_SIZES = [
+    Struct::CustomSize.new("poster_thumb", "33x44!"),
+    Struct::CustomSize.new("poster_thumb_1", "33x44!"),
+    Struct::CustomSize.new("poster_thumb_2", "66x88!"),
+    Struct::CustomSize.new("poster_thumb_3", "99x132!"),
+
+    Struct::CustomSize.new("poster_search", "128x162"),
+    Struct::CustomSize.new("poster_grid", "200x282!"),
+    Struct::CustomSize.new("poster_large", "440x622"),
+
+    Struct::CustomSize.new("person_list", "41x41!"),
+    Struct::CustomSize.new("person_bio", "160x160!"),
+    Struct::CustomSize.new("person_search", "140x140!"),
   ]
 
   def initialize(imageID)
@@ -70,9 +87,9 @@ class SmugImage < Smug
 
   def to_liquid
     if @isd
-      {
+      h = {
         "key" => @imageID,
-
+        # SM named sizes aren't really used
         "tiny" => getSize("ImageSizeTiny"),
         "thumb" => getSize("ImageSizeThumb"),
         "small" => getSize("ImageSizeSmall"),
@@ -82,16 +99,14 @@ class SmugImage < Smug
         "x2large" => getSize("ImageSizeX2Large"),
         "x3large" => getSize("ImageSizeX3Large"),
         "original" => getSize("ImageSizeOriginal"),
-
-        "poster_thumb" => customSize("33x44!"),
-        "poster_search" => customSize("128x162"),
-        "poster_grid" => customSize("200x282!"),
-        "poster_large" => customSize("440x622"),
-
-        "person_list" => customSize("41x41!"),
-        "person_bio" => customSize("160x160!"),
-        "person_search" => customSize("140x140!"),
       }
+      
+      # Add all our custom sizes
+      for size in CUSTOM_SIZES
+        h[size.name] = customSize(size.size)
+      end
+
+      return h
     else
       return nil
     end

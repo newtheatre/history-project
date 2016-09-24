@@ -7,7 +7,7 @@
 
     {% if show.poster %}
       <div class="show-list-poster">
-        <img src="{{ show.poster.image.poster_thumb }}" alt="{{ show.title | escape_once }} poster" />
+        {% include images/show-poster-thumb.html image=show.poster alt=show.title %}
       </div>
     {% else %}
       <div class="show-list-poster missing"></div>
