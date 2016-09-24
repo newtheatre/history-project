@@ -7,7 +7,10 @@
 
     {% if show.poster %}
       <div class="show-list-poster">
-        {% include images/show-poster-thumb.html image=show.poster alt=show.title %}
+        {% include images/show-poster-thumb.html 
+                   image=show.poster
+                   sizes="33px"
+                   alt=show.title %}
       </div>
     {% else %}
       <div class="show-list-poster missing"></div>

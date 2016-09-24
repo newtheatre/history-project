@@ -1,0 +1,11 @@
+<img class="person-headshot-actual"
+     src="{{ include.image.person_bio_m }}" 
+     srcset="{{ include.image.person_bio_xl }} 480w,
+             {{ include.image.person_bio_l }} 320w,
+             {{ include.image.person_bio_m }} 160w,
+             {{ include.image.person_bio_s }} 96w,
+             {{ include.image.person_thumb_3 }} 123w,
+             {{ include.image.person_thumb_2 }} 82w,
+             {{ include.image.person_thumb_1 }} 41w"
+     sizes="{{ include.sizes }}" 
+     alt="{{ include.alt | escape_once }}" />
