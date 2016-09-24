@@ -19,9 +19,9 @@ class SearchWorker
     @indexUrl = opts.indexUrl
     @dataUrl = opts.dataUrl
 
-    @searchIndex = new Object
-    @dataIndex = new Object
-    @dataReverseIndex = new Object
+    @searchIndex = null
+    @dataIndex = null
+    @dataReverseIndex = null
 
     @loadIndex()
     @loadData()
@@ -38,11 +38,20 @@ class SearchWorker
 
   processIndex: (data) ->
     @searchIndex = lunr.Index.load(data)
+    @ready()
 
   processData: (data) ->
     @dataIndex = data
+    @dataReverseIndex = new Object
     for item in data
       @dataReverseIndex[item.url] = item
+    @ready()
+
+  ready: ->
+    # Two concurent operations, only fire when both ready
+    if @searchIndex? and @dataReverseIndex?
+      self.postMessage
+        cmd: 'ready'
 
   fail: (status) ->
     console.log ("SearchWorker load error: #{status}")
@@ -62,7 +71,10 @@ class SearchWorker
       b = "#{b.surname} #{b.forename}".toLowerCase()
       return +(a > b) || +(a == b) - 1
 
-    return dataResults
+    return {
+      cmd: 'results'
+      results: dataResults
+    }
 
 # Define worker pointer
 self.searchWorker = null

@@ -1,7 +1,6 @@
 .people-index
   @include grid-wrap
-  min-height: 600px
-  transition: margin-top 0.4s ease-out
+  transition: margin-top $element-transition
 
 .people-index__filters
   z-index: 25
@@ -52,11 +51,25 @@
     padding: $baseline / 4 $baseline / 4 0 $baseline / 4
 
   .people-index__filters__name
-    width: 75%
+    flex: 1
 
   .people-index__filters__toggle
-    width: 25%
-    background: purple
+    width: 15%
+
+    position: relative
+
+    i
+      display: block
+      position: absolute
+      top: 50%
+      left: 50%
+      margin: -8px 0 0 -8px
+
+      transition: transform $element-transition
+
+  .people-index__filters__toggle--open
+    i
+      transform: rotate(180deg)
 
 .people-index__filters__more
   background: $color-background-alt
@@ -77,6 +90,10 @@
   .body--people-index
     .site-header
       margin-bottom: 0
+
+  .people-index__filters
+    // Shadow on bottom of fixed filter bar
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.3)
   
   .people-index__filters--fixed
     position: fixed
@@ -103,6 +120,9 @@
 
 // Style page for tablets and up
 @include respond-up(tab-port)
+  .people-index
+    min-height: 600px
+
   .people-index__filters
     position: absolute
     width: 300px
@@ -111,6 +131,10 @@
   .people-index__filters--fixed
     position: fixed
     top: $baseline
+
+  .people-index__filters__primary
+    .people-index__filters__toggle
+      display: none
 
   .people-index__filters__more
     label

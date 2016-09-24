@@ -15,6 +15,7 @@ class PeopleSearch
   PS_FILTER_FIXED_TOP = 27
   PS_FILTER_FIXED_CLASS = 'people-index__filters--fixed'
   PS_MORE_TOGGLE_CLASS = 'people-index__filters__more--open'
+  PS_TOGGLE_TOGGLE_CLASS = 'people-index__filters__toggle--open'
   PS_BODY_PUSH_CLASS = 'people-index--push'
 
   constructor: (opts) ->
@@ -36,8 +37,7 @@ class PeopleSearch
       cmd: 'init'
       indexUrl: SEARCH_INDEX_URL
       dataUrl: SEARCH_DATA_URL
-    @searchWorker.addEventListener 'message', (e) =>
-      @psResults.render(e.data)
+    @searchWorker.addEventListener 'message', @onMessage
 
     @bindSearchFields()
 
@@ -57,7 +57,11 @@ class PeopleSearch
     @searchFields = Array()
     for field in FIELDS
       elem = document.getElementById(field[0])
-      elem.addEventListener('input', @onSearch)
+      if FIELDS.indexOf(field) == 0
+        elem.addEventListener 'input', debounce =>
+          @onSearch()
+      else
+        elem.addEventListener('input', @onSearch)
       @searchFields.push [elem, field[1]]
 
   searchTerm: ->
@@ -81,11 +85,21 @@ class PeopleSearch
     else
       @psResults.clear()
 
+  onMessage: (e) =>
+    data = e.data
+    switch (data.cmd)
+      when 'ready'
+        # Search worker is ready
+        $( @searchFields[0][0] ).attr('placeholder','')
+      when 'results'
+        @psResults.render(data.results)
+
   toggleMore: =>
     # Open/close the 'more' drawer, applicable to mobile
     @moreIsOpen = !@moreIsOpen
     @psMoreEl.classList.toggle(PS_MORE_TOGGLE_CLASS)
     @psBodyEl.classList.toggle(PS_BODY_PUSH_CLASS) if @scrollIsFixed
+    @psMoreToggleEl.classList.toggle(PS_TOGGLE_TOGGLE_CLASS)
 
   update: =>
     # Only run if scroll changed AND not mobile
