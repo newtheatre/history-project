@@ -50,7 +50,11 @@ $nav-height-land: 73px
 
   @include no-focus
   &:focus
-    opacity: 0.8
+    .nnt-logo
+      .nnt-logo_big
+        fill: $color-nnt-orange
+      .nnt-logo_small
+        fill: $color-nnt-purple
 
   @include respond-up(tab-port)
     // Prevent crush
@@ -67,13 +71,16 @@ $nav-height-land: 73px
 
   @include no-underline
 
-.site-title-logo
+.site-title .nnt-logo, .site-title-logo
   float: left
   width: 32px
+  height: 32px
   @include respond-up(tab-port)
+    width: 54px
     width: 54px
   @include respond-up(tab-land)
     width: 64px
+    height: 64px
 
 $title-text-size: 26px
 $title-text-baseline: 1.2
