@@ -15,7 +15,10 @@ body_class: layout-person header-nobr content-nobr
   <header class="person-header">
     <div class="person-headshot">
       {% if person.headshot %}
-        <img class="person-headshot-actual" src="{{ person.headshot.person_bio }}" alt="{{ person.title | escape_once }}" />
+        {% include images/person-headshot.html
+                   image=person.headshot
+                   sizes="(min-width: 480px) 6rem, (min-width: 768px) 10rem"
+                   alt=person.name %}
       {% else %}
         <img class="person-headshot-placeholder" src="/images/human-512-cropped.png" alt="Human silhouette" />
       {% endif %}
@@ -138,7 +141,11 @@ body_class: layout-person header-nobr content-nobr
       <div class="person-show-poster">
         <a href="{{ record.item.url }}" title="{{ record.item.title | escape_once }}">
         {% if record.item.poster %}
-          <img src="{{ record.item.poster.image.poster_grid }}" alt="{{ record.item.title | escape_once }} poster" />
+          {% include images/show-poster-thumb.html
+                     image=record.item.poster
+                     sizes="(max-width: 420px) 50vw, (max-width: 768px) 33vw, 170px"
+                     alt=record.item.title
+                     lazy=true %}
         {% else %}
           <!-- Missing Poster -->
         {% endif %}

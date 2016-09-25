@@ -209,6 +209,7 @@ lib:
     - lib/letteringjs/jquery.lettering.js
     - lib/mousetrap/mousetrap.min.js
     - lib/lunr.js/lunr.min.js
+    - lib/picturefill/dist/picturefill.js
     - lib/raven-js/dist/raven.js
 
 # Config for the prose editor

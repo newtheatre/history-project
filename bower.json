@@ -30,7 +30,8 @@
     "montserrat-webfont": "~1.0.3",
     "open-sans-fontface": "~1.4.2",
     "turbolinks": "https://github.com/turbolinks/turbolinks.git",
-    "tablesorter": "jquery.tablesorter#^2.26.6"
+    "tablesorter": "jquery.tablesorter#^2.26.6",
+    "picturefill": "^3.0.2"
   },
   "resolutions": {
     "bourbon": "~4.2.2"
