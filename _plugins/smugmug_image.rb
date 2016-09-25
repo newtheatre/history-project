@@ -42,6 +42,7 @@ class SmugImage < Smug
     
     Struct::CustomSize.new("person_bio_s", "96x96!"),
     Struct::CustomSize.new("person_bio_m", "160x160!"),
+    Struct::CustomSize.new("person_bio", "160x160!"),
     Struct::CustomSize.new("person_bio_l", "320x320!"),
     Struct::CustomSize.new("person_bio_xl", "480x480!"),
 
