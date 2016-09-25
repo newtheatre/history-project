@@ -26,6 +26,14 @@
       </span>
 
     {% endif %}
+
+    {% if fact.submitted %}
+    <span class="fact-list_submitted"
+          title="{{ fact.submitted }}" 
+          data-date="{{ fact.submitted }}">
+      {{ fact.submitted }}
+    </span>
+    {% endif %}
   </li>
 {% endfor %}
 </ul>

@@ -19,8 +19,10 @@ facts:
     name: Will Pimblett
     submitted: 2016-09-25
   - fact: "Adapted by the director"
+    submitted: 2013-05-20
   - fact: "Something else"
     name: Fred Bloggs
+    submitted: 2016-05-20
 
 cast:
   - role: Victor Frankenstein

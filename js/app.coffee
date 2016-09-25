@@ -15,3 +15,4 @@
 {% include_root _coffee/archive_sort.coffee %}
 {% include_root _coffee/lightbox.coffee %}
 {% include_root _coffee/LazyImage.coffee %}
+{% include_root _coffee/RelativeTime.coffee %}

@@ -10,8 +10,8 @@
   &:before, &:after
     content: '"'
 
-.fact-list_dash
-  // Em-dash between quote and name
+.fact-list_dash, .fact-list_name, .fact-list_submitted
+  // Make things grey
   color: $color-grey
 
 .fact-list_person
@@ -32,4 +32,9 @@
 
 .fact-list_name
   // When orphaned, and name within _person
-  color: $color-grey
+
+.fact-list_submitted
+  &:before
+    content: '('
+  &:after
+    content: ')'
