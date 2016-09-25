@@ -1,6 +1,6 @@
-- attr: fact
+- attr: quote
   type: string
-  short: Quotation of fact
+  short: Quotation
   required: true
 
 - attr: name

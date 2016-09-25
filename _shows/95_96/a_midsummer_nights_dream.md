@@ -9,8 +9,8 @@ venue_sort: Trent Building
 date_start: 1996-06-24
 date_end: 1996-06-29
 
-facts:
-  - fact: "This was an outdoor production in the courtyard of the Trent Building."
+trivia:
+  - quote: "This was an outdoor production in the courtyard of the Trent Building."
     name: David Trennery
     submitted: 2016-08-15
 

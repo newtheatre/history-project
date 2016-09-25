@@ -150,10 +150,10 @@
   description: "Generated excerpt of synopsis for use in search results and other summaries."
   generated: true
 
-- attr: facts
+- attr: trivia
   type: array
-  short: List of fun / unusual facts about the show.
-  description: "List of fact hashes, see [fact list](/docs/fact-list/)."
+  short: List of trivia hashes.
+  description: "List of trivia / anecdotes / short stories about the show. See [trivia list](/docs/trivia-list/)."
 
 - attr: cast
   type: array

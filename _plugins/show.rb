@@ -170,9 +170,9 @@ module Jekyll
       show.data["cast"] = generate_show_pls(show, "cast")
       show.data["crew"] = generate_show_pls(show, "crew")
 
-      # Process fact list
-      if show.data.key?('facts')
-        show.data['facts'] = Facts::FactList.new(@site, show.data['facts'])
+      # Process trivia
+      if show.data.key?('trivia')
+        show.data['trivia'] = Trivia::QuoteList.new(@site, show.data['trivia'])
       end
 
       # Fetch SmugMug album data

@@ -8,8 +8,8 @@ venue:
 date_start:
 date_end:
 
-facts:
-  - fact: "A very quirky play. My character was a peculiar old woman who used to push dwarves into the houses of complete strangers. Students played six of the dwarves, and plastic garden gnomes played the rest."
+trivia:
+  - quote: "A very quirky play. My character was a peculiar old woman who used to push dwarves into the houses of complete strangers. Students played six of the dwarves, and plastic garden gnomes played the rest."
     name: Vanessa Greatorex
     submitted: 2015-10-05
 
