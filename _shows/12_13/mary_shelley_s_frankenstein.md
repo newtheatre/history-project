@@ -18,11 +18,9 @@ facts:
   - fact: "Large 'lake' was made using builders plastic. Started to leak after the first performance and had to be removed."
     name: Will Pimblett
     submitted: 2016-09-25
-  - fact: "Adapted by the director"
-    submitted: 2013-05-20
-  - fact: "Something else"
-    name: Fred Bloggs
-    submitted: 2016-05-20
+  - fact: "Using a single projector we mapped video onto three screens as well as applying effects to the entire stage."
+    name: Will Pimblett
+    submitted: 2016-09-25
 
 cast:
   - role: Victor Frankenstein

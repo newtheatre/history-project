@@ -8,6 +8,11 @@ venue: New Theatre
 date_start: 2009-06-10
 date_end: 2009-06-13
 
+facts:
+  - fact: "Without a doubt the parachute pants I wore in Romeo and Juliet. They were brilliant. Incredibly flattering."
+    name: Ben Cave
+    submitted: 2015-12-12
+
 cast:
     - role: The Nurse
       name: Elle O'Rorke

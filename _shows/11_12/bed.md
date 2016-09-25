@@ -8,6 +8,11 @@ venue: New Theatre
 date_start: 2011-11-30
 date_end: 2011-12-03
 
+facts:
+  - fact: "A personal highlight was transferring Jim Cartwright's 'Bed' (my first attempt at Directing), to Lakeside's Djanogly Theatre, with a bit of help from Nick Stevenson"
+    name: James McAndrew
+    submitted: 2015-11-03
+
 cast:
   - role: Charles
     name: James Townsend
