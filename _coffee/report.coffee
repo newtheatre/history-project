@@ -38,6 +38,7 @@ $(document).ready ->
   $('[data-report-close]').click (e) ->
     e.preventDefault()
     $('#report').removeClass 'report-show'
+    $('#improve').removeClass 'report-show'
 
   $('#improve-this-page').click (e) ->
     if localStorage.debug_mode isnt "yes"
