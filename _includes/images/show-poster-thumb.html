@@ -1,12 +1,28 @@
+{% capture src %}
+{{ include.image.image.poster_large }}
+{% endcapture %}
+
+{% capture srcset %}
+{{ include.image.image.poster_grid_3 }} 600w,
+{{ include.image.image.poster_grid_2 }} 400w,
+{{ include.image.image.poster_grid_1 }} 200w,
+{{ include.image.image.poster_thumb_3 }} 132w,
+{{ include.image.image.poster_thumb_2 }} 88w,
+{{ include.image.image.poster_thumb_1 }} 33w
+{% endcapture %}
+
+{% if include.lazy %}
 <img 
   src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
   class="lazy-image"
-  data-src="{{ include.image.image.poster_large }}"
-  data-srcset="{{ include.image.image.poster_grid_3 }} 600w,
-          {{ include.image.image.poster_grid_2 }} 400w,
-          {{ include.image.image.poster_grid_1 }} 200w,
-          {{ include.image.image.poster_thumb_3 }} 132w,
-          {{ include.image.image.poster_thumb_2 }} 88w,
-          {{ include.image.image.poster_thumb_1 }} 33w" 
+  data-src="{{ src }}"
+  data-srcset="{{ srcset }}" 
   sizes="{{ include.sizes }}"
   alt="{{ include.alt | escape_once }} poster" />
+{% else %}
+<img 
+  src="{{ src }}"
+  srcset="{{ srcset }}" 
+  sizes="{{ include.sizes }}"
+  alt="{{ include.alt | escape_once }} poster" />
+{% endif %}

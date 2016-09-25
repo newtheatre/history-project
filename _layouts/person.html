@@ -144,7 +144,8 @@ body_class: layout-person header-nobr content-nobr
           {% include images/show-poster-thumb.html
                      image=record.item.poster
                      sizes="(max-width: 420px) 50vw, (max-width: 768px) 33vw, 170px"
-                     alt=record.item.title %}
+                     alt=record.item.title
+                     lazy=true %}
         {% else %}
           <!-- Missing Poster -->
         {% endif %}
