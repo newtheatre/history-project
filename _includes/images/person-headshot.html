@@ -1,3 +1,4 @@
+{% if include.image %}
 <img class="person-headshot-actual"
      src="{{ include.image.person_bio_m }}" 
      srcset="{{ include.image.person_bio_xl }} 480w,
@@ -9,3 +10,9 @@
              {{ include.image.person_thumb_1 }} 41w"
      sizes="{{ include.sizes }}" 
      alt="{{ include.alt | escape_once }}" />
+{% else %}
+<img class="person-headshot-silhouette"
+     src="/images/human-48.png"
+     sizes="{{ include.sizes }}"
+     alt="No Headshot" />
+{% endif %}

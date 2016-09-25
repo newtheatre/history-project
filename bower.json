@@ -31,7 +31,8 @@
     "open-sans-fontface": "~1.4.2",
     "turbolinks": "https://github.com/turbolinks/turbolinks.git",
     "tablesorter": "jquery.tablesorter#^2.26.6",
-    "picturefill": "^3.0.2"
+    "picturefill": "^3.0.2",
+    "moment": "^2.15.1"
   },
   "resolutions": {
     "bourbon": "~4.2.2"

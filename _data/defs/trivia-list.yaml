@@ -1,0 +1,18 @@
+- attr: quote
+  type: string
+  short: Quotation
+  required: true
+
+- attr: name
+  type: string
+  short: Name of submitter
+
+- attr: person
+  type: document
+  short: Person document for given name.
+  generated: yes
+
+- attr: submitted
+  type: date
+  short: Date fact was submitted
+  description: "In the format YYYY-MM-DD"

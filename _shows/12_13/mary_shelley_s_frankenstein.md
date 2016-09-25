@@ -14,6 +14,14 @@ canonical:
 
 comment: "This is a weird case of student adaption, rather than writing. Also video: youtube>E6q8xO3FNic"
 
+trivia:
+  - quote: "Large 'lake' was made using builders plastic. Started to leak after the first performance and had to be removed."
+    name: Will Pimblett
+    submitted: 2016-09-25
+  - quote: "Using a single projector we mapped video onto three screens as well as applying effects to the entire stage."
+    name: Will Pimblett
+    submitted: 2016-09-25
+
 cast:
   - role: Victor Frankenstein
     name: Daniel O'Connor

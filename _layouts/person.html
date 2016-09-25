@@ -55,7 +55,10 @@ body_class: layout-person header-nobr content-nobr
       <h2>Biography</h2>
       {{ content }}
       <p class="person-bio-last-updated">
-        Bio last updated on {{ person.submitted }}, <a href="{{ submit_link }}">submit updates</a>.
+        Bio last updated 
+        <span data-date="{{ person.submitted }}"
+              title="{{ person.submitted }}">{{ person.submitted }}</span>, 
+        <a href="{{ submit_link }}">submit updates</a>.
       </p>
     </article>
 

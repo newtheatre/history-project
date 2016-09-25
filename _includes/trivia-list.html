@@ -1,0 +1,45 @@
+<ul class="trivia-list">
+{% for item in include.trivia %}
+  <li class="trivia-list_item">
+    <i class="fa fa-comment-o trivia-list_bullet"></i>
+    <span class="trivia-list_quote">{{ item.quote }}</span>
+    {% if item.person %}
+      <span class="trivia-list_dash">&mdash;</span>      
+      <span class="trivia-list_person" 
+            {% if item.submitted %}
+            title="Submitted: {{ item.submitted }}"
+            {% endif %}>
+        <a href="{{ item.person.url }}">
+          {% include images/person-headshot.html 
+                    image=item.person.headshot
+                    sizes="1em"
+                    alt=item.person.title %}
+          <span class="trivia-list_name">{{ item.person.title }}</span>
+        </a>
+      </span>
+    {% elsif item.name %}
+      <span class="trivia-list_dash">&mdash;</span>
+      <span class="trivia-list_name" 
+            {% if item.submitted %}
+            title="Submitted: {{ item.submitted }}"
+            {% endif %}>
+        {{ item.name }}
+      </span>
+
+    {% endif %}
+
+    {% if item.submitted %}
+    <span class="trivia-list_submitted"
+          title="{{ item.submitted }}" 
+          data-date="{{ item.submitted }}">
+      {{ item.submitted }}
+    </span>
+    {% endif %}
+  </li>
+{% endfor %}
+
+  <li class="trivia-list__add">
+    <i class="ion-plus trivia-list_bullet"></i>
+    <a href="https://github.com/newtheatre/history-project/issues/new?body={{page.url}}" data-proofer-ignore data-report-this-page>Send in an anecdote</a>
+  </li>
+</ul>

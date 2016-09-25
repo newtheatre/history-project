@@ -112,6 +112,12 @@ body_class: section-archives layout-show
       </header>
       <article class="show-synopsys">
         {{ content }}
+
+        {% if show.trivia %}
+          {% include trivia-list.html trivia=show.trivia %}
+        {% elsif show.ignore_missing != true %}
+          {% include boxes/show_facts_missing.html %}
+        {% endif %}
       </article>
 
       {% if show.assets.size > 0 %}
