@@ -21,7 +21,7 @@ Don't worry if you aren't quite ready to part with your cherished New Theatre re
 
 We use an issue tracker to maintain a list of jobs to do. If you spot a misspelled name, a terrible typo or can help us fill in some blanks you can add to this by reporting problems with pages.
 
-Click the <strong class="tag"><i class="octicon octicon-issue-opened"></i> Report This Page</strong> button on the right when on the page you want to tell us about and complete a report.
+Click the <strong class="tag"><i class="ion-chatbox-working"></i> Message the Editors</strong> button on the right when on the page you want to tell us about and complete a report.
 
 Please keep in mind all reports are public. You can see [all reports made using this tool here](https://github.com/newtheatre/history-project/issues?q=label%3Areport-tool+).
 
