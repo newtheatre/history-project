@@ -1,6 +1,16 @@
 .fact-list
   // <ul>
 
+  // Custom bullets
+  margin-left: $baseline
+  list-style: none
+  li
+    position: relative
+  .fact-list_bullet
+    position: absolute
+    left: -$baseline
+    line-height: $baseline
+
 .fact-list_fact
   // List item 
 
@@ -16,10 +26,15 @@
 
 .fact-list_person
   // When matches person record, contains headshot and name
-  .person-headshot-actual
+  .person-headshot-actual, .person-headshot-silhouette
     position: relative
-    top: 1px
+    height: 19px
+    top: 4px
     border-radius: 1em
+    background: $color-nnt-purple // Fills transparent backgrounds
+
+  .person-headshot-silhouette
+    opacity: 0.2
 
   a:link, a:visited
     font-weight: normal
@@ -38,3 +53,7 @@
     content: '('
   &:after
     content: ')'
+
+.fact-list__add
+  a
+    font-weight: normal

@@ -114,7 +114,9 @@ body_class: section-archives layout-show
         {{ content }}
 
         {% if show.facts %}
-        {% include fact-list.html facts=show.facts %}
+          {% include fact-list.html facts=show.facts %}
+        {% elsif show.ignore_missing != true %}
+          {% include boxes/show_facts_missing.html %}
         {% endif %}
       </article>
 
