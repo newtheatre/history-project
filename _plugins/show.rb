@@ -170,6 +170,11 @@ module Jekyll
       show.data["cast"] = generate_show_pls(show, "cast")
       show.data["crew"] = generate_show_pls(show, "crew")
 
+      # Process fact list
+      if show.data.key?('facts')
+        show.data['facts'] = Facts::FactList.new(@site, show.data['facts'])
+      end
+
       # Fetch SmugMug album data
       show.data["smugmug_album"] = get_show_smugmug(show)
 

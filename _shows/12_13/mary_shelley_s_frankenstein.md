@@ -14,6 +14,14 @@ canonical:
 
 comment: "This is a weird case of student adaption, rather than writing. Also video: youtube>E6q8xO3FNic"
 
+facts:
+  - fact: "Large 'lake' was made using builders plastic. Started to leak after the first performance and had to be removed."
+    name: Will Pimblett
+    submitted: 2016-09-25
+  - fact: "Adapted by the director"
+  - fact: "Something else"
+    name: Fred Bloggs
+
 cast:
   - role: Victor Frankenstein
     name: Daniel O'Connor

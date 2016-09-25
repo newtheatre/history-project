@@ -1,0 +1,31 @@
+<ul class="fact-list">
+{% for fact in include.facts %}
+  <li class="fact-list_fact">
+    <span class="fact-list_quote">{{ fact.fact }}</span>
+    {% if fact.person %}
+      <span class="fact-list_dash">&mdash;</span>      
+      <span class="fact-list_person" 
+            {% if fact.submitted %}
+            title="Submitted: {{ fact.submitted }}"
+            {% endif %}>
+        <a href="{{ fact.person.url }}">
+          {% include images/person-headshot.html 
+                    image=fact.person.headshot
+                    sizes="1em"
+                    alt=fact.person.title %}
+          <span class="fact-list_name">{{ fact.person.title }}</span>
+        </a>
+      </span>
+    {% elsif fact.name %}
+      <span class="fact-list_dash">&mdash;</span>
+      <span class="fact-list_name" 
+            {% if fact.submitted %}
+            title="Submitted: {{ fact.submitted }}"
+            {% endif %}>
+        {{ fact.name }}
+      </span>
+
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>

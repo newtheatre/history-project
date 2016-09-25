@@ -1,0 +1,35 @@
+.fact-list
+  // <ul>
+
+.fact-list_fact
+  // List item 
+
+.fact-list_quote
+  // Actual quotation from submitter
+  font-style: italic
+  &:before, &:after
+    content: '"'
+
+.fact-list_dash
+  // Em-dash between quote and name
+  color: $color-grey
+
+.fact-list_person
+  // When matches person record, contains headshot and name
+  .person-headshot-actual
+    position: relative
+    top: 1px
+    border-radius: 1em
+
+  a:link, a:visited
+    font-weight: normal
+
+  // Underline name only, not picture and space between
+  a:hover
+    text-decoration: none
+  &:hover .fact-list_name
+    text-decoration: underline
+
+.fact-list_name
+  // When orphaned, and name within _person
+  color: $color-grey

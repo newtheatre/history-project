@@ -112,6 +112,10 @@ body_class: section-archives layout-show
       </header>
       <article class="show-synopsys">
         {{ content }}
+
+        {% if show.facts %}
+        {% include fact-list.html facts=show.facts %}
+        {% endif %}
       </article>
 
       {% if show.assets.size > 0 %}
