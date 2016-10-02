@@ -25,7 +25,7 @@ For inclusion on your alumni biography. Please ensure your upload has a filename
   <a href="https://newtheatre.smugmug.com/upload/7zcZFT/incoming" target="_blank" class="button-upload button">Upload photographs <i class="ion-ios-arrow-right"></i></a>
 </div>
 
-Please let us know you're going to upload by sending a message using the <strong class="tag"><i class="octicon octicon-issue-opened"></i> Report This Page</strong> on the page the images pertain to. Files should have sensible filenames so we know which show they go with.
+Please let us know you're going to upload by sending a message using the <strong class="tag"><i class="ion-chatbox-working"></i> Message the Editors</strong> button on the page the images pertain to. Files should have sensible filenames so we know which show they go with.
 
 ## Having trouble?
 
