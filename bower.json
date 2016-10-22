@@ -17,9 +17,9 @@
   "dependencies": {
     "bourbon": "~4.2.2",
     "fgrid": "*",
-    "font-awesome": "~4.5.0",
+    "font-awesome": "~4.6.3",
     "ionicons": "~2.0.1",
-    "mousetrap": "~1.5.2",
+    "mousetrap": "~1.6.0",
     "github-issues-widget": "https://github.com/chrismear/github-issues-widget.git",
     "report-issue-post": "https://github.com/wjdp/report-issue-post.git",
     "underscore": "~1.8.3",
