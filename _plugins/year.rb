@@ -13,7 +13,7 @@ module Jekyll
 
       my_data = {
         "title" => get_title(),
-        "sort" => @year,
+        "start_year" => @year,
         "grad_year" => @year+1,
         "year" => "#{ year_span_short[0] }_#{ year_span_short[1] }",
         "decade" => @year.to_s[0..2],
@@ -52,7 +52,7 @@ module Jekyll
         Jekyll.logger.info "Generating years..."
 
         for year in site.config["year_start"]..site.config["year_end"]
-          unless @collection.docs.detect { |doc| doc.data["sort"] == year }
+          unless @collection.docs.detect { |doc| doc.data["start_year"] == year }
             @collection.docs << YearPage.new(site, @collection, year)
           end
         end
@@ -66,7 +66,7 @@ module Jekyll
     priority :low  # Should be one of the last to execute
 
     def get_sorted_years(years)
-      years.sort_by { |year| year.data["sort"] }
+      years.sort_by { |year| year.data["start_year"] }
     end
 
     def add_to_years_by_decade(year)

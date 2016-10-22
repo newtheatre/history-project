@@ -3,7 +3,7 @@ layout: about
 group: about
 current: about
 title: Sending In Images
-sort: 20
+order: 20
 permalink: /upload/
 ---
 

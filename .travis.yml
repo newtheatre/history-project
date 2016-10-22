@@ -1,4 +1,5 @@
 language: ruby
+rvm: 2.3.1
 cache:
   bundler: true
   directories:
@@ -24,8 +25,6 @@ after_success:
 - bundle exec ruby _bin/github_tasks.rb
 git:
   depth: 6
-rvm:
-- 2.1.2
 env:
   global:
   - secure: KEaPPezS8BSGFmCLKkHikaCxIibWIq3Pp6fXLwNc7avkvlgF9qsFVgMS2GsCL3c/Hj+xXjmwziXAl9VCP/s8+K1Q1epXKlqXz3HOXFnt9Y5rpaOtHgugq4e9KhmQrlQp52cnemVGvfQNbXxMw6D/cvaa2O++Dne+cvGcENLvCB8=

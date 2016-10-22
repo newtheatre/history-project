@@ -2,8 +2,8 @@
 layout: docs
 group: docs
 title: Committees
-sort: 30
-redirect_from: 
+order: 30
+redirect_from:
   - /docs/committees/index.html
 ---
 

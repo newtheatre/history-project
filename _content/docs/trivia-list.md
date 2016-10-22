@@ -2,7 +2,7 @@
 layout: docs
 group: docs
 title: Trivia List
-sort: 98
+order: 98
 ---
 
 A trivia list is a standard format for representing a list of trivia / anecdotes used in various places on the site.
@@ -15,9 +15,9 @@ A trivia list is a standard format for representing a list of trivia / anecdotes
 
 {% highlight yaml %}
 trivia:
-  - quote: Every character in this play was portrayed by a perfectly 
+  - quote: Every character in this play was portrayed by a perfectly
           circular Victoria Sponge.
     name: Fred Bloggs
     submitted: 2016-01-01
-    
+
 {% endhighlight %}

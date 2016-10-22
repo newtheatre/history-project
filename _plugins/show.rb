@@ -202,10 +202,10 @@ module Jekyll
       return shows.sort_by do | show |
         if show.data.key?("season_sort")
           # Sort by year, then by season_sort
-          [show.data["year_page"].data["sort"], show.data["season_sort"].to_i]
+          [show.data["year_page"].data["start_year"], show.data["season_sort"].to_i]
         else
           # If no season_sort, assume 1000
-          [show.data["year_page"].data["sort"], 1000]
+          [show.data["year_page"].data["start_year"], 1000]
         end
       end
     end

@@ -2,8 +2,8 @@
 layout: docs
 group: docs
 title: Shows
-sort: 20
-redirect_from: 
+order: 20
+redirect_from:
   - /docs/shows/index.html
 ---
 

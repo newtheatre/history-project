@@ -3,7 +3,7 @@
   short: Title
   generated: true
 
-- attr: sort
+- attr: start_year
   type: number
   short: Sort index
   generated: true

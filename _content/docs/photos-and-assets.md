@@ -2,7 +2,7 @@
 layout: docs
 group: docs
 title: Photos and Assets
-sort: 100
+order: 100
 redirect_from: /docs/photos_and_assets/index.html
 ---
 
