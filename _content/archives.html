@@ -89,7 +89,7 @@ permalink: /years/
           <li {% if item.shows.size < 2 %}class="debug debug-hidden-content" data-debug-toggle{% endif %}>
             <a href="{{ item.url }}">{{ item.title }}</a>
             <div class="decade-list-counts archive-list-counts" data-debug-toggle title="Show counts for venue">
-              {% if item.shows %}{{ item.shows.size }}{% endif %}
+              {% if item.shows %}{{ item.show_count }}{% endif %}
             </div>
           </li>
           {% endfor %}
@@ -107,7 +107,7 @@ permalink: /years/
               </span>
             </a>
             <div class="decade-list-counts archive-list-counts" data-debug-toggle title="Show counts for venue">
-              {% if item.shows %}{{ item.shows.size }}{% endif %}
+              {% if item.shows %}{{ item.show_count }}{% endif %}
             </div>
           </li>
           {% endfor %}

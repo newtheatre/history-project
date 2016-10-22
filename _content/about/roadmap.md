@@ -3,13 +3,13 @@ layout: about
 group: about
 current: about
 title: Roadmap
-sort: 30
+order: 30
 js: "<script defer type='text/javascript' src='/lib/github-issues-widget/github-issues-widget.js'></script>"
 ---
 
 <div class="col-2-3" markdown="1">
 
-# <i class="octicon octicon-milestone fa-fw"></i> {{ page.title }}	
+# <i class="octicon octicon-milestone fa-fw"></i> {{ page.title }}
 
 1. <del>[**April 15**](https://github.com/newtheatre/history-project/issues?q=milestone%3A%221%3A+Alpha+1%22): Establish the site and define how data is going to be stored.</del>
 

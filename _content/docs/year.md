@@ -2,7 +2,7 @@
 layout: docs
 group: docs
 title: Years
-sort: 15
+order: 15
 ---
 
 Years are automatically generated at build time. In [_config.yml](https://github.com/newtheatre/history-project/blob/master/_config.yml) the `year_start` and `year_end` variables specify the range to generate.

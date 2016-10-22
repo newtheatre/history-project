@@ -2,7 +2,7 @@
 layout: docs
 group: docs
 title: Link List
-sort: 95
+order: 95
 ---
 
 <div class="box-warning">

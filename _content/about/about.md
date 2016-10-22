@@ -3,7 +3,7 @@ layout: about
 group: about
 current: about
 title: About This Site
-published: true
+order: 10
 permalink: /about/
 ---
 

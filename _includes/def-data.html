@@ -21,7 +21,7 @@
                 <i class="fa fa-check debug-data__value--true"></i>
             {% else %}
                 <i class="fa fa-times debug-data__value--false"></i>
-            {% endif %}   
+            {% endif %}
           <!-- array -->
           {% elsif def.type == "array" %}
             {% for i in page[def.attr] %}
@@ -41,16 +41,15 @@
           {% elsif def.type == "hash" %}
             {% for i in page[def.attr] %}
             <div>
-                {{ i[0] | escape_once }} <i class="fa fa-arrow-right"></i> 
+                {{ i[0] | escape_once }} <i class="fa fa-arrow-right"></i>
                 <code>{{ i[1] | escape_once }}</code>
             </div>
             {% endfor %}
           <!-- string / else -->
           {% else %}
-            <pre>{{ page[def.attr] | escape_once }}</pre>
+            <pre>{{ page[def.attr] | escape }}</pre>
             {% if page[def.attr] == nil %}&nbsp;{% endif %}
           {% endif %}
-
       </dd>
     {% endfor %}
   </dl>
