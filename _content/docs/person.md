@@ -2,7 +2,7 @@
 layout: docs
 group: docs
 title: People
-sort: 35
+order: 35
 redirect_from:
   - /docs/people/index.html
 ---

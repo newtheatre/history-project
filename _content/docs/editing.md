@@ -2,7 +2,7 @@
 layout: docs
 group: docs
 title: Editing
-sort: 10
+order: 10
 ---
 
 To edit the site you have several options. To make direct edits you must be added as a trusted editor to the [repository](http://github.com/newtheatre/history-project) by an [owner](https://github.com/orgs/newtheatre/people) however you can propose edits straight away for an editor to merge in.

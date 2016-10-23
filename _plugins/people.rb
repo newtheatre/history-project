@@ -66,12 +66,12 @@ module Jekyll
         # Filter the data set to only items with valid year_pages
         data.select! { |i| not i["item"].nil? }
         data.select! { |i| not i["item"].data["year_page"].nil? }
-        
-        # If we have a valid item return its year sort
+
+        # If we have a valid item return its grad year
         if data.size > 0
           last_item = data[-1]["item"]
           last_year = last_item.data["year_page"]
-          return last_year.data["sort"] + 1
+          return last_year.data["grad_year"]
         end
       end
 

@@ -21,3 +21,5 @@
 {% include_root _coffee/PeopleGrid.coffee %}
 {% include_root _coffee/PeopleSearch.coffee %}
 {% include_root _coffee/ProdShotsGallery.coffee %}
+{% include_root _coffee/LazyImage.coffee %}
+{% include_root _coffee/RelativeTime.coffee %}

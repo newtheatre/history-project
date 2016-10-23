@@ -3,7 +3,7 @@
 {% capture page_path %}{% if page.collection %}{{ page.relative_path }}{% else %}{{ page.path }}{% endif %}{% endcapture %}
 <div id="report-this-page" class="side-tab report-tab">
   <a href="https://github.com/newtheatre/history-project/issues/new?body={{page.url}}" data-proofer-ignore>
-    <i class="octicon octicon-issue-opened"></i><p class="report-tab-text">Report This Page</p>
+    <i class="ion-chatbox-working"></i><p class="report-tab-text">Message the Editors</p>
   </a>
 </div>
 {% unless page.editable == false %}
@@ -29,10 +29,10 @@
   <div data-report-close class="report-bg"></div>
   <div id="report-modal" class="report-modal">
     <div data-report-close class="report-close"><i class="octicon octicon-x"></i></div>
-    <h3><i class="octicon octicon-issue-opened"></i> Report a problem with this page</h3>
+    <h3><i class="ion-chatbox-working"></i> Message the editors about this page</h3>
     <div id="report-modal-content">
       <p>You can use the form below to post to our public <a href="https://github.com/newtheatre/history-project/issues">
-        issue tracker</a> about the page you're currently on - <strong>{{ page.title | escape_once }}</strong>. Let us know about
+        issue tracker</a> about the page you're currently on &ndash; <strong>{{ page.title | escape_once }}</strong>. Let us know about
         missing or incorrect details, typos or any other way this page could be improved.</p>
       <div class="report-form">
         <form id="report-issue-form" action="{{ site.ntbot_endpoint }}" method="POST">
@@ -54,16 +54,22 @@
     <div data-improve-close class="improve-close"><i class="octicon octicon-x"></i></div>
     <h3><i class="octicon octicon-pencil"></i> Improve this page</h3>
     <div id="improve-modal-content">
-      <p>Anyone can propose improvements to this page, while quite easy this is a multi-step process and you'll also need a free <a href="https://github.com/join">GitHub account</a>. Alternatively you can file a report for this page and have an editor do the work for you.</p>
+      <p>Anyone can propose improvements to this page, while quite easy this is a multi-step process and you'll also need a free <a href="https://github.com/join">GitHub account</a>. Alternatively you can file a report and have an editor do the work for you.</p>
 
 
       <div class="improve-actions">
         <div class="improve-action">
-          <a href="{{ edit_link }}" class="button button-improve" data-proofer-ignore>Propose improvements</a>
+          <a href="{{ edit_link }}" class="button button-improve" data-proofer-ignore>
+            <i class="octicon octicon-git-pull-request fa-fw"></i>
+            Propose improvements
+          </a>
           <p>Slower, but helps us more.</p>
         </div>
         <div class="improve-action">
-          <a data-report-this-page class="button button-report" href="https://github.com/newtheatre/history-project/issues/new?body={{page.url}}" data-proofer-ignore>File a report instead</a>
+          <a data-report-this-page class="button button-report" href="https://github.com/newtheatre/history-project/issues/new?body={{page.url}}" data-proofer-ignore>
+            <i class="ion-chatbox-working"></i>
+            Message editors instead
+          </a>
           <p>Quicker, less technically demanding.</p>
         </div>
       </div>

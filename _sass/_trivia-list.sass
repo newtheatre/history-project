@@ -1,0 +1,60 @@
+.trivia-list
+  // <ul>
+
+  // Custom bullets
+  margin-left: $baseline
+  list-style: none
+  li
+    position: relative
+    line-height: $baseline
+  .trivia-list_bullet
+    position: absolute
+    left: -$baseline
+    line-height: $baseline
+
+.trivia-list_item
+  // List item 
+
+.trivia-list_quote
+  // Actual quotation from submitter
+  font-style: italic
+  &:before, &:after
+    content: '"'
+
+.trivia-list_dash, .trivia-list_name, .trivia-list_submitted
+  // Make things grey
+  color: $color-grey
+
+.trivia-list_person
+  // When matches person record, contains headshot and name
+  .person-headshot-actual, .person-headshot-silhouette
+    position: relative
+    height: 19px
+    top: 4px
+    border-radius: 1em
+    background: $color-nnt-purple // Fills transparent backgrounds
+
+  .person-headshot-silhouette
+    opacity: 0.2
+
+  a:link, a:visited
+    font-weight: normal
+
+  // Underline name only, not picture and space between
+  a:hover
+    text-decoration: none
+  &:hover .trivia-list_name
+    text-decoration: underline
+
+.trivia-list_name
+  // When orphaned, and name within _person
+
+.trivia-list_submitted
+  &:before
+    content: '('
+  &:after
+    content: ')'
+
+.trivia-list__add
+  a
+    font-weight: normal

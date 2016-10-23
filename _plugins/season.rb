@@ -13,7 +13,7 @@ module Jekyll
 
       my_data = {
         "title" => get_title(),
-        "sort" => shows.size,
+        "show_count" => shows.size,
         "shows" => shows,
         "class" => @path[1..-1],
       }

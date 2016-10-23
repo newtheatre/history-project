@@ -16,19 +16,19 @@ class ReportModel
   save: (opts) ->
     FORM_URL = @url
     console.log @buildJSON()
-    # $.ajax
-    #   url : FORM_URL
-    #   type: "POST"
-    #   data : @buildJSON()
-    #   success: (data, textStatus, jqXHR) ->
-    #     if data.status is "success"
-    #       opts.success(data)
-    #     else
-    #       alert('There was a problem with the data your provided')
-    #       opts.error()
-    #   error: (jqXHR, textStatus, errorThrown) ->
-    #     alert('Oops, something went wrong')
-    #     error()
+    $.ajax
+      url : FORM_URL
+      type: "POST"
+      data : @buildJSON()
+      success: (data, textStatus, jqXHR) ->
+        if data.status is "success"
+          opts.success(data)
+        else
+          alert('There was a problem with the data your provided')
+          opts.error()
+      error: (jqXHR, textStatus, errorThrown) ->
+        alert('Oops, something went wrong')
+        error()
 
 
 $(document).ready ->
@@ -38,6 +38,7 @@ $(document).ready ->
   $('[data-report-close]').click (e) ->
     e.preventDefault()
     $('#report').removeClass 'report-show'
+    $('#improve').removeClass 'report-show'
 
   $('#improve-this-page').click (e) ->
     if localStorage.debug_mode isnt "yes"

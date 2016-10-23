@@ -31,7 +31,10 @@ X
       {% if person.person_record %}
 
         {% if person.person_record.headshot %}
-          <img src="{{ person.person_record.headshot.person_list }}" alt="{{ person.name }}" />
+          {% include images/person-headshot.html
+                     image=person.person_record.headshot
+                     sizes="41px"
+                     alt=person.name %}
         {% else %}
           <img src="/images/human-48.png"
                alt="No Headshot"

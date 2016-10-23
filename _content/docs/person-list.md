@@ -2,7 +2,7 @@
 layout: docs
 group: docs
 title: Person List
-sort: 90
+order: 90
 redirect_from: /docs/person_list/index.html
 ---
 

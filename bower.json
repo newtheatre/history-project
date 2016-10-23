@@ -17,9 +17,9 @@
   "dependencies": {
     "bourbon": "~4.2.2",
     "fgrid": "*",
-    "font-awesome": "~4.5.0",
+    "font-awesome": "~4.6.3",
     "ionicons": "~2.0.1",
-    "mousetrap": "~1.5.2",
+    "mousetrap": "~1.6.0",
     "github-issues-widget": "https://github.com/chrismear/github-issues-widget.git",
     "report-issue-post": "https://github.com/wjdp/report-issue-post.git",
     "underscore": "~1.8.3",
@@ -30,12 +30,12 @@
     "montserrat-webfont": "~1.0.3",
     "open-sans-fontface": "~1.4.2",
     "turbolinks": "https://github.com/turbolinks/turbolinks.git",
-    "tablesorter": "jquery.tablesorter#^2.26.6"
+    "tablesorter": "jquery.tablesorter#^2.26.6",
+    "picturefill": "^3.0.2",
+    "moment": "^2.15.1",
+    "raven-js": "^3.0.5"
   },
   "resolutions": {
     "bourbon": "~4.2.2"
-  },
-  "devDependencies": {
-    "raven-js": "^3.0.5"
   }
 }

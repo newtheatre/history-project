@@ -2,6 +2,9 @@
 
 input, textarea
   @include block-focus
+  // Bugfix safari input shittyness, see #635
+  -webkit-appearance: none
+  border: 1px solid $color-grey
 
 .input-text, .input-textarea, .input-select, .input-submit
   @include block

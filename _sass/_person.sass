@@ -18,11 +18,12 @@
   background: lighten($color-background, 4%)
 
   .person-headshot
-    max-height: $header-small-height
-    max-width: $header-small-height
+    // Need to enforce width as responsive images don't push out'
+    height: $header-small-height
+    width: $header-small-height
     @include respond-up(tab-port)
-      max-height: $header-height
-      max-width: $header-height
+      height: $header-height
+      width: $header-height
 
     overflow: hidden
     @include set-property-to-gutter(margin-right, 1, 8px)
@@ -168,12 +169,26 @@
     @include set-property-to-gutter(margin-bottom, 1, 8px)
     @include set-property-to-gutter(padding-right, 1, 8px)
     @include flex-basis(180px)
-    max-width: 190px
+    
     @include flex-grow(1)
     @include flex-shrink(1)
 
+    max-width: 50%
+    @include respond-up(mob-land)
+      max-width: 33.33%
+    @include respond-up(tab-port)
+      max-width: 190px
+
     .person-show-poster
-      height: 231px
+      // 2 wide
+      height: 62vw
+      @include respond-up(mob-land)
+        // 3 wide
+        height: 44vw
+      @include respond-up(tab-port)
+        // Fixed
+        height: 231px
+
       margin-bottom: 4px
       overflow: hidden
       background: #0D0D0D

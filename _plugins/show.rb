@@ -170,6 +170,11 @@ module Jekyll
       show.data["cast"] = generate_show_pls(show, "cast")
       show.data["crew"] = generate_show_pls(show, "crew")
 
+      # Process trivia
+      if show.data.key?('trivia')
+        show.data['trivia'] = Trivia::QuoteList.new(@site, show.data['trivia'])
+      end
+
       # Fetch SmugMug album data
       show.data["smugmug_album"] = get_show_smugmug(show)
 
@@ -197,10 +202,10 @@ module Jekyll
       return shows.sort_by do | show |
         if show.data.key?("season_sort")
           # Sort by year, then by season_sort
-          [show.data["year_page"].data["sort"], show.data["season_sort"].to_i]
+          [show.data["year_page"].data["start_year"], show.data["season_sort"].to_i]
         else
           # If no season_sort, assume 1000
-          [show.data["year_page"].data["sort"], 1000]
+          [show.data["year_page"].data["start_year"], 1000]
         end
       end
     end

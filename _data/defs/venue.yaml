@@ -34,10 +34,10 @@
   short: List of shows performed in this venue
   generated: true
 
-- attr: sort
+- attr: show_count
   type: number
-  short: Sort index of venue
-  description: Currently we use the number of shows
+  short: Number of shows performed in venue
+  description: Used as sort attribute
   generated: true
 
 - attr: comment
