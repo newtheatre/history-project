@@ -1,12 +1,12 @@
 ---
 title: "The Dinner Game (Le Diner de Cons)"
-playwright: Francis Weber
+playwright: Francis Veher
 period: Spring
 season: In House
 season_sort: 245
 venue: New Theatre
 date_start: 2009-04-22
-date_end: 2016-04-25
+date_end: 2009-04-25
 
 assets:
   - type: poster
