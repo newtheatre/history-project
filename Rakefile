@@ -64,6 +64,8 @@ task :test do
     :parallel => { :in_processes => 4 },
     :typhoeus => { :timeout => 15 },
     :hydra => { :max_concurrency => 50 },
+    :url_ignore => [/history.newtheatre.org.uk/, /photos.newtheatre.org.uk/,
+      /photos.smugmug.com/],
   }).run
   logline "JSON LINT"
   sh "jsonlint -q ./_site/feeds/search.json"
@@ -79,7 +81,8 @@ task :travis_test do
     :parallel => { :in_processes => 3 },
     :typhoeus => { :timeout => 15 },
     :hydra => { :max_concurrency => 50 },
-    :url_ignore => [/photos.newtheatre.org.uk/, /photos.smugmug.com/],
+    :url_ignore => [/history.newtheatre.org.uk/, /photos.newtheatre.org.uk/,
+      /photos.smugmug.com/],
   }).run
   logline "JSON LINT"
   sh "jsonlint -q ./_site/feeds/search.json"
@@ -93,5 +96,7 @@ logline "HTML-PROOFER (HTML)"
     :checks_to_ignore => ["LinkCheck", "ImageCheck", "ScriptCheck"],
     :file_ignore => [/.*\/lib\/.*/],
     :parallel => { :in_processes => 4 },
+    :url_ignore => [/history.newtheatre.org.uk/, /photos.newtheatre.org.uk/,
+      /photos.smugmug.com/],
   }).run
 end
