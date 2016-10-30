@@ -76,6 +76,10 @@ crew:
   - role: Production Assistant
     name: Joseph Heil
 
+assets:
+  - type: poster
+    image: DdTRpLK
+
 prod_shots: jnNkKq
 ---
 

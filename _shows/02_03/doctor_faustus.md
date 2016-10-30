@@ -97,6 +97,8 @@ crew:
     name: Judith Thei
 
 assets:
+  - type: poster
+    image: X2MvkD8
   - type: programme
     image: KCGVrcb
     page: 1
