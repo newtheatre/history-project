@@ -1,26 +1,56 @@
-module Jekyll
-  class YearGraphGenerator < Generator
-    priority :lowest
+module NTHP
+  class YearGraph
+    YEARGRAPH_WIDTH = 1400
+    YEARGRAPH_HEIGHT = 400
+    MIN_HEIGHT = 3
+    WIDTH_EXTRA = 0.6 # Prevent visible seams
 
-    def generate(site)
-      Jekyll.logger.info "Processing year graph..."
+    def initialize(site)
+      @site = site
+    end
 
-      path = File.join(site.source, '_includes/fancy/year_graph.html')
+    def graph
+      @graph || graph!
+    end
 
-      content = ''
-      f = File.open(path, "r")
-      f.each_line do |line|
-        content += line
+    def graph!
+      # Max number of shows
+      ns_max = @site.data['top_show_count']
+      # Number of years
+      ny = (@site.config['year_end'] - @site.config['year_start']) + 1
+
+      # Width and height constants
+      w_c = YEARGRAPH_WIDTH
+      h_c = YEARGRAPH_HEIGHT - MIN_HEIGHT
+
+      # Columns
+      cols = Array.new
+
+      @site.collections["years"].docs.each_with_index do |year, i|
+        ns = year.data['show_count']
+        w_i = 1/ny.to_f * w_c
+        h_i = (ns/ns_max.to_f * h_c) + MIN_HEIGHT
+        y = YEARGRAPH_HEIGHT - h_i
+        x = i/ny.to_f * YEARGRAPH_WIDTH
+        cols << {
+          'x' => x,
+          'y' => y,
+          'width' => w_i + WIDTH_EXTRA,
+          'height' => h_i,
+          'year' => year,
+        }
       end
 
-      payload = site.site_payload
+      @graph = cols
+      return @graph
+    end
 
-      info = {
-        filters:   [Jekyll::Filters],
-        registers: { :site => site, :page => payload['page'] }
+    def to_liquid
+      {
+        'width' => YEARGRAPH_WIDTH,
+        'height' => YEARGRAPH_HEIGHT,
+        'graph' => graph,
       }
-
-      site.data['year_graph'] = site.liquid_renderer.file(path).parse(content).render!(payload, info)
     end
   end
 end

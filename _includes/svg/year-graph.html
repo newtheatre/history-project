@@ -1,0 +1,16 @@
+<svg class="year-graph-svg"
+     width="{{ site.data.year-graph.width }}"
+     height="{{ site.data.year-graph.height }}"
+     viewBox="0 0 {{ site.data.year-graph.width }} {{ site.data.year-graph.height }}"
+     preserveAspectRatio="none"
+     xmlns="http://www.w3.</2000/svg">
+  {% for col in site.data.year-graph.graph %}
+  <a xlink:href="{{ col.year.url }}">
+    <rect class="decade-col-{{ col.year.decade }}"
+          x="{{ col.x }}"
+          y="{{ col.y }}"
+          width="{{ col.width }}"
+          height="{{ col.height }}" />
+  </a>
+  {% endfor %}
+</svg>

@@ -1,4 +1,8 @@
 Jekyll::Hooks.register :site, :pre_render do |site|
+  Jekyll.logger.info "Processing year graph..."
+  site.data['year-graph'] = NTHP::YearGraph.new(site)
+  site.data['renderonce-year-graph'] = NTHP::RenderOnce.new(site,
+    'svg/year-graph.html')
   Jekyll.logger.info "Rendering site..."
 end
 
