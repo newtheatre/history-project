@@ -19,7 +19,7 @@ fixArray = (arr, prepend) ->
     arr[i] = "#{prepend}:#{arr[i]}".replace(/ /g, '_')
   return arr.join(' ')
 
-fs.readFile './_site/feeds/people2.json', (err, data) ->
+fs.readFile './_site/feeds/people.json', (err, data) ->
 
   raw = JSON.parse data
   reverse_index = new Object

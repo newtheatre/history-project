@@ -1,7 +1,7 @@
 class PeopleSearch
   SEARCH_WORKER_URL = '/js/search_worker.js'
   SEARCH_INDEX_URL = '/feeds/people_index.json'
-  SEARCH_DATA_URL = '/feeds/people2.json'
+  SEARCH_DATA_URL = '/feeds/people.json'
   FIELDS = [
     ['people-filter-name', '']
     ['people-filter-graduated', 'graduated']
@@ -132,7 +132,7 @@ class PeopleSearch
           @psBodyEl.classList.remove(PS_BODY_PUSH_CLASS)
           @psBodyEl.offsetHeight
           @psBodyEl.classList.remove('noTransition')
-          
+
       # Stop the scroll following when we hit the footer
       # Continious action
       footerOffsetTop = $(@footerEl).offset().top - window.scrollY
@@ -167,7 +167,7 @@ class PeopleResults
 
     if results.length == 0
       @psResultsEl.innerHTML = @psEmptyTemplate()
-    
+
     output = Array()
     for result in results
       pr = new PeopleResult(result)

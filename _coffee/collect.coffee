@@ -203,7 +203,7 @@ award: *fill me out
 
   disableCollectForm()
 
-PEOPLE_FEED = "/feeds/people.json"
+PEOPLE_FEED = "/feeds/people-collect.json"
 TEMPLATE_DATA = "#collect-template-list"
 
 collectPersonFormSetup = ->
