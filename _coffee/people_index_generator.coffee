@@ -41,8 +41,8 @@ fs.readFile './_site/feeds/people.json', (err, data) ->
   console.log raw.length + ' people indexed'
 
   fs.writeFile '_site/feeds/people_index.json', JSON.stringify(index), (err) ->
-      throw err if err
-      console.log 'People Index Written'
+    throw err if err
+    console.log 'People Index Written'
   # fs.writeFile '_site/feeds/search_index_reverse.json', JSON.stringify(reverse_index), (err) ->
   #     throw err if err
   #     console.log 'Reverse Search Index Written'

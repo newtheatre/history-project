@@ -14,9 +14,9 @@ permalink: /people/
     <!-- name -->
     <label class="people-index__filters__name">
       <span>Name</span>
-      <input type="text" 
-             id="people-filter-name" 
-             class="input-text" 
+      <input type="text"
+             id="people-filter-name"
+             class="input-text"
              placeholder="Hold on, loading…" />
     </label>
 
@@ -107,6 +107,7 @@ permalink: /people/
   <div class="people-index__results">
     <div class="people-index__results__intro" id="psIntro">
       <p>We are starting to collect alumni biographies to be displayed on this site. Having so many alumni who are now well-established in the industry we're hoping to help the current students to bridge the gap between the world of student productions and that of professional theatre.</p>
+      <p>This page is brand new and may have some nasty bugs, if you have trouble let us know by using the <strong><i class="ion-chatbox-working"></i> Message the Editors</strong> button.</p>
     </div>
     <ol class="people-index__results__list" id="psResults">
     </ol>
@@ -129,7 +130,10 @@ permalink: /people/
 </script>
 
 <script type="text/x-template" id="psResultEmpty">
- <div class="big-icon">
+  <div class="people-index__results__intro">
+    <p><strong>No Results</strong> If you're missing, <a href="/collect/person/">let us know</a>.</p>
+  </div>
+  <div class="big-icon">
     <i class="ion-sad-outline"></i>
   </div>
 </script>

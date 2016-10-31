@@ -60,7 +60,7 @@ $(document).ready ->
   peopleScrollerEl = document.querySelector('#pgScroller')
   if peopleGridEl
     window.prodShotsGallery = new PeopleGrid
-      gridEl: peopleGridEl    
+      gridEl: peopleGridEl
       scrollerEl: peopleScrollerEl
 
 document.addEventListener 'turbolinks:visit', ->
