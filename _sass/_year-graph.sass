@@ -1,24 +1,32 @@
-// Year graph fancy element _includes/fancy/year_graph.html
+// Year graph svg element _includes/svg/year-graph.html
 
-.year-graph
-  @include grid-row
-  @include block
+@mixin decade-col-fill($i, $color)
+  .decade-col-#{$i}
+    fill: $color
+  $hover-color: lighten($color, 5%)
+  .decade-col-#{$i}:hover
+    fill: $hover-color
 
-  padding-top: 1rem
+.year-graph-svg
+  @include respond-down(mob-land)
+    // Just don't bother on mobile
+    display: none
 
-  background: darken($color-background, 3%)
+  height: 200px
+  width: 100%
 
-  .year-graph-bar
-    float: left
-    width: 1/(2017-1940)*100%
-    background: red
+  // Prevent seams and blurry edges
+  shape-rendering: crispEdges
 
-    a
-      display: block
-      width: 100%
-      @include no-underline
-      @include no-focus
+  // Colour generator for decade cols
+  $background-base: adjust-hue($color-decades-base, 220%)
+  $background-items: -3
 
-.site-footer .year-graph
-  margin-bottom: 0
-  background: none
+  @for $i from 194 through 201
+    $shift: (100% / $background-items) * (201-$i)
+    $shift-color: adjust-hue($background-base, $shift)
+
+    @include decade-col-fill($i, $shift-color)
+
+  a
+    @include no-focus
