@@ -198,9 +198,6 @@ image:
         alt: Person headshot
       width: 48
 
-sass:
-  style: :compressed
-
 lib:
   js:
     - lib/jquery/dist/jquery.js

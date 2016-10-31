@@ -38,6 +38,9 @@ task :build do
   logline "NTHP BUILD"
   sh "bundle exec jekyll build --trace --profile"
 
+  logline "POSTCSS"
+  sh "node_modules/postcss-cli/bin/postcss -c .postcss.json"
+
   logline "JS UGLIFY "
   jsminify("_site/js/app.js")
   jsminify("_site/js/lib.js")

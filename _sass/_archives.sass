@@ -18,7 +18,7 @@
   padding-right: $baseline / 2
 
 .archive-list
-  @include columns(2 12px)
+  columns: 2 12px
   @include list-unformatted
   li
     margin-bottom: 2px
@@ -73,16 +73,16 @@ $background-items: -3
 .archives
   .decades, .others
     // Row element
-    @include display(flex)
-    @include flex-wrap(wrap)
+    display: flex
+    flex-wrap: wrap
 
   .archive-section
     // Row item
-    @include flex-basis(100%)
+    flex-basis: 100%
     @include respond-up(tab-port)
-      @include flex-basis(33.333%)
+      flex-basis: 33.333%
     @include respond-up(tab-land)
-      @include flex-basis(25%)
+      flex-basis: 25%
     @include block
 
     @include set-property-to-gutter(padding-right)
@@ -96,11 +96,11 @@ $background-items: -3
 
   .venues
     // Wider row item
-    @include flex-basis(100%)
+    flex-basis: 100%
     @include respond-up(tab-port)
-      @include flex-basis(33.333%)
+      flex-basis: 33.333%
     @include respond-up(tab-land)
-      @include flex-basis(50%)
+      flex-basis: 50%
 
     h3
       border-bottom-color: $color-venues
@@ -115,14 +115,14 @@ $background-items: -3
 
   .season-list
     @include respond-down(tab-port)
-      @include columns(1)
+      columns: 1
     li
       white-space: nowrap
 
   .play-list
-    @include columns(1)
+    columns: 1
 
   @include respond-to(tab-port)
     .season-list, .venue-list
       // Not quite enough room in this size
-      @include columns(1)
+      columns: 1

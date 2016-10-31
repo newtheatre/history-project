@@ -51,8 +51,8 @@ $color-plays: lighten($color-playwright, 15%)
 
 .playwrights-list
   @include list-unformatted
-  @include display(flex)
-  @include flex-wrap(wrap)
+  display: flex
+  flex-wrap: wrap
 
   & > li
     position: relative
@@ -97,8 +97,8 @@ $color-plays: lighten($color-playwright, 15%)
 
     .playwright-show-list
       @include list-unformatted
-      @include display(flex)
-      @include flex-wrap(wrap)
+      display: flex
+      flex-wrap: wrap
 
       $poster-height: 2em
       $poster-width: 1.3em

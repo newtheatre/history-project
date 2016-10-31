@@ -3,7 +3,7 @@
 .person-header
   @extend .wrapper
   margin-bottom: $baseline
-  @include display(flex)
+  display: flex
 
   position: relative
 
@@ -37,7 +37,7 @@
       padding: 2rem
 
   .person-details
-    @include flex(1)
+    flex: 1
 
     .person-name
       line-height: $header-small-height
@@ -84,11 +84,11 @@
 
 .person-body
   @extend .wrapper
-  @include display(flex)
+  display: flex
   margin-bottom: $baseline
-  @include flex-direction(column)
+  flex-direction: column
   @include respond-up(tab-port)
-    @include flex-direction(row)
+    flex-direction: row
 
   h2
     font-size: 2em
@@ -104,7 +104,7 @@
 
 
   .person-bio
-    @include flex(2)
+    flex: 2
     @include respond-up(tab-port)
       max-width: 60%
 
@@ -113,11 +113,11 @@
     font-size: 0.8em
 
   .person-past, .person-current
-    @include flex(1)
+    flex: 1
     min-width: 20%
 
   .person-submit
-    @include flex(2)
+    flex: 2
 
 .person-meta-list
   @include list-unformatted
@@ -161,17 +161,17 @@
   margin-top: $baseline / 2
   margin-bottom: $baseline / 2
 
-  @include display(flex)
-  @include flex-direction(horizontal)
-  @include flex-wrap(wrap)
+  display: flex
+  flex-direction: horizontal
+  flex-wrap: wrap
 
   .person-show
     @include set-property-to-gutter(margin-bottom, 1, 8px)
     @include set-property-to-gutter(padding-right, 1, 8px)
-    @include flex-basis(180px)
-    
-    @include flex-grow(1)
-    @include flex-shrink(1)
+    flex-basis: 180px
+
+    flex-grow: 1
+    flex-shrink: 1
 
     max-width: 50%
     @include respond-up(mob-land)

@@ -42,7 +42,7 @@ $color-collect: $color-brand-alt
   padding-top: 0
 
 .collect-flex-row
-  @include display(flex)
+  display: flex
 
 .collect-controls, .collect-message
   @include grid-x-percent(50%)
@@ -69,11 +69,11 @@ $color-collect: $color-brand-alt
 .collect-field-playwright,
 .collect-field-name,
 .collect-field-graduation
-  @include flex(1)
+  flex: 1
 
 .collect-field-title,
 .collect-field-name
-  @include flex(3)
+  flex: 3
   margin-right: 6px
 
 .collect-field-day,
@@ -101,8 +101,8 @@ $color-collect: $color-brand-alt
 
 .collect-checkboxes
   @include list-unformatted
-  @include display(flex)
-  @include flex-wrap(wrap)
+  display: flex
+  flex-wrap: wrap
 
   @include set-property-to-gutter(margin-right, -1)
 
