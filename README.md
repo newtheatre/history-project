@@ -32,13 +32,13 @@ To get the site running locally you will need a working Ruby environment, the bu
 
 ### Run
 
-- `bundle exec rake build` to build the site to _site.
-- OR `bundle exec rake debug` does the same but skips minification and enables Jekyll's incremental builds.
+- `gulp build` to build the site to _site.
+- OR `gulp debug` does the same but skips minification and enables Jekyll's incremental builds.
 - `cd _site && python -m SimpleHTTPServer` to serve the site using the Python HTTP server (should be on all *nix machines)
 
 ### Test
 
-- `bundle exec rake test` to run test suite locally. Currently we test for bad links, valid image tags, script references and the validity of site JSON feeds.
+- `gulp test` to run test suite locally. Currently we test for bad links, valid image tags, script references and the validity of site JSON feeds.
 
 ## Vagrant
 
@@ -66,10 +66,6 @@ See the [site documentation](https://history.newtheatre.org.uk/docs/).
 All photographs and image assets are stored using the [theatre's SmugMug](https://photos.newtheatre.org.uk/).
 
 Other binary assets are stored under `assets/` using [Git LFS](https://git-lfs.github.com/). This separates these large files from the main repository. If you do not have LFS set up on your machine please do not attempt to commit assets as this would bloat the repository.
-
-## Repo Mirror
-
-This repo is mirrored here: http://git.wjdp.uk/wjdp/history-project. It's kept up to date by Will's pushes so may be a little behind.
 
 ## Special Thanks
 
