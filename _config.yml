@@ -26,7 +26,6 @@ permalink: pretty
 gems:
 - jekyll-sitemap
 - jekyll-redirect-from
-- jekyll-coffeescript
 
 exclude:
 - assets
@@ -198,18 +197,6 @@ image:
       attr:
         alt: Person headshot
       width: 48
-
-lib:
-  js:
-    - lib/jquery/dist/jquery.js
-    - lib/underscore/underscore.js
-    - lib/turbolinks/dist/turbolinks.js
-    - lib/letteringjs/jquery.lettering.js
-    - lib/mousetrap/mousetrap.min.js
-    - lib/lunr.js/lunr.min.js
-    - lib/picturefill/dist/picturefill.js
-    - lib/moment/moment.js
-    - lib/raven-js/dist/raven.js
 
 # Config for the prose editor
 prose:

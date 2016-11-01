@@ -1,9 +1,4 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
 @charset "utf-8"
-
-$site-url: "{{ site.url }}"
 
 // Our variables
 $body-font-stack: 'Open Sans', Helvetica, sans-serif
@@ -16,9 +11,8 @@ $baseline: $base-font-size * $baseline-multiplier
 $font-weight-bold: 600
 $font-weight-light: 300
 
-// Colours set in _config.yml for sharing between CSS and HEAD
-$color-nnt-purple: {{ site.color_nnt_purple }}
-$color-nnt-orange: {{ site.color_nnt_orange }}
+$color-nnt-purple: #A54499
+$color-nnt-orange: #FFC425
 $color-brand-alt: #2D9189
 
 $color-black: #1c1c1c
@@ -102,8 +96,6 @@ $octicons-font-path: "/lib/octicons/octicons/"
 // // @import "../lib/open-sans-fontface/sass/BoldItalic"
 // // @import "../lib/open-sans-fontface/sass/ExtraBold"
 // // @import "../lib/open-sans-fontface/sass/ExtraBoldItalic"
-
-// Import partials from `sass_dir` (defaults to `_sass`)
 
 @import "mixins"
 

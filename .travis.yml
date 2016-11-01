@@ -11,6 +11,8 @@ cache:
   - _smugmug_cache/
   - tmp/
   - ".sass-cache"
+before_install:
+- nvm install 4.2.6
 install:
 - bundle install --jobs=3 --retry=3 --deployment --path=${BUNDLE_PATH:-vendor/bundle}
 - npm install
@@ -18,8 +20,8 @@ install:
 before_script:
 - _bin/prep.sh
 script:
-- bundle exec rake build
-- bundle exec rake travis_test
+- gulp build
+- gulp test
 after_success:
 - _bin/deploy.sh
 - bundle exec ruby _bin/github_tasks.rb
