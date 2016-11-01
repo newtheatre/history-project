@@ -39,7 +39,7 @@ task :build do
   sh "bundle exec jekyll build --trace --profile"
 
   logline "POSTCSS"
-  sh "node_modules/postcss-cli/bin/postcss -c .postcss.json"
+  sh "node_modules/gulp/bin/gulp.js css"
 
   logline "JS UGLIFY "
   jsminify("_site/js/app.js")

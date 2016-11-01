@@ -35,6 +35,7 @@ exclude:
 - CONTRIBUTING.md
 - Gemfile
 - Gemfile.lock
+- gulpfile.js
 - node_modules
 - package.json
 - Rakefile

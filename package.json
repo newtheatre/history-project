@@ -11,6 +11,8 @@
     "coffee-script": "^1.10.0",
     "cssnano": "^3.8.0",
     "es6-promise": "^4.0.5",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.2.0",
     "jsonlint": "^1.6.2",
     "postcss": "^5.2.5",
     "postcss-cli": "^2.6.0",
