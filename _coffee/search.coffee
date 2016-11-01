@@ -2,9 +2,6 @@
 
 INDEX_URL = '/feeds/search_index.json'
 REVERSE_INDEX_URL = '/feeds/search_index_reverse.json'
-TEMPLATE_RESULT = '#search-result'
-TEMPLATE_EMPTY = '#search-message-empty'
-RENDER_TO = '[data-search-results]'
 
 indexReady = ->
   # Must wait for this function call before running searches
@@ -66,6 +63,10 @@ doSearch = (query) ->
 window.doSearch = doSearch
 
 class SearchResultView
+  TEMPLATE_RESULT = '#search-result'
+  TEMPLATE_EMPTY = '#search-message-empty'
+  RENDER_TO = '[data-search-results]'
+
   getSingleTemplate: ->
     _.template $(TEMPLATE_RESULT).html()
 
