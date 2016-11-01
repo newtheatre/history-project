@@ -15,12 +15,12 @@ This project is run by [a group](https://history.newtheatre.org.uk/humans.txt) f
 
 ### System
 
-To get the site running locally you will need a working Ruby environment, the bundler gem installed, ImageMagick, Node.js, Coffeescript, and Bower. The following instructions work on Ubuntu.
+To get the site running locally you will need a working Ruby environment, the bundler gem installed, Node.js, Gulp, CoffeeScript, and Bower. The following instructions work on Ubuntu.
 
-- `sudo apt-get install ruby-dev rubygems nodejs npm imagemagick` for an up to date Ruby with development bits and the Gem package manager, Node.js and its package manager npm, and finally Imagemagick for image manipulation.
-- `sudo gem install bundler` for the Ruby depenancy manager
-- `sudo ln -s /usr/bin/nodejs /usr/bin/node` because some Node packages put it in the wrong place
-- `sudo npm install -g coffee-script bower` for Coffeescript and Bower
+- `sudo apt-get install ruby-dev rubygems nodejs npm` for an up to date Ruby with development bits and the Gem package manager, Node.js and its package manager npm.
+- `sudo gem install bundler` for the Ruby depenancy manager.
+- `sudo ln -s /usr/bin/nodejs /usr/bin/node` because some Node packages put it in the wrong place.
+- `sudo npm install -g gulp coffee-script bower` for Gulp, CoffeeScript and Bower.
 
 ### Project Install
 
