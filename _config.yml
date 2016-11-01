@@ -28,20 +28,22 @@ gems:
 - jekyll-redirect-from
 
 exclude:
-- assets
+- assets/
 - bower.json
 - coffeelint.json
 - CONTRIBUTING.md
 - Gemfile
 - Gemfile.lock
+- googlee5aee69e17917677.html
 - gulpfile.js
-- node_modules
+- lib/
+- node_modules/
 - package.json
 - Rakefile
 - README.md
 - tmp/
 - Vagrantfile
-- vendor
+- vendor/
 
 # skip_years: true
 # skip_venues: true

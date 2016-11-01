@@ -30,6 +30,30 @@ gulp.task('jekyll', shell.task(
 gulp.task('jekyll_inc', shell.task(
     ['bundle exec jekyll build --trace --incremental --profile'], SHELL_OPTS));
 
+// Late files
+
+function late_lib() {
+  return gulp.src('lib/**')
+             .pipe(gulp.dest('_site/lib'));
+}
+
+gulp.task('late_lib', late_lib);
+gulp.task('S_late_lib', ['jekyll'], late_lib);
+gulp.task('S_late_lib_dev', ['jekyll_inc'], late_lib);
+
+var LATE_FILES = [
+  'googlee5aee69e17917677.html'
+];
+
+function late_files() {
+  return gulp.src(LATE_FILES)
+             .pipe(gulp.dest('_site'));
+}
+
+gulp.task('late_files', late_files);
+gulp.task('S_late_files', ['jekyll'], late_files);
+gulp.task('S_late_files_dev', ['jekyll_inc'], late_files);
+
 // CSS
 
 function css(opts) {
@@ -141,13 +165,17 @@ gulp.task('S_jsonlint', ['S_index_search', 'S_index_people'], feedlint)
 // Master tasks
 
 gulp.task('build', ['jekyll',
-                     'S_css',
-                     'S_js_app',
-                     'S_js_scripts',
-                     'S_js_lib',
-                     'S_index_search',
-                     'S_index_people'])
+                    'S_late_lib',
+                    'S_late_files',
+                    'S_css',
+                    'S_js_app',
+                    'S_js_scripts',
+                    'S_js_lib',
+                    'S_index_search',
+                    'S_index_people'])
 gulp.task('debug', ['jekyll_inc',
+                    'S_late_lib_dev',
+                    'S_late_files_dev',
                     'S_css_dev',
                     'S_js_app_dev',
                     'S_js_scripts_dev',
