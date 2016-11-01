@@ -56,13 +56,13 @@ gulp.task('S_css_dev', ['jekyll_inc'], function () { return css({postprocess: fa
 // JS
 
 function js_app() {
-    gulp.src('_coffee/app/*.coffee')
-        .pipe(sourcemaps.init())
-        .pipe(coffee({bare: true}).on('error', gutil.log))
-        .pipe(concat('app.js'))
-        .pipe(uglify())
-        .pipe(sourcemaps.write())
-        .pipe(gulp.dest('_site/js'));
+    return gulp.src('_coffee/app/*.coffee')
+               .pipe(sourcemaps.init())
+               .pipe(coffee({bare: true}).on('error', gutil.log))
+               .pipe(concat('app.js'))
+               .pipe(uglify())
+               .pipe(sourcemaps.write())
+               .pipe(gulp.dest('_site/js'));
 }
 
 gulp.task('js_app', js_app);
@@ -71,17 +71,43 @@ gulp.task('S_js_app', ['jekyll'], js_app);
 gulp.task('S_js_app_dev', ['jekyll_inc'], js_app);
 
 function js_scripts() {
-    gulp.src('_coffee/scripts/*.coffee')
-        .pipe(sourcemaps.init())
-        .pipe(coffee({bare: true}).on('error', gutil.log))
-        .pipe(sourcemaps.write())
-        .pipe(gulp.dest('_site/js'));
+    return gulp.src('_coffee/scripts/*.coffee')
+               .pipe(sourcemaps.init())
+               .pipe(coffee({bare: true}).on('error', gutil.log))
+               .pipe(sourcemaps.write())
+               .pipe(gulp.dest('_site/js'));
 }
 
 gulp.task('js_scripts', js_scripts);
 gulp.task('js_scripts_dev', js_scripts);
 gulp.task('S_js_scripts', ['jekyll'], js_scripts);
 gulp.task('S_js_scripts_dev', ['jekyll_inc'], js_scripts);
+
+var JS_LIBS = [
+    'lib/jquery/dist/jquery.js',
+    'lib/underscore/underscore.js',
+    'lib/turbolinks/dist/turbolinks.js',
+    'lib/letteringjs/jquery.lettering.js',
+    'lib/mousetrap/mousetrap.min.js',
+    'lib/lunr.js/lunr.min.js',
+    'lib/picturefill/dist/picturefill.js',
+    'lib/moment/moment.js',
+    'lib/raven-js/dist/raven.js'
+]
+
+function js_lib() {
+    return gulp.src(JS_LIBS)
+               .pipe(sourcemaps.init())
+               .pipe(concat('lib.js'))
+               .pipe(uglify())
+               .pipe(sourcemaps.write())
+               .pipe(gulp.dest('_site/js'));
+}
+
+gulp.task('js_lib', js_lib);
+gulp.task('js_lib_dev', js_lib);
+gulp.task('S_js_lib', ['jekyll'], js_lib);
+gulp.task('S_js_lib_dev', ['jekyll_inc'], js_lib);
 
 // Search indexes
 
@@ -118,18 +144,21 @@ gulp.task('build', ['jekyll',
                      'S_css',
                      'S_js_app',
                      'S_js_scripts',
+                     'S_js_lib',
                      'S_index_search',
                      'S_index_people'])
 gulp.task('debug', ['jekyll_inc',
                     'S_css_dev',
                     'S_js_app_dev',
                     'S_js_scripts_dev',
+                    'S_js_lib_dev',
                     'S_index_search_dev',
                     'S_index_people_dev'])
 
 gulp.task('frontend', ['css_dev',
                        'js_app_dev',
                        'js_scripts_dev',
+                       'js_lib_dev',
                        'index_search',
                        'index_people'])
 

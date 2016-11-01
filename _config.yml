@@ -198,18 +198,6 @@ image:
         alt: Person headshot
       width: 48
 
-lib:
-  js:
-    - lib/jquery/dist/jquery.js
-    - lib/underscore/underscore.js
-    - lib/turbolinks/dist/turbolinks.js
-    - lib/letteringjs/jquery.lettering.js
-    - lib/mousetrap/mousetrap.min.js
-    - lib/lunr.js/lunr.min.js
-    - lib/picturefill/dist/picturefill.js
-    - lib/moment/moment.js
-    - lib/raven-js/dist/raven.js
-
 # Config for the prose editor
 prose:
   ignore: ['_bin', '_utilities', 'CNAME', '.gitignore', 'js', 'css', '_site', '_sass', '_layouts', '_includes', '.travis.yml', 'Gemfile', 'Gemfile.lock', 'lib', 'js', '_plugins', 'feeds', '_years', '.bowerrc', '.gitmodules', '_config.yml', 'bower.json', 'googlee5aee69e17917677.html', 'package.json', 'robots.txt']
