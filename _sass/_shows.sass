@@ -44,8 +44,8 @@ $show-photos-mob-gutter: 7px
 
 @mixin gallery-outer
   @include flex-row
-  @include flex-direction(horizontal)
-  @include flex-wrap(wrap)
+  flex-direction: horizontal
+  flex-wrap: wrap
 
 @mixin gallery-item
 
@@ -149,13 +149,13 @@ $show-photos-mob-gutter: 7px
 
 .show-photos-controls--sticky
   position: fixed
-  bottom: 0 
+  bottom: 0
   left: 0
   width: 100%
 
 .show-photos-controls__inner
   @include flex-row
-  @include flex-direction(horizontal)
+  flex-direction: horizontal
   position: relative // so .fade-out-overlay can be absolute
 
   margin-bottom: 0
@@ -171,7 +171,7 @@ $show-photos-mob-gutter: 7px
       @include no-underline
 
   .gallery-control
-    @include flex-basis(75%)
+    flex-basis: 75%
     background: darken($color-black, 4%)
 
     a
@@ -192,8 +192,8 @@ $show-photos-mob-gutter: 7px
   .smugmug-link
     $color-smugmug: #5B8800
 
-    @include flex-basis(25%)
-    @include flex(1)
+    flex-basis: 25%
+    flex: 1
     overflow: hidden
 
     background: darken($color-smugmug, 22%)

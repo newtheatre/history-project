@@ -2,18 +2,18 @@
 
 .site-header
   position: relative
+  z-index: 50
 
   padding: $baseline/2 0 0 0
   margin-bottom: $baseline
   background: $color-background-alt
 
   @include respond-up($grid-column-start)
-    margin-bottom: $baseline * 2
     padding: $baseline*2 0 $baseline 0
 
   .wrapper
     @include grid-wrap
-    
+
     // Flex container for title, nav and search
     display: flex
 
@@ -63,7 +63,7 @@ $nav-height-land: 73px
   @include respond-up(tab-land)
     // Prevent crush
     min-width: 272px
-  
+
   @include respond-down(mob-land)
     width: 180px
     margin: 0 auto
@@ -94,7 +94,7 @@ $title-text-baseline: 1.2
 
   .logo-line-tnnt
     font-weight: normal
-    padding-top: 11px  
+    padding-top: 11px
     font-family: $header-font-stack
     font-size: $title-text-size / 2
     line-height: ($title-text-size * $title-text-baseline) / 2

@@ -123,3 +123,12 @@ body
   opacity: 0.75
   width: 100%
   height: 100%
+
+#nthpMobileDetect
+  position: absolute
+  left: -999px
+  @include respond-up(tab-port)
+    display: none
+
+.noTransition
+  transition: none !important

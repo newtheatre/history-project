@@ -7,6 +7,17 @@ ul {
 }
 </style>
 
+<h1>by srole</h1>
+
+{% for by_type in site.data.people_by_srole %}
+  <h2>{{ by_type[0] | escape_once }}</h2>
+  <ul>
+    {% for person in by_type[1] %}
+    <li><a href="{{ person.url }}">{{ person.title | escape_once }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
 <h1>by crole</h1>
 
 {% for by_type in site.data.people_by_crole %}
@@ -32,6 +43,28 @@ ul {
 <h1>by graduation year</h1>
 
 {% for by_type in site.data.people_by_graduation_year %}
+  <h2>{{ by_type[0] | escape_once }}</h2>
+  <ul>
+    {% for person in by_type[1] %}
+    <li><a href="{{ person.url }}">{{ person.title | escape_once }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+<h1>by career</h1>
+
+{% for by_type in site.data.people_by_career %}
+  <h2>{{ by_type[0] | escape_once }}</h2>
+  <ul>
+    {% for person in by_type[1] %}
+    <li><a href="{{ person.url }}">{{ person.title | escape_once }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+<h1>by course</h1>
+
+{% for by_type in site.data.people_by_course %}
   <h2>{{ by_type[0] | escape_once }}</h2>
   <ul>
     {% for person in by_type[1] %}

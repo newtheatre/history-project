@@ -170,7 +170,7 @@ course:
   - #{form_dict['course']}
 graduated: #{form_dict['graduation']}
 contact_allowed: #{form_data_computed['contact_allowed_tf']}
-career:
+careers:
 #{career_choices_yaml}
 #{form_dict['career-other']}
 links: *fill me out
@@ -203,7 +203,7 @@ award: *fill me out
 
   disableCollectForm()
 
-PEOPLE_FEED = "/feeds/people.json"
+PEOPLE_FEED = "/feeds/people-collect.json"
 TEMPLATE_DATA = "#collect-template-list"
 
 collectPersonFormSetup = ->

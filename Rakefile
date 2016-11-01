@@ -38,6 +38,9 @@ task :build do
   logline "NTHP BUILD"
   sh "bundle exec jekyll build --trace --profile"
 
+  logline "POSTCSS"
+  sh "node_modules/gulp/bin/gulp.js css"
+
   logline "JS UGLIFY "
   jsminify("_site/js/app.js")
   jsminify("_site/js/lib.js")
@@ -45,6 +48,7 @@ task :build do
 
   logline "SEARCH INDEX"
   sh "coffee ./_coffee/search_index_generator.coffee"
+  sh "coffee ./_coffee/people_index_generator.coffee"
 end
 
 task :debug do
@@ -53,6 +57,7 @@ task :debug do
 
   logline "SEARCH INDEX"
   sh "coffee ./_coffee/search_index_generator.coffee"
+  sh "coffee ./_coffee/people_index_generator.coffee"
 end
 
 task :test do

@@ -1,0 +1,150 @@
+---
+layout: default
+title: People
+current: people
+body_class: body--people-index
+search: false
+editable: false
+permalink: /people/
+---
+
+<div class="people-index__filters" id="psFilter">
+
+  <div class="people-index__filters__primary">
+    <!-- name -->
+    <label class="people-index__filters__name">
+      <span>Name</span>
+      <input type="text"
+             id="people-filter-name"
+             class="input-text"
+             placeholder="Hold on, loading…" />
+    </label>
+
+    <div class="people-index__filters__toggle" id="psMoreToggle">
+      <i class="fa fa-chevron-down"></i>
+    </div>
+  </div>
+
+  <div class="people-index__filters__more" id="psMore">
+    <!-- graduated year -->
+    <label>
+      <span>Graduation year</span>
+      <select id="people-filter-graduated" class="input-select">
+        <option class="people-filter-all" value="">(All)</option>
+      {% for item in site.data.people_by_graduation_year %}
+        {% if item[1].size > 0 %}
+        <option value="{{ item[0] }}">{{ item[0] | escape_once }}</option>
+        {% endif %}
+      {% endfor %}
+      </select>
+    </label>
+
+    <!-- work -->
+    <label>
+      <span>Career</span>
+      <select id="people-filter-career" class="input-select">
+        <option class="people-filter-all" value="">(All)</option>
+      {% for item in site.data.people_by_career %}
+        <option value="{{ item[0] }}">{{ item[0] | escape_once }}</option>
+      {% endfor %}
+      </select>
+    </label>
+
+    <!-- role -->
+    <label>
+      <span>Show Role</span>
+      <select id="people-filter-srole" class="input-select">
+        <option class="people-filter-all" value="">(All)</option>
+      {% for item in site.data.roles %}
+        {% unless item.show == false %}
+        <option value="{{ item.role }}">{{ item.role | escape_once }}</option>
+        {% endunless %}
+      {% endfor %}
+      </select>
+    </label>
+
+    <!-- course -->
+    <label>
+      <span>Course</span>
+      <select id="people-filter-course" class="input-select">
+        <option class="people-filter-all" value="">(All)</option>
+      {% for item in site.data.people_by_course %}
+        <option value="{{ item[0] }}">{{ item[0] | escape_once }}</option>
+      {% endfor %}
+      </select>
+    </label>
+
+    <!-- committee -->
+    <label>
+      <span>Committee Role</span>
+      <select id="people-filter-crole" class="input-select">
+        <option class="people-filter-all" value="">(All)</option>
+        <!--<option value="(any)">(Any)</option>-->
+      {% for item in site.data.people_by_crole %}
+        <option value="{{ item[0] }}">{{ item[0] | escape_once }}</option>
+      {% endfor %}
+      </select>
+    </label>
+
+    <!-- award -->
+    <label>
+      <span>Award</span>
+      <select id="people-filter-award" class="input-select">
+        <option class="people-filter-all" value="">(All)</option>
+        <!--<option value="(any)">(Any)</option>-->
+      {% for item in site.data.people_by_award %}
+        {% if item[0].size > 0 %}
+        <option value="{{ item[0] }}">{{ item[0] | escape_once }}</option>
+        {% endif %}
+      {% endfor %}
+      </select>
+    </label>
+  </div>
+</div>
+
+<div class="people-index" id="psBody">
+
+  <div class="people-index__results">
+    <div class="people-index__results__intro" id="psIntro">
+      <p>We are starting to collect alumni biographies to be displayed on this site. Having so many alumni who are now well-established in the industry we're hoping to help the current students to bridge the gap between the world of student productions and that of professional theatre.</p>
+      <p>This page is brand new and may have some nasty bugs, if you have trouble let us know by using the <strong><i class="ion-chatbox-working"></i> Message the Editors</strong> button.</p>
+    </div>
+    <ol class="people-index__results__list" id="psResults">
+    </ol>
+  </div>
+
+</div>
+
+<!-- PeopleResult template -->
+<script type="text/x-template" id="psResultTemplate">
+  <a href="<%= item.url %>" class="people-result">
+    <% if (item.headshot) { %>
+    <img class="person-headshot person-headshot-actual"
+         src="<%= item.headshot.person_bio_m %>"
+         srcset="<%= item.headshot.person_bio_xl %> 480w,
+                 <%= item.headshot.person_bio_l %> 320w,
+                 <%= item.headshot.person_bio_m %> 160w,
+                 <%= item.headshot.person_bio_s %> 96w,
+                 <%= item.headshot.person_thumb_3 %> 123w,
+                 <%= item.headshot.person_thumb_2 %> 82w,
+                 <%= item.headshot.person_thumb_1 %> 41w"
+         sizes="32px"
+         alt="<%= item.title %>" />
+    <% } else { %>
+    <img class="person-headshot person-headshot-silhouette"
+         src="/images/human-512-cropped.png"
+         sizes="32px"
+         alt="No Headshot" />
+    <% } %>
+    <h3 class="person-name"><%= item.title %></h3>
+  </a>
+</script>
+
+<script type="text/x-template" id="psResultEmpty">
+  <div class="people-index__results__intro">
+    <p><strong>No Results</strong> If you're missing, <a href="/collect/person/">let us know</a>.</p>
+  </div>
+  <div class="big-icon">
+    <i class="ion-sad-outline"></i>
+  </div>
+</script>

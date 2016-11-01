@@ -5,11 +5,11 @@ gender: male
 course:
   - English
 graduated: 1996
-career:
+careers:
   - Director
   - Doctor
 links:
   - type: Personal Website
     href: "http://www.thoughtfulprimate.co.uk"
-award: Union Prize 
+award: Union Prize
 ---

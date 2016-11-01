@@ -7,9 +7,10 @@ course:
 graduated: 2012
 contact_allowed: true
 
-career:
-  - Teacher of English and Spanish
-  - Translator, Proofreader and Interpreter
+careers:
+  - Teaching
+  - Translator
+  - Interpreter
 
 comment: Teacher of English and Spanish as Foreign Languages, Translator, Proofreader and Interpreter to and from French, Spanish and Russian
 ---

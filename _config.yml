@@ -35,6 +35,7 @@ exclude:
 - CONTRIBUTING.md
 - Gemfile
 - Gemfile.lock
+- gulpfile.js
 - node_modules
 - package.json
 - Rakefile
@@ -197,9 +198,6 @@ image:
       attr:
         alt: Person headshot
       width: 48
-
-sass:
-  style: :compressed
 
 lib:
   js:

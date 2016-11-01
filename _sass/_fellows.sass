@@ -3,60 +3,8 @@ $color-fellows: #116C34
 .fellows-header
   background: $color-fellows
 
-.fellows-list
-  @include list-unformatted
-  @include block
+// Uses .people-grid-list from _people.sass
 
-  li
-    display: flex
-    padding: $baseline / 2 0
-  .year
-    min-width: 10%
-    @include set-property-to-gutter(margin-right)
-    a
-      font-size: 1.5em
-      @include respond-up(tab-port)
-        font-size: 2.5em
-
-      font-weight: $font-weight-light
-      color: $color-text-accent
-      letter-spacing: -1px
-      @include no-underline(true)
-
-  .fellows-person-list
-    flex: 1
-
-.fellows-person-list
-  @include list-unformatted
-  display: flex
-  flex-wrap: wrap
-
-  li
-    @include set-property-to-gutter(padding-right)
-    padding: $baseline / 2
-
-    max-width: $baseline + 160px
-
-    @include respond-up(mob-port)
-      width: 50%
-    @include respond-up(tab-port)
-      width: 33%
-    @include respond-up(tab-land)
-      width: 25%
-    @include respond-up(med-desk)
-      width: 20%
-
-
-  .name
-    text-align: center
-    color: $color-text-white
-    font-size: 0.9em
-    font-weight: normal
-
-  .person-headshot-actual, .person-headshot-placeholder
-    width: 100%
-
-  .person-headshot-placeholder
-    opacity: 0.2
-
+.fellows-grid-list
+  @include people-grid-list-scale(1)
 

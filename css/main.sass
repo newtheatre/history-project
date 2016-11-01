@@ -19,6 +19,7 @@ $font-weight-light: 300
 // Colours set in _config.yml for sharing between CSS and HEAD
 $color-nnt-purple: {{ site.color_nnt_purple }}
 $color-nnt-orange: {{ site.color_nnt_orange }}
+$color-brand-alt: #2D9189
 
 $color-black: #1c1c1c
 
@@ -60,6 +61,8 @@ $color-debug: #4FFF1F
 $color-debug-attr-base: #1e8c10
 $color-debug-attr-required: #E56818
 $color-debug-attr-generated: #0b5e92
+
+$element-transition: 0.34s ease-out
 
 $grid-transition-enable: false
 $grid-column-count: 16
@@ -117,8 +120,10 @@ $octicons-font-path: "/lib/octicons/octicons/"
 @import "logo"
 @import "mapbox"
 @import "meta-row"
+@import "people-grid"
 @import "person-list"
 @import "seasons"
+@import "tables"
 
 @import "archives"
 @import "collect"
@@ -129,7 +134,8 @@ $octicons-font-path: "/lib/octicons/octicons/"
 @import "header"
 @import "home"
 @import "page"
-@import "people"
+@import "people-index"
+@import "person"
 @import "playwrights"
 @import "report"
 @import "search"

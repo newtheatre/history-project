@@ -96,6 +96,11 @@ module Jekyll
 
     def generate_person(person)
       """Method called on all people"""
+      # Names
+      person.data["name"] = person.data["title"]
+      person.data["forename"] = person.data["title"].split[0..-2].join(" ")
+      person.data["surname"] = person.data["title"].split[-1]
+
       # Populate person record with data from the reverse index
       if @site.data["people_names"].include?( person.data["title"] )
         person.data["shows"] = @site.data["people_ri_shows"][ person.data["title"] ] || []
@@ -158,4 +163,9 @@ def generate_people_by_filename(people)
     people_by_filename[person.basename_without_ext] = person
   end
   return people_by_filename
+end
+
+def sort_people(a, b)
+  z = (a.data["surname"] <=> b.data["surname"])
+  z.zero? ? (a.data["forename"] <=> b.data["forename"]) : z
 end

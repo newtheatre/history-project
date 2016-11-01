@@ -1,19 +1,34 @@
 // Forms
 
-input, textarea
+input, textarea, select
   @include block-focus
   // Bugfix safari input shittyness, see #635
+  -moz-appearance: none
   -webkit-appearance: none
   border: 1px solid $color-grey
 
-.input-text, .input-textarea, .input-submit
+input[type=checkbox]
+  // Fix checkbox appearance
+  -moz-appearance: checkbox
+  -webkit-appearance: checkbox
+
+.input-text, .input-textarea, .input-select, .input-submit
   @include block
   width: 100%
   font-size: $base-font-size
   padding: $baseline / 2
+  border: 1px solid $color-grey
+  background: $color-white
 
 .input-textarea
   height: 200px
+
+.input-select
+  // Custom dropdown arrow
+  background-image: url('/images/svg/angle-down.svg')
+  background-size: 1em
+  background-position: calc(100% - 6px) 50%
+  background-repeat: no-repeat
 
 .input-submit
   width: 100%

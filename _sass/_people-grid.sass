@@ -1,0 +1,180 @@
+// Grid of people for the /people index pages, fellows listing etc
+
+.people-grid
+  @include list-unformatted
+  @include block
+
+  li
+    display: flex
+    padding: $baseline / 2 0
+  .title
+    min-width: 10%
+    @include set-property-to-gutter(margin-right)
+    &
+      font-size: 1.5em
+      @include respond-up(tab-port)
+        font-size: 2.5em
+      letter-spacing: -1px
+    &, a
+      font-weight: $font-weight-light
+      color: $color-text-accent
+    a
+      @include no-underline(true)
+
+  .people-grid-list
+    flex: 1
+
+@mixin people-grid-list-scale($scale)
+  li
+    padding: $baseline / 2
+
+    max-width: ($baseline + 160px) / $scale
+
+    @include respond-up(mob-port)
+      width: 33% / $scale
+    @include respond-up(tab-port)
+      width: 25% / $scale
+    @include respond-up(tab-land)
+      width: 25% / $scale
+    @include respond-up(med-desk)
+      width: 16% / $scale
+
+
+.people-grid-list
+  @include list-unformatted
+  display: flex
+  flex-wrap: wrap
+
+  @include people-grid-list-scale(1)
+
+  li
+    @include set-property-to-gutter(padding-right)
+
+    a
+      width: 100%
+
+      @include no-focus
+      &:focus
+        .person-headshot-placeholder
+          // Tint background of silhouette 
+          background: $color-focus
+
+        .name
+          // Apply focus style to text
+          @include link-focus
+
+  .name
+    text-align: center
+    color: $color-text-white
+    font-size: 0.9em
+    font-weight: normal
+    word-wrap: break-word
+
+  .person-headshot-actual, .person-headshot-placeholder
+    width: 100%
+    border-radius: 999px
+
+  .person-headshot-placeholder
+    opacity: 0.2
+
+.people-grid-scroller
+  position: fixed
+  z-index: 50
+  left: 0
+  bottom: 0
+  width: 100%
+  background: mix($color-nnt-purple, black, 20%)
+
+  .inner
+    @include grid-wrap
+
+  // .scroller
+  //   @include set-property-to-gutter(padding-right)
+  //   z-index: 55
+
+  //   input
+  //     height: $baseline * 2
+  //     width: 100%
+
+  //     -webkit-appearance: none
+  //     background: none
+
+  //     &::-webkit-slider-thumb
+  //       -webkit-appearance: none
+
+  //     &::-ms-track
+  //       width: 100%
+  //       cursor: pointer
+  //       background: transparent
+  //       border-color: transparent
+  //       color: transparent
+
+  //     &:focus
+  //       // FIXME provide a focus state
+  //       outline: none
+
+  //     &::-webkit-slider-thumb, &::-moz-slider-thumb, &::-ms-slider-thumb
+  //       -webkit-appearance: none
+  //       border: 1px solid #000000
+  //       height: 36px
+  //       width: 16px
+  //       border-radius: 3px
+  //       background: #ffffff
+  //       cursor: pointer
+  //       margin-top: -14px /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  //       // box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d /* Add cool effects to your sliders! */
+
+
+
+
+  ol
+    @include list-unformatted
+    margin-bottom: 0
+    @include set-property-to-gutter(padding-right)
+    display: flex
+
+    @include user-select(none)
+
+    li
+      flex-grow: 1
+      border-right: 1px solid rgba($color-grey, 0.5)
+
+    li:last-child
+      border-right: none
+
+    li a
+      position: relative
+      display: block
+      width: 100%
+      text-align: center
+
+      color: $color-text-white
+      font-size: 1rem
+
+      height: $baseline * 3
+
+    li a .link-text
+      transform: rotate(270deg)
+
+      position: absolute
+      top: 2em
+      left: -0.4em
+      margin-left: 50%
+
+
+    li:first-child a, li:last-child a
+      // font-size: 1rem
+      // padding: 0 0.4rem
+
+    li.has-data
+      flex-grow: 3
+      min-width: 2em
+
+    li.has-data a
+      padding: 0 0.2rem
+
+    li.active a
+      background: mix($color-nnt-purple, black, 40%)
+
+    li a:hover
+      background: mix($color-nnt-purple, black, 70%)
