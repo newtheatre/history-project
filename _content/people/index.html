@@ -93,7 +93,7 @@ permalink: /people/
         <option class="people-filter-all" value="">(All)</option>
         <!--<option value="(any)">(Any)</option>-->
       {% for item in site.data.people_by_award %}
-        {% if item[0] | escape_once.size > 0 %}
+        {% if item[0].size > 0 %}
         <option value="{{ item[0] }}">{{ item[0] | escape_once }}</option>
         {% endif %}
       {% endfor %}
@@ -119,11 +119,22 @@ permalink: /people/
 <script type="text/x-template" id="psResultTemplate">
   <a href="<%= item.url %>" class="people-result">
     <% if (item.headshot) { %>
-    <img class="person-headshot person-headshot--actual"
-         src="<%= item.headshot.person_list %>" alt="<%= item.title %>" />
+    <img class="person-headshot person-headshot-actual"
+         src="<%= item.headshot.person_bio_m %>"
+         srcset="<%= item.headshot.person_bio_xl %> 480w,
+                 <%= item.headshot.person_bio_l %> 320w,
+                 <%= item.headshot.person_bio_m %> 160w,
+                 <%= item.headshot.person_bio_s %> 96w,
+                 <%= item.headshot.person_thumb_3 %> 123w,
+                 <%= item.headshot.person_thumb_2 %> 82w,
+                 <%= item.headshot.person_thumb_1 %> 41w"
+         sizes="32px"
+         alt="<%= item.title %>" />
     <% } else { %>
-    <img class="person-headshot person-headshot--placeholder"
-         src="/images/human-512-cropped.png" alt="Human silhouette" />
+    <img class="person-headshot person-headshot-silhouette"
+         src="/images/human-512-cropped.png"
+         sizes="32px"
+         alt="No Headshot" />
     <% } %>
     <h3 class="person-name"><%= item.title %></h3>
   </a>

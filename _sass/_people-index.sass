@@ -162,15 +162,23 @@
 
   .people-result
     display: block
-    padding: $baseline / 2
-    background: $color-background-alt
+    background: rgba($color-background-alt,0.2)
+
+    &:hover
+      background: rgba($color-background-alt,0.8)
+      text-decoration: none
 
   .person-headshot
     float: left
-    width: 32px
+    width: 3em
+    padding: 0.5em
+    border-radius: 100px
 
   .person-name
     font-size: $base-font-size
+    font-weight: normal
+    padding: 0.5em
+    line-height: 1.8em
 
 .people-index__results__intro
   // Box with people section info shown before search is performed

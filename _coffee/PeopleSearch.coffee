@@ -41,7 +41,6 @@ class PeopleSearch
 
     @bindSearchFields()
 
-    # TODO touch event
     @psMoreToggleEl.addEventListener('click', @toggleMore)
 
     @psFilterElOffsetTop = $(@psFilterEl).offset().top
@@ -61,7 +60,7 @@ class PeopleSearch
         elem.addEventListener 'input', debounce =>
           @onSearch()
       else
-        elem.addEventListener('input', @onSearch)
+        elem.addEventListener('change', @onSearch)
       @searchFields.push [elem, field[1]]
 
   searchTerm: ->

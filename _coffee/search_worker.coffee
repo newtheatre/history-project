@@ -65,7 +65,6 @@ class SearchWorker
       dataResults.push @dataReverseIndex[ir.ref]
 
     # Sort the results array
-    # TODO make sort term rather than forename, surname
     dataResults.sort (a,b) ->
       a = "#{a.surname} #{a.forename}".toLowerCase()
       b = "#{b.surname} #{b.forename}".toLowerCase()
