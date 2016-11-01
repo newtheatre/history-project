@@ -68,7 +68,7 @@ function css(opts) {
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(postcss(processors))
-        .pipe(sourcemaps.write())
+        .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('_site/css'));
 }
 
@@ -85,7 +85,7 @@ function js_app() {
                .pipe(coffee({bare: true}).on('error', gutil.log))
                .pipe(concat('app.js'))
                .pipe(uglify())
-               .pipe(sourcemaps.write())
+               .pipe(sourcemaps.write('.'))
                .pipe(gulp.dest('_site/js'));
 }
 
@@ -98,7 +98,7 @@ function js_scripts() {
     return gulp.src('_coffee/scripts/*.coffee')
                .pipe(sourcemaps.init())
                .pipe(coffee({bare: true}).on('error', gutil.log))
-               .pipe(sourcemaps.write())
+               .pipe(sourcemaps.write('.'))
                .pipe(gulp.dest('_site/js'));
 }
 
@@ -124,7 +124,7 @@ function js_lib() {
                .pipe(sourcemaps.init())
                .pipe(concat('lib.js'))
                .pipe(uglify())
-               .pipe(sourcemaps.write())
+               .pipe(sourcemaps.write('.'))
                .pipe(gulp.dest('_site/js'));
 }
 
