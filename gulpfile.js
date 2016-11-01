@@ -13,6 +13,10 @@ var coffee = require('gulp-coffee');
 var uglify = require('gulp-uglify');
 var jsonlint = require("gulp-jsonlint");
 
+var watch = require('gulp-watch');
+var batch = require('gulp-batch');
+var webserver = require('gulp-webserver');
+
 var SHELL_OPTS = { verbose: true };
 
 console.log("     _   _ ______ _  _ ____   ")
@@ -138,19 +142,19 @@ gulp.task('S_js_lib_dev', ['jekyll_inc'], js_lib);
 var CMD_INDEX_SEARCH = 'coffee _coffee/index/search_index_generator.coffee';
 var CMD_INDEX_PEOPLE = 'coffee _coffee/index/people_index_generator.coffee';
 
-gulp.task('index_search', shell.task([CMD_INDEX_SEARCH]))
-gulp.task('S_index_search', ['jekyll'], shell.task([CMD_INDEX_SEARCH]))
-gulp.task('S_index_search_dev', ['jekyll_inc'], shell.task([CMD_INDEX_SEARCH]))
+gulp.task('index_search', shell.task([CMD_INDEX_SEARCH]));
+gulp.task('S_index_search', ['jekyll'], shell.task([CMD_INDEX_SEARCH]));
+gulp.task('S_index_search_dev', ['jekyll_inc'], shell.task([CMD_INDEX_SEARCH]));
 
-gulp.task('index_people', shell.task([CMD_INDEX_PEOPLE]))
-gulp.task('S_index_people', ['jekyll'], shell.task([CMD_INDEX_PEOPLE]))
-gulp.task('S_index_people_dev', ['jekyll_inc'], shell.task([CMD_INDEX_PEOPLE]))
+gulp.task('index_people', shell.task([CMD_INDEX_PEOPLE]));
+gulp.task('S_index_people', ['jekyll'], shell.task([CMD_INDEX_PEOPLE]));
+gulp.task('S_index_people_dev', ['jekyll_inc'], shell.task([CMD_INDEX_PEOPLE]));
 
 // Tests
 
-gulp.task('htmlproof', shell.task(['bundle exec rake htmlproof']))
+gulp.task('htmlproof', shell.task(['bundle exec rake htmlproof']));
 gulp.task('S_htmlproof', ['build', 'S_css', 'S_js_app', 'S_js_scripts'],
-    shell.task(['bundle exec rake htmlproof']))
+    shell.task(['bundle exec rake htmlproof']));
 
 function feedlint() {
     return gulp.src('_site/feeds/*.json')
@@ -159,8 +163,28 @@ function feedlint() {
                .pipe(jsonlint.failAfterError());
 }
 
-gulp.task('jsonlint', feedlint)
-gulp.task('S_jsonlint', ['S_index_search', 'S_index_people'], feedlint)
+gulp.task('jsonlint', feedlint);
+gulp.task('S_jsonlint', ['S_index_search', 'S_index_people'], feedlint);
+
+// Server
+
+gulp.task('server', function() {
+    watch(['_sass', '_coffee'], batch(function(events, done) {
+        gulp.start('frontend', done);
+    }));
+    return gulp.src('_site/')
+               .pipe(webserver({
+                    host: '0.0.0.0',
+                    livereload: true,
+                    open: true,
+                }));
+});
+
+gulp.task('watch', function() {
+    watch(['_sass', '_coffee'], batch(function(events, done) {
+        gulp.start('frontend', done);
+    }));
+})
 
 // Master tasks
 
@@ -172,7 +196,7 @@ gulp.task('build', ['jekyll',
                     'S_js_scripts',
                     'S_js_lib',
                     'S_index_search',
-                    'S_index_people'])
+                    'S_index_people']);
 gulp.task('debug', ['jekyll_inc',
                     'S_late_lib_dev',
                     'S_late_files_dev',
@@ -181,14 +205,12 @@ gulp.task('debug', ['jekyll_inc',
                     'S_js_scripts_dev',
                     'S_js_lib_dev',
                     'S_index_search_dev',
-                    'S_index_people_dev'])
+                    'S_index_people_dev']);
 
 gulp.task('frontend', ['css_dev',
                        'js_app_dev',
-                       'js_scripts_dev',
-                       'js_lib_dev',
-                       'index_search',
-                       'index_people'])
+                       'js_scripts_dev']);
 
-gulp.task('test', ['htmlproof', 'jsonlint'])
+
+gulp.task('test', ['htmlproof', 'jsonlint']);
 

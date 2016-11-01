@@ -34,7 +34,7 @@ To get the site running locally you will need a working Ruby environment, the bu
 
 - `gulp build` to build the site to _site.
 - OR `gulp debug` does the same but skips minification and enables Jekyll's incremental builds.
-- `cd _site && python -m SimpleHTTPServer` to serve the site using the Python HTTP server (should be on all *nix machines)
+- `gulp server` to serve the site using the built in webserver. Changes to Sass & Coffee files will trigger an automatic frontend rebuild and reload. Content (Jekyll) changes will not, this is because Jekyll takes a considerable time to run.
 
 ### Test
 
