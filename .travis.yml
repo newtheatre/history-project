@@ -20,7 +20,7 @@ install:
 before_script:
 - _bin/prep.sh
 script:
-- bundle exec rake build
+- gulp build
 - bundle exec rake travis_test
 after_success:
 - _bin/deploy.sh

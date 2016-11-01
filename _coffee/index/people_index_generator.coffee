@@ -1,5 +1,5 @@
-_ = require '../lib/underscore/underscore.js'
-lunr = require '../lib/lunr.js/lunr.js'
+_ = require '../../lib/underscore/underscore.js'
+lunr = require '../../lib/lunr.js/lunr.js'
 fs = require 'fs'
 
 index = lunr ->

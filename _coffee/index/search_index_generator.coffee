@@ -1,4 +1,4 @@
-lunr = require '../lib/lunr.js/lunr.js'
+lunr = require '../../lib/lunr.js/lunr.js'
 fs = require 'fs'
 
 index = lunr ->

@@ -1,4 +1,3 @@
-require 'uglifier'
 require 'html-proofer'
 
 def nthp()
@@ -8,23 +7,6 @@ def nthp()
   puts "  / /|  / / / / __  / ____/   "
   puts " /_/ |_/ /_/ /_/ /_/_/        "
   puts ""
-end
-
-def jsminify(fn)
-  puts "Minify #{fn}..."
-  source = File.read(fn)
-  options = {
-    :output => {
-      :comments => :none,
-    },
-  }
-  uglified, source_map = Uglifier.new(options).compile_with_map(source)
-  File.open(fn, 'w') do |f|
-    f.write(uglified)
-  end
-  File.open("#{fn}.map", 'w') do |f|
-    f.write(source_map)
-  end
 end
 
 def logline(line)
@@ -40,11 +22,6 @@ task :build do
 
   logline "POSTCSS"
   sh "node_modules/gulp/bin/gulp.js css"
-
-  logline "JS UGLIFY "
-  jsminify("_site/js/app.js")
-  jsminify("_site/js/lib.js")
-  jsminify("_site/js/utility.js")
 
   logline "SEARCH INDEX"
   sh "coffee ./_coffee/search_index_generator.coffee"

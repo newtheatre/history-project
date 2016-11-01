@@ -26,7 +26,6 @@ permalink: pretty
 gems:
 - jekyll-sitemap
 - jekyll-redirect-from
-- jekyll-coffeescript
 
 exclude:
 - assets
