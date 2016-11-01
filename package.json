@@ -8,18 +8,21 @@
   },
   "dependencies": {
     "bower": "^1.4.1",
+    "es6-promise": "^4.0.5",
+    "uglifyjs": "^2.4.10"
+  },
+  "devDependencies": {
     "coffee-script": "^1.10.0",
     "cssnano": "^3.8.0",
-    "es6-promise": "^4.0.5",
     "gulp": "^3.9.1",
     "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0",
     "jsonlint": "^1.6.2",
     "postcss": "^5.2.5",
     "postcss-cli": "^2.6.0",
-    "postcss-cssnext": "^2.8.0",
-    "uglifyjs": "^2.4.10"
+    "postcss-cssnext": "^2.8.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
