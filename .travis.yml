@@ -21,7 +21,7 @@ before_script:
 - _bin/prep.sh
 script:
 - gulp build
-- bundle exec rake travis_test
+- gulp test
 after_success:
 - _bin/deploy.sh
 - bundle exec ruby _bin/github_tasks.rb

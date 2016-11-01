@@ -1,6 +1,7 @@
 'use strict';
 
 var gulp = require('gulp');
+var gutil = require('gulp-util');
 var shell = require('gulp-shell')
 var concat = require('gulp-concat')
 var sass = require('gulp-sass');
@@ -10,6 +11,7 @@ var cssnext = require('postcss-cssnext');
 var cssnano = require('cssnano');
 var coffee = require('gulp-coffee');
 var uglify = require('gulp-uglify');
+var jsonlint = require("gulp-jsonlint");
 
 var SHELL_OPTS = { verbose: true };
 
@@ -56,7 +58,7 @@ gulp.task('S_css_dev', ['jekyll_inc'], function () { return css({postprocess: fa
 function js_app() {
     gulp.src('_coffee/app/*.coffee')
         .pipe(sourcemaps.init())
-        .pipe(coffee({bare: true}))
+        .pipe(coffee({bare: true}).on('error', gutil.log))
         .pipe(concat('app.js'))
         .pipe(uglify())
         .pipe(sourcemaps.write())
@@ -71,7 +73,7 @@ gulp.task('S_js_app_dev', ['jekyll_inc'], js_app);
 function js_scripts() {
     gulp.src('_coffee/scripts/*.coffee')
         .pipe(sourcemaps.init())
-        .pipe(coffee({bare: true}))
+        .pipe(coffee({bare: true}).on('error', gutil.log))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('_site/js'));
 }
@@ -94,6 +96,22 @@ gulp.task('index_people', shell.task([CMD_INDEX_PEOPLE]))
 gulp.task('S_index_people', ['jekyll'], shell.task([CMD_INDEX_PEOPLE]))
 gulp.task('S_index_people_dev', ['jekyll_inc'], shell.task([CMD_INDEX_PEOPLE]))
 
+// Tests
+
+gulp.task('htmlproof', shell.task(['bundle exec rake htmlproof']))
+gulp.task('S_htmlproof', ['build', 'S_css', 'S_js_app', 'S_js_scripts'],
+    shell.task(['bundle exec rake htmlproof']))
+
+function feedlint() {
+    return gulp.src('_site/feeds/*.json')
+               .pipe(jsonlint())
+               .pipe(jsonlint.reporter())
+               .pipe(jsonlint.failAfterError());
+}
+
+gulp.task('jsonlint', feedlint)
+gulp.task('S_jsonlint', ['S_index_search', 'S_index_people'], feedlint)
+
 // Master tasks
 
 gulp.task('build', ['jekyll',
@@ -114,3 +132,6 @@ gulp.task('frontend', ['css_dev',
                        'js_scripts_dev',
                        'index_search',
                        'index_people'])
+
+gulp.task('test', ['htmlproof', 'jsonlint'])
+
