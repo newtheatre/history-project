@@ -1,0 +1,10 @@
+.mask-404
+  opacity: 0.1
+
+  @include respond-down(mob-land)
+    position: absolute
+    right: $baseline
+
+  @include respond-up(tab-port)
+    float: right
+    margin: 0 $baseline
