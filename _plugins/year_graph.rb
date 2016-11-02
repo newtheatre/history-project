@@ -3,7 +3,6 @@ module NTHP
     YEARGRAPH_WIDTH = 1400
     YEARGRAPH_HEIGHT = 400
     MIN_HEIGHT = 3
-    WIDTH_EXTRA = 0.6 # Prevent visible seams
 
     def initialize(site)
       @site = site
@@ -35,7 +34,7 @@ module NTHP
         cols << {
           'x' => x,
           'y' => y,
-          'width' => w_i + WIDTH_EXTRA,
+          'width' => w_i,
           'height' => h_i,
           'year' => year,
         }
