@@ -22,14 +22,14 @@
     {% endif %}
   {% endfor %}
 
-  {% assign others = page.shows | where: "period", null %}
+  {% assign others = page.shows | where: "period", "unknown" %}
   {% if others.size > 0 %}
     {% assign show_list_shows = others %}
     <h3>Unknown</h3>
 
     <div class="box-debug" data-debug-toggle>
       <i class="fa fa-exclamation-triangle"></i>
-      <p>The following shows are not assigned to a season period, they require a <code>season</code> attribute.</p>
+      <p>The following shows are not assigned to a season period, they require a <code>period</code> attribute.</p>
     </div>
 
     {% include show_list.html %}

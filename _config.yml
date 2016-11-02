@@ -90,6 +90,7 @@ defaults:
       layout: show
       body_class: header-nobr
       current: archives
+      period: unknown
   # Committees
   - scope:
       path: ""

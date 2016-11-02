@@ -11,15 +11,3 @@
 - period: Edinburgh
   title: Edinburgh
   description: Shows taking place at the Edinburgh Festival Fringe
-
-- period: Previews
-  title: Previews
-  description: Previews of shows going to the Edinburgh Festival Fringe
-
-- period: Lakeside
-  title: Lakeside
-  description: Now replaced by using 'lakeside' as the season
-
-- period: External
-  title: External
-  description: Now replaced by using 'external' as the season

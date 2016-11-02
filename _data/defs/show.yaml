@@ -55,6 +55,10 @@
   type: string
   short: Non-NNT only, the name of the company
 
+- attr: period
+  type: string
+  short: Autumn, Spring or Edinburgh. Omit if unknown.
+
 - attr: season
   type: string
   short: Season show belongs to
