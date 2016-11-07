@@ -10,7 +10,7 @@ task :htmlproof do
     :typhoeus => { :timeout => 15 },
     :hydra => { :max_concurrency => 50 },
     :url_ignore => [/history.newtheatre.org.uk/, /photos.newtheatre.org.uk/,
-      /photos.smugmug.com/],
+      /photos.smugmug.com/, /archive.is/],
   }).run
 end
 
@@ -21,7 +21,5 @@ task :html_test do
     :checks_to_ignore => ["LinkCheck", "ImageCheck", "ScriptCheck"],
     :file_ignore => [/.*\/lib\/.*/],
     :parallel => { :in_processes => 4 },
-    :url_ignore => [/history.newtheatre.org.uk/, /photos.newtheatre.org.uk/,
-      /photos.smugmug.com/],
   }).run
 end
