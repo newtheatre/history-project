@@ -58,3 +58,20 @@ end
 
 Liquid::Template.register_tag('gitactivity', Jekyll::GitActivityTag)
 Liquid::Template.register_tag('gitlastcommit', Jekyll::GitLastCommit)
+
+module NTHP
+  class GitData
+    def initialize
+      g = Git.open(File.join(Dir.getwd, "."))
+      @sha = g.object('HEAD').sha
+      @sha_short = @sha[0,7]
+    end
+
+    def to_liquid
+      {
+        'sha' => @sha,
+        'sha_short' => @sha_short,
+      }
+    end
+  end
+end

@@ -16,7 +16,7 @@
     <!-- Debug LHS -->
     <div class="debug-build-details" data-debug-toggle>
       <i class="fa fa-clock-o"></i>
-      {{site.time | date: "%Y-%m-%d %H:%M" }}, build {% include travis_build_number.txt %}, section {{ page.current }}, {{ layout.body_class }}, {{ page.body_class }}
+      {{site.time | date: "%Y-%m-%d %H:%M" }}, sha {{ site.data.git.sha_short }}, build {% include travis_build_number.txt %}, section {{ page.current }}, {{ layout.body_class }}, {{ page.body_class }}
     </div>
 
     <div class="debug-breakpoint" data-debug-toggle>
