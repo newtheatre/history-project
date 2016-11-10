@@ -1,0 +1,10 @@
+DirectoryPath: _site
+IgnoreDirectoryMissingTrailingSlash: true
+IgnoreURLs:
+- "history.newtheatre.org.uk"
+- "photos.smugmug.com"
+- "photos.newtheatre.org.uk"
+- "archive.is"
+IgnoreDirs:
+- "lib"
+

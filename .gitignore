@@ -7,6 +7,8 @@ _smugmug_cache/
 lib/
 node_modules/
 tmp/
+.htmltest/*
+_bin/htmltest
 
 for_shows_uncompressed
 for_shows_process
