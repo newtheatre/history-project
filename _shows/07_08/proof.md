@@ -8,6 +8,10 @@ venue: New Theatre
 date_start: 2007-11-14
 date_end: 2007-11-17
 
+cast:
+  - role: Claire
+    name: Lizzie Bourne
+
 crew:
   - role: Director
     name: Guy Unsworth
