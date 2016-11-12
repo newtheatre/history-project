@@ -68,22 +68,22 @@ crew:
 
 assets:
   - type: programme
-    image: 9Gs6hT2
+    image: thQXzNZ
     page: 1
   - type: programme
-    image: sQQr67Z
+    image: 4CBdXCc
     page: 2
   - type: programme
-    image: B8XCWSn
+    image: dCZ66xJ
     page: 3
   - type: programme
-    image: 7S9thK9
+    image: cBMrmZP
     page: 4
   - type: programme
-    image: bHK3XHB
+    image: Bxsd8zM
     page: 5
   - type: programme
-    image: 7mH3cLB
+    image: XHfVfHz
     page: 6
 
 ---

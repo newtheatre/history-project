@@ -65,10 +65,10 @@ crew:
 
 assets:
   - type: programme
-    image: wspKHLC
+    image: GTftk7X
     page: 1
   - type: programme
-    image: 6ZzNwzB
+    image: dhMcTsv
     page: 2
 
 published: true
