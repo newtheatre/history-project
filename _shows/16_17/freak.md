@@ -23,6 +23,8 @@ crew:
   name: Jess Donn
 - role: Lighting Designer
   name: Darcey Graham
+- role: Sound Designer
+  name: Joanne Blunt
 - role: Technical Operator
   name: Adam Humphries
 - role: Technical Operator
