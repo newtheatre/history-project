@@ -61,6 +61,8 @@ crew:
    name: Joanna Manning
  - role: Design Assistant
    name: Charlotte Kirkman
+ - role: Make-Up
+   name: Emily Dimino
  - role: Poster Designer
    name: Aneesa Kaleem
 

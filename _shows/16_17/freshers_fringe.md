@@ -8,6 +8,10 @@ date_start: 2016-10-10
 date_end: 2016-10-11
 venue: New Theatre
 
+crew:
+ - role: Technical Director
+   name: Joanne Blunt
+
 assets:
   - type: poster
     image: N6kvMG6
