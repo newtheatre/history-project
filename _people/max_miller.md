@@ -1,6 +1,6 @@
 ---
 title: Max Miller
-headshot: tcNzCS2
+headshot: FXmhrbS
 gender: male
 submitted: false
 ---
