@@ -38,7 +38,7 @@ crew:
 - role: Poster Designer
   name: Harry Bradley
 
-prod_shots: kfzbzK
+prod_shots: hMsFKmw
 
 assets:
   - type: poster
