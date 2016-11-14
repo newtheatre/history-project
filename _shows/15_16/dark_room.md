@@ -1,6 +1,6 @@
 ---
 title: Dark Room
-playwright: Tom Proffit
+playwright: Tom Proffitt
 student_written: true
 season: Fringe
 season_sort: 70
