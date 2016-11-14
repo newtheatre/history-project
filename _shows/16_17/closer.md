@@ -61,6 +61,8 @@ crew:
   name: Lisa Gier
 - role: Stage Manager
   name: Darcey Graham
+- role: Graphic Deisgn
+  name: Harry Bridge
 - role: Poster Designer
   name: Max Miller
 
