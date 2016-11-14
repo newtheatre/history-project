@@ -27,6 +27,8 @@ cast:
    name: Emily Sterling
  - role: Sebastian
    name: Matt Standen
+ - role: Antonio
+   name: Daniella Finch
  - role: Stephano
    name: Josh Mallalieu
  - role: Trinculo
