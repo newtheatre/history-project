@@ -6,5 +6,5 @@ IgnoreURLs:
 - "photos.newtheatre.org.uk"
 - "archive.is"
 IgnoreDirs:
-- "lib"
+- "^lib"
 
