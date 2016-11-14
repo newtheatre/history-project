@@ -9,9 +9,12 @@ date_start: 2009-10-28
 date_end: 2009-10-31
 
 cast:
-  - name: Ben Cave
-  - name: Lizzie Bourne
-  - name: Meg Salter
+  - role: Richard
+    name: Ben Cave
+  - role: Corrine
+    name: Lizzie Bourne
+  - role: Rebecca
+    name: Meg Salter
 
 crew:
   - role: Director
