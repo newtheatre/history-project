@@ -66,7 +66,7 @@ crew:
 - role: Poster Designer
   name: Max Miller
 
-prod_shots: 
+prod_shots: mZXkbv
 
 assets:
   - type: poster
