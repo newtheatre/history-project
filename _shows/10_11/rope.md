@@ -51,6 +51,8 @@ crew:
     name: Holly Wicks
   - role: Hair and Makeup
     name: Liz Rose
+  - role: Original Score
+    name: Chris Walter
   - role: Technical Operator
     name: Aneira Pugh
 

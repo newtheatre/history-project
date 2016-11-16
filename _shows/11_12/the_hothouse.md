@@ -31,6 +31,8 @@ crew:
     name: Elin Stenner-Matthews
   - role: Stage Manager
     name: Nicola Fox
+  - role: Original Score
+    name: Chris Walter
 
 assets:
   - type: poster
