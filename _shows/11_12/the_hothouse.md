@@ -32,7 +32,7 @@ crew:
   - role: Stage Manager
     name: Nicola Fox
   - role: Original Score
-    name: Chris Walter
+    name: Chris Walters
 
 assets:
   - type: poster

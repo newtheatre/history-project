@@ -52,7 +52,7 @@ crew:
   - role: Hair and Makeup
     name: Liz Rose
   - role: Original Score
-    name: Chris Walter
+    name: Chris Walters
   - role: Technical Operator
     name: Aneira Pugh
 

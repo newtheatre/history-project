@@ -32,7 +32,7 @@ crew:
   - role: Technical Operator
     name: Alex Harverson
   - role: Original Score
-    name: Chris Walter
+    name: Chris Walters
   - role: Stage Manager
     name: Nicola Fox
 
