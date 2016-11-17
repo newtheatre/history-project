@@ -5,7 +5,7 @@ gender: male
 course:
   - English
 graduated: 2015
-contact_allowed: false
+contact_allowed: true
 award: Fellowship
 ---
 
