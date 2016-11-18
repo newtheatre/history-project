@@ -36,7 +36,7 @@ crew:
   - role: Musical Director
     name: Kat Tye
   - role: Musical Director
-    name: Nick Stevensona
+    name: Nick Stevenson
   - role: Compser
     name: Elizabeth Sybil Charlesworth
   - role: Lyricist
