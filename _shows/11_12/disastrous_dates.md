@@ -25,7 +25,7 @@ cast:
   - role: Olivia
     name: Alice Turnbull
   - role: Joe
-    name: Johnny Fitpatrick
+    name: Jonny Fitpatrick
   - role:
     name: Adna Duherich
   - role: Pete

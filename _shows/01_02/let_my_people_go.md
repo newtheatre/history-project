@@ -56,7 +56,7 @@ crew:
   - role: Stage Manager
     name: Marni Miller-Becker
   - role: Backstage
-    name: Joe Arkley
+    name: Joseph Arkley
   - role: Backstage
     name: Ben Bergin
   - role: Backstage

@@ -12,7 +12,7 @@ cast:
   - role: Captain Arthur Phillips
     name: Philip Hamann
   - role: Major Robbie Ross
-    name: Joe Arkley
+    name: Joseph Arkley
   - role: Captain David Collins
     name: Ben Bergin
   - role: Captain Watkin Tench
@@ -32,7 +32,7 @@ cast:
   - role: Midhsipman Harry Brewer
     name: Tom King
   - role: Ketch Freeman
-    name: Joe Arkley
+    name: Joseph Arkley
   - role: Mary Brenham
     name: Marni Miller-Becker
   - role: Dabby Bryant
