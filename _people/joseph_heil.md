@@ -4,7 +4,7 @@ gender: male
 graduated: 2015
 award: Fellowship
 course: Materials Engineering and Design, PhD
-submitted: true
+submitted: 17/11/2016
 headshot: fX9MPP9
 ---
 
