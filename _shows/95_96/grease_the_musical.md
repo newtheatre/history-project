@@ -8,6 +8,8 @@ canonical:
  - title: Grease
 
 cast:
+ - role: Vince Fontaine
+   name: Mark Heywood
  - role: Cha Cha
    name: Michelle Harper
 ---
