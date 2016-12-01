@@ -56,7 +56,7 @@ crew:
 - role: Poster Designer
   name: Aneesa Kaleem
 
-prod_shots: 
+prod_shots: kj8L48
 
 assets:
   - type: poster
