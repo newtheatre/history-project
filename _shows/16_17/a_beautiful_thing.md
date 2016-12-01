@@ -34,6 +34,10 @@ crew:
   name: Amy O'Dell
 - role: Lighting Designer
   name: Joseph Heil
+- role: Poster Designer
+  name: Max Miller
+- role: Poster Designer
+  name: Emma White
 
 prod_shots: BTgsx9
 
