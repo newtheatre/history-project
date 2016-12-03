@@ -62,6 +62,7 @@ crew:
 - role: Stage Manager
   name: Laura Wolczyk
 - role: Hair & Make-Up
+  name: Amy Greaves
 - role: Design Assistant
   name: Ranait Flanagan 
 
