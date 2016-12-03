@@ -55,6 +55,13 @@ crew:
   name: Amy O'Dell
 - role: Stage Manager
   name: Tom Proffitt
+- role: Stage Manager
+  name: Ed Eggleton
+- role: Stage Manager
+  name: Maggie Dorling
+- role: Stage Manager
+  name: Laura Wolczyk
+- role: Hair & Make-Up
 - role: Design Assistant
   name: Ranait Flanagan 
 
