@@ -17,7 +17,7 @@ cast:
   name: Gigi George
 - role: Harvey Kelekian, M.D/Mr. Bearing
   name: Joe Hincks
-- role: Professor E.M. Ashford/Technician
+- role: Professor E.M. Ashford
   name: Izzie Masters
 - role: Technicians/Fellows/Students/Code Team
   name: Darcey Graham
@@ -48,11 +48,9 @@ crew:
 - role: Technical Operator
   name: Matthew Lewington
 - role: Technical Operator
-  name: Amy O'Dell
+  name: Tom Proffitt
 - role: Stage Manager
   name: Emma McDonald
-- role: Stage Manager
-  name: Tom Proffitt
 - role: Stage Manager
   name: Chris Sharp-Paul
 - role: Stage Manager
@@ -62,9 +60,15 @@ crew:
 - role: Stage Manager
   name: Libbuy Boyd
 - role: Stage Manager
-  name: Karl Nycklemore
+  name: Karl Nycklemoe
 - role: Stage Manager
   name: Amy Crighton
+- role: Stage Manager
+  name: Max Miller
+- role: Hair and Make-Up
+  name: Lisa Gier
+- role: Poster Design
+  name: Will Berrington
 
 prod_shots: 
 

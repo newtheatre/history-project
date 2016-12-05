@@ -1,5 +1,5 @@
 ---
-title: A Beautiful Think
+title: A Beautiful Thing
 playwright: Emma White
 student_written: true
 season: Fringe

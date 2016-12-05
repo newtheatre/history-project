@@ -1,5 +1,5 @@
 ---
-title: All The World's A Stage & Other Sotries 
+title: All The World's A Stage & Other Stories 
 playwright: Yee Heng Yeh and Ian Sheard
 student_written: true
 season: Fringe
