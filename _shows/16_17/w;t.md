@@ -50,7 +50,7 @@ crew:
 - role: Technical Operator
   name: Tom Proffitt
 - role: Stage Manager
-  name: Emma McDonald
+  name: Emma  McDonald
 - role: Stage Manager
   name: Chris Sharp-Paul
 - role: Stage Manager
