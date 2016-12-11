@@ -1,6 +1,7 @@
 ---
 title: Mark Heywood
 submitted: 2016-11-15
+headshot: C4x7wG5
 gender: male
 contact_allowed: true
 course:
