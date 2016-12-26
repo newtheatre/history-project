@@ -13,7 +13,7 @@ cast:
 - role: Freddie
   name: Harry Pavlou
 - role: Art Dealer
-  name: Natalia Gonzalez
+  name: Natalia Gonzalez Morales
 - role: Rachel
   name: Chloe Richardson
 - role: Journalist
