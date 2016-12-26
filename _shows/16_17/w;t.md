@@ -58,7 +58,7 @@ crew:
 - role: Stage Manager
   name: Sophie Walton
 - role: Stage Manager
-  name: Libbuy Boyd
+  name: Libby Boyd
 - role: Stage Manager
   name: Karl Nycklemoe
 - role: Stage Manager
