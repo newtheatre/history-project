@@ -26,8 +26,6 @@ crew:
  - role: Director
    name: Jon Turner
 
-prod_shots: 2Tm5Lw
-
 assets:
   - type: poster
     image: FrnMLZh
