@@ -42,6 +42,8 @@ crew:
   name: Josh Mallalieu
 - role: Producer
   name: Emily Sterling
+- role: Musical Director
+  name: Jacob Lloyd
 - role: Technical Director
   name: Nathan Penney
 - role: Lighting Designer
