@@ -5,7 +5,7 @@ period: Spring
 playwright: Edward Albee
 season_sort: 180
 venue: New Theatre
-date_start: 1973-03-23
+date_start: 1973-03-03
 date_end: 1973-03-07
 
 assets:
