@@ -3,8 +3,10 @@ title: "Journey's End"
 season: In House
 period: Autumn
 playwright: R.C.Sherriff
-season_sort: 40
+season_sort: 30
 venue: New Theatre
+date_start: 1975-11-11
+date_end: 1975-11-15
 
 cast:
   - name: Nick Frost

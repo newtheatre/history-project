@@ -3,8 +3,10 @@ title: Black Comedy
 season: In House
 period: Autumn
 playwright: Peter Shaffer
-season_sort: 30
+season_sort: 40
 venue: New Theatre
+date_start: 1975-11-19
+date_end: 1975-11-22
 
 assets:
   - type: poster

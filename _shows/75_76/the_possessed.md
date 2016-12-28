@@ -4,9 +4,9 @@ playwright: Dostoevsky
 traslator: Albert Camus
 period: Autumn
 season: In House
-season_sort: 60
-date_start: 
-date_end: 
+season_sort: 50
+date_start: 1975-11-25
+date_end: 1975-11-29
 venue: New Theatre
 
 cast:
@@ -25,6 +25,8 @@ cast:
 crew:
  - role: Director
    name: Jon Turner
+
+prod_shots: 2Tm5Lw
 
 assets:
   - type: poster
