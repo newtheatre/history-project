@@ -5,7 +5,11 @@ student_written: True
 season: Edinburgh
 period: Edinburgh
 season_sort: 410
-venue: unknown
+venue: 
+
+crew:
+ - role: Director
+   name: Tom Kirkham
 ---
 
 

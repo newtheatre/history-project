@@ -1,11 +1,10 @@
 ---
-title: Housemates
+title: The Robin Hood Revue
 playwright: Stuart Scott
 student_written: true
-season: In House
-period: Autumn
-season_sort: 50
-venue: New Theatre
+season: Edinburgh
+period: Edinburgh
+season_sort: 600
 
 crew:
  - role: Director

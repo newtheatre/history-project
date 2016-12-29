@@ -6,6 +6,8 @@ season: In House
 period: Autumn
 season_sort: 70
 venue: New Theatre
+date_start: 1999-12-07
+date_end: 1999-12-11
 
 crew:
   - role: Director

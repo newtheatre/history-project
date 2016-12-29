@@ -5,6 +5,8 @@ period: Autumn
 playwright: Reginald Rose
 season_sort: 100
 venue: New Theatre
+date_start: 1998-05-06
+date_end: 1998-05-08
 
 crew:
  - role: Director

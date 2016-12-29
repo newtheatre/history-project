@@ -5,6 +5,12 @@ period: Spring
 playwright: William Shakespeare
 season_sort: 320
 venue: New Theatre
+
+crew:
+ - role: Director
+   name: Gemma Robinson
+ - role: Director
+   name: Claire McKenzie
 ---
 
 

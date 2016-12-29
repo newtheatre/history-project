@@ -5,5 +5,11 @@ season: In House
 period: Autumn
 season_sort: 70
 venue: New Theatre
+
+crew:
+ - role: Director
+   name: Nick Tyler
+
+note: November
 ---
 

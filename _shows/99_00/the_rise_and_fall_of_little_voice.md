@@ -5,6 +5,8 @@ period: Autumn
 playwright: Jim Cartwright
 season_sort: 40
 venue: New Theatre
+date_start: 1999-11-18
+date_end: 1999-11-20
 
 trivia:
   - quote: "The show was set over 3 levels, obviously burnt down, and his love of pigeons was replaced by a love of lights, as a result there were many comments along the lines of 'we've never seen so many lights in the roof!' Much fun was had."
@@ -13,7 +15,7 @@ trivia:
 
 crew:
   - role: Director
-    name: unknown
+    name: Lizzie Ridler
   - role: Producer
     name: unknown
   - role: Lighting Designer
