@@ -24,3 +24,7 @@ assets:
     image: W6wSwHK
 
 ---
+
+Two hit-men sit in a dingy, disused basement kitchen, waiting.  As they await instructions about their next job from a mysterious higher authority, their surroundings become stranger by the minute, and tensions rise until the play reaches its harrowing climax.
+
+Hilarious, sharp and deeply unsettling, The Dumb Waiter is Pinter at his absolute best.

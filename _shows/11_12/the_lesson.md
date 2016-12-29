@@ -12,3 +12,6 @@ assets:
   - type: poster
     image: GM3TNcM
 ---
+
+A young adorable pupil travels to France for her first lesson with a stumbling and gentle professor. The meeting soon becomes sinister and ultimately ends with cruelty and despair. The Lesson is an absurdist plays that looks at the most senselessly violent event in recent history with brutal, unsettling comedy.
+

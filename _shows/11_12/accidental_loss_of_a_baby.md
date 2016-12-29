@@ -21,3 +21,5 @@ assets:
   - type: poster
     image: gRVQ597
 ---
+
+Warning: this play contains dark comedy, fetishism and babies! Twenty years ago, hunchbacked Mildred adopted a Thai baby which is now… lost! Mildred’s hotel – ‘The Hanging Lamb’- is visited by the multi-personalitied Detective Smith and the notorious Aggie Crusty: sleazy erotic novelist. Smith is hunting for the truth but the murderous looking Mildred and her lesbian partner/sex thing Neu are on to him.
