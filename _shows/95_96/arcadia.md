@@ -5,6 +5,10 @@ period: Spring
 season_sort: 240
 venue: New Theatre
 playwright: Tom Stoppard
+
+crew:
+  - role: Director
+    name: Gemma Robinson
 ---
 
 

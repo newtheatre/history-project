@@ -9,6 +9,10 @@ venue: New Theatre
 cast:
  - role: Mr Vernon
    name: Mark Heywood
+
+crew:
+ - role: Director
+   name: Cathy Ayton
 ---
 
 The Breakfast Club is a 1985 American coming-of-age comedy-drama film written, produced, and directed by John Hughes.
