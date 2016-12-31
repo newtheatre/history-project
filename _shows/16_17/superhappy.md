@@ -31,7 +31,7 @@ crew:
 - role: Poster Designer
   name: Max Miller
 
-prod_shots: 
+prod_shots: Dt6tJm
 
 assets:
   - type: poster
