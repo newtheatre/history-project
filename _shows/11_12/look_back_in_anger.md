@@ -25,6 +25,8 @@ crew:
     name: Jake Leonard
   - role: Producer
     name: Brendan Retter
+  - name: Bryony Blackler
+  - name: Roger Smissen
 
 assets:
   - type: poster
