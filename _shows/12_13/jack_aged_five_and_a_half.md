@@ -22,6 +22,8 @@ crew:
     name: Matt Miller
   - role: Producer
     name: Jenny Kohnhorst
+  - role: Playwright
+    name: Jake Leonard
   - role: Stage Manager
     name: Dani Jeyes
   - role: Publicity Designer
