@@ -11,6 +11,14 @@ venue: New Theatre
 crew:
  - role: Technical Director
    name: Joanne Blunt
+ - role: Shadow Technical Director
+   name: Yee Heng Yeh
+ - role: Technical Operator
+   name: Becca Potts
+ - role: Technical Operator
+   name: Amy O'Dell
+ - role: Stage Manager
+   name: Joseph Heil
 
 assets:
   - type: poster

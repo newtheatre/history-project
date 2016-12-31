@@ -46,6 +46,9 @@ crew:
     name: Mitchell Masterson
   - role: Technical Operator
     name: Joseph Heil
+  - role: Stage Manager
+    name: Eloise Hyde
+    note: Stepped in at NSDF to cover Rosanna's part due to illness
 
 assets:
   - type: poster

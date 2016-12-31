@@ -1,6 +1,6 @@
 ---
 title: "Wild West End"
-Book: "Matt Leventhall and Adam Paulden; Lyrics: Ed Clarke and Andrew Doyle"
+playwright: "Matt Leventhall and Adam Paulden; Lyrics: Ed Clarke and Andrew Doyle"
 period: Spring
 season: External
 season_sort: 180
