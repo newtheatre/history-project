@@ -1,9 +1,11 @@
 ---
+title: West Side Story
+playwright: Arthur Laurents, Leonard Bernstein and Stephen Sondheim
 season: In House
 period: Autumn
-title: Westside Story
 season_sort: 40
 venue: New Theatre
+
 cast:
   - role: Tony
     name: Andrew Muir

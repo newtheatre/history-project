@@ -1,5 +1,6 @@
 ---
 title: Fame the Musical
+playwright: José Fernandez, Steve Margoshes and Jacques Levy
 season: In House
 period: Autumn
 season_sort: 90

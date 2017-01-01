@@ -1,5 +1,6 @@
 ---
 title: Grease the Musical
+playwright: Jim Jacobs and Warren Casey
 season: In House
 period: Autumn
 season_sort: 40

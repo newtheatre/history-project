@@ -1,5 +1,6 @@
 ---
 title: Cabaret
+playwright: Christopher Isherwood, John Kander and Fred Ebb
 season: In House
 period: Autumn
 season_sort: 90
