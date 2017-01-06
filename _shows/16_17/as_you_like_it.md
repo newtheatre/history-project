@@ -94,7 +94,7 @@ crew:
 - role: Poster Design
   name: Keir Birchall
 
-prod_shots: sFmqXq
+prod_shots: 
 
 assets:
   - type: poster

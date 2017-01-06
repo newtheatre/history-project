@@ -42,7 +42,12 @@ class SmugAlbum < Smug
     imageIDs_as_parameter = imageIDs.join(',')
     url = api_url("image/#{ imageIDs_as_parameter }!#{ size }", sizeParameters)
     data = self.class.get(url)
-    return data["Response"][sizeClass]
+    if data.code == 200
+      return data["Response"][sizeClass]
+    else
+      puts data
+      Jekyll.logger.abort_with "SM error:", "Invalid image list response"
+    end
   end
 
   def fetch_album(albumID)
