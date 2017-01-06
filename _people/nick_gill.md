@@ -4,5 +4,8 @@ headshot: 3xMcmD4
 gender: male
 graduated: 2016
 award: Fellowship
-submitted: false
+submitted: 04/01/2017
+contact_allowed: true
+course:
+  - Politics (Hons) BA
 ---
