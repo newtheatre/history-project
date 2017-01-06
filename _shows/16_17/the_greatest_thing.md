@@ -23,7 +23,7 @@ crew:
 - role: Director
   name: Tom Proffitt
 - role: Producer
-  name: Emily Diminp
+  name: Emily Dimino
 - role: Shadow Director
   name: Daniel Morris
 - role: Production Assistant
