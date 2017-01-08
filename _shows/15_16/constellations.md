@@ -12,6 +12,8 @@ assets:
   - type: poster
     image: KB8SNBr
 
+prod_shots: KV2C9B
+
 cast:
  - role: Roland
    name: Ben Standish
