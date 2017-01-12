@@ -26,7 +26,7 @@ class SmugAlbum < Smug
     Jekyll.logger.info "Fetching SM Image List:", "#{ albumID }"
     url = api_url("album/#{ albumID }!images", "count=350")
     data = self.class.get(url)
-    if data.key? "Response" and data["Response"].key? "AlbumImage"
+    if data.code == 200 and data.key? "Response" and data["Response"].key? "AlbumImage"
       return data["Response"]["AlbumImage"]
     else
       Jekyll.logger.error "SM error:", "Invalid album images response"
@@ -42,7 +42,7 @@ class SmugAlbum < Smug
     imageIDs_as_parameter = imageIDs.join(',')
     url = api_url("image/#{ imageIDs_as_parameter }!#{ size }", sizeParameters)
     data = self.class.get(url)
-    if data.code == 200
+    if data.code == 200 and data.key? "Response" and data["Response"].key? sizeClass
       return data["Response"][sizeClass]
     else
       puts data
