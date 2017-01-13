@@ -27,6 +27,11 @@ crew:
     name: Emily Heaton
   - role: Producer
     name: Sophie Hiscock
+  - name: Dasha Karzunina
+  - name: Eloise Hyde
+  - name: Emma-Louise Amanshia
+  - name: Emma McDonald
+
 assets:
   - type: poster
     image: HNpn7GJ
