@@ -9,7 +9,6 @@ cache:
   - _smugmug_cache/
   - tmp/
   - ".sass-cache"
-  - .htmltest/
 before_install:
 - nvm install 4.2.6
 install:
