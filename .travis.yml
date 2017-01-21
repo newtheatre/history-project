@@ -1,12 +1,10 @@
 language: ruby
-rvm: 2.3.1
+rvm: 2.2.0
 cache:
   bundler: true
   directories:
-  - _site/images/resized
   - node_modules/
   - lib/
-  - _asset_bundler_cache/
   - vendor/bundle
   - _smugmug_cache/
   - tmp/
