@@ -152,9 +152,9 @@ gulp.task('S_index_people_dev', ['jekyll_inc'], shell.task([CMD_INDEX_PEOPLE]));
 
 // Tests
 
-gulp.task('htmlproof', shell.task(['bundle exec rake htmlproof']));
-gulp.task('S_htmlproof', ['build', 'S_css', 'S_js_app', 'S_js_scripts'],
-    shell.task(['bundle exec rake htmlproof']));
+gulp.task('htmltest', shell.task(['_bin/htmltest']));
+gulp.task('S_htmltest', ['build', 'S_css', 'S_js_app', 'S_js_scripts'],
+    shell.task(['_bin/htmltest']));
 
 function feedlint() {
     return gulp.src('_site/feeds/*.json')
@@ -212,5 +212,5 @@ gulp.task('frontend', ['css_dev',
                        'js_scripts_dev']);
 
 
-gulp.task('test', ['htmlproof', 'jsonlint']);
+gulp.task('test', ['htmltest', 'jsonlint']);
 

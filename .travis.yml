@@ -20,12 +20,11 @@ install:
 - bower install
 - curl https://f000.backblazeb2.com/file/wjdp-lib/htmltest > _bin/htmltest
 - chmod +x _bin/htmltest
+- _bin/htmltest --version
 before_script:
 - _bin/prep.sh
 script:
 - gulp build
-- _bin/htmltest --version
-- _bin/htmltest
 - gulp test
 after_success:
 - _bin/deploy.sh
