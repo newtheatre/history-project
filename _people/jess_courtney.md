@@ -14,4 +14,4 @@ links:
     username: jecourtney
 ---
 
-After Graduating, Jess went on to do a Masters at the University of York. During her two years in York, Jess worked in various historical buildings including York Minster and the York Theatre Royal. Also during this time, she held various positions in the National Student Television Association. She currently works as an Events Assistant for the ss Great Britain Trust.
+After Graduating, Jess went on to do a Masters at the University of York. During her two years in York, Jess worked in various historical buildings including York Minster and the York Theatre Royal. Also during this time, she held various positions in the National Student Television Association. She currently works as an Events Assistant for the SS Great Britain Trust.
