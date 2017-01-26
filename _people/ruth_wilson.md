@@ -3,7 +3,8 @@ title: Ruth Wilson
 submitted: false
 gender: female
 headshot: jzPTjWw
-course: History
+course: 
+  - History
 graduated: 2003 
 careers:
   - Actress
