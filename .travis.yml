@@ -1,17 +1,14 @@
 language: ruby
-rvm: 2.3.1
+rvm: 2.2.0
 cache:
   bundler: true
   directories:
-  - _site/images/resized
   - node_modules/
   - lib/
-  - _asset_bundler_cache/
   - vendor/bundle
   - _smugmug_cache/
   - tmp/
   - ".sass-cache"
-  - .htmltest/
 before_install:
 - nvm install 4.2.6
 install:
@@ -20,12 +17,11 @@ install:
 - bower install
 - curl https://f000.backblazeb2.com/file/wjdp-lib/htmltest > _bin/htmltest
 - chmod +x _bin/htmltest
+- _bin/htmltest --version
 before_script:
 - _bin/prep.sh
 script:
 - gulp build
-- _bin/htmltest --version
-- _bin/htmltest
 - gulp test
 after_success:
 - _bin/deploy.sh
