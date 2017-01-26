@@ -172,7 +172,7 @@
 - attr: prod_shots
   type: string
   short: SmugMug album ID for production shots
-  description: "Use [util/smug-albums](/util/smug-albums/) to find the AlbumID."
+  description: "Use [util/smug-albums](/util/smug-albums/) to find the AlbumID. Fetch is limited to the first 350 items."
 
 - attr: smugmug_album
   type: hash
