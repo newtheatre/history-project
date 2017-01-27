@@ -26,21 +26,21 @@ cast:
  - name: Sarah Haywood
    note: Maggie & Emma's Group
  - name: Sam Morris
-   note: Charlotte, Louie & Harry's Group
+   note: Charlotte, Louis & Harry's Group
  - name: Daniel McVey
-   note: Charlotte, Louie & Harry's Group
+   note: Charlotte, Louis & Harry's Group
  - name: David Mason
-   note: Charlotte, Louie & Harry's Group
+   note: Charlotte, Louis & Harry's Group
  - name: Isaac Sneade
-   note: Charlotte, Louie & Harry's Group
+   note: Charlotte, Louis & Harry's Group
  - name: Al Kamyani
-   note: Gigi & Rachel's Group
+   note: Gigi & Rachael's Group
  - name: Katie Webster
-   note: Gigi & Rachel's Group
+   note: Gigi & Rachael's Group
  - name: Olivia Cunningham
-   note: Gigi & Rachel's Group
+   note: Gigi & Rachael's Group
  - name: Chloe Schlitter
-   note: Gigi & Rachel's Group
+   note: Gigi & Rachael's Group
  - name: Laura Wolczyk
    note: Ronan & CJ's Group
  - name: Daniel Morris
@@ -115,6 +115,62 @@ cast:
    note: Laurence & Josh's Group
 
 crew:
+ - role: Director
+   name: Duncan McGillivray
+ - role: Director
+   name: Joe Hinks
+ - role: Director
+   name: Maggie Dorling
+ - role: Director
+   name: Emma Summerton
+ - role: Director
+   name: Louis Djalili
+ - role: Director
+   name: Harry Pavlou
+ - role: Director
+   name: Charlotte Sanders
+ - role: Director
+   name: Gigi George
+ - role: Director
+   name: Rachael Baines
+ - role: Director
+   name: Ronan Lee
+ - role: Director
+   name: Charlie Jamieson
+ - role: Director
+   name: Jess Donn
+ - role: Director
+   name: Ed Eggleton
+ - role: Director
+   name: Callum Walker
+ - role: Director
+   name: George Waring
+ - role: Director
+   name: Miguel Barrulas
+ - role: Director
+   name: Andrew Houghton
+ - role: Director
+   name: Beth Mullen
+ - role: Director
+   name: Emma Fearon
+ - role: Director
+   name: Molly Fenton
+ - role: Director
+   name: Ella Hiscocks
+ - role: Director
+   name: Michaela Green
+ - role: Director
+   name: Becca David
+ - role: Director
+   name: Jake Beach
+ - role: Director
+   name: Maddy Strauss
+ - role: Director
+   name: Beth Wilson
+ - role: Director
+   name: Laurence Cuthbert
+ - role: Director
+   name: Josh Mallalieu
  - role: Technical Director
    name: Joanne Blunt
  - role: Shadow Technical Director
