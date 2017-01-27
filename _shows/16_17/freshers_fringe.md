@@ -118,7 +118,7 @@ crew:
  - role: Director
    name: Duncan McGillivray
  - role: Director
-   name: Joe Hinks
+   name: Joe Hincks
  - role: Director
    name: Maggie Dorling
  - role: Director
