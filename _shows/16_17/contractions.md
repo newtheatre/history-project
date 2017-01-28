@@ -26,7 +26,7 @@ crew:
 - role: Lighting Designer
   name: Joanne Blunt
 
-prod_shots: pPJPRs
+prod_shots:
 
 assets:
   - type: poster
