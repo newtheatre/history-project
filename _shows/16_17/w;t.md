@@ -7,6 +7,7 @@ period: Autumn
 venue: New Theatre
 date_start: 2016-11-30
 date_end: 2016-12-03
+peod_shots: ZKv9Fh
 
 cast:
 - role: Vivian Bearing, Ph.D.
