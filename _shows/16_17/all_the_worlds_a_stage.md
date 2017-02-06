@@ -1,5 +1,5 @@
 ---
-title: All The World's A Stage & Other Stories 
+title: All The World's A Stage & Other Stories
 playwright: Yee Heng Yeh and Ian Sheard
 student_written: true
 season: Fringe
@@ -8,7 +8,6 @@ period: Autumn
 venue: New Theatre Studio A
 date_start: 2016-11-28
 date_end: 2016-11-29
-prod_shots: TVD8tv
 
 cast:
 - role: Director/Person A/Psych-O/Mr Jones
@@ -17,7 +16,7 @@ cast:
   name: Beth Angella
 - role: Mr Simpkins/Nice Judge/Audience Member 2
   name: Will Kitchen
-- role: Dictator/Person B 
+- role: Dictator/Person B
   name: Ronan Lee
 - role: Prisoner/Dr Leech
   name: Sam Morris
@@ -36,7 +35,7 @@ crew:
 - role: Poster Designer
   name: Ian Sheard
 
-prod_shots: 
+prod_shots: TVD8tv
 
 assets:
   - type: poster
