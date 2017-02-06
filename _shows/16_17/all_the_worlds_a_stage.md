@@ -8,6 +8,7 @@ period: Autumn
 venue: New Theatre Studio A
 date_start: 2016-11-28
 date_end: 2016-11-29
+prod_shots: TVD8tv
 
 cast:
 - role: Director/Person A/Psych-O/Mr Jones
