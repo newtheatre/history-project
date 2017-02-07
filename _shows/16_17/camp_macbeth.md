@@ -1,5 +1,6 @@
 ---
 title: Camp Macbeth
+devised: Crew
 period: Spring
 company: Unscripted
 student_written: true
