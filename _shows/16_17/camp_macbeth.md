@@ -10,23 +10,23 @@ date_end: 2017-02-07
 venue: New Theatre
 
 cast:
-  name: Matteo Bagaini
-  name: Katie Baxter
-  name: Isabelle Cadwallader
-  name: Lorcan Campbell
-  name: Ellie Castaño
-  name: Angharad Davies
-  name: Rose Edgeworth
-  name: Jack Ellis
-  name: Emma Fearon
-  name: Marsya Hazanan
-  name: Natalie Henderson
-  name: Rosie Hudson
-  name: Becki Jones
-  name: Daniel Morris
-  name: Beth Mullen
-  name: George Waring
-  name: Emily Wong
+- name: Matteo Bagaini
+- name: Katie Baxter
+- name: Isabelle Cadwallader
+- name: Lorcan Campbell
+- name: Ellie Castaño
+- name: Angharad Davies
+- name: Rose Edgeworth
+- name: Jack Ellis
+- name: Emma Fearon
+- name: Marsya Hazanan
+- name: Natalie Henderson
+- name: Rosie Hudson
+- name: Becki Jones
+- name: Daniel Morris
+- name: Beth Mullen
+- name: George Waring
+- name: Emily Wong
 
 crew:
 - role: Director
