@@ -87,7 +87,7 @@ cast:
    note: Becca & Jake's Group
  - name: Kate O'Gorman
    note: Becca & Jake's Group
- - name: Emma McDonald
+ - name: Emma  McDonald
    note: Becca & Jake's Group
  - name: Eugene Ong
    note: Maddy & Beth's Group
