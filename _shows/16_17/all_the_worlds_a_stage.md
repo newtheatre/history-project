@@ -32,6 +32,8 @@ crew:
   name: Amy O'Dell
 - role: Lighting Designer
   name: Becca Potts
+- role: Technical Operator
+  naME: Joanne Blunt
 - role: Poster Designer
   name: Ian Sheard
 

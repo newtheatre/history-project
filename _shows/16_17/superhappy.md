@@ -25,8 +25,6 @@ crew:
 - role: Shadow Director
   name: Danny Wiser
 - role: Lighting Designer
-  name: Joanne Blunt
-- role: Lighting Technician
   name: Joseph Heil
 - role: Poster Designer
   name: Max Miller
