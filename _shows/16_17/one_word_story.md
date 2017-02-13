@@ -14,6 +14,12 @@ cast:
 - name: Molly McConnell
 - name: Meer Gala-Shah
 
+crew:
+- role: Director
+  name: Jenny Tulls
+- role: Lighting Designer
+  name: Joanne Blunt
+
 assets:
   - type: poster
     image: qM3tNmH

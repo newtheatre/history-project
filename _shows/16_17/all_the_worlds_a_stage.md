@@ -33,7 +33,7 @@ crew:
 - role: Lighting Designer
   name: Becca Potts
 - role: Technical Operator
-  naME: Joanne Blunt
+  name: Joanne Blunt
 - role: Poster Designer
   name: Ian Sheard
 
