@@ -42,10 +42,10 @@ crew:
   name: Yee Heng Yeh
 - role: Writer
   name: Joe Strickland
+- role: Lighting Designer
+  name: Joanne Blunt
 - role: Technical Director
   name: Rohanna Brown
-- role: Technical Operator
-  name: Joanne Blunt
 - role: Technical Operator
   name: Ian Sheard
 - role: Stage Manager
