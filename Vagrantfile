@@ -38,6 +38,10 @@ cd /vagrant
 bundle install
 npm install
 bower install --allow-root
+
+curl https://f000.backblazeb2.com/file/wjdp-lib/htmltest > _bin/htmltest
+chmod +x _bin/htmltest
+
 SCRIPT
 
 Vagrant::Config.run do |config|
