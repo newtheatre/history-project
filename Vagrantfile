@@ -1,7 +1,11 @@
 $provision = <<SCRIPT
 sudo apt-add-repository ppa:brightbox/ruby-ng
+
+# https://github.com/nodesource/distributions
+curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+
 sudo apt-get update && sudo apt-get -y install build-essential git
-sudo apt-get -y install nodejs npm imagemagick ruby2.2 ruby2.2-dev
+sudo apt-get -y install nodejs imagemagick ruby2.2 ruby2.2-dev
 
 # Generate locales, fixes bug where Vagrant VM breaks on some UTF-8
 sudo locale-gen en_GB en_GB.UTF-8
@@ -28,7 +32,7 @@ update-alternatives --display ruby
 
 sudo gem install bundler
 sudo ln -s /usr/bin/nodejs /usr/bin/node
-sudo npm install -g coffee-script bower
+sudo npm install -g gulp coffee-script bower
 
 cd /vagrant
 bundle install
