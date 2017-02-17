@@ -36,6 +36,8 @@ To get the site running locally you will need a working Ruby environment, the bu
 - OR `gulp debug` does the same but skips minification and enables Jekyll's incremental builds.
 - `gulp server` to serve the site using the built in webserver. Changes to Sass & Coffee files will trigger an automatic frontend rebuild and reload. Content (Jekyll) changes will not, this is because Jekyll takes a considerable time to run.
 
+To get more verbose output from Jekyll, run `export JEKYLL_LOG_LEVEL=debug` before building.
+
 ### Test
 
 - `gulp test` to run test suite locally. Currently we test for bad links, valid image tags, script references and the validity of site JSON feeds.
@@ -54,6 +56,8 @@ Once you have download the requirements and installed them successfully you simp
 - `vagrant up`
 - `vagrant ssh`
 - `cd /vagrant`
+- `gulp build`
+- `gulp server`
 
 The vagrant box has port 8000 mapped to 8000 on your local machine, so `http://127.0.0.1:8000` should still work.
 
