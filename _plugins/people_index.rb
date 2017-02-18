@@ -20,9 +20,11 @@ module PeopleIndex
 
     def roles(set)
       roles = Set.new
-      for ri in set
-        for role in ri['roles']
-          roles << role unless role.nil? or role == "unknown"
+      unless set.nil?
+        for ri in set
+          for role in ri['roles']
+            roles << role unless role.nil? or role == "unknown"
+          end
         end
       end
       return roles.to_a
