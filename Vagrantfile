@@ -1,7 +1,11 @@
 $provision = <<SCRIPT
 sudo apt-add-repository ppa:brightbox/ruby-ng
+
+# https://github.com/nodesource/distributions
+curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+
 sudo apt-get update && sudo apt-get -y install build-essential git
-sudo apt-get -y install nodejs npm imagemagick ruby2.2 ruby2.2-dev
+sudo apt-get -y install nodejs imagemagick ruby2.2 ruby2.2-dev
 
 # Generate locales, fixes bug where Vagrant VM breaks on some UTF-8
 sudo locale-gen en_GB en_GB.UTF-8
@@ -28,18 +32,26 @@ update-alternatives --display ruby
 
 sudo gem install bundler
 sudo ln -s /usr/bin/nodejs /usr/bin/node
-sudo npm install -g coffee-script bower
+sudo npm install -g gulp coffee-script bower
 
 cd /vagrant
 bundle install
 npm install
 bower install --allow-root
+
+curl https://f000.backblazeb2.com/file/wjdp-lib/htmltest > _bin/htmltest
+chmod +x _bin/htmltest
+
 SCRIPT
 
-Vagrant::Config.run do |config|
-
+Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/trusty64"
-  config.vm.forward_port 8000, 8000
+
+  config.vm.provider "virtualbox" do |v|
+    v.memory = 1024
+  end
+  
+  config.vm.network "forwarded_port", guest:8000, host:8000
   config.vm.provision :shell, inline: $provision
 
   config.ssh.forward_agent = true
