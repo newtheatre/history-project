@@ -84,11 +84,11 @@ cast:
  - name: Shamini Vasu
    note: Molly, Ella & Micheala's Group
  - name: Lois Baglin
-   note: Becca & Jake's Group
+   note: Will & Chris's Group
  - name: Kate O'Gorman
-   note: Becca & Jake's Group
+   note: Will & Chris's Group
  - name: Emma  McDonald
-   note: Becca & Jake's Group
+   note: Will & Chris's Group
  - name: Eugene Ong
    note: Maddy & Beth's Group
  - name: Rachel Cunliffe
@@ -160,9 +160,9 @@ crew:
  - role: Director
    name: Michaela Green
  - role: Director
-   name: Becca David
+   name: Will Berrington
  - role: Director
-   name: Jake Beach
+   name: Chris Sharp-Paul
  - role: Director
    name: Maddy Strauss
  - role: Director
