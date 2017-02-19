@@ -53,6 +53,8 @@ crew:
 - role: Stage Manager
   name: Felicity Chilver
 
+prod_shots: nNDLBL
+
 assets:
   - type: poster
     image: SDZndTT
