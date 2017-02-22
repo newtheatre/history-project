@@ -46,8 +46,6 @@ crew:
  - role: Design Assistant
    name: Jess Donn
  - role: Set Designer
-   name: Jess Donn
- - role: Set Designer
    name: Ross Brisk
  - role: Technical Operator
    name: Rohanna Brown

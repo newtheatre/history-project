@@ -19,7 +19,7 @@ crew:
   name: Andrew Houghton
 - role: Producer
   name: Miguel Barrulas
-- role: Production Assistant
+- role: Shadow Director
   name: Beth Wilson
 - role: Technical Director
   name: Oliver Kueck
