@@ -11,7 +11,7 @@ venue: New Theatre
 cast:
  - name: Izzy Miles
    note: Tom S's Group
- - name: Bethany Ansella
+ - name: Bethany Angella
    note: Tom S's Group
  - name: Abi Davies
    note: Tom S's Group
