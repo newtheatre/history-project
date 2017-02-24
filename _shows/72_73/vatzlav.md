@@ -18,7 +18,7 @@ cast:
   - name: Larry George
   - name: Martin Holland
   - name: Nick Pease
-  - name: Pete Rushton
+  - name: Peter Rushton
   - name: Tim Sluckin
   - name: Frank Ward
 

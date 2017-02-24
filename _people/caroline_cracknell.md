@@ -1,5 +1,5 @@
 ---
-title: Carrie Cracknell
+title: Caroline Cracknell
 submitted: false
 gender: female
 headshot: kBB5XH8

@@ -15,7 +15,7 @@ cast:
 - role: Henry
   name: Chris Sharp-Paul
 - role: Hetty
-  name: Isabelle Calwallader
+  name: Isabelle Cadwallader
 - role: Casper/Runner/Cinematographer/Ophthalmologist
   name: Neil Ganatra
 

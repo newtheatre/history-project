@@ -27,7 +27,7 @@ cast:
   - role: Seb
     name: Max Benenson
   - role: Mike
-    name: Tom Watkins
+    name: Tim Watkins
 
 crew:
   - role: Director

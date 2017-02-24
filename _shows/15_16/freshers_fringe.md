@@ -11,7 +11,7 @@ venue: New Theatre
 cast:
  - name: Izzy Miles
    note: Tom S's Group
- - name: Bethany Angella
+ - name: Beth Angella
    note: Tom S's Group
  - name: Abi Davies
    note: Tom S's Group
@@ -85,7 +85,7 @@ cast:
    note: Daniella & Felicity's Group
  - name: Tim Behrman
    note: Daniella & Felicity's Group
- - name: Peter Pryzlo
+ - name: Peter Przyslo
    note: Daniella & Felicity's Group
  - name: Ross Levy
    note: Sasha & Emilie's Group
@@ -133,7 +133,7 @@ cast:
    note: Darcey & Lara's Group
  - name: Samantha Karran
    note: Darcey & Lara's Group
- - name: Maddie Strauss
+ - name: Maddy Strauss
    note: Darcey & Lara's Group
  - name: Emma Palten
    note: Darcey & Lara's Group
@@ -189,7 +189,7 @@ cast:
    note: Holly & James' Group
  - name: Kate Maguire
    note: Holly & James' Group
- - name: Rachael Towers
+ - name: Rachel Towers
    note: Holly & James' Group
  - name: Avani Sharma
    note: Holly & James' Group
@@ -197,7 +197,7 @@ cast:
    note: Holly & James' Group
  - name: Frances Pringle
    note: Holly & James' Group
- - name: Mane Davytyan
+ - name: Mane Davtyan
    note: Holly & James' Group
  - name: Jamie Drew
    note: Tom, James & Ian's Group

@@ -26,7 +26,7 @@ crew:
 - role: Producer
   name: Anna Scholes
 - role: Production Assistant
-  name: Samuel Edwards
+  name: Sam Edwards
 - role: Set Designer
   name: Darcey Graham
 - role: Shadow Set Designer

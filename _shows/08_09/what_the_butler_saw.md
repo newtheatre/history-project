@@ -12,7 +12,7 @@ crew:
   - role: Director
     name: Johnny Steer
   - role: Producer
-    name: Renske Vos
+    name: Renske Nina Vos
   - role: Technical Director
     name: Charlotte Bailey
   - role: Stage Manager

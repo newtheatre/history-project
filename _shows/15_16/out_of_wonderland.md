@@ -36,7 +36,7 @@ crew:
  - role: Producer
    name: Bessie Ephgrave
  - role: Technical Director
-   name: Mane Davyton
+   name: Mane Davtyan
  - role: Lighting Designer
    name: James Fox
  - role: Set Designer

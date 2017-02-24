@@ -13,7 +13,7 @@ cast:
  - name: Beth Wilson
  - name: Libby Boyd
  - name: Arnaud Lacey
- - name: Elis Edham
+ - name: Elis Edhem
  - name: Lara Bellis
  - name: Emma Fearon 
  - name: Michaela Green

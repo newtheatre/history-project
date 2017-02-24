@@ -19,7 +19,7 @@ cast:
    note: Duncan & Joe's Group
  - name: Aila Khan
    note: Maggie & Emma's Group
- - name: Matteo Bagarini
+ - name: Matteo Bagaini
    note: Maggie & Emma's Group
  - name: Amy Crighton
    note: Maggie & Emma's Group

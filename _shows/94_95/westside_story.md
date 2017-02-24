@@ -102,7 +102,7 @@ crew:
   - role: Set Construction
     name: Jason Alldridge
   - role: Set Construction
-    name: Steven Broughton
+    name: Steve Broughton
   - role: Piano
     name: Karl Jeffrey
   - role: Flute

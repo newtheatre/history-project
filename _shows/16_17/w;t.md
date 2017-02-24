@@ -46,7 +46,7 @@ crew:
 - role: Technical Operator
   name: Adam Frankland
 - role: Technical Operator
-  name: Matthew Lewington
+  name: Matthew Lewinton
 - role: Technical Operator
   name: Tom Proffitt
 - role: Stage Manager

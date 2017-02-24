@@ -40,7 +40,7 @@ crew:
  - role: Producer
    name: Joe Strickland
  - role: Production Assistant
-   name: Louis Croft
+   name: Louise Croft
  - role: Technical Director
    name: Joanne Blunt
  - role: Shadow Technical Director

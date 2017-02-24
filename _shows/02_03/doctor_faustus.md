@@ -92,7 +92,7 @@ crew:
   - role: Backstage
     name: Tom King
   - role: Wardrobe Assistance
-    name: Sam Partridge
+    name: Samantha Partridge
   - role: Wardrobe Assistance
     name: Judith Thei
 

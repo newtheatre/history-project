@@ -70,7 +70,7 @@ crew:
 - role: Technical Operator
   name: Jonny Gate
 - role: Technical Operator
-  name: Karl Nycklemore
+  name: Karl Nycklemoe
 - role: Technical Operator
   name: Adam Humphries
 - role: Technical Operator

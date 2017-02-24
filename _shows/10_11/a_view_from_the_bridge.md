@@ -46,7 +46,7 @@ crew:
   - role: Technical Operator
     name: Roger Smissen
   - role: Technical Operator
-    name: Pete Bradley
+    name: Peter Bradley
 assets:
   - type: poster
     image: 2svCk98

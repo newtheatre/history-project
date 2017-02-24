@@ -22,7 +22,7 @@ crew:
   - role: Producer
     name: Charlotte van Rhee
   - role: Assistant Director
-    name: Matthew Lewington
+    name: Matthew Lewinton
   - role: Technical Director
     name: Gus Herbert
   - role: Lighting Designer

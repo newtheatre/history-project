@@ -43,7 +43,7 @@ cast:
    note: Gus & Ollie's Group
  - name: Jacob McCafferty
    note: Gus & Ollie's Group
- - name: Clarissa Teo
+ - name: Clarissa-Anne Teo
    note: Jake's Group
  - name: Alba Bodi
    note: Jake's Group
@@ -53,7 +53,7 @@ cast:
    note: Jake's Group
  - name: Josh Battaliou
    note: Jake's Group
- - name: Leo Goodall
+ - name: Leonardo Goodall
    note: Jake's Group
  - name: James Curling
    note: Jake's Group
@@ -192,7 +192,7 @@ crew:
  - role: Director
    name: Matt Hodges
  - role: Director
-   name: Tyler Gordon
+   name: Tyler-Antonia Gordon
  - role: Director
    name: Page Phillips Harrington
  - role: Director

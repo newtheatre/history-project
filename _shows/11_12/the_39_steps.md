@@ -16,7 +16,7 @@ cast:
   - role: Clown
     name: Ben Hollands
   - role: Clown
-    name: Nick Jeffreys
+    name: Nick Jeffrey
 
 crew:
   - role: Director

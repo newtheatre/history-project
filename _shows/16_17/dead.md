@@ -37,7 +37,7 @@ cast:
 
 crew:
 - role: Director
-  name: Lawrence Cuthbert
+  name: Laurence Cuthbert
 - role: Director
   name: Josh Mallalieu
 - role: Producer
