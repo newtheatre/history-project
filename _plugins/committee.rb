@@ -13,7 +13,8 @@ module Jekyll
     end
 
     def get_committee_legacy_paths(committee)
-      "committees/#{committee.basename_without_ext}.html"
+      # Retired, was live 2015-10-28 until 2017-02-24
+      # "committees/#{committee.basename_without_ext}.html"
     end
 
     def generate_committee(committee)
@@ -28,7 +29,8 @@ module Jekyll
       end
 
       # Generate the legacy path for 301 redirect re. #142 Make semantic and pretty urls
-      committee.data["redirect_from"] = get_committee_legacy_paths(committee)
+      # No legacy paths currently, disable
+      # committee.data["redirect_from"] = get_committee_legacy_paths(committee)
     end
 
     def generate(site)
