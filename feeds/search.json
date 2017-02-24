@@ -1,6 +1,7 @@
 ---
 # Search index feed, is processed by _coffee/search_index_generator.coffee to
 # build the actual index used on the live site.
+excerpt: ""
 ---
 {% assign first = true %}
 [

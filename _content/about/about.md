@@ -24,10 +24,9 @@ See the [contributing](/contributing/) section for details on how to help out.
 
 ## People
 
-- **Project Lead:** Phil Geller
-- **Development Lead:** Will Pimblett
-- **Editor:** Nathan Penney
-- **Editor:** Nick Stevenson
+{% for person in site.data.humans %}
+- **{{ person.role }}:** [{{ person.name }}](/people/{{ person.bio }})
+{% endfor %}
 
 </div>
 <div class="grid-8" markdown="1">
@@ -53,7 +52,7 @@ See the [contributing](/contributing/) section for details on how to help out.
 
 ## Open codebase
 
-The entire codebase used to build this website is available on [GitHub](https://github.com/newtheatre/history-project). While the project as a whole isn't particularly helpful for other organizations, what we're doing here can be described as [*coding in the open*](https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/), rather than building an open source project. That said parts of the project may be of interest or use to others. This repository is a mix of source and content, as such there are two licences that apply.
+The entire codebase used to build this website is available on [GitHub](https://github.com/newtheatre/history-project). While the project as a whole isn't particularly helpful for other organizations, rather than building an open source project what we're doing can be described as [*coding in the open*](https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/). That said parts of the project may be of interest or use to others. This repository is a mix of source and content, as such there are two licences that apply.
 
 - All source files (HTML templates, Sass, CoffeeScript, Ruby, shell scripts) are released under the [MIT licence](https://opensource.org/licenses/MIT).
-- All content files (HTML files, Markdown, YAML datafiles, images, graphics) are copyright © The Nottingham New Theatre 2016.
+- All content files (HTML files, Markdown, YAML datafiles, images, graphics) are Copyright © The Nottingham New Theatre {{ site.time | date: "%Y" }}.

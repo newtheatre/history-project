@@ -1,34 +1,21 @@
 ---
 permalink: /humans.txt
+excerpt: ""
 ---
 /* TEAM */
-  Project Lead / Developer: Will Pimblett
-  Bio: https://history.newtheatre.org.uk/people/will_pimblett/
-  Contact: webmaster [at] newtheatre.org.uk
-  Twitter: @willpimblett
-  From: Cambridge, UK
+  {% for person in site.data.humans %}{{ person.role }}: {{ person.name }}
+  Bio: {{ site.url }}/people/{{ person.bio }}/
 
-  Project Lead / Content: Phil Geller
-  Bio: https://history.newtheatre.org.uk/people/philip_geller/
-  Twitter: @PJGeller
-
-  Editor: Nick Stevenson
-  Bio: https://history.newtheatre.org.uk/people/nick_stevenson/
-  Twitter: @njstevenson14
-
-  Editor: Nathan Penney
-  Bio: https://history.newtheatre.org.uk/people/nathan_penney/
-  Twitter: @nhyty96
-
+  {% endfor %}
 /* THANKS */
-
   Vagrant Setup: Tom Price
 
   Browser testing tools generously provided by BrowserStack.
 
 /* SITE */
-  Last update: {{site.time | date: "%Y-%m-%d" }}
+  Last update: {{ site.time | date: "%Y-%m-%d" }}
   Language: English
   Doctype: HTML5
-  Build: Jekyll, Travis CI
+  Build: Gulp, Jekyll, Travis CI
+  Test: htmltest, jsonlint
   IDE: Sublime Text
