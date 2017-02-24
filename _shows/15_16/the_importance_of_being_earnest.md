@@ -22,7 +22,7 @@ cast:
  - role: Gwendolen Fairfax
    name: Emma Summerton
  - role: Cecily Cardew
-   name: Crissy Corquin
+   name: Chrissy Courquin
  - role: Miss Prism
    name: Iona Hampson
  - role: Dr Chasuble

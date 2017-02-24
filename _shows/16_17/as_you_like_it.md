@@ -31,7 +31,7 @@ cast:
   name: Jeremy Dunn
 - role: Audrey
   note: Ensemble
-  name: Chrissy Corquin
+  name: Chrissy Courquin
 - role: Jacques de Bois, Amiens
   note: Ensemble
   name: Rose Edgeworth
