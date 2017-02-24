@@ -206,15 +206,15 @@ crew:
  - role: Director
    name: Maddie Hardy
  - role: Lighting Designer
-    name: Joseph Heil
+   name: Joseph Heil
  - role: Technical Director
-    name: David Taylor
+   name: David Taylor
  - role: Technical Operator
-    name: Joseph Heil
+   name: Joseph Heil
  - role: Technical Operator
-    name: Joanne Blunt
+   name: Joanne Blunt
  - role: Technical Operator
-    name: Sam Osborne
+   name: Sam Osborne
 
 assets:
   - type: poster
