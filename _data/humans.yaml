@@ -1,0 +1,19 @@
+- name: Will Pimblett
+  role: Project Lead
+  bio: will_pimblett
+- name: Nathan Penney
+  role: Editor
+  bio: nathan_penney
+- name: Phil Geller
+  role: Editor
+  bio: philip_geller
+- name: Nick Stevenson
+  role: Editor
+  bio: nick_stevenson
+- name: Ben Woodford
+  role: Contributor
+  bio: ben_woodford
+- name: David Taylor
+  role: Contributor
+  bio: david_taylor
+
