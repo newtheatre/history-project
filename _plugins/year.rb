@@ -74,7 +74,8 @@ module Jekyll
     end
 
     def get_year_legacy_path(year)
-      "years/#{year.basename_without_ext}.html"
+      # Retired, was live 2015-10-29 until 2017-02-24
+      # "years/#{year.basename_without_ext}.html"
     end
 
     def get_year_slug(year)
@@ -98,7 +99,8 @@ module Jekyll
       @top_show_count ||= 0 # Instance var common to all years
       @top_show_count = year.data["show_count"] if year.data["show_count"] > @top_show_count
 
-      year.data["redirect_from"] = Array(get_year_legacy_path(year)).freeze
+      # No legacy paths currently, disable
+      # year.data["redirect_from"] = Array(get_year_legacy_path(year)).freeze
     end
 
     def generate(site)

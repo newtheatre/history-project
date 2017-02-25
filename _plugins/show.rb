@@ -112,7 +112,8 @@ module Jekyll
     end
 
     def get_show_legacy_paths(show)
-      "shows/#{show.data['year']}/#{show.basename_without_ext}.html"
+      # Retired, was live 2015-10-29 until 2017-02-24
+      # "shows/#{show.data['year']}/#{show.basename_without_ext}.html"
     end
 
     IGNORE_MISSING_IN_SEASONS = [
@@ -179,7 +180,8 @@ module Jekyll
       show.data["smugmug_album"] = get_show_smugmug(show)
 
       # Generate the legacy path for 301 redirect re. #142 Make semantic and pretty urls
-      show.data["redirect_from"] = Array(get_show_legacy_paths(show)).freeze
+      # No legacy paths currently, disable
+      # show.data["redirect_from"] = Array(get_show_legacy_paths(show)).freeze
 
       # Replace assets' image attr with a SmugImage
       show.data["assets"] ||= []
