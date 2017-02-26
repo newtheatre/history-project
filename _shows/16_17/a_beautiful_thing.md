@@ -17,7 +17,7 @@ cast:
 - role: Rachel
   name: Chloe Richardson
 - role: Journalist
-  name: Jessica Lundholm
+  name: Jess Lundholm
 - role: Peter
   name: Callum Walker
 - role: Ella
