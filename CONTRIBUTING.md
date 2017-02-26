@@ -22,4 +22,4 @@ These are super helpful in case of conflicts of information. For example if we g
 
 See the [site docs](https://history.newtheatre.org.uk/docs/) and [contributing](https://history.newtheatre.org.uk/contributing/) page for more.
 
-If you get stuck, or want to help out another way, send us an email at <alumni@newtheatre.org.uk> or get in touch with any of the [editors](https://github.com/orgs/newtheatre/people).
+If you get stuck, or want to help out another way, send us an email at <history@newtheatre.org.uk> or get in touch with any of the [editors](https://github.com/orgs/newtheatre/people).
