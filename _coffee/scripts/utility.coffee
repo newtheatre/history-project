@@ -64,6 +64,11 @@ $(document).ready ->
         fetch_usage_list "/feeds/smug_headshots.json", (data) ->
           add_usage_data(data)
           $("#smug-images").tablesorter()
+      # Venues
+      if key == "BdFr84"
+        fetch_usage_list "/feeds/smug_venues.json", (data) ->
+          add_usage_data(data)
+          $("#smug-images").tablesorter()
 
 
 
