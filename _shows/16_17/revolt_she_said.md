@@ -58,7 +58,7 @@ crew:
   name: Joseph Heil
 
 
-# prod_shots: 
+prod_shots: 7hCdR5
 
 assets:
    - type: poster
