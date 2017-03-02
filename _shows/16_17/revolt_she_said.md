@@ -60,9 +60,9 @@ crew:
 
 # prod_shots: 
 
-# assets:
-#   - type: poster
-#     image: 
+assets:
+   - type: poster
+     image: ZKnbbMJ
 
 ---
 
