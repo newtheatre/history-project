@@ -14,48 +14,19 @@ cast:
     name: Jamie Griffiths
   - role: Mephistopheles
     name: Ali Sherriffs
-  - role: Scholar
+  - role: Scholar/Robin/Lucifer/Bruno
     name: Nick Belcher
-  - role: Robin
-    name: Nick Belcher
-  - role: Lucifer
-    name: Nick Belcher
-  - role: Bruno
-    name: Nick Belcher
-  - role: Scholar
+  - role: Scholar/Empress Carola of Germany
     name: Sophie Bostock
-  - role: Empress Carola of Germany
-    name: Sophie Bostock
-  - role: Scholar
+  - role: Scholar/Cornelia/Duchess of Vanholt
     name: Emily Hawkins
-  - role: Cornelia
-    name: Emily Hawkins
-  - role: Duchess of Vanholt
-    name: Emily Hawkins
-  - role: Valdes
+  - role: Valdes/Beelzebub/Pope/Duke of Vanholt/Old Man
     name: Andrew McDonnell
-  - role: Beelzebub
-    name: Andrew McDonnell
-  - role: Pope
-    name: Andrew McDonnell
-  - role: Duke of Vanholt
-    name: Andrew McDonnell
-  - role: Old Man
-    name: Andrew McDonnell
-  - role: Wagner
+  - role: Wagner/Good Angel/Rafe/Lord Raymond of Lorraine
     name: Chris Roberts
-  - role: Good Angel
-    name: Chris Roberts
-  - role: Rafe
-    name: Chris Roberts
-  - role: Lord Raymond of Lorraine
-    name: Chris Roberts
-  - role: Scholar
+  - role: Scholar / Evil Angel / Knight
     name: Sam Taylor
-  - role: Evil Anger
-    name: Sam Taylor
-  - role: Knight
-    name: Sam Taylor
+
 
 crew:
   - role: Director
@@ -121,3 +92,4 @@ assets:
 published: true
 ---
 
+  
