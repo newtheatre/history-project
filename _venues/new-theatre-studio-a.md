@@ -13,5 +13,5 @@ Part of the Archaeology and Classics building left up when building was demolish
 Properly converted into a studio space in 2013, white to black walls, blue carpet to
 vinyl floor, rig and drapes installed.
 
-Studio A, with its slightly larger size and installed lighting system is used for some workshopd and is also the main performace space for our Fringe season in the New Theatre building. However, many fringe shows explore other venues both on and off of University Park Campus
+Studio A, with its slightly larger size and installed lighting system is used for some workshops and is also the main performance space for our Fringe season in the New Theatre building. However, many fringe shows explore other venues both on and off University Park Campus
 
