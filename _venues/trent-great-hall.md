@@ -9,4 +9,4 @@ location:
 
 First opened in 1928, Trent Great Hall has been used by the university for many official functions. It has been used as a lecture hall, with special lectures having been given by both Mahatma Gandhi and Albert Einstein. However, nowadays, it is mainly used by societies for performances and other events.
 
-The space has a large proscenium arch stage at the western end of and balconies that runs along the two longer sides.
+The space has a large proscenium arch stage at the western end and balconies that run along the two longer sides.

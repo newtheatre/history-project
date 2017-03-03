@@ -17,3 +17,5 @@ location:
 
 Originally part of the Archaeology and Classics building, the main auditorium of the Nottingham New Theatre was given to the company in 1965. The foyer was remodeled in 2001 and again in 2012.
 
+The main auditorium is a 80 seat venue when used for proscenium productions, and is used by both In House and External companies. The venue is well maintained and the first two rows of seating can be removed for performances in thrust or the round.
+
