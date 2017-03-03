@@ -49,6 +49,17 @@ assets:
   - type: poster
     image: rwZGXRp
 
+links:
+  - type: Review
+  href: http://www.impactnottingham.com/2016/12/the-greatest-thing-youve-ever-seen-nottingham-new-theatre/
+  snapshot: tHtzt
+  publisher: Impact
+  author: Yee Heng Yeh
+  title: The Greatest Thing You’ve Ever Seen @ Nottingham New Theatre
+  date: 2016-12-12
+  rating: 7/10
+  quote: "[T]he script [...] notably draws upon a wide array of references to the works of directors like Kubrick, Tarantino and Nolan."
+
 ---
 
 George is a slightly obsessive lover of film; who in his final year of university meets Henry: a rational biochemist who falls in love with him because of his dreamy, philosophical outlook upon the world and passion for his art. To George, the ability to succeed in film is simple; all it involves is one thing- going into dreams and recreating those dreams for audiences. But when George is diagnosed with a condition which threatens to leave him completely blind; Henry and he have to work out not only what this means for their relationship, but also what it means when George is desperate to hold on to the one constant in his life; as the thing that helps him to achieve it is threatened to be lost forever.
