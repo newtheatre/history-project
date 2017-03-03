@@ -11,7 +11,8 @@ date_end: 2010-11-06
 cast:
   - name: Greg Fahey
   - name: Liz Stevens
-  - name: Conrad Cohen
+  - role: Azdak/Others
+    name: Conrad Cohen
   - name: Natalie Barclay
   - name: Robert Leventhall
   - name: Emily Davenport
