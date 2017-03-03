@@ -44,8 +44,6 @@ crew:
     name: Alex Seadon
   - role: Stage Manager
     name: Parmjit Sagoo
-  - role: Make-Up Designer
-    name: Hugh Purves
   - role: Publicity
     name: Ed Craft
   - role: Publicity
