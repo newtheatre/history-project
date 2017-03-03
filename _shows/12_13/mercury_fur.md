@@ -41,6 +41,8 @@ crew:
     name: Will Pimblett
   - role: Sound Designer
     name: Tom Barnes
+  - role: Set Designer
+    name: Natasha Mortimer
   - role: Technical Operator
     name: Nick Ward
   - role: Technical Operator

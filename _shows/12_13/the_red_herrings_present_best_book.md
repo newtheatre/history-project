@@ -8,6 +8,10 @@ date_start: 2013-02-13
 date_end: 2013-02-16
 venue: New Theatre
 
+crew:
+  - role: Producer
+    name: Tariye Peterside
+
 assets:
   - type: poster
     image: rFpNRqw

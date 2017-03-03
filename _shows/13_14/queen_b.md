@@ -27,6 +27,8 @@ crew:
     name: Tessa Denney
   - role: Technical Director
     name: Jo Estrin
+  - role: Set Designer
+    name: Hugh Purves
   - role: Publicity Manager
     name: Will Hedges
   - role: Company Manager

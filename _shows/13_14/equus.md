@@ -65,6 +65,8 @@ crew:
     name: Joseph Heil
   - role: Stage Manager
     name: Ollie Shortt
+  - role: Mask Designer
+    name: Hugh Purves
   - role: Costumes & Make-up
     name: Maddie Hardy
 

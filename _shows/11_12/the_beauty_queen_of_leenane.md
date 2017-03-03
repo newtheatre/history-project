@@ -19,6 +19,8 @@ crew:
     name: Lydia Scott
   - role: Lighting Designer
     name: Will Pimblett
+  - role: Set Designer
+    name: Natasha Mortimer
 
 assets:
   - type: poster
