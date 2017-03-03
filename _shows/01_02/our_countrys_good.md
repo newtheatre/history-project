@@ -9,19 +9,19 @@ venue: New Theatre
 date_start: 2001-11-21
 date_end: 2001-11-24
 cast:
-  - role: Captain Arthur Phillips
+  - role: Captain Arthur Phillips/John Wisehammer
     name: Philip Hamann
   - role: Major Robbie Ross
-    name: Joseph Arkley
-  - role: Captain David Collins
+    name: Joseph Arkley/Ketch Freeman
+  - role: Captain David Collins/Robert Sideway
     name: Ben Bergin
-  - role: Captain Watkin Tench
+  - role: Captain Watkin Tench/Caeser
     name: Mike Reich
-  - role: Captain Jeremy Campbell
+  - role: Captain Jeremy Campbell/Midshipman Harry Brewer/John Arscott
     name: Tom King
-  - role: Liutenant Will Dawes
+  - role: Liutenant Will Dawes/Mary Brenham/Meg Long
     name: Marni Miller-Becker
-  - role: Liutenant George Johnston
+  - role: Liutenant George Johnston/Duckling Smith
     name: Stephanie Ward
   - role: 2nd Liutenant Ralph Clark
     name: Richard Whitehead
@@ -29,28 +29,10 @@ cast:
     name: "Rhoda Ofori-Attah"
   - role: Reverend Johnson
     name: Lynette Shanbury
-  - role: Midhsipman Harry Brewer
-    name: Tom King
-  - role: Ketch Freeman
-    name: Joseph Arkley
-  - role: Mary Brenham
-    name: Marni Miller-Becker
   - role: Dabby Bryant
     name: "Rhoda Ofori-Attah"
-  - role: Robert Sideway
-    name: Ben Bergin
-  - role: John Wisehammer
-    name: Philip Hamann
-  - role: Caeser
-    name: Mike Reich
   - role: Liz Morden
     name: Lynette Shanbury
-  - role: Duckling Smith
-    name: Stephanie Ward
-  - role: John Arscott
-    name: Tom King
-  - role: Meg Long
-    name: Marni Miller-Becker
   - role: Aborigine
     name: "Rhoda Ofori-Attah"
 crew:
