@@ -90,7 +90,20 @@ prod_shots: PZFmj8
 assets:
   - type: poster
     image: rrNPzgH
-
+  - type: poster
+    image: HcR6kV4
+  - type: poster
+    image: 7KMvQj2
+  - type: poster
+    image: wj2TsNt
+  - type: poster
+    image: d8CH6zc
+  - type: poster
+    image: FSwpH8K
+  - type: poster
+    image: MBPdBXs
+  - type: poster
+    image: xt7QBwS
 ---
 
 A fire breaks out in a Victorian manor house in 1895, killing all inside. Unfortunately, Heaven doesn’t notice. For ninety years the six neglected spirits sit about wondering what went wrong, until a young woman bursts through the door bringing all the glitz and glamour of the 1980s and throwing their ghoulish existences into chaos. Within a week, the young bachelor gentleman of the ghosts has fallen head over heels for the new tenant who can neither see nor hear him. Meanwhile, his best friend prepares to venture tentatively into the outside world for the first time, and the blustering patriarch of the ghost family struggles to conceal a dangerous secret from his love-starved wife, who is determined to breathe fresh passion into their long lifeless marriage. In an original musical that features everything from dancing mystics to underpaid angels and trips to the afterlife and back, everyone will be shown that it is never too late to begin life again, even if you’re already dead.
