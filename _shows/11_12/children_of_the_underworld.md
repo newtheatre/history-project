@@ -2,7 +2,7 @@
 title: "Children Of The Underworld"
 playwright:
 season: UNCUT
-season_sort: 100
+season_sort: 105
 period: Spring
 venue: Open Air, University Park Campus
 venue_sort: University Park
