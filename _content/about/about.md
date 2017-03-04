@@ -25,7 +25,7 @@ See the [contributing](/contributing/) section for details on how to help out.
 ## People
 
 {% for person in site.data.humans %}
-- **{{ person.role }}:** [{{ person.name }}](/people/{{ person.bio }})
+- **{{ person.role }}:** [{{ person.name }}](/people/{{ person.bio }}/)
 {% endfor %}
 
 </div>

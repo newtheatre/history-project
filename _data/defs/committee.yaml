@@ -7,7 +7,7 @@
 - attr: committee
   type: array
   short: Committee members
-  description: "Uses the [person list](/docs/person_list) format"
+  description: "Uses the [person list](/docs/person_list/) format"
 
 - attr: year
   type: string
