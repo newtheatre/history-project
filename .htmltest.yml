@@ -1,6 +1,5 @@
 DirectoryPath: _site
 CheckDoctype: false
-IgnoreDirectoryMissingTrailingSlash: true
 IgnoreURLs:
 - "history.newtheatre.org.uk"
 - "photos.smugmug.com"
