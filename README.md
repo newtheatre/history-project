@@ -62,6 +62,25 @@ Once you have download the requirements and installed them successfully you simp
 
 The vagrant box has port 8000 mapped to 8000 on your local machine, so `http://127.0.0.1:8000` should still work.
 
+## Docker
+
+[Docker](https://www.docker.com) is a cross platform software container platform. Following these instructions will allow you to build
+and view the site on your local machine in an environment as close to the production system as possible.
+
+- [Install Docker](https://www.docker.com/community-edition)
+- `git clone https://github.com/newtheatre/history-project.git` to clone the repo to your computer.
+- `cd history-project` to change into the directory.
+- (Mac/Linux) `./run_dev.sh create install build run serve`
+- (Windows) `run_dev.bat create install build run serve`
+
+Once everything has finished running, you should see the site at `http://127.0.0.1:8000`. Hit 
+<kbd>ctrl</kbd>+<kbd>c</kbd> to stop the server.
+
+You can add/remove steps to `./run_dev` as needed. For example, there is no need to run `create` or `install`
+every time you want to build the site. 
+
+Environment variables can be changed by modifying the `ENV` lines in the Dockerfile (and then running `create` again).
+
 ## Editing
 
 See the [site documentation](https://history.newtheatre.org.uk/docs/).
