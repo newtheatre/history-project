@@ -34,7 +34,7 @@ fetch_usage_list = (url, callback) ->
 
 add_usage_data = (albums) ->
   $.each albums, (albumKey, show) ->
-    $("[data-key=#{albumKey}] .usage").html("<a href=\"#{ show['link'] }\" class=\"usage-link\">Y</a>").addClass("yes")
+    $("[data-key=#{albumKey}] .usage").html("<a href=\"#{ show['link'] }\" title=\"#{ show['title'] }\" class=\"usage-link\">Y</a>").addClass("yes")
 
 $(document).ready ->
   if $('body').hasClass 'util-smug-albums'
