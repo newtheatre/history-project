@@ -1,9 +1,8 @@
 ---
 title: "Revolt. She Said. Revolt Again."
 playwright: Alice Birch
-student_written: false
 season: In House
-season_sort: 140
+season_sort: 230
 period: Spring
 venue: New Theatre
 date_start: 2017-03-01
