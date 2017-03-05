@@ -24,7 +24,7 @@ crew:
 - role: Producer
   name: Joanne Blunt
 - role: Shadow Director
-  name: Natalia Gonzalez
+  name: Natalia Gonzalez Morales
 - role: Technical Director
   name: Hannah Burne
 - role: Lighting Designer
