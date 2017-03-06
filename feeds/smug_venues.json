@@ -1,0 +1,21 @@
+---
+# Lists all venue images by their SM ImageKey's, used to test usage of images
+# within venue SM album.
+---
+{
+  {% assign first_actual = true %}
+
+{% for venue in site.venues %}
+	{% for image in venue.images %}
+		
+			{% unless first_actual %},{% endunless %}
+		    {% assign first_actual = false %}
+		    {{ image | jsonify }}: {
+		      "title": {{ venue.title | jsonify }},
+		      "link": {{ venue.url | jsonify }}
+		    }
+		
+	{% endfor %}
+{% endfor %}
+
+}

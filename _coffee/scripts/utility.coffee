@@ -34,7 +34,8 @@ fetch_usage_list = (url, callback) ->
 
 add_usage_data = (albums) ->
   $.each albums, (albumKey, show) ->
-    $("[data-key=#{albumKey}] .usage").html("<a href=\"#{ show['link'] }\" class=\"usage-link\">Y</a>").addClass("yes")
+    $("[data-key=#{albumKey}] .usage").html("<a href=\"#{ show['link'] }\" title=\"#{ show['title'] }\"
+                                                class=\"usage-link\">Y</a>").addClass("yes")
 
 $(document).ready ->
   if $('body').hasClass 'util-smug-albums'
@@ -62,6 +63,11 @@ $(document).ready ->
       # Headshots
       if key == "hZh8Jt"
         fetch_usage_list "/feeds/smug_headshots.json", (data) ->
+          add_usage_data(data)
+          $("#smug-images").tablesorter()
+      # Venues
+      if key == "BdFr84"
+        fetch_usage_list "/feeds/smug_venues.json", (data) ->
           add_usage_data(data)
           $("#smug-images").tablesorter()
 
