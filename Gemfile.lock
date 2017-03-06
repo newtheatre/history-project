@@ -68,7 +68,6 @@ DEPENDENCIES
   jekyll-sitemap (~> 1.0.0)
   liquid-c
   octokit (~> 4.6.2)
-  sass
 
 BUNDLED WITH
    1.13.6
