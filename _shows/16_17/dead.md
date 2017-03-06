@@ -107,23 +107,23 @@ assets:
 
 links:
   - type: Review
-  href: http://www.hercampus.com/school/nottingham/review-dead-musical-nottingham-new-theatre
-  snapshot: VfSJu
-  publisher: HerCampus Nottingham
-  author: Emily Brady
-  title: Review: DEAD: A Musical at Nottingham New Theatre
-  date: 2016-12-15
-  stars: 5
-  quote: "It’s testament to [...] the cast, that they manage to sing and dance so wonderfully whilst conveying such brilliantly realised characters."
-  - type: Review
-  href: http://www.impactnottingham.com/2016/12/dead-a-musical-nottingham-new-theatre/
-  snapshot: WJKCa
-  publisher: Impact
-  author: Emma Pallen
-  title: DEAD: A Musical @ Nottingham New Theatre
-  date: 2016-12-15
-  rating: 10/10 
-  quote: "The faultless scriptwriting is brought to life (no pun intended) by a team of equally brilliant actors."
+    href: http://www.hercampus.com/school/nottingham/review-dead-musical-nottingham-new-theatre
+    snapshot: VfSJu
+    publisher: HerCampus Nottingham
+    author: Emily Brady
+    title: "Review: DEAD: A Musical at Nottingham New Theatre"
+    date: 2016-12-15
+    stars: 5
+    quote: "It’s testament to [...] the cast, that they manage to sing and dance so wonderfully whilst conveying such brilliantly realised characters."
+    - type: Review
+    href: http://www.impactnottingham.com/2016/12/dead-a-musical-nottingham-new-theatre/
+    snapshot: WJKCa
+    publisher: Impact
+    author: Emma Pallen
+    title: "DEAD: A Musical @ Nottingham New Theatre"
+    date: 2016-12-15
+    rating: 10/10 
+    quote: "The faultless scriptwriting is brought to life (no pun intended) by a team of equally brilliant actors."
 ---
 
 A fire breaks out in a Victorian manor house in 1895, killing all inside. Unfortunately, Heaven doesn’t notice. For ninety years the six neglected spirits sit about wondering what went wrong, until a young woman bursts through the door bringing all the glitz and glamour of the 1980s and throwing their ghoulish existences into chaos. Within a week, the young bachelor gentleman of the ghosts has fallen head over heels for the new tenant who can neither see nor hear him. Meanwhile, his best friend prepares to venture tentatively into the outside world for the first time, and the blustering patriarch of the ghost family struggles to conceal a dangerous secret from his love-starved wife, who is determined to breathe fresh passion into their long lifeless marriage. In an original musical that features everything from dancing mystics to underpaid angels and trips to the afterlife and back, everyone will be shown that it is never too late to begin life again, even if you’re already dead.

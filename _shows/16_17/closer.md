@@ -78,7 +78,7 @@ links:
     snapshot: mkdaZ
     publisher: HerCampus 
     author: Emily Brady
-    title: Review: Contractions at the Nottingham New Theatre
+    title: "Review: Contractions at the Nottingham New Theatre"
     date: 2016-11-11
     stars: 4
     quote: "Closer is a hot-blooded and drama-filled masterclass in student theatre, [...] brought to life with striking honesty."
@@ -87,7 +87,7 @@ links:
     snapshot: sZCD2
     publisher: Impact Nottingham
     author: Yasemin Craggs Mersinoglu
-    title: Closer @ Nottingham New Theatre
+    title: "Closer @ Nottingham New Theatre"
     date: 2016-11-11
     rating: 7/10
     quote: "The manipulation and subsequent guilt or otherwise was portrayed with genuine feeling and each actor’s dedication to the performance was well received by the audience."

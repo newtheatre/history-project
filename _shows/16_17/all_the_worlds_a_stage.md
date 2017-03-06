@@ -45,14 +45,14 @@ assets:
 
 links:
   - type: Review
-  href: http://www.hercampus.com/school/nottingham/review-all-world-s-stage-other-stories-nottingham-new-theatre
-  snapshot: Nq5Vd
-  publisher: HerCampus Nottingham
-  author: Emily Brady
-  title: Review: All the World’s A Stage & Other Stories at Nottingham New Theatre
-  date: 2016-12-02
-  stars: 3.5
-  quote: "The same five actors multi-role to create a fully fleshed-out universe, and each play their part with an absurd conviction that perfectly complements the surreal style of the show."
+    href: http://www.hercampus.com/school/nottingham/review-all-world-s-stage-other-stories-nottingham-new-theatre
+    snapshot: Nq5Vd
+    publisher: HerCampus Nottingham
+    author: Emily Brady
+    title: "Review: All the World’s A Stage & Other Stories at Nottingham New Theatre"
+    date: 2016-12-02
+    stars: 3.5
+    quote: "The same five actors multi-role to create a fully fleshed-out universe, and each play their part with an absurd conviction that perfectly complements the surreal style of the show."
 
 ---
 A director tries his hand at experimental theatre, to disastrous results. An incompetent doctor watches the auditions of a talent show, where the judges start an argument. A machine becomes sentient to the horror of a careers adviser. And a dictator has a friendly chat with the man he put in prison, only to discover that something is very, very wrong…

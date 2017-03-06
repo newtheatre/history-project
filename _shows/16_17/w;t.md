@@ -82,7 +82,7 @@ links:
     snapshot: yqHUq
     publisher: HerCampus
     author: Emily Brady
-    title: Review: W;t at Nottingham New Theatre
+    title: "Review: W;t at Nottingham New Theatre"
     date: 2016-12-01
     stars: 4.5
     quote: "Simultaneously heart-breaking and life-affirming, and showcases the best that student theatre can be."
@@ -91,7 +91,7 @@ links:
     snapshot: DMuLw
     publisher: Facebook
     author: Kev Castle
-    title: "W;t" by Margaret Edson
+    title: ""W;t" by Margaret Edson"
     date: 2016-12-01
     quote: "This is probably one of the most powerful and emotional plays that I have seen performed at the New Theatre"
   - type: Review
@@ -99,7 +99,7 @@ links:
     snapshot: cL0N1
     publisher: Impact Nottingham
     author: Anna Watson
-    title: W;T @ Nottingham New Theatre
+    title: "W;T @ Nottingham New Theatre"
     date: 2016-12-02
     rating: 9/10 
     quote: "W;t was a poignant exploration of the effects illness and deterioration has, even on those may who seem distant and untouchable."

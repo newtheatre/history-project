@@ -37,23 +37,23 @@ assets:
 
 links:
   - type: Review
-  href: http://www.impactnottingham.com/2016/12/the-super-awesome-happy-fun-time-trick-performance-nottingham-new-theatre/
-  snapshot: P56Cd
-  publisher: Impact
-  author: Yee Heng Yeh
-  title: The Super Awesome Happy Fun-Time Trick Performance @ Nottingham New Theatre
-  date: 2016-12-06
-  rating: 7/10
-  quote: "[T]he show truly shines when the actors are interacting with and playing off one another, be it screaming expletives in someone’s face, struggling for the spotlight, or coming together for a dance or pose or magic trick."
+    href: http://www.impactnottingham.com/2016/12/the-super-awesome-happy-fun-time-trick-performance-nottingham-new-theatre/
+    snapshot: P56Cd
+    publisher: Impact
+    author: Yee Heng Yeh
+    title: "The Super Awesome Happy Fun-Time Trick Performance @ Nottingham New Theatre"
+    date: 2016-12-06
+    rating: 7/10
+    quote: "[T]he show truly shines when the actors are interacting with and playing off one another, be it screaming expletives in someone’s face, struggling for the spotlight, or coming together for a dance or pose or magic trick."
   - type: Review
-  href: http://www.hercampus.com/school/nottingham/review-super-awesome-happy-fun-time-trick-performance
-  snapshot: hdiUf
-  publisher: HerCampus Nottingham
-  author: Emily Brady
-  title: Review: The Super Awesome Happy Fun-Time Trick Performance
-  date: 2016-12-09
-  stars: 3.5
-  quote: "It’s funny, it’s dark, and it’s a bold and daring piece of Fringe theatre."
+    href: http://www.hercampus.com/school/nottingham/review-super-awesome-happy-fun-time-trick-performance
+    snapshot: hdiUf
+    publisher: HerCampus Nottingham
+    author: Emily Brady
+    title: "Review: The Super Awesome Happy Fun-Time Trick Performance"
+    date: 2016-12-09
+    stars: 3.5
+    quote: "It’s funny, it’s dark, and it’s a bold and daring piece of Fringe theatre."
 
 ---
 

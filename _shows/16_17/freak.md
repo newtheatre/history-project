@@ -50,7 +50,7 @@ links:
     snapshot: shsaN
     publisher: HerCampus 
     author: Charlotte Hegley
-    title: Review: Freak at Nottingham New Theatre
+    title: "Review: Freak at Nottingham New Theatre"
     date: 2016-11-05
     stars: 4
     quote: "An excellent drama presentation of modern teenage expectations of sex compared almost too closely to the consequences of adult desire."
@@ -59,7 +59,7 @@ links:
     snapshot: 1LotF
     publisher: Impact
     author: Shanai Momi
-    title: Freak @ NNT
+    title: "Freak @ NNT"
     date: 2016-11-04
     rating: 8/10
     quote: "Together, these two actresses complement one another tremendously, making them an easy partnership for the audience to resonate with."

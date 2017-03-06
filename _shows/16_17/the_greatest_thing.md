@@ -51,14 +51,14 @@ assets:
 
 links:
   - type: Review
-  href: http://www.impactnottingham.com/2016/12/the-greatest-thing-youve-ever-seen-nottingham-new-theatre/
-  snapshot: tHtzt
-  publisher: Impact
-  author: Yee Heng Yeh
-  title: The Greatest Thing You’ve Ever Seen @ Nottingham New Theatre
-  date: 2016-12-12
-  rating: 7/10
-  quote: "[T]he script [...] notably draws upon a wide array of references to the works of directors like Kubrick, Tarantino and Nolan."
+    href: http://www.impactnottingham.com/2016/12/the-greatest-thing-youve-ever-seen-nottingham-new-theatre/
+    snapshot: tHtzt
+    publisher: Impact
+    author: Yee Heng Yeh
+    title: "The Greatest Thing You’ve Ever Seen @ Nottingham New Theatre"
+    date: 2016-12-12
+    rating: 7/10
+    quote: "[T]he script [...] notably draws upon a wide array of references to the works of directors like Kubrick, Tarantino and Nolan."
 
 ---
 

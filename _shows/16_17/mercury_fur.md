@@ -74,14 +74,14 @@ assets:
 
 links:
   - type: Review
-  href: http://www.impactnottingham.com/2016/11/mercury-fur-nottingham-new-theatre/
-  snapshot: 0PLlj
-  publisher: Impact Nottingham
-  author: Katie Cash
-  title: Mercury Fur @ Nottingham New Theatre
-  date: 2016-11-26
-  rating: 9/10
-  quote: "Think *Black Mirror*, but the scare factor and intensity x10."
+    href: http://www.impactnottingham.com/2016/11/mercury-fur-nottingham-new-theatre/
+    snapshot: 0PLlj
+    publisher: Impact Nottingham
+    author: Katie Cash
+    title: "Mercury Fur @ Nottingham New Theatre"
+    date: 2016-11-26
+    rating: 9/10
+    quote: "Think *Black Mirror*, but the scare factor and intensity x10."
 
 ---
 

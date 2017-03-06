@@ -51,7 +51,7 @@ links:
     snapshot: R41QS
     publisher: HerCampus 
     author: Emily Brady
-    title: Review: A Beautiful Thing at The Lofthouse
+    title: "Review: A Beautiful Thing at The Lofthouse"
     date: 2016-11-23
     stars: 4.5
     quote: "A blend of naturalism and more abstract theatre, the script’s greatest strength is its ability to convey a moment with such rich variety."
@@ -60,7 +60,7 @@ links:
     snapshot: jXB0x
     publisher: Impact
     author: Antonia Stearn
-    title: A Beautiful Thing @ The Lofthouse
+    title: "A Beautiful Thing @ The Lofthouse"
     date: 2016-11-24
     rating: 7/10
     quote: "Director Emma White, and Producer Darcey Graham have created an original and unique way of combining these complex themes with comedy, by involving the audience to create a masterly fresh exploration of defining beauty."

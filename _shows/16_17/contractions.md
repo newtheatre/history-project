@@ -38,7 +38,7 @@ links:
     snapshot: e1z58
     publisher: HerCampus 
     author: Emily Brady
-    title: Review: Contractions at the Nottingham New Theatre
+    title: "Review: Contractions at the Nottingham New Theatre"
     date: 2016-11-17
     stars: 4
     quote: "At times laugh-out loud funny, at others incredibly sinister, Contractions is a thought-provoking and enthralling production courtesy of the Nottingham New Theatre."
@@ -47,7 +47,7 @@ links:
     snapshot: ZSmDb
     publisher: Impact Nottingham
     author: Yee Heng Yeh
-    title: Contractions @ Nottingham New Theatre
+    title: "Contractions @ Nottingham New Theatre"
     date: 2016-11-16
     rating: 8/10
     quote: "Under the direction of Andrew Houghton and the production of Miguel Barrulas, the rapid-fire exchanges and repetition of phrases are brought to life as entertaining, almost rhythmic dialogue."
