@@ -21,6 +21,7 @@ cast:
     name: Aimee Gaudin
   - role: Rosie
     name: Nikki-Lee Clarke
+    person: false
   - role: Giles
     name: Eoin Buckley
   - role: Ensemble
@@ -37,8 +38,9 @@ crew:
     name: Kat Tye
   - role: Musical Director
     name: Nick Stevenson
-  - role: Compser
+  - role: Composer
     name: Elizabeth Sybil Charlesworth
+    person: false
   - role: Lyricist
     name: Adam H. Wells
   - role: Pianist
