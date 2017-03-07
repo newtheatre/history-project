@@ -1,5 +1,5 @@
 ---
-title: W;t
+title: "W;t"
 playwright: Margaret Edson
 season: In House
 season_sort: 100
@@ -7,6 +7,8 @@ period: Autumn
 venue: New Theatre
 date_start: 2016-11-30
 date_end: 2016-12-03
+canonical:
+ - title: Wit
 
 cast:
 - role: Vivian Bearing, Ph.D.
