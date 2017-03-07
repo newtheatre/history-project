@@ -1,0 +1,13 @@
+<ul class="show-assets-list">
+{% for review in include.reviews %} 
+	{% if review.type == "Review" %} 
+		<li> 
+			{% if review.stars %}
+				{% for i in (1..review.stars) %}<i class="fa fa-star"></i> {% endfor %}
+			{% elsif review.rating %}
+				{{ review.rating }} 
+			{% endif %}
+			<strong>{{ review.publisher }}</strong> - <em>{{ review.quote }} - <a href="{{ review.href }}" target="_blank">Full Review</a></em></li>
+	{% endif %}
+{% endfor %}
+</ul>
