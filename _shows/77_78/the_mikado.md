@@ -30,7 +30,7 @@ cast:
    name: Julie Taberner
    note: Ward of Ko-Ko
  - role: Peep-Bo
-   name: Frabces Plumbly
+   name: Frances Plumbly
    note: Ward of Ko-Ko
  - role: Katisha
    name: Chritine Allen
@@ -70,6 +70,7 @@ cast:
    name: Philip Orchard
  - role: Chorus of Noblemen
    name: Martyn Cox
+
 
 crew:
  - role: Musical Director
