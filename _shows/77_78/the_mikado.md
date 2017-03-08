@@ -5,7 +5,8 @@ period: Autumn
 season: In House
 season_sort: 80
 venue: New Theatre
-note: Was in December
+
+comment: Was in December
 
 cast:
  - role: The Mikado of Japan
@@ -40,7 +41,7 @@ cast:
  - role: Chorus of Schoolgirls
    name: Joanne Churcher
  - role: Chorus of Schoolgirls
-   name: Cathy	Clowes
+   name: Cathy Clowes
  - role: Chorus of Schoolgirls
    name: Sue Munro
  - role: Chorus of Schoolgirls
