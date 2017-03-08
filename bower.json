@@ -15,9 +15,9 @@
     "tests"
   ],
   "dependencies": {
-    "bourbon": "~4.2.2",
+    "bourbon": "~4.3.3",
     "fgrid": "*",
-    "font-awesome": "~4.6.3",
+    "font-awesome": "~4.7.0",
     "ionicons": "~2.0.1",
     "mousetrap": "~1.6.0",
     "github-issues-widget": "https://github.com/chrismear/github-issues-widget.git",
@@ -36,6 +36,6 @@
     "raven-js": "^3.0.5"
   },
   "resolutions": {
-    "bourbon": "~4.2.2"
+    "bourbon": "~4.3.3"
   }
 }
