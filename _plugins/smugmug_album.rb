@@ -37,6 +37,11 @@ class SmugAlbum < Smug
 
   def fetch_image_urls(imageIDs, size, sizeClass, sizeParameters=nil)
     # Given a list of image ids, return SM single sized images
+
+    # BUG: This method falls over if the number of imageIDs is large
+    #      fetch_album_images has been patched to only return a maximum of 350
+    #      IDs. See: https://github.com/newtheatre/history-project/issues/692
+
     Jekyll.logger.info "Fetching SM images:", "#{ imageIDs.size } at #{ size }"
 
     imageIDs_as_parameter = imageIDs.join(',')
