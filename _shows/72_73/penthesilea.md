@@ -6,7 +6,7 @@ playwright: Heinrich von Kleist
 season_sort: 50
 venue: New Theatre
 
-Cast:
+cast:
   - name: Janis Bryan
 ---
 
