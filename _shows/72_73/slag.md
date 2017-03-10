@@ -9,7 +9,7 @@ date_start: 1973-02-19
 date_end: 1973-02-23
 
 cast:
-   name: Janis Bryan
+  - name: Janis Bryan
 
 assets:
   - type: programme

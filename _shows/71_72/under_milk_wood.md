@@ -6,7 +6,7 @@ playwright: Dylan Thomas
 season_sort: 70
 
 cast:
-   name: Janis Bryan
+  - name: Janis Bryan
 
 crew:
   - role: Lighting Designer
