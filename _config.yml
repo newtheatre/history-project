@@ -15,7 +15,8 @@ show_low_crew: 5
 # How many members members is too few for a committee
 committee_low_members: 12
 
-# Styling vars shared between CSS and HEAD
+# Styling vars shared between (CSS and) HEAD
+# (CSS now separate from Jekyll build)
 color_nnt_purple: "#A54499"
 color_nnt_orange: "#FFC425"
 
@@ -27,6 +28,9 @@ gems:
 - jekyll-sitemap
 - jekyll-redirect-from
 
+include:
+- _headers
+
 exclude:
 - assets/
 - bower.json
@@ -36,7 +40,9 @@ exclude:
 - Gemfile.lock
 - googlee5aee69e17917677.html
 - gulpfile.js
+- images/
 - lib/
+- manifest.json
 - node_modules/
 - package.json
 - Rakefile
@@ -44,6 +50,15 @@ exclude:
 - tmp/
 - Vagrantfile
 - vendor/
+
+# Don't clean these in _site, we use gulp to generate them
+keep_files:
+- css
+- googlee5aee69e17917677.html
+- images
+- js
+- lib
+- manifest.json
 
 # skip_years: true
 # skip_venues: true
