@@ -65,6 +65,8 @@ keep_files:
 # skip_seasons: true
 # skip_virtual_people: true
 
+# enable_debug_table: true
+
 # Specify year range for generation
 year_start: 1940
 year_end: 2016
