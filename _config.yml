@@ -40,7 +40,9 @@ exclude:
 - Gemfile.lock
 - googlee5aee69e17917677.html
 - gulpfile.js
+- images/
 - lib/
+- manifest.json
 - node_modules/
 - package.json
 - Rakefile
@@ -52,9 +54,11 @@ exclude:
 # Don't clean these in _site, we use gulp to generate them
 keep_files:
 - css
+- googlee5aee69e17917677.html
+- images
 - js
 - lib
-- googlee5aee69e17917677.html
+- manifest.json
 
 # skip_years: true
 # skip_venues: true

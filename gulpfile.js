@@ -26,28 +26,30 @@ console.log("  / /|  / / / / __  / ____/   ")
 console.log(" /_/ |_/ /_/ /_/ /_/_/        ")
 console.log("")
 
-// Late files
+// Late files, (actually now early)
 
 // Prevents need for processing lib directory.
 // Prevents both items from presence on sitemap.
 
-function late_lib() {
-  return gulp.src('lib/**')
-             .pipe(gulp.dest('_site/lib'));
-}
-
-gulp.task('late_lib', late_lib);
-
 var LATE_FILES = [
-  'googlee5aee69e17917677.html'
+  'googlee5aee69e17917677.html',
+  'manifest.json'
 ];
 
-function late_files() {
-  return gulp.src(LATE_FILES)
-             .pipe(gulp.dest('_site'));
-}
+gulp.task('late_files_lib', function() {
+    return gulp.src('lib/**')
+               .pipe(gulp.dest('_site/lib'));
+});
 
-gulp.task('late_files', late_files);
+gulp.task('late_files_images', function() {
+    return gulp.src('images/**')
+               .pipe(gulp.dest('_site/images'));
+});
+
+gulp.task('late_files', ['late_files_lib', 'late_files_images'], function() {
+    return gulp.src(LATE_FILES)
+             .pipe(gulp.dest('_site'));
+});
 
 // CSS
 
@@ -123,8 +125,7 @@ gulp.task('js_lib_dev', js_lib);
 
 // Frontend tasks
 
-gulp.task('frontend', ['late_lib',
-                       'late_files',
+gulp.task('frontend', ['late_files',
                        'css',
                        'js_app',
                        'js_scripts',
