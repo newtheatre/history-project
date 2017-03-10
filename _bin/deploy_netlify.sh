@@ -4,7 +4,7 @@
 if [[ $TRAVIS_PULL_REQUEST = "false" && $TRAVIS_BRANCH = "master" ]]
   then
 
-  zip -r deploy.zip _site
+  zip -qr deploy.zip _site
 
   curl -H "Content-Type: application/zip" \
     -H "Authorization: Bearer $NETLIFY_ACCESS_TOKEN" \
