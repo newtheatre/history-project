@@ -1,0 +1,19 @@
+---
+layout: page
+body_class: layout-page
+---
+
+{{ content }}
+<h1> History of the Nottingham New Theatre </h1>
+
+{% for node in site.data.history %}
+	<h2>{{ node.year }} - {{ node.title }}</h2>
+	{% if node.img %} <!-- Images! -->
+		<img src="{{ node.img }}" {% if node.alt-img %} alt="{{ node.alt-img }}" {% endif %} class="page-photo {% cycle 'right','left' %}"/>
+	{% endif %}
+
+	{% if node.description %}
+		<p>{{ node.description | markdownify }}</p>
+	{% endif %}
+
+{% endfor %}
