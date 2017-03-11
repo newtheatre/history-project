@@ -1,4 +1,10 @@
 #!/bin/sh
+
+##
+# This script manages using a docker container for local development
+# See the "Docker" section of README.md for more information
+##
+
 noParams=false
 stopAtEnd=false
 if [ $# -eq 0 ]

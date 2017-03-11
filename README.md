@@ -43,43 +43,33 @@ To get more verbose output from Jekyll, run `export JEKYLL_LOG_LEVEL=debug` befo
 
 - `gulp test` to run test suite locally. Currently we test for bad links, valid image tags, script references and the validity of site JSON feeds.
 
-## Vagrant
-
-Vagrant is a cross platform virtual machine manager. It will allow you to build the site on your local machine in an environment as close as possible to the Travis script that is actually used. It is strongly recommended that you follow the [Vagrant getting started guide](https://docs.vagrantup.com/v2/getting-started/index.html).
-
-To get started, you will need:
-
-- [Oracle Virtual Box](https://www.virtualbox.org/wiki/Downloads)
-- [Vagrant](https://www.vagrantup.com/downloads.html)
-
-Once you have download the requirements and installed them successfully you simply need to bring the box up, and connect to it:
-
-- `vagrant up`
-- `vagrant ssh`
-- `cd /vagrant`
-- `gulp build`
-- `gulp server`
-
-The vagrant box has port 8000 mapped to 8000 on your local machine, so `http://127.0.0.1:8000` should still work.
-
 ## Docker
 
 [Docker](https://www.docker.com) is a cross platform software container platform. Following these instructions will allow you to build
 and view the site on your local machine in an environment as close to the production system as possible.
 
-- [Install Docker](https://www.docker.com/community-edition)
+- [Install Docker](https://www.docker.com/community-edition) (on windows, you probably want [Docker Toolbox](https://www.docker.com/products/docker-toolbox))
+- On windows, open the 'Docker Quickstart Terminal'. On Mac/Linux use a console of your choice.
 - `git clone https://github.com/newtheatre/history-project.git` to clone the repo to your computer.
 - `cd history-project` to change into the directory.
-- (Mac/Linux) `./run_dev.sh create install build run serve`
-- (Windows) `run_dev.bat create install build run serve`
+- Type `./run_dev.sh`
 
-Once everything has finished running, you should see the site at `http://127.0.0.1:8000`. Hit 
-<kbd>ctrl</kbd>+<kbd>c</kbd> to stop the server.
+Once everything has finished running, you should see the site at `http://localhost:8000`. Hit 
+<kbd>ctrl</kbd>+<kbd>c</kbd> to stop the server. If using 'Docker Toolbox' and `localhost` doesn't work, you can find the IP address of the virtual machine by running `echo " $(docker-machine ip default)"`
 
-You can add/remove steps to `./run_dev` as needed. For example, there is no need to run `create` or `install`
+By default `./run_dev.sh` uses the parameters `start` `install` `build` `test` `serve` in that order.
+
+- `start` builds the docker container, and starts it running in the background
+- `install` installs all necessary dependencies for the site
+- `build` builds the jekyll site
+- `test` runs the test suite
+- `serve` runs a server so you can view the site locally
+- `stop` halts and destroys the docker container. You will need to run `start` and `install` again after running this
+
+You can add/remove steps to `./run_dev` as needed. For example, there is no need to run `start` or `install`
 every time you want to build the site. 
 
-Environment variables can be changed by modifying the `ENV` lines in the Dockerfile (and then running `create` again).
+Environment variables (such as the Smugmug API key) can be changed by modifying the `ENV` lines in the Dockerfile (and then running `start` again).
 
 ## Editing
 
