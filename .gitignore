@@ -9,6 +9,9 @@ node_modules/
 tmp/
 .htmltest/*
 _bin/htmltest
+.htmltest.*
+.bundle/
+vendor/
 
 for_shows_uncompressed
 for_shows_process
