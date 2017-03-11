@@ -57,10 +57,6 @@ These shows were developed and previewed in New Theatre. NTG would typically ren
 
 Thanks to a gratious alumni donation, we were able to fund the extension and our new foyer. This houses our Box Office, toilets, and bar, and its glass exterior creates a fresh and open environment for all visitors.
 
-## 2003 - New Theatre meets Lakeside Arts
-
-In the first of what would become an annual partnership, the students of New Theatre collaborated with the professional theatremakers at Lakeside Arts, another on-campus theatre, to perform *Charlie and the Chocolate Factory*.
-
 ## 2011 - Uncut / Fringe
 
 Another season of shows allows for more opportunity, and Fringe Season (formerly *Uncut*) is just that. Providing a platform for experimental, new, or more intimate theatre, this season runs parallel to the In House season. <!-- More here, I think -->
