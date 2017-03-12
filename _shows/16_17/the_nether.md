@@ -30,28 +30,51 @@ crew:
   name: Zoe Smith
 - role: Lighting Designer
   name: Darcey Graham
+- role: Sound Designer
+  name: Emily Dimino
 - role: Technical Director
   name: Becca Potts
 - role: Set Designer
   name: Joe Strickland
-- role: Hair and Makeup
-  name: Amy Greaves
-- role: Poster Designer
-  name: David Mason
 - role: Design Assistant
   name: Natalie Henderson
+- role: Technical Operator
+  name: Emma Barber
+- role: Technical Operator
+  name: Hannah Burne
+- role: Technical Operator
+  name: Adam Humphries
+- role: Technical Operator
+  name: Adam Frankland
 - role: Stage Manager
   name: Jess Donn
 - role: Stage Manager
   name: Tom Proffitt
 - role: Stage Manager
   name: Rosa Morgan
+- role: Hair and Makeup
+  name: Amy Greaves
+- role: Poster Designer
+  name: David Mason
 
-prod_shots: 
+  prod_shots: Dj7Spj
 
 assets:
   - type: poster
     image: SJ7H7mc
+  - type: poster
+    image: kbgdZLF
+  - type: poster
+    image: n8Ctxr3
+  - type: poster
+    image: Gcw5Prr
+  - type: poster
+    image: gKFCk3Z
+  - type: poster
+    image: 6BwqXVS
+  - type: poster
+    image: D8b2WL7
+
 
 
 links:
