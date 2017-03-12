@@ -11,17 +11,17 @@ date_end: 2013-08-25
 
 cast:
   - name: Amelia Gann
-  - name: Aaron Tej
-  - name: Richard Hill
-  - name: Nick Jeffrey
-  - name: Lara Tysseling
   - name: Harry Bradley
+  - name: Lara Tysseling
+  - name: Nick Jeffrey
+  - name: Richard Hill
 
 crew:
   - name: Bridie Rollins
     role: Director
   - name: Martha Wilson
     role: Producer
+  - name: Nick Davies
 
 assets:
   - type: poster
@@ -59,4 +59,13 @@ links:
     quote: >
         Writers Bridie Rollins and Martha Rose Wilson have mined a fascinating seam of thought in this highly charged
         production. Look out for the yellow lips.
+  - type: Review
+    href: http://www.impactnottingham.com/2013/08/the-project-edinburgh-fringe-preivew-nottingham-new-theatre/
+    snapshot: eF4C2
+    publisher: Impact
+    author: Tom Tolond
+    title: The Project Edinburgh Fringe Preivew @ Nottingham New Theatre.
+    date: 2013-08-02
 ---
+
+Edinburgh 2013. ZOO Monkey House 20:25. 'The Project': exciting and inventive theatre that asks - what is our responsibility as spectators?
