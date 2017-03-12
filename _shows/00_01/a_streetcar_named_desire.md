@@ -7,8 +7,8 @@ season_sort: 250
 venue: New Theatre
 
 cast:
-	- role: Stella
-	  name: Sophie Bostock
+  - role: Stella
+    name: Sophie Bostock
 ---
 
 

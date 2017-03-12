@@ -6,7 +6,7 @@ season_sort: 40
 venue: New Theatre
 
 cast:
-	- name: Jamie Griffiths
+ - name: Jamie Griffiths
 ---
 
 

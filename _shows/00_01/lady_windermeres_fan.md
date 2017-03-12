@@ -7,8 +7,8 @@ season_sort: 230
 venue: New Theatre
 
 cast:
-	- role: Duchess of Berwick
-	  name: Emily Hawkins
+  - role: Duchess of Berwick
+    name: Emily Hawkins
 ---
 
 
