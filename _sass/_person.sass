@@ -210,6 +210,7 @@
       img
         width: 100%
 
+
   .person-show-title
     font-size: $base-font-size * 1.2
     margin-bottom: 0
@@ -236,3 +237,14 @@
       color: $color-grey-dark
       text-transform: uppercase
 
+ a
+      color: $color-text-white
+
+      @include no-underline(false)
+      &:hover
+        .person-show-title
+          text-decoration: underline // Only underline name
+
+      @include no-focus
+      &:focus .person-show-title-underline
+        @include link-focus
