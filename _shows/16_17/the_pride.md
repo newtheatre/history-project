@@ -16,7 +16,7 @@ cast:
 - role: Sylvia
   name: Ella Hiscocks
 - role: The Man/The Editor/The Doctor
-  name: Daivd Mason
+  name: David Mason
 
 crew:
 - role: Director
