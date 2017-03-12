@@ -11,7 +11,7 @@ date_end: 2017-03-11
 
 cast:
 - role: Morris
-  name: Jessica Lundholm
+  name: Jess Lundholm
 - role: Sims/Papa
   name: Jack Ellis
 - role: Doyle
@@ -57,7 +57,7 @@ crew:
 - role: Poster Designer
   name: David Mason
 
-  prod_shots: Dj7Spj
+prod_shots: Dj7Spj
 
 assets:
   - type: poster
