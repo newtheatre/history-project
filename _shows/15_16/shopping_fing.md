@@ -90,7 +90,7 @@ links:
     title: "Shopping and F***ing @ Nottingham New Theatre"
     date: 2016-04-28
     rating: 10/10
-    quote: "By doing so an additional dimension is added to the play, as one could observe both the actions of the characters onstage and the reactions of the audience. Emotionally, this adds an extra layer to the experience of the play, as certain scenes were met with shock, disgust and even fear, expressed by members sitting on the opposite side. "
+    quote: "By laying out the stage so the audience faces each other in two halves, an additional dimension is added to the play, as one could observe both the actions of the characters onstage and the reactions of the audience. Emotionally, this adds an extra layer to the experience of the play, as certain scenes were met with shock, disgust and even fear, expressed by members sitting on the opposite side. "
 ---
 
 Shopping and F***ing explores what is possible if consumerism supersedes all other moral codes. To this affect everything, including sex, violence and drugs, is reduced to a mere transaction in an age where shopping centres are the new cathedrals of Western Consumerism. The first play in the history of theatre to become world-famous because of its title, it is a shocking morality tale of our amoral times, a unique stage portrait of a lost generation of dehumanised youth rotted by social and economic abuse.
