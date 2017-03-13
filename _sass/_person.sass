@@ -213,19 +213,16 @@
 
   .person-show-title
     font-size: $base-font-size * 1.2
-    margin-bottom: 0
-    
-     a
-      color: $color-text-white
+    margin-bottom: 0px
+    color: $color-text-white
+    font-family: $header-font-stack
+    @include no-underline(false)
+    &:hover
+      text-decoration: underline // Only underline name
 
-      @include no-underline(false)
-      &:hover
-        .person-show-title
-          text-decoration: underline // Only underline name
-
-      @include no-focus
-      &:focus .person-show-title-underline
-        @include link-focus
+    @include no-focus
+    &:focus .person-show-title-underline
+      @include link-focus
 
 
   .person-show-meta
