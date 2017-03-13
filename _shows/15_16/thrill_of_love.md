@@ -66,6 +66,26 @@ crew:
 
 prod_shots: L6sBnf
 
+links:
+  - type: Review
+    href: http://www.hercampus.com/school/nottingham/review-thrill-love-nottingham-new-theatre
+    snapshot: Zz2fl
+    publisher: HerCampus 
+    author: Gerogina Varley
+    title: "Review: The Thrill of Love at Nottingham New Theatre"
+    date: 2016-03-05
+    stars: 3.5
+    quote: "With the smoke that was being pumped into the dimly lit and tightly enclosed performance space as well as the layout of the seating which had the audience members facing one another, the production set up an astonishingly effective atmosphere which really emphasised the quality of the most dramatic scenes. One scene which comes to mind is Ellis in her satin red nightgown crying out in pain and doubling over onto the floor following the loss of her unborn baby as a result of Blakely’s abuse. "
+  - type: Review
+    href: http://www.impactnottingham.com/2016/03/the-thrill-of-love-nottingham-new-theatre/
+    snapshot: uMeC0
+    publisher: Impact Nottingham
+    author: Katie Cash
+    title: "The Thrill of Love @ Nottingham New Theatre"
+    date: 2016-03-03
+    rating: 9/10
+    quote: "Upon entering the room, it was clear that the stage was well and truly set for the brilliant drama about to unfold. With the audience placed on opposite sides of the stage, we became well and truly the jury giving our verdict on the moral dilemma that Ruth, and too many women have had to face. The story of The Thrill of Love by Amanda Whittington was beautifully executed thanks to Laura Jayne Bateman’s direction and her cast. "
+
 ---
 
 London, 1955. Britain, its empire and economy in chaos, struggles to rebuild itself from the ashes of the Second World War. On Easter Sunday, 28 year-old Ruth Ellis shoots her boyfriend dead. She offers no defence at her trial and becomes, despite public outcry, the last woman to be hanged in Britain. It is up to the troubled Inspector Gale to navigate the violent, exploitative underworld of post-war London to uncover the truth behind the murder. Based on true events, The Thrill of Love offers an unflinching insight into the treatment of women by the Western justice system.
