@@ -79,7 +79,7 @@ links:
     publisher: HerCampus 
     author: Amy Wilcockson
     title: "Review: A View From The Bridge at The Nottingham New Theatre"
-    date: 2016-11-12
+    date: 2015-11-12
     stars: 4
     quote: "The Nottingham New Theatre’s A View From The Bridge is an innovative and diverse performance which challenges period conventions and attempts to put a new and exciting twist on an old classic – something the New Theatre does extremely well, time and time again. "
   - type: Review
@@ -88,7 +88,7 @@ links:
     publisher: Impact Nottingham
     author: Claire Seah
     title: " @ Nottingham New Theatre"
-    date: 2016--
+    date: 2015-11-12
     rating: 8/10
     quote: "The contradictory characteristics of fragility and strength portrayed accurately by both Sasha Butler and Lou Knapp in their respective roles is impressive."
 ---

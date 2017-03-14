@@ -38,6 +38,17 @@ crew:
  - role: Sign Language Coach
    name: Jodie McDonald
 
+links:
+  - type: Review
+    href: www.impactnottingham.com/2016/06/constellations-nottingham-new-theatre/
+    snapshot: wwAVO
+    publisher: Impact Nottingham
+    author: Cara Lane
+    title: "Constellations @ Nottingham New Theatre"
+    date: 2016-06-08
+    rating: 8/10
+    quote: "Walton's greatest triumph was the extent to which she engrossed the audience, as it sat in complete silence and awe of her emotion at this point. "
+
 ---
 
 Marianne and Roland meet at a BBQ, but Roland is in a relationship. Marianne and Roland meet at a BBQ, but Roland has got out of a relationship and isn’t ready for something new. Marianne and Roland meet at a BBQ, hit it off and start a relationship. Nick Payne’s brilliant play follows a romantic relationship through the lens of the quantum multiverse theory, showing the many permutations of how two people meet, fall in love, and break up. Constellations explores the ideas of fate, free will, and love, whilst questioning our preconceptions and expectations of how our romantic lives can play out.
