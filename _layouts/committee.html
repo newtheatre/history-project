@@ -14,8 +14,7 @@ body_class: layout-committee
   	{% include boxes/committee_short.html %}
   {% endif %}
 
-  {% assign people = page.committee %}
-  {% include person_list.html %}
+  {% include person_list.html people=page.committee enable_role_icons=true %}
 </div>
 
 

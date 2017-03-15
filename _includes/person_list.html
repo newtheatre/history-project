@@ -1,5 +1,5 @@
 {% capture unknowns %}
-{% for person in people %}
+{% for person in include.people %}
 {% if person.role == "unknown" %}
 X
 {% elsif person.name == "unknown" %}
@@ -13,7 +13,7 @@ X
 {% endif %}
 
 <ul class="person-list">
-{% for person in people %}
+{% for person in include.people %}
   <li class="person-single">
 
     {% if person.comment %}
@@ -50,7 +50,7 @@ X
       {% if person.role == "unknown" %}
         <span class="unknown">Unknown</span>
       {% else %}
-        {% if site.data.role-icons[person.role] %}
+        {% if site.data.role-icons[person.role] and include.enable_role_icons != false %}
         <i class="{{ site.data.role-icons[person.role] }}"></i>
         {% endif %}
 
