@@ -49,17 +49,24 @@ body_class: layout-person header-nobr content-nobr
 
   <div class="person-body">
 
-    {% if person.submitted %}
+    {% if person.has_bio %}
     <!-- Person has submitted a bio -->
     <article class="person-bio">
       <h2>Biography</h2>
       {{ content }}
+
+      {% if person.submitted %}
       <p class="person-bio-last-updated">
         Bio last updated
         <span data-date="{{ person.submitted }}"
               title="{{ person.submitted }}">{{ person.submitted }}</span>,
         <a href="{{ submit_link }}">submit updates</a>.
       </p>
+      {% else %}
+      <p class="person-bio-last-updated">
+        This bio was written by an editor, <a href="{{ submit_link }}">submit updates</a>.
+      </p>
+      {% endif %}
     </article>
 
     {% else %}
