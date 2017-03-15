@@ -1,16 +1,17 @@
-{% if page.shows == nil %}
+{% unless page.start_year == site.year_end %}
+  {% if page.shows == nil %}
 
-  {% include boxes/shows_missing_all.html %}
-  <div class="big-icon">
-    <i class="ion-sad-outline"></i>
-  </div>
+    {% include boxes/shows_missing_all.html %}
+    <div class="big-icon">
+      <i class="ion-sad-outline"></i>
+    </div>
 
-{% elsif page.shows.size < site.year_low_shows %}
+  {% elsif page.shows.size < site.year_low_shows %}
 
-  {% include boxes/shows_missing_some.html %}
+    {% include boxes/shows_missing_some.html %}
 
-{% endif %}
-
+  {% endif %}
+{% endunless %}
 
 {% if page.shows %}
 
