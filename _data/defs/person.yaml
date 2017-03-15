@@ -1,6 +1,6 @@
 - attr: title
   type: string
-  short: Person name 
+  short: Person name
   description: "Formatted as: *Firstname Lastname*, must match filename."
   required: true
 
@@ -18,6 +18,11 @@
   type: date
   short: The date the last submission was made
   description: "YYYY-MM-DD If this is omitted it means person has not yet made a submission, we have collated data for them."
+
+- attr: has_bio
+  type: boolean
+  short: True when bio is present
+  generated: true
 
 - attr: gender
   type: string
