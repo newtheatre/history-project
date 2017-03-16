@@ -26,6 +26,8 @@ crew:
   name: Ben Woodford
 - role: Technical Director
   name: Joanne Blunt
+- role: Poster Designer
+  name: Max Miller
 
 prod_shots: hdzVLb
 
