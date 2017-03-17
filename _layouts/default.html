@@ -67,7 +67,11 @@
 
     {% include report.html %}
 
-    {% include javascript.html %}
+    {{ page.js }}
+
+    {% include ga.html %}
+
+    <div id="nthpMobileDetect"></div>
 
   </body>
 
