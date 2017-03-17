@@ -126,26 +126,26 @@ gulp.task('js_lib_dev', function () { return js_lib({postprocess: false}) });
 
 // Frontend tasks
 
-gulp.task('frontend', ['late_files',
-                       'css',
+gulp.task('frontend', ['css',
                        'js_app',
                        'js_scripts',
                        'js_lib'])
 
 gulp.task('frontend_dev', ['css_dev',
                            'js_app_dev',
-                           'js_scripts_dev']);
+                           'js_scripts_dev',
+                           'js_lib_dev']);
 
 
 // Jekyll
 
-gulp.task('jekyll', ['frontend'], shell.task(
+gulp.task('jekyll', ['late_files', 'frontend'], shell.task(
     ['bundle exec jekyll build --trace --profile'], SHELL_OPTS));
 
-gulp.task('jekyll_dev', ['frontend_dev'], shell.task(
+gulp.task('jekyll_dev', ['late_files', 'frontend_dev'], shell.task(
     ['bundle exec jekyll build --trace --profile'], SHELL_OPTS));
 
-gulp.task('jekyll_inc', ['frontend_dev'], shell.task(
+gulp.task('jekyll_inc', ['late_files', 'frontend_dev'], shell.task(
     ['bundle exec jekyll build --trace --incremental --profile'], SHELL_OPTS));
 
 // Search indexes
