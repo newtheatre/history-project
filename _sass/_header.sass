@@ -243,7 +243,7 @@ $title-text-baseline: 1.2
 
   border: none
 
-  @include placeholder
+  &:placeholder
     color: rgba($color-text-black, 0.3)
 
   @include no-focus
@@ -258,7 +258,7 @@ $title-text-baseline: 1.2
 
     font-size: 0.9rem
 
-    @include placeholder
+    &:placeholder
       color: rgba($color-text-white, 0.25)
 
     // Re-enable as disable by default
