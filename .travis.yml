@@ -22,7 +22,7 @@ install:
 before_script:
 - _bin/prep.sh
 script:
-- gulp build
+- gulp build_deploy
 - gulp test
 after_success:
 - _bin/deploy_ghp.sh
