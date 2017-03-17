@@ -245,6 +245,6 @@ enableCollectForm = ->
 
 # Setup
 
-$(document).ready ->
+document.addEventListener 'turbolinks:load', ->
   if $('body').hasClass 'collect-person-form'
     collectPersonFormSetup()

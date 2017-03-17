@@ -101,7 +101,7 @@ class SearchResultView
     $(RENDER_TO).html '<!-- BLANK -->'
 
 # Setup
-$(document).ready ->
+document.addEventListener 'turbolinks:load', ->
   if $('body').hasClass 'search'
     loadIndex()
     urlQ = getUrlParameter('q')

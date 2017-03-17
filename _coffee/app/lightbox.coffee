@@ -137,7 +137,7 @@ class Lightbox
     window.disable_keyboard_nav = false
 
 
-$(document).ready ->
+document.addEventListener 'turbolinks:load', ->
   groups = document.querySelectorAll('.lightbox-group')
 
   # Initialise array, will remove old lightboxes on turbolink navigation

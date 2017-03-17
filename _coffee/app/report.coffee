@@ -31,7 +31,7 @@ class ReportModel
         error()
 
 
-$(document).ready ->
+document.addEventListener 'turbolinks:load', ->
   $('#report-this-page').click (e) ->
     e.preventDefault()
     $('#report').addClass 'report-show'

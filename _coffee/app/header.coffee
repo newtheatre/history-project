@@ -1,4 +1,4 @@
-$(document).ready ->
+document.addEventListener 'turbolinks:load', ->
   # Mobile search box
   $('#site-search-show').click ->
     $('#site-search').addClass('elem-show')

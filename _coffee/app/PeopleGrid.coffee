@@ -55,15 +55,16 @@ class PeopleGrid
   destructor: ->
     @enabled = false
 
-$(document).ready ->
+document.addEventListener 'turbolinks:load', ->
+  # Tear down existing
+  if window.peopleGridEl
+    window.peopleGridEl.destructor()
+    delete window.peopleGridEl
+
+  # Create
   peopleGridEl = document.querySelector('#pg')
   peopleScrollerEl = document.querySelector('#pgScroller')
   if peopleGridEl
     window.prodShotsGallery = new PeopleGrid
       gridEl: peopleGridEl
       scrollerEl: peopleScrollerEl
-
-document.addEventListener 'turbolinks:visit', ->
-  if window.peopleGridEl
-    window.peopleGridEl.destructor()
-    delete window.peopleGridEl
