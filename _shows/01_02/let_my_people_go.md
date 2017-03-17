@@ -67,6 +67,10 @@ crew:
     name: James Law
 
 assets:
+  - type: crop
+    image: SQssZCw
+    display_image: true
+    comment: Extracted from programme
   - type: programme
     image: thQXzNZ
     page: 1
