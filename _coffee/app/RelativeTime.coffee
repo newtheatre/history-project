@@ -9,7 +9,7 @@ class RelativeTime
   render: ->
     @el.innerHTML = @format()
 
-$(document).ready ->
+document.addEventListener 'turbolinks:load', ->
   relTimeEls = document.querySelectorAll('[data-date]')
   for relTimeEl in relTimeEls
     new RelativeTime

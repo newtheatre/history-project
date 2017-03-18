@@ -2,6 +2,7 @@
 
 var gulp = require('gulp');
 var gutil = require('gulp-util');
+var gulpif = require('gulp-if');
 var shell = require('gulp-shell')
 var concat = require('gulp-concat')
 var sass = require('gulp-sass');
@@ -74,18 +75,18 @@ gulp.task('css_dev', function () { return css({postprocess: false}) });
 
 // JS
 
-function js_app() {
+function js_app(opts) {
     return gulp.src('_coffee/app/*.coffee')
                .pipe(sourcemaps.init())
                .pipe(coffee({bare: true}).on('error', gutil.log))
                .pipe(concat('app.js'))
-               .pipe(uglify())
+               .pipe(gulpif(opts.postprocess, uglify()))
                .pipe(sourcemaps.write('.'))
                .pipe(gulp.dest('_site/js'));
 }
 
-gulp.task('js_app', js_app);
-gulp.task('js_app_dev', js_app);
+gulp.task('js_app', function () { return js_app({postprocess: true}) });
+gulp.task('js_app_dev', function () { return js_app({postprocess: false}) });
 
 function js_scripts() {
     return gulp.src('_coffee/scripts/*.coffee')
@@ -110,38 +111,41 @@ var JS_LIBS = [
     'lib/raven-js/dist/raven.js'
 ]
 
-function js_lib() {
+function js_lib(opts) {
     return gulp.src(JS_LIBS)
                .pipe(sourcemaps.init())
                .pipe(concat('lib.js'))
-               .pipe(uglify())
+               .pipe(gulpif(opts.postprocess, uglify()))
                .pipe(sourcemaps.write('.'))
                .pipe(gulp.dest('_site/js'));
 }
 
-gulp.task('js_lib', js_lib);
-gulp.task('js_lib_dev', js_lib);
+gulp.task('js_lib', function () { return js_lib({postprocess: true}) });
+gulp.task('js_lib_dev', function () { return js_lib({postprocess: false}) });
 
 
 // Frontend tasks
 
-gulp.task('frontend', ['late_files',
-                       'css',
+gulp.task('frontend', ['css',
                        'js_app',
                        'js_scripts',
                        'js_lib'])
 
 gulp.task('frontend_dev', ['css_dev',
                            'js_app_dev',
-                           'js_scripts_dev']);
+                           'js_scripts_dev',
+                           'js_lib_dev']);
 
 
 // Jekyll
 
-gulp.task('jekyll', ['frontend'], shell.task(
+gulp.task('jekyll', ['late_files', 'frontend'], shell.task(
     ['bundle exec jekyll build --trace --profile'], SHELL_OPTS));
 
-gulp.task('jekyll_inc', ['frontend_dev'], shell.task(
+gulp.task('jekyll_dev', ['late_files', 'frontend_dev'], shell.task(
+    ['bundle exec jekyll build --trace --profile'], SHELL_OPTS));
+
+gulp.task('jekyll_inc', ['late_files', 'frontend_dev'], shell.task(
     ['bundle exec jekyll build --trace --incremental --profile'], SHELL_OPTS));
 
 // Search indexes
@@ -151,14 +155,17 @@ var CMD_INDEX_PEOPLE = 'coffee _coffee/index/people_index_generator.coffee';
 
 gulp.task('index_search', shell.task([CMD_INDEX_SEARCH]));
 gulp.task('S_index_search', ['jekyll'], shell.task([CMD_INDEX_SEARCH]));
-gulp.task('S_index_search_dev', ['jekyll_inc'], shell.task([CMD_INDEX_SEARCH]));
+gulp.task('S_index_search_dev', ['jekyll_dev'], shell.task([CMD_INDEX_SEARCH]));
+gulp.task('S_index_search_inc', ['jekyll_inc'], shell.task([CMD_INDEX_SEARCH]));
 
 gulp.task('index_people', shell.task([CMD_INDEX_PEOPLE]));
 gulp.task('S_index_people', ['jekyll'], shell.task([CMD_INDEX_PEOPLE]));
-gulp.task('S_index_people_dev', ['jekyll_inc'], shell.task([CMD_INDEX_PEOPLE]));
+gulp.task('S_index_people_dev', ['jekyll_dev'], shell.task([CMD_INDEX_PEOPLE]));
+gulp.task('S_index_people_inc', ['jekyll_inc'], shell.task([CMD_INDEX_PEOPLE]));
 
 gulp.task('index', ['S_index_search', 'S_index_people'])
 gulp.task('index_dev', ['S_index_search_dev', 'S_index_people_dev'])
+gulp.task('index_inc', ['S_index_search_inc', 'S_index_people_inc'])
 
 // Tests
 
@@ -195,15 +202,25 @@ gulp.task('watch', function() {
 
 // Master tasks
 
+// Default is build
 gulp.task('default', ['build'])
+gulp.task('build', ['build_dev'])
 
-gulp.task('build', ['frontend',
-                    'jekyll',
-                    'index']);
+// Build site incrementally (debug only), skip some minification
+gulp.task('build_inc', ['frontend_dev',
+                        'jekyll_inc',
+                        'index_dev']);
 
-gulp.task('debug', ['frontend_dev',
-                    'jekyll_inc',
-                    'index_dev']);
+// Build site, skip some minification
+gulp.task('build_dev', ['frontend_dev',
+                        'jekyll_dev',
+                        'index_dev']);
 
+// Build site, do all minification
+gulp.task('build_deploy', ['frontend',
+                           'jekyll',
+                           'index']);
+
+// Run test suite
 gulp.task('test', ['htmltest', 'jsonlint']);
 

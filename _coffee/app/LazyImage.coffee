@@ -27,7 +27,7 @@ class LazyImage
 
 class LazyController
 
-$(document).ready ->
+document.addEventListener 'turbolinks:load', ->
   lazyImageEls = document.querySelectorAll('[data-src]')
   for lazyImageEl in lazyImageEls
     new LazyImage

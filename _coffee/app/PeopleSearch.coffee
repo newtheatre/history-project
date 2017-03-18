@@ -187,7 +187,13 @@ class PeopleResult
     return @node
 
 
-$(document).ready ->
+document.addEventListener 'turbolinks:load', ->
+  # Tear down existing
+  if window.peopleSearch
+    window.peopleSearch.destructor()
+    delete window.peopleSearch
+
+  # Create
   psFilter = document.querySelector('#psFilter')
   psBody = document.querySelector('#psBody')
   psResults = document.querySelector('#psResults')
@@ -197,8 +203,3 @@ $(document).ready ->
       psFilterEl: psFilter
       psBodyEl: psBody
       psResultsEl: psResults
-
-document.addEventListener 'turbolinks:visit', ->
-  if window.peopleSearch
-    window.peopleSearch.destructor()
-    delete window.peopleSearch

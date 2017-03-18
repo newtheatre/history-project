@@ -25,7 +25,7 @@ sort_items = (container, sort_key) ->
   # Replace containers elements with sorted ones
   $(container).html(sorted_items)
 
-$(document).ready ->
+document.addEventListener 'turbolinks:load', ->
   $(SORT_DROPDOWN).change ->
     sort_items(ARCHIVE_SORT_LIST, $(this).val())
 
