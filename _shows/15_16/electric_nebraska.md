@@ -43,7 +43,7 @@ crew:
 prod_shots: 5t3Lrx
 
 links:
-    - type: Review
+  - type: Review
     href: http://www.impactnottingham.com/2016/04/electric-nebraska-nottingham-new-theatre/
     snapshot: 5Tq37
     publisher: Impact Nottingham

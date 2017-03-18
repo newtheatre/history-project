@@ -11,7 +11,7 @@ assets:
     image: k6zSXmF
 
 links:
-- type: Review
+  - type: Review
     href: http://www.impactnottingham.com/2016/06/stuff-aaron-calvert-decisions-nottingham-new-theatre/
     snapshot: AAcxT
     publisher: Impact Nottingham
