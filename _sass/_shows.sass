@@ -250,14 +250,6 @@ $show-photos-mob-gutter: 7px
       max-width: 25%
     a
       display: block
-
-  .show-asset-image
-    img
-      width: 100%
-
-  // Tile asset stuff
-  .show-asset-video, .show-asset-file
-    a
       height: 100%
       min-height: 160px // I measured this, 110
 
@@ -271,6 +263,12 @@ $show-photos-mob-gutter: 7px
     .show-asset-video__title, .show-asset-file__title
       padding: 0.5rem
 
+  .show-asset-image
+    a
+      background: grayscale($color-background)
+      justify-content: center
+    img
+      width: 100%
 
   .show-asset-video
     a
