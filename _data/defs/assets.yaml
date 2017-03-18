@@ -1,0 +1,42 @@
+- attr: type
+  type: string
+  short: Type of asset
+  description: >
+    The type of asset, the first of type *poster* will be used as the show's
+    poster. List non-exhaustive, should be lowercase: *photo, poster, flyer,
+    programme*.
+  required: true
+
+- attr: image
+  type: string
+  short: SmugMug ID of the image
+  description: >
+    Find IDs using the [show asset utility](/util/smug-show-assets/)
+
+- attr: filename
+  type: string
+  short: If non-image (PDF etc) the filename
+  description: >
+    Will look under `assets/for_shows/`
+
+- attr: title
+  type: string
+  short: Asset title
+  description: >
+    Is shown when graphical representation of file is not possible, required
+    when using the `filename` key.
+
+- attr: page
+  type: number
+  short: Orders within a type
+  description: >
+    For type programme it is the page number where the front page is `1`, for a
+    single page flyer the front would be `1` and the back `2`. Not needed for
+    multipage files such as PDFs.
+
+- attr: display_image
+  type: boolean
+  short: Force an image asset to be used as the display_image
+  description: >
+    Overrides the order of precedence in selecting a show's display image.
+    Ensure asset is an image, not a file.
