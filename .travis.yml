@@ -14,7 +14,6 @@ before_install:
 install:
 - bundle install --jobs=3 --retry=3 --deployment --path=${BUNDLE_PATH:-vendor/bundle}
 - npm install
-- npm rebuild node-sass # Remove this soon
 - bower install
 - curl https://f000.backblazeb2.com/file/wjdp-lib/htmltest > _bin/htmltest
 - chmod +x _bin/htmltest
