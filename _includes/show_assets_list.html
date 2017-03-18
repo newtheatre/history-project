@@ -4,14 +4,24 @@
   {% if asset.filename %}
 
     <li class="show-asset-file debug-container">
+      <a href="{{ site.assets_baseurl }}/for_shows/{{ asset.filename }}" target="_blank">
 
-      {% if asset.type == "programme" %}
-        <i class="ion-ios-book-outline"></i>
-      {% else %}
-        <i class="ion-document-text"></i>
-      {% endif %}
+        {% if asset.type == "programme" %}
+          <i class="show-asset-file__icon ion-ios-book-outline"></i>
+        {% elsif asset.type == "script" %}
+          <i class="show-asset-file__icon ion-ios-book"></i>
+        {% elsif asset.type == "plan" %}
+          <i class="show-asset-file__icon ion-ios-grid-view"></i>
+        {% elsif asset.type == "soundtrack" %}
+          <i class="show-asset-file__icon ion-disc"></i>
+        {% else %}
+          <i class="show-asset-file__icon ion-document-text"></i>
+        {% endif %}
 
-      <a href="{{ site.assets_baseurl }}/for_shows/{{ asset.filename }}" target="_blank">{{ asset.title }}</a>
+        <div class="show-asset-file__title">
+          {{ asset.title }}
+        </div>
+      </a>
       <div class="debug-abs-bottom-left" data-debug-toggle title="Asset type">{{ asset.type }}</div>
       <div class="debug-abs-top-left" data-debug-toggle title="Asset filename">{{ asset.filename }}</div>
     </li>

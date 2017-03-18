@@ -44,7 +44,7 @@ $show-photos-mob-gutter: 7px
 
 @mixin gallery-outer
   @include flex-row
-  flex-direction: horizontal
+  flex-direction: row
   flex-wrap: wrap
 
 @mixin gallery-item
@@ -240,22 +240,37 @@ $show-photos-mob-gutter: 7px
   @include gallery-outer
   .show-asset-file, .show-asset-image
     @include gallery-item
-    max-width: 25%
-  .show-asset-file
-    background: darken($color-nnt-purple, 20%)
-    position: relative
-    i
-      position: absolute
-      font-size: 91px
-      top: -18px
-      right: 10px
-      opacity: 0.2
-      pointer-events: none // Ensure clicks go though to the anchor
+    @include respond-down(mob-land)
+      max-width: 33%
+      padding-right: 6px
+      &:nth-child(3n)
+        padding-right: 0
+    @include respond-up(tab-port)
+      max-width: 25%
     a
       display: block
+  .show-asset-file
+    position: relative
+
+    a
+      display: flex
+      height: 100%
+      min-height: 160px // I measured this, 110
+
+      background: darken($color-nnt-purple, 20%)
       color: $color-text-white
-      padding: 161px 10px 10px 10px
       @include no-underline
+
+      flex-direction: column
+      justify-content: space-between
+
+    .show-asset-file__icon
+      font-size: 91px
+      opacity: 0.2
+      text-align: center
+
+    .show-asset-file__title
+      padding: 0.5rem
 
   .show-asset-image
     img
