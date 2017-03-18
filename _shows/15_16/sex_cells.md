@@ -85,6 +85,26 @@ assets:
     image: GdV8Sqx
 
 prod_shots: ZB3PM9
+
+links:
+  - type: Review
+    href: http://www.hercampus.com/school/nottingham/review-sex-cells-nottingham-new-theatre
+    snapshot: bVCVm
+    publisher: HerCampus 
+    author: Radhika Chond
+    title: "Review: Sex Cells at The Nottingham New Theatre"
+    date: 2015-11-05
+    stars: 5
+    quote: "Taking us from demanding children to stubborn adults, from the inability to conceive children to getting out there and having sex for fun, each issue was dealt with in a delicate yet enriching manner. The intimacy of a closely shared office space brimming with competing attitudes and ideologies was the perfect backdrop for this play. I have to congratulate the flawless acting of each of the five actors who absolutely made this play. "
+  - type: Review
+    href: http://www.impactnottingham.com/2015/11/sex-cells-nottingham-new-theatre/
+    snapshot: tXBbv
+    publisher: Impact Nottingham
+    author: Josh Mallalieu
+    title: "Sex Cells @ Nottingham New Theatre"
+    date: 2015-11-05
+    rating: 8/10
+    quote: "This is a terrifically entertaining and touching production, and few theatre going experiences can be as rewarding. "
 ---
 
 In a busy call centre, the four employees of Aphrodite, a sex toy manufacturer, take telephone orders for Teasey Maids, Titivators, and rotating pearl g-strings. However, beneath the cheerful customer service and easy banter, these very different women nurse their own desires and disappointments. Join Lily, Sylvie, Janice, Tiffany, and the hapless Mr Causeway in this wickedly funny and poignant new play about motherhood, relationships, anger, acceptance, motherhood, compassion, love, motherhood, belonging, motherhood, sex, cake and motherhood.

@@ -96,6 +96,25 @@ assets:
   - type: poster
     image: RNNPSGD
 
+links:
+  - type: Review
+    href: http://www.hercampus.com/school/nottingham/review-pornography-nottingham-new-theatre
+    snapshot: dzJ4L
+    publisher: HerCampus 
+    author: Georgina Varley
+    title: "Review: Pornography at Nottingham New Theatre"
+    date: 2015-10-29
+    stars: 4.5
+    quote: "Overall, a wonderful thought-provoking production that mixes humour and ‘awfulness’, produced and acted perfectly, set to interest anyone concerned with the state of Britain today. "
+  - type: Review
+    href: http://www.impactnottingham.com/2015/10/pornography-nottingham-new-theatre/
+    snapshot: o21co
+    publisher: Impact Nottingham
+    author: Aaron Tej
+    title: "Pornography @ Nottingham New Theatre"
+    date: 2015-10-29
+    rating: 8/10
+    quote: "What binds these characters together is the decision of four men who on that day attempted to bring a city to its knees. Harry Pavlou as the fourth bomber gives a controlled, eloquent performance and does what the media so often fails to do, humanise. "
 ---
 
 Pornography is Simon Stephens’ response to the events of the 7/7 bombings and the week leading up to this iconic tragedy. The week of the bombings saw public emotion nosedive from jubilation and hope with the Live 8 concert and successful Olympics bid, to terror and heartbreak on the 7th July. The dark truths of the 21st century are attacked head on with questions over rape, racism, incest, addiction and depression amongst others. In Pornography, there’s no ducking the challenge of facing up to the problems on our doorsteps.

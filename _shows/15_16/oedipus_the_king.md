@@ -54,6 +54,16 @@ assets:
   - type: poster
     image: rHMcKS9
 
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2016/04/oedipus-nottingham-lakeside-arts/
+    snapshot: drgg8
+    publisher: Impact Nottingham
+    author: Claire Elizabeth Seah
+    title: "Oedipus @ Nottingham Lakeside Arts"
+    date: 2016-04-20
+    rating: 8/10
+    quote: "While audience members attempted to locate their designated seats, the cast conducted voice practices, sound checks and final discussions on-stage; immediately breaking down the fourth wall for the audience before the play even began. "
 ---
 
 Oedipus Rex is the powerful and self-assured King of Thebes who unwittingly fulfills a brutal and murderous prophecy. As the truth is slowly and painfully revealed, King Oedipus, his mother and his people come to realize the true horror of what he has done, leading to inevitably bloody consequences. 

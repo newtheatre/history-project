@@ -46,6 +46,17 @@ assets:
     image: RLwSppJ
 
 prod_shots: PLjpNs
+
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2015/11/sketchy-characters-nottingham-new-theatre/
+    snapshot: 31xHN
+    publisher: Impact Nottingham
+    author: Elise Jackson
+    title: "Sketchy Characters @ Nottingham New Theatre"
+    date: 2015-11-17
+    rating: 8/10
+    quote: "An enjoyable, smart, and downright entertaining collection of pieces from an all-round talented group of people, Sketchy Characters deserves its praises: a great way to cheer up a gloomy Monday evening. "
 ---
 
 “Sketchy Characters” is a sketch show featuring a range of performances. From puns to heresy, ancient Rome to Iron Man, “Sketchy Characters” satirises, demonises, and synthesises ideas and people from across the last 5000 years of human mediocrity.
