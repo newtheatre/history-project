@@ -13,6 +13,12 @@
   description: >
     Find IDs using the [show asset utility](/util/smug-show-assets/)
 
+- attr: video
+  type: string
+  short: SmugMug ID of the video
+  description: >
+    Find IDs using the [show video utility](/util/smug-show-video/)
+
 - attr: filename
   type: string
   short: If non-image (PDF etc) the filename

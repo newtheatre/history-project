@@ -159,7 +159,8 @@ body_class: section-archives layout-show
       <div class="show-photo-single debug-container">
         <a class="lightbox-link"
            href="{{ image.LargeImage.Url }}"
-           title="{{ image.Title | escape_once }}">
+           title="{{ image.Title | escape_once }}"
+           data-type="image">
           <img class="lazy-image"
                src="/images/image-preload.png"
                data-lazy-src="{{ image.ThumbImage.Url }}"
