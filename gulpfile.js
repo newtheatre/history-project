@@ -209,7 +209,7 @@ gulp.task('build', ['build_dev'])
 // Build site incrementally (debug only), skip some minification
 gulp.task('build_inc', ['frontend_dev',
                         'jekyll_inc',
-                        'index_dev']);
+                        'index_inc']);
 
 // Build site, skip some minification
 gulp.task('build_dev', ['frontend_dev',
