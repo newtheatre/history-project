@@ -84,7 +84,7 @@ links:
     title: "The Thrill of Love @ Nottingham New Theatre"
     date: 2016-03-03
     rating: 9/10
-    quote: "Upon entering the room, it was clear that the stage was well and truly set for the brilliant drama about to unfold. With the audience placed on opposite sides of the stage, we became well and truly the jury giving our verdict on the moral dilemma that Ruth, and too many women have had to face. The story of The Thrill of Love by Amanda Whittington was beautifully executed thanks to Laura Jayne Bateman’s direction and her cast. "
+    quote: "The story of The Thrill of Love by Amanda Whittington was beautifully executed thanks to Laura Jayne Bateman’s direction and her cast. "
 
 ---
 

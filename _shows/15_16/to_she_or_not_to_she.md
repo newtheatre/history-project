@@ -12,6 +12,16 @@ assets:
   - type: poster
     image: znrcT3t
 
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2016/06/stuff-to-she-or-not-to-she-nottingham-new-theatre/
+    snapshot: ZmSGn
+    publisher: Impact Nottingham
+    author: Lou Knapp
+    title: "STUFF: To She or Not To She @ Nottingham New Theatre"
+    date: 2016-06-17
+    rating: 8/10
+    quote: "The script is fast paced and cleverly interwoven with lines and phrases coined by the Bard. It is refreshing to watch Shakespeare explored from a different angle, with a modern and feminist approach. "
 
 ---
 “Frailty thy name is woman?! Get stuffed Will!”

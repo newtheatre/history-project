@@ -84,6 +84,26 @@ assets:
   page: 2
 
 prod_shots: 3nCHmK
+
+links:
+  - type: Review
+    href: http://www.hercampus.com/school/nottingham/review-west-nottingham-new-theatre
+    snapshot: aYDBD
+    publisher: HerCampus 
+    author: Radhika Chond
+    title: "Review: West at The Nottingham New Theatre"
+    date: 2015-11-19
+    stars: 3.5
+    quote: "Overall, it was really quite something to hear ‘the voice of Cockney London’ coming through thick, fast and tangible. "
+  - type: Review
+    href: http://www.impactnottingham.com/2015/11/west-nottingham-new-theatre/
+    snapshot: pzTLl
+    publisher: Impact Nottingham
+    author: Aaron Tej
+    title: "West @ Nottingham New Theatre"
+    date: 2015-11-19
+    rating: 7/10
+    quote: "Will Pimblett’s lighting design, combined with the smoke laden stage is rather effective in conjuring the choking fog that tormented 60s London. "
 ---
 
 West by Steven Berkoff, first published in 1983, is a parable that follows Mike, leader of the N16 Gang, as he gears up to take on his most fearsome enemy, The
