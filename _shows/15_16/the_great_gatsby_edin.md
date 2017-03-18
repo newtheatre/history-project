@@ -14,6 +14,10 @@ venue_sort: Greenside
 assets:
   - type: poster
     image: PMJTJV2
+  - type: trailer
+    video: T7qxgDm
+  - type: backstage
+    video: h7rqXTg
 
 prod_shots: DdZTWt
 

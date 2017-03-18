@@ -109,6 +109,8 @@ prod_shots: 6DhKFZ
 assets:
   - type: poster
     image: xD53hMW
+  - type: trailer
+    video: TskT7DL 
 
 ---
 

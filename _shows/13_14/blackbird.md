@@ -45,6 +45,8 @@ prod_shots: s4QTx7
 assets:
   - type: poster
     image: xhLFfCb
+  - type: backstage
+    video: 4qDgX2k
 
 ---
 

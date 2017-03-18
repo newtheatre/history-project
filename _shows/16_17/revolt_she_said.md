@@ -60,8 +60,14 @@ crew:
 prod_shots: 7hCdR5
 
 assets:
-   - type: poster
-     image: ZKnbbMJ
+  - type: poster
+    image: ZKnbbMJ
+  - type: trailer
+    video: pMhK9FT
+  - type: trailer
+    video: WRDjZfK
+  - type: backstage
+    video: VWRHPMF
 
 ---
 

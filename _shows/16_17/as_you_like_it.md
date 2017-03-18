@@ -99,6 +99,8 @@ prod_shots: sFmqXq
 assets:
   - type: poster
     image: sZ7pTJN
+  - type: backstage
+    video: fxb25hD
 
 links:
   - type: Review

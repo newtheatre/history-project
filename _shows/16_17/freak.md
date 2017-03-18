@@ -43,6 +43,10 @@ prod_shots: kfzbzK
 assets:
   - type: poster
     image: hMsFKmw
+  - type: trailer
+    video: 38V5wQ4
+  - type: backstage
+    video: KcLtJX4
 
 links:
   - type: Review

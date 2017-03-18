@@ -98,6 +98,8 @@ crew:
 assets:
   - type: poster
     image: Cp2CBh9
+  - type: trailer
+    video: CBtDNSj
 
 prod_shots: tW92hS
 

@@ -52,6 +52,8 @@ crew:
 assets:
   - type: poster
     image: kf9JtCh
+  - type: trailer
+    video: rJ9CBcC
   - type: plan
     filename: servant_lx.pdf
     title: LX Plan

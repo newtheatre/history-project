@@ -71,6 +71,12 @@ prod_shots: N7GDcp
 assets:
   - type: poster
     image: mdhmfbG
+  - type: trailer
+    video: wCnXjcX
+  - type: trailer
+    video: gNBLtP4
+  - type: backstage
+    video: ZCr3bqm
 
 links:
   - type: Review

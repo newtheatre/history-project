@@ -61,6 +61,8 @@ prod_shots: kj8L48
 assets:
   - type: poster
     image: HPdX7N9
+  - type: backstage
+    video: mz4ptWK
 
 links:
   - type: Review

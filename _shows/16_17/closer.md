@@ -71,6 +71,8 @@ prod_shots: mZXkbv
 assets:
   - type: poster
     image: ZcgsXpt
+  - type: backstage
+    video: txPwHQR
 
 links:
   - type: Review

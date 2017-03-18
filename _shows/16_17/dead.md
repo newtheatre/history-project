@@ -104,6 +104,10 @@ assets:
     image: MBPdBXs
   - type: poster
     image: xt7QBwS
+  - type: trailer
+    video: s9vzLNF
+  - type: backstage
+    video: sxJ7Qg3
 
 links:
   - type: Review
