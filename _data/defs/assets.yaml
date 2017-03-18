@@ -17,7 +17,7 @@
   type: string
   short: SmugMug ID of the video
   description: >
-    Find IDs using the [show video utility](/util/smug-show-video/)
+    Find IDs using the [show video utility](/util/smug-show-videos/)
 
 - attr: filename
   type: string
