@@ -109,6 +109,7 @@ assets:
     image: JXCJvSX
   - type: trailer
     video: kH5W832
+    title: Show Trailer
 ---
 
 Widely regarded by scholars and academics as Shakespeare’s finest work, King Lear portrays a powerful king who loses his grip on everything that defines him. Along with Lear’s decline into madness, the play focuses on identity and morality as the state and royal family are torn apart.

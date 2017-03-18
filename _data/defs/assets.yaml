@@ -29,8 +29,8 @@
   type: string
   short: Asset title
   description: >
-    Is shown when graphical representation of file is not possible, required
-    when using the `filename` key.
+    Is shown when graphical representation of file is not possible and for
+    videos. Required when using the `filename` key.
 
 - attr: page
   type: number
