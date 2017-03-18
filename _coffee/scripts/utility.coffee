@@ -56,7 +56,7 @@ $(document).ready ->
       fill_image_list(data["Response"]["AlbumImage"])
 
       # Show assets
-      if key == "C87GJX"
+      if key == "C87GJX" or key == "j3PdMh"
         fetch_usage_list "/feeds/smug_images.json", (data) ->
           add_usage_data(data)
           $("#smug-images").tablesorter()

@@ -20,6 +20,13 @@ class SmugImage < Smug
     'ImageSizeX2Large',
     'ImageSizeX3Large',
     'ImageSizeOriginal',
+    'VideoSize110',
+    'VideoSize200',
+    'VideoSize320',
+    'VideoSize640',
+    'VideoSize960',
+    'VideoSize1280',
+    'VideoSize1920',
   ]
 
   CUSTOM_SIZES = [
@@ -39,7 +46,7 @@ class SmugImage < Smug
     Struct::CustomSize.new("person_thumb_1", "41x41!"),
     Struct::CustomSize.new("person_thumb_2", "82x82!"),
     Struct::CustomSize.new("person_thumb_3", "123x123!"),
-    
+
     Struct::CustomSize.new("person_bio_s", "96x96!"),
     Struct::CustomSize.new("person_bio_m", "160x160!"),
     Struct::CustomSize.new("person_bio", "160x160!"),
@@ -111,8 +118,17 @@ class SmugImage < Smug
         "x2large" => getSize("ImageSizeX2Large"),
         "x3large" => getSize("ImageSizeX3Large"),
         "original" => getSize("ImageSizeOriginal"),
+
+        # SM named sizes for video are though
+        "video110" => getSize('VideoSize110'),
+        "video200" => getSize('VideoSize200'),
+        "video320" => getSize('VideoSize320'),   # 180
+        "video640" => getSize('VideoSize640'),   # 360
+        "video960" => getSize('VideoSize960'),   # 540
+        "video1280" => getSize('VideoSize1280'), # 720
+        "video1920" => getSize('VideoSize1920'), # 1080
       }
-      
+
       # Add all our custom sizes
       for size in CUSTOM_SIZES
         h[size.name] = customSize(size.size)

@@ -16,6 +16,13 @@
     "year_title": {{ show.year_page.title | jsonify }},
     "link": {{ show.url | jsonify }}
   }
+{% elsif asset.video %}
+  {% unless first_actual %},{% endunless %}
+  {{ asset.video.key | jsonify }}: {
+    "title": {{ show.title | jsonify }},
+    "year_title": {{ show.year_page.title | jsonify }},
+    "link": {{ show.url | jsonify }}
+  }
 {% endif %}
 {% endfor %}
 {% endif %}

@@ -19,10 +19,19 @@
   {% elsif asset.image %}
 
     <li class="show-asset-image debug-container">
-      <a class="lightbox-link" rel="assets" href="{{ asset.image.xlarge }}" title="{{ asset.caption }}">
+      <a class="lightbox-link" rel="assets" href="{{ asset.image.xlarge }}" title="{{ asset.caption }}" data-type="image">
         <img src="{{ asset.image.small }}" alt="{{ asset.type }} {{ asset.caption }}" title="{{ asset.caption }}" />
       </a>
       <div class="debug-abs-bottom-left" data-debug-toggle title="ImageKey">{{ asset.image.key }}</div>
+    </li>
+
+  {% elsif asset.video %}
+
+    <li class="show-asset-image debug-container">
+      <a class="lightbox-link" rel="assets" href="{{ asset.video.video1920 }}" title="{{ asset.caption }}" data-type="video">
+        <img src="{{ asset.video.small }}" alt="{{ asset.type }} {{ asset.caption }}" title="{{ asset.caption }}" />
+      </a>
+      <div class="debug-abs-bottom-left" data-debug-toggle title="ImageKey">{{ asset.video.key }}</div>
     </li>
 
   {% endif %}
