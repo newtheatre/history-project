@@ -32,16 +32,24 @@
       <a class="lightbox-link" rel="assets" href="{{ asset.image.xlarge }}" title="{{ asset.caption }}" data-type="image">
         <img src="{{ asset.image.small }}" alt="{{ asset.type }} {{ asset.caption }}" title="{{ asset.caption }}" />
       </a>
-      <div class="debug-abs-bottom-left" data-debug-toggle title="ImageKey">{{ asset.image.key }}</div>
+      <div class="debug-abs-bottom-left" data-debug-toggle title="Asset type">{{ asset.type }}</div>
+      <div class="debug-abs-top-left" data-debug-toggle title="ImageKey">{{ asset.image.key }}</div>
     </li>
 
   {% elsif asset.video %}
 
-    <li class="show-asset-image debug-container">
+    <li class="show-asset-video debug-container">
       <a class="lightbox-link" rel="assets" href="{{ asset.video.video1920 }}" title="{{ asset.caption }}" data-type="video">
+        <div class="show-asset-video__clapper">
+          &nbsp;
+        </div>
         <img src="{{ asset.video.small }}" alt="{{ asset.type }} {{ asset.caption }}" title="{{ asset.caption }}" />
+        <div class="show-asset-video__title">
+          {{ asset.title }}
+        </div>
       </a>
-      <div class="debug-abs-bottom-left" data-debug-toggle title="ImageKey">{{ asset.video.key }}</div>
+      <div class="debug-abs-bottom-left" data-debug-toggle title="Asset type">{{ asset.type }}</div>
+      <div class="debug-abs-top-left" data-debug-toggle title="ImageKey">{{ asset.video.key }}</div>
     </li>
 
   {% endif %}

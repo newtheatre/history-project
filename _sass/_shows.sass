@@ -238,7 +238,8 @@ $show-photos-mob-gutter: 7px
 .show-assets-list
   @include list-unformatted
   @include gallery-outer
-  .show-asset-file, .show-asset-image
+
+  .show-asset-file, .show-asset-image, .show-asset-video
     @include gallery-item
     @include respond-down(mob-land)
       max-width: 33%
@@ -249,32 +250,50 @@ $show-photos-mob-gutter: 7px
       max-width: 25%
     a
       display: block
-  .show-asset-file
-    position: relative
 
+  .show-asset-image
+    img
+      width: 100%
+
+  // Tile asset stuff
+  .show-asset-video, .show-asset-file
     a
-      display: flex
       height: 100%
       min-height: 160px // I measured this, 110
 
-      background: darken($color-nnt-purple, 20%)
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+
       color: $color-text-white
       @include no-underline
 
-      flex-direction: column
-      justify-content: space-between
+    .show-asset-video__title, .show-asset-file__title
+      padding: 0.5rem
+
+
+  .show-asset-video
+    a
+      background: lighten(grayscale($color-background), 05%)
+
+    .show-asset-video__clapper
+      background: url('/images/svg/clapper-chevron.svg')
+      background-repeat: repeat-x
+      // Offset, makes look slightly better
+      background-position: -19px
+      opacity: 0.8
+
+    img
+      width: 100%
+
+  .show-asset-file
+    a
+      background: darken($color-nnt-purple, 25%)
 
     .show-asset-file__icon
       font-size: 91px
       opacity: 0.2
       text-align: center
-
-    .show-asset-file__title
-      padding: 0.5rem
-
-  .show-asset-image
-    img
-      width: 100%
 
 .show-cast, .show-crew
   @include grid-x-col(8)
