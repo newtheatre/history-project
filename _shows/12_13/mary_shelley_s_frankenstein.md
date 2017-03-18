@@ -115,13 +115,11 @@ crew:
     name: Nick Barker
 
 assets:
+  - type: poster
+    image: GBVxfrt
   - type: script
     filename: mark_shelley_s_frankenstein_script.docx
     title: Script
-
-assets:
-  - type: poster
-    image: GBVxfrt
 
 prod_shots: S4pKW6
 
