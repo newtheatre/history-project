@@ -99,6 +99,9 @@ crew:
 assets:
   - type: poster
     image: N3KhZ9n
+  - type: plan
+    filename: molly-sweeney-2013-lx.pdf
+    title: LX Plan
 
 prod_shots: q5TP5z
 

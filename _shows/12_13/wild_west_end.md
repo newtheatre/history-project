@@ -29,6 +29,9 @@ crew:
 assets:
   - type: poster
     image: Jk8jmRF
+  - type: soundtrack
+    filename: wild-west-end-soundtrack.zip
+    title: Soundtrack
 
 prod_shots: 9CnkkD
 ---

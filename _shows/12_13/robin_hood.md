@@ -59,8 +59,9 @@ crew:
 assets:
   - type: poster
     image: cPcc5wM
-
-
+  - type: plan
+    filename: robin-hood-2013-lx.pdf
+    title: LX Plan
 ---
 
 In the final week of term come and celebrate at The Nottingham New Theatre by watching the Nottingham legend Robin Hood and his friends (and enemies) in a devised comedy with singing, dancing, fighting and of course green tights.
