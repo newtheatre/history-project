@@ -100,6 +100,7 @@ assets:
     image: Cp2CBh9
   - type: trailer
     video: CBtDNSj
+    title: Show Trailer
 
 prod_shots: tW92hS
 

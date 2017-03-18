@@ -63,12 +63,13 @@ assets:
     image: HPdX7N9
   - type: backstage
     video: mz4ptWK
+    title: Backstage At
 
 links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-pride-nottingham-new-theatre
     snapshot: BPExL
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Emily Brady
     title: "Review: The Pride at Nottingham New Theatre"
     date: 2016-11-18
@@ -83,7 +84,7 @@ links:
     date: 2016-11-18
     rating: 8/10
     quote: "The use of in the round staging contributes to the immediacy of the audience’s experience; the tics and trembles are more apparent, the flare-ups and brutality more affecting."
-    
+
 ---
 
 “What is the point of this stupid, painful life if not to be honest? If not to stand up for what one is in the core of one’s being?”

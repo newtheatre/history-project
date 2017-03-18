@@ -45,14 +45,16 @@ assets:
     image: hMsFKmw
   - type: trailer
     video: 38V5wQ4
+    title: Show Trailer
   - type: backstage
     video: KcLtJX4
+    title: Backstage At
 
 links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-freak-nottingham-new-theatre
     snapshot: shsaN
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Charlotte Hegley
     title: "Review: Freak at Nottingham New Theatre"
     date: 2016-11-05

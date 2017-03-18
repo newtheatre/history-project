@@ -64,7 +64,7 @@ crew:
 - role: Hair & Make-Up
   name: Amy Greaves
 - role: Design Assistant
-  name: Ranait Flanagan 
+  name: Ranait Flanagan
 
 prod_shots: N7GDcp
 
@@ -73,10 +73,13 @@ assets:
     image: mdhmfbG
   - type: trailer
     video: wCnXjcX
+    title: Teaser Trailer
   - type: trailer
     video: gNBLtP4
+    title: Show Trailer
   - type: backstage
     video: ZCr3bqm
+    title: Backstage At
 
 links:
   - type: Review

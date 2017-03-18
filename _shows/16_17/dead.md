@@ -106,8 +106,10 @@ assets:
     image: xt7QBwS
   - type: trailer
     video: s9vzLNF
+    title: Show Trailer
   - type: backstage
     video: sxJ7Qg3
+    title: Backstage At
 
 links:
   - type: Review
@@ -126,7 +128,7 @@ links:
     author: Emma Pallen
     title: "DEAD: A Musical @ Nottingham New Theatre"
     date: 2016-12-15
-    rating: 10/10 
+    rating: 10/10
     quote: "The faultless scriptwriting is brought to life (no pun intended) by a team of equally brilliant actors."
 ---
 

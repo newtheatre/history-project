@@ -76,8 +76,10 @@ assets:
     image: D8b2WL7
   - type: trailer
     video: FvLtwHM
+    title: Show Trailer
   - type: backstage
     video: sJNMbgG
+    title: Backstage At
 
 links:
   - type: Review

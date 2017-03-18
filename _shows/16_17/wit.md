@@ -79,6 +79,7 @@ assets:
     image: RsK8nTw
   - type: backstage
     video: vQW83qB
+    title: Backstage At
 
 links:
   - type: Review

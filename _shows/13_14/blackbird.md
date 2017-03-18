@@ -47,6 +47,7 @@ assets:
     image: xhLFfCb
   - type: backstage
     video: 4qDgX2k
+    title: Backstage At
 
 ---
 

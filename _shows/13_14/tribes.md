@@ -57,6 +57,7 @@ assets:
     image: XcCJJsT
   - type: backstage
     video: bTs9BsM
+    title: Backstage At
 
 prod_shots: Gt964M
 ---

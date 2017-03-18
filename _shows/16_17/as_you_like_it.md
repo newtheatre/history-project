@@ -101,6 +101,7 @@ assets:
     image: sZ7pTJN
   - type: backstage
     video: fxb25hD
+    title: Backstage At
 
 links:
   - type: Review

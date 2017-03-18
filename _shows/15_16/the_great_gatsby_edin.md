@@ -16,8 +16,10 @@ assets:
     image: PMJTJV2
   - type: trailer
     video: T7qxgDm
+    title: Show Trailer
   - type: backstage
     video: h7rqXTg
+    title: Backstage At
 
 prod_shots: DdZTWt
 

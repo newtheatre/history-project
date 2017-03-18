@@ -39,6 +39,7 @@ assets:
     image: 56F3JcB
   - type: trailer
     video: 7FrxHZC
+    title: Show Trailer
 
 prod_shots: qdN3KW
 ---

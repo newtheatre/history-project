@@ -110,7 +110,8 @@ assets:
   - type: poster
     image: xD53hMW
   - type: trailer
-    video: TskT7DL 
+    video: TskT7DL
+    title: Show Trailer
 
 ---
 

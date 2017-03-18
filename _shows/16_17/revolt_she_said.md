@@ -64,10 +64,13 @@ assets:
     image: ZKnbbMJ
   - type: trailer
     video: pMhK9FT
+    title: Teaser Trailer
   - type: trailer
     video: WRDjZfK
+    title: Show Trailer
   - type: backstage
     video: VWRHPMF
+    title: Backstage At
 
 ---
 

@@ -54,6 +54,7 @@ assets:
     image: kf9JtCh
   - type: trailer
     video: rJ9CBcC
+    title: Show Trailer
   - type: plan
     filename: servant_lx.pdf
     title: LX Plan

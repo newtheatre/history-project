@@ -73,12 +73,13 @@ assets:
     image: ZcgsXpt
   - type: backstage
     video: txPwHQR
+    title: Backstage At
 
 links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-closer-nottingham-new-theatre
     snapshot: mkdaZ
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Emily Brady
     title: "Review: Contractions at the Nottingham New Theatre"
     date: 2016-11-11
