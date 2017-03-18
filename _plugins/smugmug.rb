@@ -12,6 +12,10 @@ class Smug
   headers 'Accept' => 'application/json'
   default_timeout 20
 
+  # Cache timings
+  MIN_INVALID_WEEKS = 4
+  MAX_INVALID_WEEKS = 12
+
   def api_key
     ENV['SMUGMUG_API_KEY']
   end
@@ -21,9 +25,6 @@ class Smug
   end
 
   def cache_invalid_time
-    MIN_INVALID_WEEKS = 4
-    MAX_INVALID_WEEKS = 12
-
     x = MIN_INVALID_WEEKS
     y = MAX_INVALID_WEEKS - MIN_INVALID_WEEKS
     # Time now, minus x to x+y weeks
