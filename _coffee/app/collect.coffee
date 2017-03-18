@@ -1,16 +1,17 @@
-$('input[type="checkbox"]').change ->
-  $(this).closest("label").toggleClass("child-checked", this.checked)
+collectBindEvents = ->
+  $('input[type="checkbox"]').change ->
+    $(this).closest("label").toggleClass("child-checked", this.checked)
 
-$("#collect-show-form").submit (e) ->
-  e.preventDefault()
+  $("#collect-show-form").submit (e) ->
+    e.preventDefault()
 
-  form_data = $(this).serializeArray()
-  form_dict = {}
+    form_data = $(this).serializeArray()
+    form_dict = {}
 
-  form_data.forEach (x) ->
-    form_dict[x['name']] = x['value']
+    form_data.forEach (x) ->
+      form_dict[x['name']] = x['value']
 
-  message = """# 'Tell us about a show' form submission
+    message = """# 'Tell us about a show' form submission
 
 Field | Data
 ----- | ----
@@ -76,51 +77,51 @@ published: true
 ```
 """
 
-  postData = {
-    'title': form_dict['title'],
-    'message': message,
-    'name': ''
-    'page_url': '/collect/show/'
-  }
+    postData = {
+      'title': form_dict['title'],
+      'message': message,
+      'name': ''
+      'page_url': '/collect/show/'
+    }
 
-  report = new ReportModel
-    title: form_dict['title']
-    message: message,
-    name: ''
-    page_url: '/collect/show/'
-    url: $(this).attr 'action'
+    report = new ReportModel
+      title: form_dict['title']
+      message: message,
+      name: ''
+      page_url: '/collect/show/'
+      url: $(this).attr 'action'
 
-  report.save
-    success: (data) ->
-      Turbolinks.visit('/collect/show/thanks/')
-    error: (data) ->
-      enableCollectForm()
+    report.save
+      success: (data) ->
+        Turbolinks.visit('/collect/show/thanks/')
+      error: (data) ->
+        enableCollectForm()
 
-  disableCollectForm()
+    disableCollectForm()
 
-$("#collect-person-form").submit (e) ->
-  e.preventDefault()
+  $("#collect-person-form").submit (e) ->
+    e.preventDefault()
 
-  form_data = $(this).serializeArray()
-  form_dict = {}
+    form_data = $(this).serializeArray()
+    form_dict = {}
 
-  form_data.forEach (x) ->
-    form_dict[x['name']] = x['value'].replace(/[^\x00-\x7F]/g, "");
+    form_data.forEach (x) ->
+      form_dict[x['name']] = x['value'].replace(/[^\x00-\x7F]/g, "");
 
-  form_data_computed =
-    'contact_allowed_yn': if form_dict['contact_allowed'] == 'on' then 'Yes' else 'No'
-    'contact_allowed_tf': if form_dict['contact_allowed'] == 'on' then 'true' else 'false'
+    form_data_computed =
+      'contact_allowed_yn': if form_dict['contact_allowed'] == 'on' then 'Yes' else 'No'
+      'contact_allowed_tf': if form_dict['contact_allowed'] == 'on' then 'true' else 'false'
 
-  career_choices = []
-  career_choices_formatted = ""
-  career_choices_yaml = ""
-  $('.career-choice').each (x) ->
-    if this.checked
-      career_choices.push( $(this).attr('name') )
-      career_choices_formatted += $(this).attr('name') + ", "
-      career_choices_yaml += "  - " + $(this).attr('name') + "\n"
+    career_choices = []
+    career_choices_formatted = ""
+    career_choices_yaml = ""
+    $('.career-choice').each (x) ->
+      if this.checked
+        career_choices.push( $(this).attr('name') )
+        career_choices_formatted += $(this).attr('name') + ", "
+        career_choices_yaml += "  - " + $(this).attr('name') + "\n"
 
-  message = """# 'Submit an almni bio' form submission
+    message = """# 'Submit an almni bio' form submission
 
 Field | Data
 ----- | ----
@@ -186,27 +187,28 @@ award: *fill me out
 ```
 """
 
-  window.message = message
+    window.message = message
 
-  report = new ReportModel
-    title: form_dict['name'] + " bio submission"
-    message: message,
-    name: ''
-    page_url: '/collect/person/'
-    url: $(this).attr 'action'
+    report = new ReportModel
+      title: form_dict['name'] + " bio submission"
+      message: message,
+      name: ''
+      page_url: '/collect/person/'
+      url: $(this).attr 'action'
 
-  report.save
-    success: (data) ->
-      Turbolinks.visit('/collect/person/thanks/')
-    error: (data) ->
-      enableCollectForm()
+    report.save
+      success: (data) ->
+        Turbolinks.visit('/collect/person/thanks/')
+      error: (data) ->
+        enableCollectForm()
 
-  disableCollectForm()
+    disableCollectForm()
 
 PEOPLE_FEED = "/feeds/people-collect.json"
 TEMPLATE_DATA = "#collect-template-list"
 
 collectPersonFormSetup = ->
+  collectBindEvents()
   path = getUrlParameter('name')
   if path and path.length > 0
     $.get PEOPLE_FEED, (data) ->

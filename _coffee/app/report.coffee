@@ -15,11 +15,12 @@ class ReportModel
 
   save: (opts) ->
     FORM_URL = @url
-    console.log @buildJSON()
+    data = @buildJSON()
+    window.reportModelData = data
     $.ajax
       url : FORM_URL
       type: "POST"
-      data : @buildJSON()
+      data : data
       success: (data, textStatus, jqXHR) ->
         if data.status is "success"
           opts.success(data)
@@ -30,6 +31,20 @@ class ReportModel
         alert('Oops, something went wrong')
         error()
 
+disableReportForm = ->
+  $('.report-submit').attr("disabled", true)
+  $('.report-submit').addClass('disabled')
+  $('.report-submit').html('<i class="fa fa-circle-o-notch fa-spin"></i>')
+
+
+enableReportForm = ->
+  $('.report-submit').attr("disabled", false)
+  $('.report-submit').removeClass('disabled')
+  $('.report-submit').html('Try Again')
+
+reportThanks = (url) ->
+  template = _.template $('#report-success-template').html()
+  $('#report-modal-content').html template('url': url)
 
 document.addEventListener 'turbolinks:load', ->
   $('#report-this-page').click (e) ->
@@ -53,35 +68,20 @@ document.addEventListener 'turbolinks:load', ->
     $('#improve').removeClass 'report-show'
     $('#report').addClass 'report-show'
 
-$("#report-issue-form").submit (e) ->
-  e.preventDefault()
+  $("#report-issue-form").submit (e) ->
+    e.preventDefault()
 
-  report = new ReportModel
-    title: $("#report-title", this).val()
-    page_url: $("#report-page_url", this).val()
-    message: $("#report-message", this).val()
-    name: $("#report-name", this).val()
-    url: $(this).attr 'action'
+    report = new ReportModel
+      title: $("#report-title", this).val()
+      page_url: $("#report-page_url", this).val()
+      message: $("#report-message", this).val()
+      name: $("#report-name", this).val()
+      url: $(this).attr 'action'
 
-  report.save
-    success: (data) ->
-      reportThanks(data.url)
-    error: (data) ->
-      enableReportForm()
+    report.save
+      success: (data) ->
+        reportThanks(data.url)
+      error: (data) ->
+        enableReportForm()
 
-  disableReportForm()
-
-disableReportForm = ->
-  $('.report-submit').attr("disabled", true)
-  $('.report-submit').addClass('disabled')
-  $('.report-submit').html('<i class="fa fa-circle-o-notch fa-spin"></i>')
-
-
-enableReportForm = ->
-  $('.report-submit').attr("disabled", false)
-  $('.report-submit').removeClass('disabled')
-  $('.report-submit').html('Try Again')
-
-reportThanks = (url) ->
-  template = _.template $('#report-success-template').html()
-  $('#report-modal-content').html template('url': url)
+    disableReportForm()
