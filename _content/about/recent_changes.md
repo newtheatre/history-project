@@ -9,7 +9,7 @@ regenerate: true
 
 # <i class="octicon octicon-history fa-fw"></i> Recent Changes
 
-The following is a listing of the last thirty commits to the project's [repository](https://github.com/newtheatre/history-project).
+The following is a listing of the most recent commits to the project's [repository](https://github.com/newtheatre/history-project).
 
 {% gitactivity %}
 
