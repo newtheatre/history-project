@@ -11,6 +11,9 @@ date_end: 2009-02-21
 assets:
   - type: poster
     image: 8rDpXfK
+  - type: video
+    video: wt6MsCd
+    title: Lighting Demo
 
 prod_shots: DVdGzx
 ---
