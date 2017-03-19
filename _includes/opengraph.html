@@ -1,0 +1,82 @@
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{site.title}}">
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+{% capture og_title %}
+  {% if page.title and page.body_class != 'home' %}{{ page.title | escape_once }} &middot; {{ site.title }}{% else %}{{ site.title }}{% endif %}
+{% endcapture %}
+
+{% capture og_description %}
+  The Nottingham New Theatre History Project collects records on shows and people at the Nottingham New Theatre.
+    Visit the site to find more info about shows and out alumni. Help out by filling in the gaps, and submitting
+    your own short stories / anecdotes / trivia about past shows.
+{% endcapture %}
+
+{% assign og_image = '/images/opengraph-logo.png' | prepend: site.baseurl | prepend: site.url }} %}
+
+{% if page.layout == 'show' %}
+  {% assign show = page %}
+  {% if show.poster %}
+      {% assign og_image = show.poster.image.poster_large %}
+  {% endif %}
+
+  {% capture og_title %}
+    {{ show.title }} 
+
+    &middot;
+
+    {% if show.date_start %}
+      {% include liquid/date_range.html %}
+    {% else %}
+      {{ show.year_page.title }}
+    {% endif %}
+  {% endcapture %}
+
+  {% capture og_description %}
+    The Nottingham New Theatre History Project collects records on shows and people at the Nottingham New Theatre.
+    Visit the site to find more info about '{{show.title}}' including cast, crew and photographs. Help out by submitting
+    your own short stories / anecdotes / trivia about the show.
+  {% endcapture %}
+  
+
+{% elsif page.layout == 'person' %}
+  {% assign person = page %}
+  {% if person.headshot %}
+    {% assign og_image = person.headshot.person_bio_l %}
+  {% endif %}
+
+
+  {% capture og_description %}
+    {{person.title}} 
+
+    {% if person.shows.size > 0 %}
+      has {{ person.shows.size }} shows 
+    {% else %}
+      is
+    {% endif %}
+    
+      on The Nottingham New Theatre History Project 
+
+    {% if person.shows.size > 0 %}
+      {% assign earliest = person.shows[0].item.date_start | date:"%Y" %}
+      {% assign latest = person.shows[-1].item.date_start | date:"%Y" %}
+      
+      from {{earliest}}{% if earliest != latest %} to {{latest}}{% endif %}.
+    {% else %}
+      |
+    {% endif %}
+
+    Visit the site to see more information. You can help out by filling in the gaps, and submitting
+    your own short stories / anecdotes / trivia about past shows.
+    
+  {% endcapture %}
+
+{% endif %}
+
+{% assign og_title = og_title | split:&nbsp; | join:' ' | escape_once %}
+{% assign og_description = og_description | split:&nbsp; | join:' ' | escape_once %}
+
+<meta property="og:title" content="{{ og_title }}">
+<meta property="og:description" content="{{ og_description }}">
+<meta property="og:image" content="{{ og_image }}">
+  
