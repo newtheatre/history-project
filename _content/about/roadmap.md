@@ -11,8 +11,7 @@ js: "<script defer type='text/javascript' src='/lib/github-issues-widget/github-
 
 # <i class="octicon octicon-milestone fa-fw"></i> {{ page.title }}
 
-Our development priorities are highlighted using the [milestones](https://github.com/newtheatre/history-
-project/milestones?state=open) on the GitHub issue tracker. We used to publish a list here, but no longer do so.
+Our development priorities are highlighted using the [milestones](https://github.com/newtheatre/history-project/milestones?state=open) on the GitHub issue tracker. We used to publish a list here, but no longer do so.
 
 The project started in April 2015 and has been incrementally improving since then.
 
