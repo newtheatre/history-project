@@ -35,6 +35,8 @@ GEM
     liquid (3.0.6)
     liquid-c (3.0.0)
       liquid (>= 3.0.0)
+    liquid-md5 (0.0.3)
+      liquid (>= 2.5, < 5.0)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -67,7 +69,8 @@ DEPENDENCIES
   jekyll-redirect-from (~> 0.12.1)
   jekyll-sitemap (~> 1.0.0)
   liquid-c
+  liquid-md5
   octokit (~> 4.6.2)
 
 BUNDLED WITH
-   1.13.6
+   1.14.6

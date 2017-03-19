@@ -42,6 +42,7 @@ X
         {% endif %}
 
       {% else %}
+        <svg class="person-headshot person-headshot--no-record" width="48" height="48" data-jdenticon-hash="{{person.name | md5}}"></svg>
         <img src="/images/human-48.png" alt="No Headshot" class="person-headshot person-headshot--no-record" />
       {% endif %}
     </div>
