@@ -13,12 +13,8 @@ body_class: layout-about
       </div>
     </div>
     <div class="docs-nav-inner">
-      <ul>
-      {% assign docs_pages = site.content | where:"group", "about" | sort: "order" %}
-      {% for node in docs_pages %}
-        <li><a href="{{ node.url }}">{{ node.title }}</a></li>
-      {% endfor %}
-      </ul>
+      {% assign about_pages = site.content | where:"group", "about" | sort: "order" %}
+      {% include nav_docs.html pages=about_pages %}
     </div>
   </nav>
   <article class="docs-content">

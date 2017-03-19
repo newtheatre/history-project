@@ -1,0 +1,9 @@
+<ul>
+{% for node in include.pages %}
+  <li>
+    {% if node.url == page.url %}<i class="fa-fw ion-chevron-right"></i>
+    {% else %}<i class="fa-fw ion-minus"></i>{% endif %}
+    <a href="{{ node.url }}">{{ node.title }}</a>
+  </li>
+{% endfor %}
+</ul>
