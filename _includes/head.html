@@ -41,7 +41,7 @@
   <meta name="theme-color" content="{{ site.color_nnt_purple }}">
 
   <!-- Opengraph -->
-  {% include opengraph.html %}
+  {% unless site.skip_opengraph %}{% include opengraph.html %}{% endunless %}
 
   <!-- Scripts -->
   <script defer type="text/javascript" src="{% static /js/lib.js %}"></script>

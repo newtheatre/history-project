@@ -64,6 +64,7 @@ keep_files:
 # skip_venues: true
 # skip_seasons: true
 # skip_virtual_people: true
+# skip_opengraph: true
 
 # enable_debug_table: true
 
