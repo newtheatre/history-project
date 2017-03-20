@@ -1,0 +1,12 @@
+/css/*
+  Cache-Control: public, max-age=31536000
+/images/*
+  Cache-Control: public, max-age=31536000
+/js/lib.js
+  Cache-Control: public, max-age=31536000
+/js/app.js
+  Cache-Control: public, max-age=31536000
+/js/raven.js
+  Cache-Control: public, max-age=3600
+/lib/*
+  Cache-Control: public, max-age=31536000

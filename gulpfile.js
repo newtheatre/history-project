@@ -2,6 +2,7 @@
 
 var gulp = require('gulp');
 var gutil = require('gulp-util');
+var gulpif = require('gulp-if');
 var shell = require('gulp-shell')
 var concat = require('gulp-concat')
 var sass = require('gulp-sass');
@@ -26,37 +27,30 @@ console.log("  / /|  / / / / __  / ____/   ")
 console.log(" /_/ |_/ /_/ /_/ /_/_/        ")
 console.log("")
 
-// Jekyll
+// Late files, (actually now early)
 
-gulp.task('jekyll', shell.task(
-    ['bundle exec jekyll build --trace --profile'], SHELL_OPTS));
-
-gulp.task('jekyll_inc', shell.task(
-    ['bundle exec jekyll build --trace --incremental --profile'], SHELL_OPTS));
-
-// Late files
-
-function late_lib() {
-  return gulp.src('lib/**')
-             .pipe(gulp.dest('_site/lib'));
-}
-
-gulp.task('late_lib', late_lib);
-gulp.task('S_late_lib', ['jekyll'], late_lib);
-gulp.task('S_late_lib_dev', ['jekyll_inc'], late_lib);
+// Prevents need for processing lib directory.
+// Prevents both items from presence on sitemap.
 
 var LATE_FILES = [
-  'googlee5aee69e17917677.html'
+  'googlee5aee69e17917677.html',
+  'manifest.json'
 ];
 
-function late_files() {
-  return gulp.src(LATE_FILES)
-             .pipe(gulp.dest('_site'));
-}
+gulp.task('late_files_lib', function() {
+    return gulp.src('lib/**')
+               .pipe(gulp.dest('_site/lib'));
+});
 
-gulp.task('late_files', late_files);
-gulp.task('S_late_files', ['jekyll'], late_files);
-gulp.task('S_late_files_dev', ['jekyll_inc'], late_files);
+gulp.task('late_files_images', function() {
+    return gulp.src('images/**')
+               .pipe(gulp.dest('_site/images'));
+});
+
+gulp.task('late_files', ['late_files_lib', 'late_files_images'], function() {
+    return gulp.src(LATE_FILES)
+             .pipe(gulp.dest('_site'));
+});
 
 // CSS
 
@@ -78,25 +72,21 @@ function css(opts) {
 
 gulp.task('css', function () { return css({postprocess: true}) });
 gulp.task('css_dev', function () { return css({postprocess: false}) });
-gulp.task('S_css', ['jekyll'], function () { return css({postprocess: true}) });
-gulp.task('S_css_dev', ['jekyll_inc'], function () { return css({postprocess: false}) });
 
 // JS
 
-function js_app() {
+function js_app(opts) {
     return gulp.src('_coffee/app/*.coffee')
                .pipe(sourcemaps.init())
                .pipe(coffee({bare: true}).on('error', gutil.log))
                .pipe(concat('app.js'))
-               .pipe(uglify())
+               .pipe(gulpif(opts.postprocess, uglify()))
                .pipe(sourcemaps.write('.'))
                .pipe(gulp.dest('_site/js'));
 }
 
-gulp.task('js_app', js_app);
-gulp.task('js_app_dev', js_app);
-gulp.task('S_js_app', ['jekyll'], js_app);
-gulp.task('S_js_app_dev', ['jekyll_inc'], js_app);
+gulp.task('js_app', function () { return js_app({postprocess: true}) });
+gulp.task('js_app_dev', function () { return js_app({postprocess: false}) });
 
 function js_scripts() {
     return gulp.src('_coffee/scripts/*.coffee')
@@ -108,8 +98,6 @@ function js_scripts() {
 
 gulp.task('js_scripts', js_scripts);
 gulp.task('js_scripts_dev', js_scripts);
-gulp.task('S_js_scripts', ['jekyll'], js_scripts);
-gulp.task('S_js_scripts_dev', ['jekyll_inc'], js_scripts);
 
 var JS_LIBS = [
     'lib/jquery/dist/jquery.js',
@@ -123,19 +111,42 @@ var JS_LIBS = [
     'lib/raven-js/dist/raven.js'
 ]
 
-function js_lib() {
+function js_lib(opts) {
     return gulp.src(JS_LIBS)
                .pipe(sourcemaps.init())
                .pipe(concat('lib.js'))
-               .pipe(uglify())
+               .pipe(gulpif(opts.postprocess, uglify()))
                .pipe(sourcemaps.write('.'))
                .pipe(gulp.dest('_site/js'));
 }
 
-gulp.task('js_lib', js_lib);
-gulp.task('js_lib_dev', js_lib);
-gulp.task('S_js_lib', ['jekyll'], js_lib);
-gulp.task('S_js_lib_dev', ['jekyll_inc'], js_lib);
+gulp.task('js_lib', function () { return js_lib({postprocess: true}) });
+gulp.task('js_lib_dev', function () { return js_lib({postprocess: false}) });
+
+
+// Frontend tasks
+
+gulp.task('frontend', ['css',
+                       'js_app',
+                       'js_scripts',
+                       'js_lib'])
+
+gulp.task('frontend_dev', ['css_dev',
+                           'js_app_dev',
+                           'js_scripts_dev',
+                           'js_lib_dev']);
+
+
+// Jekyll
+
+gulp.task('jekyll', ['late_files', 'frontend'], shell.task(
+    ['bundle exec jekyll build --trace --profile'], SHELL_OPTS));
+
+gulp.task('jekyll_dev', ['late_files', 'frontend_dev'], shell.task(
+    ['bundle exec jekyll build --trace --profile'], SHELL_OPTS));
+
+gulp.task('jekyll_inc', ['late_files', 'frontend_dev'], shell.task(
+    ['bundle exec jekyll build --trace --incremental --profile'], SHELL_OPTS));
 
 // Search indexes
 
@@ -144,17 +155,21 @@ var CMD_INDEX_PEOPLE = 'coffee _coffee/index/people_index_generator.coffee';
 
 gulp.task('index_search', shell.task([CMD_INDEX_SEARCH]));
 gulp.task('S_index_search', ['jekyll'], shell.task([CMD_INDEX_SEARCH]));
-gulp.task('S_index_search_dev', ['jekyll_inc'], shell.task([CMD_INDEX_SEARCH]));
+gulp.task('S_index_search_dev', ['jekyll_dev'], shell.task([CMD_INDEX_SEARCH]));
+gulp.task('S_index_search_inc', ['jekyll_inc'], shell.task([CMD_INDEX_SEARCH]));
 
 gulp.task('index_people', shell.task([CMD_INDEX_PEOPLE]));
 gulp.task('S_index_people', ['jekyll'], shell.task([CMD_INDEX_PEOPLE]));
-gulp.task('S_index_people_dev', ['jekyll_inc'], shell.task([CMD_INDEX_PEOPLE]));
+gulp.task('S_index_people_dev', ['jekyll_dev'], shell.task([CMD_INDEX_PEOPLE]));
+gulp.task('S_index_people_inc', ['jekyll_inc'], shell.task([CMD_INDEX_PEOPLE]));
+
+gulp.task('index', ['S_index_search', 'S_index_people'])
+gulp.task('index_dev', ['S_index_search_dev', 'S_index_people_dev'])
+gulp.task('index_inc', ['S_index_search_inc', 'S_index_people_inc'])
 
 // Tests
 
 gulp.task('htmltest', shell.task(['_bin/htmltest']));
-gulp.task('S_htmltest', ['build', 'S_css', 'S_js_app', 'S_js_scripts'],
-    shell.task(['_bin/htmltest']));
 
 function feedlint() {
     return gulp.src('_site/feeds/*.json')
@@ -164,13 +179,12 @@ function feedlint() {
 }
 
 gulp.task('jsonlint', feedlint);
-gulp.task('S_jsonlint', ['S_index_search', 'S_index_people'], feedlint);
 
 // Server
 
 gulp.task('server', function() {
     watch(['_sass', '_coffee'], batch(function(events, done) {
-        gulp.start('frontend', done);
+        gulp.start('frontend_dev', done);
     }));
     return gulp.src('_site/')
                .pipe(webserver({
@@ -182,35 +196,31 @@ gulp.task('server', function() {
 
 gulp.task('watch', function() {
     watch(['_sass', '_coffee'], batch(function(events, done) {
-        gulp.start('frontend', done);
+        gulp.start('frontend_dev', done);
     }));
 })
 
 // Master tasks
 
-gulp.task('build', ['jekyll',
-                    'S_late_lib',
-                    'S_late_files',
-                    'S_css',
-                    'S_js_app',
-                    'S_js_scripts',
-                    'S_js_lib',
-                    'S_index_search',
-                    'S_index_people']);
-gulp.task('debug', ['jekyll_inc',
-                    'S_late_lib_dev',
-                    'S_late_files_dev',
-                    'S_css_dev',
-                    'S_js_app_dev',
-                    'S_js_scripts_dev',
-                    'S_js_lib_dev',
-                    'S_index_search_dev',
-                    'S_index_people_dev']);
+// Default is build
+gulp.task('default', ['build'])
+gulp.task('build', ['build_dev'])
 
-gulp.task('frontend', ['css_dev',
-                       'js_app_dev',
-                       'js_scripts_dev']);
+// Build site incrementally (debug only), skip some minification
+gulp.task('build_inc', ['frontend_dev',
+                        'jekyll_inc',
+                        'index_inc']);
 
+// Build site, skip some minification
+gulp.task('build_dev', ['frontend_dev',
+                        'jekyll_dev',
+                        'index_dev']);
 
+// Build site, do all minification
+gulp.task('build_deploy', ['frontend',
+                           'jekyll',
+                           'index']);
+
+// Run test suite
 gulp.task('test', ['htmltest', 'jsonlint']);
 

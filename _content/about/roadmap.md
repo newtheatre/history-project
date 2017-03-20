@@ -11,31 +11,21 @@ js: "<script defer type='text/javascript' src='/lib/github-issues-widget/github-
 
 # <i class="octicon octicon-milestone fa-fw"></i> {{ page.title }}
 
-1. <del>[**April 15**](https://github.com/newtheatre/history-project/issues?q=milestone%3A%221%3A+Alpha+1%22): Establish the site and define how data is going to be stored.</del>
+Our development priorities are highlighted using the [milestones](https://github.com/newtheatre/history-project/milestones?state=open) on the GitHub issue tracker. We used to publish a list here, but no longer do so.
 
-2. <del>[**May 15**](https://github.com/newtheatre/history-project/issues?q=milestone%3A%222%3A+Alpha+2%22): Add a number of shows, polish the styling, make sure the site is working well on mobile devices, optimise search.</del>
+The project started in April 2015 and has been incrementally improving since then.
 
-3. <del>[**September 15**](https://github.com/newtheatre/history-project/issues?q=milestone%3A%223%3A+Launch%22): Have all the shows we have on record entered into the site. Officially launch via newsletter.</del>
-
-4. <del>[**November 15**](https://github.com/newtheatre/history-project/issues?q=milestone%3A%224%3A+Before+50th+Event%22): Jobs to be done before 50th Anniversary Event.</del>
-
-5. <del>[**January 16**](https://github.com/newtheatre/history-project/milestones/5:%20New%20Year): Intermediary milestone.</del>
-
-6. <del>[**Feburary 16**](https://github.com/newtheatre/history-project/milestones/6:%20Mid-Feb): Intermediary milestone.</del>
-
-7. <del>[**March 16**](https://github.com/newtheatre/history-project/milestones/7:%20Before%20Dinner): Jobs to be done before Alumni Dinner event.</del>
-
-8. <del>[**May 16**](https://github.com/newtheatre/history-project/milestone/10): Intermediary milestone, small technical jobs.</del>
-
-9. <del>[**July 16**](https://github.com/newtheatre/history-project/milestone/11): End of summer term.</del>
-
-10. [**August 16**](https://github.com/newtheatre/history-project/milestone/12): Jobs for before the start of the Edinburgh Fringe.
-
-11. [**October 16**](https://github.com/newtheatre/history-project/milestone/13): Start of university term.
-
-12. [**November 16**](https://github.com/newtheatre/history-project/milestone/14): Intermediary milestone.
-
-- [**And Beyond**](https://github.com/newtheatre/history-project/milestones): Continue to collect archive material and update and improve the site.
+- **April 2015** Project started, a prototype site was made live.
+- **May 2015** Import and improvement of data from past data sources, including a wiki based history project.
+- **June 2015** Implement alumni records.
+- **September 2015** Officially launched the project, generate people pages from cast and crew lists.
+- **October 2015** Implementation of SmugMug plugin, allowing images storage on the new [photos.newtheatre.org.uk](http://photos.newtheatre.org.uk/) site.
+- **December 2015** Begin collecting alumni biographies, implement filters for shows by venue and season.
+- **January 2016** Listing of plays and playwrights.
+- **February 2016** Begin collecting alumni headshots.
+- **July 2016** Begin collecting venue information.
+- **September 2016** Begin collecting show anecdotes.
+- **March 2017** Improvements to the history page, begin collecting show reviews, implement logic for show videos.
 
 </div>
 

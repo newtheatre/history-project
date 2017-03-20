@@ -1,3 +1,4 @@
+{% if site.enable_debug_table %}
 <div class="debug-data" data-debug-toggle>
   <dl>
     {% for def in include.def %}
@@ -54,3 +55,8 @@
     {% endfor %}
   </dl>
 </div>
+{% else %}
+<div class="debug-data" data-debug-toggle>
+  Debug table was not enabled for this build, to enable set enable_debug_table to true in _config.yml.
+</div>
+{% endif %}

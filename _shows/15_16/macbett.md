@@ -104,6 +104,8 @@ crew:
 - role: Technical Operator
   name: Rohanna Brown
 - role: Technical Operator
+  name: Hannah Burne
+- role: Technical Operator
   name: Ben Woodford
 
 assets:

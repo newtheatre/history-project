@@ -12,6 +12,10 @@ class Smug
   headers 'Accept' => 'application/json'
   default_timeout 20
 
+  # Cache timings
+  MIN_INVALID_WEEKS = 4
+  MAX_INVALID_WEEKS = 12
+
   def api_key
     ENV['SMUGMUG_API_KEY']
   end
@@ -21,10 +25,12 @@ class Smug
   end
 
   def cache_invalid_time
-    # Time now, minus 2 to 4 weeks
+    x = MIN_INVALID_WEEKS
+    y = MAX_INVALID_WEEKS - MIN_INVALID_WEEKS
+    # Time now, minus x to x+y weeks
     # We compare the cache file ctime to this
     #            s  m  h  days
-    ( Time.now - ( 60*60*24*7*2 ) - rand( 60*60*24*7*2 ) ).to_i
+    ( Time.now - ( 60*60*24*7*x ) - rand( 60*60*24*7*y ) ).to_i
   end
 
   def cache_filename(id)
@@ -39,7 +45,7 @@ class Smug
       cache_file.close
 
       if (not cache_data.key? "FetchTime" or
-        cache_data["FetchTime"] < cache_invalid_time) and api_key and 
+        cache_data["FetchTime"] < cache_invalid_time) and api_key and
         not ENV['SMUGMUG_CACHE_MAINTAIN']
         # Delete and do over as cache invalid
         Jekyll.logger.warn("SM cache invalidated:", "Refreshing #{id}")

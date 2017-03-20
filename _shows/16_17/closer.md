@@ -71,6 +71,29 @@ prod_shots: mZXkbv
 assets:
   - type: poster
     image: ZcgsXpt
+  - type: backstage
+    video: txPwHQR
+    title: Backstage At
+
+links:
+  - type: Review
+    href: http://www.hercampus.com/school/nottingham/review-closer-nottingham-new-theatre
+    snapshot: mkdaZ
+    publisher: HerCampus
+    author: Emily Brady
+    title: "Review: Contractions at the Nottingham New Theatre"
+    date: 2016-11-11
+    stars: 4
+    quote: "Closer is a hot-blooded and drama-filled masterclass in student theatre, [...] brought to life with striking honesty."
+  - type: Review
+    href: http://www.impactnottingham.com/2016/11/closer-nottingham-new-theatre/
+    snapshot: sZCD2
+    publisher: Impact Nottingham
+    author: Yasemin Craggs Mersinoglu
+    title: "Closer @ Nottingham New Theatre"
+    date: 2016-11-11
+    rating: 7/10
+    quote: "The manipulation and subsequent guilt or otherwise was portrayed with genuine feeling and each actor’s dedication to the performance was well received by the audience."
 
 links:
   - type: Review

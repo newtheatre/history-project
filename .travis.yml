@@ -10,7 +10,7 @@ cache:
   - tmp/
   - ".sass-cache"
 before_install:
-- nvm install 4.2.6
+- nvm install 6.10.0
 install:
 - bundle install --jobs=3 --retry=3 --deployment --path=${BUNDLE_PATH:-vendor/bundle}
 - npm install
@@ -21,10 +21,11 @@ install:
 before_script:
 - _bin/prep.sh
 script:
-- gulp build
+- gulp build_deploy
 - gulp test
 after_success:
-- _bin/deploy.sh
+- _bin/deploy_ghp.sh
+- _bin/deploy_netlify.sh
 - bundle exec ruby _bin/github_tasks.rb
 git:
   depth: 6
@@ -37,3 +38,5 @@ env:
   - secure: AXtiDdkQ/EMJEw37WGrF8rCcETvC4JswCJDrCTRH54Y/mGbs8kNJw/yX7bEzWCWLaX5eqLhyQzldh8k38EwPTcb1VKJS32SH2ce730+hbpgYuhAVwB2WwgVFdOlqXUd6eIeb6EVgcvIshFKdcjQ6ww4MunG79oG8E76tQGoJ+PM=
   - secure: PxTpXT3mGNU+uWE/OYaOyGMziJ/cJ0uPAfr73enUx7i+8SRYeLLFQxwZBcbHcD/7ZDpEZcYYFHTC3d3nX5OItmOhJqbtaB0cNHFq+VVj9yiZJLjw9L/FdDwWrwxOzccGdsGyDVEWv+v8jnu5EoP+lHYVmKSV8zt5aOe65AIXMYM=
   - secure: gD9bKWPench6Qbh5CDwNK2co6F1BJGGIZIP06MAZ3YJLZJR5n20XpPTofHVNb/kvW6LsCD4OWa+r2ZXVg+CrGgt82KZfpHuQ53j3wVpqbCBMTAcdLuRCVyADBsCW3xO4xPQCX3NuHWDQaAzmGr2SPE+uRa3mIpNP9cMhIP4PeDk=
+  - secure: VZdHjHPQXsetFTCBCUSF4+yXWUBuRRVr0ZSflDAyuGuryNTbA2T8KQoxOJDMcQVNjeVFukIs8p8VkTWWSTLgSfEsSqtayYFy5hBvOceVAZVh/0UX+GjWEn9IUVDOr/wFVuZ4ArwyiXmHxGgj/uBXOEIYks3TQRUFNzhqL7035gw=
+  - secure: EXnIK2L0fhWcPklzbhbqjsQ9vNpxWPtjZkCB3OY0Z2ZD/Nt2CWqoOSgESh3ngSDu2y19gNzLCoctk8JA7mv9MO5BsUa2nuUQJ2mXubY0XrXl0i3PpICKJAWj0TcOQS8INw5DYcH51Eg1wl0o1FHm/7aw0oFhjfOMbav+2i7tEps=

@@ -36,6 +36,14 @@
   icon: fa fa-headphones
   aliases:
     - Sound Operator
+- role: Sound Engineer
+  icon: ion-levels
+  aliases:
+    - Sound
+- role: Followspot Operator
+  icon: ion-aperture
+  aliases:
+    - Followspot
 
 - role: Composer
   icon: fa fa-music

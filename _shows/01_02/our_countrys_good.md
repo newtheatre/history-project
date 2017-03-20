@@ -11,8 +11,8 @@ date_end: 2001-11-24
 cast:
   - role: Captain Arthur Phillips/John Wisehammer
     name: Philip Hamann
-  - role: Major Robbie Ross
-    name: Joseph Arkley/Ketch Freeman
+  - role: Major Robbie Ross/Ketch Freeman
+    name: Joseph Arkley
   - role: Captain David Collins/Robert Sideway
     name: Ben Bergin
   - role: Captain Watkin Tench/Caeser
@@ -25,16 +25,10 @@ cast:
     name: Stephanie Ward
   - role: 2nd Liutenant Ralph Clark
     name: Richard Whitehead
-  - role: 2nd Lieutenant William Faddy
+  - role: 2nd Lieutenant William Faddy/Dabby Bryant/Aborigine
     name: "Rhoda Ofori-Attah"
-  - role: Reverend Johnson
+  - role: Reverend Johnson/Liz Morden
     name: Lynette Shanbury
-  - role: Dabby Bryant
-    name: "Rhoda Ofori-Attah"
-  - role: Liz Morden
-    name: Lynette Shanbury
-  - role: Aborigine
-    name: "Rhoda Ofori-Attah"
 crew:
   - role: Director
     name: Hannah Bragg

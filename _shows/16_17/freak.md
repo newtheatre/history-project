@@ -43,6 +43,32 @@ prod_shots: kfzbzK
 assets:
   - type: poster
     image: hMsFKmw
+  - type: trailer
+    video: 38V5wQ4
+    title: Show Trailer
+  - type: backstage
+    video: KcLtJX4
+    title: Backstage At
+
+links:
+  - type: Review
+    href: http://www.hercampus.com/school/nottingham/review-freak-nottingham-new-theatre
+    snapshot: shsaN
+    publisher: HerCampus
+    author: Charlotte Hegley
+    title: "Review: Freak at Nottingham New Theatre"
+    date: 2016-11-05
+    stars: 4
+    quote: "An excellent drama presentation of modern teenage expectations of sex compared almost too closely to the consequences of adult desire."
+  - type: Review
+    href: http://www.impactnottingham.com/2016/11/freak-nnt/
+    snapshot: 1LotF
+    publisher: Impact
+    author: Shanai Momi
+    title: "Freak @ NNT"
+    date: 2016-11-04
+    rating: 8/10
+    quote: "Together, these two actresses complement one another tremendously, making them an easy partnership for the audience to resonate with."
 
 links:
   - type: Review

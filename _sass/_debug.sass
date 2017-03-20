@@ -43,7 +43,7 @@ $debug-data-term-width: 20%
       background: $color-debug-attr-required
     .debug-data__term--generated
       background: $color-debug-attr-generated
-    
+
     dd
       margin-left: $debug-data-term-width
       margin-bottom: 0
@@ -92,7 +92,7 @@ $debug-data-term-width: 20%
     .mob-land
       display: inline
       i:before
-        @include transform(rotate(90deg))
+        transform: rotate(90deg)
   @include respond-to(tab-port)
     .tab-port
       display: inline
@@ -100,7 +100,7 @@ $debug-data-term-width: 20%
     .tab-land
       display: inline
       i:before
-        @include transform(rotate(90deg))
+        transform: rotate(90deg)
   @include respond-to(med-desk)
     .med-desk
       display: inline

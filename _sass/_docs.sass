@@ -12,9 +12,23 @@ $inner-width: 87%
       padding: 20px
       background: darken($color-nnt-purple, 20%)
     ul
+      @include list-unformatted
       margin-bottom: 0
-    li
-      padding-bottom: $baseline / 2
+      li
+        position: relative
+        padding-bottom: $baseline / 2
+      i
+        // Disconnect icon from text
+        position: absolute
+        display: inline-block
+        opacity: 0.3
+
+        &.ion-chevron-right
+          opacity: 1
+      a
+        // Force text over, even when it wraps
+        display: inline-block
+        margin-left: 1.6rem
     h2
       font-size: 24px
       line-height: $baseline

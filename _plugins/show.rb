@@ -188,6 +188,8 @@ module Jekyll
       show.data["assets"].each do |asset|
         if asset.key? "image"
           asset["image"] = SmugImage.new(asset["image"])
+        elsif asset.key? "video"
+          asset["video"] = SmugImage.new(asset["video"])
         end
       end
 

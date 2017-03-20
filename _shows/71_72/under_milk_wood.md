@@ -5,6 +5,9 @@ period: Autumn
 playwright: Dylan Thomas
 season_sort: 70
 
+cast:
+  - name: Janis Bryan
+
 crew:
   - role: Lighting Designer
     name: Rod Craig

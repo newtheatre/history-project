@@ -67,6 +67,9 @@ crew:
 assets:
   - type: poster
     image: PDnhhds
+  - type: trailer
+    video: Z4zMWdt
+    title: Show Trailer
 
 prod_shots: Mn7LBT
 

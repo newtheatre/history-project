@@ -1,6 +1,7 @@
 #lightbox-blur
   @extend .modal-bg
   display: none
+  z-index: 999
 
 .lightbox-blur--show
   display: block !important
@@ -30,8 +31,15 @@
     -webkit-transform: rotate(360deg)
     transform: rotate(360deg)
 
-.lightbox-box__image
+.lightbox-box__content, .lightbox-box__image, .lightbox-box__video
   height: 100%
+  width: 100%
+
+.lightbox-box__image
+  object-fit: scale-down
+
+.lightbox-box__video
+  object-fit: contain
 
 .lightbox-box__load
   position: fixed

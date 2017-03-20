@@ -5,5 +5,9 @@ period: Spring
 playwright: Christopher Hampton
 season_sort: 240
 venue: New Theatre
+
+cast:
+ - role: Nick Belcher
+   name: Valmont
 ---
 

@@ -1,6 +1,6 @@
 - attr: title
   type: string
-  short: Person name 
+  short: Person name
   description: "Formatted as: *Firstname Lastname*, must match filename."
   required: true
 
@@ -18,6 +18,11 @@
   type: date
   short: The date the last submission was made
   description: "YYYY-MM-DD If this is omitted it means person has not yet made a submission, we have collated data for them."
+
+- attr: has_bio
+  type: boolean
+  short: True when bio is present
+  generated: true
 
 - attr: gender
   type: string
@@ -67,12 +72,12 @@
 - attr: links
   type: array
   short: A link list to external profiles and other sites
-  description: "Uses [link list](/docs/link-list) hashes. Should implement type, and href, can optionally use title. Common types are listed in [_data/link-types.yaml](https://github.com/newtheatre/history-project/blob/master/_data/link-types.yaml)."
+  description: "Uses [link list](/docs/link-list/) hashes. Should implement type, and href, can optionally use title. Common types are listed in [_data/link-types.yaml](https://github.com/newtheatre/history-project/blob/master/_data/link-types.yaml)."
 
 - attr: news
   type: array
   short: A link list to news stories
-  description: "Uses [link list](/docs/link-list) hashes. For collecting notable news stories relating to the alumnus. Should implement title, date and href."
+  description: "Uses [link list](/docs/link-list/) hashes. For collecting notable news stories relating to the alumnus. Should implement title, date and href."
 
 - attr: shows
   type: array

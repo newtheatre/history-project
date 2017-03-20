@@ -122,7 +122,7 @@ body_class: section-archives layout-show
 
       {% if show.assets.size > 0 %}
       <section class="show-assets">
-        <h3>Publicity Materials</h3>
+        <h3>Show Materials</h3>
         {% include show_assets_list.html assets=show.assets %}
       </section>
       {% else %}
@@ -165,7 +165,8 @@ body_class: section-archives layout-show
       <div class="show-photo-single debug-container">
         <a class="lightbox-link"
            href="{{ image.LargeImage.Url }}"
-           title="{{ image.Title | escape_once }}">
+           title="{{ image.Title | escape_once }}"
+           data-type="image">
           <img class="lazy-image"
                src="/images/image-preload.png"
                data-lazy-src="{{ image.ThumbImage.Url }}"
@@ -188,7 +189,7 @@ body_class: section-archives layout-show
      <div class="show-photos-controls__inner">
       <div class="fade-out-overlay"></div>
       <div class="gallery-control">
-        <a href="{{ show.smugmug_album.WebUri }}" 
+        <a href="{{ show.smugmug_album.WebUri }}"
            title="Show all photos"
            data-gallery-toggle>
           <div class="show-label" data-show-label>
@@ -239,23 +240,27 @@ body_class: section-archives layout-show
       <div class="debug-abs-top-left" data-debug-toggle title="Number of cast">{{ show.cast.size }}</div>
       {% unless show.ignore_missing and show.cast.size == null %}<h3>Cast</h3>{% endunless %}
       {% if show.cast == null %}
-      {% unless show.ignore_missing %}{% include boxes/show_cast_missing.html %}{% endunless %}
+        {% unless show.ignore_missing %}
+          {% include boxes/show_cast_missing.html %}
+        {% endunless %}
       {% else %}
-      {% assign people = show.cast %}
-      {% include person_list.html %}
+        {% include person_list.html people=show.cast enable_role_icons=false %}
       {% endif %}
     </section>
     <section class="show-crew debug-container">
       <div class="debug-abs-top-left" data-debug-toggle title="Nunber of crew">{{ show.crew.size }}</div>
       {% unless show.ignore_missing and show.crew.size == null %}<h3>Crew</h3>{% endunless %}
       {% if show.crew.size < site.show_low_crew %}
-      {% unless show.ignore_missing %}{% include boxes/show_crew_short.html %}{% endunless %}
+        {% unless show.ignore_missing %}
+          {% include boxes/show_crew_short.html %}
+        {% endunless %}
       {% endif %}
       {% if show.crew == null %}
-      {% unless show.ignore_missing %}{% include boxes/show_crew_missing.html %}{% endunless %}
+        {% unless show.ignore_missing %}
+          {% include boxes/show_crew_missing.html %}
+        {% endunless %}
       {% else %}
-      {% assign people = show.crew %}
-      {% include person_list.html %}
+        {% include person_list.html people=show.crew enable_role_icons=true %}
       {% endif %}
     </section>
   </div>

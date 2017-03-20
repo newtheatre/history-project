@@ -2,6 +2,7 @@
 title: Daniel Weyman
 gender: male
 headshot: X6dqbwJ
+graduated: 2000
 submitted: false
 careers:
   - Actor

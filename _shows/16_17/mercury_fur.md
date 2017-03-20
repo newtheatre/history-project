@@ -64,13 +64,33 @@ crew:
 - role: Hair & Make-Up
   name: Amy Greaves
 - role: Design Assistant
-  name: Ranait Flanagan 
+  name: Ranait Flanagan
 
 prod_shots: N7GDcp
 
 assets:
   - type: poster
     image: mdhmfbG
+  - type: trailer
+    video: wCnXjcX
+    title: Teaser Trailer
+  - type: trailer
+    video: gNBLtP4
+    title: Show Trailer
+  - type: backstage
+    video: ZCr3bqm
+    title: Backstage At
+
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2016/11/mercury-fur-nottingham-new-theatre/
+    snapshot: 0PLlj
+    publisher: Impact Nottingham
+    author: Katie Cash
+    title: "Mercury Fur @ Nottingham New Theatre"
+    date: 2016-11-26
+    rating: 9/10
+    quote: "Think *Black Mirror*, but the scare factor and intensity x10."
 
 links:
   - type: Review

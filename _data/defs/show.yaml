@@ -162,12 +162,12 @@
 - attr: cast
   type: array
   short: Cast members
-  description: "Uses the [person list](/docs/person_list) format."
+  description: "Uses the [person list](/docs/person_list/) format."
 
 - attr: crew
   type: array
   short: Crew members
-  description: "Uses the [person list](/docs/person_list) format."
+  description: "Uses the [person list](/docs/person_list/) format."
 
 - attr: prod_shots
   type: string
@@ -182,7 +182,7 @@
 - attr: assets
   type: array
   short: Publicity and other materials
-  description: "Uses the [photos and assets](/docs/photos_and_assets) format."
+  description: "Uses the [photos and assets](/docs/photos_and_assets/) format."
 
 - attr: poster
   type: hash

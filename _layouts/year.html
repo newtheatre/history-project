@@ -41,8 +41,7 @@ current: archives
         {% include boxes/committee_short.html %}
       {% endif %}
 
-      {% assign people = page.committee.committee %}
-      {% include person_list.html %}
+      {% include person_list.html people=page.committee.committee enable_role_icons=true %}
 
     {% else %}
 

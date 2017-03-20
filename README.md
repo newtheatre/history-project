@@ -17,7 +17,8 @@ This project is run by [a group](https://history.newtheatre.org.uk/humans.txt) f
 
 To get the site running locally you will need a working Ruby environment, the bundler gem installed, Node.js, Gulp, CoffeeScript, and Bower. The following instructions work on Ubuntu.
 
-- `sudo apt-get install ruby-dev rubygems nodejs npm` for an up to date Ruby with development bits and the Gem package manager, Node.js and its package manager npm.
+- `curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -` to setup and add a PPA for Node JS 6.x rather than the older 4.x versions.
+- `sudo apt install ruby-dev rubygems nodejs` for an up to date Ruby with development bits and the Gem package manager, Node.js and its package manager npm.
 - `sudo gem install bundler` for the Ruby depenancy manager.
 - `sudo ln -s /usr/bin/nodejs /usr/bin/node` because some Node packages put it in the wrong place.
 - `sudo npm install -g gulp coffee-script bower` for Gulp, CoffeeScript and Bower.
@@ -42,24 +43,33 @@ To get more verbose output from Jekyll, run `export JEKYLL_LOG_LEVEL=debug` befo
 
 - `gulp test` to run test suite locally. Currently we test for bad links, valid image tags, script references and the validity of site JSON feeds.
 
-## Vagrant
+## Docker
 
-Vagrant is a cross platform virtual machine manager. It will allow you to build the site on your local machine in an environment as close as possible to the Travis script that is actually used. It is strongly recommended that you follow the [Vagrant getting started guide](https://docs.vagrantup.com/v2/getting-started/index.html).
+[Docker](https://www.docker.com) is a cross platform software container platform. Following these instructions will allow you to build
+and view the site on your local machine in an environment as close to the production system as possible.
 
-To get started, you will need:
+- [Install Docker](https://www.docker.com/community-edition) (on windows, you probably want [Docker Toolbox](https://www.docker.com/products/docker-toolbox))
+- On windows, open the 'Docker Quickstart Terminal'. On Mac/Linux use a console of your choice.
+- `git clone https://github.com/newtheatre/history-project.git` to clone the repo to your computer.
+- `cd history-project` to change into the directory.
+- Type `./run_dev.sh`
 
-- [Oracle Virtual Box](https://www.virtualbox.org/wiki/Downloads)
-- [Vagrant](https://www.vagrantup.com/downloads.html)
+Once everything has finished running, you should see the site at `http://localhost:8000`. Hit 
+<kbd>ctrl</kbd>+<kbd>c</kbd> to stop the server. If using 'Docker Toolbox' and `localhost` doesn't work, you can find the IP address of the virtual machine by running `echo " $(docker-machine ip default)"`
 
-Once you have download the requirements and installed them successfully you simply need to bring the box up, and connect to it:
+By default `./run_dev.sh` uses the parameters `start` `install` `build` `test` `serve` in that order.
 
-- `vagrant up`
-- `vagrant ssh`
-- `cd /vagrant`
-- `gulp build`
-- `gulp server`
+- `start` builds the docker container, and starts it running in the background
+- `install` installs all necessary dependencies for the site
+- `build` builds the jekyll site
+- `test` runs the test suite
+- `serve` runs a server so you can view the site locally
+- `stop` halts and destroys the docker container. You will need to run `start` and `install` again after running this
 
-The vagrant box has port 8000 mapped to 8000 on your local machine, so `http://127.0.0.1:8000` should still work.
+You can add/remove steps to `./run_dev` as needed. For example, there is no need to run `start` or `install`
+every time you want to build the site. 
+
+Environment variables (such as the Smugmug API key) can be changed by modifying the `ENV` lines in the Dockerfile (and then running `start` again).
 
 ## Editing
 

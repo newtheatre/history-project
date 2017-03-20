@@ -1,5 +1,5 @@
 ---
-title: W;t
+title: "W;t"
 playwright: Margaret Edson
 season: In House
 season_sort: 100
@@ -7,6 +7,8 @@ period: Autumn
 venue: New Theatre
 date_start: 2016-11-30
 date_end: 2016-12-03
+canonical:
+ - title: Wit
 
 cast:
 - role: Vivian Bearing, Ph.D.
@@ -75,6 +77,37 @@ prod_shots: ZKv9Fh
 assets:
   - type: poster
     image: RsK8nTw
+  - type: backstage
+    video: vQW83qB
+    title: Backstage At
+
+links:
+  - type: Review
+    href: http://www.hercampus.com/school/nottingham/review-wt-nottingham-new-theatre
+    snapshot: yqHUq
+    publisher: HerCampus
+    author: Emily Brady
+    title: "Review: W;t at Nottingham New Theatre"
+    date: 2016-12-01
+    stars: 4.5
+    quote: "Simultaneously heart-breaking and life-affirming, and showcases the best that student theatre can be."
+  - type: Review
+    href: https://www.facebook.com/kev.castle.5/posts/10154934837632223
+    snapshot: DMuLw
+    publisher: Facebook
+    author: Kev Castle
+    title: "\"W;t\" by Margaret Edson"
+    date: 2016-12-01
+    quote: "This is probably one of the most powerful and emotional plays that I have seen performed at the New Theatre"
+  - type: Review
+    href: http://www.impactnottingham.com/2016/12/wt-nottingham-new-theatre/
+    snapshot: cL0N1
+    publisher: Impact Nottingham
+    author: Anna Watson
+    title: "W;T @ Nottingham New Theatre"
+    date: 2016-12-02
+    rating: 9/10
+    quote: "W;t was a poignant exploration of the effects illness and deterioration has, even on those may who seem distant and untouchable."
 
 links:
   - type: Review

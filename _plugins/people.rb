@@ -23,7 +23,7 @@ module Jekyll
 
     def make_path(title)
       # Downcase, remove specials, space->underscore
-      path_no_ext = title.downcase.gsub(/[^0-9a-z \-]/i, '').gsub(' ','_')
+      path_no_ext = make_hp_path(title)
       "/#{path_no_ext}"
     end
 
@@ -96,6 +96,17 @@ module Jekyll
 
     def generate_person(person)
       """Method called on all people"""
+      # Validate things
+      if not person.data.has_key?("title")
+        Jekyll.logger.abort_with("Person record #{person.basename_without_ext} missing key 'title'")
+      end
+
+      if make_hp_path(person.data["title"]) != person.basename_without_ext
+        # Ensure the page title matches the filename, as we generate links to the filename elsewhere given the title.
+        # See issue #649
+        Jekyll.logger.abort_with("Person record #{person.basename_without_ext} does not match 'title': '#{person.data['title']}'")
+      end
+
       # Names
       person.data["name"] = person.data["title"]
       person.data["forename"] = person.data["title"].split[0..-2].join(" ")
@@ -126,6 +137,8 @@ module Jekyll
       # Person additional data
       person.data["path_name"] = make_hp_path(person.data["title"])
       person.data["decade"] = "#{person.data["graduated"]}"[0,3]
+      # True when a bio is present, editor or submitter
+      person.data["has_bio"] = person.content.length > 0
 
       # Person link lists
       person.data["links"] = LinkList::LinkList.new(@site, person.data["links"])

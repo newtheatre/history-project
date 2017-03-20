@@ -2,6 +2,7 @@
 title: Martha Wilson
 submitted: false
 gender: female
+headshot: HgShCtM
 news:
   - type: Article
     title: "Daring dozen: Old Vic talent list includes director who made secret Syria trip"

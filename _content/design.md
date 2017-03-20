@@ -93,8 +93,8 @@ Sed sit amet nibh lorem. Pellentesque habitant morbi tristique senectus et netus
 | `graduated` | The year the person graduated. | YYYY |
 | `award`<br />*(optional)* | Award person received on leaving the theatre. | Should be in title case, Fellowship, Commendation. If not applicable line should be omitted. |
 | `careers` | List of careers, theatre or non-theatre related. | Recognised theatre careers are listed in [_data/careers.yaml](https://github.com/newtheatre/history-project/blob/master/_data/careers.yaml). |
-| `links` | A [link list](/docs/link-list) to external profiles and other sites. | Should implement `type`, and `href`, can optionally use `title`. Common types are listed in [_data/link-types.yaml](https://github.com/newtheatre/history-project/blob/master/_data/link-types.yaml). |
-| `news` | A [link list](/docs/link-list) to news stories. | For collecting notable news stories relating to the alumnus. Should implement `title`, `date` and `href`. |
+| `links` | A [link list](/docs/link-list/) to external profiles and other sites. | Should implement `type`, and `href`, can optionally use `title`. Common types are listed in [_data/link-types.yaml](https://github.com/newtheatre/history-project/blob/master/_data/link-types.yaml). |
+| `news` | A [link list](/docs/link-list/) to news stories. | For collecting notable news stories relating to the alumnus. Should implement `title`, `date` and `href`. |
 | `comment` | Reserved for editor comments, only displayed in [editors' mode](/docs/#super-secret-editors-mode). |
 
 </div>

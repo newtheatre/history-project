@@ -5,7 +5,7 @@ class ProdShotsGallery
 
   constructor: (opts) ->
     @elemContainer = opts.elemContainer
-    
+
     @toggleButton = @elemContainer.querySelector('[data-gallery-toggle]')
     @showLabel = @elemContainer.querySelector('[data-show-label]')
     @hideLabel = @elemContainer.querySelector('[data-hide-label]')
@@ -25,7 +25,7 @@ class ProdShotsGallery
 
     # Limited gallery (doesn't open, just forwards to smugmug)
     @limitedGallery = @elemContainer.querySelector('.gallery-control').style.display == "none"
-    
+
     # Event listeners
     if not @limitedGallery
       @toggleButton.addEventListener('click', @toggleClick)
@@ -108,7 +108,7 @@ class ProdShotsGallery
     window.requestAnimationFrame(@computeControlStickyness)
 
 
-$(document).ready ->
+document.addEventListener 'turbolinks:load', ->
   prodShotsGalleryElem = document.querySelector('#show-prod-shots')
   if prodShotsGalleryElem
     window.prodShotsGallery = new ProdShotsGallery

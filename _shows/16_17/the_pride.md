@@ -16,7 +16,7 @@ cast:
 - role: Sylvia
   name: Ella Hiscocks
 - role: The Man/The Editor/The Doctor
-  name: Daivd Mason
+  name: David Mason
 
 crew:
 - role: Director
@@ -61,6 +61,29 @@ prod_shots: kj8L48
 assets:
   - type: poster
     image: HPdX7N9
+  - type: backstage
+    video: mz4ptWK
+    title: Backstage At
+
+links:
+  - type: Review
+    href: http://www.hercampus.com/school/nottingham/review-pride-nottingham-new-theatre
+    snapshot: BPExL
+    publisher: HerCampus
+    author: Emily Brady
+    title: "Review: The Pride at Nottingham New Theatre"
+    date: 2016-11-18
+    stars: 3.5
+    quote: "Directed by Laura Jane Bateman and produced by Aneesa Kaleem, The Pride does an excellent job of juxtaposing the sexual reservation of the past with the sexual liberation of the present. "
+  - type: Review
+    href: http://www.impactnottingham.com/2016/11/the-pride-nottingham-new-theatre/
+    snapshot: uDJNr
+    publisher: Impact Nottingham
+    author: Yee Heng Yeh
+    title: "The Pride @ Nottingham New Theatre"
+    date: 2016-11-18
+    rating: 8/10
+    quote: "The use of in the round staging contributes to the immediacy of the audience’s experience; the tics and trembles are more apparent, the flare-ups and brutality more affecting."
 
 links:
   - type: Review

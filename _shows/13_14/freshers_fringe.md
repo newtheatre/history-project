@@ -19,6 +19,9 @@ crew:
 assets:
   - type: poster
     image: jtnVFjq
-
+  - type: plan
+    filename: freshers-fringe-2013-lx.pdf
+    title: LX Plan
 ---
+
 A collection of the most exciting new talent to descend upon England's only student-run theatre this year bring you one electrifying show. An evening of short plays and sketches guaranteed to tantalise, transfix and titillate.

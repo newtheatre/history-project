@@ -14,6 +14,6 @@ if [[ $TRAVIS_PULL_REQUEST = "false" && $TRAVIS_BRANCH = "master" ]]
   git config user.email "webmaster@newtheatre.org.uk"
   git config user.name "ntbot"
   git add -A .
-  git commit -a -m "Travis Build $TRAVIS_BUILD_NUMBER for $TRAVIS_COMMIT"
+  git commit -a -q -m "Travis Build $TRAVIS_BUILD_NUMBER for $TRAVIS_COMMIT"
   git push --quiet -f origin gh-pages > /dev/null 2>&1 # Hiding all the output from git push command, to prevent token leak.
 fi

@@ -99,6 +99,29 @@ prod_shots: sFmqXq
 assets:
   - type: poster
     image: sZ7pTJN
+  - type: backstage
+    video: fxb25hD
+    title: Backstage At
+
+links:
+  - type: Review
+    href: http://www.hercampus.com/school/nottingham/review-you-it-nottingham-new-theatre
+    snapshot: QYwmb
+    publisher: HerCampus Nottingham
+    author: Eve Mackay
+    title: "REVIEW: 'As You Like It' at The Nottingham New Theatre"
+    date: 2016-12-22
+    stars: 4
+    quote: "Strings of fairy lights, roses and bunting decorated the stage [...] and this helped create the almost magical atmosphere of the forest in which the play was set."
+  - type: Review
+    href: http://www.impactnottingham.com/2016/12/as-you-like-it-nottingham-new-theatre/
+    snapshot: GGn2S
+    publisher: Impact
+    author: Anna Seton
+    title: "As You Like It @ Nottingham New Theatre"
+    date: 2016-12-09
+    rating: 8/10
+    quote: "Light-hearted and easy watching, Nottingham New Theatre’s As You Like It adds extra gags and a modern twist to the topsy-turvy world of Arden."
 
 links:
   - type: Review

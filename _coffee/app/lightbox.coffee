@@ -69,7 +69,9 @@ class Lightbox
       <div class="lightbox-box__load">
         <i class="ion-load-c"></i>
       </div>
-      <img class="lightbox-box__image" src="" alt="" />
+      <div class="lightbox-box__content">
+
+      </div>
     </div>
     """
     document.body.appendChild(@lb)
@@ -84,10 +86,11 @@ class Lightbox
 
     # Save ref to load spinner
     @loadSpinnerEl = @lb.querySelector('.lightbox-box__load')
-    @imageEl = @lb.querySelector('.lightbox-box__image')
 
-    # Add load complete event handler
-    @imageEl.addEventListener('load', @imageLoaded)
+    # Image or video goes in here
+    @contentEl = @lb.querySelector('.lightbox-box__content')
+    @imageEl = null
+    @videoEl = null
 
     # Remove L&R if single image
     if @lightboxGallery.galleryLinks.length == 1
@@ -108,16 +111,45 @@ class Lightbox
       # Loop around
       @changeImage(@lightboxGallery.galleryLinks.length - 1)
 
-  changeImage: (i) ->
-    @loadSpinnerEl.classList.add('lightbox-box__load--show')
-    @imageEl.classList.add('lightbox-box__image--load')
-    @imageEl.src = @lightboxGallery.galleryLinks[i].href
-    @i = i
+  setupImage: ->
+    # Create image element to use
+    @contentEl.innerHTML = "<img class=\"lightbox-box__image\" src=\"\" alt=\"\" />"
+    @videoEl = null
+    @imageEl = @contentEl.querySelector('.lightbox-box__image')
+    # Add load complete event handler
+    @imageEl.addEventListener('load', @imageLoaded)
 
   imageLoaded: (ev) =>
     # Image load has complete, hide spinner and fade in image
     @loadSpinnerEl.classList.remove('lightbox-box__load--show')
     @imageEl.classList.remove('lightbox-box__image--load')
+
+  setupVideo: (src) ->
+    # Create video element to use
+    @contentEl.innerHTML = """<video class="lightbox-box__video lightbox-box__video--load" controls autoplay>
+      <source src="#{src}" type="video/mp4" />
+    </video>"""
+    @imageEl = null
+    @videoEl = @contentEl.querySelector('.lightbox-box__video')
+    @videoEl.addEventListener('playing', @videoLoaded)
+
+  videoLoaded: (ev) =>
+    # Video load has complete, hide spinner and fade in image
+    @loadSpinnerEl.classList.remove('lightbox-box__load--show')
+    @videoEl.classList.remove('lightbox-box__video--load')
+    ev.target.removeEventListener(ev.type, arguments.callee)
+
+  changeImage: (i) ->
+    @loadSpinnerEl.classList.add('lightbox-box__load--show')
+    switch @lightboxGallery.galleryLinks[i].dataset.type
+      when "image"
+        if not @imageEl then @setupImage()
+        @imageEl.classList.add('lightbox-box__image--load')
+        @imageEl.src = @lightboxGallery.galleryLinks[i].href
+      when "video"
+        @setupVideo(@lightboxGallery.galleryLinks[i].href)
+      else console.error('Invalid lightbox gallery type')
+    @i = i
 
   close: =>
     # Unfreeze scrolling
@@ -132,12 +164,12 @@ class Lightbox
     # Remove ref for this lightbox from gallery
     @lightboxGallery.deleteLightbox()
     # Rebind page arrow keys, remove esc listener
-    bindArrows()
+    bindKeys()
     Mousetrap.unbind('esc')
     window.disable_keyboard_nav = false
 
 
-$(document).ready ->
+document.addEventListener 'turbolinks:load', ->
   groups = document.querySelectorAll('.lightbox-group')
 
   # Initialise array, will remove old lightboxes on turbolink navigation

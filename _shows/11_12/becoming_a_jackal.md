@@ -3,7 +3,7 @@ title: Becoming A Jackal
 playwright: Alex Mawby
 student_written: true
 season: UNCUT
-season_sort: 95
+season_sort: 100
 period: Spring
 venue: Trent, Performing Arts Studio
 date_start: 2012-02-05
