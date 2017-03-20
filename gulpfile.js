@@ -200,6 +200,20 @@ gulp.task('watch', function() {
     }));
 })
 
+// Utility Stuff
+
+var HTTP_SM_CACHE = 'https://s3-eu-west-1.amazonaws.com/nthp/sm-cache-20170320.tar.gz'
+
+gulp.task('mkdir_tmp', shell.task(
+    ['mkdir -p tmp']))
+gulp.task('download_sm_cache', ['mkdir_tmp'], shell.task(
+    ['wget -qO tmp/sm-cache.tar.gz ' + HTTP_SM_CACHE]))
+gulp.task('extract_sm_cache', ['download_sm_cache'], shell.task(
+    ['tar zxf tmp/sm-cache.tar.gz ']))
+gulp.task('sm_cache', ['download_sm_cache', 'extract_sm_cache'])
+
+gulp.task('netlify_dev', ['sm_cache', 'build_dev'])
+
 // Master tasks
 
 // Default is build
