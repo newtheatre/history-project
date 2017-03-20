@@ -20,6 +20,7 @@
     </nav>
 
     {% if page.url != "/search/" %}
+    <!-- Mobile search button -->
     <div id="site-search-show" class="site-search-show">
       <i class="ion-search"></i>
     </div>
@@ -30,7 +31,9 @@
       <form method="get" action="/search" data-search-form>
         <label for="q" class="access-hidden">Search</label>
         <i class="ion-search"></i>
-        <input type="search" name="q" id="q" placeholder="Search" data-search-input class="site-search-input" />
+        <input type="search" name="q" id="q"
+               placeholder="Search" autocomplete="off"
+               class="site-search-input mousetrap" data-search-input />
         <input type="submit" value="Search" class="site-search-submit" />
       </form>
       {% endif %}

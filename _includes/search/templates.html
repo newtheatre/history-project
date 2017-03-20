@@ -1,0 +1,30 @@
+<script type="text/x-template" id="search-results">
+<ul class="dynamic-search__results" id="site-search__results">
+
+</ul>
+</script>
+
+<script type="text/x-template" id="search-result">
+<a href="<%= item.url %>" class="item-type-<%= item.collection %>">
+<div class="item-graphic">
+    <% if (item.image_thumb) { %>
+    <img class="item-graphic__image" src="<%= item.image_thumb %>" alt="<%= item.title %>" />
+    <% } else { %>
+    <i class="ion-record"></i>
+    <% } %>
+</div>
+<div class="item-details">
+    <div class="item-title"><%= item.title %></div>
+    <div class="item-byline"><%= item.byline %></div>
+</div>
+<div class="item-year">
+    <%= item.year %>
+</div>
+</a>
+</script>
+
+<script type="text/x-template" id="search-result-empty">
+<li class="dynamic-search__result dynamic-search__result--empty">
+    No results
+</li>
+</script>

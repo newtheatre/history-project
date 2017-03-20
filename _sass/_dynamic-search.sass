@@ -1,0 +1,68 @@
+.dynamic-search
+  // We fill out to the width of the search field
+  position: absolute
+  right: 0
+  width: 100%
+  min-width: 300px
+
+
+  background: $color-background-alt
+  border: 1px solid $color-nnt-purple
+
+  line-height: $baseline
+
+.dynamic-search__results
+  @include list-unformatted
+
+  max-height: 80vh
+  overflow-y: hidden
+
+.dynamic-search__result
+  text-align: left
+
+  $result-height: 44px
+  font-size: 0.8rem
+  line-height: $result-height / 2 // Half of 44px grap height
+
+  a
+    display: flex
+    padding: 0.25rem 0.5rem
+    &:hover
+      text-decoration: none
+  a.--active
+    background: darken($color-background-alt, 8%)
+
+  .item-graphic
+    width: 33px
+    margin-right: 0.5rem
+
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+    .ion-record
+      font-size: 40px // To make look about the same as the 33px headshots
+      opacity: 0.5
+
+  .item-graphic__image
+    height: 44px
+
+  .item-type-people
+    .item-graphic__image
+      // Headshot
+      width: 33px
+      height: 33px
+      border-radius: $result-height
+
+
+  .item-details
+    display: flex
+    flex-direction: column
+    flex: 1
+
+  .item-title
+
+  .item-byline
+    font-weight: 100
+    font-size: 0.7rem
+

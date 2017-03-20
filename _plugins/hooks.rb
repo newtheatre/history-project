@@ -15,6 +15,15 @@ Jekyll::Hooks.register :site, :pre_render do |site|
 
   Jekyll.logger.info "Reticulating splines..."
 
+  Jekyll.logger.info "Building search index..."
+  # This is where we add collections for inclusion in the index
+  site.data['search-index'] = SearchIndex::SearchIndex.new(
+    site.collections["shows"].docs +
+    site.collections["people"].docs +
+    site.pages
+  )
+
+
   Jekyll.logger.info "Building people index..."
   site.data['people-index'] = PeopleIndex::PeopleIndex.new(site.collections["people"].docs)
 

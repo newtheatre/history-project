@@ -14,6 +14,9 @@
   .wrapper
     @include grid-wrap
 
+    // Need this for dynamic search
+    overflow: visible
+
     // Flex container for title, nav and search
     display: flex
 
@@ -227,7 +230,8 @@ $title-text-baseline: 1.2
   &.elem-show
     transform: translateY(0em)
 
-  i
+  & > form > i
+    // magnifying glass in input
     position: absolute
 
 .search-bg
