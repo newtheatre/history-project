@@ -26,7 +26,7 @@
 				<i class="fa fa-star-o {% increment nostar %}"></i> 
 			{% endfor %}
 				
-			<strong>{{ review.publisher }}</strong> - <em>"{{ review.quote }}" - <a href="{{ review.href }}">Full Review</a></em><a href="{{ review.href }}" target="_blank"><i class="fa fa-external-link"></i></a></li>
+			<strong>{{ review.publisher }}</strong> - <em>"{{ review.quote }}" - <a href="{{ review.href }}">Full Review</a></em> <a href="{{ review.href }}" target="_blank"><small><i class="fa fa-external-link"></i></small></a></li>
 	{% endif %}
 {% endfor %}
 </ul>
