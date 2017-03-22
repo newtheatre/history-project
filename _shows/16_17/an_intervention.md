@@ -35,6 +35,12 @@ crew:
   name: Beth Wilson
 - role: Stage Manager
   name: Ed Eggleton
+- role: Stage Manager
+  name: Tom Proffitt
+- role: Stage Manager
+  name: Hannah Sweeney
+- role: Publicity Designer
+  name: David Mason
 
 prod_shots: nfzqbV
 

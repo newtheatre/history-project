@@ -144,19 +144,19 @@ cast:
  - name: Emma Fearon
    note: Dave's Group
  - name: Adam Kayami
-   note: Gary's Group
+   note: Gary and Beth's Group
  - name: Laura McDonald
-   note: Gary's Group
+   note: Gary and Beth's Group
  - name: Nick Allslatt
-   note: Gary's Group
+   note: Gary and Beth's Group
  - name: Mike Bradley
-   note: Gary's Group
+   note: Gary and Beth's Group
  - name: Cansu Suzie Arslam
-   note: Gary's Group 
+   note: Gary and Beth's Group 
  - name: Louise Harris
-   note: Gary's Group
+   note: Gary and Beth's Group
  - name: Becki Jones
-   note: Gary's Group
+   note: Gary and Beth's Group
  - name: Alice Richards
    note: Gary's Group
  - name: Charlotte Kirkman  
@@ -201,6 +201,8 @@ crew:
    name: Dave Porter
  - role: Director
    name: Gary Berezin
+ - role: Director
+   name: Beth Wilson
  - role: Director
    name: Omid Faramarzi
  - role: Director
