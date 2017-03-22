@@ -61,8 +61,9 @@ class SearchHeadForm
 
   clearDown: ->
     # Remove resultview
-    @resultsView.remove()
-    @resultsView = null
+    if @resultsView
+      @resultsView.remove()
+      @resultsView = null
 
 
 class SearchHeadResultsView
@@ -196,8 +197,7 @@ class SearchHeadResultView
     e.preventDefault()
 
   go: ->
-    # Navigate to this result. Currently just used by keyboard nav, may as well
-    # use the anchors properly for clicking.
+    # Navigate to this result.
     Turbolinks.visit(@anchorEl.href)
 
 
@@ -206,3 +206,7 @@ document.addEventListener 'turbolinks:load', ->
   searchForm = document.querySelector('#site-search-header')
   if searchForm
     window.searchHeadForm = new SearchHeadForm(searchForm)
+
+document.addEventListener 'turbolinks:visit', ->
+  if window.searchHeadForm
+    window.searchHeadForm.clearDown()
