@@ -1,53 +1,4 @@
-class SiteSearch
-  # The UI thread class for doing the searches
-
-  # This object owns the search worker and is preserved between page visits (via
-  # turbolinks)
-
-  SEARCH_WORKER_URL = '/js/search_worker.js'
-  SEARCH_INDEX_URL = '/feeds/search_index.json'
-  SEARCH_DATA_URL = '/feeds/search.json'
-
-  constructor: (opts) ->
-    # We own the content of the search templates, this stops the DOM being
-    # queried for them every time a new page is visited.
-    @templateResultsHTML = document.querySelector('#search-results').innerHTML
-    @templateResultsEmptyHTML = document.querySelector('#search-result-empty').innerHTML
-    @templateResultHTML = document.querySelector('#search-result').innerHTML
-
-    # Start the search worker and initialise it with the feeds for site search
-    @searchWorker = new Worker(SEARCH_WORKER_URL)
-    @searchWorker.postMessage
-      cmd: 'init'
-      indexUrl: SEARCH_INDEX_URL
-      dataUrl: SEARCH_DATA_URL
-    @searchWorker.addEventListener 'message', @onMessage
-
-    @isReady = false # Are we ready for user input?
-    @readyCallback = null
-    @resultsCallback = null
-
-  search: (q, callback) =>
-    # Perform a search on behalf of another object. Call that object's callback
-    # once complete.
-    # Using an instance var as we do not expect more than one search at a time.
-    @resultsCallback = callback
-    @searchWorker.postMessage
-      cmd: 'search'
-      query: q
-
-  onMessage: (e) =>
-    # Handle search worker messages
-    data = e.data
-    switch (data.cmd)
-      when 'ready'
-        # Search worker is ready
-        @isReady = true
-        @readyCallback()
-      when 'results'
-        @resultsCallback(data.results)
-
-class SearchForm
+class SearchHeadForm
   # Search form in-the-header
   constructor: (form) ->
     # Form containing search field
@@ -76,7 +27,7 @@ class SearchForm
 
   onSearch: (e) =>
     # Called when the search field is submitted (press enter)
-    # SearchResultView overrides the 'enter' button handler when a result is
+    # SearchHeadResultView overrides the 'enter' button handler when a result is
     # selected.
     e.preventDefault()
     if window.siteSearch.isReady
@@ -102,7 +53,7 @@ class SearchForm
       @resultsView.render(results)
     else
       # Create the result view and render it
-      @resultsView = new SearchResultsView(@)
+      @resultsView = new SearchHeadResultsView(@)
       @resultsView.render(results)
 
   onBlur: =>
@@ -112,7 +63,7 @@ class SearchForm
       @resultsView = null
 
 
-class SearchResultsView
+class SearchHeadResultsView
   # Results view, has many search results, handles dealing with those results
   SITE_SEARCH_CONTAINER = '#site-search'
   RESULT_MAX = 12
@@ -153,7 +104,7 @@ class SearchResultsView
     if results.length > 0
       # We have results, render them. Limit the number of results shown
       for result in results.slice(0, RESULT_MAX)
-        rV = new SearchResultView(@, result)
+        rV = new SearchHeadResultView(@, result)
         @resultsListEl.appendChild(rV.node)
         @resultViews.push(rV)
     else
@@ -205,8 +156,8 @@ class SearchResultsView
     Mousetrap.unbind('enter')
 
 
-class SearchResultView
-  # An individual search result, child of SearchResultsView
+class SearchHeadResultView
+  # An individual search result, child of SearchHeadResultsView
   CLASS_LI = 'dynamic-search__result'
   CLASS_ACTIVE = '--active'
   constructor: (parent, result) ->
@@ -248,58 +199,8 @@ class SearchResultView
     Turbolinks.visit(@anchorEl.href)
 
 
-class SearchResultViewXYZ
-  TEMPLATE_RESULT = '#search-result'
-  TEMPLATE_EMPTY = '#search-message-empty'
-  RENDER_TO = '[data-search-results]'
-
-  getSingleTemplate: ->
-    _.template $(TEMPLATE_RESULT).html()
-
-  search: (query) ->
-    @query = query
-    @render()
-
-  render: ->
-    results = doSearch(@query)
-
-    if results.length > 0
-      @renderResults(results)
-    else
-      @renderEmpty()
-
-  renderResults: (results) ->
-    singleTemplate = @getSingleTemplate()
-    results_html = []
-    results.forEach (result) ->
-      results_html.push singleTemplate
-        item: result
-
-    $(RENDER_TO).html results_html
-
-  renderEmpty: ->
-    template = _.template $(TEMPLATE_EMPTY).html()
-    html = template
-      query: @query
-    $(RENDER_TO).html html
-
-  renderBlank: ->
-    $(RENDER_TO).html '<!-- BLANK -->'
-
-
-# Done once on initial page ready, the site search class is maintained
-# throughout a visit.
-$(document).ready ->
-  window.siteSearch = new SiteSearch()
-
 # On every page nav
 document.addEventListener 'turbolinks:load', ->
-  if $('body').hasClass 'search'
-    loadIndex()
-    urlQ = getUrlParameter('q')
-    if urlQ != null
-      $('#q').val urlQ
-
   searchForm = document.querySelector('[data-search-form]')
   if searchForm
-    window.searchForm = new SearchForm(searchForm)
+    window.searchHeadForm = new SearchHeadForm(searchForm)
