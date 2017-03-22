@@ -54,7 +54,7 @@ and view the site on your local machine in an environment as close to the produc
 - `cd history-project` to change into the directory.
 - Type `./run_dev.sh`
 
-Once everything has finished running, you should see the site at `http://localhost:8000`. Hit 
+Once everything has finished running, you should see the site at `http://localhost:8000`. Hit
 <kbd>ctrl</kbd>+<kbd>c</kbd> to stop the server. If using 'Docker Toolbox' and `localhost` doesn't work, you can find the IP address of the virtual machine by running `echo " $(docker-machine ip default)"`
 
 By default `./run_dev.sh` uses the parameters `start` `install` `build` `test` `serve` in that order.
@@ -67,13 +67,19 @@ By default `./run_dev.sh` uses the parameters `start` `install` `build` `test` `
 - `stop` halts and destroys the docker container. You will need to run `start` and `install` again after running this
 
 You can add/remove steps to `./run_dev` as needed. For example, there is no need to run `start` or `install`
-every time you want to build the site. 
+every time you want to build the site.
 
 Environment variables (such as the Smugmug API key) can be changed by modifying the `ENV` lines in the Dockerfile (and then running `start` again).
 
 ## Editing
 
 See the [site documentation](https://history.newtheatre.org.uk/docs/).
+
+## Testing
+
+After building the site you can run the test suite with `gulp test`. Bear in mind you may want to disable htmltest's external link checking as this may take some time on a consumer internet connection.
+
+You may also test the syntax of YAML front-matter via `gulp yamllint`.
 
 ## Asset Storage
 
