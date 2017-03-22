@@ -8,6 +8,5 @@ course:
   - Law LLB
   - Public International Law LLM
 
-
 ---
 
