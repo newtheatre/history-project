@@ -43,7 +43,7 @@ class SiteSearch
       when 'ready'
         # Search worker is ready
         @isReady = true
-        @readyCallback()
+        @readyCallback() unless @readyCallback == null
       when 'results'
         @resultsCallback(data.results)
 

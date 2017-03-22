@@ -9,17 +9,18 @@ search: false
 
 <div class="search-form">
   <!-- Search form -->
-  <form method="get" action="/search" data-search-form>
+  <form method="get" action="/search" data-search-form id="site-search-full">
   <div class="search-form-inner">
     <i class="ion-search"></i>
-    <input class="search-q" type="search" name="q" id="q" placeholder="Enter search term" data-search-input />
+    <input type="search" name="q" id="q"
+           placeholder="Search" autocomplete="off"
+           class="search-q" data-search-input />
   </div>
   </form>
 </div>
 
 <div class="search-results">
   <!-- Search results placeholder -->
-
   <div data-search-results>
 
     <div class="search-loading">
@@ -28,26 +29,23 @@ search: false
 
   </div>
 
-
-
   <!-- Search result template -->
   <script type="text/x-template" id="search-result">
-    <div>
-    <% if (item.type == "show") { %>
+    <% if (item.collection == "shows") { %>
       <div class="search-result">
         <h3 class="search-result-show-title">
           <% if (item.poster_thumb_tag) { %><%= item.poster_thumb_tag %><% } else { %><i class="fa fa-ticket"></i><% } %>
-          <a href="<%= item.link %>"><%= item.title %></a>
+          <a href="<%= item.url %>"><%= item.title %></a>
           <% if (item.playwright) { %><span class="search-result-playwright"><%= item.playwright_formatted_long %></span><% } %>
           </h3>
         <p class="meta"><%= item.run %><% if (item.venue) { %> at <%= item.venue %><% } %>, <%= item.season %></p>
         <p><%= item.excerpt %></p>
       </div>
-    <% } else if (item.type == "person") { %>
+    <% } else if (item.collection == "people") { %>
       <div class="search-result">
         <h3 class="search-result-person-title">
           <% if (item.poster_thumb_tag) { %><%= item.poster_thumb_tag %><% } else { %><i class="ion-ios-person"></i><% } %>
-          <a href="<%= item.link %>"><%= item.title %></a>
+          <a href="<%= item.url %>"><%= item.title %></a>
           </h3>
         <p class="meta"><%= item.graduated %><% if (item.award) { %> <%= item.award %><% } %></p>
         <p><%= item.excerpt %></p>
@@ -55,23 +53,23 @@ search: false
     <% } else { %>
       <% if (item.group == "about") { %>
         <div class="search-result">
-          <h3><i class="octicon octicon-circuit-board"></i> <a href="<%= item.link %>"><%= item.title %></a></h3>
+          <h3><i class="octicon octicon-circuit-board"></i> <a href="<%= item.url %>"><%= item.title %></a></h3>
           <p><%= item.excerpt %></p>
         </div>
       <% } else if (item.group == "docs") { %>
         <div class="search-result">
-          <h3><i class="fa fa-file-text-o"></i> <a href="<%= item.link %>"><%= item.title %></a></h3>
+          <h3><i class="fa fa-file-text-o"></i> <a href="<%= item.url %>"><%= item.title %></a></h3>
           <p><%= item.excerpt %></p>
         </div>
       <% } else { %>
         <div class="search-result">
-          <h3><i class="fa fa-file"></i> <a href="<%= item.link %>"><%= item.title %></a></h3>
+          <h3><i class="fa fa-file"></i> <a href="<%= item.url %>"><%= item.title %></a></h3>
           <p><%= item.excerpt %></p>
         </div>
       <% } %>
     <% } %>
-    </div>
   </script>
+  <!-- Empty template -->
   <script type="text/x-template" id="search-message-empty">
 
     <div class="search-results-empty">

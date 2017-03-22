@@ -7,7 +7,7 @@ class SearchHeadForm
     # Search field
     @inputEl = @formEl.querySelector('[data-search-input]')
     @inputEl.addEventListener 'input', debounce =>
-          @onType()
+      @onType()
     # Handle user leaving the interaction
     @inputEl.addEventListener('blur', @onBlur)
     # Handle user return after blur
@@ -30,9 +30,8 @@ class SearchHeadForm
     # SearchHeadResultView overrides the 'enter' button handler when a result is
     # selected.
     e.preventDefault()
-    if window.siteSearch.isReady
-      q = @inputEl.value
-      window.siteSearch.search(q, @onResult)
+    # Forward query to search page
+    Turbolinks.visit("/search/?q=#{@inputEl.value}")
 
   onType: =>
     # Called (de-bounced) when the user types into the search field. Does a
@@ -43,8 +42,7 @@ class SearchHeadForm
       window.siteSearch.search(q, @onResult)
     else if q.length == 0 and @resultsView
       # User has cleared the search field, get rid of results
-      @resultsView.remove()
-      @resultsView = null
+      @clearDown()
 
   onResult: (results) =>
     # Callback for search results
@@ -59,8 +57,12 @@ class SearchHeadForm
   onBlur: =>
     # User has clicked away, remove results
     unless @resultsView == null
-      @resultsView.remove()
-      @resultsView = null
+      @clearDown()
+
+  clearDown: ->
+    # Remove resultview
+    @resultsView.remove()
+    @resultsView = null
 
 
 class SearchHeadResultsView
@@ -201,6 +203,6 @@ class SearchHeadResultView
 
 # On every page nav
 document.addEventListener 'turbolinks:load', ->
-  searchForm = document.querySelector('[data-search-form]')
+  searchForm = document.querySelector('#site-search-header')
   if searchForm
     window.searchHeadForm = new SearchHeadForm(searchForm)
