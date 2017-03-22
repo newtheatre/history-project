@@ -32,8 +32,6 @@ crew:
   name: Joe Strickland
 - role: Technical Director
   name: Rohanna Brown
-- role: Technical Operator
-  name: Joseph Heil
 - role: Poster Designer
   name: Amy Crighton
 
