@@ -1,3 +1,4 @@
+---
 - attr: quote
   type: string
   short: Quotation
@@ -10,7 +11,7 @@
 - attr: person
   type: document
   short: Person document for given name.
-  generated: yes
+  generated: true
 
 - attr: submitted
   type: date

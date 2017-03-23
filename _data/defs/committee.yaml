@@ -1,3 +1,4 @@
+---
 - attr: title
   type: string
   short: Page title

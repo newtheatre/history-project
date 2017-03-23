@@ -1,3 +1,4 @@
+---
 - attr: type
   type: string
   short: Type of the resource
@@ -26,7 +27,7 @@
 
 - attr: title
   type: string
-  short: Title of resource 
+  short: Title of resource
   description: "Useful for headlines of news articles. Only include if suitable."
 
 - attr: icon

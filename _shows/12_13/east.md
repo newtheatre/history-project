@@ -20,8 +20,6 @@ cast:
   - role: Dad
     name: Ben Williamson
 
-
-
 crew:
   - role: Director
     name: Andy Routledge
@@ -67,4 +65,3 @@ assets:
 ---
 
 The piano player watches on silently as five people unleash an uncensored insight into the unforgiving nature of the East End of London. Bulging with testosterone and stinging humour, this fantastically lyrical discharge of raw poetic passion employs Total Theatre to explore whether one can truly climb off of the lowest rung of the social ladder. An epic tragicomedy like no other.
-

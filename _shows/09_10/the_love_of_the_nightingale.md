@@ -1,5 +1,5 @@
 ---
-title:  The Love of the Nightingale
+title: The Love of the Nightingale
 playwright: Timberlake Wertenbaker
 season: In House
 season_sort: 230

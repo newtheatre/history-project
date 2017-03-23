@@ -8,7 +8,7 @@ venue: New Theatre
 date_start: 2010-03-03
 date_end: 2010-03-06
 
-crew:
+cast:
   - role: Waiter
     name: Nick Hughes
   - role: Paige

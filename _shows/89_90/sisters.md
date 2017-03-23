@@ -7,9 +7,4 @@ period:
 venue:
 date_start:
 date_end:
-
-
-
 ---
-
-
