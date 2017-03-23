@@ -70,6 +70,9 @@ assets:
   - type: backstage
     video: JRjC3cB
     title: Backstage At
+  - type: backstage
+    video: kt7DxBs
+    title: Backstage At
 
 prod_shots: Dhcwp6
 

@@ -55,6 +55,9 @@ crew:
 assets:
   - type: poster
     image: f3J9gfx
+  - type: backstage
+    video: V7CB6Vg
+    title: Backstage At
 ---
 
 Combining sharp humour, ruthless violence and compassion, Simon Stephens’ Punk Rock provides an unnerving chronicle of contemporary adolescence at the breaking point. A controversial and acute production that remains scarily relevant to the present day. This performance contains smoking.
