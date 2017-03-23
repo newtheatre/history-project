@@ -1,3 +1,4 @@
+---
 - attr: role
   type: string
   short: Name of the role
@@ -15,9 +16,9 @@
 
 - attr: person
   type: boolean
-  short: Is an NT member? 
+  short: Is an NT member?
   description: "Defaults to `true`. Set to `false` for items that are not NT people, e.g. Companies, Departments, Externals… When `false` prevents the creation of a [person record](/docs/person/)."
-  
+
 - attr: comment
   type: string
   short: Reserved for editor comments
