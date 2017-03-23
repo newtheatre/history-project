@@ -33,7 +33,7 @@ assets:
 
 links:
   - type: Review
-    href: www.hercampus.com/school/nottingham/review-dark-room-nottingham-new-theatre
+    href: http://www.hercampus.com/school/nottingham/review-dark-room-nottingham-new-theatre
     snapshot: BQCjO
     publisher: HerCampus 
     author: Amy Wilcockson
@@ -42,7 +42,7 @@ links:
     stars: 4
     quote: "The play's ambiguous ending, a sly nod to the 'Filmaker''s comment on ambiguity in films, left the audience moved and wondering at the fate of our protagonist[...] Intense and absorbing, this production certainly made an impact. "
   - type: Review
-    href: www.impactnottingham.com/2015/11/dark-room-nottingham-new-theatre
+    href: http://www.impactnottingham.com/2015/11/dark-room-nottingham-new-theatre
     snapshot: ZRA2R
     publisher: Impact Nottingham
     author: Claire Seah
