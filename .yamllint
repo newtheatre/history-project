@@ -1,0 +1,6 @@
+extends: default
+
+rules:
+  trailing-spaces: false
+  indentation: false
+  line-length: false

@@ -171,6 +171,8 @@ gulp.task('index_inc', ['S_index_search_inc', 'S_index_people_inc'])
 
 gulp.task('htmltest', shell.task(['_bin/htmltest']));
 
+gulp.task('yamllint', shell.task(['_bin/yamllint.sh']));
+
 function feedlint() {
     return gulp.src('_site/feeds/*.json')
                .pipe(jsonlint())
