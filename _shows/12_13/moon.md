@@ -1,7 +1,7 @@
 ---
 title: Moon
 playwright: Dave Porter
-student_written: True
+student_written: true
 season: UNCUT
 season_sort: 45
 period: Autumn

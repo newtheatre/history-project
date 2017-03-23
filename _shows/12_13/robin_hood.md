@@ -29,7 +29,7 @@ cast:
     name: Lyle Fulton
   - role: Alan A'Dale
     name: Hugh Purves
-  - role: Merry Man #1
+  - role: "Merry Man #1"
     name: Pam McDuff
   - role: Narrator
     name: Emma-Louise Amanshia

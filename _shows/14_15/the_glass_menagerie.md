@@ -58,8 +58,6 @@ crew:
   - role: Stage Manager
     name: Lou Knapp
 
-
-
 assets:
   - type: poster
     image: wKwD7pt
