@@ -2,6 +2,6 @@
 extends: default
 
 rules:
-  trailing-spaces: false
-  indentation: false
   line-length: false
+  indentation:
+    spaces: 2
