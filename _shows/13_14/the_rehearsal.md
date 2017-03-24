@@ -44,6 +44,9 @@ prod_shots: sHb6xL
 assets:
   - type: poster
     image: GxR6qFV
+  - type: trailer
+    video: dPpHrLW
+    title: Trailer
 
 ---
 

@@ -32,6 +32,9 @@ prod_shots: 5j5PKS
 assets:
   - type: poster
     image: 9jV9RhX
+  - type: trailer
+    video: 4VsDMj8
+    title: Trailer
 
 ---
 Paradise takes place on one unusual night on the London Underground.
