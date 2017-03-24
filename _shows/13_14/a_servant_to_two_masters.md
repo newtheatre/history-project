@@ -55,6 +55,9 @@ assets:
   - type: trailer
     video: rJ9CBcC
     title: Show Trailer
+  - type: backstage
+    video: 26TZgGj
+    title: Backstage At
   - type: plan
     filename: servant_lx.pdf
     title: LX Plan

@@ -27,6 +27,9 @@ crew:
 assets:
   - type: poster
     image: T7LWdVm
+  - type: backstage
+    video: WCRcHDp
+    title: Backstage At
 
 published: true
 

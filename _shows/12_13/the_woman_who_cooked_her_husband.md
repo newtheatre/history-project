@@ -36,6 +36,9 @@ crew:
 assets:
   - type: poster
     image: NPGhGfP
+  - type: trailer
+    video: sBPwnk3
+    title: Trailer
 
 prod_shots: 5ccxNm
 ---

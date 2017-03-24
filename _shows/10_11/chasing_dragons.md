@@ -31,6 +31,9 @@ crew:
 assets:
   - type: poster
     image: DF9fsRr
+  - type: backstage
+    video: NXZCW5k
+    title: Backstage At
 ---
 Charming. Alarming. Disarming.
 

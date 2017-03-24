@@ -55,6 +55,9 @@ prod_shots: FZgKb4
 assets:
   - type: poster
     image: m22M7wF
+  - type: backstage
+    video: qhXJj3s
+    title: Backstage At
 
 ---
 

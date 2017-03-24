@@ -56,6 +56,9 @@ assets:
   - type: poster
     image: XcCJJsT
   - type: backstage
+    video: 5Qvj3g6
+    title: Backstage At
+  - type: backstage
     video: bTs9BsM
     title: Backstage At
 

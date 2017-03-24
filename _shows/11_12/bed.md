@@ -59,6 +59,9 @@ assets:
   - type: programme
     filename: bed_programme.pdf
     title: Programme
+  - type: backstage
+    video: 9829pcp
+    title: Backstage At
 
 prod_shots: ZJCjTC
 ---
