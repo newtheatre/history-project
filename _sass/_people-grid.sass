@@ -53,16 +53,6 @@
     a
       width: 100%
 
-      @include no-focus
-      &:focus
-        .person-headshot-placeholder
-          // Tint background of silhouette
-          background: $color-focus
-
-        .name
-          // Apply focus style to text
-          @include link-focus
-
   .name
     text-align: center
     color: $color-text-white
@@ -108,10 +98,6 @@
   //       background: transparent
   //       border-color: transparent
   //       color: transparent
-
-  //     &:focus
-  //       // FIXME provide a focus state
-  //       outline: none
 
   //     &::-webkit-slider-thumb, &::-moz-slider-thumb, &::-ms-slider-thumb
   //       -webkit-appearance: none

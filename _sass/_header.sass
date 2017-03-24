@@ -48,7 +48,6 @@ $nav-height-land: 73px
   display: block
   flex: 1
 
-  @include no-focus
   &:focus
     .nnt-logo
       .nnt-logo_big
@@ -166,19 +165,14 @@ $title-text-baseline: 1.2
       &.current
         background: darken($color-nnt-purple, 10%)
 
-      @include no-focus
-      &:hover
-        background: $color-focus
-
     // Desktop nav styling
     @include respond-up(tab-port)
       padding-bottom: 3px
       &.current .page-link-text
         // Purple underline for current section
         border-bottom: 2px solid $color-nnt-purple
-      @include no-focus
-      &:hover .page-link-text, &.current:focus .page-link-text, &:focus .page-link-text
-        // White underline for hover and current focus state
+      &:hover .page-link-text
+        // White underline for hover
         border-bottom: 2px solid $color-text-white
 
 .site-search-show
@@ -246,8 +240,6 @@ $title-text-baseline: 1.2
   &:placeholder
     color: rgba($color-text-black, 0.3)
 
-  @include no-focus
-
   @include respond-up(tab-port)
     padding: 6px
     padding-left: 32px
@@ -260,9 +252,6 @@ $title-text-baseline: 1.2
 
     &:placeholder
       color: rgba($color-text-white, 0.25)
-
-    // Re-enable as disable by default
-    @include block-focus
 
 .site-search-submit
   display: none

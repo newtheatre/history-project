@@ -1,7 +1,6 @@
 // Forms
 
 input, textarea, select
-  @include block-focus
   // Bugfix safari input shittyness, see #635
   -moz-appearance: none
   -webkit-appearance: none
@@ -40,8 +39,6 @@ input[type=checkbox]
   @include text-shadow-effect($bg)
 
   position: relative
-
-  @include block-focus
 
   &:active
     top: 1px

@@ -5,7 +5,7 @@
      preserveAspectRatio="none"
      xmlns="http://www.w3.</2000/svg">
   {% for col in site.data.year-graph.graph %}
-  <a xlink:href="{{ col.year.url }}">
+  <a xlink:href="{{ col.year.url }}" tabindex="-1">
     <rect class="decade-col-{{ col.year.decade }}"
           x="{{ col.x }}"
           y="{{ col.y }}"
