@@ -32,7 +32,7 @@ crew:
 - role: Technical Operator
   name: Ben Woodford
 - role: Technical Operator
-  name: Hannah Brown
+  name: Hannah Burne
 - role: Technical Operator
   name: Adam Frankland
 - role: Technical Director
