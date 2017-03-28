@@ -148,8 +148,8 @@ body_class: layout-person header-nobr content-nobr
   <section class="person-shows">
     {% for record in person.shows %}
     <div class="person-show">
-      <div class="person-show-poster">
-        <a href="{{ record.item.url }}" title="{{ record.item.title | escape_once }}">
+      <a href="{{ record.item.url }}" class="person-show-title" title="{{ record.item.title | escape_once }}">
+        <div class="person-show-poster">
         {% if record.item.poster %}
           {% include images/show-poster-thumb.html
                      image=record.item.poster
@@ -159,12 +159,11 @@ body_class: layout-person header-nobr content-nobr
         {% else %}
           <!-- Missing Poster -->
         {% endif %}
-        </a>
-      </div>
-
-      <h3 class="person-show-title">
-        {{ record.item.title | escape_once }}
-      </h3>
+        </div>
+        <h3 class="person-show-title">
+          {{ record.item.title | escape_once }}
+        </h3>
+      </a> 
 
       <div class="person-show-meta">
         <span class="person-show-season season-{{ record.item.season | downcase | replace:" ","-" }}" title="{{ record.item.season }}"></span>
