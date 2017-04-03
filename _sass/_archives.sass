@@ -18,7 +18,9 @@
   padding-right: $baseline / 2
 
 .archive-list
-  columns: 2 12px
+  // Two columns with a minimum width of 7rem
+  columns: 2 7rem
+
   @include list-unformatted
   li
     margin-bottom: 2px
@@ -39,6 +41,9 @@
 
 
 .decade-list
+  @include respond-up(tab-land)
+    // Slightly different when made bigger
+    column-width: 5rem
   li
     text-align: center
 
@@ -102,6 +107,9 @@ $background-items: -3
     h3
       border-bottom-color: $color-venues
 
+  .venue-list
+    columns: 3 12rem
+
   .seasons
     h3
       border-bottom-color: $color-seasons
@@ -111,15 +119,19 @@ $background-items: -3
       border-bottom-color: $color-playwright
 
   .season-list
-    @include respond-down(tab-port)
-      columns: 1
+    // As with .decade-list this depends on the padding. We give more for
+    // smaller screens assuming they're touch.
+    column-width: 8.5rem
+    @include respond-up(tab-land)
+      column-width: 5rem
+
     li
       white-space: nowrap
 
   .play-list
     columns: 1
 
-  @include respond-to(tab-port)
-    .season-list, .venue-list
-      // Not quite enough room in this size
-      columns: 1
+  // @include respond-to(tab-port)
+  //   .season-list, .venue-list
+  //     // Not quite enough room in this size
+  //     columns: 1
