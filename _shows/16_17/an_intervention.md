@@ -54,6 +54,25 @@ assets:
     video: 79FN8D9
     title: Backstage At
 
+links:
+  - type: Review
+    href: http://www.hercampus.com/school/nottingham/review-intervention-nottingham-new-theatre
+    snapshot: CKruu
+    publisher: HerCampus 
+    author: Emily Brady
+    title: "Review: An Intervention at The Nottingham New Theatre"
+    date: 2017-03-19
+    stars: 4.5
+    quote: "The performances in this piece are stunning. It is undeniably a character piece, and the two actresses perform their roles with sublime conviction. They play off of each other perfectly, and the on-stage chemistry will convince you that they have been life-long friends. "
+  - type: Review
+    href: http://www.impactnottingham.com/2017/03/intervention-nottingham-new-theatre/
+    snapshot: 4s5Ve
+    publisher: Impact Nottingham
+    author: Daniel McVey
+    title: "An Intervention @ Nottingham New Theatre"
+    date: 2017-03-17
+    rating: 8/10
+    quote: "Hiscocks’s ability to portray the complex A was incredible, a particular highlight of the show is in her monologue about Caspar, which showed immense emotional depth. "
 ---
 
 If your friend is making bad life choices, you should intervene…shouldn’t you? What about intervening on behalf of someone you’ve never met?
