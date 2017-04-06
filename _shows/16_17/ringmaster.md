@@ -23,8 +23,6 @@ crew:
   name: Tom Proffitt
 - role: Producer
   name: Ed Eggleton
-- role: Assista
-  name: Harry Pavlou
 - role: Lighting Designer
   name: Joanne Blunt
 - role: Technical Director
