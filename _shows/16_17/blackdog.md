@@ -5,7 +5,7 @@ student_written: true
 season: Fringe
 season_sort: 270
 period: Spring
-venue: New Theatre
+venue: Studio A
 date_start: 2017-03-20
 date_end: 2017-03-21
 
@@ -34,6 +34,8 @@ crew:
   name: Rohanna Brown
 - role: Poster Designer
   name: Amy Crighton
+
+prod_shots: 4Zr2VM
 
 assets:
   - type: poster
