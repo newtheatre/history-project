@@ -42,3 +42,6 @@ env:
   - secure: EXnIK2L0fhWcPklzbhbqjsQ9vNpxWPtjZkCB3OY0Z2ZD/Nt2CWqoOSgESh3ngSDu2y19gNzLCoctk8JA7mv9MO5BsUa2nuUQJ2mXubY0XrXl0i3PpICKJAWj0TcOQS8INw5DYcH51Eg1wl0o1FHm/7aw0oFhjfOMbav+2i7tEps=
 notifications:
   webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
+  on_success: change
+  on_failure: always
+  on_pull_requests: false
