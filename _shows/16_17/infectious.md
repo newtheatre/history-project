@@ -5,7 +5,7 @@ student_written: true
 season: Fringe
 season_sort: 250
 period: Spring
-venue: Studia A
+venue: Studio A
 date_start: 2017-03-13
 date_end: 2017-03-14
 
