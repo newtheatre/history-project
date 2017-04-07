@@ -35,7 +35,7 @@ crew:
   name: Hannah Burne
 - role: Technical Operator
   name: Adam Frankland
-- role: Technical Director
+- role: Technical Operator
   name: Sam Layton
 - role: Stage Manager
   name: Kaitlyn Samuelsen
