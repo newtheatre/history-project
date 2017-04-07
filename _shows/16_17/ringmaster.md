@@ -23,6 +23,10 @@ crew:
   name: Tom Proffitt
 - role: Producer
   name: Ed Eggleton
+- role: Assistant Director
+  name: Natalie Henderson
+- role: Assistant Producer
+  name: Harry Pavlou
 - role: Lighting Designer
   name: Joanne Blunt
 - role: Technical Director
