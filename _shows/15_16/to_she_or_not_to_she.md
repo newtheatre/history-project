@@ -11,7 +11,9 @@ venue: New Theatre Studio A
 assets:
   - type: poster
     image: znrcT3t
-
+crew:
+  - role: Technical Director
+    name: Sam Osborne
 
 ---
 “Frailty thy name is woman?! Get stuffed Will!”
