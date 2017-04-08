@@ -64,6 +64,10 @@ crew:
   name: Emma Summerton
 - role: Stage Manager
   name: Lara Cowler
+- role: Stage Manager
+  name: Miguel Barrulas
+- role: Stage Manager
+  name: Max Miller
 - role: Poster Designer
   name: Dave Porter
 - role: Poster Designer
