@@ -29,7 +29,7 @@ Please keep in mind all reports are public. You can see [all reports made using 
 
 The <strong class="tag"><i class="octicon octicon octicon-pencil"></i> Improve This Page</strong> button appears on pages suitable for direct edits. You will be led through creating a _fork_ of the repository, making changes and submitting a _pull request_.
 
-This process is a little bit more involved than the other two, see the [editing docs](/docs/editing/) for more information.
+This process is a little bit more involved than the other two, see the [Contributors' Guide](/docs/contributing/) for more information.
 
 ## Upload images <span class="headerlite">&ndash; for photographs and other media</span>
 

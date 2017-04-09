@@ -2,7 +2,7 @@
 layout: docs
 group: docs
 title: Site Documentation
-order: 5
+order: 1
 permalink: /docs/
 ---
 

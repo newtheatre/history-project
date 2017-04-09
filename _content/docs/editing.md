@@ -5,6 +5,9 @@ title: Editing
 order: 10
 ---
 
+This page needs rewriting as an intro to editing actual files on the site, where stuff is &c.
+{: .box-warning}
+
 To edit the site you have several options. To make direct edits you must be added as a trusted editor to the [repository](http://github.com/newtheatre/history-project) by an [owner](https://github.com/orgs/newtheatre/people) however you can propose edits straight away for an editor to merge in.
 
 You can either use the GitHub website or using a text editor on your computer. Either way you'll need a free GitHub account, you can [sign up here](https://github.com/join).
