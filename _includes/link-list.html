@@ -1,14 +1,6 @@
 <dl class="link-list">
 {% for link in include.links %}
 
-{% if link.href_snapshot %}
-	{% assign linkURL = link.href_snapshot %}
-{% elsif link.snapshot %}
-	{% assign linkURL = 'http://archive.is/' | append: link.snapshot %}
-{% else %}
-	{% assign linkURL = link.href %}
-{% endif %}
-
   <dt class="single-line">
 	<i class="fa fa-fw {{ link.icon }}"></i>
 	{% if link.type == "Review" %}
@@ -36,15 +28,12 @@
 			<i class="fa fa-star-o {% increment nostar %}"></i> 
 		{% endfor %}
 
-		<strong>{{ link.publisher }}</strong> - <em>"{{ link.quote }}" - <a href="{{ linkURL }}">Full Review</a></em> 
-		<a href="{{ linkURL }}" target="_blank"><small><i class="fa fa-external-link"></i></small></a>
+		<strong>{{ link.publisher }}</strong> - <em>"{{ link.quote }}" - <a href="{{ link.href }}">Full Review</a></em> 
+		<a href="{{ link.href }}" target="_blank"><small><i class="fa fa-external-link"></i></small></a>
 
 	{% else %}
-
-  <a href="{{ linkURL }}" {{ link.data }}>{{ link.title }}</a>
-	
+  	<a href="{{ link.href }}" {{ link.data }}>{{ link.title }}</a>
   {% endif %}
-
 	<span class="debug debug-hidden-content" data-debug-toggle>{{ link.comment }}</span>
 
   </dt>
