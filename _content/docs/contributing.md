@@ -47,7 +47,7 @@ Firstly you'll need to create your own _fork_ of the respository on which to wor
 
 #### Using the web interface (github.com)
 
-1. Find the file you want to edit. Shows are stored in the `_shows` folder, people in `_people` _e.t.c._ See the [editing documentation](/docs/editing/) for more information on actually making your edit. The _Find file_ button is quite useful for this.
+1. Find the file you want to edit. Shows are stored in the `_shows` folder, people in `_people` _etc._ See the [editing documentation](/docs/editing/) for more information on actually making your edit. The _Find file_ button is quite useful for this.
 2. Click the <i class="octicon octicon-pencil"></i> pencil in the top right to start an edit.
 
 #### Making edits locally on your computer
@@ -62,12 +62,12 @@ This method requires a certain amount of technical knowledge but is a lot more f
 
 #### Writing a good commit message
 
-Using git we can see _what_ changed in a particular commit, only a good commit message can tell us _why_. This is very important for the future when other editors will be updating your work. In the case of show data, they'll need to know your sources and how credible information you've gathered is.
+Using git we can see _what_ changed in a particular commit, but a good commit message can tell us _why_. This is very important for the future when other editors will be updating your work. In the case of show data, they'll need to know your sources and how credible the information you've gathered is.
 
 When writing commits, try and adhere to the following rules:
 
 1. Limit the subject line to **about 50 characters**.
-2. **Capitalize** the subject line and do not end it with a period.
+2. **Capitalize** the subject line and do not end it with a full stop.
 3. Use the **imperative tense** in the subject line.
 4. **Use the body to explain** what and why.
 
