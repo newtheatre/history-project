@@ -57,6 +57,8 @@ assets:
     video: hHNbn9f
     title: Backstage At
 
+prod_shots: P6QHzR
+
 ---
 
 Di and Viv and Rose follows the life and friendship of three young women as they go through the trials and tribulations that the world throws at them. Although circumstances often pull them apart, Di, Viv and Rose find themselves supporting one another through thick and thin. A sweet, funny and sad look at the relationship between three young women attempting to make it in the world.
