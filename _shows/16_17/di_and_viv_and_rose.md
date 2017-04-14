@@ -25,6 +25,8 @@ crew:
   name: Isabelle Cadwallader
 - role: Lighting Designer
   name: Joanne Blunt
+- role: Sound Designer
+  name: Emily Dimino
 - role: Technical Director
   name: Amy O'Dell
 - role: Technical Operator
