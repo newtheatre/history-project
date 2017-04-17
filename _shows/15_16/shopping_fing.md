@@ -71,6 +71,26 @@ crew:
    name: Max Miller
 
 prod_shots: z3pwZS
+
+links:
+  - type: Review
+    href: http://www.hercampus.com/school/nottingham/review-shopping-and-fing-nottingham-new-theatre
+    snapshot: 6mvAM
+    publisher: HerCampus 
+    author: Holly Lowson
+    title: "Review: Shopping and F***ing at Nottingham New Theatre"
+    date: 2016-04-28
+    stars: 3.5
+    quote: "Despite its black humour, the play is by no means a comedy. One minute I found myself laughing, the next I felt incredibly uncomfortable - particularly during a jaw clenching interview scene. It's intense. "
+  - type: Review
+    href: http://www.impactnottingham.com/2016/04/shopping-and-fing-nottingham-new-theatre/
+    snapshot: BUXYZ
+    publisher: Impact Nottingham 
+    author: Claire Seah
+    title: "Shopping and F***ing @ Nottingham New Theatre"
+    date: 2016-04-28
+    rating: 10/10
+    quote: "[By] laying out the stage so the audience faces each other in two halves [...] an additional dimension is added to the play, as one could observe both the actions of the characters onstage and the reactions of the audience. Emotionally, this adds an extra layer to the experience of the play, as certain scenes were met with shock, disgust and even fear, expressed by members sitting on the opposite side. "
 ---
 
 Shopping and F***ing explores what is possible if consumerism supersedes all other moral codes. To this affect everything, including sex, violence and drugs, is reduced to a mere transaction in an age where shopping centres are the new cathedrals of Western Consumerism. The first play in the history of theatre to become world-famous because of its title, it is a shocking morality tale of our amoral times, a unique stage portrait of a lost generation of dehumanised youth rotted by social and economic abuse.

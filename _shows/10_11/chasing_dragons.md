@@ -34,6 +34,17 @@ assets:
   - type: backstage
     video: NXZCW5k
     title: Backstage At
+
+links:
+  - type: Review
+    href: http://broadwaybaby.com/shows/chasing-dragons/18793
+    snapshot: jldja
+    publisher: Broadway Baby 
+    author: Kieran Corcoran
+    title: "Chasing Dragons"
+    date: 2011-08-04
+    stars: 2
+    quote: "The domestic scenes are stronger than the author's fantastical hallucinations, managing to sculpt a functional and believable dynamic."
 ---
 Charming. Alarming. Disarming.
 

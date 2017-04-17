@@ -113,6 +113,26 @@ assets:
     image: rKRHmq7
 
 prod_shots: KgHbCr
+
+links:
+  - type: Review
+    href: http://www.hercampus.com/school/nottingham/review-macbett-nottingham-new-theatre
+    snapshot: JuN1n
+    publisher: HerCampus 
+    author: Amy Wilcockson
+    title: "Review: Macbett at The Nottingham New Theatre"
+    date: 2015-12-03
+    stars: 4.5
+    quote: "In directing this production, [Chris] Trueman has created a wacky and wonderful world full of madness and laughs, but one which has a serious message lurking behind the comic exterior – what happens when you’ve got rid of one dictator and the next ruler turns out to be even worse? "
+  - type: Review
+    href: http://www.impactnottingham.com/2015/12/macbett-nottingham-new-theatre/
+    snapshot: z6QU8
+    publisher: Impact Nottingham
+    author: Kayleigh Fletcher
+    title: "Macbett @ Nottingham New Theatre"
+    date: 2015-12-03
+    rating: 7/10
+    quote: "With the staging of the production in-keeping with the cartoonish landscape that is advertised upon the Macbett flyers and programmes, it is easy to see these characters as belonging to a parody of our own society. "
 ---
 
 If Monty Python and Terry Gilliam did Shakespeare, it'd be something like this. Arguably, a lot of Shakespeare’s work conveys a message of power being an inherently corrupting force - Macbeth being a prime example. Ionesco (one of the most prominent avant-garde writers within ‘The Theatre of the Absurd’) wrote Macbett as a fond parody of Macbeth. Ionesco is not mocking Shakespeare, he is satirising war and government in this profoundly funny and profane depiction of human nature.

@@ -41,6 +41,17 @@ assets:
   - type: backstage
     video: b5Pkj9V
     title: Backstage At
+
+links:
+  - type: Review
+    href: http://broadwaybaby.com/shows/beef/18279
+    snapshot: ey67G
+    publisher: Broadway Baby 
+    author: Carly McConnell
+    title: "Beef"
+    date: 2011-08-09
+    stars: 1
+    quote: "I expected a lot from Beef, but I felt let down."
 ---
 “I don’t know what you think is going to happen, it’s just a bit of rain”
 

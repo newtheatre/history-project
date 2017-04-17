@@ -129,6 +129,7 @@ body_class: section-archives layout-show
         {% unless show.ignore_missing %}{% include boxes/show_assets_missing.html %}{% endunless %}
       {% endif %}
 
+
     </div>
     <div class="show-poster">
       {% if show.poster %}
@@ -137,6 +138,12 @@ body_class: section-archives layout-show
         {% include boxes/show_poster_missing.html %}
       {% endif %}
     </div>
+
+    {% if show.links %}
+      <div class="show-links">
+        {% include link-list.html links=show.links %}
+      </div>
+    {% endif %}
 
   </div>
 

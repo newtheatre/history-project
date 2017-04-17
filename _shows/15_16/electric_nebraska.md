@@ -41,6 +41,17 @@ crew:
    name: Harry Bradley
 
 prod_shots: 5t3Lrx
+
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2016/04/electric-nebraska-nottingham-new-theatre/
+    snapshot: 5Tq37
+    publisher: Impact Nottingham
+    author: Felicity Bromley-Hall
+    title: "Electric Nebraska @ Nottingham New Theatre"
+    date: 2016-04-26
+    rating: 9/10
+    quote: "Tom Willis’ Electric Nebraska consumes the greying myth of the ‘American Dream’ with such dexterity you’d be forgiven for thinking it had been written by Mr Miller himself. "
 ---
 
 New York, 1979. A country still recovering from Vietnam and at the beginning of a change that will alter the fabric of an upstate New York town and its characters forever. The Lastowski family, Joe, Abigail and Jeannie have lived comfortably, Joe working at the town’s steel mill with his friends, Sam and Dianna, for fifteen years. But, after the three friends lose their jobs, and after a chance meeting with a stranger at a bar involving a racehorse destined to win, Joe and his family and friends’ lives will change course forever. Electric Nebraska explores the central ideas that are crucial to an understanding of American national identity amidst a 70s soundtrack, while capturing the rhythmic heartbeat of a working-class community. Can we do bad things and still end up good people? When we do take our shot, and, if we dive in the river... do we always manage to swim to the other side?

@@ -10,6 +10,16 @@ date_start: 2008-02-06
 date_end: 2008-02-09
 
 prod_shots: JRm8Gg
+
+links:
+  - type: Review
+    href: http://www.su-web2.nottingham.ac.uk/~impact/?p=902
+    snapshot: fsdXm
+    publisher: Impact Nottingham
+    author: Alex Beaumont
+    title: "TwinSS @ New Theatre"
+    date: 2008-02-08
+    quote: "Overall this is a really well produced play with all round superb performances. "
 ---
 
 Theatrical Theatrics Productions proudly presents TwinSS, an almost-modern day Comedy of Errors by third year undergraduate Ali Blackwell.

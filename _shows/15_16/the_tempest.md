@@ -89,6 +89,17 @@ crew:
    name: Almaz Rish
 
 prod_shots: PqZF93
+
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2016/04/the-tempest-nottingham-new-theatre/
+    snapshot: fa27v
+    publisher: Impact Nottingham
+    author: Sanchari Banerjee
+    title: "The Tempest @ Nottingham New Theatre"
+    date: 2016-04-21
+    rating: 8/10
+    quote: "All in all, the cast gives a great performance collectively and makes the evening a great success. A big congratulation to Chris Trueman and producer Emma Kendall for organizing and creating such an avant-garde interpretation of such a classic. "
 ---
 
 After exile for twelve years on a mysterious island, Prospero conjures a tempest, shipwrecking the King of Naples and Antonio (his treacherous brother). Three subplots ensue: Prospero, with the help of spirit-servant Ariel, orchestrates a budding romance between his daughter, Miranda, and the King of Naples’ son, Ferdinand. Antonio and Sebastian conspire to kill Alonso and Gonzalo, whilst elsewhere Caliban, Prospero’s slave monster, plots with Stephano (the drunken butler) and Trinculo (the mischevous court jester) to kill Prospero. This highly physical and ensemble-based production is a unique and visually striking interpretation of Shakespeare’s final solo play.

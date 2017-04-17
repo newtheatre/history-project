@@ -19,6 +19,9 @@
 .show-poster
   @include grid-x-col(6)
   float: right !important // HACK
+
+  margin-bottom: 1rem
+
   img
     width: 100%
     padding-right: 0 // Remove
@@ -26,6 +29,9 @@
   @include respond-down($grid-column-end)
     // Hide on single col
     display: none
+
+.show-links
+  @include grid-x-col(6)
 
 .show-synopsys
   @include block

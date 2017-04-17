@@ -70,6 +70,26 @@ links:
     rating: 8/10
     quote: "Together, these two actresses complement one another tremendously, making them an easy partnership for the audience to resonate with."
 
+links:
+  - type: Review
+    href: http://www.hercampus.com/school/nottingham/review-freak-nottingham-new-theatre
+    snapshot: shsaN
+    publisher: HerCampus 
+    author: Charlotte Hegley
+    title: "Review: Freak at Nottingham New Theatre"
+    date: 2016-11-05
+    stars: 4
+    quote: "An excellent drama presentation of modern teenage expectations of sex compared almost too closely to the consequences of adult desire."
+  - type: Review
+    href: http://www.impactnottingham.com/2016/11/freak-nnt/
+    snapshot: 1LotF
+    publisher: Impact
+    author: Shanai Momi
+    title: "Freak @ NNT"
+    date: 2016-11-04
+    rating: 8/10
+    quote: "Together, these two actresses complement one another tremendously, making them an easy partnership for the audience to resonate with."
+
 ---
 
 Georgie is thirty with dirty secrets. She drinks in her room and hides from the world. Leah is fifteen with teenage dreams. She practises her cum face and Veets. A lot. All-meat, all sex, all-vulnerable, all-powerful. There’s a first time for everything…Isn’t there? Anna Jordan’s witty, entwining monologues combine to ask what sexual empowerment looks like in this day and age. 'Freak' is a full-on, unabashed exploration of the expectations placed upon and ultimately adopted by women in an age where it is possible to receive a high-definition sex education before having your first kiss.
