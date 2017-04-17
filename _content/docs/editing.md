@@ -20,13 +20,13 @@ Ensure you have a verified email address with GitHub otherwise your changes will
 
 <iframe class="youtube" src="https://www.youtube.com/embed/yC2aBvMgTzg?showinfo=0&color=white&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 
-To use the GitHub website use the <strong class="tag"><i class="octicon octicon octicon-pencil"></i> Improve This Page</strong> button on the right hand edge of a page to launch the editor.
+To edit the site using the GitHub website click on the <strong class="tag"><i class="octicon octicon octicon-pencil"></i> Improve This Page</strong> button on the right hand edge of a page to launch the editor.
 
 If you're not a trusted editor you'll be prompted to create a _fork_ and will be led through the process of creating a pull request. Later an editor will check your changes are valid and merge them into the repo.
 
 ## Editing Locally
 
-<div class="box-info"><i class="fa fa-info-circle"></i>This method requires a certain amount of technical knowledge.</div>
+<div class="box-info"><i class="fa fa-info-circle"></i>This method requires a certain amount of technical knowledge, but you can do different amounts with different levels of knowledge.</div>
 
 This is the more complicated option, the benefits are you can use a desktop text editor and run the entire site on your machine to preview changes before they go live. You should have knowledge of Git and the command line to do this.
 
