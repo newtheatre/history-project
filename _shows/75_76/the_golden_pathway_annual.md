@@ -3,7 +3,7 @@ title: The Golden Pathway Annual
 season: In House
 period: Autumn
 playwright: John Burrows and John Harding
-season_sort: 140
+season_sort: 10
 venue: New Theatre
 date_start: 1975-10-10
 date_end: 1975-10-11
