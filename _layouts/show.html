@@ -140,8 +140,9 @@ body_class: section-archives layout-show
     </div>
 
     {% if show.links %}
-        <h3><i class="fa fa-link"></i> External Links</h3>
+      <div class="show-links">
         {% include link-list.html links=show.links %}
+      </div>
     {% endif %}
 
   </div>
