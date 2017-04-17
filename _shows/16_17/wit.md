@@ -95,7 +95,7 @@ links:
   - type: Review
     href: https://www.facebook.com/kev.castle.5/posts/10154934837632223
     snapshot: DMuLw
-    publisher: Facebook
+    publisher: Kev Castle
     author: Kev Castle
     title: "\"W;t\" by Margaret Edson"
     date: 2016-12-01
