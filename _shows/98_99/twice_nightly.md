@@ -1,11 +1,11 @@
 ---
 title: Twice Nightly
 playwright: Paul Kerensa
-student_written: True
+student_written: true
 season: Edinburgh
 period: Edinburgh
 season_sort: 410
-venue: 
+venue:
 
 crew:
  - role: Director

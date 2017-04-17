@@ -58,11 +58,12 @@ crew:
   - role: Stage Manager
     name: Lou Knapp
 
-
-
 assets:
   - type: poster
     image: wKwD7pt
+  - type: backstage
+    video: WMfWSSm
+    title: Backstage At
 
 prod_shots: prJzNs
 ---

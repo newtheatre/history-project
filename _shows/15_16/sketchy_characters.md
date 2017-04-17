@@ -44,6 +44,9 @@ crew:
 assets:
   - type: poster
     image: RLwSppJ
+  - type: backstage
+    video: n8Lsq4Q
+    title: Backstage At
 
 prod_shots: PLjpNs
 

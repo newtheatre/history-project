@@ -151,15 +151,6 @@ $link-border-bottom-opacity: 0.2
     color: lighten($color, 20%)
     text-decoration: underline
 
-@mixin link-focus
-  background: $color-focus
-  outline: 4px solid $color-focus
-
-@mixin no-focus
-  &:focus
-    background: none
-    outline: none
-
 @mixin no-underline($on-hover: false)
   // No underlines on normal and hover states
   text-decoration: none
@@ -173,14 +164,6 @@ a
   font-weight: $font-weight-bold
   @include link-colour($color-link)
 
-  &:focus
-    @include link-focus
-
-@mixin anti-content-a-hover
-  background: inherit
-  margin: inherit
-  padding: inherit
-
 a.pagelink
   &:before
     // content: "\x9B "
@@ -189,6 +172,63 @@ a.pagelink
 
 .bracketed
   color: $color-grey
+
+// FOCUS STATE
+
+// Following advice from Google's a11y cast [1] we remove the outline by default
+// to provide a better experience for mouse users. The psuedo-class :focus-ring
+// then re-adds it when navigating via the keyboard. This is a new feature and
+// isn't well supported, so we use a polyfill [2] which uses the class .focus-
+// ring instead of the pseudo element.
+
+// [1]: https://www.youtube.com/watch?v=ilj2P5-5CjI&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=1
+// [2]: https://github.com/WICG/focus-ring
+
+// Getting weird behaviour with Sass and the :focus selector. It doesn't like
+// :focus-ring, .focus-ring, appears to be moving the colon around. It really
+// doesn't like :focus:not(:focus-ring)! Focus cannot exist outside of another
+// selector???
+
+// ^^ Update, seems that the CSS post-processor combines these even when in
+// ^^ source they're separated. Commented out for now, see #791.
+
+// Riiight: seems like sass needs a backslash at the start of the line
+// Also seems that browsers (Chrome) ignore the whole selector if it contains
+// something it doesn't understand (:focus-ring), eugh. Have to separate
+// selectors.
+
+@mixin focus-ring
+  outline: 3px dashed $color-focus
+  outline-offset: 2px
+
+// \:focus:not(:focus-ring)
+//   outline: none
+
+\:focus:not(.focus-ring)
+  outline: none
+
+// \:focus-ring
+//   @include focus-ring
+
+.focus-ring
+  @include focus-ring
+
+// Focus for form fields and the like. Shows to all users, so make less
+// obnoxious (yet still useful).
+@mixin field-focus
+  &:focus
+    outline: 6px solid rgba($color-focus, 0.4)
+    outline-offset: 0
+
+input[type=text], input[type=search], input[type=number], input[type=date],
+input[type=time], input[type=datetime], textarea
+  @include field-focus
+
+// For places where the normal focus doesn't quite cut it
+@mixin extra-focus
+  &.focus-ring
+    background: white !important
+    color: black !important
 
 // INLINE STYLES
 

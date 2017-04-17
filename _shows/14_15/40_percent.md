@@ -30,6 +30,10 @@ crew:
 assets:
   - type: poster
     image: 3qwdsDg
+  - type: backstage
+    video: 6N4QX2F
+    title: Backstage At
+
 ---
 
 40% is about a group of five first year students who are forced into doing what they dread the most, a group project. They raise important questions about feminism, masculinity and attitudes towards sexuality which are both comic and thought provoking. The five strangers each bring and take away something from the group, each opening up in their own ways to prove that people aren't always what they seem.

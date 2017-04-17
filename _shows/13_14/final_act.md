@@ -1,7 +1,7 @@
 ---
 title: "The Final Act"
 playwright: Tom Hicks and Kat Tye
-student_written: Yes
+student_written: true
 period: Spring
 season: External
 season_sort: 380

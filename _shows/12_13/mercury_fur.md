@@ -68,6 +68,9 @@ tour:
 assets:
   - type: poster
     image: F6TKnf8
+  - type: trailer
+    video: JwgTzg5
+    title: Trailer
 
 prod_shots: m4KPV7
 ---

@@ -32,11 +32,6 @@ $color-plays: lighten($color-playwright, 15%)
 
     border-bottom: 2px dotted mix($color-plays, black, 80%)
 
-    @include no-focus
-
-    &:focus
-      border-bottom: 2px dotted mix($color-plays, white, 80%)
-
     option
       background: $color-plays
 
@@ -112,10 +107,6 @@ $color-plays: lighten($color-playwright, 15%)
         padding-left: 0.3em + $poster-width
         margin-bottom: $baseline / 3
 
-        a:focus .playwright-show-title
-          background: red
-          @include link-focus
-
         .playwright-list-poster
           position: absolute
           top: 0
@@ -137,6 +128,10 @@ $color-plays: lighten($color-playwright, 15%)
           font-weight: normal
           font-size: 0.7em
           color: mix($color-grey, $color-background)
+
+        a
+          // Enable good focus state
+          display: block
 
         a:hover
           text-decoration: none

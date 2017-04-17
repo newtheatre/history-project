@@ -37,6 +37,9 @@ assets:
   - type: trailer
     video: 2k2w3KJ
     title: Show Trailer
+  - type: backstage
+    video: p8s6ms3
+    title: Backstage At
 
 prod_shots: jDNnN5
 ---

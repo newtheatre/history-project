@@ -1,3 +1,4 @@
+---
 - attr: type
   type: string
   short: Type of the resource

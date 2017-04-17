@@ -95,6 +95,9 @@ assets:
     image: Wmj4sxX
   - type: poster
     image: RNNPSGD
+  - type: backstage
+    video: BSTVCfh
+    title: Backstage At
 
 links:
   - type: Review

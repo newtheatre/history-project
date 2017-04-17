@@ -13,7 +13,7 @@ careers:
 links:
   - type: Personal Website
     href: "http://www.inkjockey.co.uk"
-  - type:  IMDb
+  - type: IMDb
     href: "http://www.imdb.com/name/nm7682573/?ref_=ttfc_fc_wr1"
 
 ---

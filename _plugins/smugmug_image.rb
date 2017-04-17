@@ -70,6 +70,7 @@ class SmugImage < Smug
       return data["Response"]["ImageSizeDetails"]
     else
       Jekyll.logger.error "SM error:", "Invalid ImageSizeDetails response"
+      return nil
     end
   end
 
@@ -83,6 +84,7 @@ class SmugImage < Smug
       if isd then cache_save(@imageID, isd) end
     elsif not isd and not api_key
       Jekyll.logger.error "Skipping SM fetch:",  "No API key"
+      return nil
     end
 
     return isd

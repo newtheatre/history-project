@@ -148,35 +148,34 @@ body_class: layout-person header-nobr content-nobr
   <section class="person-shows">
     {% for record in person.shows %}
     <div class="person-show">
-      <div class="person-show-poster">
-        <a href="{{ record.item.url }}" title="{{ record.item.title | escape_once }}">
-        {% if record.item.poster %}
-          {% include images/show-poster-thumb.html
-                     image=record.item.poster
-                     sizes="(max-width: 420px) 50vw, (max-width: 768px) 33vw, 170px"
-                     alt=record.item.title
-                     lazy=true %}
-        {% else %}
-          <!-- Missing Poster -->
-        {% endif %}
-        </a>
-      </div>
+      <a href="{{ record.item.url }}" title="{{ record.item.title | escape_once }}">
+        <div class="person-show-poster">
+          {% if record.item.poster %}
+            {% include images/show-poster-thumb.html
+                       image=record.item.poster
+                       sizes="(max-width: 420px) 50vw, (max-width: 768px) 33vw, 170px"
+                       alt=record.item.title
+                       lazy=true %}
+          {% else %}
+            <!-- Missing Poster -->
+          {% endif %}
+        </div>
 
-      <h3 class="person-show-title">
-        {{ record.item.title | escape_once }}
-      </h3>
+        <h3 class="person-show-title">
+          {{ record.item.title | escape_once }}
+        </h3>
 
-      <div class="person-show-meta">
-        <span class="person-show-season season-{{ record.item.season | downcase | replace:" ","-" }}" title="{{ record.item.season }}"></span>
-        <span class="person-show-year">{{ record.item.year_page.title }}</span>
-      </div>
+        <div class="person-show-meta">
+          <span class="person-show-season season-{{ record.item.season | downcase | replace:" ","-" }}" title="{{ record.item.season }}"></span>
+          <span class="person-show-year">{{ record.item.year_page.title }}</span>
+        </div>
 
-      <ul class="person-show-roles">
-      {% for role in record.roles %}
-        <li>{{ role | escape_once }}</li>
-      {% endfor %}
-      </ul>
-
+        <ul class="person-show-roles">
+        {% for role in record.roles %}
+          <li>{{ role | escape_once }}</li>
+        {% endfor %}
+        </ul>
+      </a>
     </div>
     {% endfor %}
   </section>

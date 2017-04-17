@@ -144,19 +144,19 @@ cast:
  - name: Emma Fearon
    note: Dave's Group
  - name: Adam Kayami
-   note: Gary's Group
+   note: Gary and Beth's Group
  - name: Laura McDonald
-   note: Gary's Group
+   note: Gary and Beth's Group
  - name: Nick Allslatt
-   note: Gary's Group
+   note: Gary and Beth's Group
  - name: Mike Bradley
-   note: Gary's Group
+   note: Gary and Beth's Group
  - name: Cansu Suzie Arslam
-   note: Gary's Group 
+   note: Gary and Beth's Group 
  - name: Louise Harris
-   note: Gary's Group
+   note: Gary and Beth's Group
  - name: Becki Jones
-   note: Gary's Group
+   note: Gary and Beth's Group
  - name: Alice Richards
    note: Gary's Group
  - name: Charlotte Kirkman  
@@ -202,6 +202,8 @@ crew:
  - role: Director
    name: Gary Berezin
  - role: Director
+   name: Beth Wilson
+ - role: Director
    name: Omid Faramarzi
  - role: Director
    name: Maddie Hardy
@@ -219,6 +221,9 @@ crew:
 assets:
   - type: poster
     image: gDfzfHk
+  - type: backstage
+    video: 5cF89Dn
+    title: Backstage At
 ---
 
 A collection of the most exciting new talent to descend upon England's only student-run theatre this year bring you one electrifying show. An evening of short plays and sketches guaranteed to tantalise, transfix and titillate.

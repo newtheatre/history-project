@@ -61,6 +61,16 @@ prod_shots: kj8L48
 assets:
   - type: poster
     image: HPdX7N9
+  - type: poster
+    image: QK38j7f
+  - type: poster
+    image: dXrTzbK
+  - type: poster
+    image: BvjJ4hc
+  - type: poster
+    image: NDfM7d6
+  - type: poster
+    image: 5C2zjps
   - type: backstage
     video: mz4ptWK
     title: Backstage At

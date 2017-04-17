@@ -82,6 +82,9 @@ assets:
   title: LX Plot 2
   filename: west_lx2.pdf
   page: 2
+- type: backstage
+  video: RzXt8DK
+  title: Backstage At
 
 prod_shots: 3nCHmK
 

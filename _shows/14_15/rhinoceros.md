@@ -79,6 +79,9 @@ assets:
     image: SVhSc3c
   - type: poster
     image: Lg2x2Cm
+  - type: backstage
+    video: HGWNzQB
+    title: Backstage At
 
 prod_shots: Tz3wCC
 ---

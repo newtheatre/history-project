@@ -38,6 +38,9 @@ crew:
 assets:
   - type: poster
     image: fDGJ9M5
+  - type: backstage
+    video: b5Pkj9V
+    title: Backstage At
 
 links:
   - type: Review
@@ -48,7 +51,7 @@ links:
     title: "Beef"
     date: 2011-08-09
     stars: 1
-    quote: "I expected a lot from Beef, but I felt let down. "
+    quote: "I expected a lot from Beef, but I felt let down."
 ---
 “I don’t know what you think is going to happen, it’s just a bit of rain”
 

@@ -53,6 +53,9 @@ crew:
 assets:
   - type: poster
     image: bLpMSkr
+  - type: backstage
+    video: Z227GBF
+    title: Backstage At
 
 prod_shots: 52cPmm
 ---

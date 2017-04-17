@@ -31,6 +31,9 @@ crew:
 assets:
   - type: poster
     image: DF9fsRr
+  - type: backstage
+    video: NXZCW5k
+    title: Backstage At
 
 links:
   - type: Review
@@ -41,7 +44,7 @@ links:
     title: "Chasing Dragons"
     date: 2011-08-04
     stars: 2
-    quote: "The domestic scenes are stronger than the author's fantastical hallucinations, managing to sculpt a functional and believable dynamic. "
+    quote: "The domestic scenes are stronger than the author's fantastical hallucinations, managing to sculpt a functional and believable dynamic."
 ---
 Charming. Alarming. Disarming.
 
