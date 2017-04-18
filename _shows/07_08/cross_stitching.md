@@ -27,7 +27,7 @@ links:
     title: Cross Stitching
     date: 2008-08-18
     stars: 3
-    quote: "In the end, Cross Stitching is much more about two people attempting to sort out their feelings for one another than an individual's struggle with gender identity."
+    quote: "In the end, Cross Stitching is much more about two people attempting to sort out their feelings for one another than an individual's struggle with gender identity."
 ---
 
 From the production team that brought you ‘After Miss Julie’, comes a new modern day love story embedded with twists and turns rendering it closer to Dr Jekyll and Mr Hyde than Romeo and Juliet.
