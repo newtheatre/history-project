@@ -60,7 +60,7 @@ links:
     title: "The Great Gatsby"
     date: 2016-08-09
     stars: 4
-    quote: "The performances are wonderful, each actor embodying their character with a great deal of subtle characterisation in stance and posture that makes them feel all the more real and fully formed, like they’ve stepped out of the pages of the novel itself. "
+    quote: "The performances are wonderful, each actor embodying their character with a great deal of subtle characterisation in stance and posture that makes them feel all the more real and fully formed, like they’ve stepped out of the pages of the novel itself."
 
 ---
 In 1922, New York reaches boiling point: parties are longer, morals are looser, liquor is stronger and jazz is hotter. When impressionable Nick Carraway arrives to seek his fortune, he is drawn into the decadent, hedonistic world of America’s elite. But when tragedy strikes, he is forced to decide whether money matters more than his morality.

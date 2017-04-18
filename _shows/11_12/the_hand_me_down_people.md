@@ -43,7 +43,7 @@ links:
     title: "The Hand-Me-Down People"
     date: 2012-08-11
     stars: 3
-    quote: "The premise and advertising may give the impression that this is a children’s show, but given suicide proves one of the major themes, think twice before bringing your children. "
+    quote: "The premise and advertising may give the impression that this is a children’s show, but given suicide proves one of the major themes, think twice before bringing your children."
 ---
 
 Ignored and abandoned on a dusty shelf, a group of outdated figurines await the inevitable. An allegorical and humorous tale about growing older.

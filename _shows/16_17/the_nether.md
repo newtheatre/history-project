@@ -90,7 +90,7 @@ links:
     title: "Review: The Nether at The Nottingham New Theatre"
     date: 2017-03-16
     stars: 4
-    quote: "The strength of this production is in the unseen, and the build-up to the inevitable. It will challenge you and disturb you – and it is all the better for it. "
+    quote: "The strength of this production is in the unseen, and the build-up to the inevitable. It will challenge you and disturb you – and it is all the better for it."
   - type: Review
     href: http://www.impactnottingham.com/2017/03/the-nether-nnt/
     snapshot: jhJm2

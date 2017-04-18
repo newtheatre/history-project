@@ -84,7 +84,7 @@ links:
     title: "The Toyland Murders"
     date: 2016-08-06
     stars: 3
-    quote: "The highlight of the show was undoubtedly the cast’s excellently exaggerated voice work, pitched at just the right level of zany for their larger-than-life characters. "
+    quote: "The highlight of the show was undoubtedly the cast’s excellently exaggerated voice work, pitched at just the right level of zany for their larger-than-life characters."
 comment: Review is from the production of Toyland taken to the Edinburgh Fringe Festival in 2016 by Kite Tail Theatre Company in association with The Nottingham New Theatre.
 ---
 

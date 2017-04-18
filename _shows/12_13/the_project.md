@@ -74,7 +74,7 @@ links:
     title: "The Project"
     date: 2013-08-08
     stars: 3
-    quote: "This is an engaging and thoughtful piece and, amid the chaos of the Fringe, raises some pertinent questions about our motives for enjoying theatre at all. "
+    quote: "This is an engaging and thoughtful piece and, amid the chaos of the Fringe, raises some pertinent questions about our motives for enjoying theatre at all."
 ---
 
 Edinburgh 2013. ZOO Monkey House 20:25. 'The Project': exciting and inventive theatre that asks - what is our responsibility as spectators?
