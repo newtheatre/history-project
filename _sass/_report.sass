@@ -3,7 +3,7 @@
 @mixin tab($bg)
   background: $bg
   @include text-shadow-effect($bg)
-  z-index: 500
+  z-index: $zindex-tabs
 
 $report-top: 245px
 $report-spacing: 65px
@@ -80,7 +80,7 @@ $report-color-step: -60%
   @extend .modal-bg
 
 .report-modal
-  z-index: 1000
+  z-index: $zindex-modal
   $width: 660px
   position: fixed
 

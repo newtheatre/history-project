@@ -1,14 +1,14 @@
 #lightbox-blur
   @extend .modal-bg
   display: none
-  z-index: 999
+  z-index: $zindex-blur
 
 .lightbox-blur--show
   display: block !important
 
 .lightbox-box
   position: fixed
-  z-index: 1000
+  z-index: $zindex-modal
 
   top: 5vh
   left: 5%
