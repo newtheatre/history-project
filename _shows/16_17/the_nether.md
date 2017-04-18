@@ -82,7 +82,7 @@ assets:
     title: Backstage At
 
 links:
-    - type: Review
+  - type: Review
     href: http://www.hercampus.com/school/nottingham/review-nether-nottingham-new-theatre
     snapshot: 5ng8i
     publisher: HerCampus 
