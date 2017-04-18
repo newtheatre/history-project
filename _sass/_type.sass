@@ -189,6 +189,9 @@ a.pagelink
 // doesn't like :focus:not(:focus-ring)! Focus cannot exist outside of another
 // selector???
 
+// ^^ Update, seems that the CSS post-processor combines these even when in
+// ^^ source they're separated. Commented out for now, see #791.
+
 // Riiight: seems like sass needs a backslash at the start of the line
 // Also seems that browsers (Chrome) ignore the whole selector if it contains
 // something it doesn't understand (:focus-ring), eugh. Have to separate
@@ -198,14 +201,14 @@ a.pagelink
   outline: 3px dashed $color-focus
   outline-offset: 2px
 
-\:focus:not(:focus-ring)
-  outline: none
+// \:focus:not(:focus-ring)
+//   outline: none
 
 \:focus:not(.focus-ring)
   outline: none
 
-\:focus-ring
-  @include focus-ring
+// \:focus-ring
+//   @include focus-ring
 
 .focus-ring
   @include focus-ring

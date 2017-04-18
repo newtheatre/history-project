@@ -46,6 +46,16 @@ assets:
   - type: poster
     image: q3kdpxT
 
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2015/12/strangers-nottingham-new-theatre/
+    snapshot: F0yYK
+    publisher: Impact Nottingham
+    author: Larissa Rowan
+    title: "Strangers @ Nottingham New Theatre"
+    date: 2015-12-01
+    rating: 8/10
+    quote: "I was shocked to discover that this was the first performance for many of the cast members, as they delivered a solid and powerful production, along with the production crew. "
 ---
 
 Strangers is a unique style of performance, blending magic and theatre to create a new artistic medium. In the way a musical tells a story with the help of music and lyrics this tells a story with the help of tricks and illusions. When seven strangers each encounter a magical set of pan pipes they think all their dreams have come true. However, the mind reader, children’s entertainer, restaurant server, gambler, couple on a first date, and television presenter find out that fame, fortune and freedom come at a cost. One that each character will come to deeply regret.

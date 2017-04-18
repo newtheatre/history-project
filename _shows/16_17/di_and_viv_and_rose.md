@@ -25,6 +25,8 @@ crew:
   name: Isabelle Cadwallader
 - role: Lighting Designer
   name: Joanne Blunt
+- role: Sound Designer
+  name: Emily Dimino
 - role: Technical Director
   name: Amy O'Dell
 - role: Technical Operator
@@ -35,7 +37,7 @@ crew:
   name: Hannah Burne
 - role: Technical Operator
   name: Adam Frankland
-- role: Technical Director
+- role: Technical Operator
   name: Sam Layton
 - role: Stage Manager
   name: Kaitlyn Samuelsen
@@ -57,6 +59,7 @@ assets:
     video: hHNbn9f
     title: Backstage At
 
+
 links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-di-and-viv-and-rose-nottingham-new-theatre
@@ -75,6 +78,10 @@ links:
     date: 2017-03-25
     rating: 8/10
     quote: "The play is remarkable in that, despite the abrupt and extreme situations that it encompasses, it still overall feels realistic, especially in its portrayal of the friendship between Di, Viv and Rose. In fact, I would even suggest that, despite the hardships that each of the characters face, as an audience we can’t help but see similarities between the characters and our own circle of close friends. "
+
+prod_shots: P6QHzR
+
+
 ---
 
 Di and Viv and Rose follows the life and friendship of three young women as they go through the trials and tribulations that the world throws at them. Although circumstances often pull them apart, Di, Viv and Rose find themselves supporting one another through thick and thin. A sweet, funny and sad look at the relationship between three young women attempting to make it in the world.

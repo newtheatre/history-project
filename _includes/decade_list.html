@@ -1,5 +1,5 @@
 <ul class="decade-list archive-list">
-  {% for year in year_pages_decade %}
+  {% for year in include.pages %}
 
   <li {% if year.shows == null %}class="empty"{% endif %}>
 

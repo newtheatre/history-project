@@ -48,6 +48,17 @@ crew:
    name: Tabitha Bennett
 
 prod_shots: 7wmZkz
+
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2016/04/hinged-nottingham-new-theatre/
+    snapshot: wHUhN
+    publisher: Impact Nottingham
+    author: Lauren Capon
+    title: "Hinged @ Nottingham New Theatre"
+    date: 2016-04-20
+    rating: 8/10
+    quote: "Set in 1901, Hinged explores the experiences of three women who are admitted to Bethlem mental asylum on grounds of hysteria. All three, we begin to realise, are probably not mad at all: just three women struggling to find their places in the domestic, patriarchal society in which they have found themselves trapped. "
 ---
 
 Hinged follows three women in 1901, Georgiana, Isabelle and Catherine, as they are plunged into the world of Bethlem asylum. Separated from the outside world, the three are labelled as suffering from ‘hysteria’, and are forced to remain trapped in a solitary ward. The play details the turbulent relationships between these women and their terrible experience existing in Bethlem, each being forced to question everything that forms their identity, and ultimately their sanity.

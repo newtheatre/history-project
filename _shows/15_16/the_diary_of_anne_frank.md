@@ -67,6 +67,26 @@ assets:
     image: k7ZdgBN
 
 prod_shots: pfVdD3
+
+links:
+  - type: Review
+    href: http://www.hercampus.com/school/nottingham/review-diary-anne-frank-nottingham-new-theatre
+    snapshot: QxTqd
+    publisher: HerCampus 
+    author: Hannah Shepperd
+    title: "Review: The Diary of Anne Frank at Nottingham New Theatre"
+    date: 2015-11-26
+    stars: 4
+    quote: "The Nottingham New Theatre’s reinvigoration of The Diary of Anne Frank successfully plays its part in immortalising Anne Frank's story. An opening statement of deafening silence awakens a truly emotive journey through triumph and despair, bringing her legacy to life. "
+  - type: Review
+    href: http://www.impactnottingham.com/2015/11/the-diary-of-anne-frank-nottingham-new-theatre/
+    snapshot: 0Yvw9
+    publisher: Impact Nottingham
+    author: Connor Higgs
+    title: "The Diary of Anne Frank @ Nottingham New Theatre"
+    date: 2015-11-26
+    rating: 9/10
+    quote: "The understated sensitivity in which the tragedy is handled with its slower pace; the heart-breaking nature of the play comes not from the fact that it is a true story, but from the quality of the cast, and how it was directed. "
 ---
 
 Anne Frank’s is a story that everyone knows. Amidst a backdrop of brutality and devastation, a young girl gives us an insight into the experiences of the persecuted who were battling to maintain their sense of humanity during World

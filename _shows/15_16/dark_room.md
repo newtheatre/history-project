@@ -31,6 +31,26 @@ assets:
   - type: poster
     image: 9QjpDXH
 
+links:
+  - type: Review
+    href: http://www.hercampus.com/school/nottingham/review-dark-room-nottingham-new-theatre
+    snapshot: BQCjO
+    publisher: HerCampus 
+    author: Amy Wilcockson
+    title: "Review: Dark Room at Nottingham New Theatre"
+    date: 2015-11-24
+    stars: 4
+    quote: "The play's ambiguous ending, a sly nod to the 'Filmaker''s comment on ambiguity in films, left the audience moved and wondering at the fate of our protagonist[...] Intense and absorbing, this production certainly made an impact. "
+  - type: Review
+    href: http://www.impactnottingham.com/2015/11/dark-room-nottingham-new-theatre
+    snapshot: ZRA2R
+    publisher: Impact Nottingham
+    author: Claire Seah
+    title: "Dark Room @ Nottingham New Theatre"
+    date: 2015-11-26
+    rating: 9/10
+    quote: "Dark Room is perverse and disturbing, but gets away as a beautiful piece of work that stimulates the morbid fascination within us all. "
+
 ---
 
 A restless filmmaker gives you thirty minutes of his time to explore his work, the meaning behind it, and what it means to be a creator. This will not be easy for him however, because as his feelings on his work start to become more exposed, and his emotions start to unfold, the audience are taken on a journey which provokes them to question the nature to which they suspend their disbelief when looking at films, how they respond to the images they are shown, and what it means to criticise a piece of art without considering the feelings of the person behind the work.

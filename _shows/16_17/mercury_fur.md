@@ -92,6 +92,17 @@ links:
     rating: 9/10
     quote: "Think *Black Mirror*, but the scare factor and intensity x10."
 
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2016/11/mercury-fur-nottingham-new-theatre/
+    snapshot: 0PLlj
+    publisher: Impact Nottingham
+    author: Katie Cash
+    title: "Mercury Fur @ Nottingham New Theatre"
+    date: 2016-11-26
+    rating: 9/10
+    quote: "Think *Black Mirror*, but the scare factor and intensity x10."
+
 ---
 
 In a dystopian East End of London, where the streets are filled with gang warfare and drugs (in the form of hallucinogenic butterflies), a group of friends survive by providing a very special service. They hold “parties” for the rich and powerful, where their clients get to live out their darkest and most disturbing fantasies. This particular party has been moved forward five days and siblings Elliot and Darren are struggling to get the abandoned flat they’re setting it in ready. As the beginning of the party draws closer it becomes apparent that this is going to be unlike any party they’ve put on before and, for better or for worse, it might very well be their last.

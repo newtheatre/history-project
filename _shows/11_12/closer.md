@@ -11,10 +11,12 @@ date_end: 2012-03-30
 comment: This toured to Oxford as part of a swap in Easter of that year. I also have a physical copy of the programme somewhere --- WJDP
 
 cast:
-  - name: Sam Hayward
+  - role: Dan
+    name: Sam Hayward
   - name: Rosanna Stoker
   - name: Genevieve Cunnell
-  - name: Ollie Silver
+  - role: Larry
+    name: Ollie Silver
 
 crew:
   - role: Director

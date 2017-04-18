@@ -10,7 +10,16 @@ assets:
   - type: poster
     image: k6zSXmF
 
-
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2016/06/stuff-aaron-calvert-decisions-nottingham-new-theatre/
+    snapshot: AAcxT
+    publisher: Impact Nottingham
+    author: Matteo Everett
+    title: "STUFF: Aaron Calvert: Decisions @ Nottingham New Theatre"
+    date: 2016-06-17
+    rating: 6/10
+    quote: "Calvert opened with somewhat safe tricks involving apparently sealed envelopes which were impressive and, together with his great energy and natural humour, really got the audience all raved up. "
 ---
 “Jaw-dropping entertainment from a modern day wizard” - Derby Telegraph 
 

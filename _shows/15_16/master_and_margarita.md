@@ -92,6 +92,16 @@ assets:
   - type: poster
     image: fgFWHzp
 
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2015/12/the-master-and-margarita-nottingham-new-theatre/
+    snapshot: ITlSF
+    publisher: Impact Nottingham
+    author: Larissa Rowan
+    title: "The Master and Margarita @ Nottingham New Theatre"
+    date: 2015-12-09
+    rating: 9/10
+    quote: "Overall, The Master and Margarita is simply amazing. The whole cast and crew should be proud of what they have managed to achieve with updating a 1966 Russian novel to fit the genre of play that amuses a modern twenty-first century audience. Although at times I literally had no idea what was happening in front of me, I didn’t care as I was too busy laughing. "
 ---
 
 The Devil and his entourage appear in Stalinist Moscow trailing fire and chaos in their wake in Edward Kemp’s adaptation of The Master and Margarita. The play follows the story of a struggling playwright whose work is rejected and ridiculed, and the beautiful Margarita who falls in love with him. With the city in pandemonium, the theatre in ruin and the Master missing, Margarita calls on the Devil’s assistance. By cleverly interweaving several plot lines including extracts from the Master’s play set in biblical Jerusalem, senses of fear and dark humour are blended seamlessly together in this magical tale.
