@@ -10,7 +10,7 @@ links:
   - type: Twitter
     username: SophiaRubieC
   - type: Biography
-    href: http://broadwaybaby.com/reviewer/Sophia+Charalambous
+    href: "http://broadwaybaby.com/reviewer/Sophia+Charalambous"
     snapshot: KLmts
 ---
 
