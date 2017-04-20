@@ -46,6 +46,15 @@ links:
       ‘Paradise’ is a remarkable piece of both physical and ensemble theatre. Taking place over the course of a day on
       the London Underground, the setting is a stark reminder of the many different people and events that simply pass
       us by during our everyday lives.
+  - type: Review
+    href: http://broadwaybaby.com/shows/paradise/27069
+    snapshot: lCx4n
+    publisher: Broadway Baby
+    author: Laura Francis
+    title: "Paradise"
+    date: 2013-08-18
+    stars: 3
+    quote: "A moderately entertaining mishmash of stories and anecdotes with mask work, a bendy bench and some nice guitar playing."
 
 comment: Video waiting to be added http://photos.newtheatre.org.uk/2012-13/Paradise-Edinburgh-2013/
 ---

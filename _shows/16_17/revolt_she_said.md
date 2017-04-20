@@ -72,6 +72,25 @@ assets:
     video: VWRHPMF
     title: Backstage At
 
+links:
+  - type: Review
+    href: http://www.hercampus.com/school/nottingham/review-revolt-she-said-revolt-again-nottingham-new-theatre
+    snapshot: yiPQs
+    publisher: HerCampus 
+    author: Emily Brady
+    title: "Review: Revolt. She Said. Revolt Again. at The Nottingham New Theatre"
+    date: 2017-03-08
+    stars: 4
+    quote: "Revolt. is a must-see production, showcasing the best of 21st century feminist writing alongside stellar performances and excellent direction."
+  - type: Review
+    href: http://www.impactnottingham.com/2017/03/revolt-she-said-revolt-again-nnt/
+    snapshot: cP9tS
+    publisher: Impact Nottingham
+    author: Sophie Hunt
+    title: "Revolt. She Said. Revolt Again @ Nottingham New Theatre"
+    date: 2017-03-03
+    rating: 8/10
+    quote: "The use of audience interaction added a whole new dimension to the play. With the audience seated in close proximity surrounding the stage and regular direct address throughout, the audience were made to feel personally involved in the events."
 ---
 
 You are expected to behave… Use the right words. Act appropriately. Don’t break the rules. Just behave. This play is not well behaved. Alice Birch’s play examines the language, behaviour and forces that shape women in the 21st century and asks what’s stopping us from doing something truly radical to change them. Exhilarating, fast-paced and sharp dialogue drive this play to its radical and ironic climax with audience members invited to break down the barriers between actor and character. This play packs a punch. It is unforgiving, uncompromising and unapologetic, offering moments of pure comedic genius alongside revolutionary manifestos.

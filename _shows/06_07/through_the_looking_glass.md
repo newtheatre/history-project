@@ -19,6 +19,10 @@ cast:
    name: Maia Gibbs
 
 prod_shots: vgSZgm
+
+assets:
+  - type: Image
+    image: DZsZwKZ
 ---
 
 Alice is in trouble! Can she survive the dangers of Looking Glass World and become Queen? Ingenious new musical production featuring an unforgettable fairground of characters including the Jabberwocky, the Red Queen and Humpty Dumpty.
