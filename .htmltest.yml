@@ -5,6 +5,8 @@ IgnoreURLs:
 - "photos.smugmug.com"
 - "photos.newtheatre.org.uk"
 - "archive.is"
+- "castingcallpro.com"
+- "stagejobspro.com"
 IgnoreDirs:
 - "^lib"
 
