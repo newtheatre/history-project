@@ -10,5 +10,8 @@ course:
 careers:
   - Musical Director
 
+links:
+  - type: StageJobsPro
+    href: "https://www.stagejobspro.com/uk/theatre-professional/profile/robert-wicks"
 ---
 
