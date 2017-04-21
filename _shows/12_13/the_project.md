@@ -66,6 +66,7 @@ links:
     author: Tom Tolond
     title: The Project Edinburgh Fringe Preivew @ Nottingham New Theatre.
     date: 2013-08-02
+    quote: "The characterization of the play, whilst subtle, gave a grim yet enchantingly seductive side to the actors."
   - type: Review
     href: http://broadwaybaby.com/shows/the-project/26917
     snapshot: WhWJn
