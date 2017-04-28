@@ -11,6 +11,8 @@ date_end: 2007-11-17
 cast:
   - role: Claire
     name: Lizzie Bourne
+  - role: Catherine
+    name: Anna Wheatley
 
 crew:
   - role: Director
