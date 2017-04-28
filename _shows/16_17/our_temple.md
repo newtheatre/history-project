@@ -9,6 +9,8 @@ venue: New Theatre
 date_start: 2017-04-04
 date_end: 2017-04-07
 
+prod_shots: qghmqK
+
 cast:
 - role: Jim
   name: Dave Porter
