@@ -16,6 +16,22 @@ assets:
 crew:
   - role: Director
     name: Charlie Brafman
+  - role: Publicity
+    name: Daniel Xavier Vizer
+
+cast:
+  - role: Dave
+    name: Sam  Morris
+  - role: Dan
+    name: Adam Wood
+  - role: Thom
+    name: Ben Bloom
+  - role: Kate
+    name: Holly Preston
+  - role: Hattie
+    name: Polly Keane
+  - role: Rubrick Hemmingway
+    name: Charlie Eccleshare
 ---
 
 Dave was playing with a lighter and a pumpkin, and he found himself with a white ash-like powder. He tried snorting it, but it stung the crap out of his nose. He tried smoking it, but ended up with the runs. Eventually he tried sprinkling it on his food... and it was remarkably delicious. With the help of his two housemates, this new condiment looks set to take over the world, although Thom sees it as a potential cure for third world debt, whilst Dan sees it more as the route to personal millions...

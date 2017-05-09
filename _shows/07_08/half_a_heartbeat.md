@@ -1,6 +1,6 @@
 ---
 title: "Half a Heartbeat"
-playwright: Ed Hancock
+playwright: Edward Hancock
 student_written: true
 period: Spring
 season: Fundraiser
@@ -11,7 +11,7 @@ date_end: 2008-03-14
 
 crew:
   - role: Director
-    name: Ed Hancock
+    name: Edward Hancock
 ---
 
 In essence this is a romantic tale with a twist. "A lively and captivating production, skilfully performed by a very talented cast of nine... Pure enjoyment."

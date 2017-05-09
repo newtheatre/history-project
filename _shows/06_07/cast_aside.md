@@ -2,11 +2,18 @@
 title: Cast Aside
 playwright: Charlie Brafman
 period: Spring
-season: In House
+season: External
+company: Ankle Productions
 season_sort: 200
 venue: New Theatre
 date_start: 2007-01-31
 date_end: 2007-02-02
+
+crew:
+  - role: Director
+    name: Charlie Brafman
+  - role: Producer
+    name: Natasha Abrams
 
 cast:
  - role: Willy
@@ -20,11 +27,13 @@ cast:
  - role: Rosie
    name: Alice Sander
  - role: Smires
-   name: Will Ralton
+   name: Sam  Morris
 
 assets:
   - type: poster
     image: gDw5cnx
+
+comment: Selected for NSDF 2007
 ---
 
 A pretentious director, moronic cast and a gender-bending, meta-theatrical mess of a production of The Merchant of Venice, merge in this satirical antidote to everything waffling, affected or ostentatious about the Stage - just what the doctor ordered, darling.
