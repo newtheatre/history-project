@@ -17,9 +17,26 @@ cast:
     name: Fran Roper
   - role: Wayne Hudson
     name: Magnus McCullagh
+  - role: Farah Delamitri
+    name: Clare Salter
+  - role: Camera Crew
+    name: Jen Burrows
+  - role: Camera Crew
+    name: Sam  Morris
+  - role: Assistant
+    name: Francis Whittaker
+
 crew:
   - role: Director
     name: Charlie Brafman
+  - role: Producer
+    name: Natasha Abrams
+  - role: Set Designer
+    name: Alistair Coe
+  - role: Sound Designer
+    name: Daniel Xavier Vizer
+  - role: Workshop Leader
+    name: Jim Rastall
 
 assets:
   - type: poster

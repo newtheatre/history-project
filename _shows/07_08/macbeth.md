@@ -16,15 +16,15 @@ assets:
     image: psWpKZR
 
 cast:
-  - role: unknown
+  - role: Macbeth
     name: Ali Blackwell
-  - role: unknown
+  - role: Lady Macbeth/Witch
     name: Michelle Ghatan
-  - role: unknown
+  - role: Duncan/Macduff/Porter/Witch
     name: Tom Pinny
-  - role: unknown
+  - role: Lady Macduff/Witch
     name: Clare Salter
-  - role: unknown
+  - role: Banquo/Macduff's Son
     name: Nick Medhurst
 
 crew:
@@ -34,6 +34,16 @@ crew:
     name: Caroline Cox
   - role: Designer
     name: Daniel Xavier Vizer
+  - role: Props
+    name: Emily Goddard
+  - role: Tech
+    name: Matt Lee
+  - role: Tech
+    name: James Herbert
+  - role: Original Music
+    name: Ed Poole
+  - role: Soundtrack
+    name: David Stephenson
 
 prod_shots: Ppd7Sb
 ---
