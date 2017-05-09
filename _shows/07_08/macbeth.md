@@ -24,7 +24,7 @@ cast:
     name: Tom Pinny
   - role: Lady Macduff/Witch
     name: Clare Salter
-  - role: banquo/Macduff's Son
+  - role: Banquo/Macduff's Son
     name: Nick Medhurst
 
 crew:
