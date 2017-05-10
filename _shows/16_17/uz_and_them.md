@@ -25,7 +25,7 @@ cast:
 
 crew:
 - role: Director
-  name: Counsel for the Defense
+  name: Jonathan Taylor Davies
 - role: Producer
   name: Hugo Minta
 - role: Assistant Director
