@@ -4,7 +4,7 @@ playwright: Irvine Welsh
 adaptor: "Harry Gibson"
 student_written: false
 season: In House
-season_sort: 340
+season_sort: 350
 period: Spring
 venue: New Theatre
 date_start: 2017-05-10
@@ -62,8 +62,11 @@ crew:
   name: Tom Proffitt
 - role: Stage Manager
   name: Maddy Strauss
+- role: Hair & Make-Up
+  name: Sasha Gibson
+- role: Hair & Make-Up
 
-prod_shots: fxvHJk
+prod_shots:
 
 
 assets:
