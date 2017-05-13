@@ -65,6 +65,7 @@ crew:
 - role: Hair & Make-Up
   name: Sasha Gibson
 - role: Hair & Make-Up
+  name: Rachel Baines
 
 prod_shots:
 
@@ -72,6 +73,9 @@ prod_shots:
 assets:
   - type: poster
     image: 9V7QLHp
+  - type: backstage
+    video: wZsWDCG
+    title: Backstage At
 
 
 ---
