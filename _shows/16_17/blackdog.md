@@ -5,7 +5,7 @@ student_written: true
 season: Fringe
 season_sort: 270
 period: Spring
-venue: Studio A
+venue: New Theatre Studio A
 date_start: 2017-03-20
 date_end: 2017-03-21
 
