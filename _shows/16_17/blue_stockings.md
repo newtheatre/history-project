@@ -51,7 +51,7 @@ crew:
   person: false
 - role: Shadow Lighting Designer
   name: Jess Donn
-- role: Deputy Stagr Manager
+- role: Deputy Stage Manager
   name: Vicky Johnson
   person: false
 - role: Costume Designer
