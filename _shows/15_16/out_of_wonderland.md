@@ -32,7 +32,7 @@ cast:
 
 crew:
  - role: Director
-   name: Jess Millott
+   name: Jessica Millott
  - role: Producer
    name: Bessie Ephgrave
  - role: Technical Director

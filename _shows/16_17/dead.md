@@ -50,6 +50,8 @@ crew:
   name: Sam Osborne
 - role: Sound Designer
   name: Darcey Graham
+- role: Choreographer
+  name: Jessica Millott
 - role: Sound
   name: David Taylor
 - role: Sound
