@@ -39,6 +39,8 @@ assets:
   - type: poster
     image: 58FMrT8
 
+prod_shots: d4kLL6
+
 links:
   - type: Review
     href: http://www.impactnottingham.com/2017/03/monarch-nnt/
