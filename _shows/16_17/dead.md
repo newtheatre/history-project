@@ -75,6 +75,8 @@ crew:
 - role: Technical Operator
   name: Jess Donn
 - role: Stage Manager
+  name: Jess Donn
+- role: Stage Manager
   name: Will Berrington
 - role: Stage Manager
   name: Rohanna Brown
