@@ -43,6 +43,8 @@ crew:
   name: Nathan Penney
 - role: Shadow Lighting Designer
   name: Adam Frankland
+- role: Set Designer
+  name: Joe Strickland
 - role: Video Editor
   name: Sam Morris
 - role: Technical Operator
