@@ -3,7 +3,7 @@ title: Rumours
 playwright: Emma Summerton
 student_written: true
 season: Fringe
-season_sort: 350
+season_sort: 360
 period: Spring
 venue: New Theatre Studio A
 date_start: 2017-05-15
