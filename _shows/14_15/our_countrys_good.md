@@ -31,6 +31,8 @@ cast:
     name: Duncan McGillivray
   - role: Capt. Trench/Caesar
     name: Jeanne Pasquet
+  - role: Aborigine
+    name: Joe Strickland
 
 crew:
   - role: Director
