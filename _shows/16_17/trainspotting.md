@@ -67,7 +67,7 @@ crew:
 - role: Hair & Make-Up
   name: Rachel Baines
 
-prod_shots:
+prod_shots: fxvHJk
 
 
 assets:
@@ -80,4 +80,4 @@ assets:
 
 ---
 
-Choose Life. Choose a job. Choose a career. Choose a family. Choose a f***ing big television, choose washing machines, cars, compact disc players and electrical tin openers. Choose good health, low cholesterol, and dental insurance. Choose fixed interest mortgage repayments. Choose a starter home. Choose your friends. Choose leisurewear and matching luggage. Choose a three-piece suit on hire purchase in a range of f***ing fabrics. Choose DIY and wondering who the fuck you are on Sunday morning. Choose sitting on that couch watching mind-numbing, spirit-crushing game shows, stuffing f***ing junk food into your mouth. Choose rotting away at the end of it all, pissing your last in a miserable home, nothing more than an embarrassment to the selfish, f***ed up brats you spawned to replace yourselves. Choose your future. Choose life..
+Choose Life. Choose a job. Choose a career. Choose a family. Choose a f\*\*\*ing big television, choose washing machines, cars, compact disc players and electrical tin openers. Choose good health, low cholesterol, and dental insurance. Choose fixed interest mortgage repayments. Choose a starter home. Choose your friends. Choose leisurewear and matching luggage. Choose a three-piece suit on hire purchase in a range of f\*\*\*ing fabrics. Choose DIY and wondering who the fuck you are on Sunday morning. Choose sitting on that couch watching mind-numbing, spirit-crushing game shows, stuffing f\*\*\*ing junk food into your mouth. Choose rotting away at the end of it all, pissing your last in a miserable home, nothing more than an embarrassment to the selfish, f\*\*\*ed up brats you spawned to replace yourselves. Choose your future. Choose life...
