@@ -5,8 +5,8 @@ gender: male
 course:
   - Physics
 links:
-  - type: IMDb Page
-    href: http://www.imdb.com/name/nm8034723/?ref_=nv_sr_1
+  - type: IMDb
+    href: "http://www.imdb.com/name/nm8034723"
 
 graduated: 2017
 ---
