@@ -46,6 +46,7 @@ crew:
 - role: Poster Designer
   name: Emma Summerton
 
+prod_shots: BntPLq
 
 assets:
   - type: poster
