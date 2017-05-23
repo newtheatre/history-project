@@ -6,6 +6,7 @@ course:
   - Physics
 links:
   - type: IMDb Page
-  - href: http://www.imdb.com/name/nm8034723/?ref_=nv_sr_1
+    href: http://www.imdb.com/name/nm8034723/?ref_=nv_sr_1
+
 graduated: 2017
 ---
