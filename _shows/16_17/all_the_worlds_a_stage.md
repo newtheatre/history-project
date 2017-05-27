@@ -53,6 +53,15 @@ links:
     date: 2016-12-02
     stars: 3.5
     quote: "The same five actors multi-role to create a fully fleshed-out universe, and each play their part with an absurd conviction that perfectly complements the surreal style of the show."
+  - type: Review
+    href: http://www.impactnottingham.com/2016/11/all-the-worlds-a-stage-and-other-stories-nottingham-new-theatre/
+    snapshot: H3x2H
+    publisher: Impact Nottingham
+    author: Michelle Williams
+    title: "All The World's a Stage and Other Stories @ Nottingham New Theatre"
+    date: 2016-11-29
+    rating: 8/10
+    quote: "Experimental theatre with hilarious results! Yee Heng Yeh’s All The World’s a Stage and Other Stories is a brilliant play that blurs the boundaries, to say the least, whilst transporting you into everyday worlds that make you reflect on whether we are all just players on a stage."
 
 ---
 A director tries his hand at experimental theatre, to disastrous results. An incompetent doctor watches the auditions of a talent show, where the judges start an argument. A machine becomes sentient to the horror of a careers adviser. And a dictator has a friendly chat with the man he put in prison, only to discover that something is very, very wrong…
