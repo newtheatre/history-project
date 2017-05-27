@@ -77,6 +77,16 @@ assets:
     video: wZsWDCG
     title: Backstage At
 
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2017/05/trainspotting-nottingham-new-theatre/
+    snapshot: gDCGj
+    publisher: Impact Nottingham
+    author: Anna Watson
+    title: "Trainspotting @ Nottingham New Theatre"
+    date: 2017-05-13
+    rating: 9/10
+    quote: "Music blaring, psychedelic disco lights encompassing the room in colour and chaos. It is immediately clear that this is a production not to be missed."
 
 ---
 
