@@ -56,7 +56,9 @@ crew:
 - role: Poster Designer
   name: Sam Morris
 
-prod_shots: gfMqvs9
+assets:
+  - type: poster
+    image: gfMqvs9
 
 ---
 
