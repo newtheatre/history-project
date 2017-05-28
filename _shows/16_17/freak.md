@@ -37,6 +37,8 @@ crew:
   name: Joe Strickland
 - role: Poster Designer
   name: Harry Bradley
+- role: Trailer
+  name: Gus Herbert
 
 prod_shots: kfzbzK
 
