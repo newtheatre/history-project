@@ -6,7 +6,7 @@ award: Fellowship
 submitted: false
 headshot: HnWzdxd
 course:
- - Philosophy & Theology
+ - Philosophy and Theology
 
 links:
   - type: CastingCallPro
