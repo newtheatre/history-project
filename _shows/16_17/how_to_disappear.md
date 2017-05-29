@@ -1,8 +1,7 @@
 ---
 title: How to Disappear Completely and Never Be Found
 playwright: Finn Kennedy
-company: Postgrads
-season: External
+season: Postgrads
 season_sort: 380
 period: Spring
 venue: New Theatre
