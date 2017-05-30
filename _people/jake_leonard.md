@@ -1,6 +1,6 @@
 ---
 title: Jake Leonard
-gender: male'
+gender: male
 headshot: TJT7nNV
 graduated: 2015
 award: Fellowship
