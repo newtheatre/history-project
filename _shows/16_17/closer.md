@@ -95,26 +95,6 @@ links:
     rating: 7/10
     quote: "The manipulation and subsequent guilt or otherwise was portrayed with genuine feeling and each actor’s dedication to the performance was well received by the audience."
 
-links:
-  - type: Review
-    href: http://www.hercampus.com/school/nottingham/review-closer-nottingham-new-theatre
-    snapshot: mkdaZ
-    publisher: HerCampus 
-    author: Emily Brady
-    title: "Review: Contractions at the Nottingham New Theatre"
-    date: 2016-11-11
-    stars: 4
-    quote: "Closer is a hot-blooded and drama-filled masterclass in student theatre, [...] brought to life with striking honesty."
-  - type: Review
-    href: http://www.impactnottingham.com/2016/11/closer-nottingham-new-theatre/
-    snapshot: sZCD2
-    publisher: Impact Nottingham
-    author: Yasemin Craggs Mersinoglu
-    title: "Closer @ Nottingham New Theatre"
-    date: 2016-11-11
-    rating: 7/10
-    quote: "The manipulation and subsequent guilt or otherwise was portrayed with genuine feeling and each actor’s dedication to the performance was well received by the audience."
-
 ---
 
 Are love and sex always intertwined, or are they completely separate entities used to manipulate, lie and cheat? Patrick Marber’s ‘Closer’ is a Laurence Olivier Award winning play following the lives of Alice, Anna, Dan and Larry in central London over a five year period. As the four of them enter and leave relationships with each other, trust is consistently broken with the play examining exactly how love and sex can be used as commodities. ‘Closer’ ultimately showcases a web of deceit and sexual desire, questions what is really expected of the conventional relationship, and asks whether selfish desire is at the heart of all our actions.

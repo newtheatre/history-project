@@ -123,26 +123,6 @@ links:
     rating: 8/10
     quote: "Light-hearted and easy watching, Nottingham New Theatre’s As You Like It adds extra gags and a modern twist to the topsy-turvy world of Arden."
 
-links:
-  - type: Review
-    href: http://www.hercampus.com/school/nottingham/review-you-it-nottingham-new-theatre
-    snapshot: QYwmb
-    publisher: HerCampus Nottingham
-    author: Eve Mackay
-    title: "REVIEW: 'As You Like It' at The Nottingham New Theatre"
-    date: 2016-12-22
-    stars: 4
-    quote: "Strings of fairy lights, roses and bunting decorated the stage [...] and this helped create the almost magical atmosphere of the forest in which the play was set."
-  - type: Review
-    href: http://www.impactnottingham.com/2016/12/as-you-like-it-nottingham-new-theatre/
-    snapshot: GGn2S
-    publisher: Impact
-    author: Anna Seton
-    title: "As You Like It @ Nottingham New Theatre"
-    date: 2016-12-09
-    rating: 8/10
-    quote: "Light-hearted and easy watching, Nottingham New Theatre’s As You Like It adds extra gags and a modern twist to the topsy-turvy world of Arden."
-
 ---
 
 Having seized power from her elder sister, Duchess Frederica struggles to control a court on the brink of civil war. The solution: to exile under pain of death the rightful heir to the Dukedom, her own niece and the people’s favourite, Rosalind. Meanwhile Orlando finds himself the victim of a cruel and archaic hereditary system exposing him to the fatal plots and ploys of his elder brother, Oliver. Fleeing their homes, the company including a fool, a servant and Frederica’s daughter Celia, escape into the Forest of Arden along with the hero and heroine in search of the rightful Duchess. What they discover however, is a place where freedom of expression and playfulness can, for the first time, triumph over the social constraints and expectations of ‘the envious court.’
