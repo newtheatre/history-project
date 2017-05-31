@@ -9,6 +9,8 @@ venue: New Theatre
 cast:
   - role: Stella
     name: Sophie Bostock
+  - role: Mitch
+    name: David Grainger
 ---
 
 

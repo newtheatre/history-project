@@ -5,5 +5,9 @@ period: Autumn
 playwright: "Richard O'Brien"
 season_sort: 60
 venue: New Theatre
+
+cast:
+ - role: Brad
+   name: David Grainger
 ---
 
