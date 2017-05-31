@@ -5,7 +5,7 @@ graduated: 2005
 submitted: false
 headshot: H79CvbW
 course:
- - Philosophy & Psycology
+ - Philosophy and Psycology
 
 links:
   - type: CastingCallPro
