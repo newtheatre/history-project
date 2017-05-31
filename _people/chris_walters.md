@@ -8,4 +8,6 @@ submitted: false
 links:
   - type: CastingCallPro
     href: "https://www.castingcallpro.com/uk/actor/profile/christopher-walters-1"
+  - type: Portfolio
+  	href: "https://soundcloud.com/chris-walters-1"
 ---
