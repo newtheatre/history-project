@@ -25,7 +25,7 @@
     "underscore": "~1.8.3",
     "jquery": "~3.2.1",
     "octicons": "https://github.com/wjdp/octicons.git#91e1adcd80bbb314f899e65971b39fac94489b4f",
-    "lunr.js": "~0.7.0",
+    "lunr.js": "~2.0.4",
     "letteringjs": "~0.7.0",
     "montserrat-webfont": "~1.0.3",
     "open-sans-fontface": "~1.4.2",
