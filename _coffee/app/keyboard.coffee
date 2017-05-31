@@ -19,7 +19,7 @@ bindKeys = ->
 
 window.disable_keyboard_nav = false
 
-$(window).load ->
+document.addEventListener 'DOMContentLoaded', ->
   # DO NOT DO ON EVERY TURBONAV
   bindKeys()
 
