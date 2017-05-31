@@ -13,8 +13,10 @@ comment: This toured to Oxford as part of a swap in Easter of that year. I also 
 cast:
   - role: Dan
     name: Sam Hayward
-  - name: Rosanna Stoker
-  - name: Genevieve Cunnell
+  - role: Anna
+    name: Rosanna Stoker
+  - role: Alice
+    name: Genevieve Cunnell
   - role: Larry
     name: Ollie Silver
 
