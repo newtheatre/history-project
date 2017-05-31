@@ -37,7 +37,7 @@ add_usage_data = (albums) ->
     $("[data-key=#{albumKey}] .usage").html("<a href=\"#{ show['link'] }\" title=\"#{ show['title'] }\"
                                                 class=\"usage-link\">Y</a>").addClass("yes")
 
-$(document).ready ->
+document.addEventListener 'DOMContentLoaded', ->
   if $('body').hasClass 'util-smug-albums'
     fetch_sm "user/newtheatre!albums", (data) ->
       window.d = data
