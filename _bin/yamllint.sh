@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# This tool checks yaml frontmatter in most areas of the site
+# It requires the python tool yamllint
+# You need to run pip install yamllint to obtain it, source is here https://github.com/adrienverge/yamllint
+
 TESTDIR=tmp/yamllint
 PASS=true
 
