@@ -17,16 +17,22 @@ module LinkList
     end
 
     def type
-      if @link_type['type']
-        @link_type['type']
+      # Returns the string type of the link
+      if @link_hash.key?('type')
+        @link_hash['type']
       else
         # TODO feed back into calling Jekyll plugin
-        raise 'Missing link type'
+        puts @link_hash
+        raise 'Missing link type in link list link'
       end
     end
 
+    def type_instance
+      @link_type || @link_type_default
+    end
+
     def href
-      if @link_type.key?('href')
+      if @link_type and @link_type.key?('href')
         @link_type['href'].sub("???", @link_hash['username'])
       else
         @link_hash['href']
@@ -54,13 +60,13 @@ module LinkList
         @link_hash['type']
       end
     end
-    
+
     def icon
-      @link_hash['icon'] || @link_type['icon'] || @link_type_default['icon']
+      @link_hash['icon'] || type_instance['icon']
     end
 
     def data
-      @link_hash['data'] || @link_type['data'] || @link_type_default['data']
+      @link_hash['data'] || type_instance['data']
     end
 
     def date
