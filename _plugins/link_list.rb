@@ -9,11 +9,13 @@ module LinkList
       @site = site
       @page_ref = page_ref
 
-      # Select link type from data path or nil
+      # Select link type from data path or fallback on default
       @link_type = @site.data['link-types'].select {
         |i| i['type'] == link_hash['type'] }[0]
-      @link_type_default = @site.data['link-types'].select {
-        |i| i['type'] == "default" }[0]
+      if @link_type.nil?
+        @link_type = @site.data['link-types'].select {
+          |i| i['type'] == "default" }[0]
+      end
     end
 
     def type
@@ -22,20 +24,25 @@ module LinkList
         @link_hash['type']
       else
         # TODO feed back into calling Jekyll plugin
-        puts @link_hash
-        raise 'Missing link type in link list link'
+        Jekyll.logger.abort_with("Missing key type in link <#{href_source}> on page #{@page_ref.relative_path}.")
       end
     end
 
-    def type_instance
-      @link_type || @link_type_default
+    def href_source
+      if not @link_hash.key?('href')
+        Jekyll.logger.abort_with("Missing key href in link on page #{@page_ref.relative_path}.")
+      end
+      @link_hash['href']
     end
 
     def href
       if @link_type and @link_type.key?('href')
-        @link_type['href'].sub("???", @link_hash['username'])
+        if not username
+          Jekyll.logger.abort_with("Missing key username in link on page #{@page_ref.relative_path}, type has href template.")
+        end
+        @link_type['href'].sub("???", username)
       else
-        @link_hash['href']
+        href_source
       end
     end
 
@@ -61,12 +68,19 @@ module LinkList
       end
     end
 
+    def publisher
+      if @link_type.fetch('is_news', false) and not @link_hash.key?('publisher')
+        Jekyll.logger.abort_with("Missing key publisher for link <#{href_source}> on page #{@page_ref.relative_path}, type #{type} is a news type.")
+      end
+      @link_hash['publisher']
+    end
+
     def icon
-      @link_hash['icon'] || type_instance['icon']
+      @link_hash['icon'] || @link_type['icon']
     end
 
     def data
-      @link_hash['data'] || type_instance['data']
+      @link_hash['data'] || @link_type['data']
     end
 
     def date
@@ -74,7 +88,12 @@ module LinkList
     end
 
     def stars
+      # TODO remove, see #843
       @link_hash['stars']
+    end
+
+    def rating
+      @link_hash['rating']
     end
 
     def quote
@@ -89,10 +108,12 @@ module LinkList
         'snapshot' => snapshot,
         'username' => username,
         'title' => title,
+        'publisher' => publisher,
         'icon' => icon,
         'data' => data,
         'date' => date,
         'stars' => stars,
+        'rating' => rating,
         'quote' => quote,
         'comment' => @link_hash['comment'],
         'page' => @page_ref,
@@ -103,15 +124,15 @@ module LinkList
   class LinkList
     # List of links
 
-    def initialize(site, linklist)
-      @linklist = linklist
+    def initialize(site, raw_list, page_ref)
+      @raw_list = raw_list
       @site = site
-      @page_ref = nil
+      @page_ref = page_ref
     end
 
-    def links(page_ref=nil)
-      @linklist.map do |link|
-        link = Link.new(@site, link, page_ref)
+    def links
+      @raw_list.map do |link|
+        link = Link.new(@site, link, @page_ref)
         link
       end
     end
@@ -128,9 +149,9 @@ module LinkList
       @link_register = Array.new
     end
 
-    def add_list(list, page_ref)
-      # Create LinkList with page refs and push to register array
-      list.links(page_ref).each do |link|
+    def add_list(list)
+      # Add a LinkList to the register
+      list.links.each do |link|
         @link_register << link
       end
     end

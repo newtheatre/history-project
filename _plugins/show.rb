@@ -199,8 +199,8 @@ module Jekyll
       show.data["display_image"] = display_image
 
       if show.data.key?("links")
-        show.data["links"] = LinkList::LinkList.new(@site, show.data["links"])
-        @site.data['link-register'].add_list(show.data["links"], show)
+        show.data["links"] = LinkList::LinkList.new(@site, show.data["links"], show)
+        @site.data['link-register'].add_list(show.data["links"])
       end
 
       # Set ignore_missing if not already

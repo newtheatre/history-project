@@ -24,5 +24,7 @@
 
 - type: Article
   icon: fa fa-newspaper-o
+  is_news: true
 - type: Review
   icon: fa fa-newspaper-o
+  is_news: true
