@@ -12,10 +12,9 @@ module LinkList
       # Select link type from data path or fallback on default
       @link_type = @site.data['link-types'].select {
         |i| i['type'] == link_hash['type'] }[0]
-      if @link_type.nil?
-        @link_type = @site.data['link-types'].select {
+      @link_type_default = @site.data['link-types'].select {
           |i| i['type'] == "default" }[0]
-      end
+      @link_type ||= @link_type_default
     end
 
     def type
@@ -76,7 +75,7 @@ module LinkList
     end
 
     def icon
-      @link_hash['icon'] || @link_type['icon']
+      @link_hash['icon'] || @link_type['icon'] || @link_type_default['icon']
     end
 
     def data
