@@ -13,7 +13,8 @@ assets:
     image: fK7rLS3
 
 cast:
-  - name: Ajay Stevenson
+  - role: George
+    name: Ajay Stevenson
   - name: Jess Courtney
   - name: Alice Hildreth
   - name: Jono Lake

@@ -18,6 +18,9 @@ cast:
    - role: Alison
      name: Christey Nethercott
 
+crew:
+  - role: Director
+    name: James Lewis
 
 assets:
   - type: poster
