@@ -49,6 +49,10 @@ crew:
     name: Jess Courtney
   - role: Set Design
     name: Jess Courtney
+  - role: Circu Trainer
+    name: Dan Turek
+  - role: Stage Manager
+    name: Dan Turek
 
 assets:
   - type: poster
