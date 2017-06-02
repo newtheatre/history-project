@@ -1,10 +1,15 @@
 ---
 title: "Oedipus Rex"
-playwright:
-period: Autumn
+playwright: Seneca
+translator: Ted Hughes
+period: Spring
 season: In House
 season_sort: 70
 venue: New Theatre
+
+crew:
+  - role: Director
+    name: Ben Ford
 
 prod_shots: sqT2gq
 ---
