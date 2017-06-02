@@ -38,7 +38,7 @@ cast:
   - role: Jerry
     name: Magnus McCullagh
   - role: Peter
-    name: Theo Taptiklis
+    name: Theo James
 
 ---
 
