@@ -43,6 +43,8 @@ crew:
     name: Tess Monro-Somerville
   - role: Producer
     name: Martha Wilson
+  - role: Stage Manager
+    name: Dan Turek
 
 assets:
   - type: poster

@@ -28,5 +28,5 @@ links:
     author: Andrea Mullaney
     title: "Persae"
     stars: 4  
-    quote: " Badham - an Australian working in Britain - clearly wants to show that it's not just an American war and that, as this week's news reminds us, we're all involved."
+    quote: "Badham - an Australian working in Britain - clearly wants to show that it's not just an American war and that, as this week's news reminds us, we're all involved."
 ---

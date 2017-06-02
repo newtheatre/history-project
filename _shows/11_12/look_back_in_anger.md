@@ -27,6 +27,8 @@ crew:
     name: Brendan Retter
   - name: Bryony Blackler
   - name: Roger Smissen
+  - role: Technical Operator
+    name: Dan Turek
 
 assets:
   - type: poster
