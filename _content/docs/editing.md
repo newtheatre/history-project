@@ -39,3 +39,7 @@ Getting the site running on your machine locally is easy to do on Mac and Linux.
 A combination of HTML and Markdown (Kramdown variant) is used for marking up our pages. YAML is used for meta data and is documented for shows, committees etc here.
 
 The [Kramdown syntax guide](http://kramdown.gettalong.org/syntax.html) is useful for reference.
+
+## Where Things Live
+
+When first looking at the repository in a text editor, it can seem quite big, and finding where things live will take a bit of time, yet most of the content storage itself is self explanatory. People files are in the _people subfolder, which holds everyone who has a created person file on the site. Files for individual shows live in the _shows subfolder and are sorted by Academic year.
