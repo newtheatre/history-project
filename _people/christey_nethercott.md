@@ -5,6 +5,6 @@ gender: female
 submitted: false
 
 links:
-  - type: starnow
+  - type: StarNow
     href: "https://www.starnow.com/christeynethercott#subTabs"
 ---
