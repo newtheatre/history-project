@@ -8,6 +8,10 @@ venue: New Theatre
 date_start: 2007-10-31
 date_end: 2007-11-03
 
+cast:
+  - role: Estelle
+    name: Christey Nethercott
+
 crew:
   - role: Director
     name: Meir Adler

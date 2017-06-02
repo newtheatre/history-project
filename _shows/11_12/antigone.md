@@ -9,6 +9,15 @@ venue_sort: Lenton
 date_start: 2012-05-14
 date_end: 2012-05-15
 
+cast:
+ - role: Antigone
+   name: Emma McDonald
+ - name: Ajay Stevenson
+
+crew:
+ - role: Director
+   name: Dave Porter
+
 assets:
   - type: poster
     image: rPwWNW3

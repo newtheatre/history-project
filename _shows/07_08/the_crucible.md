@@ -8,6 +8,10 @@ venue: New Theatre
 date_start: 2008-04-30
 date_end: 2008-05-03
 
+cast:
+ - role: Elizabeth Proctor
+   name: Christey Nethercott
+
 crew:
   - role: Director
     name: Cal Lewis

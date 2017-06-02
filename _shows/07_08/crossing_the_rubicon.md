@@ -13,10 +13,10 @@ date_end: 2008-08-25
 crew:
   - role: Director
     name: Cal Lewis
+  - role: Co-Writer
+    name: Christey Nethercott
   - role: Producer
     name: Jackie Lee
-
-published: true
 
 assets:
   - type: poster

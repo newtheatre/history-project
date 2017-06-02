@@ -11,9 +11,9 @@ date_end: 2010-06-04
 cast:
   - role: Emma
     name: Lizzie Bourne
-  - role: unknown
+  - role: Jerry
     name: Douggie McMeekin
-  - role: unknown
+  - role: Robert
     name: Adam Wood
 
 crew:
