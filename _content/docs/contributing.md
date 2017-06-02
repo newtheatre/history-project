@@ -58,7 +58,7 @@ This method requires a certain amount of technical knowledge but is a lot more f
 1. Fork the project by clicking "Fork" in the top right corner of [newtheatre/history-project](https://github.com/newtheatre/history-project).
 2. Clone the repository locally `git clone https://github.com/<your-username>/history-project`.
 3. Create a new, descriptively named branch to contain your change `git checkout -b my-awesome-change`.
-4. Using your preferred editor, make your changes.
+4. Using your preferred editor, make your changes. See the editing page for more detailed information on this.  
 
 #### Writing a good commit message
 
