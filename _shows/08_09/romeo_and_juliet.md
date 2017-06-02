@@ -20,6 +20,8 @@ cast:
     - role: Mercutio
       name: Lee Denny
     - name: Fran Rylands
+    - role: The Prince of Verona
+      name: Theo James
 
 crew:
     - role: Director
