@@ -38,7 +38,7 @@ crew:
   - role: Technical Operator
     name: John Beer
   - role: Technical Operator
-    name: Jonny Steer
+    name: Johnny Steer
   - role: Stage Manager
     name: Jacqu Pretorius
   - role: Stage Manager

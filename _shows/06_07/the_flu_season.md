@@ -32,7 +32,7 @@ cast:
   - role: Epilogue
     name: Sam  Morris
   - role: Man
-    name: David Netheton
+    name: David Netherton
   - role: Woman
     name: Anna Dubuis
   - role: Doctor

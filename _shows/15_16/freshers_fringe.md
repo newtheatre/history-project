@@ -85,7 +85,7 @@ cast:
    note: Daniella & Felicity's Group
  - name: Tim Behrman
    note: Daniella & Felicity's Group
- - name: Peter Przyslo
+ - name: Pete Przyslo
    note: Daniella & Felicity's Group
  - name: Ross Levy
    note: Sasha & Emilie's Group
@@ -165,7 +165,7 @@ cast:
    note: Eden & Emily's Group
  - name: Francesca Gaporotto
    note: Eden & Emily's Group
- - name: Rachel Baines
+ - name: Rachael Baines
    note: Eden & Emily's Group
  - name: Corah Pinnington
    note: Eden & Emily's Group

@@ -9,7 +9,7 @@ date_start: 2011-06-03
 date_end:
 
 cast:
-- name: Nathalie Barclay
+- name: Natalie Barclay
 - name: Benjamin Cave
 - name: Jess Courtney
 - name: Matt Cowen

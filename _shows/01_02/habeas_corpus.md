@@ -42,7 +42,7 @@ crew:
   - role: Lighting Manager
     name: Mike Cook
   - role: Sound Manager
-    name: Rob Wicks
+    name: Robert Wicks
   - role: Publicity Designer
     name: Suzy Freake
 

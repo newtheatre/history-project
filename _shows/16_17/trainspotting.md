@@ -57,7 +57,7 @@ crew:
 - role: Stage Manager
   name: Dave Porter
 - role: Stage Manager
-  name: Kaitlin Samuelsen
+  name: Kaitlyn Samuelsen
 - role: Stage Manager
   name: Tom Proffitt
 - role: Stage Manager
@@ -65,7 +65,7 @@ crew:
 - role: Hair & Make-Up
   name: Sasha Gibson
 - role: Hair & Make-Up
-  name: Rachel Baines
+  name: Rachael Baines
 
 prod_shots: fxvHJk
 

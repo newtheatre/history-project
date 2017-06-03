@@ -30,7 +30,7 @@ crew:
   - role: Costume Designer
     name: Maryann O'Brien
   - role: Costume Designer
-    name: Harriet Burson thomas
+    name: Harriet Burson Thomas
   - role: Publcity Designer
     name: Daniel Xavier Vizer
 

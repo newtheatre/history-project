@@ -47,7 +47,7 @@ crew:
   - role: Publicity
     name: Ed Craft
   - role: Publicity
-    name: Andy Muir
+    name: Andrew Muir
   - role: Publicity
     name: Marilyn Bird
   - role: Special Thanks
