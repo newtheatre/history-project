@@ -74,18 +74,18 @@ cast:
  - name: Lydia Bird
    note: Jess & Lou's Group
  - name: Robyn Chanter
-   note: Chris & Matt's Group
+   note: Chris & Matthew's Group
  - name: Nick Sutton-Smith
-   note: Chris & Matt's Group
+   note: Chris & Matthew's Group
  - name: Emma Woods
-   note: Chris & Matt's Group
+   note: Chris & Matthew's Group
  - name: Eleanor Matthams
-   note: Chris & Matt's Group
+   note: Chris & Matthew's Group
  - name: Zorcha Dean
-   note: Chris & Matt's Group
+   note: Chris & Matthew's Group
  - name: Ian Sheard
-   note: Chris & Matt's Group
- - name: Patrick Sheeran
+   note: Chris & Matthew's Group
+ - name: Patrick Sheerin
    note: Boo & Tom's Group
  - name: Emilie Brittain
    note: Boo & Tom's Group
@@ -184,7 +184,7 @@ crew:
  - role: Director
    name: Chris Trueman
  - role: Director
-   name: Matt Lewinton
+   name: Matthew Lewinton
  - role: Director
    name: Boo Jackson
  - role: Director

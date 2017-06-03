@@ -56,7 +56,7 @@ crew:
 - role: Technical Operator
   name: Shivani Gupta
 - role: Technical Operator
-  name: Mane Dayton
+  name: Mane Davtyan
 - role: Technical Operator
   name: Rohanna Brown
 - role: Poster Designer

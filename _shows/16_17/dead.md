@@ -31,7 +31,7 @@ cast:
 - role: Chorus
   name: Charlotte Kirkman
 - role: Chorus
-  name: Rachel Baines
+  name: Rachael Baines
 - role: Chorus
   name: Emma Pallett
 

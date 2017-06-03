@@ -10,7 +10,7 @@ date_end: 2009-03-07
 
 cast:
     - name: Tom Warren
-    - name: Jonny Steer
+    - name: Johnny Steer
     - name: Will Vickers
 
 crew:

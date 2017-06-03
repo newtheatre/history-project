@@ -94,7 +94,7 @@ crew:
   - role: Photographer
     name: Dimitrios Darzentas
   - role: Accent Coach
-    name: Fergal Murphy
+    name: Feargal Murphy
 
 assets:
   - type: poster
