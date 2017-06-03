@@ -7,6 +7,8 @@ images:
 location:
   lat: 52.938035
   lon: -1.196260
+city: Nottingham
+sort: 30
 ---
 
 Part of the Archaeology and Classics building left up when building was demolished.
