@@ -39,6 +39,8 @@
       background: lighten($color-background, 3%)
       // Make focus less spaz
 
+.archive-list--single
+  columns: 1
 
 .decade-list
   @include respond-up(tab-land)
@@ -107,8 +109,29 @@ $background-items: -3
     h3
       border-bottom-color: $color-venues
 
-  .venue-list
-    columns: 3 12rem
+  .venue-listing
+    display: flex
+    flex-wrap: wrap
+
+  .venue-listing__city
+    @include block
+    width: 100%
+    @include respond-up(tab-port)
+      width: 100%
+    @include respond-up(tab-land)
+      width: 100% * 1/3
+      @include set-property-to-gutter(padding-right)
+
+    &:last-child
+      padding-right: 0
+
+  .venue-listing__city--nottingham
+    @include respond-up(tab-land)
+      width: 100% * 2/3
+
+  .venue-listing__city-title
+    font-size: 1.1rem
+    margin-bottom: 0.25rem
 
   .seasons
     h3

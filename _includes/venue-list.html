@@ -1,0 +1,16 @@
+{% unless include.city == nil %}
+  <h4 class="venue-listing__city-title">{{ include.city }}</h4>
+  {% else %}
+  <h4 class="venue-listing__city-title debug debug-hidden-content" data-debug-toggle><em>Other</em></h4>
+{% endunless %}
+
+<ul class="venue-list archive-list {% unless include.city == 'Nottingham' %}archive-list--single{% endunless %}">
+  {% for item in site.data.venues_by_city[include.city] %}
+    <li {% unless item.is_listed %}class="debug debug-hidden-content" data-debug-toggle{% endunless %}>
+      <a href="{{ item.url }}">{{ item.title_short }}</a>
+      <div class="decade-list-counts archive-list-counts" data-debug-toggle title="Show counts for venue">
+        {% if item.shows %}{{ item.show_count }}{% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>

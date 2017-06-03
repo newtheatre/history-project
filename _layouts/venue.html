@@ -18,6 +18,7 @@ class: venue
     {{ page.content }}
     <div class="venue-info__meta">
       {% if page.built %}<span><i class="ion-calendar"></i> {{ page.built }}</span>{% endif %}
+      {% if page.city %}<span><i class="fa fa-building"></i> {{ page.city }}</span>{% endif %}
       <span><i class="fa fa-ticket"></i> {{ page.shows.size }} shows</span>
     </div>
   </div>
@@ -32,9 +33,11 @@ class: venue
     {% endif %}
   </div>
 
+  {% if page.location %}
   <div class="venue-map venue-header__col">
     {% include elements/map.html location=page.location %}
   </div>
+  {% endif %}
 </div>
 
 {% endunless %}

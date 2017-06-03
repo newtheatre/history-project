@@ -75,17 +75,14 @@ permalink: /years/
   <div class="others">
     <div class="archive-section venues" id="venues">
       <h3>Venues</h3>
-      <div class="archive-section-content">
-        <ul class="venue-list archive-list">
-          {% for item in site.venues %}
-          <li {% if item.shows.size < 2 %}class="debug debug-hidden-content" data-debug-toggle{% endif %}>
-            <a href="{{ item.url }}">{{ item.title }}</a>
-            <div class="decade-list-counts archive-list-counts" data-debug-toggle title="Show counts for venue">
-              {% if item.shows %}{{ item.show_count }}{% endif %}
-            </div>
-          </li>
-          {% endfor %}
-        </ul>
+      <div class="archive-section-content venue-listing">
+        <div class="venue-listing__city venue-listing__city--nottingham">
+          {% include venue-list.html city='Nottingham' %}
+        </div>
+        <div class="venue-listing__city">
+          {% include venue-list.html city='Edinburgh' %}
+          {% include venue-list.html city=nil %}
+        </div>
       </div>
     </div>
     <div class="archive-section seasons" id="seasons">
