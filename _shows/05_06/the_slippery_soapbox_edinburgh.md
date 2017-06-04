@@ -19,7 +19,7 @@ links:
   - type: Review
     href: https://web.archive.org/web/20081011163616/http://www.newtheatre.org.uk/extra/soapbox.html
     author: Fereuse MacDonald
-    publiher: Fereuse MacDonald
+    publisher: Fereuse MacDonald
     title: "Quite Easily..."
     date: 2006-09-18
     stars: 5
