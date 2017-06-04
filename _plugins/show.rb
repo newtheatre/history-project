@@ -39,7 +39,16 @@ module Jekyll
 
     def get_show_year(show)
       path_split = show.path.split("/")
-      path_split[path_split.length - 2]
+      year_year = path_split[path_split.length - 2]
+      match_data = /(^\d{2})_(\d{2})$/.match year_year
+      if match_data.nil?
+        # Check we use the correct format
+        Jekyll.logger.abort_with("Invalid year folder #{year_year} in #{show.relative_path}, must match format YY_YY")
+      elsif not (match_data[1].to_i == match_data[2].to_i - 1 or [match_data[1].to_i, match_data[2].to_i] == [99, 0])
+        # Check year_1 == year_2 - 1, or century rollover
+        Jekyll.logger.abort_with("Invalid year folder #{year_year} in #{show.relative_path}, year span (#{match_data[1].to_i} to #{match_data[2].to_i}) invalid")
+      end
+      return year_year
     end
 
     def get_show_year_page(show)
