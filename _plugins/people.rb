@@ -141,10 +141,10 @@ module Jekyll
       person.data["has_bio"] = person.content.length > 0
 
       # Person link lists
-      person.data["links"] = LinkList::LinkList.new(@site, person.data["links"])
-      @site.data['link-register'].add_list(person.data["links"], person)
-      person.data["news"] = LinkList::LinkList.new(@site, person.data["news"])
-      @site.data['link-register'].add_list(person.data["news"], person)
+      person.data["links"] = LinkList::LinkList.new(@site, person.data["links"], person)
+      @site.data['link-register'].add_list(person.data["links"])
+      person.data["news"] = LinkList::LinkList.new(@site, person.data["news"], person)
+      @site.data['link-register'].add_list(person.data["news"])
 
       # People by filename
       @people_by_filename[person.basename_without_ext] = person

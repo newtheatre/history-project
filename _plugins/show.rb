@@ -198,6 +198,11 @@ module Jekyll
       show.data["poster"] = display_image
       show.data["display_image"] = display_image
 
+      if show.data.key?("links")
+        show.data["links"] = LinkList::LinkList.new(@site, show.data["links"], show)
+        @site.data['link-register'].add_list(show.data["links"])
+      end
+
       # Set ignore_missing if not already
       show.data["ignore_missing"] ||= ignore_missing(show)
     end
