@@ -8,7 +8,7 @@ season_sort: 210
 date_start: 2015-01-28
 date_end: 2015-01-31
 venue: New Theatre Backstage
-venue_sort: New Theatre Studios
+venue_sort: New Theatre Studio A
 canonical:
   - title: The Rehearsal
 
@@ -41,7 +41,7 @@ crew:
     name: Joseph Heil
   - role: Venue Technician
     name: Nathan Penney
-    
+
 assets:
   - type: poster
     image: 7jB75Hp

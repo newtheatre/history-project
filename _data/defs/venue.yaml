@@ -30,6 +30,21 @@
   short: Exact location of the venue
   description: "Hash with two keys: `lat` and `lon` as decimals. Used for map marker."
 
+- attr: city
+  type: string
+  short: City
+  description: "City where the venue is located."
+
+- attr: city_sort
+  type: string
+  short: City grouping
+  description: "Used for mapping venues to listings on archive page."
+  generated: true
+
+- attr: sort
+  type: number
+  short: Allows manual sorting of venue listing
+
 - attr: shows
   type: documentarray
   short: List of shows performed in this venue

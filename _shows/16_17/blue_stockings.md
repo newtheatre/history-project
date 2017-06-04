@@ -4,7 +4,7 @@ playwright: Jessica Swale
 season: Lakeside
 season_sort: 340
 period: Spring
-venue: Lakeside
+venue: Djanogly Theatre
 date_start: 2017-05-09
 date_end: 2017-05-13
 
@@ -78,7 +78,7 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-blue-stockings-nottingham-new-theatre
     snapshot: gu8SG
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Emily Brady
     title: "Review: Blue Stockings at Nottingham Lakeside Arts"
     date: 2017-05-11
@@ -101,7 +101,7 @@ links:
 It is 1896 and Tess has begun her education at Girton College, Cambridge – home to the country’s first female students and an object of contempt and derision for the rest of the university.
 
 Unable to graduate, yet matching their male peers grade for grade, Tess and her fellow students begin to notice their stigma as 'bluestockings' – unnatural, educated women. Endangered by their position as unqualified and unmarriagable, they must fight to change the history of education.
- 
+
 Facing economic difficulty, the distractions of love and senseless prejudice the women dare to confront outdated social practices in order to live life to the full. Blue Stockings follows the women over one tumultuous academic year, in their fight for the right to graduate.
- 
+
 In 2017, as new financial barriers to university spring up and the issue of women’s access to education all over the world is rarely off the news, many of the questions the play raises feel as significant and relevant now as ever.

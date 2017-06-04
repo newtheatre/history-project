@@ -5,7 +5,7 @@ season: Fringe
 season_sort: 90
 period: Autumn
 venue: New Theatre Studio A and B
-venue_sort: New Theatre Studios
+venue_sort: New Theatre Studio A
 date_start: 2015-11-29
 date_end: 2015-11-30
 

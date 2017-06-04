@@ -1,7 +1,7 @@
 ---
-title: Djanogly Theatre 
-title_short: Djanogly Theatre
+title: Djanogly Theatre
 built: 2001
+city: Nottingham
 images:
   - sSSNNhX
 location:
