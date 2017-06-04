@@ -6,5 +6,5 @@ season: In House
 season_sort: 40
 venue: Trent, Great Hall
 
-comment: June 1965 and also went to Minack Theatre in Cornwall
+comment: July 1964 and also went to Minack Theatre in Cornwall
 ---
