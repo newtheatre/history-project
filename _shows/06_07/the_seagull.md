@@ -16,6 +16,10 @@ assets:
 
 prod_shots: BXFNXd
 
+cast:
+ - role: Polina
+   name: Carly Taylor
+
 crew:
 - role: Director
   name: Sam Grafton

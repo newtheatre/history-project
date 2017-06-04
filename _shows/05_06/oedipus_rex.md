@@ -7,6 +7,10 @@ season: In House
 season_sort: 70
 venue: New Theatre
 
+cast:
+  - role: Chorus
+    name: Carly Taylor
+
 crew:
   - role: Director
     name: Ben Ford
