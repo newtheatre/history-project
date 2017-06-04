@@ -4,7 +4,7 @@ playwright: "William Shakespeare"
 period: Spring
 season: In House
 season_sort: 40
-venue: Trent, Great Hall
+venue: Minack Theatre, Cornwall
+date_start: 1964-07-13
 
-comment: July 1964 and also went to Minack Theatre in Cornwall
 ---
