@@ -2,7 +2,7 @@
 
 .site-header
   position: relative
-  z-index: 50
+  z-index: $zindex-header
 
   padding: $baseline/2 0 0 0
   margin-bottom: $baseline
@@ -195,7 +195,7 @@ $title-text-baseline: 1.2
     top: 0
     left: 0
 
-    z-index: 110
+    z-index: $zindex-search-overlay
 
     transform: translateY(-4em)
     transition: transform 0.3s ease-out
