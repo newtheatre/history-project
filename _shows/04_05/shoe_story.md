@@ -1,12 +1,17 @@
 ---
 title: "Shoe Story"
-playwright:
+playwright: Oliver James Hymans and Liat Rosenthal
+student_written: true
 period: Edinburgh
 season: Edinburgh
 season_sort: 500
-venue: unknown
+venue: Sweet Venue
 
 crew:
   - role: Producer
     name: Laura Dexter
+---
+
+The Shoe Story is an original and contemporary piece of theatre for families and young audiences structured as a triptych of cautionary stories all with one thing in common: shoes! The three tales involve a naughty boy who can’t tie his own shoe laces and ends up in a big knot; an evil queen with the world’s largest collection of shoes who refuses to share her wealth; and finally the little birdie-boy, born with the feet of a bird who struggles to find a pair of shoes to fit him.
+
 ---
