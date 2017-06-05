@@ -27,6 +27,8 @@ cast:
 crew:
   - role: Director
     name: Oliver James Hymans
+
+prod_shots: htGfnx
 ---
 
 A unique visual and musical interpretation of Roald Dahl’s classic tale of Charlie Bucket’s adventure into the weird and wacky world of Willy Wonka’s chocolate-making factory.

@@ -10,4 +10,11 @@ venue: New Theatre
 crew:
   - role: Set Designer
     name: Oliver James Hymans
+
+prod_shots: bXn2CX
+
+assets:
+  - type: setdesign
+    image: tKhgtfQ
+    title: Set Design
 ---
