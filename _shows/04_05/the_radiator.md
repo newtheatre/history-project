@@ -9,5 +9,5 @@ venue: New Theatre
 
 crew:
   - role: Set Designer
-    name: Oliver James Hyman
+    name: Oliver James Hymans
 ---
