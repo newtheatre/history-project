@@ -1,6 +1,6 @@
 ---
 title: "Charlie and the Chocolate Factory"
-writer: Roald Dahl
+playwright: Roald Dahl
 adaptor: Richard R. George
 period: Spring
 season: Lakeside
