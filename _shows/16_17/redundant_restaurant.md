@@ -44,6 +44,7 @@ crew:
   name: Niamh Caines
 - role: Special Thanks
   name: The Cast of The Pillowman
+  person: false
 
 assets:
   - type: poster
