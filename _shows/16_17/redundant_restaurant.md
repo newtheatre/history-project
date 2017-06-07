@@ -26,6 +26,8 @@ crew:
   name: Charlotte Kirkman
 - role: Lighting Designer
   name: Ben Woodford
+- role: Sound Designer
+  name: Nathan Penney
 - role: Technical Director
   name: Ben Woodford
 - role: Stage Manager

@@ -56,6 +56,8 @@ crew:
   name: David Taylor
 - role: Sound
   name: Ben Woodford
+- role: Design Assistant
+  name: Izzie Masters
 - role: Technical Operator
   name: Joseph Heil
 - role: Technical Operator
