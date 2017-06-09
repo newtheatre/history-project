@@ -7,10 +7,6 @@ redirect_from:
   - /docs/people/index.html
 ---
 
-<div class="box-warning">
-  <i class="fa fa-exclamation-triangle"></i> We haven't fully defined the person data type, breaking changes may still be made.
-</div>
-
 Biographies of theatre alumni are stored as `_people/firstname_lastname.md`.
 
 ## <i class="fa fa-tags"></i> Attribute Reference
