@@ -17,6 +17,16 @@ crew:
     name: Cal Lewis
 
 prod_shots: ssQzpS
+
+links:
+  - type: Review
+    href: http://www.su-web2.nottingham.ac.uk/~impact/?p=937
+    snapshot: vYyRJ
+    publisher: Impact Nottingham
+    author: David Stern
+    title: "The Crucible @ New Theatre"
+    date: 2008-05-01
+    quote: "Featuring a large cast of 18, it is a nice surprise to see the somewhat small stage at the New Theatre looking uncluttered throughout most of the play, even during crowded scenes. The set design matches this aesthetic, and is simple and clean, and does not detract from the dramatic scenes on stage."
 ---
 
 Whats some hearts desire, they must posess.
