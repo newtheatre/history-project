@@ -17,7 +17,7 @@ cast:
 - role: Minion
   name: Josh Mallalieu
 - role: Minion
-  name: Matter Bagaini
+  name: Matteo Bagaini
 
 
 crew:
@@ -44,4 +44,4 @@ assets:
 
 In a world otherwise devoid of crystals, four actors will work to guide a motley crew of adventurers through the perils that stand between them and their goal... The Crystal of Gumsmastaa. The road will be long (about an hour long, to be exact) and threats loom around every corner. Actors and adventurers alike will need all of their wit and cunning to reach the end of their journey.
 
-CrystalQuest is an interactive choose-your-own-adventure play with all the showmanship and spectacle of an immersive role playing game experience. The show offers its audience a unique chance to shape their own story, as they journey through a variety of worlds and meet the host of colourful characters who inhabit them.
+Crystal Quest is an interactive choose-your-own-adventure play with all the showmanship and spectacle of an immersive role playing game experience. The show offers its audience a unique chance to shape their own story, as they journey through a variety of worlds and meet the host of colourful characters who inhabit them.
