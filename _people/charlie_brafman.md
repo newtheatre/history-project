@@ -3,7 +3,7 @@ title: Charlie Brafman
 gender: male
 graduated: 2008
 award: Fellowship
--links:
+links:
   - type: Twitter
     username: chazbobb
   ---
