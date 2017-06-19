@@ -35,7 +35,7 @@ crew:
 - role: Lighting Designer
   name: Sam Osborne
 - role: Technical Director
-  name: Joanne Blunte
+  name: Joanne Blunt
 - role: Sound Designer
   name: Felicity Chilver
 - role: Sound Designer
