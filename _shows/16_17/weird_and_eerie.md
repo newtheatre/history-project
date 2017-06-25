@@ -16,4 +16,4 @@ crew:
 
 ---
 
-A first for StuFF, a showreel of artist films will be screened, centered around Mark Fisher's notion of ‘the weird and the eerie’ as distinct modes of the uncanny. Comprising of graduates from Central St Martins BA Fine Art, this selection of moving-image works, explore our irresistible fascination with the invasion of the outside into the everyday.
+A first for StuFF, a showreel of artist films will be screened, centered around Mark Fisher's notion of 'the weird and the eerie' as distinct modes of the uncanny. Comprising of graduates from Central St Martins BA Fine Art, this selection of moving-image works explores our irresistible fascination with the invasion of the outside into the everyday.

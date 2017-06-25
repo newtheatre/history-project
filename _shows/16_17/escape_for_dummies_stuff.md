@@ -33,5 +33,6 @@ crew:
 
 ---
 
-Dummy F’s routine consists of standing aloft a shop podium, pickpocketing customers and fruitlessly attempting to escape retail prison….
+Dummy F’s routine consists of standing aloft a shop podium, pickpocketing customers and fruitlessly attempting to escape retail prison... 
+
 Until the day arrives when her dreary existence is toppled by the unboxing of Dummy M in the men’s section. He takes his position seriously and will not be distracted by such foolishness. But swift as a no nonsense check-out worker, an unspoken bond unique as the bar code attached to their clothes blossoms amidst the hustle and bustle of the shop, and together they hatch a plan to escape the drudgery of the store. Beyond the watchful gaze of bumbling security guards, maniacal watch dogs and a sinister floor manager, this is a story of two mannequins with love in their fiberglass hearts and freedom in their sculpted heads!

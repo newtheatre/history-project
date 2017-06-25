@@ -22,4 +22,4 @@ crew:
 
 ---
 
-Byron is a pun filled comedy story telling show with breaks for bad poetry. It debuted at the Nottingham Comedy Festival in November to a sellout crowd and has toured across the country. Think Don Juan meets Tim Vine. It was reviewed by Notts Comedy Review "Like a Spike Milligan novel ... Delightfully Different".
+*Byron* is a pun-filled comedy story telling show with breaks for bad poetry. It debuted at the Nottingham Comedy Festival in November to a sellout crowd and has toured across the country. Think Don Juan meets Tim Vine. It was reviewed by Notts Comedy Review "Like a Spike Milligan novel ... Delightfully Different".

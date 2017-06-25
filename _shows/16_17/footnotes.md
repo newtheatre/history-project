@@ -23,7 +23,7 @@ crew:
 
 ---
 
-You are about to watch Footnotes\*. This piece will attempt to fight linearity\* and to embrace tangents\*. No one thinks in a straight line, let's go off on one together. (Return to main text).
+You are about to watch *Footnotes*\*. This piece will attempt to fight linearity\* and to embrace tangents\*. No one thinks in a straight line, let's go off on one together. (Return to main text).
 
 \* additional information at the bottom of the page
 

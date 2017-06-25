@@ -37,4 +37,4 @@ crew:
 
 ---
 
-A preview of 'Wrecked': one of the New Theatre’s Edinburgh 2017 shows. Loosely based on The Tempest, this show is an absurd political satire chronicling two days in the lives of six pirates, and one dead parrot, shipwrecked on a tropical island. These buffoonish buccaneers turn one another, each vying for power, using different ideologies to manipulate their comrades. This fast paced comedy explores whether institutions can ever be anything but systems for oppression and whether game theory is an accurate description of political practice.
+A preview of *Wrecked*: one of the Nottingham New Theatre's Edinburgh 2017 shows. Loosely based on *The Tempest*, this show is an absurd political satire chronicling two days in the lives of six pirates, and one dead parrot, shipwrecked on a tropical island. These buffoonish buccaneers turn on one another, each vying for power, using different ideologies to manipulate their comrades. This fast-paced comedy explores whether institutions can ever be anything but systems for oppression and whether game theory is an accurate description of political practice.
