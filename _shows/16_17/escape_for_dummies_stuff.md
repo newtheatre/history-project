@@ -29,7 +29,9 @@ crew:
   - role: Producer
     name: Joanne Blunt
   - role: Technical Director
-    name: Adam Frankland 
+    name: Adam Frankland
+  - role: Technical Operator
+    name: Ben Woodford
 
 ---
 
