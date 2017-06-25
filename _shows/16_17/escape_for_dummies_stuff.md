@@ -12,10 +12,10 @@ assets:
     image: NfnQCWk
 
 cast:
-  - name: Sam Morris 
-    role: unknown
-  - name: Emma Pallet
-    role: unknown
+  - role: Dummy M
+    name: Sam Morris 
+  - role: Dummy F
+    name: Emma Pallet
   - name: Jack Ellis 
     role: unknown
   - name: George Waring
