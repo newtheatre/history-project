@@ -1,5 +1,5 @@
 ---
-title: "Improvabunga!"
+title: "Debris"
 playwright: Louise White
 company: Louise White Theatrician
 period: Spring
@@ -11,6 +11,15 @@ venue: New Theatre
 assets:
   - type: poster
     image: nN835Sz
+
+cast: 
+  - name: Louise White
+    role: Louise White
+    person: false 
+
+crew:
+  - role: Venue Technician  
+    name: Nathan Penney
 
 ---
 
