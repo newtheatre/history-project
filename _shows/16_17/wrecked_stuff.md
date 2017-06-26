@@ -32,6 +32,8 @@ crew:
     name: Amy Crighton
   - role: Technical Director
     name: Adam Frankland
+  - role: Technical Operator
+    name: Sam Osborne
   - role: Script Editor
     name: Ian Sheard
 

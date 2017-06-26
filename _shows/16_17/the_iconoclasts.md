@@ -14,8 +14,7 @@ assets:
 crew:
   - role: Venue Technician
     name: Nathan Penney
-  - name: Joseph Heil
-  - name: Ben Woodford 
+  - name: Joseph Heil 
   - name: Joanne Blunt 
 
 ---
