@@ -8,9 +8,13 @@
   icon: ion-film-marker
   aliases:
     - Co-director
+    - Assistant Director
+    - Shadow Director 
 
 - role: Producer
   icon: fa fa-money
+  aliases:
+    - Assistant Producer
 
 - role: Set Designer
   icon: ion-paintbucket
@@ -21,14 +25,19 @@
   icon: fa fa-bookmark
 - role: Technical Director
   icon: fa fa-plug
+  aliases:
+    - Shadow Technical Director
 - role: Lighting Designer
   icon: fa fa-lightbulb-o
   aliases:
     - Lighting Design
+    - Shadow Lighting Designer
+    - Shadow Lighting Design 
 - role: Sound Designer
   icon: fa fa-volume-up
   aliases:
     - Sound Design
+    - Shadow Sound Designer
 - role: Video Designer
   icon: ion-videocamera
   aliases:
