@@ -16,11 +16,11 @@ cast:
     name: Sam Morris 
   - role: Dummy F
     name: Emma Pallet
-  - role: 
+  - role: Ensemble
     name: Jack Ellis 
-  - role: 
+  - role: Ensemble
     name: George Waring
-  - role: 
+  - role: Ensemble
     name: Kate O'Gorman
 
 crew:
