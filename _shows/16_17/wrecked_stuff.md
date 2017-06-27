@@ -12,17 +12,17 @@ assets:
     image: t6mfPwb
 
 cast:
- - role: 
+ - role: Eddie
    name: Maddy Strauss
- - role: 
+ - role: Francoise
    name: Emma White
- - role: 
+ - role: James
    name: Callum Walker
- - role: 
+ - role: Anne
    name: Felicity Chilver
- - role: 
+ - role: Billy
    name: Andrew Houghton
- - role: 
+ - role: Henry
    name: Miguel Barrulas
 
 crew:
