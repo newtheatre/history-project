@@ -5,4 +5,6 @@ gender: female
 graduated: 2017
 award: Fellowship
 submitted: false
+course:
+ - Physics with German
 ---

@@ -5,4 +5,6 @@ gender: male
 graduated: 2017
 award: Fellowship
 submitted: false
+course:
+ - Geography
 ---
