@@ -12,6 +12,17 @@ assets:
   - type: poster
     image: m7JqcnD
 
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2017/06/stuff-day-1-tuesday-20th-june-nnt/
+    snapshot: aRiSq
+    publisher: Impact Nottingham
+    author: Daniel McVey 
+    title: "StuFF Day 1: Tuesday 20th June @ NNT"
+    date: 2017-03-23
+    rating: 7/10
+    quote: "This interesting and unique play consists of four stories that will perplex and wow."
+
 cast:
  - role: Homeless Man
    name: Arthur Mckechnie

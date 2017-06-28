@@ -11,6 +11,17 @@ assets:
   - type: poster
     image: S8FFDf7
 
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2017/06/stuff-day-2-wednesday-21st-june-nnt/
+    snapshot: 5a1tS
+    publisher: Impact Nottingham
+    author: Daniel McVey 
+    title: "StuFF Day 2: Wednesday 21st June @ NNT"
+    date: 2017-03-25
+    rating: 7/10
+    quote: "From start to finish it was an absolute pun-fest with quick-fire barrages of twists being thrown at you throughout."
+
 cast:
   - name: Ben Macpherson
     role: Byron Montrose

@@ -11,6 +11,17 @@ assets:
   - type: poster
     image: SmD2mst
 
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2017/06/stuff-day-2-wednesday-21st-june-nnt/
+    snapshot: 5a1tS
+    publisher: Impact Nottingham
+    author: Daniel McVey 
+    title: "StuFF Day 2: Wednesday 21st June @ NNT"
+    date: 2017-03-25
+    rating: 8/10
+    quote: "'Twenty-Something' exhibits some of the most brilliantly written dialogue I have seen in theatre."
+
 cast:
   - role: Noah
     name: Lynton Appleton

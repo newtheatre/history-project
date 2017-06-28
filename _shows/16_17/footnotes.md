@@ -11,6 +11,17 @@ assets:
   - type: poster
     image: bDmS9wH
 
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2017/06/stuff-day-2-wednesday-21st-june-nnt/
+    snapshot: 5a1tS
+    publisher: Impact Nottingham
+    author: Daniel McVey 
+    title: "StuFF Day 2: Wednesday 21st June @ NNT"
+    date: 2017-03-25
+    rating: 7/10
+    quote: "Although I can’t pretend to have understood it all, I left feeling entertained and realising that I had experienced a piece of art."
+
 cast:
   - name: Lewys Holt
     person: false 

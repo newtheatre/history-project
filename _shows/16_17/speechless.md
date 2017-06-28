@@ -11,6 +11,17 @@ assets:
   - type: poster
     image: 8kKXZ7d
 
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2017/06/stuff-day-2-wednesday-21st-june-nnt/
+    snapshot: 5a1tS
+    publisher: Impact Nottingham
+    author: Daniel McVey 
+    title: "StuFF Day 2: Wednesday 21st June @ NNT"
+    date: 2017-03-25
+    rating: 7/10
+    quote: "Not only was it politically charged, but moments, especially the introduction of the character of ‘the Pen’, were side-splittingly funny."
+
 crew:
   - role: Venue Technician
     name: Ben Woodford

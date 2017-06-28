@@ -11,6 +11,17 @@ assets:
   - type: poster
     image: NfnQCWk
 
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2017/06/stuff-day-2-wednesday-21st-june-nnt/
+    snapshot: 5a1tS
+    publisher: Impact Nottingham
+    author: Daniel McVey 
+    title: "StuFF Day 2: Wednesday 21st June @ NNT"
+    date: 2017-03-25
+    rating: 9/10
+    quote: "Every character is an exaggerated caricature with their own hilarious idiosyncrasies, with even the minor characters making the audience roar with laughter."
+
 cast:
   - role: Dummy M
     name: Sam Morris 

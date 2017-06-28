@@ -11,6 +11,17 @@ assets:
   - type: poster
     image: t6mfPwb
 
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2017/06/stuff-day-1-tuesday-20th-june-nnt/
+    snapshot: aRiSq
+    publisher: Impact Nottingham
+    author: Daniel McVey 
+    title: "StuFF Day 1: Tuesday 20th June @ NNT"
+    date: 2017-03-23
+    rating: 8/10
+    quote: "['Wrecked'] elicited huge bouts of laughter from the audience and though in some parts it felt like a pantomime, it was a genuinely hilarious and enjoyable."
+
 cast:
  - role: Eddie
    name: Maddy Strauss

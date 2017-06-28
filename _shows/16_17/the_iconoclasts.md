@@ -11,6 +11,17 @@ assets:
   - type: poster
     image: DXr8CFH
 
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2017/06/stuff-day-2-wednesday-21st-june-nnt/
+    snapshot: 5a1tS
+    publisher: Impact Nottingham
+    author: Daniel McVey 
+    title: "StuFF Day 2: Wednesday 21st June @ NNT"
+    date: 2017-03-25
+    rating: 10/10
+    quote: "Music, magic, drag and dancing combine in this unmissable explosion of intriguing characters performed by immensely talented actors."
+
 crew:
   - role: Venue Technician
     name: Nathan Penney
