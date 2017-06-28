@@ -17,6 +17,16 @@ crew:
     name: Meir Adler
 
 prod_shots: JML6rm
+
+links:
+  - type: Review
+    href: http://www.su-web2.nottingham.ac.uk/~impact/?p=738
+    snapshot: vAxn5
+    publisher: Impact Nottingham
+    author: Carly Taylor
+    title: "Jack and Jill at New Theatre"
+    date: 2007-06-09
+    quote: "The audience is given an omniscient view, as the play shows the living room and Jack and Jill’s bedroom simultaneously, with one set of actors remaining stationery, usually to evoke space but also in order that the entire social scene can be commentated on, the chief observers being the parents of the errant pair."
 ---
 
 When does love become obsession?

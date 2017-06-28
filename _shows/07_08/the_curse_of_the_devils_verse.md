@@ -7,6 +7,16 @@ season_sort: 200
 venue: New Theatre
 date_start: 2008-02-01
 
+links:
+  - type: Review
+    href: http://www.su-web2.nottingham.ac.uk/~impact/?p=899
+    snapshot: QKuGj
+    publisher: Impact Nottingham
+    author: Clare Salter
+    title: "The Curse of the Devil's Verse @ New Theatre"
+    date: 2008-02-04
+    quote: "After a heated argument Rob drowns his sorrows in the local pub where he encounters McCreek, a mysterious elf-like character (think of Bottom from “A Midsummer Night’s Dream”), who places a curse on Rob so that he can only speak in rhyme. What ensues is a hilarious exploration of young relationships, problems of communication, infidelity and essentially who ‘wears the trousers.’"
+
 ---
 
 Rob, a typically bloke-ish alpha male lives with aspiring writer Lucy, but their relationship is at breaking point. Believing that work isn't work without the lifting of heavy objects, he can't see the merit in making up stories for a living.

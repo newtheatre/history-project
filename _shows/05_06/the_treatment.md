@@ -23,4 +23,13 @@ assets:
     image: d4GRQrD
 
 prod_shots: Cr3MsK
+
+links:
+  - type: Review
+    href: http://www.su-web2.nottingham.ac.uk/~impact/?p=290
+    snapshot: CKGFj
+    publisher: Impact Nottingham
+    title: "The Treatment (New Theatre)"
+    date: 2006-03-10
+    quote: "I should warn you: this is no easy watch. With some eyebrow-raising sexual scenes, bad language, voyeurism, violence, and one very intense atmosphere, this won’t be to everyone’s tastes. More importantly, however, is the manner in which this performance tackles such scenes and the way the cast expertly carry them out. The actors even inject a dark comedy to the play that will make you laugh despite the encircling claustrophobia."
 ---
