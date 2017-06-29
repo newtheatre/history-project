@@ -1,6 +1,7 @@
 ---
 title: "A Programme of Performance Art"
 company: Central St. Martin's Graduates
+playwright: various 
 period: Spring
 season: STUFF
 season_sort: 500

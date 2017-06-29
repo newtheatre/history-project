@@ -2,6 +2,7 @@
 title: "The Weird and The Eerie: A Collections of Short Films"
 period: Spring
 season: STUFF
+playwright: various
 season_sort: 470
 date_start: 2016-06-20
 venue: New Theatre
