@@ -7,6 +7,10 @@ season_sort: 570
 date_start: 2016-06-21
 venue: New Theatre Studio A
 
+assets:
+  - type: poster
+    image: F5Rspjb
+
 links:
   - type: Review
     href: http://www.impactnottingham.com/2017/06/stuff-day-2-wednesday-21st-june-nnt/
