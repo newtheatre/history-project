@@ -8,27 +8,46 @@
   icon: ion-film-marker
   aliases:
     - Co-director
+    - Assistant Director
+    - Shadow Director 
 
 - role: Producer
   icon: fa fa-money
+  aliases:
+    - Assistant Producer
+
+- role: Production Advisor 
+  icon: fa fa-comments-o
+  aliases:
+    - Improv Advisor
 
 - role: Set Designer
   icon: ion-paintbucket
+  aliases:
+    - Shadow Set Designer 
 - role: Designer
   icon: ion-paintbucket
+  aliases:
+    - Design Assistant
 
 - role: Stage Manager
   icon: fa fa-bookmark
 - role: Technical Director
   icon: fa fa-plug
+  aliases:
+    - Shadow Technical Director
+    - Tech Master 
 - role: Lighting Designer
   icon: fa fa-lightbulb-o
   aliases:
     - Lighting Design
+    - Shadow Lighting Designer
+    - Shadow Lighting Design 
 - role: Sound Designer
   icon: fa fa-volume-up
   aliases:
     - Sound Design
+    - Shadow Sound Designer
 - role: Video Designer
   icon: ion-videocamera
   aliases:
@@ -59,10 +78,15 @@
 
 - role: Make Up Artist
   icon: ion-paintbrush
+  aliases:
+    - Make Up
+    - Make-Up
+    - Hair & Make-Up
 - role: Costume Designer
   icon: ion-tshirt
   aliases:
     - Costume Design
+    - Costumes 
 
 - role: Publicity Designer
   icon: fa fa-picture-o
@@ -72,6 +96,8 @@
   icon: fa fa-picture-o
 - role: Poster Designer
   icon: fa fa-picture-o
+  aliases:
+    - Poster Design
 - role: Artwork
   icon: fa fa-picture-o
 - role: Photographer
