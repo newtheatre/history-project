@@ -1,5 +1,7 @@
 ---
 title: Breakfast Not Included
+writer: Alison Carr
+student_written: true
 season: In House
 period: Autumn
 season_sort: 40
