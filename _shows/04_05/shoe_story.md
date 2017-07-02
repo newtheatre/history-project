@@ -24,6 +24,12 @@ prod_shots: d6MWzX
 assets:
   - type: poster
     image: M6QTq5G
+  - type: newspaper
+    image: DRjnMjs
+  - type: newspaper
+    image: tkWVKsW
+  - type: newspaper
+    image: hPftR87
     
 ---
 
