@@ -34,6 +34,15 @@ assets:
     image: gDw5cnx
 
 comment: Selected for NSDF 2007
+
+links:
+  - type: Review
+    href: http://www.su-web2.nottingham.ac.uk/~impact/?p=672
+    snapshot: QfKR8
+    publisher: Impact Nottingham
+    title: "Cast Aside comes to Nottingham..."
+    date: 2007-02-01
+    quote: "Impossible not to enjoy, whether or not the theatre world makes you shudder with delight or disgust, this one’s for you. Although thanks to some of Dave’s jokes, you may want to think twice if you’re planning to have leeks for dinner later…"
 ---
 
 A pretentious director, moronic cast and a gender-bending, meta-theatrical mess of a production of The Merchant of Venice, merge in this satirical antidote to everything waffling, affected or ostentatious about the Stage - just what the doctor ordered, darling.

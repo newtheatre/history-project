@@ -8,6 +8,28 @@ season_sort: 220
 venue: New Theatre
 date_start: 2007-02-14
 date_end: 2007-02-17
+
+cast:
+  - role: Henry Higgins
+    name: Peter Carruthers
+  - role: Colonel Hugh Pickering
+    name: Guy Unsworth
+  - role: Eliza Doolittle
+    name: Melanie Birkhead
+  - role: Freddie Eynsford-Hill
+    name: Chris McDonald
+  - role: Alfie Doolittle
+    nane: James Rowe
+
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2007/02/musicality-presents-my-fair-lady-at-new-theatre/
+    snapshot: cVhv3
+    publisher: Impact Nottingham
+    author: Jessica Benson-Egglenton
+    title: "Musicality presents My Fair Lady at New Theatre"
+    date: 2007-02-14
+    quote: "One of the best scenes has to be the all singing, all jigging cockney rendition of ‘I’m Getting Married in the Morning’, with James Rowe’s fantastic depiction of Eliza’s drunken father Alfie."
 ---
 
 Musicality, the University's musicals society,
