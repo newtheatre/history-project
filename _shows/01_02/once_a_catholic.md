@@ -13,5 +13,8 @@ assets:
   - type: flyer
     image: pm3j7jW
     page: 1
+
+crew:
+  - name: Alison Carr
 ---
 
