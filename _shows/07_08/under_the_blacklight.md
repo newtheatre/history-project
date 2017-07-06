@@ -25,7 +25,7 @@ links:
     snapshot: YAYXB
     publisher: Impact Nottingham
     author: Rebecca Rimmer
-    title: " @ Nottingham New Theatre"
+    title: "Under the Blacklight and Seven Minutes Thirty One @ New Theatre"
     date: 2007-11-08
     quote: "Two absolutely gripping pieces of writing; so well directed and acted, I cannot find one flaw. After tonight’s performances, I don’t doubt that the New Theatre will invite more pieces of new writing; I will await Nick and Anthony’s sequels…"
 ---

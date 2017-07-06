@@ -22,5 +22,5 @@ links:
     publisher: Impact Nottingham
     title: "Cast Aside (Zoo Venues, Edinburgh)"
     date: 2006-09-23
-    quote: "Cast Aside was a delight. Described as a ‘satirical antidote to everything waffling, affected or ostentatious about the stage’, it provided a much needed escape from the intensity of just too many thesps in one city. There’s only so much ‘dark’ and ‘deep’ (why do directors love these words?) theatre that you can deal with, so Cast Aside, with its light-hearted but incredibly quick and witty script, was a perfect alternative."
+    quote: "Cast Aside was a delight. [...] There’s only so much ‘dark’ and ‘deep’ (why do directors love these words?) theatre that you can deal with, so Cast Aside, with its light-hearted but incredibly quick and witty script, was a perfect alternative."
 ---

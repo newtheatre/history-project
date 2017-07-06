@@ -22,7 +22,7 @@ links:
     snapshot: yi41h
     publisher: Impact Nottingham
     author: Philip McCormack and Katy Cory
-    title: "Mixed Doubled @ New Theatre"
+    title: "Mixed Doubles @ New Theatre"
     date: 2007-10-19
-    quote: "Judging by the talent they demonstrated in ‘Mixed Doubles’, one can expect high calibre entertainment from such newcomers in the weeks to come. "
+    quote: "Judging by the talent they demonstrated in ‘Mixed Doubles’, one can expect high calibre entertainment from such newcomers in the weeks to come."
 ---

@@ -15,7 +15,7 @@ links:
     publisher: Impact Nottingham
     title: "Closer (New Theatre)"
     date: 2006-03-15
-    quote: "The production team at New Theatre have clearly chosen to present ‘Closer’ in a simple, clutter-free way. The best moments, however, are those where the stage directions break away from the norm and we really begin to see the tensions that underline the action. And after all, it is these tensions between the characters that make the play."
+    quote: "The best moments, however, are those where the stage directions break away from the norm and we really begin to see the tensions that underline the action. And after all, it is these tensions between the characters that make the play."
 
 ---
 

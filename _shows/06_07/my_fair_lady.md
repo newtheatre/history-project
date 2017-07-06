@@ -19,7 +19,7 @@ cast:
   - role: Freddie Eynsford-Hill
     name: Chris McDonald
   - role: Alfie Doolittle
-    nane: James Rowe
+    name: James Rowe
 
 links:
   - type: Review
