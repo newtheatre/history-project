@@ -51,6 +51,8 @@ crew:
 - role: Technical Operator
   name: Rohanna Brown
 
+prod_shots: 4rgCkH
+
 assets:
   - type: poster
     image: cbJZppw
