@@ -10,6 +10,16 @@ date_start: 2008-02-13
 date_end: 2008-02-16
 
 prod_shots: phxdJC
+
+links:
+  - type: Review
+    href: http://www.su-web2.nottingham.ac.uk/~impact/?p=905
+    snapshot: KNfGv
+    publisher: Impact Nottingham
+    author: Bianca Leggett
+    title: "The Cranberry Chamber @ New Theatre"
+    date: 2008-02-14
+    quote: "The newly formed improv group (SIN) has created a play which proves a great showcase for the inventiveness and individuality of its performers while also maintaining a distinctive brand of dark and pleasingly cartoonish humour which unites the production."
 ---
 
 Do you like murder, intrigue and suspense? Do you like to control events and imagine yourself as some sort of all-powerful demi-God? If so then we think you might enjoy this...

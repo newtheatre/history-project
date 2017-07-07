@@ -23,4 +23,13 @@ crew:
 cast:
   - role: Thom Pain
     name: Edward Hancock
+
+links:
+  - type: Review
+    href: http://www.su-web2.nottingham.ac.uk/~impact/?p=350
+    snapshot: UT4e1
+    publisher: Impact Nottingham
+    title: "Thom Pain (New Theatre)"
+    date: 2006-03-22
+    quote: "Ed Hancock’s Thom is inspired: a strangely endearing oddball who can switch from the deeply poignant to the lightly amusing with grace. In what Thom deems the ‘age of whatever’ this courageous production, which celebrates life at its most extraordinary, is all the more refreshing."
 ---

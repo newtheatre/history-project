@@ -12,6 +12,16 @@ canonical:
   - title: Ohio Impromptu
 
 prod_shots: dRQ4MN
+
+links:
+  - type: Review
+    href: http://www.su-web2.nottingham.ac.uk/~impact/?p=704
+    snapshot: W0sKt
+    publisher: Impact Nottingham
+    author: Rose Chapman
+    title: "Rough For Theatre Two at New Theatre"
+    date: 2007-03-08
+    quote: "Sam Turnbull and Tom Pinney make a delightful double act, generating laughs where you wouldn’t expect, switching fluidly from slapstick to wordplay without a jarring contrast. Pity the poor actor who stands motionless on a windowsill for an hour."
 ---
 
 Rough Theatre II and Ohio Impromptu represent Beckett's early and late career respectively. The plays vary in their style enormously, however what ties them together is the way Beckett manages to present the predicament of humanity itself with humour and indescribable beauty.

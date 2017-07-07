@@ -17,6 +17,16 @@ assets:
     image: DrCkqRF
 
 prod_shots: XdwpkT
+
+links:
+  - type: Review
+    href: http://www.su-web2.nottingham.ac.uk/~impact/?p=925
+    snapshot: HrPZm
+    publisher: Impact Nottingham
+    author: Roberta Samuels
+    title: "Out of Order @ New Theatre"
+    date: 2008-03-06
+    quote: "The cast give it their all, although some give a little too much- with comedy sometimes less is more."
 ---
 
 It's 1991. Richard Willey MP is a member of the Conservative Cabinet. He is at the Westminster Hotel seducing Jane Worthington, one of the Leader of the Opposition's secretaries. Her suspicious husband, Ronnie, has been having her followed by a private detective, and is out to catch the man she's playing away with. Richard's secretary, George Pigden, comes to save the day, but accidentally gets married. On top of all this, Richard's wife turns up and ends up having a fling with George by mistake, but not before Ronnie has a break-down and admits his inadequacies...

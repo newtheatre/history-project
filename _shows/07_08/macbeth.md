@@ -46,6 +46,16 @@ crew:
     name: David Stephenson
 
 prod_shots: Ppd7Sb
+
+links:
+  - type: Review
+    href: http://www.su-web2.nottingham.ac.uk/~impact/?p=860
+    snapshot: 8m1xz
+    publisher: Impact Nottingham
+    author: Kate Steinweg
+    title: "Macbeth @ New Theatre"
+    date: 2007-12-06
+    quote: "Whether Banquo’s ghost is a frequenter at your dinner parties, or you couldn’t care less if you saw a dagger before you – this production of Macbeth will give you a Shakespeare infusion that will leave you wanting more (which is convenient; because you can then go home and read the complete version)."
 ---
 
 A one hour powerhouse production of the classic take of ambition, power, murder and madness. From the only student-run theatre in England, The New Theatre. In association with Ankle Productions winners of the National Student Drama Festival and an Edinburgh Festival Sell-Out company.
