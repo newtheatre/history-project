@@ -57,11 +57,12 @@ class Smug
       cache_data = JSON.load(cache_file)
       cache_file.close
 
-      if (not cache_data.key? "FetchTime" or
-        cache_data["FetchTime"] < cache_invalid_time) and api_key and
-        not ENV['SMUGMUG_CACHE_MAINTAIN']
+
+      if (not cache_data.key? "FetchTime" or cache_data["FetchTime"] < cache_invalid_time) and
+        api_key and not ENV['SMUGMUG_CACHE_MAINTAIN']
         # Delete and do over as cache invalid
-        Jekyll.logger.warn("SM cache invalidated:", "Refreshing #{id}")
+        age = (Time.now - cache_data["FetchTime"]).to_i / (3600 * 24)
+        Jekyll.logger.warn("SM cache invalidated:", "Refreshing #{id}, was #{age} days old")
         File.delete(cache_filename(id))
         return nil
       else
