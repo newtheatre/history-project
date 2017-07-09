@@ -12,10 +12,6 @@ class Smug
   headers 'Accept' => 'application/json'
   default_timeout 20
 
-  # Cache timings
-  MIN_INVALID_WEEKS = 4
-  MAX_INVALID_WEEKS = 12
-
   def api_key
     ENV['SMUGMUG_API_KEY']
   end
@@ -24,13 +20,30 @@ class Smug
     "_smugmug_cache"
   end
 
+  def min_invalid_time
+    # return the minimum number of seconds that a cached item can stay cached
+    if ENV['TRAVIS_EVENT_TYPE'] == 'cron'
+      days = 1
+    else
+      days = 14
+    end
+    return days * 24 * 60 * 60
+  end
+
+  def max_invalid_time
+    # return the maximum number of seconds that a cached item can stay cached
+    if ENV['TRAVIS_EVENT_TYPE'] == 'cron'
+      days = 6
+    else
+      days = 42
+    end
+    return days * 24 * 60 * 60
+  end
+
   def cache_invalid_time
-    x = MIN_INVALID_WEEKS
-    y = MAX_INVALID_WEEKS - MIN_INVALID_WEEKS
     # Time now, minus x to x+y weeks
-    # We compare the cache file ctime to this
-    #            s  m  h  days
-    ( Time.now - ( 60*60*24*7*x ) - rand( 60*60*24*7*y ) ).to_i
+    # We compare the cache file fetch time to this
+    ( Time.now - min_invalid_time - rand(max_invalid_time - min_invalid_time)).to_i
   end
 
   def cache_filename(id)
