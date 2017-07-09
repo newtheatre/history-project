@@ -1,3 +1,9 @@
+Jekyll::Hooks.register :site, :after_init do |site|
+  if ENV['TRAVIS_EVENT_TYPE'] == 'cron'
+    Jekyll.logger.info "Build running with cronjob settings"
+  end
+end
+
 Jekyll::Hooks.register :site, :post_read do |site|
   # Initialise the link register
   site.data['link-register'] = LinkList::LinkRegister.new
