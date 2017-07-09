@@ -36,6 +36,8 @@ exclude:
 - bower.json
 - coffeelint.json
 - CONTRIBUTING.md
+- Dockerfile
+- LICENCE
 - Gemfile
 - Gemfile.lock
 - googlee5aee69e17917677.html
@@ -47,6 +49,7 @@ exclude:
 - package.json
 - Rakefile
 - README.md
+- run_dev.sh
 - tmp/
 - Vagrantfile
 - vendor/

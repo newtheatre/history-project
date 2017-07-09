@@ -6,7 +6,6 @@ cache:
   - node_modules/
   - lib/
   - vendor/bundle
-  - _smugmug_cache/
   - tmp/
   - ".sass-cache"
 before_install:

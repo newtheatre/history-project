@@ -14,6 +14,5 @@ fi
 if [[ $RESET = "true" ]]
 then
   rm -rf _site
-  rm -rf _asset_bundler_cache
-  rm -rf _smugmug_cache
+  rm -rf tmp
 fi

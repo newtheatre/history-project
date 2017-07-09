@@ -17,7 +17,7 @@ class Smug
   end
 
   def cache_dir
-    "_smugmug_cache"
+    "tmp/smugmug"
   end
 
   def min_invalid_time
