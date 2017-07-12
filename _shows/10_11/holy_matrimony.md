@@ -10,13 +10,13 @@ date_end:
 
 cast:
 - name: Natalie Barclay
-- name: Benjamin Cave
+- name: Ben Cave
 - name: Jess Courtney
 - name: Matt Cowen
 - name: David Edgcumbe
 - name: Freddie Garnett
 - name: Gus Miller
-- name: Elizabeth Rose
+- name: Liz Rose
 - name: Liz Stevenson
 
 assets:

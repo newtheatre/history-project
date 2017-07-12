@@ -26,7 +26,7 @@ cast:
   - role: Dummy M
     name: Sam Morris 
   - role: Dummy F
-    name: Emma Pallet
+    name: Emma Pallett
   - role: Ensemble
     name: Jack Ellis 
   - role: Ensemble
