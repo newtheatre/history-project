@@ -17,7 +17,7 @@ crew:
   - role: Director
     name: Adam Wood
   - role: Producer
-    name: Lauren Elizabeth Knight
+    name: Lauren Knight
 
 assets:
   - type: poster
