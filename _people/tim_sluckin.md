@@ -9,7 +9,7 @@ links:
   - type: Portfolio
     href: "http://www.personal.soton.ac.uk/tim/"
   - type: Portfolio
-    href: "http://www.southampton.ac.uk/maths/about/staff/tim.page"
+    href: "https://www.southampton.ac.uk/maths/about/staff/tim.page"
 ---
 
 Academic career in applied mathematics and theoretical physics
