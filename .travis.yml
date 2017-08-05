@@ -14,7 +14,7 @@ install:
 - bundle install --jobs=3 --retry=3 --deployment --path=${BUNDLE_PATH:-vendor/bundle}
 - npm install
 - bower install
-- curl https://f000.backblazeb2.com/file/wjdp-lib/htmltest > _bin/htmltest
+- curl https://s3-eu-west-1.amazonaws.com/wjdp-lib/htmltest > _bin/htmltest
 - chmod +x _bin/htmltest
 - _bin/htmltest --version
 before_script:
