@@ -7,6 +7,8 @@ season_sort: 520
 date_start: 2016-06-21
 venue: New Theatre 
 
+prod_shots: dN47Fd
+
 assets:
   - type: poster
     image: NfnQCWk
