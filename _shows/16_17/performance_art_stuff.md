@@ -12,6 +12,8 @@ assets:
   - type: poster
     image: F5Rspjb
 
+prod_shots: NMkxxc
+
 links:
   - type: Review
     href: http://www.impactnottingham.com/2017/06/stuff-day-1-tuesday-20th-june-nnt/
