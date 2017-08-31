@@ -63,7 +63,7 @@ crew:
     name: Joanne Blunt
   - role: Technical Director
     name: Adam Frankland
-  - role: Publicity manager
+  - role: Publicity Manager
     name: Keir Birchall
 
 ---
