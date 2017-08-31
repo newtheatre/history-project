@@ -42,6 +42,11 @@ links:
     stars: 5
     quote: "Escape for Dummies comprises an ensemble of five who all embody distinct caricatures in a masterclass of physical comedy. A simple escape plot sees two manikins come to life around a myriad of silent stunts and scenes that has the audience laughing from the very first moment."
 
+trivia:
+  - quote: For the second show of the run, due to Kate O'Gorman being unable to perform, director Laurence Cuthbert had to step in.
+    name: Jack Ellis
+    submitted: 2017-08-31 
+
 cast:
   - role: Dummy M
     name: Sam Morris 
