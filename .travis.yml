@@ -1,5 +1,10 @@
 language: ruby
 rvm: 2.2.0
+
+git:
+  depth: 6
+  lfs_skip_smudge: true
+
 cache:
   bundler: true
   directories:
@@ -8,26 +13,31 @@ cache:
   - vendor/bundle
   - tmp/
   - ".sass-cache"
+
 before_install:
 - nvm install 6.10.0
+
 install:
 - bundle install --jobs=3 --retry=3 --deployment --path=${BUNDLE_PATH:-vendor/bundle}
+- npm install -g bower gulp-cli
 - npm install
 - bower install
 - curl https://s3-eu-west-1.amazonaws.com/wjdp-lib/htmltest > _bin/htmltest
 - chmod +x _bin/htmltest
 - _bin/htmltest --version
+
 before_script:
 - _bin/prep.sh
+
 script:
 - gulp build_deploy
 - gulp test
+
 after_success:
 - _bin/deploy_ghp.sh
 - _bin/deploy_netlify.sh
 - bundle exec ruby _bin/github_tasks.rb
-git:
-  depth: 6
+
 env:
   global:
   - secure: KEaPPezS8BSGFmCLKkHikaCxIibWIq3Pp6fXLwNc7avkvlgF9qsFVgMS2GsCL3c/Hj+xXjmwziXAl9VCP/s8+K1Q1epXKlqXz3HOXFnt9Y5rpaOtHgugq4e9KhmQrlQp52cnemVGvfQNbXxMw6D/cvaa2O++Dne+cvGcENLvCB8=
@@ -39,6 +49,7 @@ env:
   - secure: gD9bKWPench6Qbh5CDwNK2co6F1BJGGIZIP06MAZ3YJLZJR5n20XpPTofHVNb/kvW6LsCD4OWa+r2ZXVg+CrGgt82KZfpHuQ53j3wVpqbCBMTAcdLuRCVyADBsCW3xO4xPQCX3NuHWDQaAzmGr2SPE+uRa3mIpNP9cMhIP4PeDk=
   - secure: VZdHjHPQXsetFTCBCUSF4+yXWUBuRRVr0ZSflDAyuGuryNTbA2T8KQoxOJDMcQVNjeVFukIs8p8VkTWWSTLgSfEsSqtayYFy5hBvOceVAZVh/0UX+GjWEn9IUVDOr/wFVuZ4ArwyiXmHxGgj/uBXOEIYks3TQRUFNzhqL7035gw=
   - secure: EXnIK2L0fhWcPklzbhbqjsQ9vNpxWPtjZkCB3OY0Z2ZD/Nt2CWqoOSgESh3ngSDu2y19gNzLCoctk8JA7mv9MO5BsUa2nuUQJ2mXubY0XrXl0i3PpICKJAWj0TcOQS8INw5DYcH51Eg1wl0o1FHm/7aw0oFhjfOMbav+2i7tEps=
+
 notifications:
   webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
   on_success: change

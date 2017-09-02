@@ -7,6 +7,7 @@ IgnoreURLs:
 - "archive.is"
 - "castingcallpro.com"
 - "stagejobspro.com"
+- "soundcloud.com"
 IgnoreDirs:
 - "^lib"
 
