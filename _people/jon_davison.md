@@ -14,7 +14,7 @@ careers:
   - Musician
 links:
   - type: Personal Website
-    href: "www.jondavison.net "
+    href: "http://www.jondavison.net/"
 
 ---
 
