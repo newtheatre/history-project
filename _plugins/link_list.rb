@@ -92,9 +92,9 @@ module LinkList
 
     def stars
       # Deprecation warning
-      # if @link_hash['rating']
-      #   Jekyll.logger.abort_with("stars is set for link <#{href_source}> on page #{@page_ref.relative_path}. See #843, TL;DR use rating now.")
-      # end
+      if @link_hash['stars']
+        Jekyll.logger.abort_with("stars is set for link <#{href_source}> on page #{@page_ref.relative_path}. See #843, TL;DR use rating now.")
+      end
 
       # Calculate stars if rating set
       if @link_hash['rating']
