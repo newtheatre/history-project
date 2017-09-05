@@ -75,7 +75,7 @@ links:
     author: Henry Stanley
     title: "The Infant @ Nottingham New Theatre"
     date: 2014-10-30
-    stars: 4
+    rating: 4/5
     quote: "This dark comedy is a brilliant blend of laughs and chills, ideal if you really want to get in the mood for Halloween."
 
 ---

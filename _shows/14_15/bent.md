@@ -85,7 +85,7 @@ links:
     author: Olivia Rook
     title: "Bent @ Nottingham New Theatre"
     date: 2014-11-20
-    rating: 9
+    rating: 9/10
     quote: "I believe that the director achieved her wish when she stated in the programme: ‘If you come out of the auditorium today in silence, I have done my job’."
 
 ---
