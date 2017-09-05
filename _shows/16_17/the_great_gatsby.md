@@ -43,11 +43,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-great-gatsby-djanogly-theatre
     snapshot: fZVVh
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Eve Mackay
     title: "Review: The Great Gatsby at Djanogly Theatre"
     date: 2016-10-19
-    stars: 4
+    rating: 4/5
     quote: "Bateman’s adaptation also made interesting use of a single white screen behind which actors were cast in silhouette, a technique that was really effective in showing two scenes simultaneously and creating a sense of history in the play. "
   - type: Review
     href: http://www.impactnottingham.com/2016/10/the-great-gatsby-lakeside-arts-centre/

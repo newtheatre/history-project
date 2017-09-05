@@ -111,7 +111,7 @@ links:
     author: Eve Mackay
     title: "REVIEW: 'As You Like It' at The Nottingham New Theatre"
     date: 2016-12-22
-    stars: 4
+    rating: 4/5
     quote: "Strings of fairy lights, roses and bunting decorated the stage [...] and this helped create the almost magical atmosphere of the forest in which the play was set."
   - type: Review
     href: http://www.impactnottingham.com/2016/12/as-you-like-it-nottingham-new-theatre/

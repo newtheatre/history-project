@@ -132,7 +132,7 @@ links:
     author: Emily Brady
     title: "Review: DEAD: A Musical at Nottingham New Theatre"
     date: 2016-12-15
-    stars: 5
+    rating: 5/5
     quote: "It’s testament to [...] the cast, that they manage to sing and dance so wonderfully whilst conveying such brilliantly realised characters."
   - type: Review
     href: http://www.impactnottingham.com/2016/12/dead-a-musical-nottingham-new-theatre/

@@ -118,11 +118,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-macbett-nottingham-new-theatre
     snapshot: JuN1n
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Amy Wilcockson
     title: "Review: Macbett at The Nottingham New Theatre"
     date: 2015-12-03
-    stars: 4.5
+    rating: 4.5/5
     quote: "In directing this production, [Chris] Trueman has created a wacky and wonderful world full of madness and laughs, but one which has a serious message lurking behind the comic exterior – what happens when you’ve got rid of one dictator and the next ruler turns out to be even worse? "
   - type: Review
     href: http://www.impactnottingham.com/2015/12/macbett-nottingham-new-theatre/

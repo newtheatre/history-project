@@ -28,19 +28,19 @@ links:
     href: http://edfringereview.com/r/WYh06bDwTo6x5kwRXDx6yg?
     snapshot: fKFbP
     publisher: edfringereview
-    author: James Tibbles 
+    author: James Tibbles
     title: "Wrecked"
     date: 2017-08-23
-    stars: 4
+    rating: 4/5
     quote: "The shapes of Trueman’s blocking are visually satisfying and he clearly played to each actor’s strengths when devising their characters and comic tropes. Every single member of the cast is also completely committed to their character and attentive to their physical characterisation."
   - type: Review
     href: http://edinburgh.fringeguru.com/reviews/edinburgh-2017/wrecked
     snapshot: nCYWi
     publisher: FringeGuru
-    author: Caroline Cawley 
+    author: Caroline Cawley
     title: "Wrecked"
     date: 2017-08-22
-    stars: 3
+    rating: 3/5
     quote: "The six actors all create distinctive characters: Maggie is very serious, Billy is earnest, and Francois is Machiavellian. These different approaches could have been jarring, but instead they highlight the qualities of their characters and it meshes together nicely. However, one thing that all of them have in common is that they are all caricatures of swashbuckling pirates, and are all hopelessly incompetent at leading."
 
 cast:

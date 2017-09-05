@@ -39,11 +39,11 @@ links:
   - type: Review
     href: http://broadwaybaby.com/shows/porphyria/16938
     snapshot: jWFrS
-    publisher: Broadway Baby 
+    publisher: Broadway Baby
     author: Charlotte Kelly
     title: "Porphyria"
     date: 2012-08-11
-    stars: 3
+    rating: 3/5
     quote: "This is a play which, like a dream, promises much and comes tantalisingly close to delivering. The cast give nuanced performances, there is some clever writing, and the Rubiks-cube-like set is a treat. "
 
 ---

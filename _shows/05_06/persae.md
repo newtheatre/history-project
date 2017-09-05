@@ -27,7 +27,7 @@ links:
     publisher: The Scotsman
     author: Andrea Mullaney
     title: "Persae"
-    stars: 4  
+    rating: 4/5
     quote: "Badham - an Australian working in Britain - clearly wants to show that it's not just an American war and that, as this week's news reminds us, we're all involved."
   - type: Review
     href: http://www.su-web2.nottingham.ac.uk/~impact/?p=515

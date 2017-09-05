@@ -66,11 +66,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-great-gatsby-nottingham-new-theatre
     snapshot: 1plo8
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Leah Rafferty
     title: "Review: The Great Gatsby at Nottingham New Theatre"
     date: 2015-12-08
-    stars: 5
+    rating: 5/5
     quote: "This was how it felt to be sitting in the audience of the NNT’s production of The Great Gatsby, a fantastical adaptation of the world-renowned novel written by F. Scott Fitzgerald which did not disappoint! "
   - type: Review
     href: http://www.impactnottingham.com/2015/12/the-great-gatsby-nottingham-new-theatre/

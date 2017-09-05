@@ -14,7 +14,7 @@ links:
     href: https://web.archive.org/web/20080723200301/http://www.newtheatre.org.uk/extra/castaside.html
     publisher: Three Weeks
     title: "Cast Aside"
-    stars: 4
+    rating: 4/5
     quote: "A considerable achievement... It causes considerable laughter,..played with the carefree batting chuckle-fest comedy needs. Each of the young cast gives it their all, and lucky them, the play gives them characters you can believe in... a real treat!"
   - type: Review
     href: http://www.su-web2.nottingham.ac.uk/~impact/?p=516

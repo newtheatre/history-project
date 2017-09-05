@@ -76,11 +76,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-revolt-she-said-revolt-again-nottingham-new-theatre
     snapshot: yiPQs
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Emily Brady
     title: "Review: Revolt. She Said. Revolt Again. at The Nottingham New Theatre"
     date: 2017-03-08
-    stars: 4
+    rating: 4/5
     quote: "Revolt. is a must-see production, showcasing the best of 21st century feminist writing alongside stellar performances and excellent direction."
   - type: Review
     href: http://www.impactnottingham.com/2017/03/revolt-she-said-revolt-again-nnt/

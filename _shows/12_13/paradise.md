@@ -53,7 +53,7 @@ links:
     author: Laura Francis
     title: "Paradise"
     date: 2013-08-18
-    stars: 3
+    rating: 3/5
     quote: "A moderately entertaining mishmash of stories and anecdotes with mask work, a bendy bench and some nice guitar playing."
 
 comment: Video waiting to be added http://photos.newtheatre.org.uk/2012-13/Paradise-Edinburgh-2013/

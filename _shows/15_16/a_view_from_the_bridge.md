@@ -82,11 +82,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-view-bridge-nottingham-new-theatre
     snapshot: zwzlo
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Amy Wilcockson
     title: "Review: A View From The Bridge at The Nottingham New Theatre"
     date: 2015-11-12
-    stars: 4
+    rating: 4/5
     quote: "The Nottingham New Theatre’s A View From The Bridge is an innovative and diverse performance which challenges period conventions and attempts to put a new and exciting twist on an old classic – something the New Theatre does extremely well, time and time again. "
   - type: Review
     href: http://www.impactnottingham.com/2015/11/a-view-from-the-bridge-nottingham-new-theatre/

@@ -55,7 +55,7 @@ links:
     author: Susan Akyeampong
     title: "Review: Constellations at Nottingham Lakeside Arts"
     date: 2016-06-08
-    stars: 5
+    rating: 5/5
     quote: "With only two characters and two sets of lights, you’ll still find yourself drawn in from the onset of Roland and Marianne’s frankly very awkward introduction. "
 ---
 

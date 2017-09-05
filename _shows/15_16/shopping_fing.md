@@ -76,16 +76,16 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-shopping-and-fing-nottingham-new-theatre
     snapshot: 6mvAM
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Holly Lowson
     title: "Review: Shopping and F***ing at Nottingham New Theatre"
     date: 2016-04-28
-    stars: 3.5
+    rating: 3.5/5
     quote: "Despite its black humour, the play is by no means a comedy. One minute I found myself laughing, the next I felt incredibly uncomfortable - particularly during a jaw clenching interview scene. It's intense. "
   - type: Review
     href: http://www.impactnottingham.com/2016/04/shopping-and-fing-nottingham-new-theatre/
     snapshot: BUXYZ
-    publisher: Impact Nottingham 
+    publisher: Impact Nottingham
     author: Claire Seah
     title: "Shopping and F***ing @ Nottingham New Theatre"
     date: 2016-04-28

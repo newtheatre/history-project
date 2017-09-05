@@ -55,7 +55,7 @@ links:
     author: Marion Jenkins
     title: Review – The Project, Nottingham New Theatre. Edinburgh Fringe Festival.
     date: 2013-08-21
-    stars: 5
+    rating: 5/5
     quote: >
         Writers Bridie Rollins and Martha Rose Wilson have mined a fascinating seam of thought in this highly charged
         production. Look out for the yellow lips.
@@ -70,11 +70,11 @@ links:
   - type: Review
     href: http://broadwaybaby.com/shows/the-project/26917
     snapshot: WhWJn
-    publisher: Broadway Baby 
+    publisher: Broadway Baby
     author: Charlotte Goodman
     title: "The Project"
     date: 2013-08-08
-    stars: 3
+    rating: 3/5
     quote: "This is an engaging and thoughtful piece and, amid the chaos of the Fringe, raises some pertinent questions about our motives for enjoying theatre at all."
 ---
 

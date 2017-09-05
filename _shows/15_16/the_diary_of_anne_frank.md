@@ -72,11 +72,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-diary-anne-frank-nottingham-new-theatre
     snapshot: QxTqd
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Hannah Shepperd
     title: "Review: The Diary of Anne Frank at Nottingham New Theatre"
     date: 2015-11-26
-    stars: 4
+    rating: 4/5
     quote: "The Nottingham New Theatre’s reinvigoration of The Diary of Anne Frank successfully plays its part in immortalising Anne Frank's story. An opening statement of deafening silence awakens a truly emotive journey through triumph and despair, bringing her legacy to life. "
   - type: Review
     href: http://www.impactnottingham.com/2015/11/the-diary-of-anne-frank-nottingham-new-theatre/

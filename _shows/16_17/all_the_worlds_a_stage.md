@@ -55,7 +55,7 @@ links:
     author: Emily Brady
     title: "Review: All the World’s A Stage & Other Stories at Nottingham New Theatre"
     date: 2016-12-02
-    stars: 3.5
+    rating: 3.5/5
     quote: "The same five actors multi-role to create a fully fleshed-out universe, and each play their part with an absurd conviction that perfectly complements the surreal style of the show."
   - type: Review
     href: http://www.impactnottingham.com/2016/11/all-the-worlds-a-stage-and-other-stories-nottingham-new-theatre/

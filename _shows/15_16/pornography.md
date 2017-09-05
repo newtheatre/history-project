@@ -103,11 +103,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-pornography-nottingham-new-theatre
     snapshot: dzJ4L
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Georgina Varley
     title: "Review: Pornography at Nottingham New Theatre"
     date: 2015-10-29
-    stars: 4.5
+    rating: 4.5/5
     quote: "Overall, a wonderful thought-provoking production that mixes humour and ‘awfulness’, produced and acted perfectly, set to interest anyone concerned with the state of Britain today. "
   - type: Review
     href: http://www.impactnottingham.com/2015/10/pornography-nottingham-new-theatre/

@@ -16,11 +16,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/stuff-i-keep-woman-my-flat-chained-radiator-nottingham-new-theatre
     snapshot: qS85C
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Susan Akyeampong
     title: "STUFF: I Keep A Woman in My Flat Chained To A Radiator at Nottingham New Theatre"
     date: 2016-06-15
-    stars: 4
+    rating: 4/5
     quote: " What the two actors successfully convey however is the simultaneously sinister tone to this friendship because it’s also about the relationship between a kidnapper and his victim; something that we become all too aware of every time she struggles to reach for something. "
   - type: Review
     href: http://www.impactnottingham.com/2016/06/stuff-i-keep-a-woman-in-my-flat-chained-to-a-radiator-nottingham-new-theatre/
