@@ -58,6 +58,17 @@ assets:
   - type: backstage
     video: V7CB6Vg
     title: Backstage At
+
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2014/11/punk-rock-nottingham-new-theatre/
+    snapshot: JuWEG
+    publisher: Impact Nottingham 
+    author: Amy Greenwood
+    title: "punk rock @ Nottingham New Theatre"
+    date: 2014-11-06
+    quote: "Punk Rock by Simon Stephens is gloriously directed by Bridie Rollins and Lara Tyselling to create an almost flawless take on what is most certainly a complex and multi-layered play."
+
 ---
 
 Combining sharp humour, ruthless violence and compassion, Simon Stephens’ Punk Rock provides an unnerving chronicle of contemporary adolescence at the breaking point. A controversial and acute production that remains scarily relevant to the present day. This performance contains smoking.

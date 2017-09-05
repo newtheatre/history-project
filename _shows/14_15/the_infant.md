@@ -66,6 +66,18 @@ assets:
     title: Backstage At
 
 prod_shots: XxgxsK
+
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2014/10/the-infant-nottingham-new-theatre/
+    snapshot: bO3d8
+    publisher: Impact Nottingham 
+    author: Henry Stanley
+    title: "The Infant @ Nottingham New Theatre"
+    date: 2014-10-30
+    stars: 4
+    quote: "This dark comedy is a brilliant blend of laughs and chills, ideal if you really want to get in the mood for Halloween."
+
 ---
 
 They have a picture, a picture that could spell the destruction of civilised society. And it might have been drawn by a 4 year old child. Who’s telling the truth? What is the truth? And does the truth really matter any more?

@@ -77,6 +77,17 @@ assets:
     video: HcSb3w6
     title: Backstage At
 
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2014/11/bent-nottingham-new-theatre/
+    snapshot: SSTKV
+    publisher: Impact Nottingham 
+    author: Olivia Rook
+    title: "Bent @ Nottingham New Theatre"
+    date: 2014-11-20
+    rating: 9
+    quote: "I believe that the director achieved her wish when she stated in the programme: ‘If you come out of the auditorium today in silence, I have done my job’."
+
 ---
 
 Berlin, 1934, and after Hitler instigates the Night of the Long Knives, Max is captured and sent to Dachau concentration camp. Here he meets Horst and the two fight to maintain their dignity and humanity, holding each other together through the power of words and imagination alone.
