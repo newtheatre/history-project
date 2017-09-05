@@ -86,13 +86,31 @@ module LinkList
       @link_hash['date']
     end
 
-    def stars
-      # TODO remove, see #843
-      @link_hash['stars']
-    end
-
     def rating
       @link_hash['rating']
+    end
+
+    def stars
+      # Deprecation warning
+      # if @link_hash['rating']
+      #   Jekyll.logger.abort_with("stars is set for link <#{href_source}> on page #{@page_ref.relative_path}. See #843, TL;DR use rating now.")
+      # end
+
+      # Calculate stars if rating set
+      if @link_hash['rating']
+        # Split around the slash
+        split_rating = @link_hash['rating'].split('/')
+        # Check we adhere to the correct format
+        if split_rating.count != 2 then Jekyll.logger.abort_with(
+          "rating '#{@link_hash['rating']}' does not match format x/of_y for link <#{href_source}> on page #{@page_ref.relative_path}."
+        ) end
+        # Convert strings to floats
+        rating, out_of = split_rating[0].to_f, split_rating[1].to_f
+        # Convert to an out-of-five rating (i.e. stars)
+        return (rating / out_of) * 5
+      else
+        return nil
+      end
     end
 
     def quote
