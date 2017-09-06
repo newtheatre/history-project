@@ -8,4 +8,4 @@ graduated: 1977
 contact_allowed: true
 
 ---
-Worked as Admin Assistant in touring theatre group in Cumbria called Stage 77 in Autumn 1977. Library Services roles 1978 - 2005. Sang in several local choirs and choral societies up to presnet day.
+Worked as Admin Assistant in touring theatre group in Cumbria called Stage 77 in Autumn 1977. Library Services roles 1978 - 2005. Sang in several local choirs and choral societies up to present day.
