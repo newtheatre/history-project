@@ -64,6 +64,18 @@ assets:
   - type: backstage
     video: FQCfdkp
     title: Backstage At
+
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2014/11/our-countrys-good-nottingham-new-theatre/
+    snapshot: EbEt4
+    publisher: Impact Nottingham
+    author: Nicole Jones
+    title: "Our Country's Good @ Nottingham New Theatre"
+    date: 2014-11-27
+    rating: 8/10
+    quote: "This is a production filled with humour, heart and emotional punch. It comes across as a play that has been crafted with loving care; director Laura Thornton has styled her Director’s Note as ‘A Love Letter to Our Country’s Good’ in the programme, and it’s easy to see that passion reflected in the performance."
+
 ---
 
 Australia, 1788. The first fleet of British prison ships arrive at Botany Bay. Lieutenant Clark decides to stage a play using a ragbag cast of convicts until the distinction between captors and captives begins to blur…
