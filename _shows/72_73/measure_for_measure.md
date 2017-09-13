@@ -7,6 +7,8 @@ season_sort: 30
 venue: New Theatre
 
 assets:
+  - type: poster
+    image: VP35hcP
   - type: programme
     filename: measure_programme.pdf
     title: Programme
