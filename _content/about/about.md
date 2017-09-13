@@ -41,14 +41,14 @@ See the [contributing](/contributing/) section for details on how to help out.
 - Build number {% include travis_build_number.txt %}.
 - {{shows.size}} shows, {{committees.size}} committees and {{people.size}} people.
 
-</div>
-
-</div>
-
 ## Special Thanks
 
 - Browser testing tools generously provided by [BrowserStack](https://www.browserstack.com/).
 - Mapping © <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a>
+
+</div>
+
+</div>
 
 ## Open codebase
 
