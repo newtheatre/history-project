@@ -11,7 +11,17 @@ venue_sort: Greenside
 
 assets:
   - type: poster
-    image: t6mfPwb
+    image: WbM3BD4
+  - type: flyer
+    image: Cdqrs4X
+  - type: flyer
+    image: QtX7rrb
+  - type: logo
+    image: NQbXvH2
+  - type: coverphoto
+    image: R33nQ6f
+
+prod_shots: ggPgWr
 
 links:
   - type: Review
