@@ -47,7 +47,7 @@ links:
     publisher: Impact Nottingham
     author: Vicky Lorriman
     title: "Whats Cooking @ Nottingham New Theatre"
-    date: 2017-12-01
+    date: 2014-12-01
     rating: 8/10
     quote: "What’s Cooking? is an intelligently put-together production that is highly enjoyable, but at the same time incredibly serious. It is impossible to avoid giggling at the struggles of a long term couple, alongside appreciating the good things in life which can be lost in a moment. A fresh, innovative and utterly enchanting performance."
 
