@@ -110,6 +110,17 @@ assets:
   - type: trailer
     video: kH5W832
     title: Show Trailer
+
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2014/12/king-lear-nottingham-new-theatre/
+    snapshot: hMFTt
+    publisher: Impact Nottingham
+    author: Amelia Bauer
+    title: "King Lear @ Nottingham New Theatre"
+    date: 2014-12-10
+    rating: 7/10
+    quote: "Herbert’s production certainly explored the tension between villainy and tragedy in its juxtaposition of the Lear of part one abhorrently cursing Goneril and whipping her pregnant belly, with the disturbed and exhausted Lear of part two."
 ---
 
 Widely regarded by scholars and academics as Shakespeare’s finest work, King Lear portrays a powerful king who loses his grip on everything that defines him. Along with Lear’s decline into madness, the play focuses on identity and morality as the state and royal family are torn apart.

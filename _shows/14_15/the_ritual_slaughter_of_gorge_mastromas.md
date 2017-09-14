@@ -77,6 +77,17 @@ assets:
     title: Backstage At
 
 prod_shots: rkQVgT
+
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2014/12/the-ritual-slaughter-of-gorge-mastromas-nottingham-new-theatre/
+    snapshot: znrhD
+    publisher: Impact Nottingham
+    author: Olivia Campbell
+    title: "The Ritual Slaughter of Gorge Mastromas @ Nottingham New Theatre"
+    date: 2014-12-06
+    rating: 9/10
+    quote: "Overall, an ABSOLUTE must-see. No exceptions, no questions asked. Join the secret club for yourself and see the possibilities shown in The Ritual Slaughter of Gorge Mastromas."
 ---
 
 If you could lie without flinching, corrupt without caring and succeed at all costs, how far would you go? How much would you make? An unrelenting attack on human nature, you must ask one simple question. Is it Goodness? Or Cowardice?

@@ -42,6 +42,18 @@ assets:
     title: Backstage At
 
 prod_shots: jDNnN5
+
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2014/11/nottingham-fringe-review-infirmity/
+    snapshot: HRbqZ
+    publisher: Impact Nottingham
+    author: George McGuire 
+    title: "Nottingham Fringe Review - Infirmity"
+    date: 2014-11-18
+    rating: 9/10
+    quote: "Infirmity is a great piece of original writing, full of laughter and heart, performed by a cast who make it even more so. I certainly look forward to what Jackson and Heath do next."
+
 ---
 
 Connor and Charlotte have been together since university. Now in their early 30’s, they’re struggling to maintain their relationship, so have sought help from a psychotherapist: Peter. Through a series of flashbacks, Peter explores the couple’s past, and begins to uncover the potential contributing issues. However, all is not as it seems, and a dark secret is being kept that threatens to tear Connor and Charlotte apart…
