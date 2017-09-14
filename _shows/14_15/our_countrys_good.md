@@ -75,7 +75,11 @@ links:
     date: 2014-11-27
     rating: 8/10
     quote: "This is a production filled with humour, heart and emotional punch. It comes across as a play that has been crafted with loving care; director Laura Thornton has styled her Director’s Note as ‘A Love Letter to Our Country’s Good’ in the programme, and it’s easy to see that passion reflected in the performance."
-
+    
+trivia:
+  - quote: One of the greatest challenges associated with all the multi-rolling was getting the cast to change clothes quick enough.
+    name: Laura Thornton
+    submitted: 2014-11-26
 ---
 
 Australia, 1788. The first fleet of British prison ships arrive at Botany Bay. Lieutenant Clark decides to stage a play using a ragbag cast of convicts until the distinction between captors and captives begins to blur…
