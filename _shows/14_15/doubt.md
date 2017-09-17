@@ -96,6 +96,11 @@ assets:
     title: Backstage At
 
 prod_shots: jwG33w
+
+trivia:
+  - quote: Whether or not Father Flynn was guilty was kept secret from the rest of the cast for the entire rehearsal process.
+    name: Jake Leonard
+    submitted: 2014-11-10
 ---
 
 Principal Sister Aloysius is concerned that a priest working in St. Nicholas School may be abusing a child. In order to confirm her suspicions and help the boy in question, she will have to challenge her own beliefs and those around her in the search for the truth.

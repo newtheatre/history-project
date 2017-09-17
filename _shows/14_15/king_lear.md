@@ -121,6 +121,11 @@ links:
     date: 2014-12-10
     rating: 7/10
     quote: "Herbert’s production certainly explored the tension between villainy and tragedy in its juxtaposition of the Lear of part one abhorrently cursing Goneril and whipping her pregnant belly, with the disturbed and exhausted Lear of part two."
+
+trivia:
+  - quote: The play was set in a contemporary period as the themes of the play are recognisable in modern culture as well as shakespearean times.
+    name: Matt Standen
+    submitted: 2014-12-06
 ---
 
 Widely regarded by scholars and academics as Shakespeare’s finest work, King Lear portrays a powerful king who loses his grip on everything that defines him. Along with Lear’s decline into madness, the play focuses on identity and morality as the state and royal family are torn apart.

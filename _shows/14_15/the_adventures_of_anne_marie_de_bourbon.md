@@ -62,6 +62,11 @@ links:
     date: 2014-12-08
     rating: 9/10
     quote: "Essentially, The Adventures of Anne Marie de Bourbon isn’t really about its rather bland title character at all – it is about us. We repress the existentialist angst that Lavelle exhibits, harbor the insecurities that dog the ostensibly assured puppets; we are the actors behind that stage."
+
+trivia:
+  - quote: There were two original songs written for the show, by Tom Moore and Emilie Brittain.
+    name: Charlotte Van Rhee
+    submitted: 2014-12-06
 ---
 
 A first for the New Theatre - a musical puppet show! This cleverly comic show depicts the extraordinary adventures of Anne Marie, a French aristocrat. After stowing away on a pirate ship, Anne is taken to a mysterious island, hitherto untouched by the outside world, hidden in the Bermuda Triangle. Join Anne Marie as she tries to understand the bizarre world she has been thrust into.
