@@ -90,7 +90,7 @@ links:
 
 trivia:
   - quote: Many different interpretations were drawn on for the production, but they all added to the understanding of the subject matter.
-    name: Molly McGhee
+    name: Molly McGee
     submitted: 2014-11-17
 ---
 
