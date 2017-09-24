@@ -33,6 +33,9 @@ crew:
 assets:
   - type: poster
     image: 2TqxzSz
+  - type: trailer
+    video: zH2nFqL
+    title: Trailer
 
 prod_shots: FTpG92
 ---
