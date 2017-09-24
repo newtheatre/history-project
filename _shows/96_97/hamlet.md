@@ -8,7 +8,7 @@ venue: New Theatre
 
 crew:
  - role: Director
-   name: Claire Ayton
+   name: Cathy Ayton
 
 note: In Novemeber
 ---

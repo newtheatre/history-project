@@ -5,6 +5,10 @@ period: Spring
 playwright: Arthur Miller
 season_sort: 240
 venue: New Theatre
+
+crew:
+ - role: Director
+   name: Jana Phillips
 ---
 
 
