@@ -88,6 +88,8 @@ crew:
   name: Yee Heng Yeh
 - role: Stage Manager
   name: Lena Grasselli
+- role: Stage Manager
+  name: Louis Djalili
 - role: Poster Design
   name: Josh Mallalieu
 
