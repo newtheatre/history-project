@@ -5,6 +5,8 @@ period: Autumn
 playwright: John Mortimer
 season_sort: 40
 venue: New Theatre
+date_start: 1973-11-05
+date_end: 1973-11-09
 ---
 
 A short play actually put on the lunch hour!
