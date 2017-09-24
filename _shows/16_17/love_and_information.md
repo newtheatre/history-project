@@ -8,8 +8,8 @@ company: Postgrads
 season_sort: 200
 period: Spring
 venue: New Theatre
-date_start: 2016-01-25
-date_end: 2016-01-28
+date_start: 2017-01-25
+date_end: 2017-01-28
 
 assets:
   - type: poster

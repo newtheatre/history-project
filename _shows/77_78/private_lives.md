@@ -5,6 +5,8 @@ period: Autumn
 playwright: Noël Coward
 season_sort: 30
 venue: New Theatre
+date_start: 1977-11-22
+date_end: 1977-11-26
 
 crew:
   - role: Lighting Designer

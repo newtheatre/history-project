@@ -5,6 +5,8 @@ period: Spring
 playwright: Max Frisch
 season_sort: 130
 venue: New Theatre
+date_start: 1974-01-21
+date_end: 1974-01-26
 ---
 
 The Fire Raisers (German: Biedermann und die Brandstifter), also known in English as The Firebugs, Firebugs, or The Arsonists, was written by Max Frisch in 1953, first as a radio play, then adapted for television and the stage (1958) as a play in six scenes. It was revised in 1960 to include an epilogue, or afterpiece.
