@@ -5,6 +5,10 @@ period: Spring
 playwright: William Shakespeare
 season_sort: 290
 venue: New Theatre
+
+crew:
+  - role: Director
+    name: Julia Scott-Russell
 ---
 
 
