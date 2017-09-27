@@ -7,7 +7,7 @@ venue: New Theatre
 
 crew:
  - role: Director
-   name: Carrie Cracknell
+   name: Caroline Cracknell
 ---
 
 
