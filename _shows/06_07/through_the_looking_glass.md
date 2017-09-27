@@ -21,7 +21,7 @@ cast:
 prod_shots: vgSZgm
 
 assets:
-  - type: Poster
+  - type: poster
     image: bQqCXNK
   - type: Image
     image: DZsZwKZ
