@@ -4,12 +4,17 @@ playwright: Ali Blackwell
 student_written: true
 period: Spring
 season: External
+company: Theatrical Theatrics Productions
 season_sort: 210
 venue: New Theatre
 date_start: 2008-02-06
 date_end: 2008-02-09
 
 prod_shots: JRm8Gg
+
+assets:
+  - type: poster
+    image: zbFN269
 
 links:
   - type: Review

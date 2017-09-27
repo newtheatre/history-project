@@ -16,6 +16,10 @@ crew:
   - role: Director
     name: Meir Adler
 
+assets:
+  - type: poster
+    image: K46gZ8Q
+
 prod_shots: nqcnP6
 ---
 

@@ -11,6 +11,8 @@ date_end: 2006-12-02
 assets:
   - type: poster
     image: 5sNqfwQ
+  - type: poster
+    image: HnmHbCF
 
 prod_shots: MMRbHW
 

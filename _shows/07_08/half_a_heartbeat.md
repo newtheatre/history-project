@@ -13,6 +13,10 @@ crew:
   - role: Director
     name: Edward Hancock
 
+assets:
+  - type: poster
+    image: MpLBmjw
+
 links:
   - type: Review
     href: http://www.su-web2.nottingham.ac.uk/~impact/?p=927

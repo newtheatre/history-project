@@ -109,6 +109,14 @@ prod_shots: 6DhKFZ
 assets:
   - type: poster
     image: xD53hMW
+  - type: poster
+    image: spnrVc4
+  - type: poster
+    image: jvcNjpj
+  - type: poster
+    image: bKC666R
+  - type: poster
+    image: jxZwpgB
   - type: trailer
     video: TskT7DL
     title: Show Trailer

@@ -41,6 +41,8 @@ prod_shots: 4DbWrF
 
 assets:
   - type: poster
+    image: vxcj9V3
+  - type: poster
     image: 9XGVpnv
   - type: poster
     image: nPTHzD8
