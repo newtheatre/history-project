@@ -11,6 +11,10 @@ date_end: 2008-02-09
 
 prod_shots: JRm8Gg
 
+assets:
+  - type: poster
+    image: zbFN269
+
 links:
   - type: Review
     href: http://www.su-web2.nottingham.ac.uk/~impact/?p=902

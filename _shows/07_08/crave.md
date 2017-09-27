@@ -16,6 +16,10 @@ crew:
     - role: Director
       name: Fu Baxter
 
+assets:
+  - type: poster
+    image: K46gZ8Q
+
 prod_shots: 39SzSb
 ---
 

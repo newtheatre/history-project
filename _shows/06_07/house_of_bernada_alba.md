@@ -8,6 +8,10 @@ venue: New Theatre
 date_start: 2007-03-20
 date_end: 2007-03-13
 
+assets:
+  - type: poster
+    image: 4P3MdmM
+
 cast:
   - name: Emily Medhurst
 

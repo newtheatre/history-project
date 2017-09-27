@@ -11,6 +11,8 @@ date_end: 2006-11-18
 assets:
   - type: poster
     image: VtFQ3pS
+  - type: poster
+    image: RTR7mLB
 
 prod_shots: 9rBkt9
 ---

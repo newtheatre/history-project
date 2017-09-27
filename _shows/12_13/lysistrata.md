@@ -78,7 +78,7 @@ crew:
 
 assets:
   - type: poster
-    image: DdTRpLK
+    image: bsNfxdv
   - type: backstage
     video: 484MvZf
     title: Backstage At

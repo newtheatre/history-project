@@ -46,6 +46,10 @@ crew:
 - role: Musical Coordinator
   name: Tim Watkins
 
+assets:
+  - type: poster
+    image: KXPJ82V
+
 published: true
 
 prod_shots: sPzn5L
