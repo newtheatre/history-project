@@ -11,7 +11,7 @@ date_end: 2015-11-24
 
 cast:
 - role: Filmmaker
-  name: Ted Marriot
+  name: Ted Marriott
 
 crew:
 - role: Director
