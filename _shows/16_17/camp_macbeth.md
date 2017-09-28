@@ -61,4 +61,4 @@ assets:
 
 ---
 
-From an eccentric director to a feirce love triangle and backstage crew looking for a laugh, Camp Macbeth brings new insight into drama summer camps. Being entirely devised and written by students, Camp Macbeth is a hilarious comedic take on all those stereotypes that you associate with drama camps. All proceeds from Camp Macbeth go to the 2016-17 Season Charity Hayward House.
+From an eccentric director to a fierce love triangle and backstage crew looking for a laugh, Camp Macbeth brings new insight into drama summer camps. Being entirely devised and written by students, Camp Macbeth is a hilarious comedic take on all those stereotypes that you associate with drama camps. All proceeds from Camp Macbeth go to the 2016-17 Season Charity Hayward House.
