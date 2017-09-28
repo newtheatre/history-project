@@ -21,7 +21,7 @@ cast:
 - role: Laura
   name: Chloe Schlitter
 - role: Vernon
-  name: Ted Marriot
+  name: Ted Marriott
 - role: Jackie
   name: Beth Mullen
 - role: Leo

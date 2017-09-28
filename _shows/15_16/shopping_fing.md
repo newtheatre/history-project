@@ -22,7 +22,7 @@ cast:
  - role: Robbie
    name: Cameron Walker
  - role: Gary
-   name: Ted Marriot
+   name: Ted Marriott
 
 crew:
  - role: Director

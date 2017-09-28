@@ -24,7 +24,7 @@ cast:
 - role: Holmes
   name: Miguel Barrulas
 - role: Edwards
-  name: Ted Marriot
+  name: Ted Marriott
 - role: Will/Billy
   name: Luke Slater
 - role: Mrs Welsh

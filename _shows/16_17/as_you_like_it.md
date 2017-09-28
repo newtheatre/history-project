@@ -22,7 +22,7 @@ cast:
 - role: Touchstone
   name: Eric Crouch
 - role: Oliver
-  name: Ted Marriot
+  name: Ted Marriott
 - role: Phoebe
   name: Leah Briars
 - role: Silvius
