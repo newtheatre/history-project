@@ -5,6 +5,9 @@ period: Autumn
 playwright: Bertolt Brecht
 season_sort: 30
 venue: New Theatre
+
+prod_shots: BrsrTT
+
 ---
 
 Joint Production with thee Music Society
