@@ -6,6 +6,7 @@ playwright: William Wycherley
 season_sort: 60
 venue: New Theatre
 
+prod_shots: Z3fC2M
 
 cast:
   - role: Horner
