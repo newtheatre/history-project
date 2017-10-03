@@ -5,5 +5,4 @@ headshot: kc7PgvN
 submitted: false
 course: 
   - American Studies BA
-
 ---

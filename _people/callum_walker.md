@@ -5,6 +5,4 @@ headshot: LzDNZ5m
 submitted: false
 course:
   - English BA
-
-
 ---
