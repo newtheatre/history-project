@@ -5,8 +5,8 @@ period: Autumn
 playwright: Jerome Lawrence and Robert Edwin Lee
 season_sort: 30
 venue: Portland Ballroom
-date_start: 1973-11-20
-date_end: 1973-11-22
+date_start: 1974-11-20
+date_end: 1974-11-22
 
 cast:
   - role: Rachel Brown

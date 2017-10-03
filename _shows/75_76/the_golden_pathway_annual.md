@@ -8,6 +8,22 @@ venue: New Theatre
 date_start: 1975-10-10
 date_end: 1975-10-11
 
+cast:
+  - role: Michael
+    name: Crispin Harris
+  - role: Father
+    name: John Thewlis
+  - role: Mother
+    name: Fiona Brown
+  - role: Book Salesman
+    name: Nick Williams
+  - role: Teacher
+    name: Eileen Coan
+
+crew:
+  - role: Director
+    name: Nick Downing
+
 assets:
   - type: poster
     image: Sxkx88d

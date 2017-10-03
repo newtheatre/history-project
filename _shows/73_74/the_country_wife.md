@@ -5,6 +5,15 @@ period: Autumn
 playwright: William Wycherley
 season_sort: 60
 venue: New Theatre
+
+
+cast:
+  - role: Horner
+    name: John Thewlis
+
+crew:
+  - role: Director
+    name: Mark Everett
 ---
 
 The Country Wife is a Restoration comedy written in 1675 by William Wycherley. A product of the tolerant early Restoration period, the play reflects an aristocratic and anti-Puritan ideology, and was controversial for its sexual explicitness even in its own time. The title itself contains a lewd pun. It is based on several plays by Molière, with added features that 1670s London audiences demanded: colloquial prose dialogue in place of Molière's verse, a complicated, fast-paced plot tangle, and many sex jokes. It turns on two indelicate plot devices: a rake's trick of pretending impotence to safely have clandestine affairs with married women, and the arrival in London of an inexperienced young "country wife", with her discovery of the joys of town life, especially the fascinating London men.
