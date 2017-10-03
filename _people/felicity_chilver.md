@@ -1,6 +1,8 @@
 ---
 title: Felicity Chilver
-headshot: 6mtfmXp
+headshot: WDRd2TL
 gender: female
 submitted: false
+course:
+  - English Literature MA
 ---
