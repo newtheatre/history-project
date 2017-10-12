@@ -119,6 +119,8 @@ cast:
    note: Jamie & Jonathan's Group
       
 crew:
+ - role: Executive Producer
+   name: Callum Walker
  - role: Director
    name: Jack Ellis
  - role: Director
@@ -197,6 +199,8 @@ crew:
    name: Jamie Drew
  - role: Technical Director
    name: Sam Osborne
+ - role: Lighting Designer
+   name: Hannah Burne
  - role: Technical Operator
    name: Stuart Ellis
  - role: Technical Operator
