@@ -4,6 +4,7 @@ gender: female
 course:
   - Law BA (Hons)
 graduated: 2000
+headshot: 7xVgHsL
 careers:
   - Actress
 links:
