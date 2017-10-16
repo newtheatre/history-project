@@ -12,6 +12,9 @@ assets:
   - type: poster
     image: ks349x7
 
+cast:
+  - name: Jack Ellis
+
 crew:
   - role: Lighting Designer
     name: Joanne Blunt
