@@ -12,6 +12,14 @@ cast:
   - name: Nick Frost
   - name: Matthew Bannister
   - name: Ed Nally
+  - name: Frank Maryland
+  - name: Stephen Hopker
+  - name: Nick Williams
+  - name: Andrew Pearson
+  - name: John Turner
+  - name: John Thewlis
+  - role: Colonel
+    name: Hugh Simon
 
 crew:
   - role: Director
@@ -20,6 +28,11 @@ crew:
     name: Chris Toms
   - role: Sound Designer
     name: Peter Hart
+  - role: Poster Designer
+    name: John Thewlis
+  - role: Stage Manager and Pyrotechnician
+    name: Jon
+    person: false
 
 assets:
   - type: poster
