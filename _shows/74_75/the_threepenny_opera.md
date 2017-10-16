@@ -8,6 +8,9 @@ venue: New Theatre
 
 prod_shots: BrsrTT
 
+cast:
+  - role: Tiger Brown
+    name: John Thewlis
 ---
 
 Joint Production with thee Music Society
