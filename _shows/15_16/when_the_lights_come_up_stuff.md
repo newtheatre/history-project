@@ -10,6 +10,10 @@ venue: New Theatre
 assets:
   - type: poster
     image: 4DQ4j87
+    
+cast:
+  - name: Jack Ellis
+  - name: Mitchell Masterson
 
 links:
   - type: Review
