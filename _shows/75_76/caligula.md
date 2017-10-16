@@ -9,6 +9,7 @@ venue: New Theatre
 cast:
   - name: Jon Turner
   - name: Kevin Buxton
+  - name: John Thewlis
 
 crew:
   - role: Director
