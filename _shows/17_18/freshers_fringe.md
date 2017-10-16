@@ -194,7 +194,7 @@ crew:
  - role: Director
    name: Bertie Beeching
  - role: Director
-   name: Jonathan Davies
+   name: Jonathan Taylor Davies
  - role: Director
    name: Jamie Drew
  - role: Technical Director
