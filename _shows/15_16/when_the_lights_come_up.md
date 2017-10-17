@@ -14,6 +14,7 @@ assets:
 
 cast:
   - name: Jack Ellis
+  - name: Mitchell Masterson
 
 crew:
   - role: Lighting Designer
