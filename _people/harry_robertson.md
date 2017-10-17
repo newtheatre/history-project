@@ -3,7 +3,7 @@ title: Harry Robertson
 headshot: kC5wJPX
 gender: male
 course: 
-  - English and Classicical Civilasation BA (Hons)
-  - Film, Screen and Televesion Industries MA
+  - English and Classical Civilisation BA (Hons)
+  - Film, Screen and Television Industries MA
 graduated: 2017
 ---
