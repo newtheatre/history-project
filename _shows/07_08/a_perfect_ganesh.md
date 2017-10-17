@@ -12,7 +12,7 @@ assets:
   - type: poster
     image: Cx2vX5M
 
-cast:
+crew:
   - role: Director
     name: Palavi Dhody
 ---
