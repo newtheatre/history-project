@@ -16,7 +16,7 @@ cast:
 
 crew:
 - role: Director
-  name: Jenny Tulls
+  name: Jennifer Danaher
 - role: Lighting Designer
   name: Joanne Blunt
 
