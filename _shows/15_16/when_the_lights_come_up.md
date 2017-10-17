@@ -15,6 +15,7 @@ assets:
 cast:
   - name: Jack Ellis
   - name: Mitchell Masterson
+  - name: Jennifer Danaher
 
 crew:
   - role: Lighting Designer
