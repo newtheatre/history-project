@@ -12,7 +12,7 @@ cast:
   - name: Mick Fuller
   - name: Mary Georgievsky
   - name: Alan Harris
-  - name: Clive Tydesley
+  - name: Clive Tyldesley
   - name: Tim Sluckin
   - name: Desore Springett
 
