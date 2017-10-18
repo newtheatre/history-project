@@ -36,6 +36,8 @@ crew:
   name: Joanne Blunt
 - role: Poster Designer
   name: Ian Sheard
+- role: Writer
+  name: Ian Sheard
 
 prod_shots: TVD8tv
 
