@@ -4,7 +4,7 @@ playwright: Ben Macpherson
 period: Spring
 season: STUFF
 season_sort: 550
-date_start: 2016-06-21
+date_start: 2017-06-21
 venue: New Theatre Studio A
 
 assets:

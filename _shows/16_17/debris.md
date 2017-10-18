@@ -5,7 +5,7 @@ company: Louise White Theatrician
 period: Spring
 season: STUFF
 season_sort: 490
-date_start: 2016-06-20
+date_start: 2017-06-20
 venue: New Theatre
 
 prod_shots: Hw5NRq

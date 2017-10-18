@@ -4,7 +4,7 @@ period: Spring
 season: STUFF
 playwright: various
 season_sort: 470
-date_start: 2016-06-20
+date_start: 2017-06-20
 venue: New Theatre
 
 assets:

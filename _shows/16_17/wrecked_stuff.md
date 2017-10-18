@@ -4,7 +4,7 @@ devised: true
 period: Spring
 season: STUFF
 season_sort: 460
-date_start: 2016-06-20
+date_start: 2017-06-20
 venue: New Theatre
 
 prod_shots: 3QSQ2b
