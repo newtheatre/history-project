@@ -4,7 +4,7 @@ playwright: Charlie Davis
 period: Spring
 season: STUFF
 season_sort: 510
-date_start: 2016-06-21
+date_start: 2017-06-21
 venue: New Theatre Studio A
 
 assets:

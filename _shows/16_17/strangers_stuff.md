@@ -5,7 +5,7 @@ devised: true
 period: Spring
 season: STUFF
 season_sort: 450
-date_start: 2016-06-20
+date_start: 2017-06-20
 venue: New Theatre Studio A
 
 assets:

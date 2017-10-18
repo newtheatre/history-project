@@ -4,7 +4,7 @@ playwright: Ben Price
 period: Spring
 season: STUFF
 season_sort: 560
-date_start: 2016-06-21
+date_start: 2017-06-21
 venue: New Theatre 
 
 prod_shots: qv4V2r
