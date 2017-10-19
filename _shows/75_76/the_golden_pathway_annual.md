@@ -37,7 +37,8 @@ crew:
     name: John Comley
   - role: Sound Designer
     name: Mike Russell
-  - role: Cath Churchill
+  - role: Costumes
+    name: Cath Churchill
 
 prod_shots: WfmjBD
 
