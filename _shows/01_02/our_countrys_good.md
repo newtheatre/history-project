@@ -49,7 +49,7 @@ crew:
   - role: Costumes
     name: Judith Thei
   - role: Costumes
-    name: Lucie Greene
+    name: Lucy Greene
 
 assets:
   - type: programme

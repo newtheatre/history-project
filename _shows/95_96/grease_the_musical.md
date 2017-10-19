@@ -16,7 +16,7 @@ cast:
 
 crew:
  - role: Director
-   name: Sara Hannafin
+   name: Sarah Hannafin
 ---
 
 

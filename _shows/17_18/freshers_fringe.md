@@ -154,7 +154,7 @@ crew:
  - role: Director
    name: Rose Edgeworth
  - role: Director
-   name: Edward Marriott
+   name: Ted Marriott
  - role: Director
    name: Kate Maguire
  - role: Director

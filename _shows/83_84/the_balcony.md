@@ -15,7 +15,7 @@ trivia:
 
 crew:
   - role: Director
-    name: Jeremy Carden
+    name: Jem Carden
 
 cast:
   - role: Prostitute/Assassin
