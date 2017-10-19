@@ -11,10 +11,12 @@ date_end: 1975-10-11
 cast:
   - role: Michael
     name: Crispin Harris
-  - role: Father
+  - role: George
     name: John Thewlis
-  - role: Mother
+    note: Father
+  - role: Enid
     name: Fiona Brown
+    note: Mother
   - role: Book Salesman
     name: Nick Williams
   - role: Teacher
@@ -23,6 +25,22 @@ cast:
 crew:
   - role: Director
     name: Nick Downing
+  - role: Designer
+    name: Liz Guy
+  - role: Stage Manager
+    name: Chris Herbert
+  - role: Assistant Stage Manager
+    name: John Parry
+  - role: Assistant Stage Manager
+    name: Joe Bicarregi
+  - role: Lighting Designer
+    name: John Comley
+  - role: Sound Designer
+    name: Mike Russell
+  - role: Costumes
+    name: Cath Churchill
+
+prod_shots: WfmjBD
 
 assets:
   - type: poster
