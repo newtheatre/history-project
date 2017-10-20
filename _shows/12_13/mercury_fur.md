@@ -7,6 +7,12 @@ period: Autumn
 venue: Trent, Performing Arts Studio
 date_start: 2012-11-03
 date_end: 2012-11-06
+
+tour:
+- venue: NSDF 2013
+- date_start:
+- date_end:
+
 cast:
   - role: Eliot
     name: Andy Routledge
@@ -76,3 +82,5 @@ prod_shots: m4KPV7
 ---
 
 Set in London, in the not so distant future, where gangs prevail and memory has been wiped by the consumption of hallucinogenic butterflies, brothers Elliot and Darren survive by organising ‘parties’ where their clients’ most sadistic fantasies are realised. But it soon becomes clear that the success of one particular party will guarantee not just their safety, but their salvation.
+
+This show was selected to represent the Nottingham New Theatre at the National Student Drama Festival in 2013.
