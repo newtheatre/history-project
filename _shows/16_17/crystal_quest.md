@@ -39,6 +39,17 @@ prod_shots: bjxVx7
 assets:
   - type: poster
     image: r3JPbCh
+    
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2017/06/crystal-quest-5d-adventure-nottingham-new-theatre/
+    snapshot: E7Lcm
+    publisher: Impact Nottingham
+    author: Emma Pallen
+    title: "Crystal Quest: A 5D Adventure @ Nottingham New Theatre"
+    date: 2017-06-15
+    rating: 10/10
+    quote: "A one-of-a-kind production that can be watched again and again"
 
 ---
 
