@@ -49,7 +49,7 @@ links:
     title: "Crystal Quest: A 5D Adventure @ Nottingham New Theatre"
     date: 2017-06-15
     rating: 10/10
-    quote: “Crystal Quest: A 5D Adventure is a one-of-a-kind production that can be watched again and again”
+    quote: "A one-of-a-kind production that can be watched again and again"
 
 ---
 
