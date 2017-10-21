@@ -10,7 +10,7 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600|Montserrat:400,700' rel='stylesheet' type='text/css'>
 
   <!-- Local Styles -->
-  <link rel="stylesheet" href="{% static /css/main.css %}">
+  <link rel="stylesheet" href="{% static /css/main.css %}" data-turbolinks-track="reload">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" data-proofer-ignore>
 
   <!-- humans.txt -->
@@ -44,8 +44,12 @@
   {% unless site.skip_opengraph %}{% include opengraph.html %}{% endunless %}
 
   <!-- Scripts -->
-  <script defer type="text/javascript" src="{% static /js/lib.js %}"></script>
+  <script defer type="text/javascript" src="{% static /js/lib.js %}" data-turbolinks-track="reload"></script>
   <script defer type="text/javascript" src="/js/raven.js"></script>
   <script defer type="text/javascript" src="/js/focus-ring.js"></script>
-  <script defer type="text/javascript" src="{% static /js/app.js %}"></script>
+  <script defer type="text/javascript" src="{% static /js/app.js %}" data-turbolinks-track="reload"></script>
+
+  {% for head_extra_line in layout.head_extra %}
+    {{ head_extra_line }}
+  {% endfor %}
 </head>

@@ -1,22 +1,27 @@
+<link href='/lib/mapbox-gl.css' rel='stylesheet' />
+
 <div class="map-container" id="map"
      data-lat="{{ include.location.lat }}"
      data-lon="{{ include.location.lon }}"></div>
 
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
-
 <script>
-    lat = parseFloat("{{ include.location.lat }}");
-    lon = parseFloat("{{ include.location.lon }}");
-    mapboxgl.accessToken = 'pk.eyJ1Ijoid2pkcCIsImEiOiJjaXFwaHU1MmIwMDVoaHhua2hoeDlkYmViIn0.yxRsR2BA6-a4JgvA92eamw';
-    var map = new mapboxgl.Map({
-        container: 'map', // container id
-        attributionControl: false,
-        style: 'mapbox://styles/wjdp/ciqphv4ap0005xim71pqcn8uq', //stylesheet location
-        center: [lon, lat], // starting position
-        zoom: 16 // starting zoom
+    // Script seems to leak between pages because turbolinks
+    // Event can only fire once everything is loaded (mapbox-gl-js library)
+    document.addEventListener("turbolinks:load", function(event) {
+        if (document.querySelector('#map') != null) {
+            lat = parseFloat("{{ include.location.lat }}");
+            lon = parseFloat("{{ include.location.lon }}");
+            mapboxgl.accessToken = 'pk.eyJ1Ijoid2pkcCIsImEiOiJjaXFwaHU1MmIwMDVoaHhua2hoeDlkYmViIn0.yxRsR2BA6-a4JgvA92eamw';
+            var map = new mapboxgl.Map({
+                container: 'map', // container id
+                attributionControl: false,
+                style: 'mapbox://styles/wjdp/ciqphv4ap0005xim71pqcn8uq', //stylesheet location
+                center: [lon, lat], // starting position
+                zoom: 16, // starting zoom
+            });
+            var marker = new mapboxgl.Marker()
+                    .setLngLat([lon, lat])
+                    .addTo(map);
+        }
     });
-    var marker = new mapboxgl.Marker()
-            .setLngLat([lon, lat])
-            .addTo(map);
 </script>
