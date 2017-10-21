@@ -32,23 +32,36 @@ console.log("")
 // Prevents need for processing lib directory.
 // Prevents both items from presence on sitemap.
 
-var LATE_FILES = [
-  'googlee5aee69e17917677.html',
-  'manifest.json'
+var LATE_FILES_ROOT = [
+    'googlee5aee69e17917677.html',
+    'manifest.json'
 ];
 
+var LATE_FILES_LIB_SINGLES = [
+    'node_modules/mapbox-gl/dist/mapbox-gl.css'
+]
+
 gulp.task('late_files_lib', function() {
+    // Copies contents of lib/ into site
     return gulp.src('lib/**')
                .pipe(gulp.dest('_site/lib'));
 });
 
+gulp.task('late_files_lib_singles', function() {
+    // Copies single files into lib/ in site
+    return gulp.src(LATE_FILES_LIB_SINGLES)
+               .pipe(gulp.dest('_site/lib'));
+});
+
 gulp.task('late_files_images', function() {
+    // Copies contents of images/ into site
     return gulp.src('images/**')
                .pipe(gulp.dest('_site/images'));
 });
 
-gulp.task('late_files', ['late_files_lib', 'late_files_images'], function() {
-    return gulp.src(LATE_FILES)
+gulp.task('late_files', ['late_files_lib', 'late_files_lib_singles', 'late_files_images'], function() {
+    // Depends on the above tasks and copies the root late files
+    return gulp.src(LATE_FILES_ROOT)
              .pipe(gulp.dest('_site'));
 });
 
@@ -108,6 +121,7 @@ var JS_LIBS = [
     'lib/lunr.js/lunr.min.js',
     'lib/picturefill/dist/picturefill.js',
     'lib/moment/moment.js',
+    'node_modules/mapbox-gl/dist/mapbox-gl.js',
     'lib/raven-js/dist/raven.js'
 ]
 
