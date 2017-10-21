@@ -51,6 +51,17 @@ prod_shots: BntPLq
 assets:
   - type: poster
     image: HD3GwDt
+    
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2017/06/rumours-nottingham-new-theatre/
+    snapshot: Rhrj8
+    publisher: Impact Nottingham
+    author: Anna Watson
+    title: "Rumours @ Nottingham New Theatre"
+    date: 2017-06-07
+    rating: 8/10
+    quote: "This almost claustrophobic setting was incredibly effective in embodying the personal affairs and intimacy of the band"
 
 ---
 
