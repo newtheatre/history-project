@@ -46,6 +46,17 @@ crew:
 assets:
   - type: poster
     image: kVg5Zvb
+    
+links:
+  - type: Review
+    href: http://www.impactnottingham.com/2017/06/pillowman-nottingham-new-theatre/
+    snapshot: XbcRo
+    publisher: Impact Nottingham
+    author: Daniel McVey
+    title: "The Pillowman @ Nottingham New Theatre"
+    date: 2017-06-17
+    rating: 9/10
+    quote: "The play continued to impress and surprise with its gruesome subject matter and black humour"
 
 ---
 
