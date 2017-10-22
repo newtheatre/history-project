@@ -6,7 +6,7 @@ season: Lakeside
 season_sort: 10
 date_start: 2017-09-25
 date_end: 2017-09-26
-venue: Djangoly Theatre
+venue: Djanogly Theatre
 
 assets:
   - type: poster
