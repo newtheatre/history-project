@@ -3,7 +3,7 @@
 
   <li {% if year.shows == null %}class="empty"{% endif %}>
 
-    <a href="{{ year.url }}">{{ year.title }}</a>
+    <a href="{{ year.url }}">{{ year.title_spaced }}</a>
 
     <div class="decade-list-counts archive-list-counts" data-debug-toggle title="Show counts for year, icon denotes a committee record">
       {% if year.shows %}{{ year.shows.size }}{% endif %}

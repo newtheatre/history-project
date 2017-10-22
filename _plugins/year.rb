@@ -13,6 +13,7 @@ module Jekyll
 
       my_data = {
         "title" => get_title(),
+        "title_spaced" => get_title_spaced(),
         "start_year" => @year,
         "grad_year" => @year+1,
         "year" => "#{ year_span_short[0] }_#{ year_span_short[1] }",
@@ -30,6 +31,11 @@ module Jekyll
     end
 
     def get_title()
+      "#{ @year.to_s }&ndash;#{ year_span_short[1] }"
+    end
+
+    def get_title_spaced()
+      # Expanded around the dash, looks better in decade list
       "#{ @year.to_s } &ndash; #{ year_span_short[1] }"
     end
 
