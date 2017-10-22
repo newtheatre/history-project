@@ -73,6 +73,10 @@ prod_shots: fxvHJk
 assets:
   - type: poster
     image: 9V7QLHp
+  - type: poster
+    image: mSKhxQR
+  - type: poster
+    image: XXgMqzP
   - type: backstage
     video: wZsWDCG
     title: Backstage At
