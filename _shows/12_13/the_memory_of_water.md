@@ -58,3 +58,5 @@ prod_shots: pkW8Vv
 ---
 
 "Someone dies, you drink whiskey. It's normal, it's a sedative, it's what normal people do at abnormal times." Three sisters; Teresa, Mary and Catherine, come together before their mother's funeral, each haunted by their own demons, each possessing different memories of the same events. Darkly comic, the play shows that even in traumatic times, humour can be found anywhere.
+
+This show was selected to represent the Nottingham New Theatre at the National Student Drama Festival in 2013.

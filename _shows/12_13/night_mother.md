@@ -25,10 +25,22 @@ crew:
     name: Alex Jamieson
   - role: Set Construction
     name: Joseph Heil
+  - role: Technical Director
+    name: Tessa Denney
   - role: Lighting Designer
     name: Will Pimblett
   - role: Technical Operator
     name: Joseph Heil
+  - role: Technical Operator
+    name: Rhianna Bennett
+  - role: Technical Operator
+    name: Aneira Pugh
+  - role: Technical Operator
+    name: Rory O'Shea
+  - role: Technical Operator
+    name: Claire Lennox
+  - role: Stage Manager
+    name: Nicola Fox
 
 assets:
   - type: poster
