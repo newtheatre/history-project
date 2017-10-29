@@ -122,7 +122,7 @@ assets:
     title: Script
   - type: trailer
     video: 3Pcdm2X
-    title: Promotional Video
+    title: Trailer
 
 prod_shots: S4pKW6
 
