@@ -1,6 +1,6 @@
 ---
 title: Edward II
-playwright: Cristopher Marlowe
+playwright: Christopher Marlowe
 period: Autumn
 season: In House
 season_sort: 20
