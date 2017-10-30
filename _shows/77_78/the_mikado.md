@@ -83,7 +83,6 @@ crew:
    name: Mick Foley
  - role: Lighting Designer
    name: Lynne Harrison
- - name: Mick Foley
  - role: Wardrobe
    name: Diane Higginson
  - role: Wardrobe
