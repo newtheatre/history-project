@@ -17,6 +17,8 @@ news:
     snapshot: OZgtY
     date: 2011-12-07
 
+headshot: ScGXCBR
+
 ---
 
 Since succeeding the late Brian Moore in 1998 as ITV’s first choice commentator, Tyldesley has covered a succession of FA Cup, Champions League and World Cup finals, and is one of the most respected figures in the game.
