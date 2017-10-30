@@ -15,6 +15,7 @@ tour:
     date_end: 1952-04-07
 
 crew:
-  - name: Gamini Salgado
-    role: Director 
+  - role: Director
+    name: Gamini Salgado
+
 ---

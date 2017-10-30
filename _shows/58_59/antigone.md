@@ -6,8 +6,8 @@ playwright: Sophocles
 season_sort: 40
 
 cast:
-  - name: Val Deans
-    role: Antigone 
+  - role: Antigone
+    name: Val Deans
 
 ---
 

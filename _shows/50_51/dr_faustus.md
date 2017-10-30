@@ -7,10 +7,11 @@ playwright: Christopher Marlowe
 season_sort: 210
 
 crew:
-  - name: Gamini Salgado
-    role: Director 
+  - role: Director
+    name: Gamini Salgado
+
 
 cast: 
-  - name: John Izbicki
-    role: Dr Faustus 
+  - role: Dr Faustus
+    name: John Izbicki
 ---

@@ -7,8 +7,9 @@ playwright: William Shakespeare
 season_sort: 20
 
 crew:
-  - name: Rosemary England
-    role: Producer
+  - role: Producer
+    name: Rosemary England
+
 
 cast: 
   - name: John Izbicki

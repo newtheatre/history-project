@@ -8,11 +8,11 @@ translator: John Izbicki
 season_sort: 20
 
 crew:
-  - name: John Izbicki
-    role: Director
+  - role: Director
+    name: John Izbicki
 
 cast: 
-  - name: John Izbicki
-    role: Schwarz 
-  
+  - role: Schwarz
+    name: John Izbicki
+
 ---

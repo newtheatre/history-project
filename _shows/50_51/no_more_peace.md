@@ -7,10 +7,11 @@ playwright: Ernst Toller
 season_sort: 10
 
 crew:
-  - name: Gamini Salgado
-    role: Director 
+  - role: Director
+    name: Gamini Salgado
 
 cast: 
-  - name: John Izbicki
-    role: Socrates 
+  - role: Socrates
+    name: John Izbicki
+
 ---
