@@ -53,6 +53,19 @@ assets:
   - type: trailer
     video: b6ZKZcp
     title: Backstage At
+
+  - type: Review
+    href: http://www.impactnottingham.com/2017/11/over-there-nnt-review/
+    snapshot: Wf8tA
+    publisher: Impact Nottingham
+    author: Emily Patel
+    title: "Over There @ NNT: Review"
+    date: 2017-11-05
+    rating: 9/10
+    quote: "Important issues of history and politics were successfully explored in only eighty minutes, demonstrating the effect political events can have on relationships and identity."
+
+
+
 ---
 
 
