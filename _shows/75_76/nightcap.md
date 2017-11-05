@@ -1,12 +1,10 @@
 ---
-title: The Picture of Dorian Gray
+title: "Nightcap: a revue"
 period: Edinburgh
 season: Edinburgh
-playwright: Oscar Wilde
-adapted: Peter Rushton
-season_sort: 400
+season_sort: 410
 venue: Broughton High School
-date_start: 1976-08-23
+date_start: 1976-08-19
 date_end: 1976-09-04
 
 assets:
