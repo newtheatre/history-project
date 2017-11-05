@@ -50,7 +50,9 @@ crew:
 assets:
   - type: poster
     image: V7rVr39
-
+  - type: trailer
+    video: b6ZKZcp
+    title: Backstage At
 ---
 
 
