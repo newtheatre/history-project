@@ -54,6 +54,8 @@ assets:
     video: b6ZKZcp
     title: Backstage At
 
+prod_shots: SCTLTn
+
 links:
   - type: Review
     href: http://www.impactnottingham.com/2017/11/over-there-nnt-review/
