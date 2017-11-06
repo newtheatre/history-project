@@ -8,6 +8,12 @@ date_start: 2015-10-05
 date_end: 2015-10-06
 venue: New Theatre
 
+trivia:
+  - quote: This show was hampered by a non-functioning IR light, which meant that all of the between sketch blackouts were too short, and the lights were brought up on Darcey moving chairs on and off.
+    name: Ben Woodford
+    submitted: 2017-11-06
+
+
 cast:
  - name: Izzy Miles
    note: Tom S's Group

@@ -8,6 +8,11 @@ venue: New Theatre
 date_start: 2015-11-04
 date_end: 2015-11-07
 
+trivia:
+  - quote: This production was sent the sex toys from the original run of the show. They had to be returned to Anna Longaretti at the end of the run.
+    name: Ben Woodford
+    submitted: 2017-11-06
+
 cast:
 - role: Lily
   name: Libby Boyd
