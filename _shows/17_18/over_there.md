@@ -54,6 +54,7 @@ assets:
     video: b6ZKZcp
     title: Backstage At
 
+links:
   - type: Review
     href: http://www.impactnottingham.com/2017/11/over-there-nnt-review/
     snapshot: Wf8tA
@@ -63,8 +64,6 @@ assets:
     date: 2017-11-05
     rating: 9/10
     quote: "Important issues of history and politics were successfully explored in only eighty minutes, demonstrating the effect political events can have on relationships and identity."
-
-
 
 ---
 
