@@ -9,43 +9,43 @@ date_end: 2017-11-04
 venue: New Theatre
 
 cast:
-  - role: Franz
-    name: Sasha Gibson
-  - role: Karl
-    name: Anna Scholes
+- role: Franz
+  name: Sasha Gibson
+- role: Karl
+  name: Anna Scholes
 
 
 crew:
-  - role: Director
-    name: Charlotte Sanders
-  - role: Producer
-    name: Harry Pavlou
-  - role: Assistant Director
-    name: Tara Phillips
-  - role: Technical Director
-    name: Hannah Burne
-  - role: Shadow Techincial Director
-    name: Jakub Kolek
-  - role: Lighting Designer
-    name: Darcey Graham
-  - role: Shadow Lighting Designer
-    name: Tom Proffitt
-  - role: Sound Designer
-    name: Harry Pavlou
-  - role: Sound Designer
-    name: Emily Dimino
-  - role: Video Editor
-    name: Louis Djalili
-  - role: Set Designer
-    name: Beth Wilson
-  - role: Tehnical Operator
-    name: Zoe Smith
-  - role: Technical Operator
-    name: Ben Woodford
-  - role: Technical Operator
-    name: Rohanna Brown
-   -role: Poster Designer
-    name: Max Miller
+- role: Director
+  name: Charlotte Sanders
+- role: Producer
+  name: Harry Pavlou
+- role: Assistant Director
+  name: Tara Phillips
+- role: Technical Director
+  name: Hannah Burne
+- role: Shadow Techincial Director
+  name: Jakub Kolek
+- role: Lighting Designer
+  name: Darcey Graham
+- role: Shadow Lighting Designer
+  name: Tom Proffitt
+- role: Sound Designer
+  name: Harry Pavlou
+- role: Sound Designer
+  name: Emily Dimino
+- role: Video Editor
+  name: Louis Djalili
+- role: Set Designer
+  name: Beth Wilson
+- role: Tehnical Operator
+  name: Zoe Smith
+- role: Technical Operator
+  name: Ben Woodford
+- role: Technical Operator
+  name: Rohanna Brown
+- role: Poster Designer
+  name: Max Miller
 
 assets:
   - type: poster
