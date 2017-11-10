@@ -54,6 +54,8 @@ crew:
   name: Joanne Blunt
 - role: Technical Operator
   name: Rohanna Brown
+- role: Technical Operator
+  name: Zoe Smith
 - role: Stage Manager
   name: Dave Porter
 - role: Stage Manager
