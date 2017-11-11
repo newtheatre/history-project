@@ -10,7 +10,7 @@ links:
     username: GingertronMk1
 ---
 
-My first experience of the NNT was performing here in the long-form Improv slot in my first year, it seemed nice enough but I was busy with an improv troupe, so I gave it a miss for the.
+My first experience of the NNT was performing here in the long-form Improv slot in my first year, it seemed nice enough but I was busy with an improv troupe, so I gave it a miss for then.
 
 I joined the theatre in my second year, and spent most of it pretending to be a techie; attending get-ins, even going so far as to play one in Camp Macbeth. I may have played it a bit too well though, as I was then elected to Workshop Manager for 2017/18. Whoops.
 
