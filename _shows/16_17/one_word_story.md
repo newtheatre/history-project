@@ -1,5 +1,5 @@
 ---
-title: One Word Story
+title: One Word Story Land
 period: Spring
 company: The Red Herrings
 season: External
