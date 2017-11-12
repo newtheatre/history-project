@@ -1,4 +1,4 @@
----
+  ---
 title: Over There
 playwright: Mark Ravenhill
 period: Autumn
@@ -50,7 +50,7 @@ crew:
 assets:
   - type: poster
     image: V7rVr39
-  - type: trailer
+  - type: backstage
     video: b6ZKZcp
     title: Backstage At
 

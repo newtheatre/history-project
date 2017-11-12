@@ -65,7 +65,7 @@ assets:
   - type: trailer
     video: L86LvBQ
     title: Trailer
-  - type: trailer
+  - type: backstage
     video: L86LvBQ
     title: Backstage At
 
