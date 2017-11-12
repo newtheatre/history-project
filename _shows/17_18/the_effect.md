@@ -26,7 +26,7 @@ crew:
   name: Rosie Hudson
 - role: Technical Director
   name: Ben Woodford
-- role: Shadow Techincial Director
+- role: Shadow Technical Director
   name: Ed Eggleton
 - role: Lighting Designer
   name: Sam Osborne
@@ -34,7 +34,7 @@ crew:
   name: Joe Strickland
 - role: Sound Designer
   name: Andrew Houghton
-- role: Tehnical Operator
+- role: Technical Operator
   name: Georgi Paxton
 - role: Technical Operator
   name: Tom Proffitt
@@ -44,7 +44,7 @@ crew:
   name: Rohanna Brown
 - role: Technical Operator
   name: Darcey Graham
-- role: Technicsl Operator
+- role: Technical Operator
   name: Zoe Smith
 - role: Technical Operator
   name: Adam Frankland
