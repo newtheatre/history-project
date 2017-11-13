@@ -50,6 +50,8 @@ crew:
   name: Adam Frankland
 - role: Technical Operator
   name: Rohanna Brown
+- role: Stunt Consultant
+  name: Laura Wolczyk
 
 prod_shots: 4rgCkH
 
