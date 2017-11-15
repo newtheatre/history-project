@@ -46,6 +46,8 @@ crew:
   name: Rohanna Brown
 - role: Poster Designer
   name: Max Miller
+- role: Accent Coach
+  name: Callum Walker
 
 assets:
   - type: poster
