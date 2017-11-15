@@ -74,6 +74,8 @@ crew:
   name: Dave Porter
 - role: Poster Designer
   name: Iona Hampson
+- role: Accent Coach
+  name: Eric Crouch
 
 assets:
   - type: poster
