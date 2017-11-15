@@ -15,7 +15,7 @@ cast:
 - role: Charlie
   name: Charlie Basley
 - role: Quinn
-  name: Lilian Race
+  name: Lillian Race
 - role: Banihask
   name: Owen Davies
 
