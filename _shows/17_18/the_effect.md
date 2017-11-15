@@ -66,7 +66,7 @@ assets:
     video: L86LvBQ
     title: Trailer
   - type: backstage
-    video: L86LvBQ
+    video: W2scTJ7
     title: Backstage At
 
 prod_shots: Dj3xKL

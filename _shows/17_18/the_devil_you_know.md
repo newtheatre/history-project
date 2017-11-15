@@ -44,25 +44,16 @@ crew:
 
 assets:
   - type: poster
-    image: 
+    image: rQXhzdj
   - type: trailer
-    video: 
+    video: fnSs6rk
     title: Trailer
-  - type: backstage
-    video: 
-    title: Backstage At
 
-prod_shots: 
-
-links:
-  - type: Review
-    href: 
-    snapshot: 
-    publisher: Impact Nottingham
-    author: 
-    title: " @ NNT: Review"
-    date: 2017-11-
-    rating: /10
-    quote: "."
+prod_shots: c53nPw
 
 ---
+
+If ghost stories aren’t true, then where do they begin?
+Maybe we believe in monsters because our own demons are too much to bare?
+When a malevolent force corrupts a small town, three friends begin to question their loyalties and exactly how far you’ll go for friendship. Charlie, Lex and Q have always been friends but maybe it’s true what they say, “threes a crowd”. They should have listened to their parents and stayed well away from the woods.
+“The Devil You Know” is a spine-chilling horror that will keep you on the edge of your seats. This dark thriller explores the intensity of young friendships, relationships and experiences with the unknown.
