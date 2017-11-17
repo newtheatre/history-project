@@ -27,8 +27,10 @@ links:
 crew:
   - role: Venue Technician
     name: Nathan Penney
-  - name: Joseph Heil 
-  - name: Joanne Blunt 
+  - role: Venue Technician
+    name: Joseph Heil 
+  - role: Venue Technician
+    name: Joanne Blunt 
 
 ---
 
