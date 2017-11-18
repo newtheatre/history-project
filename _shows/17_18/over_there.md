@@ -24,7 +24,7 @@ crew:
   name: Tara Phillips
 - role: Technical Director
   name: Hannah Burne
-- role: Shadow Techincial Director
+- role: Shadow Technical Director
   name: Jakub Kolek
 - role: Lighting Designer
   name: Darcey Graham
