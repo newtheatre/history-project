@@ -89,11 +89,11 @@ crew:
     name: Nick Lowe
   - role: Stage Manager
     name: Joanna Manning
-  - role: Technical Operators
+  - role: Technical Operator
     name: Joanne Blunt
-  - role: Technical Operators
+  - role: Technical Operator
     name: Dave Hanks
-  - role: Technical Operators
+  - role: Technical Operator
     name: Lily McGeough
   - role: Publicity Design
     name: Nick Barker
