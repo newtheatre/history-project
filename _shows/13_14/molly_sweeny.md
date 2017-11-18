@@ -61,11 +61,11 @@ crew:
     name: Nicola Fox
   - role: Technical Director
     name: Will Pimblett
-  - role: Shadow TD
+  - role: Shadow Technical Director
     name: Chelsea Jayne Wright
   - role: Lighting Designer
     name: Will Pimblett
-  - role: Shadow LD
+  - role: Shadow Lighting Designer
     name: Rachel Lee
   - role: Make Up Artist
     name: Nicola Fox
