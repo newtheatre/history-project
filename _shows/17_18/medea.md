@@ -77,6 +77,17 @@ assets:
 
 prod_shots: JhszDV
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2017/11/medea-nnt/
+    snapshot: jfnXW
+    publisher: Impact Nottingham
+    author: Sophie Hunt
+    title: "Medea @ NNT"
+    date: 2017-11-16
+    rating: 7/10
+    quote: "Overall, NNT have done a good job of making Medea accessible to a modern audience, reminding us of the shockingly relevant topics of adultery, divorce and the repression of women. Although this play isn’t for the faint-hearted, it will certainly leave a lasting impression on all those who have the chance to see it."
+
 ---
 
 Medea: mother, wife, sorceress, refugee, murderer. When the Greek hero Jason arrives at Colchis, the princess Medea falls passionately in love with him and helps him steal the Golden Fleece. As a result, she is cast out of her kingdom and forced to raise their children in exile. However several years later, Medea is betrayed. After seeking refuge at Corinth, Jason has fallen for the princess Creusa, daughter of King Creon. Refusing to passively be cast aside for a younger woman, Medea plans her revenge on Jason. Revenge that once unleashed will destroy everything Jason holds dear. The play deals with the themes of motherhood, gender identity, immigration, divorce and adultery; proving how Medea is as relevant today as it was in Ancient Greece.
