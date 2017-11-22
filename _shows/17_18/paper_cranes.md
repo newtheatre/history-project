@@ -21,7 +21,7 @@ cast:
 - role: David
   name: Rohan Rahkit
 - role: Dr Jones
-  name: Sandra Jareno
+  name: Sandra Jareno Ripoll
 
 
 crew:
