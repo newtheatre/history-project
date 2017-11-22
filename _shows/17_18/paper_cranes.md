@@ -52,5 +52,4 @@ prod_shots: RfFdrH
 
 Aaron is a young man. Aaron has a sister and a mother. Aaron loves baking and is studying food science at university. Aaron makes paper cranes from time to time. Aaron forgets things from time to time. Sometimes Aaron loses concentration. Recently Aaron has started forgetting important things. Aaron has started losing concentration more often. Aaron has started to lose his personality. Aaron has started to stop being Aaron. He doesn’t know what is happening. No one knows what is happening; not his sister or mother, his best friend at university, nor neuroscience researchers. However, as Aaron’s memory fades the other people in his life begin to recall things, trying desperately to make sense of what is happening to him. 
 
-This play is an unflinching look at how under-
-discussed medical conditions can impact not just the patient but also those around them.
+This play is an unflinching look at how under-discussed medical conditions can impact not just the patient but also those around them.
