@@ -21,7 +21,7 @@ cast:
 - name: Jack Ellis
 - name: Emma Fearon
 - name: Marsya Hazanan
-- name: Natalie Henderson
+- name: Nat Henderson
 - name: Rosie Hudson
 - name: Becki Jones
 - name: Daniel Morris

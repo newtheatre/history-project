@@ -88,7 +88,7 @@ crew:
 - role: Stage Manager
   name: Lena Grasselli
 - role: Hair and Make-Up
-  name: Natalie Henderson
+  name: Nat Henderson
 - role: Hair and Make-Up
   name: Amy Greaves
 - role: Poster Design

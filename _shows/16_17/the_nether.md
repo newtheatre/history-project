@@ -37,7 +37,7 @@ crew:
 - role: Set Designer
   name: Joe Strickland
 - role: Design Assistant
-  name: Natalie Henderson
+  name: Nat Henderson
 - role: Technical Operator
   name: Emma Barber
 - role: Technical Operator
