@@ -128,7 +128,7 @@ crew:
  - role: Director
    name: Joe Strickland
  - role: Director
-   name: Natalie Henderson
+   name: Nat Henderson
  - role: Director
    name: Hugo Minta
  - role: Director

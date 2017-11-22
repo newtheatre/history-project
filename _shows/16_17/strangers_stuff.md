@@ -27,7 +27,7 @@ cast:
  - role: Homeless Man
    name: Arthur Mckechnie
  - role: Gambler
-   name: Natalie Henderson
+   name: Nat Henderson
  - role: Politcal Preacher
    name: Lara Bellis
  - role: Magic Shopping Channel Presenter

@@ -55,7 +55,7 @@ cast:
    note: Jess & Ed's Group
  - name: Chris Odulele
    note: Jess & Ed's Group
- - name: Natalie Henderson
+ - name: Nat Henderson
    note: Callum & George's Group
  - name: Katie Baxter
    note: Callum & George's Group

@@ -24,7 +24,7 @@ crew:
 - role: Producer
   name: Ed Eggleton
 - role: Assistant Director
-  name: Natalie Henderson
+  name: Nat Henderson
 - role: Assistant Producer
   name: Harry Pavlou
 - role: Lighting Designer

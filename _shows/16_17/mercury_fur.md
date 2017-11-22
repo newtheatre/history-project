@@ -16,7 +16,7 @@ cast:
 - role: Naz
   name: Jonny Khan
 - role: Party Piece
-  name: Natalie Henderson
+  name: Nat Henderson
 - role: Lola
   name: Emma Summerton
 - role: Papa Spinx

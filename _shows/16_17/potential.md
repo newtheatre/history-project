@@ -30,13 +30,13 @@ crew:
 - role: Writer
   name: Emma Summerton
 - role: Writer
-  name: Natalie Henderson
+  name: Nat Henderson
 - role: Writer
   name: Joe Strickland
 - role: Writer
   name: Emily Wong
 - role: Director
-  name: Natalie Henderson
+  name: Nat Henderson
 - role: Director
   name: Isabelle Cadwallader
 - role: Director
