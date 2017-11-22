@@ -38,6 +38,8 @@ crew:
   name: Ian Sheard
 - role: Writer
   name: Ian Sheard
+- role: Writer
+  name: Yee Heng Yeh
 
 prod_shots: TVD8tv
 
