@@ -8,6 +8,14 @@ date_start: 2017-11-8
 date_end: 2017-11-11
 venue: New Theatre
 
+trivia:
+  - quote: I entirely blame Sam Osborne for one scene in this show where I had a lighting cue each time the dialogue changed from person to person.
+    name: Ben Woodford
+    submitted: 2017-11-24
+  - quote: I had so much fun with this show it will stay in my memory forever
+    name: Ben Woodford
+    submitted: 2017-11-24
+
 cast:
 - role: Tristan Frey
   name: Luke Slater

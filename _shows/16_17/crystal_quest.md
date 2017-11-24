@@ -9,6 +9,11 @@ venue: Trent, Performing Arts Studio
 date_start: 2017-06-11
 date_end: 2017-06-12
 
+trivia:
+  - quote: Full credit to Arthur McKechnie, navigating between multiple cue lists for every possible outcome of the quest.
+    name: Ben Woodford
+    submitted: 2017-11-06
+
 cast:
 - role: The Gamesmaster
   name: Laurence Cuthbert

@@ -9,6 +9,11 @@ venue: New Theatre
 date_start: 2016-12-13
 date_end: 2016-12-16
 
+trivia:
+  - quote: The most fun I've ever had as a techie at NNT, was a hilarious week working backstage with a fantastic cast who really made me feel like part of the team.
+    name: Ben Woodford
+    submitted: 2017-11-06
+
 cast:
 - role: George
   name: Harry Pavlou

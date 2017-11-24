@@ -8,6 +8,11 @@ date_start: 2016-05-11
 date_end: 2016-05-14
 venue: New Theatre
 
+trivia:
+  - quote: This show had two intervals, mainly because we had to deconstruct the wall of flats to create the outdoor area for act 2, complete with astroturf and working water fountain.
+    name: Ben Woodford
+    submitted: 2017-11-06
+
 assets:
   - type: poster
     image: JH6Sp3B

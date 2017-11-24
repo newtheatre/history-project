@@ -10,6 +10,11 @@ date_start: 2017-02-06
 date_end: 2017-02-07
 venue: New Theatre
 
+trivia:
+  - quote: This show contained one of the weirdest things I've ever hung from the rig. Those who saw the show will know what it was.
+    name: Ben Woodford
+    submitted: 2017-11-06
+
 cast:
 - name: Matteo Bagaini
 - name: Katie Baxter
