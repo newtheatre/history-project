@@ -1,5 +1,5 @@
 ---
-title: Laurence Cuthebrt
+title: Laurence Cuthbert
 headshot: GKjKZgH
 gender: male
 submitted: false
