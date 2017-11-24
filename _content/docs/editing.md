@@ -40,6 +40,32 @@ A combination of HTML and Markdown (Kramdown variant) is used for marking up our
 
 The [Kramdown syntax guide](http://kramdown.gettalong.org/syntax.html) is useful for reference.
 
-## Where Things Live
+## Where Things Live - Basic Editing
 
-When first looking at the repository in a text editor, it can seem quite big, and finding where things live will take a bit of time, yet most of the content storage itself is self explanatory. People files are in the _people subfolder, which holds everyone who has a created person file on the site. Files for individual shows live in the _shows subfolder and are sorted by Academic year.
+When first looking at the repository in a text editor, it can seem quite big, and finding where things live will take a bit of time, yet most of the content storage itself is self explanatory. For a basic contributor the main things you'll need to find are person files, show files and venue files. Individual person files live in the people folder from the main History Project repository. For info on hwo to format a person file, see the [People](https://history.newtheatre.org.uk/docs/person/) page. Files for individual shows live in the shows folder and are sorted by academic year, see the [Shows](https://history.newtheatre.org.uk/docs/show/). Venue files live in the venues folder, see the [Venues](https://history.newtheatre.org.uk/docs/venue/) page.
+
+## Years ##
+
+Years are one of the main attributes that are used within the project. These are important to get right and important for many different reasons. For more information on the correct formatting and usage, see the [Years](https://history.newtheatre.org.uk/docs/year/) page.
+
+## Committees ##
+
+New committees are usually added by an [owner](https://github.com/orgs/newtheatre/people) at the start of each academic year. Committee files are stored in the committees folder. We do get submissions from alumni with information regarding past committees and these can be added by anyone. For detailed information on how to format a committee file, see the [Committees](https://history.newtheatre.org.uk/docs/committee/) page.
+
+## Person Lists ##
+
+These are used mainly to populate the cast and crew lists for shows. They are formatted in a particular way and this must be kept to otherwise other areas of the site could break or throw up errors as person lists are used to populate the person collection. For detailed information on formatting person lists, see the [Person List](https://history.newtheatre.org.uk/docs/person-list/) page.
+
+## Link Lists ##
+
+These are used particularly for reviews placed within show files, but the list of possible links is expanding as we grow the site, so could change in the future. For formatting details see the [Link List](https://history.newtheatre.org.uk/docs/link-list/) page.
+
+## Trivia ##
+
+One of the things we love collecting for the History Project are little bits of trivia or anecdotes regarding shows. Be this a last minute cast change for one night or something that happened that amused the cast, these stories are a vital part of what makes the NNT the NNT. To find out how to format these sections, visit the [Trivia List](https://history.newtheatre.org.uk/docs/trivia-list/) page.
+
+## Photos and Assets ##
+
+The History projects visual records are stored in a [SmugMug Site](https://photos.newtheatre.org.uk/). Anyone can view the production shots from any of our shows, but the other archives are password protected. Any show videos, such as Trailers or Behind the Scenes videos are also stored here. If you have any items you feel would be useful to the History Project, please see the [Sending In Images](https://history.newtheatre.org.uk/upload/)page.
+
+Any binary assets, (pdfs etc.) are stored in a specific folder in the repo. These are stored using Large File Storage, or LFS. if you any of these type of assets, please email <{{site.email}}>.
