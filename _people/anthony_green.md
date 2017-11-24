@@ -6,4 +6,8 @@ course:
   - Law LLB
 graduated: 1995
 
+careers:
+  - Director
+  - Producer
+  - Actor
 ---
