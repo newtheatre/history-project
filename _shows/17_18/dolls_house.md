@@ -19,7 +19,7 @@ cast:
 - role: Nils Krogstad
   name: Eric Crouch
 - role: Dr Rank
-  name: Arthur McKechnie
+  name: Arthur Mckechnie
 - role: Anna
   name: Isabelle Cadwallader
 - role: Helene
@@ -40,7 +40,7 @@ crew:
 - role: Lighting Designer
   name: Joe Strickland
 - role: Sound Designer
-  name: Edward Marriott
+  name: Ted Marriott
 - role: Design Assistant
   name: Francesca Ashby
 - role: Poster Designer
