@@ -1,6 +1,7 @@
 ---
 title: John Ironmonger
 submitted: false
+headshot: 5HRWFCD
 gender: male
 course:
   - Zoology
