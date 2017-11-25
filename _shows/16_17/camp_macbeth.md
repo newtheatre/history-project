@@ -14,6 +14,10 @@ trivia:
   - quote: This show contained one of the weirdest things I've ever hung from the rig. Those who saw the show will know what it was.
     name: Ben Woodford
     submitted: 2017-11-06
+  - quote: We had no budget at all; every piece of set or costume was either owned by a cast member, lent to us, or bought out of someone's pocket.
+    name: Jack Ellis
+    submitted: 2017-11-25
+
 
 cast:
 - name: Matteo Bagaini
