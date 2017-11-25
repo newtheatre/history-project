@@ -9,6 +9,11 @@ venue: New Theatre Studio A
 date_start: 2017-03-27
 date_end: 2017-03-28
 
+trivia:
+  - quote: Bit fraught this one, we weren't all off-script until the first performance!
+    name: Jack Ellis
+    submitted: 2017-11-25
+
 cast:
 - role: Arthur
   name: Jack Ellis
