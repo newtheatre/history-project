@@ -24,6 +24,11 @@ links:
     rating: 9/10
     quote: "Every character is an exaggerated caricature with their own hilarious idiosyncrasies, with even the minor characters making the audience roar with laughter."
 
+trivia:
+  - quote: I have never in my life been sweatier than after this show finished. George and I went to the Trent showers afterwards and I was drier after I stepped out of the shower than when I stepped in.
+    name: Jack Ellis
+    submitted: 2017-11-25
+
 cast:
   - role: Dummy M
     name: Sam Morris 

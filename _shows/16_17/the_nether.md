@@ -9,6 +9,11 @@ venue: New Theatre
 date_start: 2017-03-08
 date_end: 2017-03-11
 
+trivia:
+  - quote: For the 'jacks' scene, we had multiple balls so that if one dropped off the raised set the other one could still be used. Didn't stop Emma and Miguel losing them though.
+    name: Jack Ellis
+    submitted: 2017-11-25 
+
 cast:
 - role: Morris
   name: Jess Lundholm
