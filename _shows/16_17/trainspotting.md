@@ -68,6 +68,8 @@ crew:
   name: Sasha Gibson
 - role: Hair & Make-Up
   name: Rachael Baines
+- role: Photography
+  name: Zoe Smith
 
 prod_shots: fxvHJk
 
