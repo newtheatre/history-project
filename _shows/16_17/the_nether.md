@@ -55,8 +55,6 @@ crew:
   name: Jess Donn
 - role: Stage Manager
   name: Tom Proffitt
-- role: Stage Manager
-  name: Rosa Morgan
 - role: Hair and Make-Up
   name: Amy Greaves
 - role: Poster Designer
