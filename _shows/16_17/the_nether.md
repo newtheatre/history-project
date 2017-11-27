@@ -51,12 +51,12 @@ crew:
   name: Adam Humphries
 - role: Technical Operator
   name: Adam Frankland
+- role: Technical Operator
+  name: Zoe Smith
 - role: Stage Manager
   name: Jess Donn
 - role: Stage Manager
   name: Tom Proffitt
-- role: Stage Manager
-  name: Rosa Morgan
 - role: Hair and Make-Up
   name: Amy Greaves
 - role: Poster Designer
