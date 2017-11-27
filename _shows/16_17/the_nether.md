@@ -51,6 +51,8 @@ crew:
   name: Adam Humphries
 - role: Technical Operator
   name: Adam Frankland
+- role: Technical Operator
+  name: Zoe Smith
 - role: Stage Manager
   name: Jess Donn
 - role: Stage Manager
