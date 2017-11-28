@@ -10,8 +10,8 @@ date_start: 2015-12-08
 date_end: 2015-12-11
 
 trivia:
-  - quote: This show nearly broke me, in one 6 minute scene there were over 70 cues, 50 of which were lighting cues.
-  Also the bench used had to be reparired mid show as in a warm up an actor sat on it and broke one end.
+  - quote: This show nearly broke me, in one 6 minute scene there were over 70 cues, 50 of which were lighting cues. 
+           Also the bench used had to be reparired mid show as in a warm up an actor sat on it and broke one end.
     name: Ben Woodford
     submitted: 2017-11-06
 
