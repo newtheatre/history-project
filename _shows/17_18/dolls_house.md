@@ -59,6 +59,8 @@ crew:
   name: Rohanna Brown
 - role: Technical Operator
   name: Becca Potts
+- role: Videographer
+  name: Louis Djalili
 
 assets:
   - type: poster
