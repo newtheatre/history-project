@@ -46,6 +46,8 @@ crew:
   name: Iona Hampson
 - role: Producer
   name: Kate Maguire
+- role: Assistant Director
+  name: Rosa Morgan
 - role: Lighting Designer
   name: Ross Brisk
 - role: Sound Designer
