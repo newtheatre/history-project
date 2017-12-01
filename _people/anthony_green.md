@@ -6,6 +6,12 @@ course:
   - Law LLB
 graduated: 1995
 
+headshot: RrX85vN
+
+links:
+  - type: IMDb
+    href: "http://www.imdb.com/name/nm0003748"
+
 careers:
   - Director
   - Producer
