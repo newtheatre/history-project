@@ -50,7 +50,7 @@ Years are one of the main attributes that are used within the project. These are
 
 ## Committees ##
 
-New committees are usually added by an [Project Editor](https://github.com/orgs/newtheatre/people) at the start of each academic year. Committee files are stored in the `_committees/` folder. We do get submissions from alumni with information regarding past committees and these can be added by anyone. For detailed information on how to format a committee file, see the [Committees](https://history.newtheatre.org.uk/docs/committee/) page.
+New committees are usually added by a [Project Editor](https://github.com/orgs/newtheatre/people) at the start of each academic year. Committee files are stored in the `_committees/` folder. We do get submissions from alumni with information regarding past committees and these can be added by anyone. For detailed information on how to format a committee file, see the [Committees](https://history.newtheatre.org.uk/docs/committee/) page.
 
 ## Person Lists ##
 
