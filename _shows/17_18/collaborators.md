@@ -8,6 +8,11 @@ date_start: 2017-11-29
 date_end: 2017-12-02
 venue: New Theatre
 
+trivia:
+  - quote: No-one saw me in just the towel until the first show (I forgot to bring it to the dress run)
+    name: Jack Ellis
+    submitted: 2017-12-03
+
 cast:
 - role: Mikhail Bulgakov
   name: Callum Walker
