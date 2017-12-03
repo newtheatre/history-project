@@ -98,18 +98,18 @@ assets:
     image: 56TWtKJ
 
 
-prod_shots: 
+prod_shots: QJQtL4
 
 links:
   - type: Review
     href: https://impactnottingham.com/2017/12/collaborators-nnt/
     snapshot: wNEkO
     publisher: Impact Nottingham
-    author: 
+    author: Shanai Momi
     title: "Collaborators @ NNT"
-    date: 2017-1-
-    rating: /10
-    quote: ""
+    date: 2017-12-01
+    rating: 8/10
+    quote: "The different elements fused well to create a memorable piece, amplified by the convincing performances and dedication to the role by each cast member."
 
 ---
 
