@@ -102,7 +102,7 @@ assets:
   - type: poster
     image: KbtWgLT
   - type: poster
-    image: 
+    image: 67GsHsH 
   - type: poster
     image: FwfPB9Q
   - type: poster
