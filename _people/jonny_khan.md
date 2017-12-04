@@ -1,6 +1,5 @@
 ---
 title: Jonny Khan
-headshot: 2JQmdtN
 gender: male
 submitted: false
 course:
