@@ -72,8 +72,6 @@ crew:
 - role: Technical Operator
   name: James Curling
 - role: Technical Operator
-  name: Georgi Paxton
-- role: Technical Operator
   name: Florence Bell
 - role: Technical Operator
   name: Becca Potts
@@ -101,7 +99,30 @@ crew:
 assets:
   - type: poster
     image: 56TWtKJ
-
+  - type: poster
+    image: KbtWgLT
+  - type: poster
+    image: 
+  - type: poster
+    image: FwfPB9Q
+  - type: poster
+    image: DZ442Sd
+  - type: poster
+    image: TKcmdPF
+  - type: poster
+    image: VmGRXbN
+  - type: poster
+    image: DHNcxpJ
+  - type: poster
+    image: rC7NFdG
+  - type: poster
+    image: MWQWWrZ
+  - type: poster
+    image: GGF23KC
+  - type: poster
+    image: 5KChmW8
+  - type: poster
+    image: K9G4Ktg
 
 prod_shots: QJQtL4
 
