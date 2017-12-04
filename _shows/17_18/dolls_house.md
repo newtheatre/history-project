@@ -71,7 +71,7 @@ assets:
     video: wcgtbHd
     title: Backstage at
 
-prod_shots: 
+prod_shots: 3Ccw5f
 
 links:
   - type: Review
