@@ -47,7 +47,7 @@ assets:
     video: 2nDdJ9q
     title: Trailer
 
-prod_shots: 
+prod_shots: vzmkMh
 
 ---
 
