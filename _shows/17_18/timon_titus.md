@@ -1,6 +1,6 @@
 ---
 title: Timon/Titus by William Shakespeare
-playwright: Collectif D'Oso
+playwright: Collectif OS'O
 translator: Ben Standish
 period: Autumn
 season: In House
@@ -63,6 +63,12 @@ crew:
   name: Sasha Gibson
 - role: Set Construction
   name: Jack Ellis
+  
+assets:
+  - type: poster
+    image: NwRXkWW
+
+prod_shots:
 
 links:
   - type: Review
