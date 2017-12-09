@@ -48,11 +48,13 @@ crew:
 - role: Shadow Sound Designer
   name: Rohanna Brown
 - role: Technical Operator
+  name: Hannah Burne
+- role: Technical Operator
   name: Sam Osborne
 - role: Technical Operator
   name: Rohanna Brown
 - role: Technical Operator
-  name: Maddy Strauss
+  name: Will Berrington
 - role: Technical Operator
   name: Tom Proffitt
 - role: Technical Operator
