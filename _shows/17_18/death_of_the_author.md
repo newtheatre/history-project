@@ -34,6 +34,8 @@ crew:
   name: Laura Wolczyk
 - role: Lighting Designer
   name: Hannah Burne
+- role: Lighting Programmer
+  name: Sam Osborne
 - role: Sound Designer
   name: Yasmine Dankwah
 - role: Shadow Director
