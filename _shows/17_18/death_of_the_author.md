@@ -10,7 +10,7 @@ date_end: 2017-12-11
 venue: New Theatre
 
 cast:
-- role: Dorian
+- role: Dorian Gray
   name: Francis Simmons
 - role: John Watson
   name: Charlie Basley
@@ -18,7 +18,7 @@ cast:
   name: Beth Carter
 - role: The Jabberwocky
   name: Emily Wong
-- role: Lizzy
+- role: Lizzy Bennet
   name: Eleanor Rickenbach
 
 crew:
@@ -42,6 +42,14 @@ crew:
   name: Rosa Morgan
 - role: Make-Up Designer
   name: Nat Henderson
+- role: Poster Designer
+  name: Jase Neal
+
+assets:
+  - type: poster
+    image: dPrW6zW
+
+prod shots: gdMVLq
 
 ---
 
