@@ -46,8 +46,6 @@ crew:
 - role: Sound Designer
   name: Felicity Chilver
 - role: Sound Engineer
-  name: David Taylor
-- role: Sound Engineer
   name: Sam Osborne
 - role: Production Assistant
   name: Aitor Tejo
