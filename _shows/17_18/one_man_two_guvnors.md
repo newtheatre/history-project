@@ -24,7 +24,7 @@ cast:
 - role: Alfie
   name: Sam Morris
 - role: Gareth
-  name: Rohan Rakit
+  name: Rohan Rakhit
 - role: Pauline Clench
   name: Michaela Green
 - role: Rachel Crabbe
