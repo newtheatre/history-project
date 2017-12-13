@@ -49,7 +49,7 @@ assets:
   - type: poster
     image: dPrW6zW
 
-prod shots: gdMVLq
+prod_shots: gdMVLq
 
 ---
 
