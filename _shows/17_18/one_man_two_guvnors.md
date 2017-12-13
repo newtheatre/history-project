@@ -59,6 +59,16 @@ crew:
   name: Jakub Kolek
 - role: Improv Consultant
   name: Jack Ellis
+- role: Technical Operator
+  name: Nathan Penney
+- role: Technical Operator
+  name: Darcey Graham
+- role: Technical Operator
+  name: Rohanna Brown
+- role: Technical Operator
+  name: Maddy Strauss
+- role: Technical Operator
+  name: Adam Frankland
 - role: Stage Manager
   name: Charlotte Sanders
 - role: Stage Manager
@@ -102,5 +112,11 @@ crew:
 - role: Musician
   name: Rachael Johnson
   
+
+prod_shots: x36Fx5
+
+assets:
+  - type: poster
+    image: 6dc7Psv
 ---
 'One Man Two Guvnors' is the highly acclaimed modernisation of Carlo Goldoni's original classic 'The Servant of Two Masters'. Richard Bean's uproarious farce, that has received stellar commendation on the West End and Broadway, follows the heart-warmingly disastrous character of Francis Henshall, who accidentally finds himself simultaneously employed by a local gangster and an eccentric upper-class murderer who share an unfortunately complicated past, landing Francis in the middle of a choreographed chaos of slapstick comedy and highly physicalised interactions, we also witness his constant crusade to conquer both his gastronomic and flirtatious desires. He encounters characters ranging in intellect and theatrical flair that both hinder and facilitate his efforts to keep both of his guvnors apart.
