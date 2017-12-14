@@ -62,7 +62,7 @@ crew:
 - role: Technical Operator
   name: Nathan Penney
 - role: Technical Operator
-  name: Darcey Graham
+  name: Zoe Smith
 - role: Technical Operator
   name: Rohanna Brown
 - role: Technical Operator
@@ -78,7 +78,7 @@ crew:
 - role: Stage Manager
   name: Rohanna Brown
 - role: Stage Manager
-  name: Zoe Smith
+  name: Darcey Graham
 - role: Stage Manager
   name: Esther Butterworth
 - role: Stage Manager
