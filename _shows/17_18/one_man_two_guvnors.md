@@ -78,7 +78,7 @@ crew:
 - role: Stage Manager
   name: Rohanna Brown
 - role: Stage Manager
-  name: Darcey Graham
+  name: Zoe Smith
 - role: Stage Manager
   name: Esther Butterworth
 - role: Stage Manager
