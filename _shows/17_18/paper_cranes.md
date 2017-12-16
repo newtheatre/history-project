@@ -19,7 +19,7 @@ cast:
 - role: Mum
   name: Katie Fortune
 - role: David
-  name: Rohan Rahkit
+  name: Rohan Rakhit
 - role: Dr Jones
   name: Sandra Jareno Ripoll
 
