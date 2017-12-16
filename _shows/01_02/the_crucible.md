@@ -19,7 +19,7 @@ cast:
     name: Emily Hawkins
   - role: Susanna Walcott
     name: Claire Butters
-  - role: Ann Putnam
+  - role: Ann Putnam/Martha Corey/Sarah Good
     name: Kath Akers
   - role: Thomas Putnam
     name: Matt Chapman
@@ -39,24 +39,18 @@ cast:
     name: Sophie Bostock
   - role: Francis Nurse
     name: Pete Bridge
-  - role: Ezekiel Cheever
+  - role: Ezekiel Cheever/Hopkins
     name: George Kaye
   - role: Marshal Herrick
     name: Nikolaj Babic
   - role: Judge Hathorne
     name: Anthony Colles
-  - role: Martha Corey
-    name: Kath Akers
   - role: "Deputy-Governor Danforth"
     name: Josh Dean
   - role: Joanna Preston
     name: Roanna Schneider
   - role: Hannah Brown
     name: Harriet Faber
-  - role: Sarah Good
-    name: Kath Akers
-  - role: Hopkins
-    name: George Kaye
 crew:
   - role: Director
     name: Michael Longhurst
