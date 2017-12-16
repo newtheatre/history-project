@@ -31,6 +31,15 @@ cast:
   name: Gigi George
 - role: Dolly
   name: Rachael Baines
+- role: Christine
+  name: Holly Shaw
+  note: 1st and 2nd show
+- role: Christine
+  name: Zach Jones
+  note: 3rd show
+- role: Christine
+  name: Ronan Sullivan
+  note: 4th and 5th show
   
 crew:
 - role: Co-Director
