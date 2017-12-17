@@ -51,6 +51,17 @@ assets:
 
 prod_shots: gdMVLq
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2017/12/death-author-nnt/
+    snapshot: Wfu8H
+    publisher: Impact Nottingham
+    author: Sophie Hunt
+    title: "Death of the Author @ NNT"
+    date: 2017-12-12
+    rating: 9/10
+    quote: "Death of the Author is a production that will no doubt make you laugh out loud with its slapstick humour. Sharp, smart and fun, it will make you reconsider everything you think you already know about these literary characters, and remind you why we love their tales so much."
+
 ---
 
 The play begins as five famous literary characters attend the funeral of the author. However, without their writer chaos ensues as the characters must attempt to exist autonomously and discover who they are, without it being pre-written for them. What would Dorian Gray do without Oscar Wilde? Is Lady Macbeth quite the same without Shakespeare? And what does the Jabberwocky really think about Lewis Carroll? The metafictional play will discuss the existential problems of reality and free will, and ask questions about the importance and role of an author in their piece of work. In this devised farce actors will be given the unique and exciting challenge of exploring and creating their own versions of some of literature’s most famous and beloved characters.
