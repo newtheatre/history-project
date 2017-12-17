@@ -67,7 +67,7 @@ Using git we can see _what_ changed in a particular commit, but a good commit me
 When writing commits, try and adhere to the following rules:
 
 1. Limit the subject line to **about 50 characters**.
-2. **Capitalize** the subject line and do not end it with a full stop.
+2. **Capitalise** the subject line and do not end it with a full stop.
 3. Use the **imperative tense** in the subject line.
 4. **Use the body to explain** what and why.
 
