@@ -68,4 +68,4 @@ One of the things we love collecting for the History Project are little bits of 
 
 The History projects visual records are stored in a [SmugMug Site](https://photos.newtheatre.org.uk/). Anyone can view the production shots from any of our shows, but the other archives are stored in a way that if you have a link to the folder you can view its contents. Any show videos, such as Trailers or Behind the Scenes videos are also stored here. If you have any items you feel would be useful to the History Project, please see the [Sending In Images](https://history.newtheatre.org.uk/upload/)page.
 
-Any binary assets, (pdfs etc.) are stored in a specific folder in the repo. These are stored using Large File Storage, or LFS. if you any of these type of assets, please email <{{site.email}}>.
+Any binary assets, (pdfs etc.) are stored in a specific folder in the repo. These are stored using Large File Storage, or LFS. if you have any of these type of assets that you think may be useful to the project, please email <{{site.email}}>.
