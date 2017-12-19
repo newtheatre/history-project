@@ -120,7 +120,7 @@ crew:
  - role: Lighting Designer
    name: Colin Bill
  - role: Lighting Deisgner
-   name: Jon Barstow
+   name: Jonathan Barstow
  - role: Lighting Assistant
    name: Debby Daives
  - role: Lighting Assistant
