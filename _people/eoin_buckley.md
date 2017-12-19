@@ -1,5 +1,5 @@
 ---
-title: Eoin Bickley
+title: Eoin Buckley
 gender: male
 submitted: false
 graduated: 2015
