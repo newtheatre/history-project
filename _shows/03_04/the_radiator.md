@@ -1,15 +1,21 @@
 ---
 title: "The Radiator"
-playwright: L. S. Uglow
+playwright: Luke S. Uglow
 student_written: false
-period: Autumn
+period: Spring
 season: In House
-season_sort: 70
+season_sort: 200
 venue: New Theatre
 
 crew:
+  - role: Director
+    name: Kurban Kassam
   - role: Set Designer
     name: Oliver James Hymans
+
+cast:
+  - role: Cal
+    name: Bush
 
 prod_shots: bXn2CX
 
