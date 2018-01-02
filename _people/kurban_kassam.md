@@ -5,6 +5,7 @@ gender: male
 course:
   - Philosophy
 graduated: 2004
+contact_allowed: true
 
 careers:
 - Director
