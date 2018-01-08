@@ -5,7 +5,7 @@ gender: female
 course:
   - History
 graduated: 1977
-
+comment: Now Terri Harman
 ---
 Lots of acting roles from The a Importance of Being Ernest to one act play at The National Student Drama Festival in London in 1975. Edinburgh Festival review In 1976. Directed in one act play festival.
 
