@@ -8,6 +8,7 @@ IgnoreURLs:
 - "castingcallpro.com"
 - "stagejobspro.com"
 - "soundcloud.com"
+- "impactnottingham.com"
 IgnoreDirs:
 - "^lib"
 
