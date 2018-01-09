@@ -36,7 +36,7 @@ cast:
 
 crew:
   - role: Director
-    name: Lynn Ireland
+    name: Lynn Myers
   - role: Producer
     name: Gill Brand
   - role: Lighting Designer
