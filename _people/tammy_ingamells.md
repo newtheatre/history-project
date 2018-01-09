@@ -1,7 +1,6 @@
 ---
-title: Lynn Ireland
+title: Tammy Ingamells
 gender: female
-graduated: 1975
+graduated: 2011
 submitted: false
 ---
-

@@ -1,7 +1,6 @@
 ---
-title: Lynn Ireland
+title: Mathilda Holland
 gender: female
-graduated: 1975
+graduated: 2010
 submitted: false
 ---
-

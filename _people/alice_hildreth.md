@@ -1,7 +1,6 @@
 ---
-title: Lynn Ireland
+title: Alice Hildreth
 gender: female
-graduated: 1975
+graduated: 2014
 submitted: false
 ---
-

@@ -1,7 +1,6 @@
 ---
-title: Lynn Ireland
+title: Heather Higgins
 gender: female
-graduated: 1975
+graduated: 2000
 submitted: false
 ---
-
