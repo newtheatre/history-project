@@ -48,6 +48,8 @@ crew:
    name: Joanne Blunt
  - role: Technical Director
    name: Sam Layton
+ - role: Stage Manager
+   name: Maddy Strauss
 
 ---
 
