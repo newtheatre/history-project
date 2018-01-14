@@ -1,7 +1,6 @@
 ---
-title: Lynn Ireland
+title: Maryann O'Brien
 gender: female
-graduated: 1978
+graduated: 2007
 submitted: false
 ---
-

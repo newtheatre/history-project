@@ -3,6 +3,7 @@ title: Tom Walsh
 gender: male
 submitted: false
 headshot: ZmRzbmD
+graduated: 2012
 
 links:
   - type: CastingCallPro

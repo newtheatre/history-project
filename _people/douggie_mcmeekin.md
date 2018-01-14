@@ -2,6 +2,7 @@
 title: Douggie McMeekin
 headshot: TXqLQv2
 gender: male
+graduated: 2010
 submitted: false
 course:
   - Physics

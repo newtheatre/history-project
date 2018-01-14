@@ -3,6 +3,7 @@ title: Ruth Bratt
 submitted: false
 gender: female
 headshot: PnFfbHL
+graduated: 1998
 careers:
   - Actress
   - Comedian

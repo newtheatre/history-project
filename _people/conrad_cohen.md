@@ -3,6 +3,7 @@ title: Conrad Cohen
 headshot: 8jd9D7h
 gender: male
 submitted: false
+graduated: 2012
 course:
  - Mathematics with Scriptwriting
 
