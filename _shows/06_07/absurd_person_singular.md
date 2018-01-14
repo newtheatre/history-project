@@ -8,6 +8,18 @@ venue: New Theatre
 date_start: 2006-12-12
 date_end: 2006-12-15
 
+crew:
+- role: Director
+  name: Elle Hosie
+- role: Producer
+  name: Sam Turnbull
+
+cast:
+- name: Theo James
+- name: Peter Day
+- name: Maryann O'Brien
+- name: Henry Proffitt
+
 assets:
   - type: poster
     image: JpPZS57
