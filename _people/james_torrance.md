@@ -1,6 +1,7 @@
 ---
-title: Becky Catlin
-gender: female
+title: James Torrance
+gender: male
 graduated: 2010
 submitted: false
 ---
+

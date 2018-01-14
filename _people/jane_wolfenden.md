@@ -1,6 +1,6 @@
 ---
-title: Becky Catlin
+title: Jane Wolfenden
 gender: female
-graduated: 2010
+graduated: 1978
 submitted: false
 ---

@@ -1,6 +1,6 @@
 ---
-title: Becky Catlin
+title: Stephanie Soh
 gender: female
-graduated: 2010
+graduated: 2011
 submitted: false
 ---
