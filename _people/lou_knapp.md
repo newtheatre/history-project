@@ -1,6 +1,6 @@
 ---
-title: Fiona Hamilton
+title: Lou Knapp
 gender: female
-graduated: 2008
+graduated: 2016
 submitted: false
 ---

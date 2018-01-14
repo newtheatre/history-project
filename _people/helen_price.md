@@ -1,6 +1,6 @@
 ---
-title: Fiona Hamilton
+title: Helen Price
 gender: female
-graduated: 2008
+graduated: 1974
 submitted: false
 ---

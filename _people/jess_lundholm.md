@@ -1,6 +1,6 @@
 ---
-title: Fiona Hamilton
+title: Jess Lundholm
 gender: female
-graduated: 2008
+graduated: 2017
 submitted: false
 ---

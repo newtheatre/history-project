@@ -1,6 +1,6 @@
 ---
-title: Fiona Hamilton
+title: Maryann O'Brien
 gender: female
-graduated: 2008
+graduated: 2007
 submitted: false
 ---

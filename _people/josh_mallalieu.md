@@ -1,6 +1,5 @@
 ---
-title: Matt Standen
-headshot: SbwXkR7
+title: Josh Mallalieu
 gender: male
 submitted: false
 graduated: 2017
