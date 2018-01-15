@@ -20,7 +20,7 @@ cast:
 - role: Miss Prism
   name: Terri Norris
 - role: Lane
-  name: John Turner
+  name: Jon Turner
 - role: Merriman
   name: Joe Biccaragie
 
