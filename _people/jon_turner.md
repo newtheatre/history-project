@@ -3,7 +3,7 @@ title: Jon Turner
 gender: male
 submitted: false
 headshot: wfzH58g
-
+graduated: 1977
 comment: Now John Benfield
 
 ---
