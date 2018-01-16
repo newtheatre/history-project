@@ -16,7 +16,7 @@ cast:
   - name: Stephen Hopker
   - name: Nick Williams
   - name: Andrew Pearson
-  - name: John Turner
+  - name: Jon Turner
   - name: John Thewlis
   - role: Colonel
     name: Hugh Simon
