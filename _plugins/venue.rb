@@ -20,10 +20,14 @@ module Jekyll
       "#{ @venue }"
     end
 
+    def self.make_basename(venue_name)
+      # 'A Venue' → 'a-venue'
+      venue_name.downcase.gsub(/[^a-z0-9 -]/, '').gsub(/ /, '-').gsub('---', '-')
+    end
+
     def self.make_path(venue_name)
       # Downcase, remove specials, space->underscore
-      venue_path = venue_name.downcase.gsub(/[^a-z0-9 -]/, '').gsub(/ /, '-').gsub('---', '-')
-      "/#{ venue_path }"
+      "/#{ self.make_basename(venue_name) }"
     end
 
     def content()
@@ -51,6 +55,11 @@ module Jekyll
 
       # Single venue generation
       for venue_page in @collection.docs
+        # Ensure the page title matches the filename, as we generate links to the filename elsewhere given the title. See #1027
+        if VenuePage.make_basename(venue_page.data['title']) != venue_page.basename_without_ext
+          Jekyll.logger.abort_with("Venue filename '#{venue_page.basename}' does not match venue title '#{venue_page.data['title']}'. It should be (based on title) '#{VenuePage.make_basename(venue_page.data['title'])}.md'.")
+        end
+
         # Assign shows to venue, or not
         venue_page.data['shows'] = site.data['shows_by_venue'][venue_page.data['title']] || []
 
