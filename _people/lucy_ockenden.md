@@ -11,7 +11,7 @@ careers:
   - Production Manager
 
 links: 
-  - type: Personal Website
+  - type: Personal Portfolio
     href: "http://www.thisworldproductions.com"
 
 ---
