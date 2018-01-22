@@ -7,7 +7,12 @@ contact_allowed: true
 graduated: 2015
 course:
  - English
+
+careers:
+  - Actor
+
 ---
 
 Currently studying at Academy of Live and Recorded Arts, London
+
 MA Acting (postgrad) Sept 2017 - December 2018
