@@ -26,7 +26,6 @@ fs.readFile './_site/feeds/people.json', (err, data) ->
 
   console.time 'Populate People Index'
   raw.forEach (item) ->
-    # reverse_index[ item['link'] ] = item
     index.add
       title: item['title']
       graduated: "graduated:#{item['graduated']}"
@@ -43,6 +42,3 @@ fs.readFile './_site/feeds/people.json', (err, data) ->
   fs.writeFile '_site/feeds/people_index.json', JSON.stringify(index), (err) ->
     throw err if err
     console.log 'People Index Written'
-  # fs.writeFile '_site/feeds/search_index_reverse.json', JSON.stringify(reverse_index), (err) ->
-  #     throw err if err
-  #     console.log 'Reverse Search Index Written'
