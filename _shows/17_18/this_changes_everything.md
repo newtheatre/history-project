@@ -5,8 +5,8 @@ season: Postgrads
 season_sort: 160
 period: Spring
 venue: New Theatre
-date_start: 2017-01-24
-date_end: 2017-01-27
+date_start: 2018-01-24
+date_end: 2018-01-27
 
 cast:
 - role: Angus
@@ -70,18 +70,23 @@ cast:
 crew:
 - role: Producer
   name: Julie Daujat
+  person: false
 - role: Producer
   name: Chris Ward
+  person: false
 - role: Lighting Designer
   name: Sam Osborne
 - role: Technical Director
   name: Beatrice Wallbank
 - role: Technical Operator
   name: Felipe Maykot
+  person: false
 - role: Technical Operator
   name: Eugenio Del Nobile
+  person: false
 - role: Technical Operator
   name: Sam Cooper
+  person: false
 
 assets:
   - type: poster
