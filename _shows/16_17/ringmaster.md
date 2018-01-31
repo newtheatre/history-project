@@ -33,6 +33,8 @@ crew:
   name: Chris Trueman
 - role: Set Designer
   name: Jamie Drew
+- role: Poster Designer
+  name: Joe Strickland
 
 assets:
   - type: poster
