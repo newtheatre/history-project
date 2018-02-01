@@ -7,6 +7,5 @@ graduated: 2017
 course:
  - English
 
+comment: MPhil Critical Approaches to Children's Literature, University of Cambridge
 ---
-
-MPhil Critical Approaches to Children's Literature, University of Cambridge
