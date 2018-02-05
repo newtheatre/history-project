@@ -11,8 +11,11 @@ venue: New Theatre
 cast:
 - name: Jamie Drew
 - name: Leora Gerson
+  person: false
 - name: Molly McConnell
+  person: false
 - name: Meer Gala-Shah
+  person: false
 
 crew:
 - role: Director
