@@ -7,7 +7,7 @@ student_written: true
 season: External
 season_sort: 180
 date_start: 2017-02-05
-date_end: 2017-02-06
+date_end: 2017-02-07
 venue: New Theatre
 
 cast:
@@ -64,7 +64,7 @@ crew:
 - role: Unscripted Facilitator
   name: Beth Mullen
 
-prod_shots: 
+prod_shots: 5gJNbV
 
 assets:
   - type: poster
