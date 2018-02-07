@@ -52,7 +52,7 @@ crew:
 - role: Lighting Designer
   name: Jess Donn
 - role: Technical Director
-  name: Rohanna Brown
+  name: Sam Osborne
 - role: Sound Designer
   name: Sam Osborne
 - role: Technical Operator
