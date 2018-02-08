@@ -6,8 +6,8 @@ company: Unscripted
 student_written: true
 season: External
 season_sort: 180
-date_start: 2017-02-05
-date_end: 2017-02-07
+date_start: 2018-02-05
+date_end: 2018-02-07
 venue: New Theatre
 
 cast:
@@ -47,6 +47,8 @@ crew:
   name: Yasmine Dankwah
 - role: Writer/Director
   name: Marsya Hazanan
+- role: Director
+  name: Angharad Davies
 - role: Assistant Producer
   name: Laura Wolczyk
 - role: Lighting Designer
