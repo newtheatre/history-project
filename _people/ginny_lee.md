@@ -6,7 +6,7 @@ submitted: false
 graduated: 2014
 
 links:
-  - type: PErsonal Website
+  - type: Personal Website
     href: "https://www.virginialee.org.uk/"
   - type: CastingCallPro
     href: "https://www.castingcallpro.com/uk/actor/profile/virginia-lee-1"
