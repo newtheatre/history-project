@@ -41,7 +41,9 @@ To get more verbose output from Jekyll, run `export JEKYLL_LOG_LEVEL=debug` befo
 
 ### Test
 
-- `gulp test` to run test suite locally. Currently we test for bad links, valid image tags, script references and the validity of site JSON feeds.
+`gulp test` to run test suite locally. Currently we test for bad links, valid image tags, script references and the validity of site JSON feeds.
+
+Branches pushed to the GitHub repo are have preview builds deployed on Netlify, you can find links to the most recent ones here: <https://app.netlify.com/sites/history-project-dev/deploys>.
 
 ## Docker
 
