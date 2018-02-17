@@ -7,15 +7,14 @@
 	{% endif %}
 
 	{% if link.stars %}
-		<span class="stars" title="{{ link.rating }} → {{ link.stars }}">
-			{% for star in (1..link.stars) %}
+		<span class="stars" title="{{ link.rating }} → {{ link.stars | join ',' }}">
+			{% for star in (1..link.stars[0]) %}
 				<i class="fa fa-star {% increment star %}"></i>
 			{% endfor %}
-			{% assign stars_rounded = link.stars | round %}
-			{% if stars_rounded != link.stars %}
+			{% if link.stars[1] == 0.5 %}
 				<i class="fa fa-star-half-o"></i>
 			{% endif %}
-			{% for nostar in (stars_rounded..4.9) %}
+			{% for nostar in (1..link.stars[2]) %}
 				<i class="fa fa-star-o {% increment nostar %}"></i>
 			{% endfor %}
 		</span>
