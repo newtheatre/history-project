@@ -2,8 +2,14 @@
 
 module Jekyll
   class LogAdapter
-    def formatted_topic(topic)
-      "#{topic} ".rjust(26)
+    # Internal: Format the topic
+    #
+    # topic - the topic of the message, e.g. "Configuration file", "Deprecation", etc.
+    # colon -
+    #
+    # Returns the formatted topic statement
+    def formatted_topic(topic, colon = false)
+      "#{topic}#{colon ? ": " : " "}".rjust(26)
     end
   end
 end
