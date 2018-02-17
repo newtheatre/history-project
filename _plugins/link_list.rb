@@ -28,7 +28,7 @@ module LinkList
     end
 
     def href_source
-      if not @link_hash.key?('href')
+      unless @link_hash.key?('href')
         Jekyll.logger.abort_with("Missing key href in link on page #{@page_ref.relative_path}.")
       end
       @link_hash['href']
@@ -36,7 +36,7 @@ module LinkList
 
     def href
       if @link_type and @link_type.key?('href')
-        if not username
+        unless username
           Jekyll.logger.abort_with("Missing key username in link on page #{@page_ref.relative_path}, type has href template.")
         end
         @link_type['href'].sub("???", username)
