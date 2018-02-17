@@ -49,11 +49,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-beautiful-thing-lofthouse
     snapshot: R41QS
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Emily Brady
     title: "Review: A Beautiful Thing at The Lofthouse"
     date: 2016-11-23
-    stars: 4.5
+    rating: 4.5/5
     quote: "A blend of naturalism and more abstract theatre, the script’s greatest strength is its ability to convey a moment with such rich variety."
   - type: Review
     href: http://www.impactnottingham.com/2016/11/a-beautiful-thing-the-lofthouse/

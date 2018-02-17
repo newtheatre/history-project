@@ -32,10 +32,10 @@ links:
   - type: Review
     href: http://broadwaybaby.com/shows/the-retreat/21025
     snapshot: Zoaim
-    publisher: Broadway Baby 
+    publisher: Broadway Baby
     author: Tony Challis
     title: "The Retreat"
     date: 2010-08-13
-    stars: 4
+    rating: 4/5
     quote: "Recommended if you want something a bit meatier than many Fringe offerings. "
 ---

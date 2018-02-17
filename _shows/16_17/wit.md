@@ -89,7 +89,7 @@ links:
     author: Emily Brady
     title: "Review: W;t at Nottingham New Theatre"
     date: 2016-12-01
-    stars: 4.5
+    rating: 4.5/5
     quote: >
       Simultaneously heart-breaking and life-affirming, and showcases the best that student theatre can be."
   - type: Review

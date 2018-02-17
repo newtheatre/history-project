@@ -45,15 +45,10 @@
   short: Name of publisher
   description: "Useful for news articles, required for reviews."
 
-- attr: stars
-  type: number
-  short: Number of stars a review gave
-  description: "Only applies to reviews. Only if out of five."
-
 - attr: rating
   type: string
-  short: Use instead of stars for other scales
-  description: "Only applies to reviews. Write as `XX/YY`, i.e `5/10`."
+  short: Rating (or stars) a review gave
+  description: "Only applies to reviews. Write as `x/of_y`, i.e `5/10`."
 
 - attr: quote
   type: string

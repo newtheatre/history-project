@@ -1,5 +1,5 @@
 ---
-title: Uz & Them 
+title: Uz & Them
 playwright: Jonathan Taylor Davies
 student_written: true
 season: Fringe
@@ -44,11 +44,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-uz-and-them-nottingham-new-theatre
     snapshot: 2vkRG
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Emily Brady
     title: "Review: Uz and Them at Nottingham New Theatre"
     date: 2017-05-11
-    stars: 3.5
+    rating: 3.5/5
     quote: "Uz and Them is an intensely clever and confidently realised piece of theatre, with powerful performances and moments of real weight. With some work to make the piece a little more accessible and sharper, Uz and Them has the potential to be a truly evocative piece of theatre."
   - type: Review
     href: http://www.impactnottingham.com/2017/05/uz-lakeside-arts/

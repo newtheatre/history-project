@@ -22,11 +22,11 @@ links:
   - type: Review
     href: http://broadwaybaby.com/shows/cross-stitching/25085
     snapshot: JWfRM
-    publisher: Broadway Baby 
+    publisher: Broadway Baby
     author: Natasha Long
     title: Cross Stitching
     date: 2008-08-18
-    stars: 3
+    rating: 3/5
     quote: "In the end, Cross Stitching is much more about two people attempting to sort out their feelings for one another than an individual's struggle with gender identity."
 ---
 

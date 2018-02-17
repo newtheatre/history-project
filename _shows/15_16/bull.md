@@ -46,7 +46,7 @@ links:
     author: Phil Lowe
     title: "Bull - Nottingham New Theatre"
     date: 2016-02-25
-    stars: 4
+    rating: 4/5
     quote: >
       This is one play in which the good guy doesn't win in the end although it is questionable who in the audience would like to see him do so[...] this sterling production by Nottingham New Theatre starts their new season off with a tremendous bang.
   - type: Review

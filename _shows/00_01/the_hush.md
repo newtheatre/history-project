@@ -14,7 +14,7 @@ links:
     publisher: The Scotsman
     title: "The Hush"
     date: 2001-08-22
-    stars: 4
+    rating: 4/5
     quote: "Never has black and white looked so colourful. Never have the silent movies seemed so sexy. In a sparkling show of sophisticated silliness, a wordless tribute to those great films of yesteryear has resulted in something that positively screams originality and invention."
 
 

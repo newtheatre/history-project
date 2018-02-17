@@ -92,11 +92,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-west-nottingham-new-theatre
     snapshot: aYDBD
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Radhika Chond
     title: "Review: West at The Nottingham New Theatre"
     date: 2015-11-19
-    stars: 3.5
+    rating: 3.5/5
     quote: "Overall, it was really quite something to hear ‘the voice of Cockney London’ coming through thick, fast and tangible. "
   - type: Review
     href: http://www.impactnottingham.com/2015/11/west-nottingham-new-theatre/

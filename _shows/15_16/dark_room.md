@@ -35,11 +35,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-dark-room-nottingham-new-theatre
     snapshot: BQCjO
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Amy Wilcockson
     title: "Review: Dark Room at Nottingham New Theatre"
     date: 2015-11-24
-    stars: 4
+    rating: 4/5
     quote: "The play's ambiguous ending, a sly nod to the 'Filmaker''s comment on ambiguity in films, left the audience moved and wondering at the fate of our protagonist[...] Intense and absorbing, this production certainly made an impact. "
   - type: Review
     href: http://www.impactnottingham.com/2015/11/dark-room-nottingham-new-theatre

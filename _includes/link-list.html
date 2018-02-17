@@ -6,42 +6,42 @@
 		<i class="fa fa-fw {{ link.icon }}"></i>
 	{% endif %}
 
-	{% if link.type == "Review" %}
-		{% if link.rating %}
-			{% assign score = link.rating | split: "/" %}
-			{% assign score_top = score[0] | times:1.0 %}
-			{% assign score_bottom = score[1] | times: 1.0 %}
-			{% assign score_rating = score_top | divided_by:score_bottom %}
-			{% assign score_scaled = score_rating | times:5 %}
-		{% endif %}
+	{% if link.stars %}
+		<span class="stars" title="{{ link.rating }} → {{ link.stars }}">
+			{% for star in (1..link.stars) %}
+				<i class="fa fa-star {% increment star %}"></i>
+			{% endfor %}
+			{% assign stars_rounded = link.stars | round %}
+			{% if stars_rounded != link.stars %}
+				<i class="fa fa-star-half-o"></i>
+			{% endif %}
+			{% for nostar in (stars_rounded..4.9) %}
+				<i class="fa fa-star-o {% increment nostar %}"></i>
+			{% endfor %}
+		</span>
+	{% endif %}
 
-		{% if link.stars %}
-			{% assign score_scaled = link.stars %}
-		{% endif %}
-
-		{% if link.stars or link.rating %}
-			<span class="stars">
-				<!-- Produce stars -->
-				{% for star in (1..score_scaled) %}
-					<i class="fa fa-star {% increment star %}"></i>
-				{% endfor %}
-				{% assign score_rounded = score_scaled | round %}
-				{% if score_rounded != score_scaled %}
-					<i class="fa fa-star-half-o"></i>
-				{% endif %}
-				{% for nostar in (score_rounded..4.9) %}
-					<i class="fa fa-star-o {% increment nostar %}"></i>
-				{% endfor %}
-			</span>
-		{% endif %}
-
+	{% if link.quote %}
 		<q class="quote">{{ link.quote }}</q>
-		<cite class="publisher">
-			<a href="{{ link.href }}">{{ link.publisher }}</a>
-		</cite>
-	{% else %}
-  		<a href="{{ link.href }}" {{ link.data }}>{{ link.title }}</a>
-  	{% endif %}
+
+        {% if link.publisher %}
+            <cite class="publisher">
+                <a href="{{ link.href }}" {{ link.data }}>{{ link.publisher }}</a>
+            </cite>
+        {% else %}
+            <a href="{{ link.href }}" {{ link.data }}>{{ link.title }}</a>
+        {% endif %}
+
+    {% else %}
+      <a href="{{ link.href }}" {{ link.data }}>{{ link.title }}</a>
+
+      {% if link.publisher %}
+          <cite class="publisher">
+              {{ link.publisher }}
+          </cite>
+      {% endif %}
+
+    {% endif %}
 
 	<span class="debug debug-hidden-content" data-debug-toggle>
 		{{ link.comment }}

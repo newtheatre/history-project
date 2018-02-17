@@ -58,11 +58,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-intervention-nottingham-new-theatre
     snapshot: CKruu
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Emily Brady
     title: "Review: An Intervention at The Nottingham New Theatre"
     date: 2017-03-19
-    stars: 4.5
+    rating: 4.5/5
     quote: "The performances in this piece are stunning. It is undeniably a character piece, and the two actresses perform their roles with sublime conviction. They play off of each other perfectly, and the on-stage chemistry will convince you that they have been life-long friends."
   - type: Review
     href: http://www.impactnottingham.com/2017/03/intervention-nottingham-new-theatre/

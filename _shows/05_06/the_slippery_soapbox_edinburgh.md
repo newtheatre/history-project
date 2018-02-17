@@ -22,7 +22,7 @@ links:
     publisher: Fereuse MacDonald
     title: "Quite Easily..."
     date: 2006-09-18
-    stars: 5
+    rating: 5/5
     quote: "The best show of the fringe '06. The Slippery Soapbox is absolutely hilarious, the writing is brilliant - filled with some of the most genius lines I've ever heard. The cast are all immensely talented, each one playing their parts perfectly. It has it's own unique style which means no matter how many times you see it, it never stops being funny."
   - type: Review
     href: http://www.su-web2.nottingham.ac.uk/~impact/?p=517

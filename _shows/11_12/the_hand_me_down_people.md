@@ -42,7 +42,7 @@ links:
     author: Frankie Goodway
     title: "The Hand-Me-Down People"
     date: 2012-08-11
-    stars: 3
+    rating: 3/5
     quote: "The premise and advertising may give the impression that this is a children’s show, but given suicide proves one of the major themes, think twice before bringing your children."
 ---
 

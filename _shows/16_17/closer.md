@@ -83,7 +83,7 @@ links:
     author: Emily Brady
     title: "Review: Contractions at the Nottingham New Theatre"
     date: 2016-11-11
-    stars: 4
+    rating: 4/5
     quote: "Closer is a hot-blooded and drama-filled masterclass in student theatre, [...] brought to life with striking honesty."
   - type: Review
     href: http://www.impactnottingham.com/2016/11/closer-nottingham-new-theatre/

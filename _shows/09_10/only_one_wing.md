@@ -27,10 +27,10 @@ links:
   - type: Review
     href: http://broadwaybaby.com/shows/only-one-wing/21221
     snapshot: UB36S
-    publisher: Broadway Baby 
+    publisher: Broadway Baby
     author: Theo Barnes
     title: "Only One Wing"
     date: 2010-08-13
-    stars: 4
+    rating: 4/5
     quote: "You will feel haunted and downhearted, but ultimately that valuable glimmer of hope lets you carry on your day quite fulfilled. "
 ---

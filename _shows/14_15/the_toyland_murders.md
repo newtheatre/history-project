@@ -79,11 +79,11 @@ links:
   - type: Review
     href: http://broadwaybaby.com/shows/the-toyland-murders/716464
     snapshot: NUTaJ
-    publisher: Broadway Baby 
+    publisher: Broadway Baby
     author: Simon Fearn
     title: "The Toyland Murders"
     date: 2016-08-06
-    stars: 3
+    rating: 3/5
     quote: "The highlight of the show was undoubtedly the cast’s excellently exaggerated voice work, pitched at just the right level of zany for their larger-than-life characters."
 comment: Review is from the production of Toyland taken to the Edinburgh Fringe Festival in 2016 by Kite Tail Theatre Company in association with The Nottingham New Theatre.
 ---

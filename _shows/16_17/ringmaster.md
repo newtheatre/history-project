@@ -1,5 +1,5 @@
 ---
-title: The Ringmaster 
+title: The Ringmaster
 playwright: Tom Proffitt
 student_written: true
 season: Fringe
@@ -44,11 +44,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-ringmaster-nottingham-new-theatre
     snapshot: FRvGM
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Emily Brady
     title: "Review: The Ringmaster at Nottingham New Theatre"
     date: 2017-04-05
-    stars: 3.5
+    rating: 3.5/5
     quote: "The Ringmaster tells the story of a disastrous circus act gone wrong – with deadly results. Told through a series of monologues, Tom Proffitt’s original script creates a vibrant and intriguing world, tied together with strong performances and a great production design."
   - type: Review
     href: http://www.impactnottingham.com/2017/04/ringmaster-nnt-fringe/

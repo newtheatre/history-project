@@ -70,11 +70,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-thrill-love-nottingham-new-theatre
     snapshot: Zz2fl
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Gerogina Varley
     title: "Review: The Thrill of Love at Nottingham New Theatre"
     date: 2016-03-05
-    stars: 3.5
+    rating: 3.5/5
     quote: "With the smoke that was being pumped into the dimly lit and tightly enclosed performance space as well as the layout of the seating which had the audience members facing one another, the production set up an astonishingly effective atmosphere which really emphasised the quality of the most dramatic scenes."
   - type: Review
     href: http://www.impactnottingham.com/2016/03/the-thrill-of-love-nottingham-new-theatre/

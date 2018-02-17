@@ -56,11 +56,11 @@ links:
   - type: Review
     href: http://broadwaybaby.com/shows/queen-b/701952
     snapshot: XSwWA
-    publisher: Broadway Baby 
+    publisher: Broadway Baby
     author: Lottie Scaramanga
     title: "Queen B"
     date: 2014-08-15
-    stars: 4
+    rating: 4/5
     quote: "The older-man-meets-younger-girl premise might have been done - and done well - with 'An Education', but with its delicate narrative, Nottingham New Theatre's 'Queen B' shows that there is more to explore on the topic. "
 ---
 

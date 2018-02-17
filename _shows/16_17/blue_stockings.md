@@ -82,7 +82,7 @@ links:
     author: Emily Brady
     title: "Review: Blue Stockings at Nottingham Lakeside Arts"
     date: 2017-05-11
-    stars: 4.5
+    rating: 4.5/5
     quote: "Blue Stockings marks another triumphant collaboration between Nottingham New Theatre and Lakeside, with excellent acting, beautiful production design, and a hugely relevant subject matter. It is incredibly poignant and will stay with you long after you have left the theatre."
   - type: Review
     href: http://www.impactnottingham.com/2017/05/blue-stockings-nottingham-lakeside-arts/

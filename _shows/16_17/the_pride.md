@@ -83,7 +83,7 @@ links:
     author: Emily Brady
     title: "Review: The Pride at Nottingham New Theatre"
     date: 2016-11-18
-    stars: 3.5
+    rating: 3.5/5
     quote: "Directed by Laura Jane Bateman and produced by Aneesa Kaleem, The Pride does an excellent job of juxtaposing the sexual reservation of the past with the sexual liberation of the present. "
   - type: Review
     href: http://www.impactnottingham.com/2016/11/the-pride-nottingham-new-theatre/

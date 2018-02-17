@@ -71,11 +71,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-importance-being-earnest-nottingham-new-theatre
     snapshot: KuEVp
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Amy Wilcockson
     title: "Review: The Importance of Being Earnest at Nottingham New Theatre"
     date: 2016-05-13
-    stars: 4
+    rating: 4/5
     quote: "The director Nathan Penney, producer Ross Brisk, and cast should be immensely proud of themselves for this wonderful piece of theatre. "
   - type: Review
     href: http://www.impactnottingham.com/2016/05/the-importance-of-being-earnest-nottingham-new-theatre/

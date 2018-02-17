@@ -36,11 +36,11 @@ links:
   - type: Review
     href: http://www.hercampus.com/school/nottingham/review-contractions-nottingham-new-theatre
     snapshot: e1z58
-    publisher: HerCampus 
+    publisher: HerCampus
     author: Emily Brady
     title: "Review: Contractions at the Nottingham New Theatre"
     date: 2016-11-17
-    stars: 4
+    rating: 4/5
     quote: "At times laugh-out loud funny, at others incredibly sinister, Contractions is a thought-provoking and enthralling production courtesy of the Nottingham New Theatre."
   - type: Review
     href: http://www.impactnottingham.com/2016/11/contractions-nottingham-new-theatre/

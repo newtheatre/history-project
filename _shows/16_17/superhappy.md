@@ -52,7 +52,7 @@ links:
     author: Emily Brady
     title: "Review: The Super Awesome Happy Fun-Time Trick Performance"
     date: 2016-12-09
-    stars: 3.5
+    rating: 3.5/5
     quote: "It’s funny, it’s dark, and it’s a bold and daring piece of Fringe theatre."
 
 ---

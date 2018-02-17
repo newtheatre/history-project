@@ -60,7 +60,7 @@ links:
     author: Charlotte Hegley
     title: "Review: Freak at Nottingham New Theatre"
     date: 2016-11-05
-    stars: 4
+    rating: 4/5
     quote: "An excellent drama presentation of modern teenage expectations of sex compared almost too closely to the consequences of adult desire."
   - type: Review
     href: http://www.impactnottingham.com/2016/11/freak-nnt/

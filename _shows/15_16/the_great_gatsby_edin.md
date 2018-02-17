@@ -55,11 +55,11 @@ links:
   - type: Review
     href: http://broadwaybaby.com/shows/the-great-gatsby/714758
     snapshot: Iy6jD
-    publisher: Broadway Baby 
+    publisher: Broadway Baby
     author: Joseph McAulay
     title: "The Great Gatsby"
     date: 2016-08-09
-    stars: 4
+    rating: 4/5
     quote: "The performances are wonderful, each actor embodying their character with a great deal of subtle characterisation in stance and posture that makes them feel all the more real and fully formed, like they’ve stepped out of the pages of the novel itself."
 
 ---
