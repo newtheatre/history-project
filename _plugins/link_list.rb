@@ -91,6 +91,7 @@ module LinkList
     end
 
     def stars
+      # Returns a three item list of whole_stars, remainder, empty_stars or nil if there is no rating
       # Deprecation warning
       if @link_hash['stars']
         Jekyll.logger.abort_with("stars is set for link <#{href_source}> on page #{@page_ref.relative_path}. See #843, TL;DR use rating now.")
@@ -107,7 +108,11 @@ module LinkList
         # Convert strings to floats
         rating, out_of = split_rating[0].to_f, split_rating[1].to_f
         # Convert to an out-of-five rating (i.e. stars)
-        return (rating / out_of) * 5
+        stars = (rating / out_of) * 5
+        whole_stars = stars.to_i
+        remainder = stars % 1
+        empty_stars = (5 - stars).to_i
+        return whole_stars, remainder, empty_stars
       else
         return nil
       end
