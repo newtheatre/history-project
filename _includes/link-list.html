@@ -26,14 +26,14 @@
 
         {% if link.publisher %}
             <cite class="publisher">
-                <a href="{{ link.href }}">{{ link.publisher }}</a>
+                <a href="{{ link.href }}" {{ link.data }}>{{ link.publisher }}</a>
             </cite>
         {% else %}
             <a href="{{ link.href }}" {{ link.data }}>{{ link.title }}</a>
         {% endif %}
 
     {% else %}
-      <a href="{{ link.href }}">{{ link.title }}</a>
+      <a href="{{ link.href }}" {{ link.data }}>{{ link.title }}</a>
 
       {% if link.publisher %}
           <cite class="publisher">
