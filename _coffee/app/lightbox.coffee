@@ -13,6 +13,7 @@ class LightboxGallery
     i = @getLinkIndex ev.srcElement.parentElement
 
     @lightbox = new Lightbox(@, i)
+    window.currentLightbox = @lightbox
 
   getLinkIndex: (elem) ->
     # Given a link return it's index in the galleryLinks array
@@ -48,7 +49,7 @@ class Lightbox
     window.disable_keyboard_nav = true
 
     # Freeze scrolling
-    @scrollTop = document.body.scrollTop
+    @scrollTop = $(document).scrollTop()
     document.body.style.position = "fixed"
     document.body.style.top = "-#{@scrollTop}px"
 
@@ -154,7 +155,7 @@ class Lightbox
   close: =>
     # Unfreeze scrolling
     document.body.style.position = "static"
-    document.body.scrollTop = @scrollTop
+    $(document).scrollTop(@scrollTop)
 
     # Remove blur
     @blur.classList.remove('lightbox-blur--show')
