@@ -46,25 +46,43 @@ reportThanks = (url) ->
   template = _.template $('#report-success-template').html()
   $('#report-modal-content').html template('url': url)
 
+frozenScrollTop = null
+
+freezeScrolling = () ->
+  # Freeze scrolling
+  frozenScrollTop = $(document).scrollTop()
+  document.body.style.position = "fixed"
+  document.body.style.top = "-#{frozenScrollTop}px"
+
+unfreezeScrolling = () ->
+  # Unfreeze scrolling
+  document.body.style.position = "static"
+  $(document).scrollTop(frozenScrollTop)
+
 document.addEventListener 'turbolinks:load', ->
   $('#report-this-page').click (e) ->
     e.preventDefault()
+    freezeScrolling()
     $('#report').addClass 'report-show'
   $('[data-report-close]').click (e) ->
     e.preventDefault()
+    unfreezeScrolling()
     $('#report').removeClass 'report-show'
     $('#improve').removeClass 'report-show'
 
   $('#improve-this-page').click (e) ->
     if localStorage.debug_mode isnt "yes"
       e.preventDefault()
+      freezeScrolling()
       $('#improve').addClass 'report-show'
   $('[data-improve-close]').click (e) ->
     e.preventDefault()
+    unfreezeScrolling()
     $('#improve').removeClass 'report-show'
 
   $('[data-report-this-page]').click (e) ->
     e.preventDefault()
+    freezeScrolling()
     $('#improve').removeClass 'report-show'
     $('#report').addClass 'report-show'
 
