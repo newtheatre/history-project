@@ -5,7 +5,7 @@ $body-font-stack: 'Open Sans', Helvetica, sans-serif
 $header-font-stack: 'Montserrat', sans-serif
 $montserrat-letter-spacing: -0.7px
 $base-font-size: 17px
-$base-font-size-compact:  $base-font-size * 0.875
+$base-font-size-compact: $base-font-size * 0.875
 $baseline-multiplier: 1.6
 $baseline: $base-font-size * $baseline-multiplier
 $font-weight-bold: 600
@@ -18,7 +18,7 @@ $color-brand-alt: #2D9189
 $color-black: #1c1c1c
 
 $color-text-white: #eee
-$color-text:       $color-text-white
+$color-text: $color-text-white
 $color-text-black: #111
 $color-text-accent: mix($color-nnt-purple, $color-text-white)
 
@@ -38,9 +38,9 @@ $color-warning: #864116
 $color-success: #116019
 $color-info: #114560
 
-$color-grey:       #828282
+$color-grey: #828282
 $color-grey-light: lighten($color-grey, 40%)
-$color-grey-dark:  darken($color-grey, 25%)
+$color-grey-dark: darken($color-grey, 25%)
 
 $color-selection: $color-nnt-orange
 
@@ -66,6 +66,7 @@ $grid-column-end: "mob-land"
 $zindex-content-toolbar: 40
 $zindex-header: 50
 $zindex-footer: 50
+$zindex-sticky: 480
 $zindex-report-tab: 500
 $zindex-modal-bg: 990
 $zindex-search-overlay: 1000
@@ -123,6 +124,7 @@ $octicons-font-path: "/lib/octicons/octicons/"
 @import "people-grid"
 @import "person-list"
 @import "seasons"
+@import "sticky"
 @import "tables"
 
 @import "archives"
