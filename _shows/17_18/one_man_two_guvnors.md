@@ -78,6 +78,8 @@ crew:
   name: Maddy Strauss
 - role: Technical Operator
   name: Adam Frankland
+- role: Technical Operator
+  name: Miguel Barrulas
 - role: Stage Manager
   name: Charlotte Sanders
 - role: Stage Manager
