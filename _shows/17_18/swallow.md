@@ -48,7 +48,7 @@ crew:
 - role: Technical Operator
   name: Andrew Houghton
 - role: Make-up Assistant
-  name: Sandra Jareno Ripoli
+  name: Sandra Jareno Ripoll
 - role: Stash Designer
   name: Jase Neal
 - role: Extras
