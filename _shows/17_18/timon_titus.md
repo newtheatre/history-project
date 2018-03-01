@@ -60,7 +60,7 @@ crew:
 - role: Technical Operator
   name: Ben Woodford
 - role: Make-Up Artist
-  name: Sandra Jareno Ripoli
+  name: Sandra Jareno Ripoll
 - role: Make-Up Artist
   name: Sasha Gibson
 - role: Set Construction
