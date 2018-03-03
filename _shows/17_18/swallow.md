@@ -67,7 +67,7 @@ assets:
   - type: trailer
     video: CGRCrZg
     title: Trailer
-    type: backstage
+  - type: backstage
     video: MLJ6Nt2
     title: Behind The Scenes
 
