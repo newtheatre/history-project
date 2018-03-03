@@ -5,7 +5,7 @@ period: Spring
 season: In House
 season_sort: 190
 date_start: 2018-02-28
-date_end: 2018-03-02
+date_end: 2018-03-03
 venue: New Theatre
 
 cast:
