@@ -55,6 +55,16 @@ crew:
   name: David Levey
   note: Christopher
 
+assets:
+  - type: poster
+    image: X9rgrmM
+  - type: trailer
+    video: CGRCrZg
+    title: Trailer
+    type: backstage
+    video: MLJ6Nt2
+    title: Behind The Scenes
+
 links:
   - type: Review
     href: https://impactnottingham.com/2018/03/swallow-nnt/
