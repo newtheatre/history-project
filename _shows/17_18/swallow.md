@@ -78,7 +78,7 @@ links:
     publisher: Impact Nottingham
     author: Sophie Hunt
     title: "Swallow @ NNT"
-    date: 2017-03-01
+    date: 2018-03-01
     rating: 8/10
     quote: "Swallow has a poignant and very relevant message about how we view mental health as a society and, as reflected in the title, how we tend to bottle up or ‘swallow’ our emotions rather than communicating them. For that reason, it is definitely worth seeing."
 
