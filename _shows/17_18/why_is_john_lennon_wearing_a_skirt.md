@@ -9,10 +9,14 @@ date_end: 2018-03-10
 venue: New Theatre
 
 cast:
+- role: John
+  name: Michaela Green
+- role: Also John
+  name: Rosie Hudson
+- role: Still John
+  name: Kate Maguire
+- role: Yes, John Again
 - name: Lillian Race
-- name: Michaela Green
-- name: Kate Maguire
-- name: Rosie Hudson
 
 crew:
 - role: Director
@@ -68,6 +72,9 @@ crew:
 assets:
   - type: poster
     image: xXST2m5
+  - type: backstage
+    video: K4D2HFf
+    title: Behind The Scenes
 
 ---
 
