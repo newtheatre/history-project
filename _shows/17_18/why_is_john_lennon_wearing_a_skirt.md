@@ -29,6 +29,8 @@ crew:
   name: Georgi Paxton
 - role: Production Assistant
   name: Namita Nair
+- role: Poster Designer
+  name: Emma White
 - role: Technical Operator
   name: Sam Osborne
 - role: Technical Operator
@@ -39,6 +41,28 @@ crew:
   name: James Curling
 - role: Technical Operator
   name: Adam Frankland
+- role: Stage Manager
+  name: Ed Eggleton
+- role: Stage Manager
+  name: Ted Marriott
+- role: Stage Manager
+  name: George Waring
+- role: Stage Manager
+  name: Ian Sheard
+- role: Stage Manager
+  name: Jonny Khan
+- role: Stage Manager
+  name: Luke Slater
+- role: Stage Manager
+  name: Miguel Barrulas
+- role: Stage Manager
+  name: Ronan Sullivan
+- role: Stage Manager
+  name: Owen Davies
+- role: Stage Manager
+  name: Rupert Galea
+- role: Stage Manager
+  name: Sam Morris
 
 
 assets:
