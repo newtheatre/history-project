@@ -25,6 +25,8 @@ crew:
   - role: Poster Designer
     name: Will Berrington
   - role: Lighting Designer
+    name: Darcey Graham
+  - role: Lighting Designer
     name: Joseph Heil
 
 
