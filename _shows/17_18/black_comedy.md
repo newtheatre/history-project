@@ -67,8 +67,8 @@ crew:
   name: Harry Pavlou
 
 assets:
-  - type:
-    image:
+  - type: poster
+    image: GZQxS8j
 
 prod_shots:
 
