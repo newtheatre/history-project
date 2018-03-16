@@ -69,6 +69,8 @@ crew:
   name: Nathan Penney
 - role: Set Construction
   name: Jack Ellis
+- role: Set Construction
+  name: Laura Wolczyk
 - role: Poster Designer
   name: James Fox
 - role: Poster Designer
