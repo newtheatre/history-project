@@ -82,6 +82,16 @@ assets:
   - type: trailer
     video: QJDBxP2
     title: Trailer
+    
+
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2018/03/black-comedy-by-peter-shaffer.html
+    snapshot: 1WzMD
+    publisher: Kev Castle Reviews
+    title: "Black Comedy" by Peter Shaffer
+    date: 2018-03-16
+    quote: "Farce is all about comedy timing and this cast have obviously worked hard on this. The laughs come thick and fast, and not just giggles or chuckles, proper belly laughs. It is great to see comedy written in the 1960's getting such a brilliant reaction from the students."
 
 prod_shots: 
 
