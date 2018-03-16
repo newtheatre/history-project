@@ -61,6 +61,14 @@ crew:
   name: Sasha Gibson
 - role: Set Design
   name: Beth Mullen
+- role: Set Construction
+  name: Ben Woodford
+- role: Set Construction
+  name: Ian Webster
+- role: Set Construction
+  name: Nathan Penney
+- role: Set Construction
+  name: Jack Ellis
 - role: Poster Designer
   name: James Fox
 - role: Poster Designer
@@ -69,8 +77,11 @@ crew:
 assets:
   - type: poster
     image: GZQxS8j
+  - type: trailer
+    video: QJDBxP2
+    title: Trailer
 
-prod_shots:
+prod_shots: 
 
 ---
 
