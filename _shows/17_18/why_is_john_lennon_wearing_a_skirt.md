@@ -78,6 +78,17 @@ assets:
     
 prod_shots: 4v9pGR
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2018/03/john-lennon-wearing-skirt-nnt/
+    snapshot: VTf4m
+    publisher: Impact Nottingham
+    author: Katie Moncur
+    title: "Why is John Lennon Wearing a Skirt? @ NNT"
+    date: 2018-03-11
+    rating: 8.5/10
+    quote: "This carefully constructed performance of Dowie’s Why is John Lennon Wearing a Skirt? is not only affecting in terms of its portrayal of gender identity issues but is impressive with its physical theatre, emotive acting and technical effects."
+
 ---
 
 This powerful comedic monologue is by a woman who doesn’t want to be a ‘girl’. She doesn’t want to wear skirts or makeup and adjust herself to conform to obligatory femininity within society. It takes us through a journey of her life from being a young girl into an adult. It revolves around the ideas and implications of the entrenched social constructions that have been imposed on gender identity and focuses on expectations of men and women within society. The play explores both her vulnerability and her strength in being ostracized in such a society where being masculine is solely confined to males. The play focuses on difficult and thought provoking topics but is accompanied by the character’s quick wit and inspiring strength in her sense of self.
