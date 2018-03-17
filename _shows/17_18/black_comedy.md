@@ -61,6 +61,12 @@ crew:
   name: Sasha Gibson
 - role: Set Design
   name: Beth Mullen
+- role: Set Assistant
+  name: Gemma Walton
+- role: Set Assistant
+  name: Nadia Elalfi
+- role: Set Assistant
+  name: Marsya Hazanan
 - role: Set Construction
   name: Ben Woodford
 - role: Set Construction
