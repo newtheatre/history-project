@@ -88,8 +88,9 @@ assets:
   - type: trailer
     video: QJDBxP2
     title: Trailer
-
-prod_shots:     
+  - type: backstage
+    video: kmsbJfD
+    title: Behind The Scenes   
 
 links:
   - type: Review
