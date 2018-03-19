@@ -94,6 +94,15 @@ assets:
 
 links:
   - type: Review
+    href: https://impactnottingham.com/2018/03/black-comedy-nnt/
+    snapshot: G6I4c
+    publisher: Impact Nottingham
+    author: Charlotte Hegley
+    title: "Black Comedy @ NNT"
+    date: 2018-03-18
+    rating: 9/10
+    quote: "Just when you think it can’t get any funnier, Jack Ellis as Schuppanzigh enters and his accent means everyone gets him confused with the art collector." 
+  - type: Review
     href: http://kevcastletheatrereviews.blogspot.co.uk/2018/03/black-comedy-by-peter-shaffer.html
     snapshot: 1WzMD
     publisher: Kev Castle Reviews
