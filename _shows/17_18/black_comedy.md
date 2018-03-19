@@ -35,6 +35,10 @@ crew:
   name: Matteo Bagaini 
 - role: Technical Director
   name: Zoe Smith
+- role: Lighting Designer
+  name: Ian Webster
+- role: Sound Designer
+  name: Zoe Smith
 - role: Technical Operator
   name: James Curling
 - role: Technical Operator
@@ -45,16 +49,6 @@ crew:
   name: Ben Woodford
 - role: Technical Operator
   name: Laura Wolczyk
-- role: Stage Manager
-  name: Darcey Graham
-- role: Stage Manager
-  name: Jamie Watt
-- role: Stage Manager
-  name: Jonny Khan
-- role: Lighting Designer
-  name: Ian Webster
-- role: Sound Designer
-  name: Zoe Smith
 - role: Make-Up Designer
   name: Rachael Baines
 - role: Make-Up Designer
@@ -77,6 +71,16 @@ crew:
   name: Jack Ellis
 - role: Set Construction
   name: Laura Wolczyk
+- role: Stage Manager
+  name: Darcey Graham
+- role: Stage Manager
+  name: Jamie Watt
+- role: Stage Manager
+  name: Jonny Khan
+- role: Stage Manager
+  name: Will Berrington
+- role: Stage Manager
+  name: James Fox
 - role: Poster Designer
   name: James Fox
 - role: Poster Designer
@@ -93,6 +97,15 @@ assets:
     title: Behind The Scenes   
 
 links:
+  - type: Review
+    href: https://impactnottingham.com/2018/03/black-comedy-nnt/
+    snapshot: G6I4c
+    publisher: Impact Nottingham
+    author: Charlotte Hegley
+    title: "Black Comedy @ NNT"
+    date: 2018-03-18
+    rating: 9/10
+    quote: "Just when you think it can’t get any funnier, Jack Ellis as Schuppanzigh enters and his accent means everyone gets him confused with the art collector." 
   - type: Review
     href: http://kevcastletheatrereviews.blogspot.co.uk/2018/03/black-comedy-by-peter-shaffer.html
     snapshot: 1WzMD
