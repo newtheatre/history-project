@@ -32,6 +32,8 @@ crew:
   name: Felicity Chilver
 - role: Photographer
   name: Nathan Penney
+- role: Stash Designer
+  name: Marsya Hazanan
 
 assets:
   - type: poster
@@ -39,16 +41,6 @@ assets:
 
 prod_shots: 
 
-links:
-  - type: Review
-    href: 
-    snapshot: 
-    publisher: Impact Nottingham
-    author: 
-    title: "Do I Wanna Know @ NNT Fringe"
-    date: 2018-03-
-    rating: /10
-    quote: " "
 
 ---
 
