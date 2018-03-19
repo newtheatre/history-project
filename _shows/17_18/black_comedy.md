@@ -35,6 +35,10 @@ crew:
   name: Matteo Bagaini 
 - role: Technical Director
   name: Zoe Smith
+- role: Lighting Designer
+  name: Ian Webster
+- role: Sound Designer
+  name: Zoe Smith
 - role: Technical Operator
   name: James Curling
 - role: Technical Operator
@@ -45,16 +49,6 @@ crew:
   name: Ben Woodford
 - role: Technical Operator
   name: Laura Wolczyk
-- role: Stage Manager
-  name: Darcey Graham
-- role: Stage Manager
-  name: Jamie Watt
-- role: Stage Manager
-  name: Jonny Khan
-- role: Lighting Designer
-  name: Ian Webster
-- role: Sound Designer
-  name: Zoe Smith
 - role: Make-Up Designer
   name: Rachael Baines
 - role: Make-Up Designer
@@ -77,6 +71,16 @@ crew:
   name: Jack Ellis
 - role: Set Construction
   name: Laura Wolczyk
+- role: Stage Manager
+  name: Darcey Graham
+- role: Stage Manager
+  name: Jamie Watt
+- role: Stage Manager
+  name: Jonny Khan
+- role: Stage Manager
+  name: Will Berrington
+- role: Stage Manager
+  name: James Fox
 - role: Poster Designer
   name: James Fox
 - role: Poster Designer
