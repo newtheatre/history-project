@@ -39,7 +39,7 @@ assets:
   - type: poster
     image: mwckqSd
 
-prod_shots: 
+prod_shots: BM7T6k
 
 
 ---
