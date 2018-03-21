@@ -31,6 +31,10 @@ crew:
   name: Hannah Burne
 - role: Set Designer
   name: Beth Wilson
+- role: Set Construction
+  name: Ben Woodford
+- role: Set Construction
+  name: Nathan Penney
 - role: Poster Designer
   name: Harriet Beale
 - role: Technical Operator
