@@ -22,7 +22,7 @@ cast:
 - role: Bernadette
   name: Matthew Thomas
 - role: Genie
-  name: Nadia Elafi
+  name: Nadia Elalfi
 - role: The Lamp
   name: Sarah Ward
 - role: Ariel
