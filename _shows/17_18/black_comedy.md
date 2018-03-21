@@ -86,6 +86,8 @@ crew:
 - role: Poster Designer
   name: Harry Pavlou
 
+prod_shots: WKkF5J
+
 assets:
   - type: poster
     image: GZQxS8j
