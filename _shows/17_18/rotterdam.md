@@ -29,6 +29,8 @@ crew:
   name: Hannah McCullough
 - role: Lighting Designer
   name: Hannah Burne
+- role: Shadow Lighting Designer
+  name: James Curling
 - role: Set Designer
   name: Beth Wilson
 - role: Set Construction
