@@ -1,6 +1,8 @@
 ---
 title:
 playwright:
+company:
+student_written:
 period:
 season:
 season_sort:
@@ -22,6 +24,17 @@ assets:
 
 prod_shots:
 
+links:
+  - type:
+    href:
+    snapshot:
+    publisher:
+    author:
+    title: ""
+    date:
+    rating:
+    quote:
+    
 ---
 
 SUMMARY GOES HERE
