@@ -67,10 +67,10 @@ crew:
   name: Sam Osborne
 
 assets:
-- type:
-  image:
+- type: poster
+  image: 3bjsG6s
 
-prod_shots:
+prod_shots: JRKkcX
 
 ---
 
