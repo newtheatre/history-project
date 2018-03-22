@@ -84,6 +84,7 @@ crew:
   name: Zoe Smith
 - role: Stage Manager
   name: Laura Wolczyk
+  note: as Helene from "A Doll's House"
 - role: Stage Manager
   name: Zoe Smith
 - role: Stage Manager
