@@ -30,7 +30,7 @@ crew:
   name: Beth Mullen
 - role: Producer
   name: James Curling
-- role: Production Advisor
+- role: Production Assistant
   name: George Waring
 - role: Tech Master
   name: Arthur Mckechnie
