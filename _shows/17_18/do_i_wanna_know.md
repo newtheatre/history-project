@@ -41,6 +41,17 @@ assets:
 
 prod_shots: BM7T6k
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2018/03/i-wanna-know-nnt/
+    snapshot: VMx7G
+    publisher: Impact Nottingham
+    author: Jade Braham
+    title: "Do I Wanna Know @ NNT"
+    date: 2018-03-21
+    rating: 9/10
+    quote: "There wasn’t a moment where I didn’t feel conflicted – of wanting to laugh but also cry out in sympathy and solidarity. It was excellent and one of the best plays I’ve seen at NNT."
+
 
 ---
 
