@@ -51,6 +51,13 @@ links:
     date: 2018-03-21
     rating: 9/10
     quote: "There wasn’t a moment where I didn’t feel conflicted – of wanting to laugh but also cry out in sympathy and solidarity. It was excellent and one of the best plays I’ve seen at NNT."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2018/03/do-i-wanna-know-by-felicity-chilver.html
+    snapshot: itKRG
+    publisher: Kev Castle Reviews
+    title: "\"Do I Wanna Know\" By Felicity Chilver"
+    date: 2018-03-19
+    quote: "The exploration of friendship before, during and after a relationship, as well as the family relationships are beautifully highlighted, and the final scenes are quite emotional."
 
 
 ---

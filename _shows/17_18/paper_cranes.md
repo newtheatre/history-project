@@ -58,6 +58,13 @@ links:
     date: 2017-11-21
     rating: 9/10
     quote: "Student plays are often light and enjoyable, limited as they potentially are by their experiences in this world. The thought-provoking nature of Henderson’s writing, however, is truly brilliant and with excellent performances by the cast to support it, the poignant story shines through."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/11/paper-cranes-by-natalie-henderson.html
+    snapshot: IGLWE
+    publisher: Kev Castle Reviews
+    title: "\"Paper Cranes\" by Nat Henderson"
+    date: 2017-11-20
+    quote: "This is a play like no other that I've seen and will affect a lot of people emotionally. Alzheimers is now the biggest killer of adults beating heart disease and cancer, and the more people are made aware of this sad infliction the better."
 
 ---
 

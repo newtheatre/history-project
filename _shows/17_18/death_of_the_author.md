@@ -61,6 +61,13 @@ links:
     date: 2017-12-12
     rating: 9/10
     quote: "Death of the Author is a production that will no doubt make you laugh out loud with its slapstick humour. Sharp, smart and fun, it will make you reconsider everything you think you already know about these literary characters, and remind you why we love their tales so much."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/12/death-of-author-nottingham-new-theatre.html
+    snapshot: gG9UE
+    publisher: Kev Castle Reviews
+    title: "\"Death of the Author\""
+    date: 2017-12-11
+    quote: "This group must have had such fun putting this play together because the audience had great fun watching this play, which, as I've said several times during this season, could have run for more than the two nights."
 
 ---
 

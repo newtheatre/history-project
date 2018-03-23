@@ -49,6 +49,15 @@ assets:
 
 prod_shots: vzmkMh
 
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/12/replay-by-nicola-wren-nottingham-new.html
+    snapshot: 6nf8f
+    publisher: Kev Castle Reviews
+    title: "\"Replay\" by Nicola Wren"
+    date: 2018-03-16
+    quote: "I noted that one male student in front of me was affected by this story, and you can't have a greater accolade bestowed upon a cast and crew than evoking some emotion from your audience by a piece of art created with talent and love. Both evident in \"Replay\""
+
 ---
 
 “I know how hard it is to forgive someone you love more than anything for leaving” ​…

@@ -140,6 +140,13 @@ links:
     date: 2017-12-01
     rating: 8/10
     quote: "The different elements fused well to create a memorable piece, amplified by the convincing performances and dedication to the role by each cast member."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/11/collaborators-by-john-hodge-nottingham.html
+    snapshot: 28yLD
+    publisher: Kev Castle Reviews
+    title: "\"Collaborators\" by John Hodge"
+    date: 2017-11-30
+    quote: "Imagine \"Blackadder\", \"Monty Python\", a smidgen of \"Benny Hill\", \"The Young Ones\" and you'll get the idea of the style of comedy. At times anarchic, but always a lorra lorra laffs."
 
 ---
 

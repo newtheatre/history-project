@@ -89,6 +89,13 @@ links:
     date: 2017-11-11
     rating: 9/10
     quote: "A moving yet equally unsettling play, The Effect takes you through a series of intense emotions forcing you to look at the state of humanity and your own mental state. The cohesion of set, lighting and sound along with the talent of the cast and crew served to create this gripping and thoroughly impressive production."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/11/the-effect-by-lucy-prebble-nottingham.html
+    snapshot: HlnRB
+    publisher: Kev Castle Reviews
+    title: "\"The Effect\" by Lucy Prebble"
+    date: 2017-11-11
+    quote: "Watching these four actors was like being a fly on the wall because the naturalistic way these four not only interact, but deliver the lines, doesn't come across as being part of a play. It's as if we weren't there."
 
 ---
 
