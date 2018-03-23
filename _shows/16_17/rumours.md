@@ -62,6 +62,13 @@ links:
     date: 2017-06-07
     rating: 8/10
     quote: "This almost claustrophobic setting was incredibly effective in embodying the personal affairs and intimacy of the band"
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/05/rumours-by-emma-summerton-nottingham.html
+    snapshot: Tge8T
+    publisher: Kev Castle Reviews
+    title: "\"Rumours\" by Emma Summerton"
+    date: 2017-05-15
+    quote: "An entertaining and educational 90 minutes which will have you fixated on this wonderful tribute to a group of musicians who, although fragmented, are still giving us music to this day."
 
 ---
 

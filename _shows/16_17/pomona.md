@@ -65,6 +65,15 @@ assets:
     video: kFMLfNV
     title: Backstage At
 
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/06/pomona-by-alistair-mcdowall-nottingham.html
+    snapshot: SGyth
+    publisher: Kev Castle Reviews
+    title: "\"Pomona\" by Alistair McDowall"
+    date: 2017-06-15
+    quote: "This play is very difficult to describe, story wise. Thinking about it, I don't think any description of the play would do it justice because it's like a virtual jigsaw where all the pieces fall into place right at the end."
+
 ---
 
 “Here at the centre of everything, journeys end and nightmares are born.” As Ollie searches Manchester for her missing sister, she finds every lead seems to guide her to a concrete island in the middle of the city: Pomona. Seemingly a vacuous space with no evidence of human life, the reality of what happens beneath the concrete sucks in any seemingly ‘good’ person and ultimately questions what a person could do in the right circumstance. A sinister and surreal thriller, Pomona disconcertingly blurs the lines between horror games and a much more nightmarish reality.

@@ -78,6 +78,13 @@ links:
     date: 2017-03-25
     rating: 8/10
     quote: "The play is remarkable in that, despite the abrupt and extreme situations that it encompasses, it still overall feels realistic, especially in its portrayal of the friendship between Di, Viv and Rose. [A]s an audience we can’t help but see similarities between the characters and our own circle of close friends."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/03/di-and-viv-and-rose-by-amelia-bullmore_23.html
+    snapshot: caC80
+    publisher: Kev Castle Reviews
+    title: "\"Di and Viv and Rose\" by Amelia Bullmore"
+    date: 2017-03-23
+    quote: "I've now come to expect a high quality of theatre from the Nottingham New Theatre, but every time I see something new here, the bar is raised another notch. Such is the quality of everyone who gets involved in this group."
 
 prod_shots: P6QHzR
 

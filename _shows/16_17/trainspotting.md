@@ -95,6 +95,13 @@ links:
     date: 2017-05-13
     rating: 9/10
     quote: "Music blaring, psychedelic disco lights encompassing the room in colour and chaos. It is immediately clear that this is a production not to be missed."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/05/trainspotting-adapted-by-harry-gibson.html
+    snapshot: 0f89o
+    publisher: Kev Castle Reviews
+    title: "\"Trainspotting\" by Harry Gibson"
+    date: 2017-05-11
+    quote: "The show is full of emotion on several levels. it may make you angry, you may feel a love to some of the characters, one thing that I can promise though is that you'll go away from this production with some sort of emotion and talking point."
 
 ---
 

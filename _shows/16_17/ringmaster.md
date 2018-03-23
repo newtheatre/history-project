@@ -59,6 +59,13 @@ links:
     date: 2017-04-04
     rating: 7/10
     quote: "Overall, the play is unusual, interesting and has a contemporary feel, and with a little work it has the elements to become something new and exciting. The Ringmaster is indeed a great addition to the New Theatre’s Fringe Season."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/04/the-ringmaster-by-tom-proffitt.html
+    snapshot: gWJku
+    publisher: Kev Castle Reviews
+    title: "\"The Ringmaster\" by Tom Proffitt"
+    date: 2017-04-03
+    quote: "What I liked about this piece of theatre is that there is no right or wrong ending and is subjective to the mind of the audience member. it means that the audience will go away thinking about the play and discussing what they came to decide, also giving rise to debate."
 
 ---
 

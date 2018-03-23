@@ -59,6 +59,13 @@ links:
     date: 2017-05-11
     rating: 7/10
     quote: "However, it was not so much the interpersonal relationships but rather the oddness of the script that made the play so interesting. It certainly became clear that you’d never be able to guess where the plotline would lead you next, or indeed whether the next discussion about worms or autumn was even vaguely related to the last."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/05/uz-them-by-jonathan-taylor-davies.html
+    snapshot: THr0S
+    publisher: Kev Castle Reviews
+    title: "\"Uz and Them\" by Jonathan Taylor Davies"
+    date: 2017-05-08
+    quote: "Writer and Director Jonathan Taylor-Davis had borrowed, ever so slightly from the Book Of Job from the First Testament to create something not too far removed from a Monty Python sketch for it's ridiculousness."
 
 ---
 
