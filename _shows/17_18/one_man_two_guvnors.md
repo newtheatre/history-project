@@ -140,6 +140,13 @@ links:
     date: 2017-12-16
     rating: 9/10
     quote: "Hilarious, full of innuendos and the perfect way to end the semester – NNT’s production of Richard Bean’s One Man, Two Guvnors is a comedic triumph."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/12/one-man-two-guvnors-nottingham-new.html
+    snapshot: irZoA
+    publisher: Kev Castle Reviews
+    title: "\"One Man, Two Guvnors\" by Richard Bean"
+    date: 2017-12-13
+    quote: "The Nottingham New Theatre students have this year introduced me to so many little gems that I'd never heard of before this year,and I have a lot to thank this incredibly talented group of student actors for. Consistently good in their choices of theatre and output and it's been a pleasure to experience."
 
 ---
 'One Man Two Guvnors' is the highly acclaimed modernisation of Carlo Goldoni's original classic 'The Servant of Two Masters'. Richard Bean's uproarious farce, that has received stellar commendation on the West End and Broadway, follows the heart-warmingly disastrous character of Francis Henshall, who accidentally finds himself simultaneously employed by a local gangster and an eccentric upper-class murderer who share an unfortunately complicated past, landing Francis in the middle of a choreographed chaos of slapstick comedy and highly physicalised interactions, we also witness his constant crusade to conquer both his gastronomic and flirtatious desires. He encounters characters ranging in intellect and theatrical flair that both hinder and facilitate his efforts to keep both of his guvnors apart.

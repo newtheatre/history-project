@@ -68,6 +68,13 @@ links:
     date: 2017-11-05
     rating: 9/10
     quote: "Important issues of history and politics were successfully explored in only eighty minutes, demonstrating the effect political events can have on relationships and identity."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/11/over-there-by-mark-ravenhill-nottingham.html
+    snapshot: Pfs5a
+    publisher: Kev Castle Reviews
+    title: "\"Over There\" by Mark Ravenhill"
+    date: 2017-11-01
+    quote: "For a play that is brash and flashy in many regards, its beauty lies in the subtle way that it builds emotion and tension between the twins.It's that emotion that explodes into the shocking end."
 
 ---
 

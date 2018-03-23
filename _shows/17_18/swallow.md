@@ -83,6 +83,13 @@ links:
     date: 2018-03-01
     rating: 8/10
     quote: "Swallow has a poignant and very relevant message about how we view mental health as a society and, as reflected in the title, how we tend to bottle up or ‘swallow’ our emotions rather than communicating them. For that reason, it is definitely worth seeing."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2018/03/swallow-by-stef-smith-new-theatre.html
+    snapshot: OMuJ5
+    publisher: Kev Castle Reviews
+    title: "\"Swallow\" by Stef Smith"
+    date: 2018-03-03
+    quote: "It's a brilliant start to the new season, and from past experience over the last few years, I know that the rest of the season is going to be just as strong as their opening gambit, and I am so looking forward to it."
 
 ---
 

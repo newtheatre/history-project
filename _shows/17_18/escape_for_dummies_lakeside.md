@@ -36,6 +36,15 @@ crew:
   - role: Technical Director
     name: Adam Frankland
 
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/09/escape-for-dummies-wrecked-by.html
+    snapshot: SeYjC
+    publisher: Kev Castle Reviews
+    title: "\"Escape for Dummies/Wrecked\" by Nottingham New Theatre"
+    date: 2017-09-26
+    quote: "Very very funny. Brilliantly acted and a brilliantly novel script, and when there is no script as such, just noises, bringing out that comedy through physical theatre makes this comedy all the more special."
+
 ---
 
 Dummy F’s routine consists of standing aloft a shop podium, pickpocketing customers and fruitlessly attempting to escape retail prison... 

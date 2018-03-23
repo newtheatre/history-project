@@ -82,6 +82,13 @@ links:
     date: 2017-12-7
     rating: 9/10
     quote: "Sharp, grisly and just a little bit unhinged, the study of debt has never been so much fun."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/12/timontitus-by-william-shakespeare.html
+    snapshot: MZTM3
+    publisher: Kev Castle Reviews
+    title: "\"Timon/Titus by William Shakespeare\""
+    date: 2017-12-07
+    quote: "The entire group were great fun to watch and you can see the hard work that has gone into this show from every angle. If you can imagine Shakespeare crossed with Monty Python crossed with \"The Wright Show\", that's the feel of what to expect."
 
 ---
 

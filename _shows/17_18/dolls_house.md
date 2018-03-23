@@ -83,6 +83,13 @@ links:
     date: 2017-11-23
     rating: 9/10
     quote: "An extremely controversial decision, Nora opts for the life of a ‘human being above anything else’, and leaves the audience reflecting on how conventional morality has impacted what humans consider to be responsibilities of everyday life."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/11/a-dolls-house-by-henrik-ibsen.html
+    snapshot: f5HLW
+    publisher: Kev Castle Reviews
+    title: "\"A Doll's House\" by Henrik Ibsen"
+    date: 2017-11-23
+    quote: "In many \"classic\" plays the cast add nothing to the story, this was the opposite as the cast, for me, made the play interesting and gave a freshness to the plots."
 
 ---
 

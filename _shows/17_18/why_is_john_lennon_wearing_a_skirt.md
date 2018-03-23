@@ -88,6 +88,13 @@ links:
     date: 2018-03-11
     rating: 8.5/10
     quote: "This carefully constructed performance of Dowie’s Why is John Lennon Wearing a Skirt? is not only affecting in terms of its portrayal of gender identity issues but is impressive with its physical theatre, emotive acting and technical effects."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2018/03/why-is-john-lennon-wearing-skirt-by.html
+    snapshot: AjIn0
+    publisher: Kev Castle Reviews
+    title: "\"Why Is John Lennon Wearing A Skirt\" by Claire Dowie"
+    date: 2018-03-09
+    quote: "That said they can turn a comical moment completely on its' head to pathos and really make you think long and hard about some of the issues people, not just women, feel with self identity, gender equality and the respect we all demand, but often fail to receive."
 
 ---
 
