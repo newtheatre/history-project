@@ -37,6 +37,8 @@ crew:
   name: Ben Woodford
 - role: Set Construction
   name: Nathan Penney
+- role: Set Construction
+  name: Laura Wolczyk
 - role: Poster Designer
   name: Harriet Beale
 - role: Technical Operator
@@ -69,6 +71,9 @@ crew:
 assets:
 - type: poster
   image: 3bjsG6s
+- type: backstage
+  video: dsrkZQq
+  title: Behind The Scenes
 
 prod_shots: JRKkcX
 
