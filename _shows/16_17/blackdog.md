@@ -51,6 +51,14 @@ links:
     date: 2017-03-22
     rating: 7/10
     quote: "The closing sequence is tense and moving, and Walker proves his competence as a director as well as writer in the imagery he creates through the use of proxemics, especially when multiple characters are sitting on the titular sofa."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/03/the-black-dog-on-my-sofa-by-callum.html
+    snapshot: whVqx
+    publisher: Kev Castle Reviews
+    title: "\"The Black Dog On My Sofa\" by Callum Walker"
+    date: 2017-03-20
+    quote: "Another excellent, thought-provoking piece of theatre from the students at the Nottingham New Theatre in what is turning out to be one of the best and most powerful seasons at NNT to date."
+
 ---
 
 The Black Dog on my Sofa is a play about depression, asking us why we struggle to talk about our mental health and what we should do to improve it. Gregg lives with his slovenly roommate Steve, a layabout. As time goes on, more and more roommates move in - the bubbly and upbeat Lucy and the charismatic and commanding John - each more unusual than the last. This pushes the limits of Gregg’s friendships, and his patience. It is in the interactions between this strange group of characters and Gregg where we see what depression really does to people, often without anyone realising. The Black Dog on my Sofa is a punchy, funny, and eye-opening play, allowing us to tackle a topic that affects many of the people around us.

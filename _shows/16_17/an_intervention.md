@@ -73,6 +73,14 @@ links:
     date: 2017-03-17
     rating: 8/10
     quote: "Hiscocks’s ability to portray the complex A was incredible, a particular highlight of the show is in her monologue about Caspar, which showed immense emotional depth."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/03/an-intervention-by-mike-bartlett.html
+    snapshot: CxTuH
+    publisher: Kev Castle Reviews
+    title: "\"An Intervention\" by Mike Bartlett"
+    date: 2017-03-16
+    quote: "You could class the play as an intelligent comedy of sorts. a funny play, but it's also a sad play about being faithful and true to your friends when they need that crutch the most, but also being slightly neglectful of that friendship, but the final scenes say it all."
+
 ---
 
 If your friend is making bad life choices, you should intervene…shouldn’t you? What about intervening on behalf of someone you’ve never met?

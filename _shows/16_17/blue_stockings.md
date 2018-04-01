@@ -93,6 +93,13 @@ links:
     date: 2017-05-11
     rating: 7/10
     quote: "When I wasn’t laughing or watching with half-interest at the pre-digested story beats I was feeling genuine vicarious anger, and I left the theatre feeling ashamed of how much I take my education for granted."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2017/05/blue-stockings-by-jessica-swale.html
+    snapshot: Ytycm
+    publisher: Kev Castle Reviews
+    title: "\"Blue Stockings\" by Jessica Swale"
+    date: 2017-05-13
+    quote: "This play has a brilliant message to deliver and this production was faultless in delivering the message, thanks to the immense talent at NNT and Lakeside."
 
 ---
 
