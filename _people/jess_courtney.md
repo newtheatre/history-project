@@ -9,6 +9,10 @@ award:
   - title: Fellowship
     org: NNT
     year: 2013
+  - title: Best Production Design
+    org: NSDF
+    year: 2013
+    show: Jerusalem
 submitted: false
 careers:
   - Events Assistant
