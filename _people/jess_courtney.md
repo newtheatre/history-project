@@ -5,7 +5,10 @@ headshot: 6G8LRvn
 course:
   - Archaeology and Art History
 graduated: 2013
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2013
 submitted: false
 careers:
   - Events Assistant

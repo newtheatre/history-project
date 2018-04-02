@@ -3,7 +3,10 @@ title: Nick Barker
 gender: male
 headshot: 5JqcZJx
 graduated: 2014
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2014 
 submitted: false
 links:
  - type: LinkedIn

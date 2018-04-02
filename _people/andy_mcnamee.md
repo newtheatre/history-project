@@ -5,7 +5,10 @@ headshot: kD9JFM3
 course:
   - Film and Television Studies
 graduated: 2010
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2010
 submitted: false
 careers:
   - Freelance Director

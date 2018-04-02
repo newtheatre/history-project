@@ -5,7 +5,10 @@ gender: male
 course:
   - BA English
 graduated: 2013
-award: Commendation
+award: 
+  - title: Commendation
+    org: NNT
+    year: 2013
 links:
   - type: Portfolio
     href: "http://www.2magpiestheatre.co.uk/"

@@ -6,7 +6,10 @@ headshot: xR63swn
 course:
   - English Studies
 graduated: 2008
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2008 
 careers:
   - Web Designer
   - Technology Consultant

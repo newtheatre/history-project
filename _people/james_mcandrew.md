@@ -6,7 +6,10 @@ headshot: 5GmrwHr
 course:
   - Film and Television
 graduated: 2014
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2014 
 links:
   - type: Portfolio
     href: "https://app.hiive.co.uk/profile/26f6b95b-9837-4370-9813-accd981ae2e6/#/"

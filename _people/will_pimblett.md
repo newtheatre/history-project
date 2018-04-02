@@ -7,7 +7,10 @@ course:
   - Mechanical Engineering
   - Computer Science
 graduated: 2014
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2014 
 contact_allowed: true
 careers:
   - Software Development

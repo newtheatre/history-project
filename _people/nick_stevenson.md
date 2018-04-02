@@ -5,7 +5,10 @@ gender: male
 headshot: vRML2VN
 course: Law
 graduated: 2014
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2014 
 careers:
   - Producer
 links:

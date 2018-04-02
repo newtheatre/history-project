@@ -2,7 +2,10 @@
 title: Lawrence Bolton
 gender: male
 graduated: 2012
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2012
 submitted: false
 headshot: HnWzdxd
 course:

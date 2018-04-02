@@ -2,7 +2,10 @@
 title: Lizzie Bourne
 gender: female
 graduated: 2010
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2010
 submitted: false
 headshot: 8qDHpz8
 course:

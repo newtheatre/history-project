@@ -3,7 +3,10 @@ title: Jake Leonard
 gender: male
 headshot: TJT7nNV
 graduated: 2015
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2015
 submitted: false
 links:
  - type: LinkedIn

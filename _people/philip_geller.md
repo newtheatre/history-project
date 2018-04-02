@@ -6,7 +6,10 @@ headshot: r7mQ7H6
 course:
   - Mechanical Engineering
 graduated: 2011
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2011
 careers:
   - Teaching
   - Production Manager

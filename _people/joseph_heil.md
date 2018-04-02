@@ -2,7 +2,10 @@
 title: Joseph Heil
 gender: male
 graduated: 2015
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2015
 course: Materials Engineering and Design, PhD
 submitted: 17/11/2016
 headshot: fX9MPP9

@@ -7,7 +7,10 @@ course:
   - English
 graduated: 2015
 contact_allowed: true
-award: Fellowship
+award:
+  - title: Fellowship
+    org: NNT
+    year: 2015
 links:
  - type: LinkedIn
    username: ben-hollands-0ab589122

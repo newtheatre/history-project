@@ -4,7 +4,10 @@ gender: male
 headshot: rzcdPpN
 course: Philosophy
 graduated: 2009
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2009
 submitted: false
 careers: Lighting Designer
 links:

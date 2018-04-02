@@ -2,7 +2,10 @@
 title: "Emma-Louise Amanshia"
 gender: female
 graduated: 2013
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2013
 submitted: false
 headshot: 9zKK6p4
 ---
