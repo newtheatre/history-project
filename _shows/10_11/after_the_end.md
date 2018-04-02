@@ -35,6 +35,14 @@ crew:
   - role: Make-Up
     name: Emily Heaton
 
+links:
+  - type: Review
+    snapshot: GZV1F
+    publisher: "Noises Off / The University of Nottingham"
+    title: "Student run theatre steals the show"
+    date: 2011-05-12
+    quote: "This production was crafted with great detail, precision and acute awareness of pace, but at the same time portrayed moments of immense emotional drama."
+
 published: true
 
 prod_shots: 4DbWrF
