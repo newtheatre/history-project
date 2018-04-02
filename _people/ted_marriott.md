@@ -1,7 +1,7 @@
 ---
 title: Ted Marriott
 gender: male
-headshot: 6MH8XGr
+headshot: KzmdfPV
 submitted: false
 course: 
   - English BA
