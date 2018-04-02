@@ -22,6 +22,11 @@ gender: male
 headshot: ABC123
 course: BEng Mechanical Engineering
 graduated: 2010
+award: 
+  - title: Best Lighting Design Ever
+    org: Chorley Chronicle 
+    year: 2010
+    show: The Best Show Ever 
 careers:
   - Lighting Designer
 links:
@@ -47,7 +52,10 @@ course:
   - Creative Writing BA
   - English MA
 graduated: 2015
-award: Commendation
+award: 
+  - title: Commendation
+    org: NNT
+    year: 2015
 careers:
   - Finance
 ---
