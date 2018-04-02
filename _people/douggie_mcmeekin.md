@@ -4,6 +4,11 @@ headshot: TXqLQv2
 gender: male
 graduated: 2010
 submitted: false
+award: 
+  - title: Judges' Award for Acting
+    org: NSDF
+    year: 2011
+    show: Orphans
 course:
   - Physics
 

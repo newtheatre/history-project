@@ -10,6 +10,10 @@ award:
   - title: Fellowship
     org: NNT
     year: 2011
+  - title: Outstanding Production Design
+    org: NSDF
+    year: 2011
+    show: After the End
 careers:
   - Teaching
   - Production Manager
