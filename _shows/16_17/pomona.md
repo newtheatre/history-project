@@ -56,6 +56,10 @@ crew:
   name: Rohanna Brown
 - role: Stunt Consultant
   name: Laura Wolczyk
+- role: Production Photography
+	name: Aenne Pallasca
+	note: NSDF
+	person: false 
 
 prod_shots: 4rgCkH
 
