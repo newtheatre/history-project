@@ -57,9 +57,9 @@ crew:
 - role: Stunt Consultant
   name: Laura Wolczyk
 - role: Production Photography
-	name: Aenne Pallasca
-	note: NSDF
-	person: false 
+  name: Aenne Pallasca
+  note: NSDF
+  person: false 
 
 prod_shots: 4rgCkH
 
@@ -82,13 +82,13 @@ links:
     date: 2017-06-15
     quote: "This play is very difficult to describe, story wise. Thinking about it, I don't think any description of the play would do it justice because it's like a virtual jigsaw where all the pieces fall into place right at the end."
   - type: Review
-  	href: https://www.nsdf.org.uk/noises-off/mind-games
-  	snapshot: VDFoh
-  	publisher: Noises Off
-  	title: Mind Games
-  	date: 2018-03-30
-  	author: Joanna Trainor
-  	quote: "It may look organised on the surface – characters marching in rows in the shopping centre – but there is a primal, visceral underworld that holds all the power. Strauss makes sure we are on the edge of our seats throughout the play; even if we’re laughing it’s still bloody unnerving."
+    href: https://www.nsdf.org.uk/noises-off/mind-games
+    snapshot: VDFoh
+    publisher: Noises Off
+    title: Mind Games
+    date: 2018-03-30
+    author: Joanna Trainor
+    quote: "It may look organised on the surface – characters marching in rows in the shopping centre – but there is a primal, visceral underworld that holds all the power. Strauss makes sure we are on the edge of our seats throughout the play; even if we’re laughing it’s still bloody unnerving."
 
 ---
 
