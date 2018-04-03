@@ -9,6 +9,10 @@ venue: New Theatre
 date_start: 2007-01-31
 date_end: 2007-02-02
 
+tour:
+- venue: NSDF 2007
+  date_start: 2007-04-26
+
 crew:
   - role: Director
     name: Charlie Brafman
@@ -32,8 +36,6 @@ cast:
 assets:
   - type: poster
     image: gDw5cnx
-
-comment: Selected for NSDF 2007
 
 links:
   - type: Review
