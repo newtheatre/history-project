@@ -1,6 +1,6 @@
 ---
 title: Laura Jayne Bateman
-headshot: tq8ZMjh
+headshot: 7RGbkSD
 gender: female
 submitted: false
 graduated: 2017

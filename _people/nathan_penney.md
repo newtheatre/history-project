@@ -1,6 +1,6 @@
 ---
 title: Nathan Penney
-headshot: VxVtMQr
+headshot: kkKGQq4
 gender: male
 submitted: false
 award: 
@@ -12,4 +12,6 @@ award:
     org: NNT 
     year: 2014
     show: Blue Remembered Hills
+course:
+  - Biochemistry and Biological Chemistry
 ---

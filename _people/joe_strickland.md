@@ -1,6 +1,6 @@
 ---
 title: Joe Strickland
-headshot: MrFb32J
+headshot: g3kBs9R
 gender: male
 submitted: false
 ---
