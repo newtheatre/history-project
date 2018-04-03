@@ -6,6 +6,11 @@ submitted: false
 course: 
   - BEng Mechaical Engineering
 graduated: 2017
+award: 
+  - title: Best Lighting Design (In House)
+    org: NNT 
+    year: 2015
+    show: Overspill 
 
 links:
   - type: StageJobsPro

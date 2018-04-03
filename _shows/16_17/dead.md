@@ -14,6 +14,14 @@ trivia:
     name: Ben Woodford
     submitted: 2017-11-06
 
+award:
+  - title: Best Show (In House)
+    org: NNT
+    year: 2017 
+  - title: Best New Writing 
+    org: NNT
+    year: 2017 
+
 cast:
 - role: George
   name: Harry Pavlou

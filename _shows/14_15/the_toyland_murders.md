@@ -15,6 +15,13 @@ tour:
   date_end: 2016-03-22
   note: Award for James Roscow
 
+award:
+  - title: Best Show (Fringe)
+    org: NNT 
+    year: 2015 
+  - title: Best New Writing 
+    org: NNT 
+    year: 2015
 
 cast:
   - role: Inspector Carmen McGraw
