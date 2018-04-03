@@ -150,6 +150,11 @@
   short: List of tours the show has been on (NSDF &c).
   description: "Specify venue, date_start, date_end and notes. See [#12](https://github.com/newtheatre/history-project/issues/12). Shows taken to Edinburgh should have a separate show created under the Edinburgh period."
 
+- attr: award
+  type: array 
+  short: List of awards the show has won.
+  description: "Specify title, year and organisation who gave the award (eg. NSDF, NNT, etc.). Awards given to people as part of a show should be recorded on the person's entry."
+
 - attr: excerpt
   type: string
   description: "Generated excerpt of synopsis for use in search results and other summaries."

@@ -107,6 +107,16 @@ body_class: section-archives layout-show
             {% endif %}
             </p>
           </div>
+          {% if show.award %}
+          <i class="meta-icon fa fa-trophy"></i>
+          <div class="meta-col show-awards">
+            <p>
+              {% for award in show.award %}
+                {% include award.html award=award %}{% unless forloop.last %}<br /> {% endunless %}
+              {% endfor %}
+            </p>
+          </div>
+          {% endif %}
         </div>
 
       </header>

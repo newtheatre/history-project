@@ -92,9 +92,9 @@ body_class: layout-person header-nobr content-nobr
         {% endfor %}
 
         {% if person.award %}
-        <dt><i class="fa fa-fw fa-trophy"></i>Award</dt>
+          <dt><i class="fa fa-fw fa-trophy"></i>Award</dt>
           {% for award in person.award %}
-            <dd><strong>{{ award.org }}, {{ award.year }}: </strong>{{ award.title }} {% if award.show %}(<i>{{ award.show }}</i>){% endif %}</dd>
+            <dd>{% include award.html award=award %}</dd>
           {% endfor %}
         {% endif %}
 
