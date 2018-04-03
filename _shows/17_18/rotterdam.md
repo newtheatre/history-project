@@ -22,7 +22,7 @@ crew:
 - role: Director
   name: Andrew Houghton
 - role: Producer
-  name: Tara Philips
+  name: Tara Phillips
 - role: Technical Director
   name: Nicole Solomon
 - role: Sound Designer
