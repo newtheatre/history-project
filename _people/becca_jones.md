@@ -1,12 +1,11 @@
 ---
-title: Shannon Smith
-headshot: wJjxTPG
-gender: male
-graduated: 2016
+title: Becca Jones
+gender: female
 submitted: false
 award:
   - title: Judges' Award for Acting
     org: NSDF
     year: 2016
     show: West
+
 ---

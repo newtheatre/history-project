@@ -1,8 +1,6 @@
 ---
-title: Shannon Smith
-headshot: wJjxTPG
+title: James Roscow
 gender: male
-graduated: 2016
 submitted: false
 award:
   - title: Judges' Award for Acting
@@ -10,3 +8,4 @@ award:
     year: 2016
     show: West
 ---
+
