@@ -1,6 +1,8 @@
 ---
 title: Nathan Penney
-headshot: VxVtMQr
+headshot: kkKGQq4
 gender: male
 submitted: false
+course:
+  - Biochemistry and Biological Chemistry
 ---

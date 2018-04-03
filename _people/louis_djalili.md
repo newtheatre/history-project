@@ -1,7 +1,7 @@
 ---
 title: Louis Djalili
 gender: male
-headshot: kc7PgvN
+headshot: gWXn36L
 submitted: false
 course: 
   - American Studies BA
