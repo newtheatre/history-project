@@ -9,6 +9,10 @@ venue_sort: ZOO
 
 prod_shots: 7FLqSZ
 
+crew:
+  - role: Director
+    name: Charlie Brafman
+
 links:
   - type: Review
     href: https://web.archive.org/web/20080723200301/http://www.newtheatre.org.uk/extra/castaside.html
