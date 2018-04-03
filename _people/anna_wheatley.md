@@ -7,6 +7,11 @@ course:
   - Spanish and Portuguese
 careers:
   - Actress
+award:
+  - title: Spotlight Award for Best Actress 
+    org: NSDF
+    year: 2008
+    show: Proof 
 
 links:
   - type: Spotlight
