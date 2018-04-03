@@ -2,7 +2,7 @@
 title: Miguel Barrulas
 submitted: false
 gender: male
-headshot: 26Mwzj7
+headshot: Rq7Q6bf
 course:
   - Natural Sciences MSci
 ---
