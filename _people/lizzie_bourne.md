@@ -6,6 +6,10 @@ award:
   - title: Fellowship
     org: NNT
     year: 2010
+  - title: Judges Award for Acting
+    org: NSDF
+    year: 2008
+    show: Proof
   - title: Spotlight Award for Most Promising Actress
     org: NSDF
     year: 2011
