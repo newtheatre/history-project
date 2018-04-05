@@ -4,6 +4,7 @@ body_class: layout-person header-nobr content-nobr
 ---
 {% assign person = page %}
 {% capture submit_link %}/collect/person/?name={{person.path_name}}{% endcapture %}
+{% capture year_link %}/years/{{ person.graduated | minus: 1 | slice: 2,2 }}_{{ person.graduated | slice: 2,2 }}{% endcapture %}
 
 <div class="person">
 
@@ -29,20 +30,22 @@ body_class: layout-person header-nobr content-nobr
     </div>
 
     <div class="person-graduated">
-      {% if person.graduated_actual %}
-      <div class="person-graduated-inner person-graduated-actual decade-background-{{ person.decade }}">
-        {{ person.graduated }}
-      </div>
-      {% elsif person.graduated %}
-      <div class="person-graduated-inner person-graduated-estimated decade-background-{{ person.decade }}" title="Estimated">
-        {{ person.graduated }}
-      </div>
-      <div class="person-graduated-estimated-text">Estimated</div>
-      {% else %}
-        <div class="person-graduated-inner person-graduated-student">
-          Student
+      <a href="{{ year_link }}">
+        {% if person.graduated_actual %}
+        <div class="person-graduated-inner person-graduated-actual decade-background-{{ person.decade }}">
+          {{ person.graduated }}
         </div>
-      {% endif %}
+        {% elsif person.graduated %}
+        <div class="person-graduated-inner person-graduated-estimated decade-background-{{ person.decade }}" title="Estimated">
+          {{ person.graduated }}
+        </div>
+        <div class="person-graduated-estimated-text">Estimated</div>
+        {% else %}
+          <div class="person-graduated-inner person-graduated-student">
+            Student
+          </div>
+        {% endif %}
+      </a>
     </div>
   </header>
 
