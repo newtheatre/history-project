@@ -9,5 +9,5 @@ award:
   - title: Best Backstage Crew Member
     org: NNT
     year: 2017
-    show: DEAD: A Musical
+    show: "DEAD: A Musical"
 ---
