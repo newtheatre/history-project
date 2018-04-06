@@ -1,6 +1,5 @@
 ---
-title: Lisa Gier
-headshot: 7s6JVmP
+title: Olivia Maguire
 gender: female
 submitted: false
 award:

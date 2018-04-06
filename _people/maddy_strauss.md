@@ -10,4 +10,8 @@ award:
     org: NNT
     year: 2017
     show: Pomona
+  - title: Best Supporting Actress (Fringe)
+    org: NNT
+    year: 2017 
+    show: "Monarch"
 ---

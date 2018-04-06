@@ -6,4 +6,10 @@ submitted: false
 course:
   - Economics BSc
   - Behavioural Economics MSc
+
+award:
+  - title: Best Costume (Fringe)
+    org: NNT
+    year: 2017 
+    show: "Crystal Quest"
 ---

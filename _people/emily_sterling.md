@@ -8,4 +8,8 @@ award:
     org: NNT
     year: 2017 
     show: "DEAD: A Musical"
+  - title: Best Costume (In House)
+    org: NNT
+    year: 2017 
+    show: "DEAD: A Musical"
 ---
