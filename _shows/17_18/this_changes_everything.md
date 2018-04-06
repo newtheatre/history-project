@@ -8,6 +8,8 @@ venue: New Theatre
 date_start: 2018-01-24
 date_end: 2018-01-27
 
+prod_shots: mJRx69
+
 cast:
 - role: Angus
   name: Will Willmane
