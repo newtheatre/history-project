@@ -32,6 +32,9 @@ crew:
   - name: Emma-Louise Amanshia
   - name: Emma McDonald
 
+crew_incomplete: true 
+crew_note: "We think we have most of the crew, but aren't sure of their roles."
+
 assets:
   - type: poster
     image: HNpn7GJ
