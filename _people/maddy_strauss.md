@@ -13,5 +13,9 @@ award:
   - title: Best Supporting Actress (Fringe)
     org: NNT
     year: 2017 
-    show: "Monarch"
+    show: Monarch
+  - title: Best Tearjerker Moment (Fringe)
+    org: NNT 
+    year: 2017
+    show: Monarch
 ---
