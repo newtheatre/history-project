@@ -89,7 +89,6 @@ links:
     date: 2018-03-30
     author: Joanna Trainor
     quote: "It may look organised on the surface – characters marching in rows in the shopping centre – but there is a primal, visceral underworld that holds all the power. Strauss makes sure we are on the edge of our seats throughout the play; even if we’re laughing it’s still bloody unnerving."
-=======
 
 ---
 
