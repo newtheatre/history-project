@@ -133,6 +133,14 @@ links:
     date: 2015-12-03
     rating: 7/10
     quote: "With the staging of the production in-keeping with the cartoonish landscape that is advertised upon the Macbett flyers and programmes, it is easy to see these characters as belonging to a parody of our own society. "
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2015/12/macbett-by-eugene-ionesco.html
+    snapshot: r5Hva
+    publisher: Kev Castle Reviews
+    title: "\"Macbett\" by Eugene Ionesco"
+    date: 2015-12-02
+    quote: "If you like your Shakespeare just a little different, a little more manic, a little left of centre, then this is the production to see. Alternatively, if you just want to see a good comedy presented by a very talented group of people, then this is also the production to see. Stick with it because it's worth it!"
+
 ---
 
 If Monty Python and Terry Gilliam did Shakespeare, it'd be something like this. Arguably, a lot of Shakespeare’s work conveys a message of power being an inherently corrupting force - Macbeth being a prime example. Ionesco (one of the most prominent avant-garde writers within ‘The Theatre of the Absurd’) wrote Macbett as a fond parody of Macbeth. Ionesco is not mocking Shakespeare, he is satirising war and government in this profoundly funny and profane depiction of human nature.
