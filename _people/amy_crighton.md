@@ -1,7 +1,7 @@
 ---
 title: Amy Crighton
 gender: female
-headshot: 3L3nwp5
+headshot: ZMZGk8s
 submitted: false
 course: 
   - English BA

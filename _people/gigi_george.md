@@ -1,7 +1,7 @@
 ---
 title: Gigi George
 gender: female
-headshot: 39RFT7B
+headshot: s4Kp5GN
 submitted: false
 course: 
   - English BA

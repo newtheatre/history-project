@@ -1,7 +1,7 @@
 ---
 title: James Curling
 gender: male
-headshot: JQ2cwhJ
+headshot: W8ZHRJV
 submitted: false
 course:
   - Archaeology BA

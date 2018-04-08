@@ -165,10 +165,28 @@
   short: Cast members
   description: "Uses the [person list](/docs/person_list/) format."
 
+- attr: cast_incomplete 
+  type: boolean 
+  short: Incomplete Cast 
+  description: Enforces the 'Missing Details' box to appear regardless of cast size.
+
+- attr: cast_note 
+  type: string 
+  description: Replaces the text in the default 'Missing Details' box with a custom string (does not replace the call to action). Only appears when `cast_incomplete` is set to `true`, as there is no minimum cast size.
+
 - attr: crew
   type: array
   short: Crew members
   description: "Uses the [person list](/docs/person_list/) format."
+
+- attr: crew_incomplete 
+  type: boolean 
+  short: Incomplete Crew 
+  description: Enforces the 'Missing Details' box to appear regardless of crew size (automatically appears when there are fewer than 5 crew).
+
+- attr: crew_note 
+  type: string 
+  description: Replaces the text in the default 'Missing Details' box with a custom string (does not replace the call to action). 
 
 - attr: prod_shots
   type: string
