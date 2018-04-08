@@ -77,7 +77,7 @@ links:
     publisher: Kev Castle Reviews
     title: "\"Freak\" by Anna Jordan"
     date: 2016-11-03
-    quote: "\"Freak\" is a powerful piece of drama and a great start to Nottingham New Theatre's new season, It will make you think, it will make you laugh and hopefully it will get you talking as well, and if you're quite truthful with yourself, it may make you change your attitude towards how you treat people, both male and female attitudes that is."
+    quote: "\"Freak\" is a powerful piece of drama and a great start to Nottingham New Theatre's new season, it will make you think, it will make you laugh and hopefully it will get you talking as well, and if you're quite truthful with yourself, it may make you change your attitude towards how you treat people, both male and female attitudes that is."
 
 ---
 
