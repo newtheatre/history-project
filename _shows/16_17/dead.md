@@ -149,7 +149,7 @@ links:
     publisher: Kev Castle Reviews
     title: "\"Dead A Musical\""
     date: 2016-12-14
-    quote: "\"Dead A Musical\" is one of the best new pieces of theatre I've seen this year, and it's had some competition from some of their own productions, but I can honestly say that i loved every single minute of this musical, and I can't wait for the soundtrack."
+    quote: "\"Dead A Musical\" is one of the best new pieces of theatre I've seen this year, and it's had some competition from some of their own productions, but I can honestly say that I loved every single minute of this musical, and I can't wait for the soundtrack."
 
 ---
 
