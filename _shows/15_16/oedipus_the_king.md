@@ -73,7 +73,10 @@ links:
     publisher: Kev Castle Reviews
     title: "\"Oedipus\" by Nottingham New Theatre"
     date: 2016-04-20
-    quote: "Martin Berry has again managed to give the "wow factor" with this new play, and while this wasn't what i had expected, I certainly was not disappointed in the least with what i got. A very exciting production with a new and innovative view on the classic tragedy play."
+    quote: >
+        Martin Berry has again managed to give the "wow factor" with this new play, and while this wasn't what i had
+        expected, I certainly was not disappointed in the least with what i got. A very exciting production with a new
+        and innovative view on the classic tragedy play.
 ---
 
 Oedipus Rex is the powerful and self-assured King of Thebes who unwittingly fulfills a brutal and murderous prophecy. As the truth is slowly and painfully revealed, King Oedipus, his mother and his people come to realize the true horror of what he has done, leading to inevitably bloody consequences. 
