@@ -111,6 +111,14 @@ links:
     rating: 9/10
     quote: >
       W;t was a poignant exploration of the effects illness and deterioration has, even on those may who seem distant and untouchable.
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2016/12/wt-by-margaret-edson-nottingham-new.html
+    snapshot: vhdtr
+    publisher: Kev Castle Reviews
+    title: "\"W;t\" by Margaret Edson"
+    date: 2016-12-01
+    quote: "I loved this play, new as it was to me. I loved the passion injected by the cast and I loved the great emotion shown by, not only the cast, but evoked into the audience. This play is not soporific, quite the opposite in fact."
+
 ---
 
 Vivian Bearing, a brilliant and uncompromising professor of English Literature who has spent years specializing in the Holy Sonnets of John Donne, has been diagnosed with terminal ovarian cancer. She agrees to undergo an experimental chemotherapy treatment that, although not guaranteed to save her, will provide excellent research data for the future of oncology. Over the course of her treatment, she begins to question how she has lived her life, an uncompromising strive for knowledge and intellectual brilliance – and begins to see the importance of human connection and kindness. Professor Bearing valiantly braves all eight rounds of the chemotherapy, but is told the tumour has not been completely dispelled, and there is nothing else that can be done. Through the agony of dying from a terminal illness, she learns a lesson of compassion. 'W;t' is a poignant and humorous look at life, death, poetry, and openness.

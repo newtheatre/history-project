@@ -74,6 +74,15 @@ assets:
     video: kt7DxBs
     title: Backstage At
 
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2015/04/a-midsummer-nights-dream-by-nottingham.html
+    snapshot: 0OfWp
+    publisher: Kev Castle Reviews
+    title: "A MIDSUMMER NIGHT'S DREAM by the Nottingham New Theatre and Lakeside"
+    date: 2015-04-27
+    quote: "Forsooth that Shakespeare chap was way ahead of his time and if they had taught this sort of Shakespeare when I was at school I would not have had to wait so long to enjoy the bard at this level."
+
 prod_shots: Dhcwp6
 
 ---

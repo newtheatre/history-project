@@ -83,6 +83,16 @@ assets:
     video: HGWNzQB
     title: Backstage At
 
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2015/06/rhinoceros-by-eugene-ionesco-at-new.html
+    snapshot: M5pwF
+    publisher: Kev Castle Reviews
+    title: "\"Rhinoceros\" by Eugene Ionesco"
+    date: 2015-06-10
+    quote: "Some lovely comic touches in the script, well performed by the major as well as the lesser characters."
+
+
 prod_shots: Tz3wCC
 ---
 

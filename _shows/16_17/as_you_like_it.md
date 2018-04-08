@@ -122,6 +122,13 @@ links:
     date: 2016-12-09
     rating: 8/10
     quote: "Light-hearted and easy watching, Nottingham New Theatre’s As You Like It adds extra gags and a modern twist to the topsy-turvy world of Arden."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2016/12/as-you-like-it-by-william-shakespeare.html
+    snapshot: aSXAE
+    publisher: Kev Castle Reviews
+    title: "\"As You Like It\" by William Shakespeare"
+    date: 2016-12-08
+    quote: "This cast though made Shakespeare's lines roll off the tongue with complete ease, as if it were their first language, and they delivered the many tongue twister script with a natural gait, albeit some parts may have benefited from being a little slower, but I suppose when you're in that Shakespeare moment, you just go for it."
 
 ---
 

@@ -51,6 +51,15 @@ crew:
  - role: Stage Manager
    name: Maddy Strauss
 
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2016/06/the-skriker-by-caryl-churchill.html
+    snapshot: kLiXd
+    publisher: Kev Castle Reviews
+    title: "\"The Skriker\" by Caryl Churchill"
+    date: 2016-06-02
+    quote: "Another play that reinforces my love for University theatre productions as they do not shy away from lesser known plays and are not afraid at taking risks. Something that outstanding theatre is based on, and something that bigger theatre groups can't financially take the chance with."
+
 ---
 
 In a broken world, two girls meet an extraordinary creature. The Skriker is an ancient being that will posses anything she needs to to get what she wants. An old woman, a child, a young man. She is a faerie come from the underworld to pursue and entrap the two girls, through time and space, through this world and her own. Come along to the first NNT New Slot production and get ready to experience the weird and wonderful world of The Skriker.
