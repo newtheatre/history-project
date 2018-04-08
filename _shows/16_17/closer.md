@@ -94,6 +94,13 @@ links:
     date: 2016-11-11
     rating: 7/10
     quote: "The manipulation and subsequent guilt or otherwise was portrayed with genuine feeling and each actor’s dedication to the performance was well received by the audience."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2016/11/closer-by-patrick-marber-nottingham-new.html
+    snapshot: M0sFe
+    publisher: Kev Castle Reviews
+    title: "\"Closer\" by Patrick Marber"
+    date: 2016-11-10
+    quote: "Another Nottingham New Theatre success, again showing the talent that this city, and university have locally."
 
 ---
 
