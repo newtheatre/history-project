@@ -91,7 +91,15 @@ links:
     title: "\"Rhinoceros\" by Eugene Ionesco"
     date: 2015-06-10
     quote: "Some lovely comic touches in the script, well performed by the major as well as the lesser characters."
-
+  - type: Review
+    href: https://impactnottingham.com/2015/06/rhinoceros-nnt/
+    snapshot: HoVhn
+    publisher: Impact Nottingham
+    author: Amy Wilcockson
+    title: "Rhinoceros @ NNT"
+    date: 2015-06-11
+    rating: 8/10
+    quote: "This satirical, seemingly nonsensical play at times, was overall a great performance to watch."
 
 prod_shots: Tz3wCC
 ---

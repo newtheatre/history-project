@@ -65,6 +65,17 @@ assets:
     video: WMfWSSm
     title: Backstage At
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2015/03/the-glass-menagerie-nottingham-new-theatre/
+    snapshot: EnEzP
+    publisher: Impact Nottingham
+    author: Tamsin Parnell
+    title: "The Glass Menagerie @ NNT"
+    date: 2015-03-19
+    rating: 8/10
+    quote: "Without a doubt, it was a brilliantly presented piece of theatre."
+
 prod_shots: prJzNs
 ---
 

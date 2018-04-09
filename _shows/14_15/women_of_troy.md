@@ -90,6 +90,17 @@ assets:
     video: cBMdPh3
     title: Backstage At
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2015/05/women-of-troy-nnt/
+    snapshot: pWDGQ
+    publisher: Impact Nottingham
+    author: Natalie Andrews
+    title: "Women of Troy @ NNT"
+    date: 2015-05-08
+    rating: 8/10
+    quote: "The Nottingham New Theatre’s production of Don Taylor’s \"Women of Troy\" was engaging and thought-provoking"
+
 prod_shots: xdfV9r
 ---
 

@@ -47,6 +47,16 @@ crew:
   - role: Set Desginer
     name: Ellen Richardson
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2015/05/brave-new-world-nnt/
+    snapshot: xQIUp
+    publisher: Impact Nottingham
+    author: Hattie Hughes
+    title: "Brave New World @ NNT"
+    date: 2015-05-19
+    quote: "The talented cast successfully explore the multi-faceted ideologies of the human race in a digestible, dynamic and raw performance."
+
 assets:
   - type: poster
     image: WrZt4L3

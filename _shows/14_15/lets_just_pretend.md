@@ -57,6 +57,16 @@ crew:
   - role: Set Construction
     name: Tom Selves
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2015/03/lets-just-pretend-nottingham-new-theatre/
+    snapshot: a0SZG
+    publisher: Impact Nottingham
+    author: Isla McLachan
+    title: " @ NNT"
+    date: 2015-03-05
+    rating: 5/10
+    quote: "Although I could not identify with the characters, the moral is accessible for any young person, and the play is well written and enjoyable."
 
 assets:
   - type: poster
