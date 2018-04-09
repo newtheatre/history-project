@@ -3,7 +3,7 @@ title: Lysistrata
 playwright: Aristophanes
 translator: Alan Sommerstein
 season: Lakeside
-season_sort: 260
+season_sort: 252
 period: Spring
 venue: Djanogly Theatre
 date_start: 2013-04-26
