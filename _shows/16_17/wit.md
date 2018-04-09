@@ -93,15 +93,6 @@ links:
     quote: >
       Simultaneously heart-breaking and life-affirming, and showcases the best that student theatre can be."
   - type: Review
-    href: https://www.facebook.com/kev.castle.5/posts/10154934837632223
-    snapshot: DMuLw
-    publisher: Kev Castle
-    author: Kev Castle
-    title: "\"W;t\" by Margaret Edson"
-    date: 2016-12-01
-    quote: >
-      This is probably one of the most powerful and emotional plays that I have seen performed at the New Theatre
-  - type: Review
     href: http://www.impactnottingham.com/2016/12/wt-nottingham-new-theatre/
     snapshot: cL0N1
     publisher: Impact Nottingham
@@ -117,7 +108,7 @@ links:
     publisher: Kev Castle Reviews
     title: "\"W;t\" by Margaret Edson"
     date: 2016-12-01
-    quote: "I loved this play, new as it was to me. I loved the passion injected by the cast and I loved the great emotion shown by, not only the cast, but evoked into the audience. This play is not soporific, quite the opposite in fact."
+    quote: "This is probably one of the most powerful and emotional plays that I have seen performed at the New Theatre"
 
 ---
 
