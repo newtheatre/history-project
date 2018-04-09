@@ -82,6 +82,14 @@ links:
     title: "A MIDSUMMER NIGHT'S DREAM by the Nottingham New Theatre and Lakeside"
     date: 2015-04-27
     quote: "Forsooth that Shakespeare chap was way ahead of his time and if they had taught this sort of Shakespeare when I was at school I would not have had to wait so long to enjoy the bard at this level."
+  - type: Review
+    href: https://impactnottingham.com/2015/05/a-midsummer-nights-dream-lakeside-arts-centre/
+    snapshot: yqpz1
+    publisher: Impact Nottingham
+    author: Emma Lawton
+    title: "A Midsummer Night's Dream @ Lakeside Arts Centre"
+    date: 2015-05-01
+    quote: "As one audience member said on leaving the theatre \"this was the funniest production I have ever seen\". And I have to say that I agree with him."
 
 prod_shots: Dhcwp6
 

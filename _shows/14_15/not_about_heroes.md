@@ -49,6 +49,17 @@ assets:
     video: kzTSNDL
     title: Backstage At
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2015/03/not-about-heroes-nottingham-new-theatre/
+    snapshot: agW3l
+    publisher: Impact Nottingham
+    author: Rose McGoldrick
+    title: "Not About Heroes @ NNT"
+    date: 2015-03-12
+    rating: 8/10
+    quote: "This play certainly taught its audience that \"war is not glorious\", serving as a platform for some very engaging, naturalistic acting and is well worth a watch."
+
 prod_shots: hn8nZP
 ---
 
