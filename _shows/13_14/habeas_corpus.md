@@ -71,6 +71,17 @@ assets:
 
 
 prod_shots: vK28q8
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/12/habeas-corpus-nottingham-new-theatre/
+    snapshot: isS8D
+    publisher: Impact Nottingham 
+    author: Logan Wamsley
+    title: "Habeas Corpus @ Nottingham New Theatre"
+    date: 2013-12-11
+    rating: 3/5
+    quote: " As a slice of escapism Habeas Corpus is peerless, as long as you turn off your brain.  But who needs brains when you have punchlines?  Punchlines with actors who can punch hard enough to make you smart.  Punchlines that can destroy the concrete walls any perplexing direction might build. "
 ---
 
 A festive end to the season with a hilarious, quick-paced farce by Alan Bennett. It tells the story of a family and their friends, all of whom are driven by one key desire – sex – but a number of mistaken identities and awkward encounters ensure things don’t quite go as planned.
