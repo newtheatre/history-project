@@ -21,11 +21,11 @@ cast:
   name: Joe Hincks
 - role: Professor E.M. Ashford
   name: Izzie Masters
-- role: Technicians/Fellows/Students/Code Team
+- role: Technicians / Fellows / Students / Code Team
   name: Darcey Graham
-- role: Technicians/Fellows/Students/Code Team
+- role: Technicians / Fellows / Students / Code Team
   name: Andrew Houghton
-- role: Technicians/Fellows/Students/Code Team
+- role: Technicians / Fellows / Students / Code Team
   name: Beth Mullen
 
 crew:
