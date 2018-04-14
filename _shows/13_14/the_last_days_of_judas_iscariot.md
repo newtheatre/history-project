@@ -73,5 +73,15 @@ assets:
 
 prod_shots: Mn7LBT
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/11/the-last-days-of-judas-iscariot-nottingham-new-theatre/
+    snapshot: 4b7wn
+    publisher: Impact Nottingham 
+    author: Molly Hytner
+    title: "The Last Days of Judas Iscariot @ Nottingham New Theatre"
+    date: 2013-11-21
+    rating: 4/5
+    quote: " As well as being enjoyable, it calls into question the morals of the bible and the characters within it. I left the theatre undecided as to whether the verdict of Judas’ trial was fair. For me, the mark of an excellent play is leaving the theatre questioning the ending."
 ---
 Set in a place between Heaven and Hell, where Mother Teresa and Satan sit side-by-side, you have been summoned for jury duty to participate in the sentencing of history’s most notorious betrayer, Judas Iscariot. Fast-paced, witty and controversial ‘The Last Days of Judas Iscariot’ doesn’t settle for simplistic answers but rather explores the violent rupture of relationships between iconic figures in history. Not anti-Christian or anti-Catholic…but you’ll definitely fall in love with the anti-Christ.

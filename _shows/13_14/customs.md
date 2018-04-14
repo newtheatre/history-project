@@ -43,6 +43,16 @@ assets:
 
 prod_shots: qHV3rs
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2014/04/customs-nottingham-new-theatre-fringe-season/
+    snapshot: sCRQc
+    publisher: Impact Nottingham 
+    author: Bethan Wilkes
+    title: "Customs @ Nottingham New Theatre Fringe Season"
+    date: 2014-04-01
+    rating: 3/5
+    quote: "If you like a play with a satisfying ending, with all plot-ends neatly tied, this is not the play for you. Instead, it felt like the beginning of a new story; a story that will be running through my head for months to come."
 ---
 
 When you die, there is no Heaven. Instead, there’s only an airport with a customs checkpoint. Once there, you’ll have no choice but to queue with other lost souls awaiting final judgement, each one pondering their chances of clearing Customs. But is clearing Customs something they really want to do?

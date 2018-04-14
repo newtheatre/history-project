@@ -62,5 +62,14 @@ assets:
   - type: poster
     image: ZVh65mb
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/11/buried-child-nottingham-new-theatre/
+    snapshot: hMt8u
+    publisher: Impact Nottingham 
+    author: Sarah Newman
+    title: "Buried Child @ Nottingham New Theatre"
+    date: 2013-11-14
+    quote: "The whole play takes place in this one room, allowing the audience to feel the intensity of the family whilst still trying to figure out their secret. The constant sound of the rain emphasised the dreary, unchangeable atmosphere."
 ---
 The farm is failing to provide any crops and a horrific buried betrayal is tearing the family apart. Describing the disillusionment of the American Dream and the shortcomings of the family members, the play is set in Illinois, where an outsider desires the revelation of the secret, but perhaps some things are better left unsaid.

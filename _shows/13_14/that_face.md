@@ -46,6 +46,16 @@ assets:
   - type: poster
     image: M3gcbf4
 
+links:
+  - type: Review  
+    href: https://impactnottingham.com/2014/04/that-face-nottingham-new-theatre/
+    snapshot: aqEjk
+    publisher: Impact Nottingham 
+    author: Emma Lawton
+    title: "That Face @ Nottingham New Theatre"
+    date: 2014-04-09
+    rating: 4/5
+    quote: "All in all, ‘That Face’ is a bizarre yet captivating play which tackles issues with brutal honesty and force. The cast were fantastic, none of them ever letting their character slip for a moment. If you want to laugh, cry and be challenged in your thinking then go and watch ‘That Face’"
 ---
 
 “If I don’t go, they’ll take me. To a bad place. I won’t be able to see you. And I want to see you. I want to see that face. My baby’s face.” Our play promises to be incredibly twisted and unashamedly honest. It’s a witty little tour through the lives of unstable people who all make up one fractured family, grudgingly reunited. We see characters compose, combust, step-up and collapse under the strains of kinship. Ultimately, it addresses what exactly it means to be “grown-up”.
