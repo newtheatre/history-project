@@ -75,6 +75,17 @@ assets:
     image: hn8BzqV
 
 prod_shots: sQvgwk
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2014/04/equus-nottingham-new-theatre/
+    snapshot: 5v4kd
+    publisher: Impact Nottingham 
+    author: Scarlett White
+    title: "Equus @ Nottingham New Theatre"
+    date: 2014-04-03
+    rating: 4.5/5
+    quote: "However those who enjoy the controversial, the engaging, and the psychologically fascinating should certainly buy a ticket for this excellent performance and prepare to be wowed, though you should be warned – you may never look at a horse the same way again."
 ---
 
 Equus took critics and public alike by storm and has gone on to become a modern classic, Peter Shaffer depicts the story of a deranged youth who blinds six horses with a spike. Through a psychiatrist's analysis of the events, Shaffer creates a chilling portrait of how materialism and convenience have killed our capacity for worship and passion and, consequently, our capacity for pain. Rarely has a playwright created an atmosphere and situation that so harshly pinpoints the spiritual and mental decay of modern man. With passionate monologue combined with a thrilling exploration of physicality, Equus is a play not to be missed.

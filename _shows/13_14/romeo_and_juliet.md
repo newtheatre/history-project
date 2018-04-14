@@ -121,6 +121,17 @@ assets:
     video: TskT7DL
     title: Show Trailer
 
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2014/03/romeo-juliet-nottingham-new-theatre/
+    snapshot: 5xPNj
+    publisher: Impact Nottingham 
+    author: Bethan Wilkes
+    title: "Romeo & Juliet @ Nottingham New Theatre"
+    date: 2014-03-27
+    rating: 4/5
+    quote: "This play is definitely aimed at those who may not be die-hard Shakespeare fans; the use of colour in the costumes helped keep track of the many characters and their alliances, whilst the cast’s upbeat and unending energy will keep you laughing and gasping throughout the play; even if your attention may wander during the long soliloquies."
 ---
 
 In the unrelenting heat of the Italian sun, in fair Verona where we lay our scene, Romeo and Juliet meet at a party. They fall in love. They doom their deaths. Shakespeare's immortal tragedy of star-crossed lovers and warring families us brought to life at The Nottingham New Theatre in all its vibrant and visceral glory. Featuring Shakespeare’s most beautiful romantic poetry, his rudest bawdy and a host of iconic characters and scenes.

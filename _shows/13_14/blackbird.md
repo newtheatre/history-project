@@ -49,6 +49,16 @@ assets:
     video: 4qDgX2k
     title: Backstage At
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2014/03/blackbird-the-nottingham-new-theatre/
+    snapshot: e52ah
+    publisher: Impact Nottingham 
+    author: James Hamilton
+    title: "Blackbird @ Nottingham New Theatre"
+    date: 2014-03-13
+    rating: 4/5
+    quote: "This performance found a fine balance for this play to breathe and delicately carried the audience till the closing moments."
 ---
 
 At his workplace, 55-year-old Ray is shocked to be visited by a young woman, 27-year-old Una. Fifteen years earlier, when Una was only twelve, the two had a sexual affair, for which Ray was arrested and imprisoned. David Harrower's Blackbird is a riveting one-act drama that questions morality and sexuality with a mesmerisingly natural script and two characters brimming with explosive emotions.
