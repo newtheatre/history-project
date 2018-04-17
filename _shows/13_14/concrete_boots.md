@@ -25,6 +25,7 @@ crew:
     name: Dave Hanks
   - role: Technical Director
     name: Tessa Denney
+  - role: Shadow Technical Director
   - role: Lighting Designer
     name: Will Pimblett
   - role: Technical Operator
