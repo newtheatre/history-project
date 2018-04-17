@@ -26,6 +26,7 @@ crew:
   - role: Technical Director
     name: Tessa Denney
   - role: Shadow Technical Director
+    name: Nathan Penney
   - role: Lighting Designer
     name: Will Pimblett
   - role: Technical Operator
