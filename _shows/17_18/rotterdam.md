@@ -56,7 +56,7 @@ crew:
 - role: Stage Manager
   name: Nadia Elalfi
 - role: Stage Manager
-  name: Rohan Rahkit
+  name: Rohan Rakhit
 - role: Stage Manager
   name: Francis Simmons
 - role: Stage Manager
