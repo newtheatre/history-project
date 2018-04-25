@@ -31,6 +31,15 @@ crew:
   name: Joe Strickland
 - role: Hair and Make-Up
   name: Nat Henderson
+  
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2018/04/fairy-tale-heart-by-philip-ridley.html
+    snapshot: ATArI
+    publisher: Kev Castle Reviews
+    title: "\"Fairytaleheart\" By Philip Ridley"
+    date: 2018-04-23
+    quote: "This is part of the University's Fringe Season and we often think that \"Fringe\" means alternative. Not so in this case as this is one piece of theatre that is a lovely, gentle piece of theatre for all age groups leading to thought provoking discussion periods."
 
 ---
 
