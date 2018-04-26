@@ -3,7 +3,7 @@ title: Quiz Show
 playwright: Rob Drummond
 period: Spring
 season: In-House
-season_sort: 250
+season_sort: 260
 date_start: 2018-04-25
 date_end: 2018-04-28
 venue: New Theatre
@@ -31,7 +31,7 @@ crew:
   name: Salman Arif 
 - role: Technical Director
   name: Nathan Penney
-- role: Shadow Technical Director
+- role: Assistant Technical Director
   name: Florence Bell
 - role: Lighting Designer
   name: Ben Woodford
