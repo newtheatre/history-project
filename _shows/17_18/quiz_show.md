@@ -45,8 +45,16 @@ crew:
   name: Bertie Beeching
 - role: Video Operator
   name: Sam Osborne
+- role: Logo and Poster Designer
+  name: Tim Chapman
+- role: Set Designer
+  name: Laura Wolczyk
 - role: Set Assistant
-  name: Nadia Elalfi 
+  name: Nadia Elalfi
+- role: Set Construction
+  name: Laura Wolczyk
+- role: Set Construction
+  name: Ben Woodford
 - role: Stage Manager
   name: Darcey Graham
 - role: Stage Manager
@@ -71,6 +79,13 @@ crew:
   name: Emily Dimino
 - role: Technical Operator
   name: Hannah Burne
+  
+assets:
+- type: poster
+  image: Jw9RnXj
+- type: backstage
+  video: 6HzvRfj
+  title: Behind The Scenes
   
 links:
   type: Review
