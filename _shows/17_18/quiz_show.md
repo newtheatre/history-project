@@ -71,6 +71,15 @@ crew:
   name: Emily Dimino
 - role: Technical Operator
   name: Hannah Burne
+  
+links:
+  type: Review
+  href: http://kevcastletheatrereviews.blogspot.co.uk/2018/04/quiz-show-by-rob-drummond-nottingham.html
+  snapshot: bOv6K
+  publisher: Kev Castle Reviews
+  title: "\"Quiz Show\" by Rob Drummond"
+  date: 2018-04-26
+  quote: University is a place of education but I've found out that my theatrical education has been expanded by talented groups like these with people who can fit in with any local theatre group and would be a boon to any production, be it in the spotlight or behind the scenes.
 
 ---
 
