@@ -32,6 +32,10 @@ crew:
 - role: Hair and Make-Up
   name: Nat Henderson
   
+assets:
+- type: poster
+  image: zjNjCrX
+  
 links:
   - type: Review
     href: http://kevcastletheatrereviews.blogspot.co.uk/2018/04/fairy-tale-heart-by-philip-ridley.html
