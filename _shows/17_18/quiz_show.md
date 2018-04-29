@@ -79,14 +79,14 @@ crew:
   name: Emily Dimino
 - role: Technical Operator
   name: Hannah Burne
-  
+
 assets:
 - type: poster
   image: Jw9RnXj
 - type: backstage
   video: 6HzvRfj
   title: Behind The Scenes
-  
+
 links:
   type: Review
   href: http://kevcastletheatrereviews.blogspot.co.uk/2018/04/quiz-show-by-rob-drummond-nottingham.html
