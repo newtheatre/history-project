@@ -94,7 +94,7 @@ links:
   publisher: Kev Castle Reviews
   title: "\"Quiz Show\" by Rob Drummond"
   date: 2018-04-26
-  quote: University is a place of education but I've found out that my theatrical education has been expanded by talented groups like these with people who can fit in with any local theatre group and would be a boon to any production, be it in the spotlight or behind the scenes.
+  quote: "University is a place of education but I've found out that my theatrical education has been expanded by talented groups like these with people who can fit in with any local theatre group and would be a boon to any production, be it in the spotlight or behind the scenes."
 
 ---
 
