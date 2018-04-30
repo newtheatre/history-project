@@ -31,7 +31,7 @@ crew:
   name: Salman Arif 
 - role: Technical Director
   name: Nathan Penney
-- role: Assistant Technical Director
+- role: Technical Director
   name: Florence Bell
 - role: Lighting Designer
   name: Ben Woodford
