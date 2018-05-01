@@ -36,6 +36,8 @@ assets:
 - type: poster
   image: zjNjCrX
   
+prod_shots: qV8zR8
+  
 links:
   - type: Review
     href: http://kevcastletheatrereviews.blogspot.co.uk/2018/04/fairy-tale-heart-by-philip-ridley.html
