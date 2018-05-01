@@ -10,6 +10,6 @@ careers:
   - Doctor
 links:
   - type: Personal Website
-    href: "http://www.thoughtfulprimate.co.uk"
+    href: "http://www.thoughtfulprimate.co.uk/Site/Home.html"
 award: Union Prize
 ---
