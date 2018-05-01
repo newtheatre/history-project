@@ -3,7 +3,7 @@ title: Satan on a Sunday
 playwright: Emily Wong
 period: Spring
 season: Fringe
-season_sort: 260
+season_sort: 270
 date_start: 2018-04-30
 date_end: 2018-05-01
 venue: Studio A
