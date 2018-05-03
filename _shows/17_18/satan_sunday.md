@@ -1,6 +1,7 @@
 ---
 title: Satan on a Sunday
 playwright: Emily Wong
+student_written: true
 period: Spring
 season: Fringe
 season_sort: 270
