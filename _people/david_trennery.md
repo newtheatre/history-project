@@ -8,8 +8,6 @@ graduated: 1996
 careers:
   - Director
   - Doctor
-links:
-  - type: Personal Website
-    href: "http://www.thoughtfulprimate.co.uk/Site/Home.html"
 award: Union Prize
+comment: Personal Website "http://www.thoughtfulprimate.co.uk/Site/Home.html"
 ---
