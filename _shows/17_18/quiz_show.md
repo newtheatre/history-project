@@ -62,7 +62,7 @@ crew:
 - role: Stage Manager
   name: Salman Arif
 - role: Hair and Make-up
-  name: Sandra Ripoll
+  name: Sandra Jareno Ripoll
 - role: Hair and Make-up
   name: Annabel Freer
 - role: Camera Operator
