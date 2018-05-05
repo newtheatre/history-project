@@ -76,7 +76,7 @@ links:
     title: "Salomé @ NNT"
     date: 2018-05-03
     rating: 10/10
-    quote: "This is an intense and intelligent production that reflects both the tragedy and progressiveness of Wilde’s work."
+    quote: "This is an intense and intelligent production that reflects both the tragedy and progressiveness of Wilde\’s work."
   - type: Review
     href: http://kevcastletheatrereviews.blogspot.co.uk/2018/05/salome-by-oscar-wilde-nottingham-new.html
     snapshot: nJHXM
@@ -84,7 +84,7 @@ links:
     author: Kev Castle
     title: "\"Salome\"" by Oscar Wilde"
     date: 2018-05-03
-    quote: "Having read many of Wilde's plays, and being a fan of his wit, this play is a nice change from the comedy in his other plays, and I was so pleased that NNT decided to choose this one to perform, plus it's another one ticked off the list of plays I'd not seen before."
+    quote: "Having read many of Wilde\'s plays, and being a fan of his wit, this play is a nice change from the comedy in his other plays, and I was so pleased that NNT decided to choose this one to perform, plus it\'s another one ticked off the list of plays I'd not seen before."
 
 ---
 
