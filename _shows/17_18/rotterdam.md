@@ -2,7 +2,7 @@
 title: Rotterdam
 playwright: Jon Brittain
 period: Spring
-season: In-House
+season: In House
 season_sort: 230
 date_start: 2018-03-20
 date_end: 2018-03-23
