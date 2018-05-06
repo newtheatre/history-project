@@ -65,6 +65,14 @@ crew:
   name: Ellie Roberts
 - role: Video Designer
   name: Ted Marriott
+- role: Technical Operator
+  name: Sam Osborne
+- role: Technical Operator
+  name: Zoe Smith
+- role: Technical Operator
+  name: Andrew Houghton
+- role: Technical Operator
+  name: Nadia Elalfi
   
 assets:
 - type: poster
