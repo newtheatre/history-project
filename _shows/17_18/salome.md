@@ -2,7 +2,7 @@
 title: Salome
 playwright: Oscar Wilde
 period: Spring
-season: In-House
+season: In House
 season_sort: 280
 date_start: 2018-05-02
 date_end: 2018-05-05
