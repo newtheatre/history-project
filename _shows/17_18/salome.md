@@ -66,6 +66,15 @@ crew:
 - role: Video Designer
   name: Ted Marriott
   
+assets:
+- type: poster
+  image: dM2HjGQ
+- type: backstage
+  video: Pkxwccq
+  title: Behind The Scenes
+  
+prod_shots: Ckr2n5
+  
 links:
   - type: Review
     href: https://impactnottingham.com/2018/05/salome-nnt/
