@@ -90,7 +90,7 @@ links:
     snapshot: nJHXM
     publisher: Kev Castle Reviews
     author: Kev Castle
-    title: "\"Salome\"" by Oscar Wilde"
+    title: "\"Salome\" by Oscar Wilde"
     date: 2018-05-03
     quote: "Having read many of Wilde\'s plays, and being a fan of his wit, this play is a nice change from the comedy in his other plays, and I was so pleased that NNT decided to choose this one to perform, plus it\'s another one ticked off the list of plays I\'d not seen before."
 
