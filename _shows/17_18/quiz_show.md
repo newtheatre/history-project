@@ -2,7 +2,7 @@
 title: Quiz Show
 playwright: Rob Drummond
 period: Spring
-season: In-House
+season: In House
 season_sort: 260
 date_start: 2018-04-25
 date_end: 2018-04-28
@@ -62,7 +62,7 @@ crew:
 - role: Stage Manager
   name: Salman Arif
 - role: Hair and Make-up
-  name: Sandra Ripoll
+  name: Sandra Jareno Ripoll
 - role: Hair and Make-up
   name: Annabel Freer
 - role: Camera Operator
