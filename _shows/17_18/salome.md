@@ -73,6 +73,8 @@ crew:
   name: Andrew Houghton
 - role: Technical Operator
   name: Nadia Elalfi
+- role: Technical Operator
+  name: Amy Crighton
   
 assets:
 - type: poster
