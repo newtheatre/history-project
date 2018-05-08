@@ -37,6 +37,17 @@ crew:
 - role: Poster Design
   name: Ellen Schaffert
   
+links:
+- type: Review
+  href: https://impactnottingham.com/2018/05/cogito-ergo-bum-nnt/
+  snapshot: XCOoW
+  publisher: Impact Nottingham
+  author: Connor Higgs
+  title: "Cogito Ergo Bum @ NNT"
+  date: 2018-05-07
+  rating: 8/10
+  quote: "As something that does not take itself too seriously, it is a witty, light-hearted 80-minute show that will certainly leave you with at least one well-timed, well-written gag that you can use in your own conversations, about philosophy, the nature of mastery, or Morrissey being a prick."
+  
 ---
 
 Set against the backdrop of Major’s Britain and in a very real sense, against the backdrop of their own studio apartment, two dashing wastrels - caught on the fringes of grunge and sense - pursue a lifelong dream they’ve had for at least a week: winning a Battle of the Bands, producing the seminal 1990s album, and getting invited onto Top of the Pops. Along the way our plucky Brit-Pop duo must overcome the seemingly insurmountable hurdles of a rival band that’s much better than them, and the weight of cursed knowledge supplied by a Daemon of utmost power and cunning. Does fame have a price? Can you be a successful musician if you can’t play? Does a deal with the devil ever end well?
