@@ -26,7 +26,7 @@ cast:
   name: Isabelle Cadwallader
 - role: Janice Pearce / Chorus
   name: Sally Nesbitt
-- role: Perkins/Chorus
+- role: Perkins / Chorus
   name: Dom Bitten
 - role: Albert Ross / Marvin Androyd / Chorus
   name: Jamie Drew
