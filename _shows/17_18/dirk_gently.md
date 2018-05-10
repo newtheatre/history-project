@@ -4,7 +4,7 @@ playwright: Douglas Adams
 adptor: "James Goss & Arvind Ethan David"
 period: Spring
 season: In House
-season_sort: 3000
+season_sort: 300
 date_start: 2018-05-09
 date_end: 2018-05-12
 venue: New Theatre
@@ -19,7 +19,7 @@ cast:
 - role: Gordon Way
   name: Callum Walker
 - role: Susan Way
-  name: Margauz Valarche
+  name: Margaux Valarche
 - role: Michael Wenton-Weakes
   name: Eric Crouch
 - role: Sgt Gilks
@@ -28,7 +28,7 @@ cast:
   name: Sally Nesbitt
 - role: Perkins/Chorus
   name: Dom Bitten
-- role: Albert Ross / Marvin Androyd/ Chorus
+- role: Albert Ross / Marvin Androyd / Chorus
   name: Jamie Drew
 - role: Watkin / Chorus
   name: Jake Gelernter
