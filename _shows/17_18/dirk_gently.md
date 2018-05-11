@@ -96,13 +96,13 @@ links:
     rating: 7/10
     quote: "With Dirk Gently associated with its slapstick comedy and humour, it is evident that the play did not disappoint. Every pun, clumsy fall, and nerdy joke was awarded outbursts of laughter from the audience, outbursts so loud that sometimes actors lines could not be heard for a short while."
   - type: Review
-    href: 
-    snapshot: 
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2018/05/dirk-gentlys-holistic-detective-agency.html
+    snapshot: G7JmJ
     publisher: Kev Castle Reviews
     author: Kev Castle
-    title: 
+    title: "\“Dirk Gently's Holistic Detective Agency\” Nottingham New Theatre"
     date: 2018-05-03
-    quote: 
+    quote: "I'm not sure how to describe this play, or more to the point, I'm not sure what words describe what I've seen. Don't get me wrong, this is a good thing, but this play is so different to anything that I've seen and is so off the wall, but is also so idiotically entertaining and zany."
 
 ---
 
