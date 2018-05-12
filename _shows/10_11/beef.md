@@ -41,6 +41,15 @@ assets:
   - type: backstage
     video: b5Pkj9V
     title: Backstage At
+  - type: backstage
+    video: RhRtsVS
+    title: Meet the Producer
+  - type: backstage
+    video: 2QL8xCx
+    title: "How Do You Like It?"
+  - type: backstage
+    video: c2XrGcn
+    title: "What's it About?"
 
 links:
   - type: Review

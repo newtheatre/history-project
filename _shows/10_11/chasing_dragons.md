@@ -36,6 +36,12 @@ assets:
   - type: backstage
     video: NXZCW5k
     title: Backstage At
+  - type: excerpt
+    video: 6qhqZhW
+    title: What Would You Chase
+  - type: excerpt
+    video: KZ7CDpF
+    title: There's a Dragon Coming
 
 links:
   - type: Review
