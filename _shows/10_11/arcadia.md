@@ -55,6 +55,12 @@ crew:
 assets:
   - type: poster
     image: ccGfchq
+  - type: preview
+    video: CT9sT64
+    title: Sneak Preview 1
+  - type: backstage
+    video: VMJV25h
+    title: Sneak Preview 2
 
 published: true
 
