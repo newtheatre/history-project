@@ -40,7 +40,7 @@ crew:
   name: Emma Barber
 - role: Set Designer
   name: Ollie Shortt
-- role: Videographer
+- role: Video Specialist
   name: David Taylor
 - role: Tech Specialist
   name: Joseph Heil
