@@ -1,7 +1,7 @@
 ---
 title: Dirk Gently's Holistic Detective Agency
 playwright: Douglas Adams
-adptor: "James Goss & Arvind Ethan David"
+adaptor: "James Goss & Arvind Ethan David"
 period: Spring
 season: In House
 season_sort: 300
@@ -61,6 +61,8 @@ crew:
   name: Rohanna Brown
 - role: Technical Operator
   name: Nathan Penney
+- role: Technical Operator
+  name: Izzy de Bono
 - role: Stage Manager
   name: Laura Wolczyk
 - role: Stage Manager
@@ -80,7 +82,7 @@ assets:
 - type: poster
   image: b4rFVvV
 - type: backstage
-  video: 
+  video: MDx59cc
   title: Behind The Scenes
   
 prod_shots: Thr7Xw
