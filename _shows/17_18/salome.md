@@ -11,7 +11,7 @@ venue: New Theatre
 cast:
 - role: Salome
   name: Maggie Dorling
-- role: Herod / Yhokanaan
+- role: Herod / Jokanaan
   name: Francis Simmons
 - role: Herodias
   name: Emily Sterling
