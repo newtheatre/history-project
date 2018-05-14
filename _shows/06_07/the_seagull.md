@@ -17,6 +17,16 @@ assets:
 prod_shots: BXFNXd
 
 cast:
+ - role: Konstantin
+   name: David Stephenson
+ - role: Trigorin
+   name: Peter Day
+ - role: Arkadina
+   name: Sophie Fairclough
+ - role: Nina
+   name: Georgia Goldsack
+ - role: Masha
+   name: Eleanor Yates
  - role: Polina
    name: Carly Taylor
 
