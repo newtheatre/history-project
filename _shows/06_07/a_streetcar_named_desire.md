@@ -8,6 +8,10 @@ venue: New Theatre
 date_start: 2006-11-22
 date_end: 2006-11-25
 
+cast:
+- role: Blanche Dubois
+  name: Georgie Strawson
+
 assets:
   - type: poster
     image: 63NfNkg

@@ -9,8 +9,12 @@ date_start: 2008-04-30
 date_end: 2008-05-03
 
 cast:
+ - role: John Proctor
+   name: Tom Pinny
  - role: Elizabeth Proctor
    name: Christey Nethercott
+ - role: Reverend John Hale
+   name: Simon Holton
 
 crew:
   - role: Director

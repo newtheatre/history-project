@@ -9,6 +9,10 @@ date_start: 2007-06-06
 date_end: 2007-06-09
 
 cast:
+  - role: Jack
+    name: Sam  Morris
+  - role: Jill
+    name: Anna Wheatley
   - role: Amelia
     name: Nicole Pyrathon
 
