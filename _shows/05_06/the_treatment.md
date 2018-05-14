@@ -11,8 +11,14 @@ date_end: 2006-03-11
 crew:
   - role: Director
     name: Sam Grafton
+  - role: Producer
+    name: Adrian Hopkins
 
 cast:
+ - role: Jennifer
+   name: Sam Pysk
+ - role: Andrew
+   name: Ali Blackwell
  - role: Bride
    name: Maia Gibbs
  - role: Nicky
