@@ -8,6 +8,19 @@ venue: New Theatre
 date_start: 2008-03-05
 date_end: 2008-03-08
 
+cast:
+- role: Richard Willy
+  name: Will Vickers
+- role: Jane
+  name: Victoria Auckland
+- name: Douggie McMeekin
+- name: Sara Ahmed
+- role: George
+  name: Tom Burke
+- name: Tim Watkins
+- name: Andy McNamee
+- name: Maelle Doliveux
+
 crew:
   - role: Director
     name: Johnny Steer
