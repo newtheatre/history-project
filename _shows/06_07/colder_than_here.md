@@ -15,6 +15,8 @@ crew:
 cast:
  - role: Myra
    name: Maia Gibbs
+ - name: Fran Roper
+ - name: Ali Blackwell
 
 prod_shots: Dk5WqL
 
