@@ -28,7 +28,7 @@ crew:
 - role: Assistant Director
   name: Skylar Turnbull Hurd
 - role: Technical Director
-  name: Ravin Thakar
+  name: Ravin Thakrar
 - role: Lighting Designer
   name: Darcey Graham
 - role: Sound Designer
@@ -48,7 +48,7 @@ links:
   author: Kev Castle
   title: "\"Vaginal Discharge\" by Florence Bell"
   date: 2018-05-14
-  quote: "The four, all female cast set out to educate the male majority audience tonight, and I found myself being educated in an entertaining way, not unlike Eve Ensler's ground breaking "Vagina Monologues". You really do leave the theatre a little wiser than when you went in."
+  quote: "The four, all female cast set out to educate the male majority audience tonight, and I found myself being educated in an entertaining way, not unlike Eve Ensler's ground breaking \"Vagina Monologues\". You really do leave the theatre a little wiser than when you went in."
 ---
 
 ‘Say all the words. Say all of them. Never concede. If you’re going to do something, do it 100%. Say the words. Vaginal discharge. Vaginal discharge. Vaginal discharge. Say them. Used tampon. A used tampon. Mooncup. Menstrual blood, periods. I’ve decided that these things are just words.’ Four people. Three women, one man. Three people with vaginas, one without. Four separate ways of living. 
