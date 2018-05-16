@@ -16,7 +16,7 @@ cast:
 - role: Charlotte
   name: Amelia Bell
 - role: Rupert
-  name: Ronan Sulliban
+  name: Ronan Sullivan
 - role: Mr Bradshaw
   name: Ethan McCrystal
 - role: Miranda
