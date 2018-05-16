@@ -10,7 +10,7 @@ venue: New Theatre
 
 cast:
 - role: Aidan
-  name: Zac Collins
+  name: Zack Collins
 - role: Sam
   name: Charlie Basley
 - role: Charlotte
@@ -32,7 +32,7 @@ crew:
 - role: Technical Director
   name: Zoe Smith
 - role: Shadow Technical Director
-  name: Dan McVey
+  name: Daniel McVey
 - role: Lighting Designer
   name: Joe Strickland
 - role: Shadow Lighting Designer
