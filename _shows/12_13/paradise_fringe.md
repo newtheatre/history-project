@@ -36,6 +36,16 @@ assets:
     video: 4VsDMj8
     title: Trailer
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/02/nottingham-new-theatre-uncut-paradise/
+    snapshot: o6dZA
+    publisher: Impact Nottingham
+    author: Annelies Baneke
+    title: "Nottingham New Theatre Uncut: Paradise"
+    date: 2013-02-05
+    quote: "In the words of the director in an interview for Impact, “When anyone goes to any theatre, they know exactly what’s happening. They know where it is, they know they’ll sit in a seat for an hour, have a little break, then do the same again, and invariably they’ll know the plot.” There’s a lot more than that to Paradise; it’s an example of real creative and performing talent, and is full of mystery, but it’s only on for one more night. You really should go – I dare you…"
+
 ---
 Paradise takes place on one unusual night on the London Underground.
 How unusual this night is however, depends on who you are.

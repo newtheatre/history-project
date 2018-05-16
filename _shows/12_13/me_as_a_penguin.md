@@ -54,6 +54,16 @@ assets:
     image: PsdBmBZ
 published: true
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/02/me-as-a-penguin-the-nottingham-new-theatre/
+    snapshot: JEI86
+    publisher: Impact Nottingham
+    author: Eve Wersocki Morris
+    title: "Me, As a Penguin @ Nottingham New Theatre"
+    date: 2013-02-20
+    quote: "Yes, this production had only two weeks to prepare, and they did a jolly good job, but sadly missed the level of excellence expected of even ‘two-weekers’ at Nottingham’s student theatre."
+
 prod_shots: GGpqn2
 ---
 
