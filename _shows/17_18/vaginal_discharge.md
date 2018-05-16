@@ -41,6 +41,15 @@ assets:
   image: b94TpnC
 
 links:
+  - type: Review
+    href: https://impactnottingham.com/2018/05/vaginal-discharge-nnt/
+    snapshot: GLUvm
+    publisher: Impact Nottingham
+    author: Esther Kearney
+    title: "Vaginal Discharge @ Nottingham New Theatre"
+    date: 2018-05-15
+    rating: 10/10
+    quote: "In my opinion, this is a play that everybody needs to go and see. It’s educational but not condescending, breaching topics that are still seen as taboo today in a way that is both accessible and inclusive."
 - type: Review
   href: http://kevcastletheatrereviews.blogspot.co.uk/2018/05/vaginal-discharge-by-florence-bell.html
   snapshot: cTzkd
