@@ -8,11 +8,6 @@ venue: Trent, Performing Arts Studio
 date_start: 2012-11-03
 date_end: 2012-11-06
 
-tour:
-- venue: NSDF 2013
-- date_start:
-- date_end:
-
 cast:
   - role: Eliot
     name: Andy Routledge
