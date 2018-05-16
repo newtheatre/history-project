@@ -39,6 +39,8 @@ crew:
 assets:
 - type: poster
   image: b94TpnC
+  
+prod_shots: RqGrJm
 
 links:
 - type: Review
