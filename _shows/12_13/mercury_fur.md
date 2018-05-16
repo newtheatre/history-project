@@ -70,6 +70,15 @@ tour:
 - date_end:
 - notes: Acting Commendation  |  Laura Gallop for Naz In Mercury Fur
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/11/mercury-fur-nottingham-new-theatre-2/
+    snapshot: kTMJT
+    publisher: Impact Nottingham
+    author: Jonathan Newsome
+    title: "Mercury Fur @ Nottingham New Theatre"
+    date: 2012-11-04
+    quote: "In some respects, I feel Mercury Fur is a contemporary play that is possibly ahead of its time; a play some audiences may not yet be equipped to tackle and accept."
 
 assets:
   - type: poster
