@@ -59,6 +59,17 @@ assets:
   
 prod_shots: D9fqTL
 
+links:
+- type: Review
+  href: https://impactnottingham.com/2018/05/nsfw-nnt/
+  snapshot: L90ya
+  publisher: Impact Nottingham
+  author: Ayisha Sharma
+  title: "NSFW @ NNT"
+  date: 2018-05-17
+  rating: 9/10
+  quote: "Is the acute desire to be sexually valued by men a legitimate one, or just another symptom of the f***d-up world we live in? And even if it's the latter, do we have any right to police the actions of women who want to be on the cover of publications like 'The Doghouse.' It's precisely because NSFW forces us to ask ourselves these questions that it is a must-see production."
+
 ---
 
 Sam wants to be a journalist. Despite the extra degree, the extra debt and the extra work experience, he’s still on the bottommost rung of the editorial ladder, at a bottommost lad’s magazine. Doghouse is far from fantastic and his co-workers are pretty similar; Charlotte might be nice, but Rupert’s an upper-class annoyance and Aiden’s oddly difficult to pin down. But Sam thinks he can make the best of it and at least do his job properly. Right?
