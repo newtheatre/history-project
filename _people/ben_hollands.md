@@ -1,6 +1,6 @@
 ---
 title: Ben Hollands
-submitted: 2016-02-01
+submitted: 2018-05-18
 headshot: BT46JH7
 gender: male
 course:
