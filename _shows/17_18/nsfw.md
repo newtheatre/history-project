@@ -46,7 +46,7 @@ crew:
 - role: Technical Operator
   name: Florence Bell
 - role: Technical Operator
-  name: Rohanna Brown
+  name: Sam Osborne
 - role: Technical Operator
   name: Maddy Strauss
   
