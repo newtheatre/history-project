@@ -103,7 +103,7 @@ links:
     publisher: Kev Castle Reviews
     author: Kev Castle
     title: "\"Dirk Gently's Holistic Detective Agency\" Nottingham New Theatre"
-    date: 2018-05-03
+    date: 2018-05-10
     quote: "I'm not sure how to describe this play, or more to the point, I'm not sure what words describe what I've seen. Don't get me wrong, this is a good thing, but this play is so different to anything that I've seen and is so off the wall, but is also so idiotically entertaining and zany."
 
 ---
