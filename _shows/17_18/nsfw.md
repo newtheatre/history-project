@@ -69,14 +69,14 @@ links:
   date: 2018-05-17
   rating: 9/10
   quote: "Is the acute desire to be sexually valued by men a legitimate one, or just another symptom of the f***d-up world we live in? And even if it's the latter, do we have any right to police the actions of women who want to be on the cover of publications like 'The Doghouse.' It's precisely because NSFW forces us to ask ourselves these questions that it is a must-see production."
-  - type: Review
-    href: http://kevcastletheatrereviews.blogspot.co.uk/2018/05/nsfw-by-lucy-kirkwood-nottingham-new.html
-    snapshot: wLtGG
-    publisher: Kev Castle Reviews
-    author: Kev Castle
-    title: "\"NSFW\" Nottingham New Theatre"
-    date: 2018-05-17
-    quote: "Why this beautifully crafted piece of writing has not been performed more I don't know. The cast have many pages of script each but the fluidity of the script and timing of this cast make this another classy as well as classic NNT production."
+- type: Review
+  href: http://kevcastletheatrereviews.blogspot.co.uk/2018/05/nsfw-by-lucy-kirkwood-nottingham-new.html
+  snapshot: wLtGG
+  publisher: Kev Castle Reviews
+  author: Kev Castle
+  title: "\"NSFW\" Nottingham New Theatre"
+  date: 2018-05-17
+  quote: "Why this beautifully crafted piece of writing has not been performed more I don't know. The cast have many pages of script each but the fluidity of the script and timing of this cast make this another classy as well as classic NNT production."
 
 ---
 
