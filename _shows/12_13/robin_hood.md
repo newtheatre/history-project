@@ -56,6 +56,16 @@ crew:
   - role: Chroeography
     name: Kat Tye
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/06/robin-hood-nottingham-new-theatre/
+    snapshot: vkjle
+    publisher: Impact Nottingham
+    author: Emily Goshorn
+    title: "Posh @ Nottingham New Theatre"
+    date: 2013-06-20
+    quote: "Overall, this musical treat is a riotously fun way to end this year’s New Theatre season, so pull on your green tights and steal a ticket for the final performance if necessary."
+
 assets:
   - type: poster
     image: cPcc5wM

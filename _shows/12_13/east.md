@@ -57,7 +57,19 @@ crew:
     name: Dimitrios Darzentas
   - role: Photography
     name: Nick Barker
+
 prod_shots: dvVPZh
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/05/east-nottingham-new-theatre/
+    snapshot: nKIE7
+    publisher: Impact Nottingham
+    author: Ali Blatcher
+    title: "East @ Nottingham New Theatre"
+    date: 2013-05-02
+    quote: "If you want a storytelling experience then this production is not for you. But if you want a rollercoaster ride with twists, turns and loop-the-loops then East will satisfy your every need."
+
 
 assets:
   - type: poster

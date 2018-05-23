@@ -42,6 +42,16 @@ assets:
   - type: poster
     image: JVVL29n
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/05/nottingham-new-theatre-uncut-little-red/
+    snapshot: Xdc2H
+    publisher: Impact Nottingham
+    author: Radhika Chond
+    title: "Nottingham New Theatre Uncut: Little Red"
+    date: 2013-05-07
+    quote: "I would definitely recommend watching this alternative take on a story that many of us hold familiar. Well done to Director Eve Wersocki Morris for an intense and unique performance!"
+
 prod_shots: RvnCQ5
 ---
 

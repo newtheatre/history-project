@@ -126,6 +126,15 @@ assets:
 
 prod_shots: S4pKW6
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/05/frankenstein-nottingham-new-theatre/
+    snapshot: x05vk
+    publisher: Impact Nottingham
+    author: Katy Roe
+    title: "Frankenstein @ Nottingham New Theatre"
+    date: 2013-05-16
+    quote: "A very ambitious first attempt at re-styling Shelley’s novel which I think will improve throughout its run. As indicated by the director’s invite to critique the play in the programme, I believe this adaptation has much more to give."
 ---
 
 Frankenstein follows the gradual mental and physical deterioration of Victor Frankenstein following his creation of a living being, a reanimated corpse as part of his experiment to beat death. Things spiral out of control and Victor’s life is ruined. A tragic and moving piece of theatre with elements of dance, physical theatre, song, acapella, and great performances from one of the most popular cultural works of the last 200 years.

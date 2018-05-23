@@ -39,6 +39,16 @@ assets:
   - type: poster
     image: qtphrP4
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/03/the-last-of-the-haussmans-nottingham-new-theatre-uncut-season/
+    snapshot: BvkxX
+    publisher: Impact Nottingham
+    author: Alice McCaffrey
+    title: "Nottingham New Theatre Uncut: The Last of the Haussmans"
+    date: 2013-03-12
+    quote: "A great play, a great cast, a great night out (or in) with the Haussmans! The directors did a superb job with a mammoth of a play."
+
 prod_shots: mD6gXn
 ---
 
