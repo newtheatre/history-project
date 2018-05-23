@@ -55,6 +55,16 @@ assets:
   - type: poster
     image: zcmXrw7
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/11/1984-nottingham-new-theatre/
+    snapshot: PRRmM
+    publisher: Impact Nottingham
+    author: Alice Child
+    title: "1984 @ Nottingham New Theatre"
+    date: 2012-11-30
+    quote: "This version of 1984 is a triumph; managing to portray extremely challenging topics and scenes professionally within the constraints of  an unconventional staging environment.  I would highly recommend seeing this outstanding piece of theatre."
+
 prod_shots: ZMVCKk
 ---
 

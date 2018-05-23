@@ -52,6 +52,16 @@ assets:
   - type: poster
     image: crPgHNk
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/04/educating-rita-nottingham-new-theatre/
+    snapshot: mSiU9
+    publisher: Impact Nottingham
+    author: Jenna Hutber
+    title: "Educating Rita @ Nottingham New Theatre"
+    date: 2013-04-25
+    quote: "It can be enjoyed much like a Haagen Daz pralines and cream; slowly, luxuriously, savouring every last minute. This is an all- round pleasure, and an unrepeatable production."
+
 prod_shots: 4PNWCh
 ---
 

@@ -54,6 +54,16 @@ crew:
 assets:
   - type: poster
     image: tcXJqWH
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/06/the-comedy-of-errors-nottingham-new-theatre/
+    snapshot: YG4Vn
+    publisher: Impact Nottingham
+    author: Rachel Considine
+    title: "The Comedy of Errors @ Nottingham New Theatre"
+    date: 2013-06-04
+    quote: "As the blurb on the Nottingham New Theatre website suggests: ‘Things could go horribly wrong. Or they could go horribly, horribly right’. I think it is clear this production of The Comedy of Errors pulled off the latter."
 ---
 
 A co-production between Fine Frenzy Theatre and The Nottingham New Theatre

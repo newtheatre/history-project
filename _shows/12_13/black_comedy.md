@@ -62,6 +62,16 @@ assets:
     image: LFgJS8X
 
 prod_shots: QjMHKp
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/11/black-comedy-nottingham-new-theatre/
+    snapshot: vH4MC
+    publisher: Impact Nottingham
+    author: Eve Wersocki Morris
+    title: "Black Comedy @ Nottingham New Theatre"
+    date: 2012-11-15
+    quote: "The physical comedy was perfectly blocked, yet, and perhaps this was a restraint of the script, I found myself wanting more."
 ---
 
 Black comedy is a farce set entirely in a pitch black flat, as a power cut leaves the audience the only ones not groping in the dark. With soft drinks mixed up with alcohol bottles and priceless antiques left lying around, the power cut quickly leads to chaos. Blind chaos.

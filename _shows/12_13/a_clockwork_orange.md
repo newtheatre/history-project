@@ -56,6 +56,16 @@ assets:
   - type: poster
     image: rCCdDhq
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/03/clockwork-orange-nottingham-new-theatre/
+    snapshot: b0tWe
+    publisher: Impact Nottingham
+    author: Hyeran Kim
+    title: "Clockwork Orange @ Nottingham New Theatre"
+    date: 2013-03-21
+    quote: "If you are a fan of the original novel or film, do not expect a dramatic retelling, instead imagine it with a shot of youth and screwball animation."
+
 prod_shots: LXKVTq
 
 ---

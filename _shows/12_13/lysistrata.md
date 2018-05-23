@@ -83,6 +83,16 @@ assets:
     video: 484MvZf
     title: Backstage At
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/04/lysistrata-lakeside-arts-centre/
+    snapshot: BMh9d
+    publisher: Impact Nottingham
+    author: Radhika Chond
+    title: "Lysistrata @ Lakeside Arts Centre"
+    date: 2013-04-24
+    quote: "From the moment Lysistrata opened with its musical number to the final bows of the cast, it did not fail to induce continuous  laughter."
+
 prod_shots: jnNkKq
 ---
 

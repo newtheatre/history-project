@@ -38,6 +38,16 @@ assets:
   - type: poster
     image: hvn7jT3
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/11/nottingham-new-theatre-uncut-no-exit/
+    snapshot: 6jWvq
+    publisher: Impact Nottingham
+    author: Jessica Lundholm
+    title: "Nottingham New Theatre Uncut Presents No Exit"
+    date: 2012-11-27
+    quote: "Neck-craning aside, a neatly produced production of Sartre’s classic with a fine cast that will leave you wondering who you would like to be in Hell with!"
+
 prod_shots: sqVqKs
 ---
 

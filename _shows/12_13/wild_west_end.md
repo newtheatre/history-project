@@ -34,5 +34,15 @@ assets:
     title: Soundtrack
 
 prod_shots: 9CnkkD
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/02/wild-west-end-nottingham-new-theatre/
+    snapshot: ZaavS
+    publisher: Impact Nottingham
+    author: Lydia Hawthorn
+    title: "Wild West End @ Nottingham New Theatre"
+    date: 2013-02-08
+    quote: "It’s one downfall is a slightly inferior plot line in the face of such high quality musical numbers but, for lovers of all things musical theatre, Wild West End certainly provides humour, great vocal talents and the revue-style show it promises."
 ---
 

@@ -55,6 +55,16 @@ assets:
     image: BLBgZWm
 
 prod_shots: pkW8Vv
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/11/the-memory-of-water-nottingham-new-theatre/
+    snapshot: vzAYZ
+    publisher: Impact Nottingham
+    author: Amy McWalters
+    title: "Memory of Water @ Nottingham New Theatre"
+    date: 2012-11-11
+    quote: "Hughes says in his director’s note that he has ‘a personal connection to the play’ and this is evident throughout; the intense and realistic portrayal of differing forms of grief can only have come from a deep understanding of and care for the subject of the play."
 ---
 
 "Someone dies, you drink whiskey. It's normal, it's a sedative, it's what normal people do at abnormal times." Three sisters; Teresa, Mary and Catherine, come together before their mother's funeral, each haunted by their own demons, each possessing different memories of the same events. Darkly comic, the play shows that even in traumatic times, humour can be found anywhere.
