@@ -1,6 +1,7 @@
 ---
 title: The Dumb Waiter
 playwright: Harold Pinter
+venue: Lee Rosy's Tea Room
 season: UNCUT
 season_sort: 265
 period: Spring
