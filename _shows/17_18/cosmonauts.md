@@ -6,7 +6,7 @@ season_sort: 330
 period: Spring
 venue: New Theatre
 date_start: 2018-05-23
-date_end: 2018-05-26x
+date_end: 2018-05-26
 
 cast:
 - role: Oleg
