@@ -10,6 +10,11 @@
   short: Is this venue virtual / generated at runtime
   generated: true
 
+- attr: links
+  type: array
+  short: A link list to official websites, social media, articles, etc.
+  description: "Uses [link list](/docs/link-list/) hashes. Should implement type, and href, can optionally use title. Common types are listed in [_data/link-types.yaml](https://github.com/newtheatre/history-project/blob/master/_data/link-types.yaml)."
+
 - attr: built
   type: number
   short: Year the venue was constructed

@@ -17,9 +17,14 @@ class: venue
   <div class="venue-info venue-header__col">
     {{ page.content }}
     <div class="venue-info__meta">
-      {% if page.built %}<span><i class="ion-calendar"></i> {{ page.built }}</span>{% endif %}
-      {% if page.city %}<span><i class="fa fa-building"></i> {{ page.city }}</span>{% endif %}
-      <span><i class="fa fa-ticket"></i> {{ page.shows.size }} shows</span>
+      <p>
+        {% if page.built %}<span><i class="ion-calendar"></i> {{ page.built }}</span>{% endif %}
+        {% if page.city %}<span><i class="fa fa-building fa-fw"></i> {{ page.city }}</span>{% endif %}
+        <span><i class="fa fa-ticket fa-fw"></i> {{ page.shows.size }} shows</span>
+      </p>
+      {% if page.links %}
+        {% include link-list.html links=page.links %}
+      {% endif %}
     </div>
   </div>
 

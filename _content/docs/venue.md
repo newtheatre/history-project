@@ -24,6 +24,13 @@ images:
 location:
   lat: 52.9419
   lon: -1.1995
+links:
+	- type: default
+		title: Lincoln Hall Website
+		href: http://www.nottinghamconferences.co.uk/lincoln-hall/
+	- type: Twitter 
+		title: @LincolnLibrary
+		username: LincolnLibrary
 ---
 
 Lincoln Library, also called Coveney Library, is a hall library located directly north of the New Theatre.
