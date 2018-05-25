@@ -34,7 +34,7 @@ crew:
 - role: Technical Director
   name: Ben Woodford
 - role: Lighting Designer
-  name: Georgi Paxton
+  name: Georgi Locke
 - role: Sound Designer
   name: Joe Strickland
 - role: Stage Manager
