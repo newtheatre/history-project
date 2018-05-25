@@ -50,9 +50,11 @@ The process of getting a change committed and a pull request opened may seem dau
 
 Firstly you'll need to create your own _fork_ of the respository on which to work. This is your own version so you can make your changes without worrying about affecting the main site. 
 
-Head over to the [repository][gh-repo] and hit the _<i class="octicon octicon-repo-forked"></i> Fork_ button up top-right. You'll need to create a free GitHub account if you don't have one already. Now you're ready to start editing!
+Head over to the [repository][gh-repo] and hit the _<i class="octicon octicon-repo-forked"></i> Fork_ button up top-right. You'll need to [create a free GitHub account](https://github.com/join/) if you don't have one already. Now you're ready to start editing!
 
 #### Using the web interface (github.com)
+
+<iframe class="youtube" src="https://www.youtube.com/embed/yC2aBvMgTzg?showinfo=0&color=white&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 
 1. Find the file you want to edit. Shows are stored in the `_shows` folder, people in `_people`, _etc._ See the [editing documentation](/docs/editing/) for more information on actually making your edit and how the files are arranged. The _Find file_ button is quite useful for this.
 2. Click the <i class="octicon octicon-pencil"></i> pencil in the top right to start an edit.
@@ -72,6 +74,14 @@ This method requires a certain amount of technical knowledge but is a lot more f
 The command line isn't for everyone, and that's why other bits of software exist. We've tried [Gitkraken](http://gitkraken.com) and [GitHub Desktop](https://desktop.github.com/), and the Git website has a [full list of options][git-guis].
 
 The concept is exactly the same as above: clone, branch and commit. 
+
+#### Building the site locally 
+
+By editing on your computer, you can run the entire site and preview changes before pushing them to GitHub. You should have a good knowledge of Git and the command line before doing this.
+
+See [README.md](https://github.com/newtheatre/history-project/blob/master/README.md) for up to date install instructions.
+
+Getting the site running on your machine locally is easy to do on Mac and Linux. It _can_ be done on Windows, but it's tricky. The website [Run Jekyll on Windows](http://jekyll-windows.juthilo.com/) has a full tutorial on how to do this.
 
 #### Writing a good commit message
 
@@ -112,7 +122,7 @@ Now you've made one or more commits it's time to open a _pull request_ to reques
 
 Do bear in mind the smaller the proposed change, the better. If you'd like to propose two unrelated changes, create two branches and submit two pull requests.
 
-All pull requests get built to a testing environment, and go through some automated code checks.
+All pull requests get built to a testing environment, and go through some automated code checks. Ensure you have a verified email address with GitHub otherwise your changes will not trigger a build.
 
 Just like commits, it's possible to add a subject and message for your pull request. It's useful here to explain what you've still got to work on in the message. For example, you could make a pull request for a work in progress (denoted by `WIP` in the subject) so that others know you're working on it, but that it's not ready for merging.
 
