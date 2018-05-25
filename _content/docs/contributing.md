@@ -10,15 +10,21 @@ Hey! Interested in helping out with the project? We'd love your help.
 
 Both the project's content and code to power it are stored in a _GitHub [repository][gh-repo]_. As such there are two types of work going on in parallel: editorial and technical. You can help out with either, or both! We plan and track work that needs doing in the [_issue tracker_][gh-issues] of our repository.
 
+If you're new to Git and GitHub, there are a [wealth of resources][gh-resources] on their website to get used to the basic technical concepts involved. Don't worry if you've never touched a line of code before - you can still contribute!
 
 ## Ways to contribute
 
 - Talk to alumni and [collect information and media](#-collecting-information).
-- Comment on some of the [project's issues](#-issues).
-- Read through current content, and click "improve this page" to [correct or add information](#-making-improvements).
+- Comment on some of the [project's issues](#-issues), clarifying queries or adding to the discussion.
+- Read through current site content, and click "improve this page" to [correct or add information](#-making-improvements).
 - Find an [open issue](#-issues) and submit a [proposed fix](#-making-improvements).
-- Help evaluate open pull requests, by reading through and testing what's proposed.
+- Help evaluate [open pull requests][gh-pulls], by reading through and [testing what's proposed](#-testing-pull-requests).
 
+## <i class="fa fa-envelope"></i> Collecting Information
+
+We've only collected a subset of all the shows the New Theatre has put on over the years. We need people to reach out to the alumni community and gather both memories of past shows and events and physical media from the time.
+
+If you fancy helping out, let one of the editors know by sending us an email at <history@newtheatre.org.uk>.
 
 ## <i class="octicon octicon-issue-closed"></i> Issues
 
@@ -30,35 +36,42 @@ The best way to get started is to read over what's currently open and start comm
 
 ### <i class="octicon octicon-issue-opened"></i> Creating a new issue
 
-Spotted an error on the site, have some information to share, or want to start a discussion on a particular topic? You need to [create an issue][gh-issues-new]. Be as descriptive as possible, for example if the issue involves a problem with the site try and include screenshots. Other contributors can then comment and someone can take a crack at fixing the problem.
-
+Spotted an error on the site, have some information to share, or want to start a discussion on a particular topic? You need to [create an issue][gh-issues-new]. Be as descriptive as possible. For example, if the issue involves a problem with the site try and include screenshots or instructions on how to reproduce it. Other contributors can then comment and someone can take a crack at fixing the problem.
 
 ## <i class="octicon octicon-repo-push"></i> Making improvements
 
-[Git][git-scm] is a _version control system_, we use it to keep track of changes to the project's files. This is a similar system to that used to track the history of articles on Wikipedia.
+[Git][git-scm] is a _version control system_, we use it to keep track of changes to the project's files. This is a similar system to that used to track the history of articles on Wikipedia. Every change made to every file on the site is logged in a _commit_, and when you've made one or more changes (commits), it can then be merged into the site with a _pull request_.
 
 ### <i class="octicon octicon-repo-forked"></i> Branching and making changes
 
-The process of getting a change committed and a pull request opened may seem daunting at first, but stick with it. Once you've done it the first time it's not too bad, honest!
+The process of getting a change committed and a pull request opened may seem daunting at first, but stick with it. Once you've done it the first time it's not too bad -- honest!
 
 #### Forking and branching
 
-Firstly you'll need to create your own _fork_ of the respository on which to work. Head over to the [repository][gh-repo] and hit the _<i class="octicon octicon-repo-forked"></i> Fork_ button up top-right. You'll need to create a free GitHub account if you don't have one already.
+Firstly you'll need to create your own _fork_ of the respository on which to work. This is your own version so you can make your changes without worrying about affecting the main site. 
+
+Head over to the [repository][gh-repo] and hit the _<i class="octicon octicon-repo-forked"></i> Fork_ button up top-right. You'll need to create a free GitHub account if you don't have one already. Now you're ready to start editing!
 
 #### Using the web interface (github.com)
 
-1. Find the file you want to edit. Shows are stored in the `_shows` folder, people in `_people` _etc._ See the [editing documentation](/docs/editing/) for more information on actually making your edit. The _Find file_ button is quite useful for this.
+1. Find the file you want to edit. Shows are stored in the `_shows` folder, people in `_people`, _etc._ See the [editing documentation](/docs/editing/) for more information on actually making your edit and how the files are arranged. The _Find file_ button is quite useful for this.
 2. Click the <i class="octicon octicon-pencil"></i> pencil in the top right to start an edit.
 
-#### Making edits locally on your computer
+#### Making edits locally on your computer (command line)
 
-This method requires a certain amount of technical knowledge but is a lot more flexible.
+This method requires a certain amount of technical knowledge but is a lot more flexible. It uses Git on the command line, and there are additional guides for [getting started](https://git-scm.com/doc) there.
 {: .box-info}
 
 1. Fork the project by clicking "Fork" in the top right corner of [newtheatre/history-project](https://github.com/newtheatre/history-project).
 2. Clone the repository locally `git clone https://github.com/<your-username>/history-project`.
 3. Create a new, descriptively named branch to contain your change `git checkout -b my-awesome-change`.
-4. Using your preferred editor, make your changes. See the editing page for more detailed information on this.
+4. Using your preferred text editor, make your changes. See the editing page for more detailed information on this and the text editors we use.
+
+#### Making edits locally on your computer (graphical methods)
+
+The command line isn't for everyone, and that's why other bits of software exist. We've tried [Gitkraken](http://gitkraken.com) and [GitHub Desktop](https://desktop.github.com/), and the Git website has a [full list of options][git-guis].
+
+The concept is exactly the same as above: clone, branch and commit. 
 
 #### Writing a good commit message
 
@@ -99,6 +112,14 @@ Now you've made one or more commits it's time to open a _pull request_ to reques
 
 Do bear in mind the smaller the proposed change, the better. If you'd like to propose two unrelated changes, create two branches and submit two pull requests.
 
+All pull requests get built to a testing environment, and go through some automated code checks.
+
+Just like commits, it's possible to add a subject and message for your pull request. It's useful here to explain what you've still got to work on in the message. For example, you could make a pull request for a work in progress (denoted by `WIP` in the subject) so that others know you're working on it, but that it's not ready for merging.
+
+As other editors of the site will be reviewing your pull request, include in the message what you'd like to draw to their attention such as specific feedback or any help you need.
+
+For further reading on pull requests do read Ben Balter's article: [The six types of pull requests][ben-balter-pulls]
+
 #### Submitting a pull request via the web interface (github.com)
 
 5. When commiting your changes select "<i class="octicon octicon-git-pull-request"></i> Create a new branch for this commit and start a pull request". Enter a short descriptive branch name.
@@ -108,20 +129,24 @@ Do bear in mind the smaller the proposed change, the better. If you'd like to pr
 
 That's it! You'll be automatically subscribed to receive updates as others review your proposed change and provide feedback.
 
+Using one of the other software-based options have a very similar process to the one above.
+
 #### Submitting a pull request via Git command line
 
 5. Push the branch up (`git push origin my-awesome-change`).
 6. Create a pull request by visiting `https://github.com/<your-username>/history-project` and following the instructions at the top of the screen.
 
+### <i class="octicon octicon-flask"></i> Testing Pull Requests
 
-## <i class="fa fa-envelope"></i> Collecting Information
+There are a number of ways to review an editor's pull request, and this can depend on what they're looking to get out of the review. The basics involve the automated checks, as well as adherence to our style guide, comments, efficiency, and so on.
 
-We've only collected a subset of all the shows the New Theatre has put on over the years. We need people to reach out to the alumni community and gather both memories of past shows and events and physical media from the time.
+You can also make sure the code runs effectively by running it on your own computer by building it, or viewing the edited pages in the test environment. A link to this test environment will be on the pull request page, once it's built successfully.
 
-If you fancy helping out let one of the editors know, send us an email at <history@newtheatre.org.uk>.
+### <i class="octicon octicon-verified"></i> Becoming a Contributor 
 
+If you decide making these kinds of edits and contributions is for you, we'd love to have you as part of [the team](https://github.com/orgs/newtheatre/people)! We're all volunteers here, and once you've had a few pull requests merged you'll be able to join the list of contributors. This means you won't have to make your own forks, and can edit the finer details of issues and pull requests.
 
-## Anything else
+## <i class="octicon octicon-question"></i> Anything else
 
 See the other pages here for more detailed information about each section of the site.
 
@@ -137,3 +162,6 @@ If you get stuck, or want to help out another way, send us an email at <history@
 
 [chris-beams-commits]: https://chris.beams.io/posts/git-commit/
 [gh-help-auto-close]: https://help.github.com/articles/closing-issues-via-commit-messages/
+[gh-resources]: https://help.github.com/articles/git-and-github-learning-resources/
+[git-guis]: https://git-scm.com/downloads/guis
+[ben-balter-pulls]: https://ben.balter.com/2015/12/08/types-of-pull-requests/
