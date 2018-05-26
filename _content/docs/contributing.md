@@ -56,7 +56,7 @@ Head over to the [repository][gh-repo] and hit the _<i class="octicon octicon-re
 
 <iframe class="youtube" src="https://www.youtube.com/embed/yC2aBvMgTzg?showinfo=0&color=white&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 
-1. Find the file you want to edit. Shows are stored in the `_shows` folder, people in `_people`, _etc._ See the [editing documentation](/docs/editing/) for more information on actually making your edit and how the files are arranged. The _Find file_ button is quite useful for this.
+1. Find the file you want to edit. Shows are stored in the `_shows` folder, people in `_people`, _etc._ See the [Editors' Guide](/docs/editing/) for more information on actually making your edit and how the files are arranged. The _Find file_ button is quite useful for this.
 2. Click the <i class="octicon octicon-pencil"></i> pencil in the top right to start an edit.
 
 #### Making edits locally on your computer (command line)
@@ -67,7 +67,7 @@ This method requires a certain amount of technical knowledge but is a lot more f
 1. Fork the project by clicking "Fork" in the top right corner of [newtheatre/history-project](https://github.com/newtheatre/history-project).
 2. Clone the repository locally `git clone https://github.com/<your-username>/history-project`.
 3. Create a new, descriptively named branch to contain your change `git checkout -b my-awesome-change`.
-4. Using your preferred text editor, make your changes. See the editing page for more detailed information on this and the text editors we use.
+4. Using your preferred text editor, make your changes. See the Editors' Guide for more detailed information on this and the text editors we use.
 
 #### Making edits locally on your computer (graphical methods)
 
