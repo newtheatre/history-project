@@ -40,7 +40,7 @@ Our CSS files are compiled using Sass to create a consistent look across all of 
 
 Marrying up a vast amount of data with static templates is no mean feat, and sometimes this data needs to be manipulated first. We do that with Ruby. 
 
-We've also got some Ruby plugins written for Jekyll on the side which allow us to, for instance, see people's commitee positions on their profiles.
+We've also got some Ruby plugins written for Jekyll on the site which allow us to, for instance, see people's commitee positions on their profiles.
 
 ## <i class="octicon octicon-file-submodule"></i> Where Things Live 
 
