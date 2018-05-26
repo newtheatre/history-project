@@ -1,71 +1,114 @@
 ---
 layout: docs
 group: docs
-title: Editing
+title: Editors' Guide
 order: 10
 ---
 
-This page needs rewriting as an intro to editing actual files on the site, where stuff is &c.
-{: .box-warning}
+This guide will take you through the types of code that are used throughout the site, where it's all stored, and our approximate coding style we use.
 
-To edit the site you have several options. To make direct edits you must be added as a trusted editor to the [repository](http://github.com/newtheatre/history-project) by an [owner](https://github.com/orgs/newtheatre/people) however you can propose edits straight away for an editor to merge in.
+Information about getting started and _how_ to edit can be found in our [Contributors' Guide](https://history.newtheatre.org.uk/docs/contributing). 
 
-You can either use the GitHub website or using a text editor on your computer. Either way you'll need a free GitHub account, you can [sign up here](https://github.com/join).
 
-Ensure you have a verified email address with GitHub otherwise your changes will not trigger a build.
+## <i class="octicon octicon-gist"></i> Languages and Syntaxes Used
 
-## Editing Online
+We use different languages and syntaxes for different areas of the site and indeed within files.
 
-### GitHub
+### Content Pages - Markdown and YAML
 
-<iframe class="youtube" src="https://www.youtube.com/embed/yC2aBvMgTzg?showinfo=0&color=white&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+Metadata for all content pages is written in YAML, and starts the file. The metadata exists between two `---` lines, like so:
+{% highlight markdown %}
+---
+title: Editors' Guide 
+--- 
+{% endhighlight %}
 
-To edit the site using the GitHub website click on the <strong class="tag"><i class="octicon octicon octicon-pencil"></i> Improve This Page</strong> button on the right hand edge of a page to launch the editor.
+The Kramdown flavour of Markdown is used for the content of all pages, from shows and people, to about pages and documentation. The [Kramdown syntax guide](http://kramdown.gettalong.org/syntax.html) is useful for the technical side of things, while our [Style Guide](#-style-guide) below is helpful for formatting. 
 
-If you're not a trusted editor you'll be prompted to create a _fork_ and will be led through the process of creating a pull request. Later an editor will check your changes are valid and merge them into the repo.
+**Tip:** YAML doesn't like tabs at all, or colons in strings. If you're indenting, use spaces, not tabs. If you've got a string (such as a URL or show title) with a colon in it, wrap it in quotes (`""` or `''`) and all will be well. 
+More YAML tips can be found [on GitHub](https://github.com/datatxt/awseome-yaml/blob/master/README.md).
 
-## Editing Locally
+### Template Pages - HTML and Liquid; CSS and Javascript
 
-<div class="box-info"><i class="fa fa-info-circle"></i>This method requires a certain amount of technical knowledge, but you can do different amounts with different levels of knowledge.</div>
+The History Site is a static site powered by [Jekyll](https://jekyllrb.com). It uses HTML to structure its pages, made more powerful with Jekyll's Liquid templating language. The templates use the metadata (known as _frontmatter_) to lay the page out in the correct way and put the data in the right places. 
 
-This is the more complicated option, the benefits are you can use a desktop text editor and run the entire site on your machine to preview changes before they go live. You should have knowledge of Git and the command line to do this.
+You can learn more about how Jekyll's templates work by reading [their documentation](https://jekyllrb.com/docs/templates/)
 
-See [README.md](https://github.com/newtheatre/history-project/blob/master/README.md) for up to date install instructions.
+Our CSS files are compiled using Sass to create a consistent look across all of our pages, and we have a number of Javascript functions running throughout. 
 
-Getting the site running on your machine locally is easy to do on Mac and Linux. It _can_ be done on Windows, but it's tricky. The website [Run Jekyll on Windows](http://jekyll-windows.juthilo.com/) has a full tutorial on how to do this.
+### Advanced Functionality - Ruby
 
-## Syntaxes Used
+Marrying up a vast amount of data with static templates is no mean feat, and sometimes this data needs to be manipulated first. We do that with Ruby. 
 
-A combination of HTML and Markdown (Kramdown variant) is used for marking up our pages. YAML is used for meta data and is documented for shows, committees etc here.
+We've also got some Ruby plugins written for Jekyll on the side which allow us to, for instance, see people's commitee positions on their profiles.
 
-The [Kramdown syntax guide](http://kramdown.gettalong.org/syntax.html) is useful for reference.
+## <i class="octicon octicon-file-submodule"></i> Where Things Live 
 
-## Where Things Live - Basic Editing
+When first looking at the repository in a text editor, it can seem quite big, and finding where things live will take a bit of time, yet most of the content storage itself is self-explanatory. 
 
-When first looking at the repository in a text editor, it can seem quite big, and finding where things live will take a bit of time, yet most of the content storage itself is self explanatory. For a basic contributor the main things you'll need to find are person files, show files and venue files. Individual person files live in the `_people/` folder from the main History Project repository. For info on how to format a person file, see the [People](https://history.newtheatre.org.uk/docs/person/) page. Files for individual shows live in the `_shows/` folder and are sorted by academic year, see the [Shows](https://history.newtheatre.org.uk/docs/show/) page. Venue files live in the `_venues/` folder, see the [Venues](https://history.newtheatre.org.uk/docs/venue/) page.
+The most commonly edited content files are person, show and venue files. 
 
-### Years
+|---
+| File | Lives in | Documentation Link
+| - | - | -
+| Show | `_shows/` | [Shows](https://history.newtheatre.org.uk/docs/show/)
+| Committee | `_committees/` | [Committees](https://history.newtheatre.org.uk/docs/committee/)
+| Person | `_people/` | [People](https://history.newtheatre.org.uk/docs/person/)
+| Venue |`_venues/` | [Venues](https://history.newtheatre.org.uk/docs/venue/)
+| - | - | -
+| Standalone Pages | `_content/` | [Above](#content-pages---markdown-and-yaml) 
+| Liquid Template | `_includes/`, `_layouts/` | [External - Jekyll](https://jekyllrb.com/docs/templates/)
+| Sass and CSS | `_sass/` | [External - Sass-Lang](https://sass-lang.com/)
+| Ruby Plugins | `_plugins/` | [External - Jekyll](https://jekyllrb.com/docs/plugins/)
 
-Years are one of the main attributes that are used within the project. These are important to get right and important for many different reasons. For more information on the correct formatting and usage, see the [Years](https://history.newtheatre.org.uk/docs/year/) page.
+For each of the below areas, click on the <i class="octicon octicon-book"></i> icon to go to the relevant page of the documentation.
 
-### Committees
+### Years [<i class="octicon octicon-book"></i>](https://history.newtheatre.org.uk/docs/year/)
 
-New committees are usually added by a [Project Editor](https://github.com/orgs/newtheatre/people) at the start of each academic year. Committee files are stored in the `_committees/` folder. We do get submissions from alumni with information regarding past committees and these can be added by anyone. For detailed information on how to format a committee file, see the [Committees](https://history.newtheatre.org.uk/docs/committee/) page.
+Years are one of the main attributes that are used within the project. These are important to get right and important for many different reasons. 
 
-### Person Lists
+### Committees [<i class="octicon octicon-book"></i>](https://history.newtheatre.org.uk/docs/committee/)
 
-These are used mainly to populate the cast and crew lists for shows. They are formatted in a particular way and this must be kept to otherwise other areas of the site could break or throw up errors as person lists are used to populate the person collection. For detailed information on formatting person lists, see the [Person List](https://history.newtheatre.org.uk/docs/person-list/) page.
+New committees are usually added by a [Project Editor](https://github.com/orgs/newtheatre/people) at the start of each academic year. Committee files are stored in the `_committees/` folder. We do get submissions from alumni with information regarding past committees and these can be added by anyone. 
 
-### Link Lists
+### People [<i class="octicon octicon-book"></i>](https://history.newtheatre.org.uk/docs/person-list/)
 
-These are used particularly for reviews placed within show files, but the list of possible links is expanding as we grow the site, so could change in the future. For formatting details see the [Link List](https://history.newtheatre.org.uk/docs/link-list/) page.
+You can't make a show without some people, but the History Project will generate people pages whenever they're in a list (below). However, dedicated pages can be created to specify things like course, career, photo, or a biography. 
 
-### Trivia
+### Person Lists [<i class="octicon octicon-book"></i>](https://history.newtheatre.org.uk/docs/person-list/)
 
-One of the things we love collecting for the History Project are little bits of trivia or anecdotes regarding shows. Be this a last minute cast change for one night or something that happened that amused the cast, these stories are a vital part of what makes the NNT the NNT. To find out how to format these sections, visit the [Trivia List](https://history.newtheatre.org.uk/docs/trivia-list/) page.
+These are used mainly to populate the cast and crew lists for shows. Check out the documentation for the formatting of lists, which is very important. For people without dedicated profiles, these lists allow for automatic generation of profiles. 
 
-### Photos and Assets
+### Venues [<i class="octicon octicon-book"></i>](https://history.newtheatre.org.uk/docs/venue/)
 
-The History projects visual records are stored in a [SmugMug Site](https://photos.newtheatre.org.uk/). Anyone can view the production shots from any of our shows, but the other archives are stored in a way that if you have a link to the folder you can view its contents. Any show videos, such as Trailers or Behind the Scenes videos are also stored here. If you have any items you feel would be useful to the History Project, please see the [Sending In Images](https://history.newtheatre.org.uk/upload/)page.
+As well as the New Theatre, we've taken shows all over the country, most frequently to the Edinburgh Festival Fringe. Each venue has its own page where the shows at that venue are listed. We want to know all about these venues, so information can be added in these content pages. 
 
-Any binary assets, (pdfs etc.) are stored in a specific folder in the repo. These are stored using Large File Storage, or LFS. if you have any of these type of assets that you think may be useful to the project, please email <{{site.email}}>.
+### Link Lists [<i class="octicon octicon-book"></i>](https://history.newtheatre.org.uk/docs/link-list/)
+
+These are used particularly for reviews placed within show files, but are also used for external links for both people and venues. The list of possible links is expanding as we grow the site, so could change in the future. 
+
+### Trivia [<i class="octicon octicon-book"></i>](https://history.newtheatre.org.uk/docs/trivia-list/)
+
+One of the things we love collecting for the History Project are little bits of trivia or anecdotes regarding shows. Be this a last minute cast change for one night or something that happened that amused the cast, these stories are a vital part of what makes the NNT the NNT. 
+
+### Photos and Assets [<i class="octicon octicon-book"></i>](https://history.newtheatre.org.uk/docs/photos-and-assets/)
+
+The History Project's visual records are stored in a [SmugMug Site](https://photos.newtheatre.org.uk/). This ranges from production shots and trailers, to backstage videos and lighting plans. Production shot galleries are public, but other archives, such as our album of headshots, are restricted such that only those with the link may view them in full (though individual photos crop up across the site). 
+
+We're always looking for more media, no matter the size. Whether it's photos and videos, or posters and programmes, we'll have it all. Check out [how to upload](https://history.newtheatre.org.uk/upload/). 
+
+Any binary assets, (pdfs etc.) are stored in a specific folder in the repository. These are stored using Large File Storage, or LFS. if you have any of these type of assets that you think may be useful to the project, please email <{{site.email}}>.
+
+## <i class="octicon octicon-checklist"></i> Style Guide 
+
+With many editors on our team, there are many tastes on how certain things should be displayed. To avoid [bikeshedding](https://en.wiktionary.org/wiki/bikeshedding), we've documented our preferences. This quick guide only covers content formatting - for code, we strive to cover the best practices of readability and commenting where necessary.
+
+### Referencing Titles 
+
+Given not all of the content areas of the site are displayed with Markdown, references to any title (show, TV programme, film, etc.) should be in single quotes (`'The Tempest' by William Shakespeare`) and not italicised. 
+
+### Quotes 
+
+Quotes should attempt to be as accurate as possible to the source, but understandably with short quotes context can be missed. If you're omitting part of a quote, insert `[...]` to indicate so. Cases at the start and end of quotes can be changed without indication (i.e., no need for `[T]he`).
+
+If you need to clarify a quote, for instance a name, just add or edit using square brackets. For example, `it was brilliant` could become `['The Tempest'] was brilliant`.
