@@ -14,7 +14,7 @@ crew:
 
 cast:
   - role: Valene
-    name: Ed Hancock
+    name: Edward Hancock
   - role: Coleman
     name: Jonny Steer
 
