@@ -16,7 +16,7 @@ cast:
   - role: Valene
     name: Edward Hancock
   - role: Coleman
-    name: Jonny Steer
+    name: Johnny Steer
 
 prod_shots: 5mN9pN
 
