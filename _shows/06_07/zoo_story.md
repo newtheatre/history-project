@@ -40,6 +40,15 @@ cast:
   - role: Peter
     name: Theo James
 
+links:
+  - type: Review
+    href: http://www.su-web2.nottingham.ac.uk/~impact/?p=715
+    snapshot: 4Y8Ew
+    publisher: Impact Nottingham
+    author: Bianca Leggett
+    title: "Zoo Story at New Theatre: Anything but tame..."
+    date: 2007-03-14
+    quote: "A strong ensemble of actresses playing the sisters, and a genuinely intimidating Bernada make this already excellent play come to life. A must see."
 ---
 
 Edward Albee's ground-breaking one-act play - lyrical, abrasive, daring and witty in theme and form. Two strangers meet in Central Park, and the ensuing dialogue, with a shocking ending, brings into question many of the values - family, friendship, security, ownership - that shapes our live.
