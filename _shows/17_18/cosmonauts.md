@@ -23,7 +23,6 @@ cast:
   person: false
 - role: Eric
   name: Paul Whickman
-  person: false
 - role: Claire
   name: Frea Waninge
   person: false
