@@ -39,6 +39,8 @@ crew:
   name: Beth Carter
 - role: Sound Designer
   name: Yasmine Dankwah
+- role: Set Designer
+  name: Nat Henderson
 - role: Technical Operator
   name: Laura Wolczyk
 - role: Technical Operator
@@ -49,7 +51,9 @@ crew:
   name: Sam Osborne
 - role: Technical Operator
   name: Maddy Strauss
-  
+- role: Poster Designer
+  name: Nat Henderson
+
 assets:
 - type: poster
   image: MQ5JcfF

@@ -41,6 +41,8 @@ crew:
   name: Tom Proffitt
 - role: Stage Manager
   name: Dom Bitten
+- role: Poster Designer
+  name: Nat Henderson
 
 assets:
   - type: poster
