@@ -5,6 +5,7 @@ $inner-width: 87%
 .docs
   @include grid-wrap
   margin-bottom: $baseline * 2
+
   .docs-nav
     @include grid-x-col(5)
     .docs-nav-inner
@@ -32,8 +33,13 @@ $inner-width: 87%
     h2
       font-size: 24px
       line-height: $baseline
+
   .docs-content
     @include grid-x-col(11)
+
+    img
+      max-width: 100%
+
 
 .docs-nav-tabs
   @include grid-clear

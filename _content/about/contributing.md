@@ -27,9 +27,9 @@ Please keep in mind all reports are public. You can see [all reports made using 
 
 ## Propose improvements <span class="headerlite">&ndash; suitable for all changes</span>
 
-The <strong class="tag"><i class="octicon octicon octicon-pencil"></i> Improve This Page</strong> button appears on pages suitable for direct edits. You will be led through creating a _fork_ of the repository, making changes and submitting a _pull request_.
+The <strong class="tag"><i class="octicon octicon octicon-pencil"></i> Improve This Page</strong> button appears on pages suitable for direct edits. By clicking on <strong>Propose Improvements</strong>, you will be taken through to our GitHub page to create a _fork_ of the repository, make your changes to that page, and submit a _pull request_.
 
-This process is a little bit more involved than the other two, see the [editing docs](/docs/editing/) for more information.
+This process is a little bit more involved than the other two, see the [Contributors' Guide](/docs/contributing/) for more information, or to learn how to make larger changes, such as to multiple pages or templates.
 
 ## Upload images <span class="headerlite">&ndash; for photographs and other media</span>
 
