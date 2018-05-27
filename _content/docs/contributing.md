@@ -50,7 +50,7 @@ The process of getting a change committed and a pull request opened may seem dau
 
 Firstly you'll need to create your own _fork_ of the respository on which to work. This is your own version so you can make your changes without worrying about affecting the main site. 
 
-Head over to the [repository][gh-repo] and hit the _<i class="octicon octicon-repo-forked"></i> Fork_ button up top-right. You'll need to [create a free GitHub account](https://github.com/join/) if you don't have one already. Now you're ready to start editing!
+Head over to the [repository][gh-repo] and hit the _<i class="octicon octicon-repo-forked"></i> Fork_ button at the top-right. You'll need to [create a free GitHub account](https://github.com/join/) if you don't have one already. Now you're ready to start editing!
 
 #### Using the web interface (github.com)
 
