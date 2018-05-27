@@ -17,3 +17,7 @@ assets:
 
 prod_shots: DVdGzx
 ---
+
+New Theatre's annual lolathon. Famous director Tony Lau has gathered together a bunch of talentless wannabes for your viewing pleasure.
+
+Multifarious expressions of performance art will be on display and it is up to you the audience to decide whether to vote with your pity card or talent card.

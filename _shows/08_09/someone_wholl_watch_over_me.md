@@ -31,3 +31,5 @@ assets:
 
 prod_shots: f54j2s
 ---
+
+An Englishman, Irishman and American are sitting in a cell in Lebanon. They have no idea why they’re there or who has captured them. They have no idea how long they’ll be there for. They have no idea if they’re going home, ever. Someone Who’ll Watch Over Me is a topical, darkly humorous play revolving around the trials and tribulations of three hostages trying to maintain their sanity in the face of loss and uncertainty. A testament to the essence of human resilience and laddish camaraderie.

@@ -25,3 +25,5 @@ assets:
   - type: poster
     image: xnNQ4JV
 ---
+
+A rambunctious, witty look at Student life - but written 2000 years ago! When his young playboy son finally takes too much of his money, old Strepsiades decides to pack him off to University. But when the boy refuses, the old man is forced to take his son’s place instead, where he will embark on a true journey of discovery and intellectual enlightenment, guided by some very odd hosts, where he is introduced to how the universe really operates… It’s a great big dose classic Greek comedy, full of smut, slapstick and swearing - definitely not one to be missed!

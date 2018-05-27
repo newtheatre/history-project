@@ -41,3 +41,5 @@ assets:
   - type: flyer
     image: psx3vGm
 ---
+
+Shakespeare’s timeless classic needs you to re-tell it. Romeo and Juliet, caught up in a family feud beyond their control, fight for their love and eventually die for it. The play shows the fierce dichotomy between love and hate, and the importance of staying true to a love you believe in even when the world around you seems to be going mad. In this original adaptation, we will stay true to the story whilst playing with the boundaries of physicality and experimenting with circus skills - think Cabaret, think bright colours and tumblers: think the final show of the New Theatre season. We’ll go out with a bang the size of a circus tent.

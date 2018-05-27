@@ -56,3 +56,5 @@ assets:
 
 prod_shots: SRSrxr
 ---
+
+A writer in a totalitarian state is interrogated about the gruesome content of his short stories and their similarities to a number of child-murders that are happening in his town. For actors the play offers one huge male leading role and three very large supporting males. The rest of the cast are small but integral to the production as they allow Katurian to show, and remember, the story of how he got to this. Martin McDonagh’s pitch black comedy is both funny and dramatic whilst, throughout, inviting the audience into a world where fiction seems to rapidly be turning into reality.
