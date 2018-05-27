@@ -146,7 +146,7 @@ Using one of the other software-based options have a very similar process to the
 5. Push the branch up (`git push origin my-awesome-change`).
 6. Create a pull request by visiting `https://github.com/<your-username>/history-project` and following the instructions at the top of the screen.
 
-### <i class="octicon octicon-flask"></i> Testing Pull Requests
+### <i class="octicon octicon-beaker"></i> Testing Pull Requests
 
 There are a number of ways to review an editor's pull request, and this can depend on what they're looking to get out of the review. The basics involve the automated checks, as well as adherence to our style guide, comments, efficiency, and so on.
 
