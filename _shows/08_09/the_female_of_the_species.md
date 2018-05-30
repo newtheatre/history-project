@@ -26,3 +26,9 @@ assets:
   - type: poster
     image: QknCBvG
 ---
+
+Thirty years ago Margot Mason, pioneer of the 1970’s Women’s liberation movement, wrote her groundbreaking work, “The Cerebral Vagina.”
+
+As she sits in her country house struggling to finish her new book a student, Molly Rivers, enters, handcuffs her to a desk, and pulls out a gun…
+
+A brilliant comedy juggling the ideas of feminism in a highly satirical and farcical manner.
