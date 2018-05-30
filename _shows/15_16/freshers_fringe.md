@@ -21,7 +21,7 @@ cast:
    note: Tom S's Group
  - name: Abi Davies
    note: Tom S's Group
- - name: Sam Edwards
+ - name: Samuel Edwards
    note: Tom S's Group
  - name: Inga Becker-Mansen
    note: Tom S's Group
