@@ -1,5 +1,5 @@
 ---
-title: The Cosmonaut's Last Message to the Woman He Loved in the Former Soviet Union
+title: The Cosmonaut's Last Message to the Woman He Once Loved in the Former Soviet Union
 playwright: David Greig
 season: Postgrads
 season_sort: 330
@@ -89,12 +89,12 @@ crew:
   name: Julie Liao
   person: false
 - role: Lighting Designer
-  name: Pierro Liuzzo Scorpo
+  name: Pietro Liuzzo Scorpo
   person: false
 - role: Lighting Designer
   name: Sam Osborne
 - role: Sound Designer
-  name: Pierro Liuzzo Scorpo
+  name: Pietro Liuzzo Scorpo
   person: false
 - role: Music
   name: Pete Iwanciw
@@ -117,7 +117,7 @@ crew:
 - role: Graphic Designer
   name: Sunny Hassan
   person: false
-- role: Props and Costume
+- role: Props and Costumes
   name: Giulia Grisot
   person: false
 
