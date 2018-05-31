@@ -12,7 +12,7 @@ cast:
   - name: Nick Medhurst
   - name: Ben Cave
   - name: Will Vickers
-  - name: Oli Margolis
+  - name: Oliver Margolis
   - name: Natalie Bull
   - name: David Cornish
 
