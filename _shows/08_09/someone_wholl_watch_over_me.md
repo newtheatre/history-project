@@ -29,6 +29,16 @@ assets:
   - type: poster
     image: vkFrqdq
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2009/03/someone-wholl-watch-over-me-the-new-theatre/
+    snapshot: b8MIF
+    publisher: Impact Nottingham
+    author: Julie Kinninmont
+    title: "Someone Who'll Watch Over Me @ Nottingham New Theatre"
+    date: 2009-03-05
+    quote: "A very well delivered exploration of the human condition at it’s most raw, “Someone Who’ll Watch Over Me”, though quite a lengthy play, is most certainly worth watching. You are advised to book quickly as the performance is set to be (deservedly) very popular!"
+
 prod_shots: f54j2s
 ---
 
