@@ -1,5 +1,6 @@
 ---
 title: "The Last 5 Years"
+playwright: Jason Robert Brown
 Music, Book & Lyrics: Jason Robert Brown
 season: External
 season_sort: 440
