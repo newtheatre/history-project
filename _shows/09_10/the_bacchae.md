@@ -28,6 +28,16 @@ assets:
   - type: poster
     image: ZQZFVLF
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2009/11/the-bacchae-new-theatre-by-stephen-lovejoy/
+    snapshot: AyljX
+    publisher: Impact Nottingham
+    author: Stephen Lovejoy
+    title: "The Bacchae @ Nottingham New Theatre by Stephen Lovejoy"
+    date: 2009-11-19
+    quote: "The music, effects and acting worked well to bring this challenging script to life in an atmospheric way and the build up to the climax was powerful. It was engaging and there were certainly enough screaming females to keep anybody satisfied. Definitely one that I’d recommend going to see."
+
 published: true
 ---
 

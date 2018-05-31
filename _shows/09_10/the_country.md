@@ -36,6 +36,16 @@ assets:
 
 prod_shots: jW4sSZ
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2009/11/the-country-the-new-theatre-2/
+    snapshot: 9JR6h
+    publisher: Impact Nottingham
+    author: Mav Reynolds
+    title: "The Country @ Nottingham New Theatre by Mav Reynolds"
+    date: 2009-11-02
+    quote: "This being said, I left the theatre feeling satisfied, with little desire to do anything but talk about this play, and yet unable to find words in which to frame my thoughts. Stunned would not be an overstatement. This is a play that you most certainly should not miss."
+
 published: true
 ---
 
