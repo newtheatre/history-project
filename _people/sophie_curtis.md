@@ -1,6 +1,6 @@
 ---
-title: Jess Donn
-headshot: 9hhtvsW
+title: Sophie Curtis
+headshot: vC6MwN4
 gender: female
 submitted: false
 ---
