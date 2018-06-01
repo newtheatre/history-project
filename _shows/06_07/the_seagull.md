@@ -42,6 +42,14 @@ links:
     title: "The Seagull"
     date: 2007-05-13
     quote: "Its a big claim but this New Theatre production, directed by Sam Grafton, might be the best piece of legitimate theatre seen in Nottingham so far this year."
+  - type: Review
+    href: https://impactnottingham.com/2007/05/the-seagull-at-lakeside/
+    snapshot: F0QvA
+    publisher: Impact Nottingham
+    author: Becca Wright
+    title: "The Seagull @ Nottingham New Theatre"
+    date: 2007-05-10
+    quote: "If you are planning a night of light-hearted escapism from the stresses of exams, you may be disappointed. I was left moved, and with plenty to think about, although I have to blame the play for my increased stress levels, having been left pondering what the seagull flying ahead actually represents. Any ideas?"
 ---
 
 The Seagull centers on the romantic and artistic conflicts of an ensemble cast of diverse and fully developed characters. Most centrally the aspiring actress Nina, the fading leading lady Irina Arkadina, her son the experimental playwright Konstantin Treplyov, and the famous middlebrow story writer Trigorin. This is a play about the pain of unrequited love and the power and problems of art.

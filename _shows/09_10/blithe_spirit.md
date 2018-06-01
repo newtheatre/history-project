@@ -36,6 +36,16 @@ assets:
   - type: poster
     image: gQwqXpq
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2009/11/blithe-spiritthe-new-theatre-by-mav-reynolds/
+    snapshot: GP4Rd
+    publisher: Impact Nottingham
+    author: Mav Reynolds
+    title: "Blithe Spirit @ Nottingham New Theatre by Mav Reynolds"
+    date: 2009-11-06
+    quote: "This is a play that leaves the audience with more questions than answers. I shall not bore you with all of mine, since you have already been subjected to several of them. It is, nevertheless, a play that can deliver."
+
 published: true
 ---
 

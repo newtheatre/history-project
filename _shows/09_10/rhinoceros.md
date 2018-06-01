@@ -76,6 +76,16 @@ assets:
     title: Backstage At
 
 published: true
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2009/12/rhinoceros-the-new-theatre-by-mav-reynolds/
+    snapshot: F7UnY
+    publisher: Impact Nottingham
+    author: Mav Reynolds
+    title: "Rhinoceros @ Nottingham New Theatre by Mav Reynolds"
+    date: 2009-12-03
+    quote: "It is a play that I would recommend very highly. The highest accolade that I can give it is that I cannot decide whether or not I like it, even whether or not I understand it. It will leave audiences talking for a long while to come."
 ---
 
 A Rhinoceros is running amok. Stories are sweeping the town. A cat has died as a direct result.
