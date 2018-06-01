@@ -47,7 +47,7 @@ links:
     snapshot: F0QvA
     publisher: Impact Nottingham
     author: Becca Wright
-    title: "The Pillowman @ Nottingham New Theatre"
+    title: "The Seagull @ Nottingham New Theatre"
     date: 2007-05-10
     quote: "If you are planning a night of light-hearted escapism from the stresses of exams, you may be disappointed. I was left moved, and with plenty to think about, although I have to blame the play for my increased stress levels, having been left pondering what the seagull flying ahead actually represents. Any ideas?"
 ---
