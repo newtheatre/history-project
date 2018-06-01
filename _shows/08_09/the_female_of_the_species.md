@@ -25,6 +25,16 @@ cast:
 assets:
   - type: poster
     image: QknCBvG
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2009/03/the-female-of-the-species-new-theatre/
+    snapshot: 3VYqK
+    publisher: Impact Nottingham
+    author: Anne Herlihy
+    title: "The Female of the Species @ Nottingham New Theatre"
+    date: 2009-03-12
+    quote: "A scholarly examination of feminism this is not, but a mirthless and satirical scrutiny it certainly is. Let’s hope feminism can take a joke."
 ---
 
 Thirty years ago Margot Mason, pioneer of the 1970’s Women’s liberation movement, wrote her groundbreaking work, “The Cerebral Vagina.”

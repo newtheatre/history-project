@@ -27,4 +27,14 @@ crew:
 assets:
   - type: poster
     image: kb6c29Q
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2008/12/accidental-death-of-an-anarchist-the-new-theatre/
+    snapshot: Xtw7C
+    publisher: Impact Nottingham
+    author: Becky Newberry
+    title: "Accidental Death of an Anarchist @ Nottingham New Theatre"
+    date: 2008-12-11
+    quote: "The play was mostly enjoyable to watch, but the ambiguity in the first act dragged, particularly with moments of too much anger from the police officers, which was meant that some of the comic moments were lost."
 ---
