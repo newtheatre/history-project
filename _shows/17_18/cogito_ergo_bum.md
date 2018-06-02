@@ -7,7 +7,7 @@ season: Fringe
 season_sort: 290
 date_start: 2018-05-07
 date_end: 2018-05-08
-venue: Studio A
+venue: New Theatre Studio A
 
 cast:
 - role: Tony

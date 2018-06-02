@@ -7,7 +7,7 @@ season: Fringe
 season_sort: 310
 date_start: 2018-05-14
 date_end: 2018-05-15
-venue: Studio A
+venue: New Theatre Studio A
 
 cast:
 - role: King
