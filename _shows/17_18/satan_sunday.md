@@ -7,7 +7,7 @@ season: Fringe
 season_sort: 270
 date_start: 2018-04-30
 date_end: 2018-05-01
-venue: Studio A
+venue: New Theatre Studio A
 
 cast:
 - role: Satan
