@@ -38,7 +38,7 @@ cast:
 
 crew:
 - role: Director
-  name: Ed Wiseman-Eggleton
+  name: Ed Eggleton
 - role: Producer
   name: Grace Lievesley
 - role: Technical Director
