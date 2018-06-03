@@ -17,6 +17,15 @@ cast:
   name: Daniella Finch
 - role: Tim
   name: Ian Sheard
+- role: Prime Minister
+  name: Beth Wilson
+  note: Radio Voice
+- role: Radio Voice
+  name: Jack Ellis
+- role: Radio Voice
+  name: George Waring
+- role: Radio Voice
+  name: Ben Woodford
 
 crew:
 - role: Director
