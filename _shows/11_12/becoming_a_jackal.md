@@ -27,4 +27,13 @@ assets:
   - type: poster
     image: NRSqdxF
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/02/new-theatre-uncut-becoming-a-jackal/
+    snapshot: MPYYr
+    publisher: Impact Nottingham
+    author: Louisa Clack
+    title: "New Theatre: Uncut - Becoming A Jackal
+    date: 2012-02-13
+    quote: "Even though the thought of an actor having direct eye contact with us can make the usual audience member squirm uncomfortably, I think it’s time to break through the fourth wall. Just sitting in the theatre and obeying the etiquette is starting to get a bit old!"
 ---
