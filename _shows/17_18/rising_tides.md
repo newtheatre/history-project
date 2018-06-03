@@ -46,6 +46,8 @@ crew:
   name: Matt Coverdale
 - role: Trailer Designer
   name: Keir Birchall
+- role: Venue Technician
+  name: Ben Woodford
 
 ---
 
