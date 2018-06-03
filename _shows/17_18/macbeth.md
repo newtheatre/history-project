@@ -50,7 +50,7 @@ crew:
 - role: Assistant Producer
   name: Lillian Race
 - role: Publicity Manager
-  name: Ben Woodford
+  name: Ted Marriott
 - role: Sound Designer
   name: Tara Prasad
 - role: Lighting Designer
