@@ -26,9 +26,13 @@ cast:
 - role: Gareth Warner
   name: George Waring
   note: Radio Voice
-- role: Radio Voice
+- role: World Service Announcer
   name: Ben Woodford
-
+  note: Radio Voice
+- role: Interviewer / Blackout Maverick Presenter
+  name: Bessie Ephgrave
+  note: Radio Voice
+  
 crew:
 - role: Director
   name: Emma White
@@ -42,6 +46,8 @@ crew:
   name: Joanne Blunt
 - role: Sound Designer
   name: Natalia Gonzalez Morales
+- role: Composer
+  name: Laurence Cuthbert
 - role: Poster Designer
   name: Matt Coverdale
 - role: Trailer Designer
