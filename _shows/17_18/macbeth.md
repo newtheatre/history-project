@@ -30,7 +30,7 @@ cast:
 - role: 1st Witch
   name: Sam Morris
 - role: 2nd Witch
-  name: Emma Pallet
+  name: Emma Pallett
 - role: 3rd Witch
   name: Angharad Davies
 - role: Multirole
