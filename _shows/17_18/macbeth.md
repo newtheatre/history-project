@@ -14,7 +14,7 @@ cast:
 - role: Lady Macbeth
   name: Leonora Hamilton-Shield
 - role: Banquo
-  name: Will Tillett
+  name: William Tillett
 - role: Macduff
   name: Alex Piechowski
 - role: Malcolm
