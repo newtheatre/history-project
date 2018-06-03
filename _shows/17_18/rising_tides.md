@@ -49,6 +49,12 @@ crew:
 - role: Venue Technician
   name: Ben Woodford
 
+assets:
+- type: poster
+  image: 5hH5VpD
+
+prod_shots: Zt2jr5
+
 ---
 
 'When a storm is on the horizon, we set our roots and mend our broken bonds to build stronger ties. We will not break, we will not move. I will not change for the people on the outside.’ Set thirty years in the future, Rising Tides offers a glimpse of British life when climate change becomes too great an issue to ignore. People begin to disappear as an electricity curfew is enforced by the government, and a disjointed family settles into its new way of life as the stakes keep getting higher. This exposing portrayal of nationalistic thinking combines powerful physical theatre with intimate monologues, revealing the human side of climate change. The water’s rising. Will you be home before the tide comes in?
