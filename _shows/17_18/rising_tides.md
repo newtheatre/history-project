@@ -17,7 +17,7 @@ cast:
   name: Daniella Finch
 - role: Tim
   name: Ian Sheard
-- role: Prime Minister
+- role: Prime Minister Jacqueline Owen
   name: Beth Wilson
   note: Radio Voice
 - role: Dr George Bambert
