@@ -20,10 +20,12 @@ cast:
 - role: Prime Minister
   name: Beth Wilson
   note: Radio Voice
-- role: Radio Voice
+- role: Dr George Bambert
   name: Jack Ellis
-- role: Radio Voice
+  note: Radio Voice
+- role: Gareth Warner
   name: George Waring
+  note: Radio Voice
 - role: Radio Voice
   name: Ben Woodford
 
