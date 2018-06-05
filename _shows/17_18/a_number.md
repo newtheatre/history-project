@@ -23,6 +23,12 @@ crew:
   name: Ollie Shortt
 - role: Lighting Designer
   name: Nathan Penney
+- role: Venue Technician
+  name: Ben Woodford
+  
+assets:
+- type: poster
+  image: p6vbQsj
 
 ---
 
