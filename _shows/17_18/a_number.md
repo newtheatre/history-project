@@ -4,7 +4,7 @@ playwright: Caryl Churchill
 season: External
 season_sort: 350
 period: Spring
-venue: New Theatre
+venue: New Theatre Studio A
 date_start: 2018-06-04
 date_end: 2018-06-05
 
