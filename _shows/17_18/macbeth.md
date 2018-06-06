@@ -59,6 +59,8 @@ crew:
   name: Joe Strickland
 - role: Assistant Set Builder
   name: Katie Fortune
+- role: Set Construction
+  name: Jack Ellis
 - role: Costume and Make-Up Designer
   name: Nat Henderson
 - role: Assistant Costume and Make-Up Designer
