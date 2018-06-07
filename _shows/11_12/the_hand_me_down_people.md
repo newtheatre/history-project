@@ -59,6 +59,14 @@ links:
     title: "FRINGE REVIEW – The Hand-Me-Down People, C Nova"
     rating: 4/5
     quote: "Writing is strong and multi-layered. A music box playing a never-changing selecion of tunes not only frustrates her fellow shelf-dwellers, but underscores the limbo they find themselves in."
+  - type: Review
+    href: https://impactnottingham.com/2012/08/the-hand-me-down-people-edinburgh-fringe/
+    snapshot: PNnzN
+    publisher: Impact Nottingham
+    author: Kiran Benawra
+    title: "The Hand-Me-Down People @ Edinburgh Fringe"
+    date: 2012-08-11
+    quote: "Handed down from Nottingham to Edinburgh The Hand Me Down People certainly does not lose any value, displaying an array of talent in all aspects of performance, a play for all the family…a quality that comes in handy at the Fringe."
 ---
 
 Ignored and abandoned on a dusty shelf, a group of outdated figurines await the inevitable. An allegorical and humorous tale about growing older.

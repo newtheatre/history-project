@@ -83,6 +83,16 @@ assets:
     image: B86XVns
     page: 6
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/03/innocent-infidelity-new-theatre/
+    snapshot: JJqfs
+    publisher: Impact Nottingham
+    author: Margaret Adeagbo
+    title: "Innocent Infidelity @ Nottingham New Theatre"
+    date: 2012-03-25
+    quote: "Wilmann has succeeded in creating an engrossing play in which the audience is given free rein to their imagination and are encouraged to reflect on the nature and outcome of infidelity and in this respect the play certainly does not disappoint."
+
 prod_shots: DnKhwP
 ---
 
