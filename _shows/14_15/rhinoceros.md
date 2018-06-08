@@ -56,7 +56,7 @@ crew:
   - role: Artwork
     name: Felix Taylor
   - role: Technical Operator
-    name: Dan O'Connor
+    name: Daniel O'Connor
   - role: Technical Operator
     name: Emma Fearon
   - role: Stage Manager
