@@ -55,6 +55,10 @@ crew:
     name: Max Miller
   - role: Artwork
     name: Felix Taylor
+  - role: Technical Operator
+    name: Dan O'Connor
+  - role: Technical Operator
+    name: Emma Fearon
   - role: Stage Manager
     name: Ollie Shortt
   - role: Stage Manager
