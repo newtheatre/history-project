@@ -25,6 +25,12 @@ crew:
     name: Jake Leonard
   - role: Producer
     name: Brendan Retter
+  - role: Lighting Designer
+    name: Lydia Scott
+  - role: Set Designer
+    name: Nada Fahmy Guirguis
+  - role: Set Designer
+    name: Fran Rylands
   - name: Bryony Blackler
   - name: Roger Smissen
   - role: Technical Operator
@@ -38,6 +44,16 @@ assets:
     title: Backstage At
 
 prod_shots: MZ97ds
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2011/11/look-back-in-anger-the-new-theatre/
+    snapshot: XPtHZ
+    publisher: Impact Nottingham
+    author: Roseannagh English
+    title: "Look Back in Anger @ Nottingham New Theatre"
+    date: 2011-11-06
+    quote: "There is no getting away from the fact that Look Back in Anger is a complicated cyclical play which deals with domestic relationships and how they can be affected by the corrosive effects of deeper psychological issues and frustrations."
 ---
 ‘I learnt at an early age what it was to be angry – angry and helpless.’
 

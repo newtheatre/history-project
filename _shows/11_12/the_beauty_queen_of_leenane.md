@@ -9,8 +9,14 @@ date_start: 2012-03-14
 date_end: 2012-03-17
 
 cast:
- - name: Ben Williamson
- - name: Cressida McGill
+ - role: Mag Folan
+   name: Cressida McGill
+ - role: Maureen Folan
+   name: Liz Stevens
+ - role: Rat Dooley
+   name: Ben Williamson
+ - role: Pato Dooley
+   name: Alex Hollingsworth
 
 crew:
   - role: Director
@@ -25,6 +31,16 @@ crew:
 assets:
   - type: poster
     image: NTKL53t
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/03/the-beauty-queen-of-leenane-new-theatre/
+    snapshot: b3wOU
+    publisher: Impact Nottingham
+    author: Alezander Mawby
+    title: "The Beauty of Queene Leenane @ Nottingham New Theatre"
+    date: 2012-03-18
+    quote: "Maureen and Mag arrive on the stage as an institution and, supported by the rest of the cast and the excellent set and lighting design, proceed to instantly envelop the audience into their created world."
 
 prod_shots: MLs3Sn
 ---

@@ -43,4 +43,13 @@ assets:
   - type: poster
     image: fqKFCWV
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/01/new-theatre-uncut-disastrous-dates-the-den/
+    snapshot: pbgfW
+    publisher: Impact Nottingham
+    author: Alex Mawby
+    title: "Nottingham New Theatre Uncut - Disastrous Dates @ The Den"
+    date: 2012-01-04
+    quote: "Disastrous Dates was in turn hilarious, fascinating and down-right awkward. It kept the audience rapt for the duration, which was just as long as it needed to be. A showcase of real comedic talent in acting, writing and directing and an excellent second show in the New Theatre’s external season."
 ---

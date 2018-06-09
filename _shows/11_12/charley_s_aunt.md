@@ -53,6 +53,16 @@ assets:
     image: mxw55Sk
 
 prod_shots: mMFMrF
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/06/charleys-aunt-new-theatre/
+    snapshot: X0bRI
+    publisher: Impact Nottingham
+    author: Lauren Wilson
+    title: "Charley's Aunt @ Nottingham New Theatre"
+    date: 2012-06-20
+    quote: "A combination of well developed lead performances and a classic script made for a farce which, although slow to start, gathered momentum in its second act resulting in a fabulous conclusion."
 ---
 
 Oxford University, 1892. The imminent arrival of Charley’s Aunt Donna Lucia, from Brazil, provides the perfect excuse for Charley and Jack to invite their young ladies to meet her. But when her visit is seemingly postponed, they persuade their eccentric friend Lord Fancourt Babberly to impersonate her. All is going well, until the real Aunt arrives…
