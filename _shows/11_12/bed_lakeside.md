@@ -71,7 +71,7 @@ links:
     snapshot: hpjF0
     publisher: Impact Nottingham
     author: Kiran Benawra
-    title: "New Theatre's Bed @ Lakeside Theatre
+    title: "New Theatre's Bed @ Lakeside Theatre"
     date: 2012-05-08
     quote: "Seven in the bed, accompanied by a head and a clever creative team, the New Theatre’s amateur production made an impressive debut in a professional venue and showcased a high level of talent in its first outing at the Lakeside Theatre."
 ---

@@ -42,7 +42,7 @@ links:
     snapshot: zL7DB
     publisher: Impact Nottingham
     author: Kiran Benawra
-    title: "Nottingham New Theatre Uncut - Tread Softly @ The Den
+    title: "Nottingham New Theatre Uncut - Tread Softly @ The Den"
     date: 2011-12-08
     quote: "With a mix of established and devised monologues, the cast successfully showcased a variety of different styles, comic and tragic, switching between conversational and physical theatre pieces. Tread Softly signals a change of direction for the New Theatre and definitely demonstrates exciting things to come in the external season."
 ---
