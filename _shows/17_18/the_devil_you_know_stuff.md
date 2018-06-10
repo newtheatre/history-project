@@ -2,7 +2,7 @@
 title: The Devil You Know
 playwright: Emma Summerton
 season: StuFF
-season_sort: 390
+season_sort: 410
 period: Spring
 venue: New Theatre
 date_start: 2018-06-16
