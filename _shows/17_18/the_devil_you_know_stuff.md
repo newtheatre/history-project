@@ -10,8 +10,8 @@ date_end: 2018-06-16
   
 crew:
 - role: Venue Technician
-  name: Rohanna Brown
+  name: Jack Ellis
 - role: Technical Operator
-  name: Darcey Graham
+  name: Laura Wolczyk
 
 ---
