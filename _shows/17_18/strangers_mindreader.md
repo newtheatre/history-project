@@ -1,5 +1,5 @@
 ---
-title: Strangers: Mindreader
+title: "Strangers: Mindreader"
 playwright: Joe Strickland
 season: StuFF
 season_sort: 380
