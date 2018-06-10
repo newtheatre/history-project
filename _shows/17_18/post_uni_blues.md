@@ -1,5 +1,5 @@
 ---
-title: Post-Uni Blues
+title: Bost-Uni Plues
 season: StuFF
 season_sort: 470
 period: Spring
