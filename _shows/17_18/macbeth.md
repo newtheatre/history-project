@@ -3,7 +3,7 @@ title: Macbeth
 playwright: William Shakespeare
 period: Spring
 season: In House
-season_sort: 360
+season_sort: 370
 date_start: 2018-06-12
 date_end: 2018-06-15
 venue: New Theatre
