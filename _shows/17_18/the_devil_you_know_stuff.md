@@ -1,5 +1,5 @@
 ---
-title: The Devil You Know
+title: "The Devil You Know: A Horror Play"
 playwright: Emma Summerton
 season: StuFF
 season_sort: 410
