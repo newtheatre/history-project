@@ -1,5 +1,6 @@
 ---
 title: Don't Bother
+playwright: Bróccán Tyzack-Carlin
 season: StuFF
 season_sort: 520
 period: Spring
