@@ -32,6 +32,7 @@ crew:
   name: Hannah McCullough
 - role: Lighting Designer
   name: Tom Proffitt
+- role: Lighting Programmer
 - role: Publicity Designer
   name: Zoe Robinson
   
