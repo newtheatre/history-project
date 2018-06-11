@@ -20,7 +20,7 @@ cast:
   - role: Book Salesman
     name: Nick Williams
   - role: Teacher
-    name: Eileen Coan
+    name: Eileen Coen
 
 crew:
   - role: Director
@@ -38,7 +38,7 @@ crew:
   - role: Sound Designer
     name: Mike Russell
   - role: Costumes
-    name: Cath Churchill
+    name: Catherine Churchill
 
 prod_shots: WfmjBD
 

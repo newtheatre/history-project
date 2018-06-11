@@ -36,7 +36,7 @@ crew:
   - role: Assistant Producer
     name: Cathy Ayton
   - role: Lighting Director
-    name: Matt Boyd
+    name: Matthew Boyd
   - role: Lighting Designer
     name: Matt Eastaugh
   - role: Sound Aquirer and compiler
