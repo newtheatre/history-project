@@ -18,7 +18,7 @@ cast:
    name: Maia Gibbs
  - name: Eleanor Yates
  - name: Georgie Strawson
- - name: Henry Proffit
+ - name: Henry Proffitt
  - name: Charlie Dupre
 
 links:

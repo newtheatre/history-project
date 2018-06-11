@@ -59,7 +59,7 @@ cast:
  - role: Chorus of Fairies
    name: Lynette McEwan
  - role: Chorus of Fairies
-   name: Susan Munroe
+   name: Sue Munroe
  - role: Chorus of Fairies
    name: Sarah Payler
  - role: Chorus of Fairies
