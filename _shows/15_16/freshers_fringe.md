@@ -35,8 +35,6 @@ cast:
    note: Tom P's Group
  - name: Olivia Wilson
    note: Tom P's Group
- - name: Georgina Brand
-   note: Tom P's Group
  - name: Ed Eggleton
    note: Tom P's Group
  - name: Hugh O'Keefe

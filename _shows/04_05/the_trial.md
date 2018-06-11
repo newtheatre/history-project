@@ -38,7 +38,7 @@ crew:
 
 cast:
   - role: Joseph K
-    name: Jim Rastall
+    name: James Rastall
   - role: Huld/Inspector
     name: Elliot Bhana
   - role: Miss Burstner/Leni
