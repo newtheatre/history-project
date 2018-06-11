@@ -33,6 +33,7 @@ crew:
 - role: Lighting Designer
   name: Tom Proffitt
 - role: Lighting Programmer
+  name: Jess Donn
 - role: Publicity Designer
   name: Zoe Robinson
   
