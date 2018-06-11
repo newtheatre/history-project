@@ -3,7 +3,7 @@ title: "Offending the Audience"
 playwright: Peter Handke
 period: Autumn
 season: In House
-season_sort: 85
+season_sort: 70
 venue: New Theatre
 date_start: 2008-11-08
 date_end: 2008-11-08
