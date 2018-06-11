@@ -2,7 +2,7 @@
 title: "Strangers: Pairs"
 playwright: Joe Strickland
 season: StuFF
-season_sort: 510
+season_sort: 490
 period: Spring
 venue: New Theatre
 date_start: 2018-06-17

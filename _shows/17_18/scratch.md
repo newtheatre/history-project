@@ -1,7 +1,7 @@
 ---
 title: SCRATCH
 season: StuFF
-season_sort: 490
+season_sort: 470
 period: Spring
 venue: New Theatre Studio A
 date_start: 2018-06-17

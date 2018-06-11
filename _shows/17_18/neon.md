@@ -1,7 +1,7 @@
 ---
 title: Neon
 season: StuFF
-season_sort: 500
+season_sort: 480
 period: Spring
 venue: New Theatre
 date_start: 2018-06-17

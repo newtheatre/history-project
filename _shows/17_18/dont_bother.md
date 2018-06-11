@@ -2,7 +2,7 @@
 title: Don't Bother
 playwright: Bróccán Tyzack-Carlin
 season: StuFF
-season_sort: 520
+season_sort: 500
 period: Spring
 venue: New Theatre Studio A
 date_start: 2018-06-17
