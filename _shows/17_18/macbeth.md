@@ -49,12 +49,12 @@ crew:
   name: Francis Simmons
 - role: Assistant Producer
   name: Lillian Race
-- role: Publicity Manager
-  name: Ted Marriott
 - role: Sound Designer
   name: Tara Prasad
 - role: Lighting Designer
   name: Zoe Smith
+- role: Technical Assistant
+  name: Nathan Penney
 - role: Set Designer
   name: Joe Strickland
 - role: Assistant Set Builder
@@ -65,6 +65,8 @@ crew:
   name: Nat Henderson
 - role: Assistant Costume and Make-Up Designer
   name: Annabel Freer
+- role: Publicity Manager
+  name: Ted Marriott
 - role: Poster Designer
   name: Emma Summerton
 - role: Head Stage Manager
