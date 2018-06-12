@@ -33,7 +33,7 @@ crew:
 - role: Sound Designer
   name: Emily Dimino
 - role: Composer
-  name: FILL THIS IN WHEN SOMEONE REMEMBERS WHAT SHE'S CALLED
+  name: Nina Ip
 - role: Poster Designer
   name: Jase Neal
 - role: Stage Manager
