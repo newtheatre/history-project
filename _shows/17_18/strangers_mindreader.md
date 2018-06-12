@@ -24,6 +24,6 @@ There is a man who reads minds and predicts the future. How he does this remains
 
 ‘Fresh, imaginative and thought provoking’ (Scotsman). 
 
-'Triumphant proof of the creative potential of magic and theatre combined' **** (FringeGuru.com). 
+'Triumphant proof of the creative potential of magic and theatre combined' \*\*\*\* (FringeGuru.com). 
 
 'Pure Fringe, a hugely enjoyable 50 minutes' (TheWeeReview.com).

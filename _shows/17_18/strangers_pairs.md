@@ -24,6 +24,6 @@ Survivors on a desert island, siblings in their mother’s attic, magicians prep
 
 ‘Fresh, imaginative and thought provoking’ (Scotsman). 
 
-'Triumphant proof of the creative potential of magic and theatre combined' **** (FringeGuru.com). 
+'Triumphant proof of the creative potential of magic and theatre combined' \*\*\*\* (FringeGuru.com). 
 
 'Pure Fringe, a hugely enjoyable 50 minutes' (TheWeeReview.com).
