@@ -2,7 +2,7 @@
 title: "The Fall Of Byron Montrose: Poet, Gentleman, Lover"
 playwright: Ben Macpherson
 season: StuFF
-season_sort: 510
+season_sort: 520
 period: Spring
 venue: New Theatre
 date_start: 2018-06-17
