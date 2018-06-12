@@ -40,6 +40,16 @@ crew:
   name: Nadia Elalfi
 - role: Stage Manager
   name: Darcey Graham
+  
+links:
+- type: Review
+  href: http://kevcastletheatrereviews.blogspot.com/2018/06/franz-woyzeck-by-daniel-mcvey.html
+  snapshot: KKKWe
+  publisher: Kev Castle Reviews
+  author: Kev Castle
+  title: "\"Franz Woyzeck\" by Daniel McVey"
+  date: 2018-06-11
+  quote: "A good piece of theatre will evoke some kind of emotion from the audience and that is certainly true of this play. You could see the climax coming but even though you were expecting it, it still came as a smack in the face."
 
 ---
 
