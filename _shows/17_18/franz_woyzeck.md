@@ -40,7 +40,13 @@ crew:
   name: Nadia Elalfi
 - role: Stage Manager
   name: Darcey Graham
-  
+
+assets:
+- type: poster
+  image: 6hWtVPm
+
+prod_shots: qcQpC3
+
 links:
 - type: Review
   href: http://kevcastletheatrereviews.blogspot.com/2018/06/franz-woyzeck-by-daniel-mcvey.html
