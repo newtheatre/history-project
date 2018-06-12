@@ -6,6 +6,12 @@ season_sort: 490
 period: Spring
 venue: New Theatre
 date_start: 2018-06-17
+
+cast:
+- role: Puck
+  name: Lois Baglin
+- role: Boy
+  name: Ted Marriott
   
 crew:
 - role: Director 
