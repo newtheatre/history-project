@@ -40,6 +40,8 @@ crew:
   name: Nadia Elalfi
 - role: Stage Manager
   name: Darcey Graham
+- role: Stage Manager
+  name: Jess Donn
 
 assets:
 - type: poster
