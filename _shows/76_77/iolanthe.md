@@ -184,6 +184,10 @@ crew:
  - role: Percussion
    name: Hazel Chapman
 
+trivia:
+  - quote: I only appeared in one production but clearly remember one member of the cast falling ill - it turned out she was suffering an appendicitis.
+    name: Sarah Payler
+    submitted: 2018-06-12
 
 assets:
   - type: programme
