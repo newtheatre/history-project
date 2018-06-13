@@ -6,7 +6,8 @@ course:
   - Economic and Social History
 graduated: 1979
 contact_allowed: true
-
+careers:
+  - Social Care
 ---
 I only appeared in one production but clearly remember one member of the cast falling ill - it turned out she was suffering an appendicitis.
 
