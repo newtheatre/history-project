@@ -89,7 +89,13 @@ crew:
   name: Jack Ellis
 - role: Technical Operator
   name: Izzy de Bono
-  
+
+prod_shots: dMhzHs
+
+assets:
+  - type: poster
+    image: JQ9Z83f  
+
 links:
   - type: Review
     href: http://kevcastletheatrereviews.blogspot.com/2018/06/macbeth-nottingham-new-theatre.html
