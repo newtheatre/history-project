@@ -36,6 +36,16 @@ assets:
 published: true
 
 prod_shots: hWS9Mn
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2011/06/the-laramie-project-the-new-theatre/
+    snapshot: F7Zo2
+    publisher: Impact Nottingham
+    author: Shaun Reeve
+    title: "The Laramie Project @ Nottingham New Theatre"
+    date: 2011-06-02
+    quote: "Shepard’s story contains many lessons still left to learn, making each retelling important. The show captured this essence, which made my night at new theatre thought provoking yet still entertaining: a commendable performance."
 ---
 
 Laramie Wyoming. October 7th, 1998. A gay university student is found tied to a fence in an isolated field, beaten and left for dead - purely because of his sexuality. Matthew Shepard's abduction by two of the local boys created a media firestorm that spanned the globe, and inspired a generation to fight against intolerance.

@@ -66,6 +66,17 @@ assets:
 published: true
 
 prod_shots: DGwFxc
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2011/05/rope-the-new-theatre/
+    snapshot: gbVVk
+    publisher: Impact Nottingham
+    author: John Barlecourne
+    title: "Rope @ Nottingham New Theatre"
+    date: 2011-05-31
+    quote: "Delivering at once gripping drama and farcical chamber comedy, Rope, though occasionally hampered by a tendency toward one-dimensionalism, made for a thoroughly commendable production."
+
 ---
 
 Brandon wants excitement and little cares how he gets it. With the help of his companion Granillo, he strangles a fellow student and deposits the body in a wooden chest. To celebrate this ‘perfect murder’, they invite some acquaintances (including the victim’s father) round to a party with the chest and its gruesome contents serving as a dining table. But Cadell is suspicious from the start of the evening...
