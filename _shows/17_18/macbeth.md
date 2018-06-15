@@ -77,6 +77,15 @@ crew:
   name: Lillian Race
 - role: Stage Manager
   name: Francis Simmons
+  
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.com/2018/06/macbeth-nottingham-new-theatre.html
+    snapshot: O8ePF
+    publisher: Kev Castle Reviews
+    title: "\"Macbeth\""
+    date: 2017-11-30
+    quote: "With the cast, every single actor produced incredible and powerful performances, and you know when you feel so comfortable with a cast that you just sit back and watch; that's what I felt."
 
 ---
 
