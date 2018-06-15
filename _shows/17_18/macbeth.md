@@ -77,6 +77,16 @@ crew:
   name: Lillian Race
 - role: Stage Manager
   name: Francis Simmons
+- role: Technical Operator
+  name: Zoe Smith
+- role: Technical Operator
+  name: Darcey Graham
+- role: Technical Operator
+  name: Florence Bell
+- role: Technical Operator
+  name: Ben Woodford
+- role: Technical Operator
+  name: Jack Ellis
   
 links:
   - type: Review
