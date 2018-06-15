@@ -30,6 +30,16 @@ assets:
 published: true
 
 prod_shots: d5RBFx
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2011/03/this-wide-night-the-new-theatre/
+    snapshot: itgGx
+    publisher: Impact Nottingham
+    author: Shaun Reeve
+    title: "This Wide Night @ Nottingham New Theatre"
+    date: 2011-03-01
+    quote: "So if you want an exciting, fast paced, action story of the criminal under classes, this isn’t for you – perhaps try Tool Academy – but what you will get from This Wide Night is a wonderful exploration of an unhealthy dependant relationship, performed expertly, which is guaranteed to pull at the heart strings."
 ---
 
 On her release from prison, Lorraine heads straight to Marie's.
