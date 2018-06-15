@@ -36,6 +36,16 @@ assets:
 published: true
 
 prod_shots: ftZrLS
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2010/11/%E2%80%9Cnormal%E2%80%9D-the-new-theatre/
+    snapshot: pPqHA
+    publisher: Impact Nottingham
+    author: Sasha Morgan-Manley
+    title: "Normal @ Nottingham New Theatre"
+    date: 2010-11-11
+    quote: "The imaginative lighting was one of the main contributors to the play’s over-riding sense of discomfort which came to a head when we were submerged in darkness and left only with the sounds of bestiality after Peter relived his memories of copulating with different animals."
 ---
 
 "It seemed to me that the chill he had placed in my soul had finally thawed. I had not reckoned on feeling that chill again so soon…”

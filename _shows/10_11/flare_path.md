@@ -58,6 +58,16 @@ assets:
 published: true
 
 prod_shots: HXQWpd
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2010/12/flare-path-the-new-theatre/
+    snapshot: YnJR6
+    publisher: Impact Nottingham
+    author: Rosie English
+    title: "Flare Path @ Nottingham New Theatre"
+    date: 2010-10-08
+    quote: "All in all, the ‘will she/won’t she’ storyline of the play is made engaging and entertaining by the solid performances of the cast, as well as a good, light-hearted side serving of humour."
 ---
 
 1941, and the Falcon hotel in Milchester plays host to the brave young men of the RAF and their loved ones. Patricia, wife of the charming and heroic Flight-Lieutenant Teddy Graham arrives to tell him that she is leaving him for her old flame, Hollywood heartthrob Peter Kyle. However, when Teddy and the others are called off on a dangerous night bombing mission and things start to go awry, Patricia struggles to find the right moment to break her news.

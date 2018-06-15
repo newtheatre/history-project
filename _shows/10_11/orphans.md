@@ -39,6 +39,16 @@ assets:
 published: true
 
 prod_shots: 7hRj7P
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2010/10/orphans-at-the-new-theatre/
+    snapshot: Xw5Be
+    publisher: Impact Nottingham
+    author: Kathryn Scott
+    title: "Orphans @ Nottingham New Theatre"
+    date: 2010-10-28
+    quote: "Yet the whole play seemed to lack direction and focus, and whilst providing a chilling insight into the depravity of modern society, fails to deliver real entertainment."
 ---
 
 ‘I hate violence. It makes me cry. Always has…’
