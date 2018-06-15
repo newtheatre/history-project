@@ -1,7 +1,7 @@
 ---
 title: SCRATCH
 season: StuFF
-season_sort: 470
+season_sort: 480
 period: Spring
 playwright: Hannah Eggleton
 venue: New Theatre Studio A

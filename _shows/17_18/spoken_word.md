@@ -1,7 +1,7 @@
 ---
 title: StuFF Your Ears With Spoken Word
 season: StuFF
-season_sort: 430
+season_sort: 440
 period: Spring
 venue: New Theatre Studio A
 date_start: 2018-06-16

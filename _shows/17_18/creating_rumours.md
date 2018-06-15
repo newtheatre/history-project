@@ -2,7 +2,7 @@
 title: Creating Rumours
 playwright: Emma Summerton
 season: StuFF
-season_sort: 460
+season_sort: 470
 period: Spring
 venue: New Theatre
 date_start: 2018-06-17
