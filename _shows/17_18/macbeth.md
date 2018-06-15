@@ -41,14 +41,14 @@ crew:
   name: Ed Eggleton
 - role: Producer
   name: Grace Lievesley
-- role: Technical Director
-  name: Rohanna Brown
 - role: Assistant Director
   name: Chloe Clarke
 - role: Shadow Director
   name: Francis Simmons
 - role: Assistant Producer
   name: Lillian Race
+- role: Technical Director
+  name: Rohanna Brown
 - role: Sound Designer
   name: Tara Prasad
 - role: Lighting Designer
