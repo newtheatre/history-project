@@ -36,7 +36,7 @@ crew:
   - role: Sound Designer
     name: Daniel Xavier Vizer
   - role: Workshop Leader
-    name: Jim Rastall
+    name: James Rastall
 
 assets:
   - type: poster

@@ -11,7 +11,7 @@ venue: Sweet Grassmarket
 
 cast:
   - name: Maryann O'Brien
-  - name: Georgina Strawson
+  - name: Georgie Strawson
 
 cast_incomplete: true 
 cast_note: "There are more actors in the production shots who are not listed here."

@@ -33,6 +33,16 @@ assets:
     image: 6HRG5mq
 
 prod_shots: 46ngMs
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2011/10/abigails-party-the-new-theatre/
+    snapshot: StGQT
+    publisher: Impact Nottingham
+    author: Katie Dolamore
+    title: "Abigail's Party @ Nottingham New Theatre"
+    date: 2011-10-28
+    quote: "All in all, the New Theatre has succeeded in producing a painfully enjoyable play which will immerse you in the intricacies of a past era, but will provoke telling revelations about middle class domesticity that still apply today. It will certainly get you thinking, and is definitely worth a watch!"
 ---
 It’s 1977. The record player is rolling and the fibre light illuminates a crowded living room. Trapped in stifling suburbia and confrontational, dead end marriages, five neighbours, who have little more in common than geographic proximity, get together, get drunk and get increasingly disorderly. Meanwhile, Abigail is holding her own party next door.
 

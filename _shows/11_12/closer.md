@@ -45,6 +45,16 @@ assets:
     image: b8NPVPH
 
 prod_shots: wfjW9W
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/03/closer-new-theatre/
+    snapshot: T92mo
+    publisher: Impact Nottingham
+    author: Bryony Kelly
+    title: "Closer @ Nottingham New Theatre"
+    date: 2012-03-29
+    quote: "All in all Closer is an absorbing production; intensity, comedy and intrigue are perfectly balanced, giving the audience an enjoyable, if shockingly explosive experience. It is well performed, well organised, and well directed. A must see."
 ---
 
 Lying is the most fun a girl can have without taking her clothes off, but it's better if they do. Described as a love story for adults, 'Closer' follows the vicious conflict between Dan and Larry as they battle for the affections of Alice and Anna.

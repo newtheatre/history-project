@@ -34,6 +34,16 @@ crew:
   - role: Original Score
     name: Chris Walters
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2011/11/the-hothouse-the-new-theatre/
+    snapshot: 7CSc7
+    publisher: Impact Nottingham
+    author: Jaia Toora
+    title: "The Hothouse @ Nottingham New Theatre"
+    date: 2011-11-21
+    quote: "My voice is muted, however, because in line with Pinter’s claim that ‘We don’t need critics to tell the audience what to think’, the natural vitality, effortless comedy and thought provoking satire of The Hothouse truly speaks for itself."
+
 assets:
   - type: poster
     image: tsHQmgx

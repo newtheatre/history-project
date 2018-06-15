@@ -59,6 +59,16 @@ assets:
     video: 5P5LVzt
     title: Backstage At
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2011/11/macbeth-the-new-theatre/
+    snapshot: 4V521
+    publisher: Impact Nottingham
+    author: Katie Dolamore
+    title: "Macbeth @ Nottingham New Theatre"
+    date: 2011-11-24
+    quote: "Overall, this is a highly imaginative and thought-provoking performance that breathes new life into Shakespeare’s text whilst also retaining the timeless issues of power and fate. This is Shakespeare with an innovative twist, and definitely not one to be missed!"
+
 prod_shots: 3mLjwg
 ---
 

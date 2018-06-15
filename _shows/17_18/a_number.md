@@ -2,6 +2,7 @@
 title: A Number
 playwright: Caryl Churchill
 season: External
+company: Coronet Productions
 season_sort: 350
 period: Spring
 venue: New Theatre Studio A

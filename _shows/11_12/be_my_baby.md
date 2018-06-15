@@ -32,6 +32,16 @@ crew:
   - name: Emma-Louise Amanshia
   - name: Emma McDonald
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2011/11/be-my-baby-the-new-theatre/
+    snapshot: WjQmd
+    publisher: Impact Nottingham
+    author: Stephanie Allen
+    title: "Be My Baby @ Nottingham New Theatre"
+    date: 2011-11-11
+    quote: "The balance of comedy and music with the heart-breaking dialogue and plot truly define this play. The volume of cheers and applause the cast received on opening night were thoroughly deserved for a thoroughly touching performance by all."
+
 crew_incomplete: true 
 crew_note: "We think we have most of the crew, but aren't sure of their roles."
 

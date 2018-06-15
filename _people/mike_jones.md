@@ -1,7 +1,6 @@
 ---
-title: Oliver Silver
+title: Mike Jones
 gender: male
-graduated: 2012
 submitted: false
+graduated: 1970
 ---
-
