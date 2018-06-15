@@ -12,6 +12,8 @@ crew:
   name: Beth Mullen 
 - role: Venue Technician
   name: Rohanna Brown
+- role: Venue Technician
+  name: Nathan Penney
 - role: Technical Operator
   name: Florence Bell
 
