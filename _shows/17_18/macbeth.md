@@ -87,6 +87,8 @@ crew:
   name: Ben Woodford
 - role: Technical Operator
   name: Jack Ellis
+- role: Technical Operator
+  name: Izzy de Bono
   
 links:
   - type: Review
