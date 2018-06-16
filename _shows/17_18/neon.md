@@ -1,5 +1,5 @@
 ---
-title: Neon
+title: NEON
 season: StuFF
 season_sort: 490
 period: Spring
