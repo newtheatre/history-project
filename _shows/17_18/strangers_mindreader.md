@@ -7,6 +7,12 @@ period: Spring
 venue: New Theatre Studio A
 date_start: 2018-06-16
 company: Strickland Productions
+
+cast:
+- role: Performer
+  name: Joe Strickland
+- role: Stage Manager
+  name: Ellen Dennis
   
 crew:
 - role: Director 

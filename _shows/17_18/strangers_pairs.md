@@ -7,6 +7,20 @@ period: Spring
 venue: New Theatre
 date_start: 2018-06-17
 company: Strickland Productions
+
+cast:
+- role: Survivor 1
+  cast: Eric Crouch
+- role: Survivor 2
+  cast: Isabelle Cadwallader
+- role: Brother
+  cast: Arthur Mckechnie
+- role: Sister
+  cast: Boo Jackson
+- role: Magician
+  cast: Daniel McVey
+- role: Assistant
+  cast: Nat Henderson
   
 crew:
 - role: Director 

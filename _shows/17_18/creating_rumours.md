@@ -7,12 +7,28 @@ period: Spring
 venue: New Theatre
 date_start: 2018-06-17
 company: Strickland Productions
+
+cast:
+- role: Ken Caillat
+  name: Sam Morris
+- role: John McVie
+  name: Arthur Mckechnie
+- role: Christine McVie
+  name: Boo Jackson
+- role: Mick Fleetwood
+  name: Arnaud Lacey
+- role: Lindsey Buckingham
+  name: Joe Strickland
+- role: Stevie Nicks
+  name: Emma Pallett
   
 crew:
 - role: Director 
   name: Joe Strickland 
 - role: Producer 
   name: Jess Donn 
+- role: Assistant Director
+  name: Daniel McVey
 - role: Venue Technician
   name: Rohanna Brown
 - role: Technical Operator
