@@ -34,6 +34,16 @@ assets:
 published: true
 
 prod_shots: JCB2Hf
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2011/06/hymns-the-new-theatre/
+    snapshot: 
+    publisher: Impact Nottingham
+    author: Sarah Dawood
+    title: "Hymns @ Nottingham New Theatre"
+    date: 2011-06-12
+    quote: "Effective, powerful physical theatre in a relatively small performance space with an equally small cast is difficult to come by; however, director Matt Wilks, producer Elin Stenner-Matthews and the entirety of the New Theatre cast, direction, production and tech team of Hymns did a superb and commendable job."
 ---
 
 Four men reunite to mourn the loss of a close friend, but time has had a corrosive effect on this once tight-knit bunch. From beneath their surface bravura, a brooding animosity emerges. Their struggle to deal with grief and guilt brings them to a breaking point where the truth lays waiting.

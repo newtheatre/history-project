@@ -65,6 +65,16 @@ assets:
 published: true
 
 prod_shots: 4d8T8x
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2010/11/arcadia-the-new-theatre/
+    snapshot: QDTVg
+    publisher: Impact Nottingham
+    author: Katie Dolamore
+    title: "Arcadia @ Nottingham New Theatre"
+    date: 2010-11-25
+    quote: "So, whether or not you have a brain capacity to rival Einstein’s, get yourself down to the New Theatre this week for what proves to be a thoroughly enjoyable show. With a fascinating plot that provokes intrigue and curiosity – it’ll definitely get you thinking!"
 ---
 
 "When we have found all the mysteries and lost all the meanings, we will be alone, on an empty shore"

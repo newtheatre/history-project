@@ -47,6 +47,16 @@ assets:
 prod_shots: vm4gwG
 
 published: true
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2010/12/the-talented-mr-ripley-the-new-theatre/
+    snapshot: SquSi
+    publisher: Impact Nottingham
+    author: Shaun Reeve
+    title: "The Talented Mr Ripley @ Nottingham New Theatre"
+    date: 2010-10-02
+    quote: "The simple staging provided everything that was needed. The use of water on the set was particularly effective, even if it could be composed solely by the tears of otherwise disenchanted audience members. However, it did manage to convey a sense of place, both geographically and thematically."
 ---
 
 Tom Ripley is a young conman living in 1950s New York. After being confused for someone else, he is sent to Mongibello, Italy to retrieve the rich and lazy Richard Greenleaf. Instead of completing his task, Ripley slowly but surely integrates himself into Rickie's life. After becoming obsessed with everything Rickie has (except for his girlfriend, Marge), Tom decides to take things into his own hands.
