@@ -3,7 +3,7 @@ title: To She Or Not To She
 playwright: Emma Bentley
 company: joue le genre
 period: Spring
-season: STUFF
+season: StuFF
 season_sort: 500
 date_start: 2016-06-15
 venue: New Theatre Studio A

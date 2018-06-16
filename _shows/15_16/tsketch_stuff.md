@@ -3,7 +3,7 @@ title: Tyrannosaurus Sketch
 playwright: Ian Sheard & Jamie Drew
 student_written: true
 period: Spring
-season: STUFF
+season: StuFF
 season_sort: 480
 date_start: 2016-06-14
 venue: New Theatre

@@ -2,7 +2,7 @@
 title: Wrecked
 devised: true
 period: Spring
-season: STUFF
+season: StuFF
 season_sort: 460
 date_start: 2017-06-20
 venue: New Theatre
