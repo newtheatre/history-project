@@ -18,6 +18,10 @@ crew:
 - role: Technical Operator
   name: Ben Woodford
 
+assets:
+- type: poster
+  image: SWLjbmS
+
 ---
 
 Never-seen-before… Never-to-be-seen again! UoN Improv present “…And Another Thing!” - a completely improvised one act play. 

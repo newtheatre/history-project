@@ -17,5 +17,9 @@ crew:
 - role: Technical Operator
   name: James Curling
 
+assets:
+- type: poster
+  image: HWpzMSX
+
 ---
 

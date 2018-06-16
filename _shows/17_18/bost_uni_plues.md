@@ -18,9 +18,10 @@ crew:
   person: false 
 - role: Venue Technician
   name: Nathan Penney
-- role: Technical Operator
-  name: Georgi Locke
-  note: To be confirmed 
+
+assets:
+- type: poster
+  image: Fd5s6qk
 
 ---
 

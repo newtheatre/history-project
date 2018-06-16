@@ -17,6 +17,10 @@ crew:
 - role: Technical Operator
   name: Laura Wolczyk
 
+assets:
+- type: poster
+  image: jsbQ6SQ
+
 ---
 
 “You hear stories, you just want to find out, I guess.”

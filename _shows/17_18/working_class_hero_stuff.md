@@ -25,6 +25,10 @@ crew:
 - role: Technical Operator
   name: Darcey Graham
 
+assets:
+- type: poster
+  image: GJzPrcn
+  
 ---
 Working Class Hero is one of the two shows the NNT is taking to the Edinburgh Fringe this summer.
 

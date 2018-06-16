@@ -17,6 +17,11 @@ crew:
 - role: Technical Operator
   name: Florence Bell
 
+assets:
+- type: poster
+  image: vv6cJ4Q
+
+
 ---
 
 A trio of devised pieces inspired by the Nottingham Young Creative awards 'Toolbox' category
