@@ -8,16 +8,48 @@ date_start: 2018-06-17
 company: Caged Bird Theatre
   
 crew:
+- role: Producer
+  name: Jonathan Taylor 
+  person: false
 - role: Director 
   name: Jasper Frost
   person: false 
-- role: Producer
-  name: Jonathan Taylor 
-  person: false 
+- role: Writer
+  name: Patrick Swain
+  person: false
+- role: Assistant Producer
+  name: Bridie Shine
+  person: false
+- role: Production Assistant
+  name: Roisin McCay
+  person: false
+- role: Production Assistant
+  name: Roshi Cowen
+  person: false
 - role: Venue Technician
   name: Jack Ellis
 - role: Technical Operator
   name: David Taylor
+
+cast:
+- role: John
+  name: James Murphy
+  person: false
+- role: Jude
+  name: Olivia Denton
+  person: false
+- role: Thomas
+  name: Ben Mallett
+  person: false
+- role: Sarah
+  name: Siobhan McAuley
+  person: false
+- role: Freja
+  name: Molly Barber
+  person: false
+- role: Matthew
+  name: Stuart Duncan
+  person: false
 
 assets:
 - type: poster
