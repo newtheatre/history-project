@@ -15,6 +15,7 @@ cast:
   - name: Jack Ellis
   - name: Mitchell Masterson
   - name: Jennifer Danaher
+    person: false
 
 links:
   - type: Review
