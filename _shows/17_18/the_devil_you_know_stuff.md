@@ -1,6 +1,7 @@
 ---
 title: "The Devil You Know: A Horror Play"
 playwright: Emma Summerton
+student_written: true
 season: StuFF
 season_sort: 410
 period: Spring
