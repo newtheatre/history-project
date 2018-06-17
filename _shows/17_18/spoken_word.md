@@ -24,7 +24,7 @@ crew:
 
 assets:
   - type: poster
-    image:  S2z5tK2
+    image: S2z5tK2
 
 ---
 
