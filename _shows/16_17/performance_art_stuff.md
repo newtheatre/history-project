@@ -3,7 +3,7 @@ title: "A Programme of Performance Art"
 company: Central St. Martin's Graduates
 playwright: various 
 period: Spring
-season: STUFF
+season: StuFF
 season_sort: 500
 date_start: 2017-06-20
 venue: New Theatre Studio A

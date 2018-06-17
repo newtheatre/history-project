@@ -4,7 +4,7 @@ playwright: F. Scott Fitzgerald
 adaptor: "L. J. Bateman"
 student_written: true
 period: Spring
-season: STUFF
+season: StuFF
 season_sort: 510
 date_start: 2016-06-15
 venue: New Theatre

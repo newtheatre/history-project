@@ -1,7 +1,7 @@
 ---
 title: "The Weird and The Eerie: A Collections of Short Films"
 period: Spring
-season: STUFF
+season: StuFF
 playwright: various
 season_sort: 470
 date_start: 2017-06-20

@@ -3,7 +3,7 @@ title: "Debris"
 playwright: Louise White
 company: Louise White Theatrician
 period: Spring
-season: STUFF
+season: StuFF
 season_sort: 490
 date_start: 2017-06-20
 venue: New Theatre

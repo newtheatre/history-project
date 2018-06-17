@@ -2,7 +2,7 @@
 title: When The Lights Come Up
 company: Red Herrings
 period: Spring
-season: STUFF
+season: StuFF
 season_sort: 460
 date_start: 2016-06-14
 venue: New Theatre
@@ -15,6 +15,7 @@ cast:
   - name: Jack Ellis
   - name: Mitchell Masterson
   - name: Jennifer Danaher
+    person: false
 
 links:
   - type: Review

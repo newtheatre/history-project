@@ -3,7 +3,7 @@ title: I Keep A Woman In My Flat Chained To A Radiator
 playwright: Alex Wells-King & Adam Willis
 company: Theatre Apparently
 period: Spring
-season: STUFF
+season: StuFF
 season_sort: 490
 date_start: 2016-06-15
 venue: New Theatre

@@ -3,7 +3,7 @@ title: Sisyphus's Safari (The Boy With No Face)
 playwright: Jack Solloway
 company: Jack Solloway
 period: Spring
-season: STUFF
+season: StuFF
 season_sort: 470
 date_start: 2016-06-14
 venue: New Theatre Studio A

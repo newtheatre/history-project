@@ -1,7 +1,7 @@
 ---
 title: Aaron Calvert - Decisions
 period: Spring
-season: STUFF
+season: StuFF
 season_sort: 520
 date_start: 2016-06-15
 venue: New Theatre

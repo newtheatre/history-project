@@ -20,6 +20,7 @@ cast:
 crew:
 - role: Director
   name: Jennifer Danaher
+  person: false
 - role: Lighting Designer
   name: Joanne Blunt
 
