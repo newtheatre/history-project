@@ -8,14 +8,26 @@ date_start: 2018-06-17
 company: Ugly Bucket Theatre
   
 cast:
-- name: Carl Fowler
+- role: The Little One
+  name: Grace Gallagher
+  person: false
+- role: The Bigger One
+  name: Angelina Cliff
+  person: false
+- role: The Biggest One
+  name: Carl Fowler
   person: false 
-  note: Role unknown
 
 crew:
 - role: Director
   name: Grace Gallagher
   person: false 
+- role: Music
+  name: Duncan Gallagher
+  person: false
+- role: Technical Operator
+  name: Rachael Smart
+  person: false
 - role: Venue Technician
   name: Nathan Penney
 
