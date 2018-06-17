@@ -1,6 +1,7 @@
 ---
 title: Working Class Hero
-playwright: Ben Standish 
+playwright: Ben Standish
+student_written: true
 season: StuFF
 season_sort: 400
 period: Spring
