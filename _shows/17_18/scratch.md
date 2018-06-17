@@ -18,9 +18,7 @@ crew:
 - role: Venue Technician
   name: Laura Wolczyk
 - role: Technical Operator 
-  name: Megan Bailey 
-  person: false 
-  note: Company 
+  name: Zoe Smith
 
 assets:
 - type: poster
