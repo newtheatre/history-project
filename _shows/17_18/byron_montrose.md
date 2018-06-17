@@ -1,5 +1,5 @@
 ---
-title: "The Fall Of Byron Montrose: Poet, Gentleman, Lover"
+title: "The Fall of Byron Montrose: Poet, Gentleman, Lover"
 playwright: Ben Macpherson
 season: StuFF
 season_sort: 530
