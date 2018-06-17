@@ -11,14 +11,13 @@ cast:
 - role: Host
   name: Stephen Thomas 
   person: false 
-- name: Robbert van Dongen 
+- name: Robbert van Dongen
+  person: false
 
 crew:
 - role: Producer 
   name: Stephen Thomas
   person: false 
-- role: Venue Technician
-  name: Georgi Locke
 - role: Technical Operator
   name: Tom Proffitt
 
