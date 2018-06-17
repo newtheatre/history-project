@@ -16,6 +16,8 @@ crew:
   person: false 
 - role: Venue Technician
   name: David Taylor
+- role: Technical Operator
+  name: Ben Woodford
 
 assets:
 - type: poster
