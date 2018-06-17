@@ -28,6 +28,8 @@ crew:
   person: false
 - role: Venue Technician
   name: Jack Ellis
+- role: Venue Technician
+  name: Nathan Penney
 - role: Technical Operator
   name: David Taylor
 
