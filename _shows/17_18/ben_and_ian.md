@@ -9,7 +9,6 @@ date_start: 2018-06-16
 cast:
 - name: Ian Sheard
 - name: Ben Macpherson
-  person: false
 
 crew:
 - role: Venue Technician

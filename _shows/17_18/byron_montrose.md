@@ -10,12 +10,10 @@ date_start: 2018-06-17
 cast:
 - role: Byron Montrose 
   name: Ben Macpherson 
-  person: false
 
 crew:
 - role: Director 
   name: Ben Macpherson 
-  person: false
 - role: Venue Technician
   name: Nathan Penney
 - role: Technical Operator

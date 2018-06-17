@@ -25,7 +25,6 @@ links:
 cast:
   - name: Ben Macpherson
     role: Byron Montrose
-    person: false 
 
 crew:
   - role: Venue Technician
