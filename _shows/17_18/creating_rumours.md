@@ -30,7 +30,7 @@ crew:
 - role: Assistant Director
   name: Daniel McVey
 - role: Venue Technician
-  name: Rohanna Brown
+  name: Zoe Smith
 - role: Technical Operator
   name: Nadia Elalfi
 
