@@ -11,7 +11,6 @@ date_start: 2018-06-17
 cast: 
 - name: Bróccán Tyzack-Carlin
   person: false 
-  role: Unknown
 
 crew:
 - role: Director 
@@ -22,6 +21,8 @@ crew:
   person: false 
 - role: Venue Technician
   name: Jack Ellis
+- role: Venue Technician
+  name: Nathan Penney
 - role: Technical Operator
   name: Miguel Barrulas
 
