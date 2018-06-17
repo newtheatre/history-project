@@ -18,6 +18,8 @@ crew:
   name: Emma White
 - role: Venue Technician
   name: Darcey Graham
+- role: Technical Operator
+  name: Sam Osborne
 
 assets:
 - type: poster
