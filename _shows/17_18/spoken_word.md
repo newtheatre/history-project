@@ -18,8 +18,11 @@ crew:
 - role: Producer 
   name: Stephen Thomas
   person: false 
+- role: Venue Technician
+  name: Jack Ellis
 - role: Technical Operator
   name: Tom Proffitt
+
 
 assets:
   - type: poster
