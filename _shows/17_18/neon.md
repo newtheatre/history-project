@@ -18,6 +18,12 @@ crew:
 - role: Assistant Producer
   name: Bridie Shine
   person: false
+- role: Sound Designer
+  name: Seb Clarkson
+  person: false
+- role: Lighting Designer
+  name: Seb Clarkson
+  person: false
 - role: Production Assistant
   name: Roisin McCay
   person: false
