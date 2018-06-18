@@ -24,7 +24,7 @@ cast:
     name: Will Hedges
   - role: Guy
     name: Giles Gear
-  - role: Chris/Jeremy
+  - role: Chris / Jeremy
     name: Tom Savage
   - role: Rachel
     name: Chloe Bickford

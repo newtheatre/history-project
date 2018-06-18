@@ -14,15 +14,15 @@ cast:
     name: Amelia Gann
   - role: O'Brien
     name: Richard Hill
-  - role: Charrington/Ensemble
+  - role: Charrington / Ensemble
     name: Lara Tysseling
-  - role: Parsons/Ensemble
+  - role: Parsons / Ensemble
     name: Tom Tolond
-  - role: Old Prole/Ensemble
+  - role: Old Prole / Ensemble
     name: Nick Barker
-  - role: Syme/Ensemble
+  - role: Syme / Ensemble
     name: Hugh Williams
-  - role: Starving Young Woman/Ensemble
+  - role: Starving Young Woman / Ensemble
     name: Emily Thompson
 
 crew:

@@ -10,15 +10,15 @@ date_start: 2016-11-28
 date_end: 2016-11-29
 
 cast:
-- role: Director/Person A/Psych-O/Mr Jones
+- role: Director / Person A / Psych-O / Mr Jones
   name: Arnaud Lacey
-- role: Teacher/Mean Judge/Audience Member 1
+- role: Teacher / Mean Judge / Audience Member 1
   name: Beth Angella
-- role: Mr Simpkins/Nice Judge/Audience Member 2
+- role: Mr Simpkins / Nice Judge / Audience Member 2
   name: Will Kitchen
-- role: Dictator/Person B
+- role: Dictator / Person B
   name: Ronan Lee
-- role: Prisoner/Dr Leech
+- role: Prisoner / Dr Leech
   name: Sam Morris
 
 crew:

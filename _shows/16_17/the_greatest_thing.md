@@ -16,7 +16,7 @@ cast:
   name: Chris Sharp-Paul
 - role: Hetty
   name: Isabelle Cadwallader
-- role: Casper/Runner/Cinematographer/Ophthalmologist
+- role: Casper / Runner / Cinematographer / Ophthalmologist
   name: Neil Ganatra
 
 crew:

@@ -11,13 +11,13 @@ date_start: 2017-05-10
 date_end: 2017-05-13
 
 cast:
-- role: Renton/Boy
+- role: Renton / Boy
   name: Chris Sharp-Paul
-- role: Tommy/Sick Boy/Drunk
+- role: Tommy / Sick Boy / Drunk
   name: George Waring
-- role: Alison/June/Lizzie/Lassie
+- role: Alison / June / Lizzie / Lassie
   name: Claire Wimbush
-- role: Begbie/Mother Superior/Mrs. Renton
+- role: Begbie / Mother Superior / Mrs. Renton
   name: Pete Przyslo
 - role: Radio Voice
   name: Iona Hampson

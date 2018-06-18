@@ -33,7 +33,7 @@ cast:
     name: John Bell
   - role: Lockwood
     name: Eoin Buckley
-  - role: Director/Fiona
+  - role: Director / Fiona
     name: Alix Hattenstone
 
 crew:

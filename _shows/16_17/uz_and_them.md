@@ -17,9 +17,9 @@ cast:
   note: Counsel for the Defense
 - role: The Judge
   name: Ian Sheard
-- role: Eliphaz/Bildad/Zophar
+- role: Eliphaz / Bildad / Zophar
   name: Beth Wilson
-- role: Stenographer/Court Clerk
+- role: Stenographer / Court Clerk
   name: Angharad Davies
 
 

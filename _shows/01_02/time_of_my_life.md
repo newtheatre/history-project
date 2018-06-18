@@ -26,7 +26,7 @@ cast:
   - role: "Maureen"
     note: "Adam's Girlfriend"
     name: Emily Hawkins
-  - role: Calvinu/Tuto/Aggi/Dinka/Bengi
+  - role: Calvinu / Tuto / Aggi / Dinka / Bengi
     name: Dan Thomas
 crew:
   - role: Director

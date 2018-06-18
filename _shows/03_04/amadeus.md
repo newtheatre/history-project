@@ -23,7 +23,7 @@ cast:
     name: Chris Roberts
   - role: Baron von Swieten
     name: Nikolaj Babic
-  - role: Kapellmeister Bonno/Citizens of Vienna & Major-Domo
+  - role: Kapellmeister Bonno / Citizens of Vienna & Major-Domo
     name: Tom Kemble
   - role: The Venticelli
     name: Jen Aggleton

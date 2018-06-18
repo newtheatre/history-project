@@ -33,7 +33,7 @@ cast:
     name: Ginny Lee
   - role: Claudius
     name: Josh Kaiser
-  - role: Polonius/Laertes
+  - role: Polonius / Laertes
     name: Nick Barker
 
 crew:

@@ -14,6 +14,24 @@ assets:
   - type: poster
     image: jFd6Gzf
 
+cast:
+  - role: Joseph K
+    name: James Rastall
+  - role: Huld / Inspector
+    name: Elliot Bhana
+  - role: Miss Burstner / Leni
+    name: Holly Walker
+  - role: Mrs Graubach / Laundress
+    name: Clare Salter
+  - role: Block / Student
+    name: Andy Slater
+  - role: Titorelli / Priest
+    name: Tom Copley
+  - role: Guard / Bailiff
+    name: Simon Thompson
+  - role: Guard / Manager
+    name: Rick Chernick
+
 crew:
   - role: Director
     name: Charlie Brafman
@@ -35,22 +53,4 @@ crew:
     name: Daniel Xavier Vizer
   - role: Hair and Make-Up
     name: Claire Brickel
-
-cast:
-  - role: Joseph K
-    name: James Rastall
-  - role: Huld/Inspector
-    name: Elliot Bhana
-  - role: Miss Burstner/Leni
-    name: Holly Walker
-  - role: Mrs Graubach/Laundress
-    name: Clare Salter
-  - role: Block/Student
-    name: Andy Slater
-  - role: Titorelli/Priest
-    name: Tom Copley
-  - role: Guard/Bailiff
-    name: Simon Thompson
-  - role: Guard/Manager
-    name: Rick Chernick
 ---

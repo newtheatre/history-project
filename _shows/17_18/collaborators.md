@@ -37,9 +37,9 @@ cast:
   name: Leonora Hamilton-Shield
 - role: Eva
   name: Amy Crighton
-- role: Anton/Lagrange/Driver
+- role: Anton / Lagrange / Driver
   name: Reilly Salmon
-- role: Decalev/Doctor
+- role: Decalev / Doctor
   name: Matteo Bagaini
 - role: Joseph Stalin
   name: Jack Ellis

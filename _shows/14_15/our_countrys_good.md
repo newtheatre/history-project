@@ -13,23 +13,23 @@ cast:
     name: Eoin Buckley
   - role: 2nd Lt. Ralph Clark
     name: Carn Truscott
-  - role: Rev. Johnson/Mary Brenham
+  - role: Rev. Johnson / Mary Brenham
     name: Jess Leppington
-  - role: Lt. Dawes/Liz Morden
+  - role: Lt. Dawes / Liz Morden
     name: Zoe Plummer
-  - role: Capt. Philip/John Wisehammer
+  - role: Capt. Philip / John Wisehammer
     name: Leonardo Goodall
-  - role: Lt. Johnston/Duckling Smith/Shitty Meg
+  - role: Lt. Johnston / Duckling Smith / Shitty Meg
     name: Ellen Richardson
-  - role: 2nd Lt. William Faddy/Dabby Bryant
+  - role: 2nd Lt. William Faddy / Dabby Bryant
     name: Izzie Masters
-  - role: Capt. Collins/Robert Sideway
+  - role: Capt. Collins / Robert Sideway
     name: Josh Mallalieu
-  - role: Capt. Campbell/Ketch Freeman
+  - role: Capt. Campbell / Ketch Freeman
     name: Sam Young
-  - role: Maj Ross/John Arscott
+  - role: Maj Ross / John Arscott
     name: Duncan McGillivray
-  - role: Capt. Trench/Caesar
+  - role: Capt. Trench / Caesar
     name: Jeanne Pasquet
   - role: Aborigine
     name: Joe Strickland

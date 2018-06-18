@@ -23,7 +23,7 @@ cast:
     name: Jessica Millott
   - role: Helena
     name: Libby Boyd
-  - role: Egeus/Flute
+  - role: Egeus / Flute
     name: Nick Gill
   - role: Bottom
     name: Ben Maries

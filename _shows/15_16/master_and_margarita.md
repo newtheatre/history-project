@@ -36,7 +36,7 @@ cast:
   name: Emma Summerton
 - role: Pontius Pilate
   name: Ben Dillon
-- role: Yeshua/Aloysius
+- role: Yeshua / Aloysius
   name: Will Baglin
 - role: Trepan Trepanovich
   name: Maddy Strauss

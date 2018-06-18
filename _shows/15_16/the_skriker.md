@@ -26,11 +26,11 @@ cast:
  - role: Skriker
    name: Beth Summerfield
    note: Ego
- - role: Derelict Woman/Corpse
+ - role: Derelict Woman / Corpse
    name: Beth Angella
- - role: Drunk American Woman/Business Woman
+ - role: Drunk American Woman / Business Woman
    name: Arshia Jain
- - role: Child/Dead Child
+ - role: Child / Dead Child
    name: Josie Macgilchrist
  - role: Man 30/40
    name: Will Baglin

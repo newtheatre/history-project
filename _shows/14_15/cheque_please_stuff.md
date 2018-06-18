@@ -11,15 +11,15 @@ venue: New Theatre
 cast:
   - role: Ivy
     name: Maddie Hardy
-  - role: Alex/Erin/Customer 1
+  - role: Alex / Erin / Customer 1
     name: Libby Boyd
-  - role: Kristen/Ivy's Mother/Customer 2
+  - role: Kristen / Ivy's Mother / Customer 2
     name: Genevieve Cunnell
-  - role: Mrs Pendle/ Hayley/ Customer 3
+  - role: Mrs Pendle / Hayley / Customer 3
     name: Becca Jones
-  - role: Greg/ Lena's Father
+  - role: Greg / Lena's Father
     name: Nick Slater
-  - role: Charlie/ Carl/ Jake
+  - role: Charlie / Carl / Jake
     name: Diderik Ypma
 
 crew:

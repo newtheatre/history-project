@@ -17,7 +17,7 @@ trivia:
 cast:
 - role: Morris
   name: Jess Lundholm
-- role: Sims/Papa
+- role: Sims / Papa
   name: Jack Ellis
 - role: Doyle
   name: Daniel McVey

@@ -58,7 +58,7 @@ crew:
     name: Andrew Batty
   - role: Assistant Stage Manager
     name: Rebecca Bowen
-  - role: Technical/Lighting Director
+  - role: Technical / Lighting Director
     name: Christopher Wix
   - role: Assistant Lighting Director
     name: Rachel Gollin
@@ -70,7 +70,7 @@ crew:
     name: Michael North
   - role: Fight Director
     name: Sarah Hannafin
-  - role: Music Composition/Direction
+  - role: Music Composition / Direction
     name: Matthew Peck
   - role: Publicity
     name: Abigail Duckworth
@@ -78,7 +78,7 @@ crew:
     name: Grace Sentamu
   - role: Poster Design
     name: Adam McCreight
-  - role: Prop/Set Construction
+  - role: Prop / Set Construction
     name: Steve Broughton
   - role: Violin
     name: Catherine Williams
@@ -96,9 +96,9 @@ crew:
     name: Helen Wilson
   - role: Bassoon
     name: Lindsay Harrison
-  - role: Trombone/French Horn
+  - role: Trombone / French Horn
     name: Steve Schofield
-  - role: Trombone/French Horn
+  - role: Trombone / French Horn
     name: Sean Turner
   - role: Piano
     name: Ashton Gray

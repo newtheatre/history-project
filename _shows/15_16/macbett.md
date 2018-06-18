@@ -14,7 +14,7 @@ cast:
   name: Laurence Cuthbert
 - role: Banco
   name: Duncan McGillivray
-- role: Raven/Lady Duncan/Lady Macbett
+- role: Raven / Lady Duncan / Lady Macbett
   name: Emilie Brittain
 - role: Owl
   name: Daniella Finch
@@ -22,17 +22,17 @@ cast:
   name: Joe Hincks
 - role: Duncan
   name: Tom Tolond
-- role: Glamiss/Ensemble
+- role: Glamiss / Ensemble
   name: Beth Angella
-- role: Candor/Ensemble
+- role: Candor / Ensemble
   name: Sasha Gibson
-- role: Lemonade Seller/Ensemble
+- role: Lemonade Seller / Ensemble
   name: Cameron Walker
-- role: Wounded Soldier/Ensemble
+- role: Wounded Soldier / Ensemble
   name: Izzie Masters
-- role: Nasty Soldier/Ensemble
+- role: Nasty Soldier / Ensemble
   name: Bethany O'Brien
-- role: Macol/Ensemble
+- role: Macol / Ensemble
   name: Jess Leppington
 
 

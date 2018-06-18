@@ -9,11 +9,11 @@ date_start: 2011-12-07
 date_end: 2011-12-10
 
 cast:
-  - role: Oberon/Theseus
+  - role: Oberon / Theseus
     name: Will Randall
-  - role: Titania/Hippolyta
+  - role: Titania / Hippolyta
     name: Lucy Bromilow
-  - role: Puck/Philostrate
+  - role: Puck / Philostrate
     name: Eoin Buckley
   - role: Hermia
     name: Cressida McGill
@@ -37,17 +37,17 @@ cast:
     name: Dan Hatfield
   - role: Egeus
     name: Greg Link
-  - role: The First Fairy/Courtier
+  - role: The First Fairy / Courtier
     name: Rosie Tressler
-  - role: Peaseblossom/Courtier
+  - role: Peaseblossom / Courtier
     name: Laura Cremona
-  - role: Cobweb/Courtier
+  - role: Cobweb / Courtier
     name: Katrina Holloway
-  - role: Moth/Courtier
+  - role: Moth / Courtier
     name: Annelies Baneke
-  - role: Mustardseed/Courtier
+  - role: Mustardseed / Courtier
     name: Emily Sendall
-  - role: Moss/Courtier
+  - role: Moss / Courtier
     name: Jenny Lake
 
 crew:

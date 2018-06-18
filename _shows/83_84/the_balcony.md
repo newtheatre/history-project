@@ -18,7 +18,7 @@ crew:
     name: Jem Carden
 
 cast:
-  - role: Prostitute/Assassin
+  - role: Prostitute / Assassin
     name: Vanessa Greatorex
   - role: Bishop
     name: Simon Catchpole

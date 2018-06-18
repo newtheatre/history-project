@@ -22,9 +22,9 @@ cast:
    name: Nick Pease
  - role: Lucio
    name: Ian Noble
- - role: Abhorson/1st Gentleman
+ - role: Abhorson / 1st Gentleman
    name: John Ironmonger
- - role: Barnardine/2nd Gentleman
+ - role: Barnardine / 2nd Gentleman
    name: Laurence George
  - role: Pompey
    name: Tim Sluckin
