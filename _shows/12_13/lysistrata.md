@@ -11,25 +11,25 @@ date_end: 2013-04-27
 comment: Preview on 23rd
 
 cast:
-  - role: Ismenia/Chorus
+  - role: Ismenia / Chorus
     name: "Emma-Louise Amanshia"
-  - role: Myrrhine/Chorus
+  - role: Myrrhine / Chorus
     name: Ali Blatcher
-  - role: Cinesias/Chorus
+  - role: Cinesias / Chorus
     name: Phil Damms
-  - role: Mens Leader/Herald/Chorus
+  - role: Mens Leader / Herald / Chorus
     name: James Gregory
-  - role: Calonice/Chorus
+  - role: Calonice / Chorus
     name: Alix Hattenstone
   - role: Lysistrata
     name: Emma McDonald
   - role: Teacher
     name: Mitchell Masterson
-  - role: Lampito/Chorus
+  - role: Lampito / Chorus
     name: Toby Stevens
-  - role: Magistrate Stratyllis/Chorus
+  - role: Magistrate Stratyllis / Chorus
     name: Yalda Tomlinson
-  - role: Director/Chorus
+  - role: Director / Chorus
     name: Ruth Wogan
   - role: Fight Director
     name: Catherine Boot

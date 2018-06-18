@@ -8,6 +8,26 @@ venue: New Theatre
 date_start: 2018-06-17
 company: Caged Bird Theatre
   
+cast:
+- role: John
+  name: James Murphy
+  person: false
+- role: Jude
+  name: Olivia Denton
+  person: false
+- role: Thomas
+  name: Ben Mallett
+  person: false
+- role: Sarah
+  name: Siobhan McAuley
+  person: false
+- role: Freja
+  name: Molly Barber
+  person: false
+- role: Matthew
+  name: Stuart Duncan
+  person: false
+
 crew:
 - role: Producer
   name: Jonathan Taylor 
@@ -36,26 +56,6 @@ crew:
   name: Nathan Penney
 - role: Technical Operator
   name: David Taylor
-
-cast:
-- role: John
-  name: James Murphy
-  person: false
-- role: Jude
-  name: Olivia Denton
-  person: false
-- role: Thomas
-  name: Ben Mallett
-  person: false
-- role: Sarah
-  name: Siobhan McAuley
-  person: false
-- role: Freja
-  name: Molly Barber
-  person: false
-- role: Matthew
-  name: Stuart Duncan
-  person: false
 
 prod_shots: 9zqbqv
 

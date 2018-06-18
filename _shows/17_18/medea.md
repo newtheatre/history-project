@@ -14,13 +14,13 @@ cast:
   name: Jazmine Greenaway
 - role: Jason
   name: William Tillett
-- role: Chorus/Nurse/Creusa
+- role: Chorus / Nurse / Creusa
   name: Ellie Roberts
-- role: Chorus/Tutor/Children
+- role: Chorus / Tutor / Children
   name: Megan Openshaw
-- role: Chorus/Creon/Aegeus/Children
+- role: Chorus / Creon / Aegeus / Children
   name: Hannah Yates
-- role: Chorus/Messenger
+- role: Chorus / Messenger
   name: Ellen Dennis
 
 

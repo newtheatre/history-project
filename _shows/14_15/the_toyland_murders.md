@@ -27,7 +27,7 @@ cast:
     name: Emilie Brittain
   - role: Snake Eyes
     name: Anna Scholes
-  - role: Monty/Deputy Phillips
+  - role: Monty / Deputy Phillips
     name: Sasha Gibson
   - role: Jack
     name: Gus Herbert

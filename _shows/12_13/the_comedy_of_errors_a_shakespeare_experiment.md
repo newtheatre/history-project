@@ -24,19 +24,19 @@ cast:
     name: Amelia Gann
   - role: Luciana
     name: Ellie Cawthorne
-  - role: Duke/Dr Pinch
+  - role: Duke / Dr Pinch
     name: John Bell
   - role: Egeon
     name: Greg Link
   - role: Angelo
     name: Ben Hollands
-  - role: Prologue/The Strong Arm of the Law
+  - role: Prologue / The Strong Arm of the Law
     name: Ben Williamson
   - role: Courtesan
     name: Emma McDonald
   - role: Emilia
     name: Jess Courtney
-  - role: 1st Merchant/Messenger
+  - role: 1st Merchant / Messenger
     name: Chloe Bickford
   - role: 2nd Merchant
     name: Sam Greenwood

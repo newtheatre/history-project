@@ -25,7 +25,7 @@ cast:
     name: Omid Faramarzi
   - role: Nurse
     name: Ruth Wogan
-  - role: Horseman/Nugget
+  - role: Horseman / Nugget
     name: Matt Hodges
   - role: Ensemble
     name: Charlotte Prosser

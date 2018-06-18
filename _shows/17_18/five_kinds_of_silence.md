@@ -17,9 +17,9 @@ cast:
   name: Chloe Richardson
 - role: Janet
   name: Sophie Curtis
-- role: Psychiatrist/Doctor/Lawyer
+- role: Psychiatrist / Doctor / Lawyer
   name: Angharad Davies
-- role: Psychiatrist/Doctor/Lawyer
+- role: Psychiatrist / Doctor / Lawyer
   name: Sam Andre-Paul
 
 

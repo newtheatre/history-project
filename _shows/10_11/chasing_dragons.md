@@ -21,7 +21,7 @@ cast:
     name: Ben Cave
   - role: Witch
     name: Laura Kaye Thomson
-  - role: Hermit/Bridgekeeper
+  - role: Hermit / Bridgekeeper
     name: James McAndrew
 
 crew:

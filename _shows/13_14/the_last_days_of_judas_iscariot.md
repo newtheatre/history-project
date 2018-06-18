@@ -21,9 +21,9 @@ cast:
     name: Wesley Nash
   - role: Judge Littlefield
     name: Afia Spencer
-  - role: Saint Monica/Henrietta Iscariot
+  - role: Saint Monica / Henrietta Iscariot
     name: Aimee Gaudin
-  - role: Mary Magdalene/Mother Teresa
+  - role: Mary Magdalene / Mother Teresa
     name: Holly Daniels
   - role: Pontius Pilate
     name: Jordan Edgar-Oliyide

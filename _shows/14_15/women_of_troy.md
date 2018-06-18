@@ -18,11 +18,11 @@ cast:
     name: Rachel Angeli
   - role: Cassandra
     name: Lara Cowler
-  - role: Menelaus/Poseidon
+  - role: Menelaus / Poseidon
     name: Sam Greenwood
   - role: Talthybius
     name: Sam Peake
-  - role: Chorus/Athena
+  - role: Chorus / Athena
     name: Kat Lewis
   - role: Chorus
     name: Alice Simmons

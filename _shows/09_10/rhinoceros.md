@@ -57,7 +57,7 @@ crew:
     name: James Herbert
   - role: Animation Designer
     name: Lucy Dove
-  - role: Composer/Pianist
+  - role: Composer / Pianist
     name: Angus MacRae
   - role: Puppet Maker
     name: Emily O'Dwyer

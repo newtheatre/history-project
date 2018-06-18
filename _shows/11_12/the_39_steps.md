@@ -11,7 +11,7 @@ date_end: 2012-05-12
 cast:
   - role: Richard Hannay
     name: Topher Collins
-  - role: Annabella/Magerat/Pamela
+  - role: Annabella / Magerat / Pamela
     name: Zoe Moulton
   - role: Clown
     name: Ben Hollands
