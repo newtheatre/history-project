@@ -29,7 +29,8 @@ crew:
 assets:
 - type: poster
   image: GJzPrcn
-  
+
+prod_shots: CSsd6r
 ---
 Working Class Hero is one of the two shows the NNT is taking to the Edinburgh Fringe this summer.
 

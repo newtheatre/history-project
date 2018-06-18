@@ -20,5 +20,6 @@ assets:
 - type: poster
   image: HWpzMSX
 
+prod_shots: kbbxJb
 ---
 
