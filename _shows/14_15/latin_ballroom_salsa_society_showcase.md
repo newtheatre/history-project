@@ -1,7 +1,7 @@
 ---
 title: "Latin Ballroom Salsa Society Showcase"
 period: Spring
-season: "STUFF"
+season: "StuFF"
 season_sort: 470
 date_start: 2015-06-18
 venue: New Theatre

@@ -1,7 +1,7 @@
 ---
 title: "Emily and Ben in 'A Likely Story'"
 period: Spring
-season: "STUFF"
+season: "StuFF"
 season_sort: 460
 date_start: 2015-06-17
 venue: New Theatre Studio A

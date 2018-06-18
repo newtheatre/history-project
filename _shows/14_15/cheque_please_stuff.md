@@ -3,7 +3,7 @@ title: "Cheque, Please"
 playwright: "Nikki Hill"
 student_written: true
 period: Spring
-season: "STUFF"
+season: "StuFF"
 season_sort: 430
 date_start: 2015-06-17
 venue: New Theatre

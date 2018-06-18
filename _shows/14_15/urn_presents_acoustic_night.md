@@ -1,7 +1,7 @@
 ---
 title: "URN Presents: Acoustic Night"
 period: Spring
-season: "STUFF"
+season: "StuFF"
 season_sort: 420
 date_start: 2015-06-17
 venue: New Theatre

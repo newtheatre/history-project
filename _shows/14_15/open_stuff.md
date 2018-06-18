@@ -2,7 +2,7 @@
 title: "OPEN"
 devised: true
 period: Spring
-season: "STUFF"
+season: "StuFF"
 season_sort: 500
 date_start: 2015-06-18
 venue: New Theatre
