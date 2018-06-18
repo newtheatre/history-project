@@ -51,6 +51,24 @@ assets:
 published: true
 
 prod_shots: nGMwFs
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2009/10/boys-life-the-new-theatre-by-mav-reynolds/
+    snapshot: TAQHs
+    publisher: Impact Nottingham
+    author: Mav Reynolds
+    title: "Boys' Life @ The New Theatre by Mav Reynolds"
+    date: 2009-10-22
+    quote: "At moments it certainly achieves both. Personally, I will be returning at some point this week and I would advise anyone reading this to do so. I would love to see what they could have done with two more weeks."
+  - type: Review
+    href: https://impactnottingham.com/2009/10/boys-life-new-theatre-a-fresh-er-perspective-by-amy-pearson/
+    snapshot: q8gkn
+    publisher: Impact Nottingham
+    author: Amy Pearson
+    title: "Boys' Life @ New Theatre (A Fresh-er Perspective) by Amy Pearson"
+    date: 2009-10-22
+    quote: "It was the opening night of the new season and if the quality of production is this high already, things can only get better; this performance is only on until Saturday so you haven’t got long to make your mind up, but it shouldn’t take a second thought."
 ---
 
 Set in the late 80's, Boys' Life tracks the misadventures of three former college mates as they simultaneously pursue and refuse adulthood; and the women who are both attracted to and repelled by them along the way. Told in a series of fast-paced and bitingly funny scenes, Boys' Life digs up some uncomfortable truths as the friends 'crawl through the gutter for regular sex.'
