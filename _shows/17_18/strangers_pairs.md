@@ -10,17 +10,17 @@ company: Strickland Productions
 
 cast:
 - role: Survivor 1
-  cast: Eric Crouch
+  name: Eric Crouch
 - role: Survivor 2
-  cast: Isabelle Cadwallader
+  name: Isabelle Cadwallader
 - role: Brother
-  cast: Arthur Mckechnie
+  name: Arthur Mckechnie
 - role: Sister
-  cast: Boo Jackson
+  name: Boo Jackson
 - role: Magician
-  cast: Daniel McVey
+  name: Daniel McVey
 - role: Assistant
-  cast: Nat Henderson
+  name: Nat Henderson
   
 crew:
 - role: Director 
