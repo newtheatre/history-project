@@ -10,7 +10,7 @@ venue: Djanogly Theatre
 date_start: 2016-10-17
 
 cast:
-- role: Nick Carroway
+- role: Nick Carraway
   name: Nick Gill
 - role: Daisy Buchanan
   name: Sophie Walton
