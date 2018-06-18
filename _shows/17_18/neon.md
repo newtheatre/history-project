@@ -1,5 +1,6 @@
 ---
 title: NEON
+playwright: Patrick Swain
 season: StuFF
 season_sort: 490
 period: Spring
@@ -13,9 +14,6 @@ crew:
   person: false
 - role: Director 
   name: Jasper Frost
-  person: false 
-- role: Writer
-  name: Patrick Swain
   person: false
 - role: Assistant Producer
   name: Bridie Shine
