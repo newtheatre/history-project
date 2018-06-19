@@ -91,8 +91,6 @@ crew:
 - role: Producer 
   name: Nadia Elalfi
 - role: Venue Technician
-  name: Rohanna Brown
-- role: Venue Technician
   name: Nathan Penney
 - role: Technical Operator
   name: Florence Bell
