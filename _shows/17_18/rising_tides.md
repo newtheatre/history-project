@@ -58,6 +58,9 @@ crew:
 assets:
 - type: poster
   image: 5hH5VpD
+- type: trailer
+  video: dnLqn9d
+  title: Trailer
 
 prod_shots: Zt2jr5
 
