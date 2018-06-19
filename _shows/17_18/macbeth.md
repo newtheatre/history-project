@@ -94,7 +94,10 @@ prod_shots: dMhzHs
 
 assets:
   - type: poster
-    image: JQ9Z83f  
+    image: JQ9Z83f
+  - type: backstage
+    video: QB9W8CZ
+    title: Backstage At
 
 links:
   - type: Review
