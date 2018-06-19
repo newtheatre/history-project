@@ -25,6 +25,7 @@ assets:
 - type: poster
   image: vvNxjS5
 
+prod_shots: qPcJnZ
 ---
 
 Puck, from Shakespeare's 'A Midsummer Night's Dream', appears in the 21st Century and continues her mischievous love-potion brewing in this audience-interaction show. When a boy appears who loves to speak in poetry, the nostalgic hero finds she is torn between concocting her troublesome spells and becoming a victim of the love flower herself.

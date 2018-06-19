@@ -35,6 +35,7 @@ assets:
 - type: poster
   image: Fd5s6qk
 
+prod_shots: 88HXvT
 ---
 
 Everyone says that university is the best three years of your life! So what happens next? What happens when you still have questions, but everyone expects you to have all the answers? 

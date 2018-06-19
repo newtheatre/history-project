@@ -30,6 +30,7 @@ assets:
 - type: poster
   image: 3qZnRfn
 
+prod_shots: nwm5cP
 ---
 
 An hour of stand-up poetry about dead dogs, chocolate and nostalgia. Bróccán Tyzack-Carlin presents a semi-coherent exploration of nothing in particular using words that sometimes rhyme. You're allowed to look for a Higher Meaning in this work, but it's probably for the best if you don't bother.

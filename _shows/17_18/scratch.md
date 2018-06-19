@@ -24,6 +24,7 @@ assets:
 - type: poster
   image: rJBZKsz
 
+prod_shots: kdn9xZ
 ---
 
 Inspired by their current production of Phil Porter's Blink, Squabbling House Theatre are delighted to present the company’s first collection of new writing shorts: SCRATCH.

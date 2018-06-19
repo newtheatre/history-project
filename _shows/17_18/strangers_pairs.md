@@ -1,6 +1,7 @@
 ---
 title: "Strangers: Pairs"
 playwright: Joe Strickland
+student_written: true
 season: StuFF
 season_sort: 510
 period: Spring
@@ -35,6 +36,8 @@ crew:
 assets:
   - type: poster
     image: 6KQmZND
+
+prod_shots: QKLwST
 ---
 
 Survivors on a desert island, siblings in their mother’s attic, magicians preparing a new show. These pairs tell three stories interwoven with magic and illusion to create an audience experience like no other. Returning to the Edinburgh Festival Fringe after two successful previous years, director and multi award-winning magician Joe Strickland presents a show that uniquely blends theatre with magic. 
