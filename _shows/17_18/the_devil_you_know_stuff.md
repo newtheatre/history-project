@@ -10,13 +10,13 @@ date_start: 2018-06-16
 
 cast:
 - role: Lex
-  name: Charley Basley
+  name: Charlie Basley
 - role: Bailey
   name: Lillian Race
 - role: Charlie
   name: Zen Crichlow
 - role: Quinn
-  name: Sally Johnstone
+  name: Sally Johnston
 
 crew:
 - role: Director
