@@ -7,7 +7,17 @@ season_sort: 410
 period: Spring
 venue: New Theatre
 date_start: 2018-06-16
-  
+
+cast:
+- role: Lex
+  name: Charley Basley
+- role: Bailey
+  name: Lillian Race
+- role: Charlie
+  name: Zen Crichlow
+- role: Quinn
+  name: Sally Johnstone
+
 crew:
 - role: Director
   name: Emma Summerton 
@@ -21,6 +31,9 @@ crew:
 assets:
 - type: poster
   image: jsbQ6SQ
+- type: trailer
+  video: F7ScbP5
+  title: Show Trailer
 
 ---
 
