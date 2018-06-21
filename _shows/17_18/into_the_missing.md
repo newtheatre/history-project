@@ -92,8 +92,10 @@ crew:
   name: Nadia Elalfi
 - role: Venue Technician
   name: Nathan Penney
-- role: Technical Operator
+- role: Technical Director
   name: Florence Bell
+- role: Technical Operator
+  name: Zoe Smith
 - role: Poster Design
   name: Nadia Elalfi
 - role: Poster Design
