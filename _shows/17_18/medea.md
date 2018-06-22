@@ -67,6 +67,8 @@ crew:
   name: Maddy Strauss
 - role: Technical Operator
   name: Zoe Smith
+- role: Hair and Make-Up
+  name: Angharad Davies
 
 assets:
   - type: poster
