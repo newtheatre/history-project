@@ -86,6 +86,22 @@ links:
     title: "Rhinoceros @ Nottingham New Theatre by Mav Reynolds"
     date: 2009-12-03
     quote: "It is a play that I would recommend very highly. The highest accolade that I can give it is that I cannot decide whether or not I like it, even whether or not I understand it. It will leave audiences talking for a long while to come."
+  - type: Review
+    href: https://impactnottingham.com/2009/12/rhinoceros-new-theatre-by-damien-clarke/
+    snapshot: H2ovG
+    publisher: Impact Nottingham
+    author: Damien Clarke
+    title: "Rhinocers @ Nottingham New Theatre by Damien Clarke"
+    date: 2009-12-03
+    quote: "Forgive the slightly overdramatic introduction and allow McNamee’s Rhinoceros to woo you with its flagrant, animated absurdity; for the penultimate performance of the New Theatre season has treated us to what is doubtless near the most satisfying, complete and engaging production this year."
+  - type: Review
+    href: https://impactnottingham.com/2009/12/rhinoceros-new-theatre-by-ola-konopka/
+    snapshot: FElpW
+    publisher: Impact Nottingham
+    author: Ola Konopka
+    title: "Rhinoceros @ Nottingham New Theatre by Ola Konopka"
+    date: 2009-12-03
+    quote: "Although the New Theatre’s performance lacks the right balance between the comedic elements and Ionesco’s leading thought, it is a fascinating trip to nonsense of the reality we live in, and it is highly recommended to everyone, especially those who think that Ionesco only wanted to make us laugh."
 ---
 
 A Rhinoceros is running amok. Stories are sweeping the town. A cat has died as a direct result.

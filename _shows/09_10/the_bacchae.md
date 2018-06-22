@@ -37,6 +37,14 @@ links:
     title: "The Bacchae @ Nottingham New Theatre by Stephen Lovejoy"
     date: 2009-11-19
     quote: "The music, effects and acting worked well to bring this challenging script to life in an atmospheric way and the build up to the climax was powerful. It was engaging and there were certainly enough screaming females to keep anybody satisfied. Definitely one that I’d recommend going to see."
+  - type: Review
+    href: https://impactnottingham.com/2009/11/the-bacchae-new-theatre-by-mav-reynolds/
+    snapshot: f2MtG
+    publisher: Impact Nottingham
+    author: Mav Reynolds
+    title: "The Bacchae @ Nottingham New Theatre by Mav Reynolds"
+    date: 2009-11-19
+    quote: "It has so much about it that was good that was simply overshadowed tonight, literally. It is a play that is hugely atmospheric, but on its first night, almost unwatchable."
 
 published: true
 ---
