@@ -40,4 +40,14 @@ crew:
 assets:
   - type: poster
     image: QqzRSBg
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2010/03/the-love-of-the-nightingale-the-new-theatre/
+    snapshot: 0r2HC
+    publisher: Impact Nottingham
+    author: Faith Oyegun
+    title: "Two Reviews for The Love of The Nightingale @ The New Theatre"
+    date: 2010-03-12
+    quote: "Niobe got a lot of laughs, and Procne played an angry, disgusted and betrayed wife with conviction. Sophie Watson and Charlotte Wright creatively revive an important tale which ultimately highlights society’s flaws with resonance, urging us to question them relentlessly."
 ---

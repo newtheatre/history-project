@@ -39,6 +39,18 @@ assets:
     image: MmrPGft
 
 published: true
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2010/05/the-small-things-the-new-theatre/
+    snapshot: uFsyD
+    publisher: Impact Nottingham
+    author: Amy Pearson
+    title: "The Small Things @ The New Theatre"
+    date: 2010-05-15
+    quote: "This is an intriguing yet short play of  just over an hour with no interval. There’s no denying it’s an intense performance, the message at the heart being the fragility of age. It won’t make you relax but it’ll leave you pondering.
+
+."
 ---
 
 Two houses, each perched on a mountaintop, stare at each other across a deep valley.

@@ -30,6 +30,16 @@ assets:
   - type: poster
     image: m8gPPWR
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2010/02/our-town-the-new-theatre/
+    snapshot: 03uQk
+    publisher: Impact Nottingham
+    author: Clara Baldock
+    title: "Two Reviews for Our Town @ Nottingham New Theatre"
+    date: 2010-02-26
+    quote: "With some challenges still to overcome in the piece, it was enjoyable to watch with subtle nuances throughout that created the strong moral message of Carpe diem (seize the day), leaving the audience with an enriched insight into the lives of ordinary people whose hopes and dreams flicker throughout the passage of time."
+
 published: true
 
 prod_shots: bNHmqg

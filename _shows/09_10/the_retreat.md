@@ -37,5 +37,13 @@ links:
     title: "The Retreat"
     date: 2010-08-13
     rating: 4/5
-    quote: "Recommended if you want something a bit meatier than many Fringe offerings. "
+    quote: "Recommended if you want something a bit meatier than many Fringe offerings."
+  - type: Review
+    href: https://impactnottingham.com/2010/10/the-retreat/
+    snapshot: tj4tA
+    publisher: Impact Magazine
+    author: Chris Walters
+    title: "The Retreat"
+    date: 2010-10-04
+    quote: "Anyone who likes dramatic theatre will love this show and I recommend it. Full credit is due to all involved; they are a talented cast and crew and it’s obvious that they share a clear vision for the show which came across from the stage."
 ---
