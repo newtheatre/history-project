@@ -45,6 +45,14 @@ links:
     title: "Blithe Spirit @ Nottingham New Theatre by Mav Reynolds"
     date: 2009-11-06
     quote: "This is a play that leaves the audience with more questions than answers. I shall not bore you with all of mine, since you have already been subjected to several of them. It is, nevertheless, a play that can deliver."
+  - type: Review
+    href: https://impactnottingham.com/2009/11/blithe-spiritthe-new-theatre-by-venetia-hulse/
+    snapshot: x49nt
+    publisher: Impact Nottingham
+    author: Venetia Hulse
+    title: "Blithe Spirit @ Nottingham New Theatre by Venetia Hulse"
+    date: 2009-11-06
+    quote: "It was nevertheless incredibly funny and not a single member of the audience failed to laugh throughout. The final scene is fantastic; it is a wonderful ending to a good production. Credit must be duly given to the technical team’s achievements."
 
 published: true
 ---

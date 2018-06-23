@@ -10,7 +10,7 @@ date_start: 2010-03-29
 date_end: 2010-04-01
 
 cast:
-  - role: unknown
+  - role: Mark
     name: Tommo Fowler
   - name: Dan Rae-Scott
   - name: Stephanie Soh
@@ -32,6 +32,16 @@ assets:
     image: 9wjW4hX
 
 published: true
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2010/03/excess-the-new-theatre/
+    snapshot: CSgQy
+    publisher: Impact Nottingham
+    author: Amy Pearson
+    title: "Excess @ The New Theatre"
+    date: 2010-03-30
+    quote: "Overall, Excess should be commended for its courageousness in confronting some of the biggest mores of today’s society with honesty and compassion, and marks as such the end of another brilliant season at the New Theatre. And if you need more convincing, there is an almost gratuitous amount of semi-nudity."
 
 prod_shots: xGQFtD
 ---

@@ -63,6 +63,16 @@ assets:
     image: Lr5srb9
 
 published: true
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2010/05/the-real-inspector-hound-the-new-theatre/
+    snapshot: FHwOh
+    publisher: Impact Nottingham
+    author: Cesar Teixeira
+    title: "The Real Inspector Hound @ The New Theatre"
+    date: 2010-05-07
+    quote: "Over all, an enjoyable performance, one that without a doubt entertains. The sincere congratulations go out to Oliver and his team for bringing to stage this outstanding play."
 ---
 
 Two critics.

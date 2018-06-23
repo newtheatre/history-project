@@ -45,6 +45,14 @@ links:
     title: "The Country @ Nottingham New Theatre by Mav Reynolds"
     date: 2009-11-02
     quote: "This being said, I left the theatre feeling satisfied, with little desire to do anything but talk about this play, and yet unable to find words in which to frame my thoughts. Stunned would not be an overstatement. This is a play that you most certainly should not miss."
+  - type: Review
+    href: https://impactnottingham.com/2009/10/the-country-the-new-theatre/
+    snapshot: I7dC7
+    publisher: Impact Nottingham
+    author: Kate Scott
+    title: "The Country @ The New Theatre"
+    date: 2009-10-29
+    quote: "Despite this, I feel the play is definitely worth seeing, the dedication of the cast shines through, and their commitment creates emotional sincerity. This coupled with the ingenious set and music, makes it compelling and provoking viewing."
 
 published: true
 ---

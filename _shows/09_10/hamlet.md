@@ -47,6 +47,24 @@ assets:
   - type: poster
     image: JKqTV85
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2009/12/hamlet-the-new-theatre-by-amy-pearson/
+    snapshot: v7Uv4
+    publisher: Impact Nottingham
+    author: Amy Pearson
+    title: "Hamlet @ Nottingham New Theatre by Amy Pearson"
+    date: 2009-12-10
+    quote: "Suffice to say, Shakespeare isn’t easy to perform, but you would never know because these guys make it look effortless. This is the last production of term, so there is no excuse- to go or not to go; there is NO question about it."
+  - type: Review
+    href: https://impactnottingham.com/2009/12/hamlet-the-new-theatre-by-mav-reynolds/
+    snapshot: dNdbz
+    publisher: Impact Nottingham
+    author: Mav Reynolds
+    title: "Hamlet @ Nottingham New Theatre by Mav Reynolds"
+    date: 2009-12-11
+    quote: "Everything was believable, I never once thought I saw an actor on stage in this immersive and genuine production. This has been a sterling end to a sterling season of plays and amid the biting winter’s chill; I walked away from Hamlet keenly feeling the warm seep of poignancy. I can give no greater accolade than that the tragedy is still as keen today as ever it was."
+
 published: true
 ---
 
