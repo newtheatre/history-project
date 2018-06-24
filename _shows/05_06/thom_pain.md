@@ -1,12 +1,12 @@
 ---
 title: "Thom Pain"
 playwright: Will Eno
-period: Autumn
+period: spring
 season: In House
 season_sort: 120
 venue: New Theatre
-date_start: 2006-04-19
-date_end: 2006-04-22
+date_start: 2006-03-22
+date_end: 2006-03-25
 
 crew:
   - role: Director
