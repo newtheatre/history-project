@@ -45,6 +45,13 @@ assets:
 
 links:
   - type: Review
+    href: http://www.edinburghspotlight.com/2011/08/fringe-review-chasing-dragons/
+    snapshot: CClcS
+    publisher: Edinburgh Spotlight
+    title: "Fringe Review: Chasing Dragons"
+    rating: 4/5
+    quote: "New student writing is at the heart of the Fringe: New Theatre help keep this heart beating with a gripping and satisfyingly complete piece of theatre which shows emerging young talent is anything but a fantasy."
+  - type: Review
     href: http://broadwaybaby.com/shows/chasing-dragons/18793
     snapshot: jldja
     publisher: Broadway Baby
