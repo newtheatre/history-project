@@ -17,6 +17,20 @@ assets:
 
 prod_shots: DVdGzx
 
+crew:
+- role: Sound Designer
+  name: James Herbert
+- role: Sound Designer
+  name: John Beer
+- role: Sound Engineer
+  name: James Herbert
+- role: Lighting Designer
+  name: Matt Leventhall
+- role: Lighting Designer
+  name: Phil Geller
+- role: Lighting Operator
+  name: Phil Geller
+
 links:
   - type: Review
     href: https://impactnottingham.com/2009/02/a-bunch-of-talentless-wannabes-the-new-theatre/
