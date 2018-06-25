@@ -57,7 +57,7 @@ links:
     snapshot: Dn2Cj
     publisher: The Edinburgh Reporter
     author: John Kennedy
-    title: "Fringe Revie: Beef"
+    title: "Fringe Review: Beef"
     date: 2011-08-08
     rating: 5/5
     quote: "To use the words ‘Experimental Theatre’ might have many running for the hills, but Arthur’s Seat has been there, and will remain, for Millennia. Your chance to experience a play of gifted frisson is but transitory. Carpe Diem."
