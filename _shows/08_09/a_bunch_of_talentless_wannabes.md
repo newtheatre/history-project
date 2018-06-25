@@ -27,9 +27,9 @@ crew:
 - role: Lighting Designer
   name: Matt Leventhall
 - role: Lighting Designer
-  name: Phil Geller
+  name: Philip Geller
 - role: Lighting Operator
-  name: Phil Geller
+  name: Philip Geller
 
 links:
   - type: Review
