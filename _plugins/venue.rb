@@ -88,7 +88,7 @@ module Jekyll
 
         if venue_page.data.key?("links")
           venue_page.data["links"] = LinkList::LinkList.new(@site, venue_page.data["links"], venue_page)
-          @site.data['link-register'].add_list(venue_page.data["links"])
+          site.data['link-register'].add_list(venue_page.data["links"])
         end
         
       end
