@@ -86,7 +86,7 @@ module Jekyll
           venue_page.data['city_sort'] = nil
         end
 
-        if venue_page.data.key?("links")
+        if venue_page.data.key?("links") 
           venue_page.data["links"] = LinkList::LinkList.new(site, venue_page.data["links"], venue_page)
           site.data['link-register'].add_list(venue_page.data["links"])
         end
