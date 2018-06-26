@@ -1,6 +1,7 @@
 ---
 title: "Beef"
 playwright: Rose Williams
+student_written: true
 season: Edinburgh
 season_sort: 290
 period: Edinburgh
@@ -34,6 +35,8 @@ crew:
     name: Liz Stevenson
   - role: Producer
     name: Liz Rose
+  - role: Writer
+    name: Rose Williams
 
 assets:
   - type: poster
