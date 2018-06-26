@@ -15,6 +15,8 @@ assets:
 crew:
   - role: Director
     name: Fu Baxter
+  - role: Designer
+    name: Katie Blumenblatt
   - role: Composer
     name: Yichen Wu
   - role: Flute
