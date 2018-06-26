@@ -22,7 +22,7 @@ crew:
 - role: Director
   name: Rose Williams
 - role: Producer
-  name: Frankie Andrews
+  name: Francesca Andrews
 
 assets:
   - type: poster
