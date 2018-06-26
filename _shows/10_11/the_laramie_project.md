@@ -22,6 +22,7 @@ cast:
   - name: Fran Rylands
   - name: Sophia Stanley
   - name: Weston Twardowski
+  - name: Izzy Scrimshire
 
 crew:
   - role: Director
