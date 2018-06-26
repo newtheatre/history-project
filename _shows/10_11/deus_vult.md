@@ -32,6 +32,9 @@ crew:
 assets:
   - type: poster
     image: jc46gNp
+  - type: trailer
+    video: n4FNb7t
+    title: Trailer
 
 published: true
 
