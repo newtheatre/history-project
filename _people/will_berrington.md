@@ -6,6 +6,6 @@ submitted: false
 course:
   - Law LLB
   - Public International Law LLM
-
+graduated: 2017
 ---
 
