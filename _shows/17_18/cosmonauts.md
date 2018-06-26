@@ -124,6 +124,9 @@ crew:
 assets:
   - type: poster
     image: P5nH63T
+  - type: trailer
+    video: Vz2sMb8
+    title: Trailer
 
 ---
 
