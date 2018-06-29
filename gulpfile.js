@@ -224,6 +224,16 @@ gulp.task('server', function () {
         }));
 });
 
+gulp.task('dockerserver', function () {
+    return gulp.src('_site/')
+        .pipe(webserver({
+            host: '0.0.0.0',
+            port: 8000,
+            livereload: false,
+            open: false
+        }));
+});
+
 gulp.task('watch', function () {
     watch(['_sass', '_coffee'], batch(function (events, done) {
         gulp.start('frontend_dev', done);
