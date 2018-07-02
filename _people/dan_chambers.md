@@ -5,7 +5,8 @@ submitted: false
 course: American Studies 
 graduated: 1996
 careers: 
-  - Writer and Director
+  - Writer 
+  - Director
 links: 
   - type: Website 
     href: "http://www.adrenalini.com/#!about-adrenalini-brothers/ "
