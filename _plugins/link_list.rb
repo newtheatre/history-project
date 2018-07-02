@@ -138,6 +138,7 @@ module LinkList
         'rating' => rating,
         'quote' => quote,
         'comment' => @link_hash['comment'],
+        'note' => @link_hash['note'],
         'page' => @page_ref,
       }
     end
