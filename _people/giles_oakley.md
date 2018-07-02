@@ -1,7 +1,8 @@
 ---
 title: Giles Oakley
 graduated: 1968
-course: History & American Studies 
+course: 
+ - History & American Studies 
 submitted: false
 gender: male
 ---
