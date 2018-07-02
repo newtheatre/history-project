@@ -129,6 +129,15 @@ module Jekyll
         person.data["graduated_estimated"] = false
       end
 
+      # Student status 
+      if not person.data["graduated"] or not person.data["graduated_actual"]
+        if (person.data["shows"]) or (person.data["committees"])
+          person.data["student"] = true 
+        else 
+          person.data["student"] = false 
+        end
+      end 
+
       # Replace headshots with SmugMug Images
       if person.data["headshot"]
         person.data["headshot"] = SmugImage.new(person.data["headshot"])
