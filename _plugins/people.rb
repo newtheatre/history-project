@@ -121,16 +121,17 @@ module Jekyll
       end
 
       # Graduation estimation
-      if not person.data["graduated"]
+      if not person.data["graduated"] # If we don't know the date, estimate
         person.data["graduated"] = estimate_graduated(person)
         person.data["graduated_estimated"] = true
-      else
+      else 
         person.data["graduated_actual"] = person.data["graduated"]
         person.data["graduated_estimated"] = false
       end
 
       # Student status 
-      if not person.data["graduated"] or not person.data["graduated_actual"] or (person.data["graduated"] > Time.now().year)
+
+      if not person.data["graduated"] or (person.data["graduated"] > Time.now().year)
         if (person.data["shows"]) or (person.data["committees"])
           person.data["student"] = true 
         else 

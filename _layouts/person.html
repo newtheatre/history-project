@@ -32,7 +32,7 @@ body_class: layout-person header-nobr content-nobr
     </div>
 
     <div class="person-graduated">
-      {% if person.graduated and not person.student %}<a href="{{ year_link }}">{% endif %}
+      {% if person.graduated %}{% unless person.student == true %}<a href="{{ year_link }}">{% endunless %}{% endif %}
       {% if person.student %}
       <div class="person-graduated-inner person-graduated-student">
         Student
@@ -51,7 +51,7 @@ body_class: layout-person header-nobr content-nobr
           Unknown
         </div>
       {% endif %}
-      {% if person.graduated %}</a>{% endif %}
+      {% if person.graduated %}{% unless person.student == true %}</a>{% endunless %}{% endif %}
     </div>
   </header>
 
