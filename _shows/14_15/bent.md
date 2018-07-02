@@ -39,6 +39,8 @@ crew:
     name: Harry Bridge
   - role: Technical Operator
     name: Darcey Graham
+  - role: Technical Operator
+    name: Sam Osborne
   - role: Set Design
     name: Charlotte van Rhee
   - role: Set Designer
