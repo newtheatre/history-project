@@ -112,3 +112,29 @@ Given not all of the content areas of the site are displayed with Markdown, refe
 Quotes should attempt to be as accurate as possible to the source, but understandably with short quotes context can be missed. If you're omitting part of a quote, insert `[...]` to indicate so. Cases at the start and end of quotes can be changed without indication (i.e., no need for `[T]he`).
 
 If you need to clarify a quote, for instance a name, just add or edit using square brackets. For example, `it was brilliant` could become `['The Tempest'] was brilliant`.
+
+### People Lists 
+
+There are a few formatting things we do to make sure all of our people lists are consistent. 
+
+#### Role-first 
+
+When listing people, list their role first and then their name.
+
+#### Multi-roles 
+
+In many shows, an actor will take on multiple roles. We display these by separating each role with a forward slash, flanked by spaces:
+
+{% highlight markdown %}
+- role: Macbeth / Macduff / Doctor 
+  name: John Smith 
+{% endhighlight %}
+
+For crew, someone taking on multiple roles are listed as separate entries.
+ 
+{% highlight markdown %}
+- role: Producer
+  name: Jane Doe 
+- role: Technical Director 
+  name: Jane Doe 
+{% endhighlight %}
