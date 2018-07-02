@@ -30,7 +30,7 @@ crew:
 - role: Shadow Lighting Designer
   name: Ed Eggleton
 - role: Sound Designer
-  name: Georgi Paxton
+  name: Georgi Locke
 - role: Production Assistant
   name: Namita Nair
 - role: Poster Designer

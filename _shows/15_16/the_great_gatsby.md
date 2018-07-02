@@ -11,7 +11,7 @@ date_start: 2015-12-06
 date_end: 2015-12-07
 
 cast:
-- role: Nick Carroway
+- role: Nick Carraway
   name: Nick Gill
 - role: Daisy Buchanan
   name: Libby Boyd

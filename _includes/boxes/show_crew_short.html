@@ -1,4 +1,4 @@
 <div class="box-warning">
   <i class="fa fa-exclamation-triangle"></i>
-  <p><strong>Short Crew List</strong> The crew list for this show looks a little short. {% include boxes/phrase_if_you_can_help.html %}</p>
+  <p><strong>Incomplete Crew List</strong> {% if include.crew_note %}{{ include.crew_note }}{% else %}The crew list for this show looks a little short.{% endif %} {% include boxes/phrase_if_you_can_help.html %}</p>
 </div>

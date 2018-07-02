@@ -1,6 +1,6 @@
 ---
-title: Michael Jones
+title: Dom Bitten
+headshot: WfMDD5z
 gender: male
 submitted: false
-graduated: 1970
 ---

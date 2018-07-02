@@ -43,7 +43,7 @@ crew:
 - role: Sound Designer
   name: Andrew Houghton
 - role: Technical Operator
-  name: Georgi Paxton
+  name: Georgi Locke
 - role: Technical Operator
   name: Tom Proffitt
 - role: Technical Operator

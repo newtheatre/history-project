@@ -16,7 +16,7 @@ cast:
     name: Sam Greenwood
   - role: Fairy Queen
     name: Maddie Hardy
-  - role: The Kraken /Seagull / Fairy
+  - role: The Kraken / Seagull / Fairy
     name: Page Phillips Harrington
   - role: Captain Truebeard / Gruff
     name: Joe Hincks
@@ -26,9 +26,9 @@ cast:
     name: Lizzie Frainier
   - role: Cursed King
     name: Mike Bradley
-  - role: Barbara the Tree / Fairy /Blubbery Joe
+  - role: Barbara the Tree / Fairy / Blubbery Joe
     name: Lou Knapp
-  - role: Cynthia the Tree/1st Mate
+  - role: Cynthia the Tree / 1st Mate
     name: Alice Richards
 
 crew:

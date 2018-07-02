@@ -43,6 +43,15 @@ assets:
   - type: poster
     image: GBCcQkw
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/11/nottingham-new-theatre-uncut-the-proposal-and-the-bear-by-anton-chekhov/
+    snapshot: D95cH
+    publisher: Impact Nottingham
+    author: Olivia O’Shaughnessy
+    title: "Nottingham New Theatre Uncut: The Proposal and The Bear by Anton Checkov"
+    date: 2012-11-20
+    quote: "Overall, a thoroughly entertaining performance that was compelling in its individuality and comedic value."
 
 prod_shots: b2NgXt
 ---

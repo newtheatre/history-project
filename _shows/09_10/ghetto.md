@@ -35,7 +35,7 @@ cast:
     name: Amy Rushton
   - role: unknown
     name: Peter Cary
-  - role: Lionek/Judge/Others
+  - role: Lionek / Judge / Others
     name: Conrad Cohen
   - role: unknown
     name: Andrew Kennedy
@@ -59,6 +59,24 @@ crew:
 assets:
   - type: poster
     image: KG7MmgG
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2009/11/ghetto-the-new-theatre/
+    snapshot: fJ3pk
+    publisher: Impact Nottingham
+    author: Sophie Watson
+    title: "Ghetto @ Nottingham New Theatre by Sophie Watson"
+    date: 2009-11-26
+    quote: "‘Ghetto’ is not light hearted and it is certainly not easy viewing. Rather, it is intelligent, confrontational and thoroughly disconcerting. It is something which will stay with you, long after you have left the theatre."
+  - type: Review
+    href: https://impactnottingham.com/2009/11/ghetto-the-new-theatre-by-mav-reynolds/
+    snapshot: izjm3
+    publisher: Impact Nottingham
+    author: Mav Reynolds
+    title: "Ghetto @ Nottingham New Theatre by Mav Reynolds"
+    date: 2009-11-27
+    quote: "I am very pleased to say Preston, cast and crew have delivered a fascinating, visually arresting, and thought provoking piece of work. I would wholeheartedly recommend that anyone should go and see this. With all its flaws it finds humanity in a heartless world."
 
 published: true
 ---

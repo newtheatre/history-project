@@ -33,7 +33,7 @@ cast:
     name: John Bell
   - role: Lockwood
     name: Eoin Buckley
-  - role: Director/Fiona
+  - role: Director / Fiona
     name: Alix Hattenstone
 
 crew:
@@ -51,6 +51,17 @@ assets:
     image: vgGbjFB
 
 prod_shots: f5rCtk
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/05/the-history-boys-new-theatre/
+    snapshot: dOmiQ
+    publisher: Impact Nottingham
+    author: Margaret Adeagbo
+    title: "The History Boys @ Nottingham New Theatre"
+    date: 2012-05-20
+    quote: "The New Theatre’s production of The History Boys though not a faultless presentation is ultimately a very successful rendition which I would certainly recommend as the play is a thoroughly captivating experience."
+
 ---
 
 Alan Bennett’s ‘The History Boys’ is a funny, intelligent and provocative drama set in 1980s Sheffield, that tracks eight boys preparing for their Oxbridge entrance exams. It explores conflicting values about education, sexuality and social constructions, encompassing musical and theatrical elements to provide both a poignant and truly entertaining production.

@@ -25,7 +25,7 @@ cast:
   name: Miguel Barrulas
 - role: Edwards
   name: Ted Marriott
-- role: Will/Billy
+- role: Will / Billy
   name: Luke Slater
 - role: Mrs Welsh
   name: Louise Harris
@@ -33,11 +33,11 @@ cast:
   name: Libby Boyd
 - role: Ms Bott
   name: Daniella Finch
-- role: Maudsley/Radliegh
+- role: Maudsley / Radliegh
   name: Cameron Walker
 - role: Mr Banks
   name: Arnaud Lacey
-- role: Minnie/Mrs Lindley
+- role: Minnie / Mrs Lindley
   name: Chloe Schlitter
 
 crew:

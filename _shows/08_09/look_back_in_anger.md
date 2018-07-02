@@ -27,4 +27,14 @@ assets:
     image: XsRrCnQ
 
 prod_shots: zrmf9s
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2008/12/look-back-in-anger-new-theatre/
+    snapshot: Ly270
+    publisher: Impact Nottingham
+    author: Emily Shirtcliff
+    title: "Look Back In Anger @ Nottingham New Theatre"
+    date: 2008-12-04
+    quote: "It is not an edge-of-your-seat evening, but a well-designed and eventually confidently and feelingly depicted production, demonstrating a thoughtful perception of the protagonists and the relationships between them."
 ---

@@ -240,6 +240,11 @@ body_class: section-archives layout-show
     <section class="show-cast debug-container">
       <div class="debug-abs-top-left" data-debug-toggle title="Number of cast">{{ show.cast.size }}</div>
       {% unless show.ignore_missing and show.cast.size == null %}<h3>Cast</h3>{% endunless %}
+      {% if show.cast_incomplete == true %} 
+        {% unless show.ignore_missing %} 
+          {% include boxes/show_cast_short.html cast_note=show.cast_note %}
+        {% endunless %}
+      {% endif %}
       {% if show.cast == null %}
         {% unless show.ignore_missing %}
           {% include boxes/show_cast_missing.html %}
@@ -251,9 +256,9 @@ body_class: section-archives layout-show
     <section class="show-crew debug-container">
       <div class="debug-abs-top-left" data-debug-toggle title="Nunber of crew">{{ show.crew.size }}</div>
       {% unless show.ignore_missing and show.crew.size == null %}<h3>Crew</h3>{% endunless %}
-      {% if show.crew.size < site.show_low_crew %}
+      {% if show.crew.size < site.show_low_crew or show.crew_incomplete == true %}
         {% unless show.ignore_missing %}
-          {% include boxes/show_crew_short.html %}
+          {% include boxes/show_crew_short.html crew_note=show.crew_note %}        
         {% endunless %}
       {% endif %}
       {% if show.crew == null %}

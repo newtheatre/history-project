@@ -59,7 +59,7 @@ cast:
  - role: Chorus of Fairies
    name: Lynette McEwan
  - role: Chorus of Fairies
-   name: Susan Munroe
+   name: Sue Munroe
  - role: Chorus of Fairies
    name: Sarah Payler
  - role: Chorus of Fairies
@@ -184,6 +184,10 @@ crew:
  - role: Percussion
    name: Hazel Chapman
 
+trivia:
+  - quote: I only appeared in one production but clearly remember one member of the cast falling ill - it turned out she was suffering an appendicitis.
+    name: Sarah Payler
+    submitted: 2018-06-12
 
 assets:
   - type: programme

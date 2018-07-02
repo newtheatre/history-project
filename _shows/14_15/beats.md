@@ -2,7 +2,7 @@
 title: "Beats"
 playwright: Kieran Hurley
 period: Spring
-season: "STUFF"
+season: "StuFF"
 season_sort: 510
 date_start: 2015-06-18
 date_end: 2015-06-19

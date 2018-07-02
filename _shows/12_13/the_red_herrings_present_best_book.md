@@ -15,6 +15,16 @@ crew:
 assets:
   - type: poster
     image: rFpNRqw
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/02/the-best-book-i-never-wrote-nottingham-new-theatre/
+    snapshot: VqJk5
+    publisher: Impact Nottingham
+    author: Rachel Tait
+    title: "The Best Book I Never Wrote @ Nottingham New Theatre"
+    date: 2013-02-16
+    quote: "Who would’ve expected that a trip to Argos could result in mass murder? There are so many twists and turns in this production that I would recommend it to all. Whatever your comedic preference, the adaptability of this performance ensures there is a laugh out loud moment for every member of the audience."
 ---
 
 A Writer, A Deadline, Two angry Publishers and an intense night of fully improvised comedy action. 

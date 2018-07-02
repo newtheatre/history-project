@@ -19,7 +19,7 @@ cast:
     name: Emily Hawkins
   - role: Susanna Walcott
     name: Claire Butters
-  - role: Ann Putnam/Martha Corey/Sarah Good
+  - role: Ann Putnam / Martha Corey / Sarah Good
     name: Kath Akers
   - role: Thomas Putnam
     name: Matt Chapman
@@ -39,7 +39,7 @@ cast:
     name: Sophie Bostock
   - role: Francis Nurse
     name: Pete Bridge
-  - role: Ezekiel Cheever/Hopkins
+  - role: Ezekiel Cheever / Hopkins
     name: George Kaye
   - role: Marshal Herrick
     name: Nikolaj Babic

@@ -60,6 +60,16 @@ assets:
   - type: poster
     image: RwWt34q
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/05/pub-quiz-is-life-nottingham-new-theatre/
+    snapshot: yCxD2
+    publisher: Impact Nottingham
+    author: Shista Hussain
+    title: "Pub Quiz is Life @ Nottingham New Theatre"
+    date: 2013-05-09
+    quote: "Although Richard Bean’s Pub Quiz is Life is relatively linear and predictable in plot, the cast and team do an astounding job of creating an electric, all-encompassing performance providing a take-home message delivered by salty humour guaranteeing plenty of laughs."
+
 prod_shots: p47xCL
 ---
 

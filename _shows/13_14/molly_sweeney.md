@@ -105,6 +105,16 @@ assets:
 
 prod_shots: q5TP5z
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/11/molly-sweeney-nottingham-new-theatre/  
+    snapshot: UcIhq
+    publisher: Impact Nottingham 
+    author: Alice McCaffrey
+    title: "Molly Sweeney @ Nottingham New Theatre"
+    date: 2013-11-28
+    rating: 4/5
+    quote: " Even after watching the play and being sucked into the perfection and radiance of the language and the actors’ skill of storytelling, I feel like my single viewing has only scratched the surface of an immensely rich script. I would not be adversed to seeing this production a second time to discover new details."
 ---
 
 Molly Sweeney has been blind since she was ten months old. Now in her early forties, she has the chance to see again thanks to her surgeon Mr. Rice. However, she finds herself a stranger in the sighted world and things soon begin to take their toll on her and her marriage to her husband Frank.

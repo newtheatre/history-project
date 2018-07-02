@@ -41,6 +41,16 @@ assets:
 published: true
 
 prod_shots: hK3T2p
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2010/11/bluebird-the-new-theatre-2/
+    snapshot: yUEJt
+    publisher: Impact Nottingham
+    author: Rose Williams
+    title: "Bluebird @ Nottingham New Theatre"
+    date: 2010-11-20
+    quote: "Becky Catlin has brought a beautiful piece of writing to the New Theatre stage with precision and style, lifting the characters to the forefront of the production.  Compelling and strangely beautiful, this production of Simon Stephens’ Bluebird made for a thoroughly enjoyable evening at the theatre."
 ---
 
 “This is an extraordinary city. It's a city that you should see primarily at nighttime. It is becomes more concentrated at nighttime. We could take a look at it for a while...”

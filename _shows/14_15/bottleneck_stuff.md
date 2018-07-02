@@ -2,7 +2,7 @@
 title: "Bottleneck"
 playwright: "Luke Barnes"
 period: Spring
-season: "STUFF"
+season: "StuFF"
 season_sort: 440
 date_start: 2015-06-17
 date_end: 2015-06-19

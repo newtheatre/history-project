@@ -18,13 +18,13 @@ assets:
 cast:
   - role: Macbeth
     name: Ali Blackwell
-  - role: Lady Macbeth/Witch
+  - role: Lady Macbeth / Witch
     name: Michelle Ghatan
-  - role: Duncan/Macduff/Porter/Witch
+  - role: Duncan / Macduff / Porter / Witch
     name: Tom Pinny
-  - role: Lady Macduff/Witch
+  - role: Lady Macduff / Witch
     name: Clare Salter
-  - role: Banquo/Macduff's Son
+  - role: Banquo / Macduff's Son
     name: Nick Medhurst
 
 crew:

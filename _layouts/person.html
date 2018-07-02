@@ -33,20 +33,24 @@ body_class: layout-person header-nobr content-nobr
 
     <div class="person-graduated">
       {% if person.graduated %}<a href="{{ year_link }}">{% endif %}
-        {% if person.graduated_actual %}
-        <div class="person-graduated-inner person-graduated-actual decade-background-{{ person.decade }}">
-          {{ person.graduated }}
+      {% if person.student %}
+      <div class="person-graduated-inner person-graduated-student">
+        Student
+      </div>
+      {% elsif person.graduated_actual %}
+      <div class="person-graduated-inner person-graduated-actual decade-background-{{ person.decade }}">
+        {{ person.graduated }}
+      </div>
+      {% elsif person.graduated %}
+      <div class="person-graduated-inner person-graduated-estimated decade-background-{{ person.decade }}" title="Estimated">
+        {{ person.graduated }}
+      </div>
+      <div class="person-graduated-estimated-text">Estimated</div>
+      {% else %}
+        <div class="person-graduated-inner person-graduated-unknown">
+          Unknown
         </div>
-        {% elsif person.graduated %}
-        <div class="person-graduated-inner person-graduated-estimated decade-background-{{ person.decade }}" title="Estimated">
-          {{ person.graduated }}
-        </div>
-        <div class="person-graduated-estimated-text">Estimated</div>
-        {% else %}
-          <div class="person-graduated-inner person-graduated-student">
-            Student
-          </div>
-        {% endif %}
+      {% endif %}
       {% if person.graduated %}</a>{% endif %}
     </div>
   </header>

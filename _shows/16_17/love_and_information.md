@@ -14,6 +14,9 @@ date_end: 2017-01-28
 assets:
   - type: poster
     image: xNDbFXt
+  - type: trailer
+    video: RjqTBm9
+    title: Trailer
 
 crew:
  - role: Lighting Designer

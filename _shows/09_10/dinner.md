@@ -42,6 +42,16 @@ assets:
   - type: poster
     image: NvZ3DFZ
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2010/03/dinner-the-new-theatre/
+    snapshot: ZRbbR
+    publisher: Impact Nottingham
+    author: Amy Pearson
+    title: "Dinner @ Nottingham New Theatre"
+    date: 2010-03-04
+    quote: "They don’t even make it to coffee and mints before things start to boil over. The audience are left somewhat bewildered at the end. The chandelier is extinguished and they are quite literally in the dark..."
+
 published: true
 ---
 

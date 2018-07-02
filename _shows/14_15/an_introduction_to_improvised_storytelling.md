@@ -1,7 +1,7 @@
 ---
 title: "An Introduction to Improvised Storytelling"
 period: Spring
-season: "STUFF"
+season: "StuFF"
 season_sort: 490
 date_start: 2015-06-18
 date_end: 2015-06-19

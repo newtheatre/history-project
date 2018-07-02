@@ -3,7 +3,7 @@ title: "Strangers - A Magic Play"
 company: Strickland Productions
 devised: true
 period: Spring
-season: STUFF
+season: StuFF
 season_sort: 450
 date_start: 2016-06-14
 venue: New Theatre

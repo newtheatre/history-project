@@ -31,6 +31,16 @@ assets:
   - type: poster
     image: M2kCXPN
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/03/nnt-uncut-osama-the-hero-by-dennis-kelly/
+    snapshot: aXOVx
+    publisher: Impact Nottingham
+    author: Alice Child
+    title: "Nottingham New Theatre Uncut: Osama the Hero by Dennis Kelly"
+    date: 2013-03-18
+    quote: "It is an entirely different type of theatre experience, and raises thought-provoking questions about the War on Terror and post 9/11 Britain. Although it cannot be described as an ‘enjoyable’ night out at the theatre (or garage), it is certainly not one to be missed."
+
 prod_shots: gQdpgv
 
 ---

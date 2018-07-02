@@ -9,6 +9,16 @@ venue: New Theatre
 date_start: 2008-04-23
 date_end: 2008-04-26
 
+cast:
+- role: Jacob
+  name: Nick Medhurst
+- role: Sophie
+  name: Anna Wheatley
+- role: Archie
+  name: Nick Breen
+- role: Corbin
+  name: Tom Silverstone
+
 crew:
   - role: Director
     name: Tom Warren

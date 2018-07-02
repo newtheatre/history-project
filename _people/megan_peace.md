@@ -1,6 +1,6 @@
 ---
-title: Nicole Samuels
+title: Megan Peace
+headshot: 9wB89rD
 gender: female
-graduated: 2010
 submitted: false
 ---

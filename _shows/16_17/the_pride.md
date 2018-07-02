@@ -15,7 +15,7 @@ cast:
   name: Chris Sharp-Paul
 - role: Sylvia
   name: Ella Hiscocks
-- role: The Man/The Editor/The Doctor
+- role: The Man / The Editor / The Doctor
   name: David Mason
 
 crew:

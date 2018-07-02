@@ -20,6 +20,16 @@ assets:
   - type: poster
     image: K46gZ8Q
 
+links:
+  - type: Review
+    href: http://www.su-web2.nottingham.ac.uk/~impact/?p=824
+    snapshot: KASLJ
+    publisher: Impact Nottingham
+    author: Clarissa Woodberry
+    title: "No Exit/ Crave @ New Theatre"
+    date: 2007-11-02
+    quote: "Crave is a very different production, short and intense. It looks at what life and love ‘does’ to people through four characters, known only by letters and each tortured by their own personal traumas."
+
 prod_shots: 39SzSb
 ---
 

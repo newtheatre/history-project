@@ -1,7 +1,7 @@
 ---
-title: Oliver Silver
+title: James Roscow
 gender: male
-graduated: 2012
+graduated: 2016
 submitted: false
 ---
 

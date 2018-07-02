@@ -33,6 +33,8 @@ assets:
   - type: poster
     image: gDw5cnx
 
+prod_shots: VzLGW3
+
 comment: Selected for NSDF 2007
 
 links:

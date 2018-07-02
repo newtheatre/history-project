@@ -22,9 +22,9 @@ cast:
    name: Nick Pease
  - role: Lucio
    name: Ian Noble
- - role: Abhorson/1st Gentleman
+ - role: Abhorson / 1st Gentleman
    name: John Ironmonger
- - role: Barnardine/2nd Gentleman
+ - role: Barnardine / 2nd Gentleman
    name: Laurence George
  - role: Pompey
    name: Tim Sluckin
@@ -82,4 +82,8 @@ crew:
    name: "Gail-Nina Anderson"
 ---
 
+It is sometime in the 1920's, and a small European state is caught up in the rigours of inter-war depression. The streets are haunted by groups of demobilised troops: 'peace on earth' is only a synonym for unemployment to them. Disease, drunkeness and disorder flourish, and faced with the neccessity of enforcing firm discipline, the Duke abdicates his authority to Angelo, who, to the dismay of such hardened practitioners as Pompey and Mistress Overdone, enfroces his own particular brand of prohiition...
 
+Written after the theatres re-opened subsequent to the plague of 1603, it was first performed in the year 1604 as witness the Revels Accounts which list a productions of 'Mesur for Mesur' by Shaxberd in the Whitehall banqueting house on St. Stephen's Night. This places the play between Othello and King Lear which may be relevant to it being classified as a 'dark comedy'; that is, a happy ending but brought about by a series of events of dubious moral standing and ethical content.
+
+Referances topical to Shakespeare's audience do occur quite frequently, and although these allusions are likely to be lost on present day theatre-goers, there is much which is still very relevant today. The interaction and conflict between authority and power, duty and honour are themes that only change with human nature.

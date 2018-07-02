@@ -59,6 +59,17 @@ prod_shots: 4Rzt7j
 assets:
   - type: poster
     image: DWTvpvs
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2014/03/betrayal-nottingham-new-theatre/
+    snapshot: TwDta
+    publisher: Impact Nottingham 
+    author: Charlotte Kaur
+    title: "Betrayal @ Nottingham New Theatre"
+    date: 2014-03-06
+    rating: 4/5
+    quote: "The production crew of Betrayal deserve much praise. Every detail of the fairly minimal set served a purpose and the costume changes appropriately reflected minor changes within the characters. The set was inventively used to transport us to multiple locations, convincingly."
 ---
 
 Harold Pinter’s Betrayal examines the vast and complicated permutations of disloyalty and unfaithfulness that relates to a seven-year affair involving a married couple, Robert and Emma, and Robert’s “Best Friend” Jerry. By reversing the chronological order of events, Pinter does not evoke questions relating to when events took place, but rather how and why. In a play where the network of relations is finely crafted: Pinter juggles around his three characters in all possible arrangements of the bitter triangle, each betrayer becoming, in turn, the betrayed.

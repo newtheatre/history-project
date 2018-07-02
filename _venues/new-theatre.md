@@ -15,6 +15,10 @@ location:
   lon: -1.196260
 city: Nottingham
 sort: 10
+links: 
+  - title: Nottingham New Theatre
+    type: default
+    href: http://newtheatre.org.uk/
 ---
 
 Originally part of the Archaeology and Classics building, the main auditorium of the Nottingham New Theatre was given to the company in 1965. The foyer was remodeled in 2001 and again in 2012.

@@ -2,7 +2,7 @@
 title: "Footnotes"
 playwright: Lewys Holt 
 period: Spring
-season: STUFF
+season: StuFF
 season_sort: 540
 date_start: 2017-06-21
 venue: New Theatre 

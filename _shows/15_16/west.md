@@ -17,13 +17,13 @@ cast:
   name: Niamh Caines
 - role: Pearl
   name: Tom Selves
-- role: Ralph/Curly
+- role: Ralph / Curly
   name: George Waring
-- role: Les/Reg
+- role: Les / Reg
   name: Jamie Watt
-- role: Ken/Pat
+- role: Ken / Pat
   name: James Roscow
-- role: Steve/Burt
+- role: Steve / Burt
   name: Callum Walker
 - role: Cilla
   note: The Messenger

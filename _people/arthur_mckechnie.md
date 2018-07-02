@@ -1,6 +1,6 @@
 ---
 title: Arthur Mckechnie
-headshot: NtmcfHH
+headshot: F74jtmG
 gender: male
 submitted: false
 ---

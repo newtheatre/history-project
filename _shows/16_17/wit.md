@@ -21,11 +21,11 @@ cast:
   name: Joe Hincks
 - role: Professor E.M. Ashford
   name: Izzie Masters
-- role: Technicians/Fellows/Students/Code Team
+- role: Technicians / Fellows / Students / Code Team
   name: Darcey Graham
-- role: Technicians/Fellows/Students/Code Team
+- role: Technicians / Fellows / Students / Code Team
   name: Andrew Houghton
-- role: Technicians/Fellows/Students/Code Team
+- role: Technicians / Fellows / Students / Code Team
   name: Beth Mullen
 
 crew:
@@ -93,15 +93,6 @@ links:
     quote: >
       Simultaneously heart-breaking and life-affirming, and showcases the best that student theatre can be."
   - type: Review
-    href: https://www.facebook.com/kev.castle.5/posts/10154934837632223
-    snapshot: DMuLw
-    publisher: Kev Castle
-    author: Kev Castle
-    title: "\"W;t\" by Margaret Edson"
-    date: 2016-12-01
-    quote: >
-      This is probably one of the most powerful and emotional plays that I have seen performed at the New Theatre
-  - type: Review
     href: http://www.impactnottingham.com/2016/12/wt-nottingham-new-theatre/
     snapshot: cL0N1
     publisher: Impact Nottingham
@@ -111,6 +102,14 @@ links:
     rating: 9/10
     quote: >
       W;t was a poignant exploration of the effects illness and deterioration has, even on those may who seem distant and untouchable.
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2016/12/wt-by-margaret-edson-nottingham-new.html
+    snapshot: vhdtr
+    publisher: Kev Castle Reviews
+    title: "\"W;t\" by Margaret Edson"
+    date: 2016-12-01
+    quote: "This is probably one of the most powerful and emotional plays that I have seen performed at the New Theatre"
+
 ---
 
 Vivian Bearing, a brilliant and uncompromising professor of English Literature who has spent years specializing in the Holy Sonnets of John Donne, has been diagnosed with terminal ovarian cancer. She agrees to undergo an experimental chemotherapy treatment that, although not guaranteed to save her, will provide excellent research data for the future of oncology. Over the course of her treatment, she begins to question how she has lived her life, an uncompromising strive for knowledge and intellectual brilliance – and begins to see the importance of human connection and kindness. Professor Bearing valiantly braves all eight rounds of the chemotherapy, but is told the tumour has not been completely dispelled, and there is nothing else that can be done. Through the agony of dying from a terminal illness, she learns a lesson of compassion. 'W;t' is a poignant and humorous look at life, death, poetry, and openness.

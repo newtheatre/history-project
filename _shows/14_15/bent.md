@@ -15,13 +15,13 @@ cast:
     name: John Bell
   - role: Rudy
     name: Nick Slater
-  - role: Wolf/Kapo
+  - role: Wolf / Kapo
     name: Joe Hincks
-  - role: Freddie/Officer/2nd Lieutenant
+  - role: Freddie / Officer / 2nd Lieutenant
     name: Chris Trueman
   - role: Greta
     name: Mike Bradley
-  - role: Captain/1st Lieutenant
+  - role: Captain / 1st Lieutenant
     name: Ricki Crook
 
 crew:

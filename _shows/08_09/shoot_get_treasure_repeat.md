@@ -15,3 +15,9 @@ crew:
   - role: Director
     name: Rebecca Catlin
 ---
+
+‘Shoot/Get Treasure/Repeat’ is a montage of three short plays by Mark Ravenhill, with the common theme of modern life under the threat of terrorism.
+
+‘Women In Love’ and ‘Armageddon’ present intimate snapshots of everyday life. Anna tends to her lover Dan, a cancer patient, and two Evangelical Christians meet in a motel room, almost succumbing to their lust for one another.
+
+‘Yesterday An Incident Occurred’ breaks down the concept of this play as something fictional. The cast confront the audience about an event the previous night, where an audience member attacked an actor, turning the play into a witch-hunt.

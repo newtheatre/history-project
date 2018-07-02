@@ -8,6 +8,14 @@ venue: New Theatre
 date_start: 2006-03-15
 date_end: 2006-03-18
 
+cast:
+- role: Larry
+  name: Theo James
+
+crew:
+- role: Director
+  name: Clare Davies
+
 links:
   - type: Review
     href: http://www.su-web2.nottingham.ac.uk/~impact/?p=306

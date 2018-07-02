@@ -10,17 +10,17 @@ date_start: 2015-11-16
 date_end: 2015-11-17
 
 cast:
-- role: Earth/Ensemble
+- role: Earth / Ensemble
   name: Arnaud Lacey
-- role: Irony Man/Ensemble
+- role: Irony Man / Ensemble
   name: Emma Kendall
-- role: Thomas the Tank Engine/Ensemble
+- role: Thomas the Tank Engine / Ensemble
   name: Jess Curtis
-- role: Captain Federated States of Micronesia/Ensemble
+- role: Captain Federated States of Micronesia / Ensemble
   name: Izzy Miles
-- role: Funeral Director/Ensemble
+- role: Funeral Director / Ensemble
   name: Josh Battaliou
-- role: Hades/Ensemble
+- role: Hades / Ensemble
   name: Alice Simmons
 
 crew:

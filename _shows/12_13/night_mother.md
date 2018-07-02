@@ -49,6 +49,16 @@ assets:
     video: zH2nFqL
     title: Trailer
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/11/night-mother-nottingham-new-theatre/
+    snapshot: 5z0y5
+    publisher: Impact Nottingham
+    author: Sangeeta Jheinga
+    title: "'night, Mother @ Nottingham New Theatre"
+    date: 2012-11-22
+    quote: "'Night, Mother was an ambitious play for a student theatre to put on but it was moving and emotional. Very intense, certainly, but definitely worth the watch; it will remain with you long after the actresses take their bows."
+
 prod_shots: FTpG92
 ---
 

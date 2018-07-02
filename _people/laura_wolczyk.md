@@ -1,6 +1,6 @@
 ---
 title: Laura Wolczyk
-headshot: B9KgtXg
+headshot: 2sL63cf
 gender: female
 submitted: false
 course:

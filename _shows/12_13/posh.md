@@ -24,7 +24,7 @@ cast:
     name: Will Hedges
   - role: Guy
     name: Giles Gear
-  - role: Chris/Jeremy
+  - role: Chris / Jeremy
     name: Tom Savage
   - role: Rachel
     name: Chloe Bickford
@@ -46,6 +46,16 @@ crew:
     name: Sioned Walker
   - role: Stage Manager
     name: Lara Tysseling
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/03/posh-nottingham-new-theatre/
+    snapshot: SuDNp
+    publisher: Impact Nottingham
+    author: Ella Ryder
+    title: "Posh @ Nottingham New Theatre"
+    date: 2013-03-14
+    quote: "I would definitely recommend it to anyone who enjoys a laugh at the expense of the rich.  Is it worth going to see? Yah!"
 
 assets:
   - type: poster

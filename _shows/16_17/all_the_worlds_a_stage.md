@@ -10,15 +10,15 @@ date_start: 2016-11-28
 date_end: 2016-11-29
 
 cast:
-- role: Director/Person A/Psych-O/Mr Jones
+- role: Director / Person A / Psych-O / Mr Jones
   name: Arnaud Lacey
-- role: Teacher/Mean Judge/Audience Member 1
+- role: Teacher / Mean Judge / Audience Member 1
   name: Beth Angella
-- role: Mr Simpkins/Nice Judge/Audience Member 2
+- role: Mr Simpkins / Nice Judge / Audience Member 2
   name: Will Kitchen
-- role: Dictator/Person B
+- role: Dictator / Person B
   name: Ronan Lee
-- role: Prisoner/Dr Leech
+- role: Prisoner / Dr Leech
   name: Sam Morris
 
 crew:
@@ -66,6 +66,14 @@ links:
     date: 2016-11-29
     rating: 8/10
     quote: "Experimental theatre with hilarious results! Yee Heng Yeh’s All The World’s a Stage and Other Stories is a brilliant play that blurs the boundaries, to say the least, whilst transporting you into everyday worlds that make you reflect on whether we are all just players on a stage."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2016/11/all-worlds-stage-other-stories.html
+    snapshot: 2daXE
+    publisher: Kev Castle Reviews
+    title: "\"All The World's A Stage & Other Stories\""
+    date: 2016-11-29
+    quote: "For a piece that started off as a class assignment,it's blossomed nicely into a well thought out comedy sketch collection, proving that not only do Nottingham New theatre produce some excellent drama, serious writing and theatrical technology people, they can also produce good comedy as well."
+
 
 ---
 A director tries his hand at experimental theatre, to disastrous results. An incompetent doctor watches the auditions of a talent show, where the judges start an argument. A machine becomes sentient to the horror of a careers adviser. And a dictator has a friendly chat with the man he put in prison, only to discover that something is very, very wrong…

@@ -9,7 +9,7 @@ crew:
  - role: Director
    name: Laura Jackson
  - role: Director
-   name: Sam Partridge
+   name: Samantha Partridge
 ---
 
 

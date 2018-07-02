@@ -36,6 +36,16 @@ assets:
 
 published: true
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2010/03/the-shape-of-things-the-new-theatre/
+    snapshot: i3HDn
+    publisher: Impact Nottingham
+    author: Amy Pearson
+    title: "The Shape of Things @ The New Theatre"
+    date: 2010-03-25
+    quote: "Supposedly through art you can ‘strive to change the world’, and perhaps this play as an artwork strives to change how we judge appearances, and to look at the power of comestic surgery. This play might just change your world, but you’d have to go and see it first."
+
 prod_shots: mrtKV4
 ---
 

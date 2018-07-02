@@ -102,6 +102,8 @@ crew:
   name: Zoe Smith
 - role: Stage Manager
   name: Steven Holkesvik
+- role: Stage Manager
+  name: Angharad Davies
 - role: Musician
   name: Ian Sheard
 - role: Musician
