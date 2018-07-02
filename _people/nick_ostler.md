@@ -1,11 +1,11 @@
 ---
-title: Mark Huckerby
+title: Nick Ostler
 gender: male
 submitted: false
-course: American Studies 
+course: Politics
 graduated: 1996
 careers: 
-  - Writer 
+  - Writer
   - Director
 links: 
   - type: Website 
@@ -14,6 +14,6 @@ links:
     title: "The Amazing Adrenalini Brothers!"
 ---
 
-Since graduating, Huckerby has worked with New Theatre friends Nick Ostler and Dan Chambers to create 'The Amazing Adrenalini Brothers!', inspired from a New Theatre 1993 sketch show. The cartoon has seen international success since 2002 when it was picked up by Pesky Ltd. 
+Since graduating, Ostler has worked with New Theatre friends Mark Huckerby and Dan Chambers to create 'The Amazing Adrenalini Brothers!', inspired from a New Theatre 1993 sketch show. The cartoon has seen international success since 2002 when it was picked up by Pesky Ltd. 
 
 It features three brothers, Xan, Adi and Enk, who are from Rendoosia and take part in death-defying stunts in every episode with their catchphrase "Yahzaa!". 'The Amazing Adrenalini Brothers!' won the Best Children's Animation BAFTA in 2006.
