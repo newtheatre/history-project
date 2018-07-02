@@ -32,7 +32,7 @@ body_class: layout-person header-nobr content-nobr
     </div>
 
     <div class="person-graduated">
-      <a href="{{ year_link }}">
+      {% if person.graduated %}<a href="{{ year_link }}">{% endif %}
         {% if person.graduated_actual %}
         <div class="person-graduated-inner person-graduated-actual decade-background-{{ person.decade }}">
           {{ person.graduated }}
@@ -47,7 +47,7 @@ body_class: layout-person header-nobr content-nobr
             Student
           </div>
         {% endif %}
-      </a>
+      {% if person.graduated %}</a>{% endif %}
     </div>
   </header>
 
