@@ -4,7 +4,9 @@ body_class: layout-person header-nobr content-nobr
 ---
 {% assign person = page %}
 {% capture submit_link %}/collect/person/?name={{person.path_name}}{% endcapture %}
-{% capture year_link %}/years/{{ person.graduated | minus: 1 | slice: 2,2 }}_{{ person.graduated | slice: 2,2 }}/{% endcapture %}
+{% if person.graduated %}
+  {% capture year_link %}/years/{{ person.graduated | minus: 1 | slice: 2,2 }}_{{ person.graduated | slice: 2,2 }}/{% endcapture %}
+{% endif %}
 
 <div class="person">
 
