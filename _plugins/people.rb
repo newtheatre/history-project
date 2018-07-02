@@ -130,7 +130,7 @@ module Jekyll
       end
 
       # Student status 
-      if not person.data["graduated"] or not person.data["graduated_actual"]
+      if not person.data["graduated"] or not person.data["graduated_actual"] or (person.data["graduated"] > Time.now().year)
         if (person.data["shows"]) or (person.data["committees"])
           person.data["student"] = true 
         else 
