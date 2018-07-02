@@ -7,8 +7,11 @@ season_sort: 70
 venue: New Theatre
 
 crew:
- - role: Director
-   name: Nick Tyler
+  - role: Director
+    name: Nick Tyler
+
+cast: 
+  - name: Ramsay Gilderdale
 
 note: November
 ---
