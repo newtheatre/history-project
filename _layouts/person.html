@@ -32,7 +32,7 @@ body_class: layout-person header-nobr content-nobr
     </div>
 
     <div class="person-graduated">
-      {% if person.graduated %}<a href="{{ year_link }}">{% endif %}
+      {% if person.graduated and not person.student %}<a href="{{ year_link }}">{% endif %}
       {% if person.student %}
       <div class="person-graduated-inner person-graduated-student">
         Student
