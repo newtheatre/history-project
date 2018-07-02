@@ -12,6 +12,7 @@ links:
     username: KRowleyJones
   - type: IMDb
     href: http://www.imdb.com/name/nm3747614
+news: 
   - type: Article 
     title: Graduate blows into town 
     publisher: BBC Nottingham 
