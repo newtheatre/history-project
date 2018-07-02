@@ -4,9 +4,9 @@ gender: male
 submitted: false
 headshot: hcMxHNs
 links:
-  type: Personal Website
-  href: "http://www.gilderdale.co.uk/"
-  snapshot: G2Sbo
+ - type: Personal Website
+   href: "http://www.gilderdale.co.uk/"
+   snapshot: G2Sbo
 careers:
   - Actor 
   - Director 
