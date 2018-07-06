@@ -4,9 +4,6 @@ body_class: layout-person header-nobr content-nobr
 ---
 {% assign person = page %}
 {% capture submit_link %}/collect/person/?name={{person.path_name}}{% endcapture %}
-{% if person.graduated %}
-  {% capture year_link %}/years/{{ person.graduated | minus: 1 | slice: 2,2 }}_{{ person.graduated | slice: 2,2 }}/{% endcapture %}
-{% endif %}
 
 <div class="person">
 
@@ -32,7 +29,7 @@ body_class: layout-person header-nobr content-nobr
     </div>
 
     <div class="person-graduated">
-      {% if person.graduated %}{% unless person.student == true %}<a href="{{ year_link }}">{% endunless %}{% endif %}
+      {% if person.grad_link %}<a href="/years/{{ person.grad_link }}">{% endif %}
       {% if person.student %}
       <div class="person-graduated-inner person-graduated-student">
         Student
@@ -51,7 +48,7 @@ body_class: layout-person header-nobr content-nobr
           Unknown
         </div>
       {% endif %}
-      {% if person.graduated %}{% unless person.student == true %}</a>{% endunless %}{% endif %}
+      {% if person.grad_link %}</a>{% endif %}
     </div>
   </header>
 
