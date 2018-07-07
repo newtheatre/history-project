@@ -7,6 +7,8 @@ links:
  - type: Personal Website
    href: "http://www.gilderdale.co.uk/"
    snapshot: G2Sbo
+ - type: IMDb
+   href: "https://www.imdb.com/name/nm0318412/"
 careers:
   - Actor 
   - Director 
