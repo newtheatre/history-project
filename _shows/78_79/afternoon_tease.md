@@ -7,8 +7,6 @@ venue: unknown
 
 cast:
 - name: Matthew Bannister
-
-prod_shots: GbTtM9
 ---
 
 
