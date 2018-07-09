@@ -1,8 +1,7 @@
 ---
-title: Jamie Watt
-headshot: 2q6gZGF
+title: Tom Proffit
+gender: male
 graduated: 2018
 award: Merit
-gender: male
 submitted: false
 ---

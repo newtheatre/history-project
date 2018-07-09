@@ -1,6 +1,6 @@
 ---
-title: Abi Byrne
+title: Aneira Pugh
 gender: female
-graduated: 2011
 submitted: false
+graduated: 2013
 ---

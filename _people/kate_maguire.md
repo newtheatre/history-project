@@ -9,4 +9,5 @@ award:
     year: 2017
     show: Contractions
 graduated: 2018
+award: Merit
 ---

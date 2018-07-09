@@ -1,5 +1,8 @@
 ---
 title: Lara Cowler
+graduated: 2018
+award: Merit
+gender: female
 submitted: false
 gender: female
 award:
@@ -7,6 +10,9 @@ award:
     org: NNT
     year: 2017 
     show: "FREAK"
+  - title: Merit
+    org: NNT
+    year: 2018
 headshot: wCZd9BM
 
 ---

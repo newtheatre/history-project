@@ -2,6 +2,8 @@
 title: Nathan Penney
 headshot: kkKGQq4
 gender: male
+graduated: 2018
+award: Merit
 submitted: false
 award: 
   - title: Best Lighting Design (In House)
