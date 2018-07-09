@@ -80,6 +80,16 @@ assets:
   - type: poster
     image: fMtX5q6
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/06/boeing-boeing-nottingham-new-theatre/
+    snapshot: ivD8y
+    publisher: Impact Nottingham
+    author: Emily Goshorn
+    title: "Boeing Boeing @ Nottingham New Theatre"
+    date: 2013-06-13
+    quote: "Altogether the cast and crew have delivered a dazzling production that, in keeping with the aeronautical theme, leaves the audience not just high in the sky but in seventh heaven."
+
 prod_shots: mFhRGn
 ---
 

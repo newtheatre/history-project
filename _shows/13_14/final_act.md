@@ -18,9 +18,9 @@ cast:
     name: Ben Hollands
   - role: Darius
     name: James McAndrew
-  - role: Archie/Simon/Vice Chancellor
+  - role: Archie / Simon / Vice Chancellor
     name: Greg Link
-  - role: Marlene/Maxine
+  - role: Marlene / Maxine
     name: Maddie Hardy
   - role: Bernie
     name: Will Berrington

@@ -63,6 +63,17 @@ assets:
     title: Backstage At
 
 prod_shots: Gt964M
+
+links:
+  - type: Review  
+    href: https://impactnottingham.com/2014/05/tribes-nottingham-new-theatre/
+    snapshot: KbRLg
+    publisher: Impact Nottingham 
+    author: Emma Lawton
+    title: "Tribes @ Nottingham New Theatre"
+    date: 2014-05-16
+    rating: 4.5/5
+    quote: "Having said that, ‘Tribes’ was acted and signed brilliantly. Don’t just go and see this play because it’s a good break from revision. Go and see it because it deserves to be seen"
 ---
 
 Billy’s fiercely intelligent and proudly unconventional family are their own tiny empire, with their own private language, jokes and rules. You can be as rude as you like, as possessive as you like, as critical as you like. Arguments are an expression of love. After all, you’d do anything for each other – wouldn’t you? But Billy, who is deaf, is one of the few who actually listens. Meeting Sylvia makes him finally want to be heard; can he get a word in edgeways?

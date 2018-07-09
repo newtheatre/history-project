@@ -1,5 +1,5 @@
 ---
-title: Ambergate Resevoir
+title: Ambergate Reservoir
 playwright: Emma White
 student_written: true
 period: Spring

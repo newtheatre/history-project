@@ -1,7 +1,6 @@
 ---
 title: James Roscow
 gender: male
-submitted: false
 award:
   - title: Judges' Commendation for Acting
     org: NSDF
@@ -11,5 +10,7 @@ award:
     org: NNT
     year: 2014
     show: Tribes
+graduated: 2016
+submitted: false
 ---
 

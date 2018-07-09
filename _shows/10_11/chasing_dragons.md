@@ -21,12 +21,14 @@ cast:
     name: Ben Cave
   - role: Witch
     name: Laura Kaye Thomson
-  - role: Hermit/Bridgekeeper
+  - role: Hermit / Bridgekeeper
     name: James McAndrew
 
 crew:
   - role: Director
     name: Adam H. Wells
+
+crew_note: "We're missing at least a producer for this show."
 
 assets:
   - type: poster
@@ -34,8 +36,21 @@ assets:
   - type: backstage
     video: NXZCW5k
     title: Backstage At
+  - type: excerpt
+    video: 6qhqZhW
+    title: What Would You Chase
+  - type: excerpt
+    video: KZ7CDpF
+    title: There's a Dragon Coming
 
 links:
+  - type: Review
+    href: http://www.edinburghspotlight.com/2011/08/fringe-review-chasing-dragons/
+    snapshot: CClcS
+    publisher: Edinburgh Spotlight
+    title: "Fringe Review: Chasing Dragons"
+    rating: 4/5
+    quote: "New student writing is at the heart of the Fringe: New Theatre help keep this heart beating with a gripping and satisfyingly complete piece of theatre which shows emerging young talent is anything but a fantasy."
   - type: Review
     href: http://broadwaybaby.com/shows/chasing-dragons/18793
     snapshot: jldja

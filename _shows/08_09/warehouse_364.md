@@ -29,6 +29,16 @@ assets:
 
 prod_shots: tVMbqg
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2009/10/warehouse-364-the-new-theatre-the-edinburgh-fringe-festival/
+    snapshot: JubBL
+    publisher: Impact Nottingham
+    author: Libby Galvin
+    title: "Warehouse 364 - Nottingham New Theatre @ The Edinburgh Fringe Festival"
+    date: 2009-10-07
+    quote: "Over its month long run, ‘Warehouse 364’ regularly attracted double the audience of the average Fringe performance, and deservedly so. However, McNamee’s talent for translating filmic concepts to the theatrical stage was not fully realised this time, as his action packed script suffered under the pressure of time constraints."
+
 published: true
 ---
 

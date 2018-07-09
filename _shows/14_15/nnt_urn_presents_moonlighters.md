@@ -1,7 +1,7 @@
 ---
 title: "NNT & URN Presents: Moonlighters"
 period: Spring
-season: "STUFF"
+season: "StuFF"
 season_sort: 480
 date_start: 2015-06-18
 venue: The Lacehouse

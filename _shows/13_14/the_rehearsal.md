@@ -48,6 +48,16 @@ assets:
     video: dPpHrLW
     title: Trailer
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2014/03/the-rehearsal-nottingham-new-theatre/
+    snapshot: CvyKC
+    publisher: Impact Nottingham 
+    author: Scarlett White
+    title: "The Rehearsal @ Nottingham New Theatre"
+    date: 2014-03-11
+    rating: 5/5
+    quote: "Funny, engaging and realistic, the performance was faultless and made for extremely witty and entertaining evening."
 ---
 
 As part of a behind the scenes tour of a student theatre production, the audience will find themselves witness to more than they had anticipated, receiving an unprecedented insight into the exhilaration and despair of a company caught up in an obsessive and ultimately damaging creative process. Welcome to The Rehearsal.

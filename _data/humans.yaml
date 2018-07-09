@@ -14,12 +14,13 @@
 - name: Ben Woodford
   role: Editor
   bio: ben_woodford
+- name: Sam Osborne
+  role: Editor
+  bio: sam_osborne
+- name: Jack Ellis
+  role: Editor
+  bio: jack_ellis
 - name: David Taylor
   role: Contributor
   bio: david_taylor
-- name: Sam Osborne
-  role: Contributor
-  bio: sam_osborne
-- name: Jack Ellis
-  role: Contributor
-  bio: jack_ellis
+

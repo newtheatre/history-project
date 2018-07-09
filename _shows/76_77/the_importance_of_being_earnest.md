@@ -22,7 +22,7 @@ cast:
 - role: Lane
   name: Jon Turner
 - role: Merriman
-  name: Joe Biccaragie
+  name: Joe Biccaragi
 
 crew:
   - role: Director

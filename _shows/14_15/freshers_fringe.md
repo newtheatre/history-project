@@ -224,6 +224,18 @@ assets:
   - type: backstage
     video: 5cF89Dn
     title: Backstage At
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2014/10/freshers-fringe-nottingham-new-theatre/
+    snapshot: R4Jwt
+    publisher: Impact Nottingham
+    author: Tessa Glinoer
+    title: "Freshers' Fringe @ NNT"
+    date: 2014-10-07
+    rating: 4/5
+    quote: "Nottingham New Theatre’s Freshers Fringe is light-hearted, great fun, and you will certainly be leaving the theatre with a smile."
+
 ---
 
 A collection of the most exciting new talent to descend upon England's only student-run theatre this year bring you one electrifying show. An evening of short plays and sketches guaranteed to tantalise, transfix and titillate.

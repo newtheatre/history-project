@@ -9,6 +9,7 @@ IgnoreURLs:
 - "stagejobspro.com"
 - "soundcloud.com"
 - "impactnottingham.com"
+- "http://www.su-web2.nottingham.ac.uk/"
 IgnoreDirs:
 - "^lib"
 

@@ -95,6 +95,16 @@ assets:
   - type: poster
     image: dwKDjG7
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/12/jerusalem-nottingham-new-theatre/
+    snapshot: TJMlc
+    publisher: Impact Nottingham
+    author: Jenna Hutber
+    title: "Jerusalem @ Nottingham New Theatre"
+    date: 2012-12-06
+    quote: "Jerusalem is everything a student production should be: raw talent, entertaining and unsettling. All the right elements are there; the elusive ‘fairy’ provides the perfect hook, and the genuine hilarity is complemented with intellectual undertones. The performance never bores nor patronises."
+
 prod_shots: Btr98g
 ---
 

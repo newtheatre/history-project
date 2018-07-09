@@ -67,6 +67,16 @@ assets:
     filename: the_pillowman_programme.pdf
     title: Programme
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/12/the-pillowman-nottingham-new-theatre/
+    snapshot: EYgUL
+    publisher: Impact Nottingham
+    author: Zoe Ashton
+    title: "The Pillowman @ Nottingham New Theatre"
+    date: 2012-12-12
+    quote: "Go to see The Pillowman: it will push the boundaries of what you thought was acceptable humour, encourage you not to take anything you thought you knew about theatre for granted and challenge your mental arithmetic if you even dare to take on the challenge of counting the ‘f’ word. Expect the unexpected."
+
 published: true
 ---
 

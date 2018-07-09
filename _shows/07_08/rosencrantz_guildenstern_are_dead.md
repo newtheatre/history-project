@@ -8,6 +8,14 @@ venue: New Theatre
 date_start: 2008-04-16
 date_end: 2008-04-19
 
+cast:
+- role: Hamlet
+  name: Adam Paulden
+- role: Rosencrantz
+  name: Don Ashton
+- role: Guildernstern
+  name: Ali Blackwell
+
 crew:
   - role: Director
     name: Andy McNamee

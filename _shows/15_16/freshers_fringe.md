@@ -21,7 +21,7 @@ cast:
    note: Tom S's Group
  - name: Abi Davies
    note: Tom S's Group
- - name: Sam Edwards
+ - name: Samuel Edwards
    note: Tom S's Group
  - name: Inga Becker-Mansen
    note: Tom S's Group
@@ -34,8 +34,6 @@ cast:
  - name: Ronan Lee
    note: Tom P's Group
  - name: Olivia Wilson
-   note: Tom P's Group
- - name: Georgina Brand
    note: Tom P's Group
  - name: Ed Eggleton
    note: Tom P's Group

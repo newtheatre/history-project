@@ -40,6 +40,16 @@ assets:
     video: sBPwnk3
     title: Trailer
 
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/12/nottingham-new-theatre-uncut-the-woman-who-cooked-her-husband/
+    snapshot: Ew32M
+    publisher: Impact Nottingham
+    author: Andrea James
+    title: "Nottingham New Theatre Uncut: The Woman Who Cooked Her Husband"
+    date: 2012-12-10
+    quote: "With some disgusting uses of food, very un-sensual uses of sex and frankly creative uses of Tom Jones, this play is one to see, and one to treasure."
+
 prod_shots: 5ccxNm
 ---
 

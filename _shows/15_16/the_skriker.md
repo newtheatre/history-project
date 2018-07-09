@@ -26,11 +26,11 @@ cast:
  - role: Skriker
    name: Beth Summerfield
    note: Ego
- - role: Derelict Woman/Corpse
+ - role: Derelict Woman / Corpse
    name: Beth Angella
- - role: Drunk American Woman/Business Woman
+ - role: Drunk American Woman / Business Woman
    name: Arshia Jain
- - role: Child/Dead Child
+ - role: Child / Dead Child
    name: Josie Macgilchrist
  - role: Man 30/40
    name: Will Baglin
@@ -50,6 +50,15 @@ crew:
    name: Sam Layton
  - role: Stage Manager
    name: Maddy Strauss
+
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2016/06/the-skriker-by-caryl-churchill.html
+    snapshot: kLiXd
+    publisher: Kev Castle Reviews
+    title: "\"The Skriker\" by Caryl Churchill"
+    date: 2016-06-02
+    quote: "Another play that reinforces my love for University theatre productions as they do not shy away from lesser known plays and are not afraid at taking risks. Something that outstanding theatre is based on, and something that bigger theatre groups can't financially take the chance with."
 
 ---
 

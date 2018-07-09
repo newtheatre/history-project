@@ -1,7 +1,7 @@
 ---
 title: "Debating Union"
 period: Spring
-season: "STUFF"
+season: "StuFF"
 season_sort: 450
 date_start: 2015-06-17
 venue: New Theatre

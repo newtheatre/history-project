@@ -55,6 +55,11 @@
   short: The year the person graduated, only set if we don't estimate
   generated: true
 
+- attr: student
+  type: boolean 
+  short: Whether a person is a student or not (do they have a show, or a committee, and they are not estimated graduated)
+  generated: true 
+
 - attr: decade
   type: number
   short: Decade identifier graduated falls into

@@ -7,5 +7,6 @@ award:
     org: NSDF
     year: 2016
     show: West
+graduated: 2016
 
 ---

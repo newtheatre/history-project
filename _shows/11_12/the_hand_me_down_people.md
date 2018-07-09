@@ -44,6 +44,29 @@ links:
     date: 2012-08-11
     rating: 3/5
     quote: "The premise and advertising may give the impression that this is a children’s show, but given suicide proves one of the major themes, think twice before bringing your children."
+  - type: Review
+    href: https://www.ayoungertheatre.com/edinburgh-fringe-review-the-hand-me-down-people-the-new-theatre-university-of-notttingham/
+    publisher: A Younger Theatre
+    author: Veronica Aloess
+    title: "Edinburgh Fringe Review: The Hand-Me-Down People"
+    date: 2012-08-19
+    rating: 2/5
+    quote: "The Hand-Me-Down People is lacking something in every respect. It feels like Wells just didn’t try to leap from the shelf, and wrote a very safe play that already feels resigned to being left on someone’s shelf, never to be picked up, read, and loved."
+  - type: Review
+    href: http://www.edinburghspotlight.com/2012/08/fringe-review-the-hand-me-down-people-c-nova/
+    snapshot: CgGvg
+    publisher: Edinburgh Spotlight
+    title: "FRINGE REVIEW – The Hand-Me-Down People, C Nova"
+    rating: 4/5
+    quote: "Writing is strong and multi-layered. A music box playing a never-changing selecion of tunes not only frustrates her fellow shelf-dwellers, but underscores the limbo they find themselves in."
+  - type: Review
+    href: https://impactnottingham.com/2012/08/the-hand-me-down-people-edinburgh-fringe/
+    snapshot: PNnzN
+    publisher: Impact Nottingham
+    author: Kiran Benawra
+    title: "The Hand-Me-Down People @ Edinburgh Fringe"
+    date: 2012-08-11
+    quote: "Handed down from Nottingham to Edinburgh The Hand Me Down People certainly does not lose any value, displaying an array of talent in all aspects of performance, a play for all the family…a quality that comes in handy at the Fringe."
 ---
 
 Ignored and abandoned on a dusty shelf, a group of outdated figurines await the inevitable. An allegorical and humorous tale about growing older.

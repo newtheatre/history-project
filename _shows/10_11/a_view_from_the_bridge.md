@@ -54,6 +54,16 @@ assets:
 published: true
 
 prod_shots: 7dbktp
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2011/03/a-view-from-the-bridge-new-theatre/
+    snapshot: FQ1NM
+    publisher: Impact Nottingham
+    author: Margaret Adeagbo
+    title: "A View From The Bridge @ Nottingham New Theatre"
+    date: 2011-03-19
+    quote: "Ultimately, New Theatre’s adaptation of such a well-loved piece of literature did not disappoint. Not only is it a superb play that combines love, tragedy and violence in a seemingly harmonious backdrop, but also includes great comedy moments that were flawlessly timed."
 ---
 
 “I was just thinking before, comin’ home, suppose my father didn’t come to this country, and I was starving like them over there … and I had people in America could keep me for a couple of months? The man would be honoured to lend me a place to sleep.”

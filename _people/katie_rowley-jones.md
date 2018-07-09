@@ -12,6 +12,13 @@ links:
     username: KRowleyJones
   - type: IMDb
     href: http://www.imdb.com/name/nm3747614
+news: 
+  - type: Article 
+    title: Graduate blows into town 
+    publisher: BBC Nottingham 
+    date: 2002-05
+    href: "http://www.bbc.co.uk/nottingham/spotlight/2002/05/katie_rowley_jones.shtml"
+    snapshot: PX4U
 ---
 
 Since her graduation, Katie went on to study musical theatre at the Guildford School of Acting. She's best known for her part in the London production of Wicked where she played the role of Nessarose.

@@ -2,7 +2,7 @@
 title: "The Iconoclasts"
 playwright: Ben Price 
 period: Spring
-season: STUFF
+season: StuFF
 season_sort: 560
 date_start: 2017-06-21
 venue: New Theatre 

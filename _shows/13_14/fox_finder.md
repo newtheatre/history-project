@@ -57,6 +57,17 @@ assets:
     title: LX Plan
 
 prod_shots: SGZvsM
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2013/10/foxfinder-the-new-theatre/
+    snapshot: XRTGu
+    publisher: Impact Nottingham 
+    author: Larissa A Ransom
+    title: "Fox Finder @ Nottingham New Theatre"
+    date: 2013-10-31
+    rating: 3.5/5
+    quote: "As a parable it also works well; it seems an apt comparison for a police state."
 ---
 
 Without Man, the Fox will Rule. Dawn King’s tense and atmospheric parable sees William Bloor, a Foxfinder religiously committed to the discovery and destruction of England’s greatest threat, investigate the farm of a recently bereaved couple, Judith and Samuel Covey, for potential infestation and even collaboration.

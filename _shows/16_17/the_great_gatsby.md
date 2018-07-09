@@ -10,7 +10,7 @@ venue: Djanogly Theatre
 date_start: 2016-10-17
 
 cast:
-- role: Nick Carroway
+- role: Nick Carraway
   name: Nick Gill
 - role: Daisy Buchanan
   name: Sophie Walton
@@ -58,6 +58,13 @@ links:
     date: 2016-10-19
     rating: 8/10
     quote: "This adaptation of the legendary The Great Gatsby is a must see for any Fitzgerald fans out there, and this play can only make you love the novel even more! "
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2016/10/the-great-gatsby-by-nottingham-new.html
+    snapshot: Q0Rrh
+    publisher: Kev Castle Reviews
+    title: "\"The Great Gatsby\" by Nottingham New Theatre"
+    date: 2016-10-17
+    quote: "The NNT season is due to open soon and I for one am looking forward to seeing as much as I can of the season which will be performed at the New Theatre on the University campus. As a taster, this aperitif leaves me hungry for the main course.."
 ---
 
 In the Summer of 1922, New York reaches boiling point: the parties are longer, the morals are looser, the liquor is stronger and the jazz is hotter. Nick Carraway, a young Yale graduate and veteran of the First World War, arrives from the Midwest to seek his fortune. He is soon drawn into the decadent, hedonistic world of America’s richest, but when tragedy strikes, Nick is forced to decide whether money matters more to him than his morality. Featuring dance and physical theatre, this is a sharp, vibrant and dynamic new adaptation of one of the greatest novels ever written.

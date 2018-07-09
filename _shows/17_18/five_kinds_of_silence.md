@@ -17,9 +17,9 @@ cast:
   name: Chloe Richardson
 - role: Janet
   name: Sophie Curtis
-- role: Psychiatrist/Doctor/Lawyer
+- role: Psychiatrist / Doctor / Lawyer
   name: Angharad Davies
-- role: Psychiatrist/Doctor/Lawyer
+- role: Psychiatrist / Doctor / Lawyer
   name: Sam Andre-Paul
 
 
@@ -28,20 +28,20 @@ crew:
   name: Ed Eggleton
 - role: Producer
   name: Jonathan Taylor Davies
+- role: Assistant Producer
+  name: Jess Donn
 - role: Technical Director
   name: Rohanna Brown
 - role: Lighting Designer
   name: Sam Osborne
 - role: Sound Designer
   name: Tara Prasad
-- role: Assistant Producer
-  name: Jess Donn
+- role: Poster Designer
+  name: Beth Wilson
 
 assets:
   - type: poster
     image: TMHzGKS
-
-prod_shots: 
 
 links:
   - type: Review

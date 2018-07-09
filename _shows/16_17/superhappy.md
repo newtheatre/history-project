@@ -54,6 +54,13 @@ links:
     date: 2016-12-09
     rating: 3.5/5
     quote: "It’s funny, it’s dark, and it’s a bold and daring piece of Fringe theatre."
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2016/12/the-super-awesome-happy-fun-time-trick.html
+    snapshot: yHVzS
+    publisher: Kev Castle Reviews
+    title: "\"The Super Awesome Happy Fun-Time Trick Performance\""
+    date: 2016-12-05
+    quote: "All actors are thoroughly engaging with their different and diverse, quirky character personalities. But you do feel a bit for George who at the end really does everything, quite literally, thrown at him by the cast, and comes up smiling."
 
 ---
 

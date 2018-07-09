@@ -15,6 +15,16 @@ assets:
 cast:
   - name: Emily Medhurst
 
+links:
+  - type: Review
+    href: http://www.su-web2.nottingham.ac.uk/~impact/?p=718
+    snapshot: levXD
+    publisher: Impact Nottingham
+    author: Rose Dean
+    title: "The House of Bernada Alba at New Theatre: Worth leaving the house for..."
+    date: 2007-03-22
+    quote: "A strong ensemble of actresses playing the sisters, and a genuinely intimidating Bernada make this already excellent play come to life. A must see."
+
 prod_shots: PWJLr4
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Ben Woodford
 gender: male
-headshot: pjzTRPR
+headshot: cpDjp3Q
 submitted: false
 course: 
   - History BA

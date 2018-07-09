@@ -14,4 +14,7 @@ prod_shots: x6s4R2
 assets:
   - type: poster
     image: dVFFLDd
+  - type: excerpt
+    video: 34QbvKB
+    title: "There's a Fly in My Soup"
 ---

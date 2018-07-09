@@ -2,7 +2,7 @@
 title: "StuFF Your Ears With Spoken Word"
 playwright: various 
 period: Spring
-season: STUFF
+season: StuFF
 season_sort: 570
 date_start: 2017-06-21
 venue: New Theatre Studio A

@@ -59,7 +59,7 @@ cast:
  - role: Chorus of Fairies
    name: Lynette McEwan
  - role: Chorus of Fairies
-   name: Susan Munroe
+   name: Sue Munroe
  - role: Chorus of Fairies
    name: Sarah Payler
  - role: Chorus of Fairies
@@ -79,8 +79,7 @@ cast:
  - role: Chorus of Dukes
    name: Victor Crewes
  - role: Chorus of Dukes
-   name: ??ul Adam
-   person: false
+   name: Paul Adam
  - role: Chorus of Dukes
    name: Philip Dean
  - role: Chorus of Dukes
@@ -90,8 +89,7 @@ cast:
  - role: Chorus of Dukes
    name: Bernard Haylett
  - role: Chorus of Dukes
-   name: Andy Job??g
-   person: false
+   name: Andy Jobsing
  - role: Chorus of Dukes
    name: David Johnson
  - role: Chorus of Dukes
@@ -109,7 +107,7 @@ cast:
 crew:
  - role: Director
    name: T Francis
- - role: Directo
+ - role: Director
    name: X Coxhead
  - role: Musical Director
    name: Margaret Clark
@@ -119,7 +117,7 @@ crew:
    name: Pete Wells
  - role: Lighting Designer
    name: Colin Bill
- - role: Lighting Deisgner
+ - role: Lighting Designer
    name: Jonathan Barstow
  - role: Lighting Assistant
    name: Debby Daives
@@ -129,7 +127,7 @@ crew:
    name: Pete Dowson
  - role: Lighting Assistant
    name: Lynne Harrison
- - role: ???? Design
+ - role: Set Design
    name: John Schwiller
  - role: Poster Designer
    name: Jane Sherriff
@@ -184,6 +182,10 @@ crew:
  - role: Percussion
    name: Hazel Chapman
 
+trivia:
+  - quote: I only appeared in one production but clearly remember one member of the cast falling ill - it turned out she was suffering an appendicitis.
+    name: Sarah Payler
+    submitted: 2018-06-12
 
 assets:
   - type: programme
@@ -198,6 +200,8 @@ assets:
   - type: programme
     filename: iolanthe_4.PDF
     title: Programme Page 4
+    
+prod_shots: SfsHWf
 ---
 
 The curtain rises on an Arcadian landscape, with the fairies tripping on to tell of their sorrow. Iolanthe had been banished by their Queen for marrying a mortal 25 years before. They persuade the Queen to summon Iolanthe and forgive her. On her arrival she reveals that she has a son who is half a fairy - his legs are mortal. Strephon, who now enters, tells his mother and his 'aunts' that he is anxious to marry Phyllis, a Ward of Chancery, but is prevented by the Lord Chancellor. The Fairy Queen promises Strephon any help he wishes. After Strephon and Phyllis sing of their love for each other the Peers enter with 'Loudly Let the Trumpet Bray'. The Lord Chancellor still holds his consent to the marriage between Strephon and Phyllis. Strephon, in despair, consults his mother, but Phyllis (seeing him with a young woman) assumes he is being unfaithful. He calls to the Fairy Queen for help and Act I ends with her and the fairies telling the Peers that Strephon can go into Parliament and wreak havoc there.

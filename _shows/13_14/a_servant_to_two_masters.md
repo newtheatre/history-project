@@ -61,6 +61,17 @@ assets:
   - type: plan
     filename: servant_lx.pdf
     title: LX Plan
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2014/06/a-servant-to-two-masters-nottingham-new-theatre/
+    snapshot: xD99Q
+    publisher: Impact Nottingham 
+    author: Larissa Ranson
+    title: "A Servant to Two Masters @ Nottingham New Theatre"
+    date: 2014-06-19
+    rating: 3/5
+    quote: "Whilst I do believe this play could use some improvement, particularly with regard to diction, it was an entertaining night out and I would recommend it to anyone in need of a good laugh."
 ---
 
 Lee Hall’s hilarious 21st Century adaptation of Carlo Goldoni’s ‘A Servant to Two Masters’, depicts the quick witted–and perpetually hungry- Truffaldino as he tries to hold down two jobs in order to earn more money and satisfy his growling stomach. However a series of blunders soon snowball into the laugh out loud mayhem only commedia can provide, with this story of love, greed and mistaken identities.

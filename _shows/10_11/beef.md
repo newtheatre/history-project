@@ -1,6 +1,7 @@
 ---
 title: "Beef"
 playwright: Rose Williams
+student_written: true
 season: Edinburgh
 season_sort: 290
 period: Edinburgh
@@ -34,6 +35,8 @@ crew:
     name: Liz Stevenson
   - role: Producer
     name: Liz Rose
+  - role: Writer
+    name: Rose Williams
 
 assets:
   - type: poster
@@ -41,8 +44,26 @@ assets:
   - type: backstage
     video: b5Pkj9V
     title: Backstage At
+  - type: backstage
+    video: RhRtsVS
+    title: Meet the Producer
+  - type: backstage
+    video: 2QL8xCx
+    title: "How Do You Like It?"
+  - type: backstage
+    video: c2XrGcn
+    title: "What's it About?"
 
 links:
+  - type: Review
+    href: https://www.theedinburghreporter.co.uk/2011/08/fringe-review-beef/
+    snapshot: Dn2Cj
+    publisher: The Edinburgh Reporter
+    author: John Kennedy
+    title: "Fringe Review: Beef"
+    date: 2011-08-08
+    rating: 5/5
+    quote: "To use the words ‘Experimental Theatre’ might have many running for the hills, but Arthur’s Seat has been there, and will remain, for Millennia. Your chance to experience a play of gifted frisson is but transitory. Carpe Diem."
   - type: Review
     href: http://broadwaybaby.com/shows/beef/18279
     snapshot: ey67G

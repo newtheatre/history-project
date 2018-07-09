@@ -55,6 +55,10 @@ crew:
     name: Max Miller
   - role: Artwork
     name: Felix Taylor
+  - role: Technical Operator
+    name: Daniel O'Connor
+  - role: Technical Operator
+    name: Emma Fearon
   - role: Stage Manager
     name: Ollie Shortt
   - role: Stage Manager
@@ -82,6 +86,24 @@ assets:
   - type: backstage
     video: HGWNzQB
     title: Backstage At
+
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.co.uk/2015/06/rhinoceros-by-eugene-ionesco-at-new.html
+    snapshot: M5pwF
+    publisher: Kev Castle Reviews
+    title: "\"Rhinoceros\" by Eugene Ionesco"
+    date: 2015-06-10
+    quote: "Some lovely comic touches in the script, well performed by the major as well as the lesser characters."
+  - type: Review
+    href: https://impactnottingham.com/2015/06/rhinoceros-nnt/
+    snapshot: HoVhn
+    publisher: Impact Nottingham
+    author: Amy Wilcockson
+    title: "Rhinoceros @ NNT"
+    date: 2015-06-11
+    rating: 8/10
+    quote: "This satirical, seemingly nonsensical play at times, was overall a great performance to watch."
 
 prod_shots: Tz3wCC
 ---

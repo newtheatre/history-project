@@ -8,12 +8,29 @@ venue: Lincoln Library
 date_start: 2007-11-18
 date_end: 2007-11-20
 
+cast:
+  - role: Lynentte
+    name: Victoia Green
+  - role: Ruby
+    name: Ailsa Bulloch
+  - role: Jodie
+    name: Carla Turnbull
 
 crew:
   - role: Director
     name: Caroline Collier
   - role: Director
     name: Briony Gittins
+
+links:
+  - type: Review
+    href: http://www.su-web2.nottingham.ac.uk/~impact/?p=841
+    snapshot: Z6j8v
+    publisher: Impact Nottingham
+    author: Kate Steinweg
+    title: "Can’t Stand Up For Falling Down @ Lincoln Hall Library"
+    date: 2007-11-20
+    quote: "Ruby, Lynette and Jodie are characters who do adhere to the prophecy of the play’s title, yet it is the distant possibility of a life resumed after tragedy that keeps the performance absorbing."
 
 prod_shots: CxTnwf
 ---

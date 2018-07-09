@@ -58,7 +58,7 @@ installdep="echo '----- Install htmltest' &&\
         echo '----- NPM Install' &&\
         npm install
     	echo '----- Bower Install' &&\
-    	bower install"
+    	bower install --allow-root"
     	
 build_site="echo '----- Building Site' &&\
     	gulp build"
@@ -67,7 +67,7 @@ test_site="echo '----- Testing Site' &&\
     	gulp test"
 
 serve_site="echo '----- Serving Site' &&\
-    	gulp server"
+    	gulp dockerserver"
 
 
 # Assemble the fragments, based on input parameters

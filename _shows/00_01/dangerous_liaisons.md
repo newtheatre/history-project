@@ -7,7 +7,7 @@ season_sort: 240
 venue: New Theatre
 
 cast:
- - role: Nick Belcher
-   name: Valmont
+ - name: Nick Belcher
+   role: Valmont
 ---
 

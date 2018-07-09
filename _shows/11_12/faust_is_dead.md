@@ -70,6 +70,16 @@ assets:
     page: 6
 
 prod_shots: gZXJhk
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2012/03/faust-is-dead-new-theatre/
+    snapshot: liZ7w
+    publisher: Impact Nottingham
+    author: Dylan Williams
+    title: "Faust is Dead @ Nottingham New Theatre"
+    date: 2012-03-11
+    quote: "The performances effectively operate the play’s intention of pushing theatrical conventions of ‘what can be displayed’. In doing so it charts our fetishized escape from consciousness, and the half-virtual exploration of our darkest impulses."
 ---
 
 Elena announces ‘the Death of Man’ live on Letterman’s TV show. Pete can’t cope with the world without the comfort of a screen to frame it. The pair meet and find reality in a twisted world of disturbing social media. Both funny and brutal in equal measure. #isanythingrealanymore?

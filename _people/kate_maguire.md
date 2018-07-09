@@ -8,4 +8,5 @@ award:
     org: NNT
     year: 2017
     show: Contractions
+graduated: 2018
 ---

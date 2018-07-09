@@ -39,6 +39,8 @@ crew:
   name: Harry Fleet
 - role: Trailer Assistant Director
   name: Toby Irwin
+- role: Design Assistant
+  name: Annie Clayton
 
 assets:
   - type: poster

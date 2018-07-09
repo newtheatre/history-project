@@ -16,4 +16,14 @@ cast:
 crew:
   - role: Director
     name: Sophia Charalambous
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2008/10/the-fairground-years-the-new-theatre/
+    snapshot: j4aUb
+    publisher: Impact Nottingham
+    author: Sarah Hall
+    title: "The Fairground Years @ Nottingham New Theatre"
+    date: 2008-10-26
+    quote: "Instead of a detailed look at Blair’s mistakes in power Sophia Charalambous’s production focuses on the effects of power and ambition and presents the idea that we are all human after all."
 ---

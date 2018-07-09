@@ -50,8 +50,32 @@ crew:
     name: Bora Hunja
   - role: Lighting Designer
     name: Lawrence Bolton
+  - role: Sound Designer
+    name: Lawrence Bolton
   - role: Make Up Artist
     name: Emily Heaton
+  - role: Make Up Artist
+    name: Zoe Moulton
+  - role: Props and Costume
+    name: Chelsea Jayne Wright
+  - role: Props and Costume
+    name: Gareth Morris
+  - role: Props and Costume
+    name: Lucy Bromilow
+  - role: Technical Team
+    name: Tessa Denney
+  - role: Technical Team
+    name: George Barrett
+  - role: Technical Team
+    name: Emma-Louise Amanshia
+  - role: Technical Team
+    name: Wawa Hunja
+  - role: Technical Team
+    name: Rosie Cave
+  - role: Artwork
+    name: Chelsea Jayne Wright
+  - role: Artwork
+    name: Conrad Cohen
 
 assets:
   - type: poster
@@ -62,6 +86,16 @@ assets:
   - type: backstage
     video: 9829pcp
     title: Backstage At
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2011/12/bed-new-theatre/
+    snapshot: EoAqB
+    publisher: Impact Nottingham
+    author: Louisa Clack
+    title: "Bed @ Nottingham New Theatre"
+    date: 2011-12-01
+    quote: "This connection of hope alongside all the other darker themes bound affection to the performance – even if it only is a hope we find in our dreams."
 
 prod_shots: ZJCjTC
 ---

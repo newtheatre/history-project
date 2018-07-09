@@ -29,7 +29,11 @@ body_class: layout-person header-nobr content-nobr
     </div>
 
     <div class="person-graduated">
-      {% if person.graduated_actual %}
+      {% if person.student %}
+      <div class="person-graduated-inner person-graduated-student">
+        Student
+      </div>
+      {% elsif person.graduated_actual %}
       <div class="person-graduated-inner person-graduated-actual decade-background-{{ person.decade }}">
         {{ person.graduated }}
       </div>
@@ -39,8 +43,8 @@ body_class: layout-person header-nobr content-nobr
       </div>
       <div class="person-graduated-estimated-text">Estimated</div>
       {% else %}
-        <div class="person-graduated-inner person-graduated-student">
-          Student
+        <div class="person-graduated-inner person-graduated-unknown">
+          Unknown
         </div>
       {% endif %}
     </div>

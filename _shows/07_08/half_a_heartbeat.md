@@ -9,6 +9,12 @@ venue: New Theatre
 date_start: 2008-03-11
 date_end: 2008-03-14
 
+cast:
+- role: Ignacius II
+  name: Daniel Harvey
+- role: Simone
+  name: Liz Metlis
+
 crew:
   - role: Director
     name: Edward Hancock

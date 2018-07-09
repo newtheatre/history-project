@@ -2,14 +2,19 @@
 title: "Shoe Story"
 playwright: Oliver James Hymans and Liat Rosenthal
 student_written: true
+date_start: 2005-08-05
+date_end: 2005-08-29
 period: Edinburgh
 season: Edinburgh
 season_sort: 500
-venue: Sweet Venue
+venue: Sweet Grassmarket
 
 cast:
   - name: Maryann O'Brien
-  - name: Georgina Strawson
+  - name: Georgie Strawson
+
+cast_incomplete: true 
+cast_note: "There are more actors in the production shots who are not listed here."
 
 crew:
   - role: Writer
@@ -30,6 +35,16 @@ assets:
     image: tkWVKsW
   - type: newspaper
     image: hPftR87
+
+links:
+  - type: Article 
+    href: http://animations.puppetcentre.org.uk/aofifteen/festivalfocus_totalpuppet.html
+    snapshot: FnlNG
+    publisher: Animations Online
+    author: Dorothy Max Prior 
+    title: Total Puppetry
+    date: 2005
+    quote: "[T]hese stories, all founded in the feet and the shoes which adorn them, are tied together well by their metaphorical shoelaces and are told by skilled performers who present a bunch of dynamic characters in energised performances"
     
 ---
 

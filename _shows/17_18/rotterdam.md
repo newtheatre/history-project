@@ -2,7 +2,7 @@
 title: Rotterdam
 playwright: Jon Brittain
 period: Spring
-season: In-House
+season: In House
 season_sort: 230
 date_start: 2018-03-20
 date_end: 2018-03-23
@@ -56,7 +56,7 @@ crew:
 - role: Stage Manager
   name: Nadia Elalfi
 - role: Stage Manager
-  name: Rohan Rahkit
+  name: Rohan Rakhit
 - role: Stage Manager
   name: Francis Simmons
 - role: Stage Manager

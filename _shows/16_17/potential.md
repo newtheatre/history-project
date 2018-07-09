@@ -19,9 +19,9 @@ cast:
   name: Zoe Robinson
 - role: Sabrina
   name: Emily Wong
-- role: Boss/Doctor/Nurse
+- role: Boss / Doctor / Nurse
   name: Angharad Davies
-- role: Dendra/Alba/HR
+- role: Dendra / Alba / HR
   name: Marsya Hazanan
 
 crew:

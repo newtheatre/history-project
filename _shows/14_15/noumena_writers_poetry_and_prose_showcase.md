@@ -1,7 +1,7 @@
 ---
 title: "Noumena Writers: Poetry and Prose Showcase"
 period: Spring
-season: "STUFF"
+season: "StuFF"
 season_sort: 520
 date_start: 2015-06-18
 venue: New Theatre Studio A

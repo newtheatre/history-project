@@ -6,8 +6,8 @@ season_sort: 130
 period: Spring
 venue: New Theatre
 
-date_start: 2010-01-19
-date_end: 2010-01-22
+date_start: 2011-01-19
+date_end: 2011-01-22
 
 assets:
   - type: poster
