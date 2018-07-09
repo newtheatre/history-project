@@ -1,6 +1,8 @@
 ---
 title: Ian Sheard
 submitted: 2017-02-11
+graduated: 2018
+award: Commendation
 gender: male
 course:
   - Physics
