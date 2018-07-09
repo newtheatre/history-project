@@ -6,6 +6,10 @@ playwright: Robert Bolt
 season_sort: 40
 venue: New Theatre
 
+cast:
+ - role: The Common Man
+   name: Nick Beddow
+
 prod_shots: 3zGbRg
 ---
 

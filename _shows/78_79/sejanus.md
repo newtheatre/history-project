@@ -8,6 +8,7 @@ venue: New Theatre
 cast:
 - role: Sejanus
   name: Peter Cantrell
+- name: Nick Beddow
 
 crew: 
 - role: Director
