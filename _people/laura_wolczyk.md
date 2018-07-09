@@ -3,7 +3,6 @@ title: Laura Wolczyk
 headshot: 2sL63cf
 gender: female
 graduated: 2018
-award: Merit
 submitted: false
 course:
  - Zoology BSc
@@ -12,4 +11,15 @@ award:
     org: NNT
     year: 2017 
     show: W;t 
+  - title: Best Actor in a Supporting Gender Neutral Role (Fringe)
+    org: NNT
+    year: 2018
+    show: "Vaginal Dicharge"
+  - title: Special Recognition (Fringe)
+    org: NNT
+    year: 2018
+    show: Vaginal Discharge
+  - title: Merit
+    org: NNT
+    year: 2018
 ---

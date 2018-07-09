@@ -14,5 +14,12 @@ award:
     org: NNT 
     year: 2017
     show: "DEAD: A Musical"
+  - title: Best Producer (Fringe)
+    org: NNT 
+    year: 2018
+    show: "Do I Wanna Know?"
+  - title: Best Techie
+    org: NNT
+    year: 2018
 ---
 

@@ -8,4 +8,8 @@ award:
     org: NNT
     year: 2017 
     show: "DEAD: A Musical"
+  - title: Best Actor in a Supporting Male Role (Fringe)
+    org: NNT
+    year: 2018
+    show: "Cogito Ergo Bum"
 ---

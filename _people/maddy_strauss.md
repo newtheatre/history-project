@@ -3,7 +3,6 @@ title: Maddy Strauss
 headshot: bHBD54B
 gender: female
 graduated: 2018
-award: Fellowship
 submitted: false
 course:
  - History BA
@@ -20,4 +19,11 @@ award:
     org: NNT 
     year: 2017
     show: Monarch
+  - title: Best Actor in a Lead Female Role (In House)
+    org: NNT
+    year: 2018
+    show: Quiz Show
+  - title: Fellowship
+    org: NNT
+    year: 2018
 ---

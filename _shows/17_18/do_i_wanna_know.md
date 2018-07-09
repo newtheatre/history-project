@@ -59,7 +59,10 @@ links:
     date: 2018-03-19
     quote: "The exploration of friendship before, during and after a relationship, as well as the family relationships are beautifully highlighted, and the final scenes are quite emotional."
 
-
+award:
+  - title: Best Show (Fringe)
+    org: NNT
+    year: 2018
 ---
 
 ‘Do I Wanna Know’ explores love and loss, and the ways in which people enter and permanently alter our lives.

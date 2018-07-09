@@ -92,6 +92,11 @@ crew:
 
 prod_shots: dMhzHs
 
+award:
+  - title: Best Show (In House)
+    org: NNT
+    year: 2018
+
 assets:
   - type: poster
     image: JQ9Z83f

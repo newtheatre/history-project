@@ -6,4 +6,9 @@ headshot: 8HQP9xH
 course:
    - English BA
 contact_allowed: true
+award: 
+  - title: Best Costume, Props and Make-Up (In House)
+    org: NNT
+    year: 2018
+    show: "Macbeth"
 ---
