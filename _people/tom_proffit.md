@@ -1,8 +1,7 @@
 ---
-title: Lara Cowler
-headshot: wCZd9BM
+title: Tom Proffit
+gender: male
 graduated: 2018
 award: Merit
-gender: female
 submitted: false
 ---

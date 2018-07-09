@@ -1,6 +1,5 @@
 ---
-title: Emma Fearon
-headshot: jHn7ngL
+title: Abi Byrne
 gender: female
 graduated: 2018
 award: Commendation

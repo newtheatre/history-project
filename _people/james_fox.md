@@ -1,8 +1,7 @@
 ---
-title: Ed Eggleton
-headshot: 9JLrGSv
+title: James Fox
 gender: male
-submitted: false
 graduated: 2018
 award: Commendation
 ---
+
