@@ -9,6 +9,25 @@ venue: New Theatre
 cast:
  - role: The Common Man
    name: Nick Beddow
+ - name: Glen Kinch
+ - name: Phil Turpin
+ - name: Tim Killick
+ - name: Richard Simpson
+ - name: Michael Fry
+ - name: Dave Powell
+ - name: Malcolm Turner
+ - name: Duncan Humphries
+ - name: Rosemary Farrar
+ - name: Rosemary Smith
+ - name: Amanda Carrara
+ 
+crew:
+ - role: Director
+   name: Rob Jones
+ - role: Designer
+   name: Sally Mellor
+   person: false
+   note: Trent Poly
 
 prod_shots: 3zGbRg
 ---
