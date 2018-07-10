@@ -7,6 +7,14 @@ award:
     org: NNT
     year: 2018
     show: Do I Wanna Know?
+  - title: Best Comedy Moment (Fringe)
+    org: NNT 
+    year: 2018
+    show: "Do I Wanna Know?"
+  - title: Best Tearjerker Moment (Fringe)
+    org: NNT 
+    year: 2018
+    show: "Do I Wanna Know?"
   - title: Commendation
     org: NNT
     year: 2018

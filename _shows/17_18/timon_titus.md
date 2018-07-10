@@ -70,7 +70,10 @@ assets:
   - type: poster
     image: NwRXkWW
 
-prod_shots:
+award:
+  - title: Best New Writing
+    org: NNT
+    year: 2018
 
 links:
   - type: Review

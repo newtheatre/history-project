@@ -8,6 +8,10 @@ award:
     org: NNT
     year: 2018
     show: One Man, Two Guvnors
+  - title: Best Comedy Moment (In House)
+    org: NNT 
+    year: 2018
+    show: "One Man, Two Guvnors"
   - title: Best Actor in a Lead Male Role (In House)
     org: NNT
     year: 2018
