@@ -23,24 +23,24 @@
 	{% if link.quote %}
 		<q class="quote">{{ link.quote }}</q>
 
-        {% if link.publisher %}
-            <cite class="publisher">
-                <a href="{{ link.href }}" {{ link.data }}>{{ link.publisher }}</a>
-            </cite>
-        {% else %}
-            <a href="{{ link.href }}" {{ link.data }}>{{ link.title }}</a>
-        {% endif %}
-
+    {% if link.publisher %}
+        <cite class="publisher">
+            <a href="{{ link.href }}" {{ link.data }} {% if link.note %}title="{{ link.note }}"{% endif %}>{{ link.publisher }}</a>
+        </cite>
     {% else %}
-      <a href="{{ link.href }}" {{ link.data }}>{{ link.title }}</a>
-
-      {% if link.publisher %}
-          <cite class="publisher">
-              {{ link.publisher }}
-          </cite>
-      {% endif %}
-
+        <a href="{{ link.href }}" {{ link.data }} {% if link.note %}title="{{ link.note }}"{% endif %}>{{ link.title }}</a>
     {% endif %}
+
+  {% else %}
+    <a href="{{ link.href }}" {{ link.data }} {% if link.note %}title="{{ link.note }}"{% endif %}>{{ link.title }}</a>
+
+    {% if link.publisher %}
+        <cite class="publisher">
+            {{ link.publisher }}
+        </cite>
+    {% endif %}
+
+  {% endif %}
 
 	<span class="debug debug-hidden-content" data-debug-toggle>
 		{{ link.comment }}

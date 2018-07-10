@@ -55,6 +55,11 @@
   short: Short quote from resource
   description: "Applicable for news stories or reviews. A short quotation summarising the resource."
 
+- attr: note 
+  type: string 
+  short: A visible note about the resource 
+  description: "Displayed as a title on the anchor."
+
 - attr: comment
   type: string
   short: Reserved for editor comments
