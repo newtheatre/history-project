@@ -12,7 +12,7 @@ award:
     org: NNT 
     year: 2018
     show: "One Man, Two Guvnors"
-  - title: Best Actor in a Lead Male Role (In House)
+  - title: Best Actor in a Lead Male Role (Fringe)
     org: NNT
     year: 2018
     show: Do I Wanna Know?
