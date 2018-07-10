@@ -3,7 +3,6 @@ title: Beth Mullen
 headshot: sT7fj5J
 gender: female
 graduated: 2018
-award: Merit
 submitted: false
 course:
   - Economics BSc
@@ -22,4 +21,7 @@ award:
     org: NNT
     year: 2018
     show: "One Man, Two Guvnors"
+  - title: Merit
+    org: NNT
+    year: 2018
 ---

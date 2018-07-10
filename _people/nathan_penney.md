@@ -3,7 +3,6 @@ title: Nathan Penney
 headshot: kkKGQq4
 gender: male
 graduated: 2018
-award: Merit
 submitted: false
 award: 
   - title: Best Lighting Design (In House)
@@ -14,6 +13,9 @@ award:
     org: NNT 
     year: 2014
     show: Blue Remembered Hills
+  - title: Merit
+    org: NNT
+    year: 2018
 course:
   - Biochemistry and Biological Chemistry
 ---

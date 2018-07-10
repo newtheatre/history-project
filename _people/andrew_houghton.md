@@ -2,7 +2,6 @@
 title: Andrew Houghton
 headshot: xbRZdS6
 graduated: 2018
-award: Merit
 gender: male
 submitted: false
 award:
@@ -10,4 +9,7 @@ award:
     org: NNT
     year: 2017 
     show: "Contractions"
+  - title: Merit
+    org: NNT
+    year: 2018
 ---

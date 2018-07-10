@@ -1,7 +1,6 @@
 ---
 title: Lara Cowler
 graduated: 2018
-award: Merit
 gender: female
 submitted: false
 gender: female

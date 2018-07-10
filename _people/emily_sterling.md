@@ -2,7 +2,6 @@
 title: Emily Sterling
 headshot: 6DbdVVw
 graduated: 2018
-award: Merit
 gender: female
 submitted: false
 award:
@@ -14,4 +13,7 @@ award:
     org: NNT
     year: 2017 
     show: "DEAD: A Musical"
+  - title: Merit
+    org: NNT
+    year: 2018
 ---
