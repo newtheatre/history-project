@@ -6,7 +6,14 @@ headshot: r7mQ7H6
 course:
   - Mechanical Engineering
 graduated: 2011
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2011
+  - title: Outstanding Production Design
+    org: NSDF
+    year: 2011
+    show: After the End
 careers:
   - Teaching
   - Production Manager

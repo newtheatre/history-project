@@ -5,7 +5,10 @@ headshot: dKqC9hr
 course:
   - LLB Law with European Law
 graduated: 2016
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2016
 submitted: false
 links:
  - type: LinkedIn

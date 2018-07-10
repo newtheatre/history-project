@@ -2,7 +2,10 @@
 title: Lyle Fulton
 gender: male
 graduated: 2014
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2014
 submitted: false
 headshot: 8PpT7WV
 

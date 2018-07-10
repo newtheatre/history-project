@@ -8,6 +8,12 @@ graduated: 1996
 careers:
   - Director
   - Doctor
-award: Union Prize
-comment: Personal Website "http://www.thoughtfulprimate.co.uk/Site/Home.html"
+# links:
+#  - type: Personal Website
+#    href: "http://www.thoughtfulprimate.co.uk"
+award: 
+  - title: Union Prize
+    org: UoNSU
+    year: 1996 
+
 ---

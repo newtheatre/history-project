@@ -4,8 +4,13 @@ headshot: wqCWRTJ
 gender: male
 submitted: false
 course: 
-  - BEng Mechaical Engineering
+  - BEng Mechanical Engineering
 graduated: 2017
+award: 
+  - title: Best Lighting Design (In House)
+    org: NNT 
+    year: 2015
+    show: Overspill 
 
 links:
   - type: StageJobsPro

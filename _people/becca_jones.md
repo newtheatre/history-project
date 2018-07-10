@@ -1,7 +1,12 @@
 ---
 title: Becca Jones
 gender: female
-graduated: 2016
 submitted: false
+award:
+  - title: Judges' Award for Acting
+    org: NSDF
+    year: 2016
+    show: West
+graduated: 2016
 
 ---

@@ -7,7 +7,14 @@ course:
   - Mechanical Engineering
   - Computer Science
 graduated: 2014
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2014 
+  - title: Best Lighting Design (In House)
+    org: NNT
+    year: 2016
+    show: West 
 contact_allowed: true
 careers:
   - Software Development

@@ -4,7 +4,10 @@ gender: male
 course:
   - Philosophy and Theology
 graduated: 2013
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2013
 submitted: false
 headshot: wZMFgnJ
 

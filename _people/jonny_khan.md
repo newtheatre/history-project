@@ -4,6 +4,11 @@ gender: male
 submitted: false
 course:
   - Economics
+award:
+  - title: Commendation for Acting
+    org: NSDF
+    year: 2018
+    show: Pomona
 
 
 links:

@@ -8,6 +8,10 @@ venue: New Theatre
 date_start: 2012-12-05
 date_end: 2012-12-08
 
+award:
+  - title: Best Ensemble
+    org: NSDF
+    year: 2013
 
 tour:
 - venue: NSDF 2013

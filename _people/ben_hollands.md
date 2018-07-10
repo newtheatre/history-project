@@ -7,7 +7,14 @@ course:
   - English
 graduated: 2015
 contact_allowed: true
-award: Fellowship
+award:
+  - title: Fellowship
+    org: NNT
+    year: 2015
+  - title: Best Poster Design and Publicity (Fringe)
+    org: NNT
+    year: 2017 
+    show: "Crystal Quest"
 links:
  - type: LinkedIn
    username: ben-hollands-0ab589122

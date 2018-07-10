@@ -5,7 +5,10 @@ course:
   - English Language and Literature
   - Theatre Research
 graduated: 2011
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2011
 submitted: false
 careers: 
   - English Teacher

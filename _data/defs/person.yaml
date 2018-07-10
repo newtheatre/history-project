@@ -66,9 +66,9 @@
   generated: true
 
 - attr: award
-  type: string
-  short: Award person recieved on leaving the theatre
-  description: "Should be in title case, Fellowship, Commendation. If not applicable line should be omitted."
+  type: array
+  short: Award person recieved following activity at the theatre
+  description: "New Theatre awards include Fellowship and Commendation. If not applicable line should be omitted. Should implement title, org(anisation), year and, where appropriate, show."
 
 - attr: careers
   type: array

@@ -95,12 +95,14 @@ body_class: layout-person header-nobr content-nobr
           <dd><span class="unknown">Unknown</span></dd>
         {% endfor %}
 
-        {% if person.award %}
-        <dt><i class="fa fa-fw fa-trophy"></i>Award</dt>
-        <dd>{{ person.award }}</dd>
+        {% if person.award.size != 0 %}
+          <dt><i class="fa fa-fw fa-trophy"></i>Award</dt>
+          {% for award in person.award %}
+            <dd>{% include award.html award=award %}</dd>
+          {% endfor %}
         {% endif %}
 
-        {% if person.committees %}
+        {% if person.committees.size != 0 %}
         <dt><i class="fa fa-fw fa-group"></i>Committees</dt>
         <dd>
           <ul class="person-meta-list">

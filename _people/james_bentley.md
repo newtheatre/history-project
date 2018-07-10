@@ -3,7 +3,10 @@ title: James Bentley
 headshot: zSShTZm
 gender: male
 graduated: 2015
-award: Fellowship
+award: 
+  - title: Fellowship
+    org: NNT
+    year: 2015
 submitted: false
 course:
   - Management

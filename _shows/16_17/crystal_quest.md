@@ -14,6 +14,11 @@ trivia:
     name: Ben Woodford
     submitted: 2017-11-06
 
+award:
+  - title: Best Show (Fringe)
+    org: NNT
+    year: 2017 
+
 cast:
 - role: The Gamesmaster
   name: Laurence Cuthbert
