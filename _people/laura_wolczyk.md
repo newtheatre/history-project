@@ -19,6 +19,10 @@ award:
     org: NNT
     year: 2018
     show: Vaginal Discharge
+  - title: Best Lighting Design (Fringe)
+    org: NNT 
+    year: 2018
+    show: "Franz Woyzeck"
   - title: Merit
     org: NNT
     year: 2018

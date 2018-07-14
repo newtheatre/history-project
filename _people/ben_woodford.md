@@ -11,10 +11,6 @@ award:
     org: NNT
     year: 2017
     show: "DEAD: A Musical"
-  - title: Best Lighting Design (Fringe)
-    org: NNT 
-    year: 2018
-    show: "Paper Cranes"
   - title: Merit
     org: NNT 
     year: 2018
