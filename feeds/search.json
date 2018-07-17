@@ -37,7 +37,7 @@ excerpt: ""
         "type": "person",
         "excerpt": {{ person.content | strip_html | truncatewords: 50 | jsonify}},
         {% if person.headshot %}"poster_thumb_tag": "<a href='{{person.url}}'><img src='{{person.headshot.person_search}}' class='search-result-poster-thumb' alt='{{person.name}}' /></a>",{% endif %}
-        "graduated": {{ person.graduated | jsonify }},
+        "graduated": {% if person.student == true %}"Student"{% else if person.graduated %}{{ person.graduated | jsonify }}{% else %}"Unknown"{% endif %},
         "award": {{ person.award | jsonify }},
         "link": {{ person.url | jsonify }}
     }
