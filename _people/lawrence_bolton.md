@@ -3,8 +3,9 @@ title: Lawrence Bolton
 gender: male
 graduated: 2012
 award: Fellowship
-submitted: false
+submitted: 2018-08-09
 headshot: HnWzdxd
+contact_allowed: true
 course:
  - Philosophy and Theology
 
@@ -13,4 +14,4 @@ links:
     href: "https://www.castingcallpro.com/uk/actor/profile/lawrence-bolton-1"
 ---
 
-Since graduating, Lawrence has gone on to perform with various companies, including Two Box Productions, which was founded by other New Theatre Alumni. In 2015 he performed in Two Box's production of Saucy Jack and the Space Vixens.
+Since graduating, Lawrence has gone on to found his own production company, Two Box Productions. The company frequently holds performances in London and regularly participates at the Edinburgh Fringe, most notably Harry Poppers and the Deathly Swallows.
