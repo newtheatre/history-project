@@ -1,13 +1,14 @@
 ---
 title: Sebastian Frend
-submitted: 2016-04-11
+submitted: 2018-08-09
 gender: Male
 course:
   - French and Russian BA
 graduated: 2014
 careers:
   - Teaching
+award: Commendation
+contact_allowed: true
 ---
 
-I brought sass and gas.
-
+Since graduating, Seb has gone on to Teaching in Richmond. He occasionally operates tech for Two Box productions, which was founded by other New Theatre Alumni, Lawrence Bolton.
