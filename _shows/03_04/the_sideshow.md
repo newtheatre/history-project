@@ -11,8 +11,15 @@ date_end: 2003-11-15
 cast:
   - role: Ringmaster
     name: Jason Lasky
+  - name: Billy Sy
+  - name: Anneliese Mackintosh
+  - name: Rebecca Donovan
 
 crew:
   - role: Director
     name: Oliver James Hymans
+  - role: Producer
+    name: Liat Rosenthal
+
+prod_shots: 6Skzhk
 ---
