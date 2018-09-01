@@ -37,6 +37,25 @@ assets:
   video: F7ScbP5
   title: Show Trailer
 
+links:
+- type: Review
+  href: http://www.young-perspective.net/devil-know-horror-play/
+  snapshot: q1TvN
+  publisher: Young Perspective
+  author: Zoe Robertson
+  title: "The Devil You Know: A Horror Play"
+  date: 2018-08-31
+  rating: 4/5
+  quote: "Inspired by the likes of The Blair Witch Project, ‘The Devil You Know’ is, similarly, a little bit silly but entertaining."
+- type: Review
+  href: http://www.britishtheatreguide.info/reviews/the-devil-you-k-greenside-inf-16321
+  snapshot: dBMap
+  publisher: The British Theatre Guide
+  author: Graeme Strachan
+  title: "The Devil You Know: A Horror Play"
+  rating: 1/5
+  quote: "[A]s it stands, this play is a derivative, and barely comprehensible mess."
+
 ---
 
 “You hear stories, you just want to find out, I guess.”
