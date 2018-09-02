@@ -39,7 +39,7 @@ assets:
 
 links:
 - type: Review
-  href: http://www.young-perspective.net/devil-know-horror-play/
+  href: http://young-perspective.net/devil-know-horror-play/
   snapshot: q1TvN
   publisher: Young Perspective
   author: Zoe Robertson
