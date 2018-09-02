@@ -10,6 +10,7 @@ IgnoreURLs:
 - "soundcloud.com"
 - "impactnottingham.com"
 - "http://www.su-web2.nottingham.ac.uk/"
+- "http://young-perspective.net/"
 IgnoreDirs:
 - "^lib"
 
