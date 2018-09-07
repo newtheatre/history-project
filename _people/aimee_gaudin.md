@@ -9,5 +9,5 @@ contact_allowed: true
 
 links:
   - type: Instagram
-    href: "https://www.instagram.com/aimee_gaudin/"
+    username: aimee_gaudin
 ---
