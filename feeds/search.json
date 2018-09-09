@@ -38,7 +38,7 @@ excerpt: ""
         "excerpt": {{ person.content | strip_html | truncatewords: 50 | jsonify}},
         {% if person.headshot %}"poster_thumb_tag": "<a href='{{person.url}}'><img src='{{person.headshot.person_search}}' class='search-result-poster-thumb' alt='{{person.name}}' /></a>",{% endif %}
         "graduated": {{ person.graduated | jsonify }},
-        "award": {{ person.award | jsonify }},
+        "award": {% if person.award.first == null %}null{% else %}"{% for award in person.award %} | {{award.title}}, {{award.year}}, {{award.org}}{% endfor %}"{% endif %},
         "link": {{ person.url | jsonify }}
     }
     {% assign first = false %}

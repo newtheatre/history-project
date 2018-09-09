@@ -49,7 +49,7 @@ search: false
           <% if (item.poster_thumb_tag) { %><%= item.poster_thumb_tag %><% } else { %><i class="ion-ios-person"></i><% } %>
           <a href="<%= item.link %>"><%= item.title %></a>
           </h3>
-        <p class="meta"><%= item.graduated %><% if (item.award) { %> <%= item.award %><% } %></p>
+        <p class="meta"><%= item.graduated %><% if (item.award) { %><p class="meta">Awards<%= item.award %></p><% } %></p>
         <p><%= item.excerpt %></p>
       </div>
     <% } else { %>
