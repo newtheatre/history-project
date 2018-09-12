@@ -2,6 +2,7 @@
 title: Landscape
 playwright: Harold Pinter
 venue: New Theatre
+season: In House
 period: Spring
 season_sort: 181
 
