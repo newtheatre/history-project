@@ -1,6 +1,6 @@
 ---
 title: A Resounding Tinkle
-playwright: N F Simpson
+playwright: NF Simpson
 season: In House
 period: Spring
 date_start: 1974-07-01
