@@ -1,5 +1,5 @@
 ---
-title: Alberts' Bridge
+title: Albert's Bridge
 playwright: Tom Stoppard
 season: In House
 period: Spring
