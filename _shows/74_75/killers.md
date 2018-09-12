@@ -2,7 +2,7 @@
 title: Killer
 playwright: Kevin Buxton
 student_written: true
-season: In-House
+season: In House
 season_sort: 110
 
 cast: 
