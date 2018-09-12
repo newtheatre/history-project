@@ -3,7 +3,7 @@ title: Festival of One Act Plays
 season: In House
 period: Spring
 venue: New Theatre
-date_start: 1971-06-28
+date_start: 1972-06-28
 date_end: 1972-07-01
 season_sort: 230
 
