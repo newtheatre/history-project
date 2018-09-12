@@ -94,6 +94,15 @@ module Jekyll
       end
     end
 
+    def year_link(grad_year) # Get the /year/ link for a given graduation year.
+      year_end = (grad_year.to_s)[2,2] # Take the last 2 characters of the grad year
+      year_start = ((grad_year - 1).to_s)[2,2] # Take the last 2 characters of (grad year -1)
+
+      grad_link = year_start + '_' + year_end 
+
+      return grad_link
+    end 
+
     def generate_person(person)
       """Method called on all people"""
       # Validate things
@@ -121,21 +130,24 @@ module Jekyll
       end
 
       # Graduation estimation
-      if not person.data["graduated"]
+      if not person.data["graduated"] # If we don't know the date, estimate
         person.data["graduated"] = estimate_graduated(person)
         person.data["graduated_estimated"] = true
-      else
+      else 
         person.data["graduated_actual"] = person.data["graduated"]
         person.data["graduated_estimated"] = false
       end
 
       # Student status 
-      if not person.data["graduated"] or not person.data["graduated_actual"] or (person.data["graduated"] > Time.now().year)
+
+      if not person.data["graduated"] or (person.data["graduated"] > Time.now().year)
         if (person.data["shows"]) or (person.data["committees"])
           person.data["student"] = true 
         else 
           person.data["student"] = false 
         end
+      else 
+        person.data["student"] = false # Ensure person always has student status set
       end 
 
       # Replace headshots with SmugMug Images
@@ -146,6 +158,10 @@ module Jekyll
       # Person additional data
       person.data["path_name"] = make_hp_path(person.data["title"])
       person.data["decade"] = "#{person.data["graduated"]}"[0,3]
+      if person.data["graduated"] and person.data["student"] == false 
+        person.data["grad_link"] = year_link(person.data["graduated"])
+      end 
+
       # True when a bio is present, editor or submitter
       person.data["has_bio"] = person.content.length > 0
 
