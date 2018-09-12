@@ -5,6 +5,7 @@ venue: Trent, Great Hall
 period: Autumn
 date_start: 1973-11-27
 date_end: 1973-12-01
+season: In House
 season_sort: 70
 
 cast:
