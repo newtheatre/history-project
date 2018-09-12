@@ -15,4 +15,4 @@ crew:
 
 ---
 
-Two actresses meet by chance on Christmas Eve n a cafe. One is married, the other is not. One talks, the other remains silent, but between the two a story unfolds of past conquests and present victories. Of the two, the silent one and the chatterer, who is the stronger?
+Two actresses meet by chance on Christmas Eve in a cafe. One is married, the other is not. One talks, the other remains silent, but between the two a story unfolds of past conquests and present victories. Of the two, the silent one and the chatterer, who is the stronger?
