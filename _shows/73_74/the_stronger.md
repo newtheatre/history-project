@@ -6,6 +6,7 @@ date_start: 1974-06-29
 date_end: 1974-07-01
 season: In House
 venue: New Theatre
+period: Spring
 season_sort: 250
 
 crew:

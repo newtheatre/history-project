@@ -5,6 +5,7 @@ date_start: 1974-07-02
 date_end: 1974-07-03
 season: In House
 venue: New Theatre
+period: Spring
 season_sort: 240
 
 cast:
