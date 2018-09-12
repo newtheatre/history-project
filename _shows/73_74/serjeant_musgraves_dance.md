@@ -49,7 +49,7 @@ crew:
 - role: Set Design
   name: Simon Macdonald
   note: from Trent Polytechnic School of Theatre Design
-  student: false
+  person: false
 - role: Set Construction
   name: Ken Marshall
 - role: Set Construction
@@ -67,7 +67,7 @@ crew:
 - role: Military Advisor
   name: R.S.M. Mr. J.H. Wheeler, M.M.
   note: from the East Midlands Universities O.T.C.
-  student: false
+  person: false
 - role: Stage Manager
   name: Ken Marshall
 - role: Stage Manager
