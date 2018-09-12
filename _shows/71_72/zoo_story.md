@@ -1,7 +1,6 @@
 ---
 title: Zoo Story
 playwright: Edward Albee
-student_written: true
 season: In House
 period: Spring
 venue: New Theatre
