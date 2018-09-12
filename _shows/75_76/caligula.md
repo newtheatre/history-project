@@ -43,8 +43,26 @@ cast:
   name: Simon Keating
 
 crew:
-  - role: Director
-    name: Simon Reynolds
+- role: Director
+  name: Simon Reynolds
+- role: Designer
+  name: Liz Guy
+- role: Lighting
+  name: Clive Loughlin
+- role: Stage Manager
+  name: Jo Pumfrey
+- role: Props
+  name: Heather Peace
+- role: Chief Technician
+  name: John Hughes
+- role: Technician
+  name: Sue Dunlop
+- role: Technician
+  name: Chris Jackson
+- role: Technician
+  name: Alan Jasper
+- role: Technician
+  name: Andrew Jackson
 
 ---
 
