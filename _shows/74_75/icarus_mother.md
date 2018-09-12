@@ -1,5 +1,5 @@
 ---
-title: Chicago
+title: Icarus' Mother
 season: In House
 period: Spring
 playwright: Sam Shepard
