@@ -1,5 +1,5 @@
 ---
-title: The Governor\'s Lady
+title: The Governor's Lady
 playwright: David Mercer
 student_written: true
 season: In House
