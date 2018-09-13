@@ -7,6 +7,7 @@ venue: New Theatre
 date_start: 1972-06-28
 date_end: 1972-07-01
 season_sort: 230
+ignore_missing: true
 
 crew:
 - role: Technical Coordinator
