@@ -1,6 +1,6 @@
 ---
 title: Festival of One Act Plays
-playwright: Various
+playwright: various
 season: In House
 period: Spring
 venue: New Theatre
