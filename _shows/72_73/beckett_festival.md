@@ -7,6 +7,7 @@ season_sort: 89
 date_start: 1972-11-20
 date_end: 1972-12-01
 venue: Trent, Great Hall
+ignore_missing: true
 
 crew:
 - role: Director
