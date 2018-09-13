@@ -12,6 +12,57 @@ assets:
   - type: poster
     image: TGMWMh9
 
+cast:
+- role: Brindsley Miller
+  name: Nicholas Williams
+- role: Carol Melkett
+  name: Amanda Salt
+- role: Miss Furnival
+  name: Veronica Needa
+- role: Colonel Melkett
+  name: Richard Simpson
+- role: Harold Gorringe
+  name: Kevin Buxton
+- role: Clea
+  name: Viv Maranzano
+- role: Schuppanzigh
+  name: Charlie Dunnett
+- role: Georg Bamberger
+  name: Keith Jenkins
+
+crew:
+- role: Director
+  name: Simon Keating
+- role: Producer
+  name: Emily Leach
+- role: Producer
+  name: Susan Daynes
+- role: Stage Manager
+  name: Chris Herbert
+- role: Set Design
+  name: Ken Marshall
+- role: Lighting
+  name: Ian Robinson
+- role: Technician
+  name: Tony Chafer
+- role: Technician
+  name: Chris Bashforth
+- role: Technician
+  name: Dave Williams
+- role: Technician
+  name: Nick Watkins
+- role: Poster + Buddha
+  name: Liz Guy
+- role: Paintings + Sculptures
+  name: Alan Jones
+- role: Costumes
+  name: Briony Bennison
+- role: Boiler Suit
+  name: Ian Fenn
+- role: Donkey Jacket
+  name: Steve Polson
+
+
 ---
 
 Black Comedy is a one-act farce by Peter Shaffer, first performed in 1965.
