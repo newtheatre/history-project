@@ -27,12 +27,12 @@ crew:
 
 > "Treat us as though we were children... Nice children, of course, children that you're fond of, but not as gorwn-ups. And for God's sake, whatever you do, don't praise us - that drives us mad"
 
-- Arthur Shields to Frank O'Connor, his advice to O'Connor who had just been elected to the boardroom of the Abbey Theatre.
+\- Arthur Shields to Frank O'Connor, his advice to O'Connor who had just been elected to the boardroom of the Abbey Theatre.
 
 > "Were I in England now (as I once was), and had but this fish painted, not a holiday fool there would give a piece of silver: there would this monster make a man: any strange beast there makes a man"
 
-- Shakespeare ('The Tempest')
+\- Shakespeare ('The Tempest')
 
 > "Personality is just consisten error."
 
-- Max Jacob "Ars Poetiques"
+\- Max Jacob "Ars Poetiques"
