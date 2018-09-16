@@ -3346,6 +3346,10 @@ osenv@0, osenv@^0.1.4:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
+outdatedbrowser@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/outdatedbrowser/-/outdatedbrowser-1.1.5.tgz#88c71f02d1e972e48df5d8d896ea56d7b0c2942b"
+
 package-json-versionify@^1.0.2:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/package-json-versionify/-/package-json-versionify-1.0.4.tgz#5860587a944873a6b7e6d26e8e51ffb22315bf17"
