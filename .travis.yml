@@ -55,3 +55,19 @@ notifications:
   on_success: change
   on_failure: always
   on_pull_requests: false
+
+before_deploy:
+  - _bin/export_cache.sh
+
+deploy:
+  provider: s3
+  access_key_id:
+    secure: "hh/BcZ28K3y8gkHxp+meTi5f9hzT1n9G1d1zURIyzlyk0haNRZTyrgyfl7ptuhs4NKXih4awwi1ESuW9aYstfEDM9eq2HvRuwyxpjqBJuuDQvZsTCw3aRZbCfrCaFI/0CV8FSTiKD+/9Kxq26sd5d+sbRaOoYZR0frlKxnCfXZc="
+  secret_access_key:
+    secure: "Z9tCiOupbFv+XduGxN91r3burR0YCq4TuOuR/imLG8ScFroVS3iC1w2FM5WmPuum534tLwXyXZSi+g1wfsitOfq8lg41Lee8OpVOHBHl3c2KfGwK3vX44mOHix0PC5X/KNW4IR5A9kKESWgMEzR1BcBRCptQiEIwNxDFgZVyITE="
+  bucket: "nthp"
+  region: "eu-west-1"
+  acl: public_read
+  local_dir: tmp/export
+  on:
+    branch: master
