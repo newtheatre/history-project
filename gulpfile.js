@@ -41,6 +41,16 @@ const LATE_FILES_LIB_SINGLES = [
     'node_modules/mapbox-gl/dist/mapbox-gl.css'
 ];
 
+const LATE_FILES_LIB = [
+    'node_modules/outdatedbrowser/outdatedbrowser/**'
+];
+
+
+gulp.task('node_module_files', function () {
+    return gulp.src(VENDOR_STATIC_FILES, {base: 'node_modules'})
+        .pipe(gulp.dest(STATIC_ROOT + '/vendor'));
+});
+
 gulp.task('late_files_lib', function () {
     // Copies contents of lib/ into site
     return gulp.src('lib/**')
@@ -50,6 +60,12 @@ gulp.task('late_files_lib', function () {
 gulp.task('late_files_lib_singles', function () {
     // Copies single files into lib/ in site
     return gulp.src(LATE_FILES_LIB_SINGLES)
+        .pipe(gulp.dest('_site/lib'));
+});
+
+gulp.task('late_files_lib', function () {
+    // Copies multiple files preserving directory structure
+    return gulp.src(LATE_FILES_LIB, {base: 'node_modules'})
         .pipe(gulp.dest('_site/lib'));
 });
 

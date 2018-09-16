@@ -1,0 +1,68 @@
+<!-- Paste the required HTML at the end of your document (see demo examples) -->
+<div id="outdated">
+    <h6>Your web browser is out-of-date</h6>
+    <p>
+      We do not support browsers that were released more than three years ago.<br />
+      This website will likely not work correctly using your current web browser.
+      <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update my browser</a>
+    </p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close" target="_blank">&times;</a></p>
+</div>
+
+<style type="text/css">
+  #outdated{
+    display: none; position: fixed; top: 0; left: 0; width: 100%; height: 220px;
+    text-align: center; z-index:1500;
+    background-color: #C2362A; color: #ffffff;
+  }
+  * html #outdated{position: absolute;}
+  #outdated h6{font-size: 25px; line-height: 25px; margin: 30px 0 10px; text-transform: uppercase;}
+  #outdated p{font-size: 16px; line-height: 26px; margin: 0;}
+  #outdated #btnUpdateBrowser{
+    display: block; position: relative; padding: 10px 20px; margin: 30px auto 0; width: 230px; /*need for IE*/
+    color: #ffffff; text-decoration: none; border: 2px solid #ffffff; cursor: pointer;
+  }
+  #outdated #btnUpdateBrowser:hover{color: #f25648; background-color:#ffffff;}
+  #outdated .last{position: absolute; top: 10px; right: 25px; width: 20px; height: 20px;}
+  #outdated .last[dir='rtl']{right: auto !important; left: 25px !important;}
+  #outdated #btnCloseUpdateBrowser{
+    display: block; position: relative; width: 100%; height: 100%;
+    text-decoration: none; color: #ffffff; font-size: 36px; line-height: 36px;
+  }
+
+  /* To catch IE11 and not Edge */
+  /* See https://github.com/burocratik/outdated-browser/issues/198 */
+  @media all and (-ms-high-contrast: none) {
+    #outdated{
+      display: block;
+    }
+  }
+</style>
+
+<script src="/lib/outdatedbrowser/outdatedbrowser/outdatedbrowser.min.js"></script>
+
+<script type="text/javascript">
+  // Plain Javascript
+  //event listener: DOM ready
+  function addLoadEvent(func) {
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function') {
+      window.onload = func;
+    } else {
+      window.onload = function() {
+        if (oldonload) {
+          oldonload();
+        }
+        func();
+      }
+    }
+  }
+  //call plugin function after DOM ready
+  addLoadEvent(function(){
+    outdatedBrowser({
+      bgColor: '#f25648',
+      color: '#ffffff',
+      lowerThan: 'borderImage'
+    })
+  });
+</script>

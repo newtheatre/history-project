@@ -5,7 +5,8 @@
   "private": true,
   "dependencies": {
     "bower": "^1.4.1",
-    "mapbox-gl": "^0.41.0"
+    "mapbox-gl": "^0.41.0",
+    "outdatedbrowser": "^1.1.5"
   },
   "devDependencies": {
     "coffee-script": "^1.10.0",
