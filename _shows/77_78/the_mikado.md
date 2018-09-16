@@ -36,8 +36,7 @@ cast:
    name: Chritine Allen
    note: An elderly lady in love with Nanki-Poo
  - role: Chorus of Schoolgirls
-   name: "????na Brown"
-   person: false
+   name: Fiona Brown
  - role: Chorus of Schoolgirls
    name: Joanne Churcher
  - role: Chorus of Schoolgirls
@@ -91,7 +90,7 @@ crew:
    name: Marion Hubbard
  - role: Publicity
    name: Sue Munro
- - role: "???? Manager"
+ - role: Front-Of-House Manager
    name: Hazel Chapman
  - role: Violin
    name: Russell Keable
@@ -114,6 +113,7 @@ crew:
    name: David Edwards
  - role: Cello
    name: "??? Whatmore"
+   person: false
  - role: Bass
    name: Sue Joynes
  - role: Flute
