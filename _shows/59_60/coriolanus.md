@@ -204,6 +204,6 @@ crew:
   name: H. A. and A. Burkett
   person: false
 - role: Music Performance
-  name: University of Nittingham Orchestra
+  name: University of Nottingham Orchestra
   person: false
 ---

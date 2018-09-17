@@ -1,6 +1,6 @@
 ---
 title: Smoking is Bad for You
-playwright: Anton Checkov
+playwright: Anton Checkhov
 season: In House
 period: Spring
 season_sort: 210

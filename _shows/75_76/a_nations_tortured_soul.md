@@ -40,4 +40,4 @@ crew:
 
 ---
 
-Kristianin is one of the great unsung heroes of the Bolshevik Revolution. He was the firt artist to realise the comic potential of Marxist revolution and it is the theatre's eternal tragic loss that he died before completing his major work, a nin hour dramatisation of the Stalinist purges. This, his first dramatic oeuvre shows the rise of a revolutionary movement against a backcloth of inate Fruedian imagery and constant preoccupation with the destiny of the human soul. He also had trouble spelling.
+Kristianin is one of the great unsung heroes of the Bolshevik Revolution. He was the firt artist to realise the comic potential of Marxist revolution and it is the theatre's eternal tragic loss that he died before completing his major work, a nine hour dramatisation of the Stalinist purges. This, his first dramatic oeuvre shows the rise of a revolutionary movement against a backcloth of inate Fruedian imagery and constant preoccupation with the destiny of the human soul. He also had trouble spelling.

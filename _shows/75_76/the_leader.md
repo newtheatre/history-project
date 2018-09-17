@@ -13,9 +13,9 @@ cast:
   name: Neil Runcieman
 - role: The Girlfriend
   name: Terri Norris
-- role: The Aclminer
+- role: The Admirer
   name: Matthew Bannister
-- role: The Girl Aclminer
+- role: The Girl Admirer
   name: Melanie Comley
 - role: The Leader
   name: Simon Holland
@@ -25,4 +25,4 @@ crew:
   name: Heather Peace
 ---
 
-In 'The Leader' Ionesco demonstrates, in his customary indirect style, the absurdity of human behaviour and social anganisation. 
+In 'The Leader' Ionesco demonstrates, in his customary indirect style, the absurdity of human behaviour and social antagonisation. 
