@@ -7,7 +7,7 @@ period: Edinburgh
 season_sort: 410
 date_start: 1977-08-22
 date_end: 1977-09-03
-venue: St Martins Crypt
+venue: St Martin's Crypt
 
 cast:
 - role: Alfred
