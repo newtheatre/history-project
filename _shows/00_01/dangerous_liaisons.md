@@ -42,7 +42,7 @@ crew:
   name: Ticklos Khosla
 - role: Material Set
   name: Jana Philips
-- role Costume
+- role: Costume
   name: Alix Fisk
 - role: Costume
   name: Lucie Greene
