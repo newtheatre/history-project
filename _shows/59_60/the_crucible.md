@@ -2,7 +2,7 @@
 title: The Crucible
 season: In House
 period: Spring
-playwright: Arthur Miller 
+playwright: Arthur Miller
 season_sort: 200
 venue: Trent, Great Hall
 date_start: 1960-06-29
