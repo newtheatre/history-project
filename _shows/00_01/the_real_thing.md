@@ -41,7 +41,7 @@ crew:
   name: Jenny Constantine
 - role: Backstage Crew
   name: Laura Duguid
-- role :Backstage Crew
+- role: Backstage Crew
   name: Vivek Goenka
 - role: Lighting Designer
   name: John Blackman
