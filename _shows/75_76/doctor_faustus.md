@@ -30,7 +30,7 @@ cast:
 - role: Robin / Monk
   name: Tim Slukin
 - role: Covetousness / Darius / Bruno
-  name: Charlie Dunnet
+  name: Charlie Dunnett
 - role: Gluttony / Archbishop of Rheims
   name: Tony O'Sullivan
 - role: Ralph / Monk
