@@ -36,7 +36,7 @@ crew:
 - role: Assistant Director
   name: Lindsey Fowler
 - role: Stage Manager
-  name: Jacuie Ingram
+  name: Jacqui Ingram
 - role: Backstage Crew
   name: Jenny Constantine
 - role: Backstage Crew

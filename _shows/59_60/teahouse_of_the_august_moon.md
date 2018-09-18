@@ -64,7 +64,7 @@ crew:
 - role: Lighting Designer
   name: Bob Challens
 - role: Sound
-  name: Bernard Lovell
+  name: Bernie Lovell
 - role: Make-Up
   name: John Roland
 - role: Make-Up

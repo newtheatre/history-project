@@ -25,7 +25,7 @@ cast:
 - role: Tourvel
   name: Julio Hammond
 - role: Rosemonde
-  name: Anna Lipinski
+  name: Anna E. Lipinski
 - role: Emilie
   name: Anna-Lisa Edge
 

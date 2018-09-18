@@ -29,7 +29,7 @@ crew:
 - role: Stage Crew
   name: Jane Gledhill
 - role: Stage Crew
-  name: Nattye Lamkay
+  name: Nettye Lamkay
 - role: Stage Crew
   name: Susan Ohlenschlager
 - role: Stage Crew

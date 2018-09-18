@@ -20,7 +20,7 @@ cast:
   - role: Maggie
     name: Rosie Tressler
   - role: Karen
-    name: Kristen McGachey
+    name: Kristan McGachey
   - role: Girl
     name: Polly Keane
   - role: Carla

@@ -27,7 +27,7 @@ cast:
   name: Stephen Dixon
   note: a false doctor
 - role: Hippolyta
-  name: Susan Landon
+  name: Susan P. Landon
   note: his wife, a supposed widow
 - role: Philotis
   name: Jane Leah

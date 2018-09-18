@@ -17,7 +17,7 @@ crew:
 - role: Technical Committee Crew
   name: John Andrew
 - role: Technical Committee Crew
-  name: Pete Horrix
+  name: Peter Horrix
 - role: Technical Committee Crew
   name: John Huddleston
 - role: Technical Committee Crew

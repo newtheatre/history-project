@@ -42,7 +42,7 @@ cast:
   name: Alun Hughes
   note: of Beverly
 - role: Elizabeth Proctor
-  name: Marian Jackson
+  name: Marion Jackson
   note: wife of John Proctor
 - role: Francis Nurse
   name: Mike Phillipson

@@ -32,7 +32,7 @@ cast:
 - role: Fifi de la Tour
   name: Emma Begg
 - role: Janet Trevelyan / Safari Guest
-  name: Kristen McGachey
+  name: Kristan McGachey
 - role: Robin / Mr Smith / Safari Guest
   name: Matt Wilks
 - role: Mrs Pedder / Bridesmaid / Safari Gues

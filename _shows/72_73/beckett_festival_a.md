@@ -11,7 +11,7 @@ venue: Trent, Great Hall
 cast:
  - name: Susannah Gale
    note: Come and Go
- - name: Susan Landon
+ - name: Susan P. Landon
    note: Come and Go
  - name: Helen Spiritus
    note: Come and Go
