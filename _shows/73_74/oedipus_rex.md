@@ -8,6 +8,7 @@ season_sort: 250
 date_start: 1974-06-24
 date_end: 1974-06-28
 venue: Open Air, University Park Campus
+venue_sort: University Park
 
 cast:
 - role: Oedipus

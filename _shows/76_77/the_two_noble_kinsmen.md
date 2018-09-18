@@ -7,4 +7,4 @@ season_sort: 30
 venue: New Theatre
 ---
 
-he Two Noble Kinsmen is a Jacobean tragicomedy, first published in 1634 and attributed to John Fletcher and William Shakespeare. Its plot derives from "The Knight's Tale" in Geoffrey Chaucer's The Canterbury Tales, which had already been dramatised at least twice before.
+The Two Noble Kinsmen is a Jacobean tragicomedy, first published in 1634 and attributed to John Fletcher and William Shakespeare. Its plot derives from "The Knight's Tale" in Geoffrey Chaucer's The Canterbury Tales, which had already been dramatised at least twice before.
