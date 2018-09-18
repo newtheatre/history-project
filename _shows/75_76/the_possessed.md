@@ -31,7 +31,7 @@ cast:
 - role: Nicolas Stavrogin
   name: Arthur Cummins
 - role: Prascovya Drozdov
-  name: Theresa Norris
+  name: Terri Norris
 - role: Dasha Shatov
   name: Heather Peace
 - role: Alexey Kirilov

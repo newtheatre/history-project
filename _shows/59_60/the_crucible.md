@@ -92,7 +92,7 @@ crew:
 - role: Sound
   name: Bernie Lovell
 - role: Costume Mistress
-  name: Joanna Penney
+  name: Joanna Penny
 - role: House Manager
   name: John Pease
 - role: House Manager

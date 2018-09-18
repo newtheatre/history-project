@@ -10,7 +10,7 @@ cast:
 - role: Bill
   name: Philip Barnes
 - role: Jill
-  name: Theresa Norris
+  name: Terri Norris
 - role: Pat
   name: Lorna Tanklovitch
 - role: Frank
