@@ -79,7 +79,7 @@ crew:
  - role: Make-Up Assistant
    name: Valerie Hurst
  - role: House Manager
-   name: "Gail-Nina Anderson"
+   name: Gail Anderson
 ---
 
 It is sometime in the 1920's, and a small European state is caught up in the rigours of inter-war depression. The streets are haunted by groups of demobilised troops: 'peace on earth' is only a synonym for unemployment to them. Disease, drunkeness and disorder flourish, and faced with the neccessity of enforcing firm discipline, the Duke abdicates his authority to Angelo, who, to the dismay of such hardened practitioners as Pompey and Mistress Overdone, enfroces his own particular brand of prohiition...

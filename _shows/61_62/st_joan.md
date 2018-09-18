@@ -19,7 +19,7 @@ cast:
 - role: Mgr de la Tremouille
   name: Barrie Long
 - role: Archbishop of Rheims
-  name: Martyn Bittleston
+  name: Martin Bittleston
 - role: Court Page
   name: Michael Naylor
 - role: Gilles de Rais

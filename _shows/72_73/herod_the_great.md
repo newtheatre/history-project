@@ -25,7 +25,7 @@ cast:
 - role: Woman
   name: Susan P. Landon
 - role: Woman
-  name: Jamet Breeze
+  name: Janet Breeze
 
 crew:
 - role: Director

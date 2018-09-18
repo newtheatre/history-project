@@ -102,7 +102,7 @@ crew:
 - role: Programme and Poster Deisgner
   name: Erica Mattingly
 - role: Properties
-  name: Jennifer Boulton
+  name: Jennifer Bolton
 - role: Propertires
   name: Janet Burgess
 - role: Make-Up Supervision
