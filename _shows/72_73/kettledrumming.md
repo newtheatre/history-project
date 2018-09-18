@@ -20,7 +20,7 @@ crew:
   - role: Director
     name: Mike Fuller
   - role: Lighting
-    name: Jom Cowell
+    name: Jim Cowell
   - role: Sound
     name: Nick Bradury
   - role: Stage Manager

@@ -23,7 +23,7 @@ cast:
 - role: Ivan Shatov
   name: Peter Cantrell
 - role: Virginsky
-  name: Aidan Coen
+  name: Aiden Coen
 - role: Gaganov
   name: John Thewlis
 - role: Alexandra
@@ -71,7 +71,7 @@ crew:
 - role: Set Construction
   name: Joe Pumfrey
 - role: Costumes
-  name: Cath Churchill
+  name: Catherine Churchill
 - role: Costumes
   name: Crispin Harris
 - role: Technician

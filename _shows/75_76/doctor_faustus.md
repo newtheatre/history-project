@@ -58,7 +58,7 @@ crew:
 - role: Set Construction
   name: Chris Herbert
 - role: Costumes
-  name: Cath Churchill
+  name: Catherine Churchill
 - role: Make-Up
   name: John Thewlis
 - role: Organ Player

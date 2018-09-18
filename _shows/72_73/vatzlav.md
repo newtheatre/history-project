@@ -26,7 +26,7 @@ crew:
   - role: Director
     name: Frank Ward
   - role: Lighting
-    name: Jom Cowell
+    name: Jim Cowell
   - role: Sound
     name: Nick Bradury
   - role: Stage Manager

@@ -14,7 +14,7 @@ cast:
 - role: Pat
   name: Lorna Tanklovitch
 - role: Frank
-  name: Kev Buxton
+  name: Kevin Buxton
 - role: Howard
   name: Vinny Cleary
 

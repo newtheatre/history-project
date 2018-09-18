@@ -96,7 +96,7 @@ cast:
 - role: Soldier
   name: Conrad Cook
 - role: Tullus Aufidus
-  name: Nevil Cruttendon
+  name: Neville Cruttendon
   note: General of the Volscians
 - role: Adrian
   name: Roger Hill
@@ -149,7 +149,7 @@ crew:
 - role: Lighting Designer
   name: Roger Strens
 - role: Lighting Designer
-  name: Bob Challenns
+  name: Bob Challens
 - role: Lighting Designer
   name: Trevor Stokes
 - role: Lighting Designer

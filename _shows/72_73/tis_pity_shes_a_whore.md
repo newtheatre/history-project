@@ -36,7 +36,7 @@ cast:
   name: Steve Perry
   note: a rich magnifico
 - role: Bergetto
-  name: Chrs Button
+  name: Chris Button
   note: his nephew
 - role: Poggio
   name: Phil Barnes

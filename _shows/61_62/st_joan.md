@@ -32,7 +32,7 @@ cast:
 - role: Duchess de la Tremouille
   name: Anna McNeil
 - role: Dunois
-  name: Nevile Cruttenden
+  name: Neville Cruttenden
   note: Bastard of Orleans
 - role: Dunois' Page
   name: Peter Widdowson
@@ -44,7 +44,7 @@ cast:
 - role: Warwick's Page
   name: Christopher Akhurst
 - role: Peter Cauchon
-  name: Anthony Burkett
+  name: Tony Burkett
   note: Bishop of Beauvais
 - role: The Inquisitor
   name: William Pierce

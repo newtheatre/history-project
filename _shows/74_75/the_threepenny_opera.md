@@ -30,7 +30,7 @@ cast:
 - role: Tiger Brown
   name: John Thewlis
 - role: Lucy Brown
-  name: Eieleen Coan
+  name: Eileen Coan
 - role: Warden Smith
   name: Chris Herbert
 - role: Jenny

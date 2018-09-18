@@ -23,11 +23,11 @@ cast:
 - role: Basil Hallward
   name: Kevin Buxton
 - role: Sibyl Vane / Duchess of Harley / Lady Monmouth
-  name: Eileen Coen
+  name: Eileen Coan
 - role: Sibyl's Mother / Aunt Agatha / Whore
   name: Sarah Shorrocks
 - role: James Vane / Sir Thomas Burden / Alan Campbell / Monmouth
-  name: Pete Cantrell
+  name: Peter Cantrell
 - role: Sundries
   name: Fred Butters
 - role: Sundries

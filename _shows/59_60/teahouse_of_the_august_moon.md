@@ -14,7 +14,7 @@ cast:
 - role: Sgt Gregovitch
   name: Alun Hughes
 - role: Col Purdy
-  name: Anthony Burkett
+  name: Tony Burkett
 - role: Capt Fisby
   name: Martin King
 - role: Capt McLean
