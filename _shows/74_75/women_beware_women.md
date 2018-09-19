@@ -42,7 +42,7 @@ cast:
   name: Gretel Tanzer
   note: daughter to Fabritio
 - role: Bianca
-  name: Susan Landon
+  name: Susan P. Landon
   note: wife to Leantio
 - role: The Widow
   name: Barbara Hopkin

@@ -30,7 +30,7 @@ cast:
 - role: Robin / Monk
   name: Tim Slukin
 - role: Covetousness / Darius / Bruno
-  name: Charlie Dunnet
+  name: Charlie Dunnett
 - role: Gluttony / Archbishop of Rheims
   name: Tony O'Sullivan
 - role: Ralph / Monk
@@ -58,7 +58,7 @@ crew:
 - role: Set Construction
   name: Chris Herbert
 - role: Costumes
-  name: Cath Churchill
+  name: Catherine Churchill
 - role: Make-Up
   name: John Thewlis
 - role: Organ Player

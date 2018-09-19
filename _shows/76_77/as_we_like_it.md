@@ -11,7 +11,7 @@ venue: Cathredal Hall, Albany Street
 
 cast:
 - name: Sue Candy
-- name: Viviana Maranzano
+- name: Viv Maranzano
 - name: Duncan Humphries
 - name: Hugh Simon
 - name: Jon Turner

@@ -23,7 +23,7 @@ cast:
 - role: Ivan Shatov
   name: Peter Cantrell
 - role: Virginsky
-  name: Aidan Coen
+  name: Aiden Coen
 - role: Gaganov
   name: John Thewlis
 - role: Alexandra
@@ -31,7 +31,7 @@ cast:
 - role: Nicolas Stavrogin
   name: Arthur Cummins
 - role: Prascovya Drozdov
-  name: Theresa Norris
+  name: Terri Norris
 - role: Dasha Shatov
   name: Heather Peace
 - role: Alexey Kirilov
@@ -71,7 +71,7 @@ crew:
 - role: Set Construction
   name: Joe Pumfrey
 - role: Costumes
-  name: Cath Churchill
+  name: Catherine Churchill
 - role: Costumes
   name: Crispin Harris
 - role: Technician

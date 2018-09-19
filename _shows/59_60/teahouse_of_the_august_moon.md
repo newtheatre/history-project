@@ -14,7 +14,7 @@ cast:
 - role: Sgt Gregovitch
   name: Alun Hughes
 - role: Col Purdy
-  name: Anthony Burkett
+  name: Tony Burkett
 - role: Capt Fisby
   name: Martin King
 - role: Capt McLean
@@ -64,7 +64,7 @@ crew:
 - role: Lighting Designer
   name: Bob Challens
 - role: Sound
-  name: Bernard Lovell
+  name: Bernie Lovell
 - role: Make-Up
   name: John Roland
 - role: Make-Up

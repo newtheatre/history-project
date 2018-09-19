@@ -10,7 +10,7 @@ date_end: 2007-12-14
 
 cast:
   - role: Pig
-    name: Pete Day
+    name: Peter Day
   - role: Runt
     name: Fiona Hamilton
 

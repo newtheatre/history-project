@@ -16,7 +16,7 @@ cast:
   - name: Sarah Head
   - name: Claire Horn
   - name: Tegan Jolly
-  - name: Kristen McGachey
+  - name: Kristan McGachey
   - name: Dave Porter
   - name: Andy Routledge
   - name: Fran Rylands

@@ -54,7 +54,7 @@ crew:
 - role: Poster + Buddha
   name: Liz Guy
 - role: Paintings + Sculptures
-  name: Alan Jones
+  name: Alan  Jones
 - role: Costumes
   name: Briony Bennison
 - role: Boiler Suit

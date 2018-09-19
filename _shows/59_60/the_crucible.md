@@ -42,7 +42,7 @@ cast:
   name: Alun Hughes
   note: of Beverly
 - role: Elizabeth Proctor
-  name: Marian Jackson
+  name: Marion Jackson
   note: wife of John Proctor
 - role: Francis Nurse
   name: Mike Phillipson
@@ -92,7 +92,7 @@ crew:
 - role: Sound
   name: Bernie Lovell
 - role: Costume Mistress
-  name: Joanna Penney
+  name: Joanna Penny
 - role: House Manager
   name: John Pease
 - role: House Manager
@@ -102,7 +102,7 @@ crew:
 - role: Programme and Poster Deisgner
   name: Erica Mattingly
 - role: Properties
-  name: Jennifer Boulton
+  name: Jennifer Bolton
 - role: Propertires
   name: Janet Burgess
 - role: Make-Up Supervision

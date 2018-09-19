@@ -20,7 +20,7 @@ cast:
   - role: Book Salesman
     name: Nick Williams
   - role: Teacher
-    name: Eileen Coen
+    name: Eileen Coan
 
 crew:
   - role: Director

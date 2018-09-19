@@ -10,7 +10,7 @@ season_sort: 240
 
 crew:
 - role: Director
-  name: Judith Fabien
+  name: Judith Fabian
 
 cast:
 - role: Man

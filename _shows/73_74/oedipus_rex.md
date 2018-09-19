@@ -50,7 +50,7 @@ crew:
 - role: Poster Design
   name: Jeremy Hunter
 - role: Programme Deisgn
-  name: Staurt Mitchell
+  name: Stuart Mitchell
 - role: Music
   name: Crispin Harris
 - role: Production Secretary

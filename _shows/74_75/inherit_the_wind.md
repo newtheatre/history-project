@@ -60,7 +60,7 @@ cast:
   - role: Judge
     name: Chris Brazier
   - role: Jesse Dunlap
-    name: Charles Dunnett
+    name: Charlie Dunnett
   - role: Sillers
     name: Charle Barnecutt
   - role: Ted Finney

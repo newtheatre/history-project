@@ -10,11 +10,11 @@ cast:
 - role: Bill
   name: Philip Barnes
 - role: Jill
-  name: Theresa Norris
+  name: Terri Norris
 - role: Pat
   name: Lorna Tanklovitch
 - role: Frank
-  name: Kev Buxton
+  name: Kevin Buxton
 - role: Howard
   name: Vinny Cleary
 

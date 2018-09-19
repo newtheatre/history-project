@@ -16,7 +16,7 @@ cast:
 - role: Joe
   name: Peter Rushton
 - role: Sally
-  name: Theresa Norris
+  name: Terri Norris
 - role: Jim
   name: Philip Barnes
 
