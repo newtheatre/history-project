@@ -86,6 +86,15 @@ links:
     date: 2016-05-13
     rating: 10/10
     quote: "The story was perfectly portrayed by all cast members, and for that I must commend them. I truly felt that their larger-than-life onstage presence would make Wilde himself proud. "
+  - type: Review
+    href: https://www.thereviewshub.com/the-importance-of-being-earnest-new-theatre-nottingham/
+    snapshot: tdgHh
+    publisher: The Reviews Hub
+    author: Dave Smith
+    date: 2016-05-12
+    rating: 2/5
+    quote: "Perhaps Earnest is too safe, and what we’ve ended up with is an at best average amateur show."
+    
 ---
 
 The Importance of Being Earnest, A Trivial Comedy For Serious People, is Oscar Wilde’s last play published before imprisonment for homosexuality and is a comedy revolving around the Victorian Upper Classes. This show has been praised by both its contemporary and modern critics, and with its mix of high farce and witty dialogue, it’s become one of the most loved and enduring plays from the Victorian era. Earnest satires the views of mortality of the time, as well as the views of marriage, which should be a serious institution, and about what is in the end most important; being Ernest or to be Earnest.
