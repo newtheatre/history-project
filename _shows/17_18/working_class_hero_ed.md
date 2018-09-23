@@ -50,7 +50,7 @@ links:
     title: "Working Class Hero – Greenside Infirmary Street, Edinburgh"
     date: 2018-08-16
     rating: 2/5
-    quote: "The play doesn’t feel like it has anything to say that hasn’t been said several hundred times before, and while its inoffensive enough it’s a long way away from the incisive political lyricism of Lennon or Akala."
+    quote: "Politics and music run through the play and there are some interesting observations that show that while political music has evolved since Lennon’s time the fundamentals remain the same."
 ---
 
 A father and his son. A son and his father.  Ten snapshots over one hundred days. Football, politics, John Lennon, education, Akala, humility.  How do we cope with losing the things we love?  What if we know it’s for a good reason?  What if we know it isn’t?  During his first semester at university, a son realises that his father is a person just like the rest of us.  A person who makes mistakes.  A person who struggles.  A person who dreams of a better life and a better world for him and his son.  Working Class Hero is a story of understanding and discovery, and of growing up with the belief that we are all special.
