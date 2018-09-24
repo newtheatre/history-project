@@ -54,7 +54,7 @@ links:
   author: Graeme Strachan
   title: "The Devil You Know: A Horror Play"
   rating: 1/5
-  quote: "[A]s it stands, this play is a derivative, and barely comprehensible mess."
+  quote: "[T]he projected pre-recorded footage, some occasionally interesting uses of lighting and audio and a neat little trick with the staging all point towards some real effort and thought that have gone into the project."
 
 ---
 
