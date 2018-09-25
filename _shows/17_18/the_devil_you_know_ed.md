@@ -48,6 +48,14 @@ links:
   rating: 4/5
   quote: "Inspired by the likes of The Blair Witch Project, ‘The Devil You Know’ is, similarly, a little bit silly but entertaining."
 - type: Review
+  href: http://magazine.dailybusinessgroup.co.uk/2018/08/05/creepy-tale-from-the-woods-is-an-admirable-effort/
+  snapshot: voybI
+  publisher: Daily Business Magazine
+  author: Heyley Murden
+  date: 2018-8-05
+  rating: 3/5
+  quote: "The Devil You Know is an admirable effort and worth seeing if you are looking for something spooky."
+- type: Review
   href: http://www.britishtheatreguide.info/reviews/the-devil-you-k-greenside-inf-16321
   snapshot: dBMap
   publisher: The British Theatre Guide
