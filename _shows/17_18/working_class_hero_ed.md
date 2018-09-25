@@ -21,8 +21,6 @@ crew:
   name: Felicity Chilver 
 - role: Producer
   name: Kate Maguire
-- role: Writer 
-  name: Ben Standish 
 - role: Technical Director
   name: Darcey Graham
 - role: Publicity Manager

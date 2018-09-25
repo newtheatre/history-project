@@ -19,8 +19,6 @@ crew:
   name: Felicity Chilver 
 - role: Producer
   name: Kate Maguire
-- role: Writer 
-  name: Ben Standish 
 - role: Venue Technician
   name: Rohanna Brown
 - role: Technical Operator
