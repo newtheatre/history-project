@@ -45,6 +45,7 @@ links:
     snapshot: DzA0x
     publisher: Broadway Baby
     title: "Working Class Hero"
+    rating: 2/5
     date: 2018-08-21
     quote: "An insufficient level of tension to be dramatic and not enough of everything else to be interesting."
   - type: Review
