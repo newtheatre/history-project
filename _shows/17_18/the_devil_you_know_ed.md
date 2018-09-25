@@ -63,6 +63,22 @@ links:
   title: "The Devil You Know: A Horror Play"
   rating: 1/5
   quote: "[T]he projected pre-recorded footage, some occasionally interesting uses of lighting and audio and a neat little trick with the staging all point towards some real effort and thought that have gone into the project."
+- type: Review
+  href: https://tychy.wordpress.com/2018/08/18/tychy-the-fringe-the-devil-you-know-a-horror-play/
+  snapshot: LkQSC
+  publisher: Tychy
+  title: "Tychy@ the Fringe: The Devil You Know – A Horror Play"
+  date: 2018-08-18
+  quote: "If sweetened slightly, \"The Devil You Know\" might connect with that age range that has more of an attachment to horror than my largely nostalgic one."
+- type: Review
+  href: http://geekchocolate.co.uk/devil-know-horror-play/
+  snapshot: DqLE3
+  publisher: Geek Chocolate
+  author: Michael Flett
+  title: "The Devil You Know: A Horror Play"
+  date: 2018-08-10
+  quote: "[T]here is no sense of the audience being drawn in by a compelling mystery"
+
 
 ---
 
