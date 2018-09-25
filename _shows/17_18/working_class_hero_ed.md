@@ -41,6 +41,14 @@ links:
     date: 2018-08-21
     quote: "It is brilliantly engineered and yet a thick slice of plain life, like a Dutch kitchen scene that shows no hint of the skill that had put it on the canvas."
   - type: Review
+    href: https://broadwaybaby.com/shows/working-class-hero/734019
+    snapshot: DzA0x
+    publisher: Broadway Baby
+    title: "Working Class Hero"
+    rating: 2/5
+    date: 2018-08-21
+    quote: "An insufficient level of tension to be dramatic and not enough of everything else to be interesting."
+  - type: Review
     href: https://www.thereviewshub.com/working-class-hero-greenside-infirmary-street-edinburgh/
     snapshot: YeOBg
     publisher: The Reviews Hub
