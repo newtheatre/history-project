@@ -10,8 +10,6 @@ date_start: 2018-09-27
 date_end: 2018-09-27
 venue: New Theatre
 
-trivia: 
-
 cast:
 - role: John / Jack / Ernest Worthing / Moncrieff, J.P.
   name: Jack Linley
@@ -39,10 +37,6 @@ crew:
   name: Sam Osborne
 - role: Set Assistant
   name: Ellie Castaño
-
-#assets:
-#  - type: poster
-#    image: #to be smugmugged
 
 ---
 
