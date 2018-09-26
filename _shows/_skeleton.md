@@ -30,6 +30,9 @@ crew:
 assets:
   - type:
     image:
+  - type:
+    video:
+    title:
 
 prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
