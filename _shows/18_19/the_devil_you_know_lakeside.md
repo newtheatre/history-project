@@ -37,7 +37,7 @@ links:
   publisher: Kev Castle Reviews
   author: Kev Castle
   snapshot: QQAgf
-  title: "\"Working Class Hero\/The Devil You Know\" by Nottingham New Theatre"
+  title: "\"Working Class Hero/The Devil You Know\" by Nottingham New Theatre"
   date: 2018-09-26
   quote: "Both plays were well acted, and while both plays were very different, I can see these two being a success on the Edinburgh Fringe circuit because of the diversity between the two."
 
