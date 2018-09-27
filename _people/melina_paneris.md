@@ -5,8 +5,11 @@ course:
 graduated: 2016
 contact_allowed: true
 
-https://www.instagram.com/melinapaneris/ 
-https://www.linkedin.com/in/melina-paneris-5619bbb1/ 
+links:
+- type: Instagram
+  username: melinapaneris
+- type: LinkedIn
+  username: melina-paneris-5619bbb1 
 
 ---
 
