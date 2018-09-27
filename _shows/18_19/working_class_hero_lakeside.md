@@ -30,6 +30,8 @@ assets:
 links:
 - type: Review
   href: http://kevcastletheatrereviews.blogspot.com/2018/09/working-class-hero-devil-you-know-by.html
+  publisher: Kev Castle Reviews
+  author: Kev Castle
   snapshot: QQAgf
   title: "\"Working Class Hero\/The Devil You Know\" by Nottingham New Theatre"
   date: 2018-09-26
