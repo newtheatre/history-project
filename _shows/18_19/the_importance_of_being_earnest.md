@@ -10,6 +10,7 @@ date_start: 2018-09-27
 date_end: 2018-09-27
 venue: New Theatre
 
+prod_shots: 6cndW2
 
 assets:
 - type: poster
@@ -21,11 +22,11 @@ cast:
   name: Jack Linley
 - role: Lady Bracknell
   name: Alex Levy
-- role: Cecily
+- role: Cecily Cardew 
   name: Emma Collingwood
 - role: Miss Prism
   name: Ellie Eagleton
-- role: Gwendolen
+- role: Gwendolen Fairfax
   name: Morven Cameron
 - role: Chasuble / Lane / Merriman
   name: Oliver Binns
@@ -35,12 +36,12 @@ cast:
 crew:
 - role: Director
   name: Joe Strickland
-- role: Technical Director
+- role: Producer
   name: Zoe Smith
-- role: Lighting Designer
+- role: Technical Director
   name: Sam Osborne
-- role: Sound Designer
-  name: Sam Osborne
+- role: Show Operator
+  name: Nadia Elalfi 
 - role: Set Assistant
   name: Ellie Castaño
 
