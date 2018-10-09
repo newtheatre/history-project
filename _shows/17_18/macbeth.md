@@ -65,6 +65,12 @@ crew:
   name: Nat Henderson
 - role: Assistant Costume and Make-Up Designer
   name: Annabel Freer
+- role: Design Assistant
+  name: Nadia Elalfi
+- role: Design Assistant
+  name: Charlie Basley
+- role: Design Assistant
+  name: Ellie Roberts
 - role: Publicity Manager
   name: Ted Marriott
 - role: Poster Designer
@@ -77,6 +83,8 @@ crew:
   name: Lillian Race
 - role: Stage Manager
   name: Francis Simmons
+- role: Stage Manager
+  name: Nadia Elalfi
 - role: Technical Operator
   name: Zoe Smith
 - role: Technical Operator
