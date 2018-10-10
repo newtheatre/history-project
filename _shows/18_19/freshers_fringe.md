@@ -219,6 +219,8 @@ crew:
     name: Zoe Smith
   - role: Lighting Designer
     name: Sam Osborne
+  - role: Sound Designer
+    name: Jack Ellis
   - role: Technical Operator
     name: Sam Osborne
   - role: Technical Operator
