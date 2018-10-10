@@ -220,21 +220,22 @@ crew:
   - role: Lighting Designer
     name: Sam Osborne
   - role: Technical Operator
-    name: Callum Walker
-  - role: Technical Operator
     name: Sam Osborne
   - role: Technical Operator
-    name: Hayoung Cho
+    name: Callum Walker
   - role: Stage Manager
     name: Nadia Elalfi
   - role: Stage Manager
-    name: Amy Crighton
-  - role: Stage Manager
-    name: Jack Ellis
+    name: Ritika Gupta
 
 assets:
   - type: poster
     image: //TODO
+
+trivia:
+   quote: Callum and I just over doubled the number of sound cues across the two nights with our sketches.
+   name: Jack Ellis
+   submitted: 2018-10-10
 
 ---
 
