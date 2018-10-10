@@ -221,6 +221,10 @@ crew:
     name: Sam Osborne
   - role: Sound Designer
     name: Jack Ellis
+  - role: Poster Designer
+    name: Amy Crighton
+  - role: Poster Designer
+    name: Beth Carter
   - role: Technical Operator
     name: Sam Osborne
   - role: Technical Operator
@@ -232,7 +236,7 @@ crew:
 
 assets:
   - type: poster
-    image: //TODO
+    image: XRjsjwP
 
 trivia:
    quote: Callum and I just over doubled the number of sound cues across the two nights with our sketches.
