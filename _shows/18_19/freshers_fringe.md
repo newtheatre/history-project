@@ -239,11 +239,11 @@ assets:
     image: XRjsjwP
 
 trivia:
-   quote: Callum and I just over doubled the number of sound cues across the two nights with our sketches.
-   name: Jack Ellis
-   submitted: 2018-10-10
+  - quote: Callum and I just over doubled the number of sound cues across the two nights with our sketches.
+    name: Jack Ellis
+    submitted: 2018-10-10
 
 ---
 
 
-A collection of the most exciting new talent to descend upon England's only student-run theatre star in two electrifying shows. The two evenings of short plays and sketches are guaranteed to tantalise, transfix and titillate. Each night is different so come along to both to experience the full spectrum of what the theatre has to offer!
+A collection of the most exciting new talent to descend upon England's only student-run theatre star in two electrifying shows. The two evenings of short plays and sketches are guaranteed to tantalise, transfix and titillate. Each night is different so come along to both to 
