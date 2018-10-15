@@ -9,61 +9,45 @@ date_end: 2018-10-09
 venue: New Theatre
 
 cast:
+  - name: Nicola Galvin
+    note: Joe & Nat's Group
+  - name: Caitie Pardoe
+    note: Joe & Nat's Group
   - name: Sophy Baxter
     note: Jack & Callum's Group
   - name: Rachel Elphick
     note: Jack & Callum's Group
   - name: Sarah Ingham
     note: Jack & Callum's Group
-  - name: Nicola Galvin
-    note: Joe & Nat's Group
-  - name: Ellie Sylvester
-    note: Joe & Nat's Group
-  - name: Xuhan
-    note: Joe & Nat's Group
-  - name: Caitie Pardoe
-    note: Joe & Nat's Group
   - name: Charlotte Aikens
     note: Arthur, Jess, & Sally's Group
-  - name: Shinee
+  - name: Swaswathi Patak
     note: Arthur, Jess, & Sally's Group
   - name: Florence Avis
     note: Arthur, Jess, & Sally's Group
   - name: Penelope Weir
     note: Arthur, Jess, & Sally's Group
-  - name: Maria
-    note: Isabelle & Eric's Group
   - name: Luke Hughes
     note: Isabelle & Eric's Group
   - name: Weiying Rao
     note: Isabelle & Eric's Group
   - name: Amy Wilcockson
     note: Isabelle & Eric's Group
-  - name: Poppy Flury
-    note: Tara & Francis' Group
   - name: Alice Walker
     note: Tara & Francis' Group
-  - name: Zhenfei Yuan
+  - name: Gabriella Teriaca
     note: Tara & Francis' Group
-  - name: Faye Lillywhite-Buley
-    note: Tara & Francis' Group
-  - name: Maria Sch
-    note: Josie & Charlie's Group
   - name: Ottilie Owen
     note: Josie & Charlie's Group
   - name: Isaac Williamson
     note: Josie & Charlie's Group
-  - name: Georgie Barnwell
+  - name: Georgia Barnwell
     note: Josie & Charlie's Group
   - name: Shashank Pardeshi
-    note: Beth, Eleanor, & Nicola's Group
-  - name: Gabriella Teriaca
     note: Beth, Eleanor, & Nicola's Group
   - name: Awadhy Mohammed
     note: Beth, Eleanor, & Nicola's Group
   - name: Morgan Beale
-    note: Beth, Eleanor, & Nicola's Group
-  - name: Elysian Crawford Thomas
     note: Beth, Eleanor, & Nicola's Group
   - name: Charlotte Cox
     note: Hugo, Selin, & Lois' Group
@@ -99,13 +83,9 @@ cast:
     note: Emma & Dan's Group
   - name: Martin Tomlinson
     note: Emma & Dan's Group
-  - name: Louise Tallon
-    note: Ellie & William's Group
   - name: Isabella Hayes
     note: Ellie & William's Group
   - name: Abie Whitehead
-    note: Ellie & William's Group
-  - name: Chrisa Roma
     note: Ellie & William's Group
   - name: Grace Carter
     note: Morven & Bertie's Group
@@ -113,25 +93,19 @@ cast:
     note: Morven & Bertie's Group
   - name: Marie Rositano
     note: Morven & Bertie's Group
-  - name: Alana Bain
-    note: Morven & Bertie's Group
   - name: Matthew Goon
     note: Cameron & Ellen's Group
   - name: Rachel Roberts
     note: Cameron & Ellen's Group
   - name: Helen Brown
     note: Cameron & Ellen's Group
-  - name: John Wood
-    note: Rosa, Lillian, & Lucy's Group
   - name: Wenxin Li
     note: Rosa, Lillian, & Lucy's Group
-  - name: Sparsh Mutha
+  - name: Issac Jones
     note: Rosa, Lillian, & Lucy's Group
   - name: Robin Ramsay
     note: Rosa, Lillian, & Lucy's Group
   - name: Esther Townsend
-    note: Ellie & Will's Group
-  - name: Martin ???
     note: Ellie & Will's Group
   - name: Cecilia Alexander
     note: Ellie & Will's Group
