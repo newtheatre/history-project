@@ -124,7 +124,7 @@ crew:
   - role: Director
     name: Nat Henderson
   - role: Director
-    name: Arthur McKechnie
+    name: Arthur Mckechnie
   - role: Director
     name: Jess Donn
   - role: Director
