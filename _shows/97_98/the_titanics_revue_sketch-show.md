@@ -7,8 +7,10 @@ venue: New Theatre
 date_start: 1998-06-15
 
 crew:
- - role: Director
-   name: Stuart Scott
+  - role: Director
+    name: Stuart Scott
+  - role: Producer
+    name: Ross Parish
 ---
 
 
