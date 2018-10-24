@@ -6,9 +6,13 @@ playwright: William Shakespeare
 season_sort: 320
 venue: New Theatre
 
+trivia:
+  - quote: This show was originally planned to be done outside by the Lake and indeed I think we did one performance outside before the rain hit!
+    name: Ross Parish
+
 cast:
   - role: Malvolio
-    name: John Urquart
+    name: Jonathan Urquhart
   - role: Sir Toby Belch
     name: Ross Parish
   - role: Captain
