@@ -7,7 +7,7 @@ venue: New Theatre
 
 cast:
   - name: Paul Ham
-  - name: Nicole Ross Anderson
+  - name: Nicole Ross-Anderson
   - name: Tony Cooke
   - name: Mike Sanders
   - name: Marilyn Bird
