@@ -9,7 +9,7 @@ cast:
   - name: Carl Partridge
   - name: Tony Cooke
   - name: Phil Andrews
-  - name: Nicole Ross Anderson
+  - name: Nicole Ross-Anderson
   - name: Emma Sanderson
   - name: Ross Parish
 
