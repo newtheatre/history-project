@@ -3,6 +3,8 @@ title: Fame the Musical
 playwright: José Fernandez, Steve Margoshes and Jacques Levy
 season: In House
 period: Autumn
+date_start: 2018-12-08
+date_end: 2018-12-13
 season_sort: 90
 venue: New Theatre
 canonical:
