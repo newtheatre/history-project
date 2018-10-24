@@ -21,7 +21,7 @@ cast:
  - role: Dave
    name: Edward Hancock
  - role: Dan
-   name: David Stephenson
+   name: Dave Stephenson
  - role: Sophia
    name: Fran Roper
  - role: Rosie

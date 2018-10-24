@@ -7,9 +7,11 @@ period: Spring
 venue: New Theatre
 date_start: 2007-02-21
 date_end: 2007-02-24
-
 published: true
 
+cast:
+  - role: Various
+    name: Dave Stephenson
 prod_shots: 5mqdTt
 
 assets:

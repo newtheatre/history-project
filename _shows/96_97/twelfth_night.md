@@ -6,11 +6,27 @@ playwright: William Shakespeare
 season_sort: 320
 venue: New Theatre
 
+trivia:
+  - quote: This show was originally planned to be done outside by the Lake and indeed I think we did one performance outside before the rain hit!
+    name: Ross Parish
+
+cast:
+  - role: Malvolio
+    name: Jonathan Urquhart
+  - role: Sir Toby Belch
+    name: Ross Parish
+  - role: Captain
+    name: Tony Cooke
+  - role: Fabian
+    name: Paul Ham
+  - role: Feste
+    name: Stuart Scott
+
 crew:
- - role: Director
-   name: Gemma Robinson
- - role: Director
-   name: Claire McKenzie
+  - role: Director
+    name: Gemma Robinson
+  - role: Director
+    name: Claire McKenzie
 ---
 
 
