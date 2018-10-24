@@ -8,6 +8,8 @@ season_sort: 70
 venue: New Theatre
 
 cast:
+  - role: Creon
+    name: Dave Stephenson
   - role: Chorus
     name: Carly Taylor
 

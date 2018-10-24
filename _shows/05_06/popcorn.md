@@ -12,7 +12,7 @@ cast:
   - role: Scout Hudson
     name: Emily Medhurst
   - role: Bruce Delamitri
-    name: Dave Stevenson
+    name: Dave Stephenson
   - role: Brooke Daniels
     name: Fran Roper
   - role: Wayne Hudson

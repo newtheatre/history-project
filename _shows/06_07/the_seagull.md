@@ -18,7 +18,7 @@ prod_shots: BXFNXd
 
 cast:
  - role: Konstantin
-   name: David Stephenson
+   name: Dave Stephenson
  - role: Trigorin
    name: Peter Day
  - role: Arkadina
