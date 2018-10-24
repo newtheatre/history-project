@@ -2,6 +2,7 @@
 title: We Should Get Out More Sketch Show
 season: Edinburgh
 period: Edinburgh
+venue: Gilded Balloon
 season_sort: 610
 
 cast:
