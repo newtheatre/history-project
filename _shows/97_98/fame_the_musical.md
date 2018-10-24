@@ -21,6 +21,10 @@ crew:
 cast:
  - role: Emily
    name: Michelle Harper
+
+assets:
+  - type: programme
+    image: z2LGjRQ
 ---
 
 
