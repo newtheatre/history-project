@@ -2,7 +2,7 @@
 title: Dave Stephenson
 course:
   - History 
-graduated: 2004-2007
+graduated: 2007
 contact_allowed: true
 careers:
   - Teacher
