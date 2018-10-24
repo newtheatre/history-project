@@ -6,11 +6,23 @@ playwright: William Shakespeare
 season_sort: 320
 venue: New Theatre
 
+cast:
+  - role: Malvolio
+    name: John Urquart
+  - role: Sir Toby Belch
+    name: Ross Parish
+  - role: Captain
+    name: Tony Cooke
+  - role: Fabian
+    name: Paul Ham
+  - role: Feste
+    name: Stuart Scott
+
 crew:
- - role: Director
-   name: Gemma Robinson
- - role: Director
-   name: Claire McKenzie
+  - role: Director
+    name: Gemma Robinson
+  - role: Director
+    name: Claire McKenzie
 ---
 
 
