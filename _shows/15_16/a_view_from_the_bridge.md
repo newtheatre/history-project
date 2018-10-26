@@ -8,6 +8,11 @@ venue: New Theatre
 date_start: 2015-11-11
 date_end: 2015-11-14
 
+trivia:
+  - quote: Technically the longest get-out ever at the NNT, given that Callum Walker and I only got the set apart properly nearly two years after closing night
+    name: Jack Ellis
+    submitted: 2018-10-25
+
 cast:
 - role: Eddie
   name: Harry Bradley
