@@ -1,5 +1,5 @@
 ---
-title: "Oedipus Rex"
+title: Oedipus
 playwright: Seneca
 translator: Ted Hughes
 period: Spring
