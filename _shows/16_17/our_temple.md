@@ -9,6 +9,11 @@ venue: New Theatre
 date_start: 2017-04-04
 date_end: 2017-04-07
 
+trivia:
+  - quote: We were told to bring in some clothes that would fit the 70s setting as a costume. I turned up and was told what I was wearing would be perfect. Little did they know I had a bag full of ugly shirts and high waisted jeans with me. Apparently my natural fashion sense screams 'cult member in the 70s'
+    name: Callum Walker
+    submitted: 2018-10-26
+    
 prod_shots: qghmqK
 
 cast:
