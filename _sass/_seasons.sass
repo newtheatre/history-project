@@ -6,6 +6,7 @@ $color-edinburgh: #3CD861
 $color-lakeside: #4AAEDB
 $color-stuff: #E20013
 $color-fundraiser: darken(#E296D1, 30%)
+$color-iudf: #242F4A
 
 @mixin show-season-circle
   &:before
@@ -38,6 +39,8 @@ $color-fundraiser: darken(#E296D1, 30%)
     color: $color-stuff !important
   &.season-fundraiser:before
     color: $color-fundraiser !important
+  &.season-iudf:before
+    color: $color-iudf !important
 
 // Background of season meta-col col
 .show-season
@@ -54,6 +57,8 @@ $color-fundraiser: darken(#E296D1, 30%)
     background: rgba($color-stuff, $opacity-jigging)
   .season-fundraiser
     background: rgba($color-fundraiser, $opacity-jigging)
+  .season-iudf
+    background: rgba($color-iudf, $opacity-jigging)
 
 // Breadcrumbs
 @include breadcrumb-color("in-house", $color-in-house)
@@ -64,6 +69,7 @@ $color-fundraiser: darken(#E296D1, 30%)
 @include breadcrumb-color("lakeside", darken($color-lakeside, 10%))
 @include breadcrumb-color("stuff", $color-stuff)
 @include breadcrumb-color("fundraiser", $color-fundraiser)
+@include breadcrumb-color("iudf", $color-iudf)
 
 // Season pages
 @include breadcrumb-color("seasons", $color-seasons)
