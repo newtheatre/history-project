@@ -8,7 +8,7 @@ submitted: # False if we have collated data ourselves
 gender: 
 headshot: # Use https://history.newtheatre.org.uk/util/smug-headshots/ 
 course: 
-graduated: #YYYY Only put in if the person has actually graduated
+graduated: #YYYY
 award: 
 careers: 
 links: 
