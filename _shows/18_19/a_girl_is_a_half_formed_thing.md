@@ -37,7 +37,7 @@ crew:
   person: false
 
 assets:
-  - type: Poster
+  - type: poster
     image: 3p3dwPS
 #  - type:
 #    video:
