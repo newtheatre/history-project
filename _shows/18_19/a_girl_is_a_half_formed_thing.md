@@ -9,8 +9,6 @@ date_start: 2018-10-31
 date_end: 2018-11-03
 venue: New Theatre
 
-trivia: 
-
 cast:
 - role: Girl
   name: Kate O'Gorman
@@ -41,25 +39,25 @@ crew:
 assets:
   - type: Poster
     image: 3p3dwPS
-  - type:
-    video:
-    title:
+#  - type:
+#    video:
+#    title:
 
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
+#prod_shots:
+#  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
-assets: 
+#assets: 
 
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
+#links:
+#  - type:
+#    href:
+#    snapshot:
+#    publisher:
+#    author:
+#    title: ""
+#    date:
+#    rating:
+#    quote:
 
 ---
 
