@@ -3,7 +3,7 @@ title: A Girl Is A Half-Formed Thing
 playwright: Eimear McBride
 adaptor: Annie Ryan
 period: Autumn
-season: In-House
+season: In House
 season_sort: 50
 date_start: 2018-10-31
 date_end: 2018-11-03
