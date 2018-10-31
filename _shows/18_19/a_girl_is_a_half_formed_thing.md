@@ -30,6 +30,8 @@ crew:
   name: Jess Donn
 - role: Sound Designer
   name: Emma Barber
+- role: Assistant Sound Designer
+  name: Jack Ellis
 - role: Lighting Designer
   name: Miguel Barrulas
 - role: Special Thanks
