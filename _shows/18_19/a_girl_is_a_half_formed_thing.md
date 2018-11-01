@@ -45,10 +45,8 @@ assets:
 #    video:
 #    title:
 
-#prod_shots:
-#  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
+prod_shots: jCRfhm
 
-#assets: 
 
 #links:
 #  - type:
