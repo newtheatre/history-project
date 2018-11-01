@@ -11,7 +11,8 @@ IgnoreURLs:
 - "impactnottingham.com"
 - "http://www.su-web2.nottingham.ac.uk/"
 - "http://young-perspective.net/"
-- "https://web.archive.org" 
+- "https://web.archive.org"
+- "http://philgeller.co.uk/"
 IgnoreDirs:
 - "^lib"
 
