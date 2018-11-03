@@ -7,9 +7,10 @@ course:
 graduated: 1975
 links:
   - type: Portfolio
+    href: "http://web.archive.org/web/20170324195021/http://www.personal.soton.ac.uk/tim/"
+    snapshot: CHf2m
+  - type: Portfolio
     href: "http://www.southampton.ac.uk/maths/about/staff/tim.page"
-    
-comment: "http://www.personal.soton.ac.uk/tim/"
 ---
 
 Academic career in applied mathematics and theoretical physics
