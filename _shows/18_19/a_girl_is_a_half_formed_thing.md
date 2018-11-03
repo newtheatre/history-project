@@ -41,23 +41,19 @@ crew:
 assets:
   - type: poster
     image: 3p3dwPS
-#  - type:
-#    video:
-#    title:
 
 prod_shots: jCRfhm
 
-
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+links:
+  - type: Review
+    href: https://impactnottingham.com/2018/11/a-girl-is-a-half-formed-thing-nnt/
+    snapshot: ZaODr
+    publisher: Impact Nottingham
+    author: Katie Moncur
+    title: "A GIRL IS A HALF-FORMED THING @ NNT"
+    date: 2018-11-02
+    rating: 9/10
+    quote: "Definitely not one to see if you would like a laid-back and relaxing show, but for an intense and heart-wrenching performance that leaves you a little shaken, go and watch A Girl is a Half-Formed Thing."
 
 ---
 
