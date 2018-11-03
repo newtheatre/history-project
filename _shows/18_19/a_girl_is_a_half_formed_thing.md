@@ -73,7 +73,7 @@ links:
     author: Georgia Butcher
     title: "BEHIND THE SCENES AT NNT: A GIRL IS A HALF-FORMED THING"
     date: 2018-11-02
-    quote: "A Girl is a Half-Formed Thing deals with some incredibly distressing themes, including cancer, death, grooming, abuse, incest, and more. So why was such an intense text chosen for production? Crighton states \"I read a lot of texts over the summer trying to decide what to put on, but this was the only one that jumped out at me. I’m a very visual person so I have to be able to see the set and how I’d do it instantly in my head, and I certainly had that with this\"."
+#    quote: "A Girl is a Half-Formed Thing deals with some incredibly distressing themes, including cancer, death, grooming, abuse, incest, and more. So why was such an intense text chosen for production? Crighton states \"I read a lot of texts over the summer trying to decide what to put on, but this was the only one that jumped out at me. I’m a very visual person so I have to be able to see the set and how I’d do it instantly in my head, and I certainly had that with this\"."
 
 ---
 
