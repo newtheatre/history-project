@@ -34,7 +34,7 @@ cast:
     name: Phil Sarson
   - role: A
     note: Crave
-    name: Bush
+    name: Bush Moukarzel
 
 crew:
   - role: Director
