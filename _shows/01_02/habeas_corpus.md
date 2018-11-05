@@ -30,7 +30,7 @@ cast:
   - role: Felicity Rumpers
     name: Cat McCotter
   - role: Mr Purdue
-    name: Bush
+    name: Bush Moukarzel
 
 crew:
   - role: Director

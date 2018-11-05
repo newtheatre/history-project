@@ -18,14 +18,14 @@ cast:
     name: Phil Sarson
     note: Morning on a rainy day
   - role: Jim
-    name: Bush
+    name: Bush Moukarzel
     note: Capital
   - role: Bob
     name: Nick Salmon
     note: Capital
 crew:
   - role: Director
-    name: Bush
+    name: Bush Moukarzel
   - role: "Co-Director"
     name: Fiona Johnson
     note: Morning on a rainy day
