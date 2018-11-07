@@ -73,7 +73,15 @@ links:
     author: Georgia Butcher
     title: "Behind the Scenes at NNT: A Girl Is A Half-Formed Thing"
     date: 2018-11-02
-
+  - type: Review
+    href: https://www.hercampus.com/school/nottingham/theatre-review-nnt-s-girl-half-formed-thing?fbclid=IwAR2yVybME2MYUydxzQhNV7Nyy0w7mvgrquN6uackkOoLEUC4CZWZAjKo_NI
+    snapshot: Rfh8F
+    publisher: Her Campus
+    author: Georgina Pittman
+    title: "Theatre Review: NNT's 'A Girl is a Half-Formed Thing'"
+    date: 2018-11-07
+    rating: 4/5
+    quote: "Overall, I thought Amy Crighton (Director) did a beautiful job to interpret a challenging text."
 ---
 
 ‘I met a man. I met a man. And I lay down. And slapped and cried and wined and dined. I met a man and many more and I didn’t know you at all.’
