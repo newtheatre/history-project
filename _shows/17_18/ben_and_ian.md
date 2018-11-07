@@ -15,6 +15,8 @@ crew:
   name: Darcey Graham
 - role: Technical Operator
   name: James Curling
+- role: Poster Designer
+  name: Zoe Smith
 
 assets:
 - type: poster
