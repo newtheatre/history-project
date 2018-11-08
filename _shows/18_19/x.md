@@ -69,19 +69,19 @@ assets:
   - type: poster
     image: DPwCqwp
 
-# prod_shots:
+ prod_shots: CfW9kq
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
+#links:
+#  - type:
+#    href:
+#    snapshot:
+#    publisher:
+#    author:
+#    title: ""
+#    date:
+#    rating:
+#    quote:
 
 ---
 
