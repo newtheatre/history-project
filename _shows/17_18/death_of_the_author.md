@@ -7,7 +7,7 @@ season: Fringe
 season_sort: 140
 date_start: 2017-12-10
 date_end: 2017-12-11
-venue: New Theatre
+venue: New Theatre Studio A
 
 cast:
 - role: Dorian Gray
