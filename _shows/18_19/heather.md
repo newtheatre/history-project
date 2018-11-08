@@ -21,7 +21,7 @@ cast:
 
 crew:
 - role: Director
-  name: Tara Philips
+  name: Tara Phillips
 - role: Producer
   name: Isabelle Cadwallader
 - role: Assistant Director
