@@ -17,7 +17,9 @@ trivia:
   - quote: We had no budget at all; every piece of set or costume was either owned by a cast member, lent to us, or bought out of someone's pocket.
     name: Jack Ellis
     submitted: 2017-11-25
-
+  - quote: One rehearsal George didn't turn up. We rang him and he was in Mooch having finished his exams, so we told him what was happening and he came in. He then gave the best performance I've ever seen him give at the NNT, after which he staggered over to me and said "I'm six pints in"
+    name: Callum Walker
+    submitted: 2018-11-08
 
 cast:
 - name: Matteo Bagaini
