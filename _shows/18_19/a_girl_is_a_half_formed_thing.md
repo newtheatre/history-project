@@ -74,7 +74,7 @@ links:
     title: "Behind the Scenes at NNT: A Girl Is A Half-Formed Thing"
     date: 2018-11-02
   - type: Review
-    href: https://www.hercampus.com/school/nottingham/theatre-review-nnt-s-girl-half-formed-thing?fbclid=IwAR2yVybME2MYUydxzQhNV7Nyy0w7mvgrquN6uackkOoLEUC4CZWZAjKo_NI
+    href: https://www.hercampus.com/school/nottingham/theatre-review-nnt-s-girl-half-formed-thing
     snapshot: Rfh8F
     publisher: Her Campus
     author: Georgina Pittman
