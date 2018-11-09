@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information 
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used 
-
 title: X
 playwright: Alistair McDowall
 period: Autumn
@@ -69,8 +65,7 @@ assets:
   - type: poster
     image: DPwCqwp
 
- prod_shots: CfW9kq
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
+prod_shots: CfW9kq
 
 links:
   - type: Article
