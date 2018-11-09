@@ -72,16 +72,14 @@ assets:
  prod_shots: CfW9kq
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+links:
+  - type: Article
+    href: https://impactnottingham.com/2018/11/behind-the-scenes-at-nnt-x-by-alistair-mcdowall/
+    snapshot: KNgUS
+    publisher: Impact Nottingham
+    author: Esther Kearney
+    title: "BEHIND THE SCENES AT NNT: \"X\" BY ALISTAIR MCDOWALL"
+    date: 2018-11-09
 
 ---
 
