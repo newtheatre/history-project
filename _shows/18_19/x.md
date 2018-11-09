@@ -57,6 +57,16 @@ crew:
   name: Nat Henderson
 - role: Make-Up Assistant
   name: Oliver Binns
+- role: Technical Operator
+  name: Rupert Galea
+- role: Technical Operator
+  name: Florence Bell
+- role: Technical Operator
+  name: Tara Prasad
+- role: Technical Operator
+  name: Nadia Elalfi
+- role: Technical Operator
+  name: Zoe Smith
 - role: Special Thanks
   name: Jaedvara Thanakitcharu
   person: false
