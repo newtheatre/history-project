@@ -78,6 +78,15 @@ assets:
 prod_shots: CfW9kq
 
 links:
+  - type: Review
+    href: https://impactnottingham.com/2018/11/x-nnt/
+    snapshot: DqcXn
+    publisher: Impact Nottingham
+    author: Daniel Morris
+    title: "X @ NNT"
+    date: 2018-11-10
+    rating: 9/10
+    quote: "Their efforts have definitely payed off and this is a must see show"
   - type: Article
     href: https://impactnottingham.com/2018/11/behind-the-scenes-at-nnt-x-by-alistair-mcdowall/
     snapshot: KNgUS
