@@ -87,6 +87,13 @@ links:
     date: 2018-11-10
     rating: 9/10
     quote: "Their efforts have definitely payed off and this is a must see show"
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.com/2018/11/x-by-alistair-mcdowall-nottingham-new.html
+    snapshot: h53R4
+    publisher: Kev Castle Reviews
+    title: "\"X\" by Alistair McDowall"
+    date: 2018-11-10
+    quote: "A brilliantly performing cast and wonderful technical crew keep up the NNT reputation for presenting fresh and evocative pieces of theatre."
   - type: Article
     href: https://impactnottingham.com/2018/11/behind-the-scenes-at-nnt-x-by-alistair-mcdowall/
     snapshot: KNgUS
