@@ -26,7 +26,7 @@ crew:
 - role: Technical Director
   name: Laura Wolczyk
 - role: Lighting Designer
-  name: Sasha Garnder
+  name: Sasha Gardner
 - role: Sound Designer
   name: Arthur Mckechnie
 - role: Production Assistant
