@@ -49,15 +49,13 @@ prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
 links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
+  - type: Article
+    href: https://impactnottingham.com/2018/11/behind-the-scenes-at-nnt-heather-by-thomas-eccleshare/
+    snapshot: h8ac2
+    publisher: Impact Nottingham
+    author: Georgia Butcher
+    title: "Behind The Scenes at NNT: Heather""
+    date: 2018-11-12
 
 ---
 
