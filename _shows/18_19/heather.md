@@ -45,7 +45,7 @@ assets:
   - type: poster
     image: qSPd28g
 
-prod_shots:
+#prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
 links:
@@ -54,7 +54,7 @@ links:
     snapshot: h8ac2
     publisher: Impact Nottingham
     author: Georgia Butcher
-    title: "Behind The Scenes at NNT: Heather""
+    title: "Behind The Scenes at NNT: Heather" 
     date: 2018-11-12
 
 ---
