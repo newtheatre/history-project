@@ -54,7 +54,7 @@ links:
     snapshot: h8ac2
     publisher: Impact Nottingham
     author: Georgia Butcher
-    title: "Behind The Scenes at NNT: Heather""
+    title: "Behind The Scenes at NNT: Heather" 
     date: 2018-11-12
 
 ---
