@@ -32,6 +32,8 @@ crew:
   name: Daniel McVey
 - role: Video Designer
   name: Amy Crighton
+- role: Technical Assistant
+  name: Nathan Penney
 - role: Poster Designer
   name: Zoe Smith
 - role: Publicity Assistant
