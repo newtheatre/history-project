@@ -53,6 +53,12 @@ crew:
 assets:
   - type: poster
     image: 3p3dwPS
+  - type: trailer
+    video: MXQwsHZ
+    title: Trailer
+  - type: backstage
+    video: DVGt9tL
+    title: Behind The Scenes
 
 prod_shots: jCRfhm
 
