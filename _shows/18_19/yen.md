@@ -39,6 +39,8 @@ crew:
   name: Holly Aldridge
 - role: Set Assistant
   name: Rikita Gupta
+- role: Set Construction
+  name: Jack Ellis
 - role: Technical Operator
   name: Arthur Mckechnie
 - role: Technical Operator
