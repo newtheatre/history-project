@@ -7,8 +7,8 @@ title: Tango
 playwright: Sławomir Mrożek
 season: In House
 season_sort: 300
-date_start: 1974 #YYYY-MM-DD
-date_end: 1974 #YYYY-MM-DD 
+#date_start: 1974 #YYYY-MM-DD
+#date_end: 1974 #YYYY-MM-DD 
 venue: New Theatre 
 
 cast:
