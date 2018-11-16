@@ -57,10 +57,20 @@ crew:
 assets:
   - type: poster
     image: drBBbrT
+  - type: backstage
+    video: PS52vdM
+    title: Behind the Scenes
 
 #prod_shots:
 
-#links:
+links:
+ - type: Article
+   href: https://impactnottingham.com/2018/11/behind-the-scenes-at-nnt-yen-by-anna-jordan/
+   snapshot: GNPgN
+   publisher: Impact Nottingham
+   author: Lauren Winson
+   title: "BEHIND THE SCENES AT NNT: \"YEN\" BY ANNA JORDAN"
+   date: 2018-11-15
 #  - type:
 #    href:
 #    snapshot:
