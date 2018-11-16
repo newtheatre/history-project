@@ -74,6 +74,9 @@ crew:
 assets:
   - type: poster
     image: DPwCqwp
+  - type: backstage
+    video: DSS4gfb
+    title: Behind The Scenes
 
 prod_shots: CfW9kq
 
