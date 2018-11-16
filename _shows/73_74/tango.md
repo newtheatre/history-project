@@ -1,6 +1,6 @@
 ---
 title: Tango
-playwright: Sławomir Mrożek
+playwright: "Sławomir Mrożek"
 season: In House
 season_sort: 300
 venue: New Theatre 
