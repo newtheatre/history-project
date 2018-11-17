@@ -73,15 +73,13 @@ links:
    author: Lauren Winson
    title: "BEHIND THE SCENES AT NNT: \"YEN\" BY ANNA JORDAN"
    date: 2018-11-15
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.com/2018/11/yen-by-anna-jordan-nottingham-new.html
+    snapshot: OvjB7
+    publisher: Kev Castle Reviews
+    title: "\"Yen\" by Anna Jordan"
+    date: 2018-11-17
+    quote: "The play will affect you emotionally and I'm sure that you'll find watching these talented actors truly, what's that word again? Mesmerising."
 
 ---
 
