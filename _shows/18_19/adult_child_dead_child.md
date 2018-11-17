@@ -27,7 +27,7 @@ crew:
 - role: Shadow Director
   name: Muhammad Jassim
 - role: Sound Designer
-  name: Izzy De Bono
+  name: Izzy de Bono
 - role: Lighting Designer
   name: Daniel McVey
 - role: Video Designer
@@ -61,4 +61,4 @@ assets:
 
 ---
 
-‘When you are a child and you don't get any love, when there is no love when you get this feeling that you can't explain this feeling that's inside you but you can't explain you don't know what it is, you can't say it's lack of love because you don't have those words.’ Adult Child/Dead Child follows our unnamed protagonist as they look back on how they grew up, through neglect and eye-for-an-eye punishments. Their only solace is imaginary friend, Benji, who provides a constant source of company and comfort in their darkest times. However, Benji is not the positive force that she first appears, and slowly turns into something more sinister. Using poetry, projection and live sound looping, this powerful yet surprisingly uplifting monologue explores loneliness, recovery and the universal need for love.
+"When you are a child and you don't get any love, when there is no love when you get this feeling that you can't explain this feeling that's inside you but you can't explain you don't know what it is, you can't say it's lack of love because you don't have those words." 'Adult Child/Dead Child' follows our unnamed protagonist as they look back on how they grew up, through neglect and eye-for-an-eye punishments. Their only solace is imaginary friend, Benji, who provides a constant source of company and comfort in their darkest times. However, Benji is not the positive force that she first appears, and slowly turns into something more sinister. Using poetry, projection and live sound looping, this powerful yet surprisingly uplifting monologue explores loneliness, recovery and the universal need for love.
