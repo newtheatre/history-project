@@ -5,7 +5,7 @@ period: Autumn
 season: In House
 season_sort: 80
 date_start: 2018-11-14
-date_end: 2018-11-18
+date_end: 2018-11-17
 venue: New Theatre
 
 cast:
