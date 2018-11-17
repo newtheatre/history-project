@@ -13,8 +13,6 @@ date_start: 2018-11-17
 date_end: 2018-11-18
 venue: University of Glasgow
 
-trivia: 
-
 cast:
 - role: Liz
   name: Juwon Adebanjo
