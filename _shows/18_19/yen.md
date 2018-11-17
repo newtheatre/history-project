@@ -48,8 +48,7 @@ crew:
 - role: Technical Operator
   name: Yasmine Dankwah
 - role: Technical Operator
-  name: TBD
-  person: false
+  name: Danni Cooper
 - role: Technical Operator
   name: Zoe Smith
 - role: Photographer
