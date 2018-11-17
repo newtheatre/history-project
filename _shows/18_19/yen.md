@@ -66,13 +66,13 @@ assets:
 #prod_shots:
 
 links:
- - type: Article
-   href: https://impactnottingham.com/2018/11/behind-the-scenes-at-nnt-yen-by-anna-jordan/
-   snapshot: GNPgN
-   publisher: Impact Nottingham
-   author: Lauren Winson
-   title: "BEHIND THE SCENES AT NNT: \"YEN\" BY ANNA JORDAN"
-   date: 2018-11-15
+  - type: Article
+    href: https://impactnottingham.com/2018/11/behind-the-scenes-at-nnt-yen-by-anna-jordan/
+    snapshot: GNPgN
+    publisher: Impact Nottingham
+    author: Lauren Winson
+    title: "BEHIND THE SCENES AT NNT: \"YEN\" BY ANNA JORDAN"
+    date: 2018-11-15
   - type: Review
     href: http://kevcastletheatrereviews.blogspot.com/2018/11/yen-by-anna-jordan-nottingham-new.html
     snapshot: OvjB7
