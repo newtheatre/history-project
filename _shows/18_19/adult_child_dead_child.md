@@ -48,16 +48,14 @@ assets:
 #prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+links:
+  - type: Article
+    href: https://impactnottingham.com/2018/11/behind-the-scenes-at-nnt-adult-child-dead-child-by-claire-dowie/
+    snapshot: M6bJ8
+    publisher: Impact Nottingham
+    author: Esther Kearney
+    title: "BEHIND THE SCENES AT NNT: 'ADULT CHILD/ DEAD CHILD' BY CLAIRE DOWIE"
+    date: 2018-11-17
 
 ---
 
