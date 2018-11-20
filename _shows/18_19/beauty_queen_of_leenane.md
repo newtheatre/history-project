@@ -21,8 +21,6 @@ cast:
   name: Eric Crouch
 - role: Ray
   name: Barney Hartwill
-- role: Announcer
-  name: Jack Ellis
 
 crew:
 - role: Director
@@ -45,6 +43,8 @@ crew:
   name: Oliver Binns
 - role: Shadow Sound Designer
   name: Nat Henderson
+- role: Radio Announcer
+  name: Jack Ellis
 - role: Poster Designer
   name: Jase Neal
 - role: Photographer
