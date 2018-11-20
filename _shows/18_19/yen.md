@@ -62,7 +62,7 @@ assets:
     video: PS52vdM
     title: Behind the Scenes
 
-#prod_shots:
+prod_shots: VNBbPW
 
 links:
   - type: Article
