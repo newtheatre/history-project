@@ -56,6 +56,13 @@ links:
     author: Esther Kearney
     title: "BEHIND THE SCENES AT NNT: 'ADULT CHILD/ DEAD CHILD' BY CLAIRE DOWIE"
     date: 2018-11-17
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.com/2018/11/adult-childdead-child-by-claire-dowie.html
+    snapshot: jO1Hk
+    publisher: Kev Castle Reviews
+    title: "\"Adult Child/Dead Child\" by Claire Dowie"
+    date: 2018-11-18
+    quote: "This, like all of the productions that NNT have presented this season, has been thought-provoking, which is a brilliant for local theatre."
 
 ---
 
