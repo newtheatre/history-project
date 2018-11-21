@@ -51,8 +51,8 @@ crew:
   name: Isaac Weinstock
 
 assets:
-  - type:
-    image:
+  - type: poster
+    image: bCP4pTX
 
 #prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
