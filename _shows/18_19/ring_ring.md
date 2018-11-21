@@ -15,7 +15,7 @@ venue: University of Glasgow
 
 cast:
 - role: Liz
-  name: Juwon Adebanjo
+  name: Luwa Adebanjo
 - role: Connie
   name: Rachel Elphick
 
