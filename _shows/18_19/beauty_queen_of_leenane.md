@@ -37,6 +37,8 @@ crew:
   name: Francesca Ashby
 - role: Set Construction
   name: Jack Ellis
+- role: Technical Director
+  name: Sam Osborne
 - role: Lighting Designer
   name: Yasmine Dankwah
 - role: Sound Designer
