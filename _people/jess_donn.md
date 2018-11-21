@@ -3,6 +3,6 @@ title: Jess Donn
 headshot: HFSsz9T
 course:
   - Computer Science BSci
-  - Homan Computer Interaction MSci
+  - Human Computer Interaction MSci
 submitted: false
 ---
