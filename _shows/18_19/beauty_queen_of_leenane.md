@@ -49,6 +49,16 @@ crew:
   name: Nat Henderson
 - role: Poster Designer
   name: Jase Neal
+- role: Technical Operator
+  name: Zoe Smith
+#- role: Technical Operator
+#  name: 
+- role: Technical Operator
+  name: Martin Tomlinson
+- role: Technical Operator
+  name: Luwa Adebanjo
+- role: Technical Operator
+  name: Yasmine Dankwah
 - role: Photographer
   name: Isaac Weinstock
 
