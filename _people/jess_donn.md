@@ -1,6 +1,8 @@
 ---
 title: Jess Donn
 headshot: HFSsz9T
-gender: female
+course:
+  - Computer Science BSci
+  - Human Computer Interaction MSci
 submitted: false
 ---
