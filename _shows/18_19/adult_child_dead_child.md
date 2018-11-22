@@ -63,6 +63,15 @@ links:
     title: "\"Adult Child/Dead Child\" by Claire Dowie"
     date: 2018-11-18
     quote: "This, like all of the productions that NNT have presented this season, has been thought-provoking, which is a brilliant for local theatre."
+  - type: Review
+    href: https://impactnottingham.com/2018/11/adult-child-dead-child-nnt/
+    snapshot: 9MIsg
+    publisher: Impact Nottingham
+    author: Jia Wei Lum
+    title: "ADULT CHILD/DEAD CHILD @ NNT"
+    date: 2018-11-20
+    rating: 10/10
+    quote: "I thoroughly enjoyed the play, even as I held back a few tears, and would sincerely recommend it as essential viewing; it is an important artistic achievement, an ode to victims of trauma and a provocative reflection on our collective failure as a society to show more love and kindness."
 
 ---
 
