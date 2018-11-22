@@ -51,8 +51,8 @@ crew:
   name: Jase Neal
 - role: Technical Operator
   name: Zoe Smith
-#- role: Technical Operator
-#  name: 
+- role: Technical Operator
+  name: Izzy de Bono
 - role: Technical Operator
   name: Martin Tomlinson
 - role: Technical Operator
