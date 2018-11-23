@@ -79,6 +79,14 @@ links:
     title: "\"Yen\" by Anna Jordan"
     date: 2018-11-17
     quote: "The play will affect you emotionally and I'm sure that you'll find watching these talented actors truly, what's that word again? Mesmerising."
+  - type: Review
+    href: https://www.hercampus.com/school/nottingham/review-yen-anna-jordan
+    snapshot: OyZDh
+    publisher: Her Campus
+    author: Olivia Morel
+    title: "Review: 'Yen' by Anna Jordan"
+    date: 2018-11-21
+    quote: "The actors kept up an amazing level of energy, drawing the audience in and forcing them to feel connected to the characters throughout."
 
 ---
 
