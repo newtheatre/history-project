@@ -71,16 +71,16 @@ assets:
 
 #assets: 
 
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+links:
+  - type: Review
+    href: https://impactnottingham.com/2018/11/the-beauty-queen-of-leenane-nnt/
+    snapshot: djHrV
+    publisher: Impact Nottingham
+    author: Isla Weir
+    title: "THE BEAUTY QUEEN OF LEENANE @ NNT"
+    date: 2018-11-23
+    rating: 8/10
+    quote: "[T]he performance was thrilling, and I would definitely recommend it!"
     
 ---
 
