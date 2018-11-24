@@ -1,4 +1,7 @@
---- # Check out the Show Docs for more information # -- https://history.newtheatre.org.uk/docs/show/ # Remove or comment any lines that are not being used
+--- 
+# Check out the Show Docs for more information 
+# -- https://history.newtheatre.org.uk/docs/show/ 
+# Remove or comment any lines that are not being used
 
 title: Esse SA Essay
 playwright: Callum Walker
