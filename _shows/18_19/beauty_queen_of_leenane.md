@@ -13,13 +13,13 @@ date_end: 2018-11-24
 venue: New Theatre
 
 cast:
-- role: Maureen
+- role: Maureen Folan
   name: Esther Townsend
-- role: Mag
+- role: Mag Folan
   name: Emma Pallett
-- role: Pato
+- role: Pato Dooley
   name: Eric Crouch
-- role: Ray
+- role: Ray Dooley
   name: Barney Hartwill
 - role: Radio Announcer
   name: Jack Ellis
@@ -45,8 +45,6 @@ crew:
   name: Yasmine Dankwah
 - role: Sound Designer
   name: Oliver Binns
-- role: Shadow Sound Designer
-  name: Nat Henderson
 - role: Poster Designer
   name: Jase Neal
 - role: Technical Operator
@@ -54,9 +52,9 @@ crew:
 - role: Technical Operator
   name: Izzy de Bono
 - role: Technical Operator
-  name: Martin Tomlinson
+  name: Charlotte Aikens
 - role: Technical Operator
-  name: Luwa Adebanjo
+  name: Holly Jessop
 - role: Technical Operator
   name: Yasmine Dankwah
 - role: Photographer
