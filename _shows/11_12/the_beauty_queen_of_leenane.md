@@ -13,7 +13,7 @@ cast:
    name: Cressida McGill
  - role: Maureen Folan
    name: Liz Stevens
- - role: Rat Dooley
+ - role: Ray Dooley
    name: Ben Williamson
  - role: Pato Dooley
    name: Alex Hollingsworth
