@@ -1,7 +1,7 @@
 ---
-# Check out the Show Docs for more information 
+# Check out the Show Docs for more information
 # -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used 
+# Remove or comment any lines that are not being used
 
 title: The Beauty Queen Of Leenane
 playwright: Martin McDonagh
@@ -69,7 +69,7 @@ assets:
 #prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
-#assets: 
+#assets:
 
 links:
   - type: Review
@@ -81,7 +81,14 @@ links:
     date: 2018-11-23
     rating: 8/10
     quote: "[T]he performance was thrilling, and I would definitely recommend it!"
-    
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.com/2018/11/the-beauty-queen-of-leenane-by-martin.html
+    snapshot: lutWm
+    publisher: Kev Castle Reviews
+    title: "\"The Beauty Queen of Leenane\" by Martin McDonagh"
+    date: 2018-11-24
+    quote: "Another cracking show from the NNT and more pats on the backs of everyone involved in my continued education of new pieces of theatre."
+
 ---
 
 In a rural village among the mountains of Connemara, County Galway, live Maureen Folan, a plain, lonely woman in her early forties, and Mag, her manipulative ageing mother. Maureen’s sisters have fled their toxic home and left her single-handedly responsible to care for her mother, a thorny and abusive woman who controls Maureen’s life and denies others from offering her the one thing she seeks from life, a genuine human connection. Then Pato, the village charmer, enters Maureen’s life and offers her opportunities beyond the limited scope of her Irish home, disrupting Mag’s carefully maintained status quo, which sets in motion a tragic train of events. Looking at family bonds and the effects of abuse on the human psyche, yet handled with surprising humour, McDonagh’s darkly comic domestic piece is laced with hubris and sympathy, violence and tenderness, youth and tradition.
