@@ -41,16 +41,14 @@ prod_shots: F2Qfth
 
 #assets:
 
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.com/2018/11/esse-sa-essay-by-callum-walker.html
+    snapshot: fqY7a
+    publisher: Kev Castle Reviews
+    title: "'Esse SA Essay' by Callum Walker"
+    date: 2018-11-25
+    quote: "A play that should be seen by as many people as possible in my humble opinion."
 
 ---
 
