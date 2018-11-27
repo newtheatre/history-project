@@ -49,6 +49,13 @@ links:
     title: "'Esse SA Essay' by Callum Walker"
     date: 2018-11-25
     quote: "A play that should be seen by as many people as possible in my humble opinion."
+  - type: Article
+    href: https://impactnottingham.com/2018/11/behind-the-scenes-at-nnt-esse-sa-essay-by-callum-walker/
+    snapshot: cKnn0
+    publisher: Impact Nottingham
+    title: "BEHIND THE SCENES AT NNT: 'ESSE SA ESSAY' BY CALLUM WALKER"
+    author: Hannah Pickard
+    date: 2018-11-26
 
 ---
 
