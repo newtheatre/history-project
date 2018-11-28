@@ -15,7 +15,7 @@ venue: New Theatre Studio A
 
 cast:
   - role: Skipper
-    name: Alex Levy
+    name: Jake Levy
 
 crew:
   - role: Director
