@@ -85,6 +85,14 @@ links:
     title: "\"The Beauty Queen of Leenane\" by Martin McDonagh"
     date: 2018-11-24
     quote: "Another cracking show from the NNT and more pats on the backs of everyone involved in my continued education of new pieces of theatre."
+  - type: Review
+    href: https://www.hercampus.com/school/nottingham/theatre-review-nottingham-new-theatres-beauty-queen-leenane
+    snapshot: tHuo2
+    publisher: Her Campue
+    author: Shanai Momi
+    title: "Theatre Review: Nottingham New Theatre's The Beauty Queen of Leenane"
+    date: 2018-11-26
+    quote: "There was very little to fault with the production and I recommend it to anyone remotely interested about mental instability, family dynamics, and the complicated life of a small-town person."
 
 ---
 
