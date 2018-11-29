@@ -54,6 +54,8 @@ crew:
   name: Rupert Brand
 - role: Sound Designer
   name: Rupert Galea
+- role: Assistant Sound Designer
+  name: Florence Bell
 - role: Video Designer
   name: Hugo Ozanne
 - role: Set Assistant
@@ -72,16 +74,15 @@ assets:
 #prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.com/2018/11/dr-faustus-by-christopher-marlowe_28.html
+    snapshot: b0KzI
+    publisher: Kev Castle Reviews
+    title: "\"Dr Faustus\" by Christopher Marlowe"
+    date: 2018-11-28
+    quote: This new, and brave outlook is what keeps theatre as fresh and radical as it is today.
+
 ---
 
 After years of supressed feelings and being told "boys don’t cry" Faustus is emotionally stunted. No more, he wants to feel again. He has tried various methods, but none have worked. So, when he finds a new book in his library, he can’t see the harm in trying. But unbeknownst to Faustus, chaos and evil have been carefully placed between the pages and a tempest of devils have set their sights on his soul. And in the midst of this madness where is God? Why will they not save Faustus? Only one thing is for sure, damnation awaits you, Faustus. In this abstract adaptation, Marlowe’s classic play is deconstructed and reassembled with scenes from other versions of the tale.
