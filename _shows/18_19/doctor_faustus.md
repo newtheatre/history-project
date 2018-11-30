@@ -82,6 +82,14 @@ links:
     title: "\"Dr Faustus\" by Christopher Marlowe"
     date: 2018-11-28
     quote: This new, and brave outlook is what keeps theatre as fresh and radical as it is today.
+  - type: Article
+    href: https://impactnottingham.com/2018/11/behind-the-scenes-at-nnt-dr-faustus-by-christopher-marlowe-adapted-by-daniel-mcvey/
+    snapshot: ionIw
+    publisher: Impact Nottingham
+    author: Georgia Butcher
+    title: "BEHIND THE SCENES AT NNT: 'DR FAUSTUS' BY CHRISTOPHER MARLOWE, ADAPTED BY DANIEL MCVEY"
+    date: 2018-11-30
+
 
 ---
 
