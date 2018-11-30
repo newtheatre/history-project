@@ -66,13 +66,15 @@ crew:
   name: William Hopwood
 - role: Choreographer
   name: Zoe Smith
+- role: Photographer
+  name: Jean Thpkl
+  person: false
 
 assets:
   - type: poster
     image: ktWbzD6
 
-#prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
+prod_shots: tf77j9
 
 links:
   - type: Review
@@ -89,7 +91,6 @@ links:
     author: Georgia Butcher
     title: "BEHIND THE SCENES AT NNT: 'DR FAUSTUS' BY CHRISTOPHER MARLOWE, ADAPTED BY DANIEL MCVEY"
     date: 2018-11-30
-
 
 ---
 
