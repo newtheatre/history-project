@@ -64,7 +64,7 @@ assets:
   - type: poster
     image: bCP4pTX
 
-#prod_shots: n76mCb
+prod_shots: n76mCb
 
 #assets:
 
