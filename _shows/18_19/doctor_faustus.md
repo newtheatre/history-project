@@ -66,6 +66,14 @@ crew:
   name: William Hopwood
 - role: Choreographer
   name: Zoe Smith
+- role: Technical Operator
+  name: Sam Osborne
+- role: Technical Operator
+  name: Danni Cooper
+- role: Technical Operator
+  name: Nat Henderson
+- role: Technical Operator
+  name: Daniel McVey
 - role: Photographer
   name: Jean Thpkl
   person: false
