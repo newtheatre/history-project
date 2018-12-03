@@ -32,6 +32,8 @@ crew:
   name: Rohan Rakhit
 - role: Poster Designer
   name: Jase Neal
+- role: Stage Manager
+  name: Joe Strickland
 
 assets:
   - type: poster

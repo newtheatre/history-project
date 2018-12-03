@@ -15,7 +15,6 @@ cast:
 - name: Reisha Gill
   person: false
 - name: Ellen Schaffert
-  person: false
 - name: Molly McConnell
   person: false
 - name: Josie Thomas
