@@ -50,7 +50,7 @@ crew:
   name: Florence Bell
 - role: Lighting Designer
   name: Sam Osborne
-- role: Shadow Lighting Designer
+- role: Assistant Lighting Designer
   name: Rupert Brand
 - role: Sound Designer
   name: Rupert Galea
