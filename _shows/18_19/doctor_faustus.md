@@ -99,6 +99,15 @@ links:
     author: Georgia Butcher
     title: "BEHIND THE SCENES AT NNT: 'DR FAUSTUS' BY CHRISTOPHER MARLOWE, ADAPTED BY DANIEL MCVEY"
     date: 2018-11-30
+  - type: Review
+    href: https://impactnottingham.com/2018/12/dr-faustus-nnt/
+    snapshot: 4Cxpd
+    publisher: Impact Nottingham
+    author: Sophie Hunt
+    title: "DR FAUSTUS @ NNT"
+    date: 2018-12-03
+    rating: 9/10
+    quote: "Doctor Faustus is truly one of my favourite performances that I have seen at The Nottingham New Theatre, and the whole cast and crew should be highly commended for their efforts to create such an innovative and imaginative performance."
 
 ---
 
