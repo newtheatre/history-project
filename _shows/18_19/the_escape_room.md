@@ -1,7 +1,7 @@
 ---
-# Check out the Show Docs for more information 
+# Check out the Show Docs for more information
 # -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used 
+# Remove or comment any lines that are not being used
 
 title: The Escape Room
 playwright: Emma Collingwood
@@ -54,26 +54,18 @@ crew:
   name: Beth Carter
 
 assets:
-  - type:
-    image:
-  - type:
-    video:
-    title:
+  - type: poster
+    image: qnnH58h
 
-#prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
+links:
+  - type: Article
+    href: https://impactnottingham.com/2018/12/behind-the-scenes-at-nnt-the-escape-room-by-emma-collingwood/
+    snapshot: bB5bS
+    publisher: Impact Nottingham
+    author: Esme Johnson
+    title: "BEHIND THE SCENES AT NNT: 'THE ESCAPE ROOM' BY EMMA COLLINGWOOD"
+    date: 2018-12-03
 
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
-    
 ---
 
 "Attention ladies and gentlemen. Welcome to our 999th edition of the Escape Room. The year is 1945 and those Nazis need a damn good hiding. The fate of our beloved country rests on your shoulders! So, what do you intend to do about it? Solve the mystery, crack the code and save the day hurrah! Fail to complete the tasks and you fail to escape." Three people wake up in a room with no memory of who they are, where they are or how they arrived there. All they know is that they have to escape. The game leads them on moments of introspection that they would rather not face. Loosely based on Sartre’s 'In Camera' or 'No Exit', 'The Escape Room' explores existentialist ideas and the self in relation to society.
