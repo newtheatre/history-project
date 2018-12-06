@@ -59,6 +59,12 @@ crew:
   name: Holly Jessop
 - role: Technical Operator
   name: Yasmine Dankwah
+- role: Stage Manager
+  name: Izzy de Bono
+- role: Stage Manager
+  name: Tara Phillips
+- role: Stage Manager
+  name: Alice Walker
 - role: Photographer
   name: Isaac Weinstock
 
