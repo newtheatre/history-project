@@ -51,7 +51,7 @@ crew:
 - role: Lighting Designer
   name: Sam Osborne
 - role: Assistant Lighting Designer
-  name: Rupert Brand
+  name: Lewis Brand
 - role: Sound Designer
   name: Rupert Galea
 - role: Assistant Sound Designer
