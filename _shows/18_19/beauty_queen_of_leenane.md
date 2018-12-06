@@ -41,6 +41,8 @@ crew:
   name: Jack Ellis
 - role: Technical Director
   name: Sam Osborne
+- role: Technical Director
+  name: Zoe Smith
 - role: Lighting Designer
   name: Yasmine Dankwah
 - role: Sound Designer
