@@ -70,16 +70,14 @@ assets:
 # prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.com/2018/12/grant-meets-death-by-sam-morris.html
+    snapshot: rDDSg
+    publisher: Kev Castle Reviews
+    title: "\"Grant Meets Death\" by Säm Mörris"
+    date: 2018-12-06
+    quote: "Not only will it have you laughing out loud, but it will also get you thinking as well, and possibly make you question many things about yourself and your life."
 
 ---
 
