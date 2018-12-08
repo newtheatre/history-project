@@ -78,6 +78,13 @@ links:
     title: "\"Grant Meets Death\" by Säm Mörris"
     date: 2018-12-06
     quote: "Not only will it have you laughing out loud, but it will also get you thinking as well, and possibly make you question many things about yourself and your life."
+  - type: Article
+    href: https://impactnottingham.com/2018/12/behind-the-scenes-at-nnt-grant-meets-death-by-sam-morris/
+    snapshot: YBSOm
+    publisher: Impact Nottingham
+    author: Esther Kearney
+    title: "BEHIND THE SCENES AT NNT: 'GRANT MEETS DEATH' BY SAM MORRIS"
+    date: 2018-12-07
 
 ---
 
