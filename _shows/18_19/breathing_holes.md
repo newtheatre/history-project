@@ -59,4 +59,4 @@ crew:
     
 ---
 
-'Is it strange to love God as I do? Not for the way buds become flowers - and free breakfasts - but for beardy blokes and big muscles in Renaissance paintings?' Who do you talk to when you're on your own? Who is listening? Why is every dream about the Colorado Desert? Breathing Holes is a touching meditation on performance, isolation, and memory.
+'Is it strange to love God as I do? Not for the way buds become flowers - and free breakfasts - but for beardy blokes and big muscles in Renaissance paintings?' Who do you talk to when you're on your own? Who is listening? Why is every dream about the Colorado Desert? 'Breathing Holes' is a touching meditation on performance, isolation, and memory.
