@@ -66,7 +66,13 @@ crew:
 assets:
   - type: poster
     image: 4mJRtkq
-
+  - type: trailer
+    video: vn7LW33
+    title: Trailer
+  - type: backstage
+    video: qdpKjvM
+    title: Behind the Scenes
+  
 # prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
