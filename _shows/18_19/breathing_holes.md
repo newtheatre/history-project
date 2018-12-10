@@ -42,6 +42,10 @@ crew:
   name: Jase Neal
 - role: Photographer
   name: Skylar Turnbull Hurd
+  
+assets:
+  - type: poster
+    image: hfpD9Qv
 
 #prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
