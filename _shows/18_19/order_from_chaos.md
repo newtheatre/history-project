@@ -52,12 +52,12 @@ crew:
   name: Iren Seawood
   person: false
 
-#assets:
-#  - type:
-#    image:
-#  - type:
-#    video:
-#    title:
+assets:
+- type: poster
+  image: r85cqFg
+- type: trailer
+  video: 24bHphB
+  title: Trailer
 
 #prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
