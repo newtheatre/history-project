@@ -35,7 +35,7 @@ crew:
 - role: Videographer
   name: Rosiella Sutherland
 - role: Videographer
-  name: Skylar Turnbull-Hurd
+  name: Skylar Turnbull Hurd
 - role: Videographer
   name: Jonathan Taylor Davies
 - role: Poster Designer
