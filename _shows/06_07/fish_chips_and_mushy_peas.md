@@ -8,6 +8,10 @@ venue: New Theatre
 date_start: 2006-11-01
 date_end: 2006-11-04
 
+crew:
+ - name: James Herbert
+ - name: Matt Leventhall
+
 assets:
   - type: poster
     image: G3FkQ4g
