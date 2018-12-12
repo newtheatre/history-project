@@ -31,7 +31,7 @@ crew:
 - role: Shadow Producer
   name: Yaade Joba
 - role: Technical Director
-  name: Olly Binns
+  name: Oliver Binns
 - role: Lighting Designer
   name: Sam Osborne
 - role: Sound Designer
