@@ -1,7 +1,7 @@
 ---
-# Check out the Show Docs for more information 
+# Check out the Show Docs for more information
 # -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used 
+# Remove or comment any lines that are not being used
 
 title: Breathing Holes
 playwright: Jonathan Taylor Davies
@@ -42,7 +42,7 @@ crew:
   name: Jase Neal
 - role: Photographer
   name: Skylar Turnbull Hurd
-  
+
 assets:
   - type: poster
     image: hfpD9Qv
@@ -50,17 +50,15 @@ assets:
 #prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
-    
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.com/2018/12/breathing-holes-by-jonathan-davies.html
+    snapshot: uBT0g
+    publisher: Kev Castle Reviews
+    title: "\'Breathing Holes\' by Jonathan Davies"
+    date: 2018-12-11
+    quote: "One of the most interesting original plays this year that credits the audience with the intelligence to interpret the script with their own understanding."
+
 ---
 
 'Is it strange to love God as I do? Not for the way buds become flowers - and free breakfasts - but for beardy blokes and big muscles in Renaissance paintings?' Who do you talk to when you're on your own? Who is listening? Why is every dream about the Colorado Desert? 'Breathing Holes' is a touching meditation on performance, isolation, and memory.
