@@ -59,8 +59,7 @@ assets:
   video: 24bHphB
   title: Trailer
 
-#prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
+prod_shots: BnkLZG
 
 #links:
 #  - type:
