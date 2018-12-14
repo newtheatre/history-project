@@ -53,6 +53,8 @@ crew:
 - role: Photographer
   name: Beth Carter
 
+prod_shots: bMLgvS
+
 assets:
   - type: poster
     image: qnnH58h
