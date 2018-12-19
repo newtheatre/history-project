@@ -59,7 +59,10 @@ crew:
 - role: Production Photography
   name: Aenne Pallasca
   note: NSDF
-  person: false 
+  person: false
+- role: Production Assistant
+  name: Zoe Smith
+  note: NSDF
 
 prod_shots: 4rgCkH
 
