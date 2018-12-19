@@ -55,6 +55,8 @@ crew:
   name: Zoe Smith
 - role: Technical Assistant
   name: Nathan Penney
+- role: Technical Assistant
+  name: Sam Osborne
 - role: Set Designer
   name: Joe Strickland
 - role: Assistant Set Builder
