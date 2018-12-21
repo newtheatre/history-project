@@ -1,10 +1,20 @@
 ---
 title: Ellie Cawthorne
-headshot: Bg7MdBT
+headshot: GNfMFbf
 gender: female
 submitted: false
+graduated: 2014
+contact_allowed: false
+career:
+  - Writer
+  - Radio Presenter
 course:
   - History
+links:
+  - type: Muck Rack
+    href: "https://muckrack.com/ellie-cawthorne"
+  - type: LinkedIn
+    username: ellie-cawthorne-951493a9
 
 news:
   - title: "Graduate presenter Ellie Cawthorne looks back at 900 years of student life on Radio 4"
