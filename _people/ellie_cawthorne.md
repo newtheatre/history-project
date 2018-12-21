@@ -5,7 +5,7 @@ gender: female
 submitted: false
 graduated: 2014
 contact_allowed: false
-career:
+careers:
   - Writer
   - Radio Presenter
 course:
