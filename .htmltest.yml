@@ -17,6 +17,7 @@ IgnoreURLs:
 - "www.mllx.co.uk"
 - "http://www.theartistspartnership.co.uk"
 - "#"
+- "#"
 IgnoreDirs:
 - "^lib"
 
