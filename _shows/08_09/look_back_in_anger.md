@@ -21,6 +21,13 @@ cast:
 crew:
   - role: Director
     name: James Lewis
+  - role: Producer
+    name: Natasha Berthiaume
+  - role: Set Designer
+    name: Luke Steaggles
+  - role: Stage Manager
+    name: Harriett Feenstra
+ 
 
 assets:
   - type: poster
