@@ -15,6 +15,7 @@ IgnoreURLs:
 - "http://philgeller.co.uk/"
 - "http://animations.puppetcentre.org.uk"
 - "www.mllx.co.uk"
+- "http://www.theartistspartnership.co.uk"
 IgnoreDirs:
 - "^lib"
 
