@@ -30,14 +30,12 @@ crew:
   name: Laura Wolczyk
 - role: Assistant Director / Producer
   name: Emily Grote
-- role: Technical Team
+- role: Technical Director
   name: Laura Wolczyk
-- role: Technical Team
+- role: Lighting Designer
   name: Zoe Smith
-- role: Technical Team
-  name: Sally Nesbitt
-- role: Technical Team
-  name: Charlotte Aikens
+- role: Sound Designer
+  name: Zoe Smith
 - role: Publicity Assistant
   name: Nicola Lang
 - role: Hair and Make-Up
