@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: Grant Meets Death
 playwright: Sam Morris
 student_written: true
@@ -58,6 +54,16 @@ crew:
   name: Lena Grasselli
 - role: Assistant Lighting Designer
   name: Zoe Smith
+- role: Technical Director
+  name: Zoe Smith
+- role: Technical Director
+  name: Danni Cooper
+- role: Technical Director
+  name: Rohanna Brown
+- role: Technical Director
+  name: Yasmine Dankwah
+- role: Technical Director
+  name: Florence Bell
 - role: Poster Design
   name: Annie Clayton
 - role: Poster Design

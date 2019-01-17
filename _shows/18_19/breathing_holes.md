@@ -38,6 +38,18 @@ crew:
   name: Skylar Turnbull Hurd
 - role: Videographer
   name: Jonathan Taylor Davies
+- role: Technical Director
+  name: Tara Prasad
+- role: Technical Director
+  name: Sam Osborne
+- role: Technical Director
+  name: Emma Barber
+- role: Technical Director
+  name: Florence Bell
+- role: Technical Director
+  name: Nathan Penney
+- role: Technical Director
+  name: Nat Henderson
 - role: Poster Designer
   name: Jase Neal
 - role: Photographer
