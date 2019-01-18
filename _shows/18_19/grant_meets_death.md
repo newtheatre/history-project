@@ -54,15 +54,15 @@ crew:
   name: Lena Grasselli
 - role: Assistant Lighting Designer
   name: Zoe Smith
-- role: Technical Director
+- role: Technical Operator
   name: Zoe Smith
-- role: Technical Director
+- role: Technical Operator
   name: Danni Cooper
-- role: Technical Director
+- role: Technical Operator
   name: Rohanna Brown
-- role: Technical Director
+- role: Technical Operator
   name: Yasmine Dankwah
-- role: Technical Director
+- role: Technical Operator
   name: Florence Bell
 - role: Poster Design
   name: Annie Clayton
