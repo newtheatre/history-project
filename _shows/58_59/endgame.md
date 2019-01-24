@@ -1,7 +1,7 @@
 ---
 title: Endgame
 season: In House
-period: Autumn
+period: Spring
 playwright: Samuel Beckett
 season_sort: 100
 date_start: 1959-01-23
@@ -25,7 +25,7 @@ crew:
   name: Elizabeth Howells
 
 trivia:
-  - quote: [This was] the first production of the play in English outside London.
+  - quote: "[This was] the first production of the play in English outside London."
     name: Max Wyman
     submitted: 2019-01-24
 ---

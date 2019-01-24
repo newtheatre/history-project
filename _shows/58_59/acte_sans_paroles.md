@@ -1,7 +1,7 @@
 ---
 title: acte sans paroles
 season: In House
-period: Autumn
+period: Spring
 playwright: Samuel Beckett
 season_sort: 110
 date_start: 1959-01-23
