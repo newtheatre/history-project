@@ -23,4 +23,9 @@ crew:
   name: James Ashington
 - role: Nell
   name: Elizabeth Howells
+
+trivia:
+  - quote: [This was] the first production of the play in English outside London.
+    name: Max Wyman
+    submitted: 2019-01-24
 ---
