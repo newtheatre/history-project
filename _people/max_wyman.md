@@ -13,7 +13,7 @@ careers:
   - Critic
 links:
   - type: Personal Website
-    href: "www.maxwyman.com"
+    href: "https://maxwyman.com/"
 ---
 
 I was so caught up with extra-curricular activities in my two years at Nottingham (mainly editing Gongster, but also editing the rag week mag, plus Dramsoc) that the patience of my very indulgent department heads was finally exhausted and I was asked to leave at the end of my second year. My departure also put paid to my planned production of Tennessee Williams Camino Real for Dramsoc, though I still have the very detailed production schedule. 
