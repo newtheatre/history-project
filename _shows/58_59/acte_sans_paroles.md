@@ -9,5 +9,9 @@ date_end: 1959-01-24
 venue: Trent, Great Hall
 
 crew:
+- role: Director
+  name: Max Wyman
+
+cast:
 - name: Geoff Rowcliffe
 ---
