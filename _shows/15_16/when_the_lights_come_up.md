@@ -15,6 +15,12 @@ assets:
 cast:
   - name: Jack Ellis
   - name: Mitchell Masterson
+  - name: Sam Marshall
+    person: false
+  - name: Lucy Hallam
+    person: false
+  - name: Philippa Stazicker
+    person: false
   - name: Jennifer Danaher
     person: false
 
