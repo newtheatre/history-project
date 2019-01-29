@@ -4,8 +4,8 @@ period: Spring
 company: The Red Herrings
 season: External
 season_sort: 170
-date_start: 2017-01-29
-date_end: 2017-02-02
+date_start: 2018-01-29
+date_end: 2018-02-02
 venue: New Theatre
 
 cast:
