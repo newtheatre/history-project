@@ -2,7 +2,7 @@
 title: Anneliese Mackintosh
 gender: female
 submitted: false
-course: BA English 
+course:  English 
 headshot: JM7Fwjg
 careers:
   - Author

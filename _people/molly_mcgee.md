@@ -4,7 +4,7 @@ gender: female
 graduated: 2015
 submitted: false
 course:
-   - Film & Television Studies
+   - Film and Television Studies
 
 links:
   - type: StageJobsPro

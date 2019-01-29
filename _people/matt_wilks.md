@@ -3,7 +3,7 @@ title: Matt Wilks
 submitted: 2015-10-11
 gender: male
 course:
-  - BA English
+  - English
 graduated: 2013
 award: Commendation
 links:
