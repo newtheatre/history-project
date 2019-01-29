@@ -12,6 +12,11 @@ cast:
 - name: Joe Strickland
 - name: Carn Truscott
 - name: Sam Andre-Paul
+- name: Molly McConnell
+  person: false
+- name: Ellen Schaffert
+- name: Reisha Gill
+  person: false
 
 crew:
 - role: Technical Director
