@@ -4,7 +4,7 @@ submitted: 2015-11-03
 gender: male
 headshot: 5GmrwHr
 course:
-  - Film and Television
+  - Film and Television Studies
 graduated: 2014
 award: Fellowship
 links:
