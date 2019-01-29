@@ -17,6 +17,10 @@ cast:
 - name: Ellen Schaffert
 - name: Reisha Gill
   person: false
+- name: Jed Thirkettle
+  person: false
+- name: Georgia Alice Brooke
+  person: false
 
 crew:
 - role: Technical Director
