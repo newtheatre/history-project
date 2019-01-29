@@ -12,9 +12,9 @@ cast:
 - name: Joe Strickland
 - name: Carn Truscott
 - name: Sam Andre-Paul
+- name: Ellen Schaffert
 - name: Molly McConnell
   person: false
-- name: Ellen Schaffert
 - name: Reisha Gill
   person: false
 - name: Jed Thirkettle
@@ -23,6 +23,9 @@ cast:
   person: false
 
 crew:
+- role: Director
+  name:Molly McConnell
+  person: false
 - role: Technical Director
   name: Nat Henderson
 
