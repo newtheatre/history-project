@@ -6,5 +6,5 @@ graduated: 2018
 award: Merit
 submitted: false
 course: 
-  - American Studies BA
+  - American Studies
 ---

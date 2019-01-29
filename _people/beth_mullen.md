@@ -6,6 +6,6 @@ graduated: 2018
 award: Merit
 submitted: false
 course:
-  - Economics BSc
+  - Economics
   - Behavioural Economics MSc
 ---
