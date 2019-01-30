@@ -24,7 +24,7 @@ cast:
 
 crew:
 - role: Director
-  name:Molly McConnell
+  name: Molly McConnell
   person: false
 - role: Technical Director
   name: Nat Henderson
