@@ -3,7 +3,7 @@ published: true
 title: Vatzlav
 season: Edinburgh
 period: Edinburgh
-playwright: Slawomir Mrozek
+playwright: Sławomir Mrożek
 translator: Ralph Manheim
 season_sort: 300
 venue: Herriot Watt Building
