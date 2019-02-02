@@ -14,7 +14,7 @@ crew:
 - role: Producer
   name: Max Wyman
 - role: Stage Manager
-  name: Paul Pittam
+  name: Paul Pittham
 - role: Assistant Stage Manager
   name: Peter Fisher
 - role: Lighting

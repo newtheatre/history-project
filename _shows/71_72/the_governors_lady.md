@@ -15,7 +15,7 @@ cast:
 - role: Amolo / Police Sergeant
   name: Adam Aburigal
 - role: Chairman Maudsley
-  name: Isabel Wallace
+  name: Isabelle Wallace
 - role: Sir Gilbert Boscoe
   name: Andrew Gould
 - role: John Maudsley

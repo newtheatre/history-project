@@ -66,7 +66,7 @@ crew:
   - role: Technical Operator
     name: Matt Leventhall
   - role: Props and Costumes
-    name: Vickie Vukelic
+    name: Victoria Vukelic
 
 assets:
   - type: poster

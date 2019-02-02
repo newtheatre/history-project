@@ -44,7 +44,7 @@ cast:
 - role: Mr Seiko
   name: Alan Bull
 - role: Mr Oshira
-  name: Geof Rowcliffe
+  name: Geoff Rowcliffe
 - role: Ladies League for Democratic Action
   name: Janet Burgess
 - role: Ladies League for Democratic Action

@@ -14,7 +14,7 @@ assets:
 
 cast:
 - role: Brindsley Miller
-  name: Nicholas Williams
+  name: Nick Williams
 - role: Carol Melkett
   name: Amanda Salt
 - role: Miss Furnival
@@ -48,7 +48,7 @@ crew:
 - role: Technician
   name: Chris Bashforth
 - role: Technician
-  name: Dave Williams
+  name: David Williams
 - role: Technician
   name: Nick Watkins
 - role: Poster + Buddha

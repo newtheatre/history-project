@@ -10,7 +10,7 @@ cast:
 - role: Duke of Florence
   name: Alex Knupffer
 - role: Lord Cardinal
-  name: Geoffrey Rayson
+  name: Geoff Rayson
   note: brother to the Duke
 - role: Fabritio
   name: Richard Truman
