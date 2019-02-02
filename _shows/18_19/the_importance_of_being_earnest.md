@@ -40,6 +40,10 @@ crew:
   name: Zoe Smith
 - role: Technical Director
   name: Sam Osborne
+- role: Poster Designer
+  name: Rohan Rakhit
+- role: Poster Designer
+  name: Beth Carter
 - role: Show Operator
   name: Nadia Elalfi 
 - role: Set Assistant
