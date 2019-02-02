@@ -166,7 +166,7 @@ crew:
   - role: Director
     name: Emma Pallett
   - role: Director
-    name: Dan McVey
+    name: Daniel McVey
   - role: Director
     name: Ellie Eagleton
   - role: Director
@@ -188,7 +188,7 @@ crew:
   - role: Director
     name: Ellie Roberts
   - role: Director
-    name: Will Tillett
+    name: William Tillett
   - role: Technical Director
     name: Zoe Smith
   - role: Lighting Designer

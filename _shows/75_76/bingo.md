@@ -40,7 +40,7 @@ crew:
 - role: Stage Manager
   name: Simon Faeharty
 - role: ASM
-  name: Jane Wolfendon
+  name: Jane Wolfenden
 - role: Props
   name: Anne Renwick
 - role: Technician

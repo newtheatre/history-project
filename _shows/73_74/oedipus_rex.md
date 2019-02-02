@@ -14,7 +14,7 @@ cast:
 - role: Oedipus
   name: Peter Nowlan
 - role: Jocasta
-  name: Isabel Wallace
+  name: Isabelle Wallace
 - role: Creon
   name: Tony Buckby
 - role: Tiresias

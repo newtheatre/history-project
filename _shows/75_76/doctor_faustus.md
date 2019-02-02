@@ -28,7 +28,7 @@ cast:
 - role: Beelzebub / Servant / Alexander / Raymond
   name: Simon Keating
 - role: Robin / Monk
-  name: Tim Slukin
+  name: Tim Sluckin
 - role: Covetousness / Darius / Bruno
   name: Charlie Dunnett
 - role: Gluttony / Archbishop of Rheims

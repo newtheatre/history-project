@@ -30,7 +30,7 @@ cast:
   - role: Carlotta Cotez
     name: S Hillaby
   - role: Fifi
-    name: L Rowberry
+    name: Linda Rowberry
   - role: Beulah Belle
     name: J Wrigglesworth
 
