@@ -65,7 +65,7 @@ crew:
 - role: Stage Manager
   name: Sally Nesbitt
 - role: Stage Manager
-  name: Olly Bins
+  name: Olly Binns
 - role: Stage Manager
   name: Nicholas Landon
 - role: Technical Operator
