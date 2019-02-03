@@ -54,6 +54,20 @@ crew:
   name: Lena Grasselli
 - role: Assistant Lighting Designer
   name: Zoe Smith
+- role: Stage Manager
+  name: Tara Phillips
+- role: Stage Manager
+  name: Daniel McVey
+- role: Stage Manager
+  name: Nat Henderson
+- role: Stage Manager
+  name: Nadia Elalfi
+- role: Stage Manager
+  name: Sally Nesbitt
+- role: Stage Manager
+  name: Olly Bins
+- role: Stage Manager
+  name: Nicholas Landon
 - role: Technical Operator
   name: Zoe Smith
 - role: Technical Operator
