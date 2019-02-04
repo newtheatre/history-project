@@ -32,20 +32,17 @@ crew:
   name: Nadia Elalfi
 - role: Sound Designer
   name: Yazmine Dankwah
+- role: Technical Assistant
+  name: Nathan Penney
 - role: Videographer
   name: Bertie Beeching
 
 assets:
-  - type:
-    image:
-  - type:
-    video:
-    title:
+  - type: poster
+    image: c8fpzB9
 
 prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-assets: 
 
 links:
   - type:
