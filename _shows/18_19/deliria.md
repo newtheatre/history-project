@@ -36,25 +36,20 @@ crew:
   name: Nathan Penney
 - role: Videographer
   name: Bertie Beeching
+- role: Technical Operator
+  name: Emma Barber
+- role: Technical Operator
+  name: Callum Walker
+- role: Technical Operator
+  name: Joe Strickland
+- role: Technical Operator
+  name: Luwa Adebanjo
 
 assets:
   - type: poster
     image: c8fpzB9
 
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
-    
+prod_shots: vk6JVJ
 ---
 
 'In an urban future, Jenny works as a scam saleswoman in order to provide for her lazy and emotionally reserved brother. She is offered an incredible work opportunity, but one that would require her to live alone. What is the role of family, as our own society places a greater focus on individuality and self-improvement? Is it right to cut out toxic relationships or can bridges between family never be broken?'
