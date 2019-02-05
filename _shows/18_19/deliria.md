@@ -31,7 +31,7 @@ crew:
 - role: Lighting Designer
   name: Nadia Elalfi
 - role: Sound Designer
-  name: Yazmine Dankwah
+  name: Yasmine Dankwah
 - role: Technical Assistant
   name: Nathan Penney
 - role: Videographer
@@ -44,6 +44,8 @@ crew:
   name: Joe Strickland
 - role: Technical Operator
   name: Luwa Adebanjo
+- role: Stage Manager
+  name: Jess Donn
 
 assets:
   - type: poster
