@@ -46,6 +46,12 @@ crew:
   name: Luwa Adebanjo
 - role: Stage Manager
   name: Jess Donn
+- role: Stage Manager
+  name: Gabriella Teriaca
+- role: Stage Manager
+  name: William Hopwood
+- role: Stage Manager
+  name: Emily Grote
 
 assets:
   - type: poster
