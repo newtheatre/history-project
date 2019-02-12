@@ -136,6 +136,7 @@ assets:
   - type: poster
     image: g5tmCn6
 
+prod_shots: PMRmxk
 ---
 
 Joanna is stuck cleaning hotel rooms. She spends days and nights there, but nobody seems to notice her.
