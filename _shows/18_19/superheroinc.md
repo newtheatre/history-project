@@ -77,12 +77,10 @@ crew:
 - role: Amy Crighton
   name: Poster Designer
 
-# assets:
-#  - type:
-#    image:
-#  - type:
-#    video:
-#    title:
+ assets:
+  - type: poster
+    image: 2SpC7Pb
+
 
 # prod_shots:
 #   Use this - https://history.newtheatre.org.uk/util/smug-albums/
