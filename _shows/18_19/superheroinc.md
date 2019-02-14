@@ -74,6 +74,10 @@ crew:
   name: Nathan Penney
 - role: Sound Designer
   name: Jack Ellis
+- role: Technical Operator
+  name: Daniel McVey
+- role: Technical Operator
+  name: Emma Barber
 - role: Amy Crighton
   name: Poster Designer
 
