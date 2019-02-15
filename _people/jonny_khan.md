@@ -3,7 +3,7 @@ title: Jonny Khan
 gender: male
 submitted: false
 course:
-  - Economics
+  - Industrial Economics
 
 
 links:
