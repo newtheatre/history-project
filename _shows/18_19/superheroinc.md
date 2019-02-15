@@ -78,6 +78,10 @@ crew:
   name: Daniel McVey
 - role: Technical Operator
   name: Emma Barber
+- role: Technical Operator
+  name: Jess Donn
+- role: Technical Operator
+  name: Matteo Bagaini
 - role: Amy Crighton
   name: Poster Designer
 
