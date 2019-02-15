@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: "Super Hero Inc.: Phase One of the NNT Theatrical Universe"
 devised: Crew
 student_written: true
@@ -85,9 +81,9 @@ crew:
 - role: Amy Crighton
   name: Poster Designer
 
- assets:
-  - type: poster
-    image: 2SpC7Pb
+assets:
+- type: poster
+  image: 2SpC7Pb
 
 
 # prod_shots:
