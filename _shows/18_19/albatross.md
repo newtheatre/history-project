@@ -36,10 +36,13 @@ cast:
 crew:
 - role: Director
   name: Simon Panayi
+  person: false
 - role: Producer
   name: James Ashfield
+  person: false
 - role: Musical Director
   name: Jordan Shiel
+  person: false
 
 #assets:
 #  - type:
