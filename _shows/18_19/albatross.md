@@ -44,17 +44,12 @@ crew:
   name: Jordan Shiel
   person: false
 
-#assets:
-#  - type:
-#    image:
-#  - type:
-#    video:
-#    title:
-#
+assets:
+  - type: poster
+    image: Z8KtjR6
+
 #prod_shots:
 #   Use this - https://history.newtheatre.org.uk/util/smug-albums/
-#
-#assets:
 #
 #links:
 #  - type:
