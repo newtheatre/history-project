@@ -1,6 +1,7 @@
 ---
 title: "Super Hero Inc.: Phase One of the NNT Theatrical Universe"
 devised: Crew
+company: Unscripted
 student_written: true
 period: Spring
 season: External
