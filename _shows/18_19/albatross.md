@@ -43,6 +43,14 @@ crew:
 - role: Musical Director
   name: Jordan Shiel
   person: false
+- role: Technical Director
+  name: Sam Osborne
+- role: Lighting Designer
+  name: Zoe Smith
+- role: Technical Operator
+  name: Zoe Smith
+- role: Technical Operator
+  name: Izzy de Bono
 
 assets:
   - type: poster
