@@ -71,6 +71,12 @@ crew:
   name: Nathan Penney
 - role: Sound Designer
   name: Jack Ellis
+- role: Stage Manager
+  name: Charlie Wilkins
+- role: Stage Manager
+  name: Emma Collingwood
+- role: Stage Manager
+  name: Yasmine Dankwah
 - role: Technical Operator
   name: Daniel McVey
 - role: Technical Operator
