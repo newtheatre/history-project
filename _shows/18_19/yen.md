@@ -41,6 +41,16 @@ crew:
   name: Rikita Gupta
 - role: Set Construction
   name: Jack Ellis
+- role: Stage Manager
+  name: Nadia Elalfi
+- role: Stage Manager
+  name: Isaac Williamson
+- role: Stage Manager
+  name: Nat Henderson
+- role: Stage Manager
+  name: Daniel McVey
+- role: Stage Manager
+  name: Yasmine Dankwah
 - role: Technical Operator
   name: Arthur Mckechnie
 - role: Technical Operator
