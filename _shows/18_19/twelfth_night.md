@@ -52,14 +52,19 @@ crew:
   name: Jonny Khan
 - role: Technical Director
   name: Zoe Smith
+- role: Lighting Designer
+  name: Cameron Brett
+- role: Lighting Designer
+  name: Ellen Dennis
+- role: Sound Designer
+  name: Martin Tomlinson
+- role: Technical Assistant
+  name: Nathan Penney
 
-#assets:
-#  - type:
-#    image:
-#  - type:
-#    video:
-#    title:
-#
+assets:
+  - type: poster
+    image: 5kQLSv6
+
 #prod_shots:
 #  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
