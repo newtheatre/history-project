@@ -27,6 +27,8 @@ crew:
   name: Maggie Dorling 
 - role: Technical Director
   name: Laura Wolczyk
+- role: Technical Director
+  name: Darcey Graham
 - role: Publicity Manager
   name: Ed Eggleton
 
