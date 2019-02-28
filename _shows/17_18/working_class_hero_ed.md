@@ -23,6 +23,8 @@ crew:
   name: Kate Maguire
 - role: Technical Director
   name: Darcey Graham
+- role: Technical Director
+  name: Laura Wolczyk
 - role: Publicity Manager
   name: Ted Marriott
 
