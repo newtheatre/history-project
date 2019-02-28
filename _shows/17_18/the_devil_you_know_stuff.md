@@ -27,6 +27,8 @@ crew:
   name: Jack Ellis
 - role: Technical Operator
   name: Laura Wolczyk
+- role: Technical Operator
+  name: Darcey Graham
 
 assets:
 - type: poster
