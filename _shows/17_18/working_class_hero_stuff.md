@@ -23,6 +23,8 @@ crew:
   name: Rohanna Brown
 - role: Technical Operator
   name: Darcey Graham
+- role: Technical Operator
+  name: Laura Wolczyk
 
 assets:
 - type: poster
