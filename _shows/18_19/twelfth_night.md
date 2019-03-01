@@ -62,6 +62,8 @@ crew:
   name: Zoe Smith
 - role: Technical Assistant
   name: Nathan Penney
+- role: Technical Operator
+  name: Yasmine Dankwah
 
 assets:
   - type: poster
