@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information 
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used 
-
 title: Twelfth Night
 playwright: William Shakespeare
 adaptor: Jonny Flood
@@ -73,5 +69,3 @@ assets:
 72 in 72 is back for another term!
 
 Beginning on Tuesday 26th March at 15:00, a team of actors, producers, directors, designers, technicians and many other roles, will have just 72 hours to produce "Twelfth Night" by William Shakespeare, abridged by Jonny Flood.
-
-If you would like to be involved on the team, please contact Jess Donn or Jonny Khan!
