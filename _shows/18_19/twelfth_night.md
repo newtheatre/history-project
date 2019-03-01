@@ -54,6 +54,12 @@ crew:
   name: Ellen Dennis
 - role: Sound Designer
   name: Martin Tomlinson
+- role: Sound Designer
+  name: Rohan Rakhit
+- role: Sound Designer
+  name: Emma Barber
+- role: Sound Designer
+  name: Zoe Smith
 - role: Technical Assistant
   name: Nathan Penney
 
