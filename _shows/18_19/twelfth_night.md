@@ -36,6 +36,8 @@ cast:
   name: Izzy de Bono
 - role: Sally / Officer
   name: Daniel Morris
+- role: Priest
+  name: Miguel Barrulas
 
 crew:
 - role: Director
