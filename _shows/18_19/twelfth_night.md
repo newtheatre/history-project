@@ -64,6 +64,10 @@ crew:
   name: Zoe Smith
 - role: Technical Assistant
   name: Nathan Penney
+- role: Text Advisor
+  name: Florence Bell
+- role: Poster Designer
+  name: Hugo Dell
 - role: Technical Operator
   name: Yasmine Dankwah
 
