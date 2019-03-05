@@ -75,7 +75,7 @@ assets:
   - type: poster
     image: 5kQLSv6
 
-prod_shots: q3VGp
+prod_shots: q3VGp7
 
 ---
 
