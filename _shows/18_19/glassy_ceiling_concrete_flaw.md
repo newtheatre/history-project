@@ -6,7 +6,7 @@ period: Spring
 season: In House
 season_sort: 240
 date_start: 2019-03-06
-date_end: #2019-03-09
+date_end: 2019-03-09
 venue: New Theatre
 
 cast:
