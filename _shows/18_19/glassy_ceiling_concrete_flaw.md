@@ -61,8 +61,6 @@ assets:
 #prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 #
-#assets: 
-#
 #links:
 #  - type:
 #    href:
