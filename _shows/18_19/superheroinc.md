@@ -93,9 +93,7 @@ assets:
   image: 2SpC7Pb
 
 
-# prod_shots:
-#   Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
+prod_shots: hpz6rm
 
 ---
 Hi! I’m Wilson Cheese. A highly successful business man and proud owner of Superhero Inc. I’m on the lookout for people with extraordinarily abilities to join my handpicked team of elite superheroes. To let you fulfil your dream of becoming the hero you want to be. As a concerned citizen of Nottingham, I have watched this city slip into the hands of evil people who have no regard for anyone but themselves. That is why I created Superhero Inc. To take back Nottingham and stand up for the little guy. It is imperative that we operate with professionalism and skill! Otherwise, we’re letting our city down. As part of Superhero Inc you will have access to the finest equipment on the market and become part of something much bigger than yourself. Are you up to the task? Superhero Inc needs you and you need Superhero Inc! Join our team now!
