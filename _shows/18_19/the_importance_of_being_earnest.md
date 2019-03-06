@@ -7,7 +7,6 @@ period: Autumn
 season: External
 season_sort: 30
 date_start: 2018-09-27
-date_end: 2018-09-27
 venue: New Theatre
 
 prod_shots: 6cndW2
