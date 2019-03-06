@@ -48,6 +48,8 @@ crew:
   name: Joe Strickland
 - role: Poster Designer
   name: Zoe Smith
+- role: Set Construction
+  name: Jack Ellis
 
 assets:
   - type: poster
