@@ -49,9 +49,9 @@ crew:
 - role: Poster Designer
   name: Zoe Smith
 
-#assets:
-#  - type:
-#    image:
+assets:
+  - type: poster
+    image: Nk2gTQH
 #  - type:
 #    video:
 #    title:
