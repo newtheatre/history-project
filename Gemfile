@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~>3.7.2'
+gem 'jekyll', '~>3.8.5'
 gem 'jekyll-sitemap', '~>1.2.0'
-gem 'jekyll-redirect-from', '~>0.13.0'
+gem 'jekyll-redirect-from', '~>0.14.0'
 gem 'git'
 gem 'httparty', '~>0.16.0'
 gem 'liquid-c'
-gem 'octokit', '~>4.8.0'
+gem 'octokit', '~>4.13.0'
 gem 'i18n'
