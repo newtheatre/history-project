@@ -7,7 +7,7 @@ period: Edinburgh
 season_sort: 400
 date_start: 1977-08-22
 date_end: 1977-09-03
-venue: Cathredal Hall, Albany Street
+venue: Cathedral Hall, Albany Street
 
 cast:
 - name: Sue Candy
