@@ -19,7 +19,7 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    jekyll (3.7.2)
+    jekyll (3.8.5)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -32,7 +32,7 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-redirect-from (0.13.0)
+    jekyll-redirect-from (0.14.0)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
@@ -78,11 +78,11 @@ DEPENDENCIES
   git
   httparty (~> 0.16.0)
   i18n
-  jekyll (~> 3.7.2)
-  jekyll-redirect-from (~> 0.13.0)
+  jekyll (~> 3.8.5)
+  jekyll-redirect-from (~> 0.14.0)
   jekyll-sitemap (~> 1.2.0)
   liquid-c
-  octokit (~> 4.8.0)
+  octokit (~> 4.13.0)
 
 BUNDLED WITH
    1.14.6
