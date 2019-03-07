@@ -1,5 +1,5 @@
 ---
-title: Gilded Baloon
+title: Gilded Balloon
 city: Edinburgh
 links:
   - title: Gilded Balloon
