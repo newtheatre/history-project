@@ -30,18 +30,19 @@ crew:
 - role: Photographer
   name: Skylar Hurd
 
-#assets:
-#  - type:
-#    image:
-#  - type:
-#    video:
-#    title:
+assets:
+  - type: poster
+    image: 54s7KCM
+  - type: poster
+    image: phV6pxg
+  - type: poster
+    image: SrKjHGM
+  - type: poster
+    image: DD28ZqK
 #
 #prod_shots:
 #  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-#
-#assets: 
-#
+
 #links:
 #  - type:
 #    href:
