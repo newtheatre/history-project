@@ -61,16 +61,14 @@ assets:
 #prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 #
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.com/2019/03/glassy-ceiling-concrete-flaw-by-rachel.html
+    snapshot: 3lztY
+    publisher: Kev Castle Reviews
+    title: "\"Glassy Ceiling, Concrete Flaw\" by Rachel Elphick"
+    date: 2019-03-08
+    quote: The characters are well perceived and the play subject matter is well observed and gives you something to think about on many levels.
 
 ---
 
