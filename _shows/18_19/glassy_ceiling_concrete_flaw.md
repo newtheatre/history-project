@@ -50,17 +50,31 @@ crew:
   name: Zoe Smith
 - role: Set Construction
   name: Jack Ellis
+- role: Technical Operator
+  name: Izzy de Bono
+- role: Technical Operator
+  name: Danni Cooper
+- role: Technical Operator
+  name: Emma Barber
+- role: Technical Operator
+  name: Martin Tomlinson
+- role: Technical Operator
+  name: Luwa Adebanjo
+- role: Stage Manager
+  name: Jack Linley
+- role: Stage Manager
+  name: Daniel McVey
 
 assets:
   - type: poster
     image: Nk2gTQH
-#  - type:
-#    video:
-#    title:
-#
+  - type: backstage
+    video: zxgnwBP
+    title: Behnind The Scenes
+
 #prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-#
+
 links:
   - type: Review
     href: http://kevcastletheatrereviews.blogspot.com/2019/03/glassy-ceiling-concrete-flaw-by-rachel.html
