@@ -1,23 +1,23 @@
 ---
-# Check out the Show Docs for more information 
+# Check out the Show Docs for more information
 # -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used 
+# Remove or comment any lines that are not being used
 
 title:
-playwright: # Omit if devised 
+playwright: # Omit if devised
 devised: # Omit if playwright
-adaptor: 
-translator: 
+adaptor:
+translator:
 student_written:
 company: # If non-NNT
 period:
 season: # Choices: In House, Fringe, Edinburgh, StuFF, Lakeside, External and Postgrads
 season_sort:
 date_start: #YYYY-MM-DD
-date_end: #YYYY-MM-DD 
+date_end: #YYYY-MM-DD
 venue:
 
-trivia: 
+trivia:
 
 cast:
 - role:
@@ -37,8 +37,6 @@ assets:
 prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
-assets: 
-
 links:
   - type:
     href:
@@ -49,7 +47,7 @@ links:
     date:
     rating:
     quote:
-    
+
 ---
 
-<!-- Insert the show summary here --> 
+<!-- Insert the show summary here -->
