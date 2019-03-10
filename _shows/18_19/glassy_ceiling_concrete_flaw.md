@@ -72,8 +72,7 @@ assets:
     video: zxgnwBP
     title: Behnind The Scenes
 
-#prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
+prod_shots: MDv6Zn
 
 links:
   - type: Review
