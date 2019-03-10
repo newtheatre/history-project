@@ -70,7 +70,7 @@ assets:
     image: Nk2gTQH
   - type: backstage
     video: zxgnwBP
-    title: Behnind The Scenes
+    title: Behind The Scenes
 
 prod_shots: MDv6Zn
 
