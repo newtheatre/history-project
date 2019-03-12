@@ -39,6 +39,8 @@ crew:
   name: Martin Tomlinson
 - role: Tech Crew
   name: Jess Donn
+- role: Tech Crew
+  name: Florence Bell
 
 assets:
   - type: poster
