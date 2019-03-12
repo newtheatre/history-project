@@ -37,6 +37,8 @@ crew:
   name: Izzy de Bono
 - role: Tech Crew
   name: Martin Tomlinson
+- role: Tech Crew
+  name: Jess Donn
 
 assets:
   - type: poster
