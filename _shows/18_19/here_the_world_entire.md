@@ -29,6 +29,14 @@ crew:
   name: Zoe Smith
 - role: Photographer
   name: Skylar Hurd
+- role: Tech Crew
+  name: Jack Ellis
+- role: Tech Crew
+  name: Daniel McVey
+- role: Tech Crew
+  name: Izzy de Bono
+- role: Tech Crew
+  name: Martin Tomlinson
 
 assets:
   - type: poster
