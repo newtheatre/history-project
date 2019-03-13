@@ -30,7 +30,7 @@ crew:
 - role: Photographer
   name: Skylar Hurd
 - role: Jeweller
-  name: Izzt de Bono
+  name: Izzy de Bono
 - role: Tech Crew
   name: Jack Ellis
 - role: Tech Crew
