@@ -29,6 +29,8 @@ crew:
   name: Zoe Smith
 - role: Photographer
   name: Skylar Hurd
+- role: Jeweller
+  name: Izzt de Bono
 - role: Tech Crew
   name: Jack Ellis
 - role: Tech Crew
