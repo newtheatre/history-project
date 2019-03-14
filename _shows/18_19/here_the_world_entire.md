@@ -20,7 +20,7 @@ crew:
 - role: Director
   name: Sam Osborne
 - role: Producer
-  name: Skylar Hurd
+  name: Skylar Turnbull Hurd
 - role: Technical Director
   name: Emma Barber
 - role: Lighting Designer
