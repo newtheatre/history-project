@@ -28,7 +28,7 @@ crew:
 - role: Poster Designer
   name: Zoe Smith
 - role: Photographer
-  name: Skylar Hurd
+  name: Skylar Turnbull Hurd
 - role: Jeweller
   name: Izzy de Bono
 - role: Tech Crew
@@ -66,6 +66,10 @@ links:
     date: 2019-03-11
     quote: "This play is really worth a viewing and these actors tell the story well. Just make sure that you wrap up really well; it's cold in that there cave on Djanogly Boulevard!"
 
+trivia:
+  - quote: During the outside performance on Djanogly Terrace (Monday 11th), about half way through, I became a human stage weight for one of the lights.
+    name: Jess Donn
+    submitted: 2019-03-14
 ---
 
 Medusa lives alone on the outskirts of the world, having exiled herself for her own protection. She’s brought enough hurt to the world already. Perseus arrives and, despite her attempts to make him leave, stays. He persists, and as the days wear on she reveals more about the events that led her to the cave. Medusa must make a choice: stay safe and alone, or re-enter the world with Perseus. One question still remains, however: what does Perseus want?
