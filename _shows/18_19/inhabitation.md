@@ -29,7 +29,7 @@ crew:
 - role: Co-Director
   name: Nat Henderson
 - role: Co-Director
-  name: Essie Butterworth
+  name: Esther Butterworth
 - role: Producer
   name: Sophy Baxter
 - role: Production Assistant
