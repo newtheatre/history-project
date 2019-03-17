@@ -50,20 +50,23 @@ crew:
   name: Nat Henderson
 - role: Publicity Assistant
   name: Vdica Mishra
+- role: Technical Operator
+  name: Danni Cooper
+- role: Technical Operator
+  name: Emma Collingwood
 - role: Photographer
   name: Jazzy de Ward
   person: false
 
-#assets:
-#  - type:
-#    image:
+assets:
+  - type: poster
+    image: 5FQhCFb
 #  - type:
 #    video:
 #    title:
 #
-#prod_shots:
-#  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-#
+prod_shots: vCFH3c
+
 links:
   - type: Review
     href: http://kevcastletheatrereviews.blogspot.com/2019/03/inhabitation-by-nat-henderson.html
