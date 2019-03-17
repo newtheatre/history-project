@@ -75,7 +75,7 @@ links:
     title: "\"Inhabitation\" by Nat Henderson"
     date: 2018-03-14
     quote: "Clever, very novel and really entertaining piece of new theatre, delivered by a talented cast. Everything I've grown to expect from the NNT."
-    type: Article
+  - type: Article
     href: https://impactnottingham.com/2019/03/behind-the-scenes-at-nnt-inhabitation-by-nat-henderson/
     snapshot: 0SOS4
     publisher: Impact Nottingham
