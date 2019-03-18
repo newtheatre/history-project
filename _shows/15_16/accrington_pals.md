@@ -39,6 +39,8 @@ crew:
    name: Ed Eggleton
  - role: Producer
    name: Tom Heath
+ - role: Assistant Director
+   name: James Pheasey
  - role: Production Assistant
    name: Maddie Stone
  - role: Technical Director
