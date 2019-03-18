@@ -11,9 +11,9 @@ venue: New Theatre Studio A
 
 cast:
   - role: Adams
-    name: Barney Hartwill 
+    name: Barney Hartwill
     note: Captain
-  - role: Holden 
+  - role: Holden
     name: Ian Sheard
     note: Chief Petty Officer
   - role: Fowle
@@ -25,11 +25,11 @@ cast:
   - role: McKennan
     name: Jack Ellis
     note: Fisherman
-  - role: Runa 
+  - role: Runa
     name: Gabriella Teriaca
     note: Faroe Islander
-  - role: Clyde 
-    name: Sophie Curtis 
+  - role: Clyde
+    name: Sophie Curtis
     note: Voiceover
 
 crew:
@@ -38,7 +38,7 @@ crew:
     note: Admiral
   - role: Producer
     name: Sophie Curtis
-    note: Commadore 
+    note: Commodore
   - role: Technical Director
     name: Luwa Adebanjo
     note: Commander
@@ -48,15 +48,22 @@ crew:
   - role: Sound Designer
     name: Sam Osborne
     note: Cabin Boy
-  - role: Sound Designer 
+  - role: Sound Designer
     name: Nathan Penney
-    note: Lieutenant 
-  - role: Sound Designer 
+    note: Lieutenant
+  - role: Sound Designer
     name: Izzy de Bono
     note: Lieutenant
   - role: Video Designer
     name: Zoe Smith
     note: Lieutenant
+  - role: Set Designer
+    name: Esther Butterworth
+    note: Lieutenant
+  - role: Costume Designer
+    name: Sammy Ratcliffe
+    note: First Mate
+    person: false
 
 assets:
  - type: poster
@@ -66,7 +73,7 @@ prod_shots: DThP44
 
 ---
 
-Far below the surface of the northern Atlantic, the nuclear submarine HMS Vehement begins its journey back to its home port of Clyde after a four-month long patrol. Miles away, the fishing trawler Corina II launches a distress call after being caught in a storm. And far above them both, a meteor shower burns up in the Earth’s atmosphere. 
+Far below the surface of the northern Atlantic, the nuclear submarine HMS Vehement begins its journey back to its home port of Clyde after a four-month long patrol. Miles away, the fishing trawler Corina II launches a distress call after being caught in a storm. And far above them both, a meteor shower burns up in the Earth’s atmosphere.
 
 The UK stops responding.
 
