@@ -62,6 +62,8 @@ assets:
  - type: poster
    image: 6wf3R7s
 
+prod_shots: DThP44
+
 ---
 
 Far below the surface of the northern Atlantic, the nuclear submarine HMS Vehement begins its journey back to its home port of Clyde after a four-month long patrol. Miles away, the fishing trawler Corina II launches a distress call after being caught in a storm. And far above them both, a meteor shower burns up in the Earth’s atmosphere. 
