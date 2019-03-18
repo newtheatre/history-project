@@ -16,16 +16,22 @@ venue: New Theatre Studio A
 cast:
   - role: Adams
     name: Barney Hartwill 
+    note: Captain
   - role: Holden 
     name: Ian Sheard
+    note: Chief Petty Officer
   - role: Fowle
     name: Sofia Bassani
+    notes: Able Seaman
   - role: Poole
     name: Nick Landan 
+    note: Seaman
   - role: McKennon
     name: Jack Ellis
+    note: Fisherman
   - role: Runa 
     name: Gabriella Teriaca
+    note: Faroese Islander
   - role: Clyde 
     name: Sophie Curtis 
     note: Voiceover
@@ -33,20 +39,28 @@ cast:
 crew:
   - role: Director
     name: Callum Walker
+    note: Admiral
   - role: Producer
     name: Sophie Curtis
+    note: Commadore 
   - role: Technical Director
     name: Luwa Adebanjo
+    note: Commander
   - role: Lighting Designer
     name: Izzy de Bono
+    note: Lieutenant
   - role: Sound Designer
     name: Sam Osborne
+    note: Cabin Boy
   - role: Sound Designer 
     name: Nathan Penney
+    note: Lieutenant 
   - role: Sound Designer 
     name: Izzy de Bono
+    note: Lieutenant
   - role: Video Designer
     name: Zoe Smith
+    note: Lieutenant
 
 #assets:
 
