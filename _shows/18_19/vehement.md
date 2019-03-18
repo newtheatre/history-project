@@ -67,6 +67,7 @@ prod_shots: DThP44
 ---
 
 Far below the surface of the northern Atlantic, the nuclear submarine HMS Vehement begins its journey back to its home port of Clyde after a four-month long patrol. Miles away, the fishing trawler Corina II launches a distress call after being caught in a storm. And far above them both, a meteor shower burns up in the Earth’s atmosphere. 
+
 The UK stops responding.
 
 Vehement is a play about masculinity, nation, and militarism, and the effects that these can have in an isolated, claustrophobic environment. With the power to level nations at their fingertips, the crew of the Vehement are forced to make the ultimate choice.
