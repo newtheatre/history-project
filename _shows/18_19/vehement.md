@@ -24,7 +24,7 @@ cast:
     name: Sofia Bassani
     notes: Able Seaman
   - role: Poole
-    name: Nick Landan 
+    name: Nicholas Landon
     note: Seaman
   - role: McKennon
     name: Jack Ellis
