@@ -42,8 +42,6 @@ crew:
    name: Nathan Penney
  - role: Producer
    name: Ross Brisk
- - role: Production Assistant
-   name: James Pheasy
  - role: Technical Director
    name: Ben Woodford
  - role: Lighting Designer
