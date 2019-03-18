@@ -26,7 +26,7 @@ cast:
   - role: Poole
     name: Nicholas Landon
     note: Seaman
-  - role: McKennon
+  - role: McKennan
     name: Jack Ellis
     note: Fisherman
   - role: Runa 
