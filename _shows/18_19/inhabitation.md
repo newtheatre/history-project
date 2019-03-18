@@ -20,6 +20,8 @@ cast:
   note: Older
 - role: Alex
   name: Abie Whitehead
+- role: Tony
+  name: Cameron Brett
 - role: The Stage Manager
   name: Tobi Bambi
 - role: The Director
@@ -54,6 +56,18 @@ crew:
   name: Danni Cooper
 - role: Technical Operator
   name: Emma Collingwood
+- role: Stage Manager
+  name: Jack Linley
+- role: Stage Manager
+  name: Danial Ahmer
+- role: Stage Manager
+  name: Sam Andre-Paul
+- role: Stage Manager
+  name: Rachel Elphick
+- role: Stage Manager
+  name: Jemma Bean Oberman
+- role: Stage Manager
+  name: Charlotte Smith
 - role: Photographer
   name: Jazzy de Ward
   person: false
@@ -64,7 +78,7 @@ assets:
 #  - type:
 #    video:
 #    title:
-#
+
 prod_shots: vCFH3c
 
 links:
