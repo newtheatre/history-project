@@ -31,7 +31,7 @@ cast:
     note: Fisherman
   - role: Runa 
     name: Gabriella Teriaca
-    note: Faroese Islander
+    note: Faroe Islander
   - role: Clyde 
     name: Sophie Curtis 
     note: Voiceover
