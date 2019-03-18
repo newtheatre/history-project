@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: Vehement
 playwright: Callum Walker
 student_written: true
@@ -62,7 +58,9 @@ crew:
     name: Zoe Smith
     note: Lieutenant
 
-#assets:
+assets:
+ - type: poster
+   image: 6wf3R7s
 
 ---
 
