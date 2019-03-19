@@ -71,6 +71,15 @@ assets:
 
 prod_shots: DThP44
 
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.com/2019/03/vehement-by-callum-walker-nottingham.html
+    snapshot: EacBG
+    publisher: Kev Castle Reviews
+    title: "\"Vehement\" by Callum Walker"
+    date: 2019-03-18
+    quote: "A clever piece of writing and some passionate acting with a wonderful build up and an unexpected twist. Not only that but the 90 minutes the play took flew by as you were completely drawn into the story and the characters."
+
 ---
 
 Far below the surface of the northern Atlantic, the nuclear submarine HMS Vehement begins its journey back to its home port of Clyde after a four-month long patrol. Miles away, the fishing trawler Corina II launches a distress call after being caught in a storm. And far above them both, a meteor shower burns up in the Earth’s atmosphere.
