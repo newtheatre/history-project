@@ -73,7 +73,7 @@ links:
     snapshot: DckHt
     publisher: Kev Castle Reviews
     title: "\"Inhabitation\" by Nat Henderson"
-    date: 2018-03-14
+    date: 2019-03-14
     quote: "Clever, very novel and really entertaining piece of new theatre, delivered by a talented cast. Everything I've grown to expect from the NNT."
   - type: Article
     href: https://impactnottingham.com/2019/03/behind-the-scenes-at-nnt-inhabitation-by-nat-henderson/
