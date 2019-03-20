@@ -9,6 +9,7 @@ season_sort: 250
 date_start: 2019-03-11
 date_end: 2019-03-12
 venue: Djanogly Terrace
+venue_sort: University Park
 
 cast:
 - role: Medusa
@@ -53,9 +54,8 @@ assets:
     image: SrKjHGM
   - type: poster
     image: DD28ZqK
-#
+
 #prod_shots:
-#  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
 links:
   - type: Review
