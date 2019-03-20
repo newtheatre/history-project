@@ -9,5 +9,5 @@ course:
 links:
   - type: IMDb
     href: "http://www.imdb.com/name/nm8034723"
-
+headshot: NqZ3Ljm
 ---
