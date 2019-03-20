@@ -18,7 +18,7 @@ cast:
     note: Chief Petty Officer
   - role: Fowle
     name: Sofia Bassani
-    note: Able Seaman
+    note: Leading Seaman
   - role: Poole
     name: Nicholas Landon
     note: Seaman
