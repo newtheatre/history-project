@@ -7,7 +7,7 @@ title: Human Animals
 playwright: Stef Smith
 period: Spring
 season: In House
-season_sort: 260
+season_sort: 280
 date_start: 2019-03-20
 date_end: 2019-03-23
 venue: New Theatre
