@@ -55,7 +55,7 @@ assets:
   - type: poster
     image: DD28ZqK
 
-#prod_shots:
+prod_shots: 9tSQDB
 
 links:
   - type: Review
