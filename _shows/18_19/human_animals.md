@@ -66,7 +66,15 @@ crew:
 
 prod_shots: S38wfw
 
-#links:
+links:
+  - type: Article
+    href: https://impactnottingham.com/2019/03/behind-the-scenes-at-nnt-human-animals-by-stef-smith/
+    snapshot: U9DSg
+    publisher: Impact Nottingham
+    author: Georgia Butcher
+    title: "Behind The Scenes at NNT: 'Human Animals’ by Stef Smith"
+    date: 2019-03-21
+    quote: Ahead of its first performance tomorrow night, I had the pleasure to chat with director Joe Strickland about upcoming production Human Animals.
 #  - type:
 #    href:
 #    snapshot:
