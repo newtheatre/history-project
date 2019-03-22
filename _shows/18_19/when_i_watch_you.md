@@ -4,7 +4,7 @@ playwright: Cameron Brett
 student_written: true
 period: Spring
 season: Fringe
-season_sort: 280
+season_sort: 290
 date_start: 2019-03-25
 date_end: 2019-03-26
 venue: New Theatre Studio A
