@@ -57,12 +57,9 @@ crew:
   name: Isobel Drake
   person: false
 
-#assets:
-#  - type:
-#    image:
-#  - type:
-#    video:
-#    title:
+assets:
+  - type: poster
+    image: qnTVpRS
 
 prod_shots: S38wfw
 
@@ -75,15 +72,14 @@ links:
     title: "Behind The Scenes at NNT: 'Human Animals’ by Stef Smith"
     date: 2019-03-21
     quote: Ahead of its first performance tomorrow night, I had the pleasure to chat with director Joe Strickland about upcoming production Human Animals.
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.com/2019/03/human-animals-by-stef-smith-nottingham.html
+    snapshot: qTVTn
+    publisher: Kev Castle Reviews
+    title: "\'Human Animals\' by Stef Smith"
+    date: 2019-03-21
+    quote: This is a play that will make you go away and think about how you would act if you were in this situation these six found themselves forced into, and may even question your relationships, not only with humans, but also with animals.
+
 
 ---
 
