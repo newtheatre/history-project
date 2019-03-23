@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: Human Animals
 playwright: Stef Smith
 period: Spring
@@ -11,6 +7,8 @@ season_sort: 280
 date_start: 2019-03-20
 date_end: 2019-03-23
 venue: New Theatre
+
+trivia: For the two Saturday shows Joe Strickland played the part of John due to an injury.
 
 cast:
 - role: Jamie
