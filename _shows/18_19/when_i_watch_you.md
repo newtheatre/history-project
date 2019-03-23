@@ -33,13 +33,10 @@ crew:
 - role: Script Editor
   name: Ellen Dennis
 
-#assets:
-#  - type:
-#    image:
-#  - type:
-#    video:
-#    title:
-#
+assets:
+ - type: poster
+   image: DNQFzwP
+
 #prod_shots:
 #  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 #
