@@ -8,7 +8,8 @@ date_start: 2019-03-20
 date_end: 2019-03-23
 venue: New Theatre
 
-trivia: For the two Saturday shows Joe Strickland played the part of John due to an injury.
+trivia: 
+ - quote: For the two Saturday shows Joe Strickland played the part of John due to an injury.
 
 cast:
 - role: Jamie
