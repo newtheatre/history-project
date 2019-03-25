@@ -52,6 +52,14 @@ crew:
   name: Amelia Feltus
 - role: Publicity Assistant
   name: Lottie Henning
+- role: Technical Operator
+  name: Danni Cooper
+- role: Technical Operator
+  name: Emma Barber
+- role: Technical Operator
+  name: Charlotte Smith
+- role: Technical Operator
+  name: Nat Henderson
 - role: Photographer
   name: Isobel Drake
   person: false
