@@ -62,9 +62,9 @@ crew:
   name: Huzeifa Mohamed
   person: false
 
-#assets:
-#  - type:
-#    image:
+assets:
+ - type: poster
+   image: RkKFSzC
 #  - type:
 #    video:
 #    title:
