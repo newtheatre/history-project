@@ -86,7 +86,15 @@ links:
     title: "\'Human Animals\' by Stef Smith"
     date: 2019-03-21
     quote: This is a play that will make you go away and think about how you would act if you were in this situation these six found themselves forced into, and may even question your relationships, not only with humans, but also with animals.
-
+  - type: Review
+    href: https://impactnottingham.com/2019/03/human-animals-nnt/
+    snapshot: dk9lj
+    publisher: Impact Nottingham
+    author: Lucy Miles
+    title: "Human Animals @ NNT"
+    date: 2019-03-24
+    rating: 9/10
+    quote: "By directly confronting the audience and portraying the plausibility of a dystopian world in the near-future, the play demonstrates the numbed, ignorant habits of humans and encourages daily action towards a brighter, safer, cleaner future."
 
 ---
 
