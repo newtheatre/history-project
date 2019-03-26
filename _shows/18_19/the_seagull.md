@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: The Seagull
 playwright: Anton Chekhov
 adaptor: Florence Bell
@@ -58,6 +54,16 @@ crew:
   name: Sam Osborne
 - role: Poster Designer
   name: Daniel McVey
+- role: Technical Operator
+  name: Izzy de Bono
+- role: Technical Operator
+  name: Danni Cooper
+- role: Technical Operator
+  name: Yasmine Dankwah
+- role: Technical Operator
+  name: Emma Barber
+- role: Technical Operator
+  name: Zoe Smith
 - role: Photographer
   name: Huzeifa Mohamed
   person: false
