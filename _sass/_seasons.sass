@@ -7,6 +7,7 @@ $color-lakeside: #4AAEDB
 $color-stuff: #E20013
 $color-fundraiser: darken(#E296D1, 30%)
 $color-iudf: #242F4A
+$color-unscripted: #008C50 
 
 @mixin show-season-circle
   &:before
@@ -41,6 +42,8 @@ $color-iudf: #242F4A
     color: $color-fundraiser !important
   &.season-iudf:before
     color: $color-iudf !important
+  &.season-unscripted:before
+    color: $color-unscripted !important
 
 // Background of season meta-col col
 .show-season
@@ -59,6 +62,8 @@ $color-iudf: #242F4A
     background: rgba($color-fundraiser, $opacity-jigging)
   .season-iudf
     background: rgba($color-iudf, $opacity-jigging)
+  .season-unscripted
+    background: rgba($color-unscripted, $opacity-jigging)
 
 // Breadcrumbs
 @include breadcrumb-color("in-house", $color-in-house)
@@ -70,6 +75,7 @@ $color-iudf: #242F4A
 @include breadcrumb-color("stuff", $color-stuff)
 @include breadcrumb-color("fundraiser", $color-fundraiser)
 @include breadcrumb-color("iudf", $color-iudf)
+@include breadcrumb-color("unscripted", $color-unscripted)
 
 // Season pages
 @include breadcrumb-color("seasons", $color-seasons)
