@@ -2,9 +2,8 @@
 title: Camp Macbeth
 devised: Crew
 period: Spring
-company: Unscripted
 student_written: true
-season: External
+season: Unscripted
 season_sort: 220
 date_start: 2017-02-06
 date_end: 2017-02-07

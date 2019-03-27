@@ -1,9 +1,8 @@
 ---
 title: Potential
 devised: Crew
-company: Unscripted
 student_written: true
-season: External
+season: Unscripted
 season_sort: 370
 period: Spring
 venue: New Theatre
