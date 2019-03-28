@@ -67,6 +67,9 @@ crew:
 assets:
   - type: poster
     image: qnTVpRS
+  - type: backstage
+    video: sfFnmPb
+    title: Behind the Scenes
 
 prod_shots: S38wfw
 

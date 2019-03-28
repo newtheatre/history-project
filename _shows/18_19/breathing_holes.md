@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: Breathing Holes
 playwright: Jonathan Taylor Davies
 student_written: true
@@ -58,6 +54,9 @@ crew:
 assets:
   - type: poster
     image: hfpD9Qv
+  - type: backstage
+    video: c7Sxq2q
+    title: Behind The Scenes
 
 prod_shots: wQrFmC
 
