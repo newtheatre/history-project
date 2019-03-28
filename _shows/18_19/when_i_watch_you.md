@@ -39,17 +39,17 @@ assets:
 
 #prod_shots:
 #  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-#
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+
+links:
+  - type: Review
+    href: https://impactnottingham.com/2019/03/when-i-watch-you-i-like-to-leave-the-sound-off-nnt/
+    snapshot: PPiLX
+    publisher: Impact Nottingham
+    author: Daniel Morris
+    title: "When I Watch You, I Like to Leave the Sound Off @ NNT"
+    date: 2019-03-27
+    rating: 8/10
+    quote: "After watching this play you’ll think about covering you’re phone cameras and laptop webcams. In the fear that you like Liberty are being observed."
 
 ---
 
