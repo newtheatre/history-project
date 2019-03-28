@@ -7,6 +7,7 @@ season: Unscripted
 season_sort: 230
 date_start: 2019-03-01
 venue: New Theatre
+company: 72 in 72
 
 cast:
 - role: Orisino
