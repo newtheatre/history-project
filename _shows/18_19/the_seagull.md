@@ -71,10 +71,10 @@ crew:
 assets:
  - type: poster
    image: RkKFSzC
-#  - type:
-#    video:
-#    title:
-#
+  - type: backstage
+    video: kRCQ46j
+    title: Behind the Scenes
+
 #prod_shots:
 #  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 #
