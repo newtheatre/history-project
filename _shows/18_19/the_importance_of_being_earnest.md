@@ -4,10 +4,11 @@ title: "The Importance of Being Earnest: A 72 Minute Play made in 72 hrs"
 playwright: Oscar Wilde
 adaptor: Emma Collingwood
 period: Autumn
-season: External
+season: Unscripted
 season_sort: 30
 date_start: 2018-09-27
 venue: New Theatre
+company: 72 in 72
 
 prod_shots: 6cndW2
 

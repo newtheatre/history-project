@@ -1,12 +1,11 @@
 ---
 title: Into The Missing
-season: External
+season: Unscripted
 devised: true 
 season_sort: 540
 period: Spring
 venue: New Theatre
 date_start: 2018-06-18
-company: Unscripted
 
 cast:
 - role: Pestilence

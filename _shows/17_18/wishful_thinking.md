@@ -2,9 +2,8 @@
 title: Wishful Thinking
 devised: Crew
 period: Spring
-company: Unscripted
 student_written: true
-season: External
+season: Unscripted
 season_sort: 180
 date_start: 2018-02-05
 date_end: 2018-02-07
