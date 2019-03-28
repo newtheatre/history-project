@@ -26,6 +26,8 @@ crew:
   name: Maggie Dorling 
 - role: Technical Director
   name: Laura Wolczyk
+- role: Video Designer
+  name: Sam Morris
 
 assets:
 - type: poster

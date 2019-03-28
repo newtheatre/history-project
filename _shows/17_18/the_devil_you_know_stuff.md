@@ -29,6 +29,8 @@ crew:
   name: Laura Wolczyk
 - role: Technical Operator
   name: Darcey Graham
+- role: Video Designer
+  name: Sam Morris
 
 assets:
 - type: poster

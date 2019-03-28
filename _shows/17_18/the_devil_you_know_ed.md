@@ -31,6 +31,8 @@ crew:
   name: Darcey Graham
 - role: Publicity Manager
   name: Ed Eggleton
+- role: Video Designer
+  name: Sam Morris
 
 assets:
 - type: poster
