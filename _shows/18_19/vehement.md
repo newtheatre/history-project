@@ -71,6 +71,11 @@ assets:
 
 prod_shots: DThP44
 
+trivia:
+  - quote: Nadia Elalfi (geneticist) was consulted through the writing process to ensure the remarks about the sexual cycle of flies was scientifically inaccurate.
+    name: Sam Osborne
+    submitted: 2019-03-28
+
 links:
   - type: Review
     href: http://kevcastletheatrereviews.blogspot.com/2019/03/vehement-by-callum-walker-nottingham.html
