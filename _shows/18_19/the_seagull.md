@@ -78,16 +78,22 @@ assets:
 #prod_shots:
 #  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 #
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+links:
+  - type: Review
+    href: https://readandreview2016.wordpress.com/2019/03/29/theatre-review-sort-of-the-seagull-by-florence-bell/
+    snapshot: 11jPg
+    publisher: ReadandReview
+    author: Judith Webster
+    title: "Theatre Review [Sort Of]: The Seagull by Florence Bell"
+    date: 2019-03-29
+    quote: Whilst I may not have understood everything, I still enjoyed the play - and laughed! I was surprised at how funny this adaptation of The Seagull was.
+  - type: Review
+    href: https://kevcastletheatrereviews.blogspot.com/2019/03/the-seagull-by-anton-chekhov-adapted-by.html
+    snapshot: qKs1y
+    publisher: Kev Castle Reviews
+    title: "\"The Seagull\" by Anton Chekhov, adapted by Florence Bell"
+    date: 2019-03-28
+    quote: Chekhov may be a classic writer but can be misconstrued as a bit of a "bum-acher", but with this adaptation, NNT have injected new life, and fun, into an old play.
 
 ---
 
