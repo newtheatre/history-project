@@ -9,6 +9,7 @@ venue: New Theatre
 cast:
  - role: Bottom
    name: Nick Beddow
+ - name: Karen Omer
 
 comment: This is an estimated year
 ---
