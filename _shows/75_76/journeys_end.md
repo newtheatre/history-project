@@ -24,6 +24,8 @@ cast:
 crew:
   - role: Director
     name: Hugh Simon
+  - role: Producer
+    name: Terri Norris
   - role: Lighting Designer
     name: Chris Toms
   - role: Sound Designer
@@ -39,6 +41,11 @@ assets:
     image: v484CKN
 
 prod_shots: 5KMVL7
+
+trivia:
+  - quote: The boys in Journeys End all went together to the barbers and had their long hair chopped off so they looked like authentic WW1 soldiers.
+    name: Terri Norris
+    submitted: 2019-03-28
 ---
 
 Journey's End is a 1928 drama, the seventh of English playwright R. C. Sherriff.
