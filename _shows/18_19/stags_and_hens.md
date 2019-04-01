@@ -40,7 +40,7 @@ crew:
 - role: Assistant Director
   name: Rosie Hudson
 - role: Technical Director
-  name: Skylar Hurd
+  name: Skylar Turnbull Hurd
 - role: Lighting Designer
   name: Cameron Brett
 - role: Sound Designer
