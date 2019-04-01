@@ -10,6 +10,8 @@ venue: New Theatre
 
 prod_shots: x6s4R2
 
+cast:
+  - name: Sam Morris
 
 assets:
   - type: poster

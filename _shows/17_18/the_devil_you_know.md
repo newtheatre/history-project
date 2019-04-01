@@ -39,6 +39,8 @@ crew:
   name: Annabel Freer
 - role: Stage Manager
   name: Annie Clayton
+- role: Stage Manager
+  name: Boo Jackson
 - role: Videographer
   name: Harry Fleet
 
