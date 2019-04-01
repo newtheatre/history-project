@@ -26,7 +26,7 @@ cast:
 - role: Kav
   name: Arthur McKechnie
 - role: Billy
-  name: Johnny Khan
+  name: Jonny Khan
 - role: Peter
   name: Jake Levy
 - role: Dave / Roadie
