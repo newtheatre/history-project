@@ -7,7 +7,7 @@ season: Fringe
 season_sort: 310
 date_start: 2019-03-31
 date_end: 2019-04-02
-venue: ???
+venue: New Theatre Studio A
 
 cast:
 - role: Mr X
