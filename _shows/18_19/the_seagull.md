@@ -75,9 +75,7 @@ assets:
     video: kRCQ46j
     title: Behind the Scenes
 
-#prod_shots:
-#  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-#
+prod_shots: pkVVkq
 
 links:
   - type: Review
