@@ -65,9 +65,9 @@ crew:
 - role: Photographer
   name: Isaac Weinstock
 
-#assets:
-#  - type:
-#    image:
+assets:
+  - type: poster
+    image: TM38hq6
 #  - type:
 #    video:
 #    title:
