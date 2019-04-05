@@ -82,7 +82,7 @@ links:
     publisher: Kev Castle Reviews
     title: "\"Stags & Hens\" by Willy Russell"
     date: 2019-04-04
-    quote: "I love this play, I love Willy Russell's wit and writing and I love this production and goes to show that NNT, when they do comedy, they really nail it, basically the same as whatever they do, they nail it."
+    quote: "The Lighting Designer, Cameron Brett and Sound Design by the demon of the decks, Rohan Rakhit made me want to take myself back a few decades and strut through those doors to boogie on the dance-floor, such was the atmosphere they created between them."
 #  - type:
 #    href:
 #    snapshot:
