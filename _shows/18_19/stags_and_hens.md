@@ -75,7 +75,14 @@ crew:
 #prod_shots:
 #  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 #
-#links:
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.com/2019/04/stags-hens-by-willy-russell-nottingham.html
+    snapshot: AoeTU
+    publisher: Kev Castle Reviews
+    title: "\"Stags & Hens\" by Willy Russell"
+    date: 2019-04-04
+    quote: "I love this play, I love Willy Russell's wit and writing and I love this production and goes to show that NNT, when they do comedy, they really nail it, basically the same as whatever they do, they nail it."
 #  - type:
 #    href:
 #    snapshot:
