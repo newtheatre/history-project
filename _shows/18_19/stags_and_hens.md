@@ -68,13 +68,9 @@ crew:
 assets:
   - type: poster
     image: TM38hq6
-#  - type:
-#    video:
-#    title:
-#
-#prod_shots:
-#  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-#
+
+prod_shots: 5pTwd6
+
 links:
   - type: Review
     href: http://kevcastletheatrereviews.blogspot.com/2019/04/stags-hens-by-willy-russell-nottingham.html
