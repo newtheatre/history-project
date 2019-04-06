@@ -24,8 +24,6 @@ crew:
   name: Nadia Elalfi
 - role: Lighting Designer
   name: Izzy de Bono
-- role: Sound Designer
-  name: Nathan Penney
 - role: Photographer
   name: Emma Barber
 
