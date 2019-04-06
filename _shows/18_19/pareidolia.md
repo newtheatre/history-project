@@ -24,31 +24,12 @@ crew:
   name: Nadia Elalfi
 - role: Lighting Designer
   name: Izzy de Bono
-- role: Sound Designer
-  name: Nathan Penney
 - role: Photographer
   name: Emma Barber
 
-#assets:
-#  - type:
-#    image:
-#  - type:
-#    video:
-#    title:
-#
-#prod_shots:
-#  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-#
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+assets:
+  - type: poster
+    image: TKZVcV3
 
 ---
 
@@ -65,5 +46,3 @@ And no matter how hard they try:
 Z can’t help but be a Tennyson poem,
 X can’t help but be a Russian antihero,
 and Y can’t help but be the world of L. Frank Baum.
-
-
