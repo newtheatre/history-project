@@ -45,9 +45,9 @@ crew:
 - role: Composer
   name: Martin Tomlinson
 
-#assets:
-#  - type:
-#    image:
+assets:
+  - type: Poster
+    image: W2WhZH3
 #  - type:
 #    video:
 #    title:
