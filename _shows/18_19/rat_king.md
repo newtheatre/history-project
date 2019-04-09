@@ -46,14 +46,10 @@ crew:
   name: Martin Tomlinson
 
 assets:
-  - type: Poster
+  - type: poster
     image: W2WhZH3
-#  - type:
-#    video:
-#    title:
 #
 #prod_shots:
-#  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
 links:
   - type: Review
