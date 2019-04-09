@@ -28,7 +28,7 @@ ENV NODE_PATH $NVM_DIR/versions/node/v$NODE_VERSION/lib/node_modules
 ENV PATH      $NVM_DIR/versions/node/v$NODE_VERSION/bin:$PATH
 
 RUN apt-get install -y ruby-dev rubygems libffi-dev
-RUN gem install bundler
+RUN gem install bundler -v 1.17
 
 RUN npm install -g gulp coffee-script bower
 
