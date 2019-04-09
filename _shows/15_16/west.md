@@ -55,7 +55,7 @@ crew:
 - role: Technical Operator
   name: James Fox
 - role: Technical Operator
-  name: Nathan Penney
+  name: Nathan
 - role: Stage Manager
   name: Beth Wilson
 - role: Stage Manager

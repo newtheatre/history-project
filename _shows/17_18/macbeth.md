@@ -54,7 +54,7 @@ crew:
 - role: Lighting Designer
   name: Zoe Smith
 - role: Technical Assistant
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Assistant
   name: Sam Osborne
 - role: Set Designer

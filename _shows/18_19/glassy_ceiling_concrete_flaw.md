@@ -41,7 +41,7 @@ crew:
 - role: Shadow Producer
   name: Sarah Richardson
 - role: Technical Director
-  name: Nathan Penney
+  name: Nathan
 - role: Lighting Designer
   name: Laura Wolczyk
 - role: Sound Designer

@@ -34,15 +34,15 @@ crew:
   - role: Stage Manager
     name: Holly Pownall
   - role: Technical Director
-    name: Nathan Penney
+    name: Nathan
   - role: Lighting Designer
-    name: Nathan Penney
+    name: Nathan
   - role: Sound Designer
     name: Joseph Heil
   - role: Technical Operator
     name: Holly Pownall
   - role: Technical Operator
-    name: Nathan Penney
+    name: Nathan
   - role: Publicity Designer
     name: Ben Hollands
   - role: Photographer

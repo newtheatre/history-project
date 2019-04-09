@@ -55,7 +55,7 @@ crew:
 - role: Technical Director
   name: Darcey Graham
 - role: Lighting Designer
-  name: Nathan Penney
+  name: Nathan
 - role: Sound Designer
   name: Hannah Burne
 - role: Set Designer
@@ -69,7 +69,7 @@ crew:
 - role: Technical Operator
   name: Ben Woodford
 - role: Technical Operator
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Operator
   name: Maddy Strauss
 - role: Technical Operator

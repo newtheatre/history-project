@@ -44,7 +44,7 @@ crew:
   - role: Technical Operator
     name: Ben Woodford
   - role: Technical Operator
-    name: Nathan Penney
+    name: Nathan
   - role: Technical Operator
     name: James Fox
   - role: Technical Operator
@@ -82,7 +82,7 @@ crew:
   - role: Poster Designer
     name: Max Miller
   - role: Photography
-    name: Nathan Penney
+    name: Nathan
   - role: Photography
     name: Natalia Gonzalez Morales
 

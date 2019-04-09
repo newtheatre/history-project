@@ -49,7 +49,7 @@ crew:
     name: Sam Osborne
     note: Cabin Boy
   - role: Sound Designer
-    name: Nathan Penney
+    name: Nathan
     note: Lieutenant
   - role: Sound Designer
     name: Izzy de Bono

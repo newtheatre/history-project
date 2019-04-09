@@ -33,7 +33,7 @@ crew:
 - role: Sound Designer
   name: Yasmine Dankwah
 - role: Technical Assistant
-  name: Nathan Penney
+  name: Nathan
 - role: Videographer
   name: Bertie Beeching
 - role: Technical Operator

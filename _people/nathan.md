@@ -1,6 +1,5 @@
 ---
-title: Nathan Penney
-headshot: kkKGQq4
+title: Nathan
 gender: male
 graduated: 2018
 award: Merit

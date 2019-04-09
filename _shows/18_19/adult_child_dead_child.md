@@ -33,7 +33,7 @@ crew:
 - role: Video Designer
   name: Amy Crighton
 - role: Technical Assistant
-  name: Nathan Penney
+  name: Nathan
 - role: Poster Designer
   name: Zoe Smith
 - role: Publicity Assistant

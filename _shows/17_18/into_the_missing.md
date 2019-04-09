@@ -90,7 +90,7 @@ crew:
 - role: Producer 
   name: Nadia Elalfi
 - role: Venue Technician
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Director
   name: Florence Bell
 - role: Technical Operator

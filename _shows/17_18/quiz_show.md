@@ -30,7 +30,7 @@ crew:
 - role: Production Assistant
   name: Salman Arif 
 - role: Technical Director
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Director
   name: Florence Bell
 - role: Lighting Designer

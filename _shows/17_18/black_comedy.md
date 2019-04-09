@@ -42,7 +42,7 @@ crew:
 - role: Technical Operator
   name: James Curling
 - role: Technical Operator
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Operator
   name: Adam Frankland
 - role: Technical Operator
@@ -66,7 +66,7 @@ crew:
 - role: Set Construction
   name: Ian Webster
 - role: Set Construction
-  name: Nathan Penney
+  name: Nathan
 - role: Set Construction
   name: Jack Ellis
 - role: Set Construction

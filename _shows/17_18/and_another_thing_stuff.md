@@ -14,7 +14,7 @@ crew:
 - role: Producer
   name: Mitchell Masterson
 - role: Venue Technician
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Operator
   name: Ben Woodford
 

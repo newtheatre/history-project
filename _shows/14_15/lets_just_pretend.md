@@ -39,7 +39,7 @@ crew:
   - role: Technical Operator
     name: Ali Uzair Lalani
   - role: Technical Operator
-    name: Nathan Penney
+    name: Nathan
   - role: Stage Manager
     name: Ellie O'Donnell
   - role: Stage Manager

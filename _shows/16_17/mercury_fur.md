@@ -40,7 +40,7 @@ crew:
 - role: Shadow Technical Director
   name: Tom Proffitt
 - role: Lighting Designer
-  name: Nathan Penney
+  name: Nathan
 - role: Shadow Lighting Designer
   name: Adam Frankland
 - role: Set Designer

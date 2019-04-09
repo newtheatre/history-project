@@ -33,7 +33,7 @@ crew:
 - role: Lighting Designer
   name: Hannah Burne
 - role: Lighting Designer
-  name: Nathan Penney
+  name: Nathan
 - role: Sound Designer
   name: Joseph Heil
 - role: Videographer

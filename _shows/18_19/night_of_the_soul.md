@@ -90,7 +90,7 @@ crew:
   name: Julie Daujat
   person: false
 - role: Lighting Designer
-  name: Nathan Penney
+  name: Nathan
 - role: Lighting Designer
   name: Zoe Smith
 - role: Sound Designer

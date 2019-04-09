@@ -72,7 +72,7 @@ crew:
   - role: Assistant Director
     name: Ruby Hawley
   - role: Technical Director
-    name: Nathan Penney
+    name: Nathan
   - role: Lighting Designer
     name: Joanne Blunt
   - role: Technical Operator

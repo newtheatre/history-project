@@ -59,7 +59,7 @@ crew:
 - role: Technical Operator
   name: Jakub Kolek
 - role: Technical Operator
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Operator
   name: Hannah Burne
 - role: Poster and Publicity Manager

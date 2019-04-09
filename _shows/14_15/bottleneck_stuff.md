@@ -22,7 +22,7 @@ crew:
   - role: Lighting Designer
     name: Joanne Blunt
   - role: Lighting Designer
-    name: Nathan Penney
+    name: Nathan
   - role: Publicity Designer
     name: Gus Herbert
 

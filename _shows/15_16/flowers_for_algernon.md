@@ -39,7 +39,7 @@ crew:
  - role: Lighting Designer
    name: Joseph Heil
  - role: Sound Designer
-   name: Nathan Penney
+   name: Nathan
  - role: Poster Designer
    name: Beth Wilson
 

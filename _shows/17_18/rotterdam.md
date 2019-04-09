@@ -36,7 +36,7 @@ crew:
 - role: Set Construction
   name: Ben Woodford
 - role: Set Construction
-  name: Nathan Penney
+  name: Nathan
 - role: Set Construction
   name: Laura Wolczyk
 - role: Poster Designer

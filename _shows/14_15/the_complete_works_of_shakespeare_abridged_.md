@@ -24,7 +24,7 @@ crew:
   - role: Technical Director
     name: Darcey Graham
   - role: Lighting Designer
-    name: Nathan Penney
+    name: Nathan
 
 assets:
   - type: poster

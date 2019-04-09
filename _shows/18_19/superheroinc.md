@@ -67,7 +67,7 @@ crew:
 - role: Lighting Designer
   name: Zoe Smith
 - role: Lighting Programmer
-  name: Nathan Penney
+  name: Nathan
 - role: Sound Designer
   name: Jack Ellis
 - role: Stage Manager

@@ -31,7 +31,7 @@ crew:
 - role: Production Assistant
   name: Becca David
 - role: Lighting Designer
-  name: Nathan Penney
+  name: Nathan
 - role: Lighting Designer
   name: Hannah Burne
 - role: Technical Director

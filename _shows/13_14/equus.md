@@ -56,7 +56,7 @@ crew:
   - role: Lighting Designer
     name: Tessa Denney
   - role: Technical Operator
-    name: Nathan Penney
+    name: Nathan
   - role: Technical Operator
     name: Tom Gloess
   - role: Technical Operator

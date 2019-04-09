@@ -30,9 +30,9 @@ crew:
  - role: Technical Director
    name: Adam Humphries
  - role: Lighting Designer
-   name: Nathan Penney
+   name: Nathan
  - role: Sound Designer
-   name: Nathan Penney
+   name: Nathan
  - role: Sound Designer
    name: Will Berrington
  - role: Set Designer

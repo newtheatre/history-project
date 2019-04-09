@@ -46,7 +46,7 @@ crew:
 - role: Technical Director
   name: Ben Woodford
 - role: Lighting Designer
-  name: Nathan Penney
+  name: Nathan
 - role: Sound Designer
   name: Rohanna Brown
 - role: Projection Designer
@@ -60,7 +60,7 @@ crew:
 - role: Technical Operator
   name: Rohanna Brown
 - role: Technical Operator
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Operator
   name: Izzy de Bono
 - role: Stage Manager

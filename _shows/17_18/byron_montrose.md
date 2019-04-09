@@ -15,7 +15,7 @@ crew:
 - role: Director 
   name: Ben Macpherson 
 - role: Venue Technician
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Operator
   name: Florence Bell
 

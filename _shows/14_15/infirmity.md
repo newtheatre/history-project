@@ -23,9 +23,9 @@ crew:
   - role: Director
     name: Tom Heath
   - role: Lighting Designer
-    name: Nathan Penney
+    name: Nathan
   - role: Technical Director
-    name: Nathan Penney
+    name: Nathan
   - role: Technical Operator
     name: Joanne Blunt
   - role: Costumes & Make-up

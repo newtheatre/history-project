@@ -23,7 +23,7 @@ crew:
 - role: Set Designer
   name: Ollie Shortt
 - role: Lighting Designer
-  name: Nathan Penney
+  name: Nathan
 - role: Venue Technician
   name: Ben Woodford
   

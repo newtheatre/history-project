@@ -43,7 +43,7 @@ crew:
 - role: Technical Operator
   name: Florence Bell
 - role: Technical Operator
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Operator
   name: Nat Henderson
 - role: Poster Designer

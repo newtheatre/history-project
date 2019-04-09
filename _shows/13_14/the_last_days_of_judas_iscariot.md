@@ -56,7 +56,7 @@ crew:
   - role: Technical Operator
     name: Hannah Doyle
   - role: Technical Operator
-    name: Nathan Penney
+    name: Nathan
   - role: Set Design
     name: Alex Jamieson
   - role: Set Construction

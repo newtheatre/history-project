@@ -26,7 +26,7 @@ crew:
   - role: Technical Director
     name: Gus Herbert
   - role: Lighting Designer
-    name: Nathan Penney
+    name: Nathan
   - role: Lighting Designer
     name: Harry Bridge
   - role: Sound Designer

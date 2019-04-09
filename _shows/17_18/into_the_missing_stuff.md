@@ -93,7 +93,7 @@ crew:
 - role: Venue Technician
   name: Rohanna Brown
 - role: Venue Technician
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Operator
   name: Florence Bell
 - role: Poster Design

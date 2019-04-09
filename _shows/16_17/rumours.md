@@ -32,7 +32,7 @@ crew:
 - role: Assistant Director
   name: Charlie Jamieson
 - role: Lighting Designer
-  name: Nathan Penney
+  name: Nathan
 - role: Lighting Designer
   name: Jess Donn
 - role: Technical Director

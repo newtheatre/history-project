@@ -41,7 +41,7 @@ crew:
 - role: Shadow Lighting Designer
   name: Emma Fearon
 - role: Technical Director
-  name: Nathan Penney
+  name: Nathan
 - role: Shadow Technical Director
   name: Ross Brisk
 - role: Costumes

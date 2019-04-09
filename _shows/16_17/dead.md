@@ -50,7 +50,7 @@ crew:
 - role: Musical Director
   name: Jacob Lloyd
 - role: Technical Director
-  name: Nathan Penney
+  name: Nathan
 - role: Lighting Designer
   name: Sam Osborne
 - role: Sound Designer

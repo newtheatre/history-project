@@ -43,7 +43,7 @@ crew:
 - role: Technical Director
   name: Sam Osborne
 - role: Lighting Designer
-  name: Nathan Penney
+  name: Nathan
 - role: Shadow Lighting Designer
   name: James Banks
 - role: Sound Designer

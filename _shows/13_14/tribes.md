@@ -34,7 +34,7 @@ crew:
   - role: Stage Manager
     name: Dave Porter
   - role: Technical Director
-    name: Nathan Penney
+    name: Nathan
   - role: Lighting Designer
     name: Joseph Heil
   - role: Technical Operator

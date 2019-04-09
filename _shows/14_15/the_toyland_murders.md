@@ -38,7 +38,7 @@ crew:
   - role: Producer
     name: Emily Brady
   - role: Technical Director
-    name: Nathan Penney
+    name: Nathan
   - role: Technical Director
     name: Darcey Graham
   - role: Lighting Designer

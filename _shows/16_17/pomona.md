@@ -47,7 +47,7 @@ crew:
 - role: Set Designer
   name: Beth Wilson
 - role: Technical Operator
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Operator
   name: Ben Woodford
 - role: Technical Operator

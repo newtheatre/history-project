@@ -64,7 +64,7 @@ crew:
   - role: Lighting Designer
     name: Joseph Heil
   - role: Lighting Designer
-    name: Nathan Penney
+    name: Nathan
   - role: Set Designer
     name: Ollie Shortt
   - role: Set Designer

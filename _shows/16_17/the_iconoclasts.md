@@ -26,7 +26,7 @@ links:
 
 crew:
   - role: Venue Technician
-    name: Nathan Penney
+    name: Nathan
   - role: Venue Technician
     name: Joseph Heil 
   - role: Venue Technician

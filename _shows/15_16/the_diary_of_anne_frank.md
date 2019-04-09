@@ -36,7 +36,7 @@ crew:
 - role: Producer
   name: Holly Gatfield
 - role: Lighting Designer
-  name: Nathan Penney
+  name: Nathan
 - role: Shadow Lighting Designer
   name: Joanna Manning
 - role: Technical Director

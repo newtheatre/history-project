@@ -76,7 +76,7 @@ crew:
 - role: Stage Manager
   name: Daniella Finch
 - role: Technical Operator
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Operator
   name: Tom Proffitt
 - role: Technical Operator

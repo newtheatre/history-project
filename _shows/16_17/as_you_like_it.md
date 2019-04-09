@@ -78,7 +78,7 @@ crew:
 - role: Stage Manager
   name: Rohanna Brown
 - role: Stage Manager
-  name: Nathan Penney
+  name: Nathan
 - role: Stage Manager
   name: Zoe Smith
 - role: Stage Manager

@@ -34,7 +34,7 @@ crew:
   - role: Lighting Designer
     name: Joseph Heil
   - role: Lighting Designer
-    name: Nathan Penney
+    name: Nathan
   - role: Technical Director
     name: Harry Bridge
   - role: Stage Manager

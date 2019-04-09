@@ -25,13 +25,13 @@ crew:
 - role: Technical Director
   name: Laura Wolczyk
 - role: Lighting Designer
-  name: Nathan Penney
+  name: Nathan
 - role: Sound Designer
   name: James Curling
 - role: Poster Design
   name: Felicity Chilver
 - role: Photographer
-  name: Nathan Penney
+  name: Nathan
 - role: Stash Designer
   name: Marsya Hazanan
 

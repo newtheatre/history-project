@@ -40,7 +40,7 @@ crew:
 - role: Technical Operator
   name: Ben Woodford
 - role: Technical Operator
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Operator
   name: Zoe Smith
 - role: Technical Operator

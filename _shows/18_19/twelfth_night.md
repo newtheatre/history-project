@@ -63,7 +63,7 @@ crew:
 - role: Sound Designer
   name: Zoe Smith
 - role: Technical Assistant
-  name: Nathan Penney
+  name: Nathan
 - role: Text Advisor
   name: Florence Bell
 - role: Poster Designer

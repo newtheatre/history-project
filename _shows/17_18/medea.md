@@ -60,7 +60,7 @@ crew:
 - role: Technical Operator
   name: Tom Proffitt
 - role: Technical Operator
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Operator
   name: Rohanna Brown
 - role: Technical Operator

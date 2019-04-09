@@ -64,7 +64,7 @@ crew:
  - role: Stage Manager
    name: Jens Lichter
  - role: Stage Manager
-   name: Nathan Penney
+   name: Nathan
  - role: Poster Designer
    name: Max Miller
 

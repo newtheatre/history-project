@@ -32,7 +32,7 @@ cast:
 
 crew:
   - role: Venue Technician  
-    name: Nathan Penney
+    name: Nathan
 
 ---
 

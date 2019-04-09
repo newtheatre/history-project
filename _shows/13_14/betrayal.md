@@ -46,7 +46,7 @@ crew:
   - role: Technical Operator
     name: Joseph Heil
   - role: Technical Operator
-    name: Nathan Penney
+    name: Nathan
   - role: Technical Operator
     name: Wesley Nash
   - role: Technical Operator

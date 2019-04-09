@@ -40,7 +40,7 @@ crew:
 - role: Lighting Designer
   name: Joseph Heil
 - role: Lighting Designer
-  name: Nathan Penney
+  name: Nathan
 - role: Shadow Lighting Designer
   name: Hannah Burne
 - role: Technical Operator

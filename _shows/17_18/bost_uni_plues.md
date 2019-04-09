@@ -29,7 +29,7 @@ crew:
   name: Rachael Smart
   person: false
 - role: Venue Technician
-  name: Nathan Penney
+  name: Nathan
 
 assets:
 - type: poster

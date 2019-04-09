@@ -69,7 +69,7 @@ crew:
 - role: Set Construction
   name: Joseph Heil
 - role: Trailer Lighting
-  name: Nathan Penney
+  name: Nathan
 
 assets:
   - type: poster

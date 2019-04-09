@@ -76,7 +76,7 @@ crew:
 - role: Poster Designer
   name: Emma Kendall
 - role: Stage Manager
-  name: Nathan Penney
+  name: Nathan
 - role: Stage Manager
   name: Darcey Graham
 - role: Stage Manager

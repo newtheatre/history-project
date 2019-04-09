@@ -25,7 +25,7 @@ crew:
 - role: Technical Director
   name: Emma Barber
 - role: Lighting Designer
-  name: Nathan Penney
+  name: Nathan
 - role: Poster Designer
   name: Zoe Smith
 - role: Photographer

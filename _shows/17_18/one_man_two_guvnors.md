@@ -69,7 +69,7 @@ crew:
 - role: Improv Consultant
   name: Jack Ellis
 - role: Technical Operator
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Operator
   name: Zoe Smith
 - role: Technical Operator

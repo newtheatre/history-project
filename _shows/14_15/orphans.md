@@ -32,7 +32,7 @@ crew:
   - role: Technical Operator
     name: James Fox
   - role: Technical Operator
-    name: Nathan Penney
+    name: Nathan
   - role: Costume Design
     name: Maddie Hardy
   - role: Poster Designer

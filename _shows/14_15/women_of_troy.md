@@ -53,7 +53,7 @@ crew:
   - role: Technical Director
     name: Joanne Blunt
   - role: Lighting Designer
-    name: Nathan Penney
+    name: Nathan
   - role: Set Designer
     name: Joanna Manning
   - role: Set Construction

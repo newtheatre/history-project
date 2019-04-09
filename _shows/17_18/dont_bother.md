@@ -22,7 +22,7 @@ crew:
 - role: Venue Technician
   name: Jack Ellis
 - role: Venue Technician
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Operator
   name: Miguel Barrulas
 

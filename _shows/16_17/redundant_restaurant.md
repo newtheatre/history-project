@@ -27,7 +27,7 @@ crew:
 - role: Lighting Designer
   name: Ben Woodford
 - role: Sound Designer
-  name: Nathan Penney
+  name: Nathan
 - role: Technical Director
   name: Ben Woodford
 - role: Stage Manager

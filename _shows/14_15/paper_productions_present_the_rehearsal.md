@@ -40,7 +40,7 @@ crew:
   - role: Venue Technician
     name: Joseph Heil
   - role: Venue Technician
-    name: Nathan Penney
+    name: Nathan
 
 assets:
   - type: poster

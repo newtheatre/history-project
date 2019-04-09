@@ -34,7 +34,7 @@ crew:
   - role: Set Designer
     name: Eden Phillips Harrington
   - role: Lighting Designer
-    name: Nathan Penney
+    name: Nathan
   - role: Technical Director
     name: Wesley Nash
   - role: Shadow Technical Director

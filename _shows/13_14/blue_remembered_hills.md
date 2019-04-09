@@ -32,9 +32,9 @@ crew:
   - role: Producer
     name: Clara Brooks
   - role: Technical Director
-    name: Nathan Penney
+    name: Nathan
   - role: Lighting Designer
-    name: Nathan Penney
+    name: Nathan
   - role: Stage Manager
     name: Rachel Angeli
   - role: Set Construction
