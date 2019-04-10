@@ -9,6 +9,11 @@ date_start: 2018-10-31
 date_end: 2018-11-03
 venue: New Theatre
 
+trivia:
+- quote: The rubber crumb used for the soil got absolutely everywhere. I went to Paris for my birthday almost a week about opening night and somehow found rubber crumb in my hotel room!
+  name: Miguel Barrulas
+  submitted: 2019-04-09
+
 cast:
 - role: Girl
   name: Kate O'Gorman
