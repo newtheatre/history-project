@@ -175,6 +175,8 @@ crew:
    name: Joanne Blunt
  - role: Shadow Technical Director
    name: Yee Heng Yeh
+ - role: Shadow Technical Director
+   name: Adam Frankland
  - role: Technical Operator
    name: Becca Potts
  - role: Technical Operator
