@@ -34,7 +34,7 @@ crew:
   name: Tobi Bambi
 - role: Set Designer
   name: Zoe Smith
-- role: Set Designer
+- role: Set Assistant
   name: Teodora Elena
 - role: Set Assistant
   name: Nadia Elalfi
