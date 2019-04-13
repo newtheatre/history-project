@@ -56,16 +56,15 @@ assets:
 #prod_shots:
 #  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 #
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+
+links:
+  - type: review
+    href: http://kevcastletheatrereviews.blogspot.com/2019/04/were-here-for-laura-by-luwa-adebanjo.html
+    snapshot: WRvLL
+    publisher: Kev Castle Reviews
+    title: "\"We're Here For Laura\" by Luwa Adebanjo"
+    date: 2019-04-12
+    quote: "I can honestly say that this is one of the funniest, original pieces of theatre I've seen, not only at the New Theatre but in Nottingham for a while."
 
 ---
 
