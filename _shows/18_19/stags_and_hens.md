@@ -64,6 +64,16 @@ crew:
   name: Nat Henderson
 - role: Photographer
   name: Isaac Weinstock
+- role: Technical Operator
+  name: Sam Osborne
+- role: Technical Operator
+  name: Yasmine Dankwah
+- role: Technical Operator
+  name: Tara Phillips
+- role: Technical Operator
+  name: Martin Tomlinson
+- role: Technical Operator
+  name: Zoe Smith
 
 assets:
   - type: poster
