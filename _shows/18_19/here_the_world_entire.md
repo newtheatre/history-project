@@ -30,6 +30,8 @@ crew:
   name: Zoe Smith
 - role: Photographer
   name: Skylar Turnbull Hurd
+- role: Photographer
+  name: Emma Barber
 - role: Jeweller
   name: Izzy de Bono
 - role: Tech Crew
