@@ -48,6 +48,16 @@ crew:
   person: false
 - role: Publicity Assistant
   name: Elliemae Sylvester
+- role: Technical Operator
+  name: Martin Tomlinson
+- role: Technical Operator
+  name: Daniel McVey
+- role: Technical Operator
+  name: Hugo Minta
+- role: Technical Operator
+  name: Sam Morris
+- role: Technical Operator
+  name: Skylar Turnbull Hurd 
 
 assets:
   - type: poster
