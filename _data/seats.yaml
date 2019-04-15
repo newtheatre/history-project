@@ -1,4 +1,5 @@
-seats
+---
+# NNT Auditorium Seats
 
 - row: A
   seat: 1
@@ -34,11 +35,14 @@ seats
   seat: 7
   person: Matthew Bannister
   message: |
-    In memory of Neville Bannister,  who enjoyed watching his son perform here.
+    In memory of Neville Bannister, who enjoyed watching his son perform here.
 - row: A
   seat: 8
   message: |
     Professor Heinrich Fessler
+- row: A 
+  seat: 9
+  message: 
 - row: A
   seat: 10
   message: |
@@ -79,6 +83,9 @@ seats
     For my family, Pauline Casimir-Mrowczynske,
     Mathematics 1982.
 - row: B
+  seat: 8 
+  message: 
+- row: B
   seat: 9
   message: |
     Sir David Greenaway, Vice-Chancellor 2008-2017,
@@ -91,7 +98,7 @@ seats
 - row: C
   seat: 1
   message: |
-    in Memory of Simon Reynolds,
+    In Memory of Simon Reynolds,
     Dramsoc 1974-1977.
 - row: C
   seat: 2
@@ -129,7 +136,7 @@ seats
 - row: C
   seat: 8
   message: |
-    Geoffrey Dawe, Electricsl Engineering 1957
+    Geoffrey Dawe, Electrical Engineering 1957
     & Joy Dawe (Cook), English 1959.
 - row: C
   seat: 9
@@ -182,26 +189,50 @@ seats
   message: |
     To Mum and Dad, Love you Loads
     Cecilia Chunping Xu.
+- row: D
+  seat: 9 
+  message: 
+- row: D 
+  seat: 10 
+  message: 
 - row: E
   seat: 1
   message: |
-    To out family, Elaine & Haydon Luke,
+    To our family, Elaine & Haydon Luke,
     English 1961-1964.
+- row: E 
+  seat: 2 
+  message: 
 - row: E
   seat: 3
   message: |
     To The New Theatre, For all the laughter, love, passion & memories.
     Ellie Colyer Alasquez (Hispanic Studies 2000).
+- row: E 
+  seat: 4
+  message: 
 - row: E
   seat: 5
   message: |
     In memory of Samuel Paul Abbott, 1994-2013.
     God grant us serenity, courage and wisdom.
+- row: E 
+  seat: 6
+  message:
+- row: E 
+  seat: 7
+  message:  
 - row: E
   seat: 8
   message: |
     Janet Tan and Koh Lian Choon,
     Parents of Edwin Koh (Law 1996).
+- row: E 
+  seat: 9
+  message:
+- row: E 
+  seat: 10
+  message:  
 - row: F
   seat: 1
   message: |
@@ -212,11 +243,59 @@ seats
   message: |
     "Pass it on" Jacob Hayes
     History and NNT (2011-2015)
+- row: F 
+  seat: 3
+  message:
+- row: F 
+  seat: 4
+  message:
+- row: F 
+  seat: 5
+  message:
+- row: F 
+  seat: 6
+  message:
+- row: F 
+  seat: 7
+  message:
+- row: F 
+  seat: 8
+  message: 
+- row: F 
+  seat: 9
+  message:
+- row: F 
+  seat: 10
+  message:
+- row: G
+  seat: 1
+  message:
+- row: G
+  seat: 2
+  message:
 - row: G
   seat: 3
   message: |
     From Ted Childs (Industrial Economics, 1957)
     in memory of Barry Isted (Economic History, 1957).
+- row: G 
+  seat: 4
+  message:
+- row: G 
+  seat: 5
+  message:
+- row: G 
+  seat: 6
+  message:
+- row: G 
+  seat: 7
+  message:
+- row: G 
+  seat: 8
+  message:
+- row: G 
+  seat: 9
+  message:
 - row: G
   seat: 10
   message: |
@@ -262,6 +341,12 @@ seats
   seat: 1
   message: |
     For Rosencrantz and Guildenstern.
+- row: I 
+  seat: 2
+  message:
+- row: I 
+  seat: 3
+  message:
 - row: I
   seat: 4
   message: |
@@ -272,3 +357,12 @@ seats
   message: |
     John Figgures,
     Technical Committee 1964-67.
+- row: I 
+  seat: 6
+  message:
+- row: I 
+  seat: 7
+  message:
+- row: I 
+  seat: 8
+  message:

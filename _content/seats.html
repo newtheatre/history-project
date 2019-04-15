@@ -1,22 +1,26 @@
 ---
-seats
+layout: page
+title: Seat Dedications
+body_class: home
+no_report_links: true
+permalink: /seats
+blurb: |
+  In the November of 2013, The New Theatre welcomed Matthew Bannister, Nottingham Alumni and BBC Broadcaster to launch our seat sponsoring appeal. The Seat Naming project was part of a wider Impact Campaign centred around the building, which included the refurbishment of the seating in the main auditorium, the construction of our two studio spaces and a much needed investment in lighting and sound equipment. All these refurbishments and upgrades were funded by the Students' Union and donations from Alumni.
 
-blurb:
-  - In the November of 2013, The New Theatre welcomed
-  Matthew Bannister, Nottingham Alumni and BBC Broadcaster
-  to launch our seat sponsoring appeal. The Seat Naming project
-  was part of a wider Impact Campaign centred around the building,
-  which included the refurbishment of the seating in the main auditorium,
-  the construction of our two studio spaces and a much needed investment
-  in lighting and sound equipment. All these refurbishments and upgrades
-  were funded by the Students' Union and donations from Alumni.
+  Matthew Bannister was heavily involved in the campaigning for the seating and staging. His speech at the launch of the appeal on 16th November 2013 marks the beginning of an appeal that allows alumni to sponsor one of the seats in our main auditorium with a personalised plaque. Any money donated through the appeal will be put towards the continuing updating of the Lighting, Sound and Communications equipment within the building. As well as this, funds will also contribute towards sending students from the Theatre up to the Edinburgh Fringe festival each year.
+---
 
-  Matthew Bannister was heavily involved in the campaigning for the
-  seating and staging. His speech at the launch of the appeal on
-  16th November 2013 marks the beginning of an appeal that allows
-  alumni to sponsor one of the seats in our main auditorium with
-  a personalised plaque. Any money donated through the appeal will be
-  put towards the continuing updating of the Lighting, Sound and 
-  Communications equipment within the building. As well as this,
-  funds will also contribute towards sending students from the Theatre
-  up to the Edinburgh Fringe festival each year.
+<h1>{{ page.title }}</h1>
+
+{{ page.blurb | markdownify }}
+
+<!-- Seating Plan --> 
+
+<p style="text-align: center; width: 50%; margin: auto">
+{% assign seats = site.data.seats | sort: 'seat' | reverse | sort: 'row' %}
+{% for seat in seats %}
+  {% assign prev_index = forloop.index | minus: 1 %}
+  <span class="seat-tooltip"><span class="tooltiptext">{{ seat.row }}{{ seat.seat }}{% if seat.message %}: {{ seat.message }}{% endif %}</span><i class="fa fa-bell fa-fw {% if seat.message == null %}subtle{% endif %}"></i></span>&nbsp;
+  {% unless site.data.seats[forloop.index].row == site.data.seats[prev_index].row %}<span style="float: right">{{ seat.row }}</span><br />{% endunless %}
+{% endfor %}
+</p>

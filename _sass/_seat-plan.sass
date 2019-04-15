@@ -1,0 +1,34 @@
+// For /seats
+
+.seat-tooltip 
+  position: relative
+  color: $color-nnt-purple
+
+.seat-tooltip .tooltiptext 
+  visibility: hidden
+  width: 200px
+  background-color: $color-background-alt
+  opacity: 0.9
+  color: $color-text-white 
+  text-align: center
+  border-radius: 6px
+  padding: 5px
+  position: absolute
+  z-index: 1
+  bottom: 150%
+  left: 50%
+  margin-left: -100px
+  ::after 
+    content: ""
+    position: absolute
+    top: 100%
+    left: 50%
+    margin-left: -5px
+    border-width: 5px
+    border-style: solid
+    border-color: purple transparent transparent transparent
+
+.seat-tooltip:hover 
+  color: $color-nnt-orange
+  .tooltiptext
+    visibility: visible
