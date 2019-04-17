@@ -17,6 +17,9 @@ cast:
   name: Megan Peace
 - role: Josh
   name: Miguel Barrulas
+- role: Alice
+  name: Maddy Strauss
+  note: NSDF
 
 crew:
 - role: Director
@@ -39,6 +42,9 @@ crew:
   name: Nathan
 - role: Set Construction
   name: Laura Wolczyk
+- role: Set Assistant
+  name: Skylar Turnbull Hurd
+  note: NSDF
 - role: Poster Designer
   name: Harriet Beale
 - role: Technical Operator
