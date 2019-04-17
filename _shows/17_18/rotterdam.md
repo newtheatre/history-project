@@ -34,6 +34,12 @@ crew:
   name: Hannah Burne
 - role: Shadow Lighting Designer
   name: James Curling
+- role: Lighting Assistant
+  name: Sam Osborne
+  note: NSDF 
+- role: Technician
+  name: Zoe Smith
+  note: NSDF
 - role: Set Designer
   name: Beth Wilson
 - role: Set Construction
@@ -100,7 +106,14 @@ links:
     title: "\"Rotterdam\" by Jon Brittain"
     date: 2018-03-23
     quote: "A fascinating piece of theatre which is also an education for someone like me who, although has friends from the LGBTQ+ community, doesn't really appreciate what someone goes through just to be the person that they want to be."
-
+  - type: Article
+    href: https://www.nsdf.org.uk/noises-off/nottnam-dram
+    snapshot: ggpnl
+    author: Sam Ross
+    publisher: Noises Off
+    title: "Nott'n'am Dram"
+    date: 2019-04-19
+    quote: "To stumble across a play like this which is witty whilst heartfelt, and gives a voice to important struggles without ever feeling like a lecture, it felt like an opportunity too good to pass up."
 ---
 
 It’s New Year in Rotterdam, and Alice has finally plucked up the courage to email her parents and tell them she’s gay. But before she can hit send, her ‘girlfriend’ reveals that he has always identified as a man and now wants to start living as one. As Fiona/Adrian starts his journey, Alice must also figure out how she fits into this new life. Can a lesbian really be in love with a man? And when the changes which Adrian has longed for start coming too fast for Alice, their relationship becomes strained.
