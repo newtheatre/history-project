@@ -61,6 +61,11 @@ crew:
   name: George Westaway
   person: false
 
+tour:
+- venue: NSDF 2019
+  date_start: 2019-04-24
+  note: Award for Kate O'Gorman
+
 assets:
   - type: poster
     image: 3p3dwPS
@@ -107,6 +112,13 @@ links:
     title: "Nott'n'am Dram"
     date: 2019-04-19
     quote: "[T]he support of the theatre’s committee was equally vital and valuable. \"I have no idea what other theatre would let me tip a tonne of rubber crumb over their floor\""
+  - type: Review
+    href: https://www.nsdf.org.uk/noises-off/feeling-unfeeling
+    snapshot: QZzWX
+    publisher: Noises Off
+    title: "Feeling unfeeling"
+    date: 2019-04-18
+    quote: "There were moments, when the girl was lying in the forest and when she was looking up at the lake above her, which were purely beautiful."
 ---
 
 ‘I met a man. I met a man. And I lay down. And slapped and cried and wined and dined. I met a man and many more and I didn’t know you at all.’
