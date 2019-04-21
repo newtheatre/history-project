@@ -23,6 +23,9 @@ crew:
   name: Amy Crighton
 - role: Producer
   name: Josie Hayden
+- role: Producer
+  name: Flo Avis
+  note: NSDF
 - role: Shadow Director
   name: Yasmine Dankwah
 - role: Assistant Director
@@ -39,6 +42,9 @@ crew:
   name: Jack Ellis
 - role: Lighting Designer
   name: Miguel Barrulas
+- role: Technician
+  name: Zoe Smith
+  note: NSDF
 - role: Technical Operator
   name: Yasmine Dankwah
 - role: Technical Operator
@@ -54,6 +60,12 @@ crew:
 - role: Special Thanks
   name: George Westaway
   person: false
+
+tour:
+- venue: NSDF 2019
+  date_start: 2019-04-17
+  date_end: 2019-04-18
+  note: Award for Kate O'Gorman
 
 assets:
   - type: poster
@@ -93,6 +105,21 @@ links:
     date: 2018-11-07
     rating: 4/5
     quote: "Overall, I thought Amy Crighton (Director) did a beautiful job to interpret a challenging text."
+  - type: Article
+    href: https://www.nsdf.org.uk/noises-off/nottnam-dram
+    snapshot: ggpnl
+    author: Sam Ross
+    publisher: Noises Off
+    title: "Nott'n'am Dram"
+    date: 2019-04-19
+    quote: "[T]he support of the theatre’s committee was equally vital and valuable. \"I have no idea what other theatre would let me tip a tonne of rubber crumb over their floor\""
+  - type: Review
+    href: https://www.nsdf.org.uk/noises-off/feeling-unfeeling
+    snapshot: QZzWX
+    publisher: Noises Off
+    title: "Feeling unfeeling"
+    date: 2019-04-18
+    quote: "There were moments, when the girl was lying in the forest and when she was looking up at the lake above her, which were purely beautiful."
 ---
 
 ‘I met a man. I met a man. And I lay down. And slapped and cried and wined and dined. I met a man and many more and I didn’t know you at all.’
