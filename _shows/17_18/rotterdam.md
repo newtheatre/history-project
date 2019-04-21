@@ -82,7 +82,7 @@ crew:
 
 tour:
 - venue: NSDF 2019
-  date_start: 2019-04-24
+  date_start: 2019-04-16
   note: Award for Maddy Strauss
 
 assets:

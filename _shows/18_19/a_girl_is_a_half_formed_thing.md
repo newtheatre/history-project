@@ -63,7 +63,8 @@ crew:
 
 tour:
 - venue: NSDF 2019
-  date_start: 2019-04-24
+  date_start: 2019-04-17
+  date_end: 2019-04-18
   note: Award for Kate O'Gorman
 
 assets:
