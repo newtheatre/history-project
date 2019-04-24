@@ -23,7 +23,6 @@ install:
 - npm install
 - bower install
 - curl https://htmltest.wjdp.uk | bash -s -- -b _bin
-- chmod +x _bin/htmltest
 - _bin/htmltest --version
 
 before_script:
