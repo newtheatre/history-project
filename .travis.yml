@@ -22,7 +22,7 @@ install:
 - npm install -g bower gulp-cli
 - npm install
 - bower install
-- curl https://s3-eu-west-1.amazonaws.com/wjdp-lib/htmltest > _bin/htmltest
+- curl https://htmltest.wjdp.uk | bash -s -- -b _bin
 - chmod +x _bin/htmltest
 - _bin/htmltest --version
 
