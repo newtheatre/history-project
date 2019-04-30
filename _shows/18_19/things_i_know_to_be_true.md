@@ -29,8 +29,10 @@ crew:
   name: Matteo Bagaini
 - role: Producer
   name: Izzy de Bono
-- role: Assistant Producer
+- role: Producer
   name: Cecilia Alexander
+- role: Assistant Director
+  name: Alicia Conte
 - role: Dance Choreographer
   name: Ellie Roberts
 - role: Make-Up Designer
