@@ -41,6 +41,8 @@ crew:
   name: Izzy Gregson
 - role: Set Designer
   name: Francesca Ashby
+- role: Set Construction
+  name: Jack Ellis
 - role: Photography Assistant
   name: Zoe Robinson
 - role: Technical Director
