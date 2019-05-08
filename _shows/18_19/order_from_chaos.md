@@ -44,6 +44,8 @@ crew:
   name: Ruishu Zhang
 - role: Set Designer
   name: Beth Carter
+- role: Movement Director
+  name: Rohan Rakhit
 - role: Script Editor
   name: Morven Cameron
 - role: Poster Designer
