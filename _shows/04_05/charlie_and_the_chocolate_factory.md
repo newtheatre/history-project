@@ -19,7 +19,7 @@ cast:
   - role: Violet Beauregarde
     name: Emily Baker
   - role: Chorus
-    name: Theo James
+    name: Theo Taptiklis
   - role: Chorus
     name: Chris Macdonald
   - name: Emily Medhurst

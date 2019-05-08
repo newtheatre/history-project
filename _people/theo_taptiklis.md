@@ -1,5 +1,8 @@
 ---
-title: Theo James
+title: Theo Taptiklis
+aliases:
+  - type: stage
+    name: Theo James
 headshot: d7TtjbW
 gender: male
 submitted: false

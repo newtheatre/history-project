@@ -8,5 +8,5 @@ venue: New Theatre
 date_start: 2007-10-13
 
 cast:
- - name: Theo James
+ - name: Theo Taptiklis
 ---

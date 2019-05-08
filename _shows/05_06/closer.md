@@ -10,7 +10,7 @@ date_end: 2006-03-18
 
 cast:
 - role: Larry
-  name: Theo James
+  name: Theo Taptiklis
 
 crew:
 - role: Director
