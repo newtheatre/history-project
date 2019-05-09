@@ -78,6 +78,13 @@ year_end: 2018
 # Estimation conf
 estimate_recency_limit: 2 # How many years to wait until guessing someone has left
 
+# Which seasons to prevent generation of 'missing content' boxes in 
+ignore_missing_in_seasons:
+  - 'External'
+  - 'Postgrads'
+  - 'STUFF'
+  - 'StuFF'
+
 collections:
   content:
     output: true

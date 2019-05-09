@@ -81,7 +81,7 @@
 - attr: ignore_missing
   type: boolean
   short: Suppresses missing detail warnings
-  description: "Is `true` when season matches External, Postgrads or STUFF."
+  description: "Is `true` when season matches External, Postgrads or STUFF (as per list in `_config.yml`)."
   generated: true
 
 - attr: year
