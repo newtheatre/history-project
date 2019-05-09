@@ -129,6 +129,7 @@ module Jekyll
       'External',
       'Postgrads',
       'STUFF',
+      'StuFF',
     ]
 
     def ignore_missing(show)
