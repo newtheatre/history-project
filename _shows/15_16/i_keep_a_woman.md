@@ -10,6 +10,10 @@ venue: New Theatre
 
 crew_incomplete: false
 
+crew:
+  - role: Producer
+    name: Emma Kendall 
+
 assets:
   - type: poster
     image: 4tBpkb6
