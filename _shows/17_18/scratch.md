@@ -9,6 +9,12 @@ date_start: 2018-06-17
 company: Squabbling House Theatre
 
 crew_incomplete: false
+
+cast:
+- name: Thomas Leadbeater 
+  person: false 
+- name: Hannah Eggleton
+  person: false 
   
 crew:
 - role: Producer 
