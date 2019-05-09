@@ -21,7 +21,7 @@ cast:
       name: Lee Denny
     - name: Fran Rylands
     - role: The Prince of Verona
-      name: Theo James
+      name: Theo Taptiklis
 
 crew:
     - role: Director

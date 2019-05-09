@@ -24,7 +24,7 @@ cast:
 - role: Eva Jackson
   name: Megan Trueblood-Smith
 - role: Ronald Brewster-Wright
-  name: Theo James
+  name: Theo Taptiklis
 - role: Marion Brewster-Wright
   name: Hatty Preston
 
