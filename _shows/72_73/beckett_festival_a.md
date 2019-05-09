@@ -8,6 +8,8 @@ date_start: 1972-11-20
 date_end: 1972-11-25
 venue: Trent, Great Hall
 
+crew_incomplete: false
+
 cast:
  - name: Susannah Gale
    note: Come and Go

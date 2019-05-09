@@ -8,6 +8,8 @@ date_start: 1972-11-21
 date_end: 1972-11-27
 venue: Trent, Great Hall
 
+crew_incomplete: false
+
 cast:
 - name: Phil Barnes
   note: Play

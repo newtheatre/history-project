@@ -8,6 +8,8 @@ date_start: 1972-11-28
 date_end: 1972-12-01
 venue: Trent, Great Hall
 
+crew_incomplete: false
+
 cast:
 - name: Julie Wykes
   note: Mexican Poems
