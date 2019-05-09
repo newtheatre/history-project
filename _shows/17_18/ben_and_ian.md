@@ -5,6 +5,8 @@ season_sort: 420
 period: Spring
 venue: New Theatre Studio A
 date_start: 2018-06-16
+
+crew_incomplete: false
   
 cast:
 - name: Ian Sheard

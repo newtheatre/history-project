@@ -6,6 +6,8 @@ period: Spring
 venue: New Theatre Studio A
 date_start: 2018-06-16
 company: Poetry is Dead Good 
+
+crew_incomplete: false
   
 cast: 
 - role: Host

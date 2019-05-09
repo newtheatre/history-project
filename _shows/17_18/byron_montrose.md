@@ -7,6 +7,8 @@ period: Spring
 venue: New Theatre
 date_start: 2018-06-17
 
+crew_incomplete: false
+
 cast:
 - role: Byron Montrose 
   name: Ben Macpherson 

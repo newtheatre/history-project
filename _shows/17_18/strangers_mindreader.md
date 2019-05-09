@@ -8,6 +8,8 @@ venue: New Theatre Studio A
 date_start: 2018-06-16
 company: Strickland Productions
 
+crew_incomplete: false
+
 cast:
 - role: Performer
   name: Joe Strickland

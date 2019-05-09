@@ -9,6 +9,8 @@ date_start: 2016-05-25
 date_end: 2016-05-28
 venue: New Theatre
 
+crew_incomplete: false
+
 assets:
   - type: poster
     image: ktTHpqC

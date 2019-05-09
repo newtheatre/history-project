@@ -7,6 +7,8 @@ season_sort: 530
 date_start: 2017-06-21
 venue: New Theatre Studio A
 
+crew_incomplete: false
+
 assets:
   - type: poster
     image: SmD2mst

@@ -7,6 +7,8 @@ season_sort: 470
 date_start: 2017-06-20
 venue: New Theatre
 
+crew_incomplete: false
+
 assets:
   - type: poster
     image: 5Xqdwb9

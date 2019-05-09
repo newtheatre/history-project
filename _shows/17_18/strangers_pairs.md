@@ -9,6 +9,8 @@ venue: New Theatre
 date_start: 2018-06-17
 company: Strickland Productions
 
+crew_incomplete: false
+
 cast:
 - role: Survivor 1
   name: Eric Crouch

@@ -8,6 +8,8 @@ date_start: 2017-01-29
 date_end: 2017-02-01
 venue: New Theatre
 
+crew_incomplete: false
+
 cast:
 - name: Jamie Drew
 - name: Leora Gerson

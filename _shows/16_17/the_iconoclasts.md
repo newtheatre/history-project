@@ -7,6 +7,8 @@ season_sort: 560
 date_start: 2017-06-21
 venue: New Theatre 
 
+crew_incomplete: false
+
 prod_shots: qv4V2r
 
 assets:

@@ -8,10 +8,12 @@ season_sort: 500
 date_start: 2016-06-15
 venue: New Theatre Studio A
 
+crew_incomplete: false
+
 assets:
   - type: poster
     image: znrcT3t
-    
+
 crew:
   - role: Technical Director
     name: Sam Osborne

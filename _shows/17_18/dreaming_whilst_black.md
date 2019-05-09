@@ -1,11 +1,14 @@
 ---
 title: Dreaming Whilst Black
+playwright: Adjani Salmon and Ali Hughes
 season: StuFF
 season_sort: 450
 period: Spring
 venue: New Theatre
 date_start: 2018-06-16
 company: 4 Quarter Films
+
+crew_incomplete: false
   
 crew:
 - role: Director and Producer
