@@ -125,16 +125,9 @@ module Jekyll
       # "shows/#{show.data['year']}/#{show.basename_without_ext}.html"
     end
 
-    IGNORE_MISSING_IN_SEASONS = [
-      'External',
-      'Postgrads',
-      'STUFF',
-      'StuFF',
-    ]
-
-    def ignore_missing(show)
+    def ignore_missing(show, seasons)
       # Should we ignore most errors on this show record?
-      IGNORE_MISSING_IN_SEASONS.include? show.data['season']
+      seasons.include? show.data['season']
     end
 
     def generate_show_pls(show, key)
@@ -214,7 +207,7 @@ module Jekyll
       end
 
       # Set ignore_missing if not already
-      show.data["ignore_missing"] ||= ignore_missing(show)
+      show.data["ignore_missing"] ||= ignore_missing(show, @site.config["ignore_missing_in_seasons"])
     end
 
     def sort_shows(shows)
