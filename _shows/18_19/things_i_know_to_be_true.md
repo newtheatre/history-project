@@ -56,6 +56,8 @@ crew:
   person: false
 - role: Lighting Designer
   name: Emma Barber
+- role: Assistant Lighting Designer
+  name: Laura Wolczyk
 - role: Sound Designer
   name: Rohanna Brown
 - role: Photographer
