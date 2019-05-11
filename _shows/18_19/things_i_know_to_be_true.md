@@ -43,6 +43,12 @@ crew:
   name: Francesca Ashby
 - role: Set Construction
   name: Jack Ellis
+- role: Set Construction
+  name: Laura Wolczyk
+- role: Set Construction
+  name: Nadia Elalfi
+- role: Set Construction
+  name: Sam Morris
 - role: Photography Assistant
   name: Zoe Robinson
 - role: Technical Director
