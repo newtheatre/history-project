@@ -60,6 +60,8 @@ crew:
   name: Laura Wolczyk
 - role: Sound Designer
   name: Rohanna Brown
+- role: Assistant Sound Designer
+  name: Emma Barber
 - role: Photographer
   name: Yifei Wang
   person: false
