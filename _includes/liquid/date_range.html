@@ -1,1 +1,16 @@
-{% capture month_start %}{{ show.date_start | date: "%B" }}{% endcapture %}{% capture month_end %}{{ show.date_end | date: "%B" }}{% endcapture %}{% if month_start == month_end %}{{ show.date_start | date: "%-d" }}{% if show.date_end %}&ndash;{{ show.date_end | date: "%-d %B" }}{% endif %}{% else %}{{ show.date_start | date: "%-d %B" }}{% if show.date_end %}&ndash;{{ show.date_end | date: "%-d %B" }}{% endif %}{% endif %} {{ show.date_start | date: "%Y" }}
+{%- capture month_start -%}
+	{{- show.date_start | date: "%B" -}}
+{%- endcapture -%}
+{%- capture month_end -%}
+	{{- show.date_end | date: "%B" -}}
+{%- endcapture -%}
+{%- if show.date_start == show.date_end -%}
+	{{- show.date_start | date: "%-d %B %Y" -}}
+{%- else -%}
+	{%- if month_start == month_end -%}
+		{{- show.date_start | date: "%-d" -}}
+	{%- else -%}
+		{{- show.date_start | date: "%-d %B" -}}
+	{%- endif -%} 
+	{%- if show.date_end -%}&ndash;{{- show.date_end | date: "%-d %B" -}}{%- endif -%}&nbsp;{{- show.date_start | date: "%Y" -}}
+{%- endif -%}
