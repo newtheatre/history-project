@@ -52,8 +52,7 @@ crew:
 - role: Photography Assistant
   name: Zoe Robinson
 - role: Technical Director
-  name: TBD
-  person: false
+  name: Izzy de Bono
 - role: Lighting Designer
   name: Emma Barber
 - role: Assistant Lighting Designer
