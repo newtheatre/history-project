@@ -41,7 +41,7 @@ crew:
 - role: Publicity Manager
   name: Gabriella Teriaca
 - role: Set Designer
-  name: Ellie Castano
+  name: Ellie Castaño
 - role: Composer
   name: Martin Tomlinson
 
