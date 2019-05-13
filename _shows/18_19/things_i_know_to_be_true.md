@@ -61,6 +61,8 @@ crew:
   name: Rohanna Brown
 - role: Assistant Sound Designer
   name: Emma Barber
+- role: Poster Designer
+  name: Rohan Rakhit
 - role: Photographer
   name: Yifei Wang
   person: false
