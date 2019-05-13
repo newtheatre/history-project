@@ -9,6 +9,8 @@ date_start: 1972-06-28
 date_end: 1972-07-01
 season_sort: 250
 
+crew_incomplete: false
+
 cast:
 - role: Titus
   name: Stuart Pearson

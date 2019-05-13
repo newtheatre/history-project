@@ -8,6 +8,8 @@ season_sort: 490
 date_start: 2017-06-20
 venue: New Theatre
 
+crew_incomplete: false
+
 prod_shots: Hw5NRq
 
 assets:
@@ -19,19 +21,18 @@ links:
     href: http://www.impactnottingham.com/2017/06/stuff-day-1-tuesday-20th-june-nnt/
     snapshot: aRiSq
     publisher: Impact Nottingham
-    author: Daniel McVey 
+    author: Daniel McVey
     title: "StuFF Day 1: Tuesday 20th June @ NNT"
     date: 2017-03-23
     rating: 7/10
     quote: "['Debris'] cleverly used symbolism and imagery [... and ...] worked best in the scenes where the audience were directly used."
 
-cast: 
-  - name: Louise White
-    role: Louise White
-    person: false 
+cast:
+  - role: Louise White
+    person: false
 
 crew:
-  - role: Venue Technician  
+  - role: Venue Technician
     name: Nathan
 
 ---

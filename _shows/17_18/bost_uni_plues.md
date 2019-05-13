@@ -6,6 +6,8 @@ period: Spring
 venue: New Theatre Studio A
 date_start: 2018-06-17
 company: Ugly Bucket Theatre
+
+crew_incomplete: false
   
 cast:
 - role: The Little One

@@ -8,6 +8,8 @@ date_start: 2016-02-10
 date_end: 2016-02-13
 venue: New Theatre
 
+crew_incomplete: false
+
 assets:
   - type: poster
     image: ks349x7

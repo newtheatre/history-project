@@ -8,6 +8,8 @@ date_start: 1972-06-28
 date_end: 1972-07-01
 season_sort: 240
 
+crew_incomplete: false
+
 crew:
 - role: Director
   name: Judith Fabian

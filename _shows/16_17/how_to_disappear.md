@@ -8,6 +8,8 @@ venue: New Theatre
 date_start: 2017-05-24
 date_end: 2017-05-27
 
+crew_incomplete: false
+
 crew:
 - role: Lighting Designer
   name: Joseph Heil

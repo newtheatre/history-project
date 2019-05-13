@@ -8,6 +8,8 @@ date_start: 2018-01-29
 date_end: 2018-02-02
 venue: New Theatre
 
+crew_incomplete: false
+
 cast:
 - name: Ian Sheard
 - name: Lara Cowler

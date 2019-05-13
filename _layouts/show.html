@@ -253,22 +253,24 @@ body_class: section-archives layout-show
         {% include person_list.html people=show.cast enable_role_icons=false %}
       {% endif %}
     </section>
-    <section class="show-crew debug-container">
-      <div class="debug-abs-top-left" data-debug-toggle title="Nunber of crew">{{ show.crew.size }}</div>
-      {% unless show.ignore_missing and show.crew.size == null %}<h3>Crew</h3>{% endunless %}
-      {% if show.crew.size < site.show_low_crew or show.crew_incomplete == true %}
-        {% unless show.ignore_missing %}
-          {% include boxes/show_crew_short.html crew_note=show.crew_note %}        
-        {% endunless %}
-      {% endif %}
-      {% if show.crew == null %}
-        {% unless show.ignore_missing %}
-          {% include boxes/show_crew_missing.html %}
-        {% endunless %}
-      {% else %}
-        {% include person_list.html people=show.crew enable_role_icons=true %}
-      {% endif %}
-    </section>
+    {% unless show.crew_incomplete == false and show.crew.size == null %}
+      <section class="show-crew debug-container">
+        <div class="debug-abs-top-left" data-debug-toggle title="Nunber of crew">{{ show.crew.size }}</div>
+        {% unless show.ignore_missing and show.crew.size == null %}<h3>Crew</h3>{% endunless %}
+        {% if show.crew.size < site.show_low_crew or show.crew_incomplete == true %}
+          {% unless show.ignore_missing or show.crew_incomplete == false %}
+            {% include boxes/show_crew_short.html crew_note=show.crew_note %}        
+          {% endunless %}
+        {% endif %}
+        {% if show.crew == null %}
+          {% unless show.ignore_missing %}
+            {% include boxes/show_crew_missing.html %}
+          {% endunless %}
+        {% else %}
+          {% include person_list.html people=show.crew enable_role_icons=true %}
+        {% endif %}
+      </section>
+    {% endunless %}
   </div>
 
 </div>

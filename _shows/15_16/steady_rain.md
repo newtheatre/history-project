@@ -8,6 +8,8 @@ date_start: 2016-05-30
 date_end: 2016-05-31
 venue: New Theatre Studio A
 
+crew_incomplete: false
+
 assets:
   - type: poster
     image: X5V8pJR

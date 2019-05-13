@@ -182,7 +182,7 @@
 - attr: crew_incomplete 
   type: boolean 
   short: Incomplete Crew 
-  description: Enforces the 'Missing Details' box to appear regardless of crew size (automatically appears when there are fewer than 5 crew).
+  description: Enforces the 'Missing Details' box to appear regardless of crew size (automatically appears when there are fewer than 5 crew). Suppress automatic behaviour by setting `false`.
 
 - attr: crew_note 
   type: string 

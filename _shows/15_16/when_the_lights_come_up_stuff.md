@@ -7,6 +7,8 @@ season_sort: 460
 date_start: 2016-06-14
 venue: New Theatre
 
+crew_incomplete: false
+
 assets:
   - type: poster
     image: 4DQ4j87
