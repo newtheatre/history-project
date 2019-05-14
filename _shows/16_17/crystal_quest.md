@@ -10,7 +10,7 @@ date_start: 2017-06-11
 date_end: 2017-06-12
 
 trivia:
-  - quote: Full credit to Arthur McKechnie, navigating between multiple cue lists for every possible outcome of the quest.
+  - quote: Full credit to Arthur Mckechnie, navigating between multiple cue lists for every possible outcome of the quest.
     name: Ben Woodford
     submitted: 2017-11-06
 

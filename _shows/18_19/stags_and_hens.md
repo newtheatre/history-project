@@ -24,7 +24,7 @@ cast:
 - role: Robbie
   name: Jack Ellis
 - role: Kav
-  name: Arthur McKechnie
+  name: Arthur Mckechnie
 - role: Billy
   name: Jonny Khan
 - role: Peter
