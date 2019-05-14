@@ -49,9 +49,9 @@ crew:
 - role: Poster Designer
   name: Christina Scullion
 
-#assets:
-#  - type:
-#    image:
+assets:
+  - type: poster
+    image: bfLPQqC
 #  - type:
 #    video:
 #    title:
