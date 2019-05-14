@@ -67,9 +67,9 @@ crew:
   name: Yifei Wang
   person: false
 
-#assets:
-#  - type:
-#    image:
+assets:
+  - type: poster
+    image: S58xxD9
 #  - type:
 #    video:
 #    title:
