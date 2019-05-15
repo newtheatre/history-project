@@ -66,7 +66,7 @@ links:
     publisher: Kev Castle Reviews
     title: "\"Forgetfulness Therapy\" by Emma Collingwood"
     date: 2019-05-14
-    quote: "Little things make all the difference so thanks for looking after the little things which added to the realism of this piece of theatre.
+    quote: "Little things make all the difference so thanks for looking after the little things which added to the realism of this piece of theatre."
 
 ---
 
