@@ -59,16 +59,14 @@ assets:
 #prod_shots:
 #   Use this - https://history.newtheatre.org.uk/util/smug-albums/
 #
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+links:
+  - type: review
+    href: http://kevcastletheatrereviews.blogspot.com/2019/05/forgetfulness-therapy-by-emma.html
+    snapshot: MJsXh
+    publisher: Kev Castle Reviews
+    title: "\"Forgetfulness Therapy\" by Emma Collingwood"
+    date: 2019-05-14
+    quote: "Little things make all the difference so thanks for looking after the little things which added to the realism of this piece of theatre.
 
 ---
 
