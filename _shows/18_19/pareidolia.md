@@ -30,6 +30,8 @@ crew:
 assets:
   - type: poster
     image: TKZVcV3
+    
+prod_shots: k23Vn7
 
 ---
 
