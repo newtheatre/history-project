@@ -89,16 +89,15 @@ assets:
 #prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.com/2019/05/things-i-know-to-be-true-by-andrew.html
+    snapshot: kUlaq
+    publisher: Kev Castle Reviews
+    title: "\"Things I Know To Be True\" by Andrew Bovell
+    date: 2019-05-18
+    quote: "Andrew Bovell has written an incredibly emotive piece of work and this brilliant cast and crew have done the script and author a great credit. Not only that but you managed to make my eyes leak. Something that not even \"Blood Brothers\" or \"Bare - A Pop Opera\" managed to do."
+
 
 ---
 
