@@ -63,6 +63,18 @@ crew:
   name: Emma Barber
 - role: Poster Designer
   name: Rohan Rakhit
+- role: Technical Operator
+  name: Cecilia Alexander
+- role: Technical Operator
+  name: Adam Frankland
+- role: Technical Operator
+  name: Emma Barber
+- role: Technical Operator
+  name: Rachel Elphick
+- role: Technical Operator
+  name: Martin Tomlinson
+- role: Technical Operator
+  name: Jack Ellis
 - role: Photographer
   name: Yifei Wang
   person: false
