@@ -70,12 +70,9 @@ crew:
 - role: Marketing Assistant
   name: Charlotte Aikens
 
-# assets:
-#   - type:
-#     image:
-#   - type:
-#     video:
-#     title: 
+assets:
+  - type: poster
+    image: 8dh5vRD
 
 prod_shots: QdqHnk
 
