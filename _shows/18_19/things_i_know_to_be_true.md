@@ -3,7 +3,7 @@ title: Things I Know To Be True
 playwright: Andrew Bovell
 period: Spring
 season: In House
-season_sort: 350
+season_sort: 370
 date_start: 2019-05-15
 date_end: 2019-05-18
 venue: New Theatre
