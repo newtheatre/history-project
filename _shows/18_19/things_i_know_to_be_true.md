@@ -82,12 +82,6 @@ crew:
 assets:
   - type: poster
     image: S58xxD9
-#  - type:
-#    video:
-#    title:
-
-#prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
 links:
   - type: Review
