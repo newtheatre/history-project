@@ -8,6 +8,11 @@ date_start: 2019-05-15
 date_end: 2019-05-18
 venue: New Theatre
 
+trivia:
+- quote: The set was made up for both artificial and real plants for the garden which was only seen for one scene of the show. The real plants were then given to the cast and crew as gifts.
+  name: Izzy de Bono
+  submitted: 2019-05-21
+
 cast:
 - role: Bob
   name: Jack Linley
