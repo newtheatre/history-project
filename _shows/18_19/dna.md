@@ -79,6 +79,16 @@ links:
     publisher: Nottingham Lakeside Arts
     title: "DNA by Dennis Kelly"
     date: 2019-05-01
+  - type: Review
+    href: https://impactnottingham.com/2019/05/dna-lakeside-arts/
+    snapshot: 5UC9B
+    publisher: Impact Nottingham
+    author: Phoebe Raine
+    title: "DNA @ LAKESIDE ARTS"
+    date: 2019-05-18
+    rating: 8/10
+    quote: "This production is an interesting psychological experience and contained a good balance of humour and intensity. It is definitely a piece to be proud of for the effort and attention to detail."
+
 
 ---
 
