@@ -17,7 +17,7 @@
 - attr: person
   type: boolean
   short: Is an NT member?
-  description: "Defaults to `true`. Set to `false` for items that are not NT people, e.g. Companies, Departments, Externals… When `false` prevents the creation of a [person record](/docs/person/)."
+  description: "Defaults to `true`. Set to `false` for items that are not NT people, e.g. Companies, Departments, Externals… Setting as `false` prevents the creation of a [person record](/docs/person/)."
 
 - attr: comment
   type: string

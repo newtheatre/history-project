@@ -138,3 +138,9 @@ For crew, someone taking on multiple roles are listed as separate entries.
 - role: Technical Director 
   name: Jane Doe 
 {% endhighlight %}
+
+#### Ordering of Names
+
+When adding cast to a show file, best practice is to put them in the order they are found in the relevant show's Programme.
+
+When adding crew to a show file, there is a standard order in which roles are listed. This can be found in the skeleton show file.
