@@ -86,6 +86,11 @@ crew:
 - role: Lighting Designer
   name: Nicola Franchini
   person: false
+- role: Lighting Designer
+  name: Lorenzo Bordin
+  person: false
+- role: Lighting Designer
+  name: Zoe Smith
 - role: Music
   name: Pete Iwanciw
   person: false
@@ -95,10 +100,10 @@ crew:
 - role: Music
   name: Giulia Grisot
   person: false
-- role: Tech Box and Sound Effects
+- role: Technical Operator
   name: Lorenzo Bordin
   person: false
-- role: Tech Box and Sound Effects
+- role: Technical Operator
   name: Maria Trombini
   person: false
 - role: Choreographer
