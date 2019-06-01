@@ -120,7 +120,7 @@ crew:
   person: false
 
 assets:
-  - type: Poster
+  - type: poster
     image: 3Wtt5kq
 
 # prod_shots:
