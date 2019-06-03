@@ -52,13 +52,9 @@ crew:
 assets:
   - type: poster
     image: bfLPQqC
-#  - type:
-#    video:
-#    title:
-#
-#prod_shots:
-#   Use this - https://history.newtheatre.org.uk/util/smug-albums/
-#
+
+prod_shots: kbJDjx
+
 links:
   - type: review
     href: http://kevcastletheatrereviews.blogspot.com/2019/05/forgetfulness-therapy-by-emma.html
