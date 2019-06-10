@@ -35,7 +35,7 @@ crew:
 - role: Lighting Designer
   name: Sam Osborne
 - role: Sound Designer
-  name: Tara Prasad
+  name: Tara Anegada
 - role: Poster Designer
   name: Beth Wilson
 

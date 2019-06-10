@@ -48,7 +48,7 @@ crew:
 - role: Make-Up Assistant
   name: Rachael Baines
 - role: Make-Up Assistant
-  name: Tara Prasad
+  name: Tara Anegada
 - role: Make-Up Assistant
   name: Sandra Jareno Ripoll
 - role: Set Designer

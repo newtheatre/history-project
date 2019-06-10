@@ -23,11 +23,11 @@ crew:
 - role: Director
   name: Alex Levy
 - role: Producer
-  name: Tara Prasad
+  name: Tara Anegada
 - role: Producer
   name: Rohan Rakhit
 - role: Technical Director
-  name: Tara Prasad
+  name: Tara Anegada
 - role: Assistant Director
   name: Rohan Rakhit
 - role: Poster Designer

@@ -37,7 +37,7 @@ crew:
 - role: Lighting Designer
   name: Andrew Houghton
 - role: Sound Designer
-  name: Tara Prasad
+  name: Tara Anegada
 - role: Video Designer
   name: Zoe Smith
 - role: Lead Designer
