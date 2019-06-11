@@ -42,6 +42,8 @@ crew:
   name: Sarah Richardson
 - role: Technical Director
   name: Nathan
+- role: Assistant Technical Director
+  name: Izzy de Bono
 - role: Lighting Designer
   name: Laura Wolczyk
 - role: Sound Designer
