@@ -51,6 +51,8 @@ crew:
   name: Daniel McVey
 - role: Stage Manager
   name: Yasmine Dankwah
+- role: Stage Manager
+  name: Charlie Basley
 - role: Technical Operator
   name: Arthur Mckechnie
 - role: Technical Operator
