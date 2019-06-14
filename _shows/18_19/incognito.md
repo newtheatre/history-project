@@ -57,14 +57,23 @@ crew:
   name: Oliver Binns
 - role: Publicity Assistant
   name: Rosiella Sutherland
+- role: Make-up Assistant
+  name: Charlie Basley
+- role: Make-up Assistant
+  name: Amy Crighton
+- role: Technical Operator
+  name: Sam Osborne
+- role: Technical Operator
+  name: Adam Frankland 
 
-#assets:
-#  - type:
-#    image:
-#  - type:
-#    video:
-#    title:
-#
+assets:
+  - type: programme
+    title: Incognito Programme
+    filename: incognito-programme.pdf
+  - type: poster
+    image: Wxc87xj
+  # To add: BTS Video
+
 #prod_shots:
 #  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 #
