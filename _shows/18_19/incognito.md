@@ -23,14 +23,33 @@ cast:
   name: Jacob Gausden
 - role: Ben / Michael
   name: Morgan Beale
-- role: Anthony / Otto
+- role: Anthony / Otto / Richard
   name: Tejas Dattani
-- role: Margaret / Sharon / Anna
+  note: Richard Wed, Thu
+- role: Margaret / Sharon / Anna / Brenda
   name: Jessica Staplehurst
+  note: Brenda Wed, Thu
 - role: Elouise / Evelyn
   name: Lucy Chandler
 - role: Lisa-Scott
   name: Abigail Platt
+- role: Brenda
+  name: Jess Donn
+  note: Cameo, Friday
+- role: Richard
+  name: Daniel McVey
+- role: Brenda
+  name: Boo Jackson
+  note: Cameo, Saturday Matinee
+- role: Richard
+  name: Arthur Mckechnie
+  note: Cameo, Saturday Matinee
+- role: Brenda
+  name: Maddy Strauss
+  note: Cameo, Saturday Evening
+- role: Richard
+  name: George Waring
+  note: Cameo, Saturday Evening
 
 crew:
 - role: Director
@@ -65,6 +84,12 @@ crew:
   name: Sam Osborne
 - role: Technical Operator
   name: Adam Frankland 
+- role: Technical Operator
+  name: Izzy de Bono
+- role: Technical Operator
+  name: Rachel Elphick
+- role: Technical Operator
+  name: Skylar Turnbull Hurd
 
 assets:
   - type: programme
