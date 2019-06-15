@@ -46,7 +46,7 @@ crew:
 - role: Lighting Designer
   name: Nadia Elalfi
 - role: Sound Designer
-  name: Tara Prasad
+  name: Tara Anegada
 - role: Sound Designer
   name: Rupert Galea
 - role: Video Designer
@@ -62,7 +62,7 @@ crew:
 - role: Technical Operator
   name: Florence Bell
 - role: Technical Operator
-  name: Tara Prasad
+  name: Tara Anegada
 - role: Technical Operator
   name: Nadia Elalfi
 - role: Technical Operator

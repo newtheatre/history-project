@@ -39,7 +39,7 @@ crew:
 - role: Lighting Designer
   name: Nadia Elalfi
 - role: Sound Designer
-  name: Tara Prasad
+  name: Tara Anegada
 - role: Set Designer
   name: Joe Strickland
 - role: Poster Designer

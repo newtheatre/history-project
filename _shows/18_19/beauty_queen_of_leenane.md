@@ -30,7 +30,7 @@ crew:
 - role: Producer
   name: Alice Walker
 - role: Assistant Director
-  name: Laura Finkch
+  name: Laura Finckh
 - role: Production Assistant
   name: Caitlin Masterson
 - role: Set Designer

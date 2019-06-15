@@ -41,7 +41,7 @@ crew:
 - role: Technical Director
   name: Ellen Dennis
 - role: Lighting Designer
-  name: Tara Prasad
+  name: Tara Anegada
 - role: Sound Designer
   name: Zoe Smith
 - role: Set Designer

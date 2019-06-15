@@ -35,7 +35,7 @@ crew:
 - role: Videographer
   name: Jonathan Taylor Davies
 - role: Technical Operator
-  name: Tara Prasad
+  name: Tara Anegada
 - role: Technical Operator
   name: Sam Osborne
 - role: Technical Operator

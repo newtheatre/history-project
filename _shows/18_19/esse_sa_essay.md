@@ -27,7 +27,7 @@ crew:
   - role: Lighting Designer
     name: Laura Wolczyk
   - role: Sound Designer
-    name: Tara Prasad
+    name: Tara Anegada
   - role: Video Designer
     name: Zoe Smith
   - role: Shadow Director

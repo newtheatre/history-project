@@ -26,7 +26,7 @@ crew:
 - role: Lighting Designer
   name: Ed Eggleton
 - role: Sound Designer
-  name: Tara Prasad
+  name: Tara Anegada
 - role: Set Designer
   name: Joe Strickland
 - role: Hair and Make-Up

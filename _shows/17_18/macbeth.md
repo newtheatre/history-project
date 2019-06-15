@@ -50,7 +50,7 @@ crew:
 - role: Technical Director
   name: Rohanna Brown
 - role: Sound Designer
-  name: Tara Prasad
+  name: Tara Anegada
 - role: Lighting Designer
   name: Zoe Smith
 - role: Technical Assistant
