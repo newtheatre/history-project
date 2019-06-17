@@ -29,4 +29,6 @@ crew:
 
 ---
 
-Join Jack Ellis and Ian Sheard as they stumble through a series of improv games, occasionally in the dark.
+Watch Jack and Ian as they perform various improvised scenes as suggested by audience members.
+
+Do not seek any sort of narrative or sense in this play, for it exists Through No Fault of Our Own (hence the name).
