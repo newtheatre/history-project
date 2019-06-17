@@ -22,9 +22,9 @@ crew:
 - role: Venue Technician
   name: Miguel Barrulas
 
-#assets:
-#  - type:
-#    image:
+assets:
+  - type: poster
+    image: zX4VsHX
 #prod_shots:
 
 ---
