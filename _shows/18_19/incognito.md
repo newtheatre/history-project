@@ -102,16 +102,14 @@ assets:
 #prod_shots:
 #  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 #
-#links:
-#  - type:
-#    href:
-#    snapshot:
-#    publisher:
-#    author:
-#    title: ""
-#    date:
-#    rating:
-#    quote:
+links:
+  - type: Review
+    href: http://kevcastletheatrereviews.blogspot.com/2019/06/incognito-by-nick-payne-nottingham-new.html
+    snapshot: iDD0k
+    publisher: Kev Castle Reviews
+    title: "'Incognito' by Nick Payne"
+    date: 2019-06-15
+    quote: "Intense and fascinating, and another educational visit to the New Theatre for me, which made me come away with plenty to think about."
 
 ---
 
