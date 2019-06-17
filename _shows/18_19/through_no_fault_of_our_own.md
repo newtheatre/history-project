@@ -20,7 +20,7 @@ crew:
 - role: Tech Antagonist
   name: Joanne Blunt
 - role: Venue Technician
-  name: Miguel Barrulas
+  name: Adam Frankland
 
 assets:
   - type: poster
