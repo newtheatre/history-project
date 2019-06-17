@@ -1,0 +1,32 @@
+---
+title: Through No Fault Of Our Own
+period: Spring
+season: StuFF
+season_sort: 450
+date_start: 2019-06-17
+date_end: 2019-06-17
+venue: New Theatre Studio A
+
+trivia:
+  - quote: "Ian and I agreed to do this show on 2 and a half hour's notice, with me not having improvised since 2016."
+
+cast:
+- name: Jack Ellis
+- name: Ian Sheard
+
+crew:
+- role: Tech Antagonist
+  name: Izzy de Bono
+- role: Tech Antagonist
+  name: Joanne Blunt
+- role: Venue Technician
+  name: Miguel Barrulas
+
+#assets:
+#  - type:
+#    image:
+#prod_shots:
+
+---
+
+Join Jack Ellis and Ian Sheard as they stumble through a series of improv games, occasionally in the dark.
