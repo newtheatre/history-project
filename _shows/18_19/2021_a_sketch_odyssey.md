@@ -1,5 +1,5 @@
 ---
-title: 2021: A Sketch Odyssey
+title: "2021: A Sketch Odyssey"
 playwright: Jamie Drew, Sam Marshall, and Joe Hadley
 company: Hideout Productions
 period: Spring
