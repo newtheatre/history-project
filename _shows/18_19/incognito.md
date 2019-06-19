@@ -38,6 +38,7 @@ cast:
   note: Cameo, Friday
 - role: Richard
   name: Daniel McVey
+  note: Cameo, Friday
 - role: Brenda
   name: Boo Jackson
   note: Cameo, Saturday Matinee
@@ -88,8 +89,6 @@ crew:
   name: Izzy de Bono
 - role: Technical Operator
   name: Rachel Elphick
-- role: Technical Operator
-  name: Skylar Turnbull Hurd
 
 assets:
   - type: programme
