@@ -1,5 +1,5 @@
 ---
-title: Franz and Marie\: Woyzeck Retold
+title: "Franz and Marie: Woyzeck Retold"
 playwright: Daniel McVey
 student_written: true
 period: Spring
