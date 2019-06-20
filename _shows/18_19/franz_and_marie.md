@@ -35,7 +35,7 @@ assets:
   - type: poster
     image: ZSNh3W6
 
-# prod_shots:
+prod_shots: dsZTJQ
 
 ---
 
