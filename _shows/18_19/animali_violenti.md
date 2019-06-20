@@ -22,7 +22,7 @@ assets:
   - type: poster
     image: TjWKFZF	
 
-# prod_shots:
+prod_shots: jvwTMr
 
 ---
 
