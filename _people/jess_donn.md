@@ -5,4 +5,5 @@ course:
   - Computer Science BSci
   - Human Computer Interaction MSci
 submitted: false
+award: Fellowship
 ---

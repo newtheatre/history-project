@@ -5,6 +5,7 @@ headshot: dLq4fHz
 gender: male
 course:
   - Computer Science MSc
+award: Fellowship
 links:
   - type: Twitter
     username: GingertronMk1
