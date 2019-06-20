@@ -9,6 +9,7 @@ venue: New Theatre Studio A
 
 trivia:
   - quote: "Ian and I agreed to do this show on 2 and a half hour's notice, with me not having improvised since 2016."
+    name: Jack Ellis
 
 cast:
 - name: Jack Ellis
