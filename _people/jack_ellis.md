@@ -11,6 +11,7 @@ links:
     username: GingertronMk1
   - type: Instagram
     username: GingertronMk1
+graduated: 2019
 ---
 
 My first experience of the NNT was performing here in the long-form Improv slot in my first year, it seemed nice enough but I was busy with an improv troupe, so I gave it a miss for then.
