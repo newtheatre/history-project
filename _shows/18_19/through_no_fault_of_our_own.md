@@ -25,7 +25,8 @@ crew:
 assets:
   - type: poster
     image: zX4VsHX
-#prod_shots:
+
+prod_shots: nBk2kd
 
 ---
 
