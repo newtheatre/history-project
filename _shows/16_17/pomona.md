@@ -94,7 +94,7 @@ links:
     quote: "It may look organised on the surface – characters marching in rows in the shopping centre – but there is a primal, visceral underworld that holds all the power. Strauss makes sure we are on the edge of our seats throughout the play; even if we’re laughing it’s still bloody unnerving."
 
 trivia:
-  - quote: The moment that sticks out here is when I plotted the opening sequence alone, and upon running it with the cast they all broke character and went \"SICK!\" as the lights started flashing in time to the music. 
+  - quote: The moment that sticks out here is when I plotted the opening sequence alone, and upon running it with the cast they all broke character and went "SICK!" as the lights started flashing in time to the music. 
     name: Sam Osborne
     submitted: 2019-06-25
 
