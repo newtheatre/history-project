@@ -26,8 +26,10 @@ crew:
   name: Daniel McVey
 - role: Producer
   name: Jess Donn
+- role: Technician
+  name: Adam Frankland
 - role: Show Technician
-  name: Nadia Elalfi
+  name: Luwa Adebanjo
 - role: Technical Operator
   name: Jess Donn
 

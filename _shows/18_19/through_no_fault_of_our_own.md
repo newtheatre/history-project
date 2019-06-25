@@ -20,8 +20,8 @@ crew:
   name: Izzy de Bono
 - role: Tech Antagonist
   name: Joanne Blunt
-- role: Venue Technician
-  name: Adam Frankland
+- role: Changeover Technician
+  name: Martin Tomlinson
 
 assets:
   - type: poster

@@ -28,7 +28,7 @@ crew:
   name: Jack Ellis
 - role: Poster Designer
   name: Jack Ellis
-- role: Venue Technician
+- role: Changeover Technician
   name: Nadia Elalfi
 
 assets:

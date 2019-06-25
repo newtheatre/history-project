@@ -20,6 +20,8 @@ crew:
   name: Jonny Khan
 - role: Producer
   name: Beth Carter
+- role: Lighting Designer
+  name: Sam Osborne
 - role: Show Technician
   name: Rachel Elphick
 - role: Technical Operator
