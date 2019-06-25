@@ -29,6 +29,8 @@ crew:
    name: Tom Selves
  - role: Lighting Designer
    name: Sam Osborne
+ - role: Video Designer
+   name: Sam Osborne
  - role: Poster Designer
    name: Max Miller
  - role: Publicity
@@ -57,6 +59,13 @@ links:
     date: 2016-06-08
     rating: 5/5
     quote: "With only two characters and two sets of lights, you’ll still find yourself drawn in from the onset of Roland and Marianne’s frankly very awkward introduction. "
+
+trivia:
+  - quote: Due to not-quite-right projector angles, the round, and running out of time, my proudest moment of a video design with constellations appearing and joining together with the storyline was never seen.
+    name: Sam Osborne
+    submitted: 2019-06-25
+
+
 ---
 
 Marianne and Roland meet at a BBQ, but Roland is in a relationship. Marianne and Roland meet at a BBQ, but Roland has got out of a relationship and isn’t ready for something new. Marianne and Roland meet at a BBQ, hit it off and start a relationship. Nick Payne’s brilliant play follows a romantic relationship through the lens of the quantum multiverse theory, showing the many permutations of how two people meet, fall in love, and break up. Constellations explores the ideas of fate, free will, and love, whilst questioning our preconceptions and expectations of how our romantic lives can play out.

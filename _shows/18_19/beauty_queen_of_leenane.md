@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: The Beauty Queen Of Leenane
 playwright: Martin McDonagh
 period: Autumn
@@ -77,8 +73,6 @@ assets:
 
 prod_shots: n76mCb
 
-#assets:
-
 links:
   - type: Review
     href: https://impactnottingham.com/2018/11/the-beauty-queen-of-leenane-nnt/
@@ -104,6 +98,11 @@ links:
     title: "Theatre Review: Nottingham New Theatre's The Beauty Queen of Leenane"
     date: 2018-11-26
     quote: "There was very little to fault with the production and I recommend it to anyone remotely interested about mental instability, family dynamics, and the complicated life of a small-town person."
+
+trivia:
+  - quote: By accident more than design, the gap in the hob happened to be just the exact size for the hazer to sit perfectly.
+    name: Sam Osborne
+    submitted: 2019-06-25
 
 ---
 
