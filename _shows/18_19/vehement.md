@@ -60,6 +60,9 @@ crew:
   - role: Set Designer
     name: Esther Butterworth
     note: Lieutenant
+  - role: Set Assistant
+    name: Sam Osborne
+    note: Lieutenant 
   - role: Costume Designer
     name: Sammy Ratcliffe
     note: First Mate
