@@ -28,7 +28,9 @@ crew:
   name: Nadia Elalfi
 - role: Sound Designer
   name: Yasmine Dankwah
-- role: Technical Operator
+- role: Changeover Technician
+  name: Martin Tomlinson
+- role: Show Technician
   name: Nadia Elalfi
 
 assets:

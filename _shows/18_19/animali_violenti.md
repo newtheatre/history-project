@@ -15,8 +15,10 @@ cast:
 - name: Rupert Galea
 
 crew:
-- role: Technical Operator
-  name: Tara Prasad
+- role: Changeover Technician
+  name: Jack Ellis 
+- role: Show Operator
+  name: Tara Anegada
 
 assets:
   - type: poster

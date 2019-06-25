@@ -11,8 +11,11 @@ venue: New Theatre
 
 cast:
 - name: Grace Gallagher
+  person: false
 - name: Crystal Quinney Barella
+  person: false
 - name: Canice Ward
+  person: false
 
 crew:
 - role: Director
@@ -24,7 +27,9 @@ crew:
 - role: Set Design
   name: Laura Lomax
   person: false
-- role: Technician
+- role: Changeover Technician
+  name: Tara Anegada 
+- role: Show Technician
   name: Rachael Smart
   person: false
 - role: Stage Manager

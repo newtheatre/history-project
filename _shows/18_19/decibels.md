@@ -11,20 +11,17 @@ venue: New Theatre Studio A
 cast:
 - role: Stephanie
   name: Elaine Fellows
+  person: false 
 
 crew:
 - role: Director
   name: Grace Taylor
 - role: Producer
   name: Joanne Blunt
-- role: Technical Operator
+- role: Show Technician
   name: Joanne Blunt
 - role: Venue Technician
-  name: Adam Frankland
-- role: Venue Technician
-  name: Tara Prasad
-- role: Venue Technician
-  name: Nadia Elalfi
+  name: Tara Anegada
 
 assets:
   - type: poster
