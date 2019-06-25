@@ -99,6 +99,8 @@ crew:
   name: Maggie Dorling
 - role: Poster Designer
   name: Ella Quinton
+- role: Photographer
+  name: Zoe Smith
 
 assets:
   - type: poster

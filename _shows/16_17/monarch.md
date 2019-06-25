@@ -39,6 +39,8 @@ crew:
   name: Joe Strickland
 - role: Poster Designer
   name: Emma Summerton
+- role: Photographer
+  name: Zoe Smith
 
 assets:
   - type: poster
