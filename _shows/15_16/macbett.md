@@ -141,6 +141,11 @@ links:
     date: 2015-12-02
     quote: "If you like your Shakespeare just a little different, a little more manic, a little left of centre, then this is the production to see. Alternatively, if you just want to see a good comedy presented by a very talented group of people, then this is also the production to see. Stick with it because it's worth it!"
 
+trivia:
+  - quote: "So, I'd love it if the vacuum cleaner could get louder on each subsequent use..." was the start of how we dimmed a hoover for this show...
+    name: Sam Osborne
+    submitted: 2019-06-25
+
 ---
 
 If Monty Python and Terry Gilliam did Shakespeare, it'd be something like this. Arguably, a lot of Shakespeare’s work conveys a message of power being an inherently corrupting force - Macbeth being a prime example. Ionesco (one of the most prominent avant-garde writers within ‘The Theatre of the Absurd’) wrote Macbett as a fond parody of Macbeth. Ionesco is not mocking Shakespeare, he is satirising war and government in this profoundly funny and profane depiction of human nature.

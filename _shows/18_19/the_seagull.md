@@ -94,6 +94,11 @@ links:
     date: 2019-03-28
     quote: "Chekhov may be a classic writer but can be misconstrued as a bit of a \"bum-acher\", but with this adaptation, NNT have injected new life, and fun, into an old play."
 
+trivia:
+  - quote: The way the theatre website displays synopses for shows was altered to be able to deal with the very niche use of URLs and italics in this show.
+    name: Sam Osborne
+    submitted: 2019-06-25
+
 ---
 
 The Seagull by Anton Chekhov. Circa 1895.
