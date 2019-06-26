@@ -9,6 +9,11 @@ date_start: 2019-03-17
 date_end: 2019-03-19
 venue: New Theatre Studio A
 
+trivia:
+  - quote: I don't know how the Housemartins' *Caravan of Love* became the show's unofficial anthem, it just sort of happened
+    name: Jack Ellis
+    submitted: 2019-06-26
+
 cast:
   - role: Adams
     name: Barney Hartwill
