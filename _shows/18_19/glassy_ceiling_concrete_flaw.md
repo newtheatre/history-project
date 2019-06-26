@@ -9,6 +9,11 @@ date_start: 2019-03-06
 date_end: 2019-03-09
 venue: New Theatre
 
+trivia:
+  - quote: I put the wheely flats together in 2 stages - the "skateboards" I made in the workshop earlier in the day and then the uprights and sheet wood faces I attached during the get-in, rolling around on a little wooden wheel board like a car mechanic cackling.
+    name: Jack Ellis
+    submitted: 2019-06-26
+
 cast:
 - role: Hannah
   name: Chrisa Roma
