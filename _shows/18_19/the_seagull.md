@@ -11,7 +11,6 @@ date_end: 2019-03-30
 venue: New Theatre
 
 trivia:
-  - quote: One of the sound effects was made by slamming an auditorium chair open.
 
 cast:
 - role: Irine
@@ -98,6 +97,12 @@ trivia:
   - quote: The way the theatre website displays synopses for shows was altered to be able to deal with the very niche use of URLs and italics in this show.
     name: Sam Osborne
     submitted: 2019-06-25
+  - quote: One of the sound effects was made by slamming an auditorium chair open.
+    name: Jack Ellis
+    submitted: 2019-03-30
+  - quote: In the matinee performance, Ciara and Olly added back a scene Florence had cut from the show and Hugo made the doctor Jewish.
+    name: Callum Walker
+    submitted: 2019-06-26
 
 ---
 
