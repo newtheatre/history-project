@@ -83,6 +83,8 @@ crew:
   name: Iona Hampson
 - role: Accent Coach
   name: Eric Crouch
+- role: Photographer
+  name: Zoe Smith
 
 assets:
   - type: poster
