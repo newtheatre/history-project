@@ -9,11 +9,6 @@ date_start: 2019-03-17
 date_end: 2019-03-19
 venue: New Theatre Studio A
 
-trivia:
-  - quote: I don't know how the Housemartins' *Caravan of Love* became the show's unofficial anthem, it just sort of happened
-    name: Jack Ellis
-    submitted: 2019-06-26
-
 cast:
   - role: Adams
     name: Barney Hartwill
@@ -83,6 +78,9 @@ trivia:
   - quote: Nadia Elalfi (geneticist) was consulted through the writing process to ensure the remarks about the sexual cycle of flies was scientifically inaccurate.
     name: Sam Osborne
     submitted: 2019-03-28
+  - quote: I don't know how the Housemartins' *Caravan of Love* became the show's unofficial anthem, it just sort of happened
+    name: Jack Ellis
+    submitted: 2019-06-26
 
 links:
   - type: Review
