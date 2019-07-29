@@ -83,6 +83,9 @@ links:
     quote: "The set for Skylight allowed not only a heightened realism to be established, but also was essential for creating a physical contrast within the play. Upon entering the theatre, the set immediately catches one’s eye. The detail and meticulous nature in which the props have been placed was a factor in favour of the production, and Joe Strickland, as set designer, did an exceptional job. "
 
 trivia:
+  - quote: Spaghetti bolognese was cooked live on stage during the show by Libby Boyd (Kyra) with the help of an electric hotplate.
+    name: Tom Proffitt
+    submitted: 2019-05-26
   - quote: Wanted to show the passage of time with the scene slowly getting more into dusk. Just picked four equally spaced points in the script and told Ross that anywhere within that page would do.
     name: Sam Osborne
     submitted: 2019-06-25
