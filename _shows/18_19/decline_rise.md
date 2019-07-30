@@ -28,9 +28,9 @@ crew:
 - role: Show Technician
   name: Tara Anegada 
 
-# assets:
-#   - type: poster
-#     image:  
+assets:
+  - type: poster
+    image: nvHs4wX
 
 # prod_shots: 
 ---
