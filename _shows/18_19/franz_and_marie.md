@@ -4,7 +4,7 @@ playwright: Daniel McVey
 student_written: true
 period: Spring
 season: StuFF
-season_sort: 490
+season_sort: 500
 date_start: 2019-06-18
 date_end: 2019-06-18
 venue: New Theatre

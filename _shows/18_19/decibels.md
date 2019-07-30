@@ -16,6 +16,7 @@ cast:
 crew:
 - role: Director
   name: Grace Taylor
+  person: false 
 - role: Producer
   name: Joanne Blunt
 - role: Show Technician

@@ -1,20 +1,22 @@
 ---
 title: Animali Violenti E Caffé In Italia
-playwright: Jonathan Davies
+playwright: Jonathan Taylor Davies
 company: It, Per Se
 period: Spring
 season: StuFF
-season_sort: 520
+season_sort: 530
 date_start: 2019-06-18
 date_end: 2019-06-18
 venue: New Theatre Studio A
 
 cast:
-- name: Rohan Rakhit
 - name: Jonathan Taylor Davies
+- name: Rohan Rakhit
 - name: Rupert Galea
 
 crew:
+- role: Producer
+  name: Jonathan Taylor Davies 
 - role: Changeover Technician
   name: Jack Ellis 
 - role: Show Operator
