@@ -1,6 +1,5 @@
 ---
 title: Bost-Uni Plues
-student_written: true
 company: Ugly Bucket Theatre
 period: Spring
 season: StuFF
