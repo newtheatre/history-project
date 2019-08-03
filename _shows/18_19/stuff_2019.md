@@ -27,7 +27,11 @@ crew:
 - role: Venue Manager
   name: Tara Anegada
 
-#assets
+assets:
+  - type: poster
+    image: vhLG7hd
+  - type: poster
+    image: 6LxXf3D
 # Stuff running order and publicity materials here
 
 #prod_shots

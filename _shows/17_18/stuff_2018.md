@@ -27,8 +27,17 @@ crew:
 - role: Deputy Venue Manager
   name: Zoe Smith
 
-#assets
-# Stuff running order and publicity materials here
+assets:
+  - type: poster
+    image: vhLG7hd
+  - type: poster
+    image: KTcTM7q
+  - type: poster
+    image: t5Rn4hS
+  - type: poster
+    image: CMzN9Vp
+  - type: poster
+    image: PssTCVX
 
 #prod_shots
 # Venue shots here 
