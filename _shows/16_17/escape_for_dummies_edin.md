@@ -25,7 +25,7 @@ prod_shots: cJncKz
 
 links:
   - type: Review
-    href: http://edinburgh.fringeguru.com/reviews/edinburgh-2017/escape-for-dummies
+    href: http://archive.is/Ju6HL
     snapshot: Ju6HL
     publisher: FringeGuru
     author: Richard Stamp
