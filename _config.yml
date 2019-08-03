@@ -6,7 +6,7 @@ description: "Archive project collecting past shows, committees and alumni biogr
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://history.newtheatre.org.uk" # the base hostname & protocol for your site
 ntbot_endpoint: "https://703eeix5l8.execute-api.eu-west-1.amazonaws.com/prod/issue" # For issue posting
-assets_baseurl: "https://assets.history.newtheatre.org.uk"
+assets_baseurl: "https://github.com/newtheatre/history-project/raw/master/assets"
 
 # How many shows is too few for a year
 year_low_shows: 16
@@ -78,7 +78,7 @@ year_end: 2018
 # Estimation conf
 estimate_recency_limit: 2 # How many years to wait until guessing someone has left
 
-# Which seasons to prevent generation of 'missing content' boxes in 
+# Which seasons to prevent generation of 'missing content' boxes in
 ignore_missing_in_seasons:
   - 'External'
   - 'Postgrads'
