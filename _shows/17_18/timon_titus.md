@@ -90,6 +90,11 @@ links:
     date: 2017-12-07
     quote: "The entire group were great fun to watch and you can see the hard work that has gone into this show from every angle. If you can imagine Shakespeare crossed with Monty Python crossed with \"The Wright Show\", that's the feel of what to expect."
 
+trivia:
+  - quote: I'm fairly sure the video section at the top of act 2 had more cues than the rest of the show combined.
+    name: Sam Osborne
+    submitted: 2019-06-25
+
 ---
 
 Timon of Athens. A play about money; how money influences people and if money really is the key to happiness… Titus Andronicus. A tragedy where family, race, gender, power, violence and revenge dominate. It’s his first tragedy. A play which depicts the destruction of a social order by the invasion of a new culture. So what’s all this got to do with global capitalism, debt, India, debt and Theresa May? Why are these plays relevant to us now? How on earth will eight hours of Shakespeare be neatly packaged in a two-and-a-bit hour performance? And if the audience don’t get what they’ve paid for, will the actors be left with a feeling of debt, of culpability, of guilt...? This is Shakespeare… but you wont recognise it.

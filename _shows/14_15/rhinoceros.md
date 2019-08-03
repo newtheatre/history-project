@@ -106,6 +106,11 @@ links:
     quote: "This satirical, seemingly nonsensical play at times, was overall a great performance to watch."
 
 prod_shots: Tz3wCC
+
+trivia:
+  - quote: As can be seen in some of the prod shots, we attempted to install a functional proscenium curtain that lowered and rose at the top of each act. Ended up getting cut during the dress run as it buckled under its own weight.
+    name: Sam Osborne
+    submitted: 2019-06-25
 ---
 
 Written by one of the founding fathers of the ‘the Theatre of the Absurd’ / ‘Rhinoceros’ follows Berenger / a disenfranchised and disillusioned anti-hero / as he refuses to change whilst the rest of the characters turn into rhinoceroses. A dark / dystopian / satirical phase / ‘Rhinoceros’ is fundamentally a play about conformity and the cult of opinion. However / the play touches on many ideas / such as the meaningless of language / the ridiculousness of everyday convention and alienation. This chilling representation of humanity attacks the arrogance of our everyday moral convictions.

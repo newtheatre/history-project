@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information 
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used 
-
 title: Order From Chaos
 playwright: Jonny Khan 
 student_written: true
@@ -73,6 +69,11 @@ prod_shots: BnkLZG
 #    date:
 #    rating:
 #    quote:
+
+trivia: 
+  - quote: "I take great pride in two things for this show: managing to plot 90% of the show in a 90 minute run; and projection mapping onto the back of a MacBook."
+    name: Sam Osborne
+    submitted: 2019-06-25
     
 ---
 

@@ -108,6 +108,11 @@ links:
     date: 2016-04-23
     quote: "A great way to celebrate the Bard's 400th celebration of remembrance, and I think that he would have approved, even of the celebratory disco dancing in Act Two."
 
+trivia:
+  - quote: We had to replace the blue gels in the lights half way through the run as they burnt through.
+    name: Sam Osborne
+    submitted: 2019-06-25
+
 ---
 
 After exile for twelve years on a mysterious island, Prospero conjures a tempest, shipwrecking the King of Naples and Antonio (his treacherous brother). Three subplots ensue: Prospero, with the help of spirit-servant Ariel, orchestrates a budding romance between his daughter, Miranda, and the King of Naples’ son, Ferdinand. Antonio and Sebastian conspire to kill Alonso and Gonzalo, whilst elsewhere Caliban, Prospero’s slave monster, plots with Stephano (the drunken butler) and Trinculo (the mischevous court jester) to kill Prospero. This highly physical and ensemble-based production is a unique and visually striking interpretation of Shakespeare’s final solo play.

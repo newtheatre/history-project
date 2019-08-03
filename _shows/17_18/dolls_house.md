@@ -63,6 +63,8 @@ crew:
   name: Rosa Morgan
 - role: Videographer
   name: Louis Djalili
+- role: Photographer
+  name: Zoe Smith
 
 assets:
   - type: poster

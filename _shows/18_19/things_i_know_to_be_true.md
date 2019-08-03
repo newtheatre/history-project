@@ -81,8 +81,7 @@ crew:
 - role: Technical Operator
   name: Jack Ellis
 - role: Photographer
-  name: Yifei Wang
-  person: false
+  name: Laura Wolczyk
 
 assets:
   - type: poster

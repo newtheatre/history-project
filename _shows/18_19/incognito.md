@@ -110,6 +110,11 @@ links:
     date: 2019-06-15
     quote: "Intense and fascinating, and another educational visit to the New Theatre for me, which made me come away with plenty to think about."
 
+trivia:
+  - quote: In a show with far too many practicals, I raised whether a lava lamp would be suitable for the scene in which various characters get high. A jubilant YES, followed by it blowing half way through night two and being used as a static prop thereafter.
+    name: Sam Osborne
+    submitted: 2019-06-25
+
 ---
 
 The brain builds a narrative to steady us from moment to moment, but it is absolutely an illusion. There is no me, there is no you, and there is certainly no self.

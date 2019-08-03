@@ -54,6 +54,8 @@ crew:
 - role: Extras
   name: David Levey
   note: Christopher
+- role: Photographer
+  name: Zoe Smith
 
 assets:
   - type: poster
