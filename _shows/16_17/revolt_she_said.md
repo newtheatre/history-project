@@ -91,11 +91,6 @@ links:
     date: 2017-03-03
     rating: 8/10
     quote: "The use of audience interaction added a whole new dimension to the play. With the audience seated in close proximity surrounding the stage and regular direct address throughout, the audience were made to feel personally involved in the events."
-
-trivia:
-  - quote: I only came in to help focus a projector... And then ended up projection mapping onto some tiny tiny cubes.
-    name: Sam Osborne
-    submitted: 2019-06-25
 ---
 
 You are expected to behave… Use the right words. Act appropriately. Don’t break the rules. Just behave. This play is not well behaved. Alice Birch’s play examines the language, behaviour and forces that shape women in the 21st century and asks what’s stopping us from doing something truly radical to change them. Exhilarating, fast-paced and sharp dialogue drive this play to its radical and ironic climax with audience members invited to break down the barriers between actor and character. This play packs a punch. It is unforgiving, uncompromising and unapologetic, offering moments of pure comedic genius alongside revolutionary manifestos.

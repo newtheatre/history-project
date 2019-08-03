@@ -51,11 +51,6 @@ links:
     rating: 9/10
     quote: "Dark Room is perverse and disturbing, but gets away as a beautiful piece of work that stimulates the morbid fascination within us all. "
 
-trivia:
-  - quote: I think it took Emma and I about 4 washes to get the smell of cigarettes out of our clothes...
-    name: Sam Osborne
-    submitted: 2019-06-25
-
 ---
 
 A restless filmmaker gives you thirty minutes of his time to explore his work, the meaning behind it, and what it means to be a creator. This will not be easy for him however, because as his feelings on his work start to become more exposed, and his emotions start to unfold, the audience are taken on a journey which provokes them to question the nature to which they suspend their disbelief when looking at films, how they respond to the images they are shown, and what it means to criticise a piece of art without considering the feelings of the person behind the work.

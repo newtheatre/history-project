@@ -8,11 +8,6 @@ date_start: 2017-09-25
 date_end: 2017-09-26
 venue: Djanogly Theatre
 
-trivia:
-  - quote: For the original run we were going to have this whole bit with a cage on wheels, until we worked out it wouldn't fit in the van. But for the Lakeside performance we didn't need a van, so we added it back in. It went wrong both nights.
-    name: Jack Ellis
-    submitted: 2019-06-26
-
 assets:
   - type: poster
     image: tTQMHkt

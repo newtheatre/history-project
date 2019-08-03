@@ -99,8 +99,6 @@ crew:
   name: Maggie Dorling
 - role: Poster Designer
   name: Ella Quinton
-- role: Photographer
-  name: Zoe Smith
 
 assets:
   - type: poster
@@ -154,4 +152,4 @@ links:
 
 Moscow, 1938. A dangerous place to have a sense of humour; even more so a sense of freedom. Mikhail Bulgakov, living among dissidents, stalked by secret police, has both. And then he's offered a poisoned chalice: a commission to write a play about Stalin to celebrate his sixtieth birthday - but Bulgakov’s not the one who’s going to end up writing it…
 
-A darkly comic satire of Stalinist Russia, winner of the 2012 Olivier Award for Best Play, and inspired by historical fact, John Hodge’s Collaborators embarks on a surreal journey into the fevered imagination of the writer as he loses himself in a macabre and disturbingly funny relationship with the omnipotent subject of his drama.
+A darkly comic satire of Stalinist Russia, winner of the 2012 Olivier Award for Best Play, and inspired by historical fact, John Hodge’s Collaborators embarks on a surreal journey into the fevered imagination of the writer as she loses himself in a macabre and disturbingly funny relationship with the omnipotent subject of his drama.

@@ -93,11 +93,6 @@ links:
     author: Joanna Trainor
     quote: "It may look organised on the surface – characters marching in rows in the shopping centre – but there is a primal, visceral underworld that holds all the power. Strauss makes sure we are on the edge of our seats throughout the play; even if we’re laughing it’s still bloody unnerving."
 
-trivia:
-  - quote: The moment that sticks out here is when I plotted the opening sequence alone, and upon running it with the cast they all broke character and went "SICK!" as the lights started flashing in time to the music. 
-    name: Sam Osborne
-    submitted: 2019-06-25
-
 ---
 
 “Here at the centre of everything, journeys end and nightmares are born.” As Ollie searches Manchester for her missing sister, she finds every lead seems to guide her to a concrete island in the middle of the city: Pomona. Seemingly a vacuous space with no evidence of human life, the reality of what happens beneath the concrete sucks in any seemingly ‘good’ person and ultimately questions what a person could do in the right circumstance. A sinister and surreal thriller, Pomona disconcertingly blurs the lines between horror games and a much more nightmarish reality.

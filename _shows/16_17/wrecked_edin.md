@@ -25,7 +25,7 @@ prod_shots: ggPgWr
 
 links:
   - type: Review
-    href: http://archive.is/fKFbP
+    href: http://edfringereview.com/r/WYh06bDwTo6x5kwRXDx6yg?
     snapshot: fKFbP
     publisher: edfringereview
     author: James Tibbles

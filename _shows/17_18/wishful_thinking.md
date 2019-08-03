@@ -71,11 +71,6 @@ assets:
   - type: poster
     image: Ddfnwqv
 
-trivia:
-  - quote: There was a jingle sound effect that was added to a hotkey and following opening night thrown in ever so gratuitously.
-    name: Sam Osborne
-    submitted: 2019-06-25
-
 ---
 
 In a land Far Far Away lived a few washed up fairy tale characters enslaved by "Evil" and her stepdaughters. 

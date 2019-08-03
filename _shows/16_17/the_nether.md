@@ -61,8 +61,6 @@ crew:
   name: Amy Greaves
 - role: Poster Designer
   name: David Mason
-- role: Photographer
-  name: Zoe Smith
 
 prod_shots: Dj7Spj
 

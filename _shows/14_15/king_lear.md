@@ -126,9 +126,6 @@ trivia:
   - quote: The play was set in a contemporary period as the themes of the play are recognisable in modern culture as well as shakespearean times.
     name: Matt Standen
     submitted: 2014-12-06
-  - quote: After 4 nights of a 3-hour show, we were quite delirious and only once got told off for singing S-Club in the tech box while operating.
-    name: Sam Osborne
-    submitted: 2019-06-25
 ---
 
 Widely regarded by scholars and academics as Shakespeare’s finest work, King Lear portrays a powerful king who loses his grip on everything that defines him. Along with Lear’s decline into madness, the play focuses on identity and morality as the state and royal family are torn apart.

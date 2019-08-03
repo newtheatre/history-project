@@ -43,7 +43,7 @@ links:
     rating: 4/5
     quote: "This play is a unique and hidden gem at the Fringe. It’s a rare show in that it is suitable for the entire family, as well as for deaf audience members."
   - type: Review
-    href: http://archive.is/5Eb4u
+    href: http://edfringereview.com/r/WYh34KJATEyhgk0jXDx6yg
     snapshot: 5Eb4u
     publisher: edfringereview
     author: James Tibbles

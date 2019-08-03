@@ -60,9 +60,6 @@ crew:
   - role: Set Designer
     name: Esther Butterworth
     note: Lieutenant
-  - role: Set Assistant
-    name: Sam Osborne
-    note: Lieutenant 
   - role: Costume Designer
     name: Sammy Ratcliffe
     note: First Mate
@@ -78,9 +75,6 @@ trivia:
   - quote: Nadia Elalfi (geneticist) was consulted through the writing process to ensure the remarks about the sexual cycle of flies was scientifically inaccurate.
     name: Sam Osborne
     submitted: 2019-03-28
-  - quote: "I don't know how the Housemartins' \"Caravan of Love\" became the show's unofficial anthem, it just sort of happened."
-    name: Jack Ellis
-    submitted: 2019-06-26
 
 links:
   - type: Review

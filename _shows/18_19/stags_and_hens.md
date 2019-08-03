@@ -8,11 +8,6 @@ date_start: 2019-04-03
 date_end: 2019-04-06
 venue: New Theatre
 
-trivia:
-  - quote: My girlfriend at the time said if the facial hair was still there the day after the show came down she'd leave me.
-    name: Jack Ellis
-    submitted: 2019-06-26
-
 cast:
 - role: Linda
   name: Lillian Race

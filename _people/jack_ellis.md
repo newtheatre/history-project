@@ -1,28 +1,21 @@
 ---
 title: Jack Ellis
-submitted: 2019-06-26
+submitted: 2017-02-11
 headshot: dLq4fHz
 gender: male
 course:
   - Computer Science MSc
-award: Fellowship
 links:
   - type: Twitter
     username: GingertronMk1
   - type: Instagram
     username: GingertronMk1
-graduated: 2019
 ---
 
-I took my time joining the NNT, properly doing so midway through second year.
-Thankfully I was doing a 4-year course, so I hadn't wasted that much time not being there.
-I joined saying I'd do backstage stuff as a cover for when my acting wasn't good enough for people to want me to be in their shows.
+My first experience of the NNT was performing here in the long-form Improv slot in my first year, it seemed nice enough but I was busy with an improv troupe, so I gave it a miss for then.
 
-Turned out that was unnecessary.
+I joined the theatre in my second year, and spent most of it pretending to be a techie; attending get-ins, even going so far as to play one in Camp Macbeth. I may have played it a bit too well though, as I was then elected to Workshop Manager for 2017/18. Whoops.
 
-9 proper acting roles, and 2 voiceovers later, I've still managed to do a lot of backstage stuff; I was in charge of the workshop for 2 years (somehow), and instigated 2 changes to the name of the role, leaving me as hopefully the only Company Set Technician the NNT will ever have.
-I've put wheels on things, made a range cooker out of wood in about 3 hours with zero plan as to how to do it, and made little boxes that people shine torches through to display Facebook reacts.
-I've "fathered" a bunch of theatre freshers, and with three sketches doubled the number of sound cues in Freshers' Fringe 2018.
-I've learned how to sound and video design from scratch.
-I've done more shows with a put-on accent than without.
-More than any of that though I've met a lot of people along the way who I'll always have time for.
+The theatre has so far given me some of the best experiences I've had at uni (as well as a guaranteed something to do on a Saturday night), Unscripted putting me alongside 16 other actors and a fantastic creative team to devise a two-hour long comedy with no budget or set, The Nether being my first real experience of being in a big play with a big set and cool lighting, all that good stuff. Monarch was my first real experience with Fringe theatre, and 100% stage time in a two-hour show was quite the experience. To cap it all off, I was somehow then cast in one of the NNT's 2017 Edinburgh Fringe shows, namely Escape For Dummies. That show lasted 6 months from audition to getting out of Lakeside for the swansong performances, a month spent in Edinburgh with some of the best people I've ever met, and a rehearsal schedule that generally saw me sat there for an hour at the beginning of each rehearsal while two men made mostly of limbs choreographed the scenes and then said "So do that".
+
+Let's see where we go from here...
