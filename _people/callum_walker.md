@@ -9,7 +9,7 @@ course:
 contact_allowed: true
 links:
   - type: Twitter
-    username: Teflon_Eunuch
+    username: callumwalkalong
 ---
 
 I first came to the theatre after Eden Phillips Harrington helped me write my UCAS application and suggested I muck around at the NNT. We'd both done some theatre together before university and I reasoned it would be a good way to make some friends and enjoy myself while trying to get a degree.
