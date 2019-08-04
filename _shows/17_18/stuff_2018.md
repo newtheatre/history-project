@@ -13,7 +13,7 @@ crew:
 - role: Festival Coordinator
   name: Callum Walker
 - role: Duty Manager
-  name: Callum walker
+  name: Callum Walker
 - role: Duty Assistant
   name: Daniel McVey
 - role: Duty Front of House Manager
