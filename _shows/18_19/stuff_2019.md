@@ -1,5 +1,6 @@
 ---
 title: StuFF 2019
+playwright: various
 period: Spring
 season: StuFF
 season_sort: 405
