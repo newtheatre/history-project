@@ -114,9 +114,9 @@ trivia:
   - quote: |
       On one of the final performances of the show, one of the doors on the set fell off.
 
-      During the sequence which followed this event, Eoin Buckley (playing Berenger) was meant to turn up at the character of Jean's house and shout out the line \"Your door's open\".
+      During the sequence which followed this event, Eoin Buckley (playing Berenger) was meant to turn up at the character of Jean's house and shout out the line "Your door's open".
 
-      Thinking on his feet, Eoin shouting instead \"Your door's gone\" to which Jake Leonard (who played Jean) responded with the rather hilarious ad lib \"Stupid cowboy builders\" and the play continued.
+      Thinking on his feet, Eoin shouting instead "Your door's gone" to which Jake Leonard (who played Jean) responded with the rather hilarious ad lib "Stupid cowboy builders" and the play continued.
     name: Tom Proffitt
     submitted: 2019-09-19
 ---
