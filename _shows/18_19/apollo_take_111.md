@@ -1,5 +1,5 @@
 ---
-title: "Apollo; Take 111"
+title: "Apollo: Take 111"
 playwright: Tom Proffitt
 company: Strickland Productions
 season: StuFF
@@ -10,7 +10,7 @@ date_start: 2019-06-18
 date_end: 2019-06-18
 
 cast: 
-- role: Stewart James / Vladimir
+- role: Stuart James / Vladimir
   name: Carn Truscott
 - role: Big Boss / Oliver Lawrence
   name: Alex Levy
@@ -28,6 +28,8 @@ crew:
   name: Joe Strickland
 - role: Producer
   name: Joe Strickland
+- role: Technical Director 
+  name: Tom Proffitt
 - role: Changeover Technician
   name: Nadia Elalfi
 - role: Show Technician

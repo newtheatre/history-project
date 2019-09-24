@@ -15,6 +15,9 @@ trivia:
   - quote: Honestly, I never meant to direct this show. Being indirectly forced to direct a show about being forced to write a show might be the single most ironic thing that's ever happened to me.
     name: Will Berrington
     submitted: 2017-12-04
+  - quote: "During one show, Matteo pronounced Mikhail Bulgakov's name as 'Nipple Bulging Cock'."
+    name: Callum Walker
+    submitted: 2019-09-02
 
 cast:
 - role: Mikhail Bulgakov

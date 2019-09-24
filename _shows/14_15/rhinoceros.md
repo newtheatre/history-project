@@ -111,6 +111,14 @@ trivia:
   - quote: As can be seen in some of the prod shots, we attempted to install a functional proscenium curtain that lowered and rose at the top of each act. Ended up getting cut during the dress run as it buckled under its own weight.
     name: Sam Osborne
     submitted: 2019-06-25
+  - quote: |
+      On one of the final performances of the show, one of the doors on the set fell off.
+
+      During the sequence which followed this event, Eoin Buckley (playing Berenger) was meant to turn up at the character of Jean's house and shout out the line "Your door's open".
+
+      Thinking on his feet, Eoin shouting instead "Your door's gone" to which Jake Leonard (who played Jean) responded with the rather hilarious ad lib "Stupid cowboy builders" and the play continued.
+    name: Tom Proffitt
+    submitted: 2019-09-19
 ---
 
 Written by one of the founding fathers of the ‘the Theatre of the Absurd’ / ‘Rhinoceros’ follows Berenger / a disenfranchised and disillusioned anti-hero / as he refuses to change whilst the rest of the characters turn into rhinoceroses. A dark / dystopian / satirical phase / ‘Rhinoceros’ is fundamentally a play about conformity and the cult of opinion. However / the play touches on many ideas / such as the meaningless of language / the ridiculousness of everyday convention and alienation. This chilling representation of humanity attacks the arrogance of our everyday moral convictions.

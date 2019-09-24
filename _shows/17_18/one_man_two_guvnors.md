@@ -8,6 +8,16 @@ date_start: 2017-12-12
 date_end: 2017-12-15
 venue: New Theatre
 
+trivia:
+  - quote: |
+      The dining sequence at the end of Act One involved what was probably for me some of the most quick changes as a stage manager I have ever had to deal with, and subsequently one of the messiest stages to clean up.
+
+      The sequence, which involves several characters running on and off stage to grab several different dishes to serve to the "two guvnors" of the scene culminated in an explosion (achieved by the use of a hazer and sound cues) followed by two characters running out of the wings covered in whipped cream (having fallen victim to a burning crepes suzette).
+
+      On the final night, we ran out of crepes, so the crepes suzette merely became a giant runny custard pie.
+    name: Tom Proffitt
+    submitted: 2019-09-19
+
 cast:
 - role: Francis Henshall
   name: James Curling
