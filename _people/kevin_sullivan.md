@@ -1,7 +1,9 @@
 ---
 title: Kevin Sullivan
 gender: male
+course:
+ - Industrial Economics
 graduated: 1981
-submitted: false
+submitted: 2/10/2019
 ---
 
