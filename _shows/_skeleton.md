@@ -10,7 +10,7 @@ adaptor:
 translator:
 student_written:
 company: # If non-NNT
-period:
+period: # Choices: Autumn, Spring, Edinburgh
 season: # Choices: In House, Fringe, Edinburgh, StuFF, Lakeside, External and Postgrads
 season_sort:
 date_start: #YYYY-MM-DD
