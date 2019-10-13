@@ -1,5 +1,5 @@
 ---
-title: 'Freshers\' Fringe'
+title: "Freshers' Fringe"
 playwright: various
 period: Autumn
 season: Fringe 
