@@ -23,6 +23,8 @@ crew:
     name: Fu Baxter
   - role: Producer
     name: Zoe Sharp
+  - role: Composer
+    name: Jessica Hutchings
 
 assets:
   - type: poster
