@@ -9,7 +9,7 @@ careers:
 submitted: 2019-11-25
 ---
 
-As Snug, the joiner, in A Midsummer Night's Dream, I had only three lines- Yes , No and a four line speech. In the four line speech on the last night I remembered the first two lines but the last two I had to make up because I'd forgotten them completely. FANCY making up Shakespeare!! But no one noticed except the Producer.
+As Snug, the joiner, in 'A Midsummer Night's Dream', I had only three lines: "Yes", "No", and a four line speech. In the four line speech on the last night I remembered the first two lines but the last two I had to make up because I'd forgotten them completely. FANCY making up Shakespeare!! But no one noticed except the Producer.
 
 My daughter, Julia, came with my wife Celia, to watch West Side Story and at the end she said to Ce "He wasn't bad, was he" which was praise indeed if you know my daughter, who has just been appointed as a Headteacher of a Primary School.
 
