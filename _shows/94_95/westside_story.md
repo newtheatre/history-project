@@ -58,7 +58,7 @@ cast:
   - role: Rosalia
     name: Michelle Harper
   - role: Doc
-    name: Terry Payne
+    name: Terrence Payne
   - role: Lieutenant Schrank
     name: Richard Brown
   - role: Office Krupke

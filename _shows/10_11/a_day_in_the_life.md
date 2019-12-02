@@ -6,6 +6,10 @@ season: External
 season_sort: 140
 venue: New Theatre
 
+crew:
+  - role: Director
+    name: Jessica Hutchings
+    
 links:
   - type: Review
     href: https://impactnottingham.com/2011/02/improv-%E2%80%98a-day-in-the-life%E2%80%99-new-theatre/
