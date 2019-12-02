@@ -13,7 +13,7 @@ assets:
     image: HRfjFr7
 
 cast:
-  - role: Marty and Ensemble
+  - role: Marty / Ensemble
     name: Jessica Hutchings
 
 crew:
