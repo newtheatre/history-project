@@ -92,7 +92,7 @@ cast:
   note: Jacob and Charlie's Group 
 
 crew_incomplete: true 
-comment: Are we missing LD and stage crew? 
+crew_note: "It looks like we're missing some of the technical and stage crew."
 
 crew: 
 - role: Executive Producer
