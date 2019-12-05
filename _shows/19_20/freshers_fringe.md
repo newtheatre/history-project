@@ -167,7 +167,6 @@ crew:
   name: Luwa Adebanjo
 - role: Technical Operator
   name: James Barlow
-- role: Technical Operator
 
 assets:
   - type: poster
