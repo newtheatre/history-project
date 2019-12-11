@@ -25,9 +25,6 @@ cast:
 - role: Dr Davis / Dan 
   name: Dan Cresswell 
 
-crew_incomplete: true 
-# Missing the rest of the stagehands! 
-
 crew: 
 - role: Director
   name: Will Tillett 
@@ -41,6 +38,8 @@ crew:
   name: Georgia Barnwell
 - role: Technical Director
   name: Skylar Turnbull Hurd 
+- role: Assistant Technical Director
+  name: Nadia Elalfi
 - role: Shadow Technical Director
   name: Jacob Dean 
 - role: Sound Designer 
@@ -53,7 +52,7 @@ crew:
   name: Rose Edgeworth 
 - role: Video Designer 
   name: Rhona Mitchell 
-- role: Techncial Assistant 
+- role: Technical Assistant 
   name: Sam Osborne
 - role: Publicity Assistant
   name: Alice Walker 
@@ -62,12 +61,34 @@ crew:
 - role: Poster Designer 
   name: Sarah Ingham 
   note: Illustrator 
+- role: Photographer
+  name: Isaac Weinstock
 - role: Stagehand
   name: Daniel Morris 
 - role: Stagehand
   name: Rachel Elphick 
 - role: Stagehand
   name: Sam Osborne 
+- role: Stagehand
+  name: Irene Lim
+- role: Stagehand
+  name: Olivia Duggan
+- role: Stagehand
+  name: Kiara Hohn
+- role: Stagehand
+  name: Jack Linley
+- role: Stagehand
+  name: Alice Walker
+- role: Stagehand
+  name: Caitie Pardoe
+- role: Stagehand
+  name: Boo Jackson
+- role: Stagehand
+  name: Barney Hartwill
+- role: Stagehand
+  name: Flo Avis
+- role: Stagehand
+  name: Kaitlyn Samuelsen
 - role: Technical Operator 
   name: Boo Jackson 
 - role: Technical Operator
@@ -80,7 +101,8 @@ crew:
   name: Rose Edgeworth 
 - role: Technical Operator
   name: Alice Clothier 
-
+- role: Technical Operator
+  name: Danni Cooper
 
 prod_shots: x24nSs
 
