@@ -38,6 +38,8 @@ crew:
   name: Tara Anegada
 - role: Poster Designer
   name: Beth Wilson
+- role: Set Painter
+  name: Laura Wolczyk
 
 assets:
   - type: poster
