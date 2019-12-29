@@ -15,6 +15,8 @@ cast:
     name: Ailsa Bulloch
   - role: Jodie
     name: Carla Turnbull
+  - name: Sophie Sandham
+  - name: Rebecca Catlin 
 
 crew:
   - role: Director
