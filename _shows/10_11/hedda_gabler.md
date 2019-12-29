@@ -29,6 +29,8 @@ crew:
   name: Charlotte Wright
 - role: Producer
   name: Sophie Watson
+- role: Set Designer
+  name: Emily Davenport 
 
 assets:
   - type: poster
