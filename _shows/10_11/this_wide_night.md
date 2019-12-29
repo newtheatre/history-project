@@ -19,6 +19,8 @@ crew:
     name: Sophie Reynolds
   - role: Producer
     name: Nick Rowell
+  - role: Set Designer
+    name: Emily Davenport 
 
 assets:
   - type: poster
