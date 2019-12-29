@@ -18,7 +18,7 @@ cast:
    name: Michael Addison
    note: Lord High Executioner
  - role: Pooh-Bah
-   name: Peter Hunter-Johnston
+   name: Peter Hunter Johnston
    note: Lord High Everything Else
  - role: Pish-Tush
    name: Philip Orchard
@@ -103,8 +103,7 @@ crew:
    name: "??? Wright"
    person: false
  - role: Violin
-   name: "??? Huggins"
-   person: false
+   name: Tamsin Huggins
  - role: Viola
    name: Rebecca Philips
  - role: Viola
