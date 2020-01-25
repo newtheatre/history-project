@@ -12,6 +12,10 @@ assets:
   - type: poster
     image: HRfjFr7
 
+cast:
+  - role: Marty / Ensemble
+    name: Jessica Hutchings
+
 crew:
   - role: Director
     name: Fu Baxter

@@ -14,12 +14,12 @@ trivia:
     name: David Trennery
     submitted: 2016-08-15
   - quote: "It was indeed performed outside in the Quad. I had 3 lots of lines in the Play. The first and second were 1 line only, but the last was 4 lines. On the last night of the Play, I remembered all my lines, but on the third set, the 3rd and fourth went out of my head completely, so of course I made them up. Making up lines from a Shakespeare Play-what a sin! But I asked my friend Sian if she noticed anything and she said 'No, you were good.'"
-    name: Terry Payne
+    name: Terrence Payne
     submitted: 2018-09-16
 
 cast:
 - role: Snug
-  name: Terry Payne
+  name: Terrence Payne
 
 crew: 
  - role: Director

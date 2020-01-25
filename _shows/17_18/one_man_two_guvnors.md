@@ -70,6 +70,8 @@ crew:
   name: Aitor Tejo
 - role: Set Assistant
   name: Gemma Walton
+- role: Set Construction
+  name: Laura Wolczyk
 - role: Shadow Technical Director
   name: Shahbhan Ramzan
 - role: Shadow Lighting Designer

@@ -51,8 +51,8 @@ crew:
 - role: Shadow Lighting Designer
   name: Rose Edgeworth 
 - role: Video Designer 
-  name: Rhona Mitchell 
-- role: Technical Assistant 
+  name: Rhona Mitchell
+- role: Technical Assistant
   name: Sam Osborne
 - role: Publicity Assistant
   name: Alice Walker 
@@ -103,6 +103,7 @@ crew:
   name: Alice Clothier 
 - role: Technical Operator
   name: Danni Cooper
+
 
 prod_shots: x24nSs
 

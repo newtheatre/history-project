@@ -30,6 +30,8 @@ crew:
     name: Alice Vincent
   - role: Costume Designer
     name: Alice Vincent
+  - role: Technical Operator
+    name: Jessica Hutchings
 
 assets:
   - type: poster
