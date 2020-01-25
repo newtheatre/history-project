@@ -33,9 +33,9 @@ crew:
 - role: Technical Operator
   name: Jess Donn
 
-# assets:
-#   - type: poster
-#     image: 
+assets:
+  - type: poster
+    image: ZSNh3W6
 
 ---
 
