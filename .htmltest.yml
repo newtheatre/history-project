@@ -1,11 +1,23 @@
 DirectoryPath: _site
 CheckDoctype: false
-CheckExternal: false
+IgnoreExternalBrokenLinks: false
 IgnoreURLs:
 - "history.newtheatre.org.uk"
 - "photos.smugmug.com"
 - "photos.newtheatre.org.uk"
 - "archive.is"
+- "castingcallpro.com"
+- "stagejobspro.com"
+- "soundcloud.com"
+- "impactnottingham.com"
+- "http://www.su-web2.nottingham.ac.uk/"
+- "http://young-perspective.net/"
+- "https://web.archive.org"
+- "http://philgeller.co.uk/"
+- "http://animations.puppetcentre.org.uk"
+- "www.mllx.co.uk"
+- "http://www.theartistspartnership.co.uk"
+- "http://www.hercampus.com"
 IgnoreDirs:
 - "^lib"
 
