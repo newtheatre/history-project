@@ -1,5 +1,6 @@
 DirectoryPath: _site
 CheckDoctype: false
+IgnoreExternalBrokenLinks: true
 IgnoreURLs:
 - "history.newtheatre.org.uk"
 - "photos.smugmug.com"
