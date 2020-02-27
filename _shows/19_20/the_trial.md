@@ -10,12 +10,14 @@ venue: New Theatre Studio A
 
 cast:
 - name: Ines Sampaio
+  person: false
 
 crew_incomplete: true 
 
 crew: 
 - role: Director
   name: Ines Sampaio
+  person: false 
 - role: Venue Technician
   name: Zoe Smith
 
