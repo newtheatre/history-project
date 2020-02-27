@@ -1,5 +1,5 @@
 ---
-title: A Midsummer Night's Dream
+title: "A Midsummer Night's Dream"
 playwright: William Shakespeare
 adaptor: Tara Anegada
 period: Autumn
