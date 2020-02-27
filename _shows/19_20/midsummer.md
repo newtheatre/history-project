@@ -11,6 +11,7 @@ venue: New Theatre
 
 # trivia: 
 
+cast:
 - role: Titania / Hippolyta
   name: Reilly Salmon
 - role: Oberon / Theseus
@@ -107,11 +108,11 @@ crew:
   name: Alice Clothier
 
 assets:
-  - type: poster
-    image: 8j856N4
-  - type: programme
-    title: A Midsummer Night's Dream Programme
-    filename: Midsummer-2019-Programme.pdf
+- type: poster
+  image: 8j856N4
+- type: programme
+  title: A Midsummer Night's Dream Programme
+  filename: Midsummer-2019-Programme.pdf
 
 prod_shots: jzjNGL
 

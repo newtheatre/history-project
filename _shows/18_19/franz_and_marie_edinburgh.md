@@ -32,9 +32,9 @@ crew:
 - role: Publicity Assistant
   name: Alice Walker  
 
- assets:
-   - type: poster
-     image: ZSNh3W6
+assets:
+- type: poster
+  image: ZSNh3W6
 
 ---
 
