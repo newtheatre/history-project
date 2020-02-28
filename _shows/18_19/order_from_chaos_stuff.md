@@ -31,8 +31,6 @@ assets:
   - type: poster
     image: BxTGrdb
 
-# prod_shots:
-
 ---
 
 "She can remember the voices, the melodies, the harmonies - but it's not the same. She's remembering, not hearing it." Jay grew up on music. Underground dance, classical, everything in between: she was obsessed, lost in a world of rhythms and melodies alongside her brother Riley. But, Jay is losing her hearing. It deteriorates, her perception of sound distorts, and she begins to lose her grasp on what she values most. Passion, youth, and love, explored through music and sign language, Order From Chaos tells the story of a teenager reconnecting with her passion after believing she never could again.

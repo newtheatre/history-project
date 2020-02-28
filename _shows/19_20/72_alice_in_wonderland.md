@@ -84,8 +84,9 @@ prod_shots: t9CSbN
 assets:
   - type: poster
     image: ZqGKmF3
-# type: programme
-# https://drive.google.com/file/d/1AeYkRnxPsn5wNmVvdziXUtUfvkCITwP-/view?usp=sharing
+  - type: programme
+    title: 72 Alice in Wonderland Programme
+    filename: 72-wonderland.pdf
 ---
 
 Based on the 1865 Novel by Lewis Carroll, 'Alice in Wonderland' follows a naive girl on an adventure to make some slightly mad friends...

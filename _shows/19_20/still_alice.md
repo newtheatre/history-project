@@ -25,9 +25,6 @@ cast:
 - role: Dr Davis / Dan 
   name: Dan Cresswell 
 
-crew_incomplete: true 
-# Missing the rest of the stagehands! 
-
 crew: 
 - role: Director
   name: Will Tillett 
@@ -40,7 +37,9 @@ crew:
 - role: Stage Manager
   name: Georgia Barnwell
 - role: Technical Director
-  name: Skylar Turnbull Hurd 
+  name: Skylar Turnbull Hurd
+- role: Assistant Technical Director
+  name: Nadia Elalfi 
 - role: Shadow Technical Director
   name: Jacob Dean 
 - role: Sound Designer 
@@ -61,13 +60,35 @@ crew:
   name: Alex Lyon Miyake 
 - role: Poster Designer 
   name: Sarah Ingham 
-  note: Illustrator 
+  note: Illustrator
+- role: Photographer
+  name: Isaac Weinstock
 - role: Stagehand
   name: Daniel Morris 
 - role: Stagehand
   name: Rachel Elphick 
 - role: Stagehand
-  name: Sam Osborne 
+  name: Sam Osborne
+- role: Stagehand
+  name: Irene Lim
+- role: Stagehand
+  name: Olivia Duggan
+- role: Stagehand
+  name: Kiara Hohn
+- role: Stagehand
+  name: Jack Linley
+- role: Stagehand
+  name: Alice Walker
+- role: Stagehand
+  name: Caitie Pardoe
+- role: Stagehand
+  name: Boo Jackson
+- role: Stagehand
+  name: Barney Hartwill
+- role: Stagehand
+  name: Flo Avis
+- role: Stagehand
+  name: Kaitlyn Samuelsen
 - role: Technical Operator 
   name: Boo Jackson 
 - role: Technical Operator
@@ -79,16 +100,18 @@ crew:
 - role: Technical Operator
   name: Rose Edgeworth 
 - role: Technical Operator
-  name: Alice Clothier 
-
+  name: Alice Clothier
+- role: Technical Operator
+  name: Danni Cooper 
 
 prod_shots: x24nSs
 
 assets:
   - type: poster
     image: fmpWm9s
-
-# Programme - https://drive.google.com/file/u/3/d/1PgJRxNl79t-asv27p20gZBAvpYfhRJJD/preview
+  - type: programme
+    title: Still Alice Programme
+    filename: still-alice-programme.pdf
 
 ---
 

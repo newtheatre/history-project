@@ -28,9 +28,9 @@ crew:
   name: Rachel Elphick
 
 
-# assets:
-# - type: poster
-#   image: r85cqFg
+assets:
+- type: poster
+  image: r85cqFg
     
 ---
 
