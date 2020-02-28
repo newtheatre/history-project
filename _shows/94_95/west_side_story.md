@@ -15,7 +15,7 @@ cast:
     name: Gary Nuttall
   - role: Diesel
     name: Dave  Anderson
-  - role: "A-Rab"
+  - role: A-Rab
     name: Ed Craft
   - role: Baby John
     name: Lee Smith
@@ -63,7 +63,7 @@ cast:
     name: Richard Brown
   - role: Office Krupke
     name: Andrew Batty
-  - role: "glad-Hand"
+  - role: Glad Hand
     name: Malcolm Rothera
 
 crew:
@@ -113,15 +113,17 @@ crew:
     name: Emily Powell
   - role: Trumpet
     name: David Matthews
-  - role: "Special Thanks - for providing scaffolding"
-    name: "Gilbert & Hall Ltd"
+  - role: Special Thanks - for providing scaffolding
+    name: Gilbert & Hall Ltd
     person: false
-  - role: "Special Thanks - for use of welding equipment and expertise"
+  - role: Special Thanks - for use of welding equipment and expertise
     name: Mechanical Engineering Dept
     person: false
-  - role: "Special Thanks - for providing Beer Crates"
+  - role: Special Thanks - for providing Beer Crates
     name: Buttery Bar
     person: false
   - name: Christopher Wix
+
+prod_shots: bC8xDt
 ---
 
