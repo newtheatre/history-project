@@ -55,10 +55,11 @@ crew:
 assets:
   - type: poster
     image: gPGN7cf
+  - type: programme
+    title: To Become A King Programme
+    filename: become-a-king-programme.pdf
 
 prod_shots: 9zZ3Sh
-
-#Programme: https://drive.google.com/file/d/11Lkh_NNw-C2jidRZL2T6b0ccGlZxpbOi/preview
 
 ---
 

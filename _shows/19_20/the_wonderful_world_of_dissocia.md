@@ -75,6 +75,9 @@ crew:
 assets:
   - type: poster
     image: qhLgpsC
+  - type: programme
+    title: Dissocia Programme
+    filename: dissocia-programme.pdf
 
 prod_shots: ZgpBvS
 

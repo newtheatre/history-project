@@ -89,10 +89,11 @@ crew:
 assets:
   - type: poster
     image: HXSWHbh
+  - type: programme
+    title: Edward II Programme
+    filename: edward-II-programme.pdf
 
 prod_shots: S5XzLj
-
-#programme: https://drive.google.com/drive/u/1/folders/1-gLjpholGkkSZPioDL2IwbjRRjnOFw6f
 
 ---
 
