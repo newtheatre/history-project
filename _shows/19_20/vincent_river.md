@@ -10,7 +10,7 @@ venue: New Theatre
 
 cast:
 - role: Anita
-  name: Deborah Kelani - Afolabi 
+  name: Deborah Kelani-Afolabi 
 - role: Davey
   name: Olly O'Regan
 
@@ -74,7 +74,7 @@ prod_shots: C8kzb9
 links:
   - type: Review
     href: http://kevcastletheatrereviews.blogspot.com/2019/11/vincent-river-by-philip-ridley.html
-    snapshot: # 
+    snapshot: j7pjA
     publisher: Kev Castle Reviews
     author: Kev Castle 
     title: "“Vincent River” by Philip Ridley"
