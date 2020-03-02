@@ -6,8 +6,8 @@ adaptor: Ellen Schaffert
 period: Autumn
 season: In House
 season_sort: 100
-date_start: 2019-11-10
-date_end: 2019-11-13
+date_start: 2019-12-10
+date_end: 2019-12-13
 venue: New Theatre
 
 cast:
