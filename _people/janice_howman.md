@@ -1,5 +1,5 @@
 ---
-name: Janice Howman
+title: Janice Howman
 gender: female
 graduated: 1975
 submitted: 2020-02-16
