@@ -4,7 +4,7 @@ playwright: Jonny Khan
 student_written: true
 period: Autumn
 season: Lakeside
-season_sort: 20
+season_sort: 30
 date_start: 2019-10-02
 date_end: 2019-10-02
 venue: Djanogly Theatre

@@ -4,7 +4,7 @@ playwright: Daniel McVey
 student_written: true
 period: Autumn
 season: Lakeside
-season_sort: 10
+season_sort: 20
 date_start: 2019-10-02
 date_end: 2019-10-02
 venue: Djanogly Theatre

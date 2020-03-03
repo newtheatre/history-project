@@ -4,7 +4,7 @@ playwright: Lewis Carroll
 adaptor: Zoe Smith
 period: Autumn
 season: External 
-season_sort: 30
+season_sort: 10
 date_start: 2019-09-27
 date_end: 2019-09-27
 venue: New Theatre
