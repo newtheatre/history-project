@@ -167,6 +167,8 @@ crew:
   name: Luwa Adebanjo
 - role: Technical Operator
   name: James Barlow
+- role: Technical Operator 
+  name: Nat Henderson 
 
 assets:
   - type: poster

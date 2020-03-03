@@ -45,6 +45,8 @@ crew:
   name: Rohan Rakhit
 - role: Poster Designer 
   name: Skylar Turnbull Hurd
+- role: Make-up Designer
+  name: Nat Henderson
 - role: Set Assistant
   name: Alice Clothier
 - role: Set Assistant
