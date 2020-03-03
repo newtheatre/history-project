@@ -12,6 +12,9 @@ venue: Sherwood Library
 assets:
   - type: poster
     image: mc5KfV7
+  - type: programme
+    title: Flowers For Algernon Programme Notes
+    filename: algernon-programme-notes.pdf
 
 cast:
  - role: Charlie

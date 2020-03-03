@@ -111,6 +111,9 @@ crew:
 assets:
   - type: poster
     image: rKRHmq7
+  - type: programme
+    title: Macbett Programme Notes
+    filename: macbett-programme-notes.pdf
 
 prod_shots: KgHbCr
 

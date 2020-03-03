@@ -85,6 +85,9 @@ assets:
 - type: backstage
   video: RzXt8DK
   title: Backstage At
+- type: programme
+  title: WEST Programme Notes
+  filename: west-programme-notes.pdf
 
 prod_shots: 3nCHmK
 

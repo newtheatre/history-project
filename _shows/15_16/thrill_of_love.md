@@ -11,6 +11,9 @@ venue: New Theatre
 assets:
   - type: poster
     image: h3sCHFz
+  - type: programme
+    title: Thrill of Love Programme Notes
+    filename: thrill-programme-notes.pdf
 
 cast:
  - role: Jack Gale

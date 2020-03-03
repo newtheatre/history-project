@@ -11,6 +11,9 @@ venue: New Theatre
 assets:
   - type: poster
     image: H7ngRhN
+  - type: programme
+    title: Bull Programme Notes
+    filename: bull-programme-notes.pdf
 
 cast:
  - role: Thomas

@@ -45,6 +45,9 @@ crew:
 assets:
   - type: poster
     image: q3kdpxT
+  - type: programme
+    title: Strangers Programme Notes
+    filename: strangers-programme-notes.pdf
 
 links:
   - type: Review

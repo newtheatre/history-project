@@ -91,6 +91,9 @@ assets:
   - type: backstage
     video: XLthVnc
     title: Backstage At
+  - type: programme
+    title: Sex Cells Programme Notes
+    filename: sex-cells-programme-notes.pdf
 
 prod_shots: ZB3PM9
 

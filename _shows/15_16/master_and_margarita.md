@@ -97,6 +97,9 @@ prod_shots: 92R66x
 assets:
   - type: poster
     image: fgFWHzp
+  - type: programme
+    title: Master and Margarita Programme Notes
+    filename: master-programme-notes.pdf
 
 links:
   - type: Review

@@ -12,6 +12,9 @@ venue: New Theatre Studio A
 assets:
   - type: poster
     image: 8gkppBh
+  - type: programme
+    title: Ambergate Programme Notes
+    filename: ambergate-programme-notes.pdf
 
 cast:
  - role: Christine

@@ -98,6 +98,9 @@ assets:
   - type: backstage
     video: BSTVCfh
     title: Backstage At
+  - type: programme
+    title: Pornography Programme Notes
+    filename: pornography-programme-notes.pdf
 
 links:
   - type: Review

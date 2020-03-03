@@ -11,6 +11,9 @@ venue: New Theatre
 assets:
   - type: poster
     image: ZQBvr27
+  - type: programme
+    title: Shopping and F-ing Programme Notes
+    filename: s-f-programme-notes.pdf
 
 cast:
  - role: Mark

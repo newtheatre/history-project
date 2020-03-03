@@ -47,6 +47,9 @@ assets:
   - type: backstage
     video: n8Lsq4Q
     title: Backstage At
+  - type: programme
+    title: Sketchy Characters Programme Notes
+    filename: sketchy-characters-programme-notes.pdf
 
 prod_shots: PLjpNs
 

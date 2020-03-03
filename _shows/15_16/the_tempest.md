@@ -11,6 +11,9 @@ venue: New Theatre
 assets:
   - type: poster
     image: 6kqw989
+  - type: programme
+    title: The Tempest Programme Notes
+    filename: tempest-programme-notes.pdf
 
 cast:
  - role: Prospero

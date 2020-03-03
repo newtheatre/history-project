@@ -11,6 +11,9 @@ venue: Djanogly Theatre
 assets:
   - type: poster
     image: KB8SNBr
+  - type: programme
+    title: Constellations Programme Notes
+    filename: constellations-programme-notes.pdf
 
 prod_shots: KV2C9B
 

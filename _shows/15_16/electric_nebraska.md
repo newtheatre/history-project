@@ -8,9 +8,13 @@ season_sort: 330
 date_start: 2016-04-25
 date_end: 2016-04-26
 venue: New Theatre Studio A
+
 assets:
   - type: poster
     image: h9Hqr2D
+  - type: programme
+    title: Electric Nebraska Programme Notes
+    filename: nebraska-programme-notes.pdf
 
 cast:
  - role: Joe Lastowski
