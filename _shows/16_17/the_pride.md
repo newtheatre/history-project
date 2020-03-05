@@ -74,6 +74,9 @@ assets:
   - type: backstage
     video: mz4ptWK
     title: Backstage At
+  - type: programme
+    title: The Pride Programme Notes
+    filename: the-pride-programme-notes.pdf
 
 links:
   - type: Review

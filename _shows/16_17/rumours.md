@@ -51,6 +51,9 @@ prod_shots: BntPLq
 assets:
   - type: poster
     image: HD3GwDt
+  - type: programme
+    title: Rumours Programme Notes
+    filename: rumours-programme-notes.pdf
     
 links:
   - type: Review

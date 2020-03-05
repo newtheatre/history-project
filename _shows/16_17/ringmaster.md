@@ -39,6 +39,9 @@ crew:
 assets:
   - type: poster
     image: HQJCpk6
+  - type: programme
+    title: The Ringmaster Programme Notes
+    filename: the-ringmaster-programme-notes.pdf
 
 links:
   - type: Review

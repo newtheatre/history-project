@@ -82,6 +82,9 @@ assets:
   - type: backstage
     video: ZCr3bqm
     title: Backstage At
+  - type: programme
+    title: Mercury Fur Programme Notes
+    filename: mercury-fur-programme-notes.pdf
 
 links:
   - type: Review

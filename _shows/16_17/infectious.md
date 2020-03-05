@@ -34,6 +34,9 @@ prod_shots: hdzVLb
 assets:
   - type: poster
     image: VbHvDph
+  - type: programme
+    title: Infectious Programme Notes
+    filename: infectious-programme-notes.pdf
 
 links:
   - type: Review

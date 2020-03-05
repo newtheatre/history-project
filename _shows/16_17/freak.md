@@ -51,6 +51,9 @@ assets:
   - type: backstage
     video: KcLtJX4
     title: Backstage At
+  - type: programme
+    title: Freak Programme Notes
+    filename: freak-programme-notes.pdf
 
 links:
   - type: Review

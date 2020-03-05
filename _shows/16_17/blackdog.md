@@ -40,6 +40,9 @@ prod_shots: 4Zr2VM
 assets:
   - type: poster
     image: z9zX7gF
+  - type: programme
+    title: Black Dog Programme Notes
+    filename: black-dog-programme-notes.pdf
 
 links:
   - type: Review

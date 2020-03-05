@@ -80,6 +80,9 @@ assets:
   - type: backstage
     video: vQW83qB
     title: Backstage At
+  - type: programme
+    title: "W;t" Programme Notes
+    filename: wit-programme-notes.pdf
 
 links:
   - type: Review

@@ -45,6 +45,9 @@ crew:
 assets:
   - type: poster
     image: 58FMrT8
+  - type: programme
+    title: Monarch Programme Notes
+    filename: monarch-programme-notes.pdf
 
 prod_shots: d4kLL6
 
