@@ -15,8 +15,8 @@ cast:
   name: Barney Hartwill
 - role: Isabella
   name: India Agravat
-- role: Alex Levy
-  name: Gaveston / Lightborn
+- role: Gaveston / Lightborn
+  name: Alex Levy
 - role: Younger Mortimer
   name: Jack Linley
 - role: Kent
