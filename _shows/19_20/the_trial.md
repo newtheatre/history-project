@@ -3,7 +3,7 @@ title: The Trial
 playwright: Franko Figueiredo & Ines Sampaio
 period: Autumn
 season: External 
-season_sort: 40
+season_sort: 47
 date_start: 2019-11-10
 date_end: 2019-11-11
 venue: New Theatre Studio A
