@@ -3,7 +3,7 @@ title: "Unscripted: The Preview | Freshers Meat"
 devised: true
 period: Spring
 season: Unscripted
-season_sort:
+season_sort: 43
 date_start: 2019-11-07
 date_end: 2019-11-07
 venue: NNT Auditorium
