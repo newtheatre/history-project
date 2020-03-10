@@ -101,6 +101,9 @@ assets:
   - type: trailer
     video: CBtDNSj
     title: Show Trailer
+  - type: programme
+    title: Titus Andronicus Programme Notes
+    filename: titus-andronicus-programme-notes.pdf
 
 prod_shots: tW92hS
 

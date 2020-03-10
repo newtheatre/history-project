@@ -102,6 +102,9 @@ assets:
   - type: plan
     filename: molly-sweeney-2013-lx.pdf
     title: LX Plan
+  - type: programme
+    title: Molly Sweeney Programme Notes
+    filename: molly-sweeney-programme-notes.pdf
 
 prod_shots: q5TP5z
 

@@ -47,6 +47,9 @@ prod_shots: STZnZt
 assets:
   - type: poster
     image: 4kM5tpq
+  - type: programme
+    title: Concrete Boots Programme Notes
+    filename: concrete-boots-programme-notes.pdf
 
 links:
   - type: Review

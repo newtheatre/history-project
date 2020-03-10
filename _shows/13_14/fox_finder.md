@@ -55,6 +55,9 @@ assets:
   - type: plan
     filename: foxfinder-2013-b2.pdf
     title: LX Plan
+  - type: programme
+    title: Foxfinder Programme Notes
+    filename: foxfinder-programme-notes.pdf
 
 prod_shots: SGZvsM
 
