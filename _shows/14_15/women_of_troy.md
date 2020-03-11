@@ -89,6 +89,9 @@ assets:
   - type: backstage
     video: cBMdPh3
     title: Backstage At
+  - type: programme
+    title: Women of Troy Programme
+    filename: women-of-troy.pdf
 
 links:
   - type: Review

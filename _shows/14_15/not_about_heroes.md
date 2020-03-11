@@ -48,6 +48,9 @@ assets:
   - type: backstage
     video: kzTSNDL
     title: Backstage At
+  - type: programme
+    title: Not About Heroes Programme
+    filename: not-about-heroes.pdf
 
 links:
   - type: Review

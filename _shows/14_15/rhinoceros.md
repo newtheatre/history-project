@@ -86,6 +86,9 @@ assets:
   - type: backstage
     video: HGWNzQB
     title: Backstage At
+  - type: programme
+    title: Rhinoceros Programme
+    filename: rhino.pdf
 
 links:
   - type: Review

@@ -64,6 +64,9 @@ assets:
   - type: backstage
     video: WMfWSSm
     title: Backstage At
+  - type: programme
+    title: The Glass Menagerie Programme
+    filename: glass-menagerie.pdf
 
 links:
   - type: Review

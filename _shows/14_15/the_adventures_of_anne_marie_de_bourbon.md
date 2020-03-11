@@ -51,6 +51,9 @@ crew:
 assets:
   - type: poster
     image: MKz8ND5
+  - type: programme
+    title: Anne-Marie Programme
+    filename: anne-marie.pdf
 
 links:
   - type: Review

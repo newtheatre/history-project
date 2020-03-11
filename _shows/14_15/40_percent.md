@@ -33,6 +33,9 @@ assets:
   - type: backstage
     video: 6N4QX2F
     title: Backstage At
+  - type: programme
+    title: 40 Percent Programme
+    filename: 40-percent.pdf
 
 links:
   - type: Review

@@ -44,6 +44,10 @@ crew:
 assets:
   - type: poster
     image: TKprCB4
+  - type: programme
+    title: Yours and Mine Programme
+    filename: yours-and-mine.pdf
+
 ---
 
 Peter gave up his dream to marry Karen, but when he meets Anna his existence is shattered. Unable to trust his wife or his sanity, Peter purposefully colludes with the realities of those around him to break down the lies and the woman who consumed the last ten years of his life. 'Yours and Mine' challenges gender roles in relationships and our typically static ideas about who's right and wrong when a relationship disintegrates.

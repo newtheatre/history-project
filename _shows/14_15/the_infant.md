@@ -64,6 +64,9 @@ assets:
   - type: backstage
     video: XTQdrF3
     title: Backstage At
+  - type: programme
+    title: The Infant Programme Notes
+    filename: infant-programme-notes.pdf
 
 prod_shots: XxgxsK
 
