@@ -1,7 +1,7 @@
 ---
 title: Dead Meat
 period: Spring
-season: # Choices: Unscripted
+season: Unscripted
 season_sort: 220
 date_start: 2020-02-11
 date_end: 2020-02-14
