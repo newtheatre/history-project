@@ -6,7 +6,7 @@ season: Unscripted
 season_sort: 43
 date_start: 2019-11-07
 date_end: 2019-11-07
-venue: NNT Auditorium
+venue: New Theatre
 
 cast:
 - role: Melissa

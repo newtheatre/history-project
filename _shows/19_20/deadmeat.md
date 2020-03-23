@@ -113,9 +113,9 @@ assets:
   - type: poster
     image: cxRLHk7
 
-prod_shots: #
+# prod_shots: #
 
-programme: https://drive.google.com/file/d/1OCCF1E4b96SSQ7Trh4fsuMHsHpTKuWpi/view?usp=sharing
+# programme: https://drive.google.com/file/d/1OCCF1E4b96SSQ7Trh4fsuMHsHpTKuWpi/view?usp=sharing
 
 ---
 
