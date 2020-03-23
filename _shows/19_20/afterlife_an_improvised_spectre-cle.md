@@ -1,5 +1,5 @@
 ---
-title: Afterlife: An Improvised Spectre-cle
+title: "Afterlife: An Improvised Spectre-cle"
 company: The Red Herrings
 period: Spring
 season: External
