@@ -1,6 +1,6 @@
 ---
 title: Afterlife: An Improvised Spectre-cle
-company: UoN Improv
+company: The Red Herrings
 period: Spring
 season: External
 season_sort: 210
