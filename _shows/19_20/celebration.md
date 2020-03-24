@@ -27,6 +27,7 @@ cast:
   name: Oliver Binns
 
 crew:
+- role: Director
   name: Bill Hayes
 - role: Assistant Director 
   name: Nathanael Bruke
@@ -52,9 +53,9 @@ crew:
   name: Tara Anegada
 - role: Photographer 
   name: Josh Spear
-- role: Design, Set & Make-up Assistant 
+- role: "Design, Set & Make-up Assistant"
   name: Alice Walker
-- role: Make-up & Hair Designer/Artist
+- role: "Make-up & Hair Designer/Artist"
   name: Beth White
 - role: Technical Operator 
   name: Cecilia Alexander
@@ -86,4 +87,4 @@ links:
 
 ---
 
-In a tacky restaurant, two gangster brothers, formerly from the East End but now "strategy consultants"are celebrating a wedding anniversary with their wives, who are sisters. At the next table, a banker is dining with his wife, formerly his secretary. Moving almost musically Pinter’s unsettling dialogue guides us through the couples stifled and repressed relationships, plunging the audience from vapid, empty and yet hilarious conversation leading to surreal moments of characters allowing their inner dialogue to spill out of their mouths. The staff of the restaurant weave in and out of the story, providing some relief with a laugh before one of the waiters gives an unsettling final monologue.
+In a tacky restaurant, two gangster brothers, formerly from the East End but now "strategy consultants" are celebrating a wedding anniversary with their wives, who are sisters. At the next table, a banker is dining with his wife, formerly his secretary. Moving almost musically Pinter’s unsettling dialogue guides us through the couples stifled and repressed relationships, plunging the audience from vapid, empty and yet hilarious conversation leading to surreal moments of characters allowing their inner dialogue to spill out of their mouths. The staff of the restaurant weave in and out of the story, providing some relief with a laugh before one of the waiters gives an unsettling final monologue.
