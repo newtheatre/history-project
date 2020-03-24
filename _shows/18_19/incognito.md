@@ -98,9 +98,8 @@ assets:
     image: Wxc87xj
   # To add: BTS Video
 
-#prod_shots:
-#  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-#
+prod_shots: jZZ9Nj
+
 links:
   - type: Review
     href: http://kevcastletheatrereviews.blogspot.com/2019/06/incognito-by-nick-payne-nottingham-new.html
