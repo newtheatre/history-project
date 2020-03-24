@@ -75,7 +75,7 @@ assets:
     video: wsfSKnr
     title: Backstage At
   - type: programme
-    title: Lets Just Pretend Programme Notes
+    title: "Let's Just Pretend Programme Notes"
     filename: lets-pretend-programme-notes.pdf
 
 prod_shots: Lxr89p
