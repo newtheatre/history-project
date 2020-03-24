@@ -61,6 +61,9 @@ assets:
   - type: backstage
     video: bTs9BsM
     title: Backstage At
+  - type: programme
+    title: Tribes Programme Notes
+    filename: tribes-programme-notes.pdf
 
 prod_shots: Gt964M
 

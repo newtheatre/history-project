@@ -11,6 +11,9 @@ venue: New Theatre
 assets:
   - type: poster
     image: QKDtbRb
+  - type: programme
+    title: Skylight Programme Notes
+    filename: skylight-programme-notes.pdf
 
 cast:
  - role: Kyra Hollis

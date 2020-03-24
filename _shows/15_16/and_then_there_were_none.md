@@ -11,6 +11,9 @@ venue: New Theatre
 assets:
   - type: poster
     image: 7rPbkfn
+  - type: programme
+    title: ATTWN Programme Notes
+    filename: attwn-programme-notes.pdf
 
 cast:
  - role: Vera Claythorne

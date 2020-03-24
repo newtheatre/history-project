@@ -43,6 +43,9 @@ crew:
 assets:
   - type: poster
     image: pjtntf6
+  - type: programme
+    title: Pitchfork Disney Programme Notes
+    filename: pitchfork-disney-programme-notes.pdf
 
 prod_shots: FHND75
 

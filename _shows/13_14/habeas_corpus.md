@@ -68,6 +68,9 @@ assets:
   - type: trailer
     video: zqLc6dP
     title: Show Trailer
+  - type: programme
+    title: Habeas Corpus Programme Notes
+    filename: habeas-corpus-programme-notes.pdf
 
 
 prod_shots: vK28q8

@@ -75,6 +75,9 @@ assets:
   - type: backstage
     video: kFMLfNV
     title: Backstage At
+  - type: programme
+    title: Pomona Programme Notes
+    filename: pomona-programme-notes.pdf
 
 links:
   - type: Review

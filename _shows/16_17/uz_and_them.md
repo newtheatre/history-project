@@ -39,6 +39,9 @@ crew:
 assets:
   - type: poster
     image: 4p492b9
+  - type: programme
+    title: Uz and Them Programme Notes
+    filename: uz-and-them-programme-notes.pdf
 
 links:
   - type: Review

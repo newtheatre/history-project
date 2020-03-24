@@ -12,6 +12,9 @@ venue: Lincoln Library
 assets:
   - type: poster
     image: fFDqwMQ
+  - type: programme
+    title: Hinged Programme Notes
+    filename: hinged-programme-notes.pdf
 
 cast:
  - role: Georgiana

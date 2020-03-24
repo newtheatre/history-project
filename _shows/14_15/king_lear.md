@@ -110,6 +110,9 @@ assets:
   - type: trailer
     video: kH5W832
     title: Show Trailer
+  - type: programme
+    title: King Lear Programme
+    filename: king-lear.pdf
 
 links:
   - type: Review

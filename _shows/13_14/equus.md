@@ -73,6 +73,9 @@ crew:
 assets:
   - type: poster
     image: hn8BzqV
+  - type: programme
+    title: Equus Programme
+    filename: equus-programme.pdf
 
 prod_shots: sQvgwk
 

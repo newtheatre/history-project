@@ -55,6 +55,9 @@ assets:
   - type: backstage
     video: b6ZKZcp
     title: Backstage At
+  - type: programme
+    title: Over There Programme Notes
+    filename: over-there-programme-notes.pdf
 
 prod_shots: SCTLTn
 

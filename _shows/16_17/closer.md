@@ -74,6 +74,9 @@ assets:
   - type: backstage
     video: txPwHQR
     title: Backstage At
+  - type: programme
+    title: Closer Programme Notes
+    filename: closer-programme-notes.pdf
 
 links:
   - type: Review

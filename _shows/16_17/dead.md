@@ -123,6 +123,9 @@ assets:
   - type: backstage
     video: sxJ7Qg3
     title: Backstage At
+  - type: programme
+    title: DEAD Programme Notes
+    filename: dead-programme-notes.pdf
 
 links:
   - type: Review

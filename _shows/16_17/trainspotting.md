@@ -84,6 +84,9 @@ assets:
   - type: backstage
     video: wZsWDCG
     title: Backstage At
+  - type: programme
+    title: Trainspotting Programme Notes
+    filename: trainspotting-programme-notes.pdf
 
 links:
   - type: Review

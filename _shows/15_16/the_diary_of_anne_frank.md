@@ -65,6 +65,9 @@ crew:
 assets:
   - type: poster
     image: k7ZdgBN
+  - type: programme
+    title: Anne Frank Programme Notes
+    filename: anne-frank-programme-notes.pdf
 
 prod_shots: pfVdD3
 

@@ -34,6 +34,9 @@ prod_shots: Dt6tJm
 assets:
   - type: poster
     image: jQg3TKD
+  - type: programme
+    title: The Super Awesome Programme Notes
+    filename: super-awesome-programme-notes.pdf
 
 links:
   - type: Review

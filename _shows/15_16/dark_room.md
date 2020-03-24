@@ -30,6 +30,9 @@ crew:
 assets:
   - type: poster
     image: 9QjpDXH
+  - type: programme
+    title: Dark Room Programme Notes
+    filename: dark-room-programme-notes.pdf
 
 links:
   - type: Review

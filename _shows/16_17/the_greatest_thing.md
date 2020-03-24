@@ -48,6 +48,9 @@ prod_shots:
 assets:
   - type: poster
     image: rwZGXRp
+  - type: programme
+    title: The Greatest Thing Programme Notes
+    filename: tgtyes-programme-notes.pdf
 
 links:
   - type: Review

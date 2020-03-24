@@ -39,6 +39,9 @@ assets:
   - type: backstage
     video: vWxQ2pb
     title: Backstage At
+  - type: programme
+    title: "What's Cooking Programme Notes"
+    filename: whats-cooking-programme-notes.pdf
 
 links:
   - type: Review

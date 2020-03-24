@@ -102,6 +102,9 @@ assets:
   - type: backstage
     video: fxb25hD
     title: Backstage At
+  - type: programme
+    title: As You Like It Programme Notes
+    filename: ayli-programme-notes.pdf
 
 links:
   - type: Review

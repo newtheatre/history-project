@@ -8,9 +8,13 @@ season_sort: 370
 date_start: 2016-05-09
 date_end: 2016-05-10
 venue: New Theatre Studio A
+
 assets:
   - type: poster
     image: CkqsPr9
+  - type: programme
+    title: Out of Wonderland Programme Notes
+    filename: wonderland-programme-notes.pdf
 
 cast:
  - role: Charles Dodgson

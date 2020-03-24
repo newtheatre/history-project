@@ -11,6 +11,9 @@ venue: New Theatre
 assets:
   - type: poster
     image: HQZcQ57
+  - type: programme
+    title: SWWOM Programme Notes
+    filename: someone-programme-notes.pdf
 
 cast:
  - role: Adam Canning

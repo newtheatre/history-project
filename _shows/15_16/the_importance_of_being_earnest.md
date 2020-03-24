@@ -16,6 +16,9 @@ trivia:
 assets:
   - type: poster
     image: JH6Sp3B
+  - type: programme
+    title: Earnest Programme Note
+    filename: earnest-producers-note.pdf
 
 cast:
  - role: John Worthing

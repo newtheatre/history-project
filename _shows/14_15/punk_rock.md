@@ -58,6 +58,9 @@ assets:
   - type: backstage
     video: V7CB6Vg
     title: Backstage At
+  - type: programme
+    title: Punk Rock Programme Notes
+    filename: punk-rock-programme-notes.pdf
 
 links:
   - type: Review

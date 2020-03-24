@@ -61,6 +61,9 @@ prod_shots: RMrTB5
 assets:
   - type: poster
     image: QLDPQDz
+  - type: programme
+    title: The Great Gatsby Programme Notes
+    filename: gatsby-programme-notes.pdf
 
 links:
   - type: Review

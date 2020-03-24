@@ -64,6 +64,9 @@ assets:
   - type: backstage
     video: FQCfdkp
     title: Backstage At
+  - type: programme
+    title: "Our Country's Good Programme"
+    filename: our-countrys-good.pdf
 
 prod_shots: KSvvbm
 

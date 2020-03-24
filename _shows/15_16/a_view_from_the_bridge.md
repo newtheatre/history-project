@@ -80,6 +80,9 @@ assets:
   - type: backstage
     video: CWQ5gqZ
     title: Backstage At
+  - type: programme
+    title: The Bridge Programme Notes
+    filename: the-bridge-programme-notes.pdf
 
 prod_shots: RSgMvk
 

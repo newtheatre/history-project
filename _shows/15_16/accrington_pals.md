@@ -11,6 +11,9 @@ venue: New Theatre
 assets:
   - type: poster
     image: zP52ZDf
+  - type: programme
+    title: Accrington Pals Producer's Note Programme
+    filename: accrington-producers-note.pdf
 
 cast:
  - role: May

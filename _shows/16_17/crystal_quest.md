@@ -44,6 +44,9 @@ prod_shots: bjxVx7
 assets:
   - type: poster
     image: r3JPbCh
+  - type: programme
+    title: CrystalQuest Programme Notes
+    filename: crystalquest-programme-notes.pdf
     
 links:
   - type: Review

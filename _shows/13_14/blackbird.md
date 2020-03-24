@@ -48,6 +48,12 @@ assets:
   - type: backstage
     video: 4qDgX2k
     title: Backstage At
+  - type: programme
+    title: Blackbird Programme Notes
+    filename: blackbird-programme-notes.pdf
+  - type: programme
+    title: Blackbird Actor Notes
+    filename: blackbird-actors-notes.pdf
 
 links:
   - type: Review
