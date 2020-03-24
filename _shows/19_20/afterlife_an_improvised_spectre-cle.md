@@ -11,14 +11,20 @@ venue: New Theatre
 cast:
 - name: Alex Levy
 - name: Ben Frost
+  person: false
 - name: Callum Fischer
-- name: Chris Brooke
+  person: false
+- name: Christopher Brooke
 - name: Jamie Drew
 - name: Joe Stallibrass
+  person: false 
 - name: Joe Strickland
 - name: Molly McConnell
+  person: false 
 - name: Sash Steele 
+  person: false 
 - name: Seema B
+  person: false
 
 crew: 
 - role: Director
@@ -38,7 +44,7 @@ assets:
 
 ---
 
-Never seen before... never to be seen again! UoN Improv Society presents Afterlife: An Improvised Spectre-cle.
+Never seen before... never to be seen again! UoN Improv Society presents 'Afterlife: An Improvised Spectre-cle'.
 
 When a member of the improv troupe is sacrificed for the “greater good” of the group they might have some unfinished business. Fortunately for them, they are now a poltergeist, the audience is an afterlife full of suggestions and the other performers are fair game. Come and be part of the great beyond, help influence the direction of the fully improvised story of the lives of the troupe after that fateful night. 
 
