@@ -1,7 +1,7 @@
 ---
 title: "Unscripted: The Preview | Freshers Meat"
 devised: true
-period: Spring
+period: Autumn
 season: Unscripted
 season_sort: 43
 date_start: 2019-11-07
