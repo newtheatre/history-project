@@ -4,6 +4,7 @@ playwright:
 season: Edinburgh
 season_sort: 500
 period: Edinburgh
+playwright: Lizzie Bourne
 venue: The Zoo
 venue_sort: ZOO
 date_start: 2010-08-06
@@ -14,7 +15,9 @@ cast:
    name: Lauren Grant
 
 crew:
-  - role: Director
+  - role: Director 
+    name: Andy McNamee 
+  - role: Playwright
     name: Lizzie Bourne
   - role: Original Score
     name: Angus MacRae

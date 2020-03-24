@@ -8,6 +8,8 @@ venue: New Theatre
 date_start: 2007-11-14
 date_end: 2007-11-17
 
+comment: At NSFDF 2008, this show won Best Director, Spotlight Best Actress (Anna Wheatley) and Judge's Award for Acting (Lizzie Bourne) (#1110)
+
 cast:
   - role: Claire
     name: Lizzie Bourne
@@ -17,6 +19,9 @@ cast:
 crew:
   - role: Director
     name: Guy Unsworth
+  - role: Technical Designer
+    name: Nick Breen
+    comment: Unknown if lighting or sound
 
 prod_shots: Stmczp
 

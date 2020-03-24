@@ -15,6 +15,8 @@ cast:
    name: Christey Nethercott
  - role: Reverend John Hale
    name: Simon Holton
+ - role: Abigail 
+   name: Lizzie Bourne 
 
 crew:
   - role: Director
