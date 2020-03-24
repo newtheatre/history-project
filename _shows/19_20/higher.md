@@ -1,6 +1,7 @@
 ---
 title: Higher
 company: Chronic Insanity
+playwright: Tara Anegada
 period: Autumn
 season: External
 season_sort: 55
