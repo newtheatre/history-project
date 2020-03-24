@@ -40,7 +40,7 @@ assets:
     video: vWxQ2pb
     title: Backstage At
   - type: programme
-    title: Whats Cooking Programme Notes
+    title: "What's Cooking Programme Notes"
     filename: whats-cooking-programme-notes.pdf
 
 links:
