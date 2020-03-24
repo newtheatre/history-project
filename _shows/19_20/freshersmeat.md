@@ -13,14 +13,13 @@ cast:
   name: Nadia Elalfi
 - role: Arabella
   name: Katherine Wilshire
-- role: Danni Cooper
-  name: Alice
+- role: Alice
+  name: Danni Cooper
 - role: Paul
   name: Nicholas Landon
 - role: Francesca
   name: Laura Sherratt
 - role: Dan Morris
-  name: Dan Morris
 - role: Jack 
   name: Caetano Cappuro
 - role: Manny 
@@ -36,7 +35,7 @@ cast:
 - role: Interviewer / Cashier / Stoner
   name: Sofia Loreti
 - role: TravelSoc/ Stoner
-  name: Ella Seber - Rajan
+  name: Ella Seber-Rajan
 
 crew: 
 - role: Director

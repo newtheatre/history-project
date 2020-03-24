@@ -19,7 +19,7 @@ cast:
 - role: Martirio
   name: Daisy Forster
 - role: Angustias
-  name: Philippa
+  name: Philippa Horn
 - role: Amelia
   name: Helena Hunt
 - role: Magdalena 

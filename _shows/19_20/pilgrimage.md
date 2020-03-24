@@ -17,8 +17,8 @@ cast:
   name: Bill Hayes
 - role: Stevie
   name: Ollie Binns
-- role: Wilf Wort
-  name: Rory
+- role: Rory
+  name: Wilf Wort
 
 crew: 
 - role: Director
