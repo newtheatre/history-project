@@ -70,6 +70,9 @@ crew:
 assets:
   - type: poster
     image: 7jTPRZ6
+  - type: programme
+    title: La Casa de Bernada Alba Programme
+    filename: la-casa-programme.pdf
 
 prod_shots: kb952G
 

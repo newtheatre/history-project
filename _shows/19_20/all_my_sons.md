@@ -85,10 +85,11 @@ assets:
   - type:
     video:
     title:
+  - type: programme
+    title: All My Sons Programme
+    filename: ams-programme.pdf
 
 prod_shots: 8hvJdj
-
-programme: https://drive.google.com/drive/u/1/folders/1Wfcs8xlUNJDM7CEsuRxx44qNiIrC2ex8
 
 ---
 

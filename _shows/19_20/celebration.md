@@ -71,10 +71,11 @@ crew:
 assets:
   - type: poster
     image: zg6mVz2
+  - type: programme
+    title: Celebration Programme
+    filename: celebration-programme.pdf
 
 prod_shots: 72S8nc
-
-# programme: https://drive.google.com/drive/u/1/folders/1Wfcs8xlUNJDM7CEsuRxx44qNiIrC2ex8?fbclid=IwAR2lTYUAJgcaLZ59rkoSopuYvKAoM7s6CbGdbX40vhH1xUO5zK0MCm234tQ
 
 links:
   - type: Review
