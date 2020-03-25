@@ -53,7 +53,7 @@ crew:
 - role: Set Designer
   name: Annie Clayton
 - role: Set Assistant
-  name: Christina Scullion
+  name: Chris Scullion
 - role: Set Assistant
   name: Annabel D'Monte
 - role: Publicity Assistant
