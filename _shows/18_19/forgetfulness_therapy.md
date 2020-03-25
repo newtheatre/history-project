@@ -47,7 +47,7 @@ crew:
   name: Laura Kupp
   person: false
 - role: Poster Designer
-  name: Christina Scullion
+  name: Chris Scullion
 
 assets:
   - type: poster
