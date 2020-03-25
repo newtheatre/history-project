@@ -58,7 +58,7 @@ cast:
   note: Cecilia, Esther and Charlotte's Group
 - name: Ella Houghton
   note: Cecilia, Esther and Charlotte's Group
-- name: Emily Rule 
+- name: Em Rule 
   note: Alice, Gabriella, Caitie and Elliemae's Group
 - name: Phylly Rush
   note: Alice, Gabriella, Caitie and Elliemae's Group
