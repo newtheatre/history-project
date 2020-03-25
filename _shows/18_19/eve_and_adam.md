@@ -24,6 +24,8 @@ crew:
   name: Tara Anegada
 - role: Producer
   name: Oscar Rigg
+- role: Assistant Producer
+  name: Alice Zelenka Martin
 - role: Technical Director
   name: Adam Frankland
 - role: Lighting Designer
@@ -34,8 +36,6 @@ crew:
   name: Annie Clayton
 - role: Publicity Assistant
   name: Tomisin Fayemi
-- role: Assistant Producer
-  name: Alice Martin
 - role: Assistant Sound Designer
   name: Alex Levy
 - role: Sexual Theatre Director
