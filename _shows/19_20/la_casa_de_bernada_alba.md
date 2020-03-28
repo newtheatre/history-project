@@ -29,7 +29,7 @@ cast:
 - role: Servant
   name: Sofia Loreti 
 - role: Prudencia / Beggar Woman 
-  name: Edie Gillette
+  name: Edie Gillett
 - role: Pepe el Romano
   name: Nicholas Landon
 

@@ -36,7 +36,7 @@ cast:
   note: Danni and Nadia's Group 
 - name: Ella Seber-Rajan
   note: Danni and Nadia's Group
-- name: Chiedz McNab 
+- name: Chiedza McNab 
   note: Cameron and Ellen's Group
 - name: Sam Jackson
   note: Cameron and Ellen's Group
