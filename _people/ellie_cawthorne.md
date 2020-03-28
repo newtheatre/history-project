@@ -5,6 +5,7 @@ gender: female
 submitted: false
 graduated: 2014
 contact_allowed: false
+headshot: Bg7MdBT
 careers:
   - Writer
   - Radio Presenter
