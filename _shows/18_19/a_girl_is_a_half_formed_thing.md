@@ -31,7 +31,7 @@ crew:
 - role: Assistant Director
   name: Roma Coombe
 - role: Design Assistant
-  name: Christina Scullion
+  name: Chris Scullion
 - role: Publicity Assistant
   name: Laura Leigh
 - role: Technical Director

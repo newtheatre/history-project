@@ -70,7 +70,7 @@ crew:
 - role: Set Designer
   name: Zoe Smith
 - role: Set Assistant
-  name: Christina Scullion
+  name: Chris Scullion
 - role: Accent Coach
   name: Jack Ellis
 - role: Accent Coach

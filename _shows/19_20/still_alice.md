@@ -11,7 +11,7 @@ venue: New Theatre
 
 cast:
 - role: Alice
-  name: Emily Rule 
+  name: Em Rule 
 - role: Herself 
   name: Lillian Race 
 - role: John

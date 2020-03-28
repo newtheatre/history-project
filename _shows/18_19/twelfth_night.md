@@ -17,7 +17,7 @@ cast:
 - role: Antonio
   name: Lucy Chandler
 - role: Valentine / Fabiano
-  name: Alice Martin
+  name: Alice Zelenka Martin
 - role: Curio / Captain / Jesty
   name: Sarah Ward
 - role: Sir Toby Belch

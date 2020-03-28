@@ -64,7 +64,7 @@ crew:
 - role: Video Designer
   name: Hugo Ozanne
 - role: Set Assistant
-  name: Christina Scullion
+  name: Chris Scullion
 - role: Set Construction
   name: Jack Ellis
 - role: Publicity Assistant

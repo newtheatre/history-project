@@ -39,7 +39,7 @@ crew:
 - role: Set Assistant
   name: Nadia Elalfi
 - role: Poster Designer
-  name: Christina Scullion
+  name: Chris Scullion
 - role: Photographer
   name: Patrick Wale
   person: false

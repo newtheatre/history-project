@@ -67,7 +67,7 @@ cast:
     note: Rohan & Reilly's Group
   - name: Laura Finckh
     note: Rohan & Reilly's Group
-  - name: Alice Martin
+  - name: Alice Zelenka Martin
     note: Nadia, Danni, & Yasmine's Group
   - name: Jake Gausden
     note: Nadia, Danni, & Yasmine's Group
