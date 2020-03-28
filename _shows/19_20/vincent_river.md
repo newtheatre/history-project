@@ -36,7 +36,7 @@ crew:
 - role: Sound Designer
   name: Sam Osborne
 - role: Set Designer 
-  name: Barnaby Hartwill
+  name: Barney Hartwill
 - role: Publicity Manager
   name: Beth Carter
 - role: Publicity Assistant

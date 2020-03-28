@@ -20,11 +20,18 @@ cast:
 - role: Rory
   name: Wilf Wort
 
+crew_incomplete: false
+
 crew: 
 - role: Director
   name: Tara Anegada
+- role: Assistant Director
+  name: Joey
+  person: false
 - role: Producer
   name: Jack Titley
+- role: Technical Director
+  name: Lillian Race
 - role: Lighting Designer 
   name: Lillian Race
 - role: Sound Designer 
