@@ -21,7 +21,7 @@ cast:
   name: Laura Sherratt
 - role: Dan Morris
 - role: Jack 
-  name: Caetano Cappuro
+  name: Caetano Capurro
 - role: Manny 
   name: Emily Wong
 - role: Hannah
