@@ -91,7 +91,7 @@ assets:
     image: HXSWHbh
   - type: backstage
     video: h3bg4Sq
-    title: Backstage At
+    title: Behind The Scenes
   - type: programme
     title: Edward II Programme
     filename: edward-II-programme.pdf

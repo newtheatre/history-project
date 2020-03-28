@@ -77,7 +77,7 @@ assets:
     image: qhLgpsC
   - type: backstage
     video: zCGSXPS
-    title: Backstage At
+    title: Behind The Scenes
   - type: programme
     title: Dissocia Programme
     filename: dissocia-programme.pdf

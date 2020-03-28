@@ -69,7 +69,7 @@ assets:
     image: c4WMt7Z
   - type: backstage
     video: 6VgLwmf
-    title: Backstage At
+    title: Behind The Scenes
   - type: programme
     title: Vincent River Programme
     filename: vincent-river-programme.pdf
