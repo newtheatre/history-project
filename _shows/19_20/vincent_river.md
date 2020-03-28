@@ -67,6 +67,9 @@ crew:
 assets:
   - type: poster
     image: c4WMt7Z
+  - type: backstage
+    video: 6VgLwmf
+    title: Backstage At
   - type: programme
     title: Vincent River Programme
     filename: vincent-river-programme.pdf

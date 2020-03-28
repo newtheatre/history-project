@@ -109,6 +109,9 @@ prod_shots: x24nSs
 assets:
   - type: poster
     image: fmpWm9s
+  - type: backstage
+    video: rR2QXwK
+    title: Backstage At
   - type: programme
     title: Still Alice Programme
     filename: still-alice-programme.pdf

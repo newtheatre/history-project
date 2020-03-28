@@ -72,6 +72,9 @@ crew:
 assets:
   - type: poster
     image: VRZv846
+  - type: backstage
+    video: rdGNbh5
+    title: Edinburgh Trailer
   - type: programme
     title: The Toyland Murders Programme
     filename: toyland-murders.pdf
