@@ -43,6 +43,8 @@ crew:
   name: Sam Osborne
 - role: Assistant Lighting Designer 
   name: Skylar Turnbull Hurd
+- role: Set / Lighting Assistant
+  name: Izzy de Bono
 - role: Sound Designer 
   name: Nadia Elalfi
 - role: Stage Manager
@@ -51,6 +53,8 @@ crew:
   name: Jordan Walton
 - role: Poster Designer 
   name: Jenny Kendall
+- role: Accent Coach
+  name: Jack Ellis
 
 assets:
   - type: poster
