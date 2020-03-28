@@ -19,7 +19,7 @@ cast:
   name: Nicholas Landon
 - role: Francesca
   name: Laura Sherratt
-- role: Dan Morris
+- name: Daniel Morris
 - role: Jack 
   name: Caetano Capurro
 - role: Manny 
