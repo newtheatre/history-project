@@ -27,7 +27,7 @@ Don't worry if you aren't quite ready to part with your cherished New Theatre re
 
 ## Add yourself and other people
 
-As well filling in the form for each page, we have a specific form to add and make changes to a person's page. You can [search through everyone we know of](/people), and if you're not there or have things to add (a headshot, bio, fun anecdote, or link to your professional website), you can fill in [our person form](/collect/person).
+As well filling in the form for each page, we have a specific form to add and make changes to a person's page. You can [search through everyone we know of](/people/), and if you're not there or have things to add (a headshot, bio, fun anecdote, or link to your professional website), you can fill in [our person form](/collect/person/).
 
 ## Upload images <span class="headerlite">&ndash; for photographs and other media</span>
 
