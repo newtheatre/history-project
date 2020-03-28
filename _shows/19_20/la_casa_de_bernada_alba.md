@@ -53,7 +53,7 @@ crew:
 - role: Assistant Lighting Designer 
   name: Rose Edgeworth
 - role: Sound Designer 
-  name: Emily Rule
+  name: Em Rule
 - role: Assistant Sound Designer 
   name: James Barlow
 - role: Make-up Designer/Artist
