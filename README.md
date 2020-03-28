@@ -28,6 +28,7 @@ To get the site running locally you will need a working Ruby environment, the bu
 - `cd history-project` to change into the directory.
 - `bundle install` to install all the Ruby dependencies the project needs to build.
 - `npm install` to install all the Node dependencies the project needs to build.
+  - You may also need to run `npm link gulp-v3` to get our version of gulp to behave.
 - `bower install` to install all the frontend dependencies the project needs to build.
 
 ### Run
