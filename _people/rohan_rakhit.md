@@ -14,4 +14,4 @@ links:
     username: rohan.rakhit
 ---
 
-Was invited to join the NSDF Company Ensemble in 2019 for my role as 'Perseus' in Here, the World Entire.
+Was invited to join the NSDF Company Ensemble in 2019 for my role as 'Perseus' in 'Here, the World Entire'.
