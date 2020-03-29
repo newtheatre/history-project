@@ -25,3 +25,4 @@ Originally part of the Archaeology and Classics building, the main auditorium of
 
 The main auditorium is a 80 seat venue when used for proscenium productions, and is used by both In House and External companies. The venue is well maintained and the first two rows of seating can be removed for performances in thrust or the round.
 
+In 2013, the theatre launched the Seat Sponsoring Appeal, where individual seats could be sponsored and feature a personalised plaque. [Read more about the Seat Dedications...](/seats/)

@@ -1,0 +1,368 @@
+---
+# NNT Auditorium Seats
+
+- row: A
+  seat: 1
+  message: |
+    Marcus Black
+    Industrial Economics 1992.
+- row: A
+  seat: 2
+  message: |
+    Geraldine Slinger & Paul Woodhouse
+    English & American Studies and Law 1978.
+- row: A
+  seat: 3
+  message: |
+    Enjoyed Dramsoc so much, I got a third
+    Audrey Lanclett, English 1967.
+- row: A
+  seat: 4
+  message: |
+    Richard C Bale
+    Ancient History & Archaeology 1978-1981.
+- row: A
+  seat: 5
+  message: |
+    Helen Price (English 1974) & Glyn Price
+    With fond memories.
+- row: A
+  seat: 6
+  message: |
+    For Tweetie Pie, Love from Sylvester
+    1949-1952.
+- row: A
+  seat: 7
+  person: Matthew Bannister
+  message: |
+    In memory of Neville Bannister, who enjoyed watching his son perform here.
+- row: A
+  seat: 8
+  message: |
+    Professor Heinrich Fessler
+- row: A 
+  seat: 9
+  message: 
+- row: A
+  seat: 10
+  message: |
+    Helen Ward (Now McCallum), English 1970-1973
+    "Four plays a term - how did I get a degree?"
+- row: B
+  seat: 1
+  message: |
+    Clive Hollick
+    Dramsoc President 1965, co-founder New Theatre.
+- row: B
+  seat: 2
+  message: |
+    Roger Lancaster
+    Dramsoc 1965, co-founder New Theatre.
+- row: B
+  seat: 3
+  message: |
+    Patrick McNeill
+    Dramsoc 1965, co-founder New Theatre.
+- row: B
+  seat: 4
+  message: |
+    Peter Cox
+    Dramsoc 1965, co-founder New Theatre
+- row: B
+  seat: 5
+  message: |
+    Angela Lewi, 1963-1966.
+- row: B
+  seat: 6
+  message: |
+    Helen Brady Scott
+    M. Med Sci 1981. MBA 1992.
+- row: B
+  seat: 7
+  message: |
+    For my family, Pauline Casimir-Mrowczynske,
+    Mathematics 1982.
+- row: B
+  seat: 8 
+  message: 
+- row: B
+  seat: 9
+  message: |
+    Sir David Greenaway, Vice-Chancellor 2008-2017,
+    Professor of Economics 1987-2017.
+- row: B
+  seat: 10
+  message: |
+    Lady Susan Greenaway, MA Children's Literature (2000)
+    BA Fine Art (2011)
+- row: C
+  seat: 1
+  message: |
+    In Memory of Simon Reynolds,
+    Dramsoc 1974-1977.
+- row: C
+  seat: 2
+  message: |
+    Kevin Buxton 1971-1977
+    Six years & thirty shows
+    'Dramsoc Third' (English 1974)
+- row: C
+  seat: 3
+  message: |
+    Michael Mackenzie (Law 1965)
+    Happy memories of Dramsoc which set me on the professional road.
+- row: C
+  seat: 4
+  message: |
+    Teri Harman (Norris)
+    Dramsoc, History 1977.
+- row: C
+  seat: 5
+  message: |
+    Paul Colebourne
+    Founder, Nottingham Theatre Group
+    Edinburgh Fringe, 1972-1978.
+- row: C
+  seat: 6
+  message: |
+    Sponsored by Richard Simpson,
+    President, Drama Society 1977-1978.
+- row: C
+  seat: 7
+  person: Matthew Bannister
+  message: |
+    Matthew Bannister,
+    Dramsoc Third (Law 1978)
+- row: C
+  seat: 8
+  message: |
+    Geoffrey Dawe, Electrical Engineering 1957
+    & Joy Dawe (Cook), English 1959.
+- row: C
+  seat: 9
+  message: |
+    Chris & Fran Toms, 1979 & 1980
+    Engagement party here 1979.
+- row: C
+  seat: 10
+  message: |
+    Mike Jones
+    (Pharmacy 1970)
+- row: D
+  seat: 1
+  message: |
+    To inspire the next generation of students
+    Roger Swift, Physics 1989.
+- row: D
+  seat: 2
+  message: |
+    Thanks for the magical performances in the annual German play.
+    'Prof' Hinrich Siefken, 1979-1997.
+- row: D
+  seat: 3
+  message: |
+    For Elizabeth Bennett,
+    whose dad lost his grip on Mathematical Physics in this building, 1995-1998.
+- row: D
+  seat: 4
+  message: |
+    Tom Dineen, 2011-2014
+    For all the great memories, Thank You!
+- row: D
+  seat: 5
+  message: |
+    Jayne E Marshall PhD, 2005.
+    Associate Professor (Midwifery)
+    Inspired by my late parents Colin & Mabel.
+- row: D
+  seat: 6
+  message: |
+    Kevin Sullivan,
+    Industrial Economics 1981.
+- row: D
+  seat: 7
+  message: |
+    M. Ann Richards (Case)
+    English 1964.
+- row: D
+  seat: 8
+  message: |
+    To Mum and Dad, Love you Loads
+    Cecilia Chunping Xu.
+- row: D
+  seat: 9 
+  message: 
+- row: D 
+  seat: 10 
+  message: 
+- row: E
+  seat: 1
+  message: |
+    To our family, Elaine & Haydon Luke,
+    English 1961-1964.
+- row: E 
+  seat: 2 
+  message: 
+- row: E
+  seat: 3
+  message: |
+    To The New Theatre, For all the laughter, love, passion & memories.
+    Ellie Colyer Alasquez (Hispanic Studies 2000).
+- row: E 
+  seat: 4
+  message: 
+- row: E
+  seat: 5
+  message: |
+    In memory of Samuel Paul Abbott, 1994-2013.
+    God grant us serenity, courage and wisdom.
+- row: E 
+  seat: 6
+  message:
+- row: E 
+  seat: 7
+  message:  
+- row: E
+  seat: 8
+  message: |
+    Janet Tan and Koh Lian Choon,
+    Parents of Edwin Koh (Law 1996).
+- row: E 
+  seat: 9
+  message:
+- row: E 
+  seat: 10
+  message:  
+- row: F
+  seat: 1
+  message: |
+    Lysistrata 2013
+    Nottingham New Theatre & Lakeside Arts Centre.
+- row: F
+  seat: 2
+  message: |
+    "Pass it on" Jacob Hayes
+    History and NNT (2011-2015)
+- row: F 
+  seat: 3
+  message:
+- row: F 
+  seat: 4
+  message:
+- row: F 
+  seat: 5
+  message:
+- row: F 
+  seat: 6
+  message:
+- row: F 
+  seat: 7
+  message:
+- row: F 
+  seat: 8
+  message: 
+- row: F 
+  seat: 9
+  message:
+- row: F 
+  seat: 10
+  message:
+- row: G
+  seat: 1
+  message:
+- row: G
+  seat: 2
+  message:
+- row: G
+  seat: 3
+  message: |
+    From Ted Childs (Industrial Economics, 1957)
+    in memory of Barry Isted (Economic History, 1957).
+- row: G 
+  seat: 4
+  message:
+- row: G 
+  seat: 5
+  message:
+- row: G 
+  seat: 6
+  message:
+- row: G 
+  seat: 7
+  message:
+- row: G 
+  seat: 8
+  message:
+- row: G 
+  seat: 9
+  message:
+- row: G
+  seat: 10
+  message: |
+    Patrick Grice,
+    New Theatre Manager 1979.
+- row: H
+  seat: 1
+  message: |
+    In memory of my mother Lydia,
+    Philip Watson (Economics 1965).
+- row: H
+  seat: 2
+  message: |
+    Lydia's Philosophy For leading your life.
+- row: H
+  seat: 3
+  message: |
+    I expect to pass through this world but once.
+- row: H
+  seat: 4
+  message: |
+    Any good thing that I can do or any kindness I can show.
+- row: H
+  seat: 5
+  message: |
+    Let me do it now, Let me not defer nor neglect it.
+- row: H
+  seat: 6
+  message: |
+    For I shall not pass this way again.
+    Etienne De Grellet, (1773-1885).
+- row: H
+  seat: 7
+  message: |
+    In memory of my wife Janet,
+    Philip Watson (Economics 1965).
+- row: H
+  seat: 8
+  message: |
+    A gift from my daughter Nicola,
+    Philip Watson (Economics 1965).
+- row: I
+  seat: 1
+  message: |
+    For Rosencrantz and Guildenstern.
+- row: I 
+  seat: 2
+  message:
+- row: I 
+  seat: 3
+  message:
+- row: I
+  seat: 4
+  message: |
+    In memory of my time with Tech Committee
+    David Osborne (1964-1967).
+- row: I
+  seat: 5
+  message: |
+    John Figgures,
+    Technical Committee 1964-67.
+- row: I 
+  seat: 6
+  message:
+- row: I 
+  seat: 7
+  message:
+- row: I 
+  seat: 8
+  message:
