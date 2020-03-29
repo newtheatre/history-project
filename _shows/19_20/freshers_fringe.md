@@ -126,7 +126,7 @@ crew:
 - role: Director 
   name: Abigail Platt 
 - role: Director 
-  name: Sam Andre Paul
+  name: Sam André-Paul
 - role: Director 
   name: Zoe Smith
 - role: Director 

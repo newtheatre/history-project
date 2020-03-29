@@ -20,7 +20,7 @@ cast:
 - role: Psychiatrist / Doctor / Lawyer
   name: Angharad Davies
 - role: Psychiatrist / Doctor / Lawyer
-  name: Sam Andre-Paul
+  name: Sam André-Paul
 
 
 crew:

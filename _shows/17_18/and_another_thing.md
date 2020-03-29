@@ -13,7 +13,7 @@ crew_incomplete: false
 cast:
 - name: Ian Sheard
 - name: Lara Cowler
-- name: Sam Andre-Paul
+- name: Sam André-Paul
 - name: Reisha Gill
   person: false
 - name: Ellen Schaffert
