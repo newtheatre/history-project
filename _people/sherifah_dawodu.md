@@ -1,5 +1,5 @@
 ---
-title: Sherifa Dawodu
+title: Sherifah Dawodu
 gender: female
 submitted: false
 headshot: CnJG6Pz

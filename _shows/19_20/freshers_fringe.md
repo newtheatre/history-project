@@ -80,7 +80,7 @@ cast:
   note: Beth and Lucy's Group
 - name: Philippa Horn
   note: Barney and Sofia's Group
-- name: Daniel Cresswell
+- name: Dan Cresswell
   note: Barney and Sofia's Group
 - name: Daisy Forster
   note: Barney and Sofia's Group
