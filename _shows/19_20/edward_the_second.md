@@ -54,7 +54,7 @@ crew:
 - role: Assistant Lighting Designer 
   name: Skylar Turnbull Hurd
 - role: Sound Designer 
-  name: Arthur McKechnie
+  name: Arthur Mckechnie
 - role: Shadow Sound Designer
   name: Jack Ellis
 - role: Technical Assistant
