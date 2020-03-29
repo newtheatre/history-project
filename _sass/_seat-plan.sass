@@ -51,14 +51,15 @@
       width: 75% 
     @include respond-up(tab-land)
       width: 50% 
-
-svg.svg-container
-  width: 1rem
-  height: 1rem
-  &.purple 
-    fill: $color-nnt-purple
-  &.subtle
-    fill: $color-background-alt
-    opacity: 0.5
-  &:hover
-    fill: $color-nnt-orange
+  span.seat-tooltip
+    svg.svg-container 
+      width: 1rem
+      height: 1rem
+      &.purple 
+        fill: $color-nnt-purple
+      &.subtle
+        fill: $color-background-alt
+        opacity: 0.5
+    &:hover
+      svg.svg-container
+        fill: $color-nnt-orange

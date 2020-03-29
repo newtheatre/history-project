@@ -34,7 +34,7 @@ blurb: |
   <svg class="svg-container {% if seat.message == null %}subtle{% else %}purple{% endif %}" title="Seat icon" alt="Seat icon">
     <use xlink:href="#seat" />
   </svg>
-</span>&nbsp;
+  </span>&nbsp;
   {% unless site.data.seats[forloop.index].row == site.data.seats[prev_index].row %}<span style="float: right">{{ seat.row }}</span><br />{% endunless %}
 {% endfor %}
 </p>
