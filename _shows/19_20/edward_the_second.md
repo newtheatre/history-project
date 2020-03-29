@@ -40,7 +40,7 @@ crew:
 - role: Shadow Director
   name: Jasmine Butler
 - role: Producer
-  name: Sam Andre-Paul
+  name: Sam André-Paul
 - role: Producer
   name: Abigail Platt
 - role: Shadow Producer

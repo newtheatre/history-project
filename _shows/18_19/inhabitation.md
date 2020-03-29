@@ -61,7 +61,7 @@ crew:
 - role: Stage Manager
   name: Danial Ahmer
 - role: Stage Manager
-  name: Sam Andre-Paul
+  name: Sam André-Paul
 - role: Stage Manager
   name: Rachel Elphick
 - role: Stage Manager
