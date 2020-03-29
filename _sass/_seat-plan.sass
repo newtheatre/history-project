@@ -45,9 +45,8 @@
   p 
     text-align: center
     margin: auto
-    @include respond-up(mob-port)
-      width: 100% 
-    @include respond-up(tab-port)
+    width: 100% 
+    @include respond-up(mob-land)
       width: 75% 
     @include respond-up(tab-land)
       width: 50% 
@@ -65,5 +64,6 @@
         fill: $color-nnt-orange
   span.row-title
     float: right
+    width: 0.5rem
     @include respond-up(tab-port)
       width: 1rem 
