@@ -59,7 +59,7 @@ end
 
 def make_hp_path(title)
   # Downcase, remove specials, space->underscore
-  title.downcase.gsub(/[^0-9a-z \-]/i, '').gsub(' ','_')
+  title.downcase.gsub('é','e').gsub(/[^0-9a-z \-]/i, '').gsub(' ','_')
 end
 
 module Jekyll
