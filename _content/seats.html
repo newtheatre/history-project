@@ -23,9 +23,10 @@ blurb: |
 </svg>
 </div>
 
-<h6 class="seat-map">The Stage</h6>
+<div class="seat-map">
+<h6>The Stage</h6>
 
-<p style="text-align: center; width: 50%; margin: auto">
+<p>
 {% assign seats = site.data.seats | sort: 'seat' | reverse | sort: 'row' %}
 {% for seat in seats %}
   {% assign prev_index = forloop.index | minus: 1 %}
