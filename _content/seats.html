@@ -35,6 +35,6 @@ blurb: |
     <use xlink:href="#seat" />
   </svg>
   </span>&nbsp;
-  {% unless site.data.seats[forloop.index].row == site.data.seats[prev_index].row %}<span style="float: right">{{ seat.row }}</span><br />{% endunless %}
+  {% unless site.data.seats[forloop.index].row == site.data.seats[prev_index].row %}<span class="row-title">{{ seat.row }}</span><br />{% endunless %}
 {% endfor %}
 </p>
