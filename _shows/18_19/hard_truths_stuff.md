@@ -11,7 +11,7 @@ venue: New Theatre
 cast:
 - name: Joe Strickland
 - name: Carn Truscott
-- name: Sam André-Paul
+- name: Sam Andre-Paul
 - name: Ellen Schaffert
 - name: Molly McConnell
   person: false

@@ -10,7 +10,7 @@ venue: New Theatre
 
 cast:
 - role: Henry Maison
-  name: Sam André-Paul
+  name: Sam Andre-Paul
 - role: Thomas Stolz Harvey
   name: Miguel Barrulas
 - role: Martha

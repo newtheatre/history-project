@@ -1,5 +1,5 @@
 ---
-title: Sam André-Paul
+title: Sam Andre-Paul
 submitted: false
 headshot: 3KH5XBT
 
