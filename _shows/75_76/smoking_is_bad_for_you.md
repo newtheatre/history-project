@@ -1,10 +1,11 @@
 ---
 title: Smoking is Bad for You
 playwright: Anton Chekhov
-season: In House
+start_date: 1975-08-01
+comment: Start date approximate 
+season: Edinburgh
 period: Spring
 season_sort: 210
-venue: New Theatre
 
 cast:
 - role: Ivan Nyukhim

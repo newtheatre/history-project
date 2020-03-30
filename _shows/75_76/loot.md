@@ -12,6 +12,11 @@ assets:
   - type: poster
     image: S38tmxL
 
+trivia:
+  - quote: "As Truscott, I remember on night stepping forward in the blackout for a solo bow - only to fall off stage!"
+    name: Stephen Hopker
+    submitted: 2020-03-25
+
 cast:
 - role: McLeavy
   name: Andy Wilkinson
