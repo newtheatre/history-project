@@ -140,7 +140,10 @@ module Jekyll
 
       # Student status 
 
-      if not person.data["graduated"] or (person.data["graduated"] > Time.now().year)
+      # People who have not graduated; those graduating in the future, or those graduating later this year are students.
+      # The month where most students will have graduated is defined in _config.yml
+      if (not person.data["graduated"] or (person.data["graduated"] > Time.now().year)) or 
+        ((person.data["graduated"] == Time.now().year) and (Time.now().month < @site.config["graduation_month"]))
         if (person.data["shows"]) or (person.data["committees"])
           person.data["student"] = true 
         else 
