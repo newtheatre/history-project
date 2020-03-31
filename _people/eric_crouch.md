@@ -5,4 +5,5 @@ course:
   - Philosophy, Politics, and Economics BA
 gender: male
 submitted: false
+graduated: 2019
 ---

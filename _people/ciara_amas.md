@@ -1,6 +1,5 @@
 ---
-title: Grace Williams
-headshot: R6Cxkk9
+title: Ciara Amas
 gender: female
 submitted: false
 graduated: 2019

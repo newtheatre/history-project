@@ -3,6 +3,7 @@ title: Callum Walker
 gender: male
 headshot: FDRxHvx
 submitted: 2019-04-02
+graduated: 2019
 course:
   - BA English
   - MA English

@@ -1,6 +1,5 @@
 ---
-title: Grace Williams
-headshot: R6Cxkk9
+title: Emma Collingwood
 gender: female
 submitted: false
 graduated: 2019

@@ -1,6 +1,5 @@
 ---
-title: Hugo Minta
-headshot: hJkSp8W
+title: Jase Neal
 gender: male
 submitted: false
 graduated: 2019

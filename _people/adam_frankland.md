@@ -1,6 +1,5 @@
 ---
-title: Hugo Minta
-headshot: hJkSp8W
+title: Adam Frankland
 gender: male
 submitted: false
 graduated: 2019
