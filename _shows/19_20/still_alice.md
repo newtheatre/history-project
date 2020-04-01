@@ -52,7 +52,7 @@ crew:
   name: Rose Edgeworth 
 - role: Video Designer 
   name: Rhona Mitchell 
-- role: Techncial Assistant 
+- role: Technical Assistant 
   name: Sam Osborne
 - role: Publicity Assistant
   name: Alice Walker 
