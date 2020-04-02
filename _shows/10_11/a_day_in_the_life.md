@@ -5,6 +5,7 @@ company: The Red Herrings
 season: External
 season_sort: 140
 venue: New Theatre
+improvised: true
 
 crew:
   - role: Director

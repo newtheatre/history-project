@@ -6,6 +6,7 @@ period: Spring
 venue: New Theatre Studio A
 date_start: 2018-06-16
 company: UoN Improv
+improvised: true
 
 crew_incomplete: false
 

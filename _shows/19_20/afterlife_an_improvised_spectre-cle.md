@@ -7,6 +7,7 @@ season_sort: 210
 date_start: 2020-02-04
 date_end: 2020-02-07
 venue: New Theatre
+improvised: true
 
 cast:
 - name: Alex Levy

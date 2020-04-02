@@ -8,6 +8,7 @@ season_sort: 220
 venue: New Theatre
 date_start: 2008-02-13
 date_end: 2008-02-16
+improvised: true
 
 cast:
 - role: Narrator
