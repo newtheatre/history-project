@@ -7,6 +7,7 @@ period: Spring
 venue: New Theatre
 date_start: 2018-06-02
 date_end: 2018-06-03
+student_written: true 
 
 cast:
 - role: Ryan

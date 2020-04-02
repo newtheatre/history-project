@@ -7,6 +7,7 @@ season_sort: 260
 date_start: 2020-03-09
 date_end: 2020-03-10
 venue: New Theatre Studio A
+student_written: true 
 
 cast:
 - role: Max

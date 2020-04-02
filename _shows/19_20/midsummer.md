@@ -8,6 +8,7 @@ season_sort: 60
 date_start: 2019-11-20
 date_end: 2019-11-23
 venue: New Theatre
+student_written: true 
 
 # trivia: 
 

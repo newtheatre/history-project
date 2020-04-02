@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information 
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used 
-
 title: Doctor Faustus
 playwright: Christopher Marlowe
 adaptor: Daniel McVey
@@ -12,6 +8,7 @@ season_sort: 130
 date_start: 2018-11-28
 date_end: 2018-12-01
 venue: New Theatre
+student_written: true 
 
 trivia:
   - quote: I got grief every day for how little of that sodding jigsaw I finished over the course of the show, despite a) not being able to see what it was supposed to be and b) the fact that when completed it would have been bigger than the table I had to work with.
