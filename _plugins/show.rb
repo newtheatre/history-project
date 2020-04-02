@@ -30,6 +30,11 @@ module Jekyll
         else
           ["devised", nil, "Devised by #{ show.data["devised"] }"]
         end
+      elsif show.data.key?("improvised")
+        # Is an improv show 
+        if show.data["improvised"] == true
+          ["improvised", nil, "Improvised"]
+        end 
       else
         # Is
         ["unknown", nil, "Playwright Unknown"]
