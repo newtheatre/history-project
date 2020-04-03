@@ -1,7 +1,7 @@
 ---
 title: Boo Jackson
 submitted: false
-headshot: q2wWDC3
+headshot: ZDcCxsk
 gender: female
 course:
   - BA Philosophy
