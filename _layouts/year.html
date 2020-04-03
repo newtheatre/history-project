@@ -65,7 +65,14 @@ current: archives
         {% endfor %}
       {% endif %}
       {% if page.next %}
-        <div class="event-item"><strong><a href="/people/grad/#{{ page.grad_year }}">Graduating Class of {{ page.grad_year }}</a></strong></div>
+        {% if site.data.people_by_graduation_year[page.grad_year] != empty %}
+          <div class="event-item"><strong><a href="/people/grad/#{{ page.grad_year }}">Graduating Class of {{ page.grad_year }}</a></strong></div>
+        {% else %}
+          <div class="box-warning">
+            <i class="fa fa-exclamation-triangle"></i>
+            <p>We don't know of anyone graduating in {{ page.grad_year }}. {% include boxes/phrase_if_you_can_help.html %}</p>
+          </div>
+        {% endif %}
       {% endif %}
       <p class="micro right"><a href="/history/"><i class="fa fa-book"></i> More history...</a></p>
     </div>
