@@ -48,19 +48,27 @@ current: archives
       {% include boxes/committee_missing.html %}
 
     {% endif %}
-    {% if page.key_events %}
-      <h3 class="event-list-title">Key Events</h3>
-      <div class="event-list">
-      {% for event in page.key_events %}
-      <div class="event-item">
-        <h4>{{ event.title }}</h4>
-        <p>{{ event.description | markdownify }}</p>
-        {% if event.image %}
-        <img src="{{ event.image.href }}" alt="{{ event.image.alt }}"/>
-        {% endif %}
-      </div>
-      {% endfor %}
+    {% if page.key_events or page.next %}
+    <h3 class="event-list-title">Key Events</h3>
+    <div class="event-list">
+      {% if page.key_events %}
+        {% for event in page.key_events %}
+          <div class="event-item">
+            <h4>{{ event.title }}</h4>
+            {% if event.description %}
+            <p>{{ event.description | markdownify }}</p>
+            {% endif %}
+            {% if event.image %}
+            <img src="{{ event.image.href }}" alt="{{ event.image.alt }}"/>
+            {% endif %}
+          </div>
+        {% endfor %}
+      {% endif %}
+      {% if page.next %}
+        <div class="event-item"><strong><a href="/people/grad/#{{ page.grad_year }}">Graduating Class of {{ page.grad_year }}</a></strong></div>
+      {% endif %}
       <p class="micro right"><a href="/history/">More history...</a></p>
+    </div>
     {% endif %}
   </div>
 </div>
