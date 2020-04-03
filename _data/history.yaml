@@ -24,12 +24,12 @@
     The SPD Manager also served as Technical Director of Dramsoc, in addition to overseeing the electrics at the annual University Opera, performed in the Great Hall of Trent Building.
 
 - year: 1945
-  aca_year: "44_45"
+  academic_year: "44_45"
   title: Earliest New Theatre Graduate
   description: "The earliest graduate in our records. Think you can beat that? Just drop us a line."
 
 - year: 1958
-  aca_year: "58_59"
+  academic_year: "58_59"
   title: Nottingham's Everyman Club
   description: "Nottingham's Everyman Club was formed in 1958, to encourage students and local people in the city, who were interested in theatre, to collaborate on productions. The club had some notable successes in the 1960s."
 
@@ -38,7 +38,7 @@
   description: "The production of *Coriolanus* reached the finals of the National Student Drama Competition, while *The Taming of the Shew* enjoyed a week-long tour of Germany. The society also took George Bernard Shaw's *St Joan* to the outdoor Minack Theatre in Cornwall."
 
 - year: 1966
-  aca_year: "66_67"
+  academic_year: "66_67"
   title: Earliest 'New Theatre' Record
   description: "While not called the 'New Theatre', this is the earliest record of student theatre in Nottingham. At this time, members of the University of Nottingham Technical Committee were responsible for the technical areas of the student theatre."
 
@@ -50,7 +50,7 @@
     These shows were developed and previewed in New Theatre. NTG would typically rent a venue in Edinburgh and fit it out as a temporary theatre, sub-letting the space and equipment to other Fringe groups such as Durham Student Theatre or Bristol Revunions.
 
 - year: 2001
-  aca_year: "01_02" 
+  academic_year: "01_02" 
   title: A New Foyer
   description: "Thanks to a gracious alumni donation, we were able to fund the construction of our foyer. This housed internal access to the Box Office, toilets, and bar. Its glass exterior created a fresh and open environment for all visitors."
   image:
@@ -58,17 +58,17 @@
     alt: First foyer
 
 - year: 2011
-  aca_year: "11_12" 
+  academic_year: "11_12" 
   title: UNCUT
   description: "Another season of shows allows for more opportunity, and the UNCUT Season—now *Fringe*—is just that. Providing a platform for experimental, new, or more intimate theatre, this season runs parallel to the In House season. The majority of initial performances were located outside of the Theatre."
 
 - year: 2012
-  aca_year: "11_12" 
+  academic_year: "11_12" 
   title: Demolition of Archaeology
   description: "The New Theatre was, up till this point, housed within the department of Archaeology and Classics. Over the summer, the New Theatre became its own freestanding building—now a popular campus landmark. Among several other rooms the foyer was given a generous extension."
 
 - year: 2012
-  aca_year: "11_12" 
+  academic_year: "11_12" 
   title: Studios A and B (and more rooms!)
   description: |
     Our small blackbox studios—used as rehearsal rooms, meeting spaces, performance venues, and occasional bar—were created.
@@ -81,26 +81,26 @@
     alt: Studio B
 
 - year: 2012
-  aca_year: "12_13"
+  academic_year: "12_13"
   title: The Nottingham New Theatre
   description: "Following a members' vote, *The New Theatre* became *The Nottingham New Theatre*, and a new logo was born. This change was made to better represent the theatre on the national stage."
 
 - year: 2013
-  aca_year: "13_14" 
+  academic_year: "13_14" 
   title: Nottingham New Theatre meets Lakeside Arts
   description: "In the first of what would become an annual partnership, the students of New Theatre collaborated with the professional theatremakers at Lakeside Arts, another on-campus theatre, to perform *Lysistrata*."
 
 - year: 2015
-  aca_year: "14_15"
+  academic_year: "14_15"
   title: STUFF
   description: "The first year of the STUdent Fringe Festival—STUFF—paved the way for future years. An Edinburgh preview event, including shows from external production companies, including Nottingham New Theatre alumni, all coming together to end the summer term on campus."
 
 - year: 2016
-  aca_year: "15_16"
+  academic_year: "15_16"
   title: 50th Anniversary
   description: "The Nottingham New Theatre's inaugural alumni dinner took place for the theatre's 50th Anniversary. Over 100 alumni guests were welcomed to tours of the theatre spaces, followed by a formal dinner in the Great Hall and Senate Chamber."
 
 - year: 2017
-  aca_year: "16_17" 
+  academic_year: "16_17" 
   title: Unscripted
   description: "Unscripted allows students of any and all experience to take part in the theatre life. With no auditions, the group produces a semi-devised piece. The first performance, held in February, was *Camp MacBeth*."

@@ -5,7 +5,7 @@
   description: "Each event is given a year, range, or approximation (eg. 2011, 2001-2005, 1980s)"
   required: true
 
-- attr: aca_year 
+- attr: academic_year 
   type: string 
   short: Academic year 
   description: "The specific academic year the event is associated with, in the format `xx_yy`. This allows the event to show on a specific year page."

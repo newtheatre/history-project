@@ -15,7 +15,7 @@ The History page gatheres its list of events from `data/history.yaml`. When atta
 
 {% highlight yaml %}
 - year: 2001
-  aca_year: "01_02" 
+  academic_year: "01_02" 
   title: A New Foyer
   description: "Thanks to a gracious alumni donation, we were able to fund the construction of our foyer. This housed internal access to the Box Office, toilets, and bar. Its glass exterior created a fresh and open environment for all visitors."
   image:

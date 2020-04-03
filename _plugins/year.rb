@@ -87,7 +87,7 @@ module Jekyll
     def get_key_events(year)
       key_events = [] 
       for event in @site.data['history']
-        if event["aca_year"] == year['year']
+        if event["academic_year"] == year['year']
           key_events << event 
         end 
       end 
