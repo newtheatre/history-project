@@ -23,6 +23,7 @@ color_nnt_orange: "#FFC425"
 # Build settings
 markdown: kramdown
 permalink: pretty
+strict_front_matter: true # Fail on invalid YAML
 
 plugins:
 - jekyll-sitemap
