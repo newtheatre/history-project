@@ -17,7 +17,8 @@ cast:
 
 
 trivia: 
-  - quote: "My leading lady was an exceptionally beautiful young student in the French department, so when it came to the line: \'Come, my Celia, let us prove, while we can, the sports of love,\' we went to it with such realism that it left the audience - and us - gasping."
+  - quote: >
+      My leading lady was an exceptionally beautiful young student in the French department, so when it came to the line: 'Come, my Celia, let us prove, while we can, the sports of love,' we went to it with such realism that it left the audience - and us - gasping.
     name: John Izbicki
 
 ---
