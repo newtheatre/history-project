@@ -117,26 +117,26 @@ body_class: section-archives layout-show
       {% if show.missing_majority == true %}
         {% include boxes/show_missing_majority.html %}
       {% endif %}
-        <article class="show-synopsys">
-          {{ content }}
+      <article class="show-synopsys">
+        {{ content }}
 
-          {% if show.trivia %}
-            {% include trivia-list.html trivia=show.trivia %}
-          {% elsif show.ignore_missing != true or show.missing_majority != true %}
-            {% include boxes/show_facts_missing.html %}
-          {% endif %}
-        </article>
-
-        {% if show.assets.size > 0 %}
-        <section class="show-assets">
-          <h3>Show Materials</h3>
-          {% include show_assets_list.html assets=show.assets %}
-        </section>
+        {% if show.trivia %}
+          {% include trivia-list.html trivia=show.trivia %}
         {% else %}
-          {% unless show.ignore_missing or show.missing_majority %}{% include boxes/show_assets_missing.html %}{% endunless %}
+          {% unless show.ignore_missing or show.missing_majority %}
+            {% include boxes/show_facts_missing.html %}
+          {% endunless %}
         {% endif %}
-      {% endif %}
+      </article>
 
+      {% if show.assets.size > 0 %}
+      <section class="show-assets">
+        <h3>Show Materials</h3>
+        {% include show_assets_list.html assets=show.assets %}
+      </section>
+      {% else %}
+        {% unless show.ignore_missing or show.missing_majority %}{% include boxes/show_assets_missing.html %}{% endunless %}
+      {% endif %}
 
     </div>
     <div class="show-poster">
