@@ -10,7 +10,6 @@ date_end: 2008-11-08
 comment: These dates are unconfirmed, the production was at least on these dates.
 
 crew_incomplete: true 
-cast_incomplete: true 
 
 crew:
   - role: Director
