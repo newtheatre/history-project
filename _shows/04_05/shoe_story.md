@@ -8,6 +8,7 @@ period: Edinburgh
 season: Edinburgh
 season_sort: 500
 venue: Sweet Grassmarket
+venue_sort: Sweet Venues
 
 cast:
   - name: Maryann O'Brien
