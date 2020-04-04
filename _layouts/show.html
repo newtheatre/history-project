@@ -118,13 +118,13 @@ body_class: section-archives layout-show
       </header>
       {% if show.missing_majority == true %}
         {% include boxes/show_missing_majority.html %}
-      {% else %}
+      {% endif %}
         <article class="show-synopsys">
           {{ content }}
 
           {% if show.trivia %}
             {% include trivia-list.html trivia=show.trivia %}
-          {% elsif show.ignore_missing != true %}
+          {% elsif show.ignore_missing != true or show.missing_majority != true %}
             {% include boxes/show_facts_missing.html %}
           {% endif %}
         </article>
@@ -135,7 +135,7 @@ body_class: section-archives layout-show
           {% include show_assets_list.html assets=show.assets %}
         </section>
         {% else %}
-          {% unless show.ignore_missing %}{% include boxes/show_assets_missing.html %}{% endunless %}
+          {% unless show.ignore_missing or show.missing_majority %}{% include boxes/show_assets_missing.html %}{% endunless %}
         {% endif %}
       {% endif %}
 
