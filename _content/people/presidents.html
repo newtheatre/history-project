@@ -12,37 +12,47 @@ editable: false
 </div>
 
 {% comment %} Slightly different from people_grid.html {% endcomment %}
-<div class="wrapper">
-  <ul class="people-grid">
-
-  {% for year in site.years %} 
-  <li>
-    <div class="title"><a href="{{ year.url }}">{{ year.start_year }}</a></div>
-    {% if year.committee %}
-      {% assign this_pres = year.committee.committee | where: "role", "President" %}
-      {% assign this_pres_name = this_pres[0].name | downcase %}
-      {% if this_pres != '' and this_pres_name != 'unknown' %}
-        {% assign this_person = site.data.people | where: "title", this_pres[0].name %}
-        <ul class="people-grid-list president-list">
-          {% assign person = this_person[0] %}
-          <li><a href="{{ person.url }}">
-            <div class="headshot">
-              {% if person.headshot %}
-                <img class="person-headshot-actual" src="{{ person.headshot.person_bio }}" alt="{{ person.title }}" />
-              {% else %}
-                <img class="person-headshot-placeholder" src="/images/human-512-cropped.png" alt="Human silhouette" />
-              {% endif %}
-            </div>
-            <div class="name">{{ person.title }}</div>
-          </a></li>
-        </ul>
+<div class="page">
+  <div class="president-people">
+    <ul class="people-grid">
+    {% assign unknowns = '' %}
+    {% for year in site.years %} 
+      {% if year.committee %}
+        {% assign this_pres = year.committee.committee | where: "role", "President" %}
+        {% assign this_pres_name = this_pres[0].name | downcase %}
+        {% if this_pres != '' and this_pres_name != 'unknown' %}
+          {% assign this_person = site.data.people | where: "title", this_pres[0].name %}
+          <li>
+            <div class="title"><a href="{{ year.url }}">{{ year.start_year }}</a></div>
+            <ul class="people-grid-list president-list">
+              {% assign person = this_person[0] %}
+              <li><a href="{{ person.url }}">
+                <div class="headshot">
+                  {% if person.headshot %}
+                    <img class="person-headshot-actual" src="{{ person.headshot.person_bio }}" alt="{{ person.title }}" />
+                  {% else %}
+                    <img class="person-headshot-placeholder" src="/images/human-512-cropped.png" alt="Human silhouette" />
+                  {% endif %}
+                </div>
+                <div class="name">{{ person.title }}</div>
+              </a></li>
+            </ul>
+          </li>
+        {% else %}
+          {% assign unknowns = unknowns | append: ', ' | append: year.start_year %}
+        {% endif %}
       {% else %}
-        <div class="name name-unknown"><em>Unknown</em></div>
+        {% assign unknowns = unknowns | append: ', ' | append: year.start_year %}
       {% endif %}
-    {% else %}
-      <div class="name name-unknown"><em>Unknown</em></div>
-    {% endif %}
-  </li>
-  {% endfor %}
-  </ul>
+    </li>
+    {% endfor %}
+    </ul>
+  </div>
+  <div class="president-cta">
+    <div class="box-warning">
+      <i class="fa fa-exclamation-triangle"></i>
+      <p><strong>Missing Presidents</strong><br />
+      <p>We're missing {{ unknowns | split: ', ' | size }} presidents, from the following years: {{ unknowns | remove_first: ","}}. {% include boxes/phrase_if_you_can_help.html %}</p>
+    </div>
+  </div>
 </div>

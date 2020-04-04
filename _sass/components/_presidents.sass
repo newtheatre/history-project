@@ -5,9 +5,17 @@ $color-presidents: #CD853F
 
 // Uses .people-grid-list from _people.sass
 
-.presidents-list
+.president-list
   @include people-grid-list-scale(1)
+  > li 
+  	width: 100%
 
 .name-unknown
 	margin-top: auto
 	margin-bottom: auto
+
+.president-people
+  @include grid-x-col(10)
+
+.president-cta
+  @include grid-x-col(6)
