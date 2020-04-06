@@ -19,6 +19,13 @@ links:
     title: "TwinSS"
     date: 2007
     quote: "To think I almost missed this play. I'm so glad I caught it. I liked every minute of it."
+  - type: Article
+    href: http://archive.is/KbOQY
+    snapshot: KbOQY
+    publisher: The Times
+    author: Jo Caird
+    date: 2007-08-01
+    title: "Competition's tough for best student theatre"
 
 crew:
   - role: Director
