@@ -23,6 +23,9 @@ crew:
   - role: Lighting Desinger
     name: Matt Leventhall
 
+trivia:
+  - quote: "In one performance, director Andy McNamee stepped in to a role due to cast illness."
+
 assets:
   - type: poster
     image: Jtv6LRx
