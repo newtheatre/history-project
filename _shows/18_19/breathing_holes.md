@@ -65,9 +65,10 @@ links:
     href: http://kevcastletheatrereviews.blogspot.com/2018/12/breathing-holes-by-jonathan-davies.html
     snapshot: uBT0g
     publisher: Kev Castle Reviews
-    title: "\'Breathing Holes\' by Jonathan Davies"
+    title: "'Breathing Holes' by Jonathan Davies"
     date: 2018-12-11
-    quote: "One of the most interesting original plays this year that credits the audience with the intelligence to interpret the script with their own understanding."
+    quote: >
+      One of the most interesting original plays this year that credits the audience with the intelligence to interpret the script with their own understanding.
 
 ---
 

@@ -79,25 +79,31 @@ links:
     snapshot: U9DSg
     publisher: Impact Nottingham
     author: Georgia Butcher
-    title: "Behind The Scenes at NNT: 'Human Animals’ by Stef Smith"
+    title: >
+      Behind The Scenes at NNT: 'Human Animals' by Stef Smith
     date: 2019-03-21
-    quote: Ahead of its first performance tomorrow night, I had the pleasure to chat with director Joe Strickland about upcoming production Human Animals.
+    quote: >
+      Ahead of its first performance tomorrow night, I had the pleasure to chat with director Joe Strickland about upcoming production Human Animals.
   - type: Review
     href: http://kevcastletheatrereviews.blogspot.com/2019/03/human-animals-by-stef-smith-nottingham.html
     snapshot: qTVTn
     publisher: Kev Castle Reviews
-    title: "\'Human Animals\' by Stef Smith"
+    title: >
+      'Human Animals' by Stef Smith
     date: 2019-03-21
-    quote: This is a play that will make you go away and think about how you would act if you were in this situation these six found themselves forced into, and may even question your relationships, not only with humans, but also with animals.
+    quote: >
+      This is a play that will make you go away and think about how you would act if you were in this situation these six found themselves forced into, and may even question your relationships, not only with humans, but also with animals.
   - type: Review
     href: https://impactnottingham.com/2019/03/human-animals-nnt/
     snapshot: dk9lj
     publisher: Impact Nottingham
     author: Lucy Miles
-    title: "Human Animals @ NNT"
+    title: >
+      Human Animals @ NNT
     date: 2019-03-24
     rating: 9/10
-    quote: "By directly confronting the audience and portraying the plausibility of a dystopian world in the near-future, the play demonstrates the numbed, ignorant habits of humans and encourages daily action towards a brighter, safer, cleaner future."
+    quote: >
+      By directly confronting the audience and portraying the plausibility of a dystopian world in the near-future, the play demonstrates the numbed, ignorant habits of humans and encourages daily action towards a brighter, safer, cleaner future.
 
 ---
 
