@@ -1,6 +1,7 @@
 ---
 title: Nineteen Eighty-Four
 playwright: George Orwell
+adaptor: Matthew Dunster
 season: In House
 season_sort: 70
 period: Autumn

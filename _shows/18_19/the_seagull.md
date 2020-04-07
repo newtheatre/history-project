@@ -106,11 +106,11 @@ trivia:
 
 ---
 
-The Seagull by Anton Chekhov. Circa 1895.
+_The Seagull_ by Anton Chekhov. Circa 1895.
 
 ‘She brings out a stuffed seagull in a glass dome. It looks very real and gruesome.’
 
-Now by someone else entirely. (2019.)
+_Now_ by someone else entirely. (2019.)
 
 \</search?q=where+to+find+a+seagull\>
 
