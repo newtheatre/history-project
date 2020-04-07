@@ -53,9 +53,9 @@ assets:
   - type: poster
     image: PsdBmBZ
 published: true
-  - type: programme
-    title: Me As A Penguin Programme
-    filename: me-as-a-penguin.pdf
+- type: programme
+  title: Me As A Penguin Programme
+  filename: me-as-a-penguin.pdf
 
 links:
   - type: Review
