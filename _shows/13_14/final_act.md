@@ -59,6 +59,9 @@ assets:
   - type: soundtrack
     filename: final-act-2014-soundtrack.zip
     title: Soundtrack
+  - type: programme
+    title: The Final Act Programme
+    filename: the-final-act.pdf
 ---
 
 Rory is the unfortunate President of the Theatre Society at his University. After a difficult year that supersedes numerous troubled years. Rory is called into the Vice-Chancellor’s office where he is told that the theatre society will be forced to shut down. He is given one last chance to turn things around, his society must put a musical on and it must be a roaring success if he has any hope of saving his society. Love, laughter, betrayal and a few cheesy numbers, accompany Rory on his journey through his University where he hopes to recruit a crack team to produce the best musical he can.

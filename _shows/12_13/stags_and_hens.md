@@ -64,6 +64,9 @@ crew:
 assets:
   - type: poster
     image: TbJsdg6
+  - type: programme
+    title: Stags and Hens Programme
+    filename: stags-hens.pdf
 
 prod_shots: FB65P2
 

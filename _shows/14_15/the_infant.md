@@ -67,6 +67,9 @@ assets:
   - type: programme
     title: The Infant Programme Notes
     filename: infant-programme-notes.pdf
+  - type: programme
+    title: Infant Cast Crew List
+    filename: infant-cast-crew-list.pdf
 
 prod_shots: XxgxsK
 
