@@ -1,5 +1,5 @@
 {% for node in site.data.history %}
-<h2>{{ node.year }} - {{ node.title }}</h2>
+<h2>{% if node.academic_year %}<a href="/years/{{ node.academic_year }}/">{{ node.year }}</a>{% else %}{{ node.year }}{% endif %} - {{ node.title }}</h2>
 {% if node.image %} 
 <img src="{{ .node.image.href }}" {% if .node.image.alt %} alt="{{ .node.image.alt }}" {% endif %} class="page-photo {% cycle 'right','left' %}"/>
 {% endif %}
