@@ -84,6 +84,19 @@ module Jekyll
       # "years/#{year.basename_without_ext}.html"
     end
 
+    def get_key_events(year)
+      key_events = [] 
+      for event in @site.data['history']
+        if event["academic_year"] == year['year']
+          key_events << event 
+        end 
+      end 
+      if key_events == [] # Help the template read it as empty 
+        key_events = nil 
+      end 
+      return key_events
+    end 
+
     def get_year_slug(year)
       year.data["year"]
     end
@@ -100,6 +113,8 @@ module Jekyll
 
       # Yucky ruby syntax, if not empty assign size, otherwise 0 cos no shows
       year.data["show_count"] = year.data["shows"] ? year.data["shows"].size : 0
+
+      year.data["key_events"] = get_key_events(year)
 
       # Keep track of the most number of shows
       @top_show_count ||= 0 # Instance var common to all years

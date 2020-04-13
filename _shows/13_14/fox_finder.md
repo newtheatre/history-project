@@ -52,6 +52,8 @@ crew:
 assets:
   - type: poster
     image: Gqwc5Pq
+  - type: poster
+    image: Kb9gqGf
   - type: plan
     filename: foxfinder-2013-b2.pdf
     title: LX Plan

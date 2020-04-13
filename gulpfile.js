@@ -11,7 +11,7 @@ var postcss = require('gulp-postcss');
 var cssnext = require('postcss-cssnext');
 var cssnano = require('cssnano');
 var coffee = require('gulp-coffee');
-var uglify = require('gulp-uglify');
+var uglify = require('gulp-terser');
 var jsonlint = require("gulp-jsonlint");
 
 var watch = require('gulp-watch');

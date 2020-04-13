@@ -1,0 +1,32 @@
+---
+- attr: year 
+  type: number / string 
+  short: Year 
+  description: "Each event is given a year, range, or approximation (eg. 2011, 2001-2005, 1980s)"
+  required: true
+
+- attr: academic_year 
+  type: string 
+  short: Academic year 
+  description: "The specific academic year the event is associated with, in the format `xx_yy`. This allows the event to show on a specific year page."
+  required: false 
+
+- attr: title 
+  type: string 
+  short: Title 
+  description: "The title of the event"
+  required: true 
+
+- attr: description
+  type: string 
+  short: Description
+  description: "A bit about the event. Can be a sentence or a short paragraph. Markdown supported."
+  required: true 
+
+- attr: image 
+  type: array 
+  short: Image 
+  description: |
+    An array containing two items (both required): 
+      `href`: the link to the image;
+      `alt`: the alt-text for the image (a short caption)

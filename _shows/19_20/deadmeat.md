@@ -17,7 +17,7 @@ cast:
   name: Katherine Wilshire
 - role: Father Who (Priest)
   name: Caetano Capurro
-- role: Michaela Booom (Boom Mic Operator)
+- role: Michaela Boom (Boom Mic Operator)
   name: Danni Cooper
 - role: Camilla Flash (Camera Woman)
   name: Ira Noordermeer

@@ -23,6 +23,7 @@ color_nnt_orange: "#FFC425"
 # Build settings
 markdown: kramdown
 permalink: pretty
+strict_front_matter: true # Fail on invalid YAML
 
 plugins:
 - jekyll-sitemap
@@ -77,6 +78,7 @@ year_end: 2019
 
 # Estimation conf
 estimate_recency_limit: 2 # How many years to wait until guessing someone has left
+graduation_month: 6 # What month (1-12) do people tend to graduate in? 
 
 # Which seasons to prevent generation of 'missing content' boxes in
 ignore_missing_in_seasons:

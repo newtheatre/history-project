@@ -45,6 +45,9 @@ crew:
 assets:
   - type: poster
     image: M3gcbf4
+  - type: programme
+    title: That Face Programme
+    filename: that-face.pdf
 
 links:
   - type: Review  

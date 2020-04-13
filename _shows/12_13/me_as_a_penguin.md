@@ -52,7 +52,9 @@ crew:
 assets:
   - type: poster
     image: PsdBmBZ
-published: true
+  - type: programme
+    title: Me As A Penguin Programme
+    filename: me-as-a-penguin.pdf
 
 links:
   - type: Review
@@ -65,6 +67,7 @@ links:
     quote: "Yes, this production had only two weeks to prepare, and they did a jolly good job, but sadly missed the level of excellence expected of even ‘two-weekers’ at Nottingham’s student theatre."
 
 prod_shots: GGpqn2
+
 ---
 
 Stitch is looking to gain some direction in his life by visiting his sister and exploring the very exciting gay scene of Hull. What results is an obsessive crush on a man that works in the local aquarium and Stitch stealing a baby penguin. Brilliantly funny, emotionally moving, ‘Me, As Penguin’ is a unique, witty and northern comedy.

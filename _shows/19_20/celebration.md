@@ -25,6 +25,8 @@ cast:
   name: Jack Linley
 - role: Waiter
   name: Oliver Binns
+- role: Sonia
+  name: Eleanor Veal
 
 crew:
 - role: Director

@@ -75,6 +75,9 @@ crew:
 assets:
   - type: poster
     image: qhLgpsC
+  - type: backstage
+    video: zCGSXPS
+    title: Behind The Scenes
   - type: programme
     title: Dissocia Programme
     filename: dissocia-programme.pdf

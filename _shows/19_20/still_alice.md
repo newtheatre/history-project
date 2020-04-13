@@ -52,7 +52,7 @@ crew:
   name: Rose Edgeworth 
 - role: Video Designer 
   name: Rhona Mitchell 
-- role: Techncial Assistant 
+- role: Technical Assistant 
   name: Sam Osborne
 - role: Publicity Assistant
   name: Alice Walker 
@@ -109,6 +109,9 @@ prod_shots: x24nSs
 assets:
   - type: poster
     image: fmpWm9s
+  - type: backstage
+    video: rR2QXwK
+    title: Behind The Scenes
   - type: programme
     title: Still Alice Programme
     filename: still-alice-programme.pdf
