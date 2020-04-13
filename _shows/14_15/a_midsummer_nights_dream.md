@@ -73,6 +73,9 @@ assets:
   - type: backstage
     video: kt7DxBs
     title: Backstage At
+  - type: programme
+    title: Midsummer Creative List
+    filename: midsummer-list.pdf
 
 links:
   - type: Review

@@ -120,6 +120,9 @@ assets:
   - type: script
     filename: mark_shelley_s_frankenstein_script.docx
     title: Script
+  - type: programme
+    title: Frankenstein Programme
+    filename: frankenstein.pdf
   - type: trailer
     video: 3Pcdm2X
     title: Trailer

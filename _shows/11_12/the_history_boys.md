@@ -49,6 +49,9 @@ crew:
 assets:
   - type: poster
     image: vgGbjFB
+  - type: programme
+    title: The History Boys Programme
+    filename: the-history-boys.pdf
 
 prod_shots: f5rCtk
 

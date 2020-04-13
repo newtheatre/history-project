@@ -55,6 +55,9 @@ crew:
 assets:
   - type: poster
     image: rCCdDhq
+  - type: programme
+    title: Cast and Crew List
+    filename: clockwork-cast-crew-list.pdf
 
 links:
   - type: Review
