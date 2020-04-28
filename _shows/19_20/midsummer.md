@@ -37,7 +37,7 @@ cast:
 - role: Bottom
   name: Sam Jackson
 - role: Flute / Egeus
-  name: Nick Landon
+  name: Nicholas Landon
 - role: Snout
   name: Ace Edwards
 - role: Snug

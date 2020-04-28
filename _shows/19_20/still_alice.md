@@ -15,7 +15,7 @@ cast:
 - role: Herself 
   name: Lillian Race 
 - role: John
-  name: Will Tillett 
+  name: William Tillett 
 - role: Lydia 
   name: Lucy Chandler
 - role: Thomas 

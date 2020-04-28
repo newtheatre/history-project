@@ -1,10 +1,10 @@
 ---
 title: Ellie Harding
-submitted: 2020-03-28 
+headshot: spDkM4r
 gender: female
 course:
- - English BA
+  - BA English
+submitted: 2020-03-28 
 contact_allowed: true
 
 --- 
-

@@ -14,7 +14,7 @@ cast:
 - role: Kate Keller
   name: Clara Brown
 - role: Joe Keller
-  name: Rob Goodall
+  name: Robert Goodall
 - role: Ann Deever
   name: Emi Thackray
 - role: Geogre Deever

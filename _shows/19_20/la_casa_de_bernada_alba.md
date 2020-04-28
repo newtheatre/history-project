@@ -29,7 +29,7 @@ cast:
 - role: Servant
   name: Sofia Loreti 
 - role: Prudencia / Beggar Woman 
-  name: Edie Gillette
+  name: Edie Gillett
 - role: Pepe el Romano
   name: Nicholas Landon
 
@@ -53,7 +53,7 @@ crew:
 - role: Assistant Lighting Designer 
   name: Rose Edgeworth
 - role: Sound Designer 
-  name: Emily Rule
+  name: Em Rule
 - role: Assistant Sound Designer 
   name: James Barlow
 - role: Make-up Designer/Artist

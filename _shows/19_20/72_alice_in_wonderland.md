@@ -67,7 +67,7 @@ crew:
 - role: Technician
   name: James Barlow
 - role: Technician
-  name: Tara Prasad
+  name: Tara Anegada
 - role: Technician
   name: Zoe Smith
 - role: Poster Designer 

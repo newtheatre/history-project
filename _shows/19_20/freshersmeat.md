@@ -19,9 +19,9 @@ cast:
   name: Nicholas Landon
 - role: Francesca
   name: Laura Sherratt
-- role: Dan Morris
+- name: Daniel Morris
 - role: Jack 
-  name: Caetano Cappuro
+  name: Caetano Capurro
 - role: Manny 
   name: Emily Wong
 - role: Hannah

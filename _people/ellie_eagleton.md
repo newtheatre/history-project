@@ -6,6 +6,6 @@ course:
  - English with Creative Writing BA
 graduated: 2020
 contact_allowed: true
-
+headshot: nQMvdXf
 --- 
 

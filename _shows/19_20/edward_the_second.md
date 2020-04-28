@@ -40,7 +40,7 @@ crew:
 - role: Shadow Director
   name: Jasmine Butler
 - role: Producer
-  name: Sam André-Paul
+  name: Sam Andre-Paul
 - role: Producer
   name: Abigail Platt
 - role: Shadow Producer
@@ -54,7 +54,7 @@ crew:
 - role: Assistant Lighting Designer 
   name: Skylar Turnbull Hurd
 - role: Sound Designer 
-  name: Arthur McKechnie
+  name: Arthur Mckechnie
 - role: Shadow Sound Designer
   name: Jack Ellis
 - role: Technical Assistant

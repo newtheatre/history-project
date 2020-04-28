@@ -36,7 +36,7 @@ cast:
   note: Danni and Nadia's Group 
 - name: Ella Seber-Rajan
   note: Danni and Nadia's Group
-- name: Chiedz McNab 
+- name: Chiedza McNab 
   note: Cameron and Ellen's Group
 - name: Sam Jackson
   note: Cameron and Ellen's Group
@@ -80,7 +80,7 @@ cast:
   note: Beth and Lucy's Group
 - name: Philippa Horn
   note: Barney and Sofia's Group
-- name: Daniel Cresswell
+- name: Dan Cresswell
   note: Barney and Sofia's Group
 - name: Daisy Forster
   note: Barney and Sofia's Group
@@ -126,7 +126,7 @@ crew:
 - role: Director 
   name: Abigail Platt 
 - role: Director 
-  name: Sam Andre Paul
+  name: Sam Andre-Paul
 - role: Director 
   name: Zoe Smith
 - role: Director 

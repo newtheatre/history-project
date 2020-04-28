@@ -48,7 +48,7 @@ cast:
 
 crew:
 - role: Director
-  name: Emily Rule
+  name: Em Rule
 - role: Director
   name: Danni Cooper
 - role: Director
@@ -76,7 +76,7 @@ crew:
 - role: Producer
   name: Lillian Race
 - role: Producer
-  name: Emily Rule
+  name: Em Rule
 - role: Technical Director 
   name: Tara Anegada
 - role: Lighting Designer 
