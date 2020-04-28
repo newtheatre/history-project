@@ -27,7 +27,7 @@ cast:
 
 crew: 
 - role: Director
-  name: Will Tillett 
+  name: William Tillett 
 - role: Producer 
   name: Ellie Roberts
 - role: Production Assistant 
