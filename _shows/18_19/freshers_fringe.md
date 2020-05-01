@@ -53,7 +53,7 @@ cast:
     note: Hugo, Selin, & Lois' Group
   - name: Francois Duclos
     note: Hugo, Selin, & Lois' Group
-  - name: Oliver O'Regan
+  - name: Olly O'Regan
     note: Hugo, Selin, & Lois' Group
   - name: Sofia Bassani
     note: Hugo, Selin, & Lois' Group
