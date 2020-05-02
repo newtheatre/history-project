@@ -57,6 +57,8 @@ links:
     date: 2013-03-14
     quote: "I would definitely recommend it to anyone who enjoys a laugh at the expense of the rich.  Is it worth going to see? Yah!"
 
+prod_shots: R829br
+
 assets:
   - type: poster
     image: mSjqQfB
