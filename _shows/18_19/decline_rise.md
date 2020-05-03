@@ -26,13 +26,14 @@ crew:
 - role: Changeover Technician
   name: Nat Henderson
 - role: Show Technician
-  name: Tara Anegada 
+  name: Tara Anegada
+
+prod_shots: jzRfqh
 
 assets:
   - type: poster
     image: nvHs4wX
 
-# prod_shots: 
 ---
 
 "The past is a foreign country: they do things differently there."

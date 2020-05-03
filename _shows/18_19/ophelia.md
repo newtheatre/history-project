@@ -26,7 +26,8 @@ assets:
   - type: poster
     image: DxpPc3H
 
-prod_shots: fTP7M3
+prod_shots: 4dwVBC
+
 ---
 
 ‘What was so brilliant, was the spectacle of it all. Like fireworks on your first kiss. I felt beautiful.’

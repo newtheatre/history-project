@@ -83,6 +83,8 @@ crew:
 - role: Photographer
   name: Laura Wolczyk
 
+prod_shots: sNBdhd
+
 assets:
   - type: poster
     image: S58xxD9

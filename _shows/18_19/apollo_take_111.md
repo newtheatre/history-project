@@ -35,12 +35,12 @@ crew:
 - role: Show Technician
   name: Martin Tomlinson 
 
+prod_shots: WnJ3Q5
 
 assets:
   - type: poster
     image: 9j56Phb
-
-# prod_shots: 
+    
 ---
 
 "One small step for man, one giant leap for... S**t... line!"
