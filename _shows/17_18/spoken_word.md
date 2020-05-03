@@ -31,6 +31,7 @@ assets:
     image: S2z5tK2
 
 prod_shots: 4bbtdL
+
 ---
 
 Some of the most exciting spoken word talent from Poetry is Dead Good, Nottingham's longest-running city centre spoken word night and a Hockley institution. Over the past years, they've brought some of the biggest names from the world of spoken word to the heart of Nottingham including Maria Ferguson, Dean Atta and Mark Grist.

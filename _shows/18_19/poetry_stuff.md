@@ -28,7 +28,8 @@ assets:
   - type: poster
     image: hRW5JMv
 
-prod_shots: 4bbtdL
+prod_shots: Fxxwm5
+
 ---
 
 A night of spoken word poetry, including an opportunity to show off your own poems at the open mic!

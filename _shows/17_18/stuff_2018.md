@@ -40,7 +40,8 @@ assets:
   - type: poster
     image: PssTCVX
 
-#prod_shots
+prod_shots: rRJZQz
+
 # Venue shots here 
 
 ---
