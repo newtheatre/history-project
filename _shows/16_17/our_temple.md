@@ -24,7 +24,7 @@ cast:
 - role: Joe
   name: Andrew Houghton
 - role: Laura
-  name: Chloe Schlitter
+  name: Chloe S
 - role: Vernon
   name: Ted Marriott
 - role: Jackie

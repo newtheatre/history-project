@@ -39,7 +39,7 @@ cast:
    note: Gigi & Rachael's Group
  - name: Olivia Cunningham
    note: Gigi & Rachael's Group
- - name: Chloe Schlitter
+ - name: Chloe S
    note: Gigi & Rachael's Group
  - name: Laura Wolczyk
    note: Ronan & CJ's Group
