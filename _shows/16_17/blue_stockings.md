@@ -38,7 +38,7 @@ cast:
 - role: Mr Banks
   name: Arnaud Lacey
 - role: Minnie / Mrs Lindley
-  name: Chloe Schlitter
+  name: Chloe S
 
 crew:
 - role: Director
