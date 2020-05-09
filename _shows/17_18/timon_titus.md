@@ -70,7 +70,7 @@ assets:
   - type: poster
     image: NwRXkWW
 
-prod_shots:
+prod_shots: GksT8V
 
 links:
   - type: Review
