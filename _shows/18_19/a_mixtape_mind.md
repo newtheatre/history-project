@@ -28,6 +28,8 @@ crew:
   name: Nadia Elalfi
 - role: Sound Designer
   name: Yasmine Dankwah
+- role: Poster Designer
+  name: Ellie Castaño
 - role: Changeover Technician
   name: Martin Tomlinson
 - role: Show Technician

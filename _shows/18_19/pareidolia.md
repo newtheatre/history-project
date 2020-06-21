@@ -26,6 +26,9 @@ crew:
   name: Izzy de Bono
 - role: Photographer
   name: Emma Barber
+- role: Projection Designer
+  name: Ellie Castaño
+  note: Flowers; Male looking left; Female looking right; Female looking left with flowers in her hair
 
 assets:
   - type: poster
