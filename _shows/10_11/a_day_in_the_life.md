@@ -1,14 +1,46 @@
 ---
 title: A Day In The Life
 period: Spring
-company: The Red Herrings
+company: Student Improv Nottingham
+company_sort: The Red Herrings
+comment: See \#1614
 season: External
 season_sort: 140
 venue: New Theatre
 
+cast:
+  - name: Jack Cross
+    person: false 
+  - name: Lucy Vallance
+  - name: Amy Dickinson
+    person: false
+  - name: Pete Allott
+  - name: Gabriela Carboneri 
+  - name: Robert Page
+    person: false 
+  - name: Paul Schmidt
+    person: false 
+
 crew:
   - role: Director
     name: Jessica Hutchings
+  - role: Musician 
+    name: Max Grant 
+    note: Keep the Tip 
+  - role: Musician 
+    name: James Charles
+    note: Keep the Tip 
+    person: false 
+  - role: Technical Team
+    name: Lawrence Bolton
+  - role: Technical Team 
+    name: Adam Rodgers 
+    person: false 
+  - role: Technical Team 
+    name: Tammy Ingamells
+  - role: Technical Team
+    name: Layla Mannings 
+    person: false 
     
 links:
   - type: Review
