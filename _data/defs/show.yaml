@@ -56,6 +56,11 @@
   type: string
   short: Non-NNT only, the name of the company
 
+- attr: company_sort 
+  type: string 
+  short: Primary name for the company.
+  description: "Group together companies where the company name has changed over time. Use the name at the time of the show. See [#1614](https://github.com/newtheatre/history-project/issues/1614/)"
+
 - attr: period
   type: string
   short: Autumn, Spring or Edinburgh. Omit if unknown.

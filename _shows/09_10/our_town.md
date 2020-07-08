@@ -15,6 +15,7 @@ cast:
   - name: Claire Horn
   - role: 'Mr. Charles Webb'
     name: Topher Collins
+  - name: Lucien Jack
 
 crew:
   - role: Director

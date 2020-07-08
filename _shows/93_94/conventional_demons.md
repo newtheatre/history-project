@@ -1,6 +1,7 @@
 ---
 title: "Conventional Demons"
 playwright: Richard Davidson
+student_written: true 
 period: Edinburgh
 season: Edinburgh
 season_sort: 500

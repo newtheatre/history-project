@@ -12,9 +12,23 @@ assets:
   - type: poster
     image: vGSjvjp
 
+trivia:
+  - quote: "This show featured a live jazz band, playing music from 1930's and 1940's"
+    name: Jessica Hutchings
+    submitted: 2020-05-13
+
 crew:
   - role: Writer
     name: Daniel Sonabend
+  - role: Musical Director / Musician
+    name: Jessica Hutchings
+    note: Keys
+  - role: Musician
+    name: William Large
+    note: Double Bass
+  - role: Musician
+    name: Yichen Wu
+    note: Saxaphone
 
 
 links:

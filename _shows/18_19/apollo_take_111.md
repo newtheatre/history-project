@@ -30,6 +30,8 @@ crew:
   name: Joe Strickland
 - role: Technical Director 
   name: Tom Proffitt
+- role: Lighting Designer 
+  name: Izzy de Bono
 - role: Changeover Technician
   name: Nadia Elalfi
 - role: Show Technician
