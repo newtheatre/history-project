@@ -121,7 +121,7 @@ published: true
         career_choices_formatted += $(this).attr('name') + ", "
         career_choices_yaml += "  - " + $(this).attr('name') + "\n"
 
-    message = """# 'Submit an almni bio' form submission
+    message = """# 'Submit an alumni bio' form submission
 
 Field | Data
 ----- | ----
