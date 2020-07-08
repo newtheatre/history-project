@@ -35,6 +35,10 @@ crew:
   name: James Barlow
 - role: Sound Designer
   name: Sam Osborne
+- role: Video Designer
+  name: Jonathan Taylor Davies
+- role: Video Designer
+  name: Izzy de Bono
 - role: Set Designer 
   name: Barney Hartwill
 - role: Publicity Manager
