@@ -1,0 +1,273 @@
+title: In House Shows Cancelled due to Covid-19
+playwright: various
+period: Spring
+season: In House
+season_sort: 300
+date_start: 2020-03-20
+date_end: 2020-05-20
+venue: New Theatre
+
+cast:
+# Trojan Women
+- role: Ulysses
+  name: William Tillet
+- role: Pyrrhus
+  name: Olly O'Regan
+- role: Agamemnon
+  name: Alex Levy
+- role: Troy
+  name: Rosiella Sutherland
+- role: Andromache
+  name: Caitie Pardoe
+- role: Hecuba
+  name: Esther Townsend
+- role: Helen
+  name: Beth White
+- role: Agamemnon
+  name: Alex Levy
+
+crew:
+# Trojan Women
+- role: Director
+  name: Beth Carter
+- role: Assistant Director 
+  name: Eloise Dooley
+- role: Shadow Director 
+  name: Annabel Coombes
+- role: Producer
+  name: Flo Avis
+- role: Assistant Producer
+  name: Reisha Gill
+- role: Shadow Producer
+  name: Jemma Oberman
+- role: Technical Director 
+  name: Jesse Rough
+- role: Lighting Designer 
+  name: Danial Ahmer
+- role: Sound Designer 
+  name: Jacob Dean
+- role: Video Designer 
+  name: Sam Morris
+- role: Video Designer 
+  name: Tara Anegada
+- role: Set Design Assistant
+  name: Nikita Ermolenko
+- role: Set Design Assistant
+  name: Chiara Crompton
+- role: Make-up Artist
+  name: Izzy Gregson
+- role: Make-up Artist
+  name: Annie Freer
+- role: Stage Manager 
+  name: Sophy Baxter
+- role: Shadow Stage Manager 
+  name: Alexandra Hogg
+- role: Poster Designer and Marketing Designer
+  name: Jase Neal
+- role: Publicity Manager
+  name: Alice 
+
+cast:
+# Pink Mist
+- role: Arthur
+  name: Toby Russell
+- role: Taff
+  name: Bill Hayes
+- role: Hads
+  name: Laurence Williams
+- role: Troy
+  name: Rosiella Sutherland
+- role: Andromache
+  name: Caitie Pardoe
+- role: Hecuba
+  name: Esther Townsend
+- role: Helen
+  name: Beth White
+- role: Agamemnon
+  name: Alex Levy
+
+crew:
+# Pink Mist 
+- role: Director
+  name: Tara Phillips
+- role: Assistant Director 
+  name: Morgan Burne
+- role: Producer
+  name: Nadia Elalfi
+- role: Assistant Producer
+  name: Tobi Bambi
+- role: Shadow Producer
+  name: Olivia Duggan
+- role: Technical Director 
+  name: Nicholas Landon
+- role: Lighting Designer 
+  name: Skylar Turnbull Hurd
+- role: Sound Designer 
+  name: Tara Anegada
+- role: Poster Designer 
+  name: Jase Neal
+- role: Stage Manager 
+  name: Oliver Binns
+
+cast:
+# Be My Baby
+- role: Mary
+  name: Boo Jackson
+- role: Queenie
+  name: Nicola Lang
+- role: Dolores
+  name: Anna Bulcock
+- role: Norma
+  name: Cecilia Alexander
+- role: Matron
+  name: Ellie Roberts
+- role: Mrs Adams
+  name: Helen Brown
+
+crew:
+# Be My Baby
+- role: Director
+  name: Alice Walker
+- role: Producer
+  name: Georgia Barnwell
+- role: Assistant Director
+  name: Sally Nesbitt
+- role: Technical Director 
+  name: Skylar Turnbull Hurd
+- role: Lighting Designer 
+  name: Charlie Finney
+- role: Sound Designer 
+  name: Jesse Rough
+- role: Poster Designer 
+  name: Skylar Turnbull Hurd
+- role: Choreographer
+  name: Lillian Race
+- role: Hair and Make-up Assistant
+  name: Annabel Freer
+- role: Hair and Make-up Assistant
+  name: Izzy Gregson
+- role: Stage Manager 
+  name: Abie Whitehead
+- role: Publicity Assistant
+  name: Em Rule
+
+cast:
+# POSH
+- role: Harry
+  name: Eleanor Rickenbach
+- role: Guy
+  name: Daisy Norton
+- role: Ed
+  name: Tash Wanigarante
+- role: Toby
+  name: Hannah O'Driscoll
+- role: Alistair
+  name: Em Rule
+- role: James
+  name: Annabel Byrom
+- role: Dimitri
+  name: Isabelle Hammersley
+- role: Hugo
+  name: Marianna Whistlecroft
+- role: Miles
+  name: Selin Aci
+- role: Rachel
+  name: Chiedza McNab
+- role: Christ
+  name: Nicholas Landon
+- role: Jeremy
+  name: Louise Tallon
+
+crew:
+# POSH
+- role: Director
+  name: Ace Edwards
+- role: Director 
+  name: Ellie Harding
+- role: Producer
+  name: Sophie Bowen
+- role: Production Assistant
+  name: Charlotte Smith
+- role: Shadow Producer
+  name: Sara Scopigno
+- role: Technical Director 
+  name: Mollie Mundy
+- role: Lighting Designer 
+  name: Nadia Elalfi
+- role: Poster Designer 
+  name: Ace Edwards
+- role: Make-up & Hair Assistant
+  name: Skylar Turnbull Hurd
+- role: Make-up & Hair Assistant
+  name: Alice Walker
+- role: Make-up & Hair Assistant
+  name: Sofia Bassani
+
+cast:
+# Wasted 
+- role: Danny
+  name: Dan Cresswell
+- role: Charlotte
+  name: Zainab Lawal
+- role: Ted
+  name: Cameron Brett
+- role: Chorus Member
+  name: Sunenna Sohal
+- role: Chorus Member
+  name: Emily Garton
+- role: Chorus Member
+  name: Lucy House
+
+crew:
+# Wasted 
+- role: Director
+  name: Zoe Smith
+- role: Assistant Director 
+  name: Kishan Ganatra
+- role: Producer
+  name: Jasmine Butler
+- role: Assistant Producer
+  name: Jenny Pike
+- role: Technical Director 
+  name: Rose Edgeworth
+- role: Lighting Designer 
+  name: Jack Titley
+- role: Sound Designer 
+  name: Jacob Dean
+- role: Video Designer 
+  name: Skylar Turnbull Hurd
+- role: Foyer Lighting Design
+  name: Tara Anegada
+- role: Stage Manager 
+  name: Abigail Platt
+
+assets:
+  # Show posters
+  - type: # Trojan Women poster 
+    image: Tz4p4wH
+  - type: # Pink Mist poster 
+    image: Tz4p4wH
+  - type: # Posh poster 
+    image: b8mcgmt
+
+---
+
+> A note from the editors: During the Covid-19 global pandemic in Spring 2020, the majority of the Spring productions were cancelled. Although we do not typically archive cancelled productions, it would be inaccurate to present an archive without recognising almost a whole season that was lost and the contributions that cast and crews were making up till the last moment they could.
+
+# 'Trojan Women' by Euripides (In House)
+Trojan Women takes us to the ruins of the city of Troy, in the aftermath of the Greek victory in the Trojan War. The grieving Trojan widows face the prospect of slavery, and are at the mercy of the Greek leaders who are striving to
+fulfil a horrific prophecy in order to return home.
+This Roman play focuses on the complexity of Trojan female stories not found in Homer’s Greek-male-centric epic. Based on Euripides’ Greek play of the same name, and written during the controversial and tumultuous period of Emperor Nero’s reign, Seneca creates a powerful and moving version of this myth, pervaded by the sinister world that he saw around him. An abstract interpretation of a script that may never have been intended for performance, Trojan Women demonstrates the universality of the consequences of war and how complex female emotion should be presented on stage, no matter the era.
+
+# 'Pink Mist' by Owen Shears (25th-28th March, In House)
+“Three boys went to Catterick. It was January, snow pitchen on the Severn, turning the brown mud white, fisherman blowing on their fingerless gloves, the current pulling their fishing lines tight. That’s how it was the morning when the three of us did what boys always have and left our homes for war.” Pink Mist follows each boy’s experience both during and after their tours to Afghanistan. Within a short period of time each return to the important women in their lives - a wife, a mother, a girlfriend - and shows how everyone must now share the psychological and physical aftershocks of their service.
+
+# 'Be My Baby' by Amanda Whittington (31st March - 3rd April, In House)
+Set in St Saviours, a Mother and Baby Home in 1964 in the north of England, the play follows Mary Adams, aged 19, unmarried and seven months pregnant. Forcibly sent there by her deeply ashamed mother, Mary – along with the other girls in the home – has to cope both with the shame and the dawning realisation that they may not be able to take their babies home, whether they like it or not.
+Despite this, and an overbearing matron, the girls’ youthful effervescence breaks through, as they sing along to the girl-group songs of the period.
+
+# 'POSH' by Laura Wade (6th-9th May, In House)
+Nine members of an elite Oxford dining society with cut-glass vowels and deep pockets are meeting, intent on restoring their right to rule. Portrayed by female actors, these nine men embark on an evening of debauchery, decadence and bloody good wine - testing the limits of how far money can take you, and whether or not it can save you. Welcome to the Riot Club. The play begins with the rebirth of the Club after being exposed and shamed in the media. It follows the nine existing members through an evening of fine dining in a modest pub in the middle of England, through to an accident which could land them behind bars – far away from the comfort of their Oxford colleges.
+
+# 'Wasted' by Kate Tempest (13th-16th May, In House)
+Three old friends. One remarkable day. For Ted, Danny, and Charlotte, it’s time to take control. Make a difference. Change things. A journey through the parks, raves, and cafes of London, where life is what you make it. This is a play about love, life, and losing your mind. Kate Tempest’s fast paced dialogue integrates choral spoken-word poetry into the plot creating a vibrant and exciting play which explores the effects of drugs, death, and dreams on a group of childhood friends.
