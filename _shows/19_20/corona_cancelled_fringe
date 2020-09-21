@@ -9,138 +9,175 @@ date_end: 2020-05-20
 venue: New Theatre
 
 cast:
-# The Darling Heidi Howard
 - role: Heidi Howard
   name: Ellie Harding
+  note: The Darling Heidi Howard
 - role: Artie
   name: Jacob Gausden
+  note: The Darling Heidi Howard
 - role: Aunt Florence
   name: Genevieve Alltimes
+  note: The Darling Heidi Howard
 - role: Pauly
   name: Alex Lewis
+  note: The Darling Heidi Howard
 - role: Kiki/ Terri
   name: Helena Hunt
+  note: The Darling Heidi Howard
 - role: Adam
   name: Lucy House
+  note: The Darling Heidi Howard
 - role: Narrator V.O.
   name: Jake Levy
-
-crew: 
-# The Darling Heidi Howard
-- role: Director
-  name: Alice Brooker
-- role: Writer
-  name: Alice Brooker
-- role: Producer
-  name: Libby Horobin
-- role: Technical Director 
-  name: Charlie Finney
-- role: Lighting Designer 
-  name: Ceciliar Alexande
-- role: Sound Designer 
-  name: James Barlow
-- role: Assistant Sound Designer 
-  name: Skylar Turnbull Hurd
-- role: Stage Manager 
-  name: Sara Scopigno
-- role: Choreographer
-  name: Lillian Race
-- role: Set Designer
-  name: Barney Hartwill
-- role: Set Designer
-  name: Jemma Bean Oberman
-- role: Set Designer
-  name: Sara Scopigno
-- role: Poster Designer
-  name: Laura Sherratt
-
-cast:
-# Reverie
+  note: The Darling Heidi Howard
 - role: Todd
   name: Sam Morris
+  note: Reverie
 - role: Reegan
   name: Rose Edgeworth
+  note: Reverie
 - role: Mermaid
   name: Eloise Dooley
+  note: Reverie
 - role: Computer/ Kennedy
   name: Sophie Curtis
-
-crew:
-# Reverie
-- role: Director
-  name: Francis Simmons
-- role: Producer
-  name: Lillian Race
-- role: Technical Director 
-  name: Sofia Loreti
-- role: Lighting Designer 
-  name: Zoe Smith
-- role: Sound Designer 
-  name: Caetano Capurro
-- role: Poster Designer 
-  name: Caetano Capurro
-- role: Publicity Assistant
-  name: Laura Sherratt
-- role: Trailer Maker
-  name: Sam Morris
-
-cast:
-# The Pros & Cons of an Overactive Imagination
+  note: Reverie
 - role: Maggie
   name: Katie Booth
+  note: The Pros & Cons of an Overactive Imagination
 - role: GN Multirole
   name: Rose Edgeworth
+  note: The Pros & Cons of an Overactive Imagination
 - role: F Multirole
   name: Rachel Coussins
+  note: The Pros & Cons of an Overactive Imagination
 - role: M Multirole
   name: Caetano Capurro
-
-cast:
-# The Pros & Cons of an Overactive Imagination
-- role: Director
-  name: Cecilia Alexander
-- role: Assistant Director 
-  name: Alexandra Hogg
-- role: Producer
-  name: Caitie Pardoe
-- role: Lighting Designer 
-  name: Daisy Forster
-- role: Sound Designer 
-  name: Jacob Dean
-- role: Videographer
-  name: Sam Morris
-- role: Poster Designer 
-  name: Izzy de Bono
-- role: Publicity Assistant
-  name: Izzy de Bono
-- role: Meme Supplier
-  name: Caetano Capurro
-
-cast:
-# Shades
+  note: The Pros & Cons of an Overactive Imagination
 - role: Malcolm
   name: Wilf Wort
+  note: Shades
 - role: Evelyn
   name: Skylar Turnbull Hurd
+  note: Shades
 
-crew:
-# Shades
+crew: 
+- role: Director
+  name: Alice Brooker
+  note: The Darling Heidi Howard
+- role: Writer
+  name: Alice Brooker
+  note: The Darling Heidi Howard
+- role: Producer
+  name: Libby Horobin
+  note: The Darling Heidi Howard
+- role: Technical Director 
+  name: Charlie Finney
+  note: The Darling Heidi Howard
+- role: Lighting Designer 
+  name: Ceciliar Alexander
+  note: The Darling Heidi Howard
+- role: Sound Designer 
+  name: James Barlow
+  note: The Darling Heidi Howard
+- role: Assistant Sound Designer 
+  name: Skylar Turnbull Hurd
+  note: The Darling Heidi Howard
+- role: Stage Manager 
+  name: Sara Scopigno
+  note: The Darling Heidi Howard
+- role: Choreographer
+  name: Lillian Race
+  note: The Darling Heidi Howard
+- role: Set Designer
+  name: Barney Hartwill
+  note: The Darling Heidi Howard
+- role: Set Designer
+  name: Jemma Bean Oberman
+  note: The Darling Heidi Howard
+- role: Set Designer
+  name: Sara Scopigno
+  note: The Darling Heidi Howard
+- role: Poster Designer
+  name: Laura Sherratt
+  note: The Darling Heidi Howard
+- role: Director
+  name: Francis Simmons
+  note: Reverie
+- role: Producer
+  name: Lillian Race
+  note: Reverie
+- role: Technical Director 
+  name: Sofia Loreti
+  note: Reverie
+- role: Lighting Designer 
+  name: Zoe Smith
+  note: Reverie
+- role: Sound Designer 
+  name: Caetano Capurro
+  note: Reverie
+- role: Poster Designer 
+  name: Caetano Capurro
+  note: Reverie
+- role: Publicity Assistant
+  name: Laura Sherratt
+  note: Reverie
+- role: Trailer Maker
+  name: Sam Morris
+  note: Reverie
+- role: Director
+  name: Cecilia Alexander
+  note: The Pros & Cons of an Overactive Imagination
+- role: Assistant Director 
+  name: Alexandra Hogg
+  note: The Pros & Cons of an Overactive Imagination
+- role: Producer
+  name: Caitie Pardoe
+  note: The Pros & Cons of an Overactive Imagination
+- role: Lighting Designer 
+  name: Daisy Forster
+  note: The Pros & Cons of an Overactive Imagination
+- role: Sound Designer 
+  name: Jacob Dean
+  note: The Pros & Cons of an Overactive Imagination
+- role: Videographer
+  name: Sam Morris
+  note: The Pros & Cons of an Overactive Imagination
+- role: Poster Designer 
+  name: Izzy de Bono
+  note: The Pros & Cons of an Overactive Imagination
+- role: Publicity Assistant
+  name: Izzy de Bono
+  note: The Pros & Cons of an Overactive Imagination
+- role: Meme Supplier
+  name: Caetano Capurro
+  note: The Pros & Cons of an Overactive Imagination
 - role: Director
   name: Chiara Crompton
+  note: Shades
 - role: Writer
   name: Chiara Crompton
+  note: Shades
 - role: Producer
   name: Beth White
+  note: Shades
 - role: Technical Director 
   name: Emily Cormack
+  note: Shades
 - role: Lighting Designer 
   name: Ella Seber-Rajan
+  note: Shades
 - role: Sound Designer 
   name: Izzy de Bono
+  note: Shades
 - role: Publicity Assistant
   name: Zoe Smith
+  note: Shades
 
 assets:
+  # Combined Fringe Poster
+  - type: poster
+    image: HMLWmCs
   # Shades
   - type: poster 
     image: wDsQzLt
