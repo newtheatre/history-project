@@ -49,6 +49,8 @@ crew:
   name: Rohan Rakhit
 - role: Poster Designer 
   name: Skylar Turnbull Hurd
+- role: Photographer
+  name: George Westaway
 - role: Make-up Designer
   name: Nat Henderson
 - role: Set Assistant
