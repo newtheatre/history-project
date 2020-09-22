@@ -38,23 +38,23 @@ assets:
 
 links:
   - type: Review
-    href: https://www.broadwayworld.com/scotland/article/EDINBURGH-2019-BWW-Review-FRANZ-AND-MARIE-WOYZECK-RETOLD-Greenside-Infirmary-Street-20190810?fbclid=IwAR1eIhx6O_TvLMpNNy1JeNHSUUfwYtLWeEJ2TQ-WLt3PEsV0cfHScuNTRZg
+    href: https://www.broadwayworld.com/scotland/article/EDINBURGH-2019-BWW-Review-FRANZ-AND-MARIE-WOYZECK-RETOLD-Greenside-Infirmary-Street-20190810
     snapshot: o27aH
     publisher: Boradway World
     author: Joanna Trainor
     title: "Edinburgh 2019: BWW Review: Franz and Marie: Woyzeck Retold, Greenside Infirmary Street"
     date: 2019-08-10
     rating: 3/5
-    quote: "This is a powerful little show, from a company who clearly feel very passionate about the work that they're doing. "
+    quote: "This is a powerful little show, from a company who clearly feel very passionate about the work that they're doing."
   - type: Review
-    href: https://broadwaybaby.com/shows/franz-and-marie-woyzeck-retold/742528?fbclid=IwAR2dMxB-qaCJrQwiA1wZbfPVqmkqxqAWSPRSJ3isIH91s8SUvGGK49AtaDU
+    href: https://broadwaybaby.com/shows/franz-and-marie-woyzeck-retold/742528
     snapshot: pVwUF
     publisher: broadwaybaby.com
     author: Richard Beck
     title: "Franz and Marie: Woyzeck Retold"
     date: 2019-08-13
     rating: 4/5
-    quote: "A fascinating take on a well-known work. "
+    quote: "A fascinating take on a well-known work."
 
 ---
 
