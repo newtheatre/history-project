@@ -312,17 +312,39 @@ crew:
   note: Wasted
 
 assets:
-  # Show posters
-  - type: #Combined In House poster
+# Combined IH
+  - type: poster
     image: R35qXQ4
-  - type: # Trojan Women poster 
+# Trojan Women
+  - type: poster
     image: Tz4p4wH
-  - type: # Pink Mist poster 
+# Pink Mist
+  - type: poster 
     image: Tz4p4wH
-  - type: # Be My Baby poster
+# Be My Baby
+  - type: poster
     image: GLVBjnr
-  - type: # POSH poster 
+# POSH
+  - type: poster
     image: b8mcgmt
+  - type: poster
+    image: VK82h5B
+  - type: poster
+    image: v9mN6Gd
+  - type: poster
+    image: cs94pDt
+  - type: poster
+    image: bkpjHFz
+  - type: poster
+    image: TVfjtt5
+  - type: poster
+    image: 2DQNFFp
+  - type: poster
+    image: NkvPDr3
+  - type: poster
+    image: TDTttqf
+  - type: poster
+    image: TCg2Z2F
 
 ---
 

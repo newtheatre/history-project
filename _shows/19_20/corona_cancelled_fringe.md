@@ -75,7 +75,7 @@ crew:
   name: Charlie Finney
   note: The Darling Heidi Howard
 - role: Lighting Designer 
-  name: Ceciliar Alexander
+  name: Cecilia Alexander
   note: The Darling Heidi Howard
 - role: Sound Designer 
   name: James Barlow
@@ -196,6 +196,12 @@ assets:
   - type: trailer
     video: DNV2rkd
     title: Reverie Trailer
+
+# Darling Heidi Howard
+prod shots: vxWk6f
+
+# Reverie
+prod shots: pNTzjD
 
 ---
 
