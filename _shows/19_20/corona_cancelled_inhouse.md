@@ -317,7 +317,7 @@ assets:
     image: R35qXQ4
 # Trojan Women
   - type: poster
-    image: Tz4p4wH
+    image: KKtz7f2
 # Pink Mist
   - type: poster 
     image: Tz4p4wH
@@ -345,6 +345,18 @@ assets:
     image: TDTttqf
   - type: poster
     image: TCg2Z2F
+
+# Trojan Women
+prod shots: ZRMXk5
+
+# Pink Mist
+prod shots: gRGDJg
+
+# Be My Baby
+prod shots: H2T9Xp
+
+
+
 
 ---
 
