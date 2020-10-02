@@ -122,7 +122,7 @@ crew:
 - role: Publicity Assistant
   name: Laura Sherratt
   note: Reverie
-- role: Trailer Maker
+- role: Trailers
   name: Sam Morris
   note: Reverie
 - role: Director
