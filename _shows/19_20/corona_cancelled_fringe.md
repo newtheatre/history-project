@@ -198,10 +198,10 @@ assets:
     title: Reverie Trailer
 
 # Darling Heidi Howard
-prod shots: vxWk6f
+prod_shots: vxWk6f
 
 # Reverie
-prod shots: pNTzjD
+prod_shots: pNTzjD
 
 ---
 

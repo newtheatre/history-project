@@ -347,13 +347,13 @@ assets:
     image: TCg2Z2F
 
 # Trojan Women
-prod shots: ZRMXk5
+prod_shots: ZRMXk5
 
 # Pink Mist
-prod shots: gRGDJg
+prod_shots: gRGDJg
 
 # Be My Baby
-prod shots: H2T9Xp
+prod_shots: H2T9Xp
 
 
 
