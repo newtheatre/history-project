@@ -11,13 +11,14 @@ editable: false
   <i class="banner-header-icon fa fa-star"></i>
 </div>
 
+{% assign unknowns = '' %}
 <div class="page archives">
   <div class="decades">
     <div class="archive-section president-section decade decade-201">
       <h3>2010s</h3>
       <div class="archive-section-content">
         <ul class="person-list">
-          {%- for year in site.data.years_by_decade_reversed.201 -%}
+          {%- for year in site.data.years_by_decade_reversed['201'] -%}
             {% include president-list.html year=year %}
           {%- endfor -%}
         </ul>
@@ -27,17 +28,67 @@ editable: false
       <h3>2000s</h3>
       <div class="archive-section-content">
         <ul class="person-list">
-          {%- for year in site.data.years_by_decade_reversed.200 -%}
+          {%- for year in site.data.years_by_decade_reversed['200'] -%}
             {% include president-list.html year=year %}
           {%- endfor -%}
         </ul>
       </div>
     </div>
     <div class="archive-section president-section decade decade-199">
-      <h3>2000s</h3>
+      <h3>1990s</h3>
       <div class="archive-section-content">
         <ul class="person-list">
-          {%- for year in site.data.years_by_decade_reversed.199 -%}
+          {%- for year in site.data.years_by_decade_reversed['199'] -%}
+            {% include president-list.html year=year %}
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+    <div class="archive-section president-section decade decade-198">
+      <h3>1980s</h3>
+      <div class="archive-section-content">
+        <ul class="person-list">
+          {%- for year in site.data.years_by_decade_reversed['198'] -%}
+            {% include president-list.html year=year %}
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+    <div class="archive-section president-section decade decade-197">
+      <h3>1970s</h3>
+      <div class="archive-section-content">
+        <ul class="person-list">
+          {%- for year in site.data.years_by_decade_reversed['197'] -%}
+            {% include president-list.html year=year %}
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+    <div class="archive-section president-section decade decade-196">
+      <h3>1960s</h3>
+      <div class="archive-section-content">
+        <ul class="person-list">
+          {%- for year in site.data.years_by_decade_reversed['196'] -%}
+            {% include president-list.html year=year %}
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+    <div class="archive-section president-section decade decade-195">
+      <h3>1950s</h3>
+      <div class="archive-section-content">
+        <ul class="person-list">
+          {%- for year in site.data.years_by_decade_reversed['195'] -%}
+            {% include president-list.html year=year %}
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+    <div class="archive-section president-section decade decade-194">
+      <h3>1940s</h3>
+      <div class="archive-section-content">
+        <ul class="person-list">
+          {%- for year in site.data.years_by_decade_reversed['194'] -%}
             {% include president-list.html year=year %}
           {%- endfor -%}
         </ul>
@@ -48,53 +99,7 @@ editable: false
     <div class="box-warning">
       <i class="fa fa-exclamation-triangle"></i>
       <p><strong>Missing Presidents</strong><br />
-      <p>We're missing {{ unknowns | split: ', ' | size }} presidents, from the following years: {{ unknowns | remove_first: ","}}. {%- include boxes/phrase_if_you_can_help.html -%}</p>
-    </div>
-  </div>
-</div>
-
-{%- comment -%} Slightly different from people_grid.html {%- endcomment -%}
-<div class="page">
-  <div class="president-people">
-    <ul class="people-grid">
-    {%- assign unknowns = '' -%}
-    {%- for year in site.years -%} 
-      {%- if year.committee -%}
-        {%- assign this_pres = year.committee.committee | where: "role", "President" -%}
-        {%- assign this_pres_name = this_pres[0].name | downcase -%}
-        {%- if this_pres != '' and this_pres_name != 'unknown' -%}
-          {%- assign this_person = site.data.people | where: "title", this_pres[0].name -%}
-          <li>
-            <div class="title"><a href="{{ year.url }}">{{ year.start_year }}</a></div>
-            <ul class="people-grid-list president-list">
-              {%- assign person = this_person[0] -%}
-              <li><a href="{{ person.url }}">
-                <div class="headshot">
-                  {%- if person.headshot -%}
-                    <img class="person-headshot-actual" src="{{ person.headshot.person_bio }}" alt="{{ person.title }}" />
-                  {%- else -%}
-                    <img class="person-headshot-placeholder" src="/images/human-512-cropped.png" alt="Human silhouette" />
-                  {%- endif -%}
-                </div>
-                <div class="name">{{ person.title }}</div>
-              </a></li>
-            </ul>
-          </li>
-        {%- else -%}
-          {%- assign unknowns = unknowns | append: ', ' | append: year.start_year -%}
-        {%- endif -%}
-      {%- else -%}
-        {%- assign unknowns = unknowns | append: ', ' | append: year.start_year -%}
-      {%- endif -%}
-    </li>
-    {%- endfor -%}
-    </ul>
-  </div>
-  <div class="president-cta">
-    <div class="box-warning">
-      <i class="fa fa-exclamation-triangle"></i>
-      <p><strong>Missing Presidents</strong><br />
-      <p>We're missing {{ unknowns | split: ', ' | size }} presidents, from the following years: {{ unknowns | remove_first: ","}}. {%- include boxes/phrase_if_you_can_help.html -%}</p>
+      <p>We're missing {{ unknowns | split: ', ' | size }} presidents, from the following years: {{ unknowns | remove_first: ","}}.&nbsp;{%- include boxes/phrase_if_you_can_help.html -%}</p>
     </div>
   </div>
 </div>
