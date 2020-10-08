@@ -19,12 +19,13 @@ $color-presidents: #CD853F
 	float: left
 
 .president-year
-	width: 40%
+	width: 30%
 	a 
 		@include link-colour($color-link)
 		@extend a 
+
 .president-person
-	width: 60%
+	width: 70%
 	&.empty 
 		color: $color-grey-dark
 
@@ -34,7 +35,3 @@ $color-presidents: #CD853F
 
 .president-people
   @include grid-x-col(10)
-
-.president-cta
-  @include grid-x-col(6)
-
