@@ -3,16 +3,16 @@
             {%- if year.committee -%}
               {%- assign this_pres = year.committee.committee | where: "role", "President" -%}
               {%- assign this_pres_name = this_pres[0].name | downcase -%}
-              {%- if this_pres != '' and this_pres_name != 'unknown' -%}
+              {%- if this_pres != empty and this_pres_name != 'unknown' -%}
                 {%- assign this_person_object = site.data.people | where: "title", this_pres[0].name -%}
                 {%- assign this_person = this_person_object[0] -%}
                 {%- if this_person == '' or this_person.title == '' %}
                   {% assign this_person = 'unknown' %}
                 {%- endif -%}
-              {%- else -%}
+              {%- else -%} {%- comment -%} No president listed {%- endcomment -%}
                 {%- assign this_person = 'unknown' -%}
               {%- endif -%}
-            {%- else -%}
+            {%- else -%} {%- comment -%} No committee {%- endcomment -%}
               {%- assign this_person = 'unknown' -%}
             {%- endif -%}
             {%- comment -%} Display the year {%- endcomment -%}
@@ -35,3 +35,6 @@
               {%- if this_person != 'unknown' -%}</a>{%- endif -%}
               </div>
             </li>
+            {% if this_person == 'unknown' %}
+              {%- assign unknowns = unknowns | append: ', ' | append: year.start_year -%}
+            {% endif %}
