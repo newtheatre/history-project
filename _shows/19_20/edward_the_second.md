@@ -75,6 +75,8 @@ crew:
   name: Ellen Schaffert
 - role: Publicity Assistant
   name: Fatema Valikarimwala
+- role: Photographer
+  name: Jordan Walton
 - role: Make-up Assistant 
   name: Abie Whitehead
 - role: Make-up Assistant 

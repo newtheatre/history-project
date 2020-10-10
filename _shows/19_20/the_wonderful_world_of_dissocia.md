@@ -55,6 +55,8 @@ crew:
   name: Charlie Bellwood
 - role: Publicity Assistant
   name: Rhona Mitchell
+- role: Photographer
+  name: Josh Spear
 - role: Stage Manager 
   name: Ishita Burman 
 - role: Design Assistant (Set)
