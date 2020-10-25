@@ -86,6 +86,12 @@ assets:
 - type: backstage
   video: 6HzvRfj
   title: Behind The Scenes
+- type: timelapse
+  video: bcmQmMM
+  title: Build Week Timelapse
+- type: timelapse
+  video: 3KQL3vd
+  title: Production Week Timelapse
   
 prod_shots: mmgHHX
 
