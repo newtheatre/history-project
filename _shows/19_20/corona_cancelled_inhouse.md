@@ -1,3 +1,4 @@
+---
 title: In House Shows Cancelled due to Covid-19
 playwright: various
 period: Spring
@@ -360,22 +361,22 @@ prod_shots: H2T9Xp
 
 ---
 
-> A note from the editors: During the Covid-19 global pandemic in Spring 2020, the majority of the Spring productions were cancelled. Although we do not typically archive cancelled productions, it would be inaccurate to present an archive without recognising almost a whole season that was lost and the contributions that cast and crews were making up till the last moment they could.
+## A note from the editors
+> During the Covid-19 global pandemic in Spring 2020, the majority of the Spring productions were cancelled. Although we do not typically archive cancelled productions, it would be inaccurate to present an archive without recognising almost a whole season that was lost and the contributions that cast and crews were making up till the last moment they could.
 
-# 'Trojan Women' by Euripides (In House)
-Trojan Women takes us to the ruins of the city of Troy, in the aftermath of the Greek victory in the Trojan War. The grieving Trojan widows face the prospect of slavery, and are at the mercy of the Greek leaders who are striving to
-fulfil a horrific prophecy in order to return home.
+## 'Trojan Women' by Euripides (In House)
+Trojan Women takes us to the ruins of the city of Troy, in the aftermath of the Greek victory in the Trojan War. The grieving Trojan widows face the prospect of slavery, and are at the mercy of the Greek leaders who are striving to fulfil a horrific prophecy in order to return home.
 This Roman play focuses on the complexity of Trojan female stories not found in Homer’s Greek-male-centric epic. Based on Euripides’ Greek play of the same name, and written during the controversial and tumultuous period of Emperor Nero’s reign, Seneca creates a powerful and moving version of this myth, pervaded by the sinister world that he saw around him. An abstract interpretation of a script that may never have been intended for performance, Trojan Women demonstrates the universality of the consequences of war and how complex female emotion should be presented on stage, no matter the era.
 
-# 'Pink Mist' by Owen Shears (25th-28th March, In House)
+## 'Pink Mist' by Owen Shears (25th-28th March, In House)
 “Three boys went to Catterick. It was January, snow pitchen on the Severn, turning the brown mud white, fisherman blowing on their fingerless gloves, the current pulling their fishing lines tight. That’s how it was the morning when the three of us did what boys always have and left our homes for war.” Pink Mist follows each boy’s experience both during and after their tours to Afghanistan. Within a short period of time each return to the important women in their lives - a wife, a mother, a girlfriend - and shows how everyone must now share the psychological and physical aftershocks of their service.
 
-# 'Be My Baby' by Amanda Whittington (31st March - 3rd April, In House)
+## 'Be My Baby' by Amanda Whittington (31st March - 3rd April, In House)
 Set in St Saviours, a Mother and Baby Home in 1964 in the north of England, the play follows Mary Adams, aged 19, unmarried and seven months pregnant. Forcibly sent there by her deeply ashamed mother, Mary – along with the other girls in the home – has to cope both with the shame and the dawning realisation that they may not be able to take their babies home, whether they like it or not.
 Despite this, and an overbearing matron, the girls’ youthful effervescence breaks through, as they sing along to the girl-group songs of the period.
 
-# 'POSH' by Laura Wade (6th-9th May, In House)
+## 'POSH' by Laura Wade (6th-9th May, In House)
 Nine members of an elite Oxford dining society with cut-glass vowels and deep pockets are meeting, intent on restoring their right to rule. Portrayed by female actors, these nine men embark on an evening of debauchery, decadence and bloody good wine - testing the limits of how far money can take you, and whether or not it can save you. Welcome to the Riot Club. The play begins with the rebirth of the Club after being exposed and shamed in the media. It follows the nine existing members through an evening of fine dining in a modest pub in the middle of England, through to an accident which could land them behind bars – far away from the comfort of their Oxford colleges.
 
-# 'Wasted' by Kate Tempest (13th-16th May, In House)
+## 'Wasted' by Kate Tempest (13th-16th May, In House)
 Three old friends. One remarkable day. For Ted, Danny, and Charlotte, it’s time to take control. Make a difference. Change things. A journey through the parks, raves, and cafes of London, where life is what you make it. This is a play about love, life, and losing your mind. Kate Tempest’s fast paced dialogue integrates choral spoken-word poetry into the plot creating a vibrant and exciting play which explores the effects of drugs, death, and dreams on a group of childhood friends.
