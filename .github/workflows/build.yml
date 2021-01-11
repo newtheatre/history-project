@@ -1,0 +1,99 @@
+name: build
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false  # needed for JamesIves/github-pages-deploy-action
+
+      - name: Install Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.4
+      - name: Cache Ruby gems
+        id: cache-gems
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-1-${{ hashFiles('Gemfile.lock') }}
+      - name: Set Ruby gems directory
+        run: bundle config path vendor/bundle
+      - name: Install Ruby gems
+        # if: steps.cache-gems.outputs.cache-hit != 'true'
+        run: bundle install --jobs 4 --retry 3 --deployment
+
+      - name: Install Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '8'  # gulp will likely be upset with newer
+      - name: Cache node_modules
+        id: cache-node
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-modules-${{ hashFiles('package-lock.json') }}
+      - name: Install NPM packages
+        if: steps.cache-node.outputs.cache-hit != 'true'
+        run: npm install
+
+      - name: Cache Bower libraries
+        id: cache-bower
+        uses: actions/cache@v2
+        with:
+          path: lib
+          key: ${{ runner.os }}-bower-${{ hashFiles('bower.json') }}
+      - name: Install Bower packages
+        if: steps.cache-bower.outputs.cache-hit != 'true'
+        run: node_modules/.bin/bower install
+
+      - name: Cache SmugMug
+        id: cache-smugmug
+        uses: actions/cache@v2
+        with:
+          path: tmp/smugmug
+          key: smugmug-1
+      - name: Pull SmugMug cache from S3
+        if: steps.cache-smugmug.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p tmp
+          wget https://nthp.s3-eu-west-1.amazonaws.com/sm-cache.tar.xz -O tmp/sm-cache.tar.xz
+          tar xvf tmp/sm-cache.tar.xz
+
+      - name: Store build number
+        run: echo -n $(($GITHUB_RUN_NUMBER + 10000)) > _includes/travis_build_number.txt
+
+      - name: Build the site
+        run: node_modules/.bin/gulp build_deploy
+        env:
+          SMUGMUG_API_KEY: ${{ secrets.SMUGMUG_API_KEY }}
+
+      - name: Cache htmltest files
+        uses: actions/cache@v2
+        with:
+          path: tmp/htmltest
+          key: htmltest-1
+      - name: Test built site with htmltest
+        uses: wjdp/htmltest-action@master
+        continue-on-error: true
+        with:
+          skip_external: true
+
+      - name: Publish to GH Pages (Actions Preview) 🚀
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          REPOSITORY_NAME: newtheatre/history-project-gh-actions
+          GITHUB_TOKEN: ${{ secrets.DEPLOY_PAT }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: _site # The folder the action should deploy.
+          CLEAN: true # Automatically remove deleted files from the deploy branch
+          GIT_CONFIG_NAME: ntbot
+          GIT_CONFIG_EMAIL: webmaster@newtheatre.org.uk
