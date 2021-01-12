@@ -7,6 +7,7 @@ season_sort: 283
 period: Spring
 venue: New Theatre
 date_start: 2013-06-01
+ignore_missing: true 
 
 crew:
   - role: Coordinator

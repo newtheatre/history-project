@@ -150,6 +150,57 @@ module Jekyll
       end
     end
 
+    def missing_majority(show)
+      # We don't have crew_incomplete yet, so let's work it out.
+      show_crew_count = show.data["crew"] ? show.data["crew"].length : 0
+      amount_missing = 0 
+      missing_fields = ''
+
+      if not show.data["date_start"]
+        amount_missing += 1
+        missing_fields += 'date_start '
+      end 
+      if not show.data["poster"]
+        amount_missing += 1
+        missing_fields += 'poster '
+      end 
+      if show.data["excerpt"] == ''
+        amount_missing += 1
+        missing_fields += 'excerpt '
+      end
+      if not show.data["cast"]
+        amount_missing += 1
+        missing_fields += 'cast '
+      elsif show.data["cast_incomplete"] == true 
+        amount_missing += 1
+        missing_fields += 'cast_incomplete '
+      end 
+      if show.data["crew"]
+        if show.data["crew"].size <= @site.config['show_low_crew']
+          amount_missing += 1
+          missing_fields += 'crew_short '
+        end 
+      else 
+        amount_missing += 1
+        missing_fields += 'crew '
+      end 
+      if show.data["playwright_type"] == "unknown"
+        amount_missing += 1
+        missing_fields += 'playwright '
+      end 
+      if not show.data["venue"]
+        amount_missing += 1
+        missing_fields += 'venue '
+      end 
+
+      if amount_missing >= 4 
+        missing_majority = true 
+      else 
+        missing_majority = false 
+      end 
+      return missing_majority, missing_fields
+    end 
+
     # Show generator
     def generate_show(show)
       # Set year attributes
@@ -213,6 +264,9 @@ module Jekyll
 
       # Set ignore_missing if not already
       show.data["ignore_missing"] ||= ignore_missing(show, @site.config["ignore_missing_in_seasons"])
+
+      # Work out if we're missing the majority of key fields for the show
+      show.data["missing_majority"], show.data["missing_fields"] = missing_majority(show)
     end
 
     def sort_shows(shows)
