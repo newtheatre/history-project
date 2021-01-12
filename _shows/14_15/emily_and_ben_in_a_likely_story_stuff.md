@@ -5,6 +5,7 @@ season: "StuFF"
 season_sort: 460
 date_start: 2015-06-17
 venue: New Theatre Studio A
+improvised: true
 
 cast:
   - name: Ben Hollands

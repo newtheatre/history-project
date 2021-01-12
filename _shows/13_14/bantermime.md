@@ -8,6 +8,7 @@ season_sort: 170
 date_start: 2014-02-12
 date_end: 2014-02-15
 venue: New Theatre
+improvised: true
 
 assets:
   - type: poster

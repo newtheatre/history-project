@@ -57,6 +57,8 @@ body_class: section-archives layout-show
             <i class="meta-icon fa fa-pencil" title="Student Written"></i>
           {% elsif show.playwright_type == "devised" %}
             <i class="meta-icon fa fa-group"></i>
+          {% elsif show.playwright_type == 'improvised' %}
+            <i class="meta-icon fa fa-comments-o"></i>
           {% else %}
             <i class="meta-icon fa fa-book"></i>
           {% endif %}

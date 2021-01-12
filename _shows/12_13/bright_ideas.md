@@ -2,6 +2,7 @@
 title: "Bright Ideas"
 playwright:
 season: Fundraiser
+student_written: true 
 season_sort: 283
 period: Spring
 venue: New Theatre

@@ -7,6 +7,7 @@ season_sort: 190
 date_start: 2019-01-26
 date_end: 2019-01-31
 venue: New Theatre
+improvised: true
 
 cast:
 - name: Joe Strickland

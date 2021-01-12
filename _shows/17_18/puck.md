@@ -6,6 +6,7 @@ season_sort: 500
 period: Spring
 venue: New Theatre
 date_start: 2018-06-17
+student_written: true 
 
 crew_incomplete: false
 

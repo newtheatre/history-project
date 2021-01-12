@@ -8,6 +8,7 @@ season_sort: 580
 date_start: 2019-06-18
 date_end: 2019-06-18
 venue: New Theatre 
+student_written: true
 
 cast:
 - role: Polly / Themselves 

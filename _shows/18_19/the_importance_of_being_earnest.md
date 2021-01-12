@@ -9,6 +9,7 @@ season_sort: 30
 date_start: 2018-09-27
 venue: New Theatre
 company: 72 in 72
+student_written: true 
 
 prod_shots: 6cndW2
 

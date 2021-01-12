@@ -7,6 +7,7 @@ comment: See \#1614
 season: External
 season_sort: 140
 venue: New Theatre
+improvised: true
 
 cast:
   - name: Jack Cross

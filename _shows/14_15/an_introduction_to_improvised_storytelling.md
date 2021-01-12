@@ -6,6 +6,7 @@ season_sort: 490
 date_start: 2015-06-18
 date_end: 2015-06-19
 venue: New Theatre Studio B
+improvised: true
 
 assets:
   - type: poster

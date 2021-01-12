@@ -6,6 +6,7 @@ season: StuFF
 season_sort: 460
 date_start: 2016-06-14
 venue: New Theatre
+improvised: true
 
 crew_incomplete: false
 

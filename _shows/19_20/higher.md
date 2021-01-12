@@ -8,6 +8,7 @@ season_sort: 55
 date_start: 2019-11-17
 date_end: 2019-11-18
 venue: New Theatre Studio A
+student_written: true 
 
 cast:
 - role: A

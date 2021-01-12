@@ -6,6 +6,7 @@ season: StuFF
 season_sort: 480
 date_start: 2017-06-20
 venue: New Theatre Studio A
+improvised: true 
 
 crew_incomplete: false
 

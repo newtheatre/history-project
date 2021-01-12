@@ -2,6 +2,7 @@
 title: Timon/Titus by William Shakespeare
 playwright: Collectif OS'O
 translator: Ben Standish
+student_written: true 
 period: Autumn
 season: In House
 season_sort: 130

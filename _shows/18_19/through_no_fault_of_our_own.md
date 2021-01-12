@@ -6,6 +6,7 @@ season_sort: 450
 date_start: 2019-06-17
 date_end: 2019-06-17
 venue: New Theatre Studio A
+improvised: true
 
 trivia:
   - quote: "Ian and I agreed to do this show on 2 and a half hour's notice, with me not having improvised since 2016."

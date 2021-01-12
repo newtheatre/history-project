@@ -7,6 +7,7 @@ period: Spring
 venue: New Theatre Studio A
 date_start: 2018-06-16
 company: Strickland Productions
+student_written: true 
 
 crew_incomplete: false
 
