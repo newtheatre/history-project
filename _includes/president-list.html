@@ -1,0 +1,40 @@
+            {%- comment -%} Get the president for the year {%- endcomment -%}
+            {% assign year = include.year %}
+            {%- if year.committee -%}
+              {%- assign this_pres = year.committee.committee | where: "role", "President" -%}
+              {%- assign this_pres_name = this_pres[0].name | downcase -%}
+              {%- if this_pres != empty and this_pres_name != 'unknown' -%}
+                {%- assign this_person_object = site.data.people | where: "title", this_pres[0].name -%}
+                {%- assign this_person = this_person_object[0] -%}
+                {%- if this_person == '' or this_person.title == '' %}
+                  {% assign this_person = 'unknown' %}
+                {%- endif -%}
+              {%- else -%} {%- comment -%} No president listed {%- endcomment -%}
+                {%- assign this_person = 'unknown' -%}
+              {%- endif -%}
+            {%- else -%} {%- comment -%} No committee {%- endcomment -%}
+              {%- assign this_person = 'unknown' -%}
+            {%- endif -%}
+            {%- comment -%} Display the year {%- endcomment -%}
+            <li class="person-single">
+              <div class="president-year">
+                <a href="{{ year.url }}">
+                    {{ year.title_spaced }}
+                </a>
+              </div>
+              <div class="president-person {% if this_person == 'unknown' %}empty{% endif %}">
+              {%- if this_person != 'unknown' -%}<a href="{{ this_person.url }}">{%- endif -%}
+                <div class="person-headshot-container">
+                  {%- if this_person.headshot -%}
+                    <img class="person-headshot person-headshot-actual" src="{{ this_person.headshot.person_bio }}" alt="{{ this_person.title }}" />
+                  {%- elsif this_person != 'unknown' -%}
+                    <img class="person-headshot person-headshot-placeholder" src="/images/human-512-cropped.png" alt="Human silhouette" />
+                  {%- endif -%}
+                </div>
+                <div class="person-name">{%- if this_person == 'unknown' -%}<em>Unknown</em>{%- else -%}{{ this_person.title }}{%- endif -%}</div>
+              {%- if this_person != 'unknown' -%}</a>{%- endif -%}
+              </div>
+            </li>
+            {% if this_person == 'unknown' %}
+              {%- assign unknowns = unknowns | append: ', ' | append: year.start_year -%}
+            {% endif %}
