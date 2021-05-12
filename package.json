@@ -24,7 +24,7 @@
     "gulp-webserver": "^0.9.1",
     "jsonlint": "^1.6.2",
     "mapbox-gl": "1.9.0",
-    "postcss": "^7.0.5",
+    "postcss": "^8.2.10",
     "postcss-cli": "^6.0.1",
     "postcss-cssnext": "^3.1.0"
   },
