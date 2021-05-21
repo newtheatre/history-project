@@ -67,6 +67,8 @@ crew:
   name: Nat Henderson
 - role: Assistant Costume and Make-Up Designer
   name: Annabel Freer
+- role: Henna Artist
+  name: Ellie Castaño
 - role: Design Assistant
   name: Nadia Elalfi
 - role: Design Assistant
