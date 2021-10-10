@@ -7,7 +7,7 @@ season: In House
 season_sort: 50
 date_start: 2019-11-13
 date_end: 2019-11-16
-venue: New Theatre
+venue: New Theatr
 
 cast:
 - role: Alice
