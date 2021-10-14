@@ -13,7 +13,3 @@ links:
   - type: Instagram
     username: rohan.rakhit
 ---
-
-Was invited to join the NSDF Company Ensemble in 2019 for my role as 'Perseus' in 'Here, the World Entire'.
-
-I had lots of fun with my good friend Barney.
