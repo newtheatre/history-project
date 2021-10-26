@@ -22,8 +22,8 @@
   $background-base: adjust-hue($color-decades-base, 220%)
   $background-items: -3
 
-  @for $i from 194 through 201
-    $shift: (100% / $background-items) * (201-$i)
+  @for $i from 194 through 202
+    $shift: (100% / $background-items) * (202-$i)
     $shift-color: adjust-hue($background-base, $shift)
 
     @include decade-col-fill($i, $shift-color)
