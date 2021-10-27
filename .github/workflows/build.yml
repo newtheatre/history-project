@@ -75,6 +75,7 @@ jobs:
         run: node_modules/.bin/gulp build_deploy
         env:
           SMUGMUG_API_KEY: ${{ secrets.SMUGMUG_API_KEY }}
+          SMUGMUG_CACHE_MAINTAIN: true
 
       - name: Cache htmltest files
         uses: actions/cache@v2
