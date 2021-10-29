@@ -76,7 +76,7 @@ cast:
   name: Daisy Norton
   note: POSH
 - role: Ed
-  name: Tash Wanigarante
+  name: Tash Wanigaratne
   note: POSH
 - role: Toby
   name: Hannah O'Driscoll
