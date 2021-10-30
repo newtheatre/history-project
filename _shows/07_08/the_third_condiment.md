@@ -16,6 +16,8 @@ assets:
 crew:
   - role: Director
     name: Charlie Brafman
+  - role: Lighting & Sound Technician
+    name: Tammy Ingamells
   - role: Publicity
     name: Daniel Xavier Vizer
 
