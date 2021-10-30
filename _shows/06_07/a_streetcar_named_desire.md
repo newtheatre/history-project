@@ -12,6 +12,10 @@ cast:
 - role: Blanche Dubois
   name: Georgie Strawson
 
+crew:
+  - role: Lighting Technician
+    name: Tammy Ingamells
+
 assets:
   - type: poster
     image: 63NfNkg
