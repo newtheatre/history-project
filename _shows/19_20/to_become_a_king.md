@@ -54,6 +54,9 @@ crew:
   name: Jordan Walton
 - role: Poster Designer 
   name: Jenny Kendall
+- role: Photographer
+  name: Kah Lok
+  person: false
 - role: Accent Coach
   name: Jack Ellis
 

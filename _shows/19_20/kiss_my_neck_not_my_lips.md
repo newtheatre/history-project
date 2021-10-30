@@ -30,6 +30,8 @@ crew:
   name: Nicholas Landon
 - role: Poster Designer 
   name: Em Rule
+- role: Photographer
+  name: Beth Carter
  
 assets:
   - type: poster

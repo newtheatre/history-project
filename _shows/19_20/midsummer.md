@@ -75,6 +75,9 @@ crew:
   name: Chris Scullion
 - role: Poster Designer 
   name: Skylar Turnbull Hurd
+- role: Photographer
+  name: Alexander Berman
+  person: false
 - role: Costume Designer
   name: Sasha Berman
 - role: Make-up Assistant

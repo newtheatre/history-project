@@ -125,5 +125,11 @@ crew:
   - name: Christopher Wix
 
 prod_shots: bC8xDt
+
+trivia:
+  - quote: At that time the stage  was very high from the ground and not flat as it is now, and I remember coming off full of myself as you are when you have just been on stage, and stepping down in to nothing and making a nasty graze on my shin bone.
+    name: Terry Payne
+    submitted: 2018-07-02
+
 ---
 

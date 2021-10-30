@@ -66,6 +66,8 @@ crew:
   name: Nat Henderson
 - role: Technical Operator 
   name: Danni Cooper
+- role: Photographer
+  name: Dan Cresswell
 
 assets:
   - type: poster

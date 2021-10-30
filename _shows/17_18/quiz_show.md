@@ -86,6 +86,9 @@ assets:
 - type: backstage
   video: 6HzvRfj
   title: Behind The Scenes
+- type: backstage
+  video: 3KQL3vd
+  title: Set Build Timelapse Week 1
 - type: timelapse
   video: bcmQmMM
   title: Build Week Timelapse
@@ -104,6 +107,15 @@ links:
     date: 2018-04-26
     quote: "University is a place of education but I've found out that my theatrical education has been expanded by talented groups like these with people who can fit in with any local theatre group and would be a boon to any production, be it in the spotlight or behind the scenes."
 
+prod_shots: mmgHHX
+
+trivia:
+  - quote: 
+      This show took me 8 and a half hours to program, and was one of the best and most complicated designs I produced at the NNT. This also entailed Sam Osborne running into the workshop from his video position and turning the moving lights off before the final monologue as I hated the noise of the fan and wanted the stage completely silent.
+
+    name: Ben Woodford
+    submitted: 2020-09-21
+    
 ---
 
 It is perfectly healthy to suppress memories. False! Eventually suppressed memories can cause debilitating psychological problems, such as anxiety, depression, or dissociative disorders. Did you know that? 2017 was the year for Fake News, how good are you at calling out lies? Come and see a live recording of our Quiz Show, False!, where three contestants test their knowledge of what is real to get to go through the door of truth! They say ignorance is bliss but for one of the three contestants, only the truth will set them free.
