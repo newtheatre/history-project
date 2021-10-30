@@ -19,6 +19,8 @@ IgnoreURLs:
 - "http://www.theartistspartnership.co.uk"
 - "http://www.hercampus.com"
 - "https://vimeo.com/"
+- "twitter.com"
+- "edinburghspotlight.com"
 IgnoreDirs:
 - "^lib"
 

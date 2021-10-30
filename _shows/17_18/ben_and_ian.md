@@ -5,6 +5,7 @@ season_sort: 420
 period: Spring
 venue: New Theatre Studio A
 date_start: 2018-06-16
+improvised: true
 
 crew_incomplete: false
   

@@ -7,6 +7,7 @@ period: Spring
 venue: New Theatre Studio A  
 date_start: 2019-06-18
 date_end: 2019-06-18
+student_written: true 
 
 cast: 
 - role: Time

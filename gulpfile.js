@@ -1,6 +1,6 @@
 'use strict';
 
-var gulp = require('gulp');
+var gulp = require('gulp-v3');
 var gutil = require('gulp-util');
 var gulpif = require('gulp-if');
 var shell = require('gulp-shell');

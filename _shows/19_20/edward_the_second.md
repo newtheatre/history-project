@@ -9,6 +9,7 @@ season_sort: 100
 date_start: 2019-12-10
 date_end: 2019-12-13
 venue: New Theatre
+student_written: true 
 
 cast:
 - role: Edward II

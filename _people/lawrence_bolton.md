@@ -12,6 +12,10 @@ course:
 links:
   - type: CastingCallPro
     href: "https://www.castingcallpro.com/uk/actor/profile/lawrence-bolton-1"
+  - type: Twitter
+    username: TiaKofi
 ---
 
 Since graduating, Lawrence has gone on to found his own production company, Two Box Productions. The company frequently holds performances in London and regularly participates at the Edinburgh Fringe, most notably Harry Poppers and the Deathly Swallows.
+
+In 2021, Lawrence appeared on the second season of RuPaul's Drag Race UK as Tia Kofi.

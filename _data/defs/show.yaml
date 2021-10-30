@@ -14,6 +14,10 @@
   short: Used if play was devised
   description: "Either `true` for generic output or a descriptor. Example descriptor: `Cast and Crew` will output “Devised by Cast and Crew”. Omit if using playwright."
 
+- attr: improvised
+  short: Used if a play was (fully) improvised. 
+  description: "Omit if false. Primarily used for fully improvised shows, rather than scripted shows with improvised elements."
+
 - attr: adaptor
   type: string
   short: Full name of adaptor
@@ -27,7 +31,7 @@
 - attr: playwright_type
   type: string
   short: Playwright type
-  description: Either `playwright`, `devised`, `various`, or `unknown`.
+  description: Either `playwright`, `devised`, `improvised`, `various`, or `unknown`.
   generated: true
 
 - attr: playwright_formatted

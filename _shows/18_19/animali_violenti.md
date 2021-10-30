@@ -8,6 +8,7 @@ season_sort: 530
 date_start: 2019-06-18
 date_end: 2019-06-18
 venue: New Theatre Studio A
+student_written: true 
 
 cast:
 - name: Jonathan Taylor Davies

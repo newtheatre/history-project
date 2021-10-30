@@ -1,0 +1,37 @@
+$color-presidents: #CD853F
+
+.presidents-header
+  background: $color-presidents
+
+// Uses .people-grid-list from _people.sass
+.president-list 
+	columns: 1 
+
+.archive-section.president-section.decade, .president-cta 
+	// Row item
+	flex-basis: 100%
+	@include respond-up(tab-port)
+		flex-basis: 66.666%
+	@include respond-up(tab-land)
+		flex-basis: 33.333%
+
+.president-year, .president-person 
+	float: left
+
+.president-year
+	width: 30%
+	a 
+		@include link-colour($color-link)
+		@extend a 
+
+.president-person
+	width: 70%
+	&.empty 
+		color: $color-grey-dark
+
+.name-unknown
+	margin-top: auto
+	margin-bottom: auto
+
+.president-people
+  @include grid-x-col(10)

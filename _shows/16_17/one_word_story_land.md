@@ -7,6 +7,7 @@ season_sort: 210
 date_start: 2017-01-29
 date_end: 2017-02-01
 venue: New Theatre
+improvised: true 
 
 crew_incomplete: false
 

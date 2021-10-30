@@ -7,6 +7,7 @@ season_sort: 230
 date_start: 2015-02-11
 date_end: 2015-02-14
 venue: New Theatre
+improvised: true
 
 assets:
   - type: poster

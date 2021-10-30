@@ -5,6 +5,7 @@ season: "StuFF"
 season_sort: 530
 date_start: 2015-06-19
 venue: New Theatre
+improvised: true
 
 assets:
   - type: poster

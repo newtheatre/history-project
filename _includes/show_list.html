@@ -18,9 +18,13 @@
 
     <span class="show-list-title">{{ show.title | escape_once }}</span>
 
-    {% if show.playwright %}
-    <span class="show-list-playwright show-list-playwright-{{ show.playwright.playwright_type }}">
-      {% if show.student_written %}
+    {% if show.playwright_type != 'unknown' %}
+    <span class="show-list-playwright show-list-playwright-{{ show.playwright_type }}">
+      {% if show.playwright_type == 'devised' %}
+        <i class="fa fa-group show-devised" title="{{ show.playwright_formatted_long }}"></i>
+      {% elsif show.playwright_type == 'improvised' %}
+        <i class="fa fa-comments-o show-improvised" title="Improvised"></i>
+      {% elsif show.student_written %}
         <i class="fa fa-pencil show-student-written" title="Student Written"></i>
       {% endif %}
       {{ show.playwright_formatted_long | escape_once }}

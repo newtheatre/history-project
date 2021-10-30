@@ -89,9 +89,14 @@ assets:
 - type: backstage
   video: 3KQL3vd
   title: Set Build Timelapse Week 1
-- type: backstage
+- type: timelapse
   video: bcmQmMM
-  title: Set Build Timelapse
+  title: Build Week Timelapse
+- type: timelapse
+  video: 3KQL3vd
+  title: Production Week Timelapse
+  
+prod_shots: mmgHHX
 
 links:
  -  type: Review

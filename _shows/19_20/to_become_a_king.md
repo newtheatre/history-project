@@ -7,6 +7,7 @@ season_sort: 70
 date_start: 2019-11-24
 date_end: 2019-11-25
 venue: New Theatre Studio A
+student_written: true 
 
 cast:
 - role: Prince / Newscaster 3

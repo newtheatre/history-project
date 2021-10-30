@@ -7,6 +7,7 @@ venue: New Theatre Studio A
 date_start: 2019-06-18
 date_end: 2019-06-18
 playwright: Emma White
+student_written: true 
   
 cast: 
 - role: Ophelia

@@ -49,6 +49,9 @@
   <script defer type="text/javascript" src="/js/focus-ring.js"></script>
   <script defer type="text/javascript" src="{% static /js/app.js %}" data-turbolinks-track="reload"></script>
 
+  <!-- Privacy Friendly Analytics -->
+  <script async defer data-domain="history.newtheatre.org.uk" src="https://plausible.io/js/plausible.js"></script>
+
   {% for head_extra_line in layout.head_extra %}
     {{ head_extra_line }}
   {% endfor %}
