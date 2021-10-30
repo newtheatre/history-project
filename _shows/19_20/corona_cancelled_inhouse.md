@@ -76,7 +76,7 @@ cast:
   name: Daisy Norton
   note: POSH
 - role: Ed
-  name: Tash Wanigarante
+  name: Tash Wanigaratne
   note: POSH
 - role: Toby
   name: Hannah O'Driscoll
@@ -378,5 +378,5 @@ Despite this, and an overbearing matron, the girls’ youthful effervescence bre
 ## 'POSH' by Laura Wade (6th-9th May, In House)
 Nine members of an elite Oxford dining society with cut-glass vowels and deep pockets are meeting, intent on restoring their right to rule. Portrayed by female actors, these nine men embark on an evening of debauchery, decadence and bloody good wine - testing the limits of how far money can take you, and whether or not it can save you. Welcome to the Riot Club. The play begins with the rebirth of the Club after being exposed and shamed in the media. It follows the nine existing members through an evening of fine dining in a modest pub in the middle of England, through to an accident which could land them behind bars – far away from the comfort of their Oxford colleges.
 
-## 'Wasted' by Kate Tempest (13th-16th May, In House)
-Three old friends. One remarkable day. For Ted, Danny, and Charlotte, it’s time to take control. Make a difference. Change things. A journey through the parks, raves, and cafes of London, where life is what you make it. This is a play about love, life, and losing your mind. Kate Tempest’s fast paced dialogue integrates choral spoken-word poetry into the plot creating a vibrant and exciting play which explores the effects of drugs, death, and dreams on a group of childhood friends.
+## 'Wasted' by Kae Tempest (13th-16th May, In House)
+Three old friends. One remarkable day. For Ted, Danny, and Charlotte, it’s time to take control. Make a difference. Change things. A journey through the parks, raves, and cafes of London, where life is what you make it. This is a play about love, life, and losing your mind. Kae Tempest’s fast paced dialogue integrates choral spoken-word poetry into the plot creating a vibrant and exciting play which explores the effects of drugs, death, and dreams on a group of childhood friends.
