@@ -16,6 +16,12 @@ cast:
   - role: Mrs Wicksteed
     name: Lucy Butler
 
+crew:
+  - role: Lighting & Sound Technician
+    name: Tammy Ingamells
+  - role: Publicity
+    name: Tammy Ingamells
+
 assets:
   - type: poster
     image: Fb8GnsH
