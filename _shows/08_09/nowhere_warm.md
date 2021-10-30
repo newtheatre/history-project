@@ -36,6 +36,8 @@ crew:
     name: Philip Geller
   - role: Sound Designer
     name: Bora Hunja
+  - role: Lighting & Sound Technician
+    name: Tammy Ingamells
   - role: Set Designer
     name: Elle O'Rorke
   - role: Photography
