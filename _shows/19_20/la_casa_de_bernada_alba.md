@@ -67,7 +67,7 @@ crew:
 - role: Technical Operator 
   name: Danni Cooper
 - role: Photographer
-  name: Daniel Cresswell
+  name: Dan Cresswell
 
 assets:
   - type: poster
