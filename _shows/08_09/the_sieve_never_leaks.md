@@ -29,6 +29,10 @@ crew:
   - role: Musician
     name: Yichen Wu
     note: Saxaphone
+  - role: Lighting & Sound Technician
+    name: Tammy Ingamells
+  - role: Publicity
+    name: Tammy Ingamells
 
 
 links:
