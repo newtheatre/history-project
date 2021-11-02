@@ -14,9 +14,9 @@ This project is run by [a group](https://history.newtheatre.org.uk/humans.txt) f
 
 ### System
 
-To get the site running locally you will need a working Ruby environment, the bundler gem installed, Node.js, Gulp, CoffeeScript, and Bower. The following instructions work on Ubuntu.
+To get the site running locally you will need a working Ruby environment, the bundler gem installed, Node.js 8.x, Gulp, CoffeeScript, and Bower. The following instructions work on Ubuntu.
 
-- `curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -` to setup and add a PPA for Node JS 6.x rather than the older 4.x versions.
+- `curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -` to setup and add a PPA for Node JS 8.x rather than a newer version.
 - `sudo apt install ruby-dev rubygems nodejs libffi-dev` for an up to date Ruby with development bits and the Gem package manager, Node.js and its package manager npm.
 - `sudo gem install bundler` for the Ruby depenancy manager.
 - `sudo ln -s /usr/bin/nodejs /usr/bin/node` because some Node packages put it in the wrong place.
