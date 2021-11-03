@@ -1,5 +1,5 @@
 ---
-title: Fire Raisers
+title: The Fire Raisers
 playwright: Max Frisch
 period: Spring
 season: In House
