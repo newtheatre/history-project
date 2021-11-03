@@ -46,4 +46,8 @@ crew:
     name: Miranda White
   - role: Director
     name: Richard Davidson
+
+assets:
+  - type: poster
+    image: LKMDwqm
 ---

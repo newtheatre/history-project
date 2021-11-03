@@ -71,6 +71,10 @@ crew:
     name: Simon Heath
   - role: Programme Design
     name: Simon Heath
+
+assets:
+  - type: poster
+    image: nVJSvCR
 ---
 
 _…the little crazy children are jangling the keys of the kingdom…_
