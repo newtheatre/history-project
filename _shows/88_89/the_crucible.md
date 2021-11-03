@@ -1,13 +1,12 @@
 ---
 title: "The Crucible"
 playwright: Arthur Miller
-season: In House
-season_sort: 10
 period: Autumn
-venue: New Theatre
-date_start:
-date_end:
-comment: Show was in November 1988
+season: In House
+season_sort: 40
+venue: PLH
+date_start: 1988-12-01
+date_end: 1988-12-03
 
 cast:
   - role: Rev. Parris

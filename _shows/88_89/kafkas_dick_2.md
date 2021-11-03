@@ -3,7 +3,7 @@ title: Kafka's Dick
 playwright: Alan Bennett
 season: In House
 period: Spring
-season_sort: 18
+season_sort: 100
 date_start: 1989-02-02
 date_end: 1989-02-04
 venue: Derby Hall Library

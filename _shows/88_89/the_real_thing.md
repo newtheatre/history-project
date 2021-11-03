@@ -1,8 +1,12 @@
 ---
 title: The Real Thing
 playwright: Tom Stoppard
+period: Autumn
 season: In House
-season_sort: 210
+season_sort: 30
+venue: Performing Arts Studio
+date_start: 1988-11-24
+date_end: 1988-11-26
 
 cast:
   - role: Max
