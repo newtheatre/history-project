@@ -6,7 +6,7 @@ description: "Archive project collecting past shows, committees and alumni biogr
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://history.newtheatre.org.uk" # the base hostname & protocol for your site
 ntbot_endpoint: "https://703eeix5l8.execute-api.eu-west-1.amazonaws.com/prod/issue" # For issue posting
-assets_baseurl: "https://github.com/newtheatre/history-project/raw/master/assets"
+assets_baseurl: "https://nthp-assets.s3.eu-west-1.amazonaws.com"
 
 # How many shows is too few for a year
 year_low_shows: 16
