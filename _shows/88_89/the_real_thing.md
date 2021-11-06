@@ -49,6 +49,11 @@ crew:
   - role: Stage Crew
     name: Bernice
     person: false
+
+assets:
+  - type: programme
+    title: Programme
+    filename: The-Real-Thing-Programme.pdf
 ---
 
 You want to give it time — time to go wring, change, spoil. Then you'll know it wasn't _The Real Thing_.

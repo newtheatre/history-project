@@ -50,4 +50,7 @@ crew:
 assets:
   - type: poster
     image: LKMDwqm
+  - type: programme
+    title: Programme
+    filename: The-Fire-Raisers-Programme.pdf
 ---

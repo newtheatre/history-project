@@ -40,6 +40,11 @@ crew:
     name: Heather Reid
   - role: Tortoise
     name: Cathy Hawkins
+
+assets:
+  - type: programme
+    title: Programme
+    filename: Kafkas-Dick-Programme-Feb-1989.pdf
 ---
 
 Scene 1: 1919 Prague

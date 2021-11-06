@@ -1,5 +1,5 @@
 ---
-title: The Dumb Waiter
+title: The Dumbwaiter / The Room
 playwright: Harold Pinter
 season: In House
 season_sort: 200
@@ -31,4 +31,9 @@ crew:
     name: Judith Mercy
   - role: Lighting
     name: Gavin McGuffie
+
+assets:
+  - type: programme
+    title: Programme
+    filename: The-Dumbwaiter-Programme.pdf
 ---

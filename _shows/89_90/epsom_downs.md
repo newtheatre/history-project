@@ -55,6 +55,10 @@ crew:
   - name: Nick Clark
     role: Director
 
+assets:
+  - type: programme
+    title: Programme
+    filename: Epsom-Downs-Programme.pdf
 ---
 
 The action occurs in June 1977, Jubilee Year. The Epsom Derby Stakes is one of the most important races in the British Sporting Calendar. Thousands have come to gamble, to drink, or just for a day out. Here all are equal, all united by the race and the consuming desire to disk something or everything on the outcome of a 1½ mile flat race for 3 year old horses. But who's race is it really? Who are the great British public at this time of high patriotic fervour? And who will win the Derby?

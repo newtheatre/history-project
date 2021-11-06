@@ -75,6 +75,9 @@ crew:
 assets:
   - type: poster
     image: nVJSvCR
+  - type: programme
+    title: Programme
+    filename: The-Crucible-Programme.pdf
 ---
 
 _…the little crazy children are jangling the keys of the kingdom…_
