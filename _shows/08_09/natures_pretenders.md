@@ -20,6 +20,10 @@ crew:
     name: Adam Wood
   - role: Producer
     name: Lauren Knight
+  - role: Lighting Designer
+    name: Tammy Ingamells
+  - role: Sound Designer 
+    name: Tammy Ingamells
 
 assets:
   - type: poster

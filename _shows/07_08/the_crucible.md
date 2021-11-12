@@ -16,11 +16,15 @@ cast:
  - role: Reverend John Hale
    name: Simon Holton
  - role: Abigail 
-   name: Lizzie Bourne 
+   name: Lizzie Bourne
+
+crew_incomplete: true 
 
 crew:
   - role: Director
     name: Cal Lewis
+  - role: Lighting Technician
+    name: Tammy Ingamells
 
 prod_shots: ssQzpS
 

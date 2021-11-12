@@ -9,6 +9,8 @@ venue: New Theatre
 date_start: 2008-03-11
 date_end: 2008-03-14
 
+crew_incomplete: true 
+
 cast:
 - role: Ignacius II
   name: Daniel Harvey
@@ -18,6 +20,8 @@ cast:
 crew:
   - role: Director
     name: Edward Hancock
+  - role: Lighting & Sound Technician
+    name: Tammy Ingamells
 
 assets:
   - type: poster

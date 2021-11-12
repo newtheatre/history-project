@@ -21,6 +21,16 @@ crew:
     name: Fu Baxter
   - role: Designer
     name: Katie Blumenblatt
+  - role: Lighting, Sound and Computer Effects
+    name: Phil Geller
+  - role: Lighting, Sound and Computer Effects
+    name: Matt Leventhall
+  - role: Lighting, Sound and Computer Effects
+    name: James Herbert
+  - role: Lighting, Sound and Computer Effects
+    name: Tammy Ingamells
+  - role: Lighting, Sound and Computer Effects
+    name: Alex Newell
   - role: Composer
     name: Yichen Wu
   - role: Flute

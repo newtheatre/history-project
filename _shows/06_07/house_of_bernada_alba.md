@@ -15,6 +15,10 @@ assets:
 cast:
   - name: Emily Medhurst
 
+crew: 
+  - role: Lighting Technician
+    name: Tammy Ingamells
+
 links:
   - type: Review
     href: http://www.su-web2.nottingham.ac.uk/~impact/?p=718

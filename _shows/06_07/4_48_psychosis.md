@@ -15,6 +15,8 @@ assets:
 crew:
   - role: Director
     name: Ben Ford
+  - role: Lighting Technician
+    name: Tammy Ingamells
 
 
 cast:

@@ -20,6 +20,8 @@ crew:
   - role: Director
     name: Adam Paulden
     note: Bouncers
+  - role: Lighting Technician
+    name: Tammy Ingamells
 
 prod_shots: pNfn7g
 

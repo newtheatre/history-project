@@ -9,9 +9,13 @@ venue: New Theatre
 date_start: 2007-11-07
 date_end: 2007-11-10
 
+crew_incomplete: true 
+
 crew:
   - role: Director
     name: Anthony Lau
+  - role: Lighting Technician
+    name: Tammy Ingamells
 
 assets:
   - type: poster

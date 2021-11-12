@@ -8,9 +8,13 @@ venue: New Theatre
 date_start: 2008-02-27
 date_end: 2008-03-01
 
+crew_incomplete: true 
+
 crew:
   - role: Director
     name: Anthony Lau
+  - role: Lighting & Sound Technician
+    name: Tammy Ingamells
 
 cast:
   - role: Julie

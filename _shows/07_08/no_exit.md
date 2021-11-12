@@ -12,9 +12,13 @@ cast:
   - role: Estelle
     name: Christey Nethercott
 
+crew_incomplete: true 
+
 crew:
   - role: Director
     name: Meir Adler
+  - role: Lighting Technician
+    name: Tammy Ingamells
 
 assets:
   - type: poster

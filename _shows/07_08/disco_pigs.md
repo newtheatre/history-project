@@ -14,9 +14,13 @@ cast:
   - role: Runt
     name: Fiona Hamilton
 
+crew_incomplete: true 
+
 crew:
   - role: Director
     name: David Betz-Heinemann
+  - role: Lighting & Sound Technician
+    name: Tammy Ingamells
 
 assets:
   - type: poster
