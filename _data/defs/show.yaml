@@ -67,12 +67,12 @@
 
 - attr: period
   type: string
-  short: Autumn, Spring or Edinburgh. Omit if unknown.
+  short: `Autumn`, `Spring` or `Edinburgh`. Omit if unknown.
 
 - attr: season
   type: string
   short: Season show belongs to
-  description: "Choices: `Autumn`, `Spring` or `Edinburgh`."
+  description: "Choices: `In House`, `Fringe`, `External`, `StuFF`, `Edinburgh`, `Lakeside`, `Fundraiser`, `IUDF`, `Unscripted`, `Online`."
   required: true
 
 - attr: season_path
