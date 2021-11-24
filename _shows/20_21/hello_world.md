@@ -4,61 +4,53 @@
 # Remove or comment any lines that are not being used
 
 title: Hello World
-playwright: # Omit if devised
-devised: # Omit if playwright
-adaptor:
-translator:
-student_written:
-company: # If non-NNT
-period: # Choices: Autumn, Spring, Edinburgh
-season: # Choices: In House, Fringe, Edinburgh, StuFF, Lakeside, External and Postgrads
-season_sort:
-date_start: #YYYY-MM-DD
-date_end: #YYYY-MM-DD
-venue:
-
-trivia:
+playwright: Oliver Binns
+student_written: true
+period: Autumn
+season: Online
+season_sort: 370
+date_start: 2020-11-18
+venue: New Theatre
 
 cast:
-- role:
-  name:
+- role: Zero
+  name: Mimi Clay
+- role: One
+  name: Amelia Hackett
 
-crew: # Omit certain roles as required
+crew: 
 - role: Director
-  name:
+  name: Oliver Binns
 - role: Assistant Director 
-  name:
+  name: Abraham Botha
 - role: Producer
-  name:
-- role: Assistant Producer
-  name:
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
+  name: Nick Landon
+- role: Captioner
+  name: Skylar Turnbull Hurd
+- role: Video Editor
+  name: Skylar Turnbull Hurd
+- role: Video Editor
+  name: James Appleby
+- role: Graphic Designer
+  name: James Appleby 
+- role: Graphic Designer 
+  name: Caetano Capurro
+- role: Composer
+  name: Annamarie Schooling
 - role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
-- role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Annamarie Schooling
+- role: Publicity Assistant  
+  name: Abraham Botha
+- role: Creative Assistant
+  name: Tobi Bambi
+- role: Poster Designer
+  name: Caetano Capurro
+
+
+
 
 assets:
-  - type:
+  - type: poster
     image:
   - type:
     video:
@@ -79,5 +71,4 @@ links:
     quote:
 
 ---
-
-<!-- Insert the show summary here -->
+I’d like to invite you to my first public appearance. You can call me Zero-One. And no, that it is not a moniker. You’re probably thinking to yourself that it’s a very modern name and my parents are probably a tech mogul and a pop star. Not quite. No parents to speak of given that I am not human. An Artificial sort of Intelligence. Although I’d hesitate to call myself intelligent. Sorry, I’m waffling a bit now. I guess what I’m trying to say is, hello world. 🙂 
