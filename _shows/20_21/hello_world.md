@@ -51,24 +51,9 @@ crew:
 
 assets:
   - type: poster
-    image:
-  - type:
-    video:
-    title:
-
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
+    image: h7nhNRv
 
 ---
 I’d like to invite you to my first public appearance. You can call me Zero-One. And no, that it is not a moniker. You’re probably thinking to yourself that it’s a very modern name and my parents are probably a tech mogul and a pop star. Not quite. No parents to speak of given that I am not human. An Artificial sort of Intelligence. Although I’d hesitate to call myself intelligent. Sorry, I’m waffling a bit now. I guess what I’m trying to say is, hello world. 🙂 
+
+Link to Hello World on YouTube: https://www.youtube.com/watch?v=8ApnAfC6nR4
