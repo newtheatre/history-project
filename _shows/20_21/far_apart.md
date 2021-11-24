@@ -4,80 +4,52 @@
 # Remove or comment any lines that are not being used
 
 title: Far Apart
-playwright: # Omit if devised
-devised: # Omit if playwright
-adaptor:
-translator:
-student_written:
-company: # If non-NNT
-period: # Choices: Autumn, Spring, Edinburgh
-season: # Choices: In House, Fringe, Edinburgh, StuFF, Lakeside, External and Postgrads
-season_sort:
-date_start: #YYYY-MM-DD
-date_end: #YYYY-MM-DD
-venue:
-
-trivia:
+playwright: Alice Walker and Libby Horobin
+student_written: true
+period: Autumn
+season: Online
+season_sort: 380
+date_start: 2020-11-25
+date_end: 2020-11-25
+venue: New Theatre
 
 cast:
-- role:
-  name:
+- role: Andi
+  name: Lelah Gorgin
+- role: Cal
+  name: Georgia Barnwell
+- role: Alex
+  name: Mikey Flannery
 
 crew: # Omit certain roles as required
 - role: Director
-  name:
-- role: Assistant Director 
-  name:
+  name: Alice Walker
 - role: Producer
-  name:
+  name: Libby Horobin
 - role: Assistant Producer
-  name:
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
+  name: Gabrielle Teriaca
 - role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
+  name: Em Rule
+- role: Video Editor 
+  name: Jasmine Butler
+- role: Video Editor
+  name: Rose Edgeworth
 - role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Skylar Turnbull Hurd
+- role: Publicity Assistant
+  name: Skylar Turnbull Hurd
+- role: Creative Assistant
+  name: Izzy De Bono
+- role: Captioner
+  name: Izzy De Bono
 
 assets:
-  - type:
-    image:
-  - type:
-    video:
-    title:
-
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
+  - type: poster
+    image: 7FMzZrB
 
 ---
 
-<!-- Insert the show summary here -->
+Having grown up together, Andi, Cal, and Alex were as close as siblings could be. Distance proved to be the only thing that would dare to push them apart. That is until their world starts shattering around them. As they begin to lose a loved one, we see these siblings fall apart and come together, trying to cope with the reality of what is happening. 
+
+Link to Far Apart on YouTube: https://www.youtube.com/watch?v=1SvHR8MSA8Q&t=2s
+
