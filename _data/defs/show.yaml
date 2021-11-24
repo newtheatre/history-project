@@ -67,7 +67,7 @@
 
 - attr: period
   type: string
-  short: `Autumn`, `Spring` or `Edinburgh`. Omit if unknown.
+  short: "Choices: `Autumn`, `Spring` or `Edinburgh`. Omit if unknown."
 
 - attr: season
   type: string
