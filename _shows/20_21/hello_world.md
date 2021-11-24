@@ -10,6 +10,7 @@ period: Autumn
 season: Online
 season_sort: 370
 date_start: 2020-11-18
+date_end: 2020-11-18
 venue: New Theatre
 
 cast:
