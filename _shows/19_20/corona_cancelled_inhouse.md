@@ -9,7 +9,7 @@ date_end: 2020-05-20
 venue: New Theatre
 
 trivia:
-  - quote: 'Be My Baby' rehearsals were full of laughter - even when they should not have been! Turns out I'm really bad at corpsing (I blame Boo Jackson).
+  - quote: Be My Baby rehearsals were full of laughter - even when they should not have been! Turns out I'm really bad at corpsing (I blame Boo Jackson).
     name: Ellie Roberts
     submitted: 2020-04-02
 
