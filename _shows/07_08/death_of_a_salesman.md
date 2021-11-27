@@ -13,6 +13,8 @@ cast:
     name: Sam  Morris
   - role: Biff
     name: Tom Warren
+  - role: Stanley
+    name: Simon Thompson
 
 crew:
   - role: Director

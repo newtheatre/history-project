@@ -17,6 +17,8 @@ cast:
    name: Simon Holton
  - role: Abigail 
    name: Lizzie Bourne
+ - role: Deputy Governor Danforth
+   name: Simon Thompson
 
 crew_incomplete: true 
 
