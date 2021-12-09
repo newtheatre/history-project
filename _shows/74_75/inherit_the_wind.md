@@ -84,7 +84,7 @@ crew:
   - role: Set Construction
     name: Terry Chapman
   - role: Set Assistant
-    name: Geinwen Rowlands
+    name: Ceinwen Rowlands
   - role: Set Assistant
     name: Ruth Long
   - role: Costume
