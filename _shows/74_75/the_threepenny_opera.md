@@ -49,7 +49,7 @@ cast:
 - role: Carrie
   name: Anne Murphy
 - role: Betty
-  name: Louise Tate
+  name: Louise Tatt
 - role: Maggie
   name: Charlien Stalstars
 - role: Macheath (Mack-The-Knife)
@@ -94,7 +94,7 @@ crew:
   name: Jenny Tiriamani
   person: false
 - role: Stage Manager
-  name: Joan Schwiller
+  name: John Schwiller
 - role: Deputy Stage Manager
   name: Andrews Varoent
 - role: Assistant Stage Manager
@@ -105,8 +105,6 @@ crew:
   name: Linda Free
 - role: Construction
   name: John Schwiller
-- role: Construction
-  name: Mike Wolfe
 - role: Lighting Designer
   name: Mike Wolfe
 

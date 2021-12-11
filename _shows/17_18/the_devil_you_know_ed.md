@@ -10,6 +10,11 @@ date_start: 2018-08-03
 date_end: 2018-08-25
 venue_sort: Greenside
 
+trivia:
+  - quote: For the opening night, the director stood in for Lillian due to unforeseen circumstances
+    name: Sam Osborne
+    submitted: 2020-09-24
+
 cast:
 - role: Lex
   name: Charlie Basley
