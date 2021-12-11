@@ -1,3 +1,8 @@
+---
+# Check out the Show Docs for more information
+# -- https://history.newtheatre.org.uk/docs/show/
+# Remove or comment any lines that are not being used
+
 title: faces.
 playwright: Tara Anegada and Rosiella Sutherland
 student_written: true
