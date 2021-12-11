@@ -127,8 +127,6 @@ crew:
    name: Pete Dowson
  - role: Lighting Assistant
    name: Lynne Harrison
- - role: Set Design
-   name: John Schwiller
  - role: Poster Designer
    name: Jane Sherriff
  - role: House Manager

@@ -3,6 +3,7 @@
 title: John Schwiller 
 submitted: 2021-01-10 
 gender: male
+headshot: MWHhXbK
 course: 
   - Physics
 graduated: 1976
