@@ -4,7 +4,7 @@ headshot: RdJSvFw
 gender: female
 submitted: 2020-04-02
 course: 
- - English BA
+ - BA English
 graduated: 2020
 contact_allowed: true
 ---
