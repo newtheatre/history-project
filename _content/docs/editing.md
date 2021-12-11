@@ -139,8 +139,18 @@ For crew, someone taking on multiple roles are listed as separate entries.
   name: Jane Doe 
 {% endhighlight %}
 
+For the avoidance of doubt, musicians are considered as crew, and should be credited with musician as their role, and the instrument(s) as a note:
+
+{% highlight markdown %}
+- role: Musician
+  note: Sax / Clarinet
+  name: Joe Bloggs
+{% endhighlight %}
+
+This same concept can be used in other crew roles as appropriate.
+
 #### Ordering of Names
 
 When adding cast to a show file, best practice is to put them in the order they are found in the relevant show's Programme.
 
-When adding crew to a show file, there is a standard order in which roles are listed. This can be found in the skeleton show file.
+When adding crew to a show file, there is a standard order in which roles are listed. This can be found in the [skeleton show file](https://github.com/newtheatre/history-project/blob/master/_shows/_skeleton.md).
