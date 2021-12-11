@@ -6,11 +6,11 @@
 title: Familiar Strangers
 playwright: Madeleine Craig
 student_written: true
-period: # Choices: Autumn
-season: # Choices: Online
+period: Autumn
+season: Online
 season_sort: 400
-date_start: #2020-12-02
-date_end: #2020-12-02
+date_start: 2020-12-02
+date_end: 2020-12-02
 
 cast:
 - role: Laura
