@@ -4,7 +4,8 @@
 # Remove or comment any lines that are not being used
 
 title: Autumn Showers
-playwright: # Omit if playwright
+playwright: Alexandra Hogg
+student_written: true
 period: # Choices: Autumn
 season: # Choices: Online
 season_sort: 390
