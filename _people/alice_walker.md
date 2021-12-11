@@ -3,6 +3,6 @@ title: Alice Walker
 gender: female
 headshot: GTgk6cC
 course:
-  - Ancient History and History BA
+  - BA Ancient History and History
 submitted: false
 ---

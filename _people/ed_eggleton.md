@@ -6,5 +6,5 @@ submitted: false
 graduated: 2018
 award: Commendation
 course:
-  - Philosophy BA
+  - BA Philosophy
 ---

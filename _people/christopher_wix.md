@@ -3,7 +3,7 @@ title: Christopher Wix
 submitted: 2016-02-29
 gender: male
 course:
-  - History BA
+  - BA History
 graduated: 1995
 contact_allowed: true
 ---

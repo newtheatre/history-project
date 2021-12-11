@@ -5,7 +5,7 @@ gender: male
 headshot: v3xZkm5
 graduated: 2022
 course:
-  - Philosophy BA
+  - BA Philosophy
 contact_allowed: true
 
 --- 

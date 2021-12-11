@@ -5,6 +5,6 @@ gender: female
 submitted: false
 graduated: 2017
 course:
- - English with Creative Writing BA
- - English Literature MA
+ - BA English with Creative Writing
+ - MA English Literature
 ---

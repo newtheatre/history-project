@@ -4,6 +4,6 @@ gender: female
 headshot: rVpF84k
 submitted: false
 course: 
-  - English BA
+  - BA English
 graduated: 2019
 ---

@@ -6,6 +6,6 @@ graduated: 2018
 award: Commendation
 gender: male
 course:
- - Physics MSci
+ - MSci Physics
 submitted: false
 ---

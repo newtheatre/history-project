@@ -2,7 +2,7 @@
 title: Charlie Basley
 headshot: wPnQfmW
 course:
-  - American and Canadian Studies BA
+  - BA American and Canadian Studies
 gender: male
 submitted: false
 ---
