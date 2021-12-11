@@ -9,7 +9,6 @@ period: Spring
 cast:
 - role: Arthur 
   name: John Thewlis
-- role: unknown
   name: Crispin Harris
 
 cast_incomplete: true
