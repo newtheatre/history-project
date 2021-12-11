@@ -48,7 +48,7 @@ crew:
   name: Laura Sherratt
 - role: Technical Director 
   name: Jacob Dean 
-- role: Shadow Technical Director
+- role: Assistant Technical Director
   name: Izzy de Bono
 - role: Lighting Designer 
   name: Rachel Elphick
