@@ -12,5 +12,3 @@ graduated: 2019
 contact_allowed: true
 
 --- 
-
-<!-- Content for a bio here --> 
