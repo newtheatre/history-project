@@ -22,7 +22,7 @@ links:
 
 After leaving uni in 76 I went into rep at Leatherhead as an electrician/Lighting Designer, continuing the pyromania on the panto and almost burning down the theatre.
 
-I then joined CCT Theatre Lighting where I spent 10yrs as Technical Director, designing lighting equipment as seen in Abba's "Super Trouper", Human League's "Dont You Want Me", "Cat's", a Joe Jackson tour and much of the first fit out of the National Theatre.
+I then joined CCT Theatre Lighting where I spent 10yrs as Technical Director, designing lighting equipment as seen in Abba's "Super Trouper", Human League's "Don't You Want Me", "Cats", a Joe Jackson tour and much of the first fit out of the National Theatre.
 
 I continued to light shows such as Stephen Poliakoff's "American Days" at the ICA with Antony Sher, Toyah, Phil Daniels and Mel Smith; Michael Meyer's "Lunatic and Lover" at The Old Red Lion with Miles Anderson and Jonathan Kydd; and a Tom Robinson tour which included 2-4-6-8 Motorway which gave me the idea for another sheetmetal patent for rotating the gobos used to project the four numbers.
 
