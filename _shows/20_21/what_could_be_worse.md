@@ -4,80 +4,52 @@
 # Remove or comment any lines that are not being used
 
 title: What Could Be Worse Than Jumping?
-playwright: # Omit if devised
-devised: # Omit if playwright
-adaptor:
-translator:
-student_written:
-company: # If non-NNT
-period: # Choices: Autumn, Spring, Edinburgh
-season: # Choices: In House, Fringe, Edinburgh, StuFF, Lakeside, External and Postgrads
-season_sort:
-date_start: #YYYY-MM-DD
-date_end: #YYYY-MM-DD
-venue:
+playwright: Olly O'Regan
+student_written: true
 
-trivia:
+period: Autumn
+season: Online
+season_sort: 430
+date_start: 2020-12-13
+date_end: 2020-12-13
 
 cast:
-- role:
-  name:
-
+- role: Katherine Compert
+  name: Ace Edwards
+- role: Nikolai Stavrogin
+  name: Charlie Catmur
+- role: The Doctor / Tikhon
+  name: Danial Ahmer
+  
 crew: # Omit certain roles as required
-- role: Director
-  name:
-- role: Assistant Director 
-  name:
+- role: Co-Director
+  name: Olly O'Regan
+- role: Co-Director 
+  name: Beth White
 - role: Producer
-  name:
-- role: Assistant Producer
-  name:
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
-- role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
-- role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Beth White
+- role: Video Editor
+  name: Barney Hartwill
+- role: Video Editor
+  name: Ellie Harding
+- role: Video Editor
+  name: Jesse Rough
+- role: Caption Writer
+  name: Cecilia Alexander
+- role: Publicity Assistant
+  name: Abie Whitehead
+- role: Creative Assistant
+  name: Holly West
+- role: Original Music Composer
+  name: Raphael Chenais
 
 assets:
-  - type:
-    image:
-  - type:
-    video:
-    title:
-
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
+  - type: poster
+    image: 9Twnjdn
 
 ---
+A combination of characters inspired by Fyodor Dostoevsky’s 'Demons' and David Foster Wallace’s 'Infinite Jest' share a performance space in which they can discuss a common concern: depression and addiction. The central medium by which to discuss is held in the character of The Doctor/ Tikhon, a modern-day psychiatrist and 19th-century monk respectively. By offlaying their suppressed introspective ideas on highly personal topics; onto an authority figure, Katie and Nikolai both are attempting to navigate the complexities of their histories and deeply complicated psychological issues. The play does not proffer up a solution, only a platform to discuss.
 
-<!-- Insert the show summary here -->
+Link to What Could Be Worse Than Jumping? on YouTube: https://www.youtube.com/watch?v=eHRd-9mmw8I![image](https://user-images.githubusercontent.com/92263860/145695358-0fdd83fc-4304-45ca-83f3-793e9c2a9028.png)
+
+
