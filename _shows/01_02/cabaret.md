@@ -11,5 +11,8 @@ date_end: 2001-12-08
 crew:
  - role: Musical Director
    name: Robert Wicks
+ - role: Band
+   name: Alexandra Turner
+   note: Trombone
 ---
 
