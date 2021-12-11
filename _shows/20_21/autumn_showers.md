@@ -6,11 +6,11 @@
 title: Autumn Showers
 playwright: Alexandra Hogg
 student_written: true
-period: # Choices: Autumn
-season: # Choices: Online
+period: Autumn
+season: Online
 season_sort: 390
-date_start: #2020-11-29
-date_end: #2020-11-29
+date_start: 2020-11-29
+date_end: 2020-11-29
 
 cast:
 - role: Sofia 1
