@@ -14,7 +14,7 @@ assets:
     image: bQg3F6W
 
 cast:
-  - role: Graham/Leotard Man
+  - role: Graham / Leotard Man
     name: Simon Thompson
 
 prod_shots: 7FLqSZ
