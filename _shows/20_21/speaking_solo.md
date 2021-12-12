@@ -4,7 +4,7 @@
 # Remove or comment any lines that are not being used
 
 title: Speaking Solo
-playwright: Alexander Hogg, Emi Thackray, Geethija Ayiliath, Sunenna Sohal and Ellie Harding
+playwright: various
 student_written: true
 period: Autumn
 season: Online
