@@ -52,7 +52,7 @@ crew:
 
 assets:
   - type: poster
-    image: 	cNNcN98
+    image: cNNcN98
 
 ---
 
