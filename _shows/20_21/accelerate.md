@@ -4,80 +4,61 @@
 # Remove or comment any lines that are not being used
 
 title: Accelerate
-playwright: # Omit if devised
-devised: # Omit if playwright
-adaptor:
-translator:
-student_written:
-company: # If non-NNT
-period: # Choices: Autumn, Spring, Edinburgh
-season: # Choices: In House, Fringe, Edinburgh, StuFF, Lakeside, External and Postgrads
-season_sort:
-date_start: #YYYY-MM-DD
-date_end: #YYYY-MM-DD
-venue:
-
-trivia:
+playwright: Bill Hayes
+student_written: true
+period: Autumn
+season: Online
+season_sort: 440
+date_start: 2020-12-16
+date_end: 2020-12-16
 
 cast:
-- role:
-  name:
+- role: Mason
+  name: Jake Levy
+- role: Sadie
+  name: Daisy Miles
+- role: Piig
+  name: Pete Rouse
+- role: Interviewer/Multi-Role
+  name: Rachel Coussins
+- role: Interviewer/Multi-Role
+  name: Demi Idowu
 
 crew: # Omit certain roles as required
 - role: Director
-  name:
+  name: Jack Titley
 - role: Assistant Director 
-  name:
+  name: Helena Hunt
 - role: Producer
-  name:
+  name: Caitie Pardoe
 - role: Assistant Producer
-  name:
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
-- role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
-- role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Jesse Rough
+- role: Shadow Producer
+  name: Erin Verlaque
+- role: Creative Assistant
+  name: Bill Hayes
+- role: Script Editor
+  name: Rosie Thackeray
+- role: Script Editor
+  name: Callum James
+- role: Visual Editor
+  name: Max Nichols
+- role: Sound Editor and Designer
+  name: Caetano Capurro
+- role: Assistant Editor 
+  name: Skylar Turnbull Hurd 
+- role: Caption Writer
+  name: Tara Anegada
+- role: Publicity Manager
+  name: Ace Edwards
 
 assets:
-  - type:
-    image:
-  - type:
-    video:
-    title:
-
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
-
+  - type: poster
+    image: 3c697vK
+    
 ---
 
-<!-- Insert the show summary here -->
+Breakneck breakbeat drums are the beating heart of a 1990s university campus where ideas about the future are accelerating. Sadie and Mason find themselves in the middle of it all. The pair cannot resolve their differences about what their futures are but soon reality becomes unstuck and time gets out of joint. With tensions rising between the two Mason struggles to remember what has happened between them.![image](https://user-images.githubusercontent.com/92263860/145695476-a08611c9-d423-4162-b5bc-1c85bfe2fb1b.png)
+
+Link to Accelerate on YouTube: https://www.youtube.com/watch?v=GfYoKbrbKMs&t=8s![image](https://user-images.githubusercontent.com/92263860/145695480-b513f633-6597-4c9c-bf48-3cd2bb0778b6.png)
+
