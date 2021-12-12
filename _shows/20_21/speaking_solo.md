@@ -23,6 +23,16 @@ cast:
   name: Jack Titley
 
 crew: # Omit certain roles as required
+- role: Writer 'Red'
+  name: Alexandra Hogg
+- role: Writer 'The Universe Will Take Care of You'
+  name: Emi Thackray
+- role: Writer 'A Momentary Spark Between Neurons'
+  name: Geethika Ayiliath
+- role: Writer 'A Momentary Spark Between Neurons'
+  name: Sunenna Sohal
+- role: Writer 'Nighthawk'
+  name: Ellie Harding
 - role: Editor
   name: James Appleby
 - role: Graphics
