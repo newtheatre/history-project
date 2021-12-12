@@ -58,7 +58,7 @@ assets:
 
 Everyone’s heard of the classic love story, When Harry Met Sally, but in 2020 it feels a bit outdated. How do we find our soulmate nowadays? Tinder. Obviously. Unbelievably bored at the start of lockdown, dating-app skeptic Sally finally installs it. ‘It works for some people!’ The voice of her best friend, Chrissy, rings in her ears. She gives it a go… How bad can it be, right? She’s not expecting, or hoping, for love at first swipe. That was true until she matched with the fateful serial-dater Harry.
 
-Link to When Sally Met Gary, Henry, Harry on YouTube: https://www.youtube.com/watch?v=T7BI-gIrqoM&t=6s![image](https://user-images.githubusercontent.com/92263860/145695106-3e10729c-667d-4442-96ad-5ed0114d46fd.png)
+Link to 'When Sally Met Gary, Henry, Harry' on YouTube: https://www.youtube.com/watch?v=T7BI-gIrqoM&t=6s![image](https://user-images.githubusercontent.com/92263860/145695106-3e10729c-667d-4442-96ad-5ed0114d46fd.png)
 
 
 
