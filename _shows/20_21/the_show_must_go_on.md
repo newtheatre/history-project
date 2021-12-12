@@ -23,17 +23,17 @@ cast:
   name: Tash Wanigaratne
 - role: Sophie
   name: Rachel Allcock
-- role: Sound Designer/Committee 1
+- role: Sound Designer / Committee 1
   name: Laura Sherratt
-- role: Vernon/Committee 2
+- role: Vernon / Committee 2
   name: Charlie Bellwood
 - role: Editor 
   name: Tobi Bambi
 - role: Publicity 
   name: Oliver Binns
-- role: Poster Designer/Narrator
+- role: Poster Designer / Narrator
   name: Jacob Gausden
-- role: Co-Ordinator/Reviewer
+- role: Co-Ordinator / Reviewer
   name: Cecilia Alexander
 - role: Actor 1
   name: Barney Hartwill
@@ -61,7 +61,7 @@ crew: # Omit certain roles as required
   name: Cecilia Alexander
 - role: Sound Designer
   name: Annamarie Schooling
-- role: Poster/Thumbnail Designer
+- role: Poster / Thumbnail Designer
   name: Pete Rouse
 - role: Publicity Manager
   name: Ella Seber-Rajan
