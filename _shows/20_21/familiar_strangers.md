@@ -39,6 +39,8 @@ crew:
   name: Philippa Horn
 - role: Captioner
   name: Zoe Smith
+- role: Captioner
+  name: Sam Osbourne
 - role: Assistant Video Editor
   name: Skylar Turnbull Hurd
 - role: Graphics Designer
