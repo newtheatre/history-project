@@ -162,6 +162,6 @@ assets:
 
 We are pleased to debut our very first digital Freshers' Fringe! Every year the NNT likes to welcome freshers, first years and anyone else new to the theatre, by giving them 'parents' who will direct them in little skits. We hope you enjoy!
 
-Link to Freshers' Fringe 2020 on YouTube: https://www.youtube.com/watch?v=cIojcjLzWoE
+Link to 'Freshers' Fringe 2020' on YouTube: https://www.youtube.com/watch?v=cIojcjLzWoE
 
 
