@@ -6,7 +6,6 @@
 title: What Could Be Worse Than Jumping?
 playwright: Olly O'Regan
 student_written: true
-
 period: Autumn
 season: Online
 season_sort: 430
