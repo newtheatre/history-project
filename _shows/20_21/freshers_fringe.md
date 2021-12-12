@@ -13,82 +13,82 @@ date_end: 2020-10-28
 venue: New Theatre
 
 cast:
-- role: (Caetano and Ella's Group)
   name: Roni Altman
-- role: (Caetano and Ella's Group)
+- note: (Caetano and Ella's Group)
   name: Amelia Hackett
-- role: (Caetano and Ella's Group)
+- note: (Caetano and Ella's Group)
   name: Sophie Walters
-- role: (Charlie and Nadia's Group)
+- note: (Charlie and Nadia's Group)
   name: Annamarie Schooling 
-- role: (Charlie and Nadia's Group)
+- note: (Charlie and Nadia's Group)
   name: Guilia Duggan
-- role: (Charlie and Nadia's Group)
+- note: (Charlie and Nadia's Group)
   name: Harrison Hudson
-- role: (Alice, Caitie and Gabriella's Group)
+- note: (Alice, Caitie and Gabriella's Group)
   name: Mimi Clay
-- role: (Alice, Caitie and Gabriella's Group)
+- note: (Alice, Caitie and Gabriella's Group)
   name: Saajan Mann
-- role: (Alice, Caitie and Gabriella's Group)
+- note: (Alice, Caitie and Gabriella's Group)
   name: Tom Stoney
-- role: (Tara, Oliver and Nicholas' Group)
+- note: (Tara, Oliver and Nicholas' Group)
   name: Conor Waldock
-- role: (Tara, Oliver and Nicholas' Group)
+- note: (Tara, Oliver and Nicholas' Group)
   name: Madeleine Craig
-- role: (Tara, Oliver and Nicholas' Group)
+- note: (Tara, Oliver and Nicholas' Group)
   name: Ylana Gibert
-- role: (Helena, Sofia and Katie's Group)
+- note: (Helena, Sofia and Katie's Group)
   name: Demi Idowu
-- role: (Helena, Sofia and Katie's Group)
+- note: (Helena, Sofia and Katie's Group)
   name: Lelah Gorgin
-- role: (Helena, Sofia and Katie's Group)
+- note: (Helena, Sofia and Katie's Group)
   name: Luci Dodd
-- role: (Abie and Georgia's Group)
+- note: (Abie and Georgia's Group)
   name: Cigdem Celiker
-- role: (Abie and Georgia's Group)
+- note: (Abie and Georgia's Group)
   name: Abraham Botha
-- role: (Alexandra and Rachel's Group)
+- note: (Alexandra and Rachel's Group)
   name: Megan Jackman
-- role: (Alexandra and Rachel's Group)
+- note: (Alexandra and Rachel's Group)
   name: Rachel Allcock
-- role: (Alexandra and Rachel's Group)
+- note: (Alexandra and Rachel's Group)
   name: Talia Krais
-- role: (Jake and Libby's Group)
+- note:(Jake and Libby's Group)
   name: Iain Messore
-- role: (Jake and Libby's Group)
+- note: (Jake and Libby's Group)
   name: Maria Mcdonagh
-- role: (Jake and Libby's Group)
+- note: (Jake and Libby's Group)
   name: Georgie Bullen
-- role: (Joe and Lousie's Group)
+- note: (Joe and Lousie's Group)
   name: Isabel Johnson
-- role: (Joe and Lousie's Group)
+- note: (Joe and Lousie's Group)
   name: Anna Bulcock
-- role: (Joe and Lousie's Group)
+- note: (Joe and Lousie's Group)
   name: Alice Clapham
-- role: (Jacob and Charlotte's Group)
+- note: (Jacob and Charlotte's Group)
   name: Freya Howcutt
-- role: (Jacob and Charlotte's Group)
+- note: (Jacob and Charlotte's Group)
   name: Daisy Miles
-- role: (Cheidza and Lucy's Group)
+- note: (Cheidza and Lucy's Group)
   name: Sophie Lagden
-- role: (Cheidza and Lucy's Group)
+- note: (Cheidza and Lucy's Group)
   name: Amelia Fleming
-- role: (Laura and Robert's Group)
+- note: (Laura and Robert's Group)
   name: Naomi Hallowell
-- role: (Laura and Robert's Group)
+- note: (Laura and Robert's Group)
   name: Jeremy Grau
-- role: (Barney, Sofia and Hettie's Group)
+- note: (Barney, Sofia and Hettie's Group)
   name: Charlotte Armitage
-- role: (Barney, Sofia and Hettie's Group)
+- note: (Barney, Sofia and Hettie's Group)
   name: Tom Taylor 
-- role: (Barney, Sofia and Hettie's Group)
+- note: (Barney, Sofia and Hettie's Group)
   name: Hatty McGrath  
-- role: (Cecilia and Jesse's Group)
+- note: (Cecilia and Jesse's Group)
   name: Priya Joshi
-- role: (Cecilia and Jesse's Group)
+- note: (Cecilia and Jesse's Group)
   name: James Appleby
-- role: (Cecilia and Jesse's Group)
+- note: (Cecilia and Jesse's Group)
   name: Victoria Inzari
+- note: (Cecilia and Jesse's Group)
   
 crew: 
 - role: Executive Producer
