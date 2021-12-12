@@ -28,7 +28,7 @@ crew:
 - role: Assistant Producer
   name: Lottie Wright
 - role: Shadow Director
-  name:Lauren Brady
+  name: Lauren Brady
 - role: Video Editor
   name: Lauren Brady
 - role: Shadow Producer 
