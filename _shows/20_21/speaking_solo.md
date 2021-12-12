@@ -4,80 +4,40 @@
 # Remove or comment any lines that are not being used
 
 title: NNT Presents 'Speaking Solo'
-playwright: # Omit if devised
-devised: # Omit if playwright
-adaptor:
-translator:
-student_written:
-company: # If non-NNT
-period: # Choices: Autumn, Spring, Edinburgh
-season: # Choices: In House, Fringe, Edinburgh, StuFF, Lakeside, External and Postgrads
-season_sort:
-date_start: #YYYY-MM-DD
-date_end: #YYYY-MM-DD
-venue:
-
-trivia:
+playwright: Alexander Hogg, Emi Thackray, Geethija Ayiliath, Sunenna Sohal and Ellie Harding
+student_written: true
+period: Autumn
+season: Online
+season_sort: 450
+date_start: 2021-03-17
+date_end: 2021-03-17
 
 cast:
-- role:
-  name:
+- role: Actor 'Red'
+  name: Megan Smith
+- role: Actor 'The Universe Will Take Care of You' 
+  name: Ace Edwards
+- role: Actor 'A Momentary Spark Between Neurons'
+  name: jakmes Eykyn
+- role: Actor 'Nighthawk' 
+  name: Jack Titley
 
 crew: # Omit certain roles as required
-- role: Director
-  name:
-- role: Assistant Director 
-  name:
+- role: Editor
+  name: James Appleby
+- role: Graphics
+  name: Ace Edwards
 - role: Producer
-  name:
-- role: Assistant Producer
-  name:
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
-- role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
-- role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Em Rule
+- role: Producer
+  name: Alice Walker
 
 assets:
-  - type:
-    image:
-  - type:
-    video:
-    title:
-
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
+  - type: poster
+    image: ZT6rgC8
 
 ---
+'Speaking Solo’ is a collection of monologues written, directed and performed by members and associates alike. This brand new opportunity displays the talent the membership has, and offers a chance for budding writers to show off the stories and characters created in their head. The show contains 4 captivating monologues.![image](https://user-images.githubusercontent.com/92263860/145695589-9807271d-2b7c-4211-a5f4-324b05576a8f.png)
 
-<!-- Insert the show summary here -->
+Link to Speaking Solo on YouTube: https://www.youtube.com/watch?v=HQpETYPiVNY![image](https://user-images.githubusercontent.com/92263860/145695597-c65ba01f-d462-4be9-8b20-ca7361c32b0d.png)
+
