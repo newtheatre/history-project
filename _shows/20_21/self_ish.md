@@ -4,80 +4,64 @@
 # Remove or comment any lines that are not being used
 
 title: Self-ish
-playwright: # Omit if devised
-devised: # Omit if playwright
-adaptor:
-translator:
-student_written:
-company: # If non-NNT
-period: # Choices: Autumn, Spring, Edinburgh
-season: # Choices: In House, Fringe, Edinburgh, StuFF, Lakeside, External and Postgrads
-season_sort:
-date_start: #YYYY-MM-DD
-date_end: #YYYY-MM-DD
-venue:
-
-trivia:
+playwright: Cecilia Alexander and Caetano Capurro
+student_written: true
+period: Autumn
+season: Online
+season_sort: 460
+date_start: 2021-03-24
+date_end: 2021-03-24
 
 cast:
-- role:
-  name:
-
+- role: Mac
+  name: Megan Peace
+- role: Happiness
+  name: Georgia Barnwell
+- role: Anger
+  name: Jack Titley
+- role: Sadness 
+  name: Alice Walker
+- role: Envy 
+  name: Nadia Elalfi
+- role: Nervousness
+  name: Jessica Staplehurst
+- role: Love
+  name: Katie Booth
+- role: Emotional Multi-Role
+  name: Demi Idowu
+  
 crew: # Omit certain roles as required
-- role: Director
-  name:
-- role: Assistant Director 
-  name:
-- role: Producer
-  name:
-- role: Assistant Producer
-  name:
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
-- role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
-- role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+- role: Co-Director
+  name: Caetano Capurro
+- role: Co-Director 
+  name: Cecilia Alexander
+- role: Co-Producer
+  name: Helena Hunt
+- role: Co-Producer
+  name: Ylana Gibert
+- role: Shadow Director
+  name: Millie Hackett
+- role: Shadow Producer
+  name: Alexandra Hogg
+- role: Video Editor
+  name: Lelah Gorgin
+- role: Video Editor 
+  name: Sunenna Sohal
+- role: Sound Designer
+  name: Annamarie Schooling
+- role: Publicity Assistant 
+  name: Abraham Botha
+- role: Poster Designer
+  name: Charlie Finney
+- role: Creative Assistant
+  name: Charlie Basley
 
 assets:
-  - type:
-    image:
-  - type:
-    video:
-    title:
-
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
-
+  - type: poster
+    image: MtzXvCV
+    
 ---
+"Emotionally unavailable" Mac is miserable after their ex dumps them, saying they don't know how to "feel". Although Mac is not really sure what to do with that information, their emotions are livid and demand an explanation! They force Mac into discussion and exploration of how they themselves feel and function, trying to find a way to make it through this tough time. A student spin inspired by Pixar's 'Inside Out', 'Self-ish' brings an alternative way to view the complete happenings of the mind through light-hearted comedy and the "beloved" zoom format.![image](https://user-images.githubusercontent.com/92263860/145695848-3632be3d-0e31-4e62-a3b8-40edd1a788ab.png)
 
-<!-- Insert the show summary here -->
+Link to Self-ish on YouTube: https://www.youtube.com/watch?v=kw0uO-YxbDg&t=1s![image](https://user-images.githubusercontent.com/92263860/145695852-2c084cac-cb6c-4297-99ef-d7a747a59d43.png)
+
