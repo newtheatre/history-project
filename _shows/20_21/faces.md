@@ -53,5 +53,5 @@ assets:
 ---
 ‘faces.’ is an intimate collection of abstract performative poetry which explores different traumas and difficulties faced by individuals when growing up. Whether it’s because of race, sexuality, mental health, or the actions of others, each individual has their own journey which is beautiful in its own way. This is a work of fiction, but the stories we’re trying to tell you are all of ours. We want you to remember that we are all human.
 
-Link to faces. on YouTube: https://www.youtube.com/watch?v=k2Sd-1p_t-8
+Link to 'faces.' on YouTube: https://www.youtube.com/watch?v=k2Sd-1p_t-8
 
