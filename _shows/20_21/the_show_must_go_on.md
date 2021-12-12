@@ -75,5 +75,5 @@ assets:
 ---
 Unscripted returns after over a year away with an online show to surprise, delight, confuse, astound, and other words! Theatre, for the moment, is dead. Online is the way to go. When one team get the go-ahead to put a show on stage for the first time in forever, it’s a beacon of hope. That would be, of course, if the show wasn’t mildly offensive, if the cast weren’t crazy and the crew argumentative, and assuming everything goes to plan...![image](https://user-images.githubusercontent.com/92263860/145696000-96eca147-6217-40df-8669-ee67539b6628.png)
 
-Link to The Show Must Go On(line): https://www.youtube.com/watch?v=OHjXiEETDQU&t=2711s![image](https://user-images.githubusercontent.com/92263860/145696006-3ace3134-a556-40cd-ab9e-119d29d40487.png)
+Link to 'The Show Must Go On(line)': https://www.youtube.com/watch?v=OHjXiEETDQU&t=2711s![image](https://user-images.githubusercontent.com/92263860/145696006-3ace3134-a556-40cd-ab9e-119d29d40487.png)
 
