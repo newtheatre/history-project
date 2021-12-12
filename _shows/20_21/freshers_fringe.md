@@ -3,7 +3,7 @@
 # -- https://history.newtheatre.org.uk/docs/show/
 # Remove or comment any lines that are not being used
 
-title: Freshers Fringe
+title: Freshers' Fringe
 playwright: various
 period: Autumn
 season: Online
