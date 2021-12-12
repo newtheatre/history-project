@@ -56,4 +56,4 @@ assets:
 ---
 Sofia’s finally left the nest. She’s moved out from her parent’s home and is having to adapt to the rapidly changing world around her. But, as student life proves to be more challenging that she imagined, she finds herself missing the person, she didn’t think she needed any longer: her mum. As Sofia begins to unravel memories from her childhood and adolescence, we get to see a complex yet beautiful relationship between a mother and a daughter evolve.
 
-Link to Autumn Showers on YouTube: https://www.youtube.com/watch?v=6k8GKvlf7Yw&t=87s![image](https://user-images.githubusercontent.com/92263860/145689598-f9e3cd39-0a35-4ff0-9d34-9a09c57a8df3.png)
+Link to 'Autumn Showers' on YouTube: https://www.youtube.com/watch?v=6k8GKvlf7Yw&t=87s![image](https://user-images.githubusercontent.com/92263860/145689598-f9e3cd39-0a35-4ff0-9d34-9a09c57a8df3.png)
