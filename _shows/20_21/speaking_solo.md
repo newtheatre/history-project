@@ -3,7 +3,7 @@
 # -- https://history.newtheatre.org.uk/docs/show/
 # Remove or comment any lines that are not being used
 
-title: NNT Presents 'Speaking Solo'
+title: Speaking Solo
 playwright: Alexander Hogg, Emi Thackray, Geethija Ayiliath, Sunenna Sohal and Ellie Harding
 student_written: true
 period: Autumn
@@ -39,5 +39,5 @@ assets:
 ---
 'Speaking Solo’ is a collection of monologues written, directed and performed by members and associates alike. This brand new opportunity displays the talent the membership has, and offers a chance for budding writers to show off the stories and characters created in their head. The show contains 4 captivating monologues.![image](https://user-images.githubusercontent.com/92263860/145695589-9807271d-2b7c-4211-a5f4-324b05576a8f.png)
 
-Link to Speaking Solo on YouTube: https://www.youtube.com/watch?v=HQpETYPiVNY![image](https://user-images.githubusercontent.com/92263860/145695597-c65ba01f-d462-4be9-8b20-ca7361c32b0d.png)
+Link to 'Speaking Solo' on YouTube: https://www.youtube.com/watch?v=HQpETYPiVNY![image](https://user-images.githubusercontent.com/92263860/145695597-c65ba01f-d462-4be9-8b20-ca7361c32b0d.png)
 
