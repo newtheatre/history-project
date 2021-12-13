@@ -9,83 +9,83 @@ date_end: 2020-10-28
 venue: New Theatre
 
 cast:
-  name: Roni Altman
-- note: (Caetano and Ella's Group)
-  name: Amelia Hackett
-- note: (Caetano and Ella's Group)
-  name: Sophie Walters
-- note: (Charlie and Nadia's Group)
-  name: Annamarie Schooling 
-- note: (Charlie and Nadia's Group)
-  name: Guilia Duggan
-- note: (Charlie and Nadia's Group)
-  name: Harrison Hudson
-- note: (Alice, Caitie and Gabriella's Group)
-  name: Mimi Clay
-- note: (Alice, Caitie and Gabriella's Group)
-  name: Saajan Mann
-- note: (Alice, Caitie and Gabriella's Group)
-  name: Tom Stoney
-- note: (Tara, Oliver and Nicholas' Group)
-  name: Conor Waldock
-- note: (Tara, Oliver and Nicholas' Group)
-  name: Madeleine Craig
-- note: (Tara, Oliver and Nicholas' Group)
-  name: Ylana Gibert
-- note: (Helena, Sofia and Katie's Group)
-  name: Demi Idowu
-- note: (Helena, Sofia and Katie's Group)
-  name: Lelah Gorgin
-- note: (Helena, Sofia and Katie's Group)
-  name: Luci Dodd
-- note: (Abie and Georgia's Group)
-  name: Cigdem Celiker
-- note: (Abie and Georgia's Group)
-  name: Abraham Botha
-- note: (Alexandra and Rachel's Group)
-  name: Megan Jackman
-- note: (Alexandra and Rachel's Group)
-  name: Rachel Allcock
-- note: (Alexandra and Rachel's Group)
-  name: Talia Krais
-- note: (Jake and Libby's Group)
-  name: Iain Messore
-- note: (Jake and Libby's Group)
-  name: Maria Mcdonagh
-- note: (Jake and Libby's Group)
-  name: Georgie Bullen
-- note: (Joe and Lousie's Group)
-  name: Isabel Johnson
-- note: (Joe and Lousie's Group)
-  name: Anna Bulcock
-- note: (Joe and Lousie's Group)
-  name: Alice Clapham
-- note: (Jacob and Charlotte's Group)
-  name: Freya Howcutt
-- note: (Jacob and Charlotte's Group)
-  name: Daisy Miles
-- note: (Cheidza and Lucy's Group)
-  name: Sophie Lagden
-- note: (Cheidza and Lucy's Group)
-  name: Amelia Fleming
-- note: (Laura and Robert's Group)
-  name: Naomi Hallowell
-- note: (Laura and Robert's Group)
-  name: Jeremy Grau
-- note: (Barney, Sofia and Hettie's Group)
-  name: Charlotte Armitage
-- note: (Barney, Sofia and Hettie's Group)
-  name: Tom Taylor 
-- note: (Barney, Sofia and Hettie's Group)
-  name: Hatty McGrath  
-- note: (Cecilia and Jesse's Group)
-  name: Priya Joshi
-- note: (Cecilia and Jesse's Group)
-  name: James Appleby
-- note: (Cecilia and Jesse's Group)
-  name: Victoria Inzari
-- note: (Cecilia and Jesse's Group)
-  
+- name: Roni Altman
+  note: (Caetano and Ella's Group)
+- name: Amelia Hackett
+  note: (Caetano and Ella's Group)
+- name: Sophie Walters
+  note: (Charlie and Nadia's Group)
+- name: Annamarie Schooling 
+  note: (Charlie and Nadia's Group)
+- name: Guilia Duggan
+  note: (Charlie and Nadia's Group)
+- name: Harrison Hudson
+  note: (Alice, Caitie and Gabriella's Group)
+- name: Mimi Clay
+  note: (Alice, Caitie and Gabriella's Group)
+- name: Saajan Mann
+  note: (Alice, Caitie and Gabriella's Group)
+- name: Tom Stoney
+  note: (Tara, Oliver and Nicholas' Group)
+- name: Conor Waldock
+  note: (Tara, Oliver and Nicholas' Group)
+- name: Madeleine Craig
+  note: (Tara, Oliver and Nicholas' Group)
+- name: Ylana Gibert
+  note: (Helena, Sofia and Katie's Group)
+- name: Demi Idowu
+  note: (Helena, Sofia and Katie's Group)
+- name: Lelah Gorgin
+  note: (Helena, Sofia and Katie's Group)
+- name: Luci Dodd
+  note: (Abie and Georgia's Group)
+- name: Cigdem Celiker
+  note: (Abie and Georgia's Group)
+- name: Abraham Botha
+  note: (Alexandra and Rachel's Group)
+- name: Megan Jackman
+  note: (Alexandra and Rachel's Group)
+- name: Rachel Allcock
+  note: (Alexandra and Rachel's Group)
+- name: Talia Krais
+  note: (Jake and Libby's Group)
+- name: Iain Messore
+  note: (Jake and Libby's Group)
+- name: Maria Mcdonagh
+  note: (Jake and Libby's Group)
+- name: Georgie Bullen
+  note: (Joe and Lousie's Group)
+- name: Isabel Johnson
+  note: (Joe and Lousie's Group)
+- name: Anna Bulcock
+  note: (Joe and Lousie's Group)
+- name: Alice Clapham
+  note: (Jacob and Charlotte's Group)
+- name: Freya Howcutt
+  note: (Jacob and Charlotte's Group)
+- name: Daisy Miles
+  note: (Cheidza and Lucy's Group)
+- name: Sophie Lagden
+  note: (Cheidza and Lucy's Group)
+- name: Amelia Fleming
+  note: (Laura and Robert's Group)
+- name: Naomi Hallowell
+  note: (Laura and Robert's Group)
+- name: Jeremy Grau
+  note: (Barney, Sofia and Hettie's Group)
+- name: Charlotte Armitage
+  note: (Barney, Sofia and Hettie's Group)
+- name: Tom Taylor 
+  note: (Barney, Sofia and Hettie's Group)
+- name: Hatty McGrath  
+  note: (Cecilia and Jesse's Group)
+- name: Priya Joshi
+  note: (Cecilia and Jesse's Group)
+- name: James Appleby
+  note: (Cecilia and Jesse's Group)
+- name: Victoria Inzari
+  note: (Cecilia and Jesse's Group)
+ 
 
 crew_incomplete: true 
 crew_note: "It looks like we're missing some of the technical and stage crew."
