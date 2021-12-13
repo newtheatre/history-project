@@ -5,7 +5,7 @@ playwright: Oliver Binns
 student_written: true
 period: Autumn
 season: Online
-season_sort: 370
+season_sort: 20
 date_start: 2020-11-18
 date_end: 2020-11-18
 venue: New Theatre

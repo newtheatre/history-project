@@ -5,7 +5,7 @@ playwright: Tara Anegada and Rosiella Sutherland
 student_written: true
 period: Autumn
 season: Online
-season_sort: 420
+season_sort: 70
 date_start: 2020-12-09
 date_end: 2020-12-09
 

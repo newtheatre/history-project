@@ -5,7 +5,7 @@ playwright: Alice Walker and Libby Horobin
 student_written: true
 period: Autumn
 season: Online
-season_sort: 380
+season_sort: 30
 date_start: 2020-11-25
 date_end: 2020-11-25
 venue: New Theatre

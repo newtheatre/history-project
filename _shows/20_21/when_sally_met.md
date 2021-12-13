@@ -5,7 +5,7 @@ playwright: Cecilia Alexander
 student_written: true
 period: Autumn
 season: Online
-season_sort: 410
+season_sort: 60
 date_start: 2020-12-06
 date_end: 2020-12-06
 

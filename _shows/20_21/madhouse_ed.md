@@ -1,14 +1,11 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
 
 title: Madhouse
 playwright: M Craig
 student_written: true
 period: Edinburgh
 season: Edinburgh
-season_sort: 510
+season_sort: 140
 date_start: 2021-08-16
 date_end: 2021-08-28
 venue: theSpaceUK

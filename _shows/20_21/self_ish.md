@@ -3,9 +3,9 @@
 title: Self-ish
 playwright: Cecilia Alexander and Caetano Capurro
 student_written: true
-period: Autumn
+period: Spring
 season: Online
-season_sort: 460
+season_sort: 110
 date_start: 2021-03-24
 date_end: 2021-03-24
 

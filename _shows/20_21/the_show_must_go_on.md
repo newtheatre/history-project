@@ -3,9 +3,9 @@
 title: The Show Must Go On(Line)
 playwright: Charlie Bellwood, Oliver Binns and Nicholas Landon
 student_written: true
-period: Autumn
+period: Spring
 season: Unscripted
-season_sort: 470
+season_sort: 120
 date_start: 2021-04-28
 date_end: 2021-04-28
 

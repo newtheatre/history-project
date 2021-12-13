@@ -4,7 +4,7 @@ playwright: Bill Hayes
 student_written: true
 period: Autumn
 season: Online
-season_sort: 440
+season_sort: 90
 date_start: 2020-12-16
 date_end: 2020-12-16
 

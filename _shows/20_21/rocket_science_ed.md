@@ -1,14 +1,11 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
 
 title: It's Not Rocket Science
 playwright: Cecilia Alexander
 student_written: true
 period: Edinburgh
 season: Edinburgh
-season_sort: 520
+season_sort: 150
 date_start: 2021-08-17
 date_end: 2021-08-29
 venue: theSpaceUK
@@ -21,7 +18,7 @@ cast:
 - role: Male Multi-Role
   name: Kishan Ganatra
 
-crew: # Omit certain roles as required
+crew:
 - role: Director
   name: Cecilia Alexander
 - role: Producer

@@ -3,9 +3,9 @@
 title: Speaking Solo
 playwright: various
 student_written: true
-period: Autumn
+period: Spring
 season: Online
-season_sort: 450
+season_sort: 100
 date_start: 2021-03-17
 date_end: 2021-03-17
 
