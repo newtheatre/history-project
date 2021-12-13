@@ -4,80 +4,36 @@
 # Remove or comment any lines that are not being used
 
 title: It's Not Rocket Science
-playwright: # Omit if devised
-devised: # Omit if playwright
-adaptor:
-translator:
-student_written:
-company: # If non-NNT
+playwright: Cecilia Alexander
+student_written: true
 period: Edinburgh
 season: Edinburgh
-season_sort:
-date_start: #YYYY-MM-DD
-date_end: #YYYY-MM-DD
-venue:
-
-trivia:
+season_sort: 520
+date_start: 2021-08-17
+date_end: 2021-08-29
+venue: theSpaceUK
 
 cast:
-- role:
-  name:
+- role: Eve
+  name: India Agravat
+- role: Female Multi-Role
+  name: Caitie Pardoe
+- role: Male Multi-Role
+  name: Kishan Ganatra
 
 crew: # Omit certain roles as required
 - role: Director
-  name:
-- role: Assistant Director 
-  name:
+  name: Cecilia Alexander
 - role: Producer
-  name:
-- role: Assistant Producer
-  name:
+  name: Ylana Gibert
+- role: Creative Assistant
+  name: Molly Symms
 - role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
-- role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
-- role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Annamarie Schooling
 
 assets:
-  - type:
-    image:
-  - type:
-    video:
-    title:
-
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
-
+  - type: poster
+    image: Qfknwrc
 ---
 
-<!-- Insert the show summary here -->
+'It’s a man’s world' they say, looking at Earth. But beyond that, the vast expanse we call ‘space’, is largely unknown, unclaimed; a free for all. At least, it could be if my boss stopped calling me ‘sweetheart’. Eve always knew she belonged in the stars, but those on Earth keep bringing her down. Watch her grow up and grow wiser about how rocket science is the easy part, but being treated equally isn’t. This piece of verbatim theatre uses interviews from over 20 female aerospace professionals and presents their experiences navigating this male-dominated industry.
