@@ -8,7 +8,7 @@ playwright: M Craig
 student_written: true
 period: Edinburgh
 season: Edinburgh
-season_sort: 520
+season_sort: 510
 date_start: 2021-08-16
 date_end: 2021-08-28
 venue: theSpaceUK
