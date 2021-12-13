@@ -48,7 +48,7 @@ cast:
   name: Rachel Allcock
 - note: (Alexandra and Rachel's Group)
   name: Talia Krais
-- note:(Jake and Libby's Group)
+- note: (Jake and Libby's Group)
   name: Iain Messore
 - note: (Jake and Libby's Group)
   name: Maria Mcdonagh
@@ -85,6 +85,10 @@ cast:
 - note: (Cecilia and Jesse's Group)
   name: Victoria Inzari
 - note: (Cecilia and Jesse's Group)
+  
+
+crew_incomplete: true 
+crew_note: "It looks like we're missing some of the technical and stage crew."
   
 crew: 
 - role: Executive Producer

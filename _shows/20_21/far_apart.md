@@ -1,7 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
 
 title: Far Apart
 playwright: Alice Walker and Libby Horobin
@@ -21,7 +18,7 @@ cast:
 - role: Alex
   name: Mikey Flannery
 
-crew: # Omit certain roles as required
+crew:
 - role: Director
   name: Alice Walker
 - role: Producer

@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: Accelerate
 playwright: Bill Hayes
 student_written: true
@@ -24,7 +20,7 @@ cast:
 - role: Interviewer / Multi-Role
   name: Demi Idowu
 
-crew: # Omit certain roles as required
+crew:
 - role: Director
   name: Jack Titley
 - role: Assistant Director 
@@ -47,7 +43,7 @@ crew: # Omit certain roles as required
   name: Caetano Capurro
 - role: Assistant Editor 
   name: Skylar Turnbull Hurd 
-- role: Caption Writer
+- role: Captioner
   name: Tara Anegada
 - role: Publicity Manager
   name: Ace Edwards
@@ -58,7 +54,6 @@ assets:
     
 ---
 
-Breakneck breakbeat drums are the beating heart of a 1990s university campus where ideas about the future are accelerating. Sadie and Mason find themselves in the middle of it all. The pair cannot resolve their differences about what their futures are but soon reality becomes unstuck and time gets out of joint. With tensions rising between the two Mason struggles to remember what has happened between them.![image](https://user-images.githubusercontent.com/92263860/145695476-a08611c9-d423-4162-b5bc-1c85bfe2fb1b.png)
+Breakneck breakbeat drums are the beating heart of a 1990s university campus where ideas about the future are accelerating. Sadie and Mason find themselves in the middle of it all. The pair cannot resolve their differences about what their futures are but soon reality becomes unstuck and time gets out of joint. With tensions rising between the two Mason struggles to remember what has happened between them.
 
-Link to 'Accelerate' on YouTube: https://www.youtube.com/watch?v=GfYoKbrbKMs&t=8s![image](https://user-images.githubusercontent.com/92263860/145695480-b513f633-6597-4c9c-bf48-3cd2bb0778b6.png)
-
+Link to 'Accelerate' on YouTube: https://www.youtube.com/watch?v=GfYoKbrbKMs&t=8s

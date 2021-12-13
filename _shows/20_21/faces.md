@@ -1,9 +1,6 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
 
-title: faces.
+title: "faces."
 playwright: Tara Anegada and Rosiella Sutherland
 student_written: true
 period: Autumn
@@ -43,7 +40,7 @@ crew:
   name: Jesse Rough
 - role: Assistant Video Editor 
   name: Charlie Finney
-- role: Caption Writer
+- role: Captioner
   name: Skylar Turbull Hurd
 
 assets:
