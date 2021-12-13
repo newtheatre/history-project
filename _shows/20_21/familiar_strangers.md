@@ -1,7 +1,7 @@
 ---
 
 title: Familiar Strangers
-playwright: Madeleine Craig
+playwright: M Craig
 student_written: true
 period: Autumn
 season: Online
