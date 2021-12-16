@@ -10,15 +10,12 @@ date_end: 2008-11-08
 comment: These dates are unconfirmed, the production was at least on these dates.
 
 crew_incomplete: true 
-<<<<<<< HEAD
 
 crew:
   - role: Director
     name: Frank Wolfgang Hellmann
   - role: Lighting & Sound Technician
     name: Tammy Ingamells
-=======
->>>>>>> missing_majority
 
 links: 
 - type: Review 
