@@ -1,8 +1,8 @@
 ---
 title: Charlie Basley
-headshot: wPnQfmW
-course:
-  - American and Canadian Studies BA
+headshot: mnjbCPZ
+course: BA American and Canadian Studies
+graduated: 2022
 gender: male
 submitted: false
 ---
