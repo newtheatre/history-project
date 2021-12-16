@@ -4,7 +4,7 @@ submitted: 2019-06-26
 headshot: dLq4fHz
 gender: male
 course:
-  - Computer Science MSc
+  - MSc Computer Science
 award: Fellowship
 links:
   - type: Twitter

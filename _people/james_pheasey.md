@@ -4,9 +4,11 @@ gender: male
 graduated: 2019
 submitted: 2019-03-13
 course:
-  - Philosophy BA
-  - Philosophy MA
+  - BA Philosophy
+  - MA Philosophy
 contact_allowed: true
+
+# SU President (2019/2020)
 ---
 
-SU President (2019/2020)
+

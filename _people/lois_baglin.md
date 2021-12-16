@@ -4,6 +4,6 @@ submitted: false
 headshot: Gq7zMf7
 gender: female
 course:
-  - English BA
+  - BA English
 graduated: 2019
 ---

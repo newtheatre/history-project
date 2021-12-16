@@ -3,12 +3,14 @@ title: Lauren Grant
 headshot: Ftj5Tmx
 gender: female
 submitted: false
-course: BSc Psychology
+course: 
+  - BSc Psychology
 graduated: 2013
 comment: Alias - Lauren Maddie 
 
-career: Teaching
-career: Acting 
+career: 
+  - Teaching
+  - Actor
 
 links:
   - type: Mandy Profile

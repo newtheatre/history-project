@@ -4,7 +4,7 @@ headshot: 7bg8jk3
 gender: female
 graduated: 2016
 course:
-  - Ancient History and History BA
+  - BA Ancient History and History
 
 comment: Got a Broadcast Journalism MA from Nottingham Trent
 

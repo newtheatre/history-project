@@ -1,7 +1,7 @@
 ---
 title: Lucy Ockenden
 course:
-  - Biochemistry and Genetics BSc
+  - BSc Biochemistry and Genetics
 graduated: 2003
 contact_allowed: true
 careers:

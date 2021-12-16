@@ -5,6 +5,6 @@ headshot: FjvLpBn
 submitted: false
 graduated: 2021
 course:
-  - Mathematics BSc 
+  - BSc Mathematics 
 contact_allowed: true
 ---

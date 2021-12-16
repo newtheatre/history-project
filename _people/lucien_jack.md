@@ -4,7 +4,7 @@ submitted: 2020-06-13
 gender: male
 headshot: Dj6HJ2t
 course:
-  - Hispanic Studies and Russian BA
+  - BA Hispanic Studies and Russian
 graduated: 2010
 contact_allowed: true
 careers:

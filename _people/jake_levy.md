@@ -4,7 +4,7 @@ submitted: false
 gender: male
 headshot: MGMPXnV
 course: 
-  - Politics and International Relations BA
+  - BA Politics and International Relations
 graduated: 2021
 contact_allowed: true 
 links:

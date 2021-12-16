@@ -2,7 +2,7 @@
 title: Isabelle Cadwallader
 headshot: bPfstmL
 course:
-  - History BA
+  - BA History
 gender: female
 submitted: false
 ---

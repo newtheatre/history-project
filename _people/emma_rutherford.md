@@ -3,7 +3,7 @@ title: Emma Rutherford
 submitted: 2016-01-26
 gender: female
 course:
-  - Modern Language Studies BA
+  - BA Modern Language Studies
 graduated: 2012
 contact_allowed: true
 
