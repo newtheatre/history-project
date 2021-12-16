@@ -3,7 +3,7 @@ title: Robyn Lawes
 submitted: 2015-12-29
 gender: female
 course:
-  - Psychology BSc
+  - BSc Psychology
 graduated: 2013
 links:
   - type: LinkedIn

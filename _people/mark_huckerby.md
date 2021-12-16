@@ -2,7 +2,8 @@
 title: Mark Huckerby
 gender: male
 submitted: false
-course: American Studies 
+course: 
+  - American Studies 
 graduated: 1996
 careers: 
   - Writer 

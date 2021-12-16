@@ -1,7 +1,7 @@
 ---
 title: Rohan Rakhit
 course:
-  - History BA
+  - BA History
 contact_allowed: true
 submitted: 2020-06-05
 graduated: 2020

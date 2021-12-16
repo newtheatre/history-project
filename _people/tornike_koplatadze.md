@@ -3,7 +3,8 @@ title: Tornike Koplatadze
 gender: male
 graduated: 2016
 submitted: 2019-08-01
-course: Film and Television Studies BA
+course: 
+  - BA Film and Television Studies
 careers:
   - Director
   - Actor

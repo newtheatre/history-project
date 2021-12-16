@@ -7,5 +7,5 @@ award: Fellowship
 submitted: 04/01/2017
 contact_allowed: true
 course:
-  - Politics (Hons) BA
+  - BA (Hons) Politics
 ---

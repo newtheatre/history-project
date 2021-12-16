@@ -1,3 +1,4 @@
+---
 title: Raquel Chambers
 course:
   - Sociology 

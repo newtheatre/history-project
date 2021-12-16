@@ -4,7 +4,7 @@ submitted: 2020-03-29
 gender: female
 headshot: xV4QvD5 
 course: 
- - Philosophy BA
+ - BA Philosophy
 graduated: 2020
 links:
   - type: Twitter

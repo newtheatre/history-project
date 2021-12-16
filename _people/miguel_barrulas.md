@@ -4,7 +4,7 @@ submitted: false
 gender: male
 headshot: Rq7Q6bf
 course:
-  - Natural Sciences MSci
+  - MSci Natural Sciences
 award: Fellowship
 graduated: 2019
 ---

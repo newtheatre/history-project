@@ -2,7 +2,8 @@
 title: Nick Ostler
 gender: male
 submitted: false
-course: Politics
+course: 
+  - Politics
 graduated: 1996
 careers: 
   - Writer

@@ -2,11 +2,13 @@
 title: Matt Leventhall
 gender: male
 headshot: rzcdPpN
-course: Philosophy
+course: 
+  - Philosophy
 graduated: 2009
 award: Fellowship
 submitted: false
-careers: Lighting Designer
+careers: 
+  - Lighting Designer
 links:
   - type: Personal Website
     href: http://www.mllx.co.uk/
