@@ -1,10 +1,10 @@
 ---
 
-title: It's Not Rocket Science
+title: It's Not Rocket Science - Edinburgh Showcase
 playwright: Cecilia Alexander
 student_written: true
 period: Autumn
-season: Edinburgh
+season: In House
 season_sort: 20
 date_start: 2021-10-02
 date_end: 2021-10-02
@@ -51,8 +51,8 @@ crew: # Omit certain roles as required
   name:
 
 assets:
-  - type:
-    image:
+  - type: poster
+    image: Qfknwrc
   - type:
     video:
     title:

@@ -57,8 +57,8 @@ crew: # Omit certain roles as required
   name:
 
 assets:
-  - type:
-    image:
+  - type: poster
+    image: kM73WpC
   - type:
     video:
     title:

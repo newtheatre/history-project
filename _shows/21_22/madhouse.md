@@ -1,6 +1,6 @@
 ---
 
-title: Madhouse
+title: Madhouse - Edinburgh Showcase
 playwright: M Craig
 student_written: true
 period: Autumn
@@ -51,8 +51,8 @@ crew: # Omit certain roles as required
   name:
 
 assets:
-  - type:
-    image:
+  - type: poster
+    image: Hzhj7pG
   - type:
     video:
     title:
