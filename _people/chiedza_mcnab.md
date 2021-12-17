@@ -1,8 +1,8 @@
 ---
 title: Chiedza McNab
 submitted: false
-headshot: TXHWsfp
+headshot: WGthrjc
 gender: female
 course:
-  - BA Criminology and Sociology 
+  - BA French Studies
 ---

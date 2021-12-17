@@ -10,6 +10,11 @@ venue: New Theatre
 date_start: 2017-05-10
 date_end: 2017-05-13
 
+trivia:
+  - quote: Laura Wolczyk hand-painted the skull onto the actors' hands for the poster, rather than achieving this digitally
+    name: Sam Osborne
+    submitted: 2020-10-25
+
 cast:
 - role: Renton / Boy
   name: Chris Sharp-Paul

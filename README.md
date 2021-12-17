@@ -1,6 +1,6 @@
 # Nottingham New Theatre History Project
 
-[![Build Status](https://travis-ci.org/newtheatre/history-project.svg?branch=master)](https://travis-ci.org/newtheatre/history-project)
+[![Build Status](https://github.com/newtheatre/history-project/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/newtheatre/history-project/actions/workflows/build.yml)
 [![Code Climate](https://codeclimate.com/github/newtheatre/history-project/badges/gpa.svg)](https://codeclimate.com/github/newtheatre/history-project)
 [![Issue Count](https://codeclimate.com/github/newtheatre/history-project/badges/issue_count.svg)](https://codeclimate.com/github/newtheatre/history-project)
 

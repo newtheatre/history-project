@@ -8,6 +8,12 @@ date_start: 2018-11-14
 date_end: 2018-11-17
 venue: New Theatre
 
+trivia:
+  - quote: The dress rehearsal for 'Yen' was quite the disaster. A broken box, a burst beer can and a flying fish-finger were just some of the highlights.
+    name: Ellie Roberts
+    submitted: 2020-04-02
+
+
 cast:
 - role: Hench
   name: William Tillett

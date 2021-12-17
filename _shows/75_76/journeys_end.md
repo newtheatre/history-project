@@ -8,6 +8,18 @@ venue: New Theatre
 date_start: 1975-11-11
 date_end: 1975-11-15
 
+trivia:
+  - quote: At the end of the show, before the dugout set partially collapses, there were one or two maroon explosions. These were quite nasty explosives that were fired in an old water tank. As they were expensive we couldn’t waste them during rehearsals so as Stage Manager I would shout ‘MAROON’ to signify the explosion. For several years afterwards when I met cast and crew the opening of the conversation was for someone to shout “maroon”.
+    name: John Schwiller
+    submitted: 2021-12-11
+  - quote: The show needed a number of dummy rifles and Hugh Simon had arranged to hire these from Baptys, a well known armourer to film, tv and theatre, based on Harrow Rd, London. Hugh and I drove to London in my decrepit Daf to pick up these fake guns. I recall driving up and down Harrow Road for over an hour looking for Baptys, which due to their line of business was not well advertised. After we found them, we were taken to the back of their yard past armourers firing very loud automatic weapons into sandbags. Driving back to Nottingham with a boot full of even dummy guns seemed a slightly dangerous thing to do given the situation in Ireland.
+    name: John Schwiller
+    submitted: 2021-12-11
+  - quote: As Stage Manager one of my favourite tasks each night was to make up a half pint glass of wet fuller’s earth clay and flick it at Matthew Bannister’s face before one of his entrances having just escaped a mortar explosion.
+    name: John Schwiller
+    submitted: 2021-12-11
+
+
 cast:
   - name: Nick Frost
   - name: Matthew Bannister
@@ -28,14 +40,15 @@ crew:
   - role: Producer
     name: Terri Norris
   - role: Lighting Designer
+    name: Mike Wolfe
+  - role: Lighting Operator
     name: Chris Toms
   - role: Sound Designer
     name: Peter Hart
   - role: Poster Designer
     name: John Thewlis
   - role: Stage Manager and Pyrotechnician
-    name: Jon
-    person: false
+    name: John Schwiller
 
 assets:
   - type: poster
