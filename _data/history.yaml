@@ -111,3 +111,13 @@
   academic_year: "16_17" 
   title: Unscripted
   description: "Unscripted allows students of any and all experience to take part in the theatre life. With no auditions, the group produces a semi-devised piece. The first performance, held in February, was *Camp MacBeth*."
+
+- year: 2020
+  academic_year: "19_20"
+  title: COVID
+  description: "With the cancellation of all in-person theatre and the closure of many university and Students' Union buildings, the theatre was forces to innovate and joined many other theatrical venues and companies by moving performances to an online format."
+
+- year: 2021
+  academic_year: "21_22"
+  title: Back to Live Theatre
+  description: "After presenting two shows at the Edinburgh Fringe, Nottingham New Theatre returns to in-person live theatre after an 18 month absence. Thanks to the hard work of the Committee the building was made a 'COVID Safe' environment for students, friends and family to once again come together and experience the thrill of live theatre"
