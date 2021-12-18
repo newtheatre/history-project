@@ -5,7 +5,7 @@ graduated: 2018
 award: Merit
 gender: male
 course:
-  - BA Hons International Relations
+  - BA (Hons) International Relations
 links:
   - type: Twitter
     username: GeorgeWaringGW

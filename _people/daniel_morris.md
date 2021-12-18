@@ -4,5 +4,5 @@ headshot: cxWKwjn
 gender: male
 submitted: false
 course:
-  - MSc Physics
+  - MSci Physics
 ---

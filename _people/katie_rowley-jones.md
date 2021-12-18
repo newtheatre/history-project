@@ -2,7 +2,7 @@
 title: Katie Rowley-Jones
 gender: female
 course:
-  - BA Hons Law
+  - BA (Hons) Law
 graduated: 2000
 headshot: 7xVgHsL
 careers:
