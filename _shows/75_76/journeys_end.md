@@ -18,6 +18,9 @@ trivia:
   - quote: As Stage Manager one of my favourite tasks each night was to make up a half pint glass of wet fuller’s earth clay and flick it at Matthew Bannister’s face before one of his entrances having just escaped a mortar explosion.
     name: John Schwiller
     submitted: 2021-12-11
+  - quote: This must have been the last performance before R.C. Sheriff died. We closed on Sat (or was it Fri?) and he died on Sun or Mon
+    name: John Schwiller
+    submitted: 2021-01-09
 
 
 cast:
