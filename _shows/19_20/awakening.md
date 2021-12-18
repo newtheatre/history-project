@@ -7,12 +7,12 @@ title: AWAKENING
 playwright: Tara Anegada
 student_written:
 company: # If non-NNT
-period: Spring
-season: External
+period: Edinburgh
+season: Edinburgh
 season_sort: 360
 date_start: 2020-08-08
 date_end: 2020-08-08
-venue: New Theatre
+venue: theSpaceUK Online
 
 trivia:
 
