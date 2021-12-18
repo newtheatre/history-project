@@ -74,4 +74,9 @@ links:
 
 ---
 
-<!-- Insert the show summary here -->
+This Show was performed as part of the virtual UPLOAD Festival 
+
+‘SPRING’ tells the story of a group of teenagers, as they rebel against their controlling parents, struggle to navigate love, and deal with tragedies around them; they begin to discover their individuality, their sexuality, and ultimately their freedom of choice.
+
+‘AWAKENING’ explores the dangers of forced ignorance and deception when it comes to the lives of young people; a group of schoolchildren trying to navigate the unknowns of adolescence leads to disastrous consequences.
+
