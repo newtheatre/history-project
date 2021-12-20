@@ -1,15 +1,8 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
 
 title: Cinnamon Tea
 playwright: Beth White
-devised: # Omit if playwright
-adaptor:
-translator:
-student_written:
-company: # If non-NNT
+student_written: true
 period: Spring
 season: Online
 season_sort: 390
@@ -17,67 +10,70 @@ date_start: 2020-08-23
 date_end: 2020-08-23
 venue: Online (via YouTube)
 
-trivia:
-
 cast:
-- role:
-  name:
+- role: Clair de Lune
+  name: Katie Booth
+- role: Herbata Cynamonowa
+  name: Emi Thackray
+- role: I Voted Conservative
+  name: Barney Hartwill
+- role: My Heart is in a Lot of Places
+  name: Em Rule
+- role: una carta a mi misa
+  name: Anya Edwards
 
-crew: # Omit certain roles as required
+crew:
 - role: Director
-  name:
+  name: Beth White
 - role: Assistant Director 
-  name:
+  name: Marianna Whistlecroft
+- role: Shadow Director
+  name: Fatema Valikarimwala
 - role: Producer
-  name:
+  name: Beth Carter
 - role: Assistant Producer
-  name:
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
+  name: Tash Wanigaratne
+- role: Shadow Producer 
+  name: Helena Hunt
+- role: Editor
+  name: Beth Carter
 - role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
-- role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Jesse Rough
+- role: Video Contributor 
+  name: Katerina Jackson
+- role: Video Contributor 
+  name: Laura Andresen Guimaraes
+- role: Video Contributor 
+  name: Georgie Parry
+- role: Graphic Designer 
+  name: Jase Neal
+- role: Captioner 
+  name: Zoe Smith
+- role: Captioner 
+  name: Charlie Finney
 
 assets:
   - type: poster
     image: bGTbxZf
-  - type:
-    video:
-    title:
 
 prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
 links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
+  - type: Review
+    href: https://impactnottingham.com/2020/08/cinnamon-tea-nnt-quarantine-season/
+    snapshot: FBRbd
+    publisher: Impact
+    author: Pete Rouse
+    title: "‘CINNAMON TEA’ @ NNT QUARANTINE SEASON"
+    date: 2020-08-26
+    rating: 4/5
+    quote: "Overall ‘Cinnamon Tea’ is a beautiful exploration of the human condition and the emotions that we all feel, effectively framed in the digital age. It is something that I feel needs a repeat watch, to soak in every aspect of the psyche that is laid bare before us.
+
+"
 
 ---
 
-<!-- Insert the show summary here -->
+Cinnamon Tea is an exploratory collection of monologues derived from verbatim interviews. Real life stories and experiences have been transformed into creative writing for film, delving into themes of the human psyche; memories, secrets, regrets, pride and personal experiences. We have endeavoured to create a visually satisfying, documentary-inspired series, highlighting truth and raw human emotion. 
+
+Link to 'Cinnamon Tea' on YouTube: https://www.youtube.com/watch?v=ghUKUXyQCR0

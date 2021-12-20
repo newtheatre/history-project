@@ -1,15 +1,8 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
 
 title: I Think He Was Called Rosalind
 playwright: Tara Anegada
-devised: # Omit if playwright
-adaptor:
-translator:
-student_written:
-company: # If non-NNT
+student_written: true
 period: Spring
 season: Online
 season_sort: 410
@@ -17,67 +10,55 @@ date_start: 2020-09-09
 date_end: 2020-09-09
 venue: Online (via YouTube)
 
-trivia:
-
 cast:
-- role:
-  name:
+- role: Fae
+  name: Sophie Curtis
+- role: Rosalind
+  name: Sodia Bassani
+- role: Orlando
+  name: Pete Rouse
 
-crew: # Omit certain roles as required
+crew: 
 - role: Director
-  name:
+  name: Tara Anegada
 - role: Assistant Director 
-  name:
+  name: Chiara Crompton
 - role: Producer
-  name:
-- role: Assistant Producer
-  name:
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
+  name: Zoe Smith
 - role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
-- role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Charlie Finney
+- role: Editor 
+  name: Charlie Finney
+- role: Video Editor
+  name: Cody Bentham
+- role: Video Editor
+  name: Oliver Binns
+- role: Captioner 
+  name: Jesse Rough
+- role: Captioner 
+  name: Laura Sherratt
 
 assets:
   - type: poster
     image: vdmC6Rw
-  - type:
-    video:
-    title:
+
 
 prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
 links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
+  - type: Review
+    href: https://impactnottingham.com/2020/09/i-think-he-was-called-rosalind-nnt-quarantine-season/
+    snapshot: zCQIj
+    publisher: Impact
+    author: Abigail Whitehead
+    title: "‘I THINK HE WAS CALLED ROSALIND’ @ NNT QUARANTINE SEASON"
+    date: 2020-09-09
+    rating: 4/5
+    quote: "The cast and crew have done a spectacular job of bringing a new take to ‘As You Like It’. ‘I Think He Was Called Rosalind’ is a truly exciting way to experience Shakespeare in a modern context.  I would urge anyone to head over to the NNT YouTube channel and watch it."
 
 ---
 
-<!-- Insert the show summary here -->
+Based on ‘As You Like It’ by William Shakespeare, ‘I think He was called Rosalind’ follows the events in the Forest of Arden as perceived by Fae, a mysterious creature who lives there. Fae watches as Rosalind, disguised as man, flees the court with Celia and builds a new life in the forest unknowing that her lover Orlando is there in exile. Watching, narrating and striving to understand the events of the humans’ lives, Fae takes a new perspective on the havoc humans wreck on each other and their environment in Shakespeare’s classic tale of love, confusion, and trickery. This is ‘As You Like It’ like you’ve never seen it before. 
+
+Link to 'I Think He Was Called Rosalind' on YouTube: https://www.youtube.com/watch?v=UT9FdwHuy00
