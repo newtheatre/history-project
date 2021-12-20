@@ -5,7 +5,7 @@ body_class: section-archives layout-show
 
 {% assign show = page %}
 {% if show.missing_majority %}
-  {% capture submit_link %}/collect/show/?show={{show.path}}{% endcapture %}
+  {% capture submit_link %}/collect/show?title={{show.title}}{% endcapture %}
 {% endif %}
 
 <div class="breadcrumbs">
