@@ -1,7 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
 
 title: AWAKENING
 playwright: Tara Anegada
@@ -14,67 +11,36 @@ date_start: 2020-08-08
 date_end: 2020-08-08
 venue: theSpaceUK Online
 
-trivia:
-
 cast:
-- role:
-  name:
+- role: Melchior Gabor
+  name: Reilly Salmon
+- role: Moritz Steifel
+  name: Olly O'Regan
+- role: George Schulmann
+  name: Daniel Cresswell
+- role: Isle Franz
+  name: Sofia Bassani
+- role: Mrs. Steifel / Mrs. Gabor
+  name: Jessica Staplehurst
+- role: Reverend Gabor
+  name: Alex Levy
 
-crew: # Omit certain roles as required
+crew: 
+- role: Writer 
+  name: Tara Anegada
 - role: Director
-  name:
-- role: Assistant Director 
-  name:
-- role: Producer
-  name:
-- role: Assistant Producer
-  name:
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
-- role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
-- role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Jack Titley
+- role: Digital Producer
+  name: Em Rule
+- role: Digital Producer 
+  name: Lucy Chandler
 
 assets:
   - type: poster
     image: 96StrKL
-  - type:
-    video:
-    title:
-
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
 
 ---
 
-<!-- Insert the show summary here -->
+‘AWAKENING’ explores the dangers of forced ignorance and deception when it comes to the lives of young people; a group of schoolchildren trying to navigate the unknowns of adolescence leads to disastrous consequences.
+
+Link to 'AWAKENING' on YouTube: https://www.youtube.com/watch?v=BxMjP1Pkk14

@@ -1,12 +1,8 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
 
 title: SPRING
 playwright: Tara Anegada
-student_written:
-company: # If non-NNT
+student_written: true
 period: Edinburgh
 season: Edinburgh
 season_sort: 350
@@ -14,67 +10,38 @@ date_start: 2020-08-08
 date_end: 2020-08-08
 venue: theSpaceUK Online
 
-trivia:
-
 cast:
-- role:
-  name:
+- role: Wendla Bergman
+  name: Natascha Austin
+- role: Hans Wedekind
+  name: Toby Russell
+- role: Martha Zundenschlag
+  name: Katie Booth
+- role: Ernest Kollman
+  name: George Baxter
+- role: Mrs. Bergmann
+  name: Lily Bailes
+- role: Mr. Zundenschlag / Mr. Wedekind / Dr. Lemonade
+  name: Barney Hartwill
 
-crew: # Omit certain roles as required
-- role: Director
-  name:
+crew:
+- role: Writer / Director
+  name: Tara Anegada
 - role: Assistant Director 
-  name:
-- role: Producer
-  name:
-- role: Assistant Producer
-  name:
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
-- role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
-- role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Lillian Race
+- role: Digital Producer
+  name: Alice Walker
+- role: Digital Producer
+  name: Skylar Turnbull Hurd
+- role: Digital Producer 
+  name: Zoe Smith
 
 assets:
   - type: poster
     image: 6ztCw24
-  - type:
-    video:
-    title:
-
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
 
 ---
 
-<!-- Insert the show summary here -->
+‘SPRING’ tells the story of a group of teenagers, as they rebel against their controlling parents, struggle to navigate love, and deal with tragedies around them; they begin to discover their individuality, their sexuality, and ultimately their freedom of choice.
+
+Link to 'SPRING' on YouTube: https://www.youtube.com/watch?v=y0hYhi4H3gA
