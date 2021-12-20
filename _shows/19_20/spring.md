@@ -9,6 +9,7 @@ season_sort: 350
 date_start: 2020-08-08
 date_end: 2020-08-08
 venue: theSpaceUK Online
+venue_sort: theSpace
 
 cast:
 - role: Wendla Bergman
