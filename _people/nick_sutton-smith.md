@@ -3,7 +3,7 @@ title: Nick Sutton-Smith
 headshot: Jx2LqS7
 gender: male
 course:
-  - English and History BA
+  - BA English and History
 graduated: 2018
 links:
   - type: Twitter

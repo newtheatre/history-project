@@ -3,7 +3,7 @@ title: Oliver Warlow
 submitted: 2016-02-24
 gender: male
 course:
-  - Design Engineering MEng
+  - MEng Design Engineering
 graduated: 2018
 contact_allowed: true
 careers:

@@ -2,7 +2,7 @@
 title: Sally Nesbitt
 headshot: Sh6K69q
 course:
-  - History BA
+  - BA History
 gender: female
 submitted: false
 ---

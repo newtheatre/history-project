@@ -3,7 +3,8 @@ title: Stephen Hopker
 submitted: 2020-03-25
 gender: male
 # headshot: 
-course: Medicine BMed BM BS
+course: 
+  - BMed BM BS Medicine
 graduated: 1978
 contact_allowed: true
 careers: 

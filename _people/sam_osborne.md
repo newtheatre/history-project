@@ -3,7 +3,7 @@ title: Sam Osborne
 gender: male
 headshot: FdvDHQm
 course:
-  - English BA
+  - BA English
 submitted: 2019-06-25
 graduated: 2019 
 ---

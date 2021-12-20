@@ -10,5 +10,5 @@ award: Fellowship
 #    title: CP acting award
 submitted: false
 course:
- - History BA
+ - BA History
 ---

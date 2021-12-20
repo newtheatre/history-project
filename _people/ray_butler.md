@@ -5,8 +5,8 @@ submitted: 2019-10-23
 graduated: 1997
 course:
   - Biology
-  - Plant Genetic Manipulation Msc
-  - Environmental Science Msc
+  - MSc Plant Genetic Manipulation
+  - MSc Environmental Science
 contact_allowed: true
 
 ---

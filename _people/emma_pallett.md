@@ -2,7 +2,7 @@
 title: Emma Pallett
 headshot: QKBLFbL
 course:
-  - English with Creative Writing BA
+  - BA English with Creative Writing
 gender: female
 submitted: false
 graduated: 2019

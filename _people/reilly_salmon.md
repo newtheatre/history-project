@@ -2,7 +2,7 @@
 title: Reilly Salmon
 headshot: rVbz62J
 course:
-  - Criminology and Sociology BA
+  - BA Criminology and Sociology
 gender: male
 submitted: false
 ---

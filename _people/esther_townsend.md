@@ -2,7 +2,7 @@
 title: Esther Townsend
 gender: female
 course:
-  - Sociology BA
+  - BA Sociology
 submitted: false
 headshot: 4Rj7nDH
 ---

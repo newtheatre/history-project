@@ -6,6 +6,6 @@ award: Fellowship
 headshot: W8ZHRJV
 submitted: false
 course:
-  - Archaeology BA
+  - BA Archaeology
 ---
 

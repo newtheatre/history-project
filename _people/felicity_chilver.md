@@ -6,5 +6,5 @@ award: Fellowship
 submitted: false
 graduated: 2018
 course:
-  - English Literature MA
+  - MA English Literature
 ---

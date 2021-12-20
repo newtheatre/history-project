@@ -3,7 +3,7 @@ title: Sebastian Frend
 submitted: 2018-08-09
 gender: Male
 course:
-  - French and Russian BA
+  - BA French and Russian
 graduated: 2014
 careers:
   - Teaching

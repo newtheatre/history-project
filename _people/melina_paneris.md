@@ -1,7 +1,7 @@
 ---
 title: Melina Paneris
 course:
-  - Biotechnology Bsc
+  - BSc Biotechnology
 graduated: 2016
 contact_allowed: true
 

@@ -3,7 +3,8 @@ title: Nick Stevenson
 submitted: 2015-09-17
 gender: male
 headshot: vRML2VN
-course: Law
+course: 
+  - Law
 graduated: 2014
 award: Fellowship
 careers:

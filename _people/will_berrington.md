@@ -5,8 +5,8 @@ headshot: r84CJ9n
 submitted: 2019-01-10
 contact_allowed: true
 course:
-  - Law LLB
-  - Public International Law LLM
+  - LLB Law
+  - LLM Public International Law
 graduated: 2017
 links:
   - type: Twitter

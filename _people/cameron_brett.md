@@ -2,7 +2,7 @@
 title: Cameron Brett
 headshot: qqVwd9j
 course:
-  - Modern European Studies BA
+  - BA Modern European Studies
 gender: male
 submitted: false
 ---

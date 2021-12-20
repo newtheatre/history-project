@@ -2,7 +2,7 @@
 title: Eric Crouch
 headshot: wL8NkcZ
 course:
-  - Philosophy, Politics, and Economics BA
+  - BA Philosophy, Politics, and Economics
 gender: male
 submitted: false
 graduated: 2019

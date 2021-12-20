@@ -2,6 +2,6 @@
 title: Alex Piechowski
 gender: male
 course:
-  - Politics and International Relations BA
+  - BA Politics and International Relations
 submitted: false
 ---
