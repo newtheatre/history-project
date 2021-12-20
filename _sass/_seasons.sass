@@ -45,6 +45,8 @@ $color-online: #FEA127
     color: $color-iudf !important
   &.season-unscripted:before
     color: $color-unscripted !important
+  &.season-online:before
+    color: $color-online !important 
 
 // Background of season meta-col col
 .show-season
@@ -65,6 +67,8 @@ $color-online: #FEA127
     background: rgba($color-iudf, $opacity-jigging)
   .season-unscripted
     background: rgba($color-unscripted, $opacity-jigging)
+  .season-online
+    background: rgba($color-online, $opacity-jigging)
 
 // Breadcrumbs
 @include breadcrumb-color("in-house", $color-in-house)
@@ -77,6 +81,7 @@ $color-online: #FEA127
 @include breadcrumb-color("fundraiser", $color-fundraiser)
 @include breadcrumb-color("iudf", $color-iudf)
 @include breadcrumb-color("unscripted", $color-unscripted)
+@include breadcrumb-color("online", $color-online)
 
 // Season pages
 @include breadcrumb-color("seasons", $color-seasons)
