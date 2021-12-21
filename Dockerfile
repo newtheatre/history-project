@@ -26,6 +26,7 @@ RUN curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | ba
 
 ENV NODE_PATH $NVM_DIR/versions/node/v$NODE_VERSION/lib/node_modules
 ENV PATH      $NVM_DIR/versions/node/v$NODE_VERSION/bin:$PATH
+# ENV SMUGMUG_API_KEY 
 
 RUN apt-get install -y ruby-dev rubygems libffi-dev
 RUN gem install bundler -v 1.17
