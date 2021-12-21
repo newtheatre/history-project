@@ -41,9 +41,9 @@ crew:
 - role: Trailer Editor
   name: Zoe Smith
 - role: Publicity Assistant 
-  name: Izzy De Bono
+  name: Izzy de Bono
 - role: Sound Designer 
-  name: Izzy De Bono
+  name: Izzy de Bono
 - role: Captioner 
   name: Emma Barber
   note: Show
