@@ -1,15 +1,8 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
 
 title: Reverie
 playwright: Francis Simmons
-devised: # Omit if playwright
-adaptor:
-translator:
 student_written: true
-company: # If non-NNT
 period: Spring
 season: Online
 season_sort: 380
@@ -17,67 +10,56 @@ date_start: 2020-08-19
 date_end: 2020-08-19
 venue: Online (via YouTube)
 
-trivia:
-
 cast:
-- role:
-  name:
+- role: Reegan
+  name: Jack Titley
+- role: Todd
+  name: Sam Morris
+- role: The Computer / Kennedy
+  name: Sophie Curtis
+- role: Mermaid
+  name: Eloise Dooley
 
-crew: # Omit certain roles as required
+crew_incomplete: false
+
+crew:
 - role: Director
-  name:
-- role: Assistant Director 
-  name:
+  name: Francis Simmons
 - role: Producer
-  name:
-- role: Assistant Producer
-  name:
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
-- role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
+  name: Lillian Race
+- role: Editor
+  name: Francis Simmons
+- role: Editor 
+  name: Caetano Capurro
+- role: Publicity Assistant
+  name: Tara Anegada
 - role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Caetano Capurro
+- role: Captioner 
+  name: Skylar Turnbull Hurd
+- role: Captioner
+  name: Cecilia Alexander
 
 assets:
   - type:
     image:
-  - type:
-    video:
-    title:
 
 prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
 links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
+  - type: Review
+    href: https://impactnottingham.com/2020/08/reverie-nnt-quarantine-season/
+    snapshot: 19sgy
+    publisher: Impact
+    author: Chiara Crompton
+    title: "‘REVERIE’ @ NNT QUARANTINE SEASON"
+    date: 2020-08-20
+    rating: 4.5/5
+    quote: "Indeed, what is lasting about ‘Reverie’ is its environmental theme. The morality of its characters is not an abstract discussion, rather a direct challenge to its audience. Most pertinent and moving is the sensation of guilt and inaction which floods the play. The world beyond Todd and Reagan is dying, there are sirens blaring and a mermaid shouting, power is running out and it is all paralyzingly overwhelming."
 
 ---
 
-<!-- Insert the show summary here -->
+In the far future, on a base deep beneath the Atlantic Ocean, a mysterious creature has broken on board and picked off the crew one by one. The two surviving crew members want nothing more than to escape, but have lost all contact with the outside world. Running low on power and supplies, all that can help them is the base’s malfunctioning computer - which has started talking to them. Their situation is only worsened by the presence of a strange woman promising the destruction of all mankind. Worst of all, neither of the survivors can be sure if anything around them is real, or simply their steady descent into insanity... 
+
+Link to 'Reverie' on YouTube: https://www.youtube.com/watch?v=80LJz6YCncQ

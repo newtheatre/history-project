@@ -10,67 +10,47 @@ date_start: 2020-07-29
 date_end: 2020-07-30
 venue: Online (via YouTube)
 
-trivia:
-
 cast:
-- role:
-  name:
+- role: Alistair Das
+  name: Rohan Rakhit
 
-crew: # Omit certain roles as required
-- role: Director
-  name:
-- role: Assistant Director 
-  name:
+crew_incomplete: false
+
+crew:
+- role: Co-Director
+  name: Bill Hayes
+- role: Co-Director 
+  name: Jack Titley
 - role: Producer
-  name:
-- role: Assistant Producer
-  name:
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
-- role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
-- role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Jack Titley
+- role: Editor
+  name: Max Nichols
+- role: Editor 
+  name: Skylar Turnbull Hurd
+- role: Publicity Assistant
+  name: Ace Edwards
+
 
 assets:
   - type: poster
     image: FTJLV2K
-  - type:
-    video:
-    title:
 
 prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
 links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
+  - type: Review
+    href: https://impactnottingham.com/2020/07/tldr-nnt-quarantine-season/
+    snapshot: PUtJu
+    publisher: Impact
+    author: Rowan Cothliff
+    title: "TL;DR @ NNT QUARANTINE SEASON"
+    date: 2020-07-28
+    rating: 4/5
+    quote: "If anything, TL;DR works better as an online piece than it would have on stage; it is clearly written with a tailored approach in mind. It is an opening piece that truly celebrates the NNT’s online season with a controversial punch."
 
 ---
 
-<!-- Insert the show summary here -->
+Everyone has an opinion, it’s mandatory to have one these days. Alastair certainly has them. He can barely contain his over the dinner table. Through the medium of his Youtube channel Alastair delves deeper and deeper into fringe communities of the internet looking for enlightened individuals who are willing to engage. His search takes him further and further into the annals of the internet, isolation and personal oblivion.
+
+Link to 'Reverie' on YouTube: https://www.youtube.com/watch?v=1fZb8qb7ID4

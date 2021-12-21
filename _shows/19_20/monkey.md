@@ -10,67 +10,49 @@ date_start: 2020-08-05
 date_end: 2020-08-05
 venue: Online (via YouTube)
 
-trivia:
-
 cast:
-- role:
-  name:
+- role: Des
+  name: Reilly Salmon
+- role: Danny
+  name: Charlie Bellwood
+- role: Sean
+  name: Joe Butler
+- role: Ava
+  name: Eloise Dooley
+- role: Nicky
+  name: Oliver Binns
 
-crew: # Omit certain roles as required
+crew:
 - role: Director
-  name:
-- role: Assistant Director 
-  name:
+  name: Jake Levy
+- role: Shadow Director 
+  name: Rachel Coussins
 - role: Producer
-  name:
-- role: Assistant Producer
-  name:
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
-- role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
+  name: Libby Horobin
+- role: Editor
+  name: Caetano Capurro
+- role: Editor 
+  name: Charlotte Smith
+- role: Publicity Assistant
+  name: Skylar Turnbull Hurd
 - role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Skylar Turnbull Hurd
+- role: Cameraman 
+  name: Josh Spear
+- role: Captioner 
+  name: Zoe Smith
+- role: Captioner
+  name: Cecilia Alexander
 
 assets:
   - type:
     image:
-  - type:
-    video:
-    title:
 
 prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
-
 ---
 
-<!-- Insert the show summary here -->
+A Zoom pub quiz, held to satisfy the desire for human interaction, ends in a harsh reality check for a friendship group challenged by addiction. A distrustful Des quietly observes the call, whilst analysing his friends’ unfiltered motives and mannerisms. His suspicions regarding Danny’s escalating addiction to drugs bubble under the surface as he navigates the power dynamics underpinning his friendships. Des is confronted by a dilemma between his own moral compass and the realities of living closely with an addict. 
+
+Link to 'Monkey' on YouTube: https://www.youtube.com/watch?v=n6hvRj968I8
