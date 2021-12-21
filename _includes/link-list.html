@@ -1,5 +1,6 @@
 <dl class="link-list">
-{% for link in include.links %}
+{% assign link_list = include.links | sort: "type" %}
+{% for link in link_list %}
 
   <dt class="single-line link--{{ link.type | downcase }}">
   	{% if link.icon %}

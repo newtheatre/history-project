@@ -228,6 +228,41 @@ module Jekyll
 
       # Add extra data to cast / crew lists
       show.data["cast"] = generate_show_pls(show, "cast")
+
+      if show.data.key?("student_written") and show.data["student_written"] and show.data.key?("playwright") and not show.data["playwright"].nil? and not show.data["playwright_false"]
+        if show.data.key?("adaptor") and not show.data["adaptor"].nil?
+          student_playwright = show.data["adaptor"]
+          playwright_role = "Adaptor"
+        elsif show.data.key?("translator") and not show.data["translator"].nil?
+          student_playwright = show.data["translator"]
+          playwright_role = "Translator"
+        else 
+          student_playwright = show.data["playwright"]
+          playwright_role = "Playwright"
+        end 
+
+        if not student_playwright.include?(" and ") and not student_playwright.include?(", ") and not student_playwright.include?(" & ")
+          # Exclude multiple playwrights 
+          if show.data.key?("playwright_alias")
+            # Students often write under different names. Offer the ability to account for that and still attribute appropriately. Related to #965.
+            student_playwright = {"role"=>playwright_role, "name"=>show.data["playwright_alias"]}
+          else
+            student_playwright = {"role"=>playwright_role, "name"=>student_playwright}
+          end 
+          if show.data.key?("crew")
+            if not show.data["crew"].include?(playwright_role)
+              # Add the playwright to the top of the crew list 
+              show.data["crew"].unshift(student_playwright)
+            else
+              Jekyll.logger.warn show.data["title"] + " has student playwright set manually"
+            end
+          else 
+            # No existing crew list? No problem.
+            show.data["crew"] = [student_playwright]
+          end 
+        end
+      end 
+
       show.data["crew"] = generate_show_pls(show, "crew")
 
       # Process trivia

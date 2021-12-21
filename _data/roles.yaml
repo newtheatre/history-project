@@ -4,6 +4,14 @@
 
 # - role: Acting
 
+- role: Playwright 
+  icon: fa fa-pencil 
+  aliases: 
+    - Author 
+    - Writer 
+    - Adaptor
+    - Translator 
+
 - role: Director
   icon: ion-film-marker
   aliases:

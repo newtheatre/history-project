@@ -1,6 +1,8 @@
 ---
 title: Innocent Infidelity
 playwright: C. J. Willman
+playwright_alias: Craig Willman 
+student_written: true 
 season: In House
 season_sort: 240
 period: Spring
