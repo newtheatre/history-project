@@ -10,6 +10,16 @@
   short: Full name of the playwright
   description: "Omit if using devised, set to `various` if compilation."
 
+- attr: playwright_false 
+  type: boolean 
+  short: Exclude student playwright from crew list 
+  description: "Only used when `student_written: true`. Excludes the student adaptor, translator, or playwright from the crew list."
+
+- attr: playwright_alias 
+  type: string 
+  short: Student name of the playwright 
+  description: "Student playwrights occasionally use aliases to write under. Use their student name here to ensure attribution is given in the crew list."
+
 - attr: devised
   short: Used if play was devised
   description: "Either `true` for generic output or a descriptor. Example descriptor: `Cast and Crew` will output “Devised by Cast and Crew”. Omit if using playwright."
@@ -54,7 +64,7 @@
 - attr: student_written
   type: boolean
   short: Show written by a NNT member
-  description: "Set to `true`; `false` or line missing are equivalent."
+  description: "Set to `true`; `false` or line missing are equivalent. In order of precedence, the adaptor, translator, or playwright are then given a role in the crew list. Suppress this behaviour with `playwright_false`"
 
 - attr: company
   type: string
