@@ -46,10 +46,16 @@ crew:
   name: Izzy De Bono
 - role: Captioner 
   name: Emma Barber
+  note: Show
+- role: Captioner
+  name: Sam Osborne
+  note: Trailer
 
 assets:
   - type: poster
     image: cNNcN98
+  - type: trailer
+    video: 89hwcv5
 
 ---
 
