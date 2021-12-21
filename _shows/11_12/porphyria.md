@@ -1,6 +1,7 @@
 ---
 title: "Porphyria"
 playwright: "C. J. Willman"
+playwright_alias: Craig Willman
 student_written: true
 period: Edinburgh
 season: Edinburgh
