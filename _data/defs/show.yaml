@@ -186,7 +186,7 @@
 - attr: crew
   type: array
   short: Crew members
-  description: "Uses the [person list](/docs/person_list/) format."
+  description: "Uses the [person list](/docs/person_list/) format. _Note: You do not need to include the playwright as a member of the crew as this is handled automatically._"
 
 - attr: crew_incomplete 
   type: boolean 
