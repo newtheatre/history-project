@@ -15,16 +15,20 @@ If you're new to Git and GitHub, there are a [wealth of resources][gh-resources]
 ## Ways to contribute
 
 - Talk to alumni and [collect information and media](#-collecting-information).
-- Comment on some of the [project's issues](#-issues), clarifying queries or adding to the discussion.
+- Comment on some of the [project's issues](#-issues), clarifying queries, or adding to the discussion.
 - Read through current site content, and click "improve this page" to [correct or add information](#-making-improvements).
 - Find an [open issue](#-issues) and submit a [proposed fix](#-making-improvements).
 - Help evaluate [open pull requests][gh-pulls], by reading through and [testing what's proposed](#-testing-pull-requests).
+
+---
 
 ## <i class="fa fa-envelope"></i> Collecting Information
 
 We've only collected a subset of all the shows the New Theatre has put on over the years. We need people to reach out to the alumni community and gather both memories of past shows and events and physical media from the time.
 
 If you fancy helping out, let one of the editors know by sending us an email at <history@newtheatre.org.uk>.
+
+---
 
 ## <i class="octicon octicon-issue-closed"></i> Issues
 
@@ -37,6 +41,8 @@ The best way to get started is to read over what's currently open and start comm
 ### <i class="octicon octicon-issue-opened"></i> Creating a new issue
 
 Spotted an error on the site, have some information to share, or want to start a discussion on a particular topic? You need to [create an issue][gh-issues-new]. Be as descriptive as possible. For example, if the issue involves a problem with the site try and include screenshots or instructions on how to reproduce it. Other contributors can then comment and someone can take a crack at fixing the problem.
+
+---
 
 ## <i class="octicon octicon-repo-push"></i> Making improvements
 
@@ -81,7 +87,7 @@ By editing on your computer, you can run the entire site and preview changes bef
 
 See [README.md](https://github.com/newtheatre/history-project/blob/master/README.md) for up to date install instructions.
 
-Getting the site running on your machine locally is easy to do on Mac and Linux. It _can_ be done on Windows, but it's tricky. The website [Run Jekyll on Windows](http://jekyll-windows.juthilo.com/) has a full tutorial on how to do this.
+Getting the site running on your machine locally is easy to do on macOS and Linux. It _can_ be done on Windows, but it's tricky. The website [Run Jekyll on Windows](http://jekyll-windows.juthilo.com/) has a full tutorial on how to do this, or you can try using [Docker](https://github.com/newtheatre/history-project/blob/master/README.md#user-content--using-docker).
 
 #### Writing a good commit message
 
@@ -146,15 +152,21 @@ Using one of the other software-based options have a very similar process to the
 5. Push the branch up (`git push origin my-awesome-change`).
 6. Create a pull request by visiting `https://github.com/<your-username>/history-project` and following the instructions at the top of the screen.
 
+---
+
 ### <i class="octicon octicon-beaker"></i> Testing Pull Requests
 
 There are a number of ways to review an editor's pull request, and this can depend on what they're looking to get out of the review. The basics involve the automated checks, as well as adherence to our style guide, comments, efficiency, and so on.
 
 You can also make sure the code runs effectively by running it on your own computer by building it, or viewing the edited pages in the test environment. A link to this test environment will be on the pull request page, once it's built successfully.
 
+---
+
 ### <i class="octicon octicon-verified"></i> Becoming a Contributor 
 
 If you decide making these kinds of edits and contributions is for you, we'd love to have you as part of [the team](https://github.com/orgs/newtheatre/people)! We're all volunteers here, and once you've had a few pull requests merged you'll be able to join the list of contributors. This means you won't have to make your own forks, and can edit the finer details of issues and pull requests.
+
+---
 
 ## <i class="octicon octicon-question"></i> Anything else
 
