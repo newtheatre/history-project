@@ -7,6 +7,7 @@
     "bower": "^1.8.8",
     "coffeescript": "2.5.1",
     "cssnano": "^4.1.7",
+    "gulp": "^3.9.1",
     "gulp-batch": "^1.0.5",
     "gulp-cli": "^2.3.0",
     "gulp-coffee": "^3.0.2",
