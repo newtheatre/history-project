@@ -14,18 +14,35 @@ This project is run by [a group](https://history.newtheatre.org.uk/humans.txt) f
 
 ### System
 
-To get the site running locally you will need a working Ruby environment, the bundler gem installed, Node.js 8.x, Gulp, CoffeeScript, and Bower. The following instructions work on Ubuntu.
+To get the site running locally you will need:
+* A working Ruby environment (preferably version 2.7, for which you may need rvm)
+* Bundler installed
+* Node.js 8.x (and no higher, for which you may need nvm)
+* Gulp, CoffeeScript, and Bower. 
+
+#### Ubuntu (other Debian-based Linux options are also available)
+_**Windows** users may also wish to use the Windows Subsystem for Linux and follow these instructions._
 
 - `curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -` to setup and add a PPA for Node JS 8.x rather than a newer version.
 - `sudo apt install ruby-dev rubygems nodejs libffi-dev` for an up to date Ruby with development bits and the Gem package manager, Node.js and its package manager npm.
 - `sudo gem install bundler` for the Ruby depenancy manager.
 - `sudo ln -s /usr/bin/nodejs /usr/bin/node` because some Node packages put it in the wrong place.
-- `sudo npm install -g gulp coffee-script bower` for Gulp, CoffeeScript and Bower.
+- `sudo npm install -g gulp coffeescript bower` for Gulp, CoffeeScript, and Bower.
+
+#### MacOS
+For ease, we recommend installing Homebrew.
+
+- `brew install rvm nvm` for the Ruby and Node version managers 
+- `rvm use 2.4` to use Ruby 2.4
+- `nvm install 8 && nvm use 8` to install and use Node 8
+- `gem install bundler` for the Ruby dependency manager.
+- `npm install -g gulp coffeescript bower` for Gulp, CoffeeScript, and Bower.
 
 ### Project Install
 
 - `git clone https://github.com/newtheatre/history-project.git` to clone the repo to your computer.
 - `cd history-project` to change into the directory.
+- [Optional:] `bundle config --local path vendor/bundle` to install the Ruby packages to within the repository folder. Helpful if you are working on multiple different projects.
 - `bundle install` to install all the Ruby dependencies the project needs to build.
 - `npm install` to install all the Node dependencies the project needs to build.
   - You may also need to run `npm link gulp-v3` to get our version of gulp to behave.
@@ -38,6 +55,8 @@ To get the site running locally you will need a working Ruby environment, the bu
 - `gulp server` to serve the site using the built in webserver. Changes to Sass & Coffee files will trigger an automatic frontend rebuild and reload. Content (Jekyll) changes will not, this is because Jekyll takes a considerable time to run.
 
 To get more verbose output from Jekyll, run `export JEKYLL_LOG_LEVEL=debug` before building.
+
+_If `gulp` commands don't work, try using `node_modules/.bin/gulp` (eg `node_modules/.bin/gulp build`) instead._
 
 ### Test
 
