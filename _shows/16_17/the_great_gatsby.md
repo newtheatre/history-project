@@ -2,6 +2,7 @@
 title: The Great Gatsby
 playwright: F. Scott Fitzgerald
 adaptor: "L. J. Bateman"
+playwright_alias: Laura Jayne Bateman
 student_written: true
 season: Lakeside
 season_sort: 20

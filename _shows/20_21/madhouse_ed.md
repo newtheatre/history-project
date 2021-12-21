@@ -2,6 +2,7 @@
 
 title: Madhouse
 playwright: M Craig
+playwright_alias: Madeleine Craig
 student_written: true
 period: Edinburgh
 season: Edinburgh
