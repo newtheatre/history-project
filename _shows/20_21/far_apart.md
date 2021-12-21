@@ -36,9 +36,9 @@ crew:
 - role: Publicity Assistant
   name: Skylar Turnbull Hurd
 - role: Creative Assistant
-  name: Izzy De Bono
+  name: Izzy de Bono
 - role: Captioner
-  name: Izzy De Bono
+  name: Izzy de Bono
 
 assets:
   - type: poster
