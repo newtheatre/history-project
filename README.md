@@ -50,9 +50,9 @@ Branches pushed to the GitHub repo are have preview builds deployed on Netlify, 
 [Docker](https://www.docker.com) is a cross platform software container platform. Following these instructions will allow you to build
 and view the site on your local machine in an environment as close to the production system as possible.
 
-- [Install Docker](https://www.docker.com/community-edition) (on windows, you probably want [Docker Toolbox](https://www.docker.com/products/docker-toolbox))
-- On windows, open the 'Docker Quickstart Terminal'. On Mac/Linux use a console of your choice.
-- `git clone https://github.com/newtheatre/history-project.git` to clone the repo to your computer.
+- [Install Docker](https://www.docker.com/products/docker-desktop)
+- Open a console of your choice (typically Terminal on Mac/Linux; Command Prompt on Windows).
+- `git clone https://github.com/newtheatre/history-project.git` to clone the repo to your computer _(if you don't already have a local version)_.
 - `cd history-project` to change into the directory.
 - Type `./run_dev.sh`
 

@@ -9,7 +9,7 @@ noParams=false
 stopAtEnd=false
 if [ $# -eq 0 ]
   then
-  echo "No parameters provided, running '(start) install build test serve"
+  echo "No parameters provided, running '(start) install build test serve'"
   noParams=true
 fi
 
