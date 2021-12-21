@@ -37,7 +37,7 @@ crew:
 - role: Captioner
   name: Zoe Smith
 - role: Captioner
-  name: Sam Osbourne
+  name: Sam Osborne
 - role: Assistant Video Editor
   name: Skylar Turnbull Hurd
 - role: Graphics Designer
