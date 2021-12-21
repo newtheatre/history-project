@@ -47,8 +47,7 @@ Branches pushed to the GitHub repo are have preview builds deployed on Netlify, 
 
 ## Docker
 
-[Docker](https://www.docker.com) is a cross platform software container platform. Following these instructions will allow you to build
-and view the site on your local machine in an environment as close to the production system as possible.
+[Docker](https://www.docker.com) is a cross platform software container platform. Following these instructions will allow you to build and view the site on your local machine in an environment as close to the production system as possible.
 
 - [Install Docker](https://www.docker.com/products/docker-desktop)
 - Open a console of your choice (typically Terminal on Mac/Linux; Command Prompt on Windows).
