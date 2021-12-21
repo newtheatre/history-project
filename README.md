@@ -139,13 +139,7 @@ To get more verbose output from Jekyll, run `export JEKYLL_LOG_LEVEL=debug` befo
 
 ---
 
-## Editing
-
-See the [site documentation](https://history.newtheatre.org.uk/docs/).
-
---- 
-
-## Testing
+## 🧪 Testing
 
 After building the site you can run the test suite with `gulp test`. Currently we test for bad links, valid image tags, script references and the validity of site JSON feeds.
 
@@ -157,24 +151,23 @@ Branches pushed to the GitHub repo are have preview builds deployed on Netlify, 
 
 ---
 
-## Asset Storage
+## 📷 Asset Storage
 
-All photographs and image assets are stored using the [theatre's SmugMug](https://photos.newtheatre.org.uk/).
+All photographs, image assets, and videos under 20 minutes in length are stored using the [theatre's SmugMug](https://photos.newtheatre.org.uk/).
 
 Other binary assets are stored under `assets/` using [Git LFS](https://git-lfs.github.com/). This separates these large files from the main repository. If you do not have LFS set up on your machine please do not attempt to commit assets as this would bloat the repository.
 
 ---
 
-## Special Thanks
+## 💌 Special Thanks
 
 - Browser testing tools generously provided by [BrowserStack](https://www.browserstack.com/).
 
 --- 
 
-## Licence
+## 📋 Licence
 
 This project as a whole isn't particularly helpful for other organizations, what we're doing here can be described as [*coding in the open*](https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/), rather than building an open source project. That said parts of the project may be of interest or use to others. This repository is a mix of source and content, as such there are two licences that apply.
 
 - All source files (HTML templates, Sass, CoffeeScript, Ruby, shell scripts) are released under the [MIT licence](https://github.com/newtheatre/history-project/blob/master/LICENCE).
 - All content files (HTML files, Markdown, YAML datafiles, images, graphics) are copyright © The Nottingham New Theatre 2016.
-
