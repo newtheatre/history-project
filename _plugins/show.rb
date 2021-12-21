@@ -251,11 +251,13 @@ module Jekyll
           end 
           if show.data.key?("crew")
             if not show.data["crew"].include?(playwright_role)
+              # Add the playwright to the top of the crew list 
               show.data["crew"].unshift(student_playwright)
             else
               Jekyll.logger.warn show.data["title"] + " has student playwright set manually"
             end
           else 
+            # No existing crew list? No problem.
             show.data["crew"] = [student_playwright]
           end 
         end
