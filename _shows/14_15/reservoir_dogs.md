@@ -1,6 +1,6 @@
 ---
 title: "Reservoir Dogs"
-playwright: "Quenton Tarantino"
+playwright: "Quentin Tarantino"
 student_written: true
 adaptor: Carn Truscott
 period: Spring
