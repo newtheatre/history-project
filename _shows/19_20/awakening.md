@@ -26,8 +26,6 @@ cast:
   name: Alex Levy
 
 crew: 
-- role: Writer 
-  name: Tara Anegada
 - role: Director
   name: Jack Titley
 - role: Digital Producer

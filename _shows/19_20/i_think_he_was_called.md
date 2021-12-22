@@ -14,7 +14,7 @@ cast:
 - role: Fae
   name: Sophie Curtis
 - role: Rosalind
-  name: Sodia Bassani
+  name: Sofia Bassani
 - role: Orlando
   name: Pete Rouse
 

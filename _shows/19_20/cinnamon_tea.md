@@ -68,9 +68,7 @@ links:
     title: "‘CINNAMON TEA’ @ NNT QUARANTINE SEASON"
     date: 2020-08-26
     rating: 4/5
-    quote: "Overall ‘Cinnamon Tea’ is a beautiful exploration of the human condition and the emotions that we all feel, effectively framed in the digital age. It is something that I feel needs a repeat watch, to soak in every aspect of the psyche that is laid bare before us.
-
-"
+    quote: "Overall ‘Cinnamon Tea’ is a beautiful exploration of the human condition and the emotions that we all feel, effectively framed in the digital age. It is something that I feel needs a repeat watch, to soak in every aspect of the psyche that is laid bare before us."
 
 ---
 

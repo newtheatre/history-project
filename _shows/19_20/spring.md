@@ -26,7 +26,7 @@ cast:
   name: Barney Hartwill
 
 crew:
-- role: Writer / Director
+- role: Director
   name: Tara Anegada
 - role: Assistant Director 
   name: Lillian Race

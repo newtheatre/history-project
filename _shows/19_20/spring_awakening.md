@@ -8,7 +8,7 @@ season: External
 season_sort: 320
 date_start: 2020-06-27
 date_end: 2020-06-28
-venue: New Theatre
+venue: Online (via YouTube)
 
 cast:
 - role: Wendla Bergman
@@ -50,7 +50,7 @@ cast:
 
 
 crew:
-- role: Writer / Director
+- role: Director
   name: Tara Anegada
   note: SPRING
 - role: Director
