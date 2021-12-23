@@ -145,6 +145,12 @@ body_class: layout-person header-nobr content-nobr
 
       {% include link-list.html links=person.news %}
 
+      {% if person.careers.size == 0 and person.links.size == 0 and person.news.size == 0 %}
+        <p class="micro">
+          <a href="https://github.com/newtheatre/history-project/issues/new?body={{page.url}}" class="subtle" data-proofer-ignore data-report-this-page>We don't know what {{ person.title | escape_once }} is up to now. Can you help? Message the editors.&hellip;</a>
+        </p>
+      {% endif %}
+
     </section>
 
     {% endif %}
