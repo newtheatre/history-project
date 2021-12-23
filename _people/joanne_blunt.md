@@ -8,7 +8,7 @@ submitted: false
 course:
  - Physics with German
 
-links:
+news:
   - type: Article
     href: https://impactnottingham.com/2016/04/spotlight-on-technical-directing/
     snapshot: snQQX
