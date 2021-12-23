@@ -86,8 +86,8 @@ body_class: layout-person header-nobr content-nobr
     </div>
     {% endif %}
 
-    <section class="person-past">
-      <h2>Then</h2>
+    <section class="person-{% if person.student %}current{% else %}past{% endif %}">
+      <h2>{% if person.student %}Now{% else %}Then{% endif %}</h2>
       <dl class="person-meta-list">
         {% for course in person.course %}
           <dt><i class="fa fa-fw fa-book"></i>Course</dt>
@@ -120,10 +120,15 @@ body_class: layout-person header-nobr content-nobr
         </dd>
         {% endif %}
       </dl>
+      {% if person.student %}
+        {% include link-list.html links=person.links %}
+
+        {% include link-list.html links=person.news %}
+      {% endif %}
     </section>
 
-    {% if person.placeholder == false %}
-    <!-- Person has a file -->
+    {% if person.placeholder == false and person.student == false %}
+    <!-- Person has a file and is not a student -->
 
     <section class="person-current">
       <h2>Now</h2>
