@@ -1,6 +1,6 @@
 ---
 title: Wasted
-playwright: Kate Tempest
+playwright: Kae Tempest
 company: Paines Plough
 period: Spring
 season: External

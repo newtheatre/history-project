@@ -1,6 +1,6 @@
 ---
 title: Hopelessly Devoted
-playwright: Kate Tempest
+playwright: Kae Tempest
 company: Paines Plough
 period: Autumn
 season: External
