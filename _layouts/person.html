@@ -81,7 +81,7 @@ body_class: layout-person header-nobr content-nobr
       <div class="box-warning">
         <i class="fa fa-question"></i>
         <h3>Missing Biography</h3>
-        <p>We are collecting biographies on New Theatre alumni, if this is you please <a href="{{ submit_link }}">submit one here</a>.</p>
+        <p>We are collecting biographies on New Theatre {% if person.student %}members{% else %}alumni{% endif %}, if this is you please <a href="{{ submit_link }}">submit one here</a>.</p>
       </div>
     </div>
     {% endif %}
