@@ -42,10 +42,7 @@ crew:
 assets:
   - type: poster
     image: 9gxTQkb
-  - type:
-    video:
-    title:
-
+    
 ---
 
 Finn and Minna come together two years after ending their relationship. Their conversation is intertwined iwth moments from their past, and the aduience watches them grapple with old wounds and things unsaid. As the remnants of first love blur the lines betweens what once was and what is now, Finn and Minna attemot to answer the inevitable question of 'what if'?
