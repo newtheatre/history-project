@@ -5,11 +5,7 @@
 
 title: River
 playwright: Anya Edwards
-devised: # Omit if playwright
-adaptor:
-translator:
-student_written:
-company: # If non-NNT
+student_written: true
 period: Autumn
 season: In House
 season_sort: 40
@@ -17,45 +13,31 @@ date_start: 2021-11-10
 date_end: 2021-11-13
 venue: New Theatre
 
-trivia:
-
 cast:
-- role:
-  name:
+- role: Finn
+  name: Jack Titley
+- role: Minna
+  name: Clara Brown
 
-crew: # Omit certain roles as required
-- role: Director
-  name:
-- role: Assistant Director 
-  name:
+crew:
+- role: Co-Director
+  name: Anya Edwards
+- role: Co-Director 
+  name: Em Rule
 - role: Producer
-  name:
-- role: Assistant Producer
-  name:
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
+  name: Anya Edwards
 - role: Lighting Designer 
-  name:
+  name: Annamarie Schooling
 - role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
-- role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Em Rule
+- role: Set Assistant 
+  name: Pete Rouse
+- role: Publicity Manager
+  name: Anya Edwards 
+- role: Stage Manager
+  name: Tarin Wenger
+- role: Deputy Stage Manager
+  name: Rosie Loader
 
 assets:
   - type: poster
@@ -64,20 +46,6 @@ assets:
     video:
     title:
 
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
-
 ---
 
-<!-- Insert the show summary here -->
+Finn and Minna come together two years after ending their relationship. Their conversation is intertwined iwth moments from their past, and the aduience watches them grapple with old wounds and things unsaid. As the remnants of first love blur the lines betweens what once was and what is now, Finn and Minna attemot to answer the inevitable question of 'what if'?
