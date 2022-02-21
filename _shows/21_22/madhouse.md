@@ -13,63 +13,30 @@ venue: New Theatre
 trivia:
 
 cast:
-- role:
-  name:
+- role: Ollie
+  name: Olly O'Regan
+- role: Annie
+  name: Isabel Johnson
+- role: Billy
+  name: Demi Idowu
+- role: Soniya
+  name: Lelah Gorgin
+- role: Goose
+  name: Pete Rouse
+- role: Lisa
+  name: Rachel Coussins
 
 crew: # Omit certain roles as required
 - role: Director
-  name:
-- role: Assistant Director 
-  name:
+  name: Madeleine Craig
 - role: Producer
-  name:
-- role: Assistant Producer
-  name:
+  name: Helena Hunt
 - role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
-- role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
-- role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
-
+  name: Patrick Richards
+  
 assets:
   - type: poster
     image: Hzhj7pG
-  - type:
-    video:
-    title:
-
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
 
 ---
 
