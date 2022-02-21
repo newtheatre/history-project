@@ -42,10 +42,6 @@ crew: # Omit certain roles as required
   name: Grace Collis
 - role: Shadow Director
   name: Muhammad Faizan
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
 - role: Lighting Designer 
   name: Jessica Crabtree
 - role: Sound Designer 
@@ -56,8 +52,6 @@ crew: # Omit certain roles as required
   name: Nicholas Landon
 - role: Poster Designer 
   name: Caetano Capurro
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
 - role: Costume Manager
   name: Lauren Brady
 - role: Make-up and Hair Manager
