@@ -73,23 +73,6 @@ crew:
 assets:
   - type: poster
     image: GgGj3rm
-  - type:
-    video:
-    title:
-
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
 
 ---
 
