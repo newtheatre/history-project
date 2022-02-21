@@ -10,67 +10,28 @@ date_start: 2021-10-02
 date_end: 2021-10-02
 venue: New Theatre
 
-trivia:
-
 cast:
-- role:
-  name:
+- role: Eve
+  name: India Agravat
+- role: Female Multi-Role
+  name: Caitie Pardoe
+- role: Male Multi-Role
+  name: Kishan Ganatra
 
-crew: # Omit certain roles as required
+crew:
 - role: Director
-  name:
-- role: Assistant Director 
-  name:
+  name: Cecilia Alexander
 - role: Producer
-  name:
-- role: Assistant Producer
-  name:
+  name: Ylana Gibert
+- role: Creative Assistant
+  name: Molly Symms
 - role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
-- role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
-- role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Annamarie Schooling
 
 assets:
   - type: poster
     image: Qfknwrc
-  - type:
-    video:
-    title:
-
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
-
+  
 ---
 
 Fresh From the Edinburgh Fringe, NNT Presents "It's Not Rocket Science"
