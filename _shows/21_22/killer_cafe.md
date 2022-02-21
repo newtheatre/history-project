@@ -5,10 +5,7 @@
 
 title: Killer Café
 playwright: M Craig
-devised: # Omit if playwright
-adaptor:
-translator:
-student_written:
+student_written: true
 period: Autumn
 season: Fringe
 season_sort: 90
@@ -16,67 +13,34 @@ date_start: 2021-12-05
 date_end: 2021-12-07
 venue: New Theatre Studio A
 
-trivia:
-
 cast:
-- role:
-  name:
+- role: Freddie
+  name: Abraham Botha
+- role: Sky
+  name: Ellie De Souza
+- role: Waitress
+  name: Jas Nolan
 
-crew: # Omit certain roles as required
+crew:
 - role: Director
-  name:
+  name: Madeleine Craig
 - role: Assistant Director 
-  name:
+  name: Tash Wanigaratne
 - role: Producer
-  name:
+  name: Helena Hunt
 - role: Assistant Producer
-  name:
+  name: Olly Pinhey
 - role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
-- role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
+  name: Patrick Richards
 - role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
+  name: Madeleine Craig
 - role: Stage Manager 
-  name:
+  name: Joe Hughes
 
 assets:
   - type: poster
     image: Fr5Wc3F
-  - type:
-    video:
-    title:
-
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
 
 ---
 
-<!-- Insert the show summary here -->
+Ever fantasied about a significant other conveiently 'disappearing' so you can avoid the loathsome formality of a breakup? For Freddie and Sky, the deaths of their partners could be their only escape from toxic know-it-alls and wannabe knights in shining armour. Conspiring in a quiet cafe - revenge is sweet, but coffee has never tasted so bitter...
