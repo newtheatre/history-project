@@ -57,6 +57,8 @@ crew:
 assets:
   - type: poster
     image: h4Frqfw
+  - type: video
+    video: dszjLbv
  
 ---
 
