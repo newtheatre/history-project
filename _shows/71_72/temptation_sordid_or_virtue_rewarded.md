@@ -28,6 +28,11 @@ crew:
 - role: Director
   name: Hilary Sergeant
 
+
+trivia:
+  - quote: "I was the chairman in this production by Nottingham Uni Drama Society. I played the violin in it. It was outrageously over the top!"
+    submitted: 2020-02-13
+    name: Gareth Bunn
 ---
 
 > "Once aboard this lugger, and she's mine" said the lead actor, twirling his moustachios and grasping my lily-white hand. "Unhand me, base fellow, know that I must away to direct that well-known piece of Thespian art........... 'Temptation Sordid or Virtue Rewarded'!!"

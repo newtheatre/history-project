@@ -11,6 +11,9 @@ cast:
    name: David Trennery
 
 crew:
+ - role: Director
+   name: David Storlie
+   # Lysistrata, which I directed in 1994, #1664
  - name: Christopher Wix
 
 cast_incomplete: true
