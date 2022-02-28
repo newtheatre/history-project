@@ -6,6 +6,11 @@ title: Macbeth
 playwright: William Shakespeare
 season_sort: 230
 venue: New Theatre
+assets:
+  - type: poster
+    image: bGxgXsZ
+  - type: programme
+    image: 8f9RcZV
 cast:
   - role: Duncan
     name: Martin Pye
