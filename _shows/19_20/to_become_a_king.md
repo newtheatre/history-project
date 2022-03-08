@@ -34,6 +34,8 @@ crew:
   name: Sophy Baxter
 - role: Assistant Director 
   name: Kaitlyn Samuelsen
+- role: Shadow Director
+  name: Lauren Birks
 - role: Producer
   name: Zoe Smith
 - role: Assistant Producer
