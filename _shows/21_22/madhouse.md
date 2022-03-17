@@ -10,8 +10,6 @@ date_start: 2021-10-02
 date_end: 2021-10-02
 venue: New Theatre
 
-trivia:
-
 cast:
 - role: Ollie
   name: Olly O'Regan
@@ -26,7 +24,7 @@ cast:
 - role: Lisa
   name: Rachel Coussins
 
-crew: # Omit certain roles as required
+crew: 
 - role: Director
   name: Madeleine Craig
 - role: Producer
