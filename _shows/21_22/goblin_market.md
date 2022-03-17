@@ -43,7 +43,7 @@ crew:
   name: Anna Sutcliffe
 - role: Costume Designer 
   name: Mia Aarons
-- role: Make-up Designer/Artist
+- role: Make-up Designer / Artist
   name: Mia Aarons
 - role: Publicity Manager 
   name: Evie Williams
