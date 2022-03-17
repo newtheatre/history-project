@@ -10,8 +10,6 @@ date_end: 2019-11-23
 venue: New Theatre
 student_written: true 
 
-# trivia: 
-
 cast:
 - role: Titania / Hippolyta
   name: Reilly Salmon

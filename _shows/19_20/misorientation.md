@@ -59,7 +59,7 @@ assets:
   - type: poster
     image: 5MKb69j
 
-prod_shots:
+# prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
 links:

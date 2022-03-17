@@ -36,7 +36,7 @@ assets:
   - type: poster
     image: FTJLV2K
 
-prod_shots:
+# prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
 links:
