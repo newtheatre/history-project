@@ -39,7 +39,7 @@ assets:
 
 links: 
   - type: YouTube 
-    title: Watch AWAKENING on YouTube
+    title: Watch 'AWAKENING' on YouTube
     href: https://www.youtube.com/watch?v=BxMjP1Pkk14
 
 ---

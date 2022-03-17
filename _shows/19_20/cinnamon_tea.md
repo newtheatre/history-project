@@ -71,7 +71,7 @@ links:
     rating: 4/5
     quote: "Overall ‘Cinnamon Tea’ is a beautiful exploration of the human condition and the emotions that we all feel, effectively framed in the digital age. It is something that I feel needs a repeat watch, to soak in every aspect of the psyche that is laid bare before us."
   - type: YouTube 
-    title: Watch Cinnamon Tea on YouTube
+    title: Watch 'Cinnamon Tea' on YouTube
     href: https://www.youtube.com/watch?v=ghUKUXyQCR0
 
 ---

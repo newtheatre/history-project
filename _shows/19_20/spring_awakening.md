@@ -92,10 +92,10 @@ links:
     quote: "I applaud all involved with the two productions for dealing with such difficult topics so sensitively. ‘SPRING’ and ‘AWAKENING’ make up a very moving piece of digital theatre that raises timeless points on teenage sexuality. Despite the difficult circumstances the cast and crew have had to adapt to, their resilience paid off."
   - type: YouTube 
     href: https://www.youtube.com/watch?v=y0hYhi4H3gA
-    title: Watch SPRING on YouTube 
+    title: Watch 'SPRING' on YouTube 
   - type: YouTube 
     href: https://www.youtube.com/watch?v=BxMjP1Pkk14
-    title: Watch AWAKENING on YouTube
+    title: Watch 'AWAKENING' on YouTube
 
 ---
 

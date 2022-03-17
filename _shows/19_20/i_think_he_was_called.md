@@ -58,7 +58,7 @@ links:
     rating: 4/5
     quote: "The cast and crew have done a spectacular job of bringing a new take to ‘As You Like It’. ‘I Think He Was Called Rosalind’ is a truly exciting way to experience Shakespeare in a modern context.  I would urge anyone to head over to the NNT YouTube channel and watch it."
   - type: YouTube 
-    title: Watch I Think He Was Called Rosalind on YouTube
+    title: Watch 'I Think He Was Called Rosalind' on YouTube
     href: https://www.youtube.com/watch?v=UT9FdwHuy00
 
 ---

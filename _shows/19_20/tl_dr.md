@@ -50,7 +50,7 @@ links:
     rating: 4/5
     quote: "If anything, TL;DR works better as an online piece than it would have on stage; it is clearly written with a tailored approach in mind. It is an opening piece that truly celebrates the NNT’s online season with a controversial punch."
   - type: YouTube 
-    title: "Watch TL;DR on YouTube"
+    title: "Watch 'TL;DR' on YouTube"
     href: https://www.youtube.com/watch?v=1fZb8qb7ID4
 
 ---

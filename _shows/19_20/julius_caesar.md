@@ -56,7 +56,7 @@ links:
     rating: 4/5
     quote: "It is incredibly exciting to see the team as a whole do a wonderful job in bringing Shakespeare to the screen in a new way for the quarantine season. I applaud the cast and crew of Julius Caesar, and the NNT as a whole, for creating such engaging theatre under these difficult circumstances."
   - type: YouTube 
-    title: Watch [The Fall of] Julius Caesar on YouTube
+    title: Watch '[The Fall of] Julius Caesar' on YouTube
     href: https://www.youtube.com/watch?v=7zG2_dwIU-Q
 
 ---

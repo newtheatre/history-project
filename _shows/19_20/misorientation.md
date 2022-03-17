@@ -73,7 +73,7 @@ links:
     rating: 4.5/5
     quote: "A positive of a video call structure like this one is that you feel like you are in the zoom call with them all, and are then further drawn into the story. This prompts your own strong reactions to the conversations being had and I definitely wanted to speak up like I really was part of the call."
   - type: YouTube 
-    title: Watch Misorientation on YouTube
+    title: Watch 'Misorientation' on YouTube
     href: https://www.youtube.com/watch?v=R4UjdHLbHEc
 ---
 

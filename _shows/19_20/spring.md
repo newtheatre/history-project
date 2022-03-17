@@ -42,7 +42,7 @@ assets:
 
 links: 
   - type: YouTube
-    title: Watch SPRING on YouTube
+    title: Watch 'SPRING' on YouTube
     href: https://www.youtube.com/watch?v=y0hYhi4H3gA
 
 ---

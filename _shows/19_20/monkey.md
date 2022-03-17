@@ -54,7 +54,7 @@ crew:
 
 links: 
   - type: YouTube 
-    title: Watch MONKEY on YouTube
+    title: Watch 'Monkey' on YouTube
     href: https://www.youtube.com/watch?v=n6hvRj968I8
 
 ---
