@@ -8,7 +8,8 @@ season: Online
 season_sort: 340
 date_start: 2020-08-05
 date_end: 2020-08-05
-venue: Online (via YouTube)
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Des

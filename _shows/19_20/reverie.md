@@ -1,5 +1,4 @@
 ---
-
 title: Reverie
 playwright: Francis Simmons
 student_written: true
@@ -8,7 +7,8 @@ season: Online
 season_sort: 380
 date_start: 2020-08-19
 date_end: 2020-08-19
-venue: Online (via YouTube)
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Reegan

@@ -7,7 +7,8 @@ season: Online
 season_sort: 370
 date_start: 2020-08-12
 date_end: 2020-08-12
-venue: Online (via YouTube)
+venue: YouTube
+venue_sort: Online 
 
 cast:
 - role: Brutus

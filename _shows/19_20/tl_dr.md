@@ -8,7 +8,8 @@ season: Online
 season_sort: 330
 date_start: 2020-07-29
 date_end: 2020-07-30
-venue: Online (via YouTube)
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Alistair Das

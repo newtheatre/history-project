@@ -8,7 +8,8 @@ season: Online
 season_sort: 400
 date_start: 2020-09-02
 date_end: 2020-09-02
-venue: Online (via YouTube)
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Cassie

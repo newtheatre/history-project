@@ -8,7 +8,8 @@ season: External
 season_sort: 320
 date_start: 2020-06-27
 date_end: 2020-06-28
-venue: Online (via YouTube)
+venue: YouTube
+venue_sort: Online
 
 cast:
 - role: Wendla Bergman
