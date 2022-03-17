@@ -55,9 +55,10 @@ links:
     date: 2020-08-13
     rating: 4/5
     quote: "It is incredibly exciting to see the team as a whole do a wonderful job in bringing Shakespeare to the screen in a new way for the quarantine season. I applaud the cast and crew of Julius Caesar, and the NNT as a whole, for creating such engaging theatre under these difficult circumstances."
+  - type: YouTube 
+    title: Watch [The Fall of] Julius Caesar on YouTube
+    href: https://www.youtube.com/watch?v=7zG2_dwIU-Q
 
 ---
 
 In a war torn world a conspiracy emerges to overthrow Caesar, a corrupt leader. The conspirators meet on zoom, plan through text and email- never meeting until the deed is done. Watching through the lens of Brutus’ own computer we see the plot in action and the devastating results that follow. William Shakespeare’s classic text of corruption and unrest takes on a whole new light as we see a fickle public, a newscast filled with war and destruction, and behind the scenes in a conspiracy that only perpetuates a cycle of hate it seeks to end.
-
-Link to '[The Fall of] Julius Caesar' on YouTube: https://www.youtube.com/watch?v=7zG2_dwIU-Q

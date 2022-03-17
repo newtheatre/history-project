@@ -37,8 +37,11 @@ assets:
   - type: poster
     image: 96StrKL
 
+links: 
+  - type: YouTube 
+    title: Watch AWAKENING on YouTube
+    href: https://www.youtube.com/watch?v=BxMjP1Pkk14
+
 ---
 
 ‘AWAKENING’ explores the dangers of forced ignorance and deception when it comes to the lives of young people; a group of schoolchildren trying to navigate the unknowns of adolescence leads to disastrous consequences.
-
-Link to 'AWAKENING' on YouTube: https://www.youtube.com/watch?v=BxMjP1Pkk14

@@ -49,9 +49,10 @@ links:
     date: 2020-07-28
     rating: 4/5
     quote: "If anything, TL;DR works better as an online piece than it would have on stage; it is clearly written with a tailored approach in mind. It is an opening piece that truly celebrates the NNT’s online season with a controversial punch."
+  - type: YouTube 
+    title: "Watch TL;DR on YouTube"
+    href: https://www.youtube.com/watch?v=1fZb8qb7ID4
 
 ---
 
 Everyone has an opinion, it’s mandatory to have one these days. Alastair certainly has them. He can barely contain his over the dinner table. Through the medium of his Youtube channel Alastair delves deeper and deeper into fringe communities of the internet looking for enlightened individuals who are willing to engage. His search takes him further and further into the annals of the internet, isolation and personal oblivion.
-
-Link to 'Reverie' on YouTube: https://www.youtube.com/watch?v=1fZb8qb7ID4

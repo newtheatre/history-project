@@ -1,5 +1,4 @@
 ---
-
 title: SPRING
 playwright: Tara Anegada
 student_written: true
@@ -41,8 +40,11 @@ assets:
   - type: poster
     image: 6ztCw24
 
+links: 
+  - type: YouTube
+    title: Watch SPRING on YouTube
+    href: https://www.youtube.com/watch?v=y0hYhi4H3gA
+
 ---
 
 ‘SPRING’ tells the story of a group of teenagers, as they rebel against their controlling parents, struggle to navigate love, and deal with tragedies around them; they begin to discover their individuality, their sexuality, and ultimately their freedom of choice.
-
-Link to 'SPRING' on YouTube: https://www.youtube.com/watch?v=y0hYhi4H3gA

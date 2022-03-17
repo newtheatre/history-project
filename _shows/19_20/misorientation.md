@@ -72,9 +72,9 @@ links:
     date: 2020-09-02
     rating: 4.5/5
     quote: "A positive of a video call structure like this one is that you feel like you are in the zoom call with them all, and are then further drawn into the story. This prompts your own strong reactions to the conversations being had and I definitely wanted to speak up like I really was part of the call."
-
+  - type: YouTube 
+    title: Watch Misorientation on YouTube
+    href: https://www.youtube.com/watch?v=R4UjdHLbHEc
 ---
 
 Coming out. This is so important to her and Cassie is finally ready to do it. She’s moving on and growing up, and so are her friends. It’s time she accepts her sexuality and tries to be herself. Through disjointed video calls we see the conversations and events that both lead to and follow this revelation and the emotions that come with it. Friends far apart now grow further as they struggle to understand how important coming out can be to those who identify as LGBT+. 
-
-Link to 'Misorientation' on YouTube: https://www.youtube.com/watch?v=R4UjdHLbHEc

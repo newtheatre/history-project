@@ -70,9 +70,10 @@ links:
     date: 2020-08-26
     rating: 4/5
     quote: "Overall ‘Cinnamon Tea’ is a beautiful exploration of the human condition and the emotions that we all feel, effectively framed in the digital age. It is something that I feel needs a repeat watch, to soak in every aspect of the psyche that is laid bare before us."
+  - type: YouTube 
+    title: Watch Cinnamon Tea on YouTube
+    href: https://www.youtube.com/watch?v=ghUKUXyQCR0
 
 ---
 
 Cinnamon Tea is an exploratory collection of monologues derived from verbatim interviews. Real life stories and experiences have been transformed into creative writing for film, delving into themes of the human psyche; memories, secrets, regrets, pride and personal experiences. We have endeavoured to create a visually satisfying, documentary-inspired series, highlighting truth and raw human emotion. 
-
-Link to 'Cinnamon Tea' on YouTube: https://www.youtube.com/watch?v=ghUKUXyQCR0

@@ -31,3 +31,8 @@
 - type: Review
   icon: fa fa-newspaper-o
   is_news: true
+
+- type: Recording 
+  icon: fa fa-video-camera 
+- type: YouTube 
+  icon: fa fa-youtube-play 

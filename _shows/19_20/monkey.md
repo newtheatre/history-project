@@ -52,8 +52,11 @@ assets:
 prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
+links: 
+  - type: YouTube 
+    title: Watch MONKEY on YouTube
+    href: https://www.youtube.com/watch?v=n6hvRj968I8
+
 ---
 
 A Zoom pub quiz, held to satisfy the desire for human interaction, ends in a harsh reality check for a friendship group challenged by addiction. A distrustful Des quietly observes the call, whilst analysing his friends’ unfiltered motives and mannerisms. His suspicions regarding Danny’s escalating addiction to drugs bubble under the surface as he navigates the power dynamics underpinning his friendships. Des is confronted by a dilemma between his own moral compass and the realities of living closely with an addict. 
-
-Link to 'Monkey' on YouTube: https://www.youtube.com/watch?v=n6hvRj968I8
