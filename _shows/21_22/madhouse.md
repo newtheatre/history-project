@@ -1,7 +1,7 @@
 ---
-
 title: Madhouse - Edinburgh Showcase
 playwright: M Craig
+playwright_alias: Madeleine Craig 
 student_written: true
 period: Autumn
 season: Edinburgh

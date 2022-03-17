@@ -1,10 +1,7 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: Killer Café
 playwright: M Craig
+playwright_alias: Madeleine Craig 
 student_written: true
 period: Autumn
 season: Fringe
