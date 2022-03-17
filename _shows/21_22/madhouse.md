@@ -4,7 +4,7 @@ playwright: M Craig
 playwright_alias: Madeleine Craig 
 student_written: true
 period: Autumn
-season: Edinburgh
+season: External 
 season_sort: 10
 date_start: 2021-10-02
 date_end: 2021-10-02
