@@ -1,11 +1,8 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: Goblin Market
 playwright: Christina Rossetti
 adaptor: Caetano Capurro
+student_written: true 
 period: Autumn
 season: In House
 season_sort: 60
