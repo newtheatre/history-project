@@ -31,7 +31,7 @@ cast:
 - role: Durkee
   name: James Fellas Laurie
 
-crew: # Omit certain roles as required
+crew: 
 - role: Director
   name: Ella Seber-Rajan
 - role: Producer
@@ -77,4 +77,4 @@ assets:
 ---
 It is the summer of 1968, 20 years after the first influx of Caribbean migrants from the Windrush passenger ship. In the Easr End of London, a tropical heat fills the air, carrying the scent of reggae, spices and a chance at true love. Whilst tensions between white and black communities are high and the chances of racial harmony seem slim, Lizzie Darcy and Delroy Thompson attempt to defy the odds. Two people, from two very different worlds form an unlikely bond, one that could only be justly described as destiny. However, the imperfect reality of the 60s quickly wipes away the rose-coloured stain on this story and instead poses the question of, this story and instead poses the quesiton of, how does it feel to love someone when the world tells you not to?
 
-A fsmily story, inspired by true events.
+A family story, inspired by true events.
