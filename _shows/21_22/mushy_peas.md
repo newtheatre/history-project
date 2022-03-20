@@ -13,67 +13,41 @@ date_start: 2021-12-12
 date_end: 2021-12-14
 venue: New Theatre Studio A
 
-trivia:
-
 cast:
-- role:
-  name:
+- role: Mai
+  name: Millie Rushworth
+- role: Bobbie
+  name: Katie Booth
+- role: Jade
+  name: Daisy Norton
+- role: Johnny
+  name: Tom Oldmeadow
+- role: Harri
+  name: Isaac Pengelley
+- role: Jason
+  name: Ramy Ben Fredji
+- role: Fran
+  name: Rachel Coussins
 
-crew: # Omit certain roles as required
+crew: 
 - role: Director
-  name:
-- role: Assistant Director 
-  name:
+  name: Ela Moss
+- role: Assistant Director Director
+  name: Ellie Harding
 - role: Producer
-  name:
+  name: Max Nichols
 - role: Assistant Producer
-  name:
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
-- role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
-- role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Tarin Wenger
+- role: Stage Manager
+  name: Jenny Tucker
+- role: Lighting Designer
+  name: Jessica Crabtree
+- role: Sound Designer
+  name: Caetano Capurro
 
 assets:
   - type: poster
     image: 7KqnNbn
-  - type:
-    video:
-    title:
-
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
 
 ---
-
-<!-- Insert the show summary here -->
+Set in a quintessential British pub, sit on the sidelines and be a fly on the wall to the conversations within. Mushy Peas is a play about human connection that normalises being there for someone in times of turbulence, capturing an essence of what it is to be young and finding one’s place amongst the people they love most. Witness the hybrid form of spoken word poetry and dialogue through which the character’s interiority is unearthed . Behind the mirage of drinking, laughing and watching footy lies the minds of individuals who love passionately, feel deeply and struggle without mercy.
