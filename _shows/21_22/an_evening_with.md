@@ -5,7 +5,7 @@
 
 title: "An Evening With _____"
 playwright: Pete Rouse and Jack Titley
-student_written:
+student_written: true
 period: Autumn
 season: Fringe
 season_sort: 120
@@ -13,67 +13,42 @@ date_start: 2021-12-16
 date_end: 2021-12-18
 venue: New Theatre Studio A
 
-trivia:
-
 cast:
-- role:
-  name:
+- role: The Celebrity
+  name: Isabelle Kennedy-Grimes
 
-crew: # Omit certain roles as required
-- role: Director
-  name:
-- role: Assistant Director 
-  name:
+crew: 
+- role: Co-Director
+  name: Jack Titley
+- role: Co-Director
+  name: Pete Rouse
 - role: Producer
-  name:
-- role: Assistant Producer
-  name:
-- role: Technical Director 
-  name:
-- role: Shadow Technical Director
-  name:
+  name: Ylana Gibert
+- role: Shadow Director
+  name: Rosie Loader
+- role: Voice Actor
+  name: Rosie Loader
+- role: Shadow Producer
+  name: Laura Denison
 - role: Lighting Designer 
-  name:
+  name: Sarina Rivlin-Sanders
 - role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
+  name: Barney Hartwill
+- role: Creative Assistant 
+  name: Alice Walker
+- role: Publicity Manager
+  name: Jake Levy
 - role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Pete Rouse
 
 assets:
-  - type:
-    image:
-  - type:
-    video:
-    title:
-
-prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
-
-links:
-  - type:
-    href:
-    snapshot:
-    publisher:
-    author:
-    title: ""
-    date:
-    rating:
-    quote:
+  - type: poster
+    image: 	jTZ2Jvn
 
 ---
+Come and join ___ as they invite you into their home. Catch a glimpse
+behind the curtain of what the life of glitz and glamour is truly like. For
+better or for worse.
+A one hand devised character study that explores the pressures of stardom
+and asks the question: who deserves to be famous.
 
-<!-- Insert the show summary here -->
