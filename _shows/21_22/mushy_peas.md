@@ -5,7 +5,7 @@
 
 title: Mushy Peas
 playwright: Ela Moss and Ellie Harding
-student_written:
+student_written: true
 period: Autumn
 season: Fringe
 season_sort: 110
