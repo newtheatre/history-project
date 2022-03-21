@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: "An Evening With _____"
 playwright: Pete Rouse and Jack Titley
 student_written: true
@@ -43,12 +39,11 @@ crew:
 
 assets:
   - type: poster
-    image: 	jTZ2Jvn
+    image: jTZ2Jvn
 
 ---
-Come and join ___ as they invite you into their home. Catch a glimpse
-behind the curtain of what the life of glitz and glamour is truly like. For
+Come and join ___ as they invite you into their home. Catch a glimpse behind the curtain of what the life of glitz and glamour is truly like. For
 better or for worse.
-A one hand devised character study that explores the pressures of stardom
-and asks the question: who deserves to be famous.
+
+A one hand devised character study that explores the pressures of stardom and asks the question: who deserves to be famous.
 
