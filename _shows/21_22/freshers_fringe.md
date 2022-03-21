@@ -167,4 +167,4 @@ assets:
     image: 3Gm3bq7
 
 ---
-We are very excited to present our new members in Freshers Fringe! All of these sketches have been developed within the week with current members taking them under their wing as freshers parents. Come along for a night of laughter and see what the NNT is about!
+We are very excited to present our new members in Freshers' Fringe! All of these sketches have been developed within the week with current members taking them under their wing as freshers parents. Come along for a night of laughter and see what the NNT is about!
