@@ -60,19 +60,19 @@ crew:
 - role: Assistant Director 
   name: Lillian Race
   note: SPRING
-- role: Digital Producer
+- role: Producer
   name: Alice Walker
   note: SPRING
-- role: Digital Producer
+- role: Producer
   name: Skylar Turnbull Hurd
   note: SPRING
-- role: Digital Producer 
+- role: Producer 
   name: Zoe Smith
   note: SPRING
-- role: Digital Producer
+- role: Producer
   name: Em Rule
   note: AWAKENING
-- role: Digital Producer 
+- role: Producer 
   name: Lucy Chandler
   note: AWAKENING
 
