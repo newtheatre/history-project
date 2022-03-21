@@ -29,11 +29,11 @@ crew:
   name: Tara Anegada
 - role: Assistant Director 
   name: Lillian Race
-- role: Digital Producer
+- role: Producer
   name: Alice Walker
-- role: Digital Producer
+- role: Producer
   name: Skylar Turnbull Hurd
-- role: Digital Producer 
+- role: Producer 
   name: Zoe Smith
 
 assets:
