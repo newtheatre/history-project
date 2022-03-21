@@ -2,6 +2,7 @@
 
 title: "[The Fall of] Julius Caesar"
 playwright: William Shakespeare
+adaptor: Jasmine Butler
 period: Spring
 season: Online
 season_sort: 370
