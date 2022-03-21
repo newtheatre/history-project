@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: Beyond The Sky
 playwright: Ella Seber-Rajan and Abraham Botha
 student_written: true
@@ -46,7 +42,7 @@ crew:
   name: Jessica Crabtree
 - role: Sound Designer 
   name: Caetano Capurro
-- role: Tech Assistant
+- role: Technical Assistant
   name: Em Rule
 - role: Set Designer 
   name: Nicholas Landon
