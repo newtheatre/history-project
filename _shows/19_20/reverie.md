@@ -40,9 +40,9 @@ crew:
 - role: Captioner
   name: Cecilia Alexander
 
- assets:
-   - type: poster
-     image: p4XLS9h
+assets:
+  - type: poster
+    image: p4XLS9h
 
 links:
   - type: Review
