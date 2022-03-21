@@ -6,6 +6,11 @@ title: Macbeth
 playwright: William Shakespeare
 season_sort: 230
 venue: New Theatre
+assets:
+  - type: poster
+    image: bGxgXsZ
+  - type: programme
+    image: 8f9RcZV
 cast:
   - role: Duncan
     name: Martin Pye
@@ -48,7 +53,7 @@ cast:
   - role: Doctor
     name: Sonja Webb
   - role: Gentlewoman
-    name: Rachel  Webb
+    name: Rachel Bill
 crew:
   - role: Director
     name: Mark Heywood
