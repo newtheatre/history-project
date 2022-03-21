@@ -45,9 +45,9 @@ crew:
 - role: Captioner
   name: Cecilia Alexander
 
- assets:
-   - type: poster
-     image: qf6qBtL
+assets:
+  - type: poster
+    image: qf6qBtL
 
 links: 
   - type: YouTube 
