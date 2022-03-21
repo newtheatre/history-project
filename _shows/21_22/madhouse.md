@@ -1,5 +1,5 @@
 ---
-title: Madhouse - Edinburgh Showcase
+title: Madhouse
 playwright: M Craig
 playwright_alias: Madeleine Craig 
 student_written: true
