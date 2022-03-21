@@ -1,6 +1,6 @@
 ---
 
-title: It's Not Rocket Science - Edinburgh Showcase
+title: It's Not Rocket Science
 playwright: Cecilia Alexander
 student_written: true
 period: Autumn
