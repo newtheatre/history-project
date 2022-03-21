@@ -32,7 +32,7 @@ cast:
 crew: 
 - role: Director
   name: Ela Moss
-- role: Assistant Director Director
+- role: Assistant Director
   name: Ellie Harding
 - role: Producer
   name: Max Nichols
@@ -50,4 +50,4 @@ assets:
     image: 7KqnNbn
 
 ---
-Set in a quintessential British pub, sit on the sidelines and be a fly on the wall to the conversations within. Mushy Peas is a play about human connection that normalises being there for someone in times of turbulence, capturing an essence of what it is to be young and finding one’s place amongst the people they love most. Witness the hybrid form of spoken word poetry and dialogue through which the character’s interiority is unearthed . Behind the mirage of drinking, laughing and watching footy lies the minds of individuals who love passionately, feel deeply and struggle without mercy.
+Set in a quintessential British pub, sit on the sidelines and be a fly on the wall to the conversations within. 'Mushy Peas' is a play about human connection that normalises being there for someone in times of turbulence, capturing an essence of what it is to be young and finding one’s place amongst the people they love most. Witness the hybrid form of spoken word poetry and dialogue through which the character’s interiority is unearthed . Behind the mirage of drinking, laughing and watching footy lies the minds of individuals who love passionately, feel deeply and struggle without mercy.
