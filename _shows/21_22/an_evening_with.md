@@ -42,8 +42,7 @@ assets:
     image: jTZ2Jvn
 
 ---
-Come and join ___ as they invite you into their home. Catch a glimpse behind the curtain of what the life of glitz and glamour is truly like. For
-better or for worse.
+Come and join ___ as they invite you into their home. Catch a glimpse behind the curtain of what the life of glitz and glamour is truly like. For better or for worse.
 
 A one hand devised character study that explores the pressures of stardom and asks the question: who deserves to be famous.
 
