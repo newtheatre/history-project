@@ -45,12 +45,9 @@ crew:
 - role: Captioner
   name: Cecilia Alexander
 
-# assets:
-#   - type:
-#     image:
-
-# prod_shots:
-  # Use this - https://history.newtheatre.org.uk/util/smug-albums/
+ assets:
+   - type: poster
+     image: qf6qBtL
 
 links: 
   - type: YouTube 
