@@ -28,9 +28,9 @@ cast:
 crew: 
 - role: Director
   name: Jack Titley
-- role: Digital Producer
+- role: Producer
   name: Em Rule
-- role: Digital Producer 
+- role: Producer 
   name: Lucy Chandler
 
 assets:
