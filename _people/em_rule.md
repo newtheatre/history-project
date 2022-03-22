@@ -1,7 +1,7 @@
 ---
 title: Em Rule
 alias: Emily Rule
-headshot: ssFMGdM
+headshot: dR9qSmd
 gender: female
 submitted: false
 
