@@ -8,7 +8,8 @@ season: Edinburgh
 season_sort: 150
 date_start: 2021-08-17
 date_end: 2021-08-29
-venue: theSpaceUK
+venue: Bevan Theatre 
+venue_sort: theSpaceUK
 
 cast:
 - role: Eve
