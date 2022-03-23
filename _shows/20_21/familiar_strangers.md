@@ -43,7 +43,7 @@ crew:
   name: Sam Osborne
 - role: Assistant Video Editor
   name: Skylar Turnbull Hurd
-- role: Graphics Designer
+- role: Graphic Designer
   name: Skylar Turnbull Hurd
   
 assets:
