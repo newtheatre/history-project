@@ -45,7 +45,7 @@ crew:
   name: Beth White
 - role: Creative Assistant 
   name: Giulia Duggan
-- role: Cameraman
+- role: Camera Operator
   name: Rhys Hughes
   person: false
 
