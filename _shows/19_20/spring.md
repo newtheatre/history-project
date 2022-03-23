@@ -4,7 +4,7 @@ playwright: Tara Anegada
 student_written: true
 period: Edinburgh
 season: Edinburgh
-season_sort: 350
+season_sort: 450
 date_start: 2020-08-08
 date_end: 2020-08-08
 venue: theSpaceUK Online
