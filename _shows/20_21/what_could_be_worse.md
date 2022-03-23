@@ -38,8 +38,9 @@ crew:
   name: Abie Whitehead
 - role: Creative Assistant
   name: Holly West
-- role: Original Music Composer
+- role: Composer
   name: Raphael Chenais
+  note: Original Music
 
 assets:
   - type: poster
