@@ -8,6 +8,8 @@ season: Unscripted
 season_sort: 120
 date_start: 2021-04-28
 date_end: 2021-04-28
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Nick Baslehamn

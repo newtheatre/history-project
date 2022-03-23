@@ -8,6 +8,8 @@ season: Online
 season_sort: 80
 date_start: 2020-12-13
 date_end: 2020-12-13
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Katherine Compert

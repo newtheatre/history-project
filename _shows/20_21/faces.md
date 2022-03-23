@@ -8,6 +8,8 @@ season: Online
 season_sort: 70
 date_start: 2020-12-09
 date_end: 2020-12-09
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Narrator 1

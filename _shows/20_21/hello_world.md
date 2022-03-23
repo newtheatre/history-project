@@ -7,7 +7,8 @@ season: Online
 season_sort: 20
 date_start: 2020-11-18
 date_end: 2020-11-18
-venue: New Theatre
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Zero

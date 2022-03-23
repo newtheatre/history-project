@@ -8,6 +8,8 @@ season: Online
 season_sort: 40
 date_start: 2020-11-29
 date_end: 2020-11-29
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Sofia 1

@@ -8,6 +8,8 @@ season: Online
 season_sort: 100
 date_start: 2021-03-17
 date_end: 2021-03-17
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Actor

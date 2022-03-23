@@ -7,6 +7,8 @@ season: Online
 season_sort: 90
 date_start: 2020-12-16
 date_end: 2020-12-16
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Mason

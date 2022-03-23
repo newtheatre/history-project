@@ -8,6 +8,8 @@ season: Online
 season_sort: 60
 date_start: 2020-12-06
 date_end: 2020-12-06
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Sally

@@ -8,6 +8,8 @@ season: Online
 season_sort: 110
 date_start: 2021-03-24
 date_end: 2021-03-24
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Mac

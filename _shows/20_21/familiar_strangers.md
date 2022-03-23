@@ -9,6 +9,8 @@ season: Online
 season_sort: 50
 date_start: 2020-12-02
 date_end: 2020-12-02
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Laura

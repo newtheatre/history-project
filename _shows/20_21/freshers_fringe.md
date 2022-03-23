@@ -6,7 +6,8 @@ season: Online
 season_sort: 10
 date_start: 2020-10-28
 date_end: 2020-10-28
-venue: New Theatre
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - name: Roni Altman
