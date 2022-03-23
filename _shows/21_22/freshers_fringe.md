@@ -119,6 +119,9 @@ cast:
    note: Jake's Group
  - name: Sophie Walters
    note: Jake's Group
+
+crew_incomplete: true 
+crew_note: "It looks like we're missing some of the technical and stage crew."
    
 crew: # Omit certain roles as required
 - role: Director
