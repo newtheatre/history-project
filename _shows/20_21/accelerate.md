@@ -41,7 +41,9 @@ crew:
   name: Callum James
 - role: Visual Editor
   name: Max Nichols
-- role: Sound Editor and Designer
+- role: Sound Editor 
+  name: Caetano Capurro
+- role: Sound Designer
   name: Caetano Capurro
 - role: Assistant Editor 
   name: Skylar Turnbull Hurd 
