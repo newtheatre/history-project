@@ -52,8 +52,11 @@ assets:
   - type: poster
     image: ZT6rgC8
 
+links: 
+  - type: YouTube 
+    title: Watch 'Speaking Solo' on YouTube
+    href: https://www.youtube.com/watch?v=HQpETYPiVNY
+
 ---
 'Speaking Solo’ is a collection of monologues written, directed and performed by members and associates alike. This brand new opportunity displays the talent the membership has, and offers a chance for budding writers to show off the stories and characters created in their head. The show contains 4 captivating monologues.
-
-Link to 'Speaking Solo' on YouTube: https://www.youtube.com/watch?v=HQpETYPiVNY
 

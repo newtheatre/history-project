@@ -44,9 +44,11 @@ assets:
   - type: poster
     image: 7FMzZrB
 
+links: 
+  - type: YouTube 
+    title: Watch 'Far Apart' on YouTube
+    href: https://www.youtube.com/watch?v=1SvHR8MSA8Q
+
 ---
 
 Having grown up together, Andi, Cal, and Alex were as close as siblings could be. Distance proved to be the only thing that would dare to push them apart. That is until their world starts shattering around them. As they begin to lose a loved one, we see these siblings fall apart and come together, trying to cope with the reality of what is happening. 
-
-Link to 'Far Apart' on YouTube: https://www.youtube.com/watch?v=1SvHR8MSA8Q&t=2s
-

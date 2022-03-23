@@ -57,11 +57,12 @@ assets:
   - type: trailer
     video: 89hwcv5
 
+links: 
+  - type: YouTube 
+    title: Watch 'When Sally Met Gary, Henry, Harry' on YouTube
+    href: https://www.youtube.com/watch?v=T7BI-gIrqoM
+
 ---
 
 Everyone’s heard of the classic love story, When Harry Met Sally, but in 2020 it feels a bit outdated. How do we find our soulmate nowadays? Tinder. Obviously. Unbelievably bored at the start of lockdown, dating-app skeptic Sally finally installs it. ‘It works for some people!’ The voice of her best friend, Chrissy, rings in her ears. She gives it a go… How bad can it be, right? She’s not expecting, or hoping, for love at first swipe. That was true until she matched with the fateful serial-dater Harry.
-
-Link to 'When Sally Met Gary, Henry, Harry' on YouTube: https://www.youtube.com/watch?v=T7BI-gIrqoM&t=6s
-
-
 

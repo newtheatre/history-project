@@ -48,8 +48,11 @@ assets:
   - type: poster
     image: 5bWLf24
 
+links:
+  - type: YouTube 
+    title: Watch 'Familiar Strangers' on YouTube
+    href: https://www.youtube.com/watch?v=bqZImJhV_Os
+
 ---
 
 'Familiar Strangers' considers the exhilarating and addictive world of online dating, along with the ambiguous and potentially destructive nature of anonymity. Can 'matches' be trusted? The play undertakes an ominous tone caused by the dark uncertainty of virtual reality, while incorporating humour as young singles fail to flirt in their quest for romance.
-
-Link to 'Familiar Strangers' on YouTube: https://www.youtube.com/watch?v=bqZImJhV_Os&t=906s
