@@ -26,16 +26,16 @@ cast:
   note: Nighthawk
 
 crew: 
-- role: Writer
+- role: Playwright
   name: Alexandra Hogg
   note: Red
-- role: Writer
+- role: Playwright
   name: Emi Thackray
   note: The Universe Will Take Care of You
-- role: Writer
+- role: Playwright
   name: Geethika Ayiliath
   note: A Momentary Spark Between Neurons
-- role: Writer
+- role: Playwright
   name: Sunenna Sohal
   note: A Momentary Spark Between Neurons
 - role: Writer
