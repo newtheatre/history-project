@@ -38,10 +38,12 @@ crew:
   name: Pete Rouse
 - role: Video Editor
   name: Caetano Capurro
+  note: Show
 - role: Graphic Designer
   name: Zoe Smith
-- role: Trailer Editor
+- role: Video Editor
   name: Zoe Smith
+  note: Trailer 
 - role: Publicity Assistant 
   name: Izzy de Bono
 - role: Sound Designer 
