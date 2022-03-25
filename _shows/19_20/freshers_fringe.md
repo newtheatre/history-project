@@ -31,7 +31,9 @@ cast:
 - name: Zainab Lawal
   note: Tara, Francis and Sally's Group 
 - name: Lottie Wright 
-  note: Tara, Francis and Sally's Group 
+  note: Tara, Francis and Sally's Group
+- name: Lauren Birks 
+  note: Tara, Francis and Sally's Group
 - name: Adriana Dvorakove
   note: Danni and Nadia's Group 
 - name: Ella Seber-Rajan

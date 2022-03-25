@@ -38,7 +38,7 @@ crew:
   name: Skylar Turnbull Hurd
 - role: Poster Designer 
   name: Skylar Turnbull Hurd
-- role: Cameraman 
+- role: Camera Operator
   name: Josh Spear
 - role: Captioner 
   name: Zoe Smith

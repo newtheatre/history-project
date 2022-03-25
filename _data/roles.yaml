@@ -16,6 +16,7 @@
   icon: ion-film-marker
   aliases:
     - Co-director
+    - Co-Director 
     - Assistant Director
     - Shadow Director 
 
@@ -23,11 +24,14 @@
   icon: fa fa-money
   aliases:
     - Assistant Producer
+    - Co-producer 
+    - Co-Producer 
 
 - role: Production Advisor 
   icon: fa fa-comments-o
   aliases:
     - Improv Advisor
+    - Captioner 
 
 - role: Set Designer
   icon: ion-paintbucket
@@ -106,12 +110,18 @@
   icon: fa fa-picture-o
   aliases:
     - Poster Design
+    - Graphic Designer 
 - role: Artwork
   icon: fa fa-picture-o
 - role: Photographer
   icon: fa fa-camera-retro
   aliases:
     - Photography
+
+- role: Video Editor 
+  icon: fa fa-file-video-o
+  aliases: 
+    - Assistant Video Editor
 
 - role: Set Construction
   icon: ion-hammer

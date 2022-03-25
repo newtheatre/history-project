@@ -9,6 +9,8 @@ season: Online
 season_sort: 50
 date_start: 2020-12-02
 date_end: 2020-12-02
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Laura
@@ -41,15 +43,18 @@ crew:
   name: Sam Osborne
 - role: Assistant Video Editor
   name: Skylar Turnbull Hurd
-- role: Graphics Designer
+- role: Graphic Designer
   name: Skylar Turnbull Hurd
   
 assets:
   - type: poster
     image: 5bWLf24
 
+links:
+  - type: YouTube 
+    title: Watch 'Familiar Strangers' on YouTube
+    href: https://www.youtube.com/watch?v=bqZImJhV_Os
+
 ---
 
 'Familiar Strangers' considers the exhilarating and addictive world of online dating, along with the ambiguous and potentially destructive nature of anonymity. Can 'matches' be trusted? The play undertakes an ominous tone caused by the dark uncertainty of virtual reality, while incorporating humour as young singles fail to flirt in their quest for romance.
-
-Link to 'Familiar Strangers' on YouTube: https://www.youtube.com/watch?v=bqZImJhV_Os&t=906s

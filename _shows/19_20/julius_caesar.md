@@ -3,6 +3,7 @@
 title: "[The Fall of] Julius Caesar"
 playwright: William Shakespeare
 adaptor: Jasmine Butler
+student_written: true
 period: Spring
 season: Online
 season_sort: 370
@@ -43,7 +44,7 @@ assets:
   - type: poster
     image: ZBh97Rx
 
-prod_shots:
+# prod_shots:
   # Use this - https://history.newtheatre.org.uk/util/smug-albums/
 
 links:

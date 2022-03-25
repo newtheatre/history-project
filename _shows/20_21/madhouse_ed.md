@@ -9,7 +9,8 @@ season: Edinburgh
 season_sort: 140
 date_start: 2021-08-16
 date_end: 2021-08-28
-venue: theSpaceUK
+venue: Bevan Theatre 
+venue_sort: theSpaceUK
 
 cast:
 - role: Ollie

@@ -8,6 +8,8 @@ season: Online
 season_sort: 40
 date_start: 2020-11-29
 date_end: 2020-11-29
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Sofia 1
@@ -43,7 +45,7 @@ crew:
   name: Beth White
 - role: Creative Assistant 
   name: Giulia Duggan
-- role: Cameraman
+- role: Camera Operator
   name: Rhys Hughes
   person: false
 
@@ -51,7 +53,10 @@ assets:
   - type: poster
     image: dG6cbBZ
 
+links:
+  - type: YouTube 
+    title: Watch 'Autumn Showers' on YouTube
+    href: https://www.youtube.com/watch?v=6k8GKvlf7Yw
+
 ---
 Sofia’s finally left the nest. She’s moved out from her parent’s home and is having to adapt to the rapidly changing world around her. But, as student life proves to be more challenging that she imagined, she finds herself missing the person, she didn’t think she needed any longer: her mum. As Sofia begins to unravel memories from her childhood and adolescence, we get to see a complex yet beautiful relationship between a mother and a daughter evolve.
-
-Link to 'Autumn Showers' on YouTube: https://www.youtube.com/watch?v=6k8GKvlf7Yw&t=87s

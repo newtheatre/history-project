@@ -37,7 +37,7 @@ crew:
 - role: Production Assistant
   name: Oliver Kletz
 - role: Lighting Designer 
-  name: Alex Hogg
+  name: Alexendra Hogg
 - role: Poster Designer 
   name: Pete Rouse
 - role: Costume Assistant

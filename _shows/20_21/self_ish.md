@@ -8,6 +8,8 @@ season: Online
 season_sort: 110
 date_start: 2021-03-24
 date_end: 2021-03-24
+venue: YouTube 
+venue_sort: Online 
 
 cast:
 - role: Mac
@@ -56,8 +58,11 @@ crew:
 assets:
   - type: poster
     image: MtzXvCV
+
+links: 
+  - type: YouTube 
+    title: Watch 'Self-ish' on YouTube
+    href: https://www.youtube.com/watch?v=kw0uO-YxbDg
     
 ---
 "Emotionally unavailable" Mac is miserable after their ex dumps them, saying they don't know how to "feel". Although Mac is not really sure what to do with that information, their emotions are livid and demand an explanation! They force Mac into discussion and exploration of how they themselves feel and function, trying to find a way to make it through this tough time. A student spin inspired by Pixar's 'Inside Out', 'Self-ish' brings an alternative way to view the complete happenings of the mind through light-hearted comedy and the "beloved" zoom format.
-
-Link to 'Self-ish' on YouTube: https://www.youtube.com/watch?v=kw0uO-YxbDg&t=1s

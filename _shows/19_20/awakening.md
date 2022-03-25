@@ -1,15 +1,14 @@
 ---
-
 title: AWAKENING
 playwright: Tara Anegada
 student_written: true
 period: Edinburgh
 season: Edinburgh
-season_sort: 360
+season_sort: 460
 date_start: 2020-08-08
 date_end: 2020-08-08
 venue: theSpaceUK Online
-venue_sort: theSpace
+venue_sort: theSpaceUK
 
 cast:
 - role: Melchior Gabor
