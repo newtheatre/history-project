@@ -81,13 +81,13 @@ body_class: layout-person header-nobr content-nobr
       <div class="box-warning">
         <i class="fa fa-question"></i>
         <h3>Missing Biography</h3>
-        <p>We are collecting biographies on New Theatre alumni, if this is you please <a href="{{ submit_link }}">submit one here</a>.</p>
+        <p>We are collecting biographies on New Theatre {% if person.student %}members{% else %}alumni{% endif %}, if this is you please <a href="{{ submit_link }}">submit one here</a>.</p>
       </div>
     </div>
     {% endif %}
 
-    <section class="person-past">
-      <h2>Then</h2>
+    <section class="person-{% if person.student %}current{% else %}past{% endif %}">
+      <h2>{% if person.student %}Now{% else %}Then{% endif %}</h2>
       <dl class="person-meta-list">
         {% for course in person.course %}
           <dt><i class="fa fa-fw fa-book"></i>Course</dt>
@@ -120,10 +120,15 @@ body_class: layout-person header-nobr content-nobr
         </dd>
         {% endif %}
       </dl>
+      {% if person.student %}
+        {% include link-list.html links=person.links %}
+
+        {% include link-list.html links=person.news %}
+      {% endif %}
     </section>
 
-    {% if person.placeholder == false %}
-    <!-- Person has a file -->
+    {% if person.placeholder == false and person.student == false %}
+    <!-- Person has a file and is not a student -->
 
     <section class="person-current">
       <h2>Now</h2>
@@ -139,6 +144,12 @@ body_class: layout-person header-nobr content-nobr
       {% include link-list.html links=person.links %}
 
       {% include link-list.html links=person.news %}
+
+      {% if person.careers.size == 0 and person.links.size == 0 and person.news.size == 0 %}
+        <p class="micro">
+          <a href="https://github.com/newtheatre/history-project/issues/new?body={{page.url}}" class="subtle" data-proofer-ignore data-report-this-page>We don't know what {{ person.title | escape_once }} is up to now. Can you help? Message the editors.&hellip;</a>
+        </p>
+      {% endif %}
 
     </section>
 
