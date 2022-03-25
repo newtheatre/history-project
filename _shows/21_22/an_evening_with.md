@@ -5,8 +5,8 @@ student_written: true
 period: Autumn
 season: Fringe
 season_sort: 120
-date_start: 2021-12-16
-date_end: 2021-12-18
+date_start: 2022-02-27
+date_end: 2022-03-01
 venue: New Theatre Studio A
 
 cast:
@@ -45,4 +45,7 @@ assets:
 Come and join ___ as they invite you into their home. Catch a glimpse behind the curtain of what the life of glitz and glamour is truly like. For better or for worse.
 
 A one hand devised character study that explores the pressures of stardom and asks the question: who deserves to be famous.
+
+
+This show was originally intended to be a part of the Autumn season, but was unfortunately postponed due to Covid.
 
