@@ -88,7 +88,7 @@ crew:
 - role: Video Designer 
   name: Zoe Smith
 - role: Set Designer 
-  name: Rachel ELphick
+  name: Rachel Elphick
 - role: Set Designer 
   name: Nadia Elalfi
 - role: Poster Designer 
