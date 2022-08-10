@@ -28,4 +28,3 @@ Winner "Best Solo Act" Scene Alba Awards 2021
 "A newly discovered comedy icon" The Wee Review
  
 "Wow. Just wow!" Scene Alba
-![image](https://user-images.githubusercontent.com/92263860/184022199-eacd1d1c-15a8-476a-9a4c-09a35c257b10.png)
