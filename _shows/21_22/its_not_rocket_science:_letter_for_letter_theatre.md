@@ -1,0 +1,36 @@
+---
+title: It's Not Rocket Science: Letter for Letter Theatre
+playwright: Cecilia Alexander
+student_written: true
+period: Spring
+season: StuFF
+season_sort: 340
+date_start: 2022-06-13
+date_end: 2022-06-13
+venue: New Theatre
+
+cast:
+- role: Eve
+  name: Alice Connolly
+- role: Male Multi-Role
+  name: Stef White
+- role: Female Multi-Role
+  name: Helen Knudsen
+
+crew:
+-role: Director
+ name: Cecilia Alexander
+-role: Co-Producer
+ name: Zoe Smith
+-role: Co-Producer
+ name: Laura Wolczyk
+- role: Show Technician
+  name: James Appleby
+
+assets:
+  - type: poster
+   image: sLDmKK6
+---
+
+'It’s a man’s world' they say, looking at Earth. But beyond that, the vast expanse we call ‘space’, is largely unknown, unclaimed; a free for all. At least, it could be if my boss stopped calling me ‘sweetheart’. Eve always knew she belonged in the stars, but those on Earth keep bringing her down. Watch her grow up and grow wiser about how rocket science is the easy part, but being treated equally isn’t. This piece of verbatim theatre uses interviews from over 20 female aerospace professionals and presents their experiences navigating this male-dominated industry.
+
