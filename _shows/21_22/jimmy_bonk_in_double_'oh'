@@ -53,25 +53,25 @@ crew:
   name: Harry Berry
 - role: Deputy Stage Manager
   name: Abigail Kitwood
-- role: Writer
+- role: Playwright
   name: Caetano Capurro
-- role: Writer
+- role: Playwright
   name: Jess Beadle-Platt
-- role: Writer
+- role: Playwright
   name: Abigail Kitwood
-- role: Writer
+- role: Playwright
   name: Isabelle Kennedy-Grimes
 - role: Costume Assistant
   name: Sophie Mitchell
 - role: Costume Assistant
   name: Karen Turnbull
-- role: Writer
+- role: Playwright
   name: Karen Turnbull
 - role: Producer
   name: Ella Seber-Rajan
-- role: Writer 
+- role: Playwright 
   name: Maria Stavrakaki
-- role: Writer 
+- role: Playwright 
   name: Nicolas Landon
 
 assets:
