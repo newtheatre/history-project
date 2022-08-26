@@ -7,7 +7,8 @@ season: StuFF
 season_sort: 390
 date_start: 2022-06-14
 date_end: 2022-06-14
-venue: Outdoor Venue
+venue: Walled Garden
+venue_sort: University Park
 
 cast: 
 -role: Alice
