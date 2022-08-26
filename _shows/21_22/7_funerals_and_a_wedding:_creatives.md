@@ -1,5 +1,8 @@
 ---
 title: 7 Funerals and a Wedding: Creatives
+company: Creatives
+playwright: various
+student_written: true
 period: Spring
 season: StuFF
 season_sort: 280
@@ -41,21 +44,21 @@ cast:
 crew:
 - role: Director
   name: Caetano Capurro
-- role: Writer
+- role: Playwright
   name: Caetano Capurro
 - role: Sound Designer
   name: Abigail Kitwood
-- role: Writer
+- role: Playwright
   name: Abigail Kitwood
-- role: Writer
+- role: Playwright
   name: Isabelle Kennedy-Grimes
 - role: Assistant Stage Manager
   name: Karen Turnbull
-- role: Writer
+- role: Playwright
   name: Karen Turnbull  
 - role: Costume Assistant
   name: Karen Turnbull
-- role: Writer
+- role: Playwright
   name: Nicholas Landon
 - role: Producer
   name: Ella Seber-Rajan
