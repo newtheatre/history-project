@@ -11,6 +11,10 @@ venue: New Theatre
 cast: 
 -name: Aidan Sadler
 
+crew:
+-role: Show Techinican
+ name: Dan Tipper
+
 assets:
   - type: poster
     image: QpDCNzM
