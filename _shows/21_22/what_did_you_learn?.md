@@ -8,6 +8,24 @@ date_start: 2022-06-13
 date_end: 2022-06-13
 venue: New Theatre
 
+cast:
+- role: Girl 1
+  name: Elsa Kitching
+  person: false
+- role: Girl 2
+  name: Belle Crowne
+  person: false 
+- role: Non-Binary
+  name: Emily Lord
+  person: false
+- role: Gal 1
+  name: Hannah Treacher
+  person: false
+- role: Gal 2
+  name: Emily Trappen
+  person: false
+ 
+
 crew:
 - role: Show Technician
   name: Patrick Richards
