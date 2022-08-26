@@ -1,5 +1,6 @@
 ---
-title: NTU Drama Presents Sweeney Todd: The Demon Barber of Fleet Street!
+title: Sweeney Todd: The Demon Barber of Fleet Street!
+company: NTU Drama
 playwright: Hugh Wheeler and Patrick Quentin
 period: Spring
 season: External
