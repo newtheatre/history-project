@@ -44,11 +44,16 @@ crew:
   name: Alexandra Hogg  
 - role: Marketing Assistant
   name: Isabelle Kennedy-Grimes  
+- role: Photographer
+  name: Alan Fletcher
+  person: false
 
 
 assets:
   - type: poster
     image: V4qFW7d
+    
+prod_shots: m9c7Kq
 ---
 
 'We're in trouble now, Phil. Don't know how this'll pan out...'A fatal accident sends a gang of teenagers into a spiral of fear, as they meet in the woods to figure out the plan. Their friendships will be tested to the limit, and no one can escape the terrible reality facing the group. Dennis Kelly's chilling and darkly comic thriller examines morality, responsibility, the pressure of group dynamics, and the unforeseen consequences of their actions.
