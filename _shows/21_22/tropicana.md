@@ -8,6 +8,9 @@ date_start: 2022-03-09
 date_end: 2022-03-12
 venue: New Theatre
 
+cast: 
+-name: Aidan Sadler
+
 assets:
   - type: poster
     image: QpDCNzM
