@@ -1,6 +1,7 @@
 ---
 title: Vetoed
 playwright: Nicholas Landon and Oliver Binns
+student_written: true
 period: Spring
 season: StuFF
 season_sort: 400
