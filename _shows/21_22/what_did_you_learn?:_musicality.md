@@ -1,5 +1,6 @@
 ---
-title: What Did You Learn?: Musicality
+title: What Did You Learn?
+company: Musicality
 period: Spring
 season: StuFF
 season_sort: 330
