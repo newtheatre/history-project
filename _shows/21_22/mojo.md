@@ -47,8 +47,10 @@ crew:
   name: Amandeep Bhamra
 - role: Publicity Assistant
   name: Katie Booth
-- role: Publicity Assistant / Accent Coach
+- role: Publicity Assistant
   name: Ella Seber-Rajan
+- role: Accent Coach
+  name: Ella Seber-Rajan  
 - role: Accent Coach
   name: Abraham Botha
 - role: Costume Assistant
