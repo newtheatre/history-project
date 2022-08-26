@@ -1,8 +1,8 @@
 ---
-title: Post-Graduates: The Importance of Being Earnest  
+title: The Importance of Being Earnest  
 playwright: Oscar Wilde
 period: Spring
-season: In House
+season: Postgrads
 season_sort: 270
 date_start: 2022-06-09
 date_end: 2022-06-11
