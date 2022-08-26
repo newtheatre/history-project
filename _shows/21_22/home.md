@@ -1,5 +1,6 @@
 ---
-title: Home: Musicality
+title: Home
+company: Musicality
 playwright: Amber India Frost and Ethan Lee
 period: Spring
 season: StuFF
@@ -7,6 +8,28 @@ season_sort: 380
 date_start: 2022-06-14
 date_end: 2022-06-14
 venue: New Theatre
+
+cast: 
+- role: Ophelia
+  name: Sophie Lagden
+  person: false
+- role: Rose
+  name: Vicky Parker
+  person: false
+- role: Luna
+  name: Abby Callender
+  person: false
+- role: Elwyn
+  name: Ethan Lee
+  person: false
+- role: Riley
+  name: Megan Smith
+- role: Noah
+  name: Craig Youngmn
+  person: false
+- role: Therapist
+  name: Ellen Steel
+  person: false
 
 crew:
 - role: Show Technician
