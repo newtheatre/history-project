@@ -14,16 +14,18 @@ cast:
   name: Hettie Rockell
 - role: Van
   name: Kieran Hatchett
-- role: Louis and Games Master
+- role: Louis / Games Master
   name: Vicent Solbes
 
 crew:
 - role: Director
   name: Marianna Whistlecroft
-- role: Theatre Director
+- role: Director 
   name: Beth White
-- role: Artistic Director
+  note: Theatre
+- role: Director
   name: Sharon Anatole
+  note: Artistic
 - role: Movement Choreographer
   name: Marianna Whistlecroft
 - role: Videographer 
