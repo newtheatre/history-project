@@ -11,6 +11,10 @@ venue: New Theatre
 cast: 
 -name: Callum Walker
 
+crew:
+-role: Lighting Designer
+ name: Izzy De Bono
+
 assets:
   - type: poster
    image: SSmNspk
