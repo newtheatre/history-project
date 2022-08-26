@@ -1,5 +1,6 @@
 ---
-title: Alice: Anegada Theatre
+title: Alice
+company: Anegada Theatre
 playwright: Tara Anegada
 period: Spring
 season: StuFF
