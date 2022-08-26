@@ -1,5 +1,6 @@
 ---
-title: It's Not Rocket Science: Letter for Letter Theatre
+title: It's Not Rocket Science
+company: Letter for Letter Theatre
 playwright: Cecilia Alexander
 student_written: true
 period: Spring
