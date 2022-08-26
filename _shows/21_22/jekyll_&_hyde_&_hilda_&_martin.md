@@ -10,7 +10,7 @@ date_end: 2022-04-09
 venue: New Theatre 
 
 cast:
-- role: Mr Jekyll
+- role: Mr. Jekyll
   name: Adam Pink
 - role: Mr. Hyde
   name: Adam Pink
