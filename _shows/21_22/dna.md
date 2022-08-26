@@ -36,6 +36,7 @@ cast:
 crew:
 - role: Director
   name: Nic Harvey
+  person: false
 - role: Assistant Director
   name: Rachel Elphick
 - role: Assistant Stage Manager
@@ -46,6 +47,17 @@ crew:
   name: Isabelle Kennedy-Grimes  
 - role: Photographer
   name: Alan Fletcher
+  person: false
+- role: Lighting Designer
+  name: Richard Statham
+  person: false
+- role: Lighting Programmer
+  name: Sam Osborne
+- role: Company Stage Manager 
+  name: Alyssa Watts
+  person: false
+- role: Set Construction
+  name: Bungo Richardson
   person: false
 
 
