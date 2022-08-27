@@ -14,6 +14,10 @@ cast:
 - name: Oliver Binns
 
 crew:
+- role: Playwright 
+  name: Nicholas Landon
+- role: Playwright
+  name: Oliver Binns 
 - role: Show Technician
   name: James Appleby
 

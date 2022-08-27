@@ -9,6 +9,7 @@ date_start: 2022-06-14
 date_end: 2022-06-14
 venue: Walled Garden
 venue_sort: University Park
+student_written: true 
 
 cast: 
 - role: Alice

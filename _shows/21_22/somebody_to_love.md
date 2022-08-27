@@ -7,6 +7,7 @@ season_sort: 140
 date_start: 2022-03-02
 date_end: 2022-03-05
 venue: New Theatre
+student_written: true 
 
 cast:
 - role: Ellie
