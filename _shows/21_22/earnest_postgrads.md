@@ -8,6 +8,9 @@ date_start: 2022-06-09
 date_end: 2022-06-11
 venue: New Theatre
 
+cast_incomplete: true
+crew_incomplete: true
+
 assets:
   - type: poster
     image: KTjKDD5
