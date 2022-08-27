@@ -10,6 +10,7 @@ venue: New Theatre
 
 cast: 
 - name: Bróccán Tyzack-Carlin
+  person: false 
 
 crew:
 - role: Show Technician

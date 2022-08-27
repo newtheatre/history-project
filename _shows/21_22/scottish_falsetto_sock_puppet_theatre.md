@@ -8,7 +8,8 @@ date_end: 2022-06-13
 venue: New Theatre Studio A
 
 cast:
--name: Kev Sutherland
+- name: Kev Sutherland
+  person: false 
 
 crew:
 - role: Show Technician

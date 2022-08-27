@@ -10,7 +10,9 @@ venue: New Theatre Studio A
 
 cast:
 - name: Bróccán Tyzack-Carlin
+  person: false 
 - name: Tristan Robinson
+  person: false 
 
 assets:
   - type: poster

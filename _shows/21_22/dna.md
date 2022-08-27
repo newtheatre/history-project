@@ -50,8 +50,9 @@ crew:
   name: Sam Osborne
 - role: Assistant Lighting Designer
   name: Alexandra Hogg  
-- role: Raphael Achache
-  name: Animator and Sound Designer
+- role: Animator and Sound Designer
+  name: Raphael Achache
+  person: false 
 - role: Company Stage Manager 
   name: Alyssa Watts
   person: false

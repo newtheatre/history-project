@@ -10,6 +10,7 @@ venue: New Theatre Studio A
 
 cast: 
 - name: Fraser Brown
+  person: false 
 
 crew:
 - role: Show Technician
