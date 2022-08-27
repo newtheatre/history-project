@@ -1,5 +1,5 @@
 ---
-title: 7 Funerals and a Wedding: Creatives
+title: 7 Funerals and a Wedding
 company: Creatives
 playwright: various
 student_written: true
