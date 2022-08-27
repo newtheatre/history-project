@@ -19,7 +19,7 @@ cast:
 - role: Elsie
   name: Rose Burden
 - role: Millie
-  Name: Georgie Bullen 
+  name: Georgie Bullen 
 - role: Mary
   name: Shreya Suri 
 
@@ -39,7 +39,7 @@ crew:
 - role: Shadow Director
   name: Ana Balanici  
 - role: Shadow Producer
-  Name: Laura Sherratt  
+  name: Laura Sherratt  
 
 assets:
   - type: poster
