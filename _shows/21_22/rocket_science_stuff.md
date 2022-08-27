@@ -13,10 +13,13 @@ venue: New Theatre
 cast:
 - role: Eve
   name: Alice Connolly
+  person: false
 - role: Male Multi-Role
   name: Stef White
+  person: false
 - role: Female Multi-Role
   name: Helen Knudsen
+  person: false
 
 crew:
 - role: Director
