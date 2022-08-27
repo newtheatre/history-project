@@ -19,18 +19,18 @@ cast:
   name: Helen Knudsen
 
 crew:
--role: Director
- name: Cecilia Alexander
--role: Co-Producer
- name: Zoe Smith
--role: Co-Producer
- name: Laura Wolczyk
+- role: Director
+  name: Cecilia Alexander
+- role: Co-Producer
+  name: Zoe Smith
+- role: Co-Producer
+  name: Laura Wolczyk
 - role: Show Technician
   name: James Appleby
 
 assets:
   - type: poster
-   image: sLDmKK6
+    image: sLDmKK6
 ---
 
 'It’s a man’s world' they say, looking at Earth. But beyond that, the vast expanse we call ‘space’, is largely unknown, unclaimed; a free for all. At least, it could be if my boss stopped calling me ‘sweetheart’. Eve always knew she belonged in the stars, but those on Earth keep bringing her down. Watch her grow up and grow wiser about how rocket science is the easy part, but being treated equally isn’t. This piece of verbatim theatre uses interviews from over 20 female aerospace professionals and presents their experiences navigating this male-dominated industry.

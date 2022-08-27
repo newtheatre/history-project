@@ -9,16 +9,16 @@ date_end: 2022-06-14
 venue: New Theatre 
 
 cast: 
--name: Bróccán Tyzack-Carlin
+- name: Bróccán Tyzack-Carlin
 
 crew:
 - role: Show Technician
- name: Patrick Richards
+  name: Patrick Richards
 
 
 assets:
   - type: poster
-   image: 7HDJvk8
+    image: 7HDJvk8
 ---
 
 Award-winning comedian and wordsman Bróccán Tyzack-Carlin presents his brand new solo show.

@@ -9,18 +9,18 @@ date_end: 2022-06-14
 venue: New Theatre Studio A
 
 cast: 
--name: Fraser Brown
+- name: Fraser Brown
 
 crew:
 - role: Show Technician
- name: Oliver Kletz
+  name: Oliver Kletz
 - role: Show Technician
- name: Pete Rouse
+  name: Pete Rouse
 
 
 assets:
   - type: poster
-   image: 4vq6QKT
+    image: 4vq6QKT
 ---
 
 Fraser Brown takes the audience on a hilarious and dark analysis of his own anxieties and worries. At only 22, Fraser (hopefully) has the majority of his life ahead of him, but is preoccupied with what's happened in those first 22 years, for him to become the person who he is today. Unable to let go of the past, Fraser asks himself if he’ll ever be able to move on and forgive the grudges he’s held since his school days. An introspective extrovert, asking what it means to be happy; it’s Fraser Brown, I'm Afraid.

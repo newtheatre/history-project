@@ -37,7 +37,7 @@ crew:
 
 assets:
   - type: poster
-   image: b2JkJhn
+    image: b2JkJhn
 ---
 
 A beautifully complicated bunch of adolescents meet in a group therapy session who

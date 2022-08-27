@@ -9,15 +9,15 @@ date_end: 2022-06-14
 venue: New Theatre
 
 cast: 
--name: Callum Walker
+- name: Callum Walker
 
 crew:
--role: Lighting Designer
- name: Izzy De Bono
+- role: Lighting Designer
+  name: Izzy De Bono
 
 assets:
   - type: poster
-   image: SSmNspk
+    image: SSmNspk
 ---
 
 It’s been a weird couple of years. Callum has quit three separate jobs. Callum moved house next to a megachurch. Callum started writing mermaid porn for money. 

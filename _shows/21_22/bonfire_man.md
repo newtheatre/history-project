@@ -9,7 +9,7 @@ date_end: 2022-06-13
 venue: New Theatre
 
 cast: 
--name: Ben Macpherson
+- name: Ben Macpherson
 
 crew:
 - role: Show Technician
@@ -17,7 +17,7 @@ crew:
 
 assets:
   - type: poster
-   image: QXthXjZ
+    image: QXthXjZ
 ---
 
 Dark and Surreal character comedy from rising star Ben Macpherson. This live mockumentary takes you to the heart of the Nevada desert for a look at a festival that’s similar but legally distinct from another desert based festival/event with the initials B M. This vivid sketch show has toured across the UK delighting audiences with a blend of character, clowning sketch comedy. 

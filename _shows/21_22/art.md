@@ -35,8 +35,8 @@ crew:
   name: Maria Stavrakaki
 - role: Lighting Designer
   name: Adam Phillips
--role: Sound Designer
- name: Roni Altman
+- role: Sound Designer
+  name: Roni Altman
 - role: Publicity Assistant
   name: Eloise Dooley
 

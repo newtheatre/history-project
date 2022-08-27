@@ -43,8 +43,8 @@ crew:
   name: Miranda Hong
 - role: Lighting Designer
   name: Patrick Richards 
--role: Sound Designer
- name: Patrick Richards 
+- role: Sound Designer
+  name: Patrick Richards 
 - role: Publicity Assistant
   name: Pete Rouse
 - role: Costume, Make-Up and Hair Assistant
@@ -64,4 +64,4 @@ assets:
 
 ---
 
-William Carlisle has the world at his feet but its weight on his shoulders. He is intelligent, articulate and f*cked. In the library of a fee-paying grammar school, William and his fellow Sixth-Formers are preparing for their mock A-Levels while navigating the pressures of teenage life. They are educated and aspirational young people, but step-by-step, the dislocation, disjunction and latent aggression is revealed.
+William Carlisle has the world at his feet but its weight on his shoulders. He is intelligent, articulate and f\*cked. In the library of a fee-paying grammar school, William and his fellow Sixth-Formers are preparing for their mock A-Levels while navigating the pressures of teenage life. They are educated and aspirational young people, but step-by-step, the dislocation, disjunction and latent aggression is revealed.

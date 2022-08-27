@@ -10,17 +10,17 @@ date_end: 2022-06-14
 venue: New Theatre Studio A
 
 cast: 
--name: Nicholas Landon
--name: Oliver Binns
+- name: Nicholas Landon
+- name: Oliver Binns
 
 crew:
 - role: Show Technician
- name: James Appleby
+  name: James Appleby
 
 
 assets:
   - type: poster
-   image: Bd6g8jr
+    image: Bd6g8jr
 ---
 
 Sometimes, an idea forms that is so incredible, so ground-breaking, so unbelievable that others feel the need to strike it down. This is not one of those ideas.

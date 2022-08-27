@@ -52,8 +52,8 @@ crew:
   name: Lucy Haley
 - role: Lighting Designer
   name: James Appleby 
--role: Sound Designer
- name: Sarina Rivlin-Sanders 
+- role: Sound Designer
+  name: Sarina Rivlin-Sanders 
 - role: Publicity Assistant
   name: Rosie Loader
 - role: Publicity Assistant

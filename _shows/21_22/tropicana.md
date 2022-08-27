@@ -9,11 +9,11 @@ date_end: 2022-03-12
 venue: New Theatre
 
 cast: 
--name: Aidan Sadler
+- name: Aidan Sadler
 
 crew:
--role: Show Techinican
- name: Dan Tipper
+- role: Show Techinican
+  name: Dan Tipper
 
 assets:
   - type: poster

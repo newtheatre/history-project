@@ -16,7 +16,7 @@ crew:
 
 assets:
   - type: poster
-   image: nsZnwfx
+    image: nsZnwfx
 ---
 
 Earth's funniest footwear return with their latest brand new comedy show
