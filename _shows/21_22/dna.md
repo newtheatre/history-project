@@ -13,6 +13,7 @@ cast:
   name: Jess Beadle-Platt
 - role: Phil
   name: Ellie Daley
+  person: false
 - role: Jan
   name: Fahreen Akhtar
 - role: Michaela
@@ -26,7 +27,7 @@ cast:
 - role: Cathy
   name: Rebecca Winkworth
 - role: Jo Tate
-   name: Megan Terry
+  name: Megan Terry
 - role: Bryony
   name: Anna Devoy
 - role: Eve
@@ -37,28 +38,38 @@ crew:
 - role: Director
   name: Nic Harvey
   person: false
+- role: Producer
+  name: Shona Powell
+  person: false
 - role: Assistant Director
   name: Rachel Elphick
-- role: Assistant Stage Manager
-  name: Jenny Tucker
-- role: Assistant to Lighting Designer
-  name: Alexandra Hogg  
-- role: Marketing Assistant
-  name: Isabelle Kennedy-Grimes  
-- role: Photographer
-  name: Alan Fletcher
-  person: false
 - role: Lighting Designer
   name: Richard Statham
   person: false
 - role: Lighting Programmer
   name: Sam Osborne
+- role: Assistant Lighting Designer
+  name: Alexandra Hogg  
+- role: Raphael Achache
+  name: Animator and Sound Designer
 - role: Company Stage Manager 
   name: Alyssa Watts
+  person: false
+- role: Assistant Company Stage Manager
+  name: Jenny Tucker
+- role: Set and Costume Designer
+  name: Li-Wen Chen
+  person: false
+- role: Publicity and Marketing Assistant
+  name: Isabelle Kennedy-Grimes  
+- role: Photographer
+  name: Alan Fletcher
   person: false
 - role: Set Construction
   name: Bungo Richardson
   person: false
+- role: Production Assistant
+  name: Flo Avis
 
 
 assets:
