@@ -86,7 +86,7 @@ Environment variables (such as the Smugmug API key) can be changed by modifying 
 ### 🛠 Building the site (without Docker)
 
 To get the site running locally you will need:
-* A working Ruby environment (preferably version 2.7, for which you may need rvm)
+* A working Ruby environment (preferably version 2.4, for which you may need rvm)
 * Bundler installed
 * Node.js 8.x (and no higher, for which you may need nvm)
 * Gulp, CoffeeScript, and Bower. 
