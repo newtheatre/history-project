@@ -114,7 +114,7 @@ For ease, we recommend installing Homebrew.
 
 - `brew install rvm nvm` for the Ruby and Node version managers 
 - `rvm use 2.4` to use Ruby 2.4
-- `nvm install 8 && nvm use 8` to install and use Node 8
+- `nvm install 8 && nvm use 8` to install and use Node 8. You may need to use Node 10 if npm does not work.
 - `gem install bundler` for the Ruby dependency manager.
 - `npm install -g gulp coffeescript bower` for Gulp, CoffeeScript, and Bower.
 </details>
@@ -133,7 +133,7 @@ For ease, we recommend installing Homebrew.
 - OR `gulp debug` does the same but skips minification and enables Jekyll's incremental builds.
 - `gulp server` to serve the site using the built in webserver. Changes to Sass & Coffee files will trigger an automatic frontend rebuild and reload. Content (Jekyll) changes will not, this is because Jekyll takes a considerable time to run.
 
-> ℹ️ If `gulp` commands don't work, try using `node_modules/.bin/gulp` (eg `node_modules/.bin/gulp build`) instead.
+> ℹ️ If `gulp` commands don't work (`'build' is not in your gulpfile`), try using `node_modules/.bin/gulp` (eg `node_modules/.bin/gulp build`) instead.
 
 To get more verbose output from Jekyll, run `export JEKYLL_LOG_LEVEL=debug` before building.
 
