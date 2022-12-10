@@ -34,7 +34,7 @@ jobs:
       - name: Install Node
         uses: actions/setup-node@v2
         with:
-          node-version: '8'  # gulp will likely be upset with newer
+          node-version: '10'  # gulp will likely be upset with newer
       - name: Cache node_modules
         id: cache-node
         uses: actions/cache@v2
