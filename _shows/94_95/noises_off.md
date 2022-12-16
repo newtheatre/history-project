@@ -9,6 +9,8 @@ venue: New Theatre
 cast:
  - role: Simon
    name: David Trennery
+ - role: Poppy
+   name: Rachel Bill
 
 cast_incomplete: true
 ---

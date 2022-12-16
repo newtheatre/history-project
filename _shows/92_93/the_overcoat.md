@@ -9,6 +9,9 @@ venue: St Columba's by the Castle
 cast:
 - role: Akaky Akakievich
   name: Anthony Green
+- role: Emsemble and Metamorphosis/Mrs Samsa
+  name: Rachel Bill
+  
 
 crew:
 - role: Director
