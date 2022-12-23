@@ -78,6 +78,7 @@ crew:
 
 prod_shots: fxvHJk
 
+comment: A poster featuring Pete Przyslo in the same vain as the 3 asset posters was created, but seemingly lost to time. (It was not posted on social media, and Laura Wolczyk does not have a copy) #954
 
 assets:
   - type: poster
