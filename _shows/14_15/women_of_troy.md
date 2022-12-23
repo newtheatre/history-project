@@ -54,6 +54,9 @@ crew:
     name: Joanne Blunt
   - role: Lighting Designer
     name: Nathan
+  - role: Musician
+    name: Joanna Manning
+    note: Cello
   - role: Set Designer
     name: Joanna Manning
   - role: Set Construction
