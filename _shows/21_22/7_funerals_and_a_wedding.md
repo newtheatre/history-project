@@ -46,8 +46,6 @@ crew:
   name: Caetano Capurro
 - role: Playwright
   name: Caetano Capurro
-- role: Sound Designer
-  name: Abigail Kitwood
 - role: Playwright
   name: Abigail Kitwood
 - role: Playwright
@@ -62,6 +60,8 @@ crew:
   name: Nicholas Landon
 - role: Producer
   name: Ella Seber-Rajan
+- role: Sound Designer
+  name: Abigail Kitwood
 - role: Costume Assistant
   name: Harry Berry
 - role: Stage Manager
