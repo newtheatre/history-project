@@ -14,7 +14,7 @@ cast:
 
 crew:
 - role: Lighting Designer
-  name: Izzy De Bono
+  name: Izzy de Bono
 
 assets:
   - type: poster
