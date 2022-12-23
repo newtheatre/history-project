@@ -26,12 +26,12 @@ Hot off the back of their sold out Edinburgh Fringe run, join non binary cabaret
 
 Nothing is safe from ridicule, so join Aidan on an exploration of body image, hetronormativity and the dreaded ASOS gays. Tropicana explores, bends and abuses the gender binary on a backdrop of electrifying 80s hits from Spandau Ballet to ABC.
 
-Winner "Best Solo Act" Scene Alba Awards 2021
+> Winner "Best Solo Act" - Scene Alba Awards 2021
 
-"Tropicana is pure heaven" Culture Fix
+> "Tropicana is pure heaven" - Culture Fix
  
-"A name to watch out for" Theatre & Arts Review
+> "A name to watch out for" - Theatre & Arts Review
  
-"A newly discovered comedy icon" The Wee Review
+> "A newly discovered comedy icon" - The Wee Review
  
-"Wow. Just wow!" Scene Alba
+> "Wow. Just wow!" - Scene Alba
