@@ -39,10 +39,26 @@ cast:
   name: Eleanor Veal
 
 crew:
+- role: Playwright
+  name: Karen Turnbull
+- role: Playwright 
+  name: Maria Stavrakaki
+- role: Playwright 
+  name: Nicolas Landon
+- role: Playwright
+  name: Caetano Capurro
+- role: Playwright
+  name: Jess Beadle-Platt
+- role: Playwright
+  name: Abigail Kitwood
+- role: Playwright
+  name: Isabelle Kennedy-Grimes
 - role: Co-Director
   name: Caetano Capurro
 - role: Co-Director
   name: Isabelle Kennedy-Grimes
+- role: Producer
+  name: Ella Seber-Rajan
 - role: Sound Designer
   name: Finn Dwyer
 - role: Stage Manager
@@ -53,26 +69,10 @@ crew:
   name: Harry Berry
 - role: Deputy Stage Manager
   name: Abigail Kitwood
-- role: Playwright
-  name: Caetano Capurro
-- role: Playwright
-  name: Jess Beadle-Platt
-- role: Playwright
-  name: Abigail Kitwood
-- role: Playwright
-  name: Isabelle Kennedy-Grimes
 - role: Costume Assistant
   name: Sophie Mitchell
 - role: Costume Assistant
   name: Karen Turnbull
-- role: Playwright
-  name: Karen Turnbull
-- role: Producer
-  name: Ella Seber-Rajan
-- role: Playwright 
-  name: Maria Stavrakaki
-- role: Playwright 
-  name: Nicolas Landon
 
 assets:
   - type: poster
