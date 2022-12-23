@@ -1,5 +1,4 @@
 ---
-
 title: It's Not Rocket Science
 playwright: Cecilia Alexander
 student_written: true

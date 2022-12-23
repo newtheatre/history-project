@@ -51,12 +51,10 @@ assets:
 
 ---
 
-Three police officers have made false statements about an incident that
-led to the unlawful death of a Black man in the street. The Maniac, a serial
-impersonator, discovers the details of the crime and impersonates a
-visiting judge who was being sent to review the case. The Maniac takes the
-three officers through a loop, tricking them into not only confessing but
-incriminating themselves further. Accidental death of an activist focuses
-on the recent Black lives matter movement and the systematic injustice of the modern age. Inspired by Dario Fo’s “the accidental death of an
-anarchist”. 
+Three police officers have made false statements about an incident that led to the unlawful death of a Black man in the street. The Maniac, a serial impersonator, discovers the details of the crime and impersonates a
+visiting judge who was being sent to review the case.
+
+The Maniac takes the three officers through a loop, tricking them into not only confessing but incriminating themselves further. 
+
+'Accidental death of an activist' focuses on the recent Black lives matter movement and the systematic injustice of the modern age. Inspired by Dario Fo’s 'the accidental death of an anarchist'.
 

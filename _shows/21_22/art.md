@@ -45,11 +45,8 @@ assets:
     image: g69dTBb
 ---
 
-Serge has bought a modern work of art for a large sum of money; a white
-canvas with a few faint lines. Marc hates the painting and cannot believe
-that a friend of his could possibly want to purchase such a piece of ‘art’. But
-does he hate the painting or Serge’s independent thought? Yvan attempts,
-unsuccessfully, to mediate between both sides with hilarious
-consequences. The question is: Are you who you think you are or are you
-who your friends think you are? Art follows the dynamic of three friends
-whose tensions run much deeper than just the purchase of a painting.
+Serge has bought a modern work of art for a large sum of money; a white canvas with a few faint lines. Marc hates the painting and cannot believe that a friend of his could possibly want to purchase such a piece of ‘art’. But does he hate the painting or Serge’s independent thought? 
+
+Yvan attempts, unsuccessfully, to mediate between both sides with hilarious consequences. The question is: Are you who you think you are or are you who your friends think you are? 
+
+'Art' follows the dynamic of three friends whose tensions run much deeper than just the purchase of a painting.

@@ -33,4 +33,10 @@ assets:
     image: PqQxwXt
 ---
 
-“At the end of the tunnel we arrive here, an inner sanctum of endless adventure.” Alice is an artist. Alice wants to create new work. Alice doesn’t want to create the work she feels pressured to create. Will Alice find a path to create work her way? ‘Alice’ is a 50 minute poetical theatre piece that was first workshopped in 2020, reimagining Carroll’s classic and asking how to be a female presenting artist in a new and confusing wonderland.
+"At the end of the tunnel we arrive here, an inner sanctum of endless adventure."
+
+Alice is an artist. Alice wants to create new work. Alice doesn’t want to create the work she feels pressured to create. 
+
+Will Alice find a path to create work her way? 
+
+‘Alice’ is a 50 minute poetical theatre piece that was first workshopped in 2020, reimagining Carroll’s classic and asking how to be a female presenting artist in a new and confusing wonderland.

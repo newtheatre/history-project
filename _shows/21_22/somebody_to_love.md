@@ -54,11 +54,6 @@ assets:
     image: tD5m7wp
 ---
 
-In January of 2020, everything is going well in Ellie’s life. She’s just started a
-placement she loves, and now she’s talking to the first girl she’s liked in a long
-time. Maybe her best friend Gabe was right about downloading tinder!
-That is, until this ‘COVID’ thing seemed to go from bad to ‘the whole country
-needs to be in lockdown’. Now Ellie’s worried she can even keep going from day
-to day, let alone all this other stuff! Whatever happened to those days when her
-biggest worry was whether true love really exists anymore? And what is she
-supposed to do now?!
+In January of 2020, everything is going well in Ellie’s life. She’s just started a placement she loves, and now she’s talking to the first girl she’s liked in a long time. Maybe her best friend Gabe was right about downloading tinder!
+
+That is, until this ‘COVID’ thing seemed to go from bad to ‘the whole country needs to be in lockdown’. Now Ellie’s worried she can even keep going from day to day, let alone all this other stuff! Whatever happened to those days when her biggest worry was whether true love really exists anymore? And what is she supposed to do now?!

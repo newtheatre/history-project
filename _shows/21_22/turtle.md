@@ -24,4 +24,4 @@ assets:
 
 Award-winning comedian and wordsman Bróccán Tyzack-Carlin presents his brand new solo show.
  
- Using his signature blend of stand-up and poetry, he discusses, the Spice Girls, Karl Marx and brazen sex toys in an effort to understand the ways in which we choose to present ourselves to the world.
+Using his signature blend of stand-up and poetry, he discusses, the Spice Girls, Karl Marx and brazen sex toys in an effort to understand the ways in which we choose to present ourselves to the world.

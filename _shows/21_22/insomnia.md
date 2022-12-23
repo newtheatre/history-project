@@ -40,15 +40,11 @@ assets:
     image: Wz3sXhC
 ---
 
-Bodie is in her last few months of 6th form; exam dates are approaching, and the
-expectations of her grades are high. But then Bodie gets sick – she is burnt out and
-constantly tired. A tiredness so bad that even deep sleep can’t fix it. But despite
-feeling exhausted, she is also unable to fall asleep when she needs to.
-Bodie isn’t just sick – she is suffering from insomnia.
-Insomnia isn’t just lying awake at night without feeling tired. Insomnia is loneliness.
-Insomnia is nightmares, and emotional instability; the feeling of your bones aching to
-whole new levels, and limbs feeling like they’re sinking into the ground. Insomnia is
-depression.
-How does Bodie deal with the crippling depression and strong grasp of exhaustion
-as she moves between 6th form and first year of university?
+Bodie is in her last few months of 6th form; exam dates are approaching, and the expectations of her grades are high. But then Bodie gets sick – she is burnt out and constantly tired. A tiredness so bad that even deep sleep can’t fix it. But despite feeling exhausted, she is also unable to fall asleep when she needs to. 
 
+Bodie isn’t just sick – she is suffering from insomnia.
+
+Insomnia isn’t just lying awake at night without feeling tired. Insomnia is loneliness. Insomnia is nightmares, and emotional instability; the feeling of your bones aching to whole new levels, and limbs feeling like they’re sinking into the ground. Insomnia is depression.
+
+
+How does Bodie deal with the crippling depression and strong grasp of exhaustion as she moves between 6th form and first year of university?

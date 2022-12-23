@@ -47,11 +47,6 @@ assets:
 
 ---
 
-We Need to Talk About Mary takes place at a slumber party, in which five
-school friends, now aged 25, come back together for a reunion. Little do
-they know that the shadow of their past lingers over them, and tonight it
-will finally catch up. In between wine, memories and truth or dare, the
-friends soon discover that Mary, an even older friend who most have
-forgotten, has other plans for their evening. We Need to Talk About Mary
-tells the story of growing up, exploring love, loss and secrets, all with a little
-twist of the supernatural.
+We Need to Talk About Mary takes place at a slumber party, in which five school friends, now aged 25, come back together for a reunion. Little do they know that the shadow of their past lingers over them, and tonight it will finally catch up. In between wine, memories and truth or dare, the friends soon discover that Mary, an even older friend who most have forgotten, has other plans for their evening. 
+
+'We Need to Talk About Mary' tells the story of growing up, exploring love, loss and secrets, all with a little twist of the supernatural.

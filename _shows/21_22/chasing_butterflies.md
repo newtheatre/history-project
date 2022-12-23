@@ -58,9 +58,9 @@ assets:
 
 ---
 
-1985, White Chapel, London. A bustling and lively city, but beneath the
-concrete jungle, a relentless evil lurks. Detective Richards refuses to rest as
-they chase infamous serial killer, the ‘Butterfly Butcher’. However, following
-a path full of such wickedness unfortunately encourages darkness to
-unravel. Anyone can be a victim and everyone should be scared. 
+1985, White Chapel, London. A bustling and lively city, but beneath the concrete jungle, a relentless evil lurks. 
+
+Detective Richards refuses to rest as
+they chase infamous serial killer, the ‘Butterfly Butcher’. However, following a path full of such wickedness unfortunately encourages darkness to
+unravel. Anyone can be a victim and everyone should be scared.
 

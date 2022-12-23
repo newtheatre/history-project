@@ -76,5 +76,6 @@ assets:
     image: hD7Lh5Z
 ---
 
-Another hilarious spoof from the NNT Creatives. This time the Italian-American mafia celebrate the marriage of a beloved daughter. Don’t miss this notorious family of Tony’s in their attempts at a civil family event.
+Another hilarious spoof from the NNT Creatives. This time, the Italian-American mafia celebrate the marriage of a beloved daughter. 
 
+Don’t miss this notorious family of Tony’s in their attempts at a civil family event.
