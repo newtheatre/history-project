@@ -7,7 +7,7 @@ season_sort: 370
 date_start: 2022-06-14
 date_end: 2022-06-14
 student_written: true 
-venue: New Theatre
+venue: New Theatre Studio A
 
 cast: 
 - name: Callum Walker
