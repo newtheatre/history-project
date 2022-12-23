@@ -1,5 +1,7 @@
 ---
-title: Scottish Falsetto Sock Puppet Theatre
+title: Eurovision Sock Contest 
+company: Scottish Falsetto Sock Puppet Theatre
+playwright: Kev Sutherland
 period: Spring
 season: StuFF
 season_sort: 350
