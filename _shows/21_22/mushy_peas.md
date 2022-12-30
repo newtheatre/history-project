@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: Mushy Peas
 playwright: Ela Moss and Ellie Harding
 student_written: true

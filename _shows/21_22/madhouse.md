@@ -38,6 +38,6 @@ assets:
 
 ---
 
-Fresh From the Edinburgh Fringe, NNT Presents "Madhouse"
+Fresh From the Edinburgh Fringe, NNT Presents 'Madhouse'
 
 Within the confines of a messy kitchen, six students grapple with the modern struggles of youth. Overwhelmed by debt, perplexed by romance, suffocated by chaos – for each student, life is an experiment, in which conflict is inevitable. Welcome to the Madhouse...
