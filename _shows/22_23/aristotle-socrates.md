@@ -72,7 +72,7 @@ links:
     author: Amy Child and Ana Balanici
     title: "'EFFORTLESSLY FUNNY' - THEATRE REVIEW: ARISTOTLE AND SOCRATES ODYSSEY @ NOTTINGHAM NEW THEATRE"
     date: 2023-02-17
-    rating: 4.5 
+    rating: 4.5/5
     quote: "A witty, well-written script gives life to a simplistic story, as Aristotle and Socrates search high and low for fresh ideas ... it is excellently paced so as not to feel brief, and every joke was enhanced by gestures and energy from the cast."
 
 ---
