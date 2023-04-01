@@ -89,7 +89,8 @@ crew:
   - role: Technical Operator
     name: Hannah Higgins
   - role: Technical Operator
-    name: Zoe Langston-Blass
+    name: Zoe L
+    person: false
   - role: Technical Operator
     name: Logan Wamsley
   - role: Photography

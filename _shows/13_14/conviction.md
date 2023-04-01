@@ -24,7 +24,8 @@ crew:
   - role: Technical Director
     name: Joseph Heil
   - role: Technical Operator
-    name: Zoe Langston-Blass
+    name: Zoe L
+    person: false
   - role: Photography
     name: Dimitrios Darzentas
 

@@ -46,7 +46,8 @@ crew:
   - role: Technical Operator
     name: Charlotte Bezant
   - role: Technical Operator
-    name: Zoe Langston-Blass
+    name: Zoe L
+    person: false
   - role: Technical Operator
     name: Adam Bergen
   - role: Technical Operator

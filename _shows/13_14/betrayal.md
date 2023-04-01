@@ -22,7 +22,8 @@ crew:
   - role: Director
     name: Tyler-Antonia Gordon
   - role: Producer
-    name: Zoe Langston-Blass
+    name: Zoe L
+    person: false
   - role: Set Designer
     name: Tyler-Antonia Gordon
   - role: Set Designer
