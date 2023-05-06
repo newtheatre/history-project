@@ -9,6 +9,8 @@ venue: New Theatre
 
 cast:
  - name: Nick Tyler
+ - role: Kate
+   name: Marilyn Bird
 
 crew:
  - role: Director

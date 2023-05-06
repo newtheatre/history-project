@@ -8,6 +8,8 @@ season_sort: 600
 
 cast:
  - name: Nick Tyler
+ - role: The Sheriff of Nottingham
+   name: Marilyn Bird
 
 crew:
  - role: Director
