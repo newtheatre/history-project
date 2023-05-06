@@ -15,6 +15,8 @@ cast:
   name: Don Ashton
 - role: Guildernstern
   name: Ali Blackwell
+- role: Various
+  name: Sophia Levine
 
 crew:
   - role: Director

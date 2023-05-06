@@ -42,6 +42,8 @@ crew:
   name: Emily Adams
 - role: Costume and Make-Up
   name: Nicci Samuels
+- role: Assistant Stage Manager
+  name: Sophia Levine
 
 assets:
   - type: poster
