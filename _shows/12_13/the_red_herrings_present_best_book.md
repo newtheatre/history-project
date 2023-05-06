@@ -12,6 +12,8 @@ improvised: true
 crew:
   - role: Producer
     name: Tariye Peterside
+  - role: Technician
+    name: Ben Macpherson
 
 assets:
   - type: poster

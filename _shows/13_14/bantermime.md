@@ -10,6 +10,10 @@ date_end: 2014-02-15
 venue: New Theatre
 improvised: true
 
+crew:
+  - role: Technician
+    name: Ben Macpherson
+
 assets:
   - type: poster
     image: GFKn7Tm
