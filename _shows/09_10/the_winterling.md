@@ -35,6 +35,8 @@ crew:
     name: Matt Leventhall
   - role: Stage Manager
     name: Nicci Samuels
+  - role: Assistant Stage Manager
+    name: Sophia Levine
 
 assets:
   - type: poster

@@ -20,6 +20,9 @@
 - type: Instagram
   icon: fa fa-instagram
   href: https://instagram.com/???
+- type: Facebook
+  icon: fa fa-facebook
+  href: https://facebook.com/???
 - type: LinkedIn
   icon: fa fa-linkedin-square
   data: data-proofer-ignore
@@ -35,4 +38,4 @@
 - type: Recording 
   icon: fa fa-video-camera 
 - type: YouTube 
-  icon: fa fa-youtube-play 
+  icon: fa fa-youtube-play

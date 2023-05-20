@@ -13,6 +13,10 @@ prod_shots: x6s4R2
 cast:
   - name: Sam Morris
 
+crew:
+  - role: Writer
+    name: Ben Macpherson
+
 assets:
   - type: poster
     image: dVFFLDd

@@ -16,7 +16,7 @@ links:
     href: "https://lucienjack.com/"
     # Failed to capture snapshot
   - type: Facebook
-    href: https://facebook.com/laughswithlulu/
+    username: laughswithlulu
     snapshot: HhKG1
   - type: Twitter 
     username: laughswithlulu

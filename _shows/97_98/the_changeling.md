@@ -12,6 +12,8 @@ crew:
 
 cast: 
   - name: Ramsay Gilderdale
+  - role: Servant Two
+    name: Nick Tyler
 
 note: November
 ---

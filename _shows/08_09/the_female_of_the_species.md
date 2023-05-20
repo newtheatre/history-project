@@ -22,6 +22,10 @@ cast:
   - role: Theo
     name: "Sam Greville-Smith"
 
+crew:
+  - role: Make Up Artist
+    name: Sophia Levine
+
 assets:
   - type: poster
     image: QknCBvG
