@@ -7,6 +7,8 @@ submitted: false
 gender: male
 headshot: dwxQCCF
 graduated: 2000
+course:
+  - Theology
 careers:
   - Stand-Up Comedian
   - Comedy Writer
