@@ -1,6 +1,6 @@
 ---
 title: We Need to Talk About Mary
-playwright: Jen Tucker
+playwright: Jenny Tucker
 student_written: true
 period: Spring
 season: Fringe
@@ -25,7 +25,7 @@ cast:
 
 crew:
 - role: Director
-  name: Jen Tucker
+  name: Jenny Tucker
 - role: Producer
   name: Jasmine Butler
 - role: Set Designer
