@@ -1,6 +1,7 @@
 ---
 title: Sarina Rivlin-Sanders 
 submitted: 2023-05-18 
+headshot: CjtXH2J
 course:
   - Mathematics BSc
 graduated: 2023

@@ -2,6 +2,7 @@
 title: Sophie Walters 
 submitted: 2023-03-15
 gender: female
+headshot: mS79K4j
 course: 
   - Politics, Philosophy & Economics
 graduated: 2023
