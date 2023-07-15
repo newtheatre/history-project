@@ -32,7 +32,7 @@ crew: # Omit certain roles as required
   name:
 - role: Assistant Producer
   name:
-- role: Technical Director 
+- role: Deputy Stage Manager 
   name:
 - role: Shadow Technical Director
   name:
