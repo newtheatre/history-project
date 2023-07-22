@@ -30,4 +30,5 @@ jobs:
 
       - name: Run build job
         run: nthp build .
-      
+        env:
+          SMUGMUG_API_KEY: ${{ secrets.SMUGMUG_API_KEY }}
