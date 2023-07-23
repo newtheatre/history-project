@@ -32,3 +32,12 @@ jobs:
         run: nthp build .
         env:
           SMUGMUG_API_KEY: ${{ secrets.SMUGMUG_API_KEY }}
+
+      - name: Deploy to S3
+        run: _bin/deploy.sh
+        env:
+          BRANCH_NAME: ${{ github.ref_name }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}

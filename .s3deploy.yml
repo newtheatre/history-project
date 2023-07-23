@@ -1,0 +1,5 @@
+routes:
+  - route: "^.+\\.(json)$"
+    # cache API content for a short period
+    headers:
+      Cache-Control: "max-age=180, public"
