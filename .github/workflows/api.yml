@@ -33,10 +33,16 @@ jobs:
         env:
           SMUGMUG_API_KEY: ${{ secrets.SMUGMUG_API_KEY }}
 
+      - name: Get deploy name
+        id: get_deploy_name
+        run: echo "DEPLOY_NAME=$(_bin/get_deploy_name.sh)" >> $GITHUB_OUTPUT
+        env:
+          REF_NAME: ${{ github.ref_name }}
+
       - name: Deploy to S3
         run: _bin/deploy.sh
         env:
-          BRANCH_NAME: ${{ github.ref_name }}
+          DEPLOY_NAME: ${{ steps.get_deploy_name.outputs.DEPLOY_NAME }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
