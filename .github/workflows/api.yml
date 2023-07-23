@@ -8,7 +8,11 @@ on:
 
 jobs:
   build:
+    name: Build and deploy content
     runs-on: ubuntu-22.04
+    permissions:
+      deployments: write
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -34,16 +38,44 @@ jobs:
           SMUGMUG_API_KEY: ${{ secrets.SMUGMUG_API_KEY }}
 
       - name: Get deploy name
-        id: get_deploy_name
-        run: echo "DEPLOY_NAME=$(_bin/get_deploy_name.sh)" >> $GITHUB_OUTPUT
+        id: deploy_vars
+        run: source _bin/deploy_vars.sh
         env:
           REF_NAME: ${{ github.ref_name }}
+
+      - uses: chrnorm/deployment-action@v2
+        name: Create GitHub deployment
+        id: create_deployment
+        with:
+          token: '${{ github.token }}'
+          environment: ${{ steps.deploy_vars.outputs.ENVIRONMENT }}
+          environment-url: https://nthp-web.pages.dev/?pr=${{ steps.deploy_vars.outputs.DEPLOY_NAME }}
+          state: in_progress
 
       - name: Deploy to S3
         run: _bin/deploy.sh
         env:
-          DEPLOY_NAME: ${{ steps.get_deploy_name.outputs.DEPLOY_NAME }}
+          DEPLOY_NAME: ${{ steps.deploy_vars.outputs.DEPLOY_NAME }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+
+      - uses: chrnorm/deployment-status@v2
+        if: success()
+        name: Update deployment status (success)
+        id: update_deployment_success
+        with:
+          token: '${{ github.token }}'
+          deployment-id: ${{ steps.create_deployment.outputs.deployment_id }}
+          environment-url: https://nthp-web.pages.dev/?pr=${{ steps.deploy_vars.outputs.DEPLOY_NAME }}
+          state: success
+
+      - uses: chrnorm/deployment-status@v2
+        if: failure()
+        name: Update deployment status (failure)
+        id: update_deployment_failure
+        with:
+          token: '${{ github.token }}'
+          deployment-id: ${{ steps.create_deployment.outputs.deployment_id }}
+          state: failure
