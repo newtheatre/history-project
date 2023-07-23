@@ -1,5 +1,7 @@
 routes:
   - route: "^.+\\.(json)$"
-    # cache API content for a short period
+    # Cache API content for a short period
     headers:
       Cache-Control: "max-age=180, public"
+    # Gzip the content in s3 and serving
+    gzip: true
