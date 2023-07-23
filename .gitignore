@@ -25,3 +25,7 @@ $RECYCLE.BIN/
 
 # Mac
 *.DS_Store
+
+# API build
+dist/
+*.db
