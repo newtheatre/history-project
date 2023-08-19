@@ -56,8 +56,6 @@ crew: # Omit certain roles as required
   name: Farah Shah
 - role: Poster Designer 
   name: Rosalind Bull
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
 - role: Costume Designer 
   name: Atinuola Odusolu
 - role: Publicity Manager

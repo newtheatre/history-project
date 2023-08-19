@@ -3,16 +3,15 @@
 # -- https://history.newtheatre.org.uk/docs/show/
 # Remove or comment any lines that are not being used
 
-title:
+title: Aristotle and Socrates Odyssey
 playwright: # Omit if devised
 devised: # Omit if playwright(values of "true" or "false")
 adaptor:
 translator:
 student_written:
-company: # If non-NNT
-period: # Choices: Autumn, Spring, Edinburgh
+period: Spring
 season: # Choices: In House, Fringe, Edinburgh, StuFF, Lakeside, External and Postgrads
-season_sort:
+season_sort: 120
 date_start: #YYYY-MM-DD
 date_end: #YYYY-MM-DD
 venue:
