@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: Aristotle and Socrates Odyssey
 devised: true
 student_written: true
@@ -12,8 +8,6 @@ season_sort: 120
 date_start: 2023-02-14
 date_end: 2023-02-15
 venue: New Theatre
-
-trivia:
 
 cast:
 - role: Aristotle
@@ -27,7 +21,7 @@ cast:
 - role: Chorus
   name: Sophia Vivian
 
-crew: # Omit certain roles as required
+crew: 
 - role: Director
   name: Caetano Capurro
 - role: Director
@@ -54,8 +48,6 @@ crew: # Omit certain roles as required
   name: Katie Booth
 - role: Creative Assistant
   name: Molly Squires
-#- role: Technical Operator 
-#  name:
 - role: Stage Manager 
   name: Molly Squires
 
