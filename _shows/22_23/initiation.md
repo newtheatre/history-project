@@ -14,45 +14,32 @@ date_start: 2023-02-09
 date_end: 2023-02-10
 venue: New Theatre
 
-trivia:
 
 cast:
-- role:
-  name:
+- role: David
+  name: Demi Idowu
+- role: Liam 
+  name: Stef White 
+  person: false 
 
-crew: # Omit certain roles as required
+prod_shots: DLg55P
+
+crew: 
 - role: Director
-  name:
-- role: Assistant Director 
-  name:
+  name: Cecilia Alexander 
 - role: Producer
-  name:
-- role: Assistant Producer
-  name:
-- role: Deputy Stage Manager 
-  name:
-- role: Shadow Technical Director
-  name:
+  name: Cecilia Alexander 
+- role: Dramaturg
+  name: Ben Macpherson 
 - role: Lighting Designer 
-  name:
+  name: James Appleby
 - role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
+  name: James Appleby
 - role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
+  name: Molly Symms 
+- role: Content Consultant 
+  name: Matt Wright 
+  person: false 
 
 assets:
   - type: poster
