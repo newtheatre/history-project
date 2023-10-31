@@ -1,19 +1,14 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
 
 title: An English Toska
 playwright: Hettie Rockell
 student_written: true
 period: Autumn
-season: #Studio
+season: Studio
 season_sort: 80
 date_start: 2022-12-11
 date_end: 2022-12-13
 venue: New Theatre Studio A
-
-trivia:
 
 cast:
 - role: Robert
@@ -32,7 +27,7 @@ cast:
   name: Michael Mclean
 
 
-crew: # Omit certain roles as required
+crew: 
 - role: Director
   name: Hettie Rockell
 - role: Assistant Director 
@@ -47,8 +42,6 @@ crew: # Omit certain roles as required
   name: Ernestine Ofori-Addo
 #- role: Deputy Stage Manager 
 #  name: 
-#- role: Shadow Technical Director
-#  name:
 - role: Lighting Designer 
   name: James Fellas-Laurie
 - role: Sound Designer 
@@ -69,10 +62,6 @@ crew: # Omit certain roles as required
   name: Katie Booth
 - role: Publicity Manager
   name: Rachel Hoddes
-- role: Make-up Designer/Artist
-  name:
-#- role: Technical Operator 
-#  name:
 - role: Stage Manager 
   name: Sunenna Kaur
 - role: Assistant Stage Manager

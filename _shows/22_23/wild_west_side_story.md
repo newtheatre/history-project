@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: Wild West Side Story
 devised: true
 period: Spring
@@ -11,8 +7,6 @@ season_sort: 140
 date_start: 2023-02-22
 date_end: 2023-02-25
 venue: New Theatre
-
-trivia:
 
 cast:
 - role: Jules
@@ -52,7 +46,7 @@ cast:
 - role: Paul Rudd
   name: Daria Demetra-Rusa
 
-crew: # Omit certain roles as required
+crew: 
 - role: Playwright
   name: Oliver Ennis
 - role: Playwright
@@ -89,8 +83,6 @@ crew: # Omit certain roles as required
   name: Rosie Loader
 - role: Publicity Assistant 
   name: Abigail Kitwood
-#- role: Technical Operator 
-#  name:
 - role: Stage Manager 
   name: Lauren Birks
 - role: Assistant Stage Manager
@@ -106,4 +98,6 @@ assets:
 
 ---
 
-Two houses both alike in pig-nity, in fair Arizona where we hay our scene, A pair of barn-crossed lovers take their lives... The Nottingham New Theatre creatives present a pun-packed depiction of what Shakespeare would have created, had he the pleasure of living in the wild, Wild West.
+Two houses both alike in pig-nity, in fair Arizona where we hay our scene, A pair of barn-crossed lovers take their lives... 
+
+The Nottingham New Theatre creatives present a pun-packed depiction of what Shakespeare would have created, had he the pleasure of living in the wild, Wild West.

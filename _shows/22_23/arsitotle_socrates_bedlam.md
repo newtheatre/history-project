@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: Aristotle and Socrates Odyssey
 devised: true
 student_written: true
@@ -11,7 +7,7 @@ season: IUDF
 season_sort: 130
 date_start: 2023-02-18
 date_end: 2023-02-18
-venue: Bedlam Theatre Edinburgh
+venue: Bedlam Theatre
 
 trivia:
 
@@ -54,8 +50,6 @@ crew: # Omit certain roles as required
   name: Katie Booth
 - role: Creative Assistant
   name: Molly Squires
-#- role: Technical Operator 
-#  name:
 - role: Stage Manager 
   name: Molly Squires
 

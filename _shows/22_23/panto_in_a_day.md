@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: Panto In A Day
 devised: true
 period: Spring
@@ -11,8 +7,6 @@ season_sort: 150
 date_start: 2023-03-01
 date_end: 2023-03-01
 venue: New Theatre
-
-trivia:
 
 cast:
 - role: Herself
@@ -69,7 +63,7 @@ cast:
   name: Molly Squires
 
 
-crew: # Omit certain roles as required
+crew:
 - role: Playwright
   name: Rachel Hoddes
 - role: Assistant Director 
@@ -81,6 +75,8 @@ crew: # Omit certain roles as required
 - role: Technical Director 
   name: Sarina Rivlin-Sanders
 
+crew_incomplete: false 
+
 assets:
   - type: poster
     image: 7mkCBV2
@@ -88,4 +84,3 @@ assets:
 ---
 
 The NNTs first ever panto-in-a-day! Come watch the hilarity that follows as we pull together a pantomime in 10 hours! Both traditional pantomime jokes and format, as well as a few jokes about last season and the NNT committee, it's fun for all!
-Please be aware as a play in a day the content warnings may be subject to change as the show is rehearsed.

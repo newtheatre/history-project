@@ -1,7 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
 
 title: Hamlet
 playwright: William Shakespeare
@@ -12,8 +9,6 @@ season_sort: 70
 date_start: 2022-12-07
 date_end: 2022-12-10
 venue: New Theatre
-
-trivia:
 
 cast:
 - role: Gravedigger / Player
@@ -41,7 +36,7 @@ cast:
 - role: Hamlet
   name: Maisie Jack  
 
-crew: # Omit certain roles as required
+crew:
 - role: Director
   name: Jasmine Butler
 - role: Assistant Director 
@@ -62,8 +57,6 @@ crew: # Omit certain roles as required
   name: Nay Dhanak
 - role: Costume Designer 
   name: Belle Powell-Keiloh
-#- role: Technical Operator
-#  name:
 - role: Followspot Operator
   name: Jake Evans
 - role: Stage Manager 
@@ -88,9 +81,6 @@ links:
 
 ---
 
-“Something is rotten in the state of Denmark.”
-A death, a coronation, a ghost. A happily crowned Claudius sits on the
-throne with his new wife Gertrude. But when Hamlet’s father, the usurped
-King, appears to him as a spirit, wishing for Hamlet to avenge his death, a
-revenge plot is afoot. An exploration of life, death, love, and what it means
-to be alive – for better or for worse.
+> “Something is rotten in the state of Denmark.”
+
+A death, a coronation, a ghost. A happily crowned Claudius sits on the throne with his new wife Gertrude. But when Hamlet’s father, the usurped King, appears to him as a spirit, wishing for Hamlet to avenge his death, a revenge plot is afoot. An exploration of life, death, love, and what it means to be alive – for better or for worse.

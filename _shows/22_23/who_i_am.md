@@ -1,11 +1,6 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: This is Who I Am
 devised: true
-student_written: false
 company: Ice and Fire
 period: Spring
 season: External
@@ -13,8 +8,6 @@ season_sort: 100
 date_start: 2023-02-07
 date_end: 2023-02-07
 venue: New Theatre
-
-trivia:
 
 # Cast and select crew info taken from https://iceandfire.co.uk/project/this-is-who-i-am/
 cast: 
@@ -32,8 +25,8 @@ cast:
 - name: Dan Gillespie-Sells
   person: false
 
-crew: # Omit certain roles as required
 crew_incomplete: true
+crew: # Omit certain roles as required
 - role: Director
   name:
 - role: Assistant Director 
@@ -73,4 +66,6 @@ assets:
 
 ---
 
-"Then they separated us. We tried to say no, we applied for asylum as a couple. They say we don’t have any civil evidence that we are a couple. And we’re like “how can we show you any civil evidence if homosexuality is forbidden in my country?” This Is Who I Am shares first-hand accounts from LGBT+ people about their experiences in their own country and on arrival in the UK, addressing the particular challenges they face going through the UK asylum system. Please be aware that accounts of state, sexual and homophobic violence are included.
+"Then they separated us. We tried to say no, we applied for asylum as a couple. They say we don’t have any civil evidence that we are a couple. And we’re like “how can we show you any civil evidence if homosexuality is forbidden in my country?” 'This Is Who I Am' shares first-hand accounts from LGBT+ people about their experiences in their own country and on arrival in the UK, addressing the particular challenges they face going through the UK asylum system. 
+
+Please be aware that accounts of state, sexual and homophobic violence are included.

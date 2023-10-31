@@ -1,7 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
 
 title: Mixy
 playwright: Sunenna Kaur
@@ -13,8 +10,6 @@ season_sort: 30
 date_start: 2022-11-16
 date_end: 2022-11-19
 venue: New Theatre
-
-trivia:
 
 cast:
 - role: Kushi
@@ -32,7 +27,7 @@ cast:
 - role: Alex
   name: Tochi Opera
 
-crew: # Omit certain roles as required
+crew:
 - role: Director
   name: Sunenna Sohal
 - role: Assistant Director 
@@ -63,8 +58,6 @@ crew: # Omit certain roles as required
   name: Léna Previl
 - role: Publicity Manager
   name: Kyra Patterson
-#- role: Technical Operator 
-#  name:
 - role: Stage Manager 
   name: Paulina Méndez Gutiérrez
 
@@ -74,12 +67,6 @@ assets:
 
 ---
 
-Spicy, and not just the kebabs. Sizzling family politics, spilt cha, and sticky floors are the
-norm in this family-run Indian pub grill. After the patriarch’s passing, the business is set
-to pass to this central family, each with their own trepidations about who will run it
-next. Living above the bar & grill, the family jointly take it into their hands to continue
-Nanaji’s powerful legacy but only one has been deemed its true owner.
-Facing generational differences, intrinsic sexism, and constant assumptions of
-character; it’s only a question of when their truths will be exposed. Welcome to Nanaji’s
-Bar & Grill, renowned for its Indian mixed grill and scream-from-the-stairs soap opera
-drama.
+Spicy, and not just the kebabs. Sizzling family politics, spilt cha, and sticky floors are the norm in this family-run Indian pub grill. After the patriarch’s passing, the business is set to pass to this central family, each with their own trepidations about who will run it next. Living above the bar & grill, the family jointly take it into their hands to continue Nanaji’s powerful legacy but only one has been deemed its true owner. 
+
+Facing generational differences, intrinsic sexism, and constant assumptions of character; it’s only a question of when their truths will be exposed. Welcome to Nanaji’s Bar & Grill, renowned for its Indian mixed grill and scream-from-the-stairs soap opera drama.

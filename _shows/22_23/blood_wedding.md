@@ -1,8 +1,4 @@
 ---
-# Check out the Show Docs for more information
-# -- https://history.newtheatre.org.uk/docs/show/
-# Remove or comment any lines that are not being used
-
 title: Blood Wedding
 playwright: Federico Garcia Lorca
 student_written: false
@@ -12,8 +8,6 @@ season_sort: 90
 date_start: 2022-12-14
 date_end: 2022-12-17
 venue: New Theatre
-
-trivia:
 
 cast:
 - role: Mother
@@ -42,7 +36,7 @@ cast:
   name: Oliver Kletz
 
 
-crew: # Omit certain roles as required
+crew: 
 - role: Director
   name: Oliver Kletz
 - role: Director 
@@ -71,8 +65,6 @@ crew: # Omit certain roles as required
   name: Oliver Kletz
 - role: Costume Assistant
   name: Meghan Issac
-#- role: Technical Operator 
-#  name:
 - role: Stage Manager 
   name: Luc Tucker
 - role: Assistant Stage Manager
@@ -88,14 +80,12 @@ prod_shots: 9tNFqx
 
 ---
 
-García Lorca's passionate, lyrical tale of longing and revenge: a twentieth
-century masterpiece.
-A young woman’s desperate attempts to preserve the life that she wants
-for herself clashes with her community’s expectations of her. In so doing,
-she rekindles an old blood feud, unleashing a village’s anger onto her.
-What follows is a dramatic prediction of the violence that will grip the
-country and end Lorca’s own life.
-A story based on true events about the power of anger, the danger of
-passion and the cruelty of religious patriarchy.
+García Lorca's passionate, lyrical tale of longing and revenge: a twentieth century masterpiece.
+
+A young woman’s desperate attempts to preserve the life that she wants for herself clashes with her community’s expectations of her. In so doing, she rekindles an old blood feud, unleashing a village’s anger onto her. 
+
+What follows is a dramatic prediction of the violence that will grip the country and end Lorca’s own life.
+
+A story based on true events about the power of anger, the danger of passion and the cruelty of religious patriarchy.
 
 A production by arrangement with Nick Hern Books.
