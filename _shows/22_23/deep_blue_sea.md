@@ -74,7 +74,7 @@ links:
     author: Ana Balanici and Amy Child
     title: "“STUNNINGLY RAW AND SINCERE EMOTION” – THEATRE REVIEW: THE DEEP BLUE SEA @ NOTTINGHAM NEW THEATRE"
     date: 2023-03-24
-    rating: 4.5
+    rating: 4.5/5
     quote: "Hettie and Alex's dynamic was incredible, they complemented each other so well and created an unforgettable show."
 
 ---

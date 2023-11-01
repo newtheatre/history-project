@@ -62,7 +62,7 @@ links:
     author: Olivia Hughes 
     title: "“ENGAGING AND PROVOCATIVE” – THEATRE REVIEW: PAIN THRESHOLD @ NOTTINGHAM NEW THEATRE"
     date: 2023-04-11
-    rating: 4 
+    rating: 4/5
     quote: "Overall, it was executed fantastically and was impactful in the small and intimate theatre."
 
 ---

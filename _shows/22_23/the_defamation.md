@@ -63,6 +63,7 @@ links:
     snapshot: LPgjA
     publisher: Impact Nottingham
     author: Amy Child
+    rating: 3.5/5
     title: "Rhymes Consistently from Start to Finish - Theatre Review: The Defamation @ Nottingham New Theatre"
     date: 2022-12-09
     quote: "The Defamation convincingly and adeptly uses Shakespearean English throughout, and moreover, rhymes consistently from start to finish. (Yes, you read that right.) I can only imagine the effort it must have taken to achieve such a feat."

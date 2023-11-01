@@ -100,7 +100,7 @@ links:
     author: Ana Balanici and Amy Child 
     title: "“A SPECIAL KIND OF MAGIC” – THEATRE REVIEW: PETER PAN @ NOTTINGHAM NEW THEATRE"
     date: 2023-03-31
-    rating: 5
+    rating: 5/5
     quote: "[T]here was never a dull moment onstage, with warm humour throughout and the cast managing to keep their energy and enthusiasm until the very end, which honestly blew us away."
 
 ---

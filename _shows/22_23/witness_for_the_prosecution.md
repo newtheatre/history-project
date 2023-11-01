@@ -80,7 +80,7 @@ links:
     author: Amy Child 
     title: "“A REALLY WELL-EXECUTED ADAPTATION”- THEATRE REVIEW: WITNESS FOR THE PROSECUTION @ NOTTINGHAM NEW THEATRE"
     date: 2023-03-28
-    rating: 5
+    rating: 5/5
     quote: "The jury wasn’t out on the verdict for this play: it was fantastic. [...] Every actor shone in their role, from the major characters to the minor ones."
 
 ---
