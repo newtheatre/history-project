@@ -9,8 +9,6 @@ date_start: 2023-02-18
 date_end: 2023-02-18
 venue: Bedlam Theatre
 
-trivia:
-
 cast:
 - role: Aristotle
   name: Alessia Lowcock
