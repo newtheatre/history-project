@@ -38,8 +38,6 @@ crew: # Omit certain roles as required
   name: Laura Dennison
 - role: Playwright
   name: Daisy Norton    
-#- role: Deputy Stage Manager 
-#  name:
 - role: Lighting Designer 
   name: James Fellas-Laurie
 - role: Sound Designer 
