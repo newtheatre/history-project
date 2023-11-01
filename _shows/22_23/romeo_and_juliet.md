@@ -92,7 +92,7 @@ crew:
 - role: Assistant Stage Manager 
   name: Abigail Kitwood
 
-assets:
+# assets:
   # - type: poster 
   #   image: 
   # - type: trailer 
