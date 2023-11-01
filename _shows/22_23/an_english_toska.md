@@ -40,8 +40,6 @@ crew:
   name: Jess Beadle-Platt
 - role: Shadow Producer
   name: Ernestine Ofori-Addo
-#- role: Deputy Stage Manager 
-#  name: 
 - role: Lighting Designer 
   name: James Fellas-Laurie
 - role: Sound Designer 
