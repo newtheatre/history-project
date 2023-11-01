@@ -27,20 +27,7 @@ cast:
 - role: Cat / Lexi 
   name: Rosalind Bull
 
-
-
-Millie Rushworth  Director
-  Playwright
-Evie Williams Producer
-Jess Beadle-Platt Assistant Director
-Oliver Kletz  Assistant Producer
-Sean Bromilow Sound Designer
-David Walastyan Lighting Designer
-Hatty McGrath Stage Manager
-Sophie Mitchel  Set Designer
-Molly Squires Publicity Manager
-
-crew: # Omit certain roles as required
+crew:
 - role: Director
   name: Millie Rushworth
 - role: Assistant Director 
@@ -65,17 +52,6 @@ assets:
     image: ZjZM22h
 
 prod_shots: K2jBmM
-
-# links:
-#   - type:
-#     href:
-#     snapshot:
-#     publisher:
-#     author:
-#     title: ""
-#     date:
-#     rating:
-#     quote:
 
 ---
 
