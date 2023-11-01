@@ -26,39 +26,6 @@ cast:
   person: false
 
 crew_incomplete: true
-crew: # Omit certain roles as required
-- role: Director
-  name:
-- role: Assistant Director 
-  name:
-- role: Producer
-  name:
-- role: Assistant Producer
-  name:
-- role: Deputy Stage Manager 
-  name:
-- role: Shadow Technical Director
-  name:
-- role: Lighting Designer 
-  name:
-- role: Sound Designer 
-  name:
-- role: Video Designer 
-  name:
-- role: Set Designer 
-  name:
-- role: Poster Designer 
-  name:
-- role: # (Any Specialised technical roles, e.g. Camera Operator; Followspot Operator etc.) 
-  name:
-- role: Costume Designer 
-  name:
-- role: Make-up Designer/Artist
-  name:
-- role: Technical Operator 
-  name:
-- role: Stage Manager 
-  name:
 
 assets:
   - type: poster
