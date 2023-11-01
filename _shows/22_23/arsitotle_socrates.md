@@ -62,7 +62,7 @@ links:
     author: Amy Child & Ana Balanici
     title: "“EFFORTLESSLY FUNNY”- THEATRE REVIEW: ARISTOTLE AND SOCRATES ODYSSEY @ NOTTINGHAM NEW THEATRE"
     date: 2023-02-17
-    rating: 4.5
+    rating: 4.5/5
     quote: "Aristotle (Alessia Lowcock) and Socrates (Tommy Allwright) had brilliant onstage chemistry, and complemented each other amazingly."
 
 ---
