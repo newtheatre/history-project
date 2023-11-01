@@ -4,7 +4,7 @@ playwright: Lucy Prebble
 period: Autumn
 season: In House
 season_sort: 50
-date_start: 2017-11-8
+date_start: 2017-11-08
 date_end: 2017-11-11
 venue: New Theatre
 

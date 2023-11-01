@@ -6,8 +6,8 @@ student_written: true
 period: Autumn
 season: In House
 season_sort: 130
-date_start: 2017-12-6
-date_end: 2017-12-9
+date_start: 2017-12-06
+date_end: 2017-12-09
 venue: New Theatre
 
 cast:
@@ -80,7 +80,7 @@ links:
     publisher: Impact Nottingham
     author: Sam Young
     title: "Timon/Titus @ NNT"
-    date: 2017-12-7
+    date: 2017-12-07
     rating: 9/10
     quote: "Sharp, grisly and just a little bit unhinged, the study of debt has never been so much fun."
   - type: Review

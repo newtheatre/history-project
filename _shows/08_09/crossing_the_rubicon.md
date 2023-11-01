@@ -8,7 +8,7 @@ period: Spring
 venue: New Theatre
 date_start:
 date_end:
-cast:
+cast_incomplete: true 
 crew:
   - role: Director
     name: Cal Lewis

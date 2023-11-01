@@ -61,7 +61,7 @@ links:
   snapshot: voybI
   publisher: Daily Business Magazine
   author: Heyley Murden
-  date: 2018-8-05
+  date: 2018-08-05
   rating: 3/5
   quote: "The Devil You Know is an admirable effort and worth seeing if you are looking for something spooky."
 - type: Review
