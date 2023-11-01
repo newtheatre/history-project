@@ -9,6 +9,7 @@ date_start: 2023-03-26
 date_end: 2023-03-28
 venue: New Theatre Studio A 
 
+cast:
 - role: Vin 
   name: T Kenyon
 - role: Olive 
