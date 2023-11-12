@@ -8,8 +8,6 @@ date_start: 2023-05-18
 date_end: 2023-05-20
 venue: New Theatre
 
-trivia:
-
 cast_incomplete: true
 crew_incomplete: true
 
@@ -33,8 +31,4 @@ assets:
 
 ---
 
-Romantic Fools is “a comic vaudeville”, a revue of 12 two-character sketches 
-following an Everyman and Everywoman as they explore the world of love, lust, 
-dating and romance. Showing the influences of Monty Python, Saturday Night 
-Live, Jules Feiffer, the Marx Brothers, and classic vaudeville comedy, these 
-sketches vary widely in style, but they all celebrate the inherent farce of male/female relationships.
+'Romantic Fools' is “a comic vaudeville”, a revue of 12 two-character sketches following an Everyman and Everywoman as they explore the world of love, lust, dating and romance. Showing the influences of Monty Python, Saturday Night Live, Jules Feiffer, the Marx Brothers, and classic vaudeville comedy, these sketches vary widely in style, but they all celebrate the inherent farce of male/female relationships.
