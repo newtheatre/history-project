@@ -82,9 +82,6 @@ crew:
 assets:
   - type: poster
     image: dfjPvn2
-  - type:
-    video:
-    title:
   - type: programme
     title: All My Sons Programme
     filename: ams-programme.pdf

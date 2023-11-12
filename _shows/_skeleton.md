@@ -5,7 +5,7 @@
 
 title:
 playwright: # Omit if devised
-devised: # Omit if playwright
+devised: # Omit if playwright(values of "true" or "false")
 adaptor:
 translator:
 student_written:
@@ -32,7 +32,7 @@ crew: # Omit certain roles as required
   name:
 - role: Assistant Producer
   name:
-- role: Technical Director 
+- role: Deputy Stage Manager 
   name:
 - role: Shadow Technical Director
   name:
