@@ -12,7 +12,7 @@ cast:
 - role: Pentheus
   name: Cameron Bullock
 - role: Dionysus
-  name: Jess Beedle-Platt
+  name: Jess Beadle-Platt
 - role: Agave
   name: Hettie Rockell
 - role: Cadmus
@@ -38,7 +38,7 @@ crew:
 - role: Producer
   name: Syania Shaharuddin
 - role: Shadow Producer
-  name: Maria Stav
+  name: Maria Stavrakaki
 - role: Set Designer
   name: Pete Rouse
 - role: Set Assistant
