@@ -28,7 +28,9 @@ crew:
   name: Laura Dennison
 - role: Producer
   name: Laura Dennison
-- role: Assistant Producer
+- role: Co-Producer
+  name: Freya Davis
+- role: Assistant Director
   name: Freya Davis
 - role: Playwright
   name: Caetano Capurro
@@ -45,6 +47,8 @@ crew:
 - role: Publicity Manager
   name: Katie Booth
 - role: Creative Assistant
+  name: Molly Squires
+- role: Costume Designer 
   name: Molly Squires
 - role: Stage Manager 
   name: Molly Squires
@@ -67,6 +71,8 @@ links:
 
 ---
 
-Two of the most influential thinkers in the history of philosophy and science like you’ve never heard of them before…completely and utterly devoid of ideas. Aristotle and Socrates find themselves in a rut. History would suggest that they had plenty to think about. Not today. Not according to this play. In their desperation to come up with any new ideas, the pair enlist the help of Ancient Greek heavyweights who, as it turns out, may just derail them further. Join the pair in their rut and discover if they will ever live up to their legacy of thinking lots and lots about lots of things and making other people think lots about lots, lots.
+Two of the most influential thinkers in the history of philosophy and science like you’ve never heard of them before…completely and utterly devoid of ideas. Aristotle and Socrates find themselves in a rut. History would suggest that they had plenty to think about. Not today. Not according to this play. 
+
+In their desperation to come up with any new ideas, the pair enlist the help of Ancient Greek heavyweights who, as it turns out, may just derail them further. Join the pair in their rut and discover if they will ever live up to their legacy of thinking lots and lots about lots of things and making other people think lots about lots, lots.
 
 This was an NNT showing of a show taken to Bedlam Theatre in Edinburgh as part of the Inter University Drama Festival
