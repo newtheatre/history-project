@@ -7,6 +7,8 @@ WORKDIR /app
 
 COPY . .
 
+RUN bundle config path vendor/bundle
+
 RUN gem install bundler -v 2.3.27 \
     && bundle install
 
