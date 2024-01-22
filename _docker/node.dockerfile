@@ -1,7 +1,0 @@
-ARG NODE_VERSION=10.18.0
-
-FROM node:${NODE_VERSION}
-
-WORKDIR /app
-
-COPY . .
