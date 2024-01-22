@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+docker-compose down -v
+docker-compose build --no-cache
+docker-compose up -d --remove-orphans
+docker-compose exec app bundle install
+docker-compose exec node npm install
+docker-compose exec node npm run bower:install
+docker-compose exec node npm run gulp:build
