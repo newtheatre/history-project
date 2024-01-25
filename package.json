@@ -35,5 +35,10 @@
   },
   "bugs": {
     "url": "https://github.com/newtheatre/history-project/issues"
+  },
+  "scripts": {
+    "bower:install": "bower install --allow-root",
+    "gulp:deploy": "gulp build_deploy",
+    "gulp:build": "gulp build"
   }
 }
