@@ -47,7 +47,7 @@ crew:
   - role: Technical Operator
     name: Zoe Leigh
   - role: Technical Operator
-    name: Robyn Lawes
+    name: Robyn L
   - role: Technical Operator
     name: Michael Ferdenzi
   - role: Technical Operator
