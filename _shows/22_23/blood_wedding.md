@@ -40,11 +40,11 @@ crew:
 - role: Director
   name: Oliver Kletz
 - role: Director 
-  name: Hattie McGrath
+  name: Hatty McGrath
 - role: Producer
   name: Oliver Kletz
 - role: Producer
-  name: Hattie McGrath
+  name: Hatty McGrath
 - role: Deputy Stage Manager 
   name: Evie Williams
 - role: Lighting Designer 
@@ -58,7 +58,7 @@ crew:
 - role: Poster Designer 
   name: Caetano Capurro
 - role: Publicity Manager
-  name: Hattie McGrath
+  name: Hatty McGrath
 - role: Publicity Manager
   name: Philippa Daniel 
 - role: Costume Designer 

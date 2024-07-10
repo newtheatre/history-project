@@ -66,6 +66,8 @@ cast:
 crew:
 - role: Playwright
   name: Rachel Hoddes
+- role: Director
+  name: Lily Hagen
 - role: Assistant Director 
   name: Jasmine Butler
 - role: Tehcnical Director
