@@ -1,2 +1,0 @@
-# Don't put any files into the docker context, we only need them once the volume is attached
-*
