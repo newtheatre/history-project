@@ -41,7 +41,7 @@ links:
     author: Stewart 
     title: "Fringe REVIEW: It's Not Rocket Science"
     date: 2021-08-23
-    stars: 5
+    rating: 5/5
     quote: "It was very inspirational and brings to light the struggle of gender inequality."
   - type: Review
     href: https://broadwaybaby.com/shows/its-not-rocket-science/753209
@@ -50,7 +50,7 @@ links:
     author: Richard Beck
     title: "It's Not Rocket Science"
     date: 2021-08-19
-    stars: 5
+    rating: 5/5
     quote: "They create a galaxy of characters that are recognisable and idiosyncratic even in the short space of time each one exists. This team possesses considerable talent spread across writing, direction and performance."
   - type: Review
     href: https://www.bingefringe.com/2021/08/17/review-its-not-rocket-science-edinburgh-fringe-2021/
@@ -59,7 +59,7 @@ links:
     author: Jack Mace
     title: "REVIEW: It’s Not Rocket Science, Edinburgh Fringe 2021 ★★★★★"
     date: 2021-08-17
-    stars: 5
+    rating: 5/5
     quote: "Defiant, energetic and fun – it’s a show that will stay with you."
 
 
