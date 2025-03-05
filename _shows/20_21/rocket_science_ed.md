@@ -57,7 +57,7 @@ links:
     snapshot: 6rIFc
     publisher: Binge Fringe 
     author: Jack Mace
-    title: "It's Not Rocket Science"
+    title: "REVIEW: It’s Not Rocket Science, Edinburgh Fringe 2021 ★★★★★"
     date: 2021-08-17
     stars: 5
     quote: "Defiant, energetic and fun – it’s a show that will stay with you."
