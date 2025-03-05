@@ -21,5 +21,3 @@ On my first show 'The Beauty Queen of Leenane', I accidentally signed up to be t
 Despite all the shows I did, I never won an award at Boat Party. I did however steal someone's medal at my last one and that really made 4 years worth it! 
 
 After the NNT, I joined the Lakeside Arts Centre marketing team through the Creative Pathways Internship programme. I then went on to do an MA in Theatre for Community and Education at Mountview in London whilst working with SEND students in schools. I've nearly finished my course so I'll have to see where life takes me after that!
-
-**
