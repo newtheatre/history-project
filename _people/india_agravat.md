@@ -5,6 +5,6 @@ headshot: LKdxgZG
 gender: female
 contact_allowed: true 
 course: 
-	- Aerospace Engineering MEng 
-	- Mechanical Engineering PhD
+    - Aerospace Engineering MEng 
+    - Mechanical Engineering PhD
 --- 
