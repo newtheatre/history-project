@@ -3,6 +3,7 @@ title: Haydn Gwynne
 headshot: hgGhjVT
 gender: female
 submitted: false
+graduated: 1978
 course: 
   - Sociology
 careers:
