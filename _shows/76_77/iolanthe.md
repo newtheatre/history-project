@@ -108,7 +108,7 @@ crew:
  - role: Director
    name: T Francis
  - role: Director
-   name: X Coxhead
+   name: Frank Coxhead
  - role: Musical Director
    name: Margaret Clark
  - role: Stage Manager

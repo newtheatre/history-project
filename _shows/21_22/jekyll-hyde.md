@@ -13,7 +13,7 @@ cast:
 - role: Mr. Jekyll
   name: Adam Pink
 - role: Mr. Hyde
-  name: Adam Pink
+  name: Alex Bell 
 - role: Miss Hilda
   name: Hettie Rockell
 - role: Mr. Martin
@@ -76,6 +76,11 @@ crew:
 assets:
   - type: poster
     image: nCF2mb8
+
+trivia:
+  - quote: I wasn't ready for how much the Matinee utterly butchered the play. I'm still low-key in disbelief.
+    name: Alex Bell 
+    submitted: 2025-03-04
 
 ---
 
