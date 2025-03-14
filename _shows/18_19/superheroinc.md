@@ -84,8 +84,8 @@ crew:
   name: Jess Donn
 - role: Technical Operator
   name: Matteo Bagaini
-- role: Amy Crighton
-  name: Poster Designer
+- role: Poster Designer
+  name: Amy Crighton
 
 assets:
 - type: poster
