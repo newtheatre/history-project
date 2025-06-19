@@ -37,7 +37,7 @@ cast:
 - role: Alexey Kirilov
   name: Kevin Buxton
 - role: Lisa Drozdov
-  name: Hayon Gwynne
+  name: Haydn Gwynne
 - role: Marice Nicholaevich
   name: John Wilkonson
 - role: Maria Timofeyavna Lebyatkin
