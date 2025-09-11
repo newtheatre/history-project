@@ -21,6 +21,10 @@ trivia:
   - quote: This must have been the last performance before R.C. Sheriff died. We closed on Sat (or was it Fri?) and he died on Sun or Mon
     name: John Schwiller
     submitted: 2021-01-09
+  - quote: >
+      I remember this show so well. I designed the set to break through the fourth wall and we constructed timber beams in front of the proscenium. Mike Wolfe lit the show with Patt 23s in the beams. The only thing I wasn’t happy with was the hurried painted sandbags at the top of the steps. Also that the wonderful John Turner (Benfield) couldn’t make the shoot of all the cast and crew. At the end of the show the dugout had to collapse and we used a hinged ceiling with fullers earth. We could only afford a maroon or two for each night so for rehearsals I shouted “maroon”. This became a running gag, for example when I ran into Nick Farrell on Shaftesbury Avenue.
+    name: John Schwiller
+    submitted: 2025-08-01
 
 
 cast:
