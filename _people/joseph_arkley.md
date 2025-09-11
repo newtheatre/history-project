@@ -9,7 +9,7 @@ contact_allowed: true
 careers: 
   - Actor
 links: 
-  title: Curtis Brown Page
-  href: "https://www.curtisbrown.co.uk/client/joseph-arkley"
-  snapshot: 4AiEt
+  - title: Curtis Brown Page
+    href: "https://www.curtisbrown.co.uk/client/joseph-arkley"
+    snapshot: 4AiEt
 --- 

@@ -12,16 +12,16 @@ graduated: #YYYY
 award: 
 careers: 
 links: 
-  title: 
-  href: ""
-  snapshot:
+  - title: 
+    href: ""
+    snapshot:
 news:
-  title:
-  href: ""
-  snapshot:
-  publisher:
-  date: 
-  quote: ""
+  - title:
+    href: ""
+    snapshot:
+    publisher:
+    date: 
+    quote: ""
 
 --- 
 
