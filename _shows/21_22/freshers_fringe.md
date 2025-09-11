@@ -164,6 +164,8 @@ crew: # Omit certain roles as required
   name: Hettie Rockell
 - role: Director
   name: Jake Levy
+- role: Technical
+  name: Annamarie Schooling
 
 assets:
   - type: poster

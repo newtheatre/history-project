@@ -28,6 +28,8 @@ crew:
   name: Lottie Wright
 - role: Shadow Director
   name: Lauren Brady
+- role: Shadow Producer
+  name: Annamarie Schooling
 - role: Video Editor
   name: Lauren Brady
 - role: Shadow Producer 

@@ -20,7 +20,7 @@ cast:
 crew:
 - role: Director
   name: Marianna Whistlecroft
-- role: Director 
+- role: Director
   name: Beth White
   note: Theatre
 - role: Director
@@ -28,7 +28,7 @@ crew:
   note: Artistic
 - role: Movement Choreographer
   name: Marianna Whistlecroft
-- role: Videographer 
+- role: Videographer
   name: Sharon Anatole
 - role: Producer
   name: Akua Addo
@@ -39,9 +39,11 @@ crew:
 - role: Music Designer
   name: Sharon Anatole
 - role: Lighting Designer
-  name: Ellie Sugden  
+  name: Ellie Sugden
 - role: Publicity Manager
-  name: Alicia Conte  
+  name: Alicia Conte
+- role: Poster Designer
+  name: Annamarie Schooling
 
 
 assets:
