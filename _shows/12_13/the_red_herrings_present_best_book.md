@@ -10,6 +10,10 @@ venue: New Theatre
 improvised: true
 
 crew:
+  - role: Director
+    name: Becky Ellis
+  - role: Producer
+    name: Gabby Carboneri
   - role: Producer
     name: Tariye Peterside
   - role: Technician
