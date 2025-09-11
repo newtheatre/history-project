@@ -148,7 +148,8 @@ module LinkList
     # List of links
 
     def initialize(site, raw_list, page_ref)
-      @raw_list = raw_list
+      # Ensure raw_list is always an array
+      @raw_list = raw_list.is_a?(Array) ? raw_list : [raw_list]
       @site = site
       @page_ref = page_ref
     end
