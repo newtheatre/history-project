@@ -35,11 +35,14 @@ crew:
 - role: Stage Manager
   name: Mads Warren
 - role: Publicity Assistant
-  name: Ellie Harding  
+  name: Ellie Harding
 - role: Shadow Director
-  name: Ana Balanici  
+  name: Ana Balanici 
 - role: Shadow Producer
-  name: Laura Sherratt  
+  name: Laura Sherratt
+- role: Sound Designer
+  name: Annamarie Schooling
+
 
 assets:
   - type: poster

@@ -34,7 +34,7 @@ crew:
   name: Emi Thackray
 - role: Shadow Director
   name: Sophie Mitchell
-- role: Production Assistant
+- role: Producer
   name: Oliver Kletz
 - role: Lighting Designer 
   name: Alexandra Hogg
@@ -48,7 +48,7 @@ crew:
   name: Caitie Pardoe
 - role: Stage Manager 
   name: Nicholas Landon
-- role: Stage Manager 
+- role: Assistant Stage Manager
   name: Oliver Kletz
 
 assets:

@@ -51,6 +51,9 @@ crew:
   name: Subhangi Namburi
 - role: Deputy Stage Manager 
   name: Lauren Birks
+- role: Technical Operator
+  name: Annamarie Schooling
+
 assets:
   - type: poster
     image: h4Frqfw

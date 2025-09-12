@@ -51,6 +51,11 @@ links:
     title: "Bluebird @ Nottingham New Theatre"
     date: 2010-11-20
     quote: "Becky Catlin has brought a beautiful piece of writing to the New Theatre stage with precision and style, lifting the characters to the forefront of the production.  Compelling and strangely beautiful, this production of Simon Stephens’ Bluebird made for a thoroughly enjoyable evening at the theatre."
+
+trivia:
+  - quote: "Bluebird was invited to be performed at NSDF 2011. That year I was president and 4 out of the 12 shows performed at the festival were from the Nottingham New Theatre; they joined at the awards ceremony that it should have been renamed the Nottingham Student Drama Festival that year!!!"
+    name: Rebecca Catlin
+    submitted: 2025-07-12
 ---
 
 “This is an extraordinary city. It's a city that you should see primarily at nighttime. It is becomes more concentrated at nighttime. We could take a look at it for a while...”

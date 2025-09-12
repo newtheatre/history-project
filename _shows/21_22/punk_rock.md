@@ -53,7 +53,7 @@ crew:
   name: Ciara Lurshay
 - role: Set Designer
   name: Jack Titley
-- role: Sound Assistant
+- role: Sound & Lighting Assistant
   name: Annamarie Schooling
 - role: Shadow Producer
   name: Ellie De Souza
