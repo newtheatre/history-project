@@ -17,7 +17,7 @@ cast:
 - role: Gale
   name: Eden Masters
 - role: Dante
-  name: Dante Sidhu
+  name: Danté Sidhu
 - role: Multi-role
   name: Alexandra Smith
 
