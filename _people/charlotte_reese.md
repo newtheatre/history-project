@@ -1,7 +1,7 @@
 ---
 title: Charlotte Reese
 submitted: false
-course: Liberal arts
+course: Liberal Arts
 graduated: 2026
 ---
 
