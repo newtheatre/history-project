@@ -53,8 +53,10 @@ script="echo '----- RSyncing repo into linux filesystem'     &&\
 installdep="echo '----- Install htmltest' &&\
     	curl https://htmltest.wjdp.uk > _bin/htmltest &&\
         chmod +x _bin/htmltest &&\
-        echo '----- Bundle Install' &&\
-        bundle install --jobs=3 --retry=3 --deployment
+        echo '----- Bundle Update' &&\
+        bundle config unset deployment &&\
+        bundle update &&\
+        bundle install --jobs=3 --retry=3
         echo '----- NPM Install' &&\
         npm install
     	echo '----- Bower Install' &&\
