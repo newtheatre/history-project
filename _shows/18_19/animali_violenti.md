@@ -25,7 +25,7 @@ crew:
 
 assets:
   - type: poster
-    image: TjWKFZF	
+    image: TjWKFZF
 
 prod_shots: jvwTMr
 
