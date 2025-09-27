@@ -16,7 +16,7 @@ cast:
   - name: Amy Dickinson
     person: false
   - name: Pete Allott
-  - name: Gabriela Carboneri 
+  - name: Gabriella Carboneri
   - name: Robert Page
     person: false 
   - name: Paul Schmidt
