@@ -6,7 +6,11 @@ module Jekyll
       if show.data["season"]
         # Special case, UNCUT/Fringe being the same thing
         if show.data["season"] == "UNCUT"
-          season_corrected = "Fringe"
+          season_corrected = "Studio"
+        elsif show.data["season"] == "Fringe"
+          season_corrected = "Studio"
+        elsif show.data["season"] == "Unscripted"
+          season_corrected = "Creatives"
         else
           season_corrected = show.data["season"]
         end

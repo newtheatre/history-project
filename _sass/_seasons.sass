@@ -31,7 +31,7 @@ $color-online: #FEA127
 .show-list-season, .person-show-season, .season-icon
   &.season-in-house:before
     color: $color-in-house !important
-  &.season-fringe:before, &.season-uncut:before
+  &.season-fringe:before, &.season-uncut:before, &.season-studio:before
     color: $color-fringe !important
   &.season-edinburgh:before, &.season-previews:before
     color: $color-edinburgh !important
@@ -43,7 +43,7 @@ $color-online: #FEA127
     color: $color-fundraiser !important
   &.season-iudf:before
     color: $color-iudf !important
-  &.season-unscripted:before
+  &.season-unscripted:before, &.season-creatives:before
     color: $color-unscripted !important
   &.season-online:before
     color: $color-online !important 
@@ -53,7 +53,7 @@ $color-online: #FEA127
   $opacity-jigging: 0.8
   .season-in-house
     background: rgba($color-in-house, $opacity-jigging)
-  .season-fringe, .season-uncut
+  .season-fringe, .season-uncut, .season-studio
     background: rgba($color-fringe, $opacity-jigging)
   .season-edinburgh, .season-previews
     background: rgba($color-edinburgh, $opacity-jigging)
@@ -65,7 +65,7 @@ $color-online: #FEA127
     background: rgba($color-fundraiser, $opacity-jigging)
   .season-iudf
     background: rgba($color-iudf, $opacity-jigging)
-  .season-unscripted
+  .season-unscripted, .season-creatives
     background: rgba($color-unscripted, $opacity-jigging)
   .season-online
     background: rgba($color-online, $opacity-jigging)
@@ -74,6 +74,7 @@ $color-online: #FEA127
 @include breadcrumb-color("in-house", $color-in-house)
 @include breadcrumb-color("fringe", darken($color-fringe, 20%))
 @include breadcrumb-color("uncut", darken($color-fringe, 20%))
+@include breadcrumb-color("studio", darken($color-fringe, 20%))
 @include breadcrumb-color("edinburgh", darken($color-edinburgh, 30%))
 @include breadcrumb-color("previews", darken($color-edinburgh, 30%))
 @include breadcrumb-color("lakeside", darken($color-lakeside, 10%))
@@ -81,6 +82,7 @@ $color-online: #FEA127
 @include breadcrumb-color("fundraiser", $color-fundraiser)
 @include breadcrumb-color("iudf", $color-iudf)
 @include breadcrumb-color("unscripted", $color-unscripted)
+@include breadcrumb-color("creatives", $color-unscripted)
 @include breadcrumb-color("online", $color-online)
 
 // Season pages
