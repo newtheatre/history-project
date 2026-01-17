@@ -13,7 +13,7 @@ cast:
   - role: Lainey (New Girl)
     name: Issy Bladen
   - role: Lulu
-    name: Beth Hook
+    name: Bethany Hook
   - role: Main Jock
     name: George Medley
   - role: Jock 2

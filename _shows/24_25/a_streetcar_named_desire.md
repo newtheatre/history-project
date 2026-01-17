@@ -1,6 +1,6 @@
 ---
 title: A Streetcar Named Desire
-playwright: Tennesee Williams
+playwright: Tennessee Williams
 period: Spring
 season: In House
 season_sort: 130
@@ -26,7 +26,7 @@ cast:
   - role: Steve
     name: Daniel Henwood
   - role: Pablo
-    name: Charlie Carvey
+    name: Charlie Carey
   - role: Young collector
     name: Ollie Enis
   - role: Doctor
@@ -40,7 +40,7 @@ crew:
   - role: Producer
     name: Laura Denison
   - role: Assistant Producer
-    name: Esther Mckenzie
+    name: Esther McKenzie
   - role: Shadow Producer
     name: Ingrid Anamaria
   - role: Stage Manager

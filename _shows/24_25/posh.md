@@ -21,8 +21,8 @@ cast:
     name: Jake Evans
   - role: Chris
     name: Drew Boswell
-  - role: Jermey
-    name: Joseph White
+  - role: Jeremy
+    name: Joe White
   - role: Alistair
     name: Ben Adeniji
   - role: Harry
@@ -46,11 +46,11 @@ crew:
   - role: Assistant Producer
     name: Mattea Gerdenitsch
   - role: Assistant Director
-    name: Charlotte Lowe
+    name: Charlie Lowe
   - role: Stage Manager
     name: Theo Northcote
   - role: Deputy Stage Manager
-    name: Abi Cass
+    name: Abigail Cass
   - role: Assistant Stage Manager
     name: Maisie Jack
   - role: Set Designer

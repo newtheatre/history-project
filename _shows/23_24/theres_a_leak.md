@@ -12,11 +12,11 @@ cast:
   - role: Elsa
     name: Charlotte Kemp
   - role: Igor
-    name: Will Morgan
+    name: William Morgan
   - role: Multi-Role
     name: Tom Farris
   - role: Multi-Role
-    name: Beatrice Robertson
+    name: Bea Robertson
   - role: Multi-Role
     name: Amy Child
   - role: Multi-Role

@@ -38,7 +38,7 @@ crew:
   - role: Co-Director
     name: Oliver Kletz
   - role: Co-Producer
-    name: Will Morgan
+    name: William Morgan
   - role: Stage Manager
     name: Lily Hagen
   - role: Deputy Stage Manager
@@ -51,6 +51,6 @@ crew:
     name: Chris Lau
   - role: Creative Assistant
     name: Simon Woods
-  - role: Co-Publicity
+  - role: Publicity Assistant
     name: Harrison Martin
 ---

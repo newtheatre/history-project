@@ -40,7 +40,7 @@ crew:
   - role: Assistant Stage Manager
     name: Emily Bober
   - role: Set Builder
-    name: Bhav Khodiyar
+    name: Bhavneeta Khodiyar
   - role: Lighting Designer
     name: Grace Duford
   - role: Sound Designer

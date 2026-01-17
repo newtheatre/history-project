@@ -11,7 +11,7 @@ venue: Bedlam Theatre
 
 cast:
   - role: Canary
-    name: Quinn Freidrich
+    name: Quinn Friedrich
   - role: Robyn
     name: Charlotte Kemp
   - role: Jay
@@ -43,9 +43,9 @@ crew:
   - role: Co-Producer
     name: T Kenyon
   - role: Co-Producer
-    name: Abbie Kitwood
+    name: Abigail Kitwood
   - role: Stage Manager
-    name: Abbie Kitwood
+    name: Abigail Kitwood
   - role: Technical Director
     name: Ellie Sugden
   - role: Technical Director

@@ -29,7 +29,7 @@ cast:
   - role: Actor
     name: Alex Lamb
   - role: Actor
-    name: Will Morgan
+    name: William Morgan
   - role: Actor
     name: Tom Farris
   - role: Actor
@@ -53,7 +53,7 @@ cast:
   - role: Themself
     name: Ellie Sugden
   - role: Actor
-    name: Dante Sidhu
+    name: Danté Sidhu
   - role: Actor
     name: Jasmine Rajan
   - role: Actor
@@ -71,7 +71,7 @@ crew:
   - role: Deputy Stage Manager
     name: Molly Higgit
   - role: Assistant Stage Manager
-    name: Abbie Kitwood
+    name: Abigail Kitwood
   - role: Assistant Stage Manager
     name: Anna Vogt
   - role: Set Designer
@@ -81,7 +81,7 @@ crew:
   - role: Lighting Designer
     name: Molly Squires
   - role: Sound Designer
-    name: Abbie Kitwood
+    name: Abigail Kitwood
   - role: Costume Designer
     name: Molly Squires
   - role: Costume Designer

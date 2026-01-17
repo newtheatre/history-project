@@ -26,7 +26,7 @@ cast:
   - role: Silvio
     name: Alex Vale
   - role: Smereldina
-    name: Immy johnson
+    name: Immy Johnson
 
 crew:
   - role: Director

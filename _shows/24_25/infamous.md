@@ -11,7 +11,7 @@ venue: Portland CM04
 
 cast:
   - role: Sage
-    name: Esther Mackenzie
+    name: Esther McKenzie
   - role: Nathan
     name: Rose Bardell
   - role: Liam
@@ -37,17 +37,15 @@ crew:
   - role: Director
     name: Charlie Lowe
   - role: Director
-    name: Beth Hook
+    name: Bethany Hook
   - role: Producer
     name: Lara Comrie
   - role: Assistant Producer
-    name: Nathaniel Zouieten
+    name: Nathaniel Zouiten
   - role: Stage Manager
     name: Anouska Ornstein
   - role: Co-Technical Designer
     name: James Cook
-  - role: Co-Technical Designer (Sound)
-    name: Katie Hill
   - role: Co-Technical Designer
     name: Katie Hill
   - role: Costume & Makeup Artist

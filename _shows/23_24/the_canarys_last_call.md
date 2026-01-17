@@ -26,9 +26,9 @@ cast:
   - role: Jay
     name: Agnes Tate
   - role: Barbara Winslow
-    name: Bea Roberston
+    name: Bea Robertson
   - role: Death
-    name: Bea Roberston
+    name: Bea Robertson
   - role: Mr Birch
     name: Quinn Friedrich
   - role: Noah

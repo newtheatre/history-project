@@ -22,9 +22,9 @@ cast:
   - role: Emily
     name: Rosanna Beacock
   - role: Dan
-    name: Alister Tiplady
+    name: Alistair Tiplady
   - role: Aleph
-    name: Wincy Jeraraj
+    name: Wincy Jeyaraj
   - role: Michaela
     name: Rose Momenin
   - role: Sal

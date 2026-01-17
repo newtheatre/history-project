@@ -15,7 +15,7 @@ cast:
   - role: Actor
     name: Charlotte Reay
   - role: Actor
-    name: Will Morgan
+    name: William Morgan
   - role: Actor
     name: Harry Holt
   - role: Actor
@@ -31,7 +31,7 @@ cast:
   - role: Actor
     name: Aryeh Gavzey
   - role: Actor
-    name: Adam Cooper-GIllespie
+    name: Adam Cooper-Gillespie
   - role: Actor
     name: Baby Bear
 

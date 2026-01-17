@@ -37,9 +37,9 @@ cast:
   - role: Card 2
     name: Alex Vale
   - role: Blue Caterpillar
-    name: Sofia Cristou
+    name: Sofia Christou
   - role: Card 7
-    name: Sofia Cristou
+    name: Sofia Christou
   - role: Duchess
     name: Harsita Chandra
   - role: Cook

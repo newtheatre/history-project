@@ -25,7 +25,7 @@ crew:
   - role: Director
     name: Ali Seaborne
   - role: Producer
-    name: Quinn Freidrich
+    name: Quinn Friedrich
   - role: Producer
     name: Katy Lotherington
   - role: Assistant Director

@@ -1,6 +1,6 @@
 ---
 title: Once Upon A Crime
-playwright: Amy Child and Ana Balancici
+playwright: Amy Child and Ana Balanici
 student_written: true
 period: Autumn
 season: In House
@@ -31,13 +31,13 @@ cast:
   - role: Red's Grandmother
     name: Nura Bentata
   - role: The Detective
-    name: Ollie Ennis
+    name: Ollie Enis
 
 crew:
   - role: Co-Director
     name: Amy Child
   - role: Co-Director
-    name: Ana Balancici
+    name: Ana Balanici
   - role: Producer
     name: Kieran Hatchett
   - role: Assistant Director
@@ -49,7 +49,7 @@ crew:
   - role: Deputy Stage Manager
     name: Hope Somers
   - role: Assistant Stage Manager
-    name: Ana Balancici
+    name: Ana Balanici
   - role: Assistant Stage Manager
     name: Luanne Moses
   - role: Lighting Designer
@@ -73,7 +73,7 @@ crew:
   - role: Publicity Manager
     name: Amy Child
   - role: Publicity Assistant
-    name: Ana Balancici
+    name: Ana Balanici
   - role: Publicity Assistant
     name: Rachel Hoddes
   - role: Publicity Assistant

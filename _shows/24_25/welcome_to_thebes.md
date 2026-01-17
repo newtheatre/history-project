@@ -16,7 +16,7 @@ cast:
   - role: Ismene
     name: Hannah Pears
   - role: Antigone
-    name: Chidera Chuks
+    name: Chidera Jenny Chuks
   - role: Haemon
     name: Jimmy Pays
   - role: Pargeia
@@ -48,7 +48,7 @@ cast:
   - role: Thalia
     name: Anna Pickerell
   - role: Tiresias
-    name: Nate Zouiten
+    name: Nathaniel Zouiten
   - role: Eris
     name: Rachel Hoddes
   - role: Eunomia

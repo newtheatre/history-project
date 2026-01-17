@@ -24,7 +24,7 @@ cast:
 
 crew:
   - role: Co-Director
-    name: Sophie Mitchel
+    name: Sophie Mitchell
   - role: Producer
     name: Anna Vogt
   - role: Assistant Producer
@@ -36,7 +36,7 @@ crew:
   - role: Assistant Stage Manager
     name: Rachel Randles
   - role: Set Assistant
-    name: Will Morgan
+    name: William Morgan
   - role: Adapter and Designer
     name: Karen Turnbull
   - role: Lighting Designer

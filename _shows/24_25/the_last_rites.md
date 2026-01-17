@@ -15,9 +15,9 @@ cast:
   - role: Isaac
     name: Ben Adeniji
   - role: Multi-role
-    name: William Laughey
+    name: Will Laughey
   - role: Rival prisoner
-    name: William Laughey
+    name: Will Laughey
 
 crew:
   - role: Co-Director

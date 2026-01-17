@@ -11,7 +11,7 @@ venue: Bedlam Theatre
 
 cast:
   - role: Frankie
-    name: Dante Sidhu
+    name: Danté Sidhu
 
 crew:
   - role: Director
