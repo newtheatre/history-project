@@ -8,6 +8,10 @@ date_start: 2025-03-06
 date_end: 2025-03-08
 venue: Portland Studio
 
+assets:
+  - type: poster
+    image: gK4wrvK
+
 cast:
   - role: Tim
     name: Maisie Jack
