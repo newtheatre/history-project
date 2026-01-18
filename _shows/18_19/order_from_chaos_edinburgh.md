@@ -28,11 +28,9 @@ crew:
 - role: Technical Manager
   name: Rachel Elphick
 
-
 assets:
 - type: poster
-  image: r85cqFg
-    
+  image: dfzMtqH
 ---
 
 Jay grew up on music: house, jungle, jazz, drum and bass, acid house, classical. They were obsessed. They’d play their favourite tracks repeatedly before falling asleep. Music is the most important and treasured part of of Jay’s life. But Jay is losing their hearing. As it slowly deteriorates, Jay comes to realise their musical passion becomes much more disconnected than before. They begin to explore ways to reconnect with music, with the struggle of a changed perception of noises and sounds in the world around them. A journey of passion, rebellion, youth and love through musical expression, 'Order from Chaos' tells the story of Jay, a teenager learning to reconnect with their passion for music after thinking they never could again.

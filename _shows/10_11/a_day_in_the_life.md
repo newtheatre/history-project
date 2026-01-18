@@ -8,6 +8,12 @@ season: External
 season_sort: 140
 venue: New Theatre
 improvised: true
+date_start: 2011-02-01
+date_end: 2011-02-03
+
+assets:
+  - type: poster
+    image: Ckr4D5D
 
 cast:
   - name: Jack Cross

@@ -11,6 +11,10 @@ venue: Walled Garden
 venue_sort: University Park
 student_written: true 
 
+assets:
+  - type: poster
+    image: P9QxwXt
+
 cast: 
 - role: Alice
   name: Lauren Rose McGee
