@@ -47,7 +47,7 @@ crew:
   - role: Director
     name: James Ashton
   - role: Director
-    name: Lindsey Fowler
+    name: Lyndsey Fowler
   - role: Producer
     name: Andi McCrae
   - role: Publicity
