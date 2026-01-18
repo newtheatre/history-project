@@ -9,6 +9,10 @@ date_start: 2024-12-08
 date_end: 2024-12-10
 venue: Sherwood Library
 
+assets:
+  - type: poster
+    image: nWqSnjz
+
 cast:
   - role: Mother
     name: Iona Willingham

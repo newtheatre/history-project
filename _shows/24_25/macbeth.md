@@ -8,6 +8,10 @@ date_start: 2024-11-21
 date_end: 2024-11-23
 venue: Portland Studio
 
+assets:
+  - type: poster
+    image: Vbms843
+
 cast:
   - role: Macbeth
     name: Tristan Ncube

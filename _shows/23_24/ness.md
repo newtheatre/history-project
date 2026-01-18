@@ -8,6 +8,10 @@ date_start: 2023-12-10
 date_end: 2023-12-13
 venue: Malone Atrium
 
+assets:
+  - type: poster
+    image: 6sF2hr3
+
 cast:
   - role: Actor One
     name: Maisie Jack
