@@ -34,7 +34,7 @@ crew:
 - role: Producer
   name: Davina Shah
 - role: Assistant Director
-  name: Lindsey Fowler
+  name: Lyndsey Fowler
 - role: Stage Manager
   name: Jacqui Ingram
 - role: Backstage Crew
