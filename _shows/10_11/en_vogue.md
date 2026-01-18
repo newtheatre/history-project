@@ -12,4 +12,8 @@ date_end: 2011-01-22
 assets:
   - type: poster
     image: kmMck6L
+
+crew:
+  - role: Directory
+    name: Tammy Ingamells
 ---
