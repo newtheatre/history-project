@@ -14,6 +14,6 @@ assets:
     image: kmMck6L
 
 crew:
-  - role: Directory
+  - role: Director
     name: Tammy Ingamells
 ---
