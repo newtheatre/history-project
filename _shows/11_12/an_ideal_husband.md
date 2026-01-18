@@ -6,4 +6,7 @@ season_sort: 98
 period: Spring
 venue: New Theatre
 
+crew:
+  - role: Producer
+    name: Tammy Ingamells
 ---
