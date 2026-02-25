@@ -104,4 +104,9 @@ crew:
   name: John Vallance
 - role: Publicity
   name: Rosemary Athay
+
+trivia:
+  - quote: "Was performing in driving rain and wind - the real problem was drying the costumes. I can’t remember any source of heating."
+    name: Anna McNeil
+    submitted: 2026-02-15
 ---
