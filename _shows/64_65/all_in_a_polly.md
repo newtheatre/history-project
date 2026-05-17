@@ -40,7 +40,7 @@ crew:
 
 cast:
   - role: Various
-    name: Chris Bigsy
+    name: Chris Bigsby
   - role: Various
     name: Mike Mackenzie
   - role: Various
