@@ -1,4 +1,4 @@
-FROM "ubuntu:bionic"
+FROM "ubuntu:22.04"
 
 ###
 # This docker file provides a consistant environment for running the 
@@ -14,7 +14,7 @@ RUN apt-get install -y curl sudo gnupg2 build-essential rsync git
 
 # Install Node
 ENV NVM_DIR /usr/local/nvm
-ENV NODE_VERSION 8.17.0
+ENV NODE_VERSION 10.24.1
 
 WORKDIR $NVM_DIR
 
