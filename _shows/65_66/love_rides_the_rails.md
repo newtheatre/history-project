@@ -36,7 +36,7 @@ cast:
 
 crew:
   - role: Director
-    name: L Brown
+    name: Lee Brown
   - role: Principal Scenic Artist
     name: Graham Howells
   - role: Stage Manager
