@@ -15,7 +15,7 @@ cast:
 - role: Death
   name: Miguel Barrulas
 - role: Lucy
-  name: Flo Avis
+  name: Florence Avis
 - role: Marcus
   name: Hugo Minta
 - role: Eleanor
@@ -43,7 +43,7 @@ crew:
 - role: Lead Designer
   name: Annie Clayton
 - role: Assistant Designer
-  name: Annabell D'Monte
+  name: Annabel D'Monte
 - role: Publicity Assistant
   name: Tomisin Fayemi
 - role: Magic Consultant
@@ -81,7 +81,7 @@ crew:
 - role: Poster Design
   name: Annie Clayton
 - role: Poster Design
-  name: Annabell D'Monte
+  name: Annabel D'Monte
 
 assets:
   - type: poster

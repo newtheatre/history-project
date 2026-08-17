@@ -8,7 +8,7 @@ venue: New Theatre
 
 cast:
 - role: Bill
-  name: Philip Barnes
+  name: Phil Barnes
 - role: Jill
   name: Terri Norris
 - role: Pat

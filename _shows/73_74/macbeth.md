@@ -62,7 +62,7 @@ crew:
 - role: Stage Manager
   name: Margarey Jones
 - role: Sound
-  name: Allan Green
+  name: Alan Green
 - role: Wardrobe
   name: Rosalind King
 - role: Wardrobe

@@ -13,7 +13,7 @@ cast:
   - role: Gosforth
     name: Demi Idowu
   - role: Stewart
-    name: Ollie Ennis
+    name: Oliver Ennis
   - role: Mrs Pearce
     name: Katie McCabe
   - role: Milly

@@ -24,7 +24,7 @@ crew:
 - role: Producer
   name: Josie Hayden
 - role: Producer
-  name: Flo Avis
+  name: Florence Avis
   note: NSDF
 - role: Shadow Director
   name: Yasmine Dankwah

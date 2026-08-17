@@ -23,7 +23,7 @@ crew:
 - role: Director
   name: Luwa Adebanjo
 - role: Producer
-  name: Flo Avis
+  name: Florence Avis
 - role: Assistant Director
   name: Ethan McCrystal
 - role: Lighting Designer

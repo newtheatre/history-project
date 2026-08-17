@@ -1,5 +1,5 @@
 ---
-title: Meg Isaac
+title: Meghan Isaac
 submitted: false
 course: French and Philosophy
 graduated: 2026

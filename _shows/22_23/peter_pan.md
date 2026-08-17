@@ -50,7 +50,7 @@ crew:
 - role: Assistant Producer
   name: Maddy Warren 
 - role: Creative Assistant 
-  name: Deleram Mesbahi
+  name: Delaram Mesbahi
 - role: Creative Assistant 
   name: Jasmine Rajan
 - role: Stage Manager 

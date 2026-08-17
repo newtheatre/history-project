@@ -50,7 +50,7 @@ crew:
 - role: Lighting
   name: Clive Loughlin
 - role: Stage Manager
-  name: Jo Pumfrey
+  name: Jonathan Pumfrey
 - role: Props
   name: Heather Peace
 - role: Chief Technician

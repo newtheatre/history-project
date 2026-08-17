@@ -27,7 +27,7 @@ crew:
 - role: Producer
   name: Jess Donn
 - role: Show Assistant
-  name: Flo Avis
+  name: Florence Avis
 - role: Publicity Assistant
   name: Alice Walker  
 - role: Technical Operator

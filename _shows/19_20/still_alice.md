@@ -86,7 +86,7 @@ crew:
 - role: Stagehand
   name: Barney Hartwill
 - role: Stagehand
-  name: Flo Avis
+  name: Florence Avis
 - role: Stagehand
   name: Kaitlyn Samuelsen
 - role: Technical Operator 

@@ -33,7 +33,7 @@ crew:
 - role: Wardrobe
   name: Christine Barnes
 - role: Make-Up
-  name: John Rowland
+  name: John Roland
 - role: Make-Up
   name: Richard Holdaway
 - role: Publicity

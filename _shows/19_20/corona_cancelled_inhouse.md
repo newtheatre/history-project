@@ -140,13 +140,13 @@ crew:
   name: Annabel Coombes
   note: Trojan Women
 - role: Producer
-  name: Flo Avis
+  name: Florence Avis
   note: Trojan Women
 - role: Assistant Producer
   name: Reisha Gill
   note: Trojan Women
 - role: Shadow Producer
-  name: Jemma Oberman
+  name: Jemma Bean Oberman
   note: Trojan Women
 - role: Technical Director 
   name: Jesse Rough

@@ -43,7 +43,7 @@ cast:
   - role: Actor
     name: Harry Holt
   - role: Actor
-    name: Daria Rusu
+    name: Daria Demetra-Rusa
   - role: Actor
     name: Rachel Hoddes
   - role: Actor
@@ -85,7 +85,7 @@ crew:
   - role: Costume Designer
     name: Molly Squires
   - role: Costume Designer
-    name: Meg Isaac
+    name: Meghan Isaac
   - role: Publicity Manager
     name: Rachel Hoddes
 ---

@@ -18,7 +18,7 @@ cast:
 - role: Sally
   name: Terri Norris
 - role: Jim
-  name: Philip Barnes
+  name: Phil Barnes
 
 crew:
 - role: Director

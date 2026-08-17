@@ -41,7 +41,7 @@ crew:
 - role: Set Designer
   name: Vicky Parker
 - role: Publicity Assistant
-  name: Tommy Stoney
+  name: Tom Stoney
 - role: Creative Assistant
   name: Aidan Kidney
 - role: Poster Designer

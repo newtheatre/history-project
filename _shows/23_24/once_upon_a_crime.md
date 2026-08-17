@@ -31,7 +31,7 @@ cast:
   - role: Red's Grandmother
     name: Nura Bentata
   - role: The Detective
-    name: Ollie Ennis
+    name: Oliver Ennis
 
 crew:
   - role: Co-Director

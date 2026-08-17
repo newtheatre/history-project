@@ -15,7 +15,7 @@ trivia:
 
 cast:
 - role: Lou
-  name: Flo Avis
+  name: Florence Avis
 - role: Richard
   name: Miguel Barrulas
 - role: John Tate

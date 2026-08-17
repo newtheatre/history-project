@@ -106,7 +106,7 @@ crew:
 - role: Director 
   name: Alice Zelenka Martin
 - role: Director 
-  name: Jemma Oberman 
+  name: Jemma Bean Oberman
 - role: Director 
   name: Nicholas Landon
 - role: Director 

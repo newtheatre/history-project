@@ -16,7 +16,7 @@ cast:
 - role: Moritz Steifel
   name: Olly O'Regan
 - role: George Schulmann
-  name: Daniel Cresswell
+  name: Dan Cresswell
 - role: Isle Franz
   name: Sofia Bassani
 - role: Mrs. Steifel / Mrs. Gabor

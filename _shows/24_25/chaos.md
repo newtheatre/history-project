@@ -48,7 +48,7 @@ crew:
   - role: Stage Manager
     name: Matt Adcock
   - role: Deputy Stage Manager
-    name: Pip Wright
+    name: Pippa Wright
   - role: Assistant Stage Manager
     name: Finn Lewis
   - role: Lighting Designer

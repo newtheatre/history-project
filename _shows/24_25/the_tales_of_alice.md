@@ -11,7 +11,7 @@ venue: Portland Studio
 
 cast:
   - role: Alice
-    name: Lorena Valle
+    name: Lorena Valle Alarcon
   - role: Older sister
     name: Katie Chant
   - role: Younger sister

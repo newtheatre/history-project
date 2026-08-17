@@ -25,9 +25,9 @@ cast:
   - role: Mean Girl 2
     name: Wincy Jeyaraj
   - role: Mean Girl 3
-    name: Lorena Valle
+    name: Lorena Valle Alarcon
   - role: Mean Gay
-    name: Joe White
+    name: Joseph White
   - role: Teacher 1
     name: Ali Seaborne
   - role: Teacher 2

@@ -38,7 +38,7 @@ crew:
   - role: Co-Director
     name: Oliver Kletz
   - role: Co-Director
-    name: Meg Isaac
+    name: Meghan Isaac
   - role: Co-Producer
     name: William Morgan
   - role: Co-Producer

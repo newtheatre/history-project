@@ -69,7 +69,7 @@ crew:
 - role: Set Designer
   name: Jenny Tiriamani
 - role: Set Construction
-  name: Joe Pumfrey
+  name: Jonathan Pumfrey
 - role: Costumes
   name: Catherine Churchill
 - role: Costumes

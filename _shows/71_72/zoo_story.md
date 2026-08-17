@@ -14,7 +14,7 @@ cast:
 - role: Jerry
   name: Gareth Bunn
 - role: Peter
-  name: Dave Walker
+  name: David Walker
 
 crew:
 - role: Director

@@ -112,7 +112,7 @@ crew:
   - role: Properties
     name: Lesley Foxton
   - role: Poster
-    name: Tyrel S Broadbent
+    name: Tyrol Broadbent
 
 assets:
   - type: poster
