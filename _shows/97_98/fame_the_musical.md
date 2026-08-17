@@ -14,7 +14,7 @@ crew:
  - role: Director
    name: Cara Turtington
  - role: Director
-   name: Anthony Cook
+   name: Anthony Cooke
  - role: Director
    name: Nicole Ross-Anderson
 

@@ -1,5 +1,6 @@
 ---
 title: Star Whores Special Derision (Sketch Show)
+comment: 'Programme prints "EMMA SANDERS"; recorded as Emma Sanderson to match the existing record on We Should Get Out More (97_98).'
 devised: Cast and Crew
 student_written: true
 season: In House
@@ -19,7 +20,7 @@ cast:
   - name: Ross Parish
   - name: Nicole Ross-Anderson
   - name: Mike Sanders
-  - name: Emma Sanders
+  - name: Emma Sanderson
   - name: Stuart Scott
   - name: Chris Spiking
   - name: Rachel Tan

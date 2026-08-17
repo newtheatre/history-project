@@ -1,5 +1,6 @@
 ---
 title: A Slice of Saturday Night Musical
+comment: 'Programme prints "Dave Attenborough"; recorded as David Attenborough to match the Cabaret (96_97) programme.'
 playwright: The Heather Brothers
 season: In House
 period: Spring
@@ -35,7 +36,7 @@ cast:
    note: The Boys
    name: Mark Anderson
  - role: Clubgoer
-   name: Dave Attenborough
+   name: David Attenborough
  - role: Clubgoer
    name: Susie Crowe
  - role: Clubgoer

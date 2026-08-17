@@ -1,5 +1,6 @@
 ---
 title: Cabaret the musical
+comment: 'Programme prints "WILL ABEL"; recorded as Will Abell to match existing records on Frankenstein (95_96) and The Trial (97_98).'
 playwright: Christopher Isherwood, John Kander and Fred Ebb
 season: In House
 period: Autumn
@@ -13,7 +14,7 @@ canonical:
 
 cast:
  - role: MC
-   name: Will Abel
+   name: Will Abell
  - role: Cliff Bradshaw
    name: Andy Muir
  - role: Sally Bowles
