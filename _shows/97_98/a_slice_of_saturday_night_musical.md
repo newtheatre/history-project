@@ -1,6 +1,5 @@
 ---
 title: A Slice of Saturday Night Musical
-comment: 'Programme prints "Dave Attenborough"; recorded as David Attenborough to match the Cabaret (96_97) programme. Transcribed from the programme as "Andy Muir"; recorded as Andrew Muir to match existing records on West Side Story (94_95) and Frankenstein (95_96).'
 playwright: The Heather Brothers
 season: In House
 period: Spring
@@ -32,11 +31,13 @@ cast:
  - role: Eddie
    note: The Boys
    name: Andrew Muir
+   comment: 'Transcribed from the programme as "Andy Muir"; spelling matched to West Side Story (94_95) and Frankenstein (95_96).'
  - role: "Gary / Terry"
    note: The Boys
    name: Mark Anderson
  - role: Clubgoer
    name: David Attenborough
+   comment: 'Programme prints "Dave Attenborough"; spelling matched to the Cabaret (96_97) programme.'
  - role: Clubgoer
    name: Susie Crowe
  - role: Clubgoer

@@ -1,6 +1,5 @@
 ---
 title: Star Whores Special Derision (Sketch Show)
-comment: 'Programme prints "EMMA SANDERS"; recorded as Emma Sanderson to match the existing record on We Should Get Out More (97_98). Programme prints "JOHN WOODSWORTH"; recorded as John Wordsworth to match the 98_99 committee record.'
 devised: Cast and Crew
 student_written: true
 season: In House
@@ -21,12 +20,14 @@ cast:
   - name: Nicole Ross-Anderson
   - name: Mike Sanders
   - name: Emma Sanderson
+    comment: 'Programme prints "EMMA SANDERS"; spelling matched to We Should Get Out More (97_98).'
   - name: Stuart Scott
   - name: Chris Spiking
   - name: Rachel Tan
   - name: Nick Tyler
   - name: Tania Wood
   - name: John Wordsworth
+    comment: 'Programme prints "JOHN WOODSWORTH"; spelling matched to the 98_99 committee record.'
 
 crew:
   - role: Co-Producer and Director

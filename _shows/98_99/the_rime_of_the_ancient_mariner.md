@@ -1,5 +1,4 @@
 ---
-comment: 'Transcribed from the programme as "Liz Ridler"; recorded as Lizzie Ridler to match Gasping (97_98) and Little Voice (99_00).'
 title: The Rime of the Ancient Mariner
 playwright: Samuel Taylor Coleridge
 season: In House
@@ -33,6 +32,7 @@ cast:
    name: Beth Powell
  - role: The Ancient Mariner
    name: Lizzie Ridler
+   comment: 'Transcribed from the programme as "Liz Ridler"; spelling matched to Gasping (97_98) and Little Voice (99_00).'
  - role: The Ancient Mariner
    name: Andrew Westwell
  - role: The Ancient Mariner

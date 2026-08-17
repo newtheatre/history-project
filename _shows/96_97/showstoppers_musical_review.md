@@ -1,5 +1,4 @@
 ---
-comment: 'Transcribed from the programme as "Andy Muir"; recorded as Andrew Muir to match existing records on West Side Story (94_95) and Frankenstein (95_96).'
 title: Showstoppers Musical Review
 playwright: various
 season: In House
@@ -28,6 +27,7 @@ cast:
    name: Paul Ham
  - name: Mike Horn
  - name: Andrew Muir
+   comment: 'Transcribed from the programme as "Andy Muir"; spelling matched to West Side Story (94_95) and Frankenstein (95_96).'
  - name: Matt Rigg
 
 crew:
