@@ -26,7 +26,7 @@ cast:
 - role: Lady Macbeth
   name: Crispin Harris
 - role: First Witch
-  name: Charles Barnecutt
+  name: Charles Barnecut
 - role: Set Builder
   name: Rob Ashburn
 

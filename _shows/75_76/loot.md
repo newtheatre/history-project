@@ -43,7 +43,7 @@ crew:
 - role: Production Assistant
   name: Debbie Harrison
 - role: Stage Manager
-  name: Jane Woolfenden
+  name: Jane Wolfenden
 - role: Set Construcion
   name: Chris Herbert
 - role: Lighting / Sound

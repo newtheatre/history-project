@@ -157,7 +157,7 @@ crew: # Omit certain roles as required
 - role: Director
   name: Lauren Birks
 - role: Director
-  name: Anna Schooling
+  name: Annamarie Schooling
 - role: Director
   name: Katie Booth
 - role: Director

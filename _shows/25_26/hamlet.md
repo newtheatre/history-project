@@ -67,7 +67,7 @@ crew:
   - role: Assistant Stage Manager
     name: Aneline Wood
   - role: Deputy Stage Manager
-    name: Abi Cass
+    name: Abigail Cass
   - role: Lighting Designer
     name: Clarine Philip
   - role: Sound Designer

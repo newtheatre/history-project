@@ -49,7 +49,7 @@ cast:
   - role: Dormouse
     name: Kayla Sibanda
   - role: March Hare
-    name: Grace Cannon
+    name: Gracie Cannon
 
 crew:
   - role: Director

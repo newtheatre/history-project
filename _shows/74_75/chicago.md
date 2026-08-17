@@ -8,7 +8,7 @@ venue: New Theatre
 
 cast:
 - role: Stu
-  name: Nicholas Frost
+  name: Nick Frost
 - role: Joy
   name: Lorna Tanklovitch
 - role: Myra
@@ -34,7 +34,7 @@ crew:
 - role: Lighting & Sound
   name: Clive Loughlin
 - role: Lighting & Sound
-  name: Johnathan Barstow
+  name: Jonathan Barstow
 - role: Photography
   name: Barbara Laws
 

@@ -28,7 +28,7 @@ cast:
 - role: Mrs Darling / Lost Boy / Mermaid 
   name: Molly Allen
 - role: Nibs / Mermaid / Pirate 
-  name: Annabelle Rumble
+  name: Annabel Rumble
 - role: Curly / Skylights 
   name: Jake Evans
 - role: Twin 1 / Mermaid / Pirate 

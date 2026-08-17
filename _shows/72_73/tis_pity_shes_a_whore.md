@@ -53,7 +53,7 @@ cast:
 - role: Masquer
   name: Janice Howman
 - role: Masquer
-  name: Julia Wykes
+  name: Julie Wykes
 
 crew:
 - role: Director

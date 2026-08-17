@@ -32,7 +32,7 @@ crew:
 - role: Lighting & Sound
   name: Clive Loughlin
 - role: Lighting & Sound
-  name: Johnathan Barstow
+  name: Jonathan Barstow
 - role: Photography
   name: Barbara Laws
 

@@ -22,7 +22,7 @@ crew:
   - role: Designer
     name: Katie Blumenblatt
   - role: Lighting, Sound and Computer Effects
-    name: Phil Geller
+    name: Philip Geller
   - role: Lighting, Sound and Computer Effects
     name: Matt Leventhall
   - role: Lighting, Sound and Computer Effects

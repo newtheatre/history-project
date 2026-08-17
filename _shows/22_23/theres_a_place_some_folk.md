@@ -25,7 +25,7 @@ cast:
 - role: George
   name: Max Isherwood
 - role: Kurt
-  name: Matt Diamond
+  name: Matthew Diamond
 - role: The Mind 
   name: Molly Squires
 - role: Lela

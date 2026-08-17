@@ -16,7 +16,7 @@ crew:
 
 cast:
  - role: Jennifer
-   name: Sam Pysk
+   name: Samantha Pysk
  - role: Andrew
    name: Ali Blackwell
  - role: Bride

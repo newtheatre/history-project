@@ -22,7 +22,7 @@ crew:
 - role: Assistant Director 
   name: Abraham Botha
 - role: Producer
-  name: Nick Landon
+  name: Nicholas Landon
 - role: Captioner
   name: Skylar Turnbull Hurd
 - role: Video Editor

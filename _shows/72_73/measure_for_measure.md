@@ -43,7 +43,8 @@ cast:
  - role: Isabella
    name: Sue Burgess
  - role: Marianna
-   name: Frances Macdonald
+   name: Frances MacDonald
+   comment: 'Transcribed from the programme as "Frances Macdonald"; spelling matched to Frances MacDonald (73_74, 74_75).'
  - role: Mistress Overdon
    name: Sue Compston
  - role: Julietta

@@ -31,7 +31,7 @@ cast:
   - name: Nick Frost
   - name: Matthew Bannister
   - name: Ed Nally
-  - name: Frank Maryland
+  - name: Frank Marsland
   - name: Stephen Hopker
     role: Private Evans
   - name: Nick Williams

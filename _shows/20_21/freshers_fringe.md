@@ -97,7 +97,7 @@ crew:
 - role: Director 
   name: Caetano Capurro
 - role: Director 
-  name: Ella Seber Rajan
+  name: Ella Seber-Rajan
 - role: Director 
   name: Charlie Basley
 - role: Director 

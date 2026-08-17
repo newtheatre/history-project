@@ -96,7 +96,7 @@ cast:
 - role: Soldier
   name: Conrad Cook
 - role: Tullus Aufidus
-  name: Neville Cruttendon
+  name: Neville Cruttenden
   note: General of the Volscians
 - role: Adrian
   name: Roger Hill

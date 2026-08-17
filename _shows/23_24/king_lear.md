@@ -12,7 +12,7 @@ cast:
   - role: King Lear
     name: Kayla Sibanda
   - role: The Fool
-    name: Ella Benson Roberts
+    name: Ella Benson-Roberts
   - role: Cordelia
     name: Felicity Kelso-Russell
   - role: Goneril

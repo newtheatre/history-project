@@ -57,7 +57,7 @@ crew:
 - role: Lighting Designer 
   name: David Walastyan
 - role: Sound Designer 
-  name: Adian Angol-Henry
+  name: Adrian Angol-Henry
 - role: Set Designer 
   name: Natacha Schmitt
 - role: Publicity Manager 

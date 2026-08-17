@@ -16,7 +16,7 @@ cast:
 - role: Young Woman
   name: Amanda Salt
 - role: Old Woman
-  name: Sarah Shorrocky
+  name: Sarah Shorrocks
 - role: Combe
   name: Graham Moff
 - role: Son

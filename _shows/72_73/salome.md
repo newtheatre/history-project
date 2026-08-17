@@ -11,7 +11,7 @@ cast:
 - role: Herod
   name: Martin Holland
 - role: Herodias
-  name: Octavia Elise
+  name: Octavia Else
 - role: Jokanaan
   name: Kevin Buxton
 - role: Syrian Captain

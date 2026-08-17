@@ -69,7 +69,7 @@ crew:
   - role: Costume, Props and Make-up Assistant
     name: Amy Child
   - role: Costume, Props and Make-up Assistant
-    name: Rosie Hatherly
+    name: Rosie Hatherley
   - role: Publicity Manager
     name: Amy Child
   - role: Publicity Assistant

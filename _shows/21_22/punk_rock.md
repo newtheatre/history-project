@@ -12,7 +12,7 @@ cast:
 - role: William
   name: Abraham Botha
 - role: Lilly 
-  name: Emily Rule
+  name: Em Rule
 - role: Bennett
   name: Charlie Bellwood
 - role: Cissy

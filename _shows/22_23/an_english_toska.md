@@ -24,7 +24,7 @@ cast:
 - role: Charlotte
   name: Lucy Ferguson
 - role: Thomas
-  name: Michael Mclean
+  name: Michael McClean
 
 
 crew: 

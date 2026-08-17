@@ -15,7 +15,7 @@ trivia:
 
 cast:
 - role: Ulysses
-  name: William Tillet
+  name: William Tillett
   note: Trojan Women
 - role: Pyrrhus
   name: Olly O'Regan

@@ -17,7 +17,7 @@ cast:
   - role: Johnny
     name: T Kenyon
   - role: Mrs Bugdin
-    name: Grace Cannon
+    name: Gracie Cannon
   - role: Alyssa
     name: Isabel Barros
 

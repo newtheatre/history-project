@@ -25,7 +25,7 @@ cast:
 - role: Winnie
   name: Akua Addo
 - role: Durkee
-  name: James Fellas Laurie
+  name: James Fellas-Laurie
 
 crew: 
 - role: Director

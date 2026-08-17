@@ -13,7 +13,7 @@ cast:
 - role: Saffron
   name: Sienna Mullen
 - role: Estella
-  name: Izzy Johnson
+  name: Isabel Johnson
 - role: Jo
   name: Katie Booth
 - role: Elsie

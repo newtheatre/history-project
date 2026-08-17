@@ -28,7 +28,7 @@ cast:
 
 crew:
 - role: Prompts
-  name: Cathy Hodgetts
+  name: Kathy Hodgetts
   note: Endgame
 
 ---

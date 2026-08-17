@@ -25,7 +25,7 @@ crew:
 - role: Co-Director
   name: Lauren Brady
 - role: Co-Director
-  name: Alex Hogg
+  name: Alexandra Hogg
 - role: Producer
   name: Oliver Kletz
 - role: Assistant Producer

@@ -10,7 +10,8 @@ date_end: 1988-11-26
 
 cast:
   - role: Max
-    name: John Keane
+    name: Jonathan Keane
+    comment: 'Transcribed from the programme as "John Keane"; spelling matched to Jonathan Keane (89_90).'
   - role: Charlotte
     name: Helen Punt
   - role: Henry

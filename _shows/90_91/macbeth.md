@@ -14,7 +14,7 @@ cast:
   - role: Ross
     name: Simon Heath
   - role: Banquo
-    name: Jon Keane
+    name: Jonathan Keane
   - role: Witch
     name: Helen Punt
   - role: Malcolm

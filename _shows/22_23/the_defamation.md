@@ -21,7 +21,7 @@ cast:
 - role: Juliet
   name: Felicity Kelso-Russell
 - role: Hero
-  name: Sophie Mitchel
+  name: Sophie Mitchell
 - role: Charity
   name: Isabelle Kennedy-Grimes
 
@@ -37,7 +37,7 @@ crew:
 - role: Producer
   name: Laura Denison
 - role: Assistant Producer
-  name: Annabelle Rumble
+  name: Annabel Rumble
 - role: Lighting Designer 
   name: Ellie Sugden
 - role: Sound Designer 

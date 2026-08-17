@@ -25,7 +25,7 @@ crew:
 - role: Producer
   name: Libby Horobin
 - role: Assistant Producer
-  name: Gabrielle Teriaca
+  name: Gabriella Teriaca
 - role: Sound Designer 
   name: Em Rule
 - role: Video Editor 

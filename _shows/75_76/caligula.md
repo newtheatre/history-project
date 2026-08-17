@@ -36,7 +36,7 @@ cast:
 - role: Wife
   name: Gill Wilson
 - role: Wife
-  name: Briony Bennson
+  name: Briony Bennison
 - role: Soldier
   name: Fred Butters
 - role: Soldier

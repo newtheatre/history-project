@@ -74,7 +74,7 @@ cast:
   note: Margaux, Wilf and Lillian's Group
 - name: Edie Gillett 
   note: Margaux, Wilf and Lillian's Group
-- name: Sofie Loreti
+- name: Sofia Loreti
   note: Margaux, Wilf and Lillian's Group
 - name: Marla Brown 
   note: Beth and Lucy's Group

@@ -26,7 +26,7 @@ cast:
 - role: Barmaid
   name: Cecily Chaplen
 - role: Bo
-  name: Adam Cooper-Gilespie
+  name: Adam Cooper-Gillespie
 - role: Brad
   name: Amelia Lawther
 - role: Chad

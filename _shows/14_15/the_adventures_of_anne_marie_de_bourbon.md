@@ -68,7 +68,7 @@ links:
 
 trivia:
   - quote: There were two original songs written for the show, by Tom Moore and Emilie Brittain.
-    name: Charlotte Van Rhee
+    name: Charlotte van Rhee
     submitted: 2014-12-06
 ---
 
