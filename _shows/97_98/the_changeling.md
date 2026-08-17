@@ -39,7 +39,6 @@ cast:
     name: Jo Warnes
   - role: Servant Two
     name: Nick Tyler
-  - name: Ramsay Gilderdale
 
 crew:
   - role: Edited and Directed
