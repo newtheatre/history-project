@@ -1,6 +1,6 @@
 ---
 title: A Slice of Saturday Night Musical
-comment: 'Programme prints "Dave Attenborough"; recorded as David Attenborough to match the Cabaret (96_97) programme.'
+comment: 'Programme prints "Dave Attenborough"; recorded as David Attenborough to match the Cabaret (96_97) programme. Transcribed from the programme as "Andy Muir"; recorded as Andrew Muir to match existing records on West Side Story (94_95) and Frankenstein (95_96).'
 playwright: The Heather Brothers
 season: In House
 period: Spring
@@ -31,7 +31,7 @@ cast:
    name: Andrew Westwell
  - role: Eddie
    note: The Boys
-   name: Andy Muir
+   name: Andrew Muir
  - role: "Gary / Terry"
    note: The Boys
    name: Mark Anderson

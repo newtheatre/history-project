@@ -1,6 +1,6 @@
 ---
 title: Star Whores Special Derision (Sketch Show)
-comment: 'Programme prints "EMMA SANDERS"; recorded as Emma Sanderson to match the existing record on We Should Get Out More (97_98).'
+comment: 'Programme prints "EMMA SANDERS"; recorded as Emma Sanderson to match the existing record on We Should Get Out More (97_98). Programme prints "JOHN WOODSWORTH"; recorded as John Wordsworth to match the 98_99 committee record.'
 devised: Cast and Crew
 student_written: true
 season: In House
@@ -26,7 +26,7 @@ cast:
   - name: Rachel Tan
   - name: Nick Tyler
   - name: Tania Wood
-  - name: John Woodsworth
+  - name: John Wordsworth
 
 crew:
   - role: Co-Producer and Director

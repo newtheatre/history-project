@@ -1,4 +1,5 @@
 ---
+comment: 'Transcribed from the programme as "Andy Muir"; recorded as Andrew Muir to match existing records on West Side Story (94_95) and Frankenstein (95_96).'
 title: Showstoppers Musical Review
 playwright: various
 season: In House
@@ -26,7 +27,7 @@ cast:
  - role: Compere
    name: Paul Ham
  - name: Mike Horn
- - name: Andy Muir
+ - name: Andrew Muir
  - name: Matt Rigg
 
 crew:

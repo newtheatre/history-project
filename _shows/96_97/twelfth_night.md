@@ -1,4 +1,5 @@
 ---
+comment: 'Transcribed from the programme as "Andy Muir"; recorded as Andrew Muir to match existing records on West Side Story (94_95) and Frankenstein (95_96).'
 title: Twelfth Night
 season: In House
 period: Spring
@@ -12,7 +13,7 @@ trivia:
 
 cast:
   - role: Orsino, Duke of Illyria
-    name: Andy Muir
+    name: Andrew Muir
   - role: Valentine, a lady attending on Orsino
     name: Tania Wood
   - role: Curio, a gentleman attending on Orsino

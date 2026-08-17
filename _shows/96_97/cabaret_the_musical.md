@@ -1,6 +1,6 @@
 ---
 title: Cabaret the musical
-comment: 'Programme prints "WILL ABEL"; recorded as Will Abell to match existing records on Frankenstein (95_96) and The Trial (97_98).'
+comment: 'Programme prints "WILL ABEL"; recorded as Will Abell to match existing records on Frankenstein (95_96) and The Trial (97_98). Transcribed from the programme as "Andy Muir"; recorded as Andrew Muir to match existing records on West Side Story (94_95) and Frankenstein (95_96).'
 playwright: Christopher Isherwood, John Kander and Fred Ebb
 season: In House
 period: Autumn
@@ -16,7 +16,7 @@ cast:
  - role: MC
    name: Will Abell
  - role: Cliff Bradshaw
-   name: Andy Muir
+   name: Andrew Muir
  - role: Sally Bowles
    name: Katie Rowley-Jones
  - role: Fraulein Schneider

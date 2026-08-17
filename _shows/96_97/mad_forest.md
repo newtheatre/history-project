@@ -1,4 +1,5 @@
 ---
+comment: 'Cast member previously recorded as "Ellie Colyer Alasquez"; normalised to Ellie Colyer to match her other credits (96_97-98_99) and person record.'
 title: Mad Forest
 season: Edinburgh
 period: Edinburgh
@@ -9,7 +10,7 @@ venue: New Theatre
 cast:
   - name: Ross Parish
   - name: Louis Robinson
-  - name: Ellie Colyer Alasquez
+  - name: Ellie Colyer
   - name: Dan ???
     person: false
   - name: Marilyn Bird

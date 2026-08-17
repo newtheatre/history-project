@@ -1,4 +1,5 @@
 ---
+comment: 'Transcribed from the programme as "Liz Ridler"; recorded as Lizzie Ridler to match Gasping (97_98) and Little Voice (99_00).'
 title: The Rime of the Ancient Mariner
 playwright: Samuel Taylor Coleridge
 season: Edinburgh
@@ -33,7 +34,7 @@ cast:
  - role: The Ancient Mariner
    name: Beth Powell
  - role: The Ancient Mariner
-   name: Liz Ridler
+   name: Lizzie Ridler
  - role: The Ancient Mariner
    name: Andrew Westwell
  - role: The Ancient Mariner
