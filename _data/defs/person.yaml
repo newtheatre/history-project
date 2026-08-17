@@ -28,7 +28,7 @@
 - attr: gender
   type: string
   short: Person gender
-  description: "Recognises male or female."
+  description: "No longer used, omit from new records"
 
 - attr: headshot
   type: hash
