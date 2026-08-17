@@ -22,7 +22,7 @@ cast:
     name: Michael Hyde
   - role: "Stephanie"
     note: "Glyn's wife"
-    name: Moly Watson
+    name: Molly Watson
   - role: "Maureen"
     note: "Adam's Girlfriend"
     name: Emily Hawkins
