@@ -52,6 +52,21 @@ crew:
   - role: "Habit and Devil's Cloak"
     name: "courtesy of Stu's Mum"
     person: false
+
+assets:
+  - type: programme
+    image: rD9vhC8
+    title: Front cover
+    display_image: true
+  - type: programme
+    image: 8PbZLM2
+    page: 1
+  - type: programme
+    image: T42Jq4w
+    page: 2
+  - type: programme
+    image: cD7jLZF
+    page: 3
 ---
 
 

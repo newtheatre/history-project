@@ -82,6 +82,17 @@ crew:
     note: "\"Special\""
   - role: Programme Design
     name: Gemma Robinson
+
+assets:
+  - type: programme
+    image: kmjgX2Z
+    page: 1
+  - type: programme
+    image: mG7nCVk
+    page: 2
+  - type: programme
+    image: nHJNzrg
+    page: 3
 ---
 
 

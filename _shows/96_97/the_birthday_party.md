@@ -39,6 +39,18 @@ crew:
    name: Andy Davis
  - role: Set
    name: Jared Manley
+
+assets:
+  - type: programme
+    image: XJk8pm3
+    title: Front cover
+    display_image: true
+  - type: programme
+    image: tr8LXhZ
+    page: 1
+  - type: programme
+    image: RCTckSJ
+    page: 2
 ---
 
 

@@ -124,6 +124,21 @@ crew:
  - role: Tenor Sax
    note: Band
    name: Mike Skinner
+
+assets:
+  - type: programme
+    image: VTKzNsG
+    title: Front cover
+    display_image: true
+  - type: programme
+    image: WqhHKBF
+    page: 1
+  - type: programme
+    image: vXRWmRC
+    page: 2
+  - type: programme
+    image: DHFgFbQ
+    page: 3
 ---
 
 

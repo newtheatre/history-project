@@ -77,6 +77,18 @@ crew:
  - role: Trumpet
    note: Band
    name: Ian Sutton
+
+assets:
+  - type: programme
+    image: BskxhNH
+    title: Front cover
+    display_image: true
+  - type: programme
+    image: 2S8N3SZ
+    page: 1
+  - type: programme
+    image: 39NJhcn
+    page: 2
 ---
 
 

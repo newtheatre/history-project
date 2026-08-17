@@ -46,6 +46,18 @@ crew:
    name: Claire McKenzie
  - role: Props and Costumes
    name: Marilyn Bird
+
+assets:
+  - type: programme
+    image: 6pVtZ88
+    title: Front cover
+    display_image: true
+  - type: programme
+    image: 5rLV56f
+    page: 1
+  - type: programme
+    image: 3CRzJKh
+    page: 2
 ---
 
 

@@ -16,6 +16,12 @@ crew:
     name: Stuart Scott
   - role: Producer
     name: Ross Parish
+
+assets:
+  - type: script
+    image: HRfXnvc
+    title: Surviving script page
+    display_image: true
 ---
 
 

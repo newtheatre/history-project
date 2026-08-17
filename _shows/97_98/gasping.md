@@ -60,6 +60,14 @@ crew:
  - role: Publicity
    name: Smyth & Ponder Plc
    person: false
+
+assets:
+  - type: programme
+    image: nmdMmC6
+    page: 1
+  - type: programme
+    image: BKSvJQh
+    page: 2
 ---
 
 

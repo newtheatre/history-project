@@ -48,6 +48,18 @@ crew:
     name: Claire Messore
   - role: Poster Design
     name: Matt Price
+
+assets:
+  - type: programme
+    image: FmrLFDj
+    title: Front cover
+    display_image: true
+  - type: programme
+    image: 8fg6qnW
+    page: 1
+  - type: programme
+    image: xjXjfWB
+    page: 2
 ---
 
 

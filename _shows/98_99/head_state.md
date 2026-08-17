@@ -36,6 +36,14 @@ crew:
    name: Kate Bateman
  - role: Makeup
    name: Jenny McWhirter
+
+assets:
+  - type: programme
+    image: pq7j8vj
+    page: 1
+  - type: programme
+    image: XM6Xq53
+    page: 2
 ---
 
 

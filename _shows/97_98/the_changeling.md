@@ -61,6 +61,18 @@ crew:
     name: Kerry Siddall
   - role: Front of House
     name: Hannah May
+
+assets:
+  - type: programme
+    image: khRJcP5
+    title: Front cover
+    display_image: true
+  - type: programme
+    image: fsNG3xj
+    page: 1
+  - type: programme
+    image: BK3Qs3p
+    page: 2
 ---
 
 

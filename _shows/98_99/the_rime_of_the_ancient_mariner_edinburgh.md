@@ -50,6 +50,18 @@ crew:
    name: Dan Burnett
  - role: Lighting
    name: Mike Bryan
+
+assets:
+  - type: programme
+    image: hWLn6xS
+    title: Front cover
+    display_image: true
+  - type: programme
+    image: tq5dQQP
+    page: 1
+  - type: programme
+    image: Bm6r8cs
+    page: 2
 ---
 
 

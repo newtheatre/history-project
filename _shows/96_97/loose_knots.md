@@ -43,6 +43,20 @@ crew:
    name: Oginia Tabiz
  - role: Publicity and Programme Designer
    name: Vara Szajkowski
+
+assets:
+  - type: programme
+    image: zVzv7SV
+    page: 1
+  - type: programme
+    image: T3W2FVz
+    page: 2
+  - type: programme
+    image: 4VkJnz7
+    page: 3
+  - type: programme
+    image: VZgM8km
+    page: 4
 ---
 
 

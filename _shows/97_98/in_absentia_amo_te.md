@@ -33,6 +33,18 @@ crew:
  - role: Programme
    name: Simon Ellis
    note: "\"STRESSED?!\""
+
+assets:
+  - type: programme
+    image: hKwmPQz
+    title: Front cover
+    display_image: true
+  - type: programme
+    image: wBhQNgH
+    page: 1
+  - type: programme
+    image: 5DvRSQ5
+    page: 2
 ---
 
 

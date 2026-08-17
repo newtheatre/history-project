@@ -48,6 +48,18 @@ crew:
    name: Vara Szajkowski
  - role: Poster and Programme Design
    name: Jolin Warren
+
+assets:
+  - type: programme
+    image: X52X66V
+    title: Front cover
+    display_image: true
+  - type: programme
+    image: Z4pTqx7
+    page: 1
+  - type: programme
+    image: VVRXx3X
+    page: 2
 ---
 
 

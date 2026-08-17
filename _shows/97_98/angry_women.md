@@ -18,6 +18,12 @@ cast:
  - role: Juror No 10
    note: the very angry one
    name: Paul Kerensa
+
+assets:
+  - type: advert
+    image: ZqwrxP2
+    title: Advert in the In Absentia Amo Te programme
+    display_image: true
 ---
 
 

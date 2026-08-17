@@ -94,6 +94,14 @@ crew:
  - role: Bass Guitar
    note: Craig "Funky" Fingers and the Fish
    name: Geoff Shearcroft
+
+assets:
+  - type: programme
+    image: fxdNzvp
+    page: 1
+  - type: programme
+    image: DTmdjnC
+    page: 2
 ---
 
 

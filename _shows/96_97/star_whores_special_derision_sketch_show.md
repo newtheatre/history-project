@@ -62,6 +62,14 @@ crew:
     name: Kit Hadley
   - role: Vocals
     name: Chris Palmer
+
+assets:
+  - type: programme
+    image: kn97LvN
+    page: 1
+  - type: programme
+    image: mt5M469
+    page: 2
 ---
 
 

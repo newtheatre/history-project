@@ -25,6 +25,9 @@ cast:
 assets:
   - type: programme
     image: z2LGjRQ
+  - type: advert
+    image: FQp8sz9
+    title: Advert in The Changeling programme
 ---
 
 
