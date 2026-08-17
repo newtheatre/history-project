@@ -39,6 +39,8 @@ crew:
   name: Syania Shaharuddin
 - role: Shadow Producer
   name: Maria Stavrakaki
+- role: Assistant Producer
+  name: Shaina Abdellaoui
 - role: Set Designer
   name: Pete Rouse
 - role: Set Assistant
