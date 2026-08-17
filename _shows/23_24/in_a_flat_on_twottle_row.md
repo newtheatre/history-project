@@ -16,7 +16,11 @@ cast:
     name: Ali Cavli
   - role: Reneé Mayonnaise
     name: Holly Howell
-  - role: Multi-Role
+  - role: Dr Sarah Tonin
+    name: Oliver Kletz
+  - role: Stage Manager (actor)
+    name: Oliver Kletz
+  - role: Officiant
     name: Oliver Kletz
   - role: James
     name: Alex Vale
