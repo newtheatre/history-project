@@ -11,7 +11,7 @@ cast:
   - role: Hamlet
     name: Jess Yerby
   - role: Horatio
-    name: Megan Isaac
+    name: Meghan Isaac
   - role: Gertrude
     name: Bea Robertson
   - role: Ophelia

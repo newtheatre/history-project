@@ -45,7 +45,7 @@ cast:
    note: Gus & Ollie's Group
  - name: Clarissa-Anne Teo
    note: Jake's Group
- - name: Alba Bodi
+ - name: Alba Bodi Garcia
    note: Jake's Group
  - name: Alix Gabaude
    note: Jake's Group
