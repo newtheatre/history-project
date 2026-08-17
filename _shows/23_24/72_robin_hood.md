@@ -7,6 +7,10 @@ date_start: 2023-11-10
 date_end: 2023-11-10
 venue: New Theatre
 
+cast:
+  - role: Maid Marian
+    name: Hareem Babar
+
 crew:
   - role: Stage Manager
     name: Abigail Kitwood
