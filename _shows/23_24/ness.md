@@ -1,6 +1,7 @@
 ---
 title: Ness
 playwright: Robert Macfarlane
+adaptor: Karen Turnbull
 period: Autumn
 season: Studio
 season_sort: 60
@@ -29,6 +30,10 @@ cast:
 crew:
   - role: Co-Director
     name: Sophie Mitchell
+  - role: Co-Director
+    name: Delaram Mesbahi
+  - role: Co-Director
+    name: Molly Higgitt
   - role: Producer
     name: Anna Vogt
   - role: Assistant Producer
@@ -41,7 +46,7 @@ crew:
     name: Rachel Randles
   - role: Set Assistant
     name: William Morgan
-  - role: Adapter and Designer
+  - role: Designer
     name: Karen Turnbull
   - role: Lighting Designer
     name: Charlotte Reay

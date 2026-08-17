@@ -3,10 +3,10 @@ title: In A Flat On Twottle Row
 playwright: Zoe Hopper and Danté Sidhu
 student_written: true
 period: Spring
-season: Studio
+season: In House
 season_sort: 130
-date_start: 2024-03-24
-date_end: 2024-03-27
+date_start: 2024-03-21
+date_end: 2024-03-24
 venue: Studio Live
 
 cast:
@@ -28,7 +28,9 @@ cast:
     name: Emma Hornsby
 
 crew:
-  - role: Director
+  - role: Co-Director
+    name: Zoe Hopper
+  - role: Co-Director
     name: Danté Sidhu
   - role: Co-Producer
     name: Luanne Moses

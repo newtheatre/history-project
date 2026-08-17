@@ -37,8 +37,12 @@ cast:
 crew:
   - role: Co-Director
     name: Oliver Kletz
+  - role: Co-Director
+    name: Meg Isaac
   - role: Co-Producer
     name: William Morgan
+  - role: Co-Producer
+    name: Bea Robertson
   - role: Co-Producer
     name: Oliver Kletz
   - role: Stage Manager

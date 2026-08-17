@@ -45,7 +45,7 @@ crew:
   - role: Assistant Stage Manager
     name: Anna Vogt
   - role: Assistant Stage Manager
-    name: Molly Higgit
+    name: Molly Higgitt
   - role: Lighting Designer
     name: Charlotte Reese
   - role: Sound Designer

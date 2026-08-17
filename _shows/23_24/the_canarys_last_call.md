@@ -3,10 +3,10 @@ title: The Canary's Last Call
 playwright: Jess Beadle-Platt
 student_written: true
 period: Autumn
-season: In House
+season: Studio
 season_sort: 20
-date_start: 2023-11-23
-date_end: 2023-11-26
+date_start: 2023-11-26
+date_end: 2023-11-29
 
 cast:
   - role: Canary

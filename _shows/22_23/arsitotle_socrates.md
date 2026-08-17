@@ -25,9 +25,9 @@ crew:
 - role: Director
   name: Caetano Capurro
 - role: Director
-  name: Laura Dennison
+  name: Laura Denison
 - role: Producer
-  name: Laura Dennison
+  name: Laura Denison
 - role: Co-Producer
   name: Freya Davis
 - role: Assistant Director
@@ -35,7 +35,7 @@ crew:
 - role: Playwright
   name: Caetano Capurro
 - role: Playwright
-  name: Laura Dennison
+  name: Laura Denison
 - role: Playwright
   name: Daisy Norton    
 - role: Lighting Designer 
