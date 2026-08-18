@@ -9,22 +9,24 @@ on:
 jobs:
   build:
     name: Build and deploy content
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     permissions:
+      contents: read
       deployments: write
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
       - name: Set up a python environment
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v7
         with:
-          python-version: '3.11'
+          python-version: '3.14'
       - name: Cache python dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v6
         with:
           path: ~/.cache/pip
-          key: pip-cache-1
+          key: pip-cache-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: pip-cache-${{ runner.os }}-
       - name: Install dependencies
         run: |
           python -m pip install -U nthp_api
@@ -32,7 +34,7 @@ jobs:
         run: nthp version
 
       - name: Download SmugMug db cache
-        uses: actions/cache@v3
+        uses: actions/cache@v6
         with:
           path: nthp.smug.db
           key: smugmug-1
@@ -57,7 +59,7 @@ jobs:
           token: '${{ github.token }}'
           environment: ${{ steps.deploy_vars.outputs.ENVIRONMENT }}
           environment-url: https://nthp-web.pages.dev/?pr=${{ steps.deploy_vars.outputs.DEPLOY_NAME }}
-          state: in_progress
+          initial-status: in_progress
 
       - name: Deploy to S3
         run: _bin/deploy.sh
