@@ -1,5 +1,6 @@
 ---
 title: Florence Avis 
+alias: Flo Avis
 submitted: 2021-09-27 
 gender: Female 
 course: 

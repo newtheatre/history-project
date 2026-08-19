@@ -1,5 +1,6 @@
 ---
 title: Nick Frost
+alias: Nicholas Frost
 gender: male
 submitted: false
 headshot: BggFcTN
