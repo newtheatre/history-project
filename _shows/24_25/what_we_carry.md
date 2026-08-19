@@ -3,7 +3,7 @@ title: What We Carry
 playwright: Ali Seaborne and Katy Lotherington
 student_written: true
 period: Edinburgh
-season: Fringe
+season: Edinburgh
 season_sort: 210
 date_start: 2025-08-05
 date_end: 2025-08-10

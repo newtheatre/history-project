@@ -1,7 +1,7 @@
 ---
 title: Still Alice
 playwright: Lisa Genova
-adapter: Christine Mary Dunford
+adaptor: Christine Mary Dunford
 period: Autumn
 season: In House 
 season_sort: 50

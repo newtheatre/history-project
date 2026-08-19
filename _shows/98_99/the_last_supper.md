@@ -10,6 +10,8 @@ date_end: 1999-03-04
 crew:
  - role: Director
    name: Paul Young
+ - role: Producer
+   name: Tom Kirkham
 ---
 
 Murderous goings-on in this black comedy adaptation of the film where dinner parties are thrown with a macabre difference!

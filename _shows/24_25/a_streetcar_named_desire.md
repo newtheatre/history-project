@@ -28,9 +28,9 @@ cast:
   - role: Pablo
     name: Charlie Carey
   - role: Young collector
-    name: Ollie Enis
+    name: Ollie Ennis
   - role: Doctor
-    name: Ollie Enis
+    name: Ollie Ennis
 
 crew:
   - role: Director

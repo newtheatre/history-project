@@ -56,7 +56,7 @@ crew:
 - role: Playwright
   name: Daria Demetra-Rusa
 - role: Playwright
-  name: Molly Higgit
+  name: Molly Higgitt
 - role: Playwright
   name: Karen Turnbull
 - role: Playwright

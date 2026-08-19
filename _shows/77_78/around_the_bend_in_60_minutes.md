@@ -16,6 +16,8 @@ cast:
   - name: Peter Holdway
   - name: Sally Thompson
   - name: Tim Killick
+  - name: Michele Mohajer
+  - name: Glen Kinch
 
 crew:
   - role: Director

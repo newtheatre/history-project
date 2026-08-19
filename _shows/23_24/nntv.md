@@ -69,7 +69,7 @@ crew:
   - role: Stage Manager
     name: Annabel Rumble
   - role: Deputy Stage Manager
-    name: Molly Higgit
+    name: Molly Higgitt
   - role: Assistant Stage Manager
     name: Abigail Kitwood
   - role: Assistant Stage Manager

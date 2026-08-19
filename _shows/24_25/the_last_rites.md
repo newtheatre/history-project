@@ -3,7 +3,7 @@ title: The Last Rites
 playwright: Ben Adeniji
 student_written: true
 period: Edinburgh
-season: Fringe
+season: Edinburgh
 season_sort: 200
 date_start: 2025-07-30
 date_end: 2025-08-04

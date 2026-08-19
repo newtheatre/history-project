@@ -1,7 +1,7 @@
 ---
 title: Doctor Faustus
 playwright: Christopher Marlowe
-adapter: Daniel McVey
+adaptor: Daniel McVey
 period: Spring
 season: In House
 season_sort: 120

@@ -37,8 +37,14 @@ cast:
 crew:
   - role: Co-Director
     name: Oliver Kletz
+  - role: Co-Director
+    name: Meg Isaac
   - role: Co-Producer
     name: William Morgan
+  - role: Co-Producer
+    name: Bea Robertson
+  - role: Co-Producer
+    name: Oliver Kletz
   - role: Stage Manager
     name: Lily Hagen
   - role: Deputy Stage Manager
@@ -47,10 +53,16 @@ crew:
     name: Jamie Sims
   - role: Lighting Designer
     name: Toby Wong
+  - role: Co-Lighting Designer
+    name: Oliver Kletz
   - role: Sound Designer
     name: Chris Lau
+  - role: Sound Assistant
+    name: Oliver Kletz
   - role: Creative Assistant
     name: Simon Woods
   - role: Publicity Assistant
     name: Harrison Martin
+  - role: Co-Poster Designer
+    name: Oliver Kletz
 ---
