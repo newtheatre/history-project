@@ -1,6 +1,7 @@
 ---
 title: Ellie Colyer 
 alias: Ellie Fox
+headshot: dXtRmWf
 course:
   - BA Hons (2:1) Hispanic & Latin American Studies
 graduated: 2000
