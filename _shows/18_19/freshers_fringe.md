@@ -23,7 +23,7 @@ cast:
     note: Arthur, Jess, & Sally's Group
   - name: Swaswathi Patak
     note: Arthur, Jess, & Sally's Group
-  - name: Flo Avis
+  - name: Florence Avis
     note: Arthur, Jess, & Sally's Group
   - name: Penelope Weir
     note: Arthur, Jess, & Sally's Group

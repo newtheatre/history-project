@@ -25,7 +25,7 @@ cast:
 - role: Rachel
   name: Louise Duncan
 - role: Cathy
-  name: Rebecca Winkworth
+  name: Rebecca Estrella-Winkworth
 - role: Jo Tate
   name: Megan Terry
 - role: Bryony
@@ -70,7 +70,7 @@ crew:
   name: Bungo Richardson
   person: false
 - role: Production Assistant
-  name: Flo Avis
+  name: Florence Avis
 
 
 assets:

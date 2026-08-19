@@ -36,7 +36,7 @@ cast:
 - role: Wife
   name: Gill Wilson
 - role: Wife
-  name: Briony Bennson
+  name: Briony Bennison
 - role: Soldier
   name: Fred Butters
 - role: Soldier
@@ -50,7 +50,7 @@ crew:
 - role: Lighting
   name: Clive Loughlin
 - role: Stage Manager
-  name: Jo Pumfrey
+  name: Jonathan Pumfrey
 - role: Props
   name: Heather Peace
 - role: Chief Technician

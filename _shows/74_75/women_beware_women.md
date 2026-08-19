@@ -77,7 +77,7 @@ crew:
 - role: Additional Costumes
   name: Rosalind King
 - role: Additional Costumes
-  name: Susan Landon
+  name: Susan P. Landon
 - role: Ruff
   name: Rosemary Keller
 - role: Ruff

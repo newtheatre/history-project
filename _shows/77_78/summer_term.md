@@ -11,7 +11,7 @@ cast:
 
 crew:
  - role: Stage Manager
-   name: Patrick Grace
+   name: Patrick Grice
  - role: ASM
    name: Alison Lumb
 

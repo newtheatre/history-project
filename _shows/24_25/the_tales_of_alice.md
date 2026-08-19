@@ -11,7 +11,7 @@ venue: Portland Studio
 
 cast:
   - role: Alice
-    name: Lorena Valle
+    name: Lorena Valle Alarcon
   - role: Older sister
     name: Katie Chant
   - role: Younger sister
@@ -49,7 +49,7 @@ cast:
   - role: Dormouse
     name: Kayla Sibanda
   - role: March Hare
-    name: Grace Cannon
+    name: Gracie Cannon
 
 crew:
   - role: Director

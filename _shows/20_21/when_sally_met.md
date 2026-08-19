@@ -33,7 +33,7 @@ crew:
 - role: Shadow Director
   name: Lauren Birks
 - role: Shadow Producer
-  name: Connor Waldock
+  name: Conor Waldock
 - role: Poster Designer
   name: Pete Rouse
 - role: Video Editor

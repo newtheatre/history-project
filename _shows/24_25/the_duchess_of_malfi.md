@@ -22,7 +22,7 @@ cast:
   - role: Executioner
     name: Tom Dewhurst
   - role: Julia
-    name: Lorena Valle
+    name: Lorena Valle Alarcon
   - role: Duchess
     name: Bethan Leeke
   - role: Cariola

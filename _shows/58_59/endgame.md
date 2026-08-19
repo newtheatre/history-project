@@ -31,15 +31,15 @@ crew:
   name: Geoff Rowcliffe
   note: Dustbin
 - role: Wardrobe
-  name: Chris Barnes
+  name: Christine Barnes
 - role: Make-Up
-  name: John Rowland
+  name: John Roland
 - role: Make-Up
   name: Richard Holdaway
 - role: Publicity
   name: Neil Barnes
 - role: Properties Mistress
-  name: Chris Barnes
+  name: Christine Barnes
 - role: House Manager
   name: Hugh Ramsbotham
 

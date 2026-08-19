@@ -9,7 +9,7 @@ date_end: 1990-03-10
 
 cast:
   - role: Gottleib Biedermann
-    name: Matthew Hayes
+    name: Matthew F. Hayes
   - role: Fireman 1
     name: Paul Casey
   - role: Fireman 2
@@ -23,7 +23,7 @@ cast:
   - role: Babette Biedermann
     name: Barbara Inglin
   - role: Eisenring
-    name: Russel Hobson
+    name: Russ Hobson
   - role: Policeman
     name: Paul Casey
   - role: Frau Knechtling

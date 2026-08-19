@@ -1,7 +1,9 @@
 ---
 title: Kieran Bell
 submitted: false
-course: BSc Biochem
-graduated: 2025
+course:
+  - BSc Biochem
+  - MSc Molecular Genetics and Diagnostics
+graduated: 2026
 ---
 

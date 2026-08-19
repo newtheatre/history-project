@@ -1,5 +1,6 @@
 ---
 title: Philip Geller
+alias: Phil Geller
 submitted: 2015-09-17
 gender: male
 headshot: r7mQ7H6

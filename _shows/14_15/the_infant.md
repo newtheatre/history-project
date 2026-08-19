@@ -40,7 +40,7 @@ crew:
   - role: Shadow Technical Director
     name: David Taylor
   - role: Technical Operator
-    name: Louis Harris
+    name: Louise Harris
   - role: Technical Operator
     name: Harry Bridge
   - role: Technical Operator

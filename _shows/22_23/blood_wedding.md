@@ -13,7 +13,7 @@ cast:
 - role: Mother
   name: Syania Shaharuddin
 - role: Bride
-  name: Meghan Issac
+  name: Meghan Isaac
 - role: Wife
   name: Shreya Suri
 - role: Leonardo
@@ -23,7 +23,7 @@ cast:
 - role: Maid
   name: Ali Seaborne
 - role: Bridegroom
-  name: Daniel Cresswell
+  name: Dan Cresswell
 - role: Moon / Chorus
   name: Danté Sidhu
 - role: Beggarwoman / Chorus
@@ -64,7 +64,7 @@ crew:
 - role: Costume Designer 
   name: Oliver Kletz
 - role: Costume Assistant
-  name: Meghan Issac
+  name: Meghan Isaac
 - role: Stage Manager 
   name: Luc Tucker
 - role: Assistant Stage Manager

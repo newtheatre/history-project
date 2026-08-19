@@ -35,7 +35,7 @@ crew:
 - role: Publicity Assistant 
   name: Libby Horobin
 - role: Creative Assistant
-  name: Nadia Elafi
+  name: Nadia Elalfi
 - role: Creative Assistant
   name: Japneet Marataru
 - role: Video Editor
@@ -43,7 +43,7 @@ crew:
 - role: Assistant Video Editor 
   name: Charlie Finney
 - role: Captioner
-  name: Skylar Turbull Hurd
+  name: Skylar Turnbull Hurd
 
 assets:
   - type: poster

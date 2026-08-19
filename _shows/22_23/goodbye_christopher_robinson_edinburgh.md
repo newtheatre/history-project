@@ -11,7 +11,7 @@ cast:
   - role: Arthur Robinson
     name: Matthew Diamond
   - role: James Shepard
-    name: Ollie Ennis
+    name: Oliver Ennis
   - role: Christopher Robinson / Edward Graves
     name: Tom Turner
   - role: Esme Dering

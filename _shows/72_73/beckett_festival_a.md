@@ -34,6 +34,6 @@ cast:
 
 crew:
  - role: Prompt
-   name: Susan Landon
+   name: Susan P. Landon
    note: Happy Days
 ---

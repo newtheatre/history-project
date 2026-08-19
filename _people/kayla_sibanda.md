@@ -1,7 +1,7 @@
 ---
 title: Kayla Sibanda
 submitted: false
-course: Philosophy
+course: BA Philosophy and Theology
 graduated: 2026
 ---
 

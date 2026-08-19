@@ -59,7 +59,8 @@ cast:
  - role: Chorus of Fairies
    name: Lynette McEwan
  - role: Chorus of Fairies
-   name: Sue Munroe
+   name: Sue Munro
+   comment: 'Transcribed from the programme as "Sue Munroe"; spelling matched to Sue Munro (77_78).'
  - role: Chorus of Fairies
    name: Sarah Payler
  - role: Chorus of Fairies

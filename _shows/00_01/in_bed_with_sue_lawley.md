@@ -42,7 +42,7 @@ cast:
     name: Jessica Danby
   - role: Sue Lawley
     note: A radio 4 institution
-    name: Anna E. Lipinkski
+    name: Anna E. Lipinski
   - role: Joe Devivre
     note: A popstar
     name: Ajay Khari
@@ -51,7 +51,7 @@ cast:
     name: Catherine Paskell
   - role: Jen Jennings
     note: A fan
-    name: Anna E. Lipinkski
+    name: Anna E. Lipinski
   - role: Sue Lawley
     note: A radio 4 institution
     name: Felicity Plester

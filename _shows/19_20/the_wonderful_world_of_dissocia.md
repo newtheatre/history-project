@@ -12,7 +12,8 @@ cast:
 - role: P. 1 (Lisa / Polar Bear)
   name: Luwa Adebanjo
 - role: P. 2 (Victor / Vince / Violinist / Voice / Oathtaker)
-  name: Dan Morris
+  name: Daniel Morris
+  comment: 'Transcribed from the programme as "Dan Morris"; spelling matched to the majority form Daniel Morris (2016-2019).'
 - role: P. 3 (Guard 1 / Jane / Britney / Dot)
   name: Abby Rennison
 - role: P. 4 (Guard 2 / Goat / Biffer / Dr Clark)

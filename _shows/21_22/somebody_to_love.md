@@ -25,7 +25,7 @@ crew:
 - role: Co-Director
   name: Lauren Brady
 - role: Co-Director
-  name: Alex Hogg
+  name: Alexandra Hogg
 - role: Producer
   name: Oliver Kletz
 - role: Assistant Producer
@@ -41,7 +41,7 @@ crew:
 - role: Set Designer
   name: Vicky Parker
 - role: Publicity Assistant
-  name: Tommy Stoney
+  name: Tom Stoney
 - role: Creative Assistant
   name: Aidan Kidney
 - role: Poster Designer

@@ -62,7 +62,7 @@ cast:
   - role: Jesse Dunlap
     name: Charlie Dunnett
   - role: Sillers
-    name: Charle Barnecutt
+    name: Charles Barnecut
   - role: Ted Finney
     name: Stephen Hopker
   - role: Reuters Man
@@ -112,7 +112,7 @@ crew:
   - role: Properties
     name: Lesley Foxton
   - role: Poster
-    name: Tyrel S Broadbent
+    name: Tyrol Broadbent
 
 assets:
   - type: poster

@@ -81,7 +81,7 @@ cast:
    note: Daniella & Felicity's Group
  - name: Charlotte Sanders
    note: Daniella & Felicity's Group
- - name: Rachel Angell
+ - name: Rachel Angeli
    note: Daniella & Felicity's Group
  - name: Scarlett Allen
    note: Daniella & Felicity's Group

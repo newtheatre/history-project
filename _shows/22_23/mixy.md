@@ -17,7 +17,7 @@ cast:
 - role: Gaz
   name: Ernestine Ofori-Addo
 - role: Avani
-  name: Deleram Mesbahi
+  name: Delaram Mesbahi
 - role: Jaggy
   name: Daniel Sowerby
 - role: Edi

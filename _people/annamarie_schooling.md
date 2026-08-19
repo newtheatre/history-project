@@ -1,5 +1,6 @@
 ---
 title: Annamarie Schooling
+alias: Anna Schooling
 submitted: 2025-03-07
 headshot: T9Vxsx6 
 course:

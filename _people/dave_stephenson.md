@@ -1,5 +1,6 @@
 ---
 title: Dave Stephenson
+alias: David Stephenson
 course:
   - History 
 graduated: 2007

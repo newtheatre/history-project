@@ -33,7 +33,7 @@ crew:
   name: Emi Thackray
   note: The Universe Will Take Care of You
 - role: Playwright
-  name: Geethika Ayiliath
+  name: Geethika Ayilliath
   note: A Momentary Spark Between Neurons
 - role: Playwright
   name: Sunenna Sohal

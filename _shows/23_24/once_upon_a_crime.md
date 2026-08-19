@@ -31,7 +31,7 @@ cast:
   - role: Red's Grandmother
     name: Nura Bentata
   - role: The Detective
-    name: Ollie Ennis
+    name: Oliver Ennis
 
 crew:
   - role: Co-Director
@@ -69,7 +69,7 @@ crew:
   - role: Costume, Props and Make-up Assistant
     name: Amy Child
   - role: Costume, Props and Make-up Assistant
-    name: Rosie Hatherly
+    name: Rosie Hatherley
   - role: Publicity Manager
     name: Amy Child
   - role: Publicity Assistant

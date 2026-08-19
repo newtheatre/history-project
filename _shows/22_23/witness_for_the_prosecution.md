@@ -14,7 +14,7 @@ cast:
 - role: Romaine 
   name: Stella Liu
 - role: Mrs Mayhew  
-  name: Shann Dhillon
+  name: Shaan Dhillon
 - role: Leonard 
   name: Tom Turner
 - role: The Judge 

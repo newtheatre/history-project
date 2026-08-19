@@ -18,7 +18,7 @@ cast:
 - role: Hannah
   name: Chrisa Roma
 - role: Lia
-  name: Jaime Wynn
+  name: Jaime Wynne
 - role: Sadie
   name: Alyssa Fay Hills
 - role: Esmee

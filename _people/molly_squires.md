@@ -1,7 +1,7 @@
 ---
 title: Molly Squires
 submitted: false
-course: Liberal Arts
+course: BA Liberal Arts
 graduated: 2026
 ---
 

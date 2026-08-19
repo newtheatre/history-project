@@ -1,7 +1,7 @@
 ---
 title: Aisling Macdonald
 submitted: false
-course: BA English
-graduated: 2025
+course: BA English & Classics
+graduated: 2026
 ---
 

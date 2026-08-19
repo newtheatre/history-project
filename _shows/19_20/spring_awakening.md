@@ -37,7 +37,7 @@ cast:
   name: Olly O'Regan
   note: AWAKENING
 - role: George Schulmann
-  name: Daniel Cresswell
+  name: Dan Cresswell
   note: AWAKENING
 - role: Isle Franz
   name: Sofia Bassani

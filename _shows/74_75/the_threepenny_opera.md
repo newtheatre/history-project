@@ -61,7 +61,7 @@ cast:
 - role: Robert (Bob-The-Saw)
   name: Nick Downing
 - role: Jacob (Hook-Finger-Jake)
-  name: Tino Kayf
+  name: Tino Kay
 
 crew:
 - role: Director

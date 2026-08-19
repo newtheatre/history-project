@@ -30,7 +30,7 @@ cast:
   - role: Enyalius
     name: Oliver Chalcroft
   - role: Phaeax
-    name: Joe White
+    name: Joseph White
   - role: Talthybia
     name: Charlotte Reay
   - role: Miletus

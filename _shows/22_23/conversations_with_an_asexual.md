@@ -43,7 +43,7 @@ crew:
 - role: Sound Designer
   name: Sean Bromilow
 - role: Set Designer 
-  name: Sophie Mitchel 
+  name: Sophie Mitchell
 - role: Publicity Manager  
   name: Molly Squires 
 

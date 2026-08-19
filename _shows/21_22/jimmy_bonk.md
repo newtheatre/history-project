@@ -14,7 +14,7 @@ cast:
 - role: Hench Person 2
   name: Sophie Mitchell
 - role: Hench Person 3
-  name: Karen Turnball
+  name: Karen Turnbull
 - role: Hench Person 4
   name: Louise Duncan
 - role: Agent Doris
@@ -44,7 +44,7 @@ crew:
 - role: Playwright 
   name: Maria Stavrakaki
 - role: Playwright 
-  name: Nicolas Landon
+  name: Nicholas Landon
 - role: Playwright
   name: Caetano Capurro
 - role: Playwright

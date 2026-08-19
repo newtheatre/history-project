@@ -22,7 +22,7 @@ cast:
   - role: Chris
     name: Drew Boswell
   - role: Jeremy
-    name: Joe White
+    name: Joseph White
   - role: Alistair
     name: Ben Adeniji
   - role: Harry

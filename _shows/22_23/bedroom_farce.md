@@ -36,7 +36,7 @@ crew:
 - role: Producer
   name: Harry Berry
 - role: Assistant Producer
-  name: Daniel Cresswell
+  name: Dan Cresswell
 - role: Deputy Stage Manager 
   name: Ellie Sugden
 - role: Assistant Stage Manager

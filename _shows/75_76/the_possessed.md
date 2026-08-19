@@ -13,7 +13,7 @@ cast:
 - role: Grigoriev (The Narrator)
   name: Stephen Hopker
 - role: Stephan Verkovensky
-  name: Any Wilkinson
+  name: Andy Wilkinson
 - role: Varvara Petrovna Stavrogin
   name: Jane Eyre
 - role: Liputin
@@ -69,7 +69,7 @@ crew:
 - role: Set Designer
   name: Jenny Tiriamani
 - role: Set Construction
-  name: Joe Pumfrey
+  name: Jonathan Pumfrey
 - role: Costumes
   name: Catherine Churchill
 - role: Costumes

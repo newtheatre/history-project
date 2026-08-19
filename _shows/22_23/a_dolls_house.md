@@ -13,7 +13,7 @@ cast:
 - role: Torvald
   name: James Fellas-Laurie
 - role: Krogstad
-  name: Alexander Piechowski
+  name: Alex Piechowski
 - role: Kristine
   name: Molly Allen
 - role: Nora
@@ -33,7 +33,7 @@ crew:
 - role: Producer
   name: Rosie Loader
 - role: Shadow Producer
-  name: Talisha Ambersley
+  name: Talishya Ambersley
 - role: Deputy Stage Manager 
   name: Jack Nicholls
 - role: Assistant Stage Manager

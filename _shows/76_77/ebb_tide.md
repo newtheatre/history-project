@@ -25,7 +25,7 @@ crew:
 - role: Technician
   name: Alan Jasper
 - role: Technician
-  name: Andy Mosley
+  name: Andy Moseley
 - role: Stage Manager
   name: Heather Peace
 - role: Stage Manager

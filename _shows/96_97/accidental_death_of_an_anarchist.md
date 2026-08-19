@@ -5,9 +5,12 @@ title: Accidental Death of an Anarchist
 playwright: Dario Fo
 season_sort: 40
 venue: New Theatre
+date_start: 1996-11-25
+date_end: 1996-11-28
+comment: "Dates inferred from the programme ticket (Mon/Tues/Wed/Thurs) plus a contemporary hand-written \"28/11/96\" on the cast page."
 cast:
   - role: Madman
-    name: Jeremy Brooker
+    name: Jeremy Booker
   - role: Inspector Bertozzo
     name: Lawrence Evans
   - role: Inspector Pisani
@@ -24,13 +27,13 @@ crew:
   - role: Assistant Director
     name: Anna Metcalf
   - role: Producer
-    name: Neil Thomson
+    name: Neil Thompson
   - role: Producer
     name: Kevin Telfer
   - role: Stage Manager
     name: Lucy Phillips
   - role: Stage Manager
-    name: "Alex Mackenzie-Smith"
+    name: "Alex MacKenzie-Smith"
   - role: Lighting
     name: Sarah Barker
   - role: Sound
@@ -45,6 +48,18 @@ crew:
     name: Claire Messore
   - role: Poster Design
     name: Matt Price
+
+assets:
+  - type: programme
+    image: FmrLFDj
+    title: Front cover
+    display_image: true
+  - type: programme
+    image: 8fg6qnW
+    page: 1
+  - type: programme
+    image: xjXjfWB
+    page: 2
 ---
 
 

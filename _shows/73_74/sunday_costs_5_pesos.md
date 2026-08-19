@@ -10,7 +10,7 @@ season_sort: 260
 
 crew:
 - role: Director
-  name: Philippe Barles
+  name: Philippe Bayles
 
 ---
 

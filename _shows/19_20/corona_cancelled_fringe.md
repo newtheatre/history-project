@@ -19,7 +19,7 @@ cast:
   name: Genevieve Alltimes
   note: The Darling Heidi Howard
 - role: Pauly
-  name: Alex Lewis
+  name: Alexander Lewis
   note: The Darling Heidi Howard
 - role: Kiki/ Terri
   name: Helena Hunt

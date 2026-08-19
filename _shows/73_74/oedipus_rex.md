@@ -12,7 +12,7 @@ venue_sort: University Park
 
 cast:
 - role: Oedipus
-  name: Peter Nowlan
+  name: Peter Nolan
 - role: Jocasta
   name: Isabelle Wallace
 - role: Creon

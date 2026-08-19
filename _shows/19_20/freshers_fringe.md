@@ -74,7 +74,7 @@ cast:
   note: Margaux, Wilf and Lillian's Group
 - name: Edie Gillett 
   note: Margaux, Wilf and Lillian's Group
-- name: Sofie Loreti
+- name: Sofia Loreti
   note: Margaux, Wilf and Lillian's Group
 - name: Marla Brown 
   note: Beth and Lucy's Group
@@ -106,7 +106,7 @@ crew:
 - role: Director 
   name: Alice Zelenka Martin
 - role: Director 
-  name: Jemma Oberman 
+  name: Jemma Bean Oberman
 - role: Director 
   name: Nicholas Landon
 - role: Director 

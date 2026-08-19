@@ -25,11 +25,11 @@ cast:
   - role: Knight
     name: Annabella Woodruff
   - role: Lust
-    name: Meg Isaac
+    name: Meghan Isaac
   - role: Scholar
-    name: Meg Isaac
+    name: Meghan Isaac
   - role: Attendant
-    name: Meg Isaac
+    name: Meghan Isaac
   - role: Wrath
     name: Darcy Kelly
   - role: Greed

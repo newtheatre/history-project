@@ -41,7 +41,7 @@ crew:
 - role: Set Construction
   name: Ticklos Khosla
 - role: Material Set
-  name: Jana Philips
+  name: Jana Phillips
 - role: Costume
   name: Alix Fisk
 - role: Costume
@@ -63,7 +63,7 @@ crew:
 - role: Backstage
   name: Simon Rice
 - role: Backstage
-  name: Jana Philips
+  name: Jana Phillips
 - role: Fight Choreography
   name: Mark Waldren
 ---

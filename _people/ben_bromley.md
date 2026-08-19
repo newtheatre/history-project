@@ -1,7 +1,7 @@
 ---
 title: Ben Bromley
 submitted: false
-course: Music and Music Technology
+course: BA Music and Music Technology
 graduated: 2026
 ---
 

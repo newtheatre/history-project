@@ -43,7 +43,7 @@ crew:
 - role: Director
   name: Alice Walker
 - role: Director
-  name: Dan Morris
+  name: Daniel Morris
 - role: Director
   name: Barney Hartwill
 - role: Director
