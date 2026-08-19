@@ -1,7 +1,7 @@
 ---
 title: Peter Roper
 submitted: 2026-05-27
-gender: male
+headshot: kbTtjBg
 course:
   - Agriculture
 graduated: 1971
