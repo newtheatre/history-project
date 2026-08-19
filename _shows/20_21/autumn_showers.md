@@ -32,8 +32,9 @@ crew:
   name: Annamarie Schooling
 - role: Video Editor
   name: Lauren Brady
-- role: Shadow Producer 
-  name: Video Editor
+- role: Shadow Producer
+  name: Alicia Conte
+- role: Video Editor
   name: Alicia Conte
 - role: Sound Designer
   name: Charlie Finney

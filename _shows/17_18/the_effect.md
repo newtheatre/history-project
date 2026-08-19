@@ -15,6 +15,9 @@ trivia:
   - quote: I had so much fun with this show it will stay in my memory forever
     name: Ben Woodford
     submitted: 2017-11-24
+  - quote: Somehow, despite lighting from all four sides, there still managed to be not an ounce of front light...
+    name: Sam Osborne
+    submitted: 2019-06-25
 
 cast:
 - role: Tristan Frey
@@ -96,11 +99,6 @@ links:
     title: "\"The Effect\" by Lucy Prebble"
     date: 2017-11-11
     quote: "Watching these four actors was like being a fly on the wall because the naturalistic way these four not only interact, but deliver the lines, doesn't come across as being part of a play. It's as if we weren't there."
-
-trivia:
-  - quote: Somehow, despite lighting from all four sides, there still managed to be not an ounce of front light...
-    name: Sam Osborne
-    submitted: 2019-06-25
 
 ---
 

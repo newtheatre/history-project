@@ -7,8 +7,9 @@ venue: New Theatre
 period: Spring
 
 cast:
-- role: Arthur 
+- role: Arthur
   name: John Thewlis
+- role: Arthur
   name: Crispin Harris
 
 cast_incomplete: true

@@ -31,10 +31,6 @@ crew:
 - role: Producer
   name: Jasmine Butler
 
-
-assets:
-  - type: poster
-    image: PqQxwXt
 ---
 
 "At the end of the tunnel we arrive here, an inner sanctum of endless adventure."

@@ -107,8 +107,6 @@ links:
     date: 2018-04-26
     quote: "University is a place of education but I've found out that my theatrical education has been expanded by talented groups like these with people who can fit in with any local theatre group and would be a boon to any production, be it in the spotlight or behind the scenes."
 
-prod_shots: mmgHHX
-
 trivia:
   - quote: 
       This show took me 8 and a half hours to program, and was one of the best and most complicated designs I produced at the NNT. This also entailed Sam Osborne running into the workshop from his video position and turning the moving lights off before the final monologue as I hated the noise of the fan and wanted the stage completely silent.

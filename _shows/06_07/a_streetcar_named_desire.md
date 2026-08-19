@@ -15,6 +15,8 @@ cast:
 crew:
   - role: Lighting Technician
     name: Tammy Ingamells
+  - role: Sound Technician
+    name: Jen Burrows
 
 assets:
   - type: poster
@@ -34,9 +36,6 @@ links:
     date: 2006-11-24
     quote: "One of the 20th century’s most iconic theatre characters, Blanche is a daunting character to play, but Georgie Strawson was well able to rise to the challenge. Her Blanche was tender, manipulative and surprisingly funny. Impressive period costumes, solid accents and the occasional explosion of furniture made for a compelling production of this gripping and well-loved play. "
 
-crew:
-  - role: Sound Technician
-    name: Jen Burrows
 ---
 
 After falling on hard times, Blanche Dubois, an upper class teacher, decided to visit her sister, Stella. Upon arrival, Blanche is horrified to find Stella living in a New Orleans slum, and married to a working class brute. As a play progresses, Blanche's new surroundings creat intense drama and emotions, whilst bringing up painful revelations about her past life.

@@ -13,6 +13,9 @@ trivia:
   - quote: The most fun I've ever had as a techie at NNT, was a hilarious week working backstage with a fantastic cast who really made me feel like part of the team.
     name: Ben Woodford
     submitted: 2017-11-06
+  - quote: The director, TD and I staying until 2am three nights running to absolutely nail the follow-time on some lighting cues to be on the beat has never been so worth it... Until we discovered timecode the next week.
+    name: Sam Osborne
+    submitted: 2019-06-25
 
 cast:
 - role: George
@@ -153,11 +156,6 @@ links:
     title: "\"Dead A Musical\""
     date: 2016-12-14
     quote: "\"Dead A Musical\" is one of the best new pieces of theatre I've seen this year, and it's had some competition from some of their own productions, but I can honestly say that I loved every single minute of this musical, and I can't wait for the soundtrack."
-
-trivia:
-  - quote: The director, TD and I staying until 2am three nights running to absolutely nail the follow-time on some lighting cues to be on the beat has never been so worth it... Until we discovered timecode the next week.
-    name: Sam Osborne
-    submitted: 2019-06-25
 
 ---
 
