@@ -1,5 +1,6 @@
 ---
 title: Terrence Payne
+alias: Terry Payne
 gender: male
 graduated: 1999
 course:

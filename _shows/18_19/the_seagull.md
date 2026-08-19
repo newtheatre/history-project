@@ -10,8 +10,6 @@ date_start: 2019-03-27
 date_end: 2019-03-30
 venue: New Theatre
 
-trivia:
-
 cast:
 - role: Irine
   name: Ciara Amas

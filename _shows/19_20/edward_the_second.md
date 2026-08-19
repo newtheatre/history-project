@@ -1,8 +1,7 @@
 ---
 title: Edward II
 playwright: Christopher Marlowe
-adaptor: Christopher Brooke
-adaptor: Ellen Schaffert
+adaptor: Christopher Brooke and Ellen Schaffert
 period: Autumn
 season: In House
 season_sort: 100

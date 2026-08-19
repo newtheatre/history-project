@@ -132,7 +132,7 @@ cast:
 crew:
 - role: Director
   name: Tony Burkett
-  role: Assistant Producer
+- role: Assistant Producer
   name: Bernie Lovell
 - role: Set Construction and Decor
   name: Paul Pittham

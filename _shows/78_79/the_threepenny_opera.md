@@ -1,7 +1,7 @@
 ---
 title: The Threepenny Opera
 season: In House
-playwright: John Gay
+playwright: Bertolt Brecht
 translator: Elisabeth Hauptmann
 season_sort: 310
 comment: "Could be 77-78, or 78-79, see #239"

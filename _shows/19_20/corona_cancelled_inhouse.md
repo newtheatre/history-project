@@ -355,11 +355,8 @@ assets:
 # Trojan Women
 prod_shots: ZRMXk5
 
-# Pink Mist
-prod_shots: gRGDJg
-
-# Be My Baby
-prod_shots: H2T9Xp
+# Only one prod_shots album can be attached to a record;
+# Pink Mist's is gRGDJg and Be My Baby's is H2T9Xp
 
 
 

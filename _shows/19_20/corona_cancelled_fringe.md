@@ -201,7 +201,7 @@ assets:
 prod_shots: vxWk6f
 
 # Reverie
-prod_shots: pNTzjD
+# Only one prod_shots album can be attached to a record; Reverie's is pNTzjD
 
 ---
 
