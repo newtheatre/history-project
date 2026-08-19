@@ -11,7 +11,7 @@ venue: New Theatre Studio A
 
 cast:
 - role: Eldest
-  name: Kathyrn Parry
+  name: Kathryn Parry
 - role: Middle
   name: Marianna Whistlecroft
 - role: Youngest
