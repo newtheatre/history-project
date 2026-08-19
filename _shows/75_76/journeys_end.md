@@ -25,6 +25,12 @@ trivia:
       I remember this show so well. I designed the set to break through the fourth wall and we constructed timber beams in front of the proscenium. Mike Wolfe lit the show with Patt 23s in the beams. The only thing I wasn’t happy with was the hurried painted sandbags at the top of the steps. Also that the wonderful John Turner (Benfield) couldn’t make the shoot of all the cast and crew. At the end of the show the dugout had to collapse and we used a hinged ceiling with fullers earth. We could only afford a maroon or two for each night so for rehearsals I shouted “maroon”. This became a running gag, for example when I ran into Nick Farrell on Shaftesbury Avenue.
     name: John Schwiller
     submitted: 2025-08-01
+  - quote: "The boys in Journey's End all went together to the barbers and had their long hair chopped off so they looked like authentic WW1 soldiers."
+    name: Terri Norris
+    submitted: 2019-03-28
+  - quote: "As Private Evans, I served a meal, which was actually consumed, but to judge from their expressions were rather disgusting!"
+    name: Stephen Hopker
+    submitted: 2020-03-25
 
 
 cast:
@@ -56,20 +62,16 @@ crew:
     name: John Thewlis
   - role: Stage Manager and Pyrotechnician
     name: John Schwiller
+  - role: Set Designer
+    name: John Schwiller
+  - role: Construction
+    name: John Schwiller
 
 assets:
   - type: poster
     image: v484CKN
 
 prod_shots: 5KMVL7
-
-trivia:
-  - quote: "The boys in Journey's End all went together to the barbers and had their long hair chopped off so they looked like authentic WW1 soldiers."
-    name: Terri Norris
-    submitted: 2019-03-28
-  - quote: "As Private Evans, I served a meal, which was actually consumed, but to judge from their expressions were rather disgusting!"
-    name: Stephen Hopker
-    submitted: 2020-03-25
 ---
 
 Journey's End is a 1928 drama, the seventh of English playwright R. C. Sherriff.
