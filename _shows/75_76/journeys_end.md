@@ -31,6 +31,9 @@ trivia:
   - quote: "As Private Evans, I served a meal, which was actually consumed, but to judge from their expressions were rather disgusting!"
     name: Stephen Hopker
     submitted: 2020-03-25
+  - quote: "The boys in Journeys End all went together to the barbers and had their long hair chopped off so they looked like authentic WW1 soldiers."
+    name: Teri Norris
+    submitted: 2019-03-28
 
 
 cast:
