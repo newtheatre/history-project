@@ -19,6 +19,11 @@ assets:
   - type: poster
     image: 4t3pQcJ
 
+trivia:
+  - quote: "Fringe in the park used to be a free event mini festival in Holyrood park where performers from across the fringe were invited to perform. Not sure if it still happens. I remember Stephen Amos introducing us."
+    name: Ross Parish
+    submitted: 2018-10-28
+
 ---
 
 In the beginning, the city of Nottingham was dark, barren, void and unfunny. Then, a group of six students came together and decided "We Should Get Out More". Drawing upon their past experience and talents, which included numerous plays, musicals, radio productions and comedy revues, the team first hit the stage in February 1997. It was this comedy show, performed and broadcast from a packed union bar, which threw the first snowball of success that, unbeknown to us, was soon to become an avalanche.

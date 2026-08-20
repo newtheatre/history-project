@@ -94,6 +94,9 @@ trivia:
   - quote: Many different interpretations were drawn on for the production, but they all added to the understanding of the subject matter.
     name: Molly McGee
     submitted: 2014-11-17
+  - quote: "Key moments for John Bell included exclusively playing S Club 7 at Club Tropicana, refusing to wear his hard hat during get-ins and filthying his horrible little smalls during one fateful Bent performance."
+    name: John Bell
+    submitted: 2022-02-28
 ---
 
 Berlin, 1934, and after Hitler instigates the Night of the Long Knives, Max is captured and sent to Dachau concentration camp. Here he meets Horst and the two fight to maintain their dignity and humanity, holding each other together through the power of words and imagination alone.

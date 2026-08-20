@@ -96,6 +96,11 @@ links:
     quote: "Wilmann has succeeded in creating an engrossing play in which the audience is given free rein to their imagination and are encouraged to reflect on the nature and outcome of infidelity and in this respect the play certainly does not disappoint."
 
 prod_shots: DnKhwP
+trivia:
+  - quote: "In my fist year I learned what it means to be \"Blanched\", was stopped outside of Coates and asked to help build set for Innocent Infidelity, stayed up to 2am far too many times and left a semi permanent impression in the tech box seats for too much operating."
+    name: Joseph Heil
+    submitted: 2016-11-17
+
 ---
 
 Reg is sleeping with Julia behind Hilary’s back but he’s doing nothing wrong. Julia only exists in his imagination. She is literally his dream woman. So, when Reg comes home one night to find Julia in his house, speaking to Hilary, his world is plunged into chaos and confusion.
