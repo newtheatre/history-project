@@ -66,6 +66,11 @@ crew:
     name: Vernon Larcombe
   - role: Administrator
     name: Rosemary Farrar
+trivia:
+  - quote: "We had a hugely successful run and appeared on BBC news review of the Fringe."
+    name: Rosemary Farrar
+    submitted: 2015-12-09
+
 ---
 
 About the murderer John Christie.

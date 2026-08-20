@@ -43,6 +43,11 @@ links:
     title: "Road @ The New Theatre"
     date: 2010-03-18
     quote: "Road is a multi-dimensional exploration of Northern life, with exceptional performances, flawless direction and even a real brick wall. There are plenty of reasons to see Road, but if nothing else, go to sing ‘Total Eclipse of the Heart’ with a bunch of drunken Northerners. Ey up!"
+trivia:
+  - quote: "I had never been involved with any theatre before coming to university but I stumbled upon an audition for Road by Jim Cartwright being put on by an NNT GOAT in Liz Stevenson. I auditioned and got a part and it truly changed my life. It opened up a whole new world to me and introduced me to some of the best times of my life and my best friends."
+    name: Alex Hollingsworth
+    submitted: 2026-03-19
+
 ---
 
 Drunken wide-boy Scullery takes the audience on a journey downt’ ROAD. This deprived, working-class, Lancashire town suffers the brunt of widespread unemployment during Thatcher government of the 80s.

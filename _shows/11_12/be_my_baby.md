@@ -50,6 +50,11 @@ assets:
 published: true
 
 prod_shots: gwCnzK
+trivia:
+  - quote: "'Be My Baby' rehearsals were full of laughter - even when they should not have been! Turns out I'm really bad at corpsing (I blame Boo Jackson)."
+    name: Ellie Roberts
+    submitted: 2020-04-02
+
 ---
 
 Set in a Mother and Baby Home in 1964, Be My Baby follows a 19 and unmarried Mary Adams who has fallen pregnant. Forced to go to the home by her mother, Mary along with the other girls, has to cope with the shame of her situation and the dawning realisation that her baby will be taken away and given up for adoption whether she likes it or not. Despite the hard hitting nature of the play, the youthfulness and positive spirit of the girls is echoed in the 1960s girl-group music which they sing along to.

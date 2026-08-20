@@ -12,6 +12,12 @@ trivia:
 - quote: The set consisted of both artificial and real plants for the garden which was only seen for one scene of the show. The real plants were then given to the cast and crew as gifts.
   name: Izzy de Bono
   submitted: 2019-05-21
+- quote: "Due to unforeseen personal circumstances the LD was forced to resign from the show prior to the Get-In, additionally the producer had to take a step back from the role resulting in two co-producers."
+  name: Izzy de Bono
+  submitted: 2019-05-21
+- quote: "One of the directors had to be taken to A&E after cutting himself during the Get-Out with scissors."
+  name: Izzy de Bono
+  submitted: 2019-05-21
 
 cast:
 - role: Bob

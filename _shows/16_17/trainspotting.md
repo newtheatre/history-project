@@ -14,6 +14,9 @@ trivia:
   - quote: Laura Wolczyk hand-painted the skull onto the actors' hands for the poster, rather than achieving this digitally
     name: Sam Osborne
     submitted: 2020-10-25
+  - quote: "I decided to see just how much in the other direction I could go, and took on the behemoth of directing a show which I'd been told in my first year \"would probably get laughed out of proposals.\" Lots of drugs, one very disgusting toilet, and the audience seeing slightly too much of Pete later, Trainspotting was meant to be the moment I bowed out at NNT. Immensely proud of it, I was finally ready to go."
+    name: Will Berrington
+    submitted: 2019-01-10
 
 cast:
 - role: Renton / Boy

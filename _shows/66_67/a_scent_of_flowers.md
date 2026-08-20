@@ -11,4 +11,9 @@ cast:
 crew:
  - role: Director
    name: Roger Lancaster
+trivia:
+  - quote: "My first performance was in \"A Scent of Flowers\" directed by Roger Lancaster. I remember carrying a coffin."
+    name: Dick Downing
+    submitted: 2016-07-17
+
 ---

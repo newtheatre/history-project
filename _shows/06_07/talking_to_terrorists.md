@@ -27,6 +27,11 @@ links:
     title: "Talking to Terrorists at New Theatre: voicing the unspeakable..."
     date: 2007-02-21
     quote: "Talking to Terrorists is the type of theatre that changes lives. It never preaches to its audience, mostly because it doesn’t need to. The character’s accounts are engaging enough on their own to make moralisation redundant; the Irish militants who only began further education in prison; the exiled Palestinean who has never seen his son; the diplomat who was replaced for speaking out against torture."
+trivia:
+  - quote: "New Theatre was formative for me at Nottingham, a place for experimentation, to debate and engage with texts, to undertake serious journalistic research as we did with our play Talking to Terrorists, to self-organise as we did on the committee, but also where I met my husband!"
+    name: Jessica Elgot
+    submitted: 2026-03-19
+
 ---
 
 Talking to Terrorists, written by Robin Soans and originally commissioned by the Royal Court and Out of Joint Theatre Company, is the result of 12 months of meetings with peacemakers, politicians, journalists, hostages, psychologists and, perhaps most importantly, with those who've crossed the line themselves.The basic question? What makes ordinary people do extreme things?

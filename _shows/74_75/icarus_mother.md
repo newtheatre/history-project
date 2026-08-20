@@ -36,4 +36,9 @@ crew:
 - role: Photography
   name: Barbara Laws
 
+trivia:
+  - quote: "This was performed in Nottingham, probably early 1975. It was chosen, along with 'Icarus's Mother', to be part of the Student Drama Festival, in 1976. This was held at the Royal Court in London. I was in both plays."
+    name: Lorna Tanklovitch
+    submitted: 2019-07-28
+
 ---
