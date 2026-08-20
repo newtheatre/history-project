@@ -33,19 +33,59 @@
   title: Nottingham's Everyman Club
   description: "Nottingham's Everyman Club was formed in 1958, to encourage students and local people in the city, who were interested in theatre, to collaborate on productions. The club had some notable successes in the 1960s."
 
+- year: 1959
+  academic_year: "58_59"
+  title: Beckett's Endgame
+  description: |
+    Dramsoc staged Samuel Beckett's *Endgame* in the Great Hall on 23-24 January 1959 — believed to be the first production of the play in English outside London, following its French-language premiere at the Royal Court in 1957. Director Max Wyman wrote to Beckett in Paris inviting him to the Nottingham premiere, but received no reply. The bill also included Beckett's *Acte sans paroles*, performed by Geoff Rowcliffe.
+
 - year: 1960s
   title: Golden Age of Dramsoc
   description: "The production of *Coriolanus* reached the finals of the National Student Drama Competition, while *The Taming of the Shew* enjoyed a week-long tour of Germany. The society also took George Bernard Shaw's *St Joan* to the outdoor Minack Theatre in Cornwall."
 
+- year: 1965
+  academic_year: "65_66"
+  title: Opening of the Union Theatre
+  description: |
+    The building that would become the New Theatre — originally the Production Engineering Laboratory — was acquired for Dramsoc's use in the spring of 1965, and opened on 7 October 1965 with Dylan Thomas's *Return Journey* and *Report on a Bald Rhinoceros*. The venue wasn't quite ready: technical and dress rehearsals happened just hours before curtain.
+
+    Initially called the Union Theatre, it quickly became known as the New Theatre. An article of 14 October 1965 by Lee Brown in *Gongster*, the students' newspaper of the day, records the opening.
+
 - year: 1966
   academic_year: "66_67"
   title: Earliest 'New Theatre' Record
-  description: "While not called the 'New Theatre', this is the earliest record of student theatre in Nottingham. At this time, members of the University of Nottingham Technical Committee were responsible for the technical areas of the student theatre."
+  description: |
+    While not called the 'New Theatre', this is the earliest record of student theatre in Nottingham. At this time, members of the University of Nottingham Technical Committee were responsible for the technical areas of the student theatre.
+
+    Alumni recollections of the founding differ on dates. Clive Hollick, Dramsoc president in 1966, recalls conceiving the idea of turning the newly vacated engineering block into a theatre and persuading the Students' Union and the University to hand it over. Technical Committee members of the era describe fitting out the converted laboratory themselves: working out sightlines, fixing lighting bars to the roof girders, and hand-building a patch panel when a dimmer board was unaffordable.
+
+- year: 1970
+  academic_year: "69_70"
+  title: Renovation into a Proper Theatre
+  description: |
+    Theatre Manager Peter Roper persuaded the University and the University Grants Committee to fund the conversion of the Old Engineering Workshop into a proper theatre, with a new entrance, tiered seating, a lighting box, proscenium, and backstage facilities.
+
+    The renovated theatre opened in January 1970 with Ibsen's *Ghosts*, directed by Gordon Parsons.
+
+- year: 1973
+  title: Early Edinburgh Fringe Trips
+  description: |
+    A revue staged at the New Theatre in March 1973 was taken to the Edinburgh Fringe that summer — the earliest Fringe trip in our records — with a cast including future football commentator Clive Tyldesley, alongside a play by Sławomir Mrożek directed by Frank Ward.
+
+    Transfers to Edinburgh continued under the Nottingham Theatre Group name with *Tango* (1974) and *Golden Pathway Annual* (1975).
 
 - year: 1975
   title: Student Drama Festival
   description: |
     'Chicago' and 'Icarus' Mother', both by Sam Shepard, were selected to be performed at the Student Drama Festival. This was held at the Royal Court in London.
+
+- year: 1979
+  academic_year: "78_79"
+  title: First Fringe First
+  description: |
+    After a hugely successful 1978 Edinburgh run — *Christie in Love* and the revue *Around the Bend in 60 Minutes*, featured on the BBC's news review of the Fringe — the society took five shows to Edinburgh in 1979, plus technical support for two others.
+
+    Among them, Mervyn Peake's *The Wit to Woo* won a Fringe First award.
 
 - year: 1980s
   title: Disbandment, and the Nottingham Theatre Group
@@ -60,6 +100,13 @@
     The New Theatre had been shut down for safety reasons. It had been operating as a theatre but had no theatre licence and no emergency lighting and possibly other issues. Although the theatre was run by students, it was owned by the University. It took a year of negotiating to get the University to part with enough money to get the theatre open again.  They installed emergency lighting and it was agreed that we did not need a theatre licence on the proviso that we did not advertise productions off-campus. Only students and staff of Nottingham University were allowed to buy tickets.
  
     From Autumn 1988 to Autumn 1989 productions took part in other parts of the university. The theatre opened again in Autumn 1990.
+
+- year: 1992
+  title: Fringe Firsts in the Early Nineties
+  description: |
+    Under Richard Davidson — president in 1991 — the society returned to the Edinburgh Fringe in force: Sam Shepard's *Tooth of Crime* at Greyfriars Kirk House in 1991, followed by Fringe First wins for Davidson's original work, including *Rawel Storybook* (1993) at St Columba's by the Castle.
+
+    Edinburgh runs continued through the mid-nineties with *The Overcoat* and *Metamorphosis* (1993), *Plastic Madonna* (1994), and *Conventional Demons* (1995, at the Pleasance).
 
 - year: 1993
   title: Dramsoc Reunion
@@ -78,8 +125,21 @@
 
     Nick Frost (Farrell) said he had to leave at 10pm as he had to be in a shower with Michael Kitchen at 8am on the Sunday. Several months later ‘To Play the King’ with Ian Richardson launched on TV with Michael playing The King.
 
+- year: 1997
+  academic_year: "96_97"
+  title: Goodbye Proscenium Arch
+  description: "In the summer of 1997, cast and crew demolished the theatre's original proscenium arch stage, making way for an open studio-style space with sightlines right into the wings from anywhere in the audience."
+
+- year: 1999
+  academic_year: "98_99"
+  title: £80,000 Refurbishment
+  description: |
+    President Phil Andrews oversaw a campaign that raised £80,000 to refurbish the theatre — a very large sum at the time — with the personal support of then Vice-Chancellor Sir Colin Campbell.
+
+    Some alumni date the construction of the new foyer to this period, a little earlier than our 2001 record.
+
 - year: 2001
-  academic_year: "01_02" 
+  academic_year: "01_02"
   title: A New Foyer
   description: "Thanks to a gracious alumni donation, we were able to fund the construction of our foyer. This housed internal access to the Box Office, toilets, and bar. Its glass exterior created a fresh and open environment for all visitors."
   image:
@@ -87,7 +147,12 @@
     alt: First foyer
 
 - year: 2011
-  academic_year: "11_12" 
+  academic_year: "10_11"
+  title: Success at NSDF
+  description: "The theatre's production of Simon Stephens' *Bluebird* was invited to the National Student Drama Festival in 2011 — one of four NNT shows among the twelve performed at the festival that year, prompting a joke at the awards ceremony that it should be renamed the 'Nottingham Student Drama Festival'."
+
+- year: 2011
+  academic_year: "11_12"
   title: UNCUT
   description: "Another season of shows allows for more opportunity, and the UNCUT Season—now *Fringe*—is just that. Providing a platform for experimental, new, or more intimate theatre, this season runs parallel to the In House season. The majority of initial performances were located outside of the Theatre."
 
@@ -143,4 +208,20 @@
   academic_year: "21_22"
   title: Back to Live Theatre
   description: "After presenting two shows at the Edinburgh Fringe, Nottingham New Theatre returns to in-person live theatre after an 18 month absence. Thanks to the hard work of the Committee, the building was made a 'COVID Safe' environment for students, friends, and family to once again come together and experience the thrill of live theatre."
-  
+
+- year: 2023
+  academic_year: "22_23"
+  title: Theatre Building Closed
+  description: |
+    The theatre building closed for the summer in June 2023 and was not reopened. Years of leaks and water damage, attributed to substandard building work from the 2012 redevelopment, had led to toxic mould. Studio A had already been shut mid-year after its roof rig failed a safety check. The University did not place the building on its prioritised investment list.
+
+    Productions continued in a temporary home: a former student bar in the Portland Building, with support from Lakeside Arts.
+
+- year: 2026
+  academic_year: "25_26"
+  title: Save NNT, and the Centenary
+  description: |
+    With the building still closed, an alumni group launched the [Save NNT](https://savennt.com) campaign in March 2026, chaired by Matthew Bannister, calling on the University to fund repairs. President Charlotte Reay and campaigners met Vice-Chancellor Professor Jane Norman; coverage followed in The Times and on the BBC, with testimonials from alumni including Ruth Wilson, Theo James, Emma Barnett, and Carrie Cracknell.
+
+    Amid the campaign, the theatre marked one hundred years of student drama in Nottingham with a Centenary Gala on 13 June 2026.
+
