@@ -38,6 +38,14 @@ assets:
     image: jXFBFhh
     page: 2
 
+trivia:
+  - quote: "I have two posters of a review we staged in the New Theatre in March 1973. We took the review to the Edinburgh fringe that summer. The cast list includes Clive Tyldesly, the football commentator."
+    name: Deirdre Montanaro
+    submitted: 2012-05-21
+  - quote: "I was in the 1973 Review Group, with a production in March, which we then took to the Edinburgh Festival. I can remember Mike Fuller and Alan Harris, and a (Canadian?) girl called Beverley who played the piano, and Clive Tyldesley (later became the TV football commentator) who wrote most of the stuff, and a very pretty girl called Deirdre Springett who was reading theology... can't remember who else. There was a rather fancy green music-hall-style poster for our review performances, which I kept for a long time, but it seems to have disappeared now. At Edinburgh, we also performed something philosophically meaningful by a Polish playwright called Slawomir Mrozek (directed by Frank Ward, who I lost touch with), but it was so meaningful that I can remember neither the name of the play, nor what part I played in the proceedings."
+    name: Tim Sluckin
+    submitted: 2014-01-04
+
 ---
 
 .A revue by Nottingham Unversity.
