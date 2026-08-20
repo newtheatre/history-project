@@ -53,5 +53,10 @@ assets:
 comment: "A review of this show is available at https://www.peakestudies.com/MPR.htm and costs £4 to get hold of."
 
 prod_shots: dxHWH3
+trivia:
+  - quote: "1979 - 'The Whit to Woo' (Mervyn Peake). This was a Fringe First."
+    name: Rosemary Farrar
+    submitted: 2015-12-09
+
 ---
 

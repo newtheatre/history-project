@@ -43,4 +43,9 @@ assets:
     image: tLWL9Tg
 
 prod_shots: c7H5NP
+trivia:
+  - quote: "I couldn't find myself at first because my surname was spelt with a V rather than PH. This makes sense as the director of Popcorn, Charlie Brafman (who became and remains my best friend), misspelled it on the posters and had them all printed before noticing the mistake. I remember being really annoyed that my face was all over campus with my name misspelled. Ah, the arrogance of youth!"
+    name: Dave Stephenson
+    submitted: 2018-10-26
+
 ---

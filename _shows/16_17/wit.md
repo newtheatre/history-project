@@ -113,6 +113,11 @@ links:
     date: 2016-12-01
     quote: "This is probably one of the most powerful and emotional plays that I have seen performed at the New Theatre"
 
+trivia:
+  - quote: "I was then given a show called W;t, possibly the hardest show I have directed to date. Directing a show about a dying woman learning to come to terms with her terminal cancer through metaphysical poetry was not something I'd ever expected when I came in, a staunch comedy actor in my first year. The experience of directing that show, and the wonderful reception it received, is not something I'd ever forget."
+    name: Will Berrington
+    submitted: 2019-01-10
+
 ---
 
 Vivian Bearing, a brilliant and uncompromising professor of English Literature who has spent years specializing in the Holy Sonnets of John Donne, has been diagnosed with terminal ovarian cancer. She agrees to undergo an experimental chemotherapy treatment that, although not guaranteed to save her, will provide excellent research data for the future of oncology. Over the course of her treatment, she begins to question how she has lived her life, an uncompromising strive for knowledge and intellectual brilliance – and begins to see the importance of human connection and kindness. Professor Bearing valiantly braves all eight rounds of the chemotherapy, but is told the tumour has not been completely dispelled, and there is nothing else that can be done. Through the agony of dying from a terminal illness, she learns a lesson of compassion. 'W;t' is a poignant and humorous look at life, death, poetry, and openness.

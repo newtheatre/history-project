@@ -71,6 +71,11 @@ assets:
     title: Programme
 
 prod_shots: n3btsV
+trivia:
+  - quote: "We had a hugely successful run and appeared on BBC news review of the Fringe."
+    name: Rosemary Farrar
+    submitted: 2015-12-09
+
 ---
 
 NTG's late night review at the Edinburgh Fringe.
