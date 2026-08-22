@@ -32,7 +32,6 @@ jobs:
           python -m pip install -U nthp_api
       - name: Print version of nthp-api
         run: nthp version
-
       - name: Download SmugMug db cache
         uses: actions/cache@v6
         with:
@@ -40,18 +39,15 @@ jobs:
           key: smugmug-1
       - name: Fetch prebuilt SmugMug db if not cached
         run: wget -nc https://nthp-seed.s3.eu-west-2.amazonaws.com/nthp.smug.db
-
-      - name: Run build job
+      - name: Build the content API
         run: nthp build .
         env:
           SMUGMUG_API_KEY: ${{ secrets.SMUGMUG_API_KEY }}
-
       - name: Get deploy name
         id: deploy_vars
         run: source _bin/deploy_vars.sh
         env:
           REF_NAME: ${{ github.ref_name }}
-
       - uses: chrnorm/deployment-action@v2
         name: Create GitHub deployment
         id: create_deployment
@@ -60,10 +56,8 @@ jobs:
           environment: ${{ steps.deploy_vars.outputs.ENVIRONMENT }}
           environment-url: https://nthp-web.pages.dev/?pr=${{ steps.deploy_vars.outputs.DEPLOY_NAME }}
           initial-status: in_progress
-
       - name: Install rclone
         run: curl -fsSL https://rclone.org/install.sh | sudo bash
-
       - name: Seed PR deployment from master
         run: _bin/seed_deploy.sh
         env:
@@ -73,8 +67,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_S3_ENDPOINT: ${{ secrets.AWS_S3_ENDPOINT }}
-
-      - name: Deploy to S3
+      - name: Deploy to API bucket
         run: _bin/deploy.sh
         env:
           DEPLOY_NAME: ${{ steps.deploy_vars.outputs.DEPLOY_NAME }}
@@ -83,7 +76,6 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_S3_ENDPOINT: ${{ secrets.AWS_S3_ENDPOINT }}
-
       - uses: chrnorm/deployment-status@v2
         if: success()
         name: Update deployment status (success)
@@ -93,7 +85,6 @@ jobs:
           deployment-id: ${{ steps.create_deployment.outputs.deployment_id }}
           environment-url: https://nthp-web.pages.dev/?pr=${{ steps.deploy_vars.outputs.DEPLOY_NAME }}
           state: success
-
       - uses: chrnorm/deployment-status@v2
         if: failure()
         name: Update deployment status (failure)
