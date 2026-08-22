@@ -61,6 +61,19 @@ jobs:
           environment-url: https://nthp-web.pages.dev/?pr=${{ steps.deploy_vars.outputs.DEPLOY_NAME }}
           initial-status: in_progress
 
+      - name: Install rclone
+        run: curl -fsSL https://rclone.org/install.sh | sudo bash
+
+      - name: Seed PR deployment from master
+        run: _bin/seed_deploy.sh
+        env:
+          DEPLOY_NAME: ${{ steps.deploy_vars.outputs.DEPLOY_NAME }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_S3_ENDPOINT: ${{ secrets.AWS_S3_ENDPOINT }}
+
       - name: Deploy to S3
         run: _bin/deploy.sh
         env:
