@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-curl -L https://github.com/bep/s3deploy/releases/download/v2.11.0/s3deploy_2.11.0_linux-amd64.tar.gz -o _bin/s3deploy.tar.gz
+# DEPLOY_SOURCE defaults to dist. Point it at an empty directory to remove a deployment:
+# s3deploy deletes remote files under -path that are absent from the source.
+DEPLOY_SOURCE="${DEPLOY_SOURCE:-dist}"
+
 curl -L https://github.com/bep/s3deploy/releases/download/v2.16.0/s3deploy_2.16.0_linux-amd64.tar.gz -o _bin/s3deploy.tar.gz
 mkdir -p _bin/s3deploy
 tar -xf _bin/s3deploy.tar.gz -C _bin/s3deploy
@@ -15,8 +18,9 @@ if [[ -n "${AWS_S3_ENDPOINT:-}" ]]; then
   AWS_REGION="${AWS_REGION:-auto}"
 fi
 
-echo "Deploying to ${AWS_S3_ENDPOINT:-S3} using path: $DEPLOY_NAME"
+echo "Deploying $DEPLOY_SOURCE to ${AWS_S3_ENDPOINT:-S3} using path: $DEPLOY_NAME"
 
 _bin/s3deploy/s3deploy \
   -bucket "$AWS_S3_BUCKET" -key "$AWS_ACCESS_KEY_ID" -secret "$AWS_SECRET_ACCESS_KEY" \
-  -region "$AWS_REGION" "${endpoint_args[@]}" -config .s3deploy.yml -source dist -path "v1/$DEPLOY_NAME"
+  -region "$AWS_REGION" "${endpoint_args[@]}" -config .s3deploy.yml \
+  -source "$DEPLOY_SOURCE" -path "v1/$DEPLOY_NAME" -max-delete -1

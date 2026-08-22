@@ -1,0 +1,29 @@
+name: cleanup
+
+on:
+  pull_request:
+    types: [ closed ]
+
+jobs:
+  remove-preview:
+    name: Remove PR preview deployment
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v7
+
+      - name: Remove deployment from bucket
+        run: |
+          mkdir -p empty
+          _bin/deploy.sh
+        env:
+          DEPLOY_SOURCE: empty
+          DEPLOY_NAME: ${{ github.event.pull_request.number }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_S3_ENDPOINT: ${{ secrets.AWS_S3_ENDPOINT }}
