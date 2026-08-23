@@ -28,7 +28,7 @@ links:
     quote: "['Debris'] cleverly used symbolism and imagery [... and ...] worked best in the scenes where the audience were directly used."
 
 cast:
-  - role: Louise White
+  - name: Louise White
     person: false
 
 crew:
