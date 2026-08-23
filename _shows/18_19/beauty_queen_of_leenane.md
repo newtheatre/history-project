@@ -1,5 +1,7 @@
 ---
 title: The Beauty Queen Of Leenane
+canonical:
+  - title: The Beauty Queen of Leenane
 playwright: Martin McDonagh
 period: Autumn
 season: In House

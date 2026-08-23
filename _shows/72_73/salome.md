@@ -1,5 +1,7 @@
 ---
 title: Salomé
+canonical:
+  - title: Salome
 season: In House
 period: Autumn
 playwright: Oscar Wilde

@@ -1,5 +1,7 @@
 ---
 title: "MOJO"
+canonical:
+  - title: Mojo
 playwright: Jez Butterworth
 period: Spring
 season: External

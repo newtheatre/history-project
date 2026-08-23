@@ -1,5 +1,7 @@
 ---
 title: POSH
+canonical:
+  - title: Posh
 playwright: Laura Wade
 period: Autumn
 season: In House

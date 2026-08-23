@@ -1,5 +1,7 @@
 ---
 title: Measure For Measure
+canonical:
+  - title: Measure for Measure
 season: In House
 period: Spring
 season_sort: 150
