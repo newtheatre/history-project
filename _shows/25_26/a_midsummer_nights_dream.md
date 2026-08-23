@@ -7,6 +7,10 @@ season_sort: 140
 date_start: 2026-03-22
 date_end: 2026-03-24
 
+assets:
+  - type: poster
+    image: NwjtT4C
+
 cast:
   - role: Theseus
     name: George Day

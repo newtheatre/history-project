@@ -7,6 +7,10 @@ season_sort: 20
 date_start: 2025-11-27
 date_end: 2025-11-29
 
+assets:
+  - type: poster
+    image: W7qpbZh
+
 cast:
   - role: Actor
     name: Shanti Solomon

@@ -8,6 +8,10 @@ season_sort: 150
 date_start: 2026-03-28
 date_end: 2026-03-29
 
+assets:
+  - type: poster
+    image: tx9MrV8
+
 cast:
   - role: Zoe
     name: Rosanna Beacock

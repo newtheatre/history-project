@@ -7,6 +7,10 @@ season_sort: 130
 date_start: 2026-03-19
 date_end: 2026-03-21
 
+assets:
+  - type: poster
+    image: qWhMx4X
+
 cast:
   - role: Hamlet
     name: Jess Yerby

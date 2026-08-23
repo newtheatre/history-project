@@ -7,6 +7,10 @@ season: StuFF
 season_sort: 170
 date_start: 2026-06-11
 
+assets:
+  - type: poster
+    image: zgN6wPW
+
 cast:
   - role: Actor
     name: Ronan Hensey

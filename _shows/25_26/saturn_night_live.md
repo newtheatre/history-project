@@ -8,6 +8,10 @@ season_sort: 100
 date_start: 2026-02-26
 date_end: 2026-02-27
 
+assets:
+  - type: poster
+    image: mxDVQqN
+
 cast:
   - role: Actor
     name: Lucy Cullis

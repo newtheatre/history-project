@@ -4,9 +4,13 @@ devised: The IDOL Team
 student_written: true
 period: Spring
 season: Lakeside
-season_sort: 110
-date_start: 2026-03-06
-date_end: 2026-03-08
+season_sort: 90
+date_start: 2026-02-20
+date_end: 2026-02-21
+
+assets:
+  - type: poster
+    image: v8J5KhD
 
 cast:
   - role: The Tycoon

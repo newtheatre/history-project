@@ -7,6 +7,10 @@ season_sort: 30
 date_start: 2025-12-04
 date_end: 2025-12-06
 
+assets:
+  - type: poster
+    image: ZkwhNHR
+
 cast:
   - role: Joe Keller
     name: George Day

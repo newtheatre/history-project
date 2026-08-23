@@ -7,6 +7,10 @@ season_sort: 120
 date_start: 2026-03-12
 date_end: 2026-03-14
 
+assets:
+  - type: poster
+    image: hZQxQpz
+
 cast:
   - role: Young Woman
     name: Abbie Foster
