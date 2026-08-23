@@ -8,6 +8,10 @@ date_start: 2025-03-16
 date_end: 2025-03-18
 venue: Monica Partridge Studio
 
+assets:
+  - type: poster
+    image: wr6cCTj
+
 cast:
   - role: Ferdinand
     name: Ali Cavli

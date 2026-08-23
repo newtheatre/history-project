@@ -8,6 +8,10 @@ date_start: 2025-03-13
 date_end: 2025-03-15
 venue: Portland Studio
 
+assets:
+  - type: poster
+    image: vB24CxK
+
 cast:
   - role: Stanley
     name: Ben Adeniji

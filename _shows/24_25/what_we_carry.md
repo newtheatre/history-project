@@ -9,6 +9,10 @@ date_start: 2025-08-05
 date_end: 2025-08-10
 venue: Bedlam Theatre
 
+assets:
+  - type: poster
+    image: d9jSjVf
+
 cast:
   - role: Teddy
     name: Alex Vale

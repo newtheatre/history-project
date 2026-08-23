@@ -8,6 +8,10 @@ season_sort: 20
 date_start: 2023-11-26
 date_end: 2023-11-29
 
+assets:
+  - type: poster
+    image: mPkRhVp
+
 cast:
   - role: Canary
     name: Danté Sidhu

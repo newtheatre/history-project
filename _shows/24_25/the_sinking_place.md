@@ -9,6 +9,10 @@ date_start: 2025-03-09
 date_end: 2025-03-11
 venue: Portland CM04
 
+assets:
+  - type: poster
+    image: LfbWFm4
+
 cast:
   - role: Beck
     name: Alex Vale

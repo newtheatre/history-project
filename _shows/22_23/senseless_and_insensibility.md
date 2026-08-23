@@ -7,6 +7,10 @@ season: Creatives
 season_sort: 570
 venue: unknown
 
+assets:
+  - type: poster
+    image: 3KTRHh3
+
 crew:
   - role: Writer
     name: Abigail Kitwood

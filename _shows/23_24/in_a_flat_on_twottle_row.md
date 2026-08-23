@@ -9,6 +9,10 @@ date_start: 2024-03-21
 date_end: 2024-03-24
 venue: Studio Live
 
+assets:
+  - type: poster
+    image: b7SLtD4
+
 cast:
   - role: Kelly
     name: Layla Hassan

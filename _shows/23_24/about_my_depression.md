@@ -9,6 +9,10 @@ date_start: 2023-12-03
 date_end: 2023-12-06
 venue: Malone Atrium
 
+assets:
+  - type: poster
+    image: b9Tvs6M
+
 cast:
   - role: Skye
     name: Lara Comrie

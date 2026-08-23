@@ -8,6 +8,10 @@ date_start: 2023-12-07
 date_end: 2023-12-10
 venue: Studio Live
 
+assets:
+  - type: poster
+    image: 8NqdVpp
+
 cast:
   - role: King Lear
     name: Kayla Sibanda

@@ -8,6 +8,10 @@ date_start: 2024-03-24
 date_end: 2024-03-27
 venue: Sherwood Library
 
+assets:
+  - type: poster
+    image: nJv9DDt
+
 cast:
   - role: Elsa
     name: Charlotte Kemp

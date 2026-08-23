@@ -9,6 +9,10 @@ date_start: 2024-03-14
 date_end: 2024-03-17
 venue: Studio Live
 
+assets:
+  - type: poster
+    image: 2LbrwKR
+
 cast:
   - role: Doctor Faustus
     name: Jess Beadle-Platt

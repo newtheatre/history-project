@@ -8,6 +8,10 @@ date_start: 2023-11-30
 date_end: 2023-12-03
 venue: Studio Live
 
+assets:
+  - type: poster
+    image: R8ZwFq4
+
 cast:
   - role: Truffaldino
     name: Millie Rushworth

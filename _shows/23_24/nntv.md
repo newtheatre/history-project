@@ -9,6 +9,10 @@ date_start: 2024-02-22
 date_end: 2024-02-25
 venue: unknown
 
+assets:
+  - type: poster
+    image: 9PFP87w
+
 cast:
   - role: Actor
     name: Layla Hassan

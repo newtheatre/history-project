@@ -9,6 +9,10 @@ date_start: 2024-12-05
 date_end: 2024-12-07
 venue: Portland Studio
 
+assets:
+  - type: poster
+    image: tHfNp5L
+
 cast:
   - role: Alice
     name: Lorena Valle Alarcon

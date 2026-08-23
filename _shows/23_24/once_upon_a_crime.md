@@ -9,6 +9,10 @@ date_start: 2023-11-23
 date_end: 2023-11-26
 venue: Studio Live
 
+assets:
+  - type: poster
+    image: LvnRK5S
+
 cast:
   - role: Mummy Bear
     name: Gracie Yelland

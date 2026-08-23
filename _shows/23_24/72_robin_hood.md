@@ -7,6 +7,10 @@ date_start: 2023-11-10
 date_end: 2023-11-10
 venue: New Theatre
 
+assets:
+  - type: poster
+    image: srMtMCB
+
 cast:
   - role: Maid Marian
     name: Hareem Babar

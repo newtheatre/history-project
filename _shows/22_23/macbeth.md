@@ -6,4 +6,8 @@ period: Spring
 season: StuFF
 season_sort: 450
 venue: unknown
+
+assets:
+  - type: poster
+    image: wRptF6M
 ---

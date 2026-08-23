@@ -10,6 +10,10 @@ date_start: 2024-11-28
 date_end: 2024-11-30
 venue: Portland Studio
 
+assets:
+  - type: poster
+    image: TVd2Shz
+
 cast:
   - role: Ed
     name: Charlie Carey

@@ -9,6 +9,10 @@ date_start: 2025-07-30
 date_end: 2025-08-04
 venue: Bedlam Theatre
 
+assets:
+  - type: poster
+    image: kMmDF9n
+
 cast:
   - role: Father Thomas
     name: Tristan Ncube

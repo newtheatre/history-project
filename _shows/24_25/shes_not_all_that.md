@@ -9,6 +9,10 @@ date_start: 2025-02-20
 date_end: 2025-02-22
 venue: Portland Studio
 
+assets:
+  - type: poster
+    image: VjF2vzv
+
 cast:
   - role: Lainey (New Girl)
     name: Issy Bladen

@@ -9,6 +9,10 @@ date_start: 2025-03-23
 date_end: 2025-03-25
 venue: Portland CM04
 
+assets:
+  - type: poster
+    image: HDdnWTk
+
 cast:
   - role: Sage
     name: Esther McKenzie

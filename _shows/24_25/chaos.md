@@ -8,6 +8,10 @@ date_start: 2025-03-27
 date_end: 2025-03-29
 venue: Portland Studio
 
+assets:
+  - type: poster
+    image: kRZpLt4
+
 cast:
   - role: Aisha
     name: Maisie Jack

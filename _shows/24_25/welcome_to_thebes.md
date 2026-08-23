@@ -8,6 +8,10 @@ date_start: 2025-03-20
 date_end: 2025-03-22
 venue: Portland Studio
 
+assets:
+  - type: poster
+    image: Gx4N9Xs
+
 cast:
   - role: Eurydice
     name: Annabel Rumble
