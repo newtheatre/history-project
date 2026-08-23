@@ -1,6 +1,6 @@
 ---
 title: "Someone Who'll Watch Over Me"
-playwright: Frank McGuiness
+playwright: Frank McGuinness
 period: Spring
 season: In House
 season_sort: 220

@@ -1,6 +1,6 @@
 ---
 title: "Volpone"
-playwright: Ben Johnson
+playwright: Ben Jonson
 period: Autumn
 season: In House
 season_sort: 80

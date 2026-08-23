@@ -1,6 +1,7 @@
 ---
 title: The Trial
-playwright: Franko Figueiredo & Ines Sampaio
+playwright: Franz Kafka
+adaptor: Franko Figueiredo & Ines Sampaio
 period: Autumn
 season: External 
 season_sort: 47
