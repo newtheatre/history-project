@@ -8,7 +8,7 @@ season_sort: 10
 cast:
   - name: Brian Clark
     role: John Boy
-  - name: Anna McNeil
+  - name: Anna McNeill
     role: Fair Witch
   - name: Bobby
     note: American

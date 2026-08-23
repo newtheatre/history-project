@@ -30,7 +30,7 @@ cast:
   name: Peter Lewis
   note: later Charles VII
 - role: Duchess de la Tremouille
-  name: Anna McNeil
+  name: Anna McNeill
 - role: Dunois
   name: Neville Cruttenden
   note: Bastard of Orleans
@@ -107,6 +107,6 @@ crew:
 
 trivia:
   - quote: "Was performing in driving rain and wind - the real problem was drying the costumes. I can’t remember any source of heating."
-    name: Anna McNeil
+    name: Anna McNeill
     submitted: 2026-02-15
 ---
