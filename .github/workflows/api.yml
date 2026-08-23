@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ master ]
 
+env:
+  # Bump to discard the cached SmugMug db and re-fetch the prebuilt one
+  SMUGMUG_CACHE_VERSION: 2
+
 jobs:
   build:
     name: Build and deploy content
@@ -36,7 +40,9 @@ jobs:
         uses: actions/cache@v6
         with:
           path: nthp.smug.db
-          key: smugmug-1
+          key: smugmug-${{ env.SMUGMUG_CACHE_VERSION }}-${{ github.run_id }}
+          restore-keys: |
+            smugmug-${{ env.SMUGMUG_CACHE_VERSION }}-
       - name: Fetch prebuilt SmugMug db if not cached
         run: wget -nc https://pub-fc92a3b579fa478ea0416e594130836e.r2.dev/nthp.smug.db
       - name: Build the content API
