@@ -40,4 +40,4 @@ assets:
 
 ---
 
-.A revue by Nottingham Unversity.
+A revue by Nottingham Unversity.
