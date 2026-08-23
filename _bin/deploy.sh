@@ -16,6 +16,10 @@ endpoint_args=()
 if [[ -n "${AWS_S3_ENDPOINT:-}" ]]; then
   endpoint_args=(-endpoint-url "$AWS_S3_ENDPOINT")
   AWS_REGION="${AWS_REGION:-auto}"
+  # R2 rejects the aws-chunked streaming uploads with CRC32 trailers that the
+  # AWS SDK now sends by default, failing with SignatureDoesNotMatch.
+  export AWS_REQUEST_CHECKSUM_CALCULATION=when_required
+  export AWS_RESPONSE_CHECKSUM_VALIDATION=when_required
 fi
 
 echo "Deploying $DEPLOY_SOURCE to ${AWS_S3_ENDPOINT:-S3} using path: $DEPLOY_NAME"
