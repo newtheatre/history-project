@@ -38,7 +38,7 @@ jobs:
           path: nthp.smug.db
           key: smugmug-1
       - name: Fetch prebuilt SmugMug db if not cached
-        run: wget -nc https://nthp-seed.s3.eu-west-2.amazonaws.com/nthp.smug.db
+        run: wget -nc https://pub-fc92a3b579fa478ea0416e594130836e.r2.dev/nthp.smug.db
       - name: Build the content API
         run: nthp build .
         env:
