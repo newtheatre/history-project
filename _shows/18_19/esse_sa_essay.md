@@ -9,8 +9,7 @@ student_written: true
 period: Autumn
 season: Fringe
 season_sort: 120
-date_start: 2018-11-25
-date_end: 2018-11-27
+date_start: 2018-11-27
 venue: New Theatre Studio A
 
 cast:

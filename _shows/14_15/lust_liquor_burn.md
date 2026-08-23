@@ -5,6 +5,7 @@ period: Spring
 season: "Fringe"
 season_sort: 320
 date_start: 2015-05-04
+venue: New Theatre
 date_end: 2015-05-05
 
 cast:

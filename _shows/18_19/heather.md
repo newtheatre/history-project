@@ -8,8 +8,8 @@ playwright: Thomas Eccleshare
 period: Autumn
 season: Fringe
 season_sort: 70
-date_start: 2018-11-11
-date_end: 2018-11-12
+date_start: 2018-11-12
+date_end: 2018-11-13
 venue: New Theatre Studio A
 
 

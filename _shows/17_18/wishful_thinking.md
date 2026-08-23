@@ -5,7 +5,7 @@ period: Spring
 student_written: true
 season: Unscripted
 season_sort: 180
-date_start: 2018-02-05
+date_start: 2018-02-06
 date_end: 2018-02-07
 venue: New Theatre
 

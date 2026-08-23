@@ -5,7 +5,7 @@ period: Autumn
 season: Unscripted
 season_sort: 43
 date_start: 2019-11-07
-date_end: 2019-11-07
+date_end: 2019-11-08
 venue: New Theatre
 
 cast:

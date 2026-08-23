@@ -4,7 +4,7 @@ playwright: Emma White
 season: StuFF
 season_sort: 500
 period: Spring
-venue: New Theatre
+venue: New Theatre Studio A
 date_start: 2018-06-17
 student_written: true 
 

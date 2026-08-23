@@ -5,7 +5,7 @@ period: Spring
 season: Fringe
 season_sort: 280
 date_start: 2020-03-16
-date_end: 2020-03-16
+date_end: 2020-03-17
 venue: New Theatre Studio A
 student_written: true 
 

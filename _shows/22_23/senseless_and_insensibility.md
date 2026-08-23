@@ -5,7 +5,9 @@ student_written: true
 period: Spring
 season: Creatives
 season_sort: 570
-venue: unknown
+venue: New Theatre
+date_start: 2023-06-10
+date_end: 2023-06-11
 
 assets:
   - type: poster

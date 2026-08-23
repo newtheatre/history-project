@@ -6,7 +6,7 @@ period: Autumn
 season: In House
 season_sort: 70
 date_start: 2017-11-15
-date_end: 2017-11-19
+date_end: 2017-11-18
 venue: New Theatre
 
 cast:

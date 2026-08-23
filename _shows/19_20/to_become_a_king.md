@@ -5,7 +5,7 @@ period: Autumn
 season: Fringe
 season_sort: 70
 date_start: 2019-11-24
-date_end: 2019-11-25
+date_end: 2019-11-26
 venue: New Theatre Studio A
 student_written: true 
 

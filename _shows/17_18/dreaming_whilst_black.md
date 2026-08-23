@@ -5,7 +5,7 @@ season: StuFF
 season_sort: 450
 period: Spring
 venue: New Theatre
-date_start: 2018-06-16
+date_start: 2018-06-17
 company: 4 Quarter Films
 
 cast: 

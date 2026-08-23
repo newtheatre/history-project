@@ -5,7 +5,7 @@ student_written: true
 season: StuFF
 season_sort: 410
 period: Spring
-venue: New Theatre
+venue: New Theatre Studio A
 date_start: 2018-06-16
 
 cast:

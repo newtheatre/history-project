@@ -6,7 +6,7 @@ period: Spring
 season: StuFF
 season_sort: 160
 date_start: 2024-06-11
-venue: unknown
+venue: Studio Live
 
 crew:
   - role: Director

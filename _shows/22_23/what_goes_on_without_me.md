@@ -5,7 +5,8 @@ student_written: true
 period: Spring
 season: StuFF
 season_sort: 500
-venue: unknown
+venue: New Theatre
+date_start: 2023-06-10
 
 assets:
   - type: poster
