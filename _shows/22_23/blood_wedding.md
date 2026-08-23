@@ -1,6 +1,6 @@
 ---
 title: Blood Wedding
-playwright: Federico Garcia Lorca
+playwright: Federico García Lorca
 student_written: false
 period: Autumn
 season: In House
