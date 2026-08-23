@@ -4,8 +4,7 @@ submitted: false
 headshot: 7hJ63mT
 graduated: 1967
 pre_nominal: Baron
-alias:
-  - The Lord Hollick
+alias: The Lord Hollick
 course:
   - Politics, Psychology and Sociology
 careers:
