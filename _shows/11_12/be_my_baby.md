@@ -4,7 +4,6 @@ playwright: Amanda Whittington
 season: In House
 season_sort: 50
 period: Autumn
-categories: "11-12"
 venue: New Theatre
 date_start: 2011-10-26
 date_end: 2011-10-29

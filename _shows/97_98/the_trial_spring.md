@@ -1,6 +1,6 @@
 ---
 title: The Trial
-playright: Franz Kafka
+playwright: Franz Kafka
 season: In House
 period: Spring
 season_sort: 250
@@ -12,4 +12,3 @@ crew:
  - role: Director
    name: Will Abell
 ---
-

@@ -12,5 +12,3 @@ graduated: 1991
 contact_allowed: true
 
 --- 
-
-<!-- Content for a bio here --> 

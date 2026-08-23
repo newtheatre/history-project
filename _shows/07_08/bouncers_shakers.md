@@ -11,7 +11,7 @@ canonical:
   - title: Bouncers
     playwright: John Godber
   - title: Shakers
-    name: Jane Thornton
+    playwright: Jane Thornton
 
 crew:
   - role: Director

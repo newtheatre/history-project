@@ -7,7 +7,7 @@ season_sort: 70
 period: Autumn
 venue: New Theatre
 date_start: 2012-11-28
-date_end: 2012-11-01
+date_end: 2012-12-01
 cast:
   - role: Winston Smith
     name: Ben Hollands

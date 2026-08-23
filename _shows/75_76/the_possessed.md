@@ -1,7 +1,7 @@
 ---
 title: The Possessed
 playwright: Dostoevsky
-traslator: Albert Camus
+adaptor: Albert Camus
 period: Autumn
 season: In House
 season_sort: 50

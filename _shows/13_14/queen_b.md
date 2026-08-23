@@ -19,8 +19,6 @@ cast:
 crew:
   - role: Director
     name: Ben Williamson
-  - role: Playwright
-    name: Ben Williamson
   - role: Producer
     name: Nick Davies
   - role: Lighting Designer

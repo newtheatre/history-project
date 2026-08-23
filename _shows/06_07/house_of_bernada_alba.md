@@ -6,7 +6,7 @@ season: In House
 season_sort: 270
 venue: New Theatre
 date_start: 2007-03-20
-date_end: 2007-03-13
+date_end: 2007-03-24
 
 assets:
   - type: poster

@@ -1,5 +1,8 @@
 ---
 title: Sweet Venues
 city: Edinburgh
-website: https://sweetvenues.com/venues
+links:
+  - type: default
+    title: Sweet Venues
+    href: https://sweetvenues.com/venues
 ---

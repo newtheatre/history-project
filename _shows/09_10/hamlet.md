@@ -1,7 +1,7 @@
 ---
 title: Hamlet
 playwright: William Shakespeare
-adapted: Dan Rae-Scott
+adaptor: Dan Rae-Scott
 season: In House
 season_sort: 100
 period: Autumn

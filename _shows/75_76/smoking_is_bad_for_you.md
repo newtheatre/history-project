@@ -1,7 +1,7 @@
 ---
 title: Smoking is Bad for You
 playwright: Anton Chekhov
-start_date: 1975-08-01
+date_start: 1976-08
 comment: Start date approximate 
 season: Edinburgh
 period: Spring

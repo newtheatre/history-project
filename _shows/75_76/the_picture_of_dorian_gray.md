@@ -3,7 +3,7 @@ title: The Picture of Dorian Gray
 period: Edinburgh
 season: Edinburgh
 playwright: Oscar Wilde
-adapted: Peter Rushton
+adaptor: Peter Rushton
 season_sort: 400
 venue: Broughton High School
 date_start: 1976-08-23
@@ -62,4 +62,3 @@ crew:
   name: Joe Bicarregi
 
 ---
-

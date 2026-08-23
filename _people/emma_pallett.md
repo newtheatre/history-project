@@ -6,7 +6,7 @@ course:
 graduated: 2019
 gender: female
 submitted: 2023-11-14
-Careers:
+careers:
   - Actor
   - Playwright
   - Screenwriter
