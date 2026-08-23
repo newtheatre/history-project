@@ -9,10 +9,10 @@ date_end: 2014-12-06
 venue: New Theatre
 
 tour:
-- venue: NSDF 2015
-- date_start:
-- date_end:
-- notes: Won The Festgoers Award
+  - venue: NSDF 2015
+    date_start: 2015-03-28
+    date_end: 2015-04-03
+    note: Won The Festgoers Award
 
 cast:
   - role: Gorge Mastromas

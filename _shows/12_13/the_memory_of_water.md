@@ -9,10 +9,10 @@ date_start: 2012-11-07
 date_end: 2012-11-10
 
 tour:
-- venue: NSDF 2013
-- date_start:
-- date_end:
-- notes: Acting Commendation  |  Rosanna Stoker for Mary in The Memory Of Water
+  - venue: NSDF 2013
+    date_start: 2013-03-23
+    date_end: 2013-03-29
+    note: Acting Commendation  |  Rosanna Stoker for Mary in The Memory Of Water
 
 
 cast:
@@ -57,6 +57,12 @@ assets:
 prod_shots: pkW8Vv
 
 links:
+  - type: Article
+    href: https://www.nottingham.ac.uk/news/pressreleases/2013/march/university-of-nottingham-students-steal-the-show.aspx
+    publisher: University of Nottingham
+    author: Harry Waddle
+    title: University of Nottingham students steal the show
+    date: 2013-03-19
   - type: Review
     href: https://impactnottingham.com/2012/11/the-memory-of-water-nottingham-new-theatre/
     snapshot: vzAYZ

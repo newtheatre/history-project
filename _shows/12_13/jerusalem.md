@@ -10,10 +10,10 @@ date_end: 2012-12-08
 
 
 tour:
-- venue: NSDF 2013
-- date_start:
-- date_end:
-- notes: Buzz Goodbody Student Director’s Award  |  Peter Bradley For Jerusalem, Acting (Supporting Role)  |  Jake Leonard for Wesley in Jerusalem, Acting (Company)  |  Jerusalem, Design  |  Jessica Courtney for Jerusalem
+  - venue: NSDF 2013
+    date_start: 2013-03-23
+    date_end: 2013-03-29
+    note: Buzz Goodbody Student Director’s Award  |  Peter Bradley For Jerusalem, Acting (Supporting Role)  |  Jake Leonard for Wesley in Jerusalem, Acting (Company)  |  Jerusalem, Design  |  Jessica Courtney for Jerusalem
 
 cast:
   - role: Johnny 'Rooster' Byron
@@ -92,6 +92,12 @@ assets:
     image: dwKDjG7
 
 links:
+  - type: Article
+    href: https://www.nottingham.ac.uk/news/pressreleases/2013/march/university-of-nottingham-students-steal-the-show.aspx
+    publisher: University of Nottingham
+    author: Harry Waddle
+    title: University of Nottingham students steal the show
+    date: 2013-03-19
   - type: Review
     href: https://impactnottingham.com/2012/12/jerusalem-nottingham-new-theatre/
     snapshot: TJMlc
