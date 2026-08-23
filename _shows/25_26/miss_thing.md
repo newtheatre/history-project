@@ -9,6 +9,10 @@ date_start: 2026-08-24
 date_end: 2026-08-29
 venue: "theSpace @ Surgeons' Hall"
 
+assets:
+  - type: poster
+    image: RCSFr4h
+
 cast:
   - role: Carmen
     name: Jess Yerby
