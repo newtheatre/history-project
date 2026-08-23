@@ -18,10 +18,6 @@ cast:
   name: William Morgan
 
 crew:
-- role: Playwright 
-  name: Abraham Botha
-- role: Playwright
-  name: Ella Seber-Rajan
 - role: Co-Director
   name: Demi Idowu
 - role: Co-Director
