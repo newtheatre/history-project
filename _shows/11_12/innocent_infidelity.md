@@ -18,7 +18,7 @@ cast:
   - role: Julia Oagood
     name: Alice Ratcliffe
   - role: Hilary Thornston Blaze
-    name: Eve Wersocki-Morris
+    name: Eve Wersocki Morris
   - role: Mel Morgan
     name: Lyle Fulton
 

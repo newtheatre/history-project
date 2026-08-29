@@ -20,7 +20,7 @@ cast:
   - role: Actor
     name: Matt Miller
   - role: Actor
-    name: 'Eve Wersocki-Morris'
+    name: 'Eve Wersocki Morris'
   - role: Actor
     name: Tom Sheldon
   - role: Children's Author

@@ -18,7 +18,7 @@ cast:
 
 crew:
   - role: Director
-    name: Eve Wersocki-Morris
+    name: Eve Wersocki Morris
   - role: Producer
     name: James Gregory
   - role: Publicity Manager
