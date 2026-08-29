@@ -1,7 +1,6 @@
 ---
 title: The Governor's Lady
 playwright: David Mercer
-student_written: true
 season: In House
 period: Spring
 venue: New Theatre
@@ -26,7 +25,6 @@ cast:
 crew:
 - role: Director
   name: David Walker
-
 ---
 
 An anti-colonialism satire, set in Africa in the 1950s.

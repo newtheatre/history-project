@@ -1,7 +1,6 @@
 ---
 title: The Woman Who Cooked Her Husband
 playwright: Debbie Isitt
-student_written: true
 season: UNCUT
 season_sort: 86
 period: Autumn
