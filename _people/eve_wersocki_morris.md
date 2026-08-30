@@ -12,7 +12,7 @@ links:
   - type: Personal Website
     href: "https://www.evewersockimorris.co.uk"
   - type: Instagram
-    href: "https://www.instagram.com/eve_wersocki/"
+    username: eve_wersocki
 ---
 
 Eve acted in *Tread Softly* and *Innocent Infidelity* in her first year before turning to writing and directing. She wrote and directed *Accidental Loss of a Baby* for the 2012 UNCUT season, went on to direct *The Woman Who Cooked Her Husband* and *Little Red*, reviewed for the theatre, and stage managed the 2014 external production of *Krapp's Last Tape*.
