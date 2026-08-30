@@ -24,6 +24,8 @@ cast:
     name: Rory Long
   - role: Lecturer 1
     name: Kareena Cooper
+  - role: Ruth
+    name: Hannah Pears
 
 crew:
   - role: Director
@@ -32,12 +34,12 @@ crew:
     name: Sofia Chue
   - role: Writer
     name: Holly Howell
-  - role: Show Assistant
+  - role: Costume Designer
     name: Alice Loker
-  - role: Publicity Manager
+  - role: Show Assistant
     name: Hugh Cowles
-  - role: Costume and Props Manager
-    name: Becca Ridgers
+  - role: Marketing Director
+    name: Rebecca Ridgers
   - role: Technical Director
     name: Kalista Vordos
   - role: Assistant Producer
