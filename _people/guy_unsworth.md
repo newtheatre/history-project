@@ -14,6 +14,7 @@ links:
     href: "https://cvhmanagement.com/creative/guy-unsworth/"
   - type: Article
     title: Merchant Taylors' careers profile
+    publisher: Merchant Taylors' School
     href: "https://www.merchanttaylors.com/careers/guy-unsworth-2005-leaver-theatre-director/"
 ---
 
