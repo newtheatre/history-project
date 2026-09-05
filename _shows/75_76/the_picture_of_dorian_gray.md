@@ -61,4 +61,9 @@ crew:
 - role: Stage Management
   name: Joe Bicarregi
 
+trivia:
+  - quote: "I see that you have loads of my art work (posters) on display in the foyer of the New Theatre. Look for the little jTj monogram on, for example, the poster of the picture of Dorian Gray and on the poster of Journey’s End."
+    name: John Thewlis
+    submitted: 2013-11-21
+
 ---

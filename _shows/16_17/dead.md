@@ -16,6 +16,9 @@ trivia:
   - quote: The director, TD and I staying until 2am three nights running to absolutely nail the follow-time on some lighting cues to be on the beat has never been so worth it... Until we discovered timecode the next week.
     name: Sam Osborne
     submitted: 2019-06-25
+  - quote: "In DEAD the Musical I ran onstage a chorus early and had to do the entire dance routine alone before leaving in great shame (and fits of laughter)."
+    name: Emma Pallett
+    submitted: 2023-11-14
 
 cast:
 - role: George

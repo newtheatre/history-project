@@ -43,6 +43,11 @@ links:
     title: "From the sublime to the absurd: Absurd Person Singular at New Theatre"
     date: 2006-12-14
     quote: "Ayckbourn’s uncannily sharp eye for the ridiculous in the banal and dark social comment give this play its depth, but it’s perhaps its silliness and essential humanity which is key to its likeability. While many of its themes are dark, overall the feeling seemed to be that this was a very merry Christmas play…"
+trivia:
+  - quote: "I directed this play and Sam Turnbull produced it! And some useful trivia is that it had Theo Taptiklis (now of Divergent fame) in it- as well as Peter Day, MaryAnn O'Brien, and Henry Proffitt."
+    name: Elle Hosie
+    submitted: 2017-12-29
+
 ---
 
 Three Christmases. Three kitchens. Three couples. A 'tragi-comedy' focusing on the importance of an outwardly appearing happy marriage in the 1970s, conveyed through behind-the-scenes disasters at Christmas parties. A charcter based cast including a multitude of emotions but if nothing else, laughter.

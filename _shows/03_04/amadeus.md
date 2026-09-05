@@ -94,4 +94,9 @@ assets:
     image: z6K5D5n
 
 published: true
+trivia:
+  - quote: "People involved in the New Theatre certainly knew how to throw a party and have a good time after a show; but at one rehearsal for Amadeus it all became too much and Henry and I got in trouble with Jen for smoking in the lighting box. Certainly wouldn't be allowed now (not that it was then, either)."
+    name: Chris Brammeld
+    submitted: 2016-02-19
+
 ---

@@ -57,4 +57,9 @@ crew:
   - role: General Assistant
     name: Martin Davis
 
+trivia:
+  - quote: "An early production was a Victorian melodrama called, I think, Love rides the rails, or will the Mail train run tonight. The audience were invited to hiss, boo, or cheer the villain or hero, and to throw peanuts at the villain. After each performance, we would sweep up the peanuts, repack them in small paper bags and sell for the following performance. That was fund raising at a creative level!"
+    name: John Figgures
+    submitted: 2013-12-01
+
 ---

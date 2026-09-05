@@ -105,6 +105,9 @@ trivia:
   - quote: By accident more than design, the gap in the hob happened to be just the exact size for the hazer to sit perfectly.
     name: Sam Osborne
     submitted: 2019-06-25
+  - quote: "On my first show 'The Beauty Queen of Leenane', I accidentally signed up to be the producer and BOY it was a baptism of fire! I did not leave our get-in until 5am because we were putting down wooden floorboards on the stage and it is infamous as one of the worst get-ins EVER. I did meet my boyfriend of 3 years now on this show though so swings and roundabouts!"
+    name: Alice Walker
+    submitted: 2024-05-30
 
 ---
 
