@@ -40,4 +40,13 @@ crew:
   - role: Designer
     name: Jenny Lapage
 
+trivia:
+  - quote: "I have a very hazy recollection of coming from the end of exams staff party to a rehearsal when they had just built the witness box without reference to my height. I was well pissed by then and only the top of my head was visible as I garbled my lines inside it."
+    name: Vanessa Martin
+    submitted: 2026-06-13
+  - quote: "The poster for One Way Pendulum says it was held in the DramSoc Union Theatre – the name Nottingham New Theatre must have come later. At a DramSoc reunion in 2006, some of the original cast performed a short extract from the play, edited and produced by Peter Cox."
+    name: Patrick McNeill
+    submitted: 2026-06-13
+
+comment: "Patrick McNeill's 2026 centenary gala speech recalls Peter Cox directing, and names John Dane in the cast; our record has Roger Lancaster as director and Peter Cox as Arthur Groomkirby."
 ---
