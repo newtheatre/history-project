@@ -33,10 +33,15 @@ cast:
     name: Graham Crowden
   - role: Defending Counsel
     name: Graham Armitage
+  - role: unknown
+    name: John Dane
 
 crew:
   - role: Director
+    name: Peter Cox
+  - role: unknown
     name: Roger Lancaster
+    note: Credited as director in an earlier record
   - role: Designer
     name: Jenny Lapage
 
@@ -48,5 +53,5 @@ trivia:
     name: Patrick McNeill
     submitted: 2026-06-13
 
-comment: "Patrick McNeill's 2026 centenary gala speech recalls Peter Cox directing, and names John Dane in the cast; our record has Roger Lancaster as director and Peter Cox as Arthur Groomkirby."
+comment: "Director and John Dane's casting per Patrick McNeill's 2026 centenary gala speech; an earlier record credited Roger Lancaster as director, retained here with an unknown role."
 ---
