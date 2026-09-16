@@ -4,11 +4,15 @@ module Jekyll
 
     def show_iterator(show)
       if show.data["season"]
-        # Special case, UNCUT/Fringe being the same thing
+        # Special case, UNCUT/Fringe/Studio being the same thing
         if show.data["season"] == "UNCUT"
-          season_corrected = "Studio"
+          season_corrected = "Independent"
         elsif show.data["season"] == "Fringe"
-          season_corrected = "Studio"
+          season_corrected = "Independent"
+        elsif show.data["season"] == "Studio"
+          season_corrected = "Independent"
+        elsif show.data["season"] == "Independent"
+          season_corrected = "Independent"
         elsif show.data["season"] == "Unscripted"
           season_corrected = "Creatives"
         else
